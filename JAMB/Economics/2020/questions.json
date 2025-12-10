@@ -1,0 +1,721 @@
+[
+    {
+        "id": "JAMB_Economics_2020_1",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "1",
+        "question": "Scarcity in economics means?",
+        "options": {
+            "A": "\n\n            human wants are limitless\n",
+            "B": "\n\n            the economy has very few resources\n",
+            "C": "\n\n            the economy can scarcely produce anything\n",
+            "D": "\n\n            resources are limited in relation to wants\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_2",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "2",
+        "question": "Economics is often described as a social science because?",
+        "options": {
+            "A": "\n\n            laboratory experiments are performed\n",
+            "B": "\n\n            It makes use of controlled experiments\n",
+            "C": "\n\n            It uses scientific methods to explain an observed phenomenon and predict future events\n",
+            "D": "\n\n            It makes use of fieldwork\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_3",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "3",
+        "question": "Which of the following is an example of an invisible item on the balance of payments account",
+        "options": {
+            "A": "\n\n            shipping and aviation\n",
+            "B": "\n\n            exports and imports\n",
+            "C": "\n\n            merchandise\n",
+            "D": "\n\n            Bullion\n"
+        },
+        "correct_answer": "A",
+        "topic": "International Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_4",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "4",
+        "question": "A major factor affecting the value of money is the?",
+        "options": {
+            "A": "\n\n            price level\n",
+            "B": "\n\n            banking habits\n",
+            "C": "\n\n            transaction motive\n",
+            "D": "\n\n            divisible nature of money\n"
+        },
+        "correct_answer": "A",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_5",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "5",
+        "question": "The Nigerian bank for commerce and industry is?",
+        "options": {
+            "A": "\n\n            a commercial bank\n",
+            "B": "\n\n            a development bank\n",
+            "C": "\n\n            an industrial bank\n",
+            "D": "\n\n            a merchant bank\n"
+        },
+        "correct_answer": "B",
+        "topic": "Banking",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_6",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "6",
+        "question": "To control inflation, the monetary authorities of a country can",
+        "options": {
+            "A": "\n\n            reduce taxes\n",
+            "B": "\n\n            advise the government to increase its expenditure\n",
+            "C": "\n\n            engage in expansive monetary policies\n",
+            "D": "\n\n            engage in restrictive monetary policies\n"
+        },
+        "correct_answer": "D",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_7",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "7",
+        "question": "Which of the following is used by the central bank to control the rate of interest",
+        "options": {
+            "A": "\n\n            bill of exchange\n",
+            "B": "\n\n            banker's order\n",
+            "C": "\n\n            fixed deposit account\n",
+            "D": "\n\n            open market operation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Banking",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_8",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "8",
+        "question": "What form of market is found in an imperfect competition where there are few buyers and many sellers",
+        "options": {
+            "A": "\n\n            monopoly\n",
+            "B": "\n\n            oligopoly\n",
+            "C": "\n\n            duopoly\n",
+            "D": "\n\n            oligopsony\n"
+        },
+        "correct_answer": "D",
+        "topic": "Market Structures",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_9",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "9",
+        "question": "A budget with a projected revenue in excess of its expenditure is said to be?",
+        "options": {
+            "A": "\n\n            balanced\n",
+            "B": "\n\n            surplus\n",
+            "C": "\n\n            deficit\n",
+            "D": "\n\n            inflationary\n"
+        },
+        "correct_answer": "B",
+        "topic": "Public Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_10",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "10",
+        "question": "In order to raise more revenue for a certain period, the government should impose higher taxes on goods whose demand",
+        "options": {
+            "A": "\n\n            elastic\n",
+            "B": "\n\n            inelastic\n",
+            "C": "\n\n            perfectly elastic\n",
+            "D": "\n\n            unitary elastic\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_11",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "11",
+        "question": "If aggregate income is N500.00 and aggregate consumption is N400.00, this means that the average propensity to consume is?",
+        "options": {
+            "A": "\n\n            0.20\n",
+            "B": "\n\n            0.80\n",
+            "C": "\n\n            1.25\n",
+            "D": "\n\n            2.00\n"
+        },
+        "correct_answer": "B",
+        "topic": "National Income",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_12",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "12",
+        "question": "The group of unemployed members of a community who are physically handicapped or disable, is generally classified under unemployment as?",
+        "options": {
+            "A": "\n\n            frictional\n",
+            "B": "\n\n            cyclical\n",
+            "C": "\n\n            residual\n",
+            "D": "\n\n            hidden\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_13",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "13",
+        "question": "Collectivism refers to the management of state enterprises in a?",
+        "options": {
+            "A": "\n\n            mixed economy\n",
+            "B": "\n\n            co-operative organizations\n",
+            "C": "\n\n            capitalist economic system\n",
+            "D": "\n\n            socialist economy\n"
+        },
+        "correct_answer": "D",
+        "topic": "Economic Systems",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_14",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "14",
+        "question": "Efficiency in production means?",
+        "options": {
+            "A": "\n\n            reducing the size of the work force\n",
+            "B": "\n\n            producing a given output with the lowest cost of combination of factors of production\n",
+            "C": "\n\n            adoption of capital intensive technology\n",
+            "D": "\n\n            increasing the quantity of the fixed factors of production\n"
+        },
+        "correct_answer": "B",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_15",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "15",
+        "question": "In economic life, the choice among alternatives depends on the?",
+        "options": {
+            "A": "\n\n            income of the decision maker\n",
+            "B": "\n\n            scarcity of resources\n",
+            "C": "\n\n            the scale of preference of the decision-maker\n",
+            "D": "\n\n            status of the decison maker\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_16",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "16",
+        "question": "The law of diminishing marginal utility indicates that if a consumer increases his consumption of a commodity continously",
+        "options": {
+            "A": "\n\n            total utility must fall\n",
+            "B": "\n\n            marginal utility must fall\n",
+            "C": "\n\n            marginal utility may rise\n",
+            "D": "\n\n            marginal utility may fall even though his total utility may be rising\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_17",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "17",
+        "question": "Which of the following rewards is associated with entrepreneurship",
+        "options": {
+            "A": "\n\n            salaries\n",
+            "B": "\n\n            profits\n",
+            "C": "\n\n            interest\n",
+            "D": "\n\n            rent\n"
+        },
+        "correct_answer": "B",
+        "topic": "Banking",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_18",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "18",
+        "question": "Which of the following is likely to be inflationary",
+        "options": {
+            "A": "\n\n            taxes increase\n",
+            "B": "\n\n            increase in unemployment\n",
+            "C": "\n\n            budget surplus\n",
+            "D": "\n\n            wages increase\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_19",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "19",
+        "question": "The relationship between the tax rate and income which is relevant to progressive tax is shown by?",
+        "options": {
+            "A": "\n\n            curve X\n",
+            "B": "\n\n            curve Y\n",
+            "C": "\n\n            curve Z\n",
+            "D": "\n\n            curve X and Z\n"
+        },
+        "correct_answer": "B",
+        "topic": "Public Finance",
+        "image": "images/JAMB_Economics_2020_19.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_20",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "20",
+        "question": "The relationship between tax rate and income which is relevant to a proportional tax is depicted by?",
+        "options": {
+            "A": "\n\n            curve Z and Y\n",
+            "B": "\n\n            curve X\n",
+            "C": "\n\n            curve Z\n",
+            "D": "\n\n            curve Y\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Finance",
+        "image": "images/JAMB_Economics_2020_20.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_21",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "21",
+        "question": "Fiduciary issue is that part of?",
+        "options": {
+            "A": "\n\n            the issue of notes backed entirely by gold\n",
+            "B": "\n\n            a country's currency that is not negotiable\n",
+            "C": "\n\n            the issue of notes not backed by gold\n",
+            "D": "\n\n            a country's currency officially issued\n"
+        },
+        "correct_answer": "C",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_22",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "22",
+        "question": "The type of business finances that entitles the holder to a fixed rate of dividend is?",
+        "options": {
+            "A": "\n\n            preference stock\n",
+            "B": "\n\n            common stock\n",
+            "C": "\n\n            debentures\n",
+            "D": "\n\n            bank loan\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_23",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "23",
+        "question": "A company's expenditure on raw materials is regarded as?",
+        "options": {
+            "A": "\n\n            explicit cost\n",
+            "B": "\n\n            implicit cost\n",
+            "C": "\n\n            prime cost\n",
+            "D": "\n\n            average cost\n"
+        },
+        "correct_answer": "A",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_24",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "24",
+        "question": "Firms are often set up close to each other in order to take advantage of?",
+        "options": {
+            "A": "\n\n            supply of skilled labour\n",
+            "B": "\n\n            agglomeration economies\n",
+            "C": "\n\n            internal economies of scale\n",
+            "D": "\n\n            external economies of scale\n"
+        },
+        "correct_answer": "D",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_25",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "25",
+        "question": "A situation in which a commodity is sold abroad below its cost of production in the home country is known as?",
+        "options": {
+            "A": "\n\n            dumping\n",
+            "B": "\n\n            counter trade\n",
+            "C": "\n\n            trade liberalization\n"
+        },
+        "correct_answer": "A",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_26",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "26",
+        "question": "The problem of conducting census include",
+        "options": {
+            "A": "\n\n            high rate of rural-urban migration\n",
+            "B": "\n\n            poor geographical distribution of population\n",
+            "C": "\n\n            high birth rate in the country\n",
+            "D": "\n\n            poor town planning in urban areas\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_27",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "27",
+        "question": "The factor of production that has the highest degree of mobility is?",
+        "options": {
+            "A": "\n\n            land\n",
+            "B": "\n\n            labour\n",
+            "C": "\n\n            capital\n",
+            "D": "\n\n            entrepreneur\n"
+        },
+        "correct_answer": "B",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_28",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "28",
+        "question": "In recent times, agriculture in Nigeria tends to lose its vital labour force as a result of?",
+        "options": {
+            "A": "\n\n            lack of an effective agricultural policy\n",
+            "B": "\n\n            employment opportunities in the agricultural sector\n",
+            "C": "\n\n            rural-urban drift\n",
+            "D": "\n\n            low prices of agricultural products\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_29",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "29",
+        "question": "The most important goal of OPEC is to?",
+        "options": {
+            "A": "\n\n            present a united front for the purpose of raise prices of crude oil\n",
+            "B": "\n\n            bring unity among the petroleum exporting countries\n",
+            "C": "\n\n            ensure political stability among member states\n",
+            "D": "\n\n            ensure that rules on quota production are strictly followed\n"
+        },
+        "correct_answer": "D",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_30",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "30",
+        "question": "Plywood industries are often located near the source of?",
+        "options": {
+            "A": "\n\n            finance\n",
+            "B": "\n\n            labour\n",
+            "C": "\n\n            power supply\n",
+            "D": "\n\n            raw materials\n"
+        },
+        "correct_answer": "D",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_31",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "31",
+        "question": "When a country's population is experiencing increasing returns, that country is said to be?",
+        "options": {
+            "A": "\n\n            overpopulated\n",
+            "B": "\n\n            economically poor\n",
+            "C": "\n\n            over-producing goods and services\n",
+            "D": "\n\n            under-populated\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_32",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "32",
+        "question": "The most important attribute of money is?",
+        "options": {
+            "A": "\n\n            homogeneity\n",
+            "B": "\n\n            relative scarcity\n",
+            "C": "\n\n            divisibility\n",
+            "D": "\n\n            general acceptance\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_33",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "33",
+        "question": "The use of legally permissible means to reduce tax liabilities is known as tax?",
+        "options": {
+            "A": "\n\n            evasion\n",
+            "B": "\n\n            avoidance\n",
+            "C": "\n\n            relief\n",
+            "D": "\n\n            exemption\n"
+        },
+        "correct_answer": "C",
+        "topic": "Public Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_34",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "34",
+        "question": "The Economic Commission for Africa was set up by the?",
+        "options": {
+            "A": "\n\n            UNO\n",
+            "B": "\n\n            ECOWAS\n",
+            "C": "\n\n            OAU\n",
+            "D": "\n\n            IMF\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_35",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "35",
+        "question": "One of the techniques of monetary control used by the central bank of Nigeria is",
+        "options": {
+            "A": "\n\n            selective credit control\n",
+            "B": "\n\n            budget deficit\n",
+            "C": "\n\n            foreign exchange control\n",
+            "D": "\n\n            monitoring the general price level\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_36",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "36",
+        "question": "Crude petroleum is a good example of a",
+        "options": {
+            "A": "\n\n            lasting asset\n",
+            "B": "\n\n            wasting asset\n",
+            "C": "\n\n            synthetic product\n",
+            "D": "\n\n            costless resources\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_37",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "37",
+        "question": "A major effect of a long distribution chain is",
+        "options": {
+            "A": "\n\n            scarcity of commodities\n",
+            "B": "\n\n            high retail\n",
+            "C": "\n\n            low retails prices\n",
+            "D": "\n\n            low producer earnings\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_38",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "38",
+        "question": "One of the major criticism of the 1962 -1968 National Development Plan was that?",
+        "options": {
+            "A": "\n\n            it failed to incorporate lessons gained from earlier plans to enhance its efficiency\n",
+            "B": "\n\n            it came too quickly after the country's independence\n",
+            "C": "\n\n            planned expenditure was based too heavily on expected earnings from crude oil\n",
+            "D": "\n\n            its execution was based largely on foregn-sourced financial resources\n"
+        },
+        "correct_answer": "A",
+        "topic": "National Income",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_39",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "39",
+        "question": "Utility is the satisfaction derived from?",
+        "options": {
+            "A": "\n\n            production\n",
+            "B": "\n\n            distribution\n",
+            "C": "\n\n            consumption\n",
+            "D": "\n\n            demand\n"
+        },
+        "correct_answer": "C",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2020_40",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2020,
+        "number": "40",
+        "question": "Economic growth is different from economic development because economic growth",
+        "options": {
+            "A": "\n\n            describes expansion and changes\n",
+            "B": "\n\n            is measurable but not objective\n",
+            "C": "\n\n            describes expansion and not change\n",
+            "D": "\n\n            is not measurable but objective\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

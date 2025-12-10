@@ -1,0 +1,2505 @@
+[
+    {
+        "id": "JAMB_English_2021_1",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "1",
+        "question": "What is Ummi's Occupation?",
+        "options": {
+            "A": "\n\n            Nurse\n",
+            "B": "\n\n            Teacher\n",
+            "C": "\n\n            Businessperson\n",
+            "D": "\n\n            Accountant\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_2",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "2",
+        "question": "Who can be described as meddlesome?",
+        "options": {
+            "A": "\n\n            Daddy\n",
+            "B": "\n\n            Ummi\n",
+            "C": "\n\n            Bint\n",
+            "D": "\n\n            Mallam Salihu\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_3",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "3",
+        "question": "''Just call yourself Omar Esquire\" Who makes this statement?",
+        "options": {
+            "A": "\n\n            Teemah\n",
+            "B": "\n\n            Bint\n",
+            "C": "\n\n            Jamila\n",
+            "D": "\n\n            Ummi\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_4",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "4",
+        "question": "What position is Bint in the family?",
+        "options": {
+            "A": "\n\n            Last born\n",
+            "B": "\n\n            First child\n",
+            "C": "\n\n            Second child\n",
+            "D": "\n\n            Third child\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_5",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "5",
+        "question": "What was Ummi's reason for her impromptu barging ?",
+        "options": {
+            "A": "\n\n            To monitor her children's activities\n",
+            "B": "\n\n            To ensure the children were safe\n",
+            "C": "\n\n            To keep them on their feets\n",
+            "D": "\n\n            To ensure they maintain cleanliness\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_6",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "6",
+        "question": "Omar's admission signals________",
+        "options": {
+            "A": "\n\n            storytelling\n",
+            "B": "\n\n            a life-changing experience\n",
+            "C": "\n\n            being a learned\n",
+            "D": "\n\n            community's appraisal\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_7",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "7",
+        "question": "\"Money moves Mountains\" This statement was made by _________",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Teemah\n",
+            "C": "\n\n            Bint\n",
+            "D": "\n\n            Ngozi\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_8",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "8",
+        "question": "What was the reason for the delay at the faculty registration office?",
+        "options": {
+            "A": "\n\n            The lecturer's negligience\n",
+            "B": "\n\n            The queue was endless\n",
+            "C": "\n\n            John's delay in cleaning the office\n",
+            "D": "\n\n            the lecturer was absent\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_9",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "9",
+        "question": "Salma compared lecturers with _________",
+        "options": {
+            "A": "\n\n            Thieves\n",
+            "B": "\n\n            politician\n",
+            "C": "\n\n            lawyers\n",
+            "D": "\n\n            Policemen\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_10",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "10",
+        "question": "At what age did Talle lost his father and stepmother ?",
+        "options": {
+            "A": "\n\n            21\n",
+            "B": "\n\n            20\n",
+            "C": "\n\n            19\n",
+            "D": "\n\n            18\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_11",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "11",
+        "question": "Talle was imprisoned for?",
+        "options": {
+            "A": "\n\n            Murder\n",
+            "B": "\n\n            Kidnapping and Robbery\n",
+            "C": "\n\n            Kidnapping and extortion\n",
+            "D": "\n\n            smuggling\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_12",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "12",
+        "question": "The novel is written in the ___________",
+        "options": {
+            "A": "\n\n            First-person and Third person point of view\n",
+            "B": "\n\n            Third person Ominscient\n",
+            "C": "\n\n            second-person point of view\n",
+            "D": "\n\n            limited ominiscient\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_13",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "13",
+        "question": "What brand of Phone did Salim buy?",
+        "options": {
+            "A": "\n\n            Nokia\n",
+            "B": "\n\n            Iphone\n",
+            "C": "\n\n            Itel\n",
+            "D": "\n\n            Samsung\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_14",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "14",
+        "question": "Omar's achievement was by no means a small feat. This means that?",
+        "options": {
+            "A": "\n\n            Omar's achievement was difficult\n",
+            "B": "\n\n            His accomplishment was small\n",
+            "C": "\n\n            Omar's achievement was not as difficult as it seems\n",
+            "D": "\n\n            His accomplishment was not by a small feat\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_15",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "15",
+        "question": "Habib gives Tomiwa a bundle of _______?",
+        "options": {
+            "A": "\n\n            0ne thousand naira notes\n",
+            "B": "\n\n            five hundred naira notes\n",
+            "C": "\n\n            two hundred naira notes\n",
+            "D": "\n\n            dollar notes\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_16",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "16",
+        "question": "Salma and her roommates were _________",
+        "options": {
+            "A": "\n\n            A students\n",
+            "B": "\n\n            Outstanding students\n",
+            "C": "\n\n            B students\n",
+            "D": "\n\n            Average students\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_17",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "17",
+        "question": "How old is Bint?",
+        "options": {
+            "A": "\n\n            7\n",
+            "B": "\n\n            6\n",
+            "C": "\n\n            5\n",
+            "D": "\n\n            4\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_18",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "18",
+        "question": "How did Omar check his admission status?",
+        "options": {
+            "A": "\n\n            visiting a cyber cafe\n",
+            "B": "\n\n            through his phone\n",
+            "C": "\n\n            by visiting the university\n",
+            "D": "\n\n            through a friend's phone\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_19",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "19",
+        "question": "What subject is optional in Bint's school?",
+        "options": {
+            "A": "\n\n            Music\n",
+            "B": "\n\n            French\n",
+            "C": "\n\n            Fine Art\n",
+            "D": "\n\n            Hand writing\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_20",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "20",
+        "question": "Omar had ______ credits in the WAEC examination",
+        "options": {
+            "A": "\n\n            9\n",
+            "B": "\n\n            5\n",
+            "C": "\n\n            8\n",
+            "D": "\n\n            7\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_21",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "21",
+        "question": "Who often says \" what you teach a child is like writing on a rock and when dried, it would be difficult to erase\"",
+        "options": {
+            "A": "\n\n            Ummi\n",
+            "B": "\n\n            Omar\n",
+            "C": "\n\n            Ummi's Grandmother\n",
+            "D": "\n\n            Salma's grandmother\n"
+        },
+        "correct_answer": "C",
+        "topic": "Idioms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_22",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "22",
+        "question": "Who is Jamila?",
+        "options": {
+            "A": "\n\n            Salma's roommate\n",
+            "B": "\n\n            Salma's friend\n",
+            "C": "\n\n            Ummi's second child\n",
+            "D": "\n\n            Bint's immediate elder sister\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_23",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "23",
+        "question": "Ummi is translated in Arabic as _____?",
+        "options": {
+            "A": "\n\n            my mentor\n",
+            "B": "\n\n            my mother\n",
+            "C": "\n\n            my morning star\n",
+            "D": "\n\n            my muse\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_24",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "24",
+        "question": "Teemah is the first ________ of the family",
+        "options": {
+            "A": "\n\n            child\n",
+            "B": "\n\n            graduate\n",
+            "C": "\n\n            daughter\n",
+            "D": "\n\n            female\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_25",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "25",
+        "question": "Ummi's husband always wanted to study?",
+        "options": {
+            "A": "\n\n            accounting\n",
+            "B": "\n\n            pharmacy\n",
+            "C": "\n\n            Linguistics\n",
+            "D": "\n\n            Law\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_26",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "26",
+        "question": "What reward was Omar expecting for his achievement?",
+        "options": {
+            "A": "\n\n            a bag\n",
+            "B": "\n\n            a shoe\n",
+            "C": "\n\n            a phone\n",
+            "D": "\n\n            a laptop\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_27",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "27",
+        "question": "What was Omar JAMB score?",
+        "options": {
+            "A": "\n\n            300\n",
+            "B": "\n\n            250\n",
+            "C": "\n\n            200\n",
+            "D": "\n\n            230\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_28",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "28",
+        "question": "What was the double celebration in Lafayette?",
+        "options": {
+            "A": "\n\n            The birth of Talle and his brother\n",
+            "B": "\n\n            Ummi's admission and marriage\n",
+            "C": "\n\n            Omar's WAEC and JAMB success\n",
+            "D": "\n\n            Salma's admission and engagement\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_29",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "29",
+        "question": "According to Ummi, what is the first noticeable thing in the university?",
+        "options": {
+            "A": "\n\n            Different people\n",
+            "B": "\n\n            lawlessness and injustice\n",
+            "C": "\n\n            Freedom of dressing\n",
+            "D": "\n\n            immoral relationships\n"
+        },
+        "correct_answer": "C",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_30",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "30",
+        "question": "According to the novel, how would you describe Salma?",
+        "options": {
+            "A": "\n\n            fair complexioned skin, tall and slim\n",
+            "B": "\n\n            fair complexioned, short and fat\n",
+            "C": "\n\n            dark-complexioned skin, tall and slim\n",
+            "D": "\n\n            dark-complexioned girl, short and fat.\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_31",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "31",
+        "question": "Where did Salma and Ummi first meet?",
+        "options": {
+            "A": "\n\n            the university\n",
+            "B": "\n\n            departmental registration\n",
+            "C": "\n\n            School hostel\n",
+            "D": "\n\n            Faculty registration\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_32",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "32",
+        "question": "What is Salma's surname?",
+        "options": {
+            "A": "\n\n            Mohammed\n",
+            "B": "\n\n            Muhammed\n",
+            "C": "\n\n            Moshood\n",
+            "D": "\n\n            Moshud\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_33",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "33",
+        "question": "Who among the following characters can be described as one with few words?",
+        "options": {
+            "A": "\n\n            Ada\n",
+            "B": "\n\n            secretary to the HOD\n",
+            "C": "\n\n            John\n",
+            "D": "\n\n            Ngozi\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_34",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "34",
+        "question": "What exact incident led to Ummi 's development of claustrophobia?",
+        "options": {
+            "A": "\n\n            She was ill\n",
+            "B": "\n\n            She was pregnant\n",
+            "C": "\n\n            The HOD had asked if she wanted something to drink\n",
+            "D": "\n\n            the HOD was too nice to her\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_35",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "35",
+        "question": "What is Ummi's mariculation number?",
+        "options": {
+            "A": "\n\n            UF0001\n",
+            "B": "\n\n            UG0002\n",
+            "C": "\n\n            UG0001\n",
+            "D": "\n\n            UF0002\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_36",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "36",
+        "question": "Who assisted Ummi's husband with Ummi's admission?",
+        "options": {
+            "A": "\n\n            Mallam Salihu\n",
+            "B": "\n\n            Salim\n",
+            "C": "\n\n            Kabir\n",
+            "D": "\n\n            Samuel\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_37",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "37",
+        "question": "Ummi angrily left the HOD's office because?",
+        "options": {
+            "A": "\n\n            The HOD disrespected her\n",
+            "B": "\n\n            He tried to be romantic with her\n",
+            "C": "\n\n            Ummi assumed he was trying to make a pass at her\n",
+            "D": "\n\n            He delayed her\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_38",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "38",
+        "question": "According to the Novel, How would you describe Dr Samuel Johnson?",
+        "options": {
+            "A": "\n\n            He has a tribal mark and he looks like an igala man\n",
+            "B": "\n\n            He has a tribal mark and he is an igala man\n",
+            "C": "\n\n            He has a tribal mark and he is not a Yoruba man\n",
+            "D": "\n\n            He has a tribal mark and he looks like an Edo man\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_39",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "39",
+        "question": "Who apologizes to the HOD on behalf of Ummi?",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Ummi's husband\n",
+            "C": "\n\n            Kabir\n",
+            "D": "\n\n            Salim\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_40",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "40",
+        "question": "Who narrated the story of ''the quiet one'' to Ummi?",
+        "options": {
+            "A": "\n\n            Hakimi\n",
+            "B": "\n\n            the people of Lafayette\n",
+            "C": "\n\n            Zaki\n",
+            "D": "\n\n            Ummi's husband\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_41",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "41",
+        "question": "The following lessons can be derived from the story of ''the quiet one'' except?",
+        "options": {
+            "A": "\n\n            Never judge a book by its cover\n",
+            "B": "\n\n            Learn to trust sparingly\n",
+            "C": "\n\n            Justice is not fair\n",
+            "D": "\n\n            Not all that glitters is gold\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_42",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "42",
+        "question": "What tradition was established in Lafayette?",
+        "options": {
+            "A": "\n\n            Nobody was allowed to have visitors at night\n",
+            "B": "\n\n            No stranger should be hosted without the knowledge of the Hakimi\n",
+            "C": "\n\n            Nobody was allowed to accommodate friends\n",
+            "D": "\n\n            strangers were not allowed at ceremonial gatherings\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_43",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "43",
+        "question": "Who is Boka?",
+        "options": {
+            "A": "\n\n            district head\n",
+            "B": "\n\n            head of the capital\n",
+            "C": "\n\n            head of faming\n",
+            "D": "\n\n            traditional medicine man\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_44",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "44",
+        "question": "Which of the following character dies while giving birth to her son?",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Talle's mother\n",
+            "C": "\n\n            Ada\n",
+            "D": "\n\n            Tomiwa\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_45",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "45",
+        "question": "Which of the following character has a reticent nature?",
+        "options": {
+            "A": "\n\n            Jamila\n",
+            "B": "\n\n            Bint\n",
+            "C": "\n\n            Talle\n",
+            "D": "\n\n            Ada\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_46",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "46",
+        "question": "Talle works as a ______?",
+        "options": {
+            "A": "\n\n            driver\n",
+            "B": "\n\n            gateman\n",
+            "C": "\n\n            cleaner\n",
+            "D": "\n\n            government officer\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_47",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "47",
+        "question": "When did Talle stop being quiet?",
+        "options": {
+            "A": "\n\n            When he started taking to market women\n",
+            "B": "\n\n            When he started making friends\n",
+            "C": "\n\n            when his usual demand for food items doubled\n",
+            "D": "\n\n            When he made friends with Zaki\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_48",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "48",
+        "question": "What was Talle guilty of?",
+        "options": {
+            "A": "\n\n            Kidnap and murder\n",
+            "B": "\n\n            Extortion and Murder\n",
+            "C": "\n\n            Extortion and Rape\n",
+            "D": "\n\n            Kidnap and Extortion\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_49",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "49",
+        "question": "Which of the following character did not respect the Hakimi?",
+        "options": {
+            "A": "\n\n            Talle\n",
+            "B": "\n\n            the IPO\n",
+            "C": "\n\n            the courtier\n",
+            "D": "\n\n            the vllagers\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_50",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "50",
+        "question": "Who suggested the abduction of a boy?",
+        "options": {
+            "A": "\n\n            Talle\n",
+            "B": "\n\n            Zaki\n",
+            "C": "\n\n            John\n",
+            "D": "\n\n            Boki\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_51",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "51",
+        "question": "According to the novel, EMAL means",
+        "options": {
+            "A": "\n\n            Exam malpractice and license\n",
+            "B": "\n\n            Ethics and Morals\n",
+            "C": "\n\n            Examination Ethics and Morals\n",
+            "D": "\n\n            Examination malpractice\n"
+        },
+        "correct_answer": "D",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_52",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "52",
+        "question": "How long has Mr Dabo been in the university?",
+        "options": {
+            "A": "\n\n            10 years\n",
+            "B": "\n\n            15 years\n",
+            "C": "\n\n            More than a decade\n",
+            "D": "\n\n            More than fiften years\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_53",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "53",
+        "question": "''Don't come in after me...\" Whose principle was this?",
+        "options": {
+            "A": "\n\n            Dr Samjohn\n",
+            "B": "\n\n            Dr Mohammed\n",
+            "C": "\n\n            Labaran\n",
+            "D": "\n\n            Dr Dabo\n"
+        },
+        "correct_answer": "D",
+        "topic": "Sentence Completion",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_54",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "54",
+        "question": "''I want to know you intimately...'' The speaker of the excerpt above is_____",
+        "options": {
+            "A": "\n\n            Dr Kabir\n",
+            "B": "\n\n            Dr Samjohn\n",
+            "C": "\n\n            Dr Dabo\n",
+            "D": "\n\n            Habib\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_55",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "55",
+        "question": "''I want to know you intimately...'' This statement was made to whom _____",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Ummi\n",
+            "C": "\n\n            Tomiwa\n",
+            "D": "\n\n            Ngozi\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_56",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "56",
+        "question": "''I want to know you intimately'' What was the recipient's response?",
+        "options": {
+            "A": "\n\n            approval and acceptance\n",
+            "B": "\n\n            dismissal and confrontation\n",
+            "C": "\n\n            rejection, dismissal and contempt\n",
+            "D": "\n\n            sympathy and approval\n"
+        },
+        "correct_answer": "C",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_57",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "57",
+        "question": "How many girls were allocated to a room in the hostel?",
+        "options": {
+            "A": "\n\n            five\n",
+            "B": "\n\n            four\n",
+            "C": "\n\n            three\n",
+            "D": "\n\n            two\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_58",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "58",
+        "question": "Where does Ada hail from?",
+        "options": {
+            "A": "\n\n            North west\n",
+            "B": "\n\n            North central\n",
+            "C": "\n\n            West\n",
+            "D": "\n\n            South south\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_59",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "59",
+        "question": "What's the name of Ngozi's hostel?",
+        "options": {
+            "A": "\n\n            Comrade\n",
+            "B": "\n\n            Beauty Queen\n",
+            "C": "\n\n            Queen Ana\n",
+            "D": "\n\n            Queen Amina\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_60",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "60",
+        "question": "According to the novel, what delicacy is considered to be students' favourite?",
+        "options": {
+            "A": "\n\n            Danwake\n",
+            "B": "\n\n            Snail\n",
+            "C": "\n\n            Spagetti\n",
+            "D": "\n\n            Indomie jollof\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_61",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "61",
+        "question": "What is Ada's home town delicacy?",
+        "options": {
+            "A": "\n\n            Danwake\n",
+            "B": "\n\n            Rat\n",
+            "C": "\n\n            Snails\n",
+            "D": "\n\n            Indomie\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_62",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "62",
+        "question": "Who among the following characters appears to be less voluble?",
+        "options": {
+            "A": "\n\n            Habib\n",
+            "B": "\n\n            Labaran\n",
+            "C": "\n\n            Kabir\n",
+            "D": "\n\n            Salim\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_63",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "63",
+        "question": "Who among the following character is overconfident?",
+        "options": {
+            "A": "\n\n            Ngozi\n",
+            "B": "\n\n            Ada\n",
+            "C": "\n\n            Tomiwa\n",
+            "D": "\n\n            Ummi\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_64",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "64",
+        "question": "''I made a space for you in the front seat so you can sit near your heartthrob'' Who made this statement?",
+        "options": {
+            "A": "\n\n            Habib\n",
+            "B": "\n\n            Labaran\n",
+            "C": "\n\n            Kabir\n",
+            "D": "\n\n            Lawal\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_65",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "65",
+        "question": "''I made a space for you in the front seat so you can sit near your heartthrob'' This statement was made to whom?",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Ummi\n",
+            "C": "\n\n            Tomiwa\n",
+            "D": "\n\n            Ngozi\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_66",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "66",
+        "question": "How much money did Habib handed over to Tomiwa?",
+        "options": {
+            "A": "\n\n            fifty thousand naira\n",
+            "B": "\n\n            one hundred thousand naira\n",
+            "C": "\n\n            Twenty-five thousand naira\n",
+            "D": "\n\n            Twenty thousand naira\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_67",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "67",
+        "question": "What was the last General paper during Salma's Final year?",
+        "options": {
+            "A": "\n\n            Philosophy and logic\n",
+            "B": "\n\n            Special Education\n",
+            "C": "\n\n            Psychology\n",
+            "D": "\n\n            Moral Philosophy\n"
+        },
+        "correct_answer": "D",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_68",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "68",
+        "question": "Which of the following course does Salma find very difficult?",
+        "options": {
+            "A": "\n\n            Moral Philosophy\n",
+            "B": "\n\n            Use of English\n",
+            "C": "\n\n            Special education\n",
+            "D": "\n\n            Philosophy and Logic\n"
+        },
+        "correct_answer": "A",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_69",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "69",
+        "question": "Who among the following character was sitting next to Salma during her final examination?",
+        "options": {
+            "A": "\n\n            Tola\n",
+            "B": "\n\n            Kola\n",
+            "C": "\n\n            Bola\n",
+            "D": "\n\n            Deola\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_70",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "70",
+        "question": "Dr Amina dislike Salma because?",
+        "options": {
+            "A": "\n\n            Salma is not intelligent\n",
+            "B": "\n\n            She is intimidated by Salma's appearance\n",
+            "C": "\n\n            She considers Salma to be a threat to the university\n",
+            "D": "\n\n            She does not like Salma's appearance\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis and Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_71",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "71",
+        "question": "Why did Salma sought for Habib's help?",
+        "options": {
+            "A": "\n\n            Habib was her only saviour\n",
+            "B": "\n\n            Habib was her boyfriend\n",
+            "C": "\n\n            He was influential\n",
+            "D": "\n\n            He was a philanthropist\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_72",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "72",
+        "question": "What is Habib's Political title?",
+        "options": {
+            "A": "\n\n            Governor\n",
+            "B": "\n\n            Speaker of the house\n",
+            "C": "\n\n            Minister of finance\n",
+            "D": "\n\n            Minister of Education\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_73",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "73",
+        "question": "How much did Salma give to Dr Kabir?",
+        "options": {
+            "A": "\n\n            one hundred thousand naira\n",
+            "B": "\n\n            one hundred and fifty thousand Naira\n",
+            "C": "\n\n            Two hundred thousand Naira\n",
+            "D": "\n\n            Three hundred thousand Naira\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_74",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "74",
+        "question": "According to Salma, No man was worthy to be called a man except ____",
+        "options": {
+            "A": "\n\n            her husband\n",
+            "B": "\n\n            her boyfriend\n",
+            "C": "\n\n            her brothers\n",
+            "D": "\n\n            her father\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_75",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "75",
+        "question": "What is Dr Kabir's weakness?",
+        "options": {
+            "A": "\n\n            women\n",
+            "B": "\n\n            Easy money\n",
+            "C": "\n\n            Food\n",
+            "D": "\n\n            alcohol\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_76",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "76",
+        "question": "The Life Changer is authored by?",
+        "options": {
+            "A": "\n\n            Khadija Abubakar Jilla\n",
+            "B": "\n\n            Khadija Abubakar Jalli\n",
+            "C": "\n\n            Khadija Abubakar Jali\n",
+            "D": "\n\n            Khadija Abubakar Jila\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_77",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "77",
+        "question": "The Author of The Life Changer dedicates the novel to whom?",
+        "options": {
+            "A": "\n\n            her Husband\n",
+            "B": "\n\n            Her mother\n",
+            "C": "\n\n            her father\n",
+            "D": "\n\n            her children\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_78",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "78",
+        "question": "The author of The Life Changer holds a degree in ______",
+        "options": {
+            "A": "\n\n            BSc (Ed) Mathematics\n",
+            "B": "\n\n            BA (Ed) English Language\n",
+            "C": "\n\n            BA (Ed) Economics\n",
+            "D": "\n\n            BA Mass Communication\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_79",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "79",
+        "question": "A suitable title for the passage is",
+        "options": {
+            "A": "\n\n            Knowing fatigue\n",
+            "B": "\n\n            Fatigue\n",
+            "C": "\n\n            Tiredness and fatigue\n",
+            "D": "\n\n            Body machine\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_80",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "80",
+        "question": "According to the passage, the worst stage of fatigue is",
+        "options": {
+            "A": "\n\n            feeling of tiredness\n",
+            "B": "\n\n            poor muscular coordination\n",
+            "C": "\n\n            reduced efficiency\n",
+            "D": "\n\n            desire for rest\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_81",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "81",
+        "question": "It can be inferred from the passage that",
+        "options": {
+            "A": "\n\n            every task can eventually result in fatigue\n",
+            "B": "\n\n            only difficult lessons lead to fatigue\n",
+            "C": "\n\n            a labourer must work all day before expressing fatigue\n",
+            "D": "\n\n            rest is needed only when you experience fatigue\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_82",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "82",
+        "question": "It is advisable that one should rest once",
+        "options": {
+            "A": "\n\n            there is a feeling of tiredness\n",
+            "B": "\n\n            there is no longer interest in the task\n",
+            "C": "\n\n            there is onset of physiological changes in the body\n",
+            "D": "\n\n            the task becomes difficult\n"
+        },
+        "correct_answer": "A",
+        "topic": "Sentence Interpretation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_83",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "83",
+        "question": "definite limitation used to describe the human body in the passage means that",
+        "options": {
+            "A": "\n\n            the body cannot be made to work continuously like a machine\n",
+            "B": "\n\n            the body should only perform simple tasks\n",
+            "C": "\n\n            body parts must be limited\n",
+            "D": "\n\n            the body is equal to man-made machines.\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_84",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "84",
+        "question": "A suitable title for the passage is",
+        "options": {
+            "A": "\n\n            English language\n",
+            "B": "\n\n            Trends in Nigerian Education\n",
+            "C": "\n\n            Teaching and Learning English\n",
+            "D": "\n\n            Importance of English\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_85",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "85",
+        "question": "Which of the following is not true according to the passage?",
+        "options": {
+            "A": "\n\n            the competence level in the use of English has fallen greatly\n",
+            "B": "\n\n            what used to be in the past could be considered extreme\n",
+            "C": "\n\n            the writer is advocating for the use of indigenous language for teaching and learning\n",
+            "D": "\n\n            English language is the official language in Nigeria\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_86",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "86",
+        "question": "During the colonial period, according to the passage, an educated Nigerian was one who",
+        "options": {
+            "A": "\n\n            has travelled to Oxford\n",
+            "B": "\n\n            is English in thought and culture\n",
+            "C": "\n\n            looks African in colour\n",
+            "D": "\n\n            has the English accent\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_87",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "87",
+        "question": "From the passage, it is evident that",
+        "options": {
+            "A": "\n\n            we need to agree on the pattern of correctness in the use of English language\n",
+            "B": "\n\n            fluency in English leads to empty thought and ideas\n",
+            "C": "\n\n            Nigerians would say they are not English people because they hate the language\n",
+            "D": "\n\n            Every undergraduate needs to specialise in English.\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_88",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "88",
+        "question": "Considering it a serious offence to \"laugh in vernacular\" as indicated in the passage, can be viewed as",
+        "options": {
+            "A": "\n\n            normal\n",
+            "B": "\n\n            extreme\n",
+            "C": "\n\n            correctness\n",
+            "D": "\n\n            proper\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_89",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "89",
+        "question": "In question number 11 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            house\n",
+            "B": "\n\n            colony\n",
+            "C": "\n\n            settlement\n",
+            "D": "\n\n            abode\n",
+            "E": "\n\n            habitat\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_90",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "90",
+        "question": "In question number 12 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            larger\n",
+            "B": "\n\n            enormous\n",
+            "C": "\n\n            thicker\n",
+            "D": "\n\n            older\n",
+            "E": "\n\n            wiser\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_91",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "91",
+        "question": "In question number 13 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            servant\n",
+            "B": "\n\n            maid\n",
+            "C": "\n\n            workers\n",
+            "D": "\n\n            errand\n",
+            "E": "\n\n            worker\n"
+        },
+        "correct_answer": "E",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_92",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "92",
+        "question": "In question number 14 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            fruits\n",
+            "B": "\n\n            seed\n",
+            "C": "\n\n            pollen\n",
+            "D": "\n\n            grains\n",
+            "E": "\n\n            leaves\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_93",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "93",
+        "question": "In question number 15 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            filtered\n",
+            "B": "\n\n            converted\n",
+            "C": "\n\n            refined\n",
+            "D": "\n\n            cooked\n",
+            "E": "\n\n            baked\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_94",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "94",
+        "question": "In question number 16 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            born\n",
+            "B": "\n\n            hatched\n",
+            "C": "\n\n            transformed\n",
+            "D": "\n\n            raised\n",
+            "E": "\n\n            weaned\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_95",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "95",
+        "question": "In question number 17 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            alpha\n",
+            "B": "\n\n            adult\n",
+            "C": "\n\n            drone\n",
+            "D": "\n\n            chief\n",
+            "E": "\n\n            leader\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_96",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "96",
+        "question": "In question number 18 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            mate\n",
+            "B": "\n\n            sleep\n",
+            "C": "\n\n            romance\n",
+            "D": "\n\n            protect\n",
+            "E": "\n\n            lead\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_97",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "97",
+        "question": "In question number 19 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            laid\n",
+            "B": "\n\n            born\n",
+            "C": "\n\n            delivered\n",
+            "D": "\n\n            produced\n",
+            "E": "\n\n            donated\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_98",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "98",
+        "question": "In question number 20 above choose the best option from letters A- E that best complete the gap",
+        "options": {
+            "A": "\n\n            former\n",
+            "B": "\n\n            latter\n",
+            "C": "\n\n            earlier\n",
+            "D": "\n\n            bee\n",
+            "E": "\n\n            princess\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_99",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "99",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. He maintained that Nigerians need a leader with an iron fist",
+        "options": {
+            "A": "\n\n            fist made of iron\n",
+            "B": "\n\n            severe in treatment\n",
+            "C": "\n\n            difiicult to please\n",
+            "D": "\n\n            strong as iron\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_100",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "100",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The emphasis placed on good moral conduct by the society in the past seems to have been relaxed",
+        "options": {
+            "A": "\n\n            avoided\n",
+            "B": "\n\n            improved\n",
+            "C": "\n\n            weakened\n",
+            "D": "\n\n            outdated\n"
+        },
+        "correct_answer": "C",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_101",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "101",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The matter was considered a private concern of the chairman to handle",
+        "options": {
+            "A": "\n\n            personal\n",
+            "B": "\n\n            known\n",
+            "C": "\n\n            public\n",
+            "D": "\n\n            open\n"
+        },
+        "correct_answer": "A",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_102",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "102",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. He was underrated at the preliminary stage of the competition",
+        "options": {
+            "A": "\n\n            advance\n",
+            "B": "\n\n            initial\n",
+            "C": "\n\n            selection\n",
+            "D": "\n\n            crucial\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_103",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "103",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The office assistant was dismissed for pilfering",
+        "options": {
+            "A": "\n\n            fighting\n",
+            "B": "\n\n            incompetence\n",
+            "C": "\n\n            stealing\n",
+            "D": "\n\n            mismanagement\n"
+        },
+        "correct_answer": "C",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_104",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "104",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. Almost everyone she had worked with took advantage of her meekness",
+        "options": {
+            "A": "\n\n            gentleness\n",
+            "B": "\n\n            weakness\n",
+            "C": "\n\n            steadfastness\n",
+            "D": "\n\n            generosity\n"
+        },
+        "correct_answer": "A",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_105",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "105",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. Barely six months after his father's demise, he has nothing left again of his patrimony",
+        "options": {
+            "A": "\n\n            inheritance\n",
+            "B": "\n\n            property\n",
+            "C": "\n\n            reputation\n",
+            "D": "\n\n            valuables\n"
+        },
+        "correct_answer": "A",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_106",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "106",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. His grandfather was one of the few patriotic Nigerians who ever lived.",
+        "options": {
+            "A": "\n\n            obedient\n",
+            "B": "\n\n            lover of Nigeria\n",
+            "C": "\n\n            calculative\n",
+            "D": "\n\n            careless\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_107",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "107",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. Many people believed that such an action is unbecoming of a leader",
+        "options": {
+            "A": "\n\n            forthcoming\n",
+            "B": "\n\n            not befitting\n",
+            "C": "\n\n            unwanted\n",
+            "D": "\n\n            not necessary\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_108",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "108",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The governor was incoherent in his speech",
+        "options": {
+            "A": "\n\n            uncoordinated\n",
+            "B": "\n\n            talkative\n",
+            "C": "\n\n            confused\n",
+            "D": "\n\n            eloquent\n"
+        },
+        "correct_answer": "A",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_109",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "109",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined The lady has devised a means of tackling her current challenges.",
+        "options": {
+            "A": "\n\n            attacking\n",
+            "B": "\n\n            avoiding\n",
+            "C": "\n\n            handling\n",
+            "D": "\n\n            suspending\n"
+        },
+        "correct_answer": "B",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_110",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "110",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined One hundred and forty kilometres per hour is a reasonable speed limit.",
+        "options": {
+            "A": "\n\n            acceptable\n",
+            "B": "\n\n            unbelievable\n",
+            "C": "\n\n            outrageous\n",
+            "D": "\n\n            detestable\n"
+        },
+        "correct_answer": "C",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_111",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "111",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined The annual festival attracts dignitaries from both home and abroad.",
+        "options": {
+            "A": "\n\n            spectators\n",
+            "B": "\n\n            celebrities\n",
+            "C": "\n\n            chieftains\n",
+            "D": "\n\n            nonentities\n"
+        },
+        "correct_answer": "D",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_112",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "112",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined The soldiers were remorseful for their inhuman treatment of the civilians.",
+        "options": {
+            "A": "\n\n            boastful\n",
+            "B": "\n\n            sad\n",
+            "C": "\n\n            successful\n",
+            "D": "\n\n            reliable\n"
+        },
+        "correct_answer": "A",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_113",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "113",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined Insecurity has escalated since the present government came into power.",
+        "options": {
+            "A": "\n\n            abated\n",
+            "B": "\n\n            increased\n",
+            "C": "\n\n            proliferated\n",
+            "D": "\n\n            metamorphosed\n"
+        },
+        "correct_answer": "A",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_114",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "114",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined It is embarrassing to accept our mistakes and tender an apology.",
+        "options": {
+            "A": "\n\n            acceptable\n",
+            "B": "\n\n            honourable\n",
+            "C": "\n\n            detestable\n",
+            "D": "\n\n            pardonable\n"
+        },
+        "correct_answer": "B",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_115",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "115",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined The lawmakers are perceived to be the greedies t set of politicians.",
+        "options": {
+            "A": "\n\n            selfless\n",
+            "B": "\n\n            unwanted\n",
+            "C": "\n\n            popular\n",
+            "D": "\n\n            corrupt\n"
+        },
+        "correct_answer": "A",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_116",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "116",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined James found the photocopied material invaluable while preparing for the examination",
+        "options": {
+            "A": "\n\n            Valuable\n",
+            "B": "\n\n            worthwhile\n",
+            "C": "\n\n            worthless\n",
+            "D": "\n\n            important\n"
+        },
+        "correct_answer": "C",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_117",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "117",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined Mr. Akin's health has greatly degenerated in the last week.",
+        "options": {
+            "A": "\n\n            improved\n",
+            "B": "\n\n            deteriorated\n",
+            "C": "\n\n            expanded\n",
+            "D": "\n\n            abated\n"
+        },
+        "correct_answer": "A",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_118",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "118",
+        "question": "choose the option nearly opposite in meaning to the word(s) underlined The incumbent president conceded defeat before the final result was announced.",
+        "options": {
+            "A": "\n\n            accepted\n",
+            "B": "\n\n            rejected\n",
+            "C": "\n\n            opposed\n",
+            "D": "\n\n            challenged\n"
+        },
+        "correct_answer": "B",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_119",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "119",
+        "question": "choose the option with the correct spelling from the options lettered A-E",
+        "options": {
+            "A": "\n\n            Interprete\n",
+            "B": "\n\n            Interpret\n",
+            "C": "\n\n            Inteprete\n",
+            "D": "\n\n            Interprette\n",
+            "E": "\n\n            Interrpret\n"
+        },
+        "correct_answer": "B",
+        "topic": "Sentence Interpretation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_120",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "120",
+        "question": "choose the option with the correct spelling from the options lettered A-E",
+        "options": {
+            "A": "\n\n            Sucesful\n",
+            "B": "\n\n            Succeful\n",
+            "C": "\n\n            Successful\n",
+            "D": "\n\n            Sucessful\n",
+            "E": "\n\n            Sucessfull\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_121",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "121",
+        "question": "choose the option with the correct spelling from the options lettered A-E",
+        "options": {
+            "A": "\n\n            Acommodation\n",
+            "B": "\n\n            Accomodation\n",
+            "C": "\n\n            Accormodation\n",
+            "D": "\n\n            Accommodation\n",
+            "E": "\n\n            Accomodetion\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_122",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "122",
+        "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Biography",
+        "options": {
+            "A": "\n\n            bioGRAphy\n",
+            "B": "\n\n            BIography\n",
+            "C": "\n\n            biograPHY\n",
+            "D": "\n\n            biOgraphy\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_123",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "123",
+        "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Successful",
+        "options": {
+            "A": "\n\n            SUccessful\n",
+            "B": "\n\n            suCcessful\n",
+            "C": "\n\n            sucCEssful\n",
+            "D": "\n\n            succESSful\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_124",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "124",
+        "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Democracy",
+        "options": {
+            "A": "\n\n            DEmocracy\n",
+            "B": "\n\n            deMOcracy\n",
+            "C": "\n\n            demoCRAcy\n",
+            "D": "\n\n            democraCY\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_125",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "125",
+        "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Conventional",
+        "options": {
+            "A": "\n\n            conVENtional\n",
+            "B": "\n\n            CONventional\n",
+            "C": "\n\n            convenTIOnal\n",
+            "D": "\n\n            conventioNAL\n"
+        },
+        "correct_answer": "A",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_126",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "126",
+        "question": "complete the statement from the options lettered A-D The two friends made promises to _____ when they met last year",
+        "options": {
+            "A": "\n\n            each other\n",
+            "B": "\n\n            one another\n",
+            "C": "\n\n            theirselves\n",
+            "D": "\n\n            themselves\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_127",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "127",
+        "question": "complete the statement from the options lettered A-D The meeting was organised at _______ instance ?",
+        "options": {
+            "A": "\n\n            whom\n",
+            "B": "\n\n            whose's\n",
+            "C": "\n\n            whose\n",
+            "D": "\n\n            whom's\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_128",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "128",
+        "question": "complete the statement from the options lettered A-D Mr. Jude made the meeting _____his poor health",
+        "options": {
+            "A": "\n\n            even though\n",
+            "B": "\n\n            inspite of\n",
+            "C": "\n\n            in spite of\n",
+            "D": "\n\n            despite that\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_129",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "129",
+        "question": "complete the statement from the options lettered A-D The manager met the ______ who came visiting last week",
+        "options": {
+            "A": "\n\n            dark tall good-looking American\n",
+            "B": "\n\n            good-looking tall dark American\n",
+            "C": "\n\n            Tall dark American good-looking\n",
+            "D": "\n\n            American dark tall good-looking\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_130",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "130",
+        "question": "choose the option that has the same vowel sound as the letter(s) underlined from the options lettered A-E H ea d",
+        "options": {
+            "A": "\n\n            bead\n",
+            "B": "\n\n            red\n",
+            "C": "\n\n            rear\n",
+            "D": "\n\n            stir\n",
+            "E": "\n\n            heel\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_131",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "131",
+        "question": "choose the option that has the same vowel sound as the letter(s) underlined from the options lettered A-E M oo n",
+        "options": {
+            "A": "\n\n            cook\n",
+            "B": "\n\n            loop\n",
+            "C": "\n\n            pull\n",
+            "D": "\n\n            look\n",
+            "E": "\n\n            double\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_132",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "132",
+        "question": "choose the option that has the same vowel sound as the letter(s) underlined from the options lettered A-E Cr ee p",
+        "options": {
+            "A": "\n\n            beep\n",
+            "B": "\n\n            bring\n",
+            "C": "\n\n            tread\n",
+            "D": "\n\n            credit\n",
+            "E": "\n\n            ship\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_133",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "133",
+        "question": "choose the option that has the same consonant sound as the letter(s) underlined from the options lettered A-E K in g",
+        "options": {
+            "A": "\n\n            that\n",
+            "B": "\n\n            think\n",
+            "C": "\n\n            thine\n",
+            "D": "\n\n            tongue\n",
+            "E": "\n\n            tone\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_134",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "134",
+        "question": "choose the option that has the same consonant sound as the letter(s) underlined from the options lettered A-E T each",
+        "options": {
+            "A": "\n\n            deviate\n",
+            "B": "\n\n            through\n",
+            "C": "\n\n            wrath\n",
+            "D": "\n\n            both\n",
+            "E": "\n\n            listen\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_135",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "135",
+        "question": "choose the option that has the same consonant sound as the letter(s) underlined from the options lettered A-E B ark",
+        "options": {
+            "A": "\n\n            climb\n",
+            "B": "\n\n            tomb\n",
+            "C": "\n\n            curb\n",
+            "D": "\n\n            doubt\n",
+            "E": "\n\n            dumb\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_136",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "136",
+        "question": "choose the option that best answers the question from the options lettered A-D The Parents Teachers Association promised to build a CAFETERIA.",
+        "options": {
+            "A": "\n\n            Does the alumni association promised to build a cafeteria?\n",
+            "B": "\n\n            Does the school authority promised to build a library?\n",
+            "C": "\n\n            Did the parents teachers association promise to build a library?\n",
+            "D": "\n\n            Does the parents teachers association promised to demolish a cafeteria?\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_137",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "137",
+        "question": "choose the option that best answers the question from the options lettered A-D He SLAPPED the teacher.",
+        "options": {
+            "A": "\n\n            Did he greet the teacher?\n",
+            "B": "\n\n            Did the teacher flog him?\n",
+            "C": "\n\n            Did he slap the nurse?\n",
+            "D": "\n\n            Did he praise the principal?\n"
+        },
+        "correct_answer": "A",
+        "topic": "Idioms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2021_138",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2021,
+        "number": "138",
+        "question": "choose the option that best answers the question from the options lettered A-D He travels every WEEKEND",
+        "options": {
+            "A": "\n\n            Does he sleep every weekend?\n",
+            "B": "\n\n            Does he wash every week days?\n",
+            "C": "\n\n            Does he travel every month?\n",
+            "D": "\n\n            Does he travel every day?\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

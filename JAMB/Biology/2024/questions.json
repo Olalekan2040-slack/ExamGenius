@@ -1,0 +1,2108 @@
+[
+    {
+        "id": "JAMB_Biology_2024_1",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "1",
+        "question": "The major building block of an organism is...",
+        "options": {
+            "A": "\n\n            Nitrogen\n",
+            "B": "\n\n            Carbon\n",
+            "C": "\n\n            Water\n",
+            "D": "\n\n            Sulphur\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_2",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "2",
+        "question": "The process by which plants loss water to the atmosphere is",
+        "options": {
+            "A": "\n\n            transpiration\n",
+            "B": "\n\n            guttation\n",
+            "C": "\n\n            translocation\n",
+            "D": "\n\n            evaporation\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_3",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "3",
+        "question": "Use the diagram above to answer the question that follows The organism belongs to kingdom",
+        "options": {
+            "A": "\n\n            monera\n",
+            "B": "\n\n            protista\n",
+            "C": "\n\n            fungi\n",
+            "D": "\n\n            animalia\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_3.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_4",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "4",
+        "question": "The formation of cilia and flagella in living cells is carried out with the help of",
+        "options": {
+            "A": "\n\n            ribosome\n",
+            "B": "\n\n            lysosome\n",
+            "C": "\n\n            centriole\n",
+            "D": "\n\n            plastid\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_5",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "5",
+        "question": "The food nutrient with the highest energy value is",
+        "options": {
+            "A": "\n\n            protein\n",
+            "B": "\n\n            carbohydrate\n",
+            "C": "\n\n            lipid\n",
+            "D": "\n\n            minerals\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_6",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "6",
+        "question": "I 6 X  +  6 H\\(_2\\)O      →     C\\(_6\\)H\\(_{12}\\)O\\(_6\\)   +   6O\\(_2\\) III               chlorophyll      II               IV Use the diagram above to answer question that follows The part labelled I is",
+        "options": {
+            "A": "\n\n            enzyme\n",
+            "B": "\n\n            water\n",
+            "C": "\n\n            sunlight\n",
+            "D": "\n\n            chemical\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_7",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "7",
+        "question": "Bilateral symmetry,cylindrical bodies and double openings are characteristic features of",
+        "options": {
+            "A": "\n\n            nematodes\n",
+            "B": "\n\n            hydra\n",
+            "C": "\n\n            protozoa\n",
+            "D": "\n\n            protists\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_8",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "8",
+        "question": "Mouth part adapted for piercing and sucking is found in",
+        "options": {
+            "A": "\n\n            housefly\n",
+            "B": "\n\n            grasshopper\n",
+            "C": "\n\n            mosquito\n",
+            "D": "\n\n            cockroach\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_9",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "9",
+        "question": "The web-feet of frogs and toads is basically for",
+        "options": {
+            "A": "\n\n            leaping\n",
+            "B": "\n\n            walking\n",
+            "C": "\n\n            swimming\n",
+            "D": "\n\n            mating\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_10",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "10",
+        "question": "The part of the inner ear that is responsible for hearing is",
+        "options": {
+            "A": "\n\n            sacculus\n",
+            "B": "\n\n            cochlea\n",
+            "C": "\n\n            utriculus\n",
+            "D": "\n\n            ampullae\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_11",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "11",
+        "question": "The changes of living organisms over generation is referred to as",
+        "options": {
+            "A": "\n\n            human evolution\n",
+            "B": "\n\n            organic evolution\n",
+            "C": "\n\n            physical evolution\n",
+            "D": "\n\n            chemical evolution\n"
+        },
+        "correct_answer": "B",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_12",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "12",
+        "question": "In a cross involving a heterozygous red flower plant (Rr) and a white flowered plant (rr). What is the probability that the offspring will be Rr?",
+        "options": {
+            "A": "\n\n            \\(\\frac{1}{2}\\)\n",
+            "B": "\n\n            1\n",
+            "C": "\n\n            2\n",
+            "D": "\n\n            \\(\\frac{1}{4}\\)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_13",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "13",
+        "question": "Inbreeding is highly discouraged in humans because it may",
+        "options": {
+            "A": "\n\n            increase the death rate of new born\n",
+            "B": "\n\n            lead to the birth of dwarfs\n",
+            "C": "\n\n            lead to high rate of competition among offspring\n",
+            "D": "\n\n            lead to outbreak of hereditary diseases\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_14",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "14",
+        "question": "One main feature of trees in the savanna habitat is the possession of",
+        "options": {
+            "A": "\n\n            large, leathery leaves\n",
+            "B": "\n\n            straight slender stems with branches near the top\n",
+            "C": "\n\n            thin, smooth barks\n",
+            "D": "\n\n            thick, corky bark\n"
+        },
+        "correct_answer": "D",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_15",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "15",
+        "question": "Use the diagram above to answer the question that follows The zone labelled II is called",
+        "options": {
+            "A": "\n\n            supra-tidal zone\n",
+            "B": "\n\n            pelagic zone\n",
+            "C": "\n\n            littoral zone\n",
+            "D": "\n\n            benthic zone\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_15.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_16",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "16",
+        "question": "Which of the following structures enables the exchange of gases in insects?",
+        "options": {
+            "A": "\n\n            skin\n",
+            "B": "\n\n            tracheae\n",
+            "C": "\n\n            Malpighian tubules\n",
+            "D": "\n\n            flame cell\n"
+        },
+        "correct_answer": "B",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_17",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "17",
+        "question": "The total number of ATP produced during glycolysis is",
+        "options": {
+            "A": "\n\n            3 molecules\n",
+            "B": "\n\n            2 molecules\n",
+            "C": "\n\n            4 molecules\n",
+            "D": "\n\n            6 molecules\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_18",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "18",
+        "question": "Use the diagram above to answer the question that follows The diagram above is",
+        "options": {
+            "A": "\n\n            circulatory system\n",
+            "B": "\n\n            reproductive system\n",
+            "C": "\n\n            urinary system\n",
+            "D": "\n\n            nervous system\n"
+        },
+        "correct_answer": "C",
+        "topic": "Organization of Life",
+        "image": "images/JAMB_Biology_2024_18.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_19",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "19",
+        "question": "Bile is a greenish alkaline liquid which is stored in the",
+        "options": {
+            "A": "\n\n            gall bladder\n",
+            "B": "\n\n            liver\n",
+            "C": "\n\n            stomach\n",
+            "D": "\n\n            pancreas\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_20",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "20",
+        "question": "A medium texture soil with high organic matter is",
+        "options": {
+            "A": "\n\n            clay\n",
+            "B": "\n\n            loamy\n",
+            "C": "\n\n            humus\n",
+            "D": "\n\n            sandy\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_21",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "21",
+        "question": "One of the following is an example of discontinuous variation",
+        "options": {
+            "A": "\n\n            shape of the head\n",
+            "B": "\n\n            blood group\n",
+            "C": "\n\n            body complexion\n",
+            "D": "\n\n            pointed nose\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_22",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "22",
+        "question": "The type of variation where there are no remarkable differences between the two extreme individuals is called",
+        "options": {
+            "A": "\n\n            continuous variation\n",
+            "B": "\n\n            morphological variation\n",
+            "C": "\n\n            physiological variation\n",
+            "D": "\n\n            discontinuous variation\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_23",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "23",
+        "question": "The transmission of diseases through contamination of food is an economic importance of",
+        "options": {
+            "A": "\n\n            mosquitoes\n",
+            "B": "\n\n            cockroaches\n",
+            "C": "\n\n            butterflies\n",
+            "D": "\n\n            bees\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_24",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "24",
+        "question": "Bryophyte is an intermediate group between higher algae and",
+        "options": {
+            "A": "\n\n            thallophyte\n",
+            "B": "\n\n            pteridophyte\n",
+            "C": "\n\n            spermatophyte\n",
+            "D": "\n\n            tracheophyte\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_25",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "25",
+        "question": "Ecological succession can result from",
+        "options": {
+            "A": "\n\n            newly formed habitat\n",
+            "B": "\n\n            habitat with abundant food\n",
+            "C": "\n\n            habitat with space and light\n",
+            "D": "\n\n            population of plants on a fertile land\n"
+        },
+        "correct_answer": "A",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_26",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "26",
+        "question": "The first organism evolved from which of the following habitat?",
+        "options": {
+            "A": "\n\n            terrestrial\n",
+            "B": "\n\n            arboreal\n",
+            "C": "\n\n            aquatic\n",
+            "D": "\n\n            desert\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_27",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "27",
+        "question": "Which of these pair of substances must be present for a seed to germinate in a laboratory set-up?",
+        "options": {
+            "A": "\n\n            microbes and water\n",
+            "B": "\n\n            heat and water\n",
+            "C": "\n\n            soil and manure\n",
+            "D": "\n\n            heat and microbe\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_28",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "28",
+        "question": "A fruit formed from one flower with many carpels is referred to as",
+        "options": {
+            "A": "\n\n            simple\n",
+            "B": "\n\n            multiple\n",
+            "C": "\n\n            aggregate\n",
+            "D": "\n\n            false\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_29",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "29",
+        "question": "Which of the following plant is found in the ground layer of a tropical rainforest in Nigeria?",
+        "options": {
+            "A": "\n\n            obeche\n",
+            "B": "\n\n            liverwort\n",
+            "C": "\n\n            mahogany\n",
+            "D": "\n\n            oil palm\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_30",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "30",
+        "question": "Use the diagram above to answer the question that follows The endocrine gland that is located in the part labelled I is",
+        "options": {
+            "A": "\n\n            thyroid\n",
+            "B": "\n\n            adrenal\n",
+            "C": "\n\n            parathyroid\n",
+            "D": "\n\n            pituitary\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_30.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_31",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "31",
+        "question": "Which of the following processes takes place in the carbon cycle?",
+        "options": {
+            "A": "\n\n            evaporation\n",
+            "B": "\n\n            nitrification\n",
+            "C": "\n\n            combustion\n",
+            "D": "\n\n            transpiration\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_32",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "32",
+        "question": "Which of the following plants shows hypogeal germination?",
+        "options": {
+            "A": "\n\n            castor oil\n",
+            "B": "\n\n            groundnut\n",
+            "C": "\n\n            maize\n",
+            "D": "\n\n            orange\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_33",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "33",
+        "question": "In vascular plants, xylem tissue is responsible for",
+        "options": {
+            "A": "\n\n            transportation of water\n",
+            "B": "\n\n            translocation of food\n",
+            "C": "\n\n            transportation of hormones\n",
+            "D": "\n\n            storage of sugar\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_34",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "34",
+        "question": "The causative agent of tuberculosis is",
+        "options": {
+            "A": "\n\n            virus\n",
+            "B": "\n\n            bacteria\n",
+            "C": "\n\n            protozoa\n",
+            "D": "\n\n            fungi\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_35",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "35",
+        "question": "Which of these is a respiratory organ in mammals?",
+        "options": {
+            "A": "\n\n            skin\n",
+            "B": "\n\n            mouth\n",
+            "C": "\n\n            heart\n",
+            "D": "\n\n            lungs\n"
+        },
+        "correct_answer": "D",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_36",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "36",
+        "question": "Which of the Nigeria states is Northern guinea savanna located?",
+        "options": {
+            "A": "\n\n            Borno\n",
+            "B": "\n\n            Kano\n",
+            "C": "\n\n            Oyo\n",
+            "D": "\n\n            Kwara\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_37",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "37",
+        "question": "Darwin's theory of evolution is based on the principle of",
+        "options": {
+            "A": "\n\n            use and disuse of organ\n",
+            "B": "\n\n            natural selection\n",
+            "C": "\n\n            acquired characteristics\n",
+            "D": "\n\n            mutation\n"
+        },
+        "correct_answer": "B",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_38",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "38",
+        "question": "Similar structures that are modified to work in different ways in different organisms are referred to as",
+        "options": {
+            "A": "\n\n            homologous structures\n",
+            "B": "\n\n            analogous structures\n",
+            "C": "\n\n            divergent structures\n",
+            "D": "\n\n            convergent structures\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_39",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "39",
+        "question": "One of the ways of controlling Schistosomiasis is by",
+        "options": {
+            "A": "\n\n            destroying water snails and water weeds\n",
+            "B": "\n\n            clearing the bushes around the house\n",
+            "C": "\n\n            washing hands after using the toilet\n",
+            "D": "\n\n            properly washing fruits before eating them\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_40",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "40",
+        "question": "The central nervous system comprises of",
+        "options": {
+            "A": "\n\n            brain and somatic\n",
+            "B": "\n\n            brain and spinal cord\n",
+            "C": "\n\n            spinal cord and somatic\n",
+            "D": "\n\n            brain only\n"
+        },
+        "correct_answer": "B",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_41",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "41",
+        "question": "Use the diagram above to answer the question that follows The organelle that shows the organism has plant characteristics is",
+        "options": {
+            "A": "\n\n            I\n",
+            "B": "\n\n            II\n",
+            "C": "\n\n            III\n",
+            "D": "\n\n            IV\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_41.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_42",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "42",
+        "question": "Reproduction in paramecium is by",
+        "options": {
+            "A": "\n\n            binary fission\n",
+            "B": "\n\n            budding\n",
+            "C": "\n\n            spore formation\n",
+            "D": "\n\n            fragmentation\n"
+        },
+        "correct_answer": "A",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_43",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "43",
+        "question": "A community with a population of two million three hundred and ten thousand people living in an area of two thousand three hundred and ten square kilometres has a population density of",
+        "options": {
+            "A": "\n\n            10000\n",
+            "B": "\n\n            10\n",
+            "C": "\n\n            100\n",
+            "D": "\n\n            1000\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_44",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "44",
+        "question": "A succession that occurs in an area where there are no pre-existing community is called",
+        "options": {
+            "A": "\n\n            tertiary succession\n",
+            "B": "\n\n            primary succession\n",
+            "C": "\n\n            post-primary succession\n",
+            "D": "\n\n            secondary succession\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_45",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "45",
+        "question": "Which of the following processes releases oxygen to the atmosphere?",
+        "options": {
+            "A": "\n\n            Respiration\n",
+            "B": "\n\n            Combustion\n",
+            "C": "\n\n            Decomposition\n",
+            "D": "\n\n            photosynthesis\n"
+        },
+        "correct_answer": "D",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_46",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "46",
+        "question": "The depressed side of paramecium which is lined with cilia leads to a tube-like structure called",
+        "options": {
+            "A": "\n\n            anal pore\n",
+            "B": "\n\n            oral groove\n",
+            "C": "\n\n            gullet\n",
+            "D": "\n\n            food vacuole\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_47",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "47",
+        "question": "The rhizoid of liverwort is",
+        "options": {
+            "A": "\n\n            unicellular and unbranched\n",
+            "B": "\n\n            multicellular and branched\n",
+            "C": "\n\n            unicellular and branched\n",
+            "D": "\n\n            multicellular and unbranched\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_48",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "48",
+        "question": "In glycolysis, glucose is broken down through series of reactions in the presence of enzyme and absence of oxygen to produce",
+        "options": {
+            "A": "\n\n            Acetyl-coenzyme + ATP\n",
+            "B": "\n\n            Phosphorylated glucose\n",
+            "C": "\n\n            pyruvic acid + ATP\n",
+            "D": "\n\n            Amino acid\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_49",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "49",
+        "question": "Gaseous exchange takes place through the plasma membrane in",
+        "options": {
+            "A": "\n\n            hydra\n",
+            "B": "\n\n            paramecium\n",
+            "C": "\n\n            flatworm\n",
+            "D": "\n\n            earthworm\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_50",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "50",
+        "question": "One of the characteristics of secondary succession is that it",
+        "options": {
+            "A": "\n\n            starts on a bare surface\n",
+            "B": "\n\n            takes longer time to reach climax\n",
+            "C": "\n\n            starts on already colonized surface\n",
+            "D": "\n\n            starts with low organism\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_51",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "51",
+        "question": "One of the components of xylem tissue is",
+        "options": {
+            "A": "\n\n            companion cell\n",
+            "B": "\n\n            tracheid\n",
+            "C": "\n\n            sieve tube\n",
+            "D": "\n\n            epidermal\n"
+        },
+        "correct_answer": "B",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_52",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "52",
+        "question": "Which of the following statements explains the theory of natural selection?",
+        "options": {
+            "A": "\n\n            There is no struggle for existence\n",
+            "B": "\n\n            New species get better adaptation\n",
+            "C": "\n\n            The weaker offspring are eliminated\n",
+            "D": "\n\n            Unused structures disappear later\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_53",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "53",
+        "question": "The chemical and physical composition of soil is an example of",
+        "options": {
+            "A": "\n\n            climatic factor\n",
+            "B": "\n\n            topographic factor\n",
+            "C": "\n\n            Edaphic factor\n",
+            "D": "\n\n            chemical factor\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_54",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "54",
+        "question": "The abiotic factor that affect the population growth of an organism is",
+        "options": {
+            "A": "\n\n            predator\n",
+            "B": "\n\n            rainfall\n",
+            "C": "\n\n            food shortage\n",
+            "D": "\n\n            disease\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_55",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "55",
+        "question": "The cells responsible for transmitting messages to the effectors are",
+        "options": {
+            "A": "\n\n            motor neurons\n",
+            "B": "\n\n            sensory neurons\n",
+            "C": "\n\n            hair cells\n",
+            "D": "\n\n            relay neurons\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_56",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "56",
+        "question": "The oxygen transported to all parts of the body during blood circulation is used for the",
+        "options": {
+            "A": "\n\n            growth and development of cells\n",
+            "B": "\n\n            removal of waste products\n",
+            "C": "\n\n            release of energy from food\n",
+            "D": "\n\n            formation of carboxyl haemoglobin\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_57",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "57",
+        "question": "After fertilization in plants, the zygote develops into",
+        "options": {
+            "A": "\n\n            fruit\n",
+            "B": "\n\n            an embryo\n",
+            "C": "\n\n            seed\n",
+            "D": "\n\n            an endosperm\n"
+        },
+        "correct_answer": "B",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_58",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "58",
+        "question": "Use the diagram above to answer the question that follows The organ is responsible for",
+        "options": {
+            "A": "\n\n            production of heat\n",
+            "B": "\n\n            osmoregulation\n",
+            "C": "\n\n            vasoconstriction\n",
+            "D": "\n\n            production of hormones\n"
+        },
+        "correct_answer": "B",
+        "topic": "Organization of Life",
+        "image": "images/JAMB_Biology_2024_58.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_59",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "59",
+        "question": "Which of the following evidences of evolution employs the use of radio-isotope dating?",
+        "options": {
+            "A": "\n\n            comparative anatomy\n",
+            "B": "\n\n            Embryology\n",
+            "C": "\n\n            Fossil records\n",
+            "D": "\n\n            vestigial organs\n"
+        },
+        "correct_answer": "C",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_60",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "60",
+        "question": "Pentadactyl forelimb of vertebrate function due to differences in environment is",
+        "options": {
+            "A": "\n\n            comparative anatomy\n",
+            "B": "\n\n            physiological evidence\n",
+            "C": "\n\n            embryological evidence\n",
+            "D": "\n\n            fossil records\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_61",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "61",
+        "question": "The feeding relationship between ruminants and the bacteria in their digestive tract is",
+        "options": {
+            "A": "\n\n            saprophytic\n",
+            "B": "\n\n            parasitic\n",
+            "C": "\n\n            symbiotic\n",
+            "D": "\n\n            heterotrophic\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_62",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "62",
+        "question": "A photosynthetic carnivorous plant which feeds on insects is",
+        "options": {
+            "A": "\n\n            parasitic\n",
+            "B": "\n\n            saprophytic\n",
+            "C": "\n\n            herbivorous\n",
+            "D": "\n\n            insectivorous\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_63",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "63",
+        "question": "Xerophytes are mostly found in the",
+        "options": {
+            "A": "\n\n            arid land\n",
+            "B": "\n\n            tropical rainforest\n",
+            "C": "\n\n            montane forest\n",
+            "D": "\n\n            Sudan savanna\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_64",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "64",
+        "question": "In which zone of the marine habitat does the organisms require adaptation for attachment?",
+        "options": {
+            "A": "\n\n            Supratidal\n",
+            "B": "\n\n            Subtidal\n",
+            "C": "\n\n            intertidal\n",
+            "D": "\n\n            abyssal zone\n"
+        },
+        "correct_answer": "C",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_65",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "65",
+        "question": "Energy transfer in plants and animals are in the form of",
+        "options": {
+            "A": "\n\n            DNA\n",
+            "B": "\n\n            ATP\n",
+            "C": "\n\n            GTP\n",
+            "D": "\n\n            RNA\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_66",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "66",
+        "question": "The pigment carrying oxygen in the blood is",
+        "options": {
+            "A": "\n\n            plasma\n",
+            "B": "\n\n            haemoglobin\n",
+            "C": "\n\n            oxyhaemoglobin\n",
+            "D": "\n\n            erythrocytes\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_67",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "67",
+        "question": "Production of healthier offspring, viable seeds and formation of new varieties are good characteristics",
+        "options": {
+            "A": "\n\n            self pollination\n",
+            "B": "\n\n            cross pollination\n",
+            "C": "\n\n            wind pollination\n",
+            "D": "\n\n            insect pollination\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_68",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "68",
+        "question": "One of the following is a courtship behaviour in animals",
+        "options": {
+            "A": "\n\n            fighting\n",
+            "B": "\n\n            display\n",
+            "C": "\n\n            hibernation\n",
+            "D": "\n\n            feeding\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_69",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "69",
+        "question": "In blood transfusion, a patient with group AB receives",
+        "options": {
+            "A": "\n\n            Group A, B, AB\n",
+            "B": "\n\n            Group O, A, B\n",
+            "C": "\n\n            Group O, B, AB\n",
+            "D": "\n\n            Group O, A, B, AB\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_70",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "70",
+        "question": "A trait that is always expressed during crossing of hereditary characteristics is",
+        "options": {
+            "A": "\n\n            recessive trait\n",
+            "B": "\n\n            dominant trait\n",
+            "C": "\n\n            homozygous trait\n",
+            "D": "\n\n            heterozygous trait\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_71",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "71",
+        "question": "Blood group AB is considered as universal recipient because they can receive blood from groups",
+        "options": {
+            "A": "\n\n            A and O\n",
+            "B": "\n\n            B and O\n",
+            "C": "\n\n            AB and O\n",
+            "D": "\n\n            A, B, AB and O\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_72",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "72",
+        "question": "An example of organism that exhibits counter-shading to escape from its predator is",
+        "options": {
+            "A": "\n\n            grasshopper\n",
+            "B": "\n\n            toad\n",
+            "C": "\n\n            fish\n",
+            "D": "\n\n            chameleon\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_73",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "73",
+        "question": "A form of adaptive colouration that helps animals to remain unnoticed is",
+        "options": {
+            "A": "\n\n            hibernation\n",
+            "B": "\n\n            aestivation\n",
+            "C": "\n\n            countershading\n",
+            "D": "\n\n            migration\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_74",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "74",
+        "question": "Use the diagram above to answer the question that follows The part labelled III is",
+        "options": {
+            "A": "\n\n            abdomen\n",
+            "B": "\n\n            head\n",
+            "C": "\n\n            maxillae\n",
+            "D": "\n\n            thorax\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_74.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_75",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "75",
+        "question": "Lamarck's theory of evolution is based on the idea of",
+        "options": {
+            "A": "\n\n            the inheritance of acquired traits\n",
+            "B": "\n\n            organisms' survival of the fittest\n",
+            "C": "\n\n            organisms constantly struggling for existence\n",
+            "D": "\n\n            plenty offspring produced by organisms\n"
+        },
+        "correct_answer": "A",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_76",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "76",
+        "question": "How many chromosomes will be present in a gamete if the somatic cell has 8 chromosomes?",
+        "options": {
+            "A": "\n\n            16\n",
+            "B": "\n\n            6\n",
+            "C": "\n\n            4\n",
+            "D": "\n\n            8\n"
+        },
+        "correct_answer": "C",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_77",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "77",
+        "question": "Use the diagram above to answer the question that follows What is the genotypic ratio of the offspring produced in F\\(_1\\) generation?",
+        "options": {
+            "A": "\n\n            2:1:1\n",
+            "B": "\n\n            1:2:1\n",
+            "C": "\n\n            2:2\n",
+            "D": "\n\n            3:1\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_77.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_78",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "78",
+        "question": "Body temperature, thirst and hunger are regulated by",
+        "options": {
+            "A": "\n\n            thalamus\n",
+            "B": "\n\n            hypothalamus\n",
+            "C": "\n\n            medulla oblongata\n",
+            "D": "\n\n            spinal cord\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_79",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "79",
+        "question": "Cell division that involves the growth, development, repairs and replacement of worn out tissues is",
+        "options": {
+            "A": "\n\n            biosynthesis\n",
+            "B": "\n\n            mitosis\n",
+            "C": "\n\n            meiosis\n",
+            "D": "\n\n            synthesis\n"
+        },
+        "correct_answer": "B",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_80",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "80",
+        "question": "Use the diagram to answer the question that follows The flower of plants belongs to part labelled",
+        "options": {
+            "A": "\n\n            I\n",
+            "B": "\n\n            II\n",
+            "C": "\n\n            III\n",
+            "D": "\n\n            IV\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_80.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_81",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "81",
+        "question": "The bacteria in the large intestine of man synthesizes",
+        "options": {
+            "A": "\n\n            vitamins and minerals\n",
+            "B": "\n\n            vitamins and glucose\n",
+            "C": "\n\n            amino acids and vitamins\n",
+            "D": "\n\n            amino acids and minerals\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_82",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "82",
+        "question": "The main excretory product of earthworm is",
+        "options": {
+            "A": "\n\n            ammonia\n",
+            "B": "\n\n            carbon dioxide\n",
+            "C": "\n\n            urea\n",
+            "D": "\n\n            uric acid\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_83",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "83",
+        "question": "Which of the following conditions causes aestivation in animals?",
+        "options": {
+            "A": "\n\n            Wind\n",
+            "B": "\n\n            Drought\n",
+            "C": "\n\n            Rain\n",
+            "D": "\n\n            Cold\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_84",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "84",
+        "question": "An instrument used for measuring the intensity of light",
+        "options": {
+            "A": "\n\n            thermometer\n",
+            "B": "\n\n            photometer\n",
+            "C": "\n\n            anemometer\n",
+            "D": "\n\n            hygrometer\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_85",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "85",
+        "question": "A common component of blood and lymph is",
+        "options": {
+            "A": "\n\n            fats\n",
+            "B": "\n\n            plasma\n",
+            "C": "\n\n            red blood cell\n",
+            "D": "\n\n            white blood cell\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_86",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "86",
+        "question": "The part of the kidney where the selective reabsorption takes place is",
+        "options": {
+            "A": "\n\n            glomerulus\n",
+            "B": "\n\n            Bowman's capsule\n",
+            "C": "\n\n            Henle's loop\n",
+            "D": "\n\n            urethra\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_87",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "87",
+        "question": "The schlerenchyma tissues consist of",
+        "options": {
+            "A": "\n\n            dead cell\n",
+            "B": "\n\n            living cell\n",
+            "C": "\n\n            tracheid cell\n",
+            "D": "\n\n            meristematic cell\n"
+        },
+        "correct_answer": "A",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_88",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "88",
+        "question": "The number of vertebrae in the human vertebral column is",
+        "options": {
+            "A": "\n\n            30\n",
+            "B": "\n\n            33\n",
+            "C": "\n\n            38\n",
+            "D": "\n\n            39\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_89",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "89",
+        "question": "The organisms that adopt swarming as an adaptation to overcome overcrowding are",
+        "options": {
+            "A": "\n\n            Agama lizard\n",
+            "B": "\n\n            tilapia\n",
+            "C": "\n\n            rats\n",
+            "D": "\n\n            termites\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_90",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "90",
+        "question": "Loamy soil is characterized by",
+        "options": {
+            "A": "\n\n            low humus and high porosity\n",
+            "B": "\n\n            high humus and high porosity\n",
+            "C": "\n\n            moderate humus and low porosity\n",
+            "D": "\n\n            high humus and moderate porosity\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_91",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "91",
+        "question": "The cone in the retina of eye is an example of",
+        "options": {
+            "A": "\n\n            cell\n",
+            "B": "\n\n            tissue\n",
+            "C": "\n\n            organ\n",
+            "D": "\n\n            system\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_92",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "92",
+        "question": "The part of the flower that develops into seed is",
+        "options": {
+            "A": "\n\n            ovule\n",
+            "B": "\n\n            pedicel\n",
+            "C": "\n\n            petal\n",
+            "D": "\n\n            style\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_93",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "93",
+        "question": "Which of these is a medium of transportation in plants?",
+        "options": {
+            "A": "\n\n            cell sap\n",
+            "B": "\n\n            Nucleus\n",
+            "C": "\n\n            Mitochondrion\n",
+            "D": "\n\n            Ribosome\n"
+        },
+        "correct_answer": "A",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_94",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "94",
+        "question": "Which of the following is a viral disease?",
+        "options": {
+            "A": "\n\n            Syphilis\n",
+            "B": "\n\n            Measles\n",
+            "C": "\n\n            Cholera\n",
+            "D": "\n\n            Typhoid\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_95",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "95",
+        "question": "Use the diagram above to answer the question that follows The experiment is set up to determine the presence of",
+        "options": {
+            "A": "\n\n            chlorophyll\n",
+            "B": "\n\n            starch\n",
+            "C": "\n\n            oxygen\n",
+            "D": "\n\n            pigment\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_95.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_96",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "96",
+        "question": "The type of circulatory system found in arthropods and some molluscs is",
+        "options": {
+            "A": "\n\n            open circulatory system\n",
+            "B": "\n\n            closed circulatory system\n",
+            "C": "\n\n            single circulatory system\n",
+            "D": "\n\n            double circulatory system\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_97",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "97",
+        "question": "In plants, the main excretory product produced during metabolism is",
+        "options": {
+            "A": "\n\n            oxygen\n",
+            "B": "\n\n            alkaloids\n",
+            "C": "\n\n            carbon(iv)oxide\n",
+            "D": "\n\n            mucilage\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_98",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "98",
+        "question": "Use the diagram above to answer the questions that follow The part labelled I is",
+        "options": {
+            "A": "\n\n            oviduct\n",
+            "B": "\n\n            placenta\n",
+            "C": "\n\n            amnion\n",
+            "D": "\n\n            uterus\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_98.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_99",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "99",
+        "question": "Comparative anatomy to study evidence for evolution depends on",
+        "options": {
+            "A": "\n\n            four fingered\n",
+            "B": "\n\n            three fingered\n",
+            "C": "\n\n            two fingered\n",
+            "D": "\n\n            five fingered\n"
+        },
+        "correct_answer": "D",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_100",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "100",
+        "question": "Iron is an essential nutrient in plants because it",
+        "options": {
+            "A": "\n\n            aids in the formation of chlorophyll and proteins\n",
+            "B": "\n\n            helps in cell division\n",
+            "C": "\n\n            protects the plants from pest attack\n",
+            "D": "\n\n            fastens fruits maturation\n"
+        },
+        "correct_answer": "A",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_101",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "101",
+        "question": "The endocrine gland that is called the master gland is the",
+        "options": {
+            "A": "\n\n            thyroid gland\n",
+            "B": "\n\n            pancreas\n",
+            "C": "\n\n            pituitary gland\n",
+            "D": "\n\n            adrenal gland\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_102",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "102",
+        "question": "Which of the following characteristics is possessed by both living and non-living things?",
+        "options": {
+            "A": "\n\n            Both age and die\n",
+            "B": "\n\n            Both have life\n",
+            "C": "\n\n            Both have weight\n",
+            "D": "\n\n            Both have no shape\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_103",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "103",
+        "question": "Infectious diseases are caused by",
+        "options": {
+            "A": "\n\n            bacteria\n",
+            "B": "\n\n            protists\n",
+            "C": "\n\n            Amoeba\n",
+            "D": "\n\n            protozoa\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_104",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "104",
+        "question": "The cell organelle responsible for the synthesis of protein is the",
+        "options": {
+            "A": "\n\n            centriole\n",
+            "B": "\n\n            vacuole\n",
+            "C": "\n\n            plastid\n",
+            "D": "\n\n            ribosome\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_105",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "105",
+        "question": "Use the diagram above to answer the question that follows The diagram demonstrates",
+        "options": {
+            "A": "\n\n            thigmotropism\n",
+            "B": "\n\n            phototropism\n",
+            "C": "\n\n            geotropism\n",
+            "D": "\n\n            hydrotropism\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_105.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_106",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "106",
+        "question": "Which of the following factors can lead to overcrowding?",
+        "options": {
+            "A": "\n\n            Emigration\n",
+            "B": "\n\n            Competition\n",
+            "C": "\n\n            High natality\n",
+            "D": "\n\n            High mortality\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_107",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "107",
+        "question": "The common examples of trees found in the desert are",
+        "options": {
+            "A": "\n\n            raffia palm and coconut\n",
+            "B": "\n\n            baobab and cacti\n",
+            "C": "\n\n            white and red mangrove\n",
+            "D": "\n\n            shea-butter and isobelina\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_108",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "108",
+        "question": "If the F1 generation allows for self-pollination, what will be the genotypic ratio of the offspring?",
+        "options": {
+            "A": "\n\n            1 : 2 : 1\n",
+            "B": "\n\n            2 : 2\n",
+            "C": "\n\n            3 : 1\n",
+            "D": "\n\n            2 : 1 : 1\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_109",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "109",
+        "question": "The resemblance of an organism to another organism as means of enhancing it's chances of survival in its habitat is known as",
+        "options": {
+            "A": "\n\n            counter shading\n",
+            "B": "\n\n            protective colouration\n",
+            "C": "\n\n            mimicry\n",
+            "D": "\n\n            warning\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_110",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "110",
+        "question": "The urinary tubules opens into a proximal convoluted tubule coils to form distal by making a",
+        "options": {
+            "A": "\n\n            Z- shaped loop\n",
+            "B": "\n\n            L- shaped loop\n",
+            "C": "\n\n            U- shaped loop\n",
+            "D": "\n\n            I- shaped loop\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_111",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "111",
+        "question": "A discontinuous morphological variation often used in crime detection is the",
+        "options": {
+            "A": "\n\n            skin colour\n",
+            "B": "\n\n            blood group\n",
+            "C": "\n\n            finger prints\n",
+            "D": "\n\n            eye colour\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_112",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "112",
+        "question": "The component that serves as major buffer in blood is",
+        "options": {
+            "A": "\n\n            plasma\n",
+            "B": "\n\n            erythrocytes\n",
+            "C": "\n\n            leucocytes\n",
+            "D": "\n\n            lymph\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_113",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "113",
+        "question": "DNA carries the genetic information and are generally found in the",
+        "options": {
+            "A": "\n\n            ribosomes\n",
+            "B": "\n\n            chromosomes\n",
+            "C": "\n\n            blood\n",
+            "D": "\n\n            enzymes\n"
+        },
+        "correct_answer": "B",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_114",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "114",
+        "question": "Use the diagram above to answer the question that follows: Recombination of genes at fertilization is represented by the part labelled",
+        "options": {
+            "A": "\n\n            I\n",
+            "B": "\n\n            II\n",
+            "C": "\n\n            III\n",
+            "D": "\n\n            IV\n"
+        },
+        "correct_answer": "C",
+        "topic": "Reproduction",
+        "image": "images/JAMB_Biology_2024_114.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_115",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "115",
+        "question": "Hemophilia in humans is controlled by the",
+        "options": {
+            "A": "\n\n            blood group\n",
+            "B": "\n\n            dominant gene\n",
+            "C": "\n\n            rhesus factor\n",
+            "D": "\n\n            recessive gene\n"
+        },
+        "correct_answer": "D",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_116",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "116",
+        "question": "The part of the brain that receives sensory impulses of smell is the",
+        "options": {
+            "A": "\n\n            olfactory lobe\n",
+            "B": "\n\n            medulla oblongata\n",
+            "C": "\n\n            cerebrum\n",
+            "D": "\n\n            Cerebellum\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2024_117",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2024,
+        "number": "117",
+        "question": "Use the diagram above to answer the question that follows. Examples of non-vascular plants are labelled",
+        "options": {
+            "A": "\n\n            I and II\n",
+            "B": "\n\n            I and III\n",
+            "C": "\n\n            II and III\n",
+            "D": "\n\n            II and IV\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2024_117.png",
+        "source": "myschool.ng"
+    }
+]

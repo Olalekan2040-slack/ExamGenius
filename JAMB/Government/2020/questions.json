@@ -1,0 +1,722 @@
+[
+    {
+        "id": "JAMB_Government_2020_1",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "1",
+        "question": "A constitution is a legal document _________",
+        "options": {
+            "A": "\n\n            drawn up by lawyers\n",
+            "B": "\n\n            enacted by military decrees\n",
+            "C": "\n\n            forming the basis upon which a government rules the country\n",
+            "D": "\n\n            only likely to succeed in countries where there is union government\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_2",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "2",
+        "question": "A government in which control of ultimate power is by a few who rule in their selfish interest is classified as _________",
+        "options": {
+            "A": "\n\n            an oligarchy\n",
+            "B": "\n\n            a dictatorship\n",
+            "C": "\n\n            an aristocracy\n",
+            "D": "\n\n            a monarchy\n"
+        },
+        "correct_answer": "A",
+        "topic": "Forms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_3",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "3",
+        "question": "The judicial organ of government is the body which _________",
+        "options": {
+            "A": "\n\n            implements the law\n",
+            "B": "\n\n            makes the law\n",
+            "C": "\n\n            punishes lawbreakers\n",
+            "D": "\n\n            interprets the law\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_4",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "4",
+        "question": "Which of the following was not established by the 1979 Nigerian constitution?",
+        "options": {
+            "A": "\n\n            Police Service Commission\n",
+            "B": "\n\n            National Universities Commission\n",
+            "C": "\n\n            Federal Electoral Commission\n",
+            "D": "\n\n            National Population Commission\n"
+        },
+        "correct_answer": "B",
+        "topic": "Nigerian Constitution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_5",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "5",
+        "question": "Rates are generally collected in Nigeria by ________",
+        "options": {
+            "A": "\n\n            the State Ministry of Finance\n",
+            "B": "\n\n            the Department of inland Revenue\n",
+            "C": "\n\n            the Emirate of Traditional Council\n",
+            "D": "\n\n            the Local Government Council\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_6",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "6",
+        "question": "In a democracy, sovereignty is in _________",
+        "options": {
+            "A": "\n\n            the community\n",
+            "B": "\n\n            public officials\n",
+            "C": "\n\n            judges\n",
+            "D": "\n\n            the Head of State\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_7",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "7",
+        "question": "Which of the following is a good example of a confederal state?",
+        "options": {
+            "A": "\n\n            Nigeria\n",
+            "B": "\n\n            ECOWAS\n",
+            "C": "\n\n            Switzerland\n",
+            "D": "\n\n            USA\n"
+        },
+        "correct_answer": "B",
+        "topic": "Federalism",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_8",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "8",
+        "question": "A bill that applies to the whole population and is intended to promote the general welfare is called _________",
+        "options": {
+            "A": "\n\n            a private bill\n",
+            "B": "\n\n            a decree\n",
+            "C": "\n\n            an appropriate bill\n",
+            "D": "\n\n            a public bill\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Administration",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_9",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "9",
+        "question": "Fascism developed in________",
+        "options": {
+            "A": "\n\n            France\n",
+            "B": "\n\n            Germany\n",
+            "C": "\n\n            Italy\n",
+            "D": "\n\n            China\n"
+        },
+        "correct_answer": "C",
+        "topic": "Electoral Process",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_10",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "10",
+        "question": "The theory of separation of powers was first time clearly formulated by __________",
+        "options": {
+            "A": "\n\n            Jean Bodin\n",
+            "B": "\n\n            Jean Austin\n",
+            "C": "\n\n            Baron de Montesquieu\n",
+            "D": "\n\n            Lord Bryce\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_11",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "11",
+        "question": "A system of government in which power derives from total control of the instruments of force is called ___________",
+        "options": {
+            "A": "\n\n            monarchy\n",
+            "B": "\n\n            oligarchy\n",
+            "C": "\n\n            capitalism\n",
+            "D": "\n\n            fascism\n"
+        },
+        "correct_answer": "D",
+        "topic": "Forms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_12",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "12",
+        "question": "The British Government revoked the charter of the Royal Niger Company and took over the direct administration of Nigeria in _________",
+        "options": {
+            "A": "\n\n            1861\n",
+            "B": "\n\n            1900\n",
+            "C": "\n\n            1906\n",
+            "D": "\n\n            1914\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_13",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "13",
+        "question": "The Fundamental Objectives and Directive Principles of State Policy in the 1979 constitution do not include _________",
+        "options": {
+            "A": "\n\n            democracy and social justice\n",
+            "B": "\n\n            federal character and inequality\n",
+            "C": "\n\n            concentration of wealth and provision of maximum welfare\n",
+            "D": "\n\n            national integration and ethnic loyalty\n"
+        },
+        "correct_answer": "B",
+        "topic": "Federalism",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_14",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "14",
+        "question": "The founder of the Universal Negro Improvement Association was ________",
+        "options": {
+            "A": "\n\n            Casey Hayford\n",
+            "B": "\n\n            Herbert Macaulay\n",
+            "C": "\n\n            Marcus Garvey\n",
+            "D": "\n\n            W. E. B, DuBois\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_15",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "15",
+        "question": "A characteristic feature of communism is __________",
+        "options": {
+            "A": "\n\n            Free enterprise\n",
+            "B": "\n\n            liberal democracy\n",
+            "C": "\n\n            dictatorship\n",
+            "D": "\n\n            multi-party system\n"
+        },
+        "correct_answer": "C",
+        "topic": "Forms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_16",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "16",
+        "question": "Africans were first elected to the legislative council in British West Africa in _________",
+        "options": {
+            "A": "\n\n            Ghana\n",
+            "B": "\n\n            Sierra Leone\n",
+            "C": "\n\n            The Gambia\n",
+            "D": "\n\n            Nigeria\n"
+        },
+        "correct_answer": "D",
+        "topic": "Arms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_17",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "17",
+        "question": "When a state is subject to no other authority, it is said to be _________",
+        "options": {
+            "A": "\n\n            powerful\n",
+            "B": "\n\n            legitmate\n",
+            "C": "\n\n            authoritative\n",
+            "D": "\n\n            sovereign\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_18",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "18",
+        "question": "While pressure groups aim at influencing government decisions, the primary aim of political parties is to ______",
+        "options": {
+            "A": "\n\n            promote the welfare of their members\n",
+            "B": "\n\n            execute particular programmes\n",
+            "C": "\n\n            influence legislation in order to benefit their members\n",
+            "D": "\n\n            control political power\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_19",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "19",
+        "question": "In the traditional Hausa-Fulani political system, political authority was vested in the ___________",
+        "options": {
+            "A": "\n\n            Emir\n",
+            "B": "\n\n            Talakawa\n",
+            "C": "\n\n            Alkali\n",
+            "D": "\n\n            Emirate Council\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_20",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "20",
+        "question": "Southern Nigeria was divided into Eastern and Western provinces for administrative purposes in _________",
+        "options": {
+            "A": "\n\n            1935\n",
+            "B": "\n\n            1937\n",
+            "C": "\n\n            1939\n",
+            "D": "\n\n            1941\n"
+        },
+        "correct_answer": "C",
+        "topic": "Forms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_21",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "21",
+        "question": "Within the United Nations, the vote power is exercised in __________",
+        "options": {
+            "A": "\n\n            UNESCO\n",
+            "B": "\n\n            WHO\n",
+            "C": "\n\n            the General Assembly\n",
+            "D": "\n\n            the Security Council\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_22",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "22",
+        "question": "A set of internalized norms which guides political action is called ________",
+        "options": {
+            "A": "\n\n            power\n",
+            "B": "\n\n            value\n",
+            "C": "\n\n            law\n",
+            "D": "\n\n            symbol\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_23",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "23",
+        "question": "A condition for judicial independence is the appointment of judges by the __________",
+        "options": {
+            "A": "\n\n            Civil Service\n",
+            "B": "\n\n            Judicial Service Commission\n",
+            "C": "\n\n            Law Review Commission\n",
+            "D": "\n\n            Code of Conduct Bureau\n"
+        },
+        "correct_answer": "B",
+        "topic": "Arms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_24",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "24",
+        "question": "Which of the following is not associated with local government elections?",
+        "options": {
+            "A": "\n\n            Constituency\n",
+            "B": "\n\n            Ballot Box\n",
+            "C": "\n\n            Electoral Officer\n",
+            "D": "\n\n            Ward\n"
+        },
+        "correct_answer": "A",
+        "topic": "Electoral Process",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_25",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "25",
+        "question": "Warrant Chiefs were appointed to __________",
+        "options": {
+            "A": "\n\n            Prevent tribal wars\n",
+            "B": "\n\n            supervise native courts\n",
+            "C": "\n\n            decide divorce cases\n",
+            "D": "\n\n            take charge of local administration\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Administration",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_26",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "26",
+        "question": "The application of the rule of law may be constrained by ________",
+        "options": {
+            "A": "\n\n            securing the tenure of office of judges\n",
+            "B": "\n\n            insulating judges from partisan politics\n",
+            "C": "\n\n            employing men of proven integrity as judges\n",
+            "D": "\n\n            invoking emergency powers\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_27",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "27",
+        "question": "The highest court in Nigeria before 1963 was the _________",
+        "options": {
+            "A": "\n\n            Supreme Court\n",
+            "B": "\n\n            High Court\n",
+            "C": "\n\n            Judicial Committees of the Privy Council\n",
+            "D": "\n\n            Court of Appeal\n"
+        },
+        "correct_answer": "C",
+        "topic": "Arms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_28",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "28",
+        "question": "A feature unique to General Murtala Muhammed's Supreme Military Council as compared to that of General Yakubu Gowon was the _________",
+        "options": {
+            "A": "\n\n            inclusion of the civilians as members\n",
+            "B": "\n\n            exclusion of military governors from the council\n",
+            "C": "\n\n            inclusion of the chief justice as a member\n",
+            "D": "\n\n            the exclusion of the Inspector General of police from the council\n"
+        },
+        "correct_answer": "B",
+        "topic": "Forms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_29",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "29",
+        "question": "In the First Republic, Nigeria was very reluctant to have meaningful interaction with ________",
+        "options": {
+            "A": "\n\n            Italy\n",
+            "B": "\n\n            the Soviet Union\n",
+            "C": "\n\n            the United States of America\n",
+            "D": "\n\n            Germany\n"
+        },
+        "correct_answer": "C",
+        "topic": "Public Administration",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_30",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "30",
+        "question": "The Gulf War of 1990 is an indication that the U. N. O. is unable to _______",
+        "options": {
+            "A": "\n\n            ensure free world trade\n",
+            "B": "\n\n            stop colonialism\n",
+            "C": "\n\n            control armament\n",
+            "D": "\n\n            ensure permanent world peace\n"
+        },
+        "correct_answer": "D",
+        "topic": "Arms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_31",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "31",
+        "question": "The simple plurality electoral system is often criticized because _________",
+        "options": {
+            "A": "\n\n            the ruling party may lose the election\n",
+            "B": "\n\n            the winner may not poll an absolute majority\n",
+            "C": "\n\n            it works against all opposition parties\n",
+            "D": "\n\n            it is easy to rig\n"
+        },
+        "correct_answer": "D",
+        "topic": "Political Parties",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_32",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "32",
+        "question": "Which of the following was the last to win independence from colonial rule ?",
+        "options": {
+            "A": "\n\n            Cote d'Ivoire\n",
+            "B": "\n\n            Algeria\n",
+            "C": "\n\n            Tanzania\n",
+            "D": "\n\n            Angola\n"
+        },
+        "correct_answer": "D",
+        "topic": "Pre-colonial Systems",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_33",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "33",
+        "question": "Nigeria's non-aligned policy means that she will _________",
+        "options": {
+            "A": "\n\n            have nothing to do with the superpowers\n",
+            "B": "\n\n            not take sides in international issues based on ideological considerations\n",
+            "C": "\n\n            avoid having any dealing with any country with ideological learnings\n",
+            "D": "\n\n            relate only with member countries of the Non-Aligned movement\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Concepts in Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_34",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "34",
+        "question": "The charter of the United Nations was drawn up in ________",
+        "options": {
+            "A": "\n\n            New York\n",
+            "B": "\n\n            San Franciso\n",
+            "C": "\n\n            Washington DC\n",
+            "D": "\n\n            Los Angeles\n"
+        },
+        "correct_answer": "B",
+        "topic": "Citizenship",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_35",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "35",
+        "question": "The idea of making the civil service permanent, neutral and anonymous is to _________",
+        "options": {
+            "A": "\n\n            make civil servants a functional elite\n",
+            "B": "\n\n            prevent opposition to government\n",
+            "C": "\n\n            ensure loyalty and support\n",
+            "D": "\n\n            enhance efficiency in administration\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Administration",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_36",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "36",
+        "question": "The delineation of constituencies is a major duty of the __________",
+        "options": {
+            "A": "\n\n            electoral commission\n",
+            "B": "\n\n            boundary commission\n",
+            "C": "\n\n            national assemblies\n",
+            "D": "\n\n            political parties\n"
+        },
+        "correct_answer": "A",
+        "topic": "Citizenship",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_37",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "37",
+        "question": "A meeting of the legislature is usually brought to an end with __________",
+        "options": {
+            "A": "\n\n            an adjournment\n",
+            "B": "\n\n            a prorogation\n",
+            "C": "\n\n            a dissolution\n",
+            "D": "\n\n            suspension\n"
+        },
+        "correct_answer": "A",
+        "topic": "Arms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_38",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "38",
+        "question": "The economic basis of feudalism is __________",
+        "options": {
+            "A": "\n\n            agriculture\n",
+            "B": "\n\n            capital\n",
+            "C": "\n\n            trade\n",
+            "D": "\n\n            slavery\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_39",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "39",
+        "question": "NEPAD was adopted during the OAU summit held in _________",
+        "options": {
+            "A": "\n\n            Tunis\n",
+            "B": "\n\n            Lusaka\n",
+            "C": "\n\n            Cairo\n",
+            "D": "\n\n            Abuja\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2020_40",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2020,
+        "number": "40",
+        "question": "The Premier of Western Region immediately after independence was _________",
+        "options": {
+            "A": "\n\n            Chief Obafemi Awolowo\n",
+            "B": "\n\n            Chief Ladoke Akintola\n",
+            "C": "\n\n            DR. M. A. Majekodunmi\n",
+            "D": "\n\n            Ahaji D. S. Adegbenro\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

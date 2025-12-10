@@ -1,0 +1,722 @@
+[
+    {
+        "id": "JAMB_Mathematics_2022_1",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "1",
+        "question": "Solve for k in the equation \\(\\frac{1}{8}^{k+2}\\) = 1",
+        "options": {
+            "A": "\n\n            2\n",
+            "B": "\n\n            -4\n",
+            "C": "\n\n            -2\n",
+            "D": "\n\n            4\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_2",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "2",
+        "question": "Evaluate \\((101_{two})^3\\)",
+        "options": {
+            "A": "\n\n            \\(111101_{two}\\)\n",
+            "B": "\n\n            \\(11111101_{two}\\)\n",
+            "C": "\n\n            \\(1111101_{two}\\)\n",
+            "D": "\n\n            \\(11001_{two}\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_3",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "3",
+        "question": "The shaded portion in the venn diagram above represents?",
+        "options": {
+            "A": "\n\n            F - (E n F) - (G n F)\n",
+            "B": "\n\n            E' n F n G'\n",
+            "C": "\n\n            E u F u G\n",
+            "D": "\n\n            F\n"
+        },
+        "correct_answer": "B",
+        "topic": "Number Bases",
+        "image": "images/JAMB_Mathematics_2022_3.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_4",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "4",
+        "question": "If a fair coin is tossed twice, what is the probability of obtaining at least one head?",
+        "options": {
+            "A": "\n\n            0.25\n",
+            "B": "\n\n            0.75\n",
+            "C": "\n\n            0.5\n",
+            "D": "\n\n            0.33\n"
+        },
+        "correct_answer": "B",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_5",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "5",
+        "question": "If the mean of 2, 5, (x+1), (x+2), 7 and 9 is 6. Find the median",
+        "options": {
+            "A": "\n\n            5.5\n",
+            "B": "\n\n            5\n",
+            "C": "\n\n            6.5\n",
+            "D": "\n\n            6\n"
+        },
+        "correct_answer": "C",
+        "topic": "Statistics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_6",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "6",
+        "question": "If sin θ = -  \\(\\frac{3}{5}\\) and θ lies in the third quadrant, find cos θ",
+        "options": {
+            "A": "\n\n            \\(\\frac{4}{5}\\)\n",
+            "B": "\n\n            - \\(\\frac{5}{4}\\)\n",
+            "C": "\n\n            \\(\\frac{5}{4}\\)\n",
+            "D": "\n\n            - \\(\\frac{4}{5}\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Trigonometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_7",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "7",
+        "question": "Simplify \\(\\frac{1}{3-√2}\\) in the form of p + q√2",
+        "options": {
+            "A": "\n\n            \\(\\frac{7}{3}\\) - \\(\\frac{1}{7√2}\\)\n",
+            "B": "\n\n            \\(\\frac{7}{3}\\) + \\(\\frac{1}{7√2}\\)\n",
+            "C": "\n\n            \\(\\frac{3}{7}\\) - \\(\\frac{1}{7√2}\\)\n",
+            "D": "\n\n            \\(\\frac{3}{7}\\) + \\(\\frac{√2}{7}\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Surds",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_8",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "8",
+        "question": "Find the length of a chord 3cm from the centre of a circle of radius 5cm",
+        "options": {
+            "A": "\n\n            8cm\n",
+            "B": "\n\n            5.6cm\n",
+            "C": "\n\n            7cm\n",
+            "D": "\n\n            6.5cm\n"
+        },
+        "correct_answer": "A",
+        "topic": "Mensuration",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_9",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "9",
+        "question": "Mr Adu spends his annual salary on food(f), rent(r), car maintenance, gifts(g), savings(s) and some miscellaneous (m) as indicate in the table below: F R C G S M 28% 15% 20% 14% 10% 13% If the above information is represented on a pie chart. What angle represents his spending on food?",
+        "options": {
+            "A": "\n\n            108.5\n",
+            "B": "\n\n            100.8\n",
+            "C": "\n\n            98.8\n",
+            "D": "\n\n            120.5\n"
+        },
+        "correct_answer": "B",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_10",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "10",
+        "question": "A rectangular pyramid has an area 24cm\\(^2\\) and height 7.5cm. Find its volume?",
+        "options": {
+            "A": "\n\n            65.0cm\\(^3\\)\n",
+            "B": "\n\n            70.5cm\\(^3\\)\n",
+            "C": "\n\n            56.5cm\\(^3\\)\n",
+            "D": "\n\n            60.0cm\\(^3\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Mensuration",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_11",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "11",
+        "question": "The 10th term of an AP is 32. If the first term is 3/2, what is the 4th term?",
+        "options": {
+            "A": "\n\n            35/3\n",
+            "B": "\n\n            64\n",
+            "C": "\n\n            16\n",
+            "D": "\n\n            35/2\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_12",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "12",
+        "question": "In the diagram above angle LNM and angle YNZ are represented by g and h respectively. Find ∠MNY",
+        "options": {
+            "A": "\n\n            180º - gº - hº\n",
+            "B": "\n\n            360º - (g-h)º\n",
+            "C": "\n\n            180º - (g-h)º\n",
+            "D": "\n\n            360º - gº - hº\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": "images/JAMB_Mathematics_2022_12.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_13",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "13",
+        "question": "In how many ways can the letter of ZOOLOGY be arranged?",
+        "options": {
+            "A": "\n\n            720\n",
+            "B": "\n\n            360\n",
+            "C": "\n\n            840\n",
+            "D": "\n\n            120\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_14",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "14",
+        "question": "Integrate (2x+1)\\(^3\\)",
+        "options": {
+            "A": "\n\n            \\(\\frac{{2x+1}^3}{8}\\) + C\n",
+            "B": "\n\n            \\(\\frac{{2x+1}^4}{8}\\) + C\n",
+            "C": "\n\n            \\(\\frac{{2x+1}^4}{4}\\) + C\n",
+            "D": "\n\n            \\(\\frac{{2x+1}^2}{6}\\) + C\n"
+        },
+        "correct_answer": "B",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_15",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "15",
+        "question": "If A = \\(\\begin{pmatrix} 2 & 1 \\\\ 2 & 3 \\\\ 1 & 2 \\end{pmatrix}\\) and B = \\(\\begin{pmatrix} 3 & 2 \\\\ 4 & 2 \\end{pmatrix}\\). Find AB",
+        "options": {
+            "A": "\n\n            \\(\\begin{pmatrix} 18 & 6 \\\\ 12 & 10 \\\\ 10 & 6 \\end{pmatrix}\\)\n",
+            "B": "\n\n            \\(\\begin{pmatrix} 10 & 6 \\\\ 13 & 10 \\\\ 12 & 6 \\end{pmatrix}\\)\n",
+            "C": "\n\n            \\(\\begin{pmatrix} 10 & 6 \\\\ 12 & 10 \\\\ 11 & 6 \\end{pmatrix}\\)\n",
+            "D": "\n\n            \\(\\begin{pmatrix} 10 & 6 \\\\ 18 & 10 \\\\ 11 & 6 \\end{pmatrix}\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_16",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "16",
+        "question": "Given that r = \\( \\sqrt \\frac{3v}{\\pi h} \\), make v the subject of the formula",
+        "options": {
+            "A": "\n\n            v = 3 \\(πr^2\\) h\n",
+            "B": "\n\n            v = \\(\\frac{πrh}{3}\\)\n",
+            "C": "\n\n            v =  \\(\\frac{πr^2h}{3}\\)\n",
+            "D": "\n\n            v = 3πrh\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_17",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "17",
+        "question": "Find the determinant of the matrix A = \\(\\begin{pmatrix} 2 & 3 \\\\ 1 & 3 \\end{pmatrix}\\)",
+        "options": {
+            "A": "\n\n            4\n",
+            "B": "\n\n            2\n",
+            "C": "\n\n            5\n",
+            "D": "\n\n            3\n"
+        },
+        "correct_answer": "D",
+        "topic": "Matrices",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_18",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "18",
+        "question": "Evaluate Log\\(_2\\) 8 √2",
+        "options": {
+            "A": "\n\n            3.0\n",
+            "B": "\n\n            4.5\n",
+            "C": "\n\n            3.5\n",
+            "D": "\n\n            2.5\n"
+        },
+        "correct_answer": "C",
+        "topic": "Indices/Logarithms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_19",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "19",
+        "question": "The locus of points equidistant from a fixed point.",
+        "options": {
+            "A": "\n\n            circle\n",
+            "B": "\n\n            perpendicular lines\n",
+            "C": "\n\n            straight line\n",
+            "D": "\n\n            bisector\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_20",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "20",
+        "question": "What will be the result obtained when the numerator of \\(\\frac{96}{50}\\) is decreased by 37.5% and its denominator decreased by 20%.",
+        "options": {
+            "A": "\n\n            1.5\n",
+            "B": "\n\n            \\(\\frac{5}{2}\\)\n",
+            "C": "\n\n            \\(\\frac{96}{48}\\)\n",
+            "D": "\n\n            0.5\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_21",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "21",
+        "question": "A poultry farmer realized 200 eggs from his birds and sold 5 \\(\\frac{1}{2}\\) crates of eggs. What percentages of eggs are left?",
+        "options": {
+            "A": "\n\n            82.5%\n",
+            "B": "\n\n            15%\n",
+            "C": "\n\n            17.5%\n",
+            "D": "\n\n            85%\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_22",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "22",
+        "question": "If sec\\(^2\\)θ + tan\\(^2\\)θ = 3, then the angle θ is equal to?",
+        "options": {
+            "A": "\n\n            90º\n",
+            "B": "\n\n            30º\n",
+            "C": "\n\n            45º\n",
+            "D": "\n\n            60º\n"
+        },
+        "correct_answer": "C",
+        "topic": "Trigonometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_23",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "23",
+        "question": "find the limit of y = \\(\\frac{x^3 + 6x - 7}{x-1}\\) as x tends to 1",
+        "options": {
+            "A": "\n\n            9\n",
+            "B": "\n\n            8\n",
+            "C": "\n\n            0\n",
+            "D": "\n\n            7\n"
+        },
+        "correct_answer": "A",
+        "topic": "Calculus",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_24",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "24",
+        "question": "Find the equation of a straight line parallel to the line 2x - y = 5 and having intercept of 5",
+        "options": {
+            "A": "\n\n            2x + y = 5\n",
+            "B": "\n\n            2x + y = -5\n",
+            "C": "\n\n            2x - y = -5\n",
+            "D": "\n\n            2x - y = 5\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_25",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "25",
+        "question": "Calculate the median of 14, 17, 10, 13, 18 and 10.",
+        "options": {
+            "A": "\n\n            12.5\n",
+            "B": "\n\n            13.5\n",
+            "C": "\n\n            13.2\n",
+            "D": "\n\n            14.5\n"
+        },
+        "correct_answer": "B",
+        "topic": "Statistics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_26",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "26",
+        "question": "The equivalent of (10110.011)\\(_2\\) in base 10 is?",
+        "options": {
+            "A": "\n\n            26.325\n",
+            "B": "\n\n            24.372\n",
+            "C": "\n\n            42.443\n",
+            "D": "\n\n            22.375\n"
+        },
+        "correct_answer": "D",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_27",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "27",
+        "question": "The cost C of running a school is directly proportional to the number of students N, if 20 students cost #10,000, How many students can #1,000,000 cover?",
+        "options": {
+            "A": "\n\n            3000\n",
+            "B": "\n\n            1000\n",
+            "C": "\n\n            2000\n",
+            "D": "\n\n            4000\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_28",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "28",
+        "question": "The coordinates of the mid-point of the line joining the points (-3,5) and (2,10) is given by?",
+        "options": {
+            "A": "\n\n            ( \\(\\frac{1}{2}\\), \\(\\frac{15}{2}\\) )\n",
+            "B": "\n\n            ( \\(\\frac{1}{2}\\), \\(\\frac{-15}{2}\\) )\n",
+            "C": "\n\n            ( \\(\\frac{-1}{2}\\), \\(\\frac{-15}{2}\\) )\n",
+            "D": "\n\n            ( \\(\\frac{-1}{2}\\), \\(\\frac{15}{2}\\) )\n"
+        },
+        "correct_answer": "D",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_29",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "29",
+        "question": "Evaluate \\(^{n^2 + 1}\\)C\\(_{n+5}\\) if n = 3",
+        "options": {
+            "A": "\n\n            55\n",
+            "B": "\n\n            45\n",
+            "C": "\n\n            35\n",
+            "D": "\n\n            25\n"
+        },
+        "correct_answer": "B",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_30",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "30",
+        "question": "Given that S = \\(3t^{2}\\) + 5t - 10 is displacement of a particle in metres, calculate it initial velocity.",
+        "options": {
+            "A": "\n\n            10m/s\n",
+            "B": "\n\n            2m/s\n",
+            "C": "\n\n            5m/s\n",
+            "D": "\n\n            6m/s\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_31",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "31",
+        "question": "In the diagram above, XY = 8cm and OX = 5cm. Find Oz",
+        "options": {
+            "A": "\n\n            9cm\n",
+            "B": "\n\n            3.4cm\n",
+            "C": "\n\n            9.1cm\n",
+            "D": "\n\n            3cm\n"
+        },
+        "correct_answer": "D",
+        "topic": "Number Bases",
+        "image": "images/JAMB_Mathematics_2022_31.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_32",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "32",
+        "question": "Let (*) be a binary operation on a natural number defined by a * b = a - b + (ab)\\(^2\\), then find 3 * 5",
+        "options": {
+            "A": "\n\n            223\n",
+            "B": "\n\n            232\n",
+            "C": "\n\n            32\n",
+            "D": "\n\n            -232\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_33",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "33",
+        "question": "If y varies inversely as x and x = 3 when y =4. Find the value of x when y = 12",
+        "options": {
+            "A": "\n\n            4\n",
+            "B": "\n\n            1\n",
+            "C": "\n\n            2\n",
+            "D": "\n\n            3\n"
+        },
+        "correct_answer": "B",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_34",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "34",
+        "question": "If 8, p, q and 26 is an A.P. Find the values of p and q",
+        "options": {
+            "A": "\n\n            p = 14 and q = 14\n",
+            "B": "\n\n            p = 20 and q = 14\n",
+            "C": "\n\n            p = 20 and q = 20\n",
+            "D": "\n\n            p = 14 and q = 20\n"
+        },
+        "correct_answer": "D",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_35",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "35",
+        "question": "Find x if the mean of 2x, 4x, 2x - 13 and 6x is 4.",
+        "options": {
+            "A": "\n\n            1.5\n",
+            "B": "\n\n            2.0\n",
+            "C": "\n\n            1.0\n",
+            "D": "\n\n            0.5\n"
+        },
+        "correct_answer": "B",
+        "topic": "Statistics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_36",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "36",
+        "question": "Factorize 4a\\(^2\\) - 9b\\(^2\\)",
+        "options": {
+            "A": "\n\n            (2a-3b) (2a+3b)\n",
+            "B": "\n\n            (2a-b) (2a+3b)\n",
+            "C": "\n\n            (2a-3b) (a+3b)\n",
+            "D": "\n\n            (a-3b) (a+3b)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_37",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "37",
+        "question": "If n(P) = 20 and n(Q) = 30 and n(PuQ) = 40, find the value n(PnQ)",
+        "options": {
+            "A": "\n\n            10\n",
+            "B": "\n\n            30\n",
+            "C": "\n\n            15\n",
+            "D": "\n\n            40\n"
+        },
+        "correct_answer": "A",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_38",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "38",
+        "question": "Three times a certain number (x), minus 2 is less than the number minus 6.Find the possible values of x.",
+        "options": {
+            "A": "\n\n            x <-2\n",
+            "B": "\n\n            x>2\n",
+            "C": "\n\n            x>-2\n",
+            "D": "\n\n            x<2\n"
+        },
+        "correct_answer": "A",
+        "topic": "Inequalities",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_39",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "39",
+        "question": "The number line represented by the inequality",
+        "options": {
+            "A": "\n\n            x≤2\n",
+            "B": "\n\n            x<2\n",
+            "C": "\n\n            x≥2\n",
+            "D": "\n\n            x>2\n"
+        },
+        "correct_answer": "C",
+        "topic": "Number Bases",
+        "image": "images/JAMB_Mathematics_2022_39.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Mathematics_2022_40",
+        "exam": "JAMB",
+        "subject": "Mathematics",
+        "year": 2022,
+        "number": "40",
+        "question": "If a dress is sold for #3800.00 at 20% discount. what is its original price?",
+        "options": {
+            "A": "\n\n            #3,000.00\n",
+            "B": "\n\n            #4,000.00\n",
+            "C": "\n\n            #5,000.00\n",
+            "D": "\n\n            #4,750.00\n"
+        },
+        "correct_answer": "D",
+        "topic": "Number Bases",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

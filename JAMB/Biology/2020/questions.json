@@ -1,0 +1,721 @@
+[
+    {
+        "id": "JAMB_Biology_2020_1",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "1",
+        "question": "The hormone which regulates the amount of glucose in the blood is called?",
+        "options": {
+            "A": "\n\n            Adrenalin\n",
+            "B": "\n\n            Auxin\n",
+            "C": "\n\n            Insulin\n",
+            "D": "\n\n            Thyroxine\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_2",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "2",
+        "question": "Deamination occurs in the?",
+        "options": {
+            "A": "\n\n            Kidney\n",
+            "B": "\n\n            Pancreas\n",
+            "C": "\n\n            Spleen\n",
+            "D": "\n\n            Liver\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_3",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "3",
+        "question": "In an agricultural ecosystem, the biotic component consist of",
+        "options": {
+            "A": "\n\n            crops, pests and beneficial insects\n",
+            "B": "\n\n            crops, temperature and humidity\n",
+            "C": "\n\n            pests, beneficial insects and water\n",
+            "D": "\n\n            crops, water and soil\n"
+        },
+        "correct_answer": "A",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_4",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "4",
+        "question": "Epiphytes growing on the branches of trees provide an example of the relationship known as?",
+        "options": {
+            "A": "\n\n            parasitism\n",
+            "B": "\n\n            commensalism\n",
+            "C": "\n\n            saprophytism\n",
+            "D": "\n\n            holophytism\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_5",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "5",
+        "question": "The hypha of rhizopus is said to be non-septate because it",
+        "options": {
+            "A": "\n\n            does not contain chloropyll\n",
+            "B": "\n\n            has no cross wall\n",
+            "C": "\n\n            is vacuoled\n",
+            "D": "\n\n            stores oil globus\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_6",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "6",
+        "question": "The function of ribosome in cells is",
+        "options": {
+            "A": "\n\n            protein synthesis\n",
+            "B": "\n\n            starch synthesis\n",
+            "C": "\n\n            transport of material\n",
+            "D": "\n\n            lipid storage\n"
+        },
+        "correct_answer": "A",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_7",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "7",
+        "question": "In which of the following does external fertilization take place?",
+        "options": {
+            "A": "\n\n            toad\n",
+            "B": "\n\n            lizard\n",
+            "C": "\n\n            bird\n",
+            "D": "\n\n            cockroach\n"
+        },
+        "correct_answer": "A",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_8",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "8",
+        "question": "The villus in the small intestine is significant because",
+        "options": {
+            "A": "\n\n            Increases the surface area for absorption\n",
+            "B": "\n\n            increases the surface area for digestion\n",
+            "C": "\n\n            assists in mixing digested food\n",
+            "D": "\n\n            assists in filtering undigested food\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_9",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "9",
+        "question": "The butterfly is of great economic importance because",
+        "options": {
+            "A": "\n\n            of it's use in scientific studies\n",
+            "B": "\n\n            it sucks nectar from flowers\n",
+            "C": "\n\n            it adds to the beauty of the environment\n",
+            "D": "\n\n            it pollinates flowers of crops and other plants\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_10",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "10",
+        "question": "The bright colours of the comb and feathers in the peacock are for?",
+        "options": {
+            "A": "\n\n            sex differentiation\n",
+            "B": "\n\n            beauty\n",
+            "C": "\n\n            courtship\n",
+            "D": "\n\n            defence\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_11",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "11",
+        "question": "What is the term used to describe biotic and abiotic factors in the environment of the organism?",
+        "options": {
+            "A": "\n\n            habitat\n",
+            "B": "\n\n            biome\n",
+            "C": "\n\n            ecosystem\n",
+            "D": "\n\n            ecological niche\n"
+        },
+        "correct_answer": "C",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_12",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "12",
+        "question": "Which of the following instruments is NOT used in measuring abiotic factors in any habitat?",
+        "options": {
+            "A": "\n\n            microscope\n",
+            "B": "\n\n            thermometer\n",
+            "C": "\n\n            hygrometer\n",
+            "D": "\n\n            windvane\n"
+        },
+        "correct_answer": "A",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_13",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "13",
+        "question": "The smallest living organism which share the characteristics of both living and non-living matter are",
+        "options": {
+            "A": "\n\n            bacteria\n",
+            "B": "\n\n            fungi\n",
+            "C": "\n\n            viruses\n",
+            "D": "\n\n            protozoa\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_14",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "14",
+        "question": "The process by which a red blood cell placed in distilled water absorbs water until it burst and realease it's content into the surrounding is known as",
+        "options": {
+            "A": "\n\n            osmosis\n",
+            "B": "\n\n            plasmolysis\n",
+            "C": "\n\n            turgidity\n",
+            "D": "\n\n            hemolysis\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_15",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "15",
+        "question": "Which of the following waste products in plants is excreted through the stomata and lenticles?",
+        "options": {
+            "A": "\n\n            carbon dioxide\n",
+            "B": "\n\n            alkaloids\n",
+            "C": "\n\n            tannins\n",
+            "D": "\n\n            anthoocyanins\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_16",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "16",
+        "question": "Use the diagram to answer the question The vertebra illustrated is",
+        "options": {
+            "A": "\n\n            lumber\n",
+            "B": "\n\n            thoracic\n",
+            "C": "\n\n            caudal\n",
+            "D": "\n\n            cervical\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_16.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_17",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "17",
+        "question": "Use the diagram to answer the question The neural arch is labelled",
+        "options": {
+            "A": "\n\n            i\n",
+            "B": "\n\n            ii\n",
+            "C": "\n\n            iii\n",
+            "D": "\n\n            iv\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_17.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_18",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "18",
+        "question": "The excretory structure in the earthworm is the",
+        "options": {
+            "A": "\n\n            malphighian tubule\n",
+            "B": "\n\n            flame cell\n",
+            "C": "\n\n            nephridium\n",
+            "D": "\n\n            kidney\n"
+        },
+        "correct_answer": "C",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_19",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "19",
+        "question": "In which of the following vertebrates does the skin function as a respiratory surface",
+        "options": {
+            "A": "\n\n            rat\n",
+            "B": "\n\n            lizard\n",
+            "C": "\n\n            fish\n",
+            "D": "\n\n            frog\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_20",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "20",
+        "question": "The process of walking is under the control of the part of the brain called",
+        "options": {
+            "A": "\n\n            optic lobe\n",
+            "B": "\n\n            olfactory lobe\n",
+            "C": "\n\n            cerebellum\n",
+            "D": "\n\n            medulla oblongata\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_21",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "21",
+        "question": "The ability of the eyes to focus on both near and distance objects is termed",
+        "options": {
+            "A": "\n\n            image formation\n",
+            "B": "\n\n            refraction\n",
+            "C": "\n\n            hypermetropia\n",
+            "D": "\n\n            accommodation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_22",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "22",
+        "question": "A group of organism of different species living in a particular area is described as a",
+        "options": {
+            "A": "\n\n            colony\n",
+            "B": "\n\n            community\n",
+            "C": "\n\n            population\n",
+            "D": "\n\n            niche\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_23",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "23",
+        "question": "The biological association that contributes directly to succession in a community is",
+        "options": {
+            "A": "\n\n            competition\n",
+            "B": "\n\n            predation\n",
+            "C": "\n\n            parasitism\n",
+            "D": "\n\n            commensalism\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_24",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "24",
+        "question": "Floating microscopic heterotrophs are mostly grouped as",
+        "options": {
+            "A": "\n\n            phytoplankton\n",
+            "B": "\n\n            zooplankton\n",
+            "C": "\n\n            microbes\n",
+            "D": "\n\n            nekton\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_25",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "25",
+        "question": "Vaccination is carried out in order to",
+        "options": {
+            "A": "\n\n            check the production of poison\n",
+            "B": "\n\n            increase the activities of white blood cells\n",
+            "C": "\n\n            increase the number of red blood cells\n",
+            "D": "\n\n            stimulate the production of anti-bodies\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_26",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "26",
+        "question": "For growth to occur in organisms, the rate of",
+        "options": {
+            "A": "\n\n            anabolism must exceed that of catabolism\n",
+            "B": "\n\n            catabolism must exceed that of anabolism\n",
+            "C": "\n\n            food storage must be low\n",
+            "D": "\n\n            food storage must be high\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_27",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "27",
+        "question": "The probability of a baby being a boy or a girl depends on the contribution of the",
+        "options": {
+            "A": "\n\n            father's sex cells\n",
+            "B": "\n\n            father's stomatic chromosome\n",
+            "C": "\n\n            mother's sex cell\n",
+            "D": "\n\n            mother's X-chromosome\n"
+        },
+        "correct_answer": "A",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_28",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "28",
+        "question": "Both recesssive and dominant characters are found",
+        "options": {
+            "A": "\n\n            on different chromosome in the cell\n",
+            "B": "\n\n            at the same logus of a homologous chromosome\n",
+            "C": "\n\n            at a different loci of a homologous chromosome\n",
+            "D": "\n\n            on the same chromatid in a chromosome\n"
+        },
+        "correct_answer": "B",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_29",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "29",
+        "question": "In a population of living things, the parameters of size, height, weight and colours are examples of",
+        "options": {
+            "A": "\n\n            continuous variation\n",
+            "B": "\n\n            non-heritable variation\n",
+            "C": "\n\n            discontinuous variation\n",
+            "D": "\n\n            physiological variation\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_30",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "30",
+        "question": "Use the diagram to answer the question. The process of water loss and intake indicated by the arrows labelled i and ii are respectively",
+        "options": {
+            "A": "\n\n            evaporation and osmosis\n",
+            "B": "\n\n            osmosis and exhalation\n",
+            "C": "\n\n            osmosis and diffusion\n",
+            "D": "\n\n            urination and diffusion\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_30.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_31",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "31",
+        "question": "The noticeable adaptation of the animal to it's aquatic habitat is the possession of",
+        "options": {
+            "A": "\n\n            webbed digits\n",
+            "B": "\n\n            four limb\n",
+            "C": "\n\n            wide mouth\n",
+            "D": "\n\n            large eyes\n"
+        },
+        "correct_answer": "A",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_32",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "32",
+        "question": "Paternity disputes can most accurately be resolved through the use of",
+        "options": {
+            "A": "\n\n            blood group typing\n",
+            "B": "\n\n            finger printing\n",
+            "C": "\n\n            tongue rolling\n",
+            "D": "\n\n            DNA Analysis\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_33",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "33",
+        "question": "Use the table below to answer the question. High relative humidity will be expected in Zones",
+        "options": {
+            "A": "\n\n            ii and iv\n",
+            "B": "\n\n            ii and iii\n",
+            "C": "\n\n            i and iii\n",
+            "D": "\n\n            i and iv\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_33.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_34",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "34",
+        "question": "Use the table to answer the question. Which of the zones is likely to be a desert?",
+        "options": {
+            "A": "\n\n            i\n",
+            "B": "\n\n            ii\n",
+            "C": "\n\n            iii\n",
+            "D": "\n\n            iv\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_34.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_35",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "35",
+        "question": "When bacteria swim from cold to warm regions, this is known as",
+        "options": {
+            "A": "\n\n            positive phototaxis\n",
+            "B": "\n\n            negative phototaxis\n",
+            "C": "\n\n            positive thermotaxis\n",
+            "D": "\n\n            negative chemotaxis\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_36",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "36",
+        "question": "The only caste in the termite colony whose members can feed themselves are the",
+        "options": {
+            "A": "\n\n            workers\n",
+            "B": "\n\n            reproductives\n",
+            "C": "\n\n            soldiers\n",
+            "D": "\n\n            nymphs\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_37",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "37",
+        "question": "Which of the following is the best explanation for a child who is phenotypically short and born of two tall parents",
+        "options": {
+            "A": "\n\n            both parent possess genes for shortness\n",
+            "B": "\n\n            the father possess a gene for shortness\n",
+            "C": "\n\n            nature makes the child short\n"
+        },
+        "correct_answer": "A",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_38",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "38",
+        "question": "Which of the following vertebrates has the most simple structured heart",
+        "options": {
+            "A": "\n\n            reptile\n",
+            "B": "\n\n            fish\n",
+            "C": "\n\n            mammal\n",
+            "D": "\n\n            Amphibian\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_39",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "39",
+        "question": "Use the diagram to answer the question. The type of protective adaption exhibited by the animal is",
+        "options": {
+            "A": "\n\n            disruptive colouration\n",
+            "B": "\n\n            flash colouration\n",
+            "C": "\n\n            countershading colouration\n",
+            "D": "\n\n            warning colouration\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_39.jpeg",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2020_40",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2020,
+        "number": "40",
+        "question": "Use the diagram to answer the question. The structure labelled i is",
+        "options": {
+            "A": "\n\n            photosensitive\n",
+            "B": "\n\n            radiosensitive\n",
+            "C": "\n\n            chemoreceptive\n",
+            "D": "\n\n            tactile\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": "images/JAMB_Biology_2020_40.jpeg",
+        "source": "myschool.ng"
+    }
+]

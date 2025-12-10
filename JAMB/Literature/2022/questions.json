@@ -1,0 +1,632 @@
+[
+    {
+        "id": "JAMB_Literature_2022_1",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "1",
+        "question": "One of the following writers is better known as  a playwright than as a novelist",
+        "options": {
+            "A": "\n\n            C. Achebe\n",
+            "B": "\n\n            C. Ekwensi\n",
+            "C": "\n\n            W. Soyinka\n",
+            "D": "\n\n            J.P Clark\n"
+        },
+        "correct_answer": "C",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_2",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "2",
+        "question": "A narrative poem must",
+        "options": {
+            "A": "\n\n            preach a sermon\n",
+            "B": "\n\n            tell a story\n",
+            "C": "\n\n            describe natural scenery\n",
+            "D": "\n\n            argue a question\n"
+        },
+        "correct_answer": "B",
+        "topic": "Prose",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_3",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "3",
+        "question": "Literature is studied as a subject at school  because",
+        "options": {
+            "A": "\n\n            it exposes students to the realities of life\n",
+            "B": "\n\n            it provides entertainment\n",
+            "C": "\n\n            it merely gives additional work to students\n",
+            "D": "\n\n            it teaches the use of words\n"
+        },
+        "correct_answer": "A",
+        "topic": "General Literary Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_4",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "4",
+        "question": "In The Flight to Australia', the following line occurs: 'Tier upon tier it towered, the terrible Apennines'. The figure of speech used in this line is known as",
+        "options": {
+            "A": "\n\n            alliteration\n",
+            "B": "\n\n            litotes\n",
+            "C": "\n\n            exaggeration\n",
+            "D": "\n\n            parody\n"
+        },
+        "correct_answer": "A",
+        "topic": "Literary Terms & Principles",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_5",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "5",
+        "question": "If we describe Kossoh Town Boy as an autobiography, we mean that it is",
+        "options": {
+            "A": "\n\n            a historical novel\n",
+            "B": "\n\n            a piece of writing telling us about the Life of its author\n",
+            "C": "\n\n            a short story\n",
+            "D": "\n\n            a narrative tale\n"
+        },
+        "correct_answer": "B",
+        "topic": "Prose",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_6",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "6",
+        "question": "You cannot know And should not bother Tide and market come and go And so shall your mother In this verse the poet uses",
+        "options": {
+            "A": "\n\n            alternate rhymes\n",
+            "B": "\n\n            monomyme\n",
+            "C": "\n\n            couplets\n",
+            "D": "\n\n            triplets\n"
+        },
+        "correct_answer": "A",
+        "topic": "Poetry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_7",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "7",
+        "question": "Another shoal of cars swam past. One, in particular, caught his eyes, a long slender thing, elegant as a swallow, all gleaming blue and silver; a thousand guineas it would have cost, he thought. In the first sentence, cars are described in terms of",
+        "options": {
+            "A": "\n\n            birds\n",
+            "B": "\n\n            ants\n",
+            "C": "\n\n            fish\n",
+            "D": "\n\n            lampposts\n"
+        },
+        "correct_answer": "C",
+        "topic": "Literary Terms & Principles",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_8",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "8",
+        "question": "Pick out the odd item",
+        "options": {
+            "A": "\n\n            a Raisin in the Sun\n",
+            "B": "\n\n            Twelfth Night\n",
+            "C": "\n\n            Ozidi\n",
+            "D": "\n\n            The Concubine\n"
+        },
+        "correct_answer": "D",
+        "topic": "Literary Terms & Principles",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_9",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "9",
+        "question": "That year the harvest was sad, like a funeral, and many farmers wept as they dug up the miserable yams. One man tied his cloth to a tree branch and hanged himself. The mood conveyed here is one of _____",
+        "options": {
+            "A": "\n\n            excitement\n",
+            "B": "\n\n            sadness\n",
+            "C": "\n\n            joy\n",
+            "D": "\n\n            triumph\n"
+        },
+        "correct_answer": "B",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_10",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "10",
+        "question": "One of the following terms applies to the discussion of both tragedy and comedy",
+        "options": {
+            "A": "\n\n            climax\n",
+            "B": "\n\n            happy ending\n",
+            "C": "\n\n            tragic hero\n",
+            "D": "\n\n            alliteration\n"
+        },
+        "correct_answer": "A",
+        "topic": "Literary Terms & Principles",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_11",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "11",
+        "question": "A character that is always against the interest of the protagonist is",
+        "options": {
+            "A": "\n\n            hero\n",
+            "B": "\n\n            opposition\n",
+            "C": "\n\n            villain\n",
+            "D": "\n\n            heroine\n"
+        },
+        "correct_answer": "C",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_12",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "12",
+        "question": "The idea of metre as used in a literary piece is",
+        "options": {
+            "A": "\n\n            stanza\n",
+            "B": "\n\n            rhythm\n",
+            "C": "\n\n            rhyme\n",
+            "D": "\n\n            verse\n"
+        },
+        "correct_answer": "B",
+        "topic": "Poetry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_13",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "13",
+        "question": "A hero whose weakness contributes to his downfall is called?",
+        "options": {
+            "A": "\n\n            Deuteragonist\n",
+            "B": "\n\n            Periaktos\n",
+            "C": "\n\n            Tragic hero\n",
+            "D": "\n\n            Tragic flow\n"
+        },
+        "correct_answer": "C",
+        "topic": "Literary Terms & Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_14",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "14",
+        "question": "A travelogue is",
+        "options": {
+            "A": "\n\n            a record of the writer's experience during a journey\n",
+            "B": "\n\n            the account of the experiences of an individual during his lifeline\n",
+            "C": "\n\n            the account of the travails of a character in a novel\n",
+            "D": "\n\n            a variant of a novel written in a free style on a writer's journey\n"
+        },
+        "correct_answer": "A",
+        "topic": "Prose",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_15",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "15",
+        "question": "A Literary work that ridicules the shortcomings of people or ideas is ......",
+        "options": {
+            "A": "\n\n            a satire\n",
+            "B": "\n\n            a masque\n",
+            "C": "\n\n            a fable\n",
+            "D": "\n\n            an irony\n"
+        },
+        "correct_answer": "A",
+        "topic": "General Literary Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_16",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "16",
+        "question": "The exclusive right given to authors to protect their works from unlawful production is",
+        "options": {
+            "A": "\n\n            a constitutional provision\n",
+            "B": "\n\n            a copyright\n",
+            "C": "\n\n            an authority to write\n",
+            "D": "\n\n            an author's right\n"
+        },
+        "correct_answer": "B",
+        "topic": "General Literary Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_17",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "17",
+        "question": "Empathy is achieved when the audience",
+        "options": {
+            "A": "\n\n            feels betrayed by the director\n",
+            "B": "\n\n            vicariously participates in the stage experience\n",
+            "C": "\n\n            attacks the character foil\n",
+            "D": "\n\n            denounces and humiliates the protagonist\n"
+        },
+        "correct_answer": "B",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_18",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "18",
+        "question": "Mock-heroic poetry elevates",
+        "options": {
+            "A": "\n\n            the important tales of heroes of the past era\n",
+            "B": "\n\n            trivial subject-matter by using the style of the classical epic\n",
+            "C": "\n\n            the stripping off of appearances in a witty manner\n",
+            "D": "\n\n            the beauty in human relationships as exemplified in Homer\n"
+        },
+        "correct_answer": "B",
+        "topic": "Poetry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_19",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "19",
+        "question": "...... is also called a dynamic character",
+        "options": {
+            "A": "\n\n            Protagonist\n",
+            "B": "\n\n            Round character\n",
+            "C": "\n\n            Flat character\n",
+            "D": "\n\n            Foil\n"
+        },
+        "correct_answer": "B",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_20",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "20",
+        "question": "The subject matter of a literary work is the",
+        "options": {
+            "A": "\n\n            plot\n",
+            "B": "\n\n            setting\n",
+            "C": "\n\n            theme\n",
+            "D": "\n\n            structure\n"
+        },
+        "correct_answer": "C",
+        "topic": "General Literary Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_21",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "21",
+        "question": "A dramatic type directed against an individual or a private institute with the intent to severely ridicule is called",
+        "options": {
+            "A": "\n\n            lampoon\n",
+            "B": "\n\n            caricature\n",
+            "C": "\n\n            burlesque\n",
+            "D": "\n\n            satire\n"
+        },
+        "correct_answer": "A",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_22",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "22",
+        "question": "\"A time to sow, A time to reap, A time to born, A time to die\" This exemplies the use of ...",
+        "options": {
+            "A": "\n\n            hendiadys\n",
+            "B": "\n\n            chiasmus\n",
+            "C": "\n\n            anaphora\n",
+            "D": "\n\n            anadiplosis\n"
+        },
+        "correct_answer": "C",
+        "topic": "Literary Terms & Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_23",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "23",
+        "question": "'I am jealous and passonate Like Jehovah, God of the Jews.' J.P Clark: Olokun A device used in the second line of the excerpt above is",
+        "options": {
+            "A": "\n\n            simile\n",
+            "B": "\n\n            paradox\n",
+            "C": "\n\n            metaphor\n",
+            "D": "\n\n            hyperbole\n"
+        },
+        "correct_answer": "A",
+        "topic": "Literary Terms & Principles",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_24",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "24",
+        "question": "Dramatis personae in a play refers to",
+        "options": {
+            "A": "\n\n            cast list\n",
+            "B": "\n\n            list of characters\n",
+            "C": "\n\n            protagonist and antagonist\n",
+            "D": "\n\n            order of appearance\n"
+        },
+        "correct_answer": "B",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_25",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "25",
+        "question": "An irredeemable reversal of the hero's fortune in a tragedy is called.",
+        "options": {
+            "A": "\n\n            purgation\n",
+            "B": "\n\n            peripeteia\n",
+            "C": "\n\n            hubris\n",
+            "D": "\n\n            anagnorisis\n"
+        },
+        "correct_answer": "B",
+        "topic": "Literary Terms & Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_26",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "26",
+        "question": "\"I hate brave cowards like you\" is an example of",
+        "options": {
+            "A": "\n\n            Irony\n",
+            "B": "\n\n            Antithesis\n",
+            "C": "\n\n            Eulogy\n",
+            "D": "\n\n            Oxymoron\n"
+        },
+        "correct_answer": "D",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_27",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "27",
+        "question": "The narrator in a prose work who is also a character is",
+        "options": {
+            "A": "\n\n            omniscient narrator\n",
+            "B": "\n\n            participatory narrator\n",
+            "C": "\n\n            objective narrator\n",
+            "D": "\n\n            subjective narrator\n"
+        },
+        "correct_answer": "B",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_28",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "28",
+        "question": "\"Rays of sun peeping through the cloud \", the line is an example of",
+        "options": {
+            "A": "\n\n            Synecdoche\n",
+            "B": "\n\n            Irony\n",
+            "C": "\n\n            Apostrophe\n",
+            "D": "\n\n            Personification\n"
+        },
+        "correct_answer": "D",
+        "topic": "Literary Terms & Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_29",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "29",
+        "question": "'To see a world in a grain of sand And a heaven in a wild flower Hold infinity in the palm of your hand And eternity in an hour' - William Blake To see a World In a Grain of Sand. The predominant figure of speech used in the lines above is",
+        "options": {
+            "A": "\n\n            metaphor\n",
+            "B": "\n\n            simile\n",
+            "C": "\n\n            paradox\n",
+            "D": "\n\n            hyperbole\n"
+        },
+        "correct_answer": "A",
+        "topic": "Literary Terms & Principles",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_30",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "30",
+        "question": "\"I had not taken the first step in knowledge, I had not learnt to let go with the hands\".The above lines is an example of a",
+        "options": {
+            "A": "\n\n            Aspotrophe\n",
+            "B": "\n\n            Alliteration\n",
+            "C": "\n\n            Repetitiion\n",
+            "D": "\n\n            Assonance\n"
+        },
+        "correct_answer": "C",
+        "topic": "Literary Terms & Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_31",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "31",
+        "question": "Chanson is a term denoting a",
+        "options": {
+            "A": "\n\n            popular Korean verse\n",
+            "B": "\n\n            Song from the middle Ages\n",
+            "C": "\n\n            Form of love song\n",
+            "D": "\n\n            poem of Varied Metrical forms\n"
+        },
+        "correct_answer": "B",
+        "topic": "Poetry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_32",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "32",
+        "question": "'The fair breeze blew The white foam flew The furrow followed free We were the first that ever burst into that silent sea.' The dominant figure of speech in the above passage is",
+        "options": {
+            "A": "\n\n            repetition\n",
+            "B": "\n\n            alliteration\n",
+            "C": "\n\n            paradox\n",
+            "D": "\n\n            rhyme scheme\n"
+        },
+        "correct_answer": "B",
+        "topic": "Poetry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_33",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "33",
+        "question": "Which of these is the oldest genre of literature?",
+        "options": {
+            "A": "\n\n            Poetry\n",
+            "B": "\n\n            Prose\n",
+            "C": "\n\n            Aroma\n",
+            "D": "\n\n            Drama\n"
+        },
+        "correct_answer": "A",
+        "topic": "Poetry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_34",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "34",
+        "question": "A device used by a writer to recall past event in a literary work is",
+        "options": {
+            "A": "\n\n            anti-climax\n",
+            "B": "\n\n            interlude\n",
+            "C": "\n\n            flashback\n",
+            "D": "\n\n            foreshadowing\n"
+        },
+        "correct_answer": "C",
+        "topic": "General Literary Appreciation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Literature_2022_35",
+        "exam": "JAMB",
+        "subject": "Literature",
+        "year": 2022,
+        "number": "35",
+        "question": "The hunter dies and leaves his poverty to his gun The blacksmith dies and leaves his poverty to his anvil... The extract above is an example of",
+        "options": {
+            "A": "\n\n            epic\n",
+            "B": "\n\n            eulogy\n",
+            "C": "\n\n            ballad\n",
+            "D": "\n\n            elegy\n"
+        },
+        "correct_answer": "D",
+        "topic": "Drama",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

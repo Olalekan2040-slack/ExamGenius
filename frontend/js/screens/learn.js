@@ -1,0 +1,522 @@
+// Learn Topics Screen
+
+let currentLearnState = {
+    subject: null,
+    topic: null,
+    questions: [],
+    currentQuestionIndex: 0,
+    answers: {},
+    mode: 'subject-select' // subject-select, topic-list, lesson, practice, results
+};
+
+async function showLearnScreen(params = {}) {
+    const user = authManager.getUser();
+    
+    if (params.subject && params.topic) {
+        currentLearnState.subject = params.subject;
+        currentLearnState.topic = params.topic;
+        await showTopicLesson();
+    } else if (params.subject) {
+        currentLearnState.subject = params.subject;
+        await showTopicList();
+    } else {
+        await showSubjectSelect();
+    }
+}
+
+async function showSubjectSelect() {
+    showLoading('Loading subjects...');
+    
+    try {
+        const user = authManager.getUser();
+        const data = await api.getSubjects();
+        
+        const content = `
+            <div class="learn-screen">
+                <h1><i class="fas fa-book-reader"></i> Learn by Topics</h1>
+                <p style="margin-bottom: 32px; color: var(--text-secondary);">
+                    Select a subject to see topics and start learning
+                </p>
+                
+                <div class="topic-grid">
+                    ${data.subjects.map(subject => `
+                        <div class="topic-card" onclick="selectSubject('${subject}')">
+                            <div style="font-size: 48px; margin-bottom: 16px; text-align: center;">
+                                ${getSubjectIcon(subject)}
+                            </div>
+                            <div class="topic-name" style="text-align: center;">${subject}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        
+        const mainApp = document.getElementById('main-app');
+        mainApp.innerHTML = createAppLayout(user, content);
+        mainApp.classList.remove('hidden');
+        
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load subjects: ' + error.message, 'error');
+    }
+}
+
+async function selectSubject(subject) {
+    currentLearnState.subject = subject;
+    await showTopicList();
+}
+
+async function showTopicList() {
+    showLoading(`Loading ${currentLearnState.subject} topics...`);
+    
+    try {
+        const user = authManager.getUser();
+        const data = await api.getTopicsWithStats(currentLearnState.subject);
+        
+        const content = `
+            <div class="learn-screen">
+                <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 24px;">
+                    <button class="btn btn-outline" onclick="showSubjectSelect()">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+                    <h1 style="margin: 0;">${currentLearnState.subject} Topics</h1>
+                </div>
+                
+                <div class="topic-grid">
+                    ${data.topics.map(topic => `
+                        <div class="topic-card" onclick="selectTopic('${topic.topic}')">
+                            <div class="topic-name">${topic.topic}</div>
+                            <div class="topic-stats">
+                                <div><i class="fas fa-question-circle"></i> ${topic.question_count} questions</div>
+                                ${topic.attempts > 0 ? `
+                                    <div><i class="fas fa-redo"></i> ${topic.attempts} attempts</div>
+                                    <div><i class="fas fa-bullseye"></i> Last score: ${topic.last_score ? topic.last_score.toFixed(1) + '%' : 'N/A'}</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary);">
+                                        <i class="fas fa-clock"></i> ${utils.formatDate(topic.last_practiced)}
+                                    </div>
+                                ` : `
+                                    <div style="color: var(--warning);"><i class="fas fa-star"></i> Not practiced yet</div>
+                                `}
+                            </div>
+                            ${topic.last_score ? `
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: ${topic.last_score}%;"></div>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        
+        const mainApp = document.getElementById('main-app');
+        mainApp.innerHTML = createAppLayout(user, content);
+        mainApp.classList.remove('hidden');
+        
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load topics: ' + error.message, 'error');
+    }
+}
+
+async function selectTopic(topic) {
+    currentLearnState.topic = topic;
+    await showTopicLesson();
+}
+
+async function showTopicLesson() {
+    showLoading('Loading lesson...');
+    
+    try {
+        const user = authManager.getUser();
+        const data = await api.getLesson(currentLearnState.subject, currentLearnState.topic);
+        
+        // Store lesson in state for interactive chat
+        currentLearnState.lesson = data.lesson;
+        currentLearnState.chatHistory = [];
+        
+        const content = `
+            <div class="learn-screen" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; height: calc(100vh - 100px); max-height: 800px;">
+                <!-- Left: Lesson Content -->
+                <div style="overflow-y: auto;">
+                    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 24px;">
+                        <button class="btn btn-outline" onclick="showTopicList()">
+                            <i class="fas fa-arrow-left"></i> Back
+                        </button>
+                        <h1 style="margin: 0; font-size: 20px;">${currentLearnState.subject}: ${currentLearnState.topic}</h1>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <h2><i class="fas fa-lightbulb"></i> Lesson</h2>
+                        </div>
+                        
+                        ${data.lesson.key_idea ? `
+                            <div style="padding: 16px; background: var(--primary-yellow-light); border-radius: var(--radius-md); margin-bottom: 16px;">
+                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-key"></i> Key Idea</h3>
+                                <p style="line-height: 1.6; font-size: 13px;">${data.lesson.key_idea}</p>
+                            </div>
+                        ` : ''}
+                        
+                        ${data.lesson.example ? `
+                            <div style="padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); margin-bottom: 16px;">
+                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-flask"></i> Example</h3>
+                                <p style="line-height: 1.6; font-size: 13px;">${data.lesson.example}</p>
+                            </div>
+                        ` : ''}
+                        
+                        ${data.lesson.steps ? `
+                            <div style="padding: 16px; background: var(--white); border: 2px solid var(--border-color); border-radius: var(--radius-md); margin-bottom: 16px;">
+                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-list-ol"></i> Steps</h3>
+                                <div style="white-space: pre-wrap; line-height: 1.6; font-size: 13px;">${data.lesson.steps}</div>
+                            </div>
+                        ` : ''}
+                        
+                        ${data.lesson.quick_tip ? `
+                            <div style="padding: 16px; background: linear-gradient(135deg, var(--success) 0%, #81C784 100%); color: var(--white); border-radius: var(--radius-md); margin-bottom: 16px;">
+                                <h3 style="margin-bottom: 8px; font-size: 14px; color: var(--white);"><i class="fas fa-bolt"></i> Quick Tip</h3>
+                                <p style="line-height: 1.6; font-size: 13px;">${data.lesson.quick_tip}</p>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+                
+                <!-- Right: Interactive Chat -->
+                <div style="display: flex; flex-direction: column; border: 2px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; background: var(--white);">
+                    <div style="padding: 16px; background: var(--primary-yellow); color: var(--white); font-weight: 600;">
+                        <i class="fas fa-comments"></i> Ask AI Tutor
+                    </div>
+                    
+                    <div id="chat-messages" style="flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; background: var(--bg-light);">
+                        <div style="padding: 12px; background: var(--white); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 13px;">
+                            👋 Hi! I'm your AI tutor. Ask me anything about ${currentLearnState.topic}. I can explain concepts, give examples, or answer questions!
+                        </div>
+                    </div>
+                    
+                    <div style="padding: 12px; border-top: 2px solid var(--border-color);">
+                        <div style="display: flex; gap: 8px;">
+                            <input 
+                                id="chat-input" 
+                                type="text" 
+                                placeholder="Ask me a question..." 
+                                style="flex: 1; padding: 10px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 13px;"
+                                onkeypress="if(event.key === 'Enter') sendChatMessage()">
+                            <button class="btn btn-primary" onclick="sendChatMessage()" style="padding: 10px 16px;">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="display: flex; gap: 12px; margin-top: 20px;">
+                <button class="btn btn-primary btn-lg" onclick="startTopicPractice()">
+                    <i class="fas fa-play-circle"></i> Start Practice Questions
+                </button>
+            </div>
+        `;
+        
+        const mainApp = document.getElementById('main-app');
+        mainApp.innerHTML = createAppLayout(user, content);
+        mainApp.classList.remove('hidden');
+        
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load lesson: ' + error.message, 'error');
+    }
+}
+
+async function sendChatMessage() {
+    const input = document.getElementById('chat-input');
+    const message = input.value.trim();
+    
+    if (!message) return;
+    
+    // Add user message to chat
+    const chatMessages = document.getElementById('chat-messages');
+    const userDiv = document.createElement('div');
+    userDiv.style.cssText = 'padding: 12px; background: var(--primary-yellow-light); border-radius: var(--radius-md); text-align: right; font-size: 13px;';
+    userDiv.innerHTML = `<strong>You:</strong> ${message}`;
+    chatMessages.appendChild(userDiv);
+    
+    // Store in history
+    currentLearnState.chatHistory.push({ role: 'user', content: message });
+    
+    // Clear input
+    input.value = '';
+    input.focus();
+    
+    // Show typing indicator
+    const typingDiv = document.createElement('div');
+    typingDiv.id = 'typing-indicator';
+    typingDiv.style.cssText = 'padding: 12px; background: var(--white); border-radius: var(--radius-md); font-size: 13px; color: var(--text-secondary);';
+    typingDiv.innerHTML = '<i class="fas fa-spinner fa-spin"></i> AI Tutor is thinking...';
+    chatMessages.appendChild(typingDiv);
+    
+    // Scroll to bottom
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+    
+    try {
+        // Get AI response
+        const response = await api.askAITutor(
+            currentLearnState.subject,
+            currentLearnState.topic,
+            message,
+            currentLearnState.lesson,
+            currentLearnState.chatHistory
+        );
+        
+        // Remove typing indicator
+        typingDiv.remove();
+        
+        // Add AI response
+        const aiDiv = document.createElement('div');
+        aiDiv.style.cssText = 'padding: 12px; background: var(--white); border-radius: var(--radius-md); border-left: 4px solid var(--primary-yellow); font-size: 13px; line-height: 1.6;';
+        aiDiv.innerHTML = `<strong>🤖 AI Tutor:</strong> ${response.response}`;
+        chatMessages.appendChild(aiDiv);
+        
+        // Add to history
+        currentLearnState.chatHistory.push({ role: 'assistant', content: response.response });
+        
+        // Scroll to bottom
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    } catch (error) {
+        typingDiv.remove();
+        showToast('Failed to get response: ' + error.message, 'error');
+    }
+}
+
+async function startTopicPractice() {
+    showLoading('Loading practice questions...');
+    
+    try {
+        const data = await api.getPracticeQuestions(currentLearnState.subject, currentLearnState.topic, 10);
+        
+        currentLearnState.questions = data.questions;
+        currentLearnState.currentQuestionIndex = 0;
+        currentLearnState.answers = {};
+        
+        await showPracticeQuestion();
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load questions: ' + error.message, 'error');
+    }
+}
+
+async function showPracticeQuestion() {
+    const user = authManager.getUser();
+    const question = currentLearnState.questions[currentLearnState.currentQuestionIndex];
+    const total = currentLearnState.questions.length;
+    const current = currentLearnState.currentQuestionIndex + 1;
+    
+    const content = `
+        <div class="practice-screen">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
+                <button class="btn btn-outline" onclick="confirmExitPractice()">
+                    <i class="fas fa-times"></i> Exit
+                </button>
+                <div style="font-weight: 600; font-size: 18px;">
+                    Question ${current} of ${total}
+                </div>
+                <div style="width: 100px;"></div>
+            </div>
+            
+            <div class="question-card">
+                <div class="question-number">
+                    ${currentLearnState.subject} - ${currentLearnState.topic}
+                </div>
+                <div class="question-text">${question.question}</div>
+                
+                ${question.image_path ? `
+                    <img src="${API_CONFIG.BASE_URL}${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;">
+                ` : ''}
+                
+                <div class="options-list">
+                    ${Object.entries(question.options).map(([letter, text]) => `
+                        <div class="option-item ${currentLearnState.answers[question.question_id] === letter ? 'selected' : ''}" 
+                             onclick="selectAnswer('${question.question_id}', '${letter}')">
+                            <div class="option-letter">${letter}</div>
+                            <div>${text}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+            
+            <div style="display: flex; justify-content: space-between; margin-top: 24px;">
+                <button class="btn btn-outline" 
+                        onclick="navigatePracticeQuestion(-1)" 
+                        ${current === 1 ? 'disabled' : ''}>
+                    <i class="fas fa-arrow-left"></i> Previous
+                </button>
+                
+                ${current === total ? `
+                    <button class="btn btn-primary btn-lg" onclick="submitTopicPractice()">
+                        <i class="fas fa-check-circle"></i> Submit Answers
+                    </button>
+                ` : `
+                    <button class="btn btn-primary" onclick="navigatePracticeQuestion(1)">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                `}
+            </div>
+        </div>
+    `;
+    
+    const mainApp = document.getElementById('main-app');
+    mainApp.innerHTML = createAppLayout(user, content);
+    mainApp.classList.remove('hidden');
+}
+
+function selectAnswer(questionId, answer) {
+    currentLearnState.answers[questionId] = answer;
+    showPracticeQuestion();
+}
+
+function navigatePracticeQuestion(direction) {
+    currentLearnState.currentQuestionIndex += direction;
+    showPracticeQuestion();
+}
+
+function confirmExitPractice() {
+    const confirmed = confirm('Are you sure you want to exit? Your progress will be lost.');
+    if (confirmed) {
+        showTopicList();
+    }
+}
+
+async function submitTopicPractice() {
+    const answeredCount = Object.keys(currentLearnState.answers).length;
+    const totalCount = currentLearnState.questions.length;
+    
+    if (answeredCount < totalCount) {
+        const confirmed = confirm(`You've only answered ${answeredCount} out of ${totalCount} questions. Submit anyway?`);
+        if (!confirmed) return;
+    }
+    
+    showLoading('Submitting answers...');
+    
+    try {
+        const answers = currentLearnState.questions.map(q => {
+            const id = q.question_id ?? q.id;
+            return {
+                question_id: id,
+                user_answer: currentLearnState.answers[id] || null
+            };
+        });
+        
+        const result = await api.submitTopicPractice(
+            currentLearnState.subject,
+            currentLearnState.topic,
+            answers
+        );
+        
+        await showPracticeResults(result);
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to submit: ' + error.message, 'error');
+    }
+}
+
+async function showPracticeResults(result) {
+    const user = authManager.getUser();
+    
+    const content = `
+        <div class="results-screen">
+            <div class="text-center mb-3">
+                <i class="fas fa-${result.summary.score >= 70 ? 'check-circle' : 'info-circle'}" 
+                   style="font-size: 64px; color: ${result.summary.score >= 70 ? 'var(--success)' : 'var(--warning)'};"></i>
+                <h1 style="margin: 20px 0;">Practice Complete!</h1>
+                <div style="font-size: 48px; font-weight: 700; color: var(--primary-yellow-dark); margin-bottom: 8px;">
+                    ${result.summary.score.toFixed(1)}%
+                </div>
+                <div style="color: var(--text-secondary);">
+                    ${result.summary.correct} correct out of ${result.summary.total} questions
+                </div>
+            </div>
+            
+            <div class="stats-grid mb-3">
+                ${createStatCard('Correct', result.summary.correct, 'fa-check', 'var(--success)')}
+                ${createStatCard('Incorrect', result.summary.incorrect, 'fa-times', 'var(--error)')}
+                ${createStatCard('Total Attempts', result.updated_stats.total_attempts, 'fa-redo', 'var(--info)')}
+                ${createStatCard('Overall Accuracy', result.updated_stats.accuracy.toFixed(1) + '%', 'fa-bullseye', 'var(--primary-yellow-dark)')}
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h2>Review Answers</h2>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 16px;">
+                    ${result.results.map((res, idx) => {
+                        const question = currentLearnState.questions.find(q => q.question_id === res.question_id);
+                        return `
+                            <div style="padding: 16px; border: 2px solid ${res.correct ? 'var(--success)' : 'var(--error)'}; border-radius: var(--radius-md); background: ${res.correct ? '#E8F5E9' : '#FFEBEE'};">
+                                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                                    <strong>Question ${idx + 1}</strong>
+                                    <i class="fas fa-${res.correct ? 'check-circle' : 'times-circle'}" style="color: ${res.correct ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
+                                </div>
+                                <p style="margin-bottom: 12px;">${question.question}</p>
+                                <div style="display: grid; gap: 8px;">
+                                    <div style="padding: 8px 12px; background: var(--white); border-radius: var(--radius-sm);">
+                                        <strong style="color: var(--success);">Correct Answer:</strong> ${res.correct_answer}
+                                    </div>
+                                    ${!res.correct ? `
+                                        <div style="padding: 8px 12px; background: var(--white); border-radius: var(--radius-sm);">
+                                            <strong style="color: var(--error);">Your Answer:</strong> ${res.user_answer || 'Not answered'}
+                                        </div>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            </div>
+            
+            <div style="display: flex; gap: 12px; margin-top: 24px;">
+                <button class="btn btn-primary" onclick="startTopicPractice()">
+                    <i class="fas fa-redo"></i> Practice Again
+                </button>
+                <button class="btn btn-outline" onclick="showTopicList()">
+                    <i class="fas fa-list"></i> Choose Another Topic
+                </button>
+                <button class="btn btn-outline" onclick="router.navigate('dashboard')">
+                    <i class="fas fa-home"></i> Back to Dashboard
+                </button>
+            </div>
+        </div>
+    `;
+    
+    const mainApp = document.getElementById('main-app');
+    mainApp.innerHTML = createAppLayout(user, content);
+    mainApp.classList.remove('hidden');
+}
+
+function getSubjectIcon(subject) {
+    const icons = {
+        'Biology': '🧬',
+        'Chemistry': '⚗️',
+        'Physics': '⚛️',
+        'Mathematics': '📐',
+        'English Language': '📚',
+        'Commerce': '💼',
+        'Economics': '💰',
+        'Government': '🏛️',
+        'Literature': '📖',
+        'Geography': '🗺️'
+    };
+    return icons[subject] || '📚';
+}
+
+// Export functions
+window.showLearnScreen = showLearnScreen;
+window.selectSubject = selectSubject;
+window.selectTopic = selectTopic;
+window.startTopicPractice = startTopicPractice;
+window.selectAnswer = selectAnswer;
+window.navigatePracticeQuestion = navigatePracticeQuestion;
+window.confirmExitPractice = confirmExitPractice;
+window.submitTopicPractice = submitTopicPractice;

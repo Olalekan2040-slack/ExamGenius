@@ -1,0 +1,722 @@
+[
+    {
+        "id": "JAMB_Biology_2021_1",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "1",
+        "question": "One of the functions of the xylem is?",
+        "options": {
+            "A": "\n\n            strengthening the stem\n",
+            "B": "\n\n            manufacturing food\n",
+            "C": "\n\n            reducing loss of water\n",
+            "D": "\n\n            conducting manufactured food\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_2",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "2",
+        "question": "Which of the statements below is not characteristic of wind-pollinated flowers?",
+        "options": {
+            "A": "\n\n            Stigmas are usually large and feathery\n",
+            "B": "\n\n            Nectary is usually absent\n",
+            "C": "\n\n            The pollen grains have rough spiny surfaces\n",
+            "D": "\n\n            The flowers are not scented.\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_3",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "3",
+        "question": "Some of the features of an animal are scales, teeth, nares, and backbone. The animal is likely to be a?",
+        "options": {
+            "A": "\n\n            toad\n",
+            "B": "\n\n            bird\n",
+            "C": "\n\n            lizard\n",
+            "D": "\n\n            rat\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_4",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "4",
+        "question": "Choose the sequence which represents the correct order of organisms in a food chain",
+        "options": {
+            "A": "\n\n            Grass, snake, toad, grasshopper, hawk\n",
+            "B": "\n\n            Grass, grasshopper, toad, snake, hawk\n",
+            "C": "\n\n            Grass, grasshopper, snake, toad, hawk.\n",
+            "D": "\n\n            Grass, snake, grasshopper, toad, hawk\n"
+        },
+        "correct_answer": "B",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_5",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "5",
+        "question": "Flatworms and roundworms are said to be invertebrates because?",
+        "options": {
+            "A": "\n\n            they are small animals\n",
+            "B": "\n\n            they can live inside the vertebrates\n",
+            "C": "\n\n            some of them are unicellular\n",
+            "D": "\n\n            they have no backbones\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_6",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "6",
+        "question": "When a Spirogyra cell is immersed in a salt solution more concentrated than its cell sap, it?",
+        "options": {
+            "A": "\n\n            remains unchanged\n",
+            "B": "\n\n            takes tip water and burst\n",
+            "C": "\n\n            absorbs a little water\n",
+            "D": "\n\n            loses water and shrivels\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_7",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "7",
+        "question": "Which of the following is NOT regarded as a pollutant on land or in the air?",
+        "options": {
+            "A": "\n\n            Smoke\n",
+            "B": "\n\n            Nitrogen\n",
+            "C": "\n\n            Noise\n",
+            "D": "\n\n            Sulphur dioxide\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_8",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "8",
+        "question": "The initial volume of water poured into a bag of dry soil was 50ml and the amount that drained through was 35mI. The percentage water content of the fully soaked soil is therefore?",
+        "options": {
+            "A": "\n\n            46.7\n",
+            "B": "\n\n            25.0\n",
+            "C": "\n\n            20.0\n",
+            "D": "\n\n            30.0\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_9",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "9",
+        "question": "When the original king and queen of termites die, they are replaced by",
+        "options": {
+            "A": "\n\n            the king and queen of another colony\n",
+            "B": "\n\n            some adult reproductives from the same colony\n",
+            "C": "\n\n            some adult workers which are specially fed to breed\n",
+            "D": "\n\n            developing nymphs nurtured as secondary reproductives\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_10",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "10",
+        "question": "In demonstrating the importance of mineral elements in plants, the culture bottle must be darkened to?",
+        "options": {
+            "A": "\n\n            prevent algal growth in culture solution\n",
+            "B": "\n\n            allow root growth\n",
+            "C": "\n\n            prevent breakdown of mineral elements\n",
+            "D": "\n\n            prevents photosynthesis in the root\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_11",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "11",
+        "question": "In the mammalian respiratory system. exchange of gases occurs in the?",
+        "options": {
+            "A": "\n\n            lungs\n",
+            "B": "\n\n            bronchi\n",
+            "C": "\n\n            bronchioles\n",
+            "D": "\n\n            alveoli\n"
+        },
+        "correct_answer": "D",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_12",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "12",
+        "question": "Aged erythrocytes are destroyed in the?",
+        "options": {
+            "A": "\n\n            pancreas\n",
+            "B": "\n\n            liver\n",
+            "C": "\n\n            lymph nodes\n",
+            "D": "\n\n            kidney\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_13",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "13",
+        "question": "The villus in the small intestine is significant because it?",
+        "options": {
+            "A": "\n\n            increases the surface area for absorption\n",
+            "B": "\n\n            increases the surface area for digestion\n",
+            "C": "\n\n            assists in mixing digested food\n",
+            "D": "\n\n            assists in filtering undigested food\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_14",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "14",
+        "question": "Which of the following food substances will produce a brick-red colour when warmed with Benedict's solution?",
+        "options": {
+            "A": "\n\n            Glucose\n",
+            "B": "\n\n            Starch\n",
+            "C": "\n\n            Egg White\n",
+            "D": "\n\n            Maltose\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_15",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "15",
+        "question": "The blood vessel which carries blood from the alimentary canal to the liver is the?",
+        "options": {
+            "A": "\n\n            hepatic artery\n",
+            "B": "\n\n            hepatic vein\n",
+            "C": "\n\n            hepatic portal vein\n",
+            "D": "\n\n            mesenteric artery\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_16",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "16",
+        "question": "Which of the following is TRUE of the process of conjugation in Paramecium?",
+        "options": {
+            "A": "\n\n            Micronucleus disintegrates\n",
+            "B": "\n\n            Each ex-conjugant divides only once\n",
+            "C": "\n\n            Macro nucleus undergoes division\n",
+            "D": "\n\n            Each micronucleus divides twice\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_17",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "17",
+        "question": "People who suck petrol with their mouths run the risk of increasing in their blood the concentration of",
+        "options": {
+            "A": "\n\n            iron\n",
+            "B": "\n\n            lead\n",
+            "C": "\n\n            calcium\n",
+            "D": "\n\n            magnesium\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_18",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "18",
+        "question": "Which of the following is a measure for the control of bilharzia?",
+        "options": {
+            "A": "\n\n            Cutting low bushes around homes\n",
+            "B": "\n\n            Application of molluscicides in water bodies\n",
+            "C": "\n\n            Screening windows and doors with mosquito nets\n",
+            "D": "\n\n            Application of herbicides in water bodies\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_19",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "19",
+        "question": "The appendicular skeleton is composed of the pectoral girdle?",
+        "options": {
+            "A": "\n\n            pelvic girdle, fore and hind limbs\n",
+            "B": "\n\n            pelvic girdle and fore limbs\n",
+            "C": "\n\n            lumbar vertebrae and pelvic girdle\n",
+            "D": "\n\n            lumbar vertebrae, fore and hind limbs\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_20",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "20",
+        "question": "A freshwater plant such as water lily can solve the problem of buoyancy by the possession of?",
+        "options": {
+            "A": "\n\n            aerenchyma tissues\n",
+            "B": "\n\n            dissected leaves\n",
+            "C": "\n\n            thin cell walls of the epidermis\n",
+            "D": "\n\n            water-repelling epidermis\n"
+        },
+        "correct_answer": "A",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_21",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "21",
+        "question": "The correct sequence for the perception of smell in mammals is?",
+        "options": {
+            "A": "\n\n            chemicals --> olfactory nerve endings --> brain\n",
+            "B": "\n\n            dissolved chemicals --> nasal sensory cells --> brain\n",
+            "C": "\n\n            chemicals --> mucus membrane sensory cells --> brain\n",
+            "D": "\n\n            dissolved chemicals --> sensory cells --> olfactory nerve --> brain\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_22",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "22",
+        "question": "I. High birth rate and high immigration rate II. Low birth rate and high immigration rate III. Low mortality rate and low emigration rate IV. High mortality rate and high emigration rate. Which combination of the above can cause rapid over-crowding in climax biotic communities and human settlements?",
+        "options": {
+            "A": "\n\n            II and III\n",
+            "B": "\n\n            I and III\n",
+            "C": "\n\n            I and IV\n",
+            "D": "\n\n            I and II\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_23",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "23",
+        "question": "The number of plant species obtained from a population study of a garden is as follows: Guinea grass (15), Ipomoea spp (5), Sida spp (7) and Imperata spp (23) What is the percentage of occurrence of Imperata spp?",
+        "options": {
+            "A": "\n\n            35%\n",
+            "B": "\n\n            16%\n",
+            "C": "\n\n            46%\n",
+            "D": "\n\n            23%\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_24",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "24",
+        "question": "When a marine fish was taken from the ocean and put in a tank of fresh water, it died after a short period because?",
+        "options": {
+            "A": "\n\n            the tank was too small compared to the large-ocean\n",
+            "B": "\n\n            the body cells of the fish swelled and burst as a result of the hypotonic fresh water\n",
+            "C": "\n\n            the body cells of the fish shrank as their sap was hypertonic to the freshwater\n",
+            "D": "\n\n            there was no food in the tank, so the fish starved\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_25",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "25",
+        "question": "If a DNA strand has a base sequence TCA, its complementary strand must be?",
+        "options": {
+            "A": "\n\n            ATG\n",
+            "B": "\n\n            TAG\n",
+            "C": "\n\n            GAT\n",
+            "D": "\n\n            AGT\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_26",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "26",
+        "question": "The two key cations involved in the action potential of nervous transmissions are?",
+        "options": {
+            "A": "\n\n            Na+ and Fe2+\n",
+            "B": "\n\n            Mg2+ and K+\n",
+            "C": "\n\n            Na+ and K+\n",
+            "D": "\n\n            Fe2+ and Mg2+\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_27",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "27",
+        "question": "I. Rattus rattus. Il. Agama agama III. Bufo regularis IV. Tilapia  zillii The order of evolutionary advancement of the above vertebrates is?",
+        "options": {
+            "A": "\n\n            I, II, III, IV\n",
+            "B": "\n\n            I, IV, III, II\n",
+            "C": "\n\n            II, III, IV, I\n",
+            "D": "\n\n            IV, III, II, I\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_28",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "28",
+        "question": "Which of the following produces both hormones and enzymes?",
+        "options": {
+            "A": "\n\n            Ileum\n",
+            "B": "\n\n            Pancreas\n",
+            "C": "\n\n            Gall bladder\n",
+            "D": "\n\n            Kidney\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_29",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "29",
+        "question": "The correct sequence of the movement of urea during urine formation is?",
+        "options": {
+            "A": "\n\n            glomerulus ---> Bowman's capsule -> convoluted tubule ---> Henle's loop -> collecting- tubule\n",
+            "B": "\n\n            glomerulus -> Bowman's capsule -> convoluted tubule -> Henle's loop -> convoluted tubule -> collecting tubule\n",
+            "C": "\n\n            convoluted tubule -> glomerulus --> Nettle's loop -> Bowman's capsule->collecting tubule\n",
+            "D": "\n\n            convoluted tubule -> Bowman's capsule -> Henle's loop -7> glomerulus -> collecting tubule\n"
+        },
+        "correct_answer": "B",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_30",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "30",
+        "question": "The order of passage of food in the digestive system is",
+        "options": {
+            "A": "\n\n            ileum --> caecum ->large intestine -> rectum\n",
+            "B": "\n\n            ileum --> colon --> caecum -> rectum\n",
+            "C": "\n\n            large intestine --> ileum -> caecum -> rectum\n",
+            "D": "\n\n            colon -> caecum -> ileum -> rectum\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_31",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "31",
+        "question": "Mass of a crucible = 10g, Mass of a crucible and soil before heating =29g Mass of a crucible and soil after heating = 18g From the information above, determine the percentage of water in the given soil sample?",
+        "options": {
+            "A": "\n\n            20%\n",
+            "B": "\n\n            25%\n",
+            "C": "\n\n            40%\n",
+            "D": "\n\n            60%\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_32",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "32",
+        "question": "I. Stomata --> Spirogyra II. Alveoli --> Earthworm III. Malpighian tubule -> Mammal IV. Contractile vacuole -> Protozoa Which of the above structures is correctly matched with the organisms in which it is found?",
+        "options": {
+            "A": "\n\n            II\n",
+            "B": "\n\n            I\n",
+            "C": "\n\n            IV\n",
+            "D": "\n\n            III\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_33",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "33",
+        "question": "The sequence of the one-way gaseous exchange mechanism in a fish is?",
+        "options": {
+            "A": "\n\n            mouth --> operculum -> gills\n",
+            "B": "\n\n            mouth -> gills > operculum\n",
+            "C": "\n\n            operculum > gills -> mouth\n",
+            "D": "\n\n            gills -> operculum --> mouth\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_34",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "34",
+        "question": "Which of the following is true in blood transfusion?",
+        "options": {
+            "A": "\n\n            A person of blood group AB can donate blood only to another person of blood group AB\n",
+            "B": "\n\n            Persons of blood groups A and B can donate or receive blood from each other\n",
+            "C": "\n\n            A person of blood group AB can receive blood only from persons of blood group A or B\n",
+            "D": "\n\n            A person of blood group O can donate only to a person of blood group O\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_35",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "35",
+        "question": "The plants that grow in deserts or very dry areas are referred to as?",
+        "options": {
+            "A": "\n\n            hydrophytes\n",
+            "B": "\n\n            epiphytes\n",
+            "C": "\n\n            xerophytes\n",
+            "D": "\n\n            mesophytes\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_36",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "36",
+        "question": "The most abundant group of organisms in the animal kingdom?",
+        "options": {
+            "A": "\n\n            Mammalia\n",
+            "B": "\n\n            Aves\n",
+            "C": "\n\n            Insecta\n",
+            "D": "\n\n            Annelida\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_37",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "37",
+        "question": "The movement of part of a plant in response to external stimulus of no particular direction is?",
+        "options": {
+            "A": "\n\n            taxism\n",
+            "B": "\n\n            tropism\n",
+            "C": "\n\n            haptotropic movement\n",
+            "D": "\n\n            nastic movement\n"
+        },
+        "correct_answer": "D",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_38",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "38",
+        "question": "The mutation theory of organic evolution was propounded by?",
+        "options": {
+            "A": "\n\n            Gregor Mendel\n",
+            "B": "\n\n            Hugo de Vries\n",
+            "C": "\n\n            Jean Lamarck\n",
+            "D": "\n\n            Charles Darwin\n"
+        },
+        "correct_answer": "B",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_39",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "39",
+        "question": "If both parents are heterozygous for a trait. the probability that an offspring will be recessive for that trait is?",
+        "options": {
+            "A": "\n\n            1/2\n",
+            "B": "\n\n            1/4\n",
+            "C": "\n\n            1\n",
+            "D": "\n\n            3/4\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2021_40",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2021,
+        "number": "40",
+        "question": "Blood circulation in a mammal is said to be double because?",
+        "options": {
+            "A": "\n\n            it passes twice through the heart in a complete circuit\n",
+            "B": "\n\n            it moves in both arteries and veins\n",
+            "C": "\n\n            it circulates in both the heart and other organs\n",
+            "D": "\n\n            the heart contains auricles and ventricles\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

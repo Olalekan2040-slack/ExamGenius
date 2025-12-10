@@ -1,0 +1,2486 @@
+[
+    {
+        "id": "JAMB_Chemistry_2024_1",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "1",
+        "question": "At a given temperature and pressure, a gas X diffuses twice as fast as gas Y. It follows that",
+        "options": {
+            "A": "\n\n            Gas Y is two times as heavy as Gas X\n",
+            "B": "\n\n            Gas Y is four times as heavy as Gas X\n",
+            "C": "\n\n            Gas Y is monoatomic\n",
+            "D": "\n\n            Gas X is diatomic\n"
+        },
+        "correct_answer": "B",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_2",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "2",
+        "question": "The number of molecules of helium gas contained in 11.5g of the gas is",
+        "options": {
+            "A": "\n\n            1.73 x 10\\(^{23}\\)\n",
+            "B": "\n\n            1.73 x 10\\(^{22}\\)\n",
+            "C": "\n\n            1.73 x 10\\(^{24}\\)\n",
+            "D": "\n\n            1.73 x 10\\(^{21}\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_3",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "3",
+        "question": "The constituents of Alnico are Aluminium, Nickel and",
+        "options": {
+            "A": "\n\n            Mg\n",
+            "B": "\n\n            Co\n",
+            "C": "\n\n            Mn\n",
+            "D": "\n\n            Cu\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_4",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "4",
+        "question": "Silver and Gold are metals found as free uncombined elements in the earth's crust, which makes them to be referred to as",
+        "options": {
+            "A": "\n\n            corrosive metals\n",
+            "B": "\n\n            reactive metals\n",
+            "C": "\n\n            natural metals\n",
+            "D": "\n\n            noble metals\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_5",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "5",
+        "question": "In the extraction of Aluminium, the silica impurity is removed by",
+        "options": {
+            "A": "\n\n            electrolysis\n",
+            "B": "\n\n            filtration\n",
+            "C": "\n\n            reaction with H\\(_2\\)SO\\(_4\\)\n",
+            "D": "\n\n            precipitation\n"
+        },
+        "correct_answer": "B",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_6",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "6",
+        "question": "When Calcium ethynide is decomposed by water, the gas produced is",
+        "options": {
+            "A": "\n\n            CO\n",
+            "B": "\n\n            H\\(_2\\)\n",
+            "C": "\n\n            C\\(_2\\)H\\(_2\\)\n",
+            "D": "\n\n            CH\\(_4\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_7",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "7",
+        "question": "The constituent of petroleum fraction used in surfacing road is",
+        "options": {
+            "A": "\n\n            petrol\n",
+            "B": "\n\n            diesel\n",
+            "C": "\n\n            lubricating oil\n",
+            "D": "\n\n            bitumen\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_8",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "8",
+        "question": "During the fractional distillation of crude oil, the fraction that distills at 200 - 250\\(^0\\) C is",
+        "options": {
+            "A": "\n\n            bitumen\n",
+            "B": "\n\n            diesel\n",
+            "C": "\n\n            kerosene\n",
+            "D": "\n\n            petrol\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_9",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "9",
+        "question": "A liquid hydrocarbon obtained from fractional distillation of coal tar that is used in the pharmaceutical industry is",
+        "options": {
+            "A": "\n\n            xylene\n",
+            "B": "\n\n            benzene\n",
+            "C": "\n\n            hexane\n",
+            "D": "\n\n            Toluene\n"
+        },
+        "correct_answer": "B",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_10",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "10",
+        "question": "An organic compound contains 53.1% Carbon, 6.2% Hydrogen, 12.4% Nitrogen, and 28.3% Oxygen by mass. What is the molecular formula of the compound if its vapour density is 56.5?   [ C =12, H = 1, N = 14, O = 16].",
+        "options": {
+            "A": "\n\n            C\\(_5\\)H\\(_7\\)NO\\(_2\\)\n",
+            "B": "\n\n            C\\(_5\\)H\\(_6\\)NO\\(_2\\)\n",
+            "C": "\n\n            C\\(_3\\)H\\(_6\\)NO\\(_2\\)\n",
+            "D": "\n\n            C\\(_3\\)H\\(_7\\)NO\\(_2\\)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organic Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_11",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "11",
+        "question": "The empirical formula of an organic liquid hydrocarbon is XY. If the relative molar masses of X and Y are 72 and 6 respectively, it's vapour density is likely to be",
+        "options": {
+            "A": "\n\n            33\n",
+            "B": "\n\n            66\n",
+            "C": "\n\n            39\n",
+            "D": "\n\n            78\n"
+        },
+        "correct_answer": "C",
+        "topic": "Organic Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_12",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "12",
+        "question": "Biuret test is a chemical test used for detecting the presence of",
+        "options": {
+            "A": "\n\n            carbohydrates\n",
+            "B": "\n\n            proteins\n",
+            "C": "\n\n            amines\n",
+            "D": "\n\n            alkanoates\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_13",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "13",
+        "question": "A gas when mixed with oxygen, it produces a very hot and early controllable flame. What is the name of the flame and where is it used?",
+        "options": {
+            "A": "\n\n            Acetylene flame; miners' lamb\n",
+            "B": "\n\n            Oxy-ethylene ; hunters' torch\n",
+            "C": "\n\n            Oxy-ethylene flame; miners' lamb\n",
+            "D": "\n\n            Oxy-ethylene flame ; cutting and welding metals\n"
+        },
+        "correct_answer": "D",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_14",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "14",
+        "question": "The number of geometrical isomers of butene are",
+        "options": {
+            "A": "\n\n            2\n",
+            "B": "\n\n            3\n",
+            "C": "\n\n            5\n",
+            "D": "\n\n            4\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_15",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "15",
+        "question": "How many isomers has the organic compound represented by the formula C\\(_3\\)H\\(_8\\)O ?",
+        "options": {
+            "A": "\n\n            2\n",
+            "B": "\n\n            3\n",
+            "C": "\n\n            4\n",
+            "D": "\n\n            5\n"
+        },
+        "correct_answer": "B",
+        "topic": "Organic Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_16",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "16",
+        "question": "When a few drops of Millon reagents is added to egg-white solution in a test tube, the white precipitate changes to",
+        "options": {
+            "A": "\n\n            orange\n",
+            "B": "\n\n            brick red\n",
+            "C": "\n\n            reddish brown\n",
+            "D": "\n\n            blue\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_17",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "17",
+        "question": "If the solubility of KNO\\(_3\\) at 30\\(^0\\)C is 3.10 mol/dm\\(^3\\) a solution containing 303g/dm\\(^3\\) KNO\\(_3\\) is likely to be",
+        "options": {
+            "A": "\n\n            saturated\n",
+            "B": "\n\n            unsaturated\n",
+            "C": "\n\n            supersaturated\n",
+            "D": "\n\n            at saturation point\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_18",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "18",
+        "question": "127g of sodium chloride was dissolved in 1.0dm\\(^3\\) of distilled water at 25\\(^0\\)C . Determine the solubility in moldm\\(^{-3}\\) of sodium chloride at that temperature. [Na = 23, Cl = 35.5]",
+        "options": {
+            "A": "\n\n            1.0\n",
+            "B": "\n\n            2.0\n",
+            "C": "\n\n            2.2\n",
+            "D": "\n\n            4.1\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_19",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "19",
+        "question": "The quantity of electricity required to deposit 180g of Ag from a molten silver trioxonitrate(V) is [Ag = 108]",
+        "options": {
+            "A": "\n\n            1.08F\n",
+            "B": "\n\n            3.30F\n",
+            "C": "\n\n            1.67F\n",
+            "D": "\n\n            1.80F\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_20",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "20",
+        "question": "What would be the order of the electrolytic cell in an industry intending the production of silver plated spoons?",
+        "options": {
+            "A": "\n\n            Cathode is the spoon; anode is a silver rod; electrolyte is a soluble silver salt\n",
+            "B": "\n\n            Cathode is a silver rod; anode is the spoon; electrolyte is a soluble silver salt\n",
+            "C": "\n\n            Cathode is the spoon; anode is any rod; electrolyte is a soluble silver salt\n",
+            "D": "\n\n            Cathode is any rod; anode is the spoon; electrolyte is a soluble salt\n"
+        },
+        "correct_answer": "A",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_21",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "21",
+        "question": "The table above shows the formulae of some ions. In which of these compounds is the formula not correct?",
+        "options": {
+            "A": "\n\n            Aluminiumtetraoxosulphate(VI), Al\\(_2\\)(SO\\(_4\\))\\(_3\\)\n",
+            "B": "\n\n            Calciumtrioxonitrate(V), Ca(NO\\(_3\\))\\(_2\\)\n",
+            "C": "\n\n            Iron(III)bromide, Fe\\(_3\\)Br\n",
+            "D": "\n\n            Potassiumsulphide, K\\(_2\\)S\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": "images/JAMB_Chemistry_2024_21.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_22",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "22",
+        "question": "The pH of a 0.001 mol dm\\(^{-3}\\) of  H\\(_2\\)SO\\(_4\\) is [Log\\(_{10}\\)2 = 0.3]",
+        "options": {
+            "A": "\n\n            2.7\n",
+            "B": "\n\n            3.0\n",
+            "C": "\n\n            3.3\n",
+            "D": "\n\n            2.0\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_23",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "23",
+        "question": "Strong acids can be distinguished from weak acids by any of the following methods, EXCEPT",
+        "options": {
+            "A": "\n\n            Conductivity measurement\n",
+            "B": "\n\n            The use of litmus paper\n",
+            "C": "\n\n            Measurement of pH\n",
+            "D": "\n\n            Measurement of heat of reaction\n"
+        },
+        "correct_answer": "B",
+        "topic": "Energetics/Thermochemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_24",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "24",
+        "question": "The chemical formula for potassiumhexacyanoferrate(II) is",
+        "options": {
+            "A": "\n\n            [Fe(CN)\\(_6\\)]\\(^{4-}\\)\n",
+            "B": "\n\n            K\\(_3\\)Fe(CN)\\(_6\\)\n",
+            "C": "\n\n            Fe(CN)\\(_6\\)\n",
+            "D": "\n\n            K\\(_4\\)Fe(CN)\\(_6\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_25",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "25",
+        "question": "For chemical reaction to be spontaneous, ∆G must be",
+        "options": {
+            "A": "\n\n            positive\n",
+            "B": "\n\n            negative\n",
+            "C": "\n\n            zero\n",
+            "D": "\n\n            equal to the enthalpy change\n"
+        },
+        "correct_answer": "B",
+        "topic": "Energetics/Thermochemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_26",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "26",
+        "question": "How many moles of CO\\(_2\\) are produced when ethanol is burnt with 6g of oxygen",
+        "options": {
+            "A": "\n\n            0.125\n",
+            "B": "\n\n            0.250\n",
+            "C": "\n\n            0.375\n",
+            "D": "\n\n            0.750\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_27",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "27",
+        "question": "Which of these is the most preferred separation technique for the isolation of solutes where the purity of the constituent is of utmost importance?",
+        "options": {
+            "A": "\n\n            sieving\n",
+            "B": "\n\n            Distillation\n",
+            "C": "\n\n            recrystallization\n",
+            "D": "\n\n            Precipitation\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_28",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "28",
+        "question": "In the graph above, y represents",
+        "options": {
+            "A": "\n\n            endothermic reaction\n",
+            "B": "\n\n            activation energy\n",
+            "C": "\n\n            exothermic reaction\n",
+            "D": "\n\n            ionization energy\n"
+        },
+        "correct_answer": "B",
+        "topic": "Energetics/Thermochemistry",
+        "image": "images/JAMB_Chemistry_2024_28.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_29",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "29",
+        "question": "The ions responsible for permanent hardness in water are sulphates of",
+        "options": {
+            "A": "\n\n            Fe\\(^{3+}\\) and Mg\\(^{2+}\\)\n",
+            "B": "\n\n            Ca\\(^{2+}\\) and Mg\\(^{2+}\\)\n",
+            "C": "\n\n            Fe\\(^{2+}\\) and Fe\\(^{3+}\\)\n",
+            "D": "\n\n            Na\\(^{+}\\) and Ca\\(^{2+}\\)\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_30",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "30",
+        "question": "One of the following is not a water pollutant?",
+        "options": {
+            "A": "\n\n            Inorganic fertilizers\n",
+            "B": "\n\n            Warm water affluent\n",
+            "C": "\n\n            Oxygen gas\n",
+            "D": "\n\n            Biodegradable waste\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_31",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "31",
+        "question": "CuO\\(_s\\)   +  H\\(_2\\)(\\(_g\\))  ⇌ Cu\\(_s\\)   +  H\\(_2\\)O(\\(_g\\)) In the equation above, the effect of increased pressure on the equilibrium position is that",
+        "options": {
+            "A": "\n\n            the equilibrium is shifted to the left\n",
+            "B": "\n\n            the equilibrium is shifted to the right\n",
+            "C": "\n\n            there is no effect\n",
+            "D": "\n\n            more H\\(_2\\)\\((g\\)) is produced\n"
+        },
+        "correct_answer": "C",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_32",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "32",
+        "question": "What method is suitable for the separation of gases present in air?",
+        "options": {
+            "A": "\n\n            Catalytic cracking of liquid air\n",
+            "B": "\n\n            Fractional distillation of liquid air\n",
+            "C": "\n\n            Thermal decomposition of air\n",
+            "D": "\n\n            Catalytic decomposition of air\n"
+        },
+        "correct_answer": "B",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_33",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "33",
+        "question": "The principle which states that no two electrons in the same orbitals of an atom have same value for all four quantum numbers is the",
+        "options": {
+            "A": "\n\n            Aufbau principle\n",
+            "B": "\n\n            Hund's rule\n",
+            "C": "\n\n            Pauli Exclusion principle\n",
+            "D": "\n\n            Dilution principle\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_34",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "34",
+        "question": "How much of 5g of radioactive element whose half life is 50days remains after 200days?",
+        "options": {
+            "A": "\n\n            2.50 g\n",
+            "B": "\n\n            1.25 g\n",
+            "C": "\n\n            0.63 g\n",
+            "D": "\n\n            0.31 g\n"
+        },
+        "correct_answer": "D",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_35",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "35",
+        "question": "The group VIII elements are the inert gases because they",
+        "options": {
+            "A": "\n\n            have lone pair of electrons on their valence shells\n",
+            "B": "\n\n            all have completely filled valence shells\n",
+            "C": "\n\n            are all solids\n",
+            "D": "\n\n            are all polyatomic molecules\n"
+        },
+        "correct_answer": "B",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_36",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "36",
+        "question": "Na\\(_2\\)X  ⇌  2Na\\(^+\\)  +  X\\(^{2-}\\) The bond between Na and X is likely to be",
+        "options": {
+            "A": "\n\n            covalent\n",
+            "B": "\n\n            dative\n",
+            "C": "\n\n            ionic\n",
+            "D": "\n\n            metallic\n"
+        },
+        "correct_answer": "C",
+        "topic": "Chemical Bonding",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_37",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "37",
+        "question": "The highest isotope of hydrogen is",
+        "options": {
+            "A": "\n\n            Deuterium\n",
+            "B": "\n\n            protium\n",
+            "C": "\n\n            tritium\n",
+            "D": "\n\n            positron\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_38",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "38",
+        "question": "When Sulphur(IV)oxide is passed into solution of acidified tetraoxomanganate(VII), the colour changes from",
+        "options": {
+            "A": "\n\n            blue to green\n",
+            "B": "\n\n            pink to yellow\n",
+            "C": "\n\n            purple to colourless\n",
+            "D": "\n\n            Orange to green\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_39",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "39",
+        "question": "Water gas obtained from the gasification of coke is made up of",
+        "options": {
+            "A": "\n\n            Nitrogen and Carbon(II) oxide\n",
+            "B": "\n\n            Nitrogen and Hydrogen\n",
+            "C": "\n\n            Hydrogen and Carbon(II) oxide\n",
+            "D": "\n\n            Carbon(II)oxide and Carbon(IV)oxide\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_40",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "40",
+        "question": "Sulphur(IV)oxide can be used as a",
+        "options": {
+            "A": "\n\n            coating agent\n",
+            "B": "\n\n            dehydrating agent\n",
+            "C": "\n\n            refrigerant\n",
+            "D": "\n\n            drying agent\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_41",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "41",
+        "question": "The molecular formular of a hydrocarbon with an empirical formula of CH\\(_3\\)  and a molar mass of 30 is",
+        "options": {
+            "A": "\n\n            C\\(_2\\)H\\(_4\\)\n",
+            "B": "\n\n            C\\(_3\\)H\\(_3\\)\n",
+            "C": "\n\n            C\\(_2\\)H\\(_6\\)\n",
+            "D": "\n\n            C\\(_6\\)H\\(_6\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Organic Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_42",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "42",
+        "question": "The difference in molecular mass between an alkene and alkyne with six carbon per mole is",
+        "options": {
+            "A": "\n\n            10\n",
+            "B": "\n\n            12\n",
+            "C": "\n\n            2\n",
+            "D": "\n\n            14\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stoichiometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_43",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "43",
+        "question": "COMPOUND S T U V W FORMULA ROR' RCOOH' RCOR' ROH' RCOOR' From the table above, which of these two compounds can form functional group isomers?",
+        "options": {
+            "A": "\n\n            S and T\n",
+            "B": "\n\n            T and U\n",
+            "C": "\n\n            S and V\n",
+            "D": "\n\n            T and V\n"
+        },
+        "correct_answer": "C",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_44",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "44",
+        "question": "Fats and oils are esters of fatty organic acids combined with a trihydric alkanol commonly referred to as",
+        "options": {
+            "A": "\n\n            ethanol\n",
+            "B": "\n\n            methanol\n",
+            "C": "\n\n            glycol\n",
+            "D": "\n\n            glycerol\n"
+        },
+        "correct_answer": "D",
+        "topic": "Organic Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_45",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "45",
+        "question": "Determine the half-life of a first order reaction with constant 4.5 x 10\\(^{-3}\\) sec\\(^{-1}\\).",
+        "options": {
+            "A": "\n\n            154 s\n",
+            "B": "\n\n            15.4 s\n",
+            "C": "\n\n            1540 s\n",
+            "D": "\n\n            1.54 s\n"
+        },
+        "correct_answer": "A",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_46",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "46",
+        "question": "Alkanoates are naturally found in",
+        "options": {
+            "A": "\n\n            lipids\n",
+            "B": "\n\n            vitamins\n",
+            "C": "\n\n            proteins\n",
+            "D": "\n\n            rubbers\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_47",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "47",
+        "question": "CH\\(_3\\)-CH\\(_2\\)-OH and CH\\(_3\\)-O-CH\\(_3\\) The relationship between the two compounds above, is that they are",
+        "options": {
+            "A": "\n\n            allotropes\n",
+            "B": "\n\n            isotopes\n",
+            "C": "\n\n            isomers\n",
+            "D": "\n\n            isobars\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_48",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "48",
+        "question": "The composition of alloy permalloy is iron and",
+        "options": {
+            "A": "\n\n            copper\n",
+            "B": "\n\n            nickel\n",
+            "C": "\n\n            lead\n",
+            "D": "\n\n            magnesium\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_49",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "49",
+        "question": "Aqueous solution of sodium hydroxide can be used to test for the presence of : I. Ca\\(^{2+}\\) ,   II. Zn\\(^{2+}\\) ,  III. Cu\\(^{2+}\\)",
+        "options": {
+            "A": "\n\n            I only\n",
+            "B": "\n\n            I and III\n",
+            "C": "\n\n            I, II and III\n",
+            "D": "\n\n            I and II only\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_50",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "50",
+        "question": "The IUPAC nomenclature of the compound above is",
+        "options": {
+            "A": "\n\n            propan-1-ol\n",
+            "B": "\n\n            butan-1-ol\n",
+            "C": "\n\n            2-methyl propan-1-ol\n",
+            "D": "\n\n            2-methyl propan-2-ol\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": "images/JAMB_Chemistry_2024_50.png",
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_51",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "51",
+        "question": "What is formed when metal reacts with acid to liberate gas?",
+        "options": {
+            "A": "\n\n            Salt\n",
+            "B": "\n\n            Base\n",
+            "C": "\n\n            Acid\n",
+            "D": "\n\n            Liquid\n"
+        },
+        "correct_answer": "A",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_52",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "52",
+        "question": "Concentrated sodium chloride solution is electrolyzed using mercury cathode and graphite anode. The products at the anode and the cathode respectively are",
+        "options": {
+            "A": "\n\n            hydrogen and chlorine\n",
+            "B": "\n\n            chlorine and hydrogen\n",
+            "C": "\n\n            chlorine and sodium\n",
+            "D": "\n\n            sodium and chlorine\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_53",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "53",
+        "question": "A factor that does not affect the rate of a chemical reaction is",
+        "options": {
+            "A": "\n\n            surface area\n",
+            "B": "\n\n            temperature\n",
+            "C": "\n\n            volume\n",
+            "D": "\n\n            catalyst\n"
+        },
+        "correct_answer": "C",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_54",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "54",
+        "question": "In contact process, the catalyst used in the conversion of sulphur(IV)oxide to sulphur(VI) oxide is",
+        "options": {
+            "A": "\n\n            nickel\n",
+            "B": "\n\n            platinum\n",
+            "C": "\n\n            vanadium(V)oxide\n",
+            "D": "\n\n            magnesium(IV)oxide\n"
+        },
+        "correct_answer": "C",
+        "topic": "Chemistry & Industry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_55",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "55",
+        "question": "The element which can combine with oxygen to form an acid anhydride of the form XO\\(_2\\) is",
+        "options": {
+            "A": "\n\n            phosphorus\n",
+            "B": "\n\n            Chlorine\n",
+            "C": "\n\n            fluorine\n",
+            "D": "\n\n            sulphur\n"
+        },
+        "correct_answer": "D",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_56",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "56",
+        "question": "Rust on the surface of a metal sheet contains",
+        "options": {
+            "A": "\n\n            hydrated iron(II)oxide\n",
+            "B": "\n\n            hydrated iron(III)oxide\n",
+            "C": "\n\n            iron(III)hydroxide\n",
+            "D": "\n\n            iron(III) trioxocarbonate(IV)\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_57",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "57",
+        "question": "A gas that turns lime water milky is likely to be from",
+        "options": {
+            "A": "\n\n            Trioxocarbonate(IV)\n",
+            "B": "\n\n            Chloride\n",
+            "C": "\n\n            Trioxonitrate(V)\n",
+            "D": "\n\n            Tetraoxosulphate(VI)\n"
+        },
+        "correct_answer": "A",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_58",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "58",
+        "question": "When n = 3, the quantum number of an element is",
+        "options": {
+            "A": "\n\n            3\n",
+            "B": "\n\n            9\n",
+            "C": "\n\n            18\n",
+            "D": "\n\n            21\n"
+        },
+        "correct_answer": "A",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_59",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "59",
+        "question": "The salt formed when strong acid reacts with strong base is",
+        "options": {
+            "A": "\n\n            normal\n",
+            "B": "\n\n            double\n",
+            "C": "\n\n            complex\n",
+            "D": "\n\n            basic\n"
+        },
+        "correct_answer": "A",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_60",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "60",
+        "question": "The shape of the molecule of Carbon(IV) oxide is",
+        "options": {
+            "A": "\n\n            tetrahedral\n",
+            "B": "\n\n            pyramidal\n",
+            "C": "\n\n            plannar\n",
+            "D": "\n\n            linear\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_61",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "61",
+        "question": "\\(^{238}_{92}\\)U  + \\(^1_0\\)n → \\(^{239}_{92}\\)U The process above produces",
+        "options": {
+            "A": "\n\n            atomic mutation\n",
+            "B": "\n\n            a radioactive isotope\n",
+            "C": "\n\n            other neutrons\n",
+            "D": "\n\n            radiations\n"
+        },
+        "correct_answer": "B",
+        "topic": "Chemistry & Industry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_62",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "62",
+        "question": "Calculate the mass of Magnesium that will be liberated from its salt by the same quantity of electricity that liberated 16.0 g of Silver. [Mg = 24.0, Ag = 108 ]",
+        "options": {
+            "A": "\n\n            3.65 g\n",
+            "B": "\n\n            3.56 g\n",
+            "C": "\n\n            1.87 g\n",
+            "D": "\n\n            1.78 g\n"
+        },
+        "correct_answer": "D",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_63",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "63",
+        "question": "Which of the following is an air pollutant?",
+        "options": {
+            "A": "\n\n            O\\(_2\\)\n",
+            "B": "\n\n            CO\n",
+            "C": "\n\n            H\\(_2\\)O\\((_g\\))\n",
+            "D": "\n\n            O\\(_3\\)\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_64",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "64",
+        "question": "The volume in cm\\(^3\\) of a 0.12 moldm\\(^{-3}\\) HCl required to completely neutralize a 20cm\\(^3\\) of 0.20 moldm\\(^{-3}\\) of NaOH is",
+        "options": {
+            "A": "\n\n            12.00\n",
+            "B": "\n\n            0.0012\n",
+            "C": "\n\n            33.33\n",
+            "D": "\n\n            2.40\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_65",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "65",
+        "question": "Fog is a colloid in which",
+        "options": {
+            "A": "\n\n            liquid particles is dispersed in a gas medium\n",
+            "B": "\n\n            gas particles dispersed in a liquid medium\n",
+            "C": "\n\n            solid particles dispersed in a gas medium\n",
+            "D": "\n\n            gas particles dispersed in a solid medium\n"
+        },
+        "correct_answer": "A",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_66",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "66",
+        "question": "Determine the empirical formula of an oxide of sulphur containing 60% of oxygen [S = 32, O = 16 ]",
+        "options": {
+            "A": "\n\n            SO\\(_3\\)\n",
+            "B": "\n\n            SO\\(_2\\)\n",
+            "C": "\n\n            SO\\(_4\\)\n",
+            "D": "\n\n            SO\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_67",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "67",
+        "question": "The scientist that performed the experiment on discharged tubes that led to the discovery of the cathode rays as a sub-atomic particle is",
+        "options": {
+            "A": "\n\n            J.J Thomson\n",
+            "B": "\n\n            Robert Millikan\n",
+            "C": "\n\n            Ernest Rutherford\n",
+            "D": "\n\n            Niels Bohr\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_68",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "68",
+        "question": "In the treatment of water for municipal supply, chlorine is used to",
+        "options": {
+            "A": "\n\n            prevent tooth decay\n",
+            "B": "\n\n            prevent goitre\n",
+            "C": "\n\n            kill germs\n",
+            "D": "\n\n            remove colour or odour\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_69",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "69",
+        "question": "The combustion of candle under limited supply of air forms",
+        "options": {
+            "A": "\n\n            water and CO\\(_2\\)\n",
+            "B": "\n\n            water and CO\n",
+            "C": "\n\n            soot and CO\n",
+            "D": "\n\n            soot and CO\\(_2\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_70",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "70",
+        "question": "A major effect of oil pollution in coastal water is",
+        "options": {
+            "A": "\n\n            destruction of aquatic life\n",
+            "B": "\n\n            nitrification of the water body\n",
+            "C": "\n\n            detoxification of water\n",
+            "D": "\n\n            disinfection of the water body\n"
+        },
+        "correct_answer": "A",
+        "topic": "Environmental Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_71",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "71",
+        "question": "The substance that reacts with sodium to form alkali and changes white anhydrous copper(II) tetraoxosulphate (VI) to blue is",
+        "options": {
+            "A": "\n\n            base\n",
+            "B": "\n\n            acid\n",
+            "C": "\n\n            water\n",
+            "D": "\n\n            solvent\n"
+        },
+        "correct_answer": "C",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_72",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "72",
+        "question": "\\(^{14}_7\\)N  + X → \\(^{14}_6\\)C  +  \\(^1_1\\)P In the reaction above, X is",
+        "options": {
+            "A": "\n\n            a proton\n",
+            "B": "\n\n            an alpha particle\n",
+            "C": "\n\n            a beta particle\n",
+            "D": "\n\n            a neutron\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_73",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "73",
+        "question": "An example of a substance that does not change directly from solid to gas when heated is",
+        "options": {
+            "A": "\n\n            NH\\(_4\\)Cl\\((_s\\))\n",
+            "B": "\n\n            I\\(_2\\)\\((_s\\))\n",
+            "C": "\n\n            CaCO\\(_3\\) \\((_s\\))\n",
+            "D": "\n\n            S\\(_8\\) \\((_s\\))\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_74",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "74",
+        "question": "When a specie undergoes oxidation, its",
+        "options": {
+            "A": "\n\n            oxidation number increases\n",
+            "B": "\n\n            oxidation number decreases\n",
+            "C": "\n\n            oxidation number remains constant\n",
+            "D": "\n\n            acts as oxidizing agent\n"
+        },
+        "correct_answer": "A",
+        "topic": "Redox Reactions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_75",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "75",
+        "question": "Hydrochloric acid is regarded as a strong acid because it",
+        "options": {
+            "A": "\n\n            ionizes partially\n",
+            "B": "\n\n            ionizes completely\n",
+            "C": "\n\n            is a mineral acid\n",
+            "D": "\n\n            reacts with a base\n"
+        },
+        "correct_answer": "B",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_76",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "76",
+        "question": "The IUPAC nomenclature of the complex K\\(_4\\)Fe(CN)\\(_6\\) is",
+        "options": {
+            "A": "\n\n            potassium hexacyanoferrate(II)\n",
+            "B": "\n\n            potassium hexacyanoferrate(III)\n",
+            "C": "\n\n            potassium hexacyanoferrate(IV)\n",
+            "D": "\n\n            potassium hexacyanoferrate(VI)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_77",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "77",
+        "question": "An example of an amphoteric oxide is",
+        "options": {
+            "A": "\n\n            P\\(_4\\)O\\(_{10}\\)\n",
+            "B": "\n\n            Al\\(_2\\)O\\(_3\\)\n",
+            "C": "\n\n            CuO\n",
+            "D": "\n\n            K\\(_2\\)O\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_78",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "78",
+        "question": "The term that is not associated with petroleum industry is ?",
+        "options": {
+            "A": "\n\n            Cracking\n",
+            "B": "\n\n            Saponification\n",
+            "C": "\n\n            Polymerization\n",
+            "D": "\n\n            Fermentation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Chemistry & Industry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_79",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "79",
+        "question": "Kerosene is used as solvent for",
+        "options": {
+            "A": "\n\n            Paints\n",
+            "B": "\n\n            Sulphur\n",
+            "C": "\n\n            Gums\n",
+            "D": "\n\n            Fats\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_80",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "80",
+        "question": "A typical chemical reaction will be spontaneous if",
+        "options": {
+            "A": "\n\n            enthalpy change is negative\n",
+            "B": "\n\n            free energy change is greater than one\n",
+            "C": "\n\n            entropy change is zero\n",
+            "D": "\n\n            enthalpy and free energy change are equal\n"
+        },
+        "correct_answer": "A",
+        "topic": "Energetics/Thermochemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_81",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "81",
+        "question": "The indicator used in a titration between strong acid and weak base is",
+        "options": {
+            "A": "\n\n            methyl orange\n",
+            "B": "\n\n            phenolphthalein\n",
+            "C": "\n\n            bromothymol blue\n",
+            "D": "\n\n            methyl red\n"
+        },
+        "correct_answer": "A",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_82",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "82",
+        "question": "Nitrogen obtained from air is not absolutely pure because it contains the following except",
+        "options": {
+            "A": "\n\n            oxygen\n",
+            "B": "\n\n            carbon (IV)oxide\n",
+            "C": "\n\n            inert gases\n",
+            "D": "\n\n            water vapour\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_83",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "83",
+        "question": "Solubility curve is a plot of solubility against",
+        "options": {
+            "A": "\n\n            temperature\n",
+            "B": "\n\n            pressure\n",
+            "C": "\n\n            volume\n",
+            "D": "\n\n            concentrate\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_84",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "84",
+        "question": "If 11.0g of a gas occupies 5.6 dm\\(^3\\) at s.t.p., calculate its vapour density (1 mole of a gas occupies 22.4 dm\\(^3\\)).",
+        "options": {
+            "A": "\n\n            22\n",
+            "B": "\n\n            44\n",
+            "C": "\n\n            66\n",
+            "D": "\n\n            88\n"
+        },
+        "correct_answer": "A",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_85",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "85",
+        "question": "The Van der waals forces of attraction operates between",
+        "options": {
+            "A": "\n\n            atoms\n",
+            "B": "\n\n            cations\n",
+            "C": "\n\n            molecules\n",
+            "D": "\n\n            anions\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_86",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "86",
+        "question": "The electronic configuration of an atom of Nitrogen is 1s\\(^2\\) 2s\\(^2\\) 2p\\(^1_x\\) 2p\\(^1_y\\) 2p\\(^1_z\\) because the atom is",
+        "options": {
+            "A": "\n\n            in an excited state\n",
+            "B": "\n\n            undergoing energy changes\n",
+            "C": "\n\n            unstable and ready to combine with another\n",
+            "D": "\n\n            simply obeying rules governing electron configuration\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_87",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "87",
+        "question": "The reaction of hydrogen and chlorine to produce hydrogen chloride gas is explosive in",
+        "options": {
+            "A": "\n\n            diffused light\n",
+            "B": "\n\n            sunlight\n",
+            "C": "\n\n            infrared light\n",
+            "D": "\n\n            Raman light\n"
+        },
+        "correct_answer": "B",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_88",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "88",
+        "question": "The term strong and weak acids is used to indicate the",
+        "options": {
+            "A": "\n\n            number of H\\(^+\\) released by an acid\n",
+            "B": "\n\n            number of OH\\(^-\\) released by an acid\n",
+            "C": "\n\n            extent of ionization of an acid\n",
+            "D": "\n\n            strength of its action on substance\n"
+        },
+        "correct_answer": "C",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_89",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "89",
+        "question": "The main constituent of water-glass is",
+        "options": {
+            "A": "\n\n            calcium trioxosilicate(IV)\n",
+            "B": "\n\n            calcium trioxosulphate(IV)\n",
+            "C": "\n\n            sodium trioxosulphate(IV)\n",
+            "D": "\n\n            sodium trioxosilicate(IV)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_90",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "90",
+        "question": "Which of the following represents an order of increasing reactivity?",
+        "options": {
+            "A": "\n\n            Au < Cu < Sn < Fe < Ca\n",
+            "B": "\n\n            Ca < Fe < Sn < Cu < Au\n",
+            "C": "\n\n            Au < Cu < Fe < Sn < Ca\n",
+            "D": "\n\n            Ca < Sn < Fe < Cu < Au\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_91",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "91",
+        "question": "An oxide of nitrogen that can rekindle a glowing splint is",
+        "options": {
+            "A": "\n\n            nitrogen(I)oxide\n",
+            "B": "\n\n            nitrogen(II)oxide\n",
+            "C": "\n\n            nitrogen(IV)oxide\n",
+            "D": "\n\n            dinitrogen tetraoxide\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_92",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "92",
+        "question": "In a chemical reaction, surface area of reactants can affect",
+        "options": {
+            "A": "\n\n            CaCO\\(_3\\) + 2HCl →  CaCl\\(_2\\) + H\\(_2\\)O +  CO\\(_2\\)\n",
+            "B": "\n\n            MgCl\\(_2\\) + H\\(_2\\)SO\\(_4\\) → MgSO\\(_4\\) + 2HCl\n",
+            "C": "\n\n            H\\(_2\\) + Cl\\(_2\\) →  2HCl\n",
+            "D": "\n\n            NaOH  + HCl  →  NaCl  +  H\\(_2\\)O\n"
+        },
+        "correct_answer": "A",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_93",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "93",
+        "question": "C\\(_2\\)H\\(_{4(g)}\\)  +  3O\\(_{2(g)}\\) → 2CO\\(_{2(g)}\\)  +  2H\\(_2\\)O\\(_{(g)}\\) The above equation represents the combustion of ethene.If 10cm\\(^3\\) of ethene is burnt in 50cm\\(^3\\) of oxygen, what would be the volume of oxygen that would remain at the end of the reaction?",
+        "options": {
+            "A": "\n\n            20cm\\(^3\\)\n",
+            "B": "\n\n            40cm\\(^3\\)\n",
+            "C": "\n\n            60cm\\(^3\\)\n",
+            "D": "\n\n            50cm\\(^3\\)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Stoichiometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_94",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "94",
+        "question": "The hybridization scheme in ethyne is",
+        "options": {
+            "A": "\n\n            sp\n",
+            "B": "\n\n            sp\\(^3\\)\n",
+            "C": "\n\n            sp\\(^2\\)d\n",
+            "D": "\n\n            sp\\(^2\\)s\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_95",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "95",
+        "question": "An organic compound with general formula RCOR' is an",
+        "options": {
+            "A": "\n\n            alkanone\n",
+            "B": "\n\n            alkanal\n",
+            "C": "\n\n            alkanoate\n",
+            "D": "\n\n            alkanoic acid\n"
+        },
+        "correct_answer": "A",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_96",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "96",
+        "question": "The amount of Faraday required to discharge 4.5 moles of Al\\(^{3+}\\) is",
+        "options": {
+            "A": "\n\n            13.5\n",
+            "B": "\n\n            4.5\n",
+            "C": "\n\n            7.5\n",
+            "D": "\n\n            1.5\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_97",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "97",
+        "question": "The reaction between alkanoic acids and alkanols in the presence of an acid catalyst is known as",
+        "options": {
+            "A": "\n\n            saponification\n",
+            "B": "\n\n            dehydration\n",
+            "C": "\n\n            esterification\n",
+            "D": "\n\n            hydrolysis\n"
+        },
+        "correct_answer": "C",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_98",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "98",
+        "question": "C\\(_x\\)H\\(_y\\)O + 5O\\(_2\\)  →  4CO\\(_2\\)  +  4H\\(_2\\)O C\\(_x\\)H\\(_y\\)O in the equation is",
+        "options": {
+            "A": "\n\n            CH\\(_2\\)O\n",
+            "B": "\n\n            C\\(_2\\)H\\(_6\\)O\n",
+            "C": "\n\n            CH\\(_4\\)O\n",
+            "D": "\n\n            C\\(_2\\)H\\(_4\\)O\n"
+        },
+        "correct_answer": "D",
+        "topic": "Stoichiometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_99",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "99",
+        "question": "Alkylation of benzene is catalyzed by",
+        "options": {
+            "A": "\n\n            palladium\n",
+            "B": "\n\n            nickel\n",
+            "C": "\n\n            sunlight\n",
+            "D": "\n\n            aluminium chloride\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_100",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "100",
+        "question": "Benzene formed nitrobenzene at temperature of 60\\(^0\\)C when it reacts with mixture of concentrated trioxonitrate(V) acid and concentrated",
+        "options": {
+            "A": "\n\n            phosphoric acid\n",
+            "B": "\n\n            hydrochloric acid\n",
+            "C": "\n\n            tetraoxosulphate(VI) acid\n",
+            "D": "\n\n            hydrogen iodide\n"
+        },
+        "correct_answer": "C",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_101",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "101",
+        "question": "The general molecular formula C\\(_n\\)H\\(_{2n-2}\\) represents that of an",
+        "options": {
+            "A": "\n\n            alkyne\n",
+            "B": "\n\n            alkene\n",
+            "C": "\n\n            alkane\n",
+            "D": "\n\n            alkanal\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_102",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "102",
+        "question": "What accounts for the low melting and boiling points of covalent molecules?",
+        "options": {
+            "A": "\n\n            They have weak intermolecular forces.\n",
+            "B": "\n\n            They are three-dimensional structures.\n",
+            "C": "\n\n            They have definite shapes.\n",
+            "D": "\n\n            They possess shared electron pairs\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_103",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "103",
+        "question": "After breathing in a test tube that contains acidified K\\(_2\\)Cr\\(_2\\)O\\(_7\\), a man noticed the change in the colour of K\\(_2\\)Cr\\(_2\\)O\\(_7\\) from orange to green. This suggests the presence of",
+        "options": {
+            "A": "\n\n            alkanone\n",
+            "B": "\n\n            alkanal\n",
+            "C": "\n\n            alkanol\n",
+            "D": "\n\n            alkanoic acid\n"
+        },
+        "correct_answer": "C",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_104",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "104",
+        "question": "Hydrochloric acid is not suitable in the preparation of ethanoic acid because it",
+        "options": {
+            "A": "\n\n            is too acidic\n",
+            "B": "\n\n            is too volatile\n",
+            "C": "\n\n            can attack cork and rubber used as containers\n",
+            "D": "\n\n            turns blue litmus red\n"
+        },
+        "correct_answer": "B",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_105",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "105",
+        "question": "A radioactive element of mass 1g has half-life of 2 minutes, what fraction of the substance would have disintegrated after 10 minutes?",
+        "options": {
+            "A": "\n\n            1/4\n",
+            "B": "\n\n            1/8\n",
+            "C": "\n\n            1/16\n",
+            "D": "\n\n            1/32\n"
+        },
+        "correct_answer": "D",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_106",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "106",
+        "question": "Hydrogen chloride gas and ammonia can be used to demonstrate the fountain experiment because they are",
+        "options": {
+            "A": "\n\n            light\n",
+            "B": "\n\n            volatile\n",
+            "C": "\n\n            very soluble in water\n",
+            "D": "\n\n            heavy gases\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_107",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "107",
+        "question": "In the conductance of aqueous CuSO\\(_4\\) solution, the current carriers are the",
+        "options": {
+            "A": "\n\n            mobile electrons\n",
+            "B": "\n\n            metallic ions\n",
+            "C": "\n\n            hydrated ions\n",
+            "D": "\n\n            hydrated electrons\n"
+        },
+        "correct_answer": "C",
+        "topic": "Chemical Bonding",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_108",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "108",
+        "question": "A type of isomerism that ClCH=CHCl can exhibit is",
+        "options": {
+            "A": "\n\n            chain\n",
+            "B": "\n\n            positional\n",
+            "C": "\n\n            functional group\n",
+            "D": "\n\n            optical\n"
+        },
+        "correct_answer": "B",
+        "topic": "Periodic Table",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_109",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "109",
+        "question": "The basicity of tetraoxophosphate(V) acid is",
+        "options": {
+            "A": "\n\n            1\n",
+            "B": "\n\n            4\n",
+            "C": "\n\n            2\n",
+            "D": "\n\n            3\n"
+        },
+        "correct_answer": "D",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_110",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "110",
+        "question": "Which of the following is used in forming slag in the blast furnace for the extraction of iron?",
+        "options": {
+            "A": "\n\n            Ca(CO\\(_3\\) )\\(_2\\)\n",
+            "B": "\n\n            Ca(OH)\\(_2\\)\n",
+            "C": "\n\n            CaCO\\(_3\\)\n",
+            "D": "\n\n            CaO\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_111",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "111",
+        "question": "Calculate the number of moles of Copper that will be deposited, if 2 Faraday of electricity is passed through the copper during the electrolysis of copper(II)tetraoxosulphate(VI) [1F = 96500C ]",
+        "options": {
+            "A": "\n\n            0.5 mole\n",
+            "B": "\n\n            1.0 mole\n",
+            "C": "\n\n            2.0 moles\n",
+            "D": "\n\n            3.0 moles\n"
+        },
+        "correct_answer": "B",
+        "topic": "Stoichiometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_112",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "112",
+        "question": "The volume occupied by 1 mole of an ideal gas at a temperature of 13\\(^0\\)C and a pressure of 1.58 atm is [ R = 0.082 atm dm\\(^3\\) K\\(^{-1}\\)mol\\(^{-1}\\) ]",
+        "options": {
+            "A": "\n\n            14.84 dm\\(^3\\)\n",
+            "B": "\n\n            14.84 cm\\(^3\\)\n",
+            "C": "\n\n            0.64 dm\\(^3\\)\n",
+            "D": "\n\n            0.64 cm\\(^3\\)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Stoichiometry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_113",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "113",
+        "question": "If a salt weighs 2g and upon exposure to the atmosphere weighs 1.5g, this is as a result of",
+        "options": {
+            "A": "\n\n            hygroscopy\n",
+            "B": "\n\n            effervescence\n",
+            "C": "\n\n            efflorescence\n",
+            "D": "\n\n            deliquescence\n"
+        },
+        "correct_answer": "C",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_114",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "114",
+        "question": "The compound of Copper used as a fungicide is",
+        "options": {
+            "A": "\n\n            CuCO\\(_3\\)\n",
+            "B": "\n\n            Cu(NO\\(_3\\))\\(_2\\)\n",
+            "C": "\n\n            CuSO\\(_4\\)\n",
+            "D": "\n\n            CuCl\\(_2\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_115",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "115",
+        "question": "The percentage of hydrogen in the sixth member of the class of the aliphatic alkanes is  [H =1, C =12 ]",
+        "options": {
+            "A": "\n\n            41.34\n",
+            "B": "\n\n            59.54\n",
+            "C": "\n\n            16.28\n",
+            "D": "\n\n            83.72\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_116",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "116",
+        "question": "The law which states that a pure chemical compound, no matter how it is made, will be made up of the same elements contained in the same proportion by mass is",
+        "options": {
+            "A": "\n\n            law of conservation of masses\n",
+            "B": "\n\n            law of definite proportion\n",
+            "C": "\n\n            law of multiple proportion\n",
+            "D": "\n\n            law of reciprocal proportion\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_117",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "117",
+        "question": "The stability of atomic nucleus is determined by ratio of",
+        "options": {
+            "A": "\n\n            Neutron/electron\n",
+            "B": "\n\n            Neutron/proton\n",
+            "C": "\n\n            positron/neutron\n",
+            "D": "\n\n            electron/proton\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_118",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "118",
+        "question": "25.0g of potassium chloride were dissolved in 80g of distilled water at 30\\(^0\\)C. Calculate the solubility of the solute in mol dm\\(^3\\). [K =39, Cl = 35.5]",
+        "options": {
+            "A": "\n\n            3.9 moldm\\(^3\\)\n",
+            "B": "\n\n            4.6 moldm\\(^3\\)\n",
+            "C": "\n\n            4.0 moldm\\(^3\\)\n",
+            "D": "\n\n            4.2 moldm\\(^3\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_119",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "119",
+        "question": "An example of a physical change is",
+        "options": {
+            "A": "\n\n            slaking of lime\n",
+            "B": "\n\n            liquefaction of liquids\n",
+            "C": "\n\n            dissolution of limestone in acid\n",
+            "D": "\n\n            rusting of iron\n"
+        },
+        "correct_answer": "B",
+        "topic": "Acids/Bases/Salts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_120",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "120",
+        "question": "The product formed when ethyne is passed through a hot tube containing finely divided iron is",
+        "options": {
+            "A": "\n\n            polymeric\n",
+            "B": "\n\n            saturated\n",
+            "C": "\n\n            hydrated\n",
+            "D": "\n\n            aromatic\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_121",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "121",
+        "question": "H\\(_2\\)S\\(_{(g)}\\)  +  Cl\\(_2\\)\\(_{(g)}\\) → 2HCl\\(_{(g)}\\) + S\\(_{(s)}\\) What is the change in oxidation state of sulphur from reactant to product?",
+        "options": {
+            "A": "\n\n            -3 to -1\n",
+            "B": "\n\n            -3 to 1\n",
+            "C": "\n\n            -2 to 0\n",
+            "D": "\n\n            -1 to 0\n"
+        },
+        "correct_answer": "C",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_122",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "122",
+        "question": "If a stable neutral atom has a mass number of 31, the number of electrons and neutrons respectively are",
+        "options": {
+            "A": "\n\n            15 and 16\n",
+            "B": "\n\n            16 and 31\n",
+            "C": "\n\n            15 and 31\n",
+            "D": "\n\n            16 and 15\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_123",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "123",
+        "question": "Scandium is not regarded as a transition metal because its ion has",
+        "options": {
+            "A": "\n\n            no electron in the d-orbital\n",
+            "B": "\n\n            a partially filled d-orbitals\n",
+            "C": "\n\n            a completely filled 4S orbital\n",
+            "D": "\n\n            a partially filled 4S orbital\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_124",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "124",
+        "question": "An example of highly unsaturated hydrocarbon is",
+        "options": {
+            "A": "\n\n            C\\(_2\\)H\\(_2\\)\n",
+            "B": "\n\n            CH\\(_4\\)\n",
+            "C": "\n\n            C\\(_2\\)H\\(_4\\)\n",
+            "D": "\n\n            C\\(_4\\)H\\(_{10}\\)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organic Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_125",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "125",
+        "question": "Biodegradable pollutants are not safe in water systems because they can cause",
+        "options": {
+            "A": "\n\n            air pollution\n",
+            "B": "\n\n            soil degradation\n",
+            "C": "\n\n            ill health\n",
+            "D": "\n\n            greenhouse effect\n"
+        },
+        "correct_answer": "C",
+        "topic": "Environmental Chemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_126",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "126",
+        "question": "An example of a compound that is acidic in solution is",
+        "options": {
+            "A": "\n\n            H\\(_3\\)PO\\(_4\\)\n",
+            "B": "\n\n            NH\\(_4\\)Cl\n",
+            "C": "\n\n            Na\\(_2\\)CO\\(_3\\)\n",
+            "D": "\n\n            MgCl\\(_2\\)\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_127",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "127",
+        "question": "The amount of water a substance chemically combined with is called water of",
+        "options": {
+            "A": "\n\n            dehydration\n",
+            "B": "\n\n            solution\n",
+            "C": "\n\n            hydration\n",
+            "D": "\n\n            crystallization\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_128",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "128",
+        "question": "Heat of solution involves two steps that is accompanied by heat change. The energies involved in this steps are",
+        "options": {
+            "A": "\n\n            lattice energy and hydration energy\n",
+            "B": "\n\n            lattice energy and ionic energy\n",
+            "C": "\n\n            Heat energy and lattice energy\n",
+            "D": "\n\n            hydration energy and heat energy\n"
+        },
+        "correct_answer": "A",
+        "topic": "Energetics/Thermochemistry",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_129",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "129",
+        "question": "The IUPAC name of the compound above is",
+        "options": {
+            "A": "\n\n            3-methyl, 3-bromo butane\n",
+            "B": "\n\n            2-methyl, 2-bromo butane\n",
+            "C": "\n\n            2-bromo, 2-methyl butane\n",
+            "D": "\n\n            3-bromo, 3-methyl butane\n"
+        },
+        "correct_answer": "C",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_130",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "130",
+        "question": "The shape of ammonia molecule is",
+        "options": {
+            "A": "\n\n            V-Shaped or bent\n",
+            "B": "\n\n            Tetrahedral\n",
+            "C": "\n\n            co-plannar\n",
+            "D": "\n\n            trigonal\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_131",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "131",
+        "question": "The percentage of carbon(IV) oxide in air is",
+        "options": {
+            "A": "\n\n            0.01\n",
+            "B": "\n\n            0.02\n",
+            "C": "\n\n            0.05\n",
+            "D": "\n\n            0.03\n"
+        },
+        "correct_answer": "D",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_132",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "132",
+        "question": "An example of a physical change is",
+        "options": {
+            "A": "\n\n            exposing sodium metal to air\n",
+            "B": "\n\n            boiling of water\n",
+            "C": "\n\n            dissolving calcium metal in water\n",
+            "D": "\n\n            burning of kerosene\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_133",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "133",
+        "question": "Boyle's law can be expressed mathematically as",
+        "options": {
+            "A": "\n\n            PV = K\n",
+            "B": "\n\n            PV = RT\n",
+            "C": "\n\n            V =KT\n",
+            "D": "\n\n            \\(\\frac{V}{T}\\) = K\n"
+        },
+        "correct_answer": "A",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_134",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "134",
+        "question": "What is the vapour density of 560cm\\(^3\\) of a gas that weighs 0.4g at s.t.p? [Molar Volume of gas at s.t.p = 22.4 dm\\(^3\\) ]",
+        "options": {
+            "A": "\n\n            6.0\n",
+            "B": "\n\n            8.0\n",
+            "C": "\n\n            16.0\n",
+            "D": "\n\n            32.0\n"
+        },
+        "correct_answer": "B",
+        "topic": "States of Matter",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_135",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "135",
+        "question": "When the subsidiary quantum numbers (l) equals 1, the shape of the orbital is",
+        "options": {
+            "A": "\n\n            spherical\n",
+            "B": "\n\n            dumb-bell\n",
+            "C": "\n\n            flat\n",
+            "D": "\n\n            round\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_136",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "136",
+        "question": "Esterification reaction is analogous to",
+        "options": {
+            "A": "\n\n            oxidation reaction\n",
+            "B": "\n\n            neutralization reaction\n",
+            "C": "\n\n            condensation reaction\n",
+            "D": "\n\n            hydrolysis reaction\n"
+        },
+        "correct_answer": "C",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_137",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "137",
+        "question": "The IUPAC Nomenclature of CH\\(_3\\)CH\\(_2\\)C(CH\\(_3\\))=C(CH\\(_3\\))\\(_2\\) for the compound is",
+        "options": {
+            "A": "\n\n            2,3-dimethylpentene\n",
+            "B": "\n\n            2,3-dimethylpent-2-ene\n",
+            "C": "\n\n            3,4-dimethylpent-3-ene\n",
+            "D": "\n\n            3,4-dimethylpentene\n"
+        },
+        "correct_answer": "B",
+        "topic": "Structure of the Atom",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Chemistry_2024_138",
+        "exam": "JAMB",
+        "subject": "Chemistry",
+        "year": 2024,
+        "number": "138",
+        "question": "H\\(_2\\)SO\\(_4\\) C\\(_2\\)H\\(_5\\)OH      →         C\\(_2\\)H\\(_4\\) 170\\(^0\\)C The reaction above illustrates",
+        "options": {
+            "A": "\n\n            oxidation\n",
+            "B": "\n\n            esterification\n",
+            "C": "\n\n            dehydration\n",
+            "D": "\n\n            polymerization\n"
+        },
+        "correct_answer": "C",
+        "topic": "Rates of Reaction & Equilibrium",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

@@ -1,0 +1,722 @@
+[
+    {
+        "id": "JAMB_Commerce_2021_1",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "1",
+        "question": "The principle of span of control stipulates that?",
+        "options": {
+            "A": "\n\n            The number of employees reporting to one superior should be kept to a workable maximum\n",
+            "B": "\n\n            An employee should report to only one superior\n",
+            "C": "\n\n            Managers must demand accountability from their subordinates\n",
+            "D": "\n\n            Resources have to be economized within the various divisions\n"
+        },
+        "correct_answer": "A",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_2",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "2",
+        "question": "The main advantage of a sole trader is the freedom to?",
+        "options": {
+            "A": "\n\n            employ anyone he likes\n",
+            "B": "\n\n            take quick decision\n",
+            "C": "\n\n            seek advise from any source\n",
+            "D": "\n\n            plough all the profits\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_3",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "3",
+        "question": "The major objective of corporate mergers is to?",
+        "options": {
+            "A": "\n\n            minimize the effect of taxation\n",
+            "B": "\n\n            increase financial advantage\n",
+            "C": "\n\n            enhance economies of sale\n",
+            "D": "\n\n            facilitate profit maximization\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_4",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "4",
+        "question": "A provision in the charter of a company which gives holders of common stock the first option to purchase additional issues of the firm's common stock is the",
+        "options": {
+            "A": "\n\n            pre-emptive right\n",
+            "B": "\n\n            over-subscription right\n",
+            "C": "\n\n            ex-dividend right\n",
+            "D": "\n\n            shareholders right\n"
+        },
+        "correct_answer": "A",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_5",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "5",
+        "question": "The conversion of raw materials into finished products creates",
+        "options": {
+            "A": "\n\n            form utility\n",
+            "B": "\n\n            time utility\n",
+            "C": "\n\n            marginal utility\n",
+            "D": "\n\n            place utility\n"
+        },
+        "correct_answer": "A",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_6",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "6",
+        "question": "A form of money that has gone out of use is",
+        "options": {
+            "A": "\n\n            paper money\n",
+            "B": "\n\n            commodity money\n",
+            "C": "\n\n            foreign money\n",
+            "D": "\n\n            bank money\n"
+        },
+        "correct_answer": "B",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_7",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "7",
+        "question": "The activities aimed at finding customers needs and satisfaction can be described as",
+        "options": {
+            "A": "\n\n            conceptual marketing\n",
+            "B": "\n\n            macro-marketing\n",
+            "C": "\n\n            socio-marketing\n",
+            "D": "\n\n            micro-marketing\n"
+        },
+        "correct_answer": "A",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_8",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "8",
+        "question": "Given: I. Retail II. Export III. Transport IV. Import V. Insurance VI. Banking and finance VII. Wholesale VIII. Communication. Which of the above are aids to trade?",
+        "options": {
+            "A": "\n\n            III, V, VI and VIII\n",
+            "B": "\n\n            I, II, III and VI\n",
+            "C": "\n\n            I, III, V, and VI\n",
+            "D": "\n\n            II, V, VI and VII\n"
+        },
+        "correct_answer": "A",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_9",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "9",
+        "question": "Communication process involves the transmission of a message over a selected channel to the",
+        "options": {
+            "A": "\n\n            encoder\n",
+            "B": "\n\n            receiver\n",
+            "C": "\n\n            audience\n",
+            "D": "\n\n            sender\n"
+        },
+        "correct_answer": "B",
+        "topic": "Occupation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_10",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "10",
+        "question": "The instruments of credit include",
+        "options": {
+            "A": "\n\n            billboards and postal stamps\n",
+            "B": "\n\n            payment vouchers and statement of account\n",
+            "C": "\n\n            bills of exchange and salary voucher\n",
+            "D": "\n\n            bills of exchange and promissory notes\n"
+        },
+        "correct_answer": "D",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_11",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "11",
+        "question": "The type of communication from a superior to a subordinate in an organization is referred to as",
+        "options": {
+            "A": "\n\n            downward communication\n",
+            "B": "\n\n            upward communication\n",
+            "C": "\n\n            lateral communication\n",
+            "D": "\n\n            horizontal communication\n"
+        },
+        "correct_answer": "A",
+        "topic": "Advertising & Communication",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_12",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "12",
+        "question": "The excess of the assets over the liabilities of a business is called",
+        "options": {
+            "A": "\n\n            capital employed\n",
+            "B": "\n\n            net worth\n",
+            "C": "\n\n            working capital\n",
+            "D": "\n\n            initial capital\n"
+        },
+        "correct_answer": "B",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_13",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "13",
+        "question": "Use the information below to answer this question A B C Balance Sheet as at 31/12/2004 ₦ Share capital              200,000 Reserves                    100,000 Long term liabilities     40,000 Current liabilities 30,000 370,000 ₦ Fixed assets                  180,000 Investment                     100,000 Current assets                50,000 Fictitious assets 40,000 370,000 The total sum of financing short term projects is",
+        "options": {
+            "A": "\n\n            ₦ 30,000\n",
+            "B": "\n\n            ₦200,000\n",
+            "C": "\n\n            ₦70,000\n",
+            "D": "\n\n            ₦40,000\n"
+        },
+        "correct_answer": "B",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_14",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "14",
+        "question": "Use the information below to answer this question A B C Balance Sheet as at 31/12/2004 ₦ Share capital              200,000 Reserves                    100,000 Long term liabilities     40,000 Current liabilities 30,000 370,000 ₦ Fixed assets                  180,000 Investment                     100,000 Current assets                50,000 Fictitious assets 40,000 370,000 What is the capital employed?",
+        "options": {
+            "A": "\n\n            ₦ 340,000\n",
+            "B": "\n\n            ₦ 200,000\n",
+            "C": "\n\n            ₦ 300,000\n",
+            "D": "\n\n            ₦ 170,000\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_15",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "15",
+        "question": "A distinctive advantage of GSM is its",
+        "options": {
+            "A": "\n\n            cost\n",
+            "B": "\n\n            stability\n",
+            "C": "\n\n            coverage\n",
+            "D": "\n\n            mobility\n"
+        },
+        "correct_answer": "D",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_16",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "16",
+        "question": "The major determinant of fire insurance premium is the",
+        "options": {
+            "A": "\n\n            usefulness of the property to the owner\n",
+            "B": "\n\n            type and structure of the property to be insured\n",
+            "C": "\n\n            owner of the property to be insured\n",
+            "D": "\n\n            extent of fire damage anticipated\n"
+        },
+        "correct_answer": "B",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_17",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "17",
+        "question": "An activity that involves derivation of raw materials from land and sea is",
+        "options": {
+            "A": "\n\n            agriculture\n",
+            "B": "\n\n            farming\n",
+            "C": "\n\n            extraction\n",
+            "D": "\n\n            construction\n"
+        },
+        "correct_answer": "C",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_18",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "18",
+        "question": "A person who buys new issues with a view of reselling at a higher price in the near future is referred to as a",
+        "options": {
+            "A": "\n\n            bear\n",
+            "B": "\n\n            bull\n",
+            "C": "\n\n            dealer\n",
+            "D": "\n\n            stag\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_19",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "19",
+        "question": "The primary memory component of a computer is the",
+        "options": {
+            "A": "\n\n            console\n",
+            "B": "\n\n            cache\n",
+            "C": "\n\n            compliers\n",
+            "D": "\n\n            assemblers\n"
+        },
+        "correct_answer": "B",
+        "topic": "Introduction to Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_20",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "20",
+        "question": "The transmission of the telephone services from one country to another is facilitated by",
+        "options": {
+            "A": "\n\n            international facility\n",
+            "B": "\n\n            internet services\n",
+            "C": "\n\n            interconnectivity\n",
+            "D": "\n\n            communication satellite\n"
+        },
+        "correct_answer": "D",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_21",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "21",
+        "question": "The best mode of ensuring that items posted get to the named addresses is through",
+        "options": {
+            "A": "\n\n            recorded delivery\n",
+            "B": "\n\n            certificate of posting\n",
+            "C": "\n\n            registered mail\n",
+            "D": "\n\n            express mail\n"
+        },
+        "correct_answer": "C",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_22",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "22",
+        "question": "An agency contract must involve",
+        "options": {
+            "A": "\n\n            a principal and a consumer\n",
+            "B": "\n\n            a principal and an agent\n",
+            "C": "\n\n            a principal and a producer\n",
+            "D": "\n\n            a principal and a third party\n"
+        },
+        "correct_answer": "B",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_23",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "23",
+        "question": "Inbound tourism occurs when",
+        "options": {
+            "A": "\n\n            residents of a country travel within it\n",
+            "B": "\n\n            non-residents of a country travel to other countries\n",
+            "C": "\n\n            residents of a country travel to other countries\n",
+            "D": "\n\n            non-residents of a country travel within it\n"
+        },
+        "correct_answer": "C",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_24",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "24",
+        "question": "When two or more companies agree to execute a project too large for one to handle, this is referred to as",
+        "options": {
+            "A": "\n\n            an amalgamation\n",
+            "B": "\n\n            a cartel\n",
+            "C": "\n\n            a consortium\n",
+            "D": "\n\n            a merger\n"
+        },
+        "correct_answer": "C",
+        "topic": "Occupation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_25",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "25",
+        "question": "The main objective of a trade association is to",
+        "options": {
+            "A": "\n\n            protect its members against litigation\n",
+            "B": "\n\n            protect its members against victimization\n",
+            "C": "\n\n            boost the trade of its members\n",
+            "D": "\n\n            secure credit for its members\n"
+        },
+        "correct_answer": "B",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_26",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "26",
+        "question": "A person who in consideration for an extra commission takes responsibility for goods sold on credit and in case of default is a",
+        "options": {
+            "A": "\n\n            commission agent\n",
+            "B": "\n\n            factor\n",
+            "C": "\n\n            broker\n",
+            "D": "\n\n            del credere agent\n"
+        },
+        "correct_answer": "D",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_27",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "27",
+        "question": "NAME INSURED AMOUNT(₦) ACTUAL VALUE(₦) ACTUAL LOSS(₦) Mr. P Mr. K Mr. R 25,000 30,000 40,000 100,000 120,000 150,000 30,000 40,000 50,000 Use the table above to answer questions 27 and 28 If Mr. P takes a fire insurance policy with average clause, his compensation will be",
+        "options": {
+            "A": "\n\n            ₦7,500\n",
+            "B": "\n\n            ₦5,000\n",
+            "C": "\n\n            ₦70,000\n",
+            "D": "\n\n            ₦75,000\n"
+        },
+        "correct_answer": "A",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_28",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "28",
+        "question": "NAME INSURED AMOUNT(₦) ACTUAL VALUE(₦) ACTUAL LOSS(₦) Mr. P Mr. K Mr. R 25,000 30,000 40,000 100,000 120,000 150,000 30,000 40,000 50,000 What insurance principle has Mr. R violated if he decides to overstate the actual value of his property?",
+        "options": {
+            "A": "\n\n            insurable interest\n",
+            "B": "\n\n            uberrimae fidei\n",
+            "C": "\n\n            subrogation\n",
+            "D": "\n\n            indemnity\n"
+        },
+        "correct_answer": "B",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_29",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "29",
+        "question": "Hire purchase is advantageous to the seller in that",
+        "options": {
+            "A": "\n\n            it elevates his living standard\n",
+            "B": "\n\n            people pay on installment\n",
+            "C": "\n\n            his turnover will increase\n",
+            "D": "\n\n            it enhances high level of patronage\n"
+        },
+        "correct_answer": "D",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_30",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "30",
+        "question": "A form of money with face value which is greater than the value of the metal contents is",
+        "options": {
+            "A": "\n\n            bank notes\n",
+            "B": "\n\n            legal tender\n",
+            "C": "\n\n            commodity money\n",
+            "D": "\n\n            token money\n"
+        },
+        "correct_answer": "D",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_31",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "31",
+        "question": "A proforma invoice is not required when",
+        "options": {
+            "A": "\n\n            quoting for the supply of good\n",
+            "B": "\n\n            dealing regularly with a customer\n",
+            "C": "\n\n            goods are sent on approval\n",
+            "D": "\n\n            final prices are uncertain\n"
+        },
+        "correct_answer": "B",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_32",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "32",
+        "question": "The art of soap making is an example of",
+        "options": {
+            "A": "\n\n            tertiary occupation\n",
+            "B": "\n\n            construction occupation\n",
+            "C": "\n\n            primary occupation\n",
+            "D": "\n\n            secondary occupation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Occupation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_33",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "33",
+        "question": "The payment made periodically in respect of an insurance policy entered into is known as",
+        "options": {
+            "A": "\n\n            surrender\n",
+            "B": "\n\n            bond\n",
+            "C": "\n\n            premium\n",
+            "D": "\n\n            commission\n"
+        },
+        "correct_answer": "C",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_34",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "34",
+        "question": "Services rendered to the public is provided by",
+        "options": {
+            "A": "\n\n            domestic servants\n",
+            "B": "\n\n            civil servants\n",
+            "C": "\n\n            government\n",
+            "D": "\n\n            professionals\n"
+        },
+        "correct_answer": "B",
+        "topic": "Occupation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_35",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "35",
+        "question": "Which of the following countries are members of the Lake Chad Basin Commission?",
+        "options": {
+            "A": "\n\n            Niger and Cameroon\n",
+            "B": "\n\n            Benin and Nigeria\n",
+            "C": "\n\n            Nigeria and Mali\n",
+            "D": "\n\n            Chad and Benin\n"
+        },
+        "correct_answer": "A",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_36",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "36",
+        "question": "The macro-environmental forces and trends which are a constraint on business operations are referred to as",
+        "options": {
+            "A": "\n\n            internal factors\n",
+            "B": "\n\n            external factors\n",
+            "C": "\n\n            economic factors\n",
+            "D": "\n\n            technical factors\n"
+        },
+        "correct_answer": "B",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_37",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "37",
+        "question": "Which of the following has power to order withdrawal of a particular food item from circulation?",
+        "options": {
+            "A": "\n\n            Federal High Courts in Nigeria\n",
+            "B": "\n\n            Standard Organization of Nigeria\n",
+            "C": "\n\n            Local Government Health Inspectors\n",
+            "D": "\n\n            Food and Drugs Department of the Federal Ministry of Health\n"
+        },
+        "correct_answer": "C",
+        "topic": "Occupation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_38",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "38",
+        "question": "Chibuzor agreed to make a dress for Hauwa with September 20, 1995 as the delivery date, if the dress was not ready on that date, Hauwa could",
+        "options": {
+            "A": "\n\n            sue chibuzor for specific performance\n",
+            "B": "\n\n            seize another gown from chibuzor's shop\n",
+            "C": "\n\n            regard the contract between then as terminated\n",
+            "D": "\n\n            sue chibuzor for damage\n"
+        },
+        "correct_answer": "A",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_39",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "39",
+        "question": "Departmentalization is an aspect of",
+        "options": {
+            "A": "\n\n            directing\n",
+            "B": "\n\n            organizing\n",
+            "C": "\n\n            planning\n",
+            "D": "\n\n            controlling\n"
+        },
+        "correct_answer": "B",
+        "topic": "Introduction to Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2021_40",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2021,
+        "number": "40",
+        "question": "The function of a merchant wholesaler is to",
+        "options": {
+            "A": "\n\n            find markets for producers' finished goods\n",
+            "B": "\n\n            bring buyers and sellers together\n",
+            "C": "\n\n            possess title to the goods, store and sell to retailers\n",
+            "D": "\n\n            buy in bulk, store and sell to retailers as desired\n"
+        },
+        "correct_answer": "C",
+        "topic": "Warehousing",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

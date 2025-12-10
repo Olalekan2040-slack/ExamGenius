@@ -1,0 +1,722 @@
+[
+    {
+        "id": "JAMB_Physics_2021_1",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "1",
+        "question": "The slope of the straight line displacement-time graph indicates?",
+        "options": {
+            "A": "\n\n            distance traveled\n",
+            "B": "\n\n            uniform velocity\n",
+            "C": "\n\n            uniform acceleration\n",
+            "D": "\n\n            uniform speed\n"
+        },
+        "correct_answer": "B",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_2",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "2",
+        "question": "A man will exert the greatest pressure when he?",
+        "options": {
+            "A": "\n\n            lies flat on his back\n",
+            "B": "\n\n            lies on his belly\n",
+            "C": "\n\n            stands on both feet\n",
+            "D": "\n\n            stands on the toes of one foot\n"
+        },
+        "correct_answer": "D",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_3",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "3",
+        "question": "Which of the units of the following physical quantities are derived? I. Area II. Thrust III. Pressure IV. Mass",
+        "options": {
+            "A": "\n\n            I, II, III and IV\n",
+            "B": "\n\n            I, II, and III only\n",
+            "C": "\n\n            I, II, and IV  only\n",
+            "D": "\n\n            I and IV only\n"
+        },
+        "correct_answer": "B",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_4",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "4",
+        "question": "A ball of mass 0.5kg moving at 10ms\\(^{-1}\\) collides with another ball of equal mass at rest. If the two balls move off together after the impact, calculate their common velocity.",
+        "options": {
+            "A": "\n\n            0.2ms\\(^{-1}\\)\n",
+            "B": "\n\n            0.5ms\\(^{-1}\\)\n",
+            "C": "\n\n            5.0ms\\(^{-1}\\)\n",
+            "D": "\n\n            5.5ms\\(^{-1}\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_5",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "5",
+        "question": "The motion of a body is simple harmonic if the?",
+        "options": {
+            "A": "\n\n            acceleration is always directed towards a fixed point\n",
+            "B": "\n\n            path of motion is a straight line\n",
+            "C": "\n\n            acceleration is proportional to the square of the distance from a fixed point\n",
+            "D": "\n\n            acceleration is constant and directed towards a fixed point\n"
+        },
+        "correct_answer": "A",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_6",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "6",
+        "question": "Which of the following is not correct about the molecules of a substance in a gaseous state. They?",
+        "options": {
+            "A": "\n\n            are in a constant state of motion\n",
+            "B": "\n\n            have different speeds\n",
+            "C": "\n\n            have a temperature which is measured by the average kinetic energy\n",
+            "D": "\n\n            The collision between the gases is perfectly inelastic\n"
+        },
+        "correct_answer": "D",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_7",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "7",
+        "question": "A given mass of gas has a pressure of 80 Nm\\(^{-2}\\) at a temperature of 47 C. If the temperature is reduced to 27 C with volume remaining constant, the new pressure is?",
+        "options": {
+            "A": "\n\n            46.0 Nm\\(^{-2}\\)\n",
+            "B": "\n\n            75.0 Nm\\(^{-2}\\)\n",
+            "C": "\n\n            80.0 Nm\\(^{-2}\\)\n",
+            "D": "\n\n            85.3 Nm\\(^{-2}\\)\n"
+        },
+        "correct_answer": "B",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_8",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "8",
+        "question": "0.5kg of water at 10ºC is completely converted to ice at 0ºC by extracting (88000) of heat from it. If the specific heat capacity of water is 4200jkg\\(^{1}\\) Cº. Calculate the specific latent heat of fusion of ice.",
+        "options": {
+            "A": "\n\n            9.0kjkg\\(^{-1}\\)\n",
+            "B": "\n\n            84.0kjkg\\(^{-1}\\)\n",
+            "C": "\n\n            134.0kjkg\\(^{-1}\\)\n",
+            "D": "\n\n            168.0kjkg\\(^{-1}\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_9",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "9",
+        "question": "Which of the following instruments may be used to measure relative humidity?",
+        "options": {
+            "A": "\n\n            Hydrometer\n",
+            "B": "\n\n            Manometer\n",
+            "C": "\n\n            Hygrometer\n",
+            "D": "\n\n            Hypsometer\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_10",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "10",
+        "question": "A source of sound produces waves in air of wavelength 1.65m. If the speed of sound in air is 330ms\\(^{-1}\\), the period of vibration in air is?",
+        "options": {
+            "A": "\n\n            200\n",
+            "B": "\n\n            0.005\n",
+            "C": "\n\n            0.5\n",
+            "D": "\n\n            0.02\n"
+        },
+        "correct_answer": "B",
+        "topic": "Waves & Sound",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_11",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "11",
+        "question": "A boy standing some distance from the foot of a tall cliff claps his hands and hears an echo 0.5s later. If the speed of sound is 340ms\\(^{-1}\\), how far is he from the cliff?",
+        "options": {
+            "A": "\n\n            680m\n",
+            "B": "\n\n            170m\n",
+            "C": "\n\n            34m\n",
+            "D": "\n\n            85m\n"
+        },
+        "correct_answer": "D",
+        "topic": "Waves & Sound",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_12",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "12",
+        "question": "Which of the following is not a vector quantity?",
+        "options": {
+            "A": "\n\n            momentum\n",
+            "B": "\n\n            force\n",
+            "C": "\n\n            temperature\n",
+            "D": "\n\n            displacement\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_13",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "13",
+        "question": "Calculate the heat energy required to vaporize 50g of water initially at 80ºC if the specific heat capacity of water is 4.23jg\\(^{-1}\\)k\\(^{-1}\\) (specific latent heat of vaporization of water is 2260jg\\(^{-1}\\)",
+        "options": {
+            "A": "\n\n            530000J\n",
+            "B": "\n\n            23200J\n",
+            "C": "\n\n            17200J\n",
+            "D": "\n\n            130000J\n"
+        },
+        "correct_answer": "D",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_14",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "14",
+        "question": "In a series R-L-C circuit at resonance, the voltages across the resistor and the inductors are 30V and 40V respectively. What is the voltage across the capacitor?",
+        "options": {
+            "A": "\n\n            30V\n",
+            "B": "\n\n            40V\n",
+            "C": "\n\n            50V\n",
+            "D": "\n\n            70V\n"
+        },
+        "correct_answer": "B",
+        "topic": "Electricity & Optics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_15",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "15",
+        "question": "If the frequency of an emitted x-ray is 1.6 x 10\\(^{16}\\)Hz, the accelerating potential is? [e = 1.6 x 10\\(^{-19}\\)J, h = 6.63 x 10-\\(^{34}\\)Js]",
+        "options": {
+            "A": "\n\n            6630.0V\n",
+            "B": "\n\n            663.0V\n",
+            "C": "\n\n            66.3V\n",
+            "D": "\n\n            6.6V\n"
+        },
+        "correct_answer": "C",
+        "topic": "Waves & Sound",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_16",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "16",
+        "question": "If the fraction of the atoms of a radioactive material left after 120 years is 1/64, what is the half-life of the material?",
+        "options": {
+            "A": "\n\n            24 years\n",
+            "B": "\n\n            20 years\n",
+            "C": "\n\n            10 years\n",
+            "D": "\n\n            2 years\n"
+        },
+        "correct_answer": "B",
+        "topic": "Modern Physics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_17",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "17",
+        "question": "A certain radioactive source emits radiation that was found to be deflected by both magnetic and electric fields. The radiation is?",
+        "options": {
+            "A": "\n\n            beta rays\n",
+            "B": "\n\n            gamma rays\n",
+            "C": "\n\n            x-rays\n",
+            "D": "\n\n            ultra-violet rays\n"
+        },
+        "correct_answer": "A",
+        "topic": "Electricity & Optics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_18",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "18",
+        "question": "The inner diameter of a test tube can be measured accurately using a?",
+        "options": {
+            "A": "\n\n            micrometer screw gauge\n",
+            "B": "\n\n            pair of dividers\n",
+            "C": "\n\n            meter rule\n",
+            "D": "\n\n            pair of vernier calipers\n"
+        },
+        "correct_answer": "D",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_19",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "19",
+        "question": "Two bodies have masses in the ratio3:1. They experience forces which impart to them, acceleration in the ratio 2:9 respectively. Find the ratio of forces the masses experienced",
+        "options": {
+            "A": "\n\n            1:4\n",
+            "B": "\n\n            2:1\n",
+            "C": "\n\n            2:3\n",
+            "D": "\n\n            2:5\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_20",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "20",
+        "question": "Particles of mass 10\\(^{-2}\\)kg is fixed to the tip of a fan blade which rotates with angular velocity of 100rad\\(^{-1}\\). If the radius of the blade is 0.2m, the centripetal force is?",
+        "options": {
+            "A": "\n\n            2N\n",
+            "B": "\n\n            20N\n",
+            "C": "\n\n            200N\n",
+            "D": "\n\n            400N\n"
+        },
+        "correct_answer": "B",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_21",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "21",
+        "question": "A lead bullet of mass 0.05kg is fired with a velocity of 200ms\\(^{-1}\\) into a block of mass 0.95kg. Given that the lead block can move freely, the final kinetic energy after impact is?",
+        "options": {
+            "A": "\n\n            50J\n",
+            "B": "\n\n            100J\n",
+            "C": "\n\n            150J\n",
+            "D": "\n\n            200J\n"
+        },
+        "correct_answer": "A",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_22",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "22",
+        "question": "A ball of mass 0.1kg is thrown vertically upwards with a speed of 10ms\\(^{-1}\\) from the top of a tower 10m high. Neglecting air resistance, its total energy just before hitting the ground is? (Take g = 10ms\\(^{-2}\\))",
+        "options": {
+            "A": "\n\n            5J\n",
+            "B": "\n\n            10J\n",
+            "C": "\n\n            15J\n",
+            "D": "\n\n            20J\n"
+        },
+        "correct_answer": "C",
+        "topic": "Electricity & Optics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_23",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "23",
+        "question": "A car of mass 800kg attains a speed of 25m/s in 20secs. The power developed in the engine is?",
+        "options": {
+            "A": "\n\n            1.25 x 10\\(^{4}\\)W\n",
+            "B": "\n\n            2.50x 10\\(^{4}\\)W\n",
+            "C": "\n\n            1.25 x 10\\(^{6}\\)W\n",
+            "D": "\n\n            2.50 x 10\\(^{6}\\)W\n"
+        },
+        "correct_answer": "B",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_24",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "24",
+        "question": "When the breaks in a car are applied, the frictional force on the tyres is?",
+        "options": {
+            "A": "\n\n            a disadvantage because it is in the direction of the motion of the car\n",
+            "B": "\n\n            a disadvantage because it is in the opposite direction of the motion of the car\n",
+            "C": "\n\n            an advantage because it is in the direction of the motion of the car\n",
+            "D": "\n\n            an advantage because it is in the opposite direction of the motion of the car\n"
+        },
+        "correct_answer": "D",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_25",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "25",
+        "question": "If the stress on a wire is 10\\(^{7}\\)NM\\(^{-2}\\) and the wire is stretched from its original length of 10.00m to 10.05m. The young's modulus of the wire is?",
+        "options": {
+            "A": "\n\n            5.0 x 10\\(^{-4}\\)Nm\\(^{-2}\\)\n",
+            "B": "\n\n            5.0 x 10\\(^{-5}\\)Nm\\(^{-2}\\)\n",
+            "C": "\n\n            2.0 x 10\\(^{-8}\\)Nm\\(^{-2}\\)\n",
+            "D": "\n\n            2.0 x 10\\(^{9}\\)Nm\\(^{-2}\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_26",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "26",
+        "question": "A solid weighs 10.00N in air, 6N when forcefully immersed in water, and 7.0N when fully immersed in a liquid, X. Calculate the relative density of the liquid X.",
+        "options": {
+            "A": "\n\n            \\(\\frac{5}{3}\\)\n",
+            "B": "\n\n            \\(\\frac{4}{3}\\)\n",
+            "C": "\n\n            \\(\\frac{3}{4}\\)\n",
+            "D": "\n\n            \\(\\frac{7}{10}\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_27",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "27",
+        "question": "When the temperature of a liquid increases, its surface tension",
+        "options": {
+            "A": "\n\n            decreases\n",
+            "B": "\n\n            increases\n",
+            "C": "\n\n            remains constant\n",
+            "D": "\n\n            increases then decreases\n"
+        },
+        "correct_answer": "A",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_28",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "28",
+        "question": "A gas at a volume of V\\(_{0}\\) in a container at pressure p\\(_{0}\\) is compressed to one-fifth of its volume. What will be its pressure if the magnitude of its original temperature T is constant?",
+        "options": {
+            "A": "\n\n            \\(\\frac{p_{0}} {5}\\)\n",
+            "B": "\n\n            \\(\\frac{4p_{0}}{5}\\)\n",
+            "C": "\n\n            p\\(_{0}\\)\n",
+            "D": "\n\n            5P\\(_{0}\\)\n"
+        },
+        "correct_answer": "D",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_29",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "29",
+        "question": "A piece of substance of specific heat capacity 450Jkg\\(^{-1}\\)k\\(^{1}\\) falls through a vertical distance of 20m from rest. Calculate the rise in temperature of the substance on hitting the ground when all its energies are converted into heat. [g = 10ms\\(^{-2}\\)]",
+        "options": {
+            "A": "\n\n            \\(\\frac{2}{9}\\)ºC\n",
+            "B": "\n\n            \\(\\frac{4}{9}\\)ºC\n",
+            "C": "\n\n            \\(\\frac{9}{2}\\)ºC\n",
+            "D": "\n\n            \\(\\frac{9}{4}\\)ºC\n"
+        },
+        "correct_answer": "B",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_30",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "30",
+        "question": "I. A liquid boils when its saturated vapor pressure is equal to the external pressure II. Dissolved substances in pure water lead to an increase in the boiling point. III. When the external pressure is increased, the boiling point increases. IV. Dissolved substances in pure water decreases the boiling point Which of the above combinations are peculiarities of the boiling point of a liquid?",
+        "options": {
+            "A": "\n\n            I, II and III only\n",
+            "B": "\n\n            I, II, III, and IV\n",
+            "C": "\n\n            I, II, and IV\n",
+            "D": "\n\n            II, III, and IV\n"
+        },
+        "correct_answer": "A",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_31",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "31",
+        "question": "The temperature gradient across a copper rod of thickness 0.02m, maintained at two temperature junctions of 20º and 80ºC respectively is?",
+        "options": {
+            "A": "\n\n            3.0 x 10\\(^{2}\\)km\\(^{-1}\\)\n",
+            "B": "\n\n            3.0 x 10\\(^{3}\\)km\\(^{-1}\\)\n",
+            "C": "\n\n            5.0 x 10\\(^{3}\\)km\\(^{-1}\\)\n",
+            "D": "\n\n            3.0 x 10\\(^{4}\\)km\\(^{-1}\\)\n"
+        },
+        "correct_answer": "B",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_32",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "32",
+        "question": "Calculate the mass of ice that would melt when 2kg of copper is quickly transferred from boiling water to a block of ice without heat loss (specific heat capacity of copper = 400Jkg\\(^{1}\\)k\\(^{-1}\\), latent heat of fusion of ice = 3.3 x 10\\(^{5}\\)Jkg\\(^{-1}\\))",
+        "options": {
+            "A": "\n\n            \\(\\frac{8}{33}\\)kg\n",
+            "B": "\n\n            \\(\\frac{3.3}{80}\\)kg\n",
+            "C": "\n\n            \\(\\frac{80}{33}\\)kg\n",
+            "D": "\n\n            \\(\\frac{3.3}{8}\\)kg\n"
+        },
+        "correct_answer": "A",
+        "topic": "Heat & Temperature",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_33",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "33",
+        "question": "The equation of a wave traveling along the positive x-direction is given by; y = 0.25 x 10\\(^{-3}\\) sin (500t - 0.025x). Determine the angular velocity of the wave motion.",
+        "options": {
+            "A": "\n\n            0.25 x 10\\(^{-3}\\)rads\\(^{-1}\\)\n",
+            "B": "\n\n            0.25 x 10\\(^{-1}\\)rads\\(^{-1}\\)\n",
+            "C": "\n\n            5.00 x 10\\(^{2}\\)rads\\(^{-1}\\)\n",
+            "D": "\n\n            2.50 x 10\\(^{3}\\)rads\\(^{-1}\\)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_34",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "34",
+        "question": "If a sound wave goes from a cold air region to a hot air region, its wavelength will?",
+        "options": {
+            "A": "\n\n            increase\n",
+            "B": "\n\n            decrease\n",
+            "C": "\n\n            decrease then increase\n",
+            "D": "\n\n            remain constant\n"
+        },
+        "correct_answer": "A",
+        "topic": "Waves & Sound",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_35",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "35",
+        "question": "The lowest note emitted by a stretched string has a frequency of 40Hz. How many overtones are there between 40Hz and 180Hz?",
+        "options": {
+            "A": "\n\n            4\n",
+            "B": "\n\n            3\n",
+            "C": "\n\n            2\n",
+            "D": "\n\n            1\n"
+        },
+        "correct_answer": "B",
+        "topic": "Waves & Sound",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_36",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "36",
+        "question": "A man stands 4m in front of a plane mirror. If the mirror is moved 1m towards the man, the distance between him and his new image is?",
+        "options": {
+            "A": "\n\n            3m\n",
+            "B": "\n\n            5m\n",
+            "C": "\n\n            6m\n",
+            "D": "\n\n            10m\n"
+        },
+        "correct_answer": "C",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_37",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "37",
+        "question": "The inside portion of part of a hollow metal sphere of diameter 20cm is polished. The portion will therefore form a?",
+        "options": {
+            "A": "\n\n            concave mirror of focal length 5cm\n",
+            "B": "\n\n            concave mirror of focal length 10cm\n",
+            "C": "\n\n            convex mirror of focal length 5cm\n",
+            "D": "\n\n            convex mirror of focal length 10cm\n"
+        },
+        "correct_answer": "A",
+        "topic": "Mechanics",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_38",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "38",
+        "question": "The velocities of light in air and glass are 3.0 x 10\\(^8\\)ms\\(^{-1}\\) and 2.0 x 10\\(^8\\)ms\\(^{-1}\\) respectively. If the angle of refraction is 30º, the sine of the angle of incidence is?",
+        "options": {
+            "A": "\n\n            0.33\n",
+            "B": "\n\n            0.50\n",
+            "C": "\n\n            0.67\n",
+            "D": "\n\n            0.75\n"
+        },
+        "correct_answer": "D",
+        "topic": "Light",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_39",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "39",
+        "question": "An astronomical telescope is said to be in normal adjustment when the?",
+        "options": {
+            "A": "\n\n            eye is accommodated\n",
+            "B": "\n\n            focal length of an object lens is longer than that of eye piece\n",
+            "C": "\n\n            final image is at the near point of eye\n",
+            "D": "\n\n            final image is at infinity\n"
+        },
+        "correct_answer": "D",
+        "topic": "Light",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Physics_2021_40",
+        "exam": "JAMB",
+        "subject": "Physics",
+        "year": 2021,
+        "number": "40",
+        "question": "A 2H inductor has negligible resistance and is connected to a \\(\\frac{50}{\\pi}\\) Hz A.C supply. The reactance of the inductor is?",
+        "options": {
+            "A": "\n\n            200\\(\\Omega\\)\n",
+            "B": "\n\n            50\\(\\Omega\\)\n",
+            "C": "\n\n            \\(\\frac{100}{\\pi}\\)\n",
+            "D": "\n\n            \\(\\frac{25}{\\pi \\Omega}\\)\n"
+        },
+        "correct_answer": "A",
+        "topic": "Electricity & Optics",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

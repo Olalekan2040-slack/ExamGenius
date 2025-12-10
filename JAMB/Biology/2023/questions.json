@@ -1,0 +1,1406 @@
+[
+    {
+        "id": "JAMB_Biology_2023_1",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "1",
+        "question": "Which of the following is an example of a microorganism in action as a disease vector?",
+        "options": {
+            "A": "\n\n            Fungi decomposing dead plant material\n",
+            "B": "\n\n            Mosquito transmitting malaria\n",
+            "C": "\n\n            Bacteria causing food poisoning\n",
+            "D": "\n\n            Algae producing oxygen through photosynthesis\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_2",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "2",
+        "question": "Which of the following is a characteristic of cells related to irritability?",
+        "options": {
+            "A": "\n\n            Ability to respond to stimuli\n",
+            "B": "\n\n            Ability to synthesize proteins\n",
+            "C": "\n\n            Ability to generate energy\n",
+            "D": "\n\n            Ability to replicate DNA\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_3",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "3",
+        "question": "The membrane around the vacuole is known as",
+        "options": {
+            "A": "\n\n            Elaioplast\n",
+            "B": "\n\n            Amyloplast\n",
+            "C": "\n\n            Tonoplast\n",
+            "D": "\n\n            Cytoplast\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_4",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "4",
+        "question": "Which of the following is evidence of evolution?",
+        "options": {
+            "A": "\n\n            All of the above.\n",
+            "B": "\n\n            Similarities in embryonic development\n",
+            "C": "\n\n            Fossils of extinct organisms\n",
+            "D": "\n\n            Homologous structures in different species\n"
+        },
+        "correct_answer": "A",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_5",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "5",
+        "question": "Which of the following is an example of an adaptation for survival in social insects?",
+        "options": {
+            "A": "\n\n            Migration to warmer climates\n",
+            "B": "\n\n            Production of venom for defense\n",
+            "C": "\n\n            Formation of complex caste systems\n",
+            "D": "\n\n            Hibernation during winter months\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_6",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "6",
+        "question": "Which of the following is NOT a part of the alimentary canal?",
+        "options": {
+            "A": "\n\n            Oesophagus\n",
+            "B": "\n\n            Large intestine\n",
+            "C": "\n\n            Liver\n",
+            "D": "\n\n            Small intestine\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_7",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "7",
+        "question": "Which of the following is an evolutionary trend commonly observed in organisms?",
+        "options": {
+            "A": "\n\n            Decreased complexity over time\n",
+            "B": "\n\n            Increased dependence on external resources\n",
+            "C": "\n\n            Increased genetic diversity within populations\n",
+            "D": "\n\n            Decreased adaptation to the environment\n"
+        },
+        "correct_answer": "C",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_8",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "8",
+        "question": "Which of the following is a characteristic feature of Kingdom Plantae?",
+        "options": {
+            "A": "\n\n            Presence of chloroplasts\n",
+            "B": "\n\n            Ability to perform photosynthesis\n",
+            "C": "\n\n            Lack of cell walls\n",
+            "D": "\n\n            Heterotrophic mode of nutrition\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_9",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "9",
+        "question": "A biome characterized by hot summer, warm winter and treeless vegetation is",
+        "options": {
+            "A": "\n\n            Steppe grasslands\n",
+            "B": "\n\n            Temperate deserts\n",
+            "C": "\n\n            Savannah grassland\n",
+            "D": "\n\n            Tropical deserts\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_10",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "10",
+        "question": "Which of the following is an example of physiological variation in organisms?",
+        "options": {
+            "A": "\n\n            Variation in blood pressure among individuals\n",
+            "B": "\n\n            Variation in beak shape among finches\n",
+            "C": "\n\n            Differences in fur color in rabbits\n",
+            "D": "\n\n            Variation in leaf shape in plants\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_11",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "11",
+        "question": "Which of the following are components of the skeletal system in humans?",
+        "options": {
+            "A": "\n\n            Cartilage and blood vessels\n",
+            "B": "\n\n            Ligaments and tendons\n",
+            "C": "\n\n            Muscles and nerves\n",
+            "D": "\n\n            Bones and joints\n"
+        },
+        "correct_answer": "D",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_12",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "12",
+        "question": "Which of the following represents an example of ecological management and conservation through a biological association?",
+        "options": {
+            "A": "\n\n            Construction of a dam for hydroelectric power\n",
+            "B": "\n\n            Introduction of an invasive species for pest control\n",
+            "C": "\n\n            Clear-cutting of a forest for timber extraction\n",
+            "D": "\n\n            Establishment of marine protected areas\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_13",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "13",
+        "question": "The term cell was given by",
+        "options": {
+            "A": "\n\n            Robert Hooke\n",
+            "B": "\n\n            Schwann\n",
+            "C": "\n\n            De Bary\n",
+            "D": "\n\n            Tatum\n"
+        },
+        "correct_answer": "A",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_14",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "14",
+        "question": "Which of the following is the primary organ involved in gas exchange during respiration in humans?",
+        "options": {
+            "A": "\n\n            Diaphragm\n",
+            "B": "\n\n            Bronchi\n",
+            "C": "\n\n            Lungs\n",
+            "D": "\n\n            Trachea\n"
+        },
+        "correct_answer": "C",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_15",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "15",
+        "question": "Which gland is responsible for producing the hormone insulin?",
+        "options": {
+            "A": "\n\n            Thyroid gland\n",
+            "B": "\n\n            Pituitary gland\n",
+            "C": "\n\n            Pancreas\n",
+            "D": "\n\n            Adrenal gland\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_16",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "16",
+        "question": "Most fishes do not sink in water because of the presences of: I. swim bladder II. air bladder III. air sacs IV. air in spongy bones",
+        "options": {
+            "A": "\n\n            II and III are correct\n",
+            "B": "\n\n            I and II are correct\n",
+            "C": "\n\n            I, II, III and IV are correct\n",
+            "D": "\n\n            III and IV are correct\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_17",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "17",
+        "question": "In monohybrid inheritance, if an organism carries two different alleles for a particular gene, it is called:",
+        "options": {
+            "A": "\n\n            Homozygous\n",
+            "B": "\n\n            Dominant\n",
+            "C": "\n\n            Heterozygous\n",
+            "D": "\n\n            Recessive\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_18",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "18",
+        "question": "What is the tissue responsible for transporting water and minerals from the roots to the rest of the plant?",
+        "options": {
+            "A": "\n\n            Xylem\n",
+            "B": "\n\n            Epidermis\n",
+            "C": "\n\n            Parenchyma\n",
+            "D": "\n\n            Phloem\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_19",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "19",
+        "question": "Which of the following is an example of an abiotic ecological factor?",
+        "options": {
+            "A": "\n\n            Temperature\n",
+            "B": "\n\n            Competition\n",
+            "C": "\n\n            Predation\n",
+            "D": "\n\n            Symbiosis\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_20",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "20",
+        "question": "Which of the following processes is involved in the reproduction of developing organisms?",
+        "options": {
+            "A": "\n\n            Budding\n",
+            "B": "\n\n            Germination\n",
+            "C": "\n\n            Fertilization\n",
+            "D": "\n\n            Pollination\n"
+        },
+        "correct_answer": "C",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_21",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "21",
+        "question": "Behavioral adaptation for dealing with a hot climate could include",
+        "options": {
+            "A": "\n\n            Hibernating during the hottest part of the day\n",
+            "B": "\n\n            Large scales on the back of a lizard\n",
+            "C": "\n\n            Feeding during the hottest part of the day\n",
+            "D": "\n\n            A small kidney to conserve water\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_22",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "22",
+        "question": "The natural place of an organism or community is known as",
+        "options": {
+            "A": "\n\n            Niche\n",
+            "B": "\n\n            Habit\n",
+            "C": "\n\n            Biome\n",
+            "D": "\n\n            Habitat\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_23",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "23",
+        "question": "Which process in the nutrient cycle converts atmospheric nitrogen into a form that plants can utilize?",
+        "options": {
+            "A": "\n\n            Denitrification\n",
+            "B": "\n\n            Nitrogen fixation\n",
+            "C": "\n\n            Ammonification\n",
+            "D": "\n\n            Nitrification\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_24",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "24",
+        "question": "Which of the following functions is performed by the skin to help maintain homeostasis in the human body?",
+        "options": {
+            "A": "\n\n            Regulation of body temperature\n",
+            "B": "\n\n            Filtration of blood\n",
+            "C": "\n\n            Production of hormones\n",
+            "D": "\n\n            Digestion of food\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_25",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "25",
+        "question": "Which of the following soil types becomes less fertile due to the intense leaching caused by tropical rains?",
+        "options": {
+            "A": "\n\n            Yellow soil\n",
+            "B": "\n\n            Laterite soil\n",
+            "C": "\n\n            Red soils\n",
+            "D": "\n\n            Black soil\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_26",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "26",
+        "question": "Which type of reproduction involves the fusion of gametes from two parents?",
+        "options": {
+            "A": "\n\n            Sexual reproduction\n",
+            "B": "\n\n            Asexual reproduction\n",
+            "C": "\n\n            Binary fission\n",
+            "D": "\n\n            Budding\n"
+        },
+        "correct_answer": "A",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_27",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "27",
+        "question": "Which processes are involved in nutrient cycling in a functioning ecosystem?",
+        "options": {
+            "A": "\n\n            Erosion, weathering, and sedimentation\n",
+            "B": "\n\n            Decomposition, evaporation, and precipitation\n",
+            "C": "\n\n            Nitrogen fixation, denitrification, and ammonification\n",
+            "D": "\n\n            Respiration, photosynthesis, and transpiration\n"
+        },
+        "correct_answer": "C",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_28",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "28",
+        "question": "What is autotrophic nutrition?",
+        "options": {
+            "A": "\n\n            Nutrition in which organisms obtain food by breaking down complex organic compounds.\n",
+            "B": "\n\n            Nutrition in which organisms obtain food from other organisms\n",
+            "C": "\n\n            Nutrition in which organisms obtain food by consuming both plants and animals\n",
+            "D": "\n\n            Nutrition in which organisms produce their own food using energy from the sun or inorganic substances\n"
+        },
+        "correct_answer": "D",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_29",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "29",
+        "question": "The theory of evolution can be defined as",
+        "options": {
+            "A": "\n\n            The belief that all species were created in their current form\n",
+            "B": "\n\n            The hypothesis that organisms strive to improve themselves over generations\n",
+            "C": "\n\n            The idea that species change over time through natural processes\n",
+            "D": "\n\n            The concept that evolution occurs through a series of sudden and dramatic changes\n"
+        },
+        "correct_answer": "C",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_30",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "30",
+        "question": "Which of the following is a male reproductive organ in humans?",
+        "options": {
+            "A": "\n\n            Uterus\n",
+            "B": "\n\n            Ovary\n",
+            "C": "\n\n            Testis\n",
+            "D": "\n\n            Fallopian tube\n"
+        },
+        "correct_answer": "C",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_31",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "31",
+        "question": "Which of the following is an example of a behavioral adaptation for survival in animals?",
+        "options": {
+            "A": "\n\n            Sharp teeth\n",
+            "B": "\n\n            Migration\n",
+            "C": "\n\n            Wings\n",
+            "D": "\n\n            Camouflage\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_32",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "32",
+        "question": "Which of the following traits is not visible in a person with Down syndrome?",
+        "options": {
+            "A": "\n\n            Short neck\n",
+            "B": "\n\n            High muscle tone\n",
+            "C": "\n\n            Small stature\n",
+            "D": "\n\n            Slant eyes\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_33",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "33",
+        "question": "What is the definition of population ecology?",
+        "options": {
+            "A": "\n\n            The study of interactions between organisms and their physical environment\n",
+            "B": "\n\n            The study of evolutionary processes and their effects on populations\n",
+            "C": "\n\n            The study of interactions between different populations in an ecosystem\n",
+            "D": "\n\n            The study of the distribution and abundance of individuals within a species\n"
+        },
+        "correct_answer": "D",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_34",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "34",
+        "question": "What is the term used to describe the maximum number of individuals of a species that an environment can support indefinitely?",
+        "options": {
+            "A": "\n\n            Ecological niche\n",
+            "B": "\n\n            Limiting factor\n",
+            "C": "\n\n            Carrying capacity\n",
+            "D": "\n\n            Density-dependent factor\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_35",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "35",
+        "question": "Which of the following statements about the heart is true?",
+        "options": {
+            "A": "\n\n            The heart is responsible for the production of red blood cells\n",
+            "B": "\n\n            The heart pumps oxygenated blood to the lungs\n",
+            "C": "\n\n            The heart receives blood from the kidneys and filters waste products\n",
+            "D": "\n\n            The heart is a muscular organ that contracts to circulate blood throughout the body\n"
+        },
+        "correct_answer": "D",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_36",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "36",
+        "question": "What is the primary source of variation in a population?",
+        "options": {
+            "A": "\n\n            Gene flow\n",
+            "B": "\n\n            Mutation\n",
+            "C": "\n\n            Natural selection\n",
+            "D": "\n\n            Genetic drift\n"
+        },
+        "correct_answer": "B",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_37",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "37",
+        "question": "Which component of blood is responsible for carrying oxygen to the body tissues?",
+        "options": {
+            "A": "\n\n            Platelets\n",
+            "B": "\n\n            White blood cells\n",
+            "C": "\n\n            Red blood cells\n",
+            "D": "\n\n            Plasma\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_38",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "38",
+        "question": "What are the primary products of photosynthesis?",
+        "options": {
+            "A": "\n\n            Carbon dioxide and water\n",
+            "B": "\n\n            Glucose and oxygen\n",
+            "C": "\n\n            Glucose and carbon dioxide\n",
+            "D": "\n\n            Oxygen and water\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_39",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "39",
+        "question": "The alternate form of a gene is",
+        "options": {
+            "A": "\n\n            Alternate type\n",
+            "B": "\n\n            Dominant character\n",
+            "C": "\n\n            Recessive character\n",
+            "D": "\n\n            Allele\n"
+        },
+        "correct_answer": "D",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_40",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "40",
+        "question": "Which organs are part of the alimentary canal in the human digestive system?",
+        "options": {
+            "A": "\n\n            Salivary glands, tongue, and pharynx\n",
+            "B": "\n\n            Large intestine, appendix, and rectum\n",
+            "C": "\n\n            Stomach, liver, and gallbladder\n",
+            "D": "\n\n            Oesophagus, pancreas, and small intestine\n"
+        },
+        "correct_answer": "B",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_41",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "41",
+        "question": "Which of the following characteristics is typical of the phylum Arthropoda?",
+        "options": {
+            "A": "\n\n            Radial symmetry\n",
+            "B": "\n\n            Closed circulatory system\n",
+            "C": "\n\n            Endoskeleton made of bones\n",
+            "D": "\n\n            Presence of a segmented body\n"
+        },
+        "correct_answer": "D",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_42",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "42",
+        "question": "Which of the following is an example of conserving resources in an ecosystem",
+        "options": {
+            "A": "\n\n            Excessive use of chemical fertilizers in agriculture\n",
+            "B": "\n\n            Introducing invasive species to an ecosystem\n",
+            "C": "\n\n            Implementing sustainable fishing practices\n",
+            "D": "\n\n            Cutting down trees for timber production\n"
+        },
+        "correct_answer": "C",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_43",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "43",
+        "question": "Which of the following represents the correct hierarchical organization of life from the smallest to the largest scale?",
+        "options": {
+            "A": "\n\n            Organs, tissues, cells, organisms, populations, communities, ecosystems\n",
+            "B": "\n\n            Cells, organs, tissues, organisms, populations, communities, ecosystems\n",
+            "C": "\n\n            Tissues, organs, cells, organisms, populations, communities, ecosystems\n",
+            "D": "\n\n            Cells, tissues, organs, organisms, populations, communities, ecosystems\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_44",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "44",
+        "question": "Which of the following blood vessels carries oxygenated blood away from the heart?",
+        "options": {
+            "A": "\n\n            Arteries\n",
+            "B": "\n\n            Venules\n",
+            "C": "\n\n            Capillaries\n",
+            "D": "\n\n            Veins\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_45",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "45",
+        "question": "Which of the following factors primarily affects the distribution of organisms in an ecosystem",
+        "options": {
+            "A": "\n\n            Wind speed\n",
+            "B": "\n\n            Soil pH\n",
+            "C": "\n\n            Temperature\n",
+            "D": "\n\n            Day length\n"
+        },
+        "correct_answer": "C",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_46",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "46",
+        "question": "Which of the following is NOT a method of reproduction in animals?",
+        "options": {
+            "A": "\n\n            Asexual reproduction\n",
+            "B": "\n\n            Budding\n",
+            "C": "\n\n            Sexual reproduction\n",
+            "D": "\n\n            Sporulation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_47",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "47",
+        "question": "Which of the following statements is true about the kingdom Fungi?",
+        "options": {
+            "A": "\n\n            Fungi obtain nutrients by absorbing organic matter\n",
+            "B": "\n\n            Fungi are photosynthetic organisms\n",
+            "C": "\n\n            Fungi are multicellular organisms\n",
+            "D": "\n\n            Fungi reproduce through the formation of seeds\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_48",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "48",
+        "question": "Viviparity refers to the reproductive strategy in which",
+        "options": {
+            "A": "\n\n            Offspring are produced by internal fertilization\n",
+            "B": "\n\n            Offspring are produced by external fertilization\n",
+            "C": "\n\n            Offspring develop and are nourished inside the female's body\n",
+            "D": "\n\n            Offspring develop and are nourished outside the female's body\n"
+        },
+        "correct_answer": "C",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_49",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "49",
+        "question": "Which of the following is the most inclusive level of classification in the Linnaean system?",
+        "options": {
+            "A": "\n\n            Kingdom\n",
+            "B": "\n\n            Phylum\n",
+            "C": "\n\n            Domain\n",
+            "D": "\n\n            Class\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_50",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "50",
+        "question": "Which of the following describes the inheritance of traits from parents to offspring?",
+        "options": {
+            "A": "\n\n            Adaptation\n",
+            "B": "\n\n            Evolution\n",
+            "C": "\n\n            Natural selection\n",
+            "D": "\n\n            Genetics\n"
+        },
+        "correct_answer": "D",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_51",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "51",
+        "question": "Which of the following statements best describes the role of competition in the process of adaptation?",
+        "options": {
+            "A": "\n\n            Competition leads to the selection of individuals with favorable traits for survival and reproduction\n",
+            "B": "\n\n            Competition ensures equal distribution of resources among individuals in a population\n",
+            "C": "\n\n            Competition leads to the development of new traits and adaptations in a population\n",
+            "D": "\n\n            Competition reduces the need for adaptations as individuals coexist peacefully\n"
+        },
+        "correct_answer": "A",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_52",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "52",
+        "question": "Which of the following statements is true regarding sex-linked traits?",
+        "options": {
+            "A": "\n\n            Sex-linked traits are located on the sex chromosomes\n",
+            "B": "\n\n            Sex-linked traits are inherited only from the mother\n",
+            "C": "\n\n            Sex-linked traits are more commonly observed in females\n",
+            "D": "\n\n            Sex-linked traits are not influenced by hormonal factors\n"
+        },
+        "correct_answer": "A",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_53",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "53",
+        "question": "Which of the following is a plant hormone responsible for promoting cell elongation and growth?",
+        "options": {
+            "A": "\n\n            Abscisic acid\n",
+            "B": "\n\n            Gibberellins\n",
+            "C": "\n\n            Ethylene\n",
+            "D": "\n\n            Cytokinins\n"
+        },
+        "correct_answer": "B",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_54",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "54",
+        "question": "Which of the following is a primary source of pollution in aquatic ecosystems?",
+        "options": {
+            "A": "\n\n            Soil erosion\n",
+            "B": "\n\n            Industrial discharge\n",
+            "C": "\n\n            Air pollution\n",
+            "D": "\n\n            Deforestation\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_55",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "55",
+        "question": "Which of the following mechanisms is responsible for providing support in plants?",
+        "options": {
+            "A": "\n\n            Muscles and bones\n",
+            "B": "\n\n            Exoskeleton\n",
+            "C": "\n\n            Endocrine system\n",
+            "D": "\n\n            Cell walls and turgor pressure\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_56",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "56",
+        "question": "Metamorphosis is a biological process that involves",
+        "options": {
+            "A": "\n\n            The growth and development of an organism from a zygote to an adult\n",
+            "B": "\n\n            The change in form and structure during the life cycle of certain organisms\n",
+            "C": "\n\n            The regeneration of lost body parts in an organism\n",
+            "D": "\n\n            The transformation of an organism from an adult stage to a larval stage\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_57",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "57",
+        "question": "Which of the following organs is primarily responsible for excretion in humans?",
+        "options": {
+            "A": "\n\n            Liver\n",
+            "B": "\n\n            Pancreas\n",
+            "C": "\n\n            Kidneys\n",
+            "D": "\n\n            Lungs\n"
+        },
+        "correct_answer": "C",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_58",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "58",
+        "question": "Which of the following is the correct classification of carbohydrates?",
+        "options": {
+            "A": "\n\n            Lipid\n",
+            "B": "\n\n            Phytonutrient\n",
+            "C": "\n\n            Macronutrient\n",
+            "D": "\n\n            Micronutrient\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_59",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "59",
+        "question": "Which of the following eye defects is caused by the inability of the eye to focus light on the retina?",
+        "options": {
+            "A": "\n\n            Glaucoma\n",
+            "B": "\n\n            Myopia\n",
+            "C": "\n\n            Cataracts\n",
+            "D": "\n\n            Astigmatism\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_60",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "60",
+        "question": "Germination is the process in which a seed",
+        "options": {
+            "A": "\n\n            Begins to photosynthesize\n",
+            "B": "\n\n            Develops into a mature plant\n",
+            "C": "\n\n            Absorbs nutrients from the soil\n",
+            "D": "\n\n            Breaks dormancy and starts to grow\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_61",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "61",
+        "question": "Which of the following statements is true regarding sexual reproduction in organisms?",
+        "options": {
+            "A": "\n\n            It involves the fusion of gametes from two parents, resulting in offspring with genetic variation\n",
+            "B": "\n\n            It involves the production of offspring through a single parent, resulting in genetically identical offspring\n",
+            "C": "\n\n            It is a form of asexual reproduction where offspring are produced without the involvement of gametes\n",
+            "D": "\n\n            It does not involve the formation of gametes or the fusion of reproductive cells\n"
+        },
+        "correct_answer": "A",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_62",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "62",
+        "question": "Which of the following is a method of asexual reproduction in plants?",
+        "options": {
+            "A": "\n\n            Pollination\n",
+            "B": "\n\n            Vegetative propagation\n",
+            "C": "\n\n            Seed dispersal\n",
+            "D": "\n\n            Fertilization\n"
+        },
+        "correct_answer": "B",
+        "topic": "Reproduction",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_63",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "63",
+        "question": "Which of the following plant tissues is responsible for transporting water and nutrients from the roots to the rest of the plant?",
+        "options": {
+            "A": "\n\n            Mesophyll\n",
+            "B": "\n\n            Xylem\n",
+            "C": "\n\n            Epidermis\n",
+            "D": "\n\n            Phloem\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_64",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "64",
+        "question": "Which of the following statements best describes courtship behaviors in animals?",
+        "options": {
+            "A": "\n\n            Courtship behaviors are solely performed by males to establish dominance within a social group\n",
+            "B": "\n\n            Courtship behaviors involve displays and rituals performed by both males and females to attract a mate\n",
+            "C": "\n\n            Courtship behaviors are primarily performed by females to attract males for mating\n",
+            "D": "\n\n            Courtship behaviors are aggressive interactions between males competing for a female mate\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_65",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "65",
+        "question": "Which of the following best describes physiological variation in biology?",
+        "options": {
+            "A": "\n\n            Variations in the physiological processes and functions of organisms\n",
+            "B": "\n\n            Differences in physical characteristics and appearance within a population\n",
+            "C": "\n\n            Differences in behavior and social interactions among individuals\n",
+            "D": "\n\n            Variations in the genetic makeup of individuals within a species\n"
+        },
+        "correct_answer": "A",
+        "topic": "Genetics & Evolution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_66",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "66",
+        "question": "Which of the following options correctly identifies excretory organs in animals?",
+        "options": {
+            "A": "\n\n            Stomach, intestines, and bladder\n",
+            "B": "\n\n            Lungs, kidneys, and skin\n",
+            "C": "\n\n            Brain, spinal cord, and nerves\n",
+            "D": "\n\n            Heart, liver, and spleen\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_67",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "67",
+        "question": "Which of the following best describes the concept of trophic levels in a functioning ecosystem?",
+        "options": {
+            "A": "\n\n            The levels of ecological interactions within an ecosystem\n",
+            "B": "\n\n            The levels of energy flow within an ecosystem\n",
+            "C": "\n\n            The levels of nutrient cycling within an ecosystem\n",
+            "D": "\n\n            The levels of biological diversity within an ecosystem\n"
+        },
+        "correct_answer": "B",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_68",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "68",
+        "question": "Which of the following statements best describes pollination in plants?",
+        "options": {
+            "A": "\n\n            Pollination is the process of transferring pollen from the stigma to the anther of a flower\n",
+            "B": "\n\n            Pollination is the process of transferring pollen from the anther to the stigma of a flower\n",
+            "C": "\n\n            Pollination is the process of releasing pollen into the air for dispersal\n",
+            "D": "\n\n            Pollination is the process of seed formation within a flower\n"
+        },
+        "correct_answer": "B",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_69",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "69",
+        "question": "Which of the following best describes a natural habitat in ecology?",
+        "options": {
+            "A": "\n\n            An area where organisms naturally live and interact with their surroundings\n",
+            "B": "\n\n            A human-created environment for wildlife conservation\n",
+            "C": "\n\n            A controlled laboratory setting for ecological experiments\n",
+            "D": "\n\n            A protected area for endangered species\n"
+        },
+        "correct_answer": "A",
+        "topic": "Ecology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_70",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "70",
+        "question": "Which of the following statements about viruses is true?",
+        "options": {
+            "A": "\n\n            Viruses can reproduce outside of a host cell\n",
+            "B": "\n\n            Viruses require a host cell to replicate\n",
+            "C": "\n\n            Viruses possess a cellular structure\n",
+            "D": "\n\n            Viruses are living organisms\n"
+        },
+        "correct_answer": "B",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_71",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "71",
+        "question": "Which of the following statements is true regarding cell growth?",
+        "options": {
+            "A": "\n\n            Cell growth is solely influenced by external factors\n",
+            "B": "\n\n            Cell growth is a continuous process throughout the life of a cell\n",
+            "C": "\n\n            Cell growth involves an increase in the number of organelles within a cell\n",
+            "D": "\n\n            Cell growth occurs by cell division\n"
+        },
+        "correct_answer": "D",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_72",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "72",
+        "question": "Which of the following statements is true regarding the urinary tubule in the excretory system?",
+        "options": {
+            "A": "\n\n            The urinary tubule is responsible for the production of urine\n",
+            "B": "\n\n            The urinary tubule regulates the water and electrolyte balance in the body\n",
+            "C": "\n\n            The urinary tubule connects the kidneys to the bladder\n",
+            "D": "\n\n            The urinary tubule is the site of filtration of blood\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_73",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "73",
+        "question": "What is the primary function of the liver in the human body?",
+        "options": {
+            "A": "\n\n            Regulation of body temperature\n",
+            "B": "\n\n            Regulation of blood pressure\n",
+            "C": "\n\n            Production of hormones\n",
+            "D": "\n\n            Detoxification and metabolism of nutrients and drugs\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_74",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "74",
+        "question": "Ecological succession refers to",
+        "options": {
+            "A": "\n\n            The movement of organisms from one habitat to another\n",
+            "B": "\n\n            The competition among species for limited resources\n",
+            "C": "\n\n            The process of natural selection in a population\n",
+            "D": "\n\n            The gradual and predictable change in a community over time\n"
+        },
+        "correct_answer": "D",
+        "topic": "Forms & Functions",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_75",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "75",
+        "question": "Which of the following options best describes adaptation for survival in organisms?",
+        "options": {
+            "A": "\n\n            Adaptation is the inherited trait that increases an organism's chances of survival and reproduction in its environment\n",
+            "B": "\n\n            Adaptation is the process by which organisms acquire new characteristics during their lifetime\n",
+            "C": "\n\n            Adaptation refers to the ability of an organism to change its environment to better suit its needs\n",
+            "D": "\n\n            Adaptation involves the development of new traits in response to changes in the environment\n"
+        },
+        "correct_answer": "D",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_76",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "76",
+        "question": "Digestive enzymes are responsible for",
+        "options": {
+            "A": "\n\n            Breaking down food into smaller molecules\n",
+            "B": "\n\n            Absorbing nutrients into the bloodstream\n",
+            "C": "\n\n            Regulating the pH of the digestive tract\n",
+            "D": "\n\n            Transporting food through the digestive system\n"
+        },
+        "correct_answer": "A",
+        "topic": "Organization of Life",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_77",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "77",
+        "question": "Which of the following is a difference between plant and animal cells?",
+        "options": {
+            "A": "\n\n            Plant cells have a nucleus, while animal cells do not\n",
+            "B": "\n\n            Plant cells have a cell membrane, while animal cells have a cell wall\n",
+            "C": "\n\n            Plant cells contain chloroplasts for photosynthesis, while animal cells do not\n",
+            "D": "\n\n            Plant cells have a central vacuole, while animal cells have multiple small vacuoles\n"
+        },
+        "correct_answer": "C",
+        "topic": "Cell Biology",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Biology_2023_78",
+        "exam": "JAMB",
+        "subject": "Biology",
+        "year": 2023,
+        "number": "78",
+        "question": "Which of the following structures in the ear is responsible for transmitting sound vibrations to the auditory nerve?",
+        "options": {
+            "A": "\n\n            Eardrum\n",
+            "B": "\n\n            Ossicles\n",
+            "C": "\n\n            Cochlea\n",
+            "D": "\n\n            Auditory canal\n"
+        },
+        "correct_answer": "C",
+        "topic": "Variety of Organisms",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

@@ -1,0 +1,1082 @@
+[
+    {
+        "id": "JAMB_English_2022_1",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "1",
+        "question": "What did the author of the book study?",
+        "options": {
+            "A": "\n\n            B.Sc (Ed) Mathematics\n",
+            "B": "\n\n            B.A English Language\n",
+            "C": "\n\n            B.A Literary Studies\n",
+            "D": "\n\n            BSc Political Science\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_2",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "2",
+        "question": "The book described Talle as a?",
+        "options": {
+            "A": "\n\n            The precious child\n",
+            "B": "\n\n            The quiet one\n",
+            "C": "\n\n            The friendly child\n",
+            "D": "\n\n            the holy child\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_3",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "3",
+        "question": "Who was Omar's immediate sister?",
+        "options": {
+            "A": "\n\n            Ummi\n",
+            "B": "\n\n            Omar\n",
+            "C": "\n\n            Salma\n",
+            "D": "\n\n            Teemah\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_4",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "4",
+        "question": "Ummi's husband wanted to study law but the providence chose that he study _____",
+        "options": {
+            "A": "\n\n            commerce\n",
+            "B": "\n\n            accounting\n",
+            "C": "\n\n            law\n",
+            "D": "\n\n            history\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_5",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "5",
+        "question": "The full meaning of IPO is ______",
+        "options": {
+            "A": "\n\n            Independent Police Officer\n",
+            "B": "\n\n            International Police Officer\n",
+            "C": "\n\n            Investigating Police Officer\n",
+            "D": "\n\n            Investigative Police Officer\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_6",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "6",
+        "question": "What is Ummi's Occupation?",
+        "options": {
+            "A": "\n\n            Trader\n",
+            "B": "\n\n            Teacher\n",
+            "C": "\n\n            Business woman\n",
+            "D": "\n\n            Nurse\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_7",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "7",
+        "question": "What is Ummi Matric Number?",
+        "options": {
+            "A": "\n\n            UG0001\n",
+            "B": "\n\n            UG00001\n",
+            "C": "\n\n            UG001\n",
+            "D": "\n\n            UG0011\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_8",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "8",
+        "question": "What is full meaning of EMEC",
+        "options": {
+            "A": "\n\n            Examination Malpractice and Ethics Committee\n",
+            "B": "\n\n            Examining Malpractice and Ethics Committee\n",
+            "C": "\n\n            Examination Malpractice and Ethics Convention\n",
+            "D": "\n\n            Examination Management and Ethics Committee\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_9",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "9",
+        "question": "What is the full name of Salma?",
+        "options": {
+            "A": "\n\n            Salma Mohammed\n",
+            "B": "\n\n            Salma Johnson\n",
+            "C": "\n\n            Salma Samuel\n",
+            "D": "\n\n            Salma Ahmed\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_10",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "10",
+        "question": "Who was the narrator of the life changer?",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Ummi\n",
+            "C": "\n\n            Omar\n",
+            "D": "\n\n            Bint\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_11",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "11",
+        "question": "How old is Bint ?",
+        "options": {
+            "A": "\n\n            6 years old\n",
+            "B": "\n\n            4 years old\n",
+            "C": "\n\n            5 years old\n",
+            "D": "\n\n            7  years old\n"
+        },
+        "correct_answer": "C",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_12",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "12",
+        "question": "What question did Bint ask her teacher?",
+        "options": {
+            "A": "\n\n            How to say good morning\n",
+            "B": "\n\n            How to say what is your name\n",
+            "C": "\n\n            How to say you're welcome\n",
+            "D": "\n\n            How to say that's very good\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_13",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "13",
+        "question": "Who were the people in the car?",
+        "options": {
+            "A": "\n\n            Lawal and Labaran\n",
+            "B": "\n\n            Habib and Labaran\n",
+            "C": "\n\n            Lawal and Kabir\n",
+            "D": "\n\n            Labara and Zarki\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_14",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "14",
+        "question": "How much did Habib give Tomiwa personally?",
+        "options": {
+            "A": "\n\n            Ten thousand naira\n",
+            "B": "\n\n            Five Thousand Naira\n",
+            "C": "\n\n            Thirty thousand naira\n",
+            "D": "\n\n            Twenty Thousand naira\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_15",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "15",
+        "question": "How much did Tomiwa give her roommates?",
+        "options": {
+            "A": "\n\n            Five thousand naira\n",
+            "B": "\n\n            Ten thousand Naira\n",
+            "C": "\n\n            Fifteen thousand Naira\n",
+            "D": "\n\n            Twenty thousand naira\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_16",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "16",
+        "question": "What was Omar's JAMB exam?",
+        "options": {
+            "A": "\n\n            230\n",
+            "B": "\n\n            250\n",
+            "C": "\n\n            220\n",
+            "D": "\n\n            260\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_17",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "17",
+        "question": "What is the full meaning of the acronym EMAL",
+        "options": {
+            "A": "\n\n            Examination Malpractice\n",
+            "B": "\n\n            Examination misconduct\n",
+            "C": "\n\n            Examination management\n",
+            "D": "\n\n            Examination Manners\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_18",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "18",
+        "question": "Who introduced the snail delicacy?",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Ngozi\n",
+            "C": "\n\n            Ada\n",
+            "D": "\n\n            Tomiwa\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_19",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "19",
+        "question": "\"Nothing happened, My friend didn't feel like giving you her number so she gave you mine instead\" Who is the friend?",
+        "options": {
+            "A": "\n\n            Salma\n",
+            "B": "\n\n            Ada\n",
+            "C": "\n\n            Tomiwa\n",
+            "D": "\n\n            Ngozi\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_20",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "20",
+        "question": "It might be said that there is some kind of sibling rivalry between",
+        "options": {
+            "A": "\n\n            Teemah and Bint\n",
+            "B": "\n\n            Teemah and Omar\n",
+            "C": "\n\n            Jamila and Omar\n",
+            "D": "\n\n            Jamila and Teemah\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_21",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "21",
+        "question": "One reason the narrator had the habit of entering her children's room unannounced was because",
+        "options": {
+            "A": "\n\n            to monitor their hygiene and tidiness\n",
+            "B": "\n\n            to monitor their prayer life\n",
+            "C": "\n\n            to check on their welfare\n",
+            "D": "\n\n            to keep them studying their books\n"
+        },
+        "correct_answer": "A",
+        "topic": "Idioms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_22",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "22",
+        "question": "According to the story, one of the following is true",
+        "options": {
+            "A": "\n\n            Tomiwa and Ngozi are neighbours\n",
+            "B": "\n\n            Ada and Salma are course mates\n",
+            "C": "\n\n            Salma and Tomiwa are rivals\n",
+            "D": "\n\n            Salma and Tomiwa are roommates\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_23",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "23",
+        "question": "Early in which month did the southwest moonsoon break?",
+        "options": {
+            "A": "\n\n            August\n",
+            "B": "\n\n            May\n",
+            "C": "\n\n            July\n",
+            "D": "\n\n            June\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_24",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "24",
+        "question": "What rubbed itself against a glistening stone?",
+        "options": {
+            "A": "\n\n            plymouth\n",
+            "B": "\n\n            wild creepers\n",
+            "C": "\n\n            bull frogs\n",
+            "D": "\n\n            rat snakes\n"
+        },
+        "correct_answer": "D",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_25",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "25",
+        "question": "Rachel had come to see_______.",
+        "options": {
+            "A": "\n\n            Estha\n",
+            "B": "\n\n            Kochamma\n",
+            "C": "\n\n            Navomi Ipe\n",
+            "D": "\n\n            no one\n"
+        },
+        "correct_answer": "A",
+        "topic": "Sentence Completion",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_26",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "26",
+        "question": "What was Baby's real name?",
+        "options": {
+            "A": "\n\n            Navomi Ipe\n",
+            "B": "\n\n            Estha\n",
+            "C": "\n\n            Rachel\n",
+            "D": "\n\n            Kochamma\n"
+        },
+        "correct_answer": "A",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_27",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "27",
+        "question": "From the words lettered A to D, choose the word that rhymes with the given word. Prison",
+        "options": {
+            "A": "\n\n            rising\n",
+            "B": "\n\n            risen\n",
+            "C": "\n\n            potion\n",
+            "D": "\n\n            motion\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_28",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "28",
+        "question": "From the words lettered A to D, choose the word that rhymes with the given word. Crate",
+        "options": {
+            "A": "\n\n            Great\n",
+            "B": "\n\n            Mint\n",
+            "C": "\n\n            Creek\n",
+            "D": "\n\n            Treat\n"
+        },
+        "correct_answer": "A",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_29",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "29",
+        "question": "From the words lettered A to D, choose the word that rhymes with the given word. Phone",
+        "options": {
+            "A": "\n\n            frown\n",
+            "B": "\n\n            grown\n",
+            "C": "\n\n            gown\n",
+            "D": "\n\n            brown\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_30",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "30",
+        "question": "Choose the word that has a different stress pattern",
+        "options": {
+            "A": "\n\n            embrace\n",
+            "B": "\n\n            suspect(V)\n",
+            "C": "\n\n            member\n",
+            "D": "\n\n            project(V)\n"
+        },
+        "correct_answer": "C",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_31",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "31",
+        "question": "Choose the option that has the same consonant sound as the one represented by the letter(s) underlined. Watch ed",
+        "options": {
+            "A": "\n\n            lived\n",
+            "B": "\n\n            address\n",
+            "C": "\n\n            letter\n",
+            "D": "\n\n            match\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_32",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "32",
+        "question": "In each of the following sentences, the word that receives the emphatic stress is written in capital letters. From the options lettered A to D, choose the appropriate answer. John's watch is made of GOLD.",
+        "options": {
+            "A": "\n\n            Whose watch is made of gold?\n",
+            "B": "\n\n            What is made of gold?\n",
+            "C": "\n\n            Is John's watch made of silver?\n",
+            "D": "\n\n            Is John's necklace made of gold?\n"
+        },
+        "correct_answer": "C",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_33",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "33",
+        "question": "In each of the following sentences, the word that receives the emphatic stress is written in capital letters . From the options lettered A to D, choose the one which the sentence is the appropriate answer. She WORKS at the hospital.",
+        "options": {
+            "A": "\n\n            Who works at the hospital?\n",
+            "B": "\n\n            Where does she work?\n",
+            "C": "\n\n            Does she work at the hospital?\n",
+            "D": "\n\n            What does she do at the hospital?\n"
+        },
+        "correct_answer": "D",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_34",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "34",
+        "question": "In each of the following sentences, the word that receives the emphatic stress is written in capital letters . From the options lettered A to D, choose the one which the sentence is the appropriate answer. Aderonke STATED she had a right to her privacy.",
+        "options": {
+            "A": "\n\n            Did Aderonke lament she had a right to her privacy?\n",
+            "B": "\n\n            Did Omowunmi state she had a right to her privacy?\n",
+            "C": "\n\n            Did Aderonke state she had a right to his privacy?\n",
+            "D": "\n\n            Did Aderonke state she had a right to her openness?\n"
+        },
+        "correct_answer": "A",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_35",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "35",
+        "question": "Choose the option that has the same consonant sound as the one represented by the letter(s) underlined. Na t ional",
+        "options": {
+            "A": "\n\n            sugar\n",
+            "B": "\n\n            raise\n",
+            "C": "\n\n            glass\n",
+            "D": "\n\n            tree\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_36",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "36",
+        "question": "Identify the word that has the stress on the first syllable",
+        "options": {
+            "A": "\n\n            Hotel\n",
+            "B": "\n\n            Esteem\n",
+            "C": "\n\n            Police\n",
+            "D": "\n\n            Table\n"
+        },
+        "correct_answer": "D",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_37",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "37",
+        "question": "From the options lettered A-D, choose the option that is most nearly opposite in meaning to the underlined word. Twice, he was repulsed with heavy losses",
+        "options": {
+            "A": "\n\n            repelled\n",
+            "B": "\n\n            gratified\n",
+            "C": "\n\n            irated\n",
+            "D": "\n\n            shocked\n"
+        },
+        "correct_answer": "B",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_38",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "38",
+        "question": "I only visited Chidi. This means that",
+        "options": {
+            "A": "\n\n            None of the above\n",
+            "B": "\n\n            I didn't do anything asides visiting Chidi\n",
+            "C": "\n\n            I didn't go with anyone to visit Chidi\n",
+            "D": "\n\n            I visited Chidi and his friends\n"
+        },
+        "correct_answer": "B",
+        "topic": "Idioms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_39",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "39",
+        "question": "From the options lettered A-D, choose the option that is most nearly opposite in meaning to the underlined word. My father is parsimonious",
+        "options": {
+            "A": "\n\n            thrifty\n",
+            "B": "\n\n            ungenerous\n",
+            "C": "\n\n            frugal\n",
+            "D": "\n\n            generous\n"
+        },
+        "correct_answer": "D",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_40",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "40",
+        "question": "From the options lettered A-D, choose the option that is most nearly opposite in meaning to the underlined word. Last Easter was an austere period.",
+        "options": {
+            "A": "\n\n            harsh\n",
+            "B": "\n\n            severe\n",
+            "C": "\n\n            prosperous\n",
+            "D": "\n\n            sour\n"
+        },
+        "correct_answer": "C",
+        "topic": "Synonyms/Antonyms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_41",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "41",
+        "question": "Choose the word that has a different stress pattern",
+        "options": {
+            "A": "\n\n            Project(V)\n",
+            "B": "\n\n            Basic\n",
+            "C": "\n\n            Suspect(V)\n",
+            "D": "\n\n            Neglect\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_42",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "42",
+        "question": "Choose the option that has the same consonant sound as the one represented by the letter(s) underlined. f oot",
+        "options": {
+            "A": "\n\n            live\n",
+            "B": "\n\n            vegetable\n",
+            "C": "\n\n            traffic\n",
+            "D": "\n\n            of\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_43",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "43",
+        "question": "Choose the option that has a different vowel sound from the others",
+        "options": {
+            "A": "\n\n            here\n",
+            "B": "\n\n            beer\n",
+            "C": "\n\n            idea\n",
+            "D": "\n\n            head\n"
+        },
+        "correct_answer": "D",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_44",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "44",
+        "question": "Choose the option that has a different vowel sound from the others",
+        "options": {
+            "A": "\n\n            beach\n",
+            "B": "\n\n            ski\n",
+            "C": "\n\n            be\n",
+            "D": "\n\n            been\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_45",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "45",
+        "question": "When did Christopher Marlowe get his first degree?",
+        "options": {
+            "A": "\n\n            1587\n",
+            "B": "\n\n            1583\n",
+            "C": "\n\n            1593\n",
+            "D": "\n\n            1564\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_46",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "46",
+        "question": "How long was Christopher Marlowe's literary life?",
+        "options": {
+            "A": "\n\n            6 years\n",
+            "B": "\n\n            60 years\n",
+            "C": "\n\n            10 years\n",
+            "D": "\n\n            5 years\n"
+        },
+        "correct_answer": "A",
+        "topic": "Comprehension & Summary",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_47",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "47",
+        "question": "My account with the bank is in the red. This means that my account is",
+        "options": {
+            "A": "\n\n            heavy\n",
+            "B": "\n\n            in danger\n",
+            "C": "\n\n            overdrawn\n",
+            "D": "\n\n            written in red ink\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_48",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "48",
+        "question": "Fill in the gap with the option that best completes the sentence. Between you and _____, he is a liar.",
+        "options": {
+            "A": "\n\n            all of the above\n",
+            "B": "\n\n            me\n",
+            "C": "\n\n            i\n",
+            "D": "\n\n            none of the above\n"
+        },
+        "correct_answer": "B",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_49",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "49",
+        "question": "Fill in the gap with the option that best completes the sentence. The secretary and treasurer did not do ____ job.",
+        "options": {
+            "A": "\n\n            their\n",
+            "B": "\n\n            all of the above\n",
+            "C": "\n\n            none of the above\n",
+            "D": "\n\n            his\n"
+        },
+        "correct_answer": "D",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_50",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "50",
+        "question": "Fill in the gap with the option that best completes the sentence. If James fails his examination, his teachers, his parents, his friends, or I ______ to be blame.",
+        "options": {
+            "A": "\n\n            are\n",
+            "B": "\n\n            is\n",
+            "C": "\n\n            am\n",
+            "D": "\n\n            not\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_51",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "51",
+        "question": "Fill in the gap with the option that best completes the sentence. I have always found that it is helpful to have a few wise and trusted people to ________ you can turn for information and advice.",
+        "options": {
+            "A": "\n\n            whom\n",
+            "B": "\n\n            who\n",
+            "C": "\n\n            whose\n",
+            "D": "\n\n            that\n"
+        },
+        "correct_answer": "A",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_52",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "52",
+        "question": "Fill in the gap with the option that best completes the sentence. We ought to stay away ______ the robbers come back",
+        "options": {
+            "A": "\n\n            provided\n",
+            "B": "\n\n            should in case\n",
+            "C": "\n\n            although\n",
+            "D": "\n\n            in case\n"
+        },
+        "correct_answer": "D",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_53",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "53",
+        "question": "Fill in the gap with the option that best completes the sentence. It was _____ who killed the goat.",
+        "options": {
+            "A": "\n\n            his\n",
+            "B": "\n\n            him\n",
+            "C": "\n\n            he\n",
+            "D": "\n\n            us\n"
+        },
+        "correct_answer": "C",
+        "topic": "Fill in the Gaps",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_54",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "54",
+        "question": "From the options lettered A-D, choose the option that is nearest in meaning to the underlined word. Bankole is upset as his wife does not understand his predicament .",
+        "options": {
+            "A": "\n\n            sadness\n",
+            "B": "\n\n            dilemma\n",
+            "C": "\n\n            deadlock\n",
+            "D": "\n\n            happiness\n"
+        },
+        "correct_answer": "B",
+        "topic": "Comprehension",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_55",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "55",
+        "question": "From the options lettered A-D, choose the option that is nearest in meaning to the underlined word. It is wise not to depend on mundane things.",
+        "options": {
+            "A": "\n\n            imported\n",
+            "B": "\n\n            material\n",
+            "C": "\n\n            attractive\n",
+            "D": "\n\n            expensive\n"
+        },
+        "correct_answer": "B",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_56",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "56",
+        "question": "From the options lettered A-D, choose the option that is nearest in meaning to the underlined word. Now that the company is insolvent , it will shut down.",
+        "options": {
+            "A": "\n\n            overworked\n",
+            "B": "\n\n            unstable\n",
+            "C": "\n\n            bankrupt\n",
+            "D": "\n\n            affluent\n"
+        },
+        "correct_answer": "C",
+        "topic": "Lexis & Structure",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_57",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "57",
+        "question": "Choose the option that has the same consonant sound as the one represented by the letter(s) underlined. mo th er",
+        "options": {
+            "A": "\n\n            think\n",
+            "B": "\n\n            teacher\n",
+            "C": "\n\n            breathe\n",
+            "D": "\n\n            watched\n"
+        },
+        "correct_answer": "C",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_58",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "58",
+        "question": "Pick out the option with a different rhyme",
+        "options": {
+            "A": "\n\n            Roar\n",
+            "B": "\n\n            Four\n",
+            "C": "\n\n            Growl\n",
+            "D": "\n\n            Bore\n"
+        },
+        "correct_answer": "C",
+        "topic": "Oral Forms",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_59",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "59",
+        "question": "Choose the word that has the same rhyme Watch",
+        "options": {
+            "A": "\n\n            none of the above\n",
+            "B": "\n\n            botch\n",
+            "C": "\n\n            catch\n",
+            "D": "\n\n            match\n"
+        },
+        "correct_answer": "B",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_English_2022_60",
+        "exam": "JAMB",
+        "subject": "English",
+        "year": 2022,
+        "number": "60",
+        "question": "Choose the option that has the same stress pattern as the given word. Student",
+        "options": {
+            "A": "\n\n            Refuse(N)\n",
+            "B": "\n\n            Propose\n",
+            "C": "\n\n            Rebel(V)\n",
+            "D": "\n\n            Superb\n"
+        },
+        "correct_answer": "A",
+        "topic": "Closest in Meaning",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

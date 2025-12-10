@@ -1,0 +1,721 @@
+[
+    {
+        "id": "JAMB_Economics_2021_1",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "1",
+        "question": "A firm is at its optimum size when ___________",
+        "options": {
+            "A": "\n\n            It has a motive to increase output\n",
+            "B": "\n\n            It produces the greatest output at a minimum cost\n",
+            "C": "\n\n            Marginal cost equals marginal revenue\n",
+            "D": "\n\n            Marginal cost is less than marginal revenue\n"
+        },
+        "correct_answer": "B",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_2",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "2",
+        "question": "Under the ECOWAS agreement, a Nigerian can enter and stay in Ghana without a Visa for a period of ________",
+        "options": {
+            "A": "\n\n            100 days\n",
+            "B": "\n\n            30 days\n",
+            "C": "\n\n            90 days\n",
+            "D": "\n\n            14 days\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_3",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "3",
+        "question": "The petro-chemical industries are located in Rivers State of Nigeria due to ________",
+        "options": {
+            "A": "\n\n            Coal deposit\n",
+            "B": "\n\n            Palm oil products\n",
+            "C": "\n\n            Favourable soil\n",
+            "D": "\n\n            Oil deposits\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_4",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "4",
+        "question": "Units of Quality Consumes Total Utility Marginal Utility 0 1 2 3 4 5 - 10 15 17 18 18 - 10 5 2 1 0 This table illustrates the law of _________",
+        "options": {
+            "A": "\n\n            Increasing returns\n",
+            "B": "\n\n            Diminishing returns\n",
+            "C": "\n\n            Diminishing marginal utility\n",
+            "D": "\n\n            Increasing total utility\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_5",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "5",
+        "question": "Pricing and Output decisions of sellers are highly inter-dependent in markets known as _________",
+        "options": {
+            "A": "\n\n            Monopoly\n",
+            "B": "\n\n            Oligopoly\n",
+            "C": "\n\n            Monopolistic competition\n",
+            "D": "\n\n            Perfect competition\n"
+        },
+        "correct_answer": "B",
+        "topic": "Market Structures",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_6",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "6",
+        "question": "Full employment is a situation in which _______",
+        "options": {
+            "A": "\n\n            Every adult is employed.\n",
+            "B": "\n\n            Only the disable are not employed.\n",
+            "C": "\n\n            All adults who can work are employed.\n",
+            "D": "\n\n            All those who are able and eligible can find employment\n"
+        },
+        "correct_answer": "D",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_7",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "7",
+        "question": "Mono production economies are those that____",
+        "options": {
+            "A": "\n\n            Produce one main commodities\n",
+            "B": "\n\n            Have a rich cultural heritage.\n",
+            "C": "\n\n            Specialize in agricultural industries.\n",
+            "D": "\n\n            Produce only raw materials.\n"
+        },
+        "correct_answer": "A",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_8",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "8",
+        "question": "Petroleum 'glut' in international trade means______",
+        "options": {
+            "A": "\n\n            Higher prices for the Consumption of petroleum.\n",
+            "B": "\n\n            An Oversupply of petroleum.\n",
+            "C": "\n\n            A fall in in petroleum production.\n",
+            "D": "\n\n            A higher petroleum price offered by the buyer.\n"
+        },
+        "correct_answer": "B",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_9",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "9",
+        "question": "Retailers in an economy perform the function of ______",
+        "options": {
+            "A": "\n\n            Distribution.\n",
+            "B": "\n\n            Exchange\n",
+            "C": "\n\n            Investment\n",
+            "D": "\n\n            Production\n"
+        },
+        "correct_answer": "A",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_10",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "10",
+        "question": "In a sole proprietorship, the decisions are made by the ______",
+        "options": {
+            "A": "\n\n            Government\n",
+            "B": "\n\n            Management\n",
+            "C": "\n\n            Owner\n",
+            "D": "\n\n            Board of Directors\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_11",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "11",
+        "question": "Palm oil industry is located in Old Bendel State because the state______",
+        "options": {
+            "A": "\n\n            Land is suitable for oil\n",
+            "B": "\n\n            Is a palm tree growing area\n",
+            "C": "\n\n            Soil is unsuitable for other crops\n",
+            "D": "\n\n            Imports raw materials for palm oil industry\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_12",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "12",
+        "question": "Which of the following sets fully represents factors of production?",
+        "options": {
+            "A": "\n\n            Sunlight, machinery, man, land\n",
+            "B": "\n\n            Land, water, weather\n",
+            "C": "\n\n            Money, market, middlemen\n",
+            "D": "\n\n            Land, labour, capital, enterprise, technology\n"
+        },
+        "correct_answer": "D",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_13",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "13",
+        "question": "Which of the following countries is not a member of the Economic Community of West African States?",
+        "options": {
+            "A": "\n\n            Sudan\n",
+            "B": "\n\n            Gambia\n",
+            "C": "\n\n            Togo\n",
+            "D": "\n\n            Nigeria\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_14",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "14",
+        "question": "Oligopoly means _________",
+        "options": {
+            "A": "\n\n            single buyer in the market.\n",
+            "B": "\n\n            few buyers in the market.\n",
+            "C": "\n\n            few sellers in the market\n"
+        },
+        "correct_answer": "C",
+        "topic": "Market Structures",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_15",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "15",
+        "question": "Use the table below to answer the question below; The international production set for Nigeria and Austria is; Products Nigeria Austria Cocoa 20 tonnes 12 tonnes Lace 1o metres 8 metres The Opportunity cost ratio tor cocoa and lace Tor Austria and Nigeria is_______",
+        "options": {
+            "A": "\n\n            1.5:2\n",
+            "B": "\n\n            2:2\n",
+            "C": "\n\n            2:1.5\n",
+            "D": "\n\n            0.5:1.5\n"
+        },
+        "correct_answer": "A",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_16",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "16",
+        "question": "Use the table below to answer the question below; The international production set for Nigeria and Austria is; Products Nigeria Austria Cocoa 20 tonnes 12 tonnes Lace 1o metres 8 metres From the table, it can be deduced that_______",
+        "options": {
+            "A": "\n\n            Nigeria should produce cocoa and lace\n",
+            "B": "\n\n            Nigeria can benefit from producing lace only\n",
+            "C": "\n\n            Austria should produce lace and Nigeria should produce cocoa\n",
+            "D": "\n\n            Austria should produce cocoa and lace\n"
+        },
+        "correct_answer": "C",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_17",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "17",
+        "question": "The PAYE ( Pay As You Earn) in Nigeria is an example of ______",
+        "options": {
+            "A": "\n\n            Flat rate Tax\n",
+            "B": "\n\n            Community tax\n",
+            "C": "\n\n            Regressive tax\n",
+            "D": "\n\n            Progressive tax\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_18",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "18",
+        "question": "A good measure of the standard of living usually used for international comparison is_______",
+        "options": {
+            "A": "\n\n            Per capita income (PCI)\n",
+            "B": "\n\n            Gross national product (GND)\n",
+            "C": "\n\n            Net national income (NNI)\n",
+            "D": "\n\n            Gross domestic product (GDP)\n"
+        },
+        "correct_answer": "A",
+        "topic": "National Income",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_19",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "19",
+        "question": "What is the most important factor influencing the location of the iron and steel industry at Ajaokuta?",
+        "options": {
+            "A": "\n\n            Availability of labour in the area\n",
+            "B": "\n\n            Availability of power\n",
+            "C": "\n\n            Nearness of raw material\n",
+            "D": "\n\n            Access to transport facilities\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_20",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "20",
+        "question": "The Power Holding Company of Nigeria (PHCN) is a ________",
+        "options": {
+            "A": "\n\n            Public limited company\n",
+            "B": "\n\n            Private authority\n",
+            "C": "\n\n            Public Corporation\n",
+            "D": "\n\n            Public Liability company\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_21",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "21",
+        "question": "Which of the following is NOT a character of perfect competition?",
+        "options": {
+            "A": "\n\n            Supply and demand are equal\n",
+            "B": "\n\n            Products are identical\n",
+            "C": "\n\n            There is perfect knowledge\n",
+            "D": "\n\n            There is no advertising\n"
+        },
+        "correct_answer": "A",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_22",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "22",
+        "question": "Inflation is likely to benefit_______",
+        "options": {
+            "A": "\n\n            Debtors\n",
+            "B": "\n\n            Persons with back savings\n",
+            "C": "\n\n            Creditors\n",
+            "D": "\n\n            Persons who lived on fixed pension funds\n"
+        },
+        "correct_answer": "A",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_23",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "23",
+        "question": "When a nation's exports are greater than its imports,_________",
+        "options": {
+            "A": "\n\n            The net foreign trade is zero\n",
+            "B": "\n\n            A favourable balance of trade exists\n",
+            "C": "\n\n            A favourable balance of payment exists\n",
+            "D": "\n\n            An unfavourable balance of trade exists\n"
+        },
+        "correct_answer": "B",
+        "topic": "International Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_24",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "24",
+        "question": "Surplus in balance of payments leads to ________",
+        "options": {
+            "A": "\n\n            Government budget surplus\n",
+            "B": "\n\n            Increase in foreign reserves\n",
+            "C": "\n\n            Decrease in foreign reserves\n",
+            "D": "\n\n            None of the above\n"
+        },
+        "correct_answer": "B",
+        "topic": "Public Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_25",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "25",
+        "question": "Economics may be defined as ________",
+        "options": {
+            "A": "\n\n            The study of human behaviour in the allocation of scarce resources\n",
+            "B": "\n\n            The study of money and banking\n",
+            "C": "\n\n            The study of markets and prices\n",
+            "D": "\n\n            The study of production and distribution\n"
+        },
+        "correct_answer": "A",
+        "topic": "Theory of Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_26",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "26",
+        "question": "Money becomes a very poor store of value in a period of _______",
+        "options": {
+            "A": "\n\n            Harvest\n",
+            "B": "\n\n            Deflation\n",
+            "C": "\n\n            Recession\n",
+            "D": "\n\n            Inflation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_27",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "27",
+        "question": "In Nigeria, cheques are not money because________",
+        "options": {
+            "A": "\n\n            Most Nigerians cannot identity them\n",
+            "B": "\n\n            They are not legal tender\n",
+            "C": "\n\n            There are no banks in rural areas\n",
+            "D": "\n\n            They are not generally acceptable as a medium of exchange\n"
+        },
+        "correct_answer": "B",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_28",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "28",
+        "question": "Division of Labour is limited by the________",
+        "options": {
+            "A": "\n\n            Size of labour firm\n",
+            "B": "\n\n            Availability of raw material\n",
+            "C": "\n\n            Size of the labour force\n",
+            "D": "\n\n            Absolute size of the country's population\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_29",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "29",
+        "question": "The value of money depends primarily on _________",
+        "options": {
+            "A": "\n\n            The gold backing of the currency\n",
+            "B": "\n\n            The general price level\n",
+            "C": "\n\n            Government decree that it is legal tender\n",
+            "D": "\n\n            None of the above\n"
+        },
+        "correct_answer": "B",
+        "topic": "Money & Inflation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_30",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "30",
+        "question": "In a free market economy. the rationing of scarce goods is done principally by_______",
+        "options": {
+            "A": "\n\n            Consumers\n",
+            "B": "\n\n            The government\n",
+            "C": "\n\n            The price mechanism\n",
+            "D": "\n\n            All of the above\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_31",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "31",
+        "question": "If the price of a commodity falls and the quantity purchased does not rise, the commodity can be described as________",
+        "options": {
+            "A": "\n\n            Scarce\n",
+            "B": "\n\n            Normal\n",
+            "C": "\n\n            Superior.\n",
+            "D": "\n\n            Inferior\n"
+        },
+        "correct_answer": "D",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_32",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "32",
+        "question": "An economic problem arises when________",
+        "options": {
+            "A": "\n\n            Sellers are few\n",
+            "B": "\n\n            Scarcity and choices are involved\n",
+            "C": "\n\n            Buyers are many\n",
+            "D": "\n\n            Money is in short supply\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_33",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "33",
+        "question": "Which of these is not a cause of high population growth in Nigeria?",
+        "options": {
+            "A": "\n\n            Improved hygiene\n",
+            "B": "\n\n            Reduction in death rate\n",
+            "C": "\n\n            Family planning unit of Nigeria\n",
+            "D": "\n\n            Increased birth rate\n"
+        },
+        "correct_answer": "C",
+        "topic": "Economic Growth & Development",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_34",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "34",
+        "question": "Inflation can be curbed by _______",
+        "options": {
+            "A": "\n\n            Deficit budget\n",
+            "B": "\n\n            Paying higher wages\n",
+            "C": "\n\n            Increased aggregate demand\n",
+            "D": "\n\n            Reducing aggregate demand\n"
+        },
+        "correct_answer": "D",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_35",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "35",
+        "question": "A typical corporate form of business organization is owned by ______",
+        "options": {
+            "A": "\n\n            Shareholders\n",
+            "B": "\n\n            A local government\n",
+            "C": "\n\n            The president of a country\n",
+            "D": "\n\n            Foreigners and citizens of the country.\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_36",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "36",
+        "question": "The price mechanism______",
+        "options": {
+            "A": "\n\n            Rations the consumers\n",
+            "B": "\n\n            Rewards the producers\n",
+            "C": "\n\n            Regulates supply and demand\n",
+            "D": "\n\n            Allocates scarce resources.\n"
+        },
+        "correct_answer": "C",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_37",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "37",
+        "question": "If Mr. A earns N2.000 a year while Mr. B earns N8000 but Mr. A pays N200 in tax per annum while Mr. B pays N400, such tax is_______",
+        "options": {
+            "A": "\n\n            Progressive\n",
+            "B": "\n\n            Proportional\n",
+            "C": "\n\n            Indirect\n",
+            "D": "\n\n            Regressive\n"
+        },
+        "correct_answer": "D",
+        "topic": "Public Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_38",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "38",
+        "question": "Which of these is not usually the function of a wholesaler?",
+        "options": {
+            "A": "\n\n            Branding\n",
+            "B": "\n\n            Storage\n",
+            "C": "\n\n            Transport\n",
+            "D": "\n\n            Advertising\n"
+        },
+        "correct_answer": "A",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_39",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "39",
+        "question": "If the quantity demanded of a commodity increases from 20 to 30 when there is an increase in price from N4 to N5, the elasticity of deman is_______",
+        "options": {
+            "A": "\n\n            Zero\n",
+            "B": "\n\n            10\n",
+            "C": "\n\n            2\n",
+            "D": "\n\n            1\n"
+        },
+        "correct_answer": "C",
+        "topic": "Demand & Supply",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Economics_2021_40",
+        "exam": "JAMB",
+        "subject": "Economics",
+        "year": 2021,
+        "number": "40",
+        "question": "By utility we mean________",
+        "options": {
+            "A": "\n\n            Uselessness\n",
+            "B": "\n\n            Power of satisfying a want\n",
+            "C": "\n\n            Beneficial\n",
+            "D": "\n\n            Consumable\n"
+        },
+        "correct_answer": "B",
+        "topic": "Basic Economic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

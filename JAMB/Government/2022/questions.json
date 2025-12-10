@@ -1,0 +1,182 @@
+[
+    {
+        "id": "JAMB_Government_2022_1",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "1",
+        "question": "The highest authority in the Yoruba pre-colonial era was the _____",
+        "options": {
+            "A": "\n\n            Ogboni\n",
+            "B": "\n\n            Oba\n",
+            "C": "\n\n            Oyomesi\n",
+            "D": "\n\n            Balogun\n"
+        },
+        "correct_answer": "B",
+        "topic": "Pre-colonial Systems",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_2",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "2",
+        "question": "The philosophy behind Nigerian federalism is",
+        "options": {
+            "A": "\n\n            unity in diversity  \n",
+            "B": "\n\n            sectional development\n",
+            "C": "\n\n            review of sectionalism\n",
+            "D": "\n\n             colonial rule\n"
+        },
+        "correct_answer": "A",
+        "topic": "Pre-colonial Systems",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_3",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "3",
+        "question": "One of the constitutional requirements for the registration of political parties in Nigeria is ______",
+        "options": {
+            "A": "\n\n            provision for review of party manifesto\n",
+            "B": "\n\n            ofices in at least 12 states\n",
+            "C": "\n\n            menbership from at least 12 states\n",
+            "D": "\n\n            national presence in the federal capital territory\n"
+        },
+        "correct_answer": "D",
+        "topic": "Political Parties",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_4",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "4",
+        "question": "The Security Council of the United Nations Organization has",
+        "options": {
+            "A": "\n\n            five permanent members\n",
+            "B": "\n\n            seven permanent members\n",
+            "C": "\n\n            four permanent members\n",
+            "D": "\n\n            three permanent members.\n"
+        },
+        "correct_answer": "A",
+        "topic": "Forms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_5",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "5",
+        "question": "The oversight function is performed by the",
+        "options": {
+            "A": "\n\n            judiciary\n",
+            "B": "\n\n            executive\n",
+            "C": "\n\n            court\n",
+            "D": "\n\n            legislature\n"
+        },
+        "correct_answer": "D",
+        "topic": "Arms of Government",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_6",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "6",
+        "question": "Before the emergence of OAU as a regional body, Nigeria belonged to",
+        "options": {
+            "A": "\n\n            Casablanca group\n",
+            "B": "\n\n            Monrovia group\n",
+            "C": "\n\n            Casablanca/Brazzavılle group\n",
+            "D": "\n\n            Brazzaville group\n"
+        },
+        "correct_answer": "B",
+        "topic": "Nigerian Constitution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_7",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "7",
+        "question": "The political rights of a citızen include the",
+        "options": {
+            "A": "\n\n            freedom of speech\n",
+            "B": "\n\n            right to employment\n",
+            "C": "\n\n            right to vote\n",
+            "D": "\n\n            right to lıfe\n"
+        },
+        "correct_answer": "C",
+        "topic": "Citizenship",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_8",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "8",
+        "question": "One of the features of rule of law is that an",
+        "options": {
+            "A": "\n\n            offender is a deterrent\n",
+            "B": "\n\n            accused is a culprit before trial\n",
+            "C": "\n\n            accused must receive fair hearing\n",
+            "D": "\n\n            accused is an offender\n"
+        },
+        "correct_answer": "C",
+        "topic": "Basic Concepts",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_9",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "9",
+        "question": "The first Legislative Councıl in Nigeria was established by",
+        "options": {
+            "A": "\n\n            Clifford Constitution\n",
+            "B": "\n\n            Richards Constitution\n",
+            "C": "\n\n            Macpherson Constitution\n",
+            "D": "\n\n            Lytleton Constitution\n"
+        },
+        "correct_answer": "A",
+        "topic": "Nigerian Constitution",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Government_2022_10",
+        "exam": "JAMB",
+        "subject": "Government",
+        "year": 2022,
+        "number": "10",
+        "question": "An electoral system in which the winner must secure more than 50% of the vote is described as a/an",
+        "options": {
+            "A": "\n\n            plurality system\n",
+            "B": "\n\n            proportional representation\n",
+            "C": "\n\n            an absolute majority\n",
+            "D": "\n\n            electoral oblıgation\n"
+        },
+        "correct_answer": "C",
+        "topic": "Electoral Process",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]

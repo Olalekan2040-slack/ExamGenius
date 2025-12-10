@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamGenius - JAMB CBT Preparation Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay hidden">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Main App Container -->
+    <div id="app">
+        <!-- Landing Page -->
+        <div id="landing-page" class="screen">
+            <header class="landing-header">
+                <div class="container">
+                    <div class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>ExamGenius</span>
+                    </div>
+                    <nav class="landing-nav">
+                        <a href="#features">Features</a>
+                        <a href="#about">About</a>
+                        <button class="btn btn-outline" onclick="router.navigate('login')">Login</button>
+                        <button class="btn btn-primary" onclick="router.navigate('register')">Get Started</button>
+                    </nav>
+                    <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </header>
+
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Ace Your JAMB Exam with <span class="highlight">ExamGenius</span></h1>
+                        <p class="hero-subtitle">Smart CBT preparation platform with AI-powered lessons, year-by-year practice, and full exam simulations</p>
+                        <div class="hero-cta">
+                            <button class="btn btn-primary btn-lg" onclick="router.navigate('register')">
+                                <i class="fas fa-rocket"></i> Start Learning Free
+                            </button>
+                            <button class="btn btn-outline btn-lg" onclick="router.navigate('login')">
+                                <i class="fas fa-sign-in-alt"></i> Sign In
+                            </button>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-book"></i>
+                                <div>
+                                    <strong>4,115+</strong>
+                                    <span>Past Questions</span>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-calendar"></i>
+                                <div>
+                                    <strong>2010-2024</strong>
+                                    <span>Years Covered</span>
+                                </div>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-brain"></i>
+                                <div>
+                                    <strong>AI-Powered</strong>
+                                    <span>Lessons</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="floating-card">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Track Your Progress</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Improve Accuracy</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-fire"></i>
+                            <span>Build Streaks</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features-section">
+                <div class="container">
+                    <h2>Everything You Need to Succeed</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-book-reader"></i>
+                            </div>
+                            <h3>Learn by Topics</h3>
+                            <p>Master each topic with AI-generated lessons before practicing questions</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <h3>Year Practice</h3>
+                            <p>Practice past questions from specific years (2010-2024) to understand exam patterns</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h3>Full CBT Simulation</h3>
+                            <p>Experience real exam conditions with 160 questions and 3-hour timer</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h3>Performance Analytics</h3>
+                            <p>Track accuracy, identify weak topics, and monitor your improvement over time</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-fire-alt"></i>
+                            </div>
+                            <h3>Streak Tracking</h3>
+                            <p>Build consistency with daily practice streaks and stay motivated</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h3>AI Recommendations</h3>
+                            <p>Get personalized study suggestions based on your performance</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about-section">
+                <div class="container">
+                    <h2>Why ExamGenius?</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>ExamGenius is Nigeria's most comprehensive JAMB preparation platform, designed specifically for students who want to excel in their UTME examinations.</p>
+                            <ul class="about-list">
+                                <li><i class="fas fa-check"></i> Authentic past questions from 2010-2024</li>
+                                <li><i class="fas fa-check"></i> Covers all major subjects with detailed explanations</li>
+                                <li><i class="fas fa-check"></i> Mobile-first design for learning on the go</li>
+                                <li><i class="fas fa-check"></i> Completely free to use</li>
+                                <li><i class="fas fa-check"></i> Regular updates with new questions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="landing-footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <div class="logo">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>ExamGenius</span>
+                            </div>
+                            <p>Your trusted partner in JAMB preparation</p>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <a href="#features">Features</a>
+                            <a href="#about">About</a>
+                            <a href="#" onclick="router.navigate('register')">Get Started</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Legal</h4>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 ExamGenius. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Auth Screens will be injected here -->
+        <div id="auth-screens"></div>
+
+        <!-- Main App (Dashboard, Practice, etc.) -->
+        <div id="main-app" class="hidden"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/components/navbar.js"></script>
+    <script src="js/screens/auth-screens.js"></script>
+    <script src="js/screens/dashboard.js"></script>
+    <script src="js/screens/learn.js"></script>
+    <script src="js/screens/year-practice.js"></script>
+    <script src="js/screens/cbt.js"></script>
+    <script src="js/screens/profile.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

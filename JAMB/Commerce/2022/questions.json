@@ -1,0 +1,1440 @@
+[
+    {
+        "id": "JAMB_Commerce_2022_1",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "1",
+        "question": "An article used as a means of exchange in the early days of trade in West Africa was",
+        "options": {
+            "A": "\n\n            cedis\n",
+            "B": "\n\n            cowrie\n",
+            "C": "\n\n            dalasi\n",
+            "D": "\n\n            naira\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_2",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "2",
+        "question": "The provision of services is classified under",
+        "options": {
+            "A": "\n\n            batch production\n",
+            "B": "\n\n            flow production\n",
+            "C": "\n\n            secondary production\n",
+            "D": "\n\n            tertiary production\n"
+        },
+        "correct_answer": "D",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_3",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "3",
+        "question": "The growth of commerce is not enhanced by",
+        "options": {
+            "A": "\n\n            development of modern forms of production\n",
+            "B": "\n\n            government participation in business\n",
+            "C": "\n\n            high population growth\n",
+            "D": "\n\n            low per capita income\n"
+        },
+        "correct_answer": "D",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_4",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "4",
+        "question": "One of the products of the construction industry is a",
+        "options": {
+            "A": "\n\n            piece of cloth\n",
+            "B": "\n\n            bag of cement\n",
+            "C": "\n\n            television\n",
+            "D": "\n\n            chair\n"
+        },
+        "correct_answer": "B",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_5",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "5",
+        "question": "The service of a retailer is part of production because it",
+        "options": {
+            "A": "\n\n            creates a link between consumers and producers\n",
+            "B": "\n\n            enables finished goods to reach consumers\n",
+            "C": "\n\n            increases consumers standard of living\n",
+            "D": "\n\n            is a commercial occupation\n"
+        },
+        "correct_answer": "B",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_6",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "6",
+        "question": "The resources put together to create goods and services are",
+        "options": {
+            "A": "\n\n            working capital\n",
+            "B": "\n\n            producer goods\n",
+            "C": "\n\n            factors of production\n",
+            "D": "\n\n            consumer goods\n"
+        },
+        "correct_answer": "C",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_7",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "7",
+        "question": "Which of the following organizations provide essential goods and services at low cost to citizens?",
+        "options": {
+            "A": "\n\n            Thrift societies\n",
+            "B": "\n\n            Public enterprises\n",
+            "C": "\n\n            Private companies\n",
+            "D": "\n\n            Cooperative societies\n"
+        },
+        "correct_answer": "B",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_8",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "8",
+        "question": "A group of sellers who pool their resources to buy goods in large quantities and sell to its members is a",
+        "options": {
+            "A": "\n\n            wholesaler cooperative society\n",
+            "B": "\n\n            thrift and credit society\n",
+            "C": "\n\n            consumer cooperative society\n",
+            "D": "\n\n            chamber of commerce\n"
+        },
+        "correct_answer": "A",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_9",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "9",
+        "question": "Average stock is derived by adding",
+        "options": {
+            "A": "\n\n            closing stock to purchase divided by 2\n",
+            "B": "\n\n            closing stock to opening stock\n",
+            "C": "\n\n            opening stock to closing stock divided by 2\n",
+            "D": "\n\n            opening stock to purchases\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_10",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "10",
+        "question": "A retail business that sells goods by post, using catalogue is a",
+        "options": {
+            "A": "\n\n            chain store\n",
+            "B": "\n\n            department store\n",
+            "C": "\n\n            mail order firm\n",
+            "D": "\n\n            shopping mail\n"
+        },
+        "correct_answer": "C",
+        "topic": "Warehousing",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_11",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "11",
+        "question": "Which of the following documents would a shareholder inspect to know his voting rights?",
+        "options": {
+            "A": "\n\n            Articles of Association\n",
+            "B": "\n\n            Certificate of Incorporation\n",
+            "C": "\n\n            Certificate of Trading\n",
+            "D": "\n\n            Memorandum of Association\n"
+        },
+        "correct_answer": "A",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_12",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "12",
+        "question": "An internal source of finance to an enterpreneur is",
+        "options": {
+            "A": "\n\n            trade\n",
+            "B": "\n\n            retained earning\n",
+            "C": "\n\n            overdraft\n",
+            "D": "\n\n            debenture\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_13",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "13",
+        "question": "Use the information below to answer questions 13 and 14 # Sales 50,000.00 Debtors 10,000.00 Cash in hand 5,000.00 Opening stock 30,000.00 Creditors 8,000",
+        "options": {
+            "A": "\n\n            #35,000.00\n",
+            "B": "\n\n            #20,000.00\n",
+            "C": "\n\n            #5,000.00\n",
+            "D": "\n\n            #14,000.00\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_14",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "14",
+        "question": "Use the information below to answer questions 13 and 14 # Sales 50,000.00 Debtors 10,000.00 Cash in hand 5,000.00 Opening stock 30,000.00 Creditors 8,000.00 Purchases 16,000.00 Overdraft 12,000.00 Closing stock 10,000.00",
+        "options": {
+            "A": "\n\n            #35,000.00\n",
+            "B": "\n\n            #20,000.00\n",
+            "C": "\n\n            #15,000.00\n",
+            "D": "\n\n            #14,000.00\n"
+        },
+        "correct_answer": "D",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_15",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "15",
+        "question": "A partner who contributes only his name to the formation of a partnership is",
+        "options": {
+            "A": "\n\n            a nominal partner\n",
+            "B": "\n\n            a limited partner\n",
+            "C": "\n\n            a general partner\n",
+            "D": "\n\n            an active partner\n"
+        },
+        "correct_answer": "A",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_16",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "16",
+        "question": "Which of the following groups would advocate for the supply of constant electricity to households?",
+        "options": {
+            "A": "\n\n            Consumer's association\n",
+            "B": "\n\n            Credit union\n",
+            "C": "\n\n            Employer's association\n",
+            "D": "\n\n            Labour union\n"
+        },
+        "correct_answer": "A",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_17",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "17",
+        "question": "A retail store that sells a single product from a particular manufacturer is a",
+        "options": {
+            "A": "\n\n            tied shop\n",
+            "B": "\n\n            shopping mail\n",
+            "C": "\n\n            hypermarket\n",
+            "D": "\n\n            chain store\n"
+        },
+        "correct_answer": "D",
+        "topic": "Warehousing",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_18",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "18",
+        "question": "A country's visible balance of payment is made up of",
+        "options": {
+            "A": "\n\n            interest on loans to foreign countries\n",
+            "B": "\n\n            profit from investment abroad\n",
+            "C": "\n\n            earnings from goods exported\n",
+            "D": "\n\n            dividend earned from companies\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_19",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "19",
+        "question": "The quality of money which makes it possible to buy goods in small quantities is",
+        "options": {
+            "A": "\n\n            portability\n",
+            "B": "\n\n            homogeneity\n",
+            "C": "\n\n            divisibility\n",
+            "D": "\n\n            durability\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_20",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "20",
+        "question": "One of the functions of commerical banks that cannot be performed by central banks is",
+        "options": {
+            "A": "\n\n            collection of old notes\n",
+            "B": "\n\n            collection of deposits from the public\n",
+            "C": "\n\n            issuance of treasury bills\n",
+            "D": "\n\n            printing of bank notes\n"
+        },
+        "correct_answer": "B",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_21",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "21",
+        "question": "A document that instructs an agent to buy goods from a named firm is",
+        "options": {
+            "A": "\n\n            proforma invoice\n",
+            "B": "\n\n            consular invoice\n",
+            "D": "\n\n            closed indent\n"
+        },
+        "correct_answer": "D",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_22",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "22",
+        "question": "The incentive given to a buyer to encourage prompt payment is",
+        "options": {
+            "A": "\n\n            cash discount\n",
+            "B": "\n\n            seasonal discount\n",
+            "C": "\n\n            quantity discount\n",
+            "D": "\n\n            trade discount\n"
+        },
+        "correct_answer": "A",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_23",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "23",
+        "question": "The principle which prevents an insured from receiving a claim that is more than the value of the loss, if the property is insured by more than one company is",
+        "options": {
+            "A": "\n\n            indemnity\n",
+            "B": "\n\n            contribution\n",
+            "C": "\n\n            proximate cause\n",
+            "D": "\n\n            uberrimae fidei\n"
+        },
+        "correct_answer": "B",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_24",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "24",
+        "question": "Dealers in stock exchange such as bulls, bears and stags are categorized as",
+        "options": {
+            "A": "\n\n            actuaries\n",
+            "B": "\n\n            promoters\n",
+            "C": "\n\n            speculators\n",
+            "D": "\n\n            underwriter\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_25",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "25",
+        "question": "Which of the following is not a characteristic of a commercial bank?",
+        "options": {
+            "A": "\n\n            Established as limited liability company\n",
+            "B": "\n\n            Established by individuals or organizations\n",
+            "C": "\n\n            Established to issue bank notes\n",
+            "D": "\n\n            Established with the view of making profit\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_26",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "26",
+        "question": "Central banks sell treasury bills to the public to",
+        "options": {
+            "A": "\n\n            increase cash in the banking system\n",
+            "B": "\n\n            raise revenue for commerical banks\n",
+            "C": "\n\n            raise revenue for private investors\n",
+            "D": "\n\n            reduce cash in circulation\n"
+        },
+        "correct_answer": "D",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_27",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "27",
+        "question": "A document used to ensure correct payment of duty at the importing country is",
+        "options": {
+            "A": "\n\n            documentary credit\n",
+            "B": "\n\n            consular invoice\n",
+            "C": "\n\n            certificate of origin\n",
+            "D": "\n\n            bill of lading\n"
+        },
+        "correct_answer": "D",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_28",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "28",
+        "question": "A cheque is specially crossed if",
+        "options": {
+            "A": "\n\n            the name of the account holder is written between two parallel lines drawn across it\n",
+            "B": "\n\n            it could be paid over the counter\n",
+            "C": "\n\n            the name of the bank is written between two parallel lines drawn across it\n",
+            "D": "\n\n            only two parallel lines are drawn across it\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_29",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "29",
+        "question": "One of the functions of a trade association is to",
+        "options": {
+            "A": "\n\n            pay members salaries\n",
+            "B": "\n\n            promote members' welfare\n",
+            "C": "\n\n            provide loans to members\n",
+            "D": "\n\n            provide employment for members\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_30",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "30",
+        "question": "When a share with a nominal value of #50 is quoted at #70, it is being sold",
+        "options": {
+            "A": "\n\n            cum div\n",
+            "B": "\n\n            ex-div\n",
+            "C": "\n\n            at a discount\n",
+            "D": "\n\n            at a premium\n"
+        },
+        "correct_answer": "D",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_31",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "31",
+        "question": "Sea vessels that do not operate on regular times and routes are",
+        "options": {
+            "A": "\n\n            tramps\n",
+            "B": "\n\n            ocean liners\n",
+            "C": "\n\n            container ships\n",
+            "D": "\n\n            ferries\n"
+        },
+        "correct_answer": "B",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_32",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "32",
+        "question": "Payment made to a carrier for transportation of goods is",
+        "options": {
+            "A": "\n\n            freight\n",
+            "B": "\n\n            fee\n",
+            "C": "\n\n            fare\n",
+            "D": "\n\n            duty\n"
+        },
+        "correct_answer": "A",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_33",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "33",
+        "question": "An advantage of rail transport is that it",
+        "options": {
+            "A": "\n\n            is less expensive to maintain\n",
+            "B": "\n\n            is not prone to delays\n",
+            "C": "\n\n            carries bulky and heavy goods\n",
+            "D": "\n\n            enhances door-to-door delivery\n"
+        },
+        "correct_answer": "C",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_34",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "34",
+        "question": "The commission on a postal order is",
+        "options": {
+            "A": "\n\n            tariff\n",
+            "B": "\n\n            poundage\n",
+            "C": "\n\n            brokerage\n",
+            "D": "\n\n            fee\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_35",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "35",
+        "question": "Consumers could be encouraged to purchase a company's product through",
+        "options": {
+            "A": "\n\n            research\n",
+            "B": "\n\n            planning\n",
+            "C": "\n\n            distribution\n",
+            "D": "\n\n            advertisement\n"
+        },
+        "correct_answer": "D",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_36",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "36",
+        "question": "The marketing concept emphasizes",
+        "options": {
+            "A": "\n\n            sales of goods directly to customers\n",
+            "B": "\n\n            use of promotional tools to stimulate sale\n",
+            "C": "\n\n            mass production of goods\n",
+            "D": "\n\n            consumer's satisfaction at a profit\n"
+        },
+        "correct_answer": "D",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_37",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "37",
+        "question": "An undertaking to repair a customer's vehicle for a certain period after it has been sold is",
+        "options": {
+            "A": "\n\n            after-sales service\n",
+            "B": "\n\n            marketing mix\n",
+            "C": "\n\n            market segmentation\n",
+            "D": "\n\n            sales promotion\n"
+        },
+        "correct_answer": "A",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_38",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "38",
+        "question": "Which of the following is not a right of a consumer?",
+        "options": {
+            "A": "\n\n            Right to a fair hearing\n",
+            "B": "\n\n            Right to buy on credit\n",
+            "C": "\n\n            Right to obtain replacement\n",
+            "D": "\n\n            Right to safe product\n"
+        },
+        "correct_answer": "B",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_39",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "39",
+        "question": "Advertisement which is geared towards a particular audience is",
+        "options": {
+            "A": "\n\n            direct advertising\n",
+            "B": "\n\n            indirect advertising\n",
+            "C": "\n\n            mass advertising\n",
+            "D": "\n\n            persuasive advertising\n"
+        },
+        "correct_answer": "A",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_40",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "40",
+        "question": "The law by which a seller transfers the property in goods to a buyer at an agreed price is the",
+        "options": {
+            "A": "\n\n            Weights and Measure Act\n",
+            "B": "\n\n            Trade Description Act\n",
+            "C": "\n\n            Sale of Goods Act\n",
+            "D": "\n\n            Foods and Drugs Act\n"
+        },
+        "correct_answer": "C",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_41",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "41",
+        "question": "Commerce is defined as",
+        "options": {
+            "A": "\n\n            buying and selling of goods and services only\n",
+            "B": "\n\n            all activities in the distribution and exchange of goods and services\n",
+            "C": "\n\n            all activities involved in the production of goods and services\n",
+            "D": "\n\n            transporting and warehousing of goods only\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_42",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "42",
+        "question": "The type of occupation that a broker belongs to is",
+        "options": {
+            "A": "\n\n            commercial\n",
+            "B": "\n\n            construction\n",
+            "C": "\n\n            extraction\n",
+            "D": "\n\n            manufacturing\n"
+        },
+        "correct_answer": "A",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_43",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "43",
+        "question": "A form of money which was not used in the early days of trade is",
+        "options": {
+            "A": "\n\n            tobacco\n",
+            "B": "\n\n            metal bars\n",
+            "C": "\n\n            coins\n"
+        },
+        "correct_answer": "C",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_44",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "44",
+        "question": "Which of the following activities is not an example of the extractive industry?",
+        "options": {
+            "A": "\n\n            weaving\n",
+            "B": "\n\n            quarrying\n",
+            "C": "\n\n            hunting\n",
+            "D": "\n\n            fishing\n"
+        },
+        "correct_answer": "A",
+        "topic": "Occupation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_45",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "45",
+        "question": "A business unit in which savings of members are lent to others is a",
+        "options": {
+            "A": "\n\n            consumer cooperative society\n",
+            "B": "\n\n            producer cooperative society\n",
+            "C": "\n\n            credit and thrift society\n",
+            "D": "\n\n            wholesale cooperative society\n"
+        },
+        "correct_answer": "C",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_46",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "46",
+        "question": "The document issued by a public company allowing it to commence business is the",
+        "options": {
+            "A": "\n\n            Articles of Association\n",
+            "B": "\n\n            Certificate of Incorporation\n",
+            "C": "\n\n            Memorandum of Association\n",
+            "D": "\n\n            Certificate of Trading\n"
+        },
+        "correct_answer": "D",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_47",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "47",
+        "question": "Which of the following is not a function of a consumer association?",
+        "options": {
+            "A": "\n\n            Ensuring that consumers buy quality goods\n",
+            "B": "\n\n            Educating consumers on their rights\n",
+            "C": "\n\n            Penalizing importers of fake goods\n",
+            "D": "\n\n            Ensuring that fair prices are charged\n"
+        },
+        "correct_answer": "C",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_48",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "48",
+        "question": "An association formed by computer distributors to safeguard and promote their interest is a",
+        "options": {
+            "A": "\n\n            chamber of commerce\n",
+            "B": "\n\n            cooperative society\n",
+            "C": "\n\n            trade association\n",
+            "D": "\n\n            trade union\n"
+        },
+        "correct_answer": "C",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_49",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "49",
+        "question": "The issue of prospectus by a company is an invitation to members of the public to",
+        "options": {
+            "A": "\n\n            subscribe to the company's shares\n",
+            "B": "\n\n            attend the company's Annual general Meeting\n",
+            "C": "\n\n            buy the company's products\n",
+            "D": "\n\n            attend the company's board meeting\n"
+        },
+        "correct_answer": "A",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_50",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "50",
+        "question": "Examples of current assets are",
+        "options": {
+            "A": "\n\n            cash and trade debtors\n",
+            "B": "\n\n            cash and trade creditors\n",
+            "C": "\n\n            trade debtors, trade creditors and cash\n",
+            "D": "\n\n            trade creditors and trade debtors\n"
+        },
+        "correct_answer": "A",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_51",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "51",
+        "question": "When the cost of sales is divided by the average stock, the result is",
+        "options": {
+            "A": "\n\n            gross profit\n",
+            "B": "\n\n            net profit\n",
+            "C": "\n\n            rate of turnover\n",
+            "D": "\n\n            working capital\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_52",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "52",
+        "question": "The part of issued share capital that the company has asked the subscribers to pay for",
+        "options": {
+            "A": "\n\n            authorised capital\n",
+            "B": "\n\n            called-up capital\n",
+            "C": "\n\n            nominal capital\n",
+            "D": "\n\n            paid-up capital\n"
+        },
+        "correct_answer": "B",
+        "topic": "Business Units",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_53",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "53",
+        "question": "The last link in a channel of distribution is the",
+        "options": {
+            "A": "\n\n            wholesaler\n",
+            "B": "\n\n            retailer\n",
+            "C": "\n\n            consumer\n",
+            "D": "\n\n            agent\n"
+        },
+        "correct_answer": "C",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_54",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "54",
+        "question": "The difference between a country's imports and exports of goods in a particular year is",
+        "options": {
+            "A": "\n\n            terms of trade\n",
+            "B": "\n\n            terms of payment\n",
+            "C": "\n\n            balance of payment\n",
+            "D": "\n\n            balance of trade\n"
+        },
+        "correct_answer": "C",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_55",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "55",
+        "question": "Goods bought into the country for sale are the country's",
+        "options": {
+            "A": "\n\n            invisible imports\n",
+            "B": "\n\n            invisible exports\n",
+            "C": "\n\n            visible imports\n",
+            "D": "\n\n            visible exports\n"
+        },
+        "correct_answer": "C",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_56",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "56",
+        "question": "A feature of supermarkets which distinguishes it from other large scale retail outlets is that items sold are",
+        "options": {
+            "A": "\n\n            mainly household goods\n",
+            "B": "\n\n            mainly industrial goods\n",
+            "C": "\n\n            delivered by post\n",
+            "D": "\n\n            one line of products\n"
+        },
+        "correct_answer": "A",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_57",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "57",
+        "question": "One advantage of small scale retail outlets is",
+        "options": {
+            "A": "\n\n            availability of self service facilities\n",
+            "B": "\n\n            ability to buy in bulk\n",
+            "C": "\n\n            easy acess to large amount of capital\n",
+            "D": "\n\n            personal attention to customers\n"
+        },
+        "correct_answer": "D",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_58",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "58",
+        "question": "A discount deducted from the invoice price of goods to enable the retailer to make profit",
+        "options": {
+            "A": "\n\n            cash discount\n",
+            "B": "\n\n            functional discount\n",
+            "C": "\n\n            trade discount\n",
+            "D": "\n\n            seasonal discount\n"
+        },
+        "correct_answer": "A",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_59",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "59",
+        "question": "A document issued by the seller's own courier and signed by the customer to acknowledge receipt of the goods is",
+        "options": {
+            "A": "\n\n            advice note\n",
+            "B": "\n\n            consignment note\n",
+            "C": "\n\n            delivery note\n",
+            "D": "\n\n            freight note\n"
+        },
+        "correct_answer": "B",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_60",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "60",
+        "question": "A request for goods from another country by an importer would be made using",
+        "options": {
+            "A": "\n\n            an invoice\n",
+            "B": "\n\n            an indent\n",
+            "C": "\n\n            an order\n",
+            "D": "\n\n            a quotation\n"
+        },
+        "correct_answer": "B",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_61",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "61",
+        "question": "The right to buy or sell stock in the stock exchange within a stipulated period is",
+        "options": {
+            "A": "\n\n            option\n",
+            "B": "\n\n            contango\n",
+            "C": "\n\n            backwardation\n",
+            "D": "\n\n            brokerage\n"
+        },
+        "correct_answer": "A",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_62",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "62",
+        "question": "The share value stated on a share certificate is",
+        "options": {
+            "A": "\n\n            above par value\n",
+            "B": "\n\n            below par value\n",
+            "C": "\n\n            market value\n",
+            "D": "\n\n            nominal value\n"
+        },
+        "correct_answer": "D",
+        "topic": "Stock Exchange",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_63",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "63",
+        "question": "The bank which acts as the lender of last resort is the",
+        "options": {
+            "A": "\n\n            Central bank\n",
+            "B": "\n\n            Commercial bank\n",
+            "C": "\n\n            Merchant bank\n",
+            "D": "\n\n            Mortegage bank\n"
+        },
+        "correct_answer": "A",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_64",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "64",
+        "question": "An insurance policy which is not a contract of indemnity is",
+        "options": {
+            "A": "\n\n            burglary insurance\n",
+            "B": "\n\n            fire insurance\n",
+            "C": "\n\n            life insurance\n",
+            "D": "\n\n            motor insurance\n"
+        },
+        "correct_answer": "C",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_65",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "65",
+        "question": "When a company insures the lives of all its employees collectively, the policy is",
+        "options": {
+            "A": "\n\n            accident insurance\n",
+            "B": "\n\n            fleet insurance\n",
+            "C": "\n\n            fidelity guarantee insurance\n",
+            "D": "\n\n            group insurance\n"
+        },
+        "correct_answer": "D",
+        "topic": "Insurance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_66",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "66",
+        "question": "A cheque that could be cashed over the counter by the payee is",
+        "options": {
+            "A": "\n\n            certified cheque\n",
+            "B": "\n\n            crossed cheque\n",
+            "C": "\n\n            open cheque\n",
+            "D": "\n\n            bank draft\n"
+        },
+        "correct_answer": "C",
+        "topic": "Banking & Finance",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_67",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "67",
+        "question": "A specially-designed mode of transport for conveying liquid and gas is a",
+        "options": {
+            "A": "\n\n            coaster\n",
+            "B": "\n\n            tanker\n",
+            "C": "\n\n            liner\n",
+            "D": "\n\n            ferry\n"
+        },
+        "correct_answer": "B",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_68",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "68",
+        "question": "The safe keeping of goods produced until they are needed is",
+        "options": {
+            "A": "\n\n            hoarding\n",
+            "B": "\n\n            marketing\n",
+            "C": "\n\n            packaging\n",
+            "D": "\n\n            warehousing\n"
+        },
+        "correct_answer": "D",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_69",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "69",
+        "question": "One of the objectives of the Niger Basin Commission is to",
+        "options": {
+            "A": "\n\n            regulate the movement of citizens across borders\n",
+            "B": "\n\n            improve tariff and quota on non-members\n",
+            "C": "\n\n            regulate the movement of cargo along the river\n",
+            "D": "\n\n            streaming the construction of dams on the river\n"
+        },
+        "correct_answer": "D",
+        "topic": "Transportation",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_70",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "70",
+        "question": "A paid presentation about a product with a view to encouraging purchases by an identifiable sponsor is",
+        "options": {
+            "A": "\n\n            publicity\n",
+            "B": "\n\n            personal selling\n",
+            "C": "\n\n            sales promotion\n",
+            "D": "\n\n            advertisement\n"
+        },
+        "correct_answer": "D",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_71",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "71",
+        "question": "The face-to-face meeting of the seller with the buyer for the purpose of making sales is",
+        "options": {
+            "A": "\n\n            mass selling\n",
+            "B": "\n\n            impulse buying\n",
+            "C": "\n\n            personal selling\n",
+            "D": "\n\n            sale promotion\n"
+        },
+        "correct_answer": "C",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_72",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "72",
+        "question": "The activity which improves the appearance of a product and also aimed at protecting it is",
+        "options": {
+            "A": "\n\n            advertising\n",
+            "B": "\n\n            grading\n",
+            "C": "\n\n            labelling\n",
+            "D": "\n\n            packaging\n"
+        },
+        "correct_answer": "D",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_73",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "73",
+        "question": "Which of the following is not a component of the marketing mix?",
+        "options": {
+            "A": "\n\n            product\n",
+            "B": "\n\n            production\n",
+            "C": "\n\n            promotion\n",
+            "D": "\n\n            place\n"
+        },
+        "correct_answer": "B",
+        "topic": "Production",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_74",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "74",
+        "question": "The marketing term which regards the consumer as king that must be satisfied is",
+        "options": {
+            "A": "\n\n            market segmentation\n",
+            "B": "\n\n            market research\n",
+            "C": "\n\n            marketing concept\n",
+            "D": "\n\n            marketing mix\n"
+        },
+        "correct_answer": "C",
+        "topic": "Advertising",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_75",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "75",
+        "question": "An agreement that is enforceable in law is",
+        "options": {
+            "A": "\n\n            an offer\n",
+            "B": "\n\n            a consideration\n",
+            "C": "\n\n            a contract\n",
+            "D": "\n\n            an acceptance\n"
+        },
+        "correct_answer": "C",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_76",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "76",
+        "question": "A contract will not be discharge through",
+        "options": {
+            "A": "\n\n            acceptance\n",
+            "B": "\n\n            agreement\n",
+            "C": "\n\n            breach\n",
+            "D": "\n\n            performance\n"
+        },
+        "correct_answer": "A",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_77",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "77",
+        "question": "A person engaged for the purpose of bringing his principal and a third party into a contractual relation is",
+        "options": {
+            "A": "\n\n            an arbiter\n",
+            "B": "\n\n            an auctioneer\n",
+            "C": "\n\n            an agent\n",
+            "D": "\n\n            a middlemen\n"
+        },
+        "correct_answer": "C",
+        "topic": "Business Law",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_78",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "78",
+        "question": "The management function which involves measuring outcomes and taking corrective action to reduce error is",
+        "options": {
+            "A": "\n\n            staffing\n",
+            "B": "\n\n            organizing\n",
+            "C": "\n\n            directing\n",
+            "D": "\n\n            controlling\n"
+        },
+        "correct_answer": "D",
+        "topic": "Meaning & Scope of Commerce",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_79",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "79",
+        "question": "A medium for intra-departmental communication is all except",
+        "options": {
+            "A": "\n\n            intercom\n",
+            "B": "\n\n            notice board\n",
+            "C": "\n\n            radiophone\n",
+            "D": "\n\n            circular\n"
+        },
+        "correct_answer": "C",
+        "topic": "Advertising & Communication",
+        "image": null,
+        "source": "myschool.ng"
+    },
+    {
+        "id": "JAMB_Commerce_2022_80",
+        "exam": "JAMB",
+        "subject": "Commerce",
+        "year": 2022,
+        "number": "80",
+        "question": "Which of the following is not an objective of ECOWAS?",
+        "options": {
+            "A": "\n\n            promotion of a common language\n",
+            "B": "\n\n            improvement of infrastructural facilities\n",
+            "C": "\n\n            encouragement of free movement of people\n",
+            "D": "\n\n            encouragement of trade among member countries\n"
+        },
+        "correct_answer": "A",
+        "topic": "Trade",
+        "image": null,
+        "source": "myschool.ng"
+    }
+]
