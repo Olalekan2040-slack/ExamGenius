@@ -13,6 +13,35 @@ from app.core.security import current_user_id
 from app.services.ai.gemini_service import generate_topic_lesson, generate_question_explanation, ask_ai_tutor
 from app.services.analytics import AnalyticsService
 
+
+def _get_topic_videos(cursor, subject: str, topic: str):
+    """Fetch admin-managed videos for a subject/topic"""
+    try:
+        cursor.execute(
+            """
+            SELECT title, description, url, duration_seconds, created_at
+            FROM topic_videos
+            WHERE subject = ? AND topic = ?
+            ORDER BY created_at DESC
+            """,
+            (subject, topic),
+        )
+        videos = []
+        for row in cursor.fetchall():
+            videos.append(
+                {
+                    "title": row[0],
+                    "description": row[1],
+                    "url": row[2],
+                    "duration_seconds": row[3],
+                    "created_at": row[4],
+                }
+            )
+        return videos
+    except Exception:
+        # If the table is missing or any other issue, return empty list gracefully
+        return []
+
 router = APIRouter(prefix="/learn", tags=["Learn"])
 
 
@@ -112,6 +141,7 @@ async def get_topic_lesson(
         cached = cursor.fetchone()
 
         if cached:
+            videos = _get_topic_videos(cursor, subject, topic)
             return {
                 "subject": subject,
                 "topic": topic,
@@ -124,7 +154,8 @@ async def get_topic_lesson(
                     "quick_tip": cached[3],
                     "full_content": cached[4],
                     "diagrams": cached[5]
-                }
+                },
+                "videos": videos
             }
 
         # Get sample questions for context
@@ -160,12 +191,15 @@ async def get_topic_lesson(
         ))
         conn.commit()
 
+        videos = _get_topic_videos(cursor, subject, topic)
+
         return {
             "subject": subject,
             "topic": topic,
             "language": language,
             "cached": False,
-            "lesson": lesson
+            "lesson": lesson,
+            "videos": videos
         }
 
     except Exception as e:

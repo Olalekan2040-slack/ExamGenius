@@ -132,6 +132,7 @@ async function showTopicLesson() {
     try {
         const user = authManager.getUser();
         const data = await api.getLesson(currentLearnState.subject, currentLearnState.topic);
+        const videos = data.videos || [];
 
         // Store lesson in state for interactive chat
         currentLearnState.lesson = data.lesson;
@@ -178,6 +179,17 @@ async function showTopicLesson() {
                             <div style="padding: 16px; background: linear-gradient(135deg, var(--success) 0%, #81C784 100%); color: var(--white); border-radius: var(--radius-md); margin-bottom: 16px;">
                                 <h3 style="margin-bottom: 8px; font-size: 14px; color: var(--white);"><i class="fas fa-bolt"></i> Quick Tip</h3>
                                 <p style="line-height: 1.6; font-size: 13px;">${data.lesson.quick_tip}</p>
+                            </div>
+                        ` : ''}
+
+                        ${videos.length ? `
+                            <div class="card" style="margin-top: 12px;">
+                                <div class="card-header">
+                                    <h2><i class="fas fa-play-circle"></i> Topic Videos</h2>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 16px; padding: 16px;">
+                                    ${videos.map(renderVideoBlock).join('')}
+                                </div>
                             </div>
                         ` : ''}
                     </div>
@@ -386,6 +398,41 @@ function confirmExitPractice() {
     if (confirmed) {
         showTopicList();
     }
+}
+
+function getVideoEmbedUrl(url) {
+    if (!url) return null;
+    if (url.includes('drive.google.com')) {
+        const match = url.match(/\/d\/([^/]+)/);
+        const id = match ? match[1] : null;
+        if (id) return `https://drive.google.com/file/d/${id}/preview`;
+    }
+    return url;
+}
+
+function renderVideoBlock(video) {
+    const embedUrl = getVideoEmbedUrl(video.url);
+    const durationText = video.duration_seconds ? `${Math.round(video.duration_seconds / 60)} min` : '';
+
+    return `
+        <div style="border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; background: var(--white);">
+            <div style="padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; gap: 12px; background: var(--bg-light);">
+                <div style="flex: 1;">
+                    <p style="margin: 0; font-weight: 600;">${video.title || 'Topic Video'}</p>
+                    ${video.description ? `<p style=\"margin: 4px 0 0; color: var(--text-secondary); font-size: 13px;\">${video.description}</p>` : ''}
+                    ${durationText ? `<p style=\"margin: 4px 0 0; color: var(--text-secondary); font-size: 12px;\">Duration: ${durationText}</p>` : ''}
+                </div>
+                <a class="btn btn-outline" href="${video.url}" target="_blank" rel="noopener">
+                    <i class="fas fa-external-link-alt"></i> Open
+                </a>
+            </div>
+            ${embedUrl ? `
+                <div style="position: relative; padding-top: 56.25%; background: #000;">
+                    <iframe src="${embedUrl}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                </div>
+            ` : ''}
+        </div>
+    `;
 }
 
 async function submitTopicPractice() {

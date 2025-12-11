@@ -158,6 +158,21 @@ def init_schema():
         )
     """)
 
+    # Topic videos (admin-managed video links per topic)
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS topic_videos (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            subject TEXT NOT NULL,
+            topic TEXT NOT NULL,
+            title TEXT NOT NULL,
+            description TEXT,
+            url TEXT NOT NULL,
+            duration_seconds INTEGER,
+            created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(subject, topic, url)
+        )
+    """)
+
     # AI-generated questions (for slot 3 in CBT)
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS ai_generated_questions (
