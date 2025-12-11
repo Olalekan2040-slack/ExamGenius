@@ -1,215 +1,406 @@
-# ExamGenius API
+<div align="center">
 
-Professional JAMB Exam Preparation Platform with AI-powered learning assistance.
+# 🎓 ExamGenius
+
+### **AI-Powered JAMB Exam Mastery Platform**
+*Interactive learning, real-time AI tutoring, and comprehensive practice for Nigerian students.*
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/fastapi-0.95%2B-green.svg)](https://fastapi.tiangolo.com/)
+[![License: Proprietary](https://img.shields.io/badge/license-proprietary-red.svg)](#license)
+[![GitHub Stars](https://img.shields.io/github/stars/Olalekan2040-slack/ExamGenius?style=social)](https://github.com/Olalekan2040-slack/ExamGenius)
+
+[Quick Start](#-quick-start) • [Features](#-features) • [API Docs](#-api-documentation) • [Contributing](#-contributing) • [Support](#-support)
+
+</div>
+
+---
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 **Interactive Learning**
+- AI-powered lesson generation (English & Pidgin)
+- Real-time AI tutor with conversation history
+- Context-aware explanations
+- Mobile-responsive design
+
+</td>
+<td width="50%">
+
+### 📊 **Comprehensive Practice**
+- Topic-based targeted practice
+- Year-wise past papers (2010-2024)
+- Full CBT simulation
+- Instant feedback & explanations
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📈 **Progress Tracking**
+- Real-time performance analytics
+- Accuracy metrics per topic
+- Learning streaks & achievements
+- Detailed practice history
+
+</td>
+<td width="50%">
+
+### 🔐 **Secure & Scalable**
+- JWT-based authentication
+- SQLite database with optimized queries
+- OpenRouter AI integration (DeepSeek V3.2)
+- Production-ready architecture
+
+</td>
+</tr>
+</table>
+
+### 📚 **Complete Question Bank**
+- **15 Years** of JAMB past questions (2010-2024)
+- **10 Subjects** covered:
+  - Biology | Chemistry | Physics | Mathematics
+  - English Language | Commerce | Economics
+  - Government | CRK | Literature
+
+---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8+
-- pip (Python package manager)
-- Virtual environment (recommended)
+```
+✓ Python 3.8+
+✓ pip (package manager)
+✓ Git
+✓ OpenRouter API Key (for AI features)
+```
 
-### Installation
+### 1️⃣ Clone & Setup
+```bash
+# Clone repository
+git clone https://github.com/Olalekan2040-slack/ExamGenius.git
+cd ExamGenius
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd examgenius
-   ```
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1  # Windows PowerShell
+# or
+source venv/bin/activate    # Linux/Mac
 
-2. **Create and activate virtual environment**
-   ```bash
-   # Windows
-   python -m venv venv
-   .\venv\Scripts\activate
+# Install dependencies
+pip install -r requirements.txt
+```
 
-   # Linux/Mac
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+### 2️⃣ Configure Environment
+Create `.env` in the project root:
+```env
+OPENROUTER_API_KEY=sk-your-key-here
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+SECRET_KEY=your-secret-key-here
+DEBUG=False
+```
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 3️⃣ Run Application
+```bash
+# Terminal 1: Start Backend (Port 8000)
+uvicorn main:app --reload
 
-4. **Configure environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
+# Terminal 2: Start Frontend (Port 8080)
+cd frontend
+python -m http.server 8080
+```
 
-5. **Initialize database**
-   ```bash
-   python scripts/init_db.py
-   ```
+### 4️⃣ Access Application
+```
+Frontend:  http://localhost:8080
+Backend:   http://localhost:8000
+API Docs:  http://localhost:8000/docs
+```
 
-6. **Run the application**
-   ```bash
-   # Development mode with auto-reload
-   uvicorn main:app --reload
+---
 
-   # Production mode
-   python main.py
-   ```
-
-7. **Access the API**
-   - API Documentation: http://localhost:8000/docs
-   - Alternative Docs: http://localhost:8000/redoc
-   - API Base URL: http://localhost:8000/api/v1
-
-## 📁 Project Structure
+## 📁 Project Architecture
 
 ```
 examgenius/
-├── app/                          # Main application package
-│   ├── api/                      # API layer
-│   │   └── v1/                   # API version 1
-│   │       ├── endpoints/        # API endpoint modules
-│   │       │   ├── auth.py      # Authentication endpoints
-│   │       │   ├── user.py      # User management
-│   │       │   ├── profile.py   # User profile
-│   │       │   ├── learn.py     # Learning modules
-│   │       │   ├── year_practice.py  # Year practice
-│   │       │   ├── cbt.py       # CBT exams
-│   │       │   ├── dashboard.py # Analytics
-│   │       │   └── jamb.py      # JAMB questions
-│   │       └── api.py           # API router aggregator
-│   ├── core/                     # Core functionality
-│   │   ├── config.py            # Configuration settings
-│   │   ├── security.py          # Authentication & security
-│   │   └── dependencies.py      # Dependency injection
-│   ├── db/                       # Database layer
-│   │   └── database.py          # Database connections
-│   ├── models/                   # Database models
-│   ├── schemas/                  # Pydantic schemas
-│   └── services/                 # Business logic
-│       └── ai/                   # AI services
-│           ├── gemini_service.py
-│           └── email_service.py
-├── docs/                         # Documentation
-├── scripts/                      # Utility scripts
-│   └── init_db.py               # Database initialization
-├── tests/                        # Test suite
-├── JAMB/                         # Study materials
-├── main.py                       # Application entry point
+├── 📂 app/
+│   ├── api/v1/endpoints/
+│   │   ├── auth.py              # User authentication (JWT)
+│   │   ├── learn.py             # Topics, lessons, AI tutor
+│   │   ├── cbt.py               # CBT exam sessions
+│   │   ├── year_practice.py      # Year-wise practice
+│   │   ├── dashboard.py          # User analytics
+│   │   └── jamb.py              # Public question retrieval
+│   ├── services/ai/
+│   │   └── gemini_service.py     # DeepSeek via OpenRouter
+│   ├── db/database.py            # SQLite connection
+│   └── core/security.py          # JWT & auth logic
+├── 📂 frontend/
+│   ├── js/
+│   │   ├── api.js               # API client with error handling
+│   │   └── screens/learn.js      # Interactive learn UI
+│   ├── styles/
+│   │   └── main.css              # Responsive design
+│   └── index.html                # Entry point
+├── 📂 past_questions/            # JAMB JSON data
+├── main.py                       # FastAPI entry point
 ├── requirements.txt              # Python dependencies
-├── .env                          # Environment variables
-├── .gitignore                    # Git ignore rules
+├── .env                          # Environment config
+├── .gitignore                    # Git rules
 └── README.md                     # This file
 ```
 
-## 🔑 Key Features
+---
 
-- **Authentication & Authorization**: JWT-based secure authentication
-- **User Management**: Complete user profile and settings management
-- **AI-Powered Learning**: Google Gemini integration for personalized study
-- **Practice Modes**: 
-  - Topic-based learning
-  - Year-wise practice
-  - Full CBT simulation
-- **Analytics Dashboard**: Track progress and performance
-- **JAMB Question Bank**: 15 years of past questions (2010-2024)
-- **10 Subjects**: Biology, Chemistry, Physics, Mathematics, English, Commerce, Economics, Government, CRK, Literature
+## 🔌 API Documentation
 
-## 📚 API Documentation
-
-### Base URL
+### **Base URL**
 ```
 http://localhost:8000/api/v1
 ```
 
-### Authentication
-All protected endpoints require Bearer token:
+### **Authentication**
+All protected endpoints require a Bearer token:
+```http
+Authorization: Bearer your_jwt_access_token
 ```
-Authorization: Bearer <your-jwt-token>
-```
 
-### Main Endpoints
+### **Core Endpoints**
 
-#### Authentication (`/auth`)
-- `POST /auth/register` - Register new user
-- `POST /auth/login` - Login user
-- `POST /auth/refresh` - Refresh access token
-- `POST /auth/logout` - Logout user
+<details>
+<summary><b>🔐 Authentication</b></summary>
 
-#### Users (`/users`)
-- `GET /users/me` - Get current user
-- `PUT /users/me` - Update current user
-- `DELETE /users/me` - Delete account
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/auth/register` | POST | Create new user account |
+| `/auth/login` | POST | Login & get JWT tokens |
+| `/auth/refresh` | POST | Refresh access token |
+| `/auth/logout` | POST | Logout & invalidate token |
+| `/auth/request-reset` | POST | Request password reset |
+| `/auth/reset-password` | POST | Reset password with token |
 
-#### Profile (`/profile`)
-- `POST /profile/setup` - Setup user profile
-- `GET /profile` - Get profile
-- `PUT /profile` - Update profile
+</details>
 
-#### Learn (`/learn`)
-- `GET /learn/topics` - Get available topics
-- `POST /learn/start` - Start learning session
-- `POST /learn/submit` - Submit answers
+<details>
+<summary><b>📖 Learning Endpoints</b></summary>
 
-#### Practice (`/year-practice`)
-- `GET /year-practice/years` - Available years
-- `POST /year-practice/start` - Start practice
-- `POST /year-practice/submit` - Submit answers
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/learn/topics/{subject}` | GET | Get topics with stats |
+| `/learn/lesson/{subject}/{topic}` | GET | Get cached/AI lesson |
+| `/learn/questions/{subject}/{topic}` | GET | Get practice questions |
+| `/learn/practice/topic/submit` | POST | Submit answers & grade |
+| `/learn/ask-tutor` | POST | AI tutor chat |
 
-#### CBT (`/cbt`)
-- `POST /cbt/start` - Start CBT exam
-- `POST /cbt/submit` - Submit exam
-- `GET /cbt/results` - Get results
+</details>
 
-#### Dashboard (`/dashboard`)
-- `GET /dashboard/stats` - User statistics
-- `GET /dashboard/performance` - Performance metrics
-- `GET /dashboard/history` - Practice history
+<details>
+<summary><b>📚 Practice Endpoints</b></summary>
 
-## 🛠️ Development
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/year-practice/info` | GET | Available years & subjects |
+| `/year-practice/questions` | GET | Year-specific questions |
+| `/year-practice/submit` | POST | Submit year practice |
+| `/cbt/create` | POST | Start CBT session |
+| `/cbt/{session_id}/questions` | GET | Get CBT questions |
+| `/cbt/{session_id}/submit` | POST | Submit CBT exam |
 
-### Code Style
-- Follow PEP 8 guidelines
-- Use type hints
-- Document functions with docstrings
+</details>
 
-### Running Tests
+<details>
+<summary><b>👤 User Endpoints</b></summary>
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/users/me` | GET | Get current user |
+| `/users/me` | PUT | Update profile |
+| `/users/avatar` | POST | Upload profile picture |
+| `/dashboard/stats` | GET | User performance metrics |
+
+</details>
+
+### **Example Request**
 ```bash
-pytest tests/
+curl -X GET "http://localhost:8000/api/v1/learn/topics/Biology" \
+  -H "Authorization: Bearer your_token" \
+  -H "Content-Type: application/json"
 ```
 
-### Database Migrations
-```bash
-python scripts/init_db.py
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Backend** | FastAPI, Pydantic | Modern async REST API |
+| **Database** | SQLite3 | Lightweight, serverless DB |
+| **AI** | OpenRouter (DeepSeek V3.2) | LLM for lessons & tutoring |
+| **Frontend** | Vanilla JS, HTML5, CSS3 | Lightweight, responsive UI |
+| **Auth** | JWT (PyJWT) | Secure token-based auth |
+
+---
+
+## 🎯 Key Workflows
+
+### **Interactive Learning Flow**
+```
+1. User selects Subject → 
+2. Selects Topic → 
+3. Views AI-generated Lesson (cached) → 
+4. Chats with AI Tutor (context-aware) → 
+5. Takes Practice Quiz → 
+6. Gets instant grading + explanations
 ```
 
-## 🌍 Environment Variables
+### **CBT Exam Flow**
+```
+1. Create session (select subjects) →
+2. Answer questions (timed/untimed) →
+3. Submit exam →
+4. View detailed results & analytics
+```
 
-Required environment variables (`.env` file):
+---
 
+## ⚙️ Configuration
+
+### **Environment Variables**
 ```env
-# App Configuration
-SECRET_KEY=your-secret-key-here
+# AI & API
+OPENROUTER_API_KEY=sk-...
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+
+# Security
+SECRET_KEY=your-256-bit-secret-key
 DEBUG=False
 
-# Database
+# Database (auto-created)
 DATABASE_URL=sqlite:///./jamb_questions.db
 
-# AI Service
-GEMINI_API_KEY=your-gemini-api-key
-
-# Email (Optional)
-MAIL_USERNAME=your-email@example.com
-MAIL_PASSWORD=your-email-password
+# Optional: Email
 MAIL_SERVER=smtp.gmail.com
 MAIL_PORT=587
+MAIL_USERNAME=your-email@gmail.com
+MAIL_PASSWORD=your-app-password
 ```
+
+---
+
+## 📊 Database Schema
+
+**Key Tables:**
+- `users` — User accounts & auth
+- `questions` — JAMB question bank (15 years)
+- `options` — Multiple choice options
+- `topic_lessons` — Cached AI lessons
+- `practice_attempts` — User answer history
+- `user_stats` — Performance metrics per topic
+- `user_streaks` — Daily learning streaks
+- `cbt_sessions` — CBT exam sessions
+
+---
+
+## 🧪 Development
+
+### **Code Style**
+```
+✓ PEP 8 compliant
+✓ Type hints required
+✓ Docstrings for all functions
+✓ Async/await for I/O operations
+```
+
+### **Running Tests** (when added)
+```bash
+pytest tests/ -v --cov
+```
+
+### **Debugging**
+```bash
+# Enable debug logging
+DEBUG=True uvicorn main:app --reload --log-level debug
+```
+
+---
+
+## 🚨 Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| `[object Object]` errors | Check `frontend/js/api.js` error handler; verify API response |
+| 422 Validation Error | Ensure `question_id` is sent in practice submission |
+| AI tutor fails | Verify `OPENROUTER_API_KEY` is set & accessible |
+| Database locked | Ensure only one instance of the app is running |
+| CORS errors | Adjust CORS settings in `main.py` if needed |
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request to `master`
+
+### **Guidelines**
+- Keep PRs focused & scoped
+- Include tests for new features
+- Update documentation
+- Follow code style guidelines
+
+---
 
 ## 📄 License
 
-This project is proprietary software. All rights reserved.
+This project is **proprietary software**. All rights reserved.
 
-## 👥 Contributors
+For licensing inquiries, contact the development team.
 
-ExamGenius Development Team
+---
 
-## 📞 Support
+## 🆘 Support & Community
 
-For support, email support@examgenius.com or open an issue in the repository.
+| Channel | Link |
+|---------|------|
+| **Issues** | [GitHub Issues](https://github.com/Olalekan2040-slack/ExamGenius/issues) |
+| **Discussions** | [GitHub Discussions](https://github.com/Olalekan2040-slack/ExamGenius/discussions) |
+| **Email** | support@examgenius.com |
+
+---
+
+## 📈 Roadmap
+
+- [ ] Mobile app (React Native)
+- [ ] Voice-based tutoring
+- [ ] Spaced repetition algorithm
+- [ ] Social study groups
+- [ ] Offline mode
+- [ ] Advanced analytics dashboard
+
+---
+
+## 👨‍💻 Team
+
+**ExamGenius Development Team**
+- Lead Developer: [@Olalekan2040-slack](https://github.com/Olalekan2040-slack)
+
+---
+
+<div align="center">
+
+### ⭐ If this project helped you, please give it a star!
+
+[Report Issue](https://github.com/Olalekan2040-slack/ExamGenius/issues) • [Request Feature](https://github.com/Olalekan2040-slack/ExamGenius/issues/new) • [Email Support](mailto:support@examgenius.com)
+
+**Made with ❤️ for Nigerian Students**
+
+</div>
