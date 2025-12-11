@@ -44,10 +44,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             hideLoading();
 
             // Navigate to appropriate screen
+            // Priority: URL hash > saved route > dashboard
             if (hash && router.routes[hash]) {
                 router.navigate(hash);
             } else {
-                router.navigate('dashboard');
+                const savedRoute = router.getSavedRoute();
+                if (savedRoute) {
+                    router.navigate(savedRoute.route, savedRoute.params);
+                } else {
+                    router.navigate('dashboard');
+                }
             }
         } catch (error) {
             hideLoading();
@@ -55,6 +61,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Clear invalid tokens
             localStorage.removeItem('refresh_token');
             localStorage.removeItem('user');
+            localStorage.removeItem('last_route');
+            localStorage.removeItem('last_route_params');
             router.navigate('landing');
         }
     } else {
@@ -62,6 +70,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (hash && router.routes[hash]) {
             router.navigate(hash);
         } else {
+            // Check if there's a saved route (user might have been logged in before)
+            const savedRoute = router.getSavedRoute();
+            if (savedRoute) {
+                // Clear saved route since user is not authenticated
+                localStorage.removeItem('last_route');
+                localStorage.removeItem('last_route_params');
+            }
             router.navigate('landing');
         }
     }

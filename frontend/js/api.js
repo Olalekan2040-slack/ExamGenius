@@ -148,11 +148,15 @@ class APIService {
     async getCurrentUser() {
         return this.request('/users/me', { requireAuth: true });
     }
+    
+    async getProfile() {
+        return this.request('/profile/me', { requireAuth: true });
+    }
 
-    async updateProfile(fullName) {
-        return this.request('/users/me', {
+    async updateProfile(profileData) {
+        return this.request('/profile/update', {
             method: 'PUT',
-            body: { full_name: fullName },
+            body: profileData,
             requireAuth: true
         });
     }

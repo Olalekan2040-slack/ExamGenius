@@ -7,7 +7,7 @@ from google.oauth2 import id_token
 import os
 import secrets
 from functools import wraps
-from app.db.database import get_db
+from app.db.database import get_connection
 
 # Use argon2 for password hashing (no 72-byte limit)
 pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
@@ -206,11 +206,11 @@ def require_auth():
 
 def is_token_invalidated(refresh_token: str, user_id: int) -> bool:
     """Check if refresh token has been invalidated (logged out)"""
-    db = get_db()
+    db = get_connection()
     cursor = db.cursor()
 
     cursor.execute(
-        "SELECT id FROM invalidated_tokens WHERE user_id = ? AND refresh_token = ?",
+        "SELECT id FROM invalidated_tokens WHERE user_id = ? AND token = ?",
         (user_id, refresh_token)
     )
 
@@ -219,11 +219,11 @@ def is_token_invalidated(refresh_token: str, user_id: int) -> bool:
 
 def invalidate_refresh_token(refresh_token: str, user_id: int):
     """Invalidate a refresh token (on logout)"""
-    db = get_db()
+    db = get_connection()
     cursor = db.cursor()
 
     cursor.execute(
-        "INSERT INTO invalidated_tokens (user_id, refresh_token) VALUES (?, ?)",
+        "INSERT INTO invalidated_tokens (user_id, token) VALUES (?, ?)",
         (user_id, refresh_token)
     )
     db.commit()

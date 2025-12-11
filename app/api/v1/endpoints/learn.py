@@ -18,7 +18,7 @@ router = APIRouter(prefix="/learn", tags=["Learn"])
 
 # Pydantic Models
 class PracticeAnswer(BaseModel):
-    question_id: int
+    question_id: str  # Can be string ID from database
     user_answer: Optional[str] = None
 
 
@@ -370,13 +370,8 @@ async def submit_topic_practice(request: SubmitTopicPracticeRequest, user_id: in
             """, (question_id,))
             options = {row[0]: row[1] for row in cursor.fetchall()}
 
-            # Generate explanation
-            try:
-                explanation = generate_question_explanation(
-                    question_text, options, correct_answer, topic
-                )
-            except:
-                explanation = f"The correct answer is {correct_answer}. {options.get(correct_answer, '')}"
+            # Simple explanation (AI generation removed to prevent timeout)
+            explanation = f"The correct answer is {correct_answer}: {options.get(correct_answer, '')}"
 
             # Record attempt
             cursor.execute("""

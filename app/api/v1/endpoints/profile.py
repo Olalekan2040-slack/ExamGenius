@@ -10,7 +10,7 @@ from datetime import datetime
 from app.db.database import get_connection
 from app.core.security import current_user_id
 
-router = APIRouter(prefix="/api/profile", tags=["profile"])
+router = APIRouter(prefix="/profile", tags=["profile"])
 
 
 # Pydantic Models
@@ -18,6 +18,11 @@ class CompleteProfileRequest(BaseModel):
     full_name: str
     phone_number: str
     class_level: str
+    gender: Optional[str] = None
+    age: Optional[int] = None
+    department: Optional[str] = None
+    state: Optional[str] = None
+    local_government: Optional[str] = None
     subjects: List[str]
 
     @field_validator('class_level')
@@ -25,6 +30,27 @@ class CompleteProfileRequest(BaseModel):
     def validate_class(cls, v):
         if v not in ['SS1', 'SS2', 'SS3']:
             raise ValueError("class_level must be SS1, SS2, or SS3")
+        return v
+    
+    @field_validator('gender')
+    @classmethod
+    def validate_gender(cls, v):
+        if v and v not in ['Male', 'Female', 'Other', 'Prefer not to say']:
+            raise ValueError("Invalid gender option")
+        return v
+    
+    @field_validator('department')
+    @classmethod
+    def validate_department(cls, v):
+        if v and v not in ['Science', 'Commercial', 'Art']:
+            raise ValueError("Department must be Science, Commercial, or Art")
+        return v
+    
+    @field_validator('age')
+    @classmethod
+    def validate_age(cls, v):
+        if v and (v < 10 or v > 100):
+            raise ValueError("Age must be between 10 and 100")
         return v
 
     @field_validator('subjects')
@@ -54,6 +80,11 @@ class UpdateProfileRequest(BaseModel):
     full_name: Optional[str] = None
     phone_number: Optional[str] = None
     class_level: Optional[str] = None
+    gender: Optional[str] = None
+    age: Optional[int] = None
+    department: Optional[str] = None
+    state: Optional[str] = None
+    local_government: Optional[str] = None
 
 
 @router.post("/complete")
@@ -97,16 +128,20 @@ async def complete_profile(request: CompleteProfileRequest, user_id: int = Depen
             cursor.execute("""
                 UPDATE user_profiles
                 SET full_name = ?, phone_number = ?, class_level = ?, 
+                    gender = ?, age = ?, department = ?, state = ?, local_government = ?,
                     profile_completed = 1, updated_at = ?
                 WHERE user_id = ?
             """, (request.full_name, request.phone_number, request.class_level,
+                  request.gender, request.age, request.department, request.state, request.local_government,
                   datetime.utcnow().isoformat(), user_id))
         else:
             cursor.execute("""
                 INSERT INTO user_profiles (user_id, full_name, phone_number, class_level, 
+                                          gender, age, department, state, local_government,
                                           preferred_exam, profile_completed, created_at, updated_at)
-                VALUES (?, ?, ?, ?, 'JAMB', 1, ?, ?)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'JAMB', 1, ?, ?)
             """, (user_id, request.full_name, request.phone_number, request.class_level,
+                  request.gender, request.age, request.department, request.state, request.local_government,
                   datetime.utcnow().isoformat(), datetime.utcnow().isoformat()))
 
         # Delete old subjects
@@ -167,7 +202,8 @@ async def get_profile(user_id: int = Depends(current_user_id)):
         # Get user basic info
         cursor.execute("""
             SELECT u.id, u.name, u.email, u.profile_pic_url,
-                   p.full_name, p.phone_number, p.class_level, p.preferred_exam, p.profile_completed
+                   p.full_name, p.phone_number, p.class_level, p.gender, p.age, 
+                   p.department, p.state, p.local_government, p.preferred_exam, p.profile_completed
             FROM users u
             LEFT JOIN user_profiles p ON u.id = p.user_id
             WHERE u.id = ?
@@ -217,8 +253,13 @@ async def get_profile(user_id: int = Depends(current_user_id)):
             "full_name": user_row[4],
             "phone_number": user_row[5],
             "class_level": user_row[6],
-            "preferred_exam": user_row[7] or "JAMB",
-            "profile_completed": bool(user_row[8]),
+            "gender": user_row[7],
+            "age": user_row[8],
+            "department": user_row[9],
+            "state": user_row[10],
+            "local_government": user_row[11],
+            "preferred_exam": user_row[12] or "JAMB",
+            "profile_completed": bool(user_row[13]),
             "subjects": subjects,
             "stats": {
                 "total_attempts": total_attempts,
@@ -246,8 +287,20 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
     cursor = conn.cursor()
 
     try:
+        # Determine if profile exists
+        cursor.execute("SELECT 1 FROM user_profiles WHERE user_id = ?", (user_id,))
+        profile_exists = cursor.fetchone() is not None
+
         updates = []
         params = []
+
+        if request.full_name:
+            updates.append("full_name = ?")
+            params.append(request.full_name)
+
+        if request.phone_number:
+            updates.append("phone_number = ?")
+            params.append(request.phone_number)
 
         if request.full_name:
             updates.append("full_name = ?")
@@ -265,6 +318,41 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
                 )
             updates.append("class_level = ?")
             params.append(request.class_level)
+        
+        if request.gender:
+            if request.gender not in ['Male', 'Female', 'Other', 'Prefer not to say']:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Invalid gender option"
+                )
+            updates.append("gender = ?")
+            params.append(request.gender)
+        
+        if request.age is not None:
+            if request.age < 10 or request.age > 100:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Age must be between 10 and 100"
+                )
+            updates.append("age = ?")
+            params.append(request.age)
+        
+        if request.department:
+            if request.department not in ['Science', 'Commercial', 'Art']:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Department must be Science, Commercial, or Art"
+                )
+            updates.append("department = ?")
+            params.append(request.department)
+        
+        if request.state:
+            updates.append("state = ?")
+            params.append(request.state)
+        
+        if request.local_government:
+            updates.append("local_government = ?")
+            params.append(request.local_government)
 
         if not updates:
             raise HTTPException(
@@ -272,12 +360,51 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
                 detail="No fields to update"
             )
 
+        # Always mark profile as completed when updating info
+        updates.append("profile_completed = 1")
         updates.append("updated_at = ?")
         params.append(datetime.utcnow().isoformat())
-        params.append(user_id)
 
-        query = f"UPDATE user_profiles SET {', '.join(updates)} WHERE user_id = ?"
-        cursor.execute(query, params)
+        if profile_exists:
+            # Update existing profile
+            params.append(user_id)
+            query = f"UPDATE user_profiles SET {', '.join(updates)} WHERE user_id = ?"
+            cursor.execute(query, params)
+        else:
+            # Insert new profile record
+            columns = []
+            placeholders = []
+            insert_params = []
+
+            field_map = {
+                "full_name": request.full_name or "",
+                "phone_number": request.phone_number or "",
+                "class_level": request.class_level or "",
+                "gender": request.gender,
+                "age": request.age,
+                "department": request.department,
+                "state": request.state,
+                "local_government": request.local_government,
+                "preferred_exam": "JAMB",
+                "profile_completed": 1,
+                "created_at": datetime.utcnow().isoformat(),
+                "updated_at": datetime.utcnow().isoformat(),
+            }
+
+            for col, val in field_map.items():
+                if val is not None:
+                    columns.append(col)
+                    placeholders.append("?")
+                    insert_params.append(val)
+
+            # Always include user_id
+            columns.insert(0, "user_id")
+            placeholders.insert(0, "?")
+            insert_params.insert(0, user_id)
+
+            query = f"INSERT INTO user_profiles ({', '.join(columns)}) VALUES ({', '.join(placeholders)})"
+            cursor.execute(query, insert_params)
+
         conn.commit()
 
         return {"success": True, "message": "Profile updated successfully"}

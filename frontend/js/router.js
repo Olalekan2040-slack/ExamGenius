@@ -44,6 +44,14 @@ class Router {
 
         // Update URL hash
         window.location.hash = name;
+        
+        // Save current route to localStorage for refresh persistence
+        localStorage.setItem('last_route', name);
+        if (params && Object.keys(params).length > 0) {
+            localStorage.setItem('last_route_params', JSON.stringify(params));
+        } else {
+            localStorage.removeItem('last_route_params');
+        }
     }
 
     hideAllScreens() {
@@ -56,6 +64,21 @@ class Router {
     // Get current route
     getCurrentRoute() {
         return this.currentRoute;
+    }
+    
+    // Get last saved route from localStorage
+    getSavedRoute() {
+        const savedRoute = localStorage.getItem('last_route');
+        const savedParams = localStorage.getItem('last_route_params');
+        
+        if (savedRoute && this.routes[savedRoute]) {
+            return {
+                route: savedRoute,
+                params: savedParams ? JSON.parse(savedParams) : {}
+            };
+        }
+        
+        return null;
     }
 }
 

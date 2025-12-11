@@ -7,6 +7,7 @@ from fastapi import APIRouter
 from app.api.v1.endpoints import (
     auth,
     user,
+    profile,
     learn,
     year_practice,
     cbt,
@@ -21,6 +22,7 @@ api_router = APIRouter()
 # Note: Routers define their own prefixes via APIRouter(prefix=...)
 api_router.include_router(auth.router)
 api_router.include_router(user.router)
+api_router.include_router(profile.router)
 api_router.include_router(learn.router)
 api_router.include_router(year_practice.router)
 api_router.include_router(cbt.router)
