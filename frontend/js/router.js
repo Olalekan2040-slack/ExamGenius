@@ -14,7 +14,7 @@ class Router {
     // Navigate to a route
     async navigate(name, params = {}) {
         const handler = this.routes[name];
-        
+
         if (!handler) {
             console.error(`Route '${name}' not found`);
             return;

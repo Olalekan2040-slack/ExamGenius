@@ -11,6 +11,7 @@ import random
 from app.db.database import get_connection
 from app.core.security import current_user_id
 from app.services.ai.gemini_service import generate_topic_lesson, generate_question_explanation, ask_ai_tutor
+from app.services.analytics import AnalyticsService
 
 router = APIRouter(prefix="/learn", tags=["Learn"])
 
@@ -203,7 +204,8 @@ async def get_practice_questions_by_path(
 
         # Check if we have fewer than requested
         partial_set = total_available < count
-        questions_to_return = all_questions[:count] if count < total_available else all_questions
+        questions_to_return = all_questions[:
+                                            count] if count < total_available else all_questions
 
         # Format questions with options
         formatted_questions = []
@@ -438,6 +440,18 @@ async def submit_topic_practice(request: SubmitTopicPracticeRequest, user_id: in
 
         conn.commit()
 
+        # Get comprehensive analytics for this practice session
+        attempt_results = []
+        for r in results:
+            attempt_results.append({
+                'question_id': r['question_id'],
+                'is_correct': r['is_correct']
+            })
+
+        topic_analysis = AnalyticsService.calculate_topic_analysis(
+            user_id, request.subject, request.topic, attempt_results
+        )
+
         return {
             "success": True,
             "total_questions": total_count,
@@ -447,9 +461,14 @@ async def submit_topic_practice(request: SubmitTopicPracticeRequest, user_id: in
                 "score": round(accuracy, 2),
                 "correct": correct_count,
                 "incorrect": total_count - correct_count,
-                "total": total_count
+                "total": total_count,
+                "performance_level": _get_performance_level(round(accuracy, 2))
             },
             "updated_stats": updated_stats,
+            "topic_analysis": topic_analysis,
+            "strengths_weaknesses": AnalyticsService.identify_strengths_weaknesses(
+                user_id, request.subject
+            ),
             "results": results
         }
 
@@ -460,6 +479,35 @@ async def submit_topic_practice(request: SubmitTopicPracticeRequest, user_id: in
             detail=f"Submission failed: {str(e)}"
         )
 
+
+def _get_performance_level(accuracy: float) -> str:
+    """Determine performance level based on accuracy"""
+    if accuracy >= 90:
+        return "excellent"
+    elif accuracy >= 75:
+        return "good"
+    elif accuracy >= 60:
+        return "fair"
+    elif accuracy >= 40:
+        return "poor"
+    else:
+        return "needs_improvement"
+
+
+@router.get("/analytics")
+async def get_learning_analytics(user_id: int = Depends(current_user_id)):
+    """
+    Get comprehensive learning analytics for dashboard
+    Includes strengths, weaknesses, trends, and performance insights
+    """
+    try:
+        analytics = AnalyticsService.get_comprehensive_dashboard_stats(user_id)
+        return analytics
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to fetch analytics: {str(e)}"
+        )
 
 @router.post("/ask-tutor")
 async def ask_ai_tutor_endpoint(request: AskTutorRequest, user_id: int = Depends(current_user_id)):
@@ -475,13 +523,13 @@ async def ask_ai_tutor_endpoint(request: AskTutorRequest, user_id: int = Depends
             lesson_context=request.lesson_context,
             chat_history=request.chat_history or []
         )
-        
+
         return {
             "response": response,
             "subject": request.subject,
             "topic": request.topic
         }
-    
+
     except Exception as e:
         raise HTTPException(
             status_code=500,

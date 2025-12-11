@@ -11,7 +11,7 @@ let currentLearnState = {
 
 async function showLearnScreen(params = {}) {
     const user = authManager.getUser();
-    
+
     if (params.subject && params.topic) {
         currentLearnState.subject = params.subject;
         currentLearnState.topic = params.topic;
@@ -26,11 +26,11 @@ async function showLearnScreen(params = {}) {
 
 async function showSubjectSelect() {
     showLoading('Loading subjects...');
-    
+
     try {
         const user = authManager.getUser();
         const data = await api.getSubjects();
-        
+
         const content = `
             <div class="learn-screen">
                 <h1><i class="fas fa-book-reader"></i> Learn by Topics</h1>
@@ -50,11 +50,11 @@ async function showSubjectSelect() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -69,11 +69,11 @@ async function selectSubject(subject) {
 
 async function showTopicList() {
     showLoading(`Loading ${currentLearnState.subject} topics...`);
-    
+
     try {
         const user = authManager.getUser();
         const data = await api.getTopicsWithStats(currentLearnState.subject);
-        
+
         const content = `
             <div class="learn-screen">
                 <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 24px;">
@@ -109,11 +109,11 @@ async function showTopicList() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -128,15 +128,15 @@ async function selectTopic(topic) {
 
 async function showTopicLesson() {
     showLoading('Loading lesson...');
-    
+
     try {
         const user = authManager.getUser();
         const data = await api.getLesson(currentLearnState.subject, currentLearnState.topic);
-        
+
         // Store lesson in state for interactive chat
         currentLearnState.lesson = data.lesson;
         currentLearnState.chatHistory = [];
-        
+
         const content = `
             <div class="learn-screen" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; height: calc(100vh - 100px); max-height: 800px;">
                 <!-- Left: Lesson Content -->
@@ -217,11 +217,11 @@ async function showTopicLesson() {
                 </button>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -232,33 +232,33 @@ async function showTopicLesson() {
 async function sendChatMessage() {
     const input = document.getElementById('chat-input');
     const message = input.value.trim();
-    
+
     if (!message) return;
-    
+
     // Add user message to chat
     const chatMessages = document.getElementById('chat-messages');
     const userDiv = document.createElement('div');
     userDiv.style.cssText = 'padding: 12px; background: var(--primary-yellow-light); border-radius: var(--radius-md); text-align: right; font-size: 13px;';
     userDiv.innerHTML = `<strong>You:</strong> ${message}`;
     chatMessages.appendChild(userDiv);
-    
+
     // Store in history
     currentLearnState.chatHistory.push({ role: 'user', content: message });
-    
+
     // Clear input
     input.value = '';
     input.focus();
-    
+
     // Show typing indicator
     const typingDiv = document.createElement('div');
     typingDiv.id = 'typing-indicator';
     typingDiv.style.cssText = 'padding: 12px; background: var(--white); border-radius: var(--radius-md); font-size: 13px; color: var(--text-secondary);';
     typingDiv.innerHTML = '<i class="fas fa-spinner fa-spin"></i> AI Tutor is thinking...';
     chatMessages.appendChild(typingDiv);
-    
+
     // Scroll to bottom
     chatMessages.scrollTop = chatMessages.scrollHeight;
-    
+
     try {
         // Get AI response
         const response = await api.askAITutor(
@@ -268,19 +268,19 @@ async function sendChatMessage() {
             currentLearnState.lesson,
             currentLearnState.chatHistory
         );
-        
+
         // Remove typing indicator
         typingDiv.remove();
-        
+
         // Add AI response
         const aiDiv = document.createElement('div');
         aiDiv.style.cssText = 'padding: 12px; background: var(--white); border-radius: var(--radius-md); border-left: 4px solid var(--primary-yellow); font-size: 13px; line-height: 1.6;';
         aiDiv.innerHTML = `<strong>🤖 AI Tutor:</strong> ${response.response}`;
         chatMessages.appendChild(aiDiv);
-        
+
         // Add to history
         currentLearnState.chatHistory.push({ role: 'assistant', content: response.response });
-        
+
         // Scroll to bottom
         chatMessages.scrollTop = chatMessages.scrollHeight;
     } catch (error) {
@@ -291,14 +291,14 @@ async function sendChatMessage() {
 
 async function startTopicPractice() {
     showLoading('Loading practice questions...');
-    
+
     try {
         const data = await api.getPracticeQuestions(currentLearnState.subject, currentLearnState.topic, 10);
-        
+
         currentLearnState.questions = data.questions;
         currentLearnState.currentQuestionIndex = 0;
         currentLearnState.answers = {};
-        
+
         await showPracticeQuestion();
         hideLoading();
     } catch (error) {
@@ -312,7 +312,7 @@ async function showPracticeQuestion() {
     const question = currentLearnState.questions[currentLearnState.currentQuestionIndex];
     const total = currentLearnState.questions.length;
     const current = currentLearnState.currentQuestionIndex + 1;
-    
+
     const content = `
         <div class="practice-screen">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
@@ -365,7 +365,7 @@ async function showPracticeQuestion() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
@@ -391,14 +391,14 @@ function confirmExitPractice() {
 async function submitTopicPractice() {
     const answeredCount = Object.keys(currentLearnState.answers).length;
     const totalCount = currentLearnState.questions.length;
-    
+
     if (answeredCount < totalCount) {
         const confirmed = confirm(`You've only answered ${answeredCount} out of ${totalCount} questions. Submit anyway?`);
         if (!confirmed) return;
     }
-    
+
     showLoading('Submitting answers...');
-    
+
     try {
         const answers = currentLearnState.questions.map(q => {
             const id = q.question_id ?? q.id;
@@ -407,13 +407,13 @@ async function submitTopicPractice() {
                 user_answer: currentLearnState.answers[id] || null
             };
         });
-        
+
         const result = await api.submitTopicPractice(
             currentLearnState.subject,
             currentLearnState.topic,
             answers
         );
-        
+
         await showPracticeResults(result);
         hideLoading();
     } catch (error) {
@@ -424,75 +424,203 @@ async function submitTopicPractice() {
 
 async function showPracticeResults(result) {
     const user = authManager.getUser();
-    
+    const performanceLevel = result.summary.performance_level || 'good';
+    const scoreColor = getScoreColor(result.summary.score);
+    const performanceIcon = getPerformanceIcon(performanceLevel);
+    const topicAnalysis = result.topic_analysis || {};
+    const sw = result.strengths_weaknesses || {};
+
     const content = `
-        <div class="results-screen">
-            <div class="text-center mb-3">
-                <i class="fas fa-${result.summary.score >= 70 ? 'check-circle' : 'info-circle'}" 
-                   style="font-size: 64px; color: ${result.summary.score >= 70 ? 'var(--success)' : 'var(--warning)'};"></i>
-                <h1 style="margin: 20px 0;">Practice Complete!</h1>
-                <div style="font-size: 48px; font-weight: 700; color: var(--primary-yellow-dark); margin-bottom: 8px;">
+        <div class="results-screen" style="max-width: 1000px; margin: 0 auto;">
+            <!-- Header Section -->
+            <div style="text-align: center; margin-bottom: 40px; padding: 32px; background: linear-gradient(135deg, ${scoreColor}20, ${scoreColor}05); border-radius: var(--radius-lg); border-left: 6px solid ${scoreColor};">
+                <div style="font-size: 72px; margin-bottom: 16px;">${performanceIcon}</div>
+                <h1 style="margin: 0 0 8px 0; font-size: 28px;">Practice Complete!</h1>
+                <div style="font-size: 16px; color: var(--text-secondary); margin-bottom: 24px;">
+                    ${currentLearnState.subject} • ${currentLearnState.topic}
+                </div>
+                <div style="font-size: 64px; font-weight: 700; color: ${scoreColor}; margin: 20px 0;">
                     ${result.summary.score.toFixed(1)}%
                 </div>
-                <div style="color: var(--text-secondary);">
-                    ${result.summary.correct} correct out of ${result.summary.total} questions
+                <div style="font-size: 16px; color: var(--text-secondary); margin-bottom: 12px;">
+                    ${result.summary.correct} <span style="color: var(--success); font-weight: 600;">correct</span> • 
+                    ${result.summary.incorrect} <span style="color: var(--error); font-weight: 600;">incorrect</span>
+                </div>
+                <div style="display: inline-block; padding: 8px 16px; background: ${scoreColor}20; color: ${scoreColor}; border-radius: var(--radius-md); font-weight: 600; margin-top: 12px;">
+                    ${formatPerformanceLevel(performanceLevel)}
                 </div>
             </div>
-            
-            <div class="stats-grid mb-3">
-                ${createStatCard('Correct', result.summary.correct, 'fa-check', 'var(--success)')}
-                ${createStatCard('Incorrect', result.summary.incorrect, 'fa-times', 'var(--error)')}
-                ${createStatCard('Total Attempts', result.updated_stats.total_attempts, 'fa-redo', 'var(--info)')}
-                ${createStatCard('Overall Accuracy', result.updated_stats.accuracy.toFixed(1) + '%', 'fa-bullseye', 'var(--primary-yellow-dark)')}
+
+            <!-- Quick Stats Grid -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin-bottom: 32px;">
+                <div class="stat-card">
+                    <div style="font-size: 24px; color: var(--success); margin-bottom: 8px;"><i class="fas fa-check-circle"></i></div>
+                    <div style="font-size: 20px; font-weight: 700;">${result.summary.correct}</div>
+                    <div style="font-size: 12px; color: var(--text-secondary);">Correct Answers</div>
+                </div>
+                <div class="stat-card">
+                    <div style="font-size: 24px; color: var(--error); margin-bottom: 8px;"><i class="fas fa-times-circle"></i></div>
+                    <div style="font-size: 20px; font-weight: 700;">${result.summary.incorrect}</div>
+                    <div style="font-size: 12px; color: var(--text-secondary);">Incorrect Answers</div>
+                </div>
+                <div class="stat-card">
+                    <div style="font-size: 24px; color: var(--info); margin-bottom: 8px;"><i class="fas fa-question-circle"></i></div>
+                    <div style="font-size: 20px; font-weight: 700;">${result.summary.total}</div>
+                    <div style="font-size: 12px; color: var(--text-secondary);">Total Questions</div>
+                </div>
+                <div class="stat-card">
+                    <div style="font-size: 24px; color: var(--primary-yellow-dark); margin-bottom: 8px;"><i class="fas fa-redo"></i></div>
+                    <div style="font-size: 20px; font-weight: 700;">${result.updated_stats.total_attempts}</div>
+                    <div style="font-size: 12px; color: var(--text-secondary);">Total Attempts</div>
+                </div>
             </div>
-            
-            <div class="card">
+
+            <!-- Topic Analysis -->
+            ${topicAnalysis.total_questions ? `
+            <div class="card" style="margin-bottom: 24px;">
                 <div class="card-header">
-                    <h2>Review Answers</h2>
+                    <h3 style="margin: 0;"><i class="fas fa-chart-pie"></i> Topic Analysis</h3>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 16px;">
-                    ${result.results.map((res, idx) => {
-                        const question = currentLearnState.questions.find(q => q.question_id === res.question_id);
-                        return `
-                            <div style="padding: 16px; border: 2px solid ${res.correct ? 'var(--success)' : 'var(--error)'}; border-radius: var(--radius-md); background: ${res.correct ? '#E8F5E9' : '#FFEBEE'};">
-                                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
-                                    <strong>Question ${idx + 1}</strong>
-                                    <i class="fas fa-${res.correct ? 'check-circle' : 'times-circle'}" style="color: ${res.correct ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
-                                </div>
-                                <p style="margin-bottom: 12px;">${question.question}</p>
-                                <div style="display: grid; gap: 8px;">
-                                    <div style="padding: 8px 12px; background: var(--white); border-radius: var(--radius-sm);">
-                                        <strong style="color: var(--success);">Correct Answer:</strong> ${res.correct_answer}
-                                    </div>
-                                    ${!res.correct ? `
-                                        <div style="padding: 8px 12px; background: var(--white); border-radius: var(--radius-sm);">
-                                            <strong style="color: var(--error);">Your Answer:</strong> ${res.user_answer || 'Not answered'}
-                                        </div>
-                                    ` : ''}
+                <div style="padding: 20px;">
+                    ${Object.entries(topicAnalysis.difficulty_breakdown || {}).map(([difficulty, stats]) => `
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border-color);">
+                            <div>
+                                <div style="font-weight: 600; text-transform: capitalize;">${difficulty} Questions</div>
+                                <div style="font-size: 12px; color: var(--text-secondary);">${stats.correct} of ${stats.total} correct</div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div style="font-size: 20px; font-weight: 700; color: ${getScoreColor(stats.accuracy)}">${stats.accuracy.toFixed(1)}%</div>
+                                <div class="progress-bar" style="width: 100px; height: 6px; background: var(--border-color); border-radius: 3px; margin-top: 4px; overflow: hidden;">
+                                    <div style="width: ${stats.accuracy}%; height: 100%; background: ${getScoreColor(stats.accuracy)}; transition: width 0.3s;"></div>
                                 </div>
                             </div>
-                        `;
-                    }).join('')}
+                        </div>
+                    `).join('')}
                 </div>
             </div>
-            
-            <div style="display: flex; gap: 12px; margin-top: 24px;">
-                <button class="btn btn-primary" onclick="startTopicPractice()">
-                    <i class="fas fa-redo"></i> Practice Again
+            ` : ''}
+
+            <!-- Strengths & Weaknesses -->
+            ${sw.strengths && sw.strengths.length > 0 || sw.weaknesses && sw.weaknesses.length > 0 ? `
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px;">
+                ${sw.strengths && sw.strengths.length > 0 ? `
+                <div class="card">
+                    <div class="card-header">
+                        <h3 style="margin: 0;"><i class="fas fa-star" style="color: var(--success);"></i> Your Strengths</h3>
+                    </div>
+                    <div style="padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+                        ${sw.strengths.slice(0, 3).map(strength => `
+                            <div style="padding: 12px; background: #E8F5E920; border-radius: var(--radius-md); border-left: 3px solid var(--success);">
+                                <div style="font-weight: 600; color: var(--success);">${strength.topic}</div>
+                                <div style="font-size: 12px; color: var(--text-secondary);">${strength.accuracy.toFixed(1)}% • ${strength.trend}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                ${sw.weaknesses && sw.weaknesses.length > 0 ? `
+                <div class="card">
+                    <div class="card-header">
+                        <h3 style="margin: 0;"><i class="fas fa-exclamation-triangle" style="color: var(--error);"></i> Focus Areas</h3>
+                    </div>
+                    <div style="padding: 16px; display: flex; flex-direction: column; gap: 12px;">
+                        ${sw.weaknesses.slice(0, 3).map(weakness => `
+                            <div style="padding: 12px; background: #FFEBEE20; border-radius: var(--radius-md); border-left: 3px solid var(--error);">
+                                <div style="font-weight: 600; color: var(--error);">${weakness.topic}</div>
+                                <div style="font-size: 12px; color: var(--text-secondary);">${weakness.accuracy.toFixed(1)}% • ${weakness.trend}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+            </div>
+            ` : ''}
+
+            <!-- Detailed Review -->
+            <div class="card" style="margin-bottom: 24px;">
+                <div class="card-header">
+                    <h3 style="margin: 0;"><i class="fas fa-list-check"></i> Detailed Review</h3>
+                </div>
+                <div style="padding: 20px;">
+                    <div style="display: flex; flex-direction: column; gap: 16px;">
+                        ${result.results.map((res, idx) => {
+                            const question = currentLearnState.questions.find(q => q.question_id === res.question_id);
+                            const statusColor = res.correct ? 'var(--success)' : 'var(--error)';
+                            const bgColor = res.correct ? '#E8F5E9' : '#FFEBEE';
+                            return `
+                                <div style="padding: 16px; border: 2px solid ${statusColor}30; background: ${bgColor}40; border-radius: var(--radius-md); transition: all 0.3s;">
+                                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                                        <strong style="font-size: 14px;">Question ${idx + 1}</strong>
+                                        <div style="display: flex; align-items: center; gap: 8px;">
+                                            <span style="font-size: 12px; color: var(--text-secondary);">${res.correct ? 'Correct' : 'Incorrect'}</span>
+                                            <i class="fas fa-${res.correct ? 'check-circle' : 'times-circle'}" style="color: ${statusColor}; font-size: 20px;"></i>
+                                        </div>
+                                    </div>
+                                    <p style="margin: 12px 0; color: var(--text-primary);">${question.question}</p>
+                                    <div style="display: grid; gap: 8px; margin-top: 12px;">
+                                        <div style="padding: 10px; background: white; border-radius: 4px; border-left: 3px solid var(--success);">
+                                            <small style="color: var(--text-secondary); font-weight: 600;">Correct Answer:</small>
+                                            <div style="color: var(--success); font-weight: 600;">${res.correct_answer}</div>
+                                        </div>
+                                        ${!res.correct ? `
+                                            <div style="padding: 10px; background: white; border-radius: 4px; border-left: 3px solid var(--error);">
+                                                <small style="color: var(--text-secondary); font-weight: 600;">Your Answer:</small>
+                                                <div style="color: var(--error); font-weight: 600;">${res.user_answer || 'Not answered'}</div>
+                                            </div>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div style="display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap;">
+                <button class="btn btn-primary" onclick="startTopicPractice()" style="flex: 1; min-width: 150px;">
+                    <i class="fas fa-redo-alt"></i> Practice Again
                 </button>
-                <button class="btn btn-outline" onclick="showTopicList()">
-                    <i class="fas fa-list"></i> Choose Another Topic
+                <button class="btn btn-outline" onclick="showTopicList()" style="flex: 1; min-width: 150px;">
+                    <i class="fas fa-book"></i> Another Topic
                 </button>
-                <button class="btn btn-outline" onclick="router.navigate('dashboard')">
-                    <i class="fas fa-home"></i> Back to Dashboard
+                <button class="btn btn-outline" onclick="showLearnScreen({ subject: '${currentLearnState.subject}' })" style="flex: 1; min-width: 150px;">
+                    <i class="fas fa-arrow-left"></i> Back to ${currentLearnState.subject}
+                </button>
+                <button class="btn btn-outline" onclick="router.navigate('dashboard')" style="flex: 1; min-width: 150px;">
+                    <i class="fas fa-chart-line"></i> View Analytics
                 </button>
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
+}
+
+function getScoreColor(score) {
+    if (score >= 90) return '#10B981'; // excellent
+    if (score >= 75) return '#3B82F6'; // good
+    if (score >= 60) return '#F59E0B'; // fair
+    if (score >= 40) return '#EF4444'; // poor
+    return '#DC2626'; // needs improvement
+}
+
+function getPerformanceIcon(level) {
+    const icons = {
+        'excellent': '🎉',
+        'good': '👏',
+        'fair': '💪',
+        'poor': '📚',
+        'needs_improvement': '🚀'
+    };
+    return icons[level] || '📊';
+}
+
+function formatPerformanceLevel(level) {
+    return level.replace(/_/g, ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
 function getSubjectIcon(subject) {

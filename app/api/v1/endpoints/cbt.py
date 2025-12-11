@@ -17,6 +17,7 @@ from app.services.ai.gemini_service import (
     generate_question_explanation,
     batch_generate_ai_questions
 )
+from app.services.analytics import AnalyticsService
 
 router = APIRouter(prefix="/cbt", tags=["CBT Exams"])
 
@@ -544,14 +545,21 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
 
         conn.commit()
 
+        # Get comprehensive CBT analytics
+        cbt_analysis = AnalyticsService.get_cbt_analysis(session_id)
+        overall_sw = AnalyticsService.identify_strengths_weaknesses(user_id)
+
         return {
             "success": True,
             "session_id": session_id,
             "total_questions": len(request.answers),
             "correct_answers": correct_count,
             "overall_accuracy": round(overall_accuracy, 2),
+            "performance_level": _get_performance_level(round(overall_accuracy, 2)),
             "subject_breakdown": subject_breakdown,
             "weakest_topics": weakest_topics,
+            "cbt_analysis": cbt_analysis,
+            "strengths_weaknesses": overall_sw,
             "results": results
         }
 
@@ -563,6 +571,20 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
             status_code=500,
             detail=f"Submission failed: {str(e)}"
         )
+
+
+def _get_performance_level(accuracy: float) -> str:
+    """Determine performance level based on accuracy"""
+    if accuracy >= 90:
+        return "excellent"
+    elif accuracy >= 75:
+        return "good"
+    elif accuracy >= 60:
+        return "fair"
+    elif accuracy >= 40:
+        return "poor"
+    else:
+        return "needs_improvement"
 
 
 @router.get("/{session_id}/review")

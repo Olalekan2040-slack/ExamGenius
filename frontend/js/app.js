@@ -3,10 +3,10 @@
 // Initialize app on page load
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('ExamGenius Frontend Loading...');
-    
+
     // Check URL hash for routes
     const hash = window.location.hash.slice(1);
-    
+
     // Handle email verification from link
     if (hash.startsWith('verify-email')) {
         const urlParams = new URLSearchParams(window.location.search);
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
     }
-    
+
     // Handle password reset from link
     if (hash.startsWith('reset-password')) {
         const urlParams = new URLSearchParams(window.location.search);
@@ -26,23 +26,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
     }
-    
+
     // Check if user is authenticated
     const refreshToken = localStorage.getItem('refresh_token');
-    
+
     if (refreshToken) {
         // Try to refresh access token
         showLoading('Restoring session...');
-        
+
         try {
             const response = await api.refreshToken(refreshToken);
             authManager.setTokens(response.access_token, refreshToken);
-            
+
             // Load user data
             await authManager.loadUserData();
-            
+
             hideLoading();
-            
+
             // Navigate to appropriate screen
             if (hash && router.routes[hash]) {
                 router.navigate(hash);
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             router.navigate('landing');
         }
     }
-    
+
     console.log('ExamGenius Frontend Ready!');
 });
 

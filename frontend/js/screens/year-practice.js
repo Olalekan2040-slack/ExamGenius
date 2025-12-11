@@ -20,14 +20,14 @@ async function showYearPracticeScreen(params = {}) {
 
 async function showYearPracticeSelect() {
     showLoading('Loading...');
-    
+
     try {
         const user = authManager.getUser();
         const [subjects, years] = await Promise.all([
             api.getSubjects(),
             api.getYears()
         ]);
-        
+
         const content = `
             <div class="year-practice-screen">
                 <h1><i class="fas fa-calendar-alt"></i> Practice by Year</h1>
@@ -76,11 +76,11 @@ async function showYearPracticeSelect() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -92,36 +92,36 @@ async function handleStartYearPractice() {
     const subject = document.getElementById('year-subject').value;
     const year = document.getElementById('year-year').value;
     const count = parseInt(document.getElementById('year-count').value);
-    
+
     if (!subject || !year) {
         showToast('Please select both subject and year', 'warning');
         return;
     }
-    
+
     yearPracticeState.subject = subject;
     yearPracticeState.year = year;
-    
+
     await startYearPractice(count);
 }
 
 async function startYearPractice(count = 20) {
     showLoading('Loading questions...');
-    
+
     try {
         const data = await api.getYearPracticeQuestions(
             yearPracticeState.subject,
             yearPracticeState.year,
             count
         );
-        
+
         if (data.incomplete_year_data) {
             showToast('Warning: Limited questions available for this year', 'warning');
         }
-        
+
         yearPracticeState.questions = data.questions;
         yearPracticeState.currentQuestionIndex = 0;
         yearPracticeState.answers = {};
-        
+
         await showYearPracticeQuestion();
         hideLoading();
     } catch (error) {
@@ -135,7 +135,7 @@ async function showYearPracticeQuestion() {
     const question = yearPracticeState.questions[yearPracticeState.currentQuestionIndex];
     const total = yearPracticeState.questions.length;
     const current = yearPracticeState.currentQuestionIndex + 1;
-    
+
     const content = `
         <div class="practice-screen">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
@@ -191,7 +191,7 @@ async function showYearPracticeQuestion() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
@@ -217,26 +217,26 @@ function confirmExitYearPractice() {
 async function submitYearPractice() {
     const answeredCount = Object.keys(yearPracticeState.answers).length;
     const totalCount = yearPracticeState.questions.length;
-    
+
     if (answeredCount < totalCount) {
         const confirmed = confirm(`Only answered ${answeredCount}/${totalCount}. Submit anyway?`);
         if (!confirmed) return;
     }
-    
+
     showLoading('Submitting...');
-    
+
     try {
         const answers = yearPracticeState.questions.map(q => ({
             question_id: q.question_id,
             user_answer: yearPracticeState.answers[q.question_id] || null
         }));
-        
+
         const result = await api.submitYearPractice(
             yearPracticeState.subject,
             yearPracticeState.year,
             answers
         );
-        
+
         await showYearPracticeResults(result);
         hideLoading();
     } catch (error) {
@@ -247,7 +247,7 @@ async function submitYearPractice() {
 
 async function showYearPracticeResults(result) {
     const user = authManager.getUser();
-    
+
     const content = `
         <div class="results-screen">
             <div class="text-center mb-3">
@@ -273,8 +273,8 @@ async function showYearPracticeResults(result) {
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 16px;">
                     ${result.results.map((res, idx) => {
-                        const question = yearPracticeState.questions.find(q => q.question_id === res.question_id);
-                        return `
+        const question = yearPracticeState.questions.find(q => q.question_id === res.question_id);
+        return `
                             <div style="padding: 16px; border: 2px solid ${res.correct ? 'var(--success)' : 'var(--error)'}; border-radius: var(--radius-md); background: ${res.correct ? '#E8F5E9' : '#FFEBEE'};">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
                                     <strong>Q${idx + 1}: ${question.topic}</strong>
@@ -292,7 +292,7 @@ async function showYearPracticeResults(result) {
                                 ` : ''}
                             </div>
                         `;
-                    }).join('')}
+    }).join('')}
                 </div>
             </div>
             
@@ -306,7 +306,7 @@ async function showYearPracticeResults(result) {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');

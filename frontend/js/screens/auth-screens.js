@@ -54,26 +54,26 @@ async function showLoginScreen() {
 
 async function handleLogin(event) {
     event.preventDefault();
-    
+
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
-    
+
     // Clear previous errors
     document.getElementById('email-error').textContent = '';
     document.getElementById('password-error').textContent = '';
-    
+
     // Validate
     if (!utils.validateEmail(email)) {
         document.getElementById('email-error').textContent = 'Please enter a valid email';
         return;
     }
-    
+
     showLoading('Signing in...');
-    
+
     const result = await authManager.login(email, password);
-    
+
     hideLoading();
-    
+
     if (result.success) {
         showToast('Login successful! Welcome back.', 'success');
         router.navigate('dashboard');
@@ -150,48 +150,48 @@ async function showRegisterScreen() {
 
 async function handleRegister(event) {
     event.preventDefault();
-    
+
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('reg-email').value.trim();
     const password = document.getElementById('reg-password').value;
     const confirmPassword = document.getElementById('confirm-password').value;
-    
+
     // Clear previous errors
     ['name-error', 'reg-email-error', 'reg-password-error', 'confirm-password-error'].forEach(id => {
         document.getElementById(id).textContent = '';
     });
-    
+
     // Validate
     let hasError = false;
-    
+
     if (name.length < 3) {
         document.getElementById('name-error').textContent = 'Name must be at least 3 characters';
         hasError = true;
     }
-    
+
     if (!utils.validateEmail(email)) {
         document.getElementById('reg-email-error').textContent = 'Please enter a valid email';
         hasError = true;
     }
-    
+
     if (!utils.validatePassword(password)) {
         document.getElementById('reg-password-error').textContent = 'Password must be at least 8 characters with uppercase, number, and special character';
         hasError = true;
     }
-    
+
     if (password !== confirmPassword) {
         document.getElementById('confirm-password-error').textContent = 'Passwords do not match';
         hasError = true;
     }
-    
+
     if (hasError) return;
-    
+
     showLoading('Creating account...');
-    
+
     const result = await authManager.register(name, email, password);
-    
+
     hideLoading();
-    
+
     if (result.success) {
         showToast('Account created! Please check your email to verify.', 'success');
         showVerificationNotice(email);
@@ -228,7 +228,7 @@ async function showVerifyEmailScreen(token) {
         router.navigate('login');
         return;
     }
-    
+
     const container = document.getElementById('auth-screens');
     container.innerHTML = `
         <div class="auth-container">
@@ -239,9 +239,9 @@ async function showVerifyEmailScreen(token) {
             </div>
         </div>
     `;
-    
+
     const result = await authManager.verifyEmail(token);
-    
+
     if (result.success) {
         container.innerHTML = `
             <div class="auth-container">
@@ -282,7 +282,7 @@ async function showResetPasswordScreen(token) {
         showRequestResetScreen();
         return;
     }
-    
+
     const container = document.getElementById('auth-screens');
     container.innerHTML = `
         <div class="auth-container">
@@ -362,19 +362,19 @@ router.register('request-reset', showRequestResetScreen);
 
 async function handleRequestReset(event) {
     event.preventDefault();
-    
+
     const email = document.getElementById('reset-email').value.trim();
     document.getElementById('reset-email-error').textContent = '';
-    
+
     if (!utils.validateEmail(email)) {
         document.getElementById('reset-email-error').textContent = 'Please enter a valid email';
         return;
     }
-    
+
     showLoading('Sending reset link...');
     const result = await authManager.requestPasswordReset(email);
     hideLoading();
-    
+
     if (result.success) {
         showToast('Reset link sent! Check your email.', 'success');
         showVerificationNotice(email);
@@ -385,27 +385,27 @@ async function handleRequestReset(event) {
 
 async function handleResetPassword(event, token) {
     event.preventDefault();
-    
+
     const newPassword = document.getElementById('new-password').value;
     const confirmPassword = document.getElementById('confirm-new-password').value;
-    
+
     document.getElementById('new-password-error').textContent = '';
     document.getElementById('confirm-new-password-error').textContent = '';
-    
+
     if (!utils.validatePassword(newPassword)) {
         document.getElementById('new-password-error').textContent = 'Password must be at least 8 characters with uppercase, number, and special character';
         return;
     }
-    
+
     if (newPassword !== confirmPassword) {
         document.getElementById('confirm-new-password-error').textContent = 'Passwords do not match';
         return;
     }
-    
+
     showLoading('Resetting password...');
     const result = await authManager.resetPassword(token, newPassword);
     hideLoading();
-    
+
     if (result.success) {
         showToast('Password reset successful!', 'success');
         router.navigate('login');
@@ -418,7 +418,7 @@ async function handleResetPassword(event, token) {
 function togglePassword(inputId) {
     const input = document.getElementById(inputId);
     const icon = input.nextElementSibling.querySelector('i');
-    
+
     if (input.type === 'password') {
         input.type = 'text';
         icon.classList.remove('fa-eye');

@@ -2,11 +2,11 @@
 
 async function showDashboard() {
     showLoading('Loading dashboard...');
-    
+
     try {
         const user = authManager.getUser();
         const stats = await api.getDashboardStats();
-        
+
         const content = `
             <div class="dashboard">
                 <h1 style="margin-bottom: 24px;">Welcome back, ${user.name.split(' ')[0]}! 👋</h1>
@@ -42,6 +42,9 @@ async function showDashboard() {
                         </button>
                         <button class="btn btn-primary" onclick="router.navigate('cbt')">
                             <i class="fas fa-laptop"></i> Start CBT
+                        </button>
+                        <button class="btn btn-primary" onclick="showAnalyticsDashboard()">
+                            <i class="fas fa-chart-line"></i> View Analytics
                         </button>
                     </div>
                 </div>
@@ -140,11 +143,11 @@ async function showDashboard() {
                 ` : ''}
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();

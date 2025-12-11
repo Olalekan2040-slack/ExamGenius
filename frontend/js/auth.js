@@ -66,10 +66,10 @@ class AuthManager {
     async login(email, password) {
         try {
             const response = await api.login(email, password);
-            
+
             this.setTokens(response.access_token, response.refresh_token);
             this.setUser(response.user);
-            
+
             return { success: true, user: response.user };
         } catch (error) {
             return { success: false, error: error.message };

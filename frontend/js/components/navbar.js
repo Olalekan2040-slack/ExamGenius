@@ -49,7 +49,7 @@ function createNavbar(user) {
 
 function createTopBar(user) {
     const initials = utils.getUserInitials(user.name);
-    
+
     return `
         <div class="top-bar">
             <button class="mobile-menu-toggle" onclick="utils.toggleMobileMenu()">

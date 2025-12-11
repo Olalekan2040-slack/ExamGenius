@@ -14,25 +14,25 @@ class APIService {
     // Helper to get auth headers
     getHeaders(includeAuth = false, contentType = 'application/json') {
         const headers = {};
-        
+
         if (contentType) {
             headers['Content-Type'] = contentType;
         }
-        
+
         if (includeAuth) {
             const token = authManager.getAccessToken();
             if (token) {
                 headers['Authorization'] = `Bearer ${token}`;
             }
         }
-        
+
         return headers;
     }
 
     // Generic request handler
     async request(endpoint, options = {}) {
         const { method = 'GET', body, requireAuth = false, isFormData = false } = options;
-        
+
         const config = {
             method,
             headers: this.getHeaders(requireAuth, isFormData ? null : 'application/json'),
@@ -44,7 +44,7 @@ class APIService {
 
         try {
             const response = await fetch(this.getURL(endpoint), config);
-            
+
             // Handle 401 - try to refresh token
             if (response.status === 401 && requireAuth) {
                 const refreshed = await authManager.refreshToken();
@@ -59,7 +59,7 @@ class APIService {
                     throw new Error('Session expired. Please login again.');
                 }
             }
-            
+
             return this.handleResponse(response);
         } catch (error) {
             console.error('API Request Error:', error);
@@ -87,12 +87,12 @@ class APIService {
 
             throw new Error(normalized);
         }
-        
+
         return data;
     }
 
     // ===== AUTH ENDPOINTS =====
-    
+
     async register(name, email, password) {
         return this.request('/auth/register', {
             method: 'POST',
@@ -144,7 +144,7 @@ class APIService {
     }
 
     // ===== USER ENDPOINTS =====
-    
+
     async getCurrentUser() {
         return this.request('/users/me', { requireAuth: true });
     }
@@ -160,7 +160,7 @@ class APIService {
     async uploadAvatar(file) {
         const formData = new FormData();
         formData.append('file', file);
-        
+
         return this.request('/users/avatar', {
             method: 'POST',
             body: formData,
@@ -170,7 +170,7 @@ class APIService {
     }
 
     // ===== JAMB ENDPOINTS (Public) =====
-    
+
     async getSubjects() {
         return this.request('/jamb/subjects');
     }
@@ -191,7 +191,7 @@ class APIService {
     }
 
     // ===== LEARN ENDPOINTS =====
-    
+
     async getTopicsWithStats(subject) {
         return this.request(`/learn/topics/${encodeURIComponent(subject)}`, {
             requireAuth: true
@@ -221,7 +221,7 @@ class APIService {
     }
 
     // ===== YEAR PRACTICE ENDPOINTS =====
-    
+
     async getYearPracticeInfo() {
         return this.request('/year-practice/info');
     }
@@ -242,7 +242,7 @@ class APIService {
     }
 
     // ===== CBT ENDPOINTS =====
-    
+
     async createCBTSession(subjects) {
         return this.request('/cbt/create', {
             method: 'POST',
@@ -282,7 +282,7 @@ class APIService {
     }
 
     // ===== DASHBOARD ENDPOINTS =====
-    
+
     async getDashboardStats() {
         return this.request('/dashboard/stats', {
             requireAuth: true
@@ -313,8 +313,14 @@ class APIService {
         });
     }
 
+    async getLearningAnalytics() {
+        return this.request('/learn/analytics', {
+            requireAuth: true
+        });
+    }
+
     // ===== AI TUTOR ENDPOINTS =====
-    
+
     async askAITutor(subject, topic, question, lesson, chatHistory) {
         return this.request('/learn/ask-tutor', {
             method: 'POST',
@@ -330,7 +336,7 @@ class APIService {
     }
 
     // ===== PROFILE ENDPOINTS =====
-    
+
     async completeProfile(fullName, phoneNumber, classLevel, subjects) {
         return this.request('/api/profile/complete', {
             method: 'POST',

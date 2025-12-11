@@ -11,6 +11,7 @@ import random
 from app.db.database import get_connection
 from app.core.security import current_user_id
 from app.services.ai.gemini_service import generate_question_explanation
+from app.services.analytics import AnalyticsService
 
 router = APIRouter(prefix="/year-practice", tags=["Year Practice"])
 
@@ -270,6 +271,13 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
         overall_accuracy = (correct_count / total_count *
                             100) if total_count > 0 else 0
 
+        # Get analytics for year practice
+        attempt_results = [{"question_id": r["question_id"], "is_correct": r["is_correct"]} for r in results]
+        topic_analysis = AnalyticsService.calculate_topic_analysis(
+            user_id, request.subject, f"Year {request.year}", attempt_results
+        )
+        overall_sw = AnalyticsService.identify_strengths_weaknesses(user_id, request.subject)
+
         return {
             "success": True,
             "subject": request.subject,
@@ -277,6 +285,15 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
             "total_questions": total_count,
             "correct_answers": correct_count,
             "accuracy": round(overall_accuracy, 2),
+            "performance_level": _get_performance_level(round(overall_accuracy, 2)),
+            "summary": {
+                "score": round(overall_accuracy, 2),
+                "correct": correct_count,
+                "incorrect": total_count - correct_count,
+                "total": total_count
+            },
+            "topic_analysis": topic_analysis,
+            "strengths_weaknesses": overall_sw,
             "by_topic": {
                 topic: {
                     "correct": stats["correct"],
@@ -294,3 +311,17 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
             status_code=500,
             detail=f"Submission failed: {str(e)}"
         )
+
+
+def _get_performance_level(accuracy: float) -> str:
+    """Determine performance level based on accuracy"""
+    if accuracy >= 90:
+        return "excellent"
+    elif accuracy >= 75:
+        return "good"
+    elif accuracy >= 60:
+        return "fair"
+    elif accuracy >= 40:
+        return "poor"
+    else:
+        return "needs_improvement"

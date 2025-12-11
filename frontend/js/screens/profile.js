@@ -2,11 +2,11 @@
 
 async function showProfileScreen() {
     showLoading('Loading profile...');
-    
+
     try {
         const user = authManager.getUser();
         const profileData = await api.getCurrentUser();
-        
+
         const content = `
             <div class="profile-screen">
                 <h1><i class="fas fa-user"></i> My Profile</h1>
@@ -69,11 +69,11 @@ async function showProfileScreen() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -83,7 +83,7 @@ async function showProfileScreen() {
 
 async function showEditProfile() {
     const user = authManager.getUser();
-    
+
     const modalHTML = `
         <div class="modal-overlay" onclick="closeModal(event)">
             <div class="modal" onclick="event.stopPropagation()">
@@ -113,30 +113,30 @@ async function showEditProfile() {
             </div>
         </div>
     `;
-    
+
     document.body.insertAdjacentHTML('beforeend', modalHTML);
 }
 
 async function handleUpdateProfile(event) {
     event.preventDefault();
-    
+
     const name = document.getElementById('edit-name').value.trim();
-    
+
     if (name.length < 3) {
         showToast('Name must be at least 3 characters', 'warning');
         return;
     }
-    
+
     showLoading('Updating profile...');
-    
+
     try {
         const result = await api.updateProfile(name);
-        
+
         // Update stored user data
         const user = authManager.getUser();
         user.name = result.profile.name;
         authManager.setUser(user);
-        
+
         closeModal();
         hideLoading();
         showToast('Profile updated successfully!', 'success');
@@ -168,7 +168,7 @@ function showChangePassword() {
             </div>
         </div>
     `;
-    
+
     document.body.insertAdjacentHTML('beforeend', modalHTML);
 }
 
@@ -176,7 +176,7 @@ function closeModal(event) {
     if (event && event.target.className !== 'modal-overlay' && event.target.className !== 'close-modal') {
         return;
     }
-    
+
     const modal = document.querySelector('.modal-overlay');
     if (modal) {
         modal.remove();

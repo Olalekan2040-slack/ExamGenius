@@ -24,11 +24,11 @@ async function showCBTScreen(params = {}) {
 
 async function showCBTSelect() {
     showLoading('Loading...');
-    
+
     try {
         const user = authManager.getUser();
         const subjects = await api.getSubjects();
-        
+
         const content = `
             <div class="cbt-screen">
                 <h1><i class="fas fa-laptop"></i> Full CBT Simulation</h1>
@@ -71,11 +71,11 @@ async function showCBTSelect() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         // Add style for checked checkboxes
         const style = document.createElement('style');
         style.textContent = `
@@ -85,7 +85,7 @@ async function showCBTSelect() {
             }
         `;
         document.head.appendChild(style);
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();
@@ -98,7 +98,7 @@ function updateCBTSubjectCount() {
     const count = checked.length;
     const countDiv = document.getElementById('subject-count');
     const startBtn = document.getElementById('start-cbt-btn');
-    
+
     countDiv.textContent = `${count} of 4 subjects selected`;
     countDiv.style.color = count === 4 ? 'var(--success)' : 'var(--text-primary)';
     startBtn.disabled = count !== 4;
@@ -107,20 +107,20 @@ function updateCBTSubjectCount() {
 async function startCBTExam() {
     const checked = Array.from(document.querySelectorAll('input[name="cbt-subject"]:checked'));
     const selectedSubjects = checked.map(cb => cb.value);
-    
+
     if (selectedSubjects.length !== 4) {
         showToast('Please select exactly 4 subjects', 'warning');
         return;
     }
-    
+
     const confirmed = confirm('Ready to start CBT exam? Timer will begin immediately.');
     if (!confirmed) return;
-    
+
     showLoading('Creating exam session...');
-    
+
     try {
         const data = await api.createCBTSession(selectedSubjects);
-        
+
         cbtState.sessionId = data.session_id;
         cbtState.subjects = data.subjects;
         cbtState.currentSubjectIndex = 0;
@@ -128,12 +128,12 @@ async function startCBTExam() {
         cbtState.answers = {};
         cbtState.startTime = Date.now();
         cbtState.timeLimit = data.time_limit_minutes * 60;
-        
+
         // Fetch the questions for this session
         showLoading('Loading questions...');
         const questionsData = await api.getCBTQuestions(data.session_id);
         cbtState.questions = questionsData.questions || [];
-        
+
         await showCBTExam();
         startCBTTimer();
         hideLoading();
@@ -147,18 +147,18 @@ function startCBTTimer() {
     if (cbtState.timerInterval) {
         clearInterval(cbtState.timerInterval);
     }
-    
+
     cbtState.timerInterval = setInterval(() => {
         const elapsed = Math.floor((Date.now() - cbtState.startTime) / 1000);
         const remaining = cbtState.timeLimit - elapsed;
-        
+
         if (remaining <= 0) {
             clearInterval(cbtState.timerInterval);
             showToast('Time is up! Auto-submitting exam...', 'warning');
             setTimeout(() => submitCBTExam(), 2000);
             return;
         }
-        
+
         updateCBTTimerDisplay(remaining);
     }, 1000);
 }
@@ -166,9 +166,9 @@ function startCBTTimer() {
 function updateCBTTimerDisplay(remaining) {
     const timerEl = document.getElementById('cbt-timer');
     if (!timerEl) return;
-    
+
     timerEl.textContent = utils.formatTime(remaining);
-    
+
     if (remaining < 300) { // Last 5 minutes
         timerEl.classList.add('warning');
     }
@@ -176,11 +176,11 @@ function updateCBTTimerDisplay(remaining) {
 
 async function showCBTExam() {
     const user = authManager.getUser();
-    const currentQuestions = cbtState.questions.filter((q, idx) => 
+    const currentQuestions = cbtState.questions.filter((q, idx) =>
         Math.floor(idx / 40) === cbtState.currentSubjectIndex
     );
     const question = currentQuestions[cbtState.currentQuestionIndex];
-    
+
     const content = `
         <div class="cbt-exam-screen">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
@@ -245,11 +245,11 @@ async function showCBTExam() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
-    
+
     updateCBTTimerDisplay(cbtState.timeLimit - Math.floor((Date.now() - cbtState.startTime) / 1000));
 }
 
@@ -272,7 +272,7 @@ function navigateCBTQuestion(direction) {
 function confirmSubmitCBT() {
     const answeredCount = Object.keys(cbtState.answers).length;
     const totalCount = 160;
-    
+
     const confirmed = confirm(`You've answered ${answeredCount}/160 questions. Submit exam now?`);
     if (confirmed) {
         submitCBTExam();
@@ -283,17 +283,17 @@ async function submitCBTExam() {
     if (cbtState.timerInterval) {
         clearInterval(cbtState.timerInterval);
     }
-    
+
     showLoading('Submitting exam...');
-    
+
     try {
         const answers = cbtState.questions.map(q => ({
             question_id: q.question_id,
             user_answer: cbtState.answers[q.question_id] || null
         }));
-        
+
         const result = await api.submitCBT(cbtState.sessionId, answers);
-        
+
         await showCBTResults(result);
         hideLoading();
     } catch (error) {
@@ -304,7 +304,7 @@ async function submitCBTExam() {
 
 async function showCBTResults(result) {
     const user = authManager.getUser();
-    
+
     const content = `
         <div class="results-screen">
             <div class="text-center mb-3">
@@ -353,7 +353,7 @@ async function showCBTResults(result) {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
@@ -361,11 +361,11 @@ async function showCBTResults(result) {
 
 async function showCBTReview(sessionId) {
     showLoading('Loading review...');
-    
+
     try {
         const user = authManager.getUser();
         const data = await api.reviewCBT(sessionId);
-        
+
         const content = `
             <div class="results-screen">
                 <h1><i class="fas fa-eye"></i> CBT Review - ${data.score}/${data.total} (${data.accuracy.toFixed(1)}%)</h1>
@@ -401,11 +401,11 @@ async function showCBTReview(sessionId) {
                 </button>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
-        
+
         hideLoading();
     } catch (error) {
         hideLoading();

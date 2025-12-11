@@ -23,12 +23,12 @@ if not OPENROUTER_API_KEY:
 def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000) -> str:
     """
     Make a request to DeepSeek V3.2 via OpenRouter
-    
+
     Args:
         messages: List of message dicts with role and content
         temperature: Model temperature (0-2)
         max_tokens: Maximum tokens to generate
-    
+
     Returns:
         Model response text
     """
@@ -36,7 +36,7 @@ def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_to
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
     }
-    
+
     payload = {
         "model": "deepseek/deepseek-v3.2",
         "messages": messages,
@@ -44,7 +44,7 @@ def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_to
         "max_tokens": max_tokens,
         "reasoning": {"enabled": True}  # Enable reasoning for better quality
     }
-    
+
     try:
         response = requests.post(
             f"{OPENROUTER_BASE_URL}/chat/completions",
@@ -53,13 +53,13 @@ def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_to
             timeout=30
         )
         response.raise_for_status()
-        
+
         result = response.json()
         message = result['choices'][0]['message']
-        
+
         # Return just the content, reasoning is handled internally
         return message.get('content', '')
-        
+
     except requests.exceptions.RequestException as e:
         raise Exception(f"OpenRouter API error: {str(e)}")
     except (KeyError, IndexError, ValueError) as e:
@@ -107,13 +107,14 @@ Return ONLY the JSON, no markdown formatting."""
         response_text = make_deepseek_request([
             {"role": "user", "content": prompt}
         ])
-        
+
         lesson_text = response_text.strip()
 
         # Try to parse as JSON
         # Remove markdown code blocks if present
         if lesson_text.startswith("```json"):
-            lesson_text = lesson_text.replace("```json", "").replace("```", "").strip()
+            lesson_text = lesson_text.replace(
+                "```json", "").replace("```", "").strip()
         elif lesson_text.startswith("```"):
             lesson_text = lesson_text.replace("```", "").strip()
 
@@ -204,19 +205,21 @@ Return ONLY valid JSON in this EXACT format (no markdown, no code blocks):
         response_text = make_deepseek_request([
             {"role": "user", "content": prompt}
         ])
-        
+
         question_text = response_text.strip()
 
         # Clean up response
         if question_text.startswith("```json"):
-            question_text = question_text.replace("```json", "").replace("```", "").strip()
+            question_text = question_text.replace(
+                "```json", "").replace("```", "").strip()
         elif question_text.startswith("```"):
             question_text = question_text.replace("```", "").strip()
 
         question_data = json.loads(question_text)
 
         # Validate required fields
-        required_fields = ["question_text", "option_a", "option_b", "option_c", "option_d", "correct_option"]
+        required_fields = ["question_text", "option_a",
+                           "option_b", "option_c", "option_d", "correct_option"]
         for field in required_fields:
             if field not in question_data:
                 raise ValueError(f"Missing required field: {field}")
@@ -320,11 +323,12 @@ Return ONLY the JSON."""
         response_text = make_deepseek_request([
             {"role": "user", "content": prompt}
         ])
-        
+
         rec_text = response_text.strip()
 
         if rec_text.startswith("```json"):
-            rec_text = rec_text.replace("```json", "").replace("```", "").strip()
+            rec_text = rec_text.replace(
+                "```json", "").replace("```", "").strip()
         elif rec_text.startswith("```"):
             rec_text = rec_text.replace("```", "").strip()
 
@@ -384,18 +388,18 @@ def batch_generate_ai_questions(subject: str, topic: str, sample_questions: List
 def ask_ai_tutor(subject: str, topic: str, question: str, lesson_context: Optional[Dict] = None, chat_history: Optional[List[Dict]] = None) -> str:
     """
     Interactive AI tutor that answers student questions about a topic
-    
+
     Args:
         subject: Subject name
         topic: Topic name
         question: Student's question
         lesson_context: The lesson content for context
         chat_history: Previous conversation messages
-    
+
     Returns:
         AI tutor's response
     """
-    
+
     # Build context string from lesson
     lesson_info = ""
     if lesson_context:
@@ -406,10 +410,10 @@ Here's the lesson content for reference:
 - Steps: {lesson_context.get('steps', 'N/A')}
 - Quick Tip: {lesson_context.get('quick_tip', 'N/A')}
 """
-    
+
     # Build messages including chat history
     messages = []
-    
+
     # System message
     messages.append({
         "role": "user",
@@ -427,22 +431,23 @@ Your role is to:
 
 The student is now asking you a question. Answer it helpfully and in the context of {subject} - {topic}."""
     })
-    
+
     # Add previous messages if any
     if chat_history:
         for msg in chat_history:
             messages.append(msg)
-    
+
     # Add current question
     messages.append({
         "role": "user",
         "content": question
     })
-    
+
     try:
-        response = make_deepseek_request(messages, temperature=0.7, max_tokens=1500)
+        response = make_deepseek_request(
+            messages, temperature=0.7, max_tokens=1500)
         return response
-    
+
     except Exception as e:
         print(f"AI Tutor error: {e}")
         return f"I apologize, I'm having trouble responding. Please try again. Error: {str(e)}"
