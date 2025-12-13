@@ -534,14 +534,7 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
             WHERE id = ?
         """, (int(correct_count), len(request.answers), datetime.utcnow().isoformat(), session_id))
 
-        # Update streak
-        today = datetime.utcnow().date().isoformat()
-        cursor.execute("""
-            UPDATE user_streaks
-            SET last_activity_date = ?,
-                total_active_days = total_active_days + 1
-            WHERE user_id = ?
-        """, (today, user_id))
+        AnalyticsService.update_user_streak(cursor, user_id)
 
         conn.commit()
 

@@ -1,0 +1,495 @@
+"""
+Admin Content Management API Endpoints
+Handles question management, learning materials, and content verification
+"""
+from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, Query
+from typing import Optional
+import sqlite3
+import json
+import csv
+import io
+from datetime import datetime
+
+from app.core.security import current_user_id
+from app.schemas.admin import (
+    QuestionCreate, QuestionUpdate, QuestionResponse,
+    LearningVideoCreate, LearningNoteCreate,
+    ContentSubjectCreate, ContentTopicCreate,
+    BulkUploadResponse
+)
+from app.db.database import get_db
+
+router = APIRouter(prefix="/api/v1/admin", tags=["admin"])
+
+# Helper: Check admin role using DB + current user id
+def require_admin(
+    db: sqlite3.Connection = Depends(get_db),
+    user_id: int = Depends(current_user_id)
+):
+    cur = db.cursor()
+    cur.execute("SELECT id, role FROM users WHERE id = ?", (user_id,))
+    row = cur.fetchone()
+    if not row:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="User not found")
+    role = row[1]
+    if role not in ("admin", "moderator"):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Admin access required"
+        )
+    return {"id": row[0], "role": role}
+
+# ============================================================================
+# CONTENT HIERARCHY MANAGEMENT
+# ============================================================================
+
+@router.post("/subjects", response_model=dict, status_code=201)
+async def create_subject(
+    subject: ContentSubjectCreate,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Create a new subject category"""
+    query = """
+        INSERT INTO content_subjects (name, icon, description, order_priority)
+        VALUES (?, ?, ?, ?)
+    """
+    try:
+        cursor = db.execute(query, (
+            subject.name, subject.icon, subject.description, subject.order_priority
+        ))
+        db.commit()
+        return {
+            "id": cursor.lastrowid,
+            "name": subject.name,
+            "message": "Subject created successfully"
+        }
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.get("/subjects")
+async def list_subjects(db: sqlite3.Connection = Depends(get_db)):
+    """List all subjects"""
+    query = """
+        SELECT id, name, icon, description, order_priority, is_active
+        FROM content_subjects
+        WHERE is_active = 1
+        ORDER BY order_priority
+    """
+    subjects = db.execute(query).fetchall()
+    return [
+        {
+            "id": s[0], "name": s[1], "icon": s[2],
+            "description": s[3], "order_priority": s[4]
+        }
+        for s in subjects
+    ]
+
+@router.post("/topics", response_model=dict, status_code=201)
+async def create_topic(
+    topic: ContentTopicCreate,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Create a new topic under a subject"""
+    query = """
+        INSERT INTO content_topics (subject_id, name, description, order_priority)
+        VALUES (?, ?, ?, ?)
+    """
+    try:
+        cursor = db.execute(query, (
+            topic.subject_id, topic.name, topic.description, topic.order_priority
+        ))
+        db.commit()
+        return {
+            "id": cursor.lastrowid,
+            "name": topic.name,
+            "message": "Topic created successfully"
+        }
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+# ============================================================================
+# PAST QUESTIONS MANAGEMENT
+# ============================================================================
+
+@router.post("/questions", response_model=dict, status_code=201)
+async def create_question(
+    question: QuestionCreate,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Create a single past question with options"""
+    try:
+        # Insert question
+        q_query = """
+            INSERT INTO past_questions 
+            (question_text, subject_id, topic_id, subtopic_id, year, 
+             exam_type, difficulty, explanation, created_by)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """
+        cursor = db.execute(q_query, (
+            question.question_text,
+            question.subject_id,
+            question.topic_id,
+            question.subtopic_id,
+            question.year,
+            question.exam_type or "JAMB",
+            question.difficulty,
+            question.explanation,
+            admin["id"]
+        ))
+        question_id = cursor.lastrowid
+        
+        # Insert options
+        opt_query = """
+            INSERT INTO question_options (question_id, option_key, option_text, is_correct)
+            VALUES (?, ?, ?, ?)
+        """
+        for key, text in question.options.items():
+            is_correct = 1 if key == question.correct_answer else 0
+            db.execute(opt_query, (question_id, key, text, is_correct))
+        
+        db.commit()
+        return {
+            "id": question_id,
+            "message": "Question created successfully"
+        }
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.get("/questions/{question_id}", response_model=dict)
+async def get_question(
+    question_id: int,
+    db: sqlite3.Connection = Depends(get_db)
+):
+    """Get a specific question with all options"""
+    q_query = """
+        SELECT id, question_text, subject_id, topic_id, subtopic_id, 
+               year, exam_type, difficulty, explanation, is_verified
+        FROM past_questions WHERE id = ?
+    """
+    question = db.execute(q_query, (question_id,)).fetchone()
+    
+    if not question:
+        raise HTTPException(status_code=404, detail="Question not found")
+    
+    opt_query = "SELECT option_key, option_text, is_correct FROM question_options WHERE question_id = ?"
+    options = db.execute(opt_query, (question_id,)).fetchall()
+    
+    correct_answer = next((o[0] for o in options if o[2]), None)
+    
+    return {
+        "id": question[0],
+        "question_text": question[1],
+        "subject_id": question[2],
+        "topic_id": question[3],
+        "subtopic_id": question[4],
+        "year": question[5],
+        "exam_type": question[6],
+        "difficulty": question[7],
+        "explanation": question[8],
+        "is_verified": question[9],
+        "options": {o[0]: o[1] for o in options},
+        "correct_answer": correct_answer
+    }
+
+@router.put("/questions/{question_id}", response_model=dict)
+async def update_question(
+    question_id: int,
+    question: QuestionUpdate,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Update an existing question"""
+    try:
+        # Update question
+        q_query = """
+            UPDATE past_questions
+            SET question_text=?, difficulty=?, explanation=?, updated_by=?, updated_at=CURRENT_TIMESTAMP
+            WHERE id = ?
+        """
+        db.execute(q_query, (
+            question.question_text,
+            question.difficulty,
+            question.explanation,
+            admin["id"],
+            question_id
+        ))
+        
+        # Update options if provided
+        if question.options:
+            db.execute("DELETE FROM question_options WHERE question_id = ?", (question_id,))
+            opt_query = """
+                INSERT INTO question_options (question_id, option_key, option_text, is_correct)
+                VALUES (?, ?, ?, ?)
+            """
+            for key, text in question.options.items():
+                is_correct = 1 if key == question.correct_answer else 0
+                db.execute(opt_query, (question_id, key, text, is_correct))
+        
+        db.commit()
+        return {"message": "Question updated successfully"}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.post("/questions/bulk-upload", response_model=dict)
+async def bulk_upload_questions(
+    file: UploadFile = File(...),
+    subject_id: int = Query(...),
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Bulk upload questions via CSV file"""
+    try:
+        # Create bulk upload record
+        upload_query = """
+            INSERT INTO bulk_uploads (uploaded_by, content_type, file_name, status)
+            VALUES (?, ?, ?, ?)
+        """
+        cursor = db.execute(upload_query, (admin["id"], 'questions', file.filename, 'processing'))
+        upload_id = cursor.lastrowid
+        
+        # Parse CSV
+        content = await file.read()
+        stream = io.StringIO(content.decode('utf-8'))
+        reader = csv.DictReader(stream)
+        
+        successful = 0
+        failed = 0
+        errors = []
+        
+        for idx, row in enumerate(reader, 1):
+            try:
+                # Insert question
+                q_query = """
+                    INSERT INTO past_questions 
+                    (question_text, subject_id, topic_id, year, difficulty, explanation, created_by)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                """
+                q_cursor = db.execute(q_query, (
+                    row.get('question'),
+                    subject_id,
+                    row.get('topic_id'),
+                    int(row.get('year', 0)),
+                    row.get('difficulty', 'medium'),
+                    row.get('explanation', ''),
+                    admin["id"]
+                ))
+                question_id = q_cursor.lastrowid
+                
+                # Insert options (A, B, C, D)
+                for opt_key in ['A', 'B', 'C', 'D']:
+                    opt_text = row.get(f'option_{opt_key}')
+                    if opt_text:
+                        is_correct = 1 if opt_key == row.get('correct_answer') else 0
+                        opt_query = """
+                            INSERT INTO question_options (question_id, option_key, option_text, is_correct)
+                            VALUES (?, ?, ?, ?)
+                        """
+                        db.execute(opt_query, (question_id, opt_key, opt_text, is_correct))
+                
+                successful += 1
+            except Exception as e:
+                failed += 1
+                errors.append(f"Row {idx}: {str(e)}")
+        
+        # Update bulk upload record
+        db.execute("""
+            UPDATE bulk_uploads
+            SET status='completed', successful_records=?, failed_records=?, error_log=?, completed_at=CURRENT_TIMESTAMP
+            WHERE id=?
+        """, (successful, failed, json.dumps(errors[:10]), upload_id))
+        
+        db.commit()
+        
+        return {
+            "upload_id": upload_id,
+            "total_records": idx,
+            "successful": successful,
+            "failed": failed,
+            "message": f"Uploaded {successful} questions successfully"
+        }
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+# ============================================================================
+# LEARNING MATERIALS MANAGEMENT
+# ============================================================================
+
+@router.post("/videos", response_model=dict, status_code=201)
+async def create_video(
+    video: LearningVideoCreate,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Create a learning video"""
+    query = """
+        INSERT INTO learning_videos 
+        (subject_id, topic_id, subtopic_id, title, description, url, platform, duration_seconds, created_by)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """
+    try:
+        cursor = db.execute(query, (
+            video.subject_id,
+            video.topic_id,
+            video.subtopic_id,
+            video.title,
+            video.description,
+            video.url,
+            video.platform,
+            video.duration_seconds,
+            admin["id"]
+        ))
+        db.commit()
+        return {
+            "id": cursor.lastrowid,
+            "title": video.title,
+            "message": "Video created successfully"
+        }
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+@router.post("/notes", response_model=dict, status_code=201)
+async def create_note(
+    note: LearningNoteCreate,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Create learning notes"""
+    query = """
+        INSERT INTO learning_notes 
+        (subject_id, topic_id, subtopic_id, title, content, format, created_by)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+    """
+    try:
+        cursor = db.execute(query, (
+            note.subject_id,
+            note.topic_id,
+            note.subtopic_id,
+            note.title,
+            note.content,
+            note.format,
+            admin["id"]
+        ))
+        db.commit()
+        return {
+            "id": cursor.lastrowid,
+            "title": note.title,
+            "message": "Note created successfully"
+        }
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+# ============================================================================
+# CONTENT VERIFICATION / APPROVAL
+# ============================================================================
+
+@router.get("/pending-verification")
+async def get_pending_content(
+    content_type: str = Query(..., description="questions, videos, notes"),
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Get unverified content pending admin approval"""
+    if content_type == "questions":
+        query = """
+            SELECT id, question_text, year, difficulty, is_verified
+            FROM past_questions
+            WHERE is_verified = 0
+            LIMIT 20
+        """
+        results = db.execute(query).fetchall()
+        return [
+            {
+                "id": r[0],
+                "text": r[1],
+                "year": r[2],
+                "difficulty": r[3],
+                "verified": r[4] == 1
+            }
+            for r in results
+        ]
+    return []
+
+@router.post("/verify/{content_type}/{content_id}", response_model=dict)
+async def verify_content(
+    content_type: str,
+    content_id: int,
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Mark content as verified by admin"""
+    try:
+        if content_type == "questions":
+            db.execute("""
+                UPDATE past_questions
+                SET is_verified = 1, verified_by = ?
+                WHERE id = ?
+            """, (admin["id"], content_id))
+        elif content_type == "videos":
+            db.execute("""
+                UPDATE learning_videos
+                SET is_verified = 1, verified_by = ?
+                WHERE id = ?
+            """, (admin["id"], content_id))
+        elif content_type == "notes":
+            db.execute("""
+                UPDATE learning_notes
+                SET is_verified = 1, verified_by = ?
+                WHERE id = ?
+            """, (admin["id"], content_id))
+        
+        db.commit()
+        return {"message": f"{content_type} verified successfully"}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+# ============================================================================
+# STATISTICS & INSIGHTS
+# ============================================================================
+
+@router.get("/stats/content")
+async def get_content_stats(
+    db: sqlite3.Connection = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Get content statistics for dashboard"""
+    stats = {}
+    
+    stats['total_questions'] = db.execute(
+        "SELECT COUNT(*) FROM past_questions"
+    ).fetchone()[0]
+    
+    stats['verified_questions'] = db.execute(
+        "SELECT COUNT(*) FROM past_questions WHERE is_verified = 1"
+    ).fetchone()[0]
+    
+    stats['total_videos'] = db.execute(
+        "SELECT COUNT(*) FROM learning_videos"
+    ).fetchone()[0]
+    
+    stats['total_notes'] = db.execute(
+        "SELECT COUNT(*) FROM learning_notes"
+    ).fetchone()[0]
+    
+    stats['by_subject'] = {}
+    subjects = db.execute("""
+        SELECT cs.name, COUNT(pq.id)
+        FROM content_subjects cs
+        LEFT JOIN past_questions pq ON cs.id = pq.subject_id
+        GROUP BY cs.id
+    """).fetchall()
+    
+    for subject_name, count in subjects:
+        stats['by_subject'][subject_name] = count
+    
+    return stats

@@ -4,7 +4,7 @@ Professional analysis module for calculating performance metrics, strengths, wea
 """
 
 from typing import Dict, List, Tuple, Optional
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 import sqlite3
 from collections import defaultdict
 from app.db.database import get_connection
@@ -213,6 +213,10 @@ class AnalyticsService:
         conn = get_connection()
         cursor = conn.cursor()
 
+        # Ensure streak row exists to prevent null math later
+        AnalyticsService._ensure_streak_row(cursor, user_id)
+        conn.commit()
+
         # Overall stats
         cursor.execute("""
             SELECT 
@@ -283,21 +287,27 @@ class AnalyticsService:
             })
 
         # Time series (last 7 days)
-        seven_days_ago = (datetime.utcnow() - timedelta(days=7)).isoformat()
+        start_date = (datetime.utcnow().date() - timedelta(days=6)).isoformat()
+        end_date = datetime.utcnow().date().isoformat()
         cursor.execute("""
             SELECT DATE(created_at) as day, COUNT(*) as total, 
                    SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) as correct
             FROM practice_attempts
-            WHERE user_id = ? AND created_at > ?
+            WHERE user_id = ? AND DATE(created_at) BETWEEN ? AND ?
             GROUP BY DATE(created_at)
             ORDER BY day
-        """, (user_id, seven_days_ago))
+        """, (user_id, start_date, end_date))
 
+        day_map = {row[0]: {'total': row[1], 'correct': row[2]} for row in cursor.fetchall()}
         daily_stats = []
-        for row in cursor.fetchall():
-            day, total, correct = row
+        for offset in range(7):
+            day_obj = datetime.utcnow().date() - timedelta(days=6 - offset)
+            day_key = day_obj.isoformat()
+            totals = day_map.get(day_key, {'total': 0, 'correct': 0})
+            total = totals['total'] or 0
+            correct = totals['correct'] or 0
             daily_stats.append({
-                'date': day,
+                'date': day_key,
                 'total': total,
                 'correct': correct,
                 'accuracy': round((correct / total * 100), 2) if total > 0 else 0
@@ -319,6 +329,56 @@ class AnalyticsService:
             'weekly_trend': daily_stats,
             'strengths_weaknesses': AnalyticsService.identify_strengths_weaknesses(user_id)
         }
+
+    @staticmethod
+    def update_user_streak(cursor, user_id: int, activity_date: Optional[date] = None) -> None:
+        """Update streak counters safely for a user."""
+        today = (activity_date or datetime.utcnow().date()).isoformat()
+        yesterday = (activity_date or datetime.utcnow().date()) - timedelta(days=1)
+        yesterday_iso = yesterday.isoformat()
+
+        cursor.execute("""
+            SELECT current_streak, longest_streak, last_activity_date, total_active_days
+            FROM user_streaks
+            WHERE user_id = ?
+        """, (user_id,))
+        row = cursor.fetchone()
+
+        if not row:
+            cursor.execute("""
+                INSERT INTO user_streaks (user_id, current_streak, longest_streak, last_activity_date, total_active_days)
+                VALUES (?, 1, 1, ?, 1)
+            """, (user_id, today))
+            return
+
+        current_streak, longest_streak, last_activity_date, total_active_days = row
+
+        if last_activity_date == today:
+            return
+
+        if last_activity_date == yesterday_iso:
+            current_streak = (current_streak or 0) + 1
+        else:
+            current_streak = 1
+
+        longest_streak = max(longest_streak or 0, current_streak)
+        total_active_days = (total_active_days or 0) + 1
+
+        cursor.execute("""
+            UPDATE user_streaks
+            SET current_streak = ?,
+                longest_streak = ?,
+                last_activity_date = ?,
+                total_active_days = ?
+            WHERE user_id = ?
+        """, (current_streak, longest_streak, today, total_active_days, user_id))
+
+    @staticmethod
+    def _ensure_streak_row(cursor, user_id: int) -> None:
+        cursor.execute("""
+            INSERT OR IGNORE INTO user_streaks (user_id, current_streak, longest_streak, last_activity_date, total_active_days)
+            VALUES (?, 0, 0, NULL, 0)
+        """, (user_id,))
 
     @staticmethod
     def _generate_summary(strengths: List[Dict], weaknesses: List[Dict], avg_accuracy: float) -> str:

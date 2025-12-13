@@ -16,8 +16,18 @@ router = APIRouter(prefix="/dashboard", tags=["Dashboard"])
 @router.get("/stats")
 async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
     """
-    Get comprehensive dashboard statistics
-    Includes: streak, overall accuracy, weakest topics, recent attempts
+    Get comprehensive dashboard statistics with personalized recommendations
+    
+    Returns:
+    - Overall stats: total attempts, accuracy, active days
+    - Streak data: current, longest, last activity
+    - User profile: department (Science/Commercial/Art), registered subjects
+    - Weakest topics: topics with lowest accuracy
+    - Recommended topics: personalized topics based on:
+        1. User's chosen department
+        2. Registered subjects
+        3. Performance (weakest areas get recommended first)
+    - Recent attempts and CBT history
     """
     conn = get_connection()
     cursor = conn.cursor()
@@ -50,6 +60,19 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
         total_active_days = streak_row[2] if streak_row else 0
         last_activity = streak_row[3] if streak_row else None
 
+        # Get user's department and registered subjects
+        cursor.execute("""
+            SELECT department, user_subjects.subject
+            FROM user_profiles
+            LEFT JOIN user_subjects ON user_profiles.user_id = user_subjects.user_id
+            WHERE user_profiles.user_id = ?
+            ORDER BY user_subjects.position
+        """, (user_id,))
+
+        profile_rows = cursor.fetchall()
+        department = profile_rows[0][0] if profile_rows else None
+        registered_subjects = [row[1] for row in profile_rows if row[1]]
+
         # Get weakest topics (bottom 5)
         cursor.execute("""
             SELECT subject, topic, accuracy, total_attempts
@@ -68,6 +91,38 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             }
             for row in cursor.fetchall()
         ]
+
+        # Get recommended topics with fallback logic
+        # Try 1: Weakest topics from registered subjects
+        recommended_topics = [t for t in weakest_topics if t["subject"] in registered_subjects][:3]
+
+        # Try 2: If no registered subjects or no practice in registered subjects, use ANY weakest topics
+        if not recommended_topics and weakest_topics:
+            recommended_topics = weakest_topics[:3]
+
+        # Try 3: If no practice history at all, suggest starting topics
+        if not recommended_topics:
+            if registered_subjects:
+                placeholders = ','.join(['?'] * len(registered_subjects))
+                cursor.execute(f"""
+                    SELECT DISTINCT subject, topic
+                    FROM questions
+                    WHERE subject IN ({placeholders})
+                    LIMIT 3
+                """, registered_subjects)
+            else:
+                # No registered subjects - suggest from common JAMB subjects
+                cursor.execute("""
+                    SELECT DISTINCT subject, topic
+                    FROM questions
+                    WHERE subject IN ('English Language', 'Mathematics')
+                    LIMIT 3
+                """)
+            
+            recommended_topics = [
+                {"subject": row[0], "topic": row[1], "accuracy": None, "attempts": 0}
+                for row in cursor.fetchall()
+            ]
 
         # Get recent attempts (last 10)
         cursor.execute("""
@@ -117,7 +172,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             ORDER BY position
         """, (user_id,))
 
-        registered_subjects = [
+        registered_subjects_with_pos = [
             {"subject": row[0], "position": row[1]} for row in cursor.fetchall()]
 
         return {
@@ -132,10 +187,14 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 "longest_streak": longest_streak,
                 "last_activity": last_activity
             },
+            "profile": {
+                "department": department,
+                "registered_subjects": registered_subjects_with_pos
+            },
             "weakest_topics": weakest_topics,
+            "recommended_topics": recommended_topics,
             "recent_attempts": recent_attempts,
-            "cbt_history": cbt_history,
-            "registered_subjects": registered_subjects
+            "cbt_history": cbt_history
         }
 
     except Exception as e:
@@ -264,22 +323,38 @@ async def get_subject_breakdown(user_id: int = Depends(current_user_id)):
 @router.get("/recommendations")
 async def get_recommendations(user_id: int = Depends(current_user_id)):
     """
-    Get personalized study recommendations based on weakest topics
+    Get personalized study recommendations based on:
+    1. User's department choice
+    2. Weakest topics (lowest accuracy)
+    3. Recent performance patterns
     """
     conn = get_connection()
     cursor = conn.cursor()
 
     try:
-        # Get weakest topics
+        # Get user's department
+        cursor.execute("""
+            SELECT department, user_subjects.subject
+            FROM user_profiles
+            LEFT JOIN user_subjects ON user_profiles.user_id = user_subjects.user_id
+            WHERE user_profiles.user_id = ?
+            ORDER BY user_subjects.position
+        """, (user_id,))
+
+        rows = cursor.fetchall()
+        department = rows[0][0] if rows else None
+        registered_subjects = [row[1] for row in rows if row[1]]
+
+        # Get weakest topics (bottom 10)
         cursor.execute("""
             SELECT subject, topic, accuracy, total_attempts
             FROM user_stats
             WHERE user_id = ? AND accuracy IS NOT NULL
             ORDER BY accuracy ASC
-            LIMIT 5
+            LIMIT 10
         """, (user_id,))
 
-        weak_topics = [
+        all_weak_topics = [
             {
                 "subject": row[0],
                 "topic": row[1],
@@ -289,7 +364,30 @@ async def get_recommendations(user_id: int = Depends(current_user_id)):
             for row in cursor.fetchall()
         ]
 
-        # Get recent attempts for context
+        # Filter weak topics by registered subjects for focused recommendations
+        weak_topics_filtered = [
+            t for t in all_weak_topics if t["subject"] in registered_subjects
+        ][:5]
+
+        # If no practice history exists, recommend foundational topics
+        if not weak_topics_filtered:
+            # Get foundational topics from registered subjects
+            if registered_subjects:
+                placeholders = ','.join(['?'] * len(registered_subjects))
+                cursor.execute(f"""
+                    SELECT DISTINCT subject, topic
+                    FROM questions
+                    WHERE subject IN ({placeholders})
+                    LIMIT 10
+                """, registered_subjects)
+                
+                foundational = [
+                    {"subject": row[0], "topic": row[1], "accuracy": None, "attempts": 0}
+                    for row in cursor.fetchall()
+                ]
+                weak_topics_filtered = foundational[:5]
+
+        # Get recent attempt patterns
         cursor.execute("""
             SELECT subject, topic, is_correct, practice_type, created_at
             FROM practice_attempts
@@ -308,20 +406,61 @@ async def get_recommendations(user_id: int = Depends(current_user_id)):
             for row in cursor.fetchall()
         ]
 
-        # Generate AI recommendations
-        if weak_topics:
-            recommendations = generate_recommendations(weak_topics, recent)
-        else:
-            recommendations = {
-                "recommended_topics": ["Start with any topic from your registered subjects"],
-                "study_plan": "Begin with foundational topics and gradually increase difficulty",
-                "estimated_time": "2-3 hours per topic"
+        # Calculate improvement areas
+        improvement_areas = {}
+        for attempt in recent:
+            key = f"{attempt['subject']}:{attempt['topic']}"
+            if key not in improvement_areas:
+                improvement_areas[key] = {"correct": 0, "total": 0}
+            improvement_areas[key]["total"] += 1
+            if attempt["is_correct"]:
+                improvement_areas[key]["correct"] += 1
+
+        # Identify topics with <50% accuracy in recent practice
+        urgent_focus = [
+            {
+                "subject": k.split(":")[0],
+                "topic": k.split(":")[1],
+                "recent_accuracy": round(v["correct"] / v["total"] * 100, 2)
             }
+            for k, v in improvement_areas.items()
+            if v["total"] >= 3 and v["correct"] / v["total"] < 0.5
+        ][:3]
+
+        # Generate recommendation message
+        recommendation_msg = []
+        if department:
+            recommendation_msg.append(
+                f"Based on your {department} department choice, focus on topics critical for your stream."
+            )
+        
+        if weak_topics_filtered:
+            weak_subject_topics = [f"{t['subject']}: {t['topic']}" for t in weak_topics_filtered[:3]]
+            recommendation_msg.append(
+                f"Your weakest areas are {', '.join(weak_subject_topics)}. Start with these for maximum improvement."
+            )
+        
+        if urgent_focus:
+            urgent_topics = [f"{t['subject']}: {t['topic']}" for t in urgent_focus]
+            recommendation_msg.append(
+                f"⚠️ Urgent focus needed: {', '.join(urgent_topics)}"
+            )
+        
+        if not recommendation_msg:
+            recommendation_msg.append("Keep practicing consistently to track improvement!")
 
         return {
             "success": True,
-            "weakest_topics": weak_topics,
-            "recommendations": recommendations
+            "department": department,
+            "registered_subjects": registered_subjects,
+            "weakest_topics": weak_topics_filtered,
+            "urgent_focus_areas": urgent_focus,
+            "recommendation_message": " ".join(recommendation_msg),
+            "suggested_action": "Start with the weakest topics using the 'Learn by Topics' feature, then practice with 'Year Practice'",
+            "study_focus": {
+                "primary_focus": weak_topics_filtered[0] if weak_topics_filtered else None,
+                "secondary_focuses": weak_topics_filtered[1:3] if len(weak_topics_filtered) > 1 else []
+            }
         }
 
     except Exception as e:

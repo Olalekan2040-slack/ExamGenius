@@ -6,6 +6,10 @@ async function showDashboard() {
     try {
         const user = authManager.getUser();
         const stats = await api.getDashboardStats();
+        
+        // Log for debugging
+        console.log('Dashboard stats received:', stats);
+        console.log('Recommended topics:', stats.recommended_topics);
 
         const content = `
             <div class="dashboard">
@@ -49,28 +53,47 @@ async function showDashboard() {
                     </div>
                 </div>
                 
-                <!-- Weakest Topics -->
-                ${stats.weakest_topics && stats.weakest_topics.length > 0 ? `
-                    <div class="card mt-3">
+                <!-- Recommended Topics (Based on Department & Performance) -->
+                ${stats.recommended_topics && stats.recommended_topics.length > 0 ? `
+                    <div class="card mt-3" style="border-top: 4px solid var(--success);">
                         <div class="card-header">
-                            <h2><i class="fas fa-exclamation-triangle" style="color: var(--warning);"></i> Topics That Need Attention</h2>
+                            <h2><i class="fas fa-lightbulb" style="color: var(--primary-yellow);"></i> Recommended Topics for You</h2>
+                            <p style="font-size: 14px; color: var(--text-secondary); margin-top: 8px;">
+                                ${stats.profile.department ? `Based on your <strong>${stats.profile.department}</strong> department and your performance` : 'Based on your performance'}
+                            </p>
                         </div>
-                        <div style="display: flex; flex-direction: column; gap: 12px;">
-                            ${stats.weakest_topics.slice(0, 5).map(topic => `
-                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg-light); border-radius: var(--radius-sm); cursor: pointer;" onclick="router.navigate('learn', {subject: '${topic.subject}', topic: '${topic.topic}'})">
-                                    <div>
-                                        <strong>${topic.subject} - ${topic.topic}</strong>
-                                        <div style="font-size: 12px; color: var(--text-secondary);">${topic.attempts} attempts</div>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                            ${stats.recommended_topics.map((topic, idx) => `
+                                <div style="padding: 16px; background: linear-gradient(135deg, var(--primary-yellow-light) 0%, var(--white) 100%); border-radius: var(--radius-md); border-left: 4px solid var(--success); cursor: pointer; transition: var(--transition);" 
+                                     onmouseover="this.style.boxShadow='var(--shadow-lg)'; this.style.transform='translateY(-4px)'" 
+                                     onmouseout="this.style.boxShadow='var(--shadow-md)'; this.style.transform='translateY(0)'"
+                                     onclick="router.navigate('learn', {subject: '${topic.subject}', topic: '${topic.topic}'})">
+                                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+                                        <span style="display: inline-block; width: 28px; height: 28px; background: var(--primary-yellow); color: var(--white); border-radius: 50%; text-align: center; line-height: 28px; font-weight: 700;">${idx + 1}</span>
+                                        <span style="font-weight: 600; color: var(--text-secondary);">${topic.subject}</span>
                                     </div>
-                                    <div style="text-align: right;">
-                                        <div style="font-size: 20px; font-weight: 600; color: var(--error);">${topic.accuracy.toFixed(1)}%</div>
-                                        <div style="font-size: 12px; color: var(--text-secondary);">accuracy</div>
-                                    </div>
+                                    <h3 style="margin-bottom: 8px; color: var(--text-primary);">${topic.topic}</h3>
+                                    ${topic.accuracy !== null && topic.accuracy !== undefined && topic.accuracy > 0 ? `
+                                        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 12px; border-top: 1px solid var(--border-color);">
+                                            <span style="font-size: 12px; color: var(--text-secondary);">Current Accuracy</span>
+                                            <span style="font-size: 16px; font-weight: 700; color: var(--error);">${topic.accuracy.toFixed(1)}%</span>
+                                        </div>
+                                    ` : `
+                                        <div style="padding-top: 12px; border-top: 1px solid var(--border-color);">
+                                            <span style="font-size: 12px; color: var(--text-secondary);">Start learning this topic</span>
+                                        </div>
+                                    `}
                                 </div>
                             `).join('')}
                         </div>
+                        <div style="padding-top: 16px; border-top: 1px solid var(--border-color); margin-top: 16px;">
+                            <button class="btn btn-primary" onclick="router.navigate('learn')" style="width: 100%; justify-content: center;">
+                                <i class="fas fa-book-reader"></i> Start Learning
+                            </button>
+                        </div>
                     </div>
                 ` : ''}
+                
                 
                 <!-- Recent Activity -->
                 ${stats.recent_attempts && stats.recent_attempts.length > 0 ? `
@@ -126,15 +149,15 @@ async function showDashboard() {
                 ` : ''}
                 
                 <!-- Registered Subjects -->
-                ${stats.registered_subjects && stats.registered_subjects.length > 0 ? `
+                ${stats.profile && stats.profile.registered_subjects && stats.profile.registered_subjects.length > 0 ? `
                     <div class="card mt-3">
                         <div class="card-header">
-                            <h2><i class="fas fa-book"></i> Your Registered Subjects</h2>
+                            <h2><i class="fas fa-book"></i> Your Registered Subjects (${stats.profile.department || 'JAMB'})</h2>
                         </div>
                         <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-                            ${stats.registered_subjects.map((sub, idx) => `
-                                <div style="padding: 12px 20px; background: var(--primary-yellow-light); border-radius: var(--radius-sm); font-weight: 600;">
-                                    <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary-yellow); color: var(--white); border-radius: 50%; text-align: center; line-height: 24px; margin-right: 8px; font-size: 12px;">${sub.position}</span>
+                            ${stats.profile.registered_subjects.map((sub, idx) => `
+                                <div style="padding: 12px 20px; background: var(--primary-yellow-light); border-radius: var(--radius-sm); font-weight: 600; display: flex; align-items: center; gap: 8px;">
+                                    <span style="display: inline-block; width: 24px; height: 24px; background: var(--primary-yellow); color: var(--white); border-radius: 50%; text-align: center; line-height: 24px; font-size: 12px; flex-shrink: 0;">${sub.position}</span>
                                     ${sub.subject}
                                 </div>
                             `).join('')}

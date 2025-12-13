@@ -257,14 +257,7 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
                 datetime.utcnow().isoformat()
             ))
 
-        # Update streak
-        today = datetime.utcnow().date().isoformat()
-        cursor.execute("""
-            UPDATE user_streaks
-            SET last_activity_date = ?,
-                total_active_days = total_active_days + 1
-            WHERE user_id = ?
-        """, (today, user_id))
+        AnalyticsService.update_user_streak(cursor, user_id)
 
         conn.commit()
 

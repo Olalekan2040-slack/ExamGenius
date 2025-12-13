@@ -321,8 +321,15 @@ select:focus {
     background: linear-gradient(135deg, var(--primary-yellow-light) 0%, var(--white) 100%);
 }
 
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
 .hero-content {
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .hero h1 {
@@ -377,31 +384,55 @@ select:focus {
 
 .hero-image {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    justify-content: stretch;
 }
 
 .floating-card {
     background: var(--white);
-    padding: 16px 24px;
+    padding: 20px 24px;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 16px;
     animation: float 3s ease-in-out infinite;
+    transition: var(--transition);
+    border-left: 4px solid var(--primary-yellow);
+}
+
+.floating-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.floating-card:nth-child(1) {
+    animation-delay: 0s;
+    border-left-color: #4CAF50;
+}
+
+.floating-card:nth-child(1) i {
+    color: #4CAF50;
 }
 
 .floating-card:nth-child(2) {
-    animation-delay: 1s;
-    margin-left: 40px;
+    animation-delay: 0.3s;
+    border-left-color: #2196F3;
+}
+
+.floating-card:nth-child(2) i {
+    color: #2196F3;
 }
 
 .floating-card:nth-child(3) {
-    animation-delay: 2s;
-    margin-left: 20px;
+    animation-delay: 0.6s;
+    border-left-color: #FF6B6B;
+}
+
+.floating-card:nth-child(3) i {
+    color: #FF6B6B;
 }
 
 @keyframes float {
@@ -419,6 +450,12 @@ select:focus {
 .floating-card i {
     color: var(--primary-yellow);
     font-size: 24px;
+}
+
+.floating-card span {
+    font-weight: 500;
+    color: var(--text-primary);
+    font-size: 16px;
 }
 
 /* Features Section */
@@ -787,12 +824,33 @@ select:focus {
         display: block;
     }
 
+    .hero .container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
     .hero h1 {
         font-size: 32px;
     }
 
     .hero-cta {
         flex-direction: column;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+
+    .floating-card {
+        max-width: 100%;
+    }
+
+    .floating-card:nth-child(2) {
+        align-self: flex-start;
+    }
+
+    .floating-card:nth-child(3) {
+        align-self: flex-start;
     }
 
     .btn-lg {

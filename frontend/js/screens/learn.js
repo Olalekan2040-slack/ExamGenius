@@ -133,6 +133,7 @@ async function showTopicLesson() {
         const user = authManager.getUser();
         const data = await api.getLesson(currentLearnState.subject, currentLearnState.topic);
         const videos = data.videos || [];
+            const embedVideo = getTopicVideoEmbed(currentLearnState.subject, currentLearnState.topic);
 
         // Store lesson in state for interactive chat
         currentLearnState.lesson = data.lesson;
@@ -148,6 +149,22 @@ async function showTopicLesson() {
                         </button>
                         <h1 style="margin: 0; font-size: 20px;">${currentLearnState.subject}: ${currentLearnState.topic}</h1>
                     </div>
+                        ${embedVideo ? `
+                            <div class="card" style="margin-bottom: 16px; overflow: hidden;">
+                                <div class="card-header">
+                                    <h2><i class="fas fa-video"></i> ${embedVideo.title}</h2>
+                                    <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">${embedVideo.description}</p>
+                                </div>
+                                <div style="position: relative; padding-top: 56.25%; border-radius: var(--radius-md); overflow: hidden;">
+                                    <iframe
+                                        src="${embedVideo.embedUrl}"
+                                        allow="autoplay; encrypted-media"
+                                        allowfullscreen
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        ` : ''}
                     
                     <div class="card">
                         <div class="card-header">
@@ -239,6 +256,23 @@ async function showTopicLesson() {
         hideLoading();
         showToast('Failed to load lesson: ' + error.message, 'error');
     }
+}
+
+// Map specific subject/topic combinations to an embedded video for quick viewing alongside the AI-generated content
+function getTopicVideoEmbed(subject, topic) {
+    const s = (subject || '').toLowerCase();
+    const t = (topic || '').toLowerCase();
+
+    // Example: Biology → Reproduction
+    if (s === 'biology' && t.includes('reproduction')) {
+        return {
+            title: 'Biology: Reproduction (Video)',
+            description: 'Watch alongside the AI-generated notes. Video hosted on Google Drive.',
+            embedUrl: 'https://drive.google.com/file/d/1PcrcQPjOkkK38QP92by-fvudiw9poCQg/preview'
+        };
+    }
+
+    return null;
 }
 
 async function sendChatMessage() {

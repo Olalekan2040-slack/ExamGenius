@@ -7,7 +7,7 @@ async function showLoginScreen() {
         <div class="auth-container">
             <div class="auth-card">
                 <div class="auth-header">
-                    <div class="logo mb-3">
+                    <div class="logo mb-3" onclick="router.navigate('landing')" style="cursor: pointer;">
                         <i class="fas fa-graduation-cap"></i>
                         <span>ExamGenius</span>
                     </div>
@@ -89,7 +89,7 @@ async function showRegisterScreen() {
         <div class="auth-container">
             <div class="auth-card">
                 <div class="auth-header">
-                    <div class="logo mb-3">
+                    <div class="logo mb-3" onclick="router.navigate('landing')" style="cursor: pointer;">
                         <i class="fas fa-graduation-cap"></i>
                         <span>ExamGenius</span>
                     </div>

@@ -12,6 +12,7 @@ from app.db.database import get_connection
 from app.core.security import current_user_id
 from app.services.ai.gemini_service import generate_topic_lesson, generate_question_explanation, ask_ai_tutor
 from app.services.analytics import AnalyticsService
+from app.services.ai_content import ai_content_service
 
 
 def _get_topic_videos(cursor, subject: str, topic: str):
@@ -458,14 +459,7 @@ async def submit_topic_practice(request: SubmitTopicPracticeRequest, user_id: in
             "accuracy": stats_row[2] if stats_row else accuracy
         }
 
-        # Update streak
-        today = datetime.utcnow().date().isoformat()
-        cursor.execute("""
-            UPDATE user_streaks
-            SET last_activity_date = ?,
-                total_active_days = total_active_days + 1
-            WHERE user_id = ?
-        """, (today, user_id))
+        AnalyticsService.update_user_streak(cursor, user_id)
 
         conn.commit()
 
@@ -563,4 +557,77 @@ async def ask_ai_tutor_endpoint(request: AskTutorRequest, user_id: int = Depends
         raise HTTPException(
             status_code=500,
             detail=f"AI Tutor failed: {str(e)}"
+        )
+
+@router.get("/ai/content")
+async def get_ai_content_context(
+    subject_id: Optional[int] = Query(None),
+    topic_id: Optional[int] = Query(None),
+    subtopic_id: Optional[int] = Query(None),
+    difficulty: Optional[str] = Query(None, regex="^(easy|medium|hard)$"),
+    limit: int = Query(5, ge=1, le=20),
+    content_types: Optional[str] = Query("all", description="Comma-separated: questions,videos,notes,readings or 'all'"),
+    user_id: int = Depends(current_user_id),
+    db=Depends(get_connection)
+):
+    """
+    AI Content Query Endpoint
+    Retrieve learning materials organized by subject/topic/difficulty for AI tutoring
+    
+    Used by AI services to fetch relevant context when generating explanations or tutoring.
+    Returns questions with explanations, videos, notes, and readings.
+    
+    Example:
+    - GET /learn/ai/content?subject_id=1&topic_id=5&difficulty=medium
+    - GET /learn/ai/content?subject_id=1&content_types=questions,videos
+    """
+    
+    try:
+        # Use injected db connection
+        
+        context = ai_content_service.get_content_context(
+            db=db,
+            subject_id=subject_id,
+            topic_id=topic_id,
+            subtopic_id=subtopic_id,
+            difficulty=difficulty,
+            limit=limit
+        )
+        
+        # Filter content types if specified
+        if content_types != "all":
+            requested_types = [ct.strip() for ct in content_types.split(",")]
+            filtered_context = {}
+            for ct in requested_types:
+                if ct in context:
+                    filtered_context[ct] = context[ct]
+            context = filtered_context
+        
+        # Log content access for analytics
+        ai_content_service.log_content_interaction(
+            db=db,
+            user_id=user_id,
+            content_type="ai_query",
+            content_id=0,
+            interaction_type="ai_content_query"
+        )
+        
+        return {
+            "query_params": {
+                "subject_id": subject_id,
+                "topic_id": topic_id,
+                "subtopic_id": subtopic_id,
+                "difficulty": difficulty
+            },
+            "results": context,
+            "total_questions": len(context.get("questions", [])),
+            "total_videos": len(context.get("videos", [])),
+            "total_notes": len(context.get("notes", [])),
+            "total_readings": len(context.get("readings", []))
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to fetch AI content context: {str(e)}"
         )

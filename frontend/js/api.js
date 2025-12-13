@@ -31,11 +31,15 @@ class APIService {
 
     // Generic request handler
     async request(endpoint, options = {}) {
-        const { method = 'GET', body, requireAuth = false, isFormData = false } = options;
+        const { method = 'GET', body, requireAuth = false, isFormData = false, timeoutMs = API_CONFIG.TIMEOUT } = options;
+
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), timeoutMs || 30000);
 
         const config = {
             method,
             headers: this.getHeaders(requireAuth, isFormData ? null : 'application/json'),
+            signal: controller.signal,
         };
 
         if (body) {
@@ -62,8 +66,11 @@ class APIService {
 
             return this.handleResponse(response);
         } catch (error) {
+            const isAbort = error?.name === 'AbortError';
             console.error('API Request Error:', error);
-            throw error;
+            throw new Error(isAbort ? 'Request timed out. Please try again.' : error.message || 'Request failed');
+        } finally {
+            clearTimeout(timer);
         }
     }
 

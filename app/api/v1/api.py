@@ -13,6 +13,7 @@ from app.api.v1.endpoints import (
     cbt,
     dashboard,
     jamb,
+    admin,
 )
 
 # Create main API router
@@ -28,3 +29,4 @@ api_router.include_router(year_practice.router)
 api_router.include_router(cbt.router)
 api_router.include_router(dashboard.router)
 api_router.include_router(jamb.router)
+api_router.include_router(admin.router)
