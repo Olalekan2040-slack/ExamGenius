@@ -20,14 +20,15 @@ if not OPENROUTER_API_KEY:
     raise ValueError("OPENROUTER_API_KEY not configured in .env file")
 
 
-def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000) -> str:
+def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000, retries: int = 3) -> str:
     """
-    Make a request to DeepSeek V3.2 via OpenRouter
+    Make a request to DeepSeek V3.2 via OpenRouter with retry logic
 
     Args:
         messages: List of message dicts with role and content
         temperature: Model temperature (0-2)
         max_tokens: Maximum tokens to generate
+        retries: Number of retry attempts on failure
 
     Returns:
         Model response text
@@ -45,25 +46,107 @@ def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_to
         "reasoning": {"enabled": True}  # Enable reasoning for better quality
     }
 
+    last_error = None
+    for attempt in range(retries):
+        try:
+            response = requests.post(
+                f"{OPENROUTER_BASE_URL}/chat/completions",
+                headers=headers,
+                json=payload,
+                timeout=45,  # Increased timeout
+                verify=True  # Explicit SSL verification
+            )
+            response.raise_for_status()
+
+            result = response.json()
+            message = result['choices'][0]['message']
+
+            # Return just the content, reasoning is handled internally
+            return message.get('content', '')
+
+        except requests.exceptions.SSLError as e:
+            last_error = f"SSL error: {str(e)}"
+            if attempt < retries - 1:
+                import time
+                time.sleep(2)  # Wait before retry
+                continue
+        except requests.exceptions.Timeout as e:
+            last_error = f"Timeout error: {str(e)}"
+            if attempt < retries - 1:
+                continue
+        except requests.exceptions.RequestException as e:
+            last_error = f"Request error: {str(e)}"
+            if attempt < retries - 1:
+                import time
+                time.sleep(1)
+                continue
+        except (KeyError, IndexError, ValueError) as e:
+            last_error = f"Parse error: {str(e)}"
+            break  # Don't retry parse errors
+    
+    raise Exception(f"OpenRouter API failed after {retries} attempts: {last_error}")
+
+
+def make_gemini_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000) -> str:
+    """
+    Make a request to Google Gemini as a fallback when DeepSeek is unavailable.
+    """
+    if not settings.GEMINI_API_KEY:
+        raise Exception("GEMINI_API_KEY not configured")
+
+    # Convert chat-style messages into a single prompt string
+    prompt_lines = []
+    for m in messages:
+        role = m.get("role", "user").upper()
+        content = m.get("content", "")
+        prompt_lines.append(f"{role}: {content}")
+    prompt_text = "\n\n".join(prompt_lines)
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={settings.GEMINI_API_KEY}"
+    payload = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": prompt_text}
+                ]
+            }
+        ],
+        "generationConfig": {
+            "temperature": temperature,
+            "maxOutputTokens": max_tokens
+        }
+    }
+
     try:
-        response = requests.post(
-            f"{OPENROUTER_BASE_URL}/chat/completions",
-            headers=headers,
-            json=payload,
-            timeout=30
-        )
+        response = requests.post(url, json=payload, timeout=45)
         response.raise_for_status()
-
-        result = response.json()
-        message = result['choices'][0]['message']
-
-        # Return just the content, reasoning is handled internally
-        return message.get('content', '')
-
+        data = response.json()
+        candidates = data.get("candidates")
+        if not candidates:
+            raise Exception("Gemini returned no candidates")
+        parts = candidates[0].get("content", {}).get("parts", [])
+        if not parts or "text" not in parts[0]:
+            raise Exception("Gemini response missing text")
+        return parts[0]["text"]
     except requests.exceptions.RequestException as e:
-        raise Exception(f"OpenRouter API error: {str(e)}")
+        raise Exception(f"Gemini API error: {str(e)}")
     except (KeyError, IndexError, ValueError) as e:
-        raise Exception(f"Failed to parse API response: {str(e)}")
+        raise Exception(f"Failed to parse Gemini response: {str(e)}")
+
+
+def make_ai_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000, retries: int = 3) -> str:
+    """
+    Primary AI request helper. Tries DeepSeek first, falls back to Gemini if configured.
+    """
+    try:
+        return make_deepseek_request(messages, temperature=temperature, max_tokens=max_tokens, retries=retries)
+    except Exception as deepseek_error:
+        if settings.GEMINI_API_KEY:
+            try:
+                return make_gemini_request(messages, temperature=temperature, max_tokens=max_tokens)
+            except Exception as gemini_error:
+                raise Exception(f"DeepSeek failed ({deepseek_error}); Gemini fallback failed ({gemini_error})")
+        raise
 
 
 def generate_topic_lesson(subject: str, topic: str, language: str = "english", sample_questions: List[Dict] = None) -> Dict:
@@ -104,12 +187,11 @@ Make it engaging, clear, and focused on JAMB exam requirements. Use {language_in
 Return ONLY the JSON, no markdown formatting."""
 
     try:
-        response_text = make_deepseek_request([
+        response_text = make_ai_request([
             {"role": "user", "content": prompt}
         ])
 
         lesson_text = response_text.strip()
-
         # Try to parse as JSON
         # Remove markdown code blocks if present
         if lesson_text.startswith("```json"):
@@ -202,12 +284,11 @@ Return ONLY valid JSON in this EXACT format (no markdown, no code blocks):
 """
 
     try:
-        response_text = make_deepseek_request([
+        response_text = make_ai_request([
             {"role": "user", "content": prompt}
         ])
 
         question_text = response_text.strip()
-
         # Clean up response
         if question_text.startswith("```json"):
             question_text = question_text.replace(
@@ -247,7 +328,6 @@ def generate_question_explanation(question: str, options: Dict, correct_answer: 
     Args:
         question: Question text
         options: Dict with keys A, B, C, D
-        correct_answer: Correct option key (A, B, C, or D)
         topic: Topic name
         language: "english" or "pidgin"
 
@@ -279,7 +359,7 @@ Return only the explanation text, no JSON, no formatting.
 """
 
     try:
-        explanation = make_deepseek_request([
+        explanation = make_ai_request([
             {"role": "user", "content": prompt}
         ])
         return explanation.strip()
@@ -320,7 +400,7 @@ Focus on the top 2-3 most critical topics. Be encouraging but realistic.
 Return ONLY the JSON."""
 
     try:
-        response_text = make_deepseek_request([
+        response_text = make_ai_request([
             {"role": "user", "content": prompt}
         ])
 
@@ -346,7 +426,7 @@ Return ONLY the JSON."""
 
 def batch_generate_ai_questions(subject: str, topic: str, sample_questions: List[Dict], count: int = 40) -> List[Dict]:
     """
-    Generate multiple AI questions for a CBT subject slot
+    Generate multiple AI questions for a CBT subject slot using a SINGLE optimized API call
 
     Args:
         subject: Subject name
@@ -357,32 +437,110 @@ def batch_generate_ai_questions(subject: str, topic: str, sample_questions: List
     Returns:
         List of generated question dicts
     """
-    generated = []
-    difficulties = ["easy", "medium", "hard"]
+    
+    # Extract topics from samples for variety
+    topics_list = []
+    if sample_questions:
+        topics_list = list(set([q.get('topic', 'General') for q in sample_questions[:10]]))
+    
+    sample_context = ""
+    if sample_questions:
+        sample_context = "\n\nHere are example JAMB questions for reference:\n"
+        for i, q in enumerate(sample_questions[:3], 1):
+            sample_context += f"{i}. Topic: {q.get('topic', 'N/A')}\n   Q: {q.get('question', '')}\n"
+    
+    topics_hint = f"Cover these topics: {', '.join(topics_list)}" if topics_list else f"Cover various {subject} topics"
+    
+    prompt = f"""You are a JAMB question generator. Generate EXACTLY {count} unique multiple-choice questions for {subject}.
 
-    # Generate questions in batches
-    for i in range(count):
+{sample_context}
+
+Requirements:
+- {topics_hint}
+- Mix difficulty: {count//3} easy, {count//3} medium, {count//3} hard
+- Each question must have 4 options (A, B, C, D)
+- Each question must have ONE correct answer
+- Questions should match JAMB exam format and difficulty
+
+Return your response as a JSON array of {count} question objects. Each object must have this EXACT structure:
+{{
+    "question_text": "The question text",
+    "option_a": "First option",
+    "option_b": "Second option",
+    "option_c": "Third option",
+    "option_d": "Fourth option",
+    "correct_option": "A" (or B, C, D),
+    "topic": "Topic name",
+    "difficulty": "easy" (or medium, hard),
+    "explanation": "Brief explanation"
+}}
+
+Return ONLY the JSON array, no additional text. Format: [{{...}}, {{...}}, ...]
+"""
+
+    try:
+        response_text = make_ai_request([
+            {"role": "user", "content": prompt}
+        ], temperature=0.8, max_tokens=8000, retries=2)  # Only 2 retries for batch to avoid long waits
+
+        # Clean response more aggressively
+        
+        # Remove code blocks
+        if response_text.startswith("```json"):
+            response_text = response_text.replace("```json", "", 1).strip()
+        if response_text.startswith("```"):
+            response_text = response_text.replace("```", "", 1).strip()
+        if response_text.endswith("```"):
+            response_text = response_text.rsplit("```", 1)[0].strip()
+        
+        # Try to find JSON array in response
+        start_idx = response_text.find('[')
+        end_idx = response_text.rfind(']')
+        
+        if start_idx != -1 and end_idx != -1 and end_idx > start_idx:
+            response_text = response_text[start_idx:end_idx + 1]
+        
+        # Try to parse JSON
         try:
-            # Vary difficulty
-            difficulty = difficulties[i % len(difficulties)]
+            questions_data = json.loads(response_text)
+        except json.JSONDecodeError as je:
+            print(f"JSON parse error at position {je.pos}: {je.msg}")
+            print(f"Response excerpt: {response_text[:500]}...")
+            raise ValueError(f"Invalid JSON from AI: {je.msg}")
+        
+        if not isinstance(questions_data, list):
+            raise ValueError("AI response is not a JSON array")
 
-            # If mixed topic, pick random from samples
-            if topic == "mixed" and sample_questions:
-                sample_topic = random.choice(
-                    sample_questions).get('topic', topic)
+        # Validate and number questions
+        validated = []
+        for i, q in enumerate(questions_data[:count], 1):
+            # Validate required fields
+            required = ["question_text", "option_a", "option_b", "option_c", "option_d", "correct_option"]
+            if all(field in q for field in required):
+                # Ensure correct_option is valid
+                if q['correct_option'] not in ['A', 'B', 'C', 'D']:
+                    print(f"Warning: Invalid correct_option '{q['correct_option']}' in question {i}, skipping")
+                    continue
+                    
+                q['question_number'] = i
+                q['subject'] = subject
+                if 'topic' not in q or not q['topic']:
+                    q['topic'] = topics_list[i % len(topics_list)] if topics_list else 'General'
+                if 'difficulty' not in q:
+                    q['difficulty'] = ['easy', 'medium', 'hard'][i % 3]
+                if 'explanation' not in q:
+                    q['explanation'] = f"The correct answer is {q['correct_option']}"
+                validated.append(q)
             else:
-                sample_topic = topic
+                print(f"Warning: Question {i} missing required fields, skipping")
 
-            question = generate_ai_question(
-                subject, sample_topic, sample_questions, difficulty)
-            question['question_number'] = i + 1
-            generated.append(question)
+        print(f"Successfully validated {len(validated)}/{len(questions_data)} AI questions")
+        return validated
 
-        except Exception as e:
-            print(f"Warning: Failed to generate question {i+1}: {e}")
-            continue
-
-    return generated
+    except Exception as e:
+        print(f"Batch AI generation failed: {str(e)}")
+        # Fallback: return empty list to trigger DB fallback
+        return []
 
 
 def ask_ai_tutor(subject: str, topic: str, question: str, lesson_context: Optional[Dict] = None, chat_history: Optional[List[Dict]] = None) -> str:
@@ -444,7 +602,7 @@ The student is now asking you a question. Answer it helpfully and in the context
     })
 
     try:
-        response = make_deepseek_request(
+        response = make_ai_request(
             messages, temperature=0.7, max_tokens=1500)
         return response
 

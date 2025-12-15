@@ -5,12 +5,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "1",
-        "question": "Give the common name for the following compound (CH\\(_{3}\\))\\(_{2}\\) CH CH\\(_{2}\\) -Br",
+        "question": "Give the common name for the following compound (CH\\(3\\))\\(2\\) CH CH\\(2\\) -Br",
         "options": {
-            "A": "\n\n            Isobutyl bromide\n",
-            "B": "\n\n            Methyl bromide\n",
-            "C": "\n\n            propyl bromide\n",
-            "D": "\n\n            Butyl bromide\n"
+            "A": "Isobutyl bromide",
+            "B": "Methyl bromide",
+            "C": "propyl bromide",
+            "D": "Butyl bromide"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -23,12 +23,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "2",
-        "question": "The enzyme that converts glucose to ethyl alcohol is?",
+        "question": "The enzyme that converts glucose to ethyl alcohol is?",
         "options": {
-            "A": "\n\n            maltase\n",
-            "B": "\n\n            zymase\n",
-            "C": "\n\n            Diatase\n",
-            "D": "\n\n            Invertase\n"
+            "A": "maltase",
+            "B": "zymase",
+            "C": "Diatase",
+            "D": "Invertase"
         },
         "correct_answer": "B",
         "topic": "Organic Chemistry",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "The scientist who stated that matter can be converted into energy is?",
         "options": {
-            "A": "\n\n            Boyle\n",
-            "B": "\n\n            Lavoiser\n",
-            "C": "\n\n            Avogadro\n",
-            "D": "\n\n            Einstein\n"
+            "A": "Boyle",
+            "B": "Lavoiser",
+            "C": "Avogadro",
+            "D": "Einstein"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -59,12 +59,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "4",
-        "question": "What is the IUPAC name for the following compound? HC\\(\\equiv\\)CCH\\(_{3}\\)",
+        "question": "What is the IUPAC name for the following compound? HC\\(equiv\\)CCH\\(3\\)",
         "options": {
-            "A": "\n\n            Acetylene\n",
-            "B": "\n\n            Methyl acetylene\n",
-            "C": "\n\n            Butanol\n",
-            "D": "\n\n            Decanoic acid\n"
+            "A": "Acetylene",
+            "B": "Methyl acetylene",
+            "C": "Butanol",
+            "D": "Decanoic acid"
         },
         "correct_answer": "B",
         "topic": "Acids/Bases/Salts",
@@ -77,12 +77,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "5",
-        "question": "What is the chemical name for the compound CuCO\\(_{3}\\)?",
+        "question": "What is the chemical name for the compound CuCO\\(3\\)?",
         "options": {
-            "A": "\n\n            Copper (iii) carbonate\n",
-            "B": "\n\n            Copper (ii) carbonate\n",
-            "C": "\n\n            Copper (i) carbonate\n",
-            "D": "\n\n            Copper\n"
+            "A": "Copper (iii) carbonate",
+            "B": "Copper (ii) carbonate",
+            "C": "Copper (i) carbonate",
+            "D": "Copper"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "A 'breath test' used by traffic police to check drunken driving uses?",
         "options": {
-            "A": "\n\n            Tumeric on filter paper\n",
-            "B": "\n\n            Silica gel coated with saliva nitrate\n",
-            "C": "\n\n            Potassium permanganate-sulphuric acid\n",
-            "D": "\n\n            Potassium dichromatic-sulphuric acid\n"
+            "A": "Tumeric on filter paper",
+            "B": "Silica gel coated with saliva nitrate",
+            "C": "Potassium permanganate-sulphuric acid",
+            "D": "Potassium dichromatic-sulphuric acid"
         },
         "correct_answer": "D",
         "topic": "Acids/Bases/Salts",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "Which one of the following is not a mixture?",
         "options": {
-            "A": "\n\n            Air\n",
-            "B": "\n\n            Mercury\n",
-            "C": "\n\n            Milk\n",
-            "D": "\n\n            Cement\n"
+            "A": "Air",
+            "B": "Mercury",
+            "C": "Milk",
+            "D": "Cement"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "Which of the following is a non-metal that remains liquid at room temperature?",
         "options": {
-            "A": "\n\n            Chlorine\n",
-            "B": "\n\n            Phosphorus\n",
-            "C": "\n\n            Bromine\n",
-            "D": "\n\n            Helium\n"
+            "A": "Chlorine",
+            "B": "Phosphorus",
+            "C": "Bromine",
+            "D": "Helium"
         },
         "correct_answer": "C",
         "topic": "States of Matter",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "Which of the following are chemical changes? I. cooking of food II. digestion of food III. freezing of water IV. water is heated up",
         "options": {
-            "A": "\n\n            I and II\n",
-            "B": "\n\n            I, II, and III\n",
-            "C": "\n\n            III and IV\n",
-            "D": "\n\n            all of the above\n"
+            "A": "I and II",
+            "B": "I, II, and III",
+            "C": "III and IV",
+            "D": "all of the above"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "The atomic weight of nitrogen is?",
         "options": {
-            "A": "\n\n            10\n",
-            "B": "\n\n            12\n",
-            "C": "\n\n            14\n",
-            "D": "\n\n            16\n"
+            "A": "10",
+            "B": "12",
+            "C": "14",
+            "D": "16"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "The gas which causes global warming is?",
         "options": {
-            "A": "\n\n            O\\(_{2}\\)\n",
-            "B": "\n\n            CO\\(_{2}\\)\n",
-            "C": "\n\n            N\\(_{2}\\)\n",
-            "D": "\n\n            He\n"
+            "A": "O\\(2\\)",
+            "B": "CO\\(2\\)",
+            "C": "N\\(2\\)",
+            "D": "He"
         },
         "correct_answer": "B",
         "topic": "States of Matter",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "Oxygen is absent in?",
         "options": {
-            "A": "\n\n            Kerosene\n",
-            "B": "\n\n            Soil\n",
-            "C": "\n\n            Glass\n",
-            "D": "\n\n            Cement\n"
+            "A": "Kerosene",
+            "B": "Soil",
+            "C": "Glass",
+            "D": "Cement"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -221,12 +221,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "13",
-        "question": "A sample of any of the following substances disappears after some time when exposed to air like camphor, naphthalene, or dry ice. This phenomenon is called?",
+        "question": "A sample of any of the following substances disappears after some time when exposed to air like camphor, naphthalene, or dry ice. This phenomenon is called?",
         "options": {
-            "A": "\n\n            Sublimation\n",
-            "B": "\n\n            Evaporation\n",
-            "C": "\n\n            Diffusion\n",
-            "D": "\n\n            Radiation\n"
+            "A": "Sublimation",
+            "B": "Evaporation",
+            "C": "Diffusion",
+            "D": "Radiation"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "The maximum electron in N shell is?",
         "options": {
-            "A": "\n\n            2\n",
-            "B": "\n\n            8\n",
-            "C": "\n\n            18\n",
-            "D": "\n\n            32\n"
+            "A": "2",
+            "B": "8",
+            "C": "18",
+            "D": "32"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "Neutrons were discovered by?",
         "options": {
-            "A": "\n\n            James Chadwick\n",
-            "B": "\n\n            Ernest Rutherford\n",
-            "C": "\n\n            J.J Thompson\n",
-            "D": "\n\n            John Dalton\n"
+            "A": "James Chadwick",
+            "B": "Ernest Rutherford",
+            "C": "J.J Thompson",
+            "D": "John Dalton"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "Which of the following is a form of calcium carbonate? I. limestone II. marble III. chalk Iv. egg-shells",
         "options": {
-            "A": "\n\n            I only\n",
-            "B": "\n\n            I, II and IV\n",
-            "C": "\n\n            I and II only\n",
-            "D": "\n\n            I, II, III, and IV\n"
+            "A": "I only",
+            "B": "I, II and IV",
+            "C": "I and II only",
+            "D": "I, II, III, and IV"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -293,12 +293,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "17",
-        "question": "Soaps clean surfaces on the principle based on?",
+        "question": "Soaps clean surfaces on the principle based on?",
         "options": {
-            "A": "\n\n            viscosity\n",
-            "B": "\n\n            floatation\n",
-            "C": "\n\n            elasticity\n",
-            "D": "\n\n            surface tension\n"
+            "A": "viscosity",
+            "B": "floatation",
+            "C": "elasticity",
+            "D": "surface tension"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "The reactivity of fluorine is due to?",
         "options": {
-            "A": "\n\n            its high electro negativity\n",
-            "B": "\n\n            small size of fluorine atom\n",
-            "C": "\n\n            availability of D-orbitals\n",
-            "D": "\n\n            strong f-f bond\n"
+            "A": "its high electro negativity",
+            "B": "small size of fluorine atom",
+            "C": "availability of D-orbitals",
+            "D": "strong f-f bond"
         },
         "correct_answer": "A",
         "topic": "Chemical Bonding",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "The mass number of a nucleus is?",
         "options": {
-            "A": "\n\n            Always less than its atomic number\n",
-            "B": "\n\n            The sum of the number of protons and neutrons present in the nucleus\n",
-            "C": "\n\n            Always more than the atomic weight\n",
-            "D": "\n\n            A fraction\n"
+            "A": "Always less than its atomic number",
+            "B": "The sum of the number of protons and neutrons present in the nucleus",
+            "C": "Always more than the atomic weight",
+            "D": "A fraction"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "The mass of one Avogadro number of helium atoms is?",
         "options": {
-            "A": "\n\n            1.00gram\n",
-            "B": "\n\n            4.00gram\n",
-            "C": "\n\n            8.00gram\n",
-            "D": "\n\n            6.00gram\n"
+            "A": "1.00gram",
+            "B": "4.00gram",
+            "C": "8.00gram",
+            "D": "6.00gram"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "220g of carbon dioxide contains ----- moles",
         "options": {
-            "A": "\n\n            5\n",
-            "B": "\n\n            6\n",
-            "C": "\n\n            3\n",
-            "D": "\n\n            4\n"
+            "A": "5",
+            "B": "6",
+            "C": "3",
+            "D": "4"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "The inherited traits of an organism are controlled by?",
         "options": {
-            "A": "\n\n            RNA molecules\n",
-            "B": "\n\n            Nucleotides\n",
-            "C": "\n\n            DNA molecules\n",
-            "D": "\n\n            Enzymes\n"
+            "A": "RNA molecules",
+            "B": "Nucleotides",
+            "C": "DNA molecules",
+            "D": "Enzymes"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "The most abundant rare gas in the atmosphere is?",
         "options": {
-            "A": "\n\n            He\n",
-            "B": "\n\n            Ne\n",
-            "C": "\n\n            Ar\n",
-            "D": "\n\n            Xe\n"
+            "A": "He",
+            "B": "Ne",
+            "C": "Ar",
+            "D": "Xe"
         },
         "correct_answer": "C",
         "topic": "States of Matter",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "The heat required to raise the temperature of the body by 1k is called?",
         "options": {
-            "A": "\n\n            Specific heat\n",
-            "B": "\n\n            Thermal capacity\n",
-            "C": "\n\n            Water equivalent\n",
-            "D": "\n\n            None of the above\n"
+            "A": "Specific heat",
+            "B": "Thermal capacity",
+            "C": "Water equivalent",
+            "D": "None of the above"
         },
         "correct_answer": "B",
         "topic": "Energetics/Thermochemistry",
@@ -437,12 +437,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "25",
-        "question": "The nucleus of a hydrogen  atom consist of a?",
+        "question": "The nucleus of a hydrogen atom consist of a?",
         "options": {
-            "A": "\n\n            1 proton only\n",
-            "B": "\n\n            1 proton, 2 neutron\n",
-            "C": "\n\n            1 neutron only\n",
-            "D": "\n\n            1 electron only\n"
+            "A": "1 proton only",
+            "B": "1 proton, 2 neutron",
+            "C": "1 neutron only",
+            "D": "1 electron only"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -455,12 +455,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "26",
-        "question": "The metal used to recover copper from a solution of copper sulphate is?",
+        "question": "The metal used to recover copper from a solution of copper sulphate is?",
         "options": {
-            "A": "\n\n            Na\n",
-            "B": "\n\n            Ag\n",
-            "C": "\n\n            Hg\n",
-            "D": "\n\n            Fe\n"
+            "A": "Na",
+            "B": "Ag",
+            "C": "Hg",
+            "D": "Fe"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -475,10 +475,10 @@
         "number": "27",
         "question": "The nucleus of an atom consists of?",
         "options": {
-            "A": "\n\n            Electrons and neutrons\n",
-            "B": "\n\n            Electrons and protons\n",
-            "C": "\n\n            Protons and neutrons\n",
-            "D": "\n\n            None of the above\n"
+            "A": "Electrons and neutrons",
+            "B": "Electrons and protons",
+            "C": "Protons and neutrons",
+            "D": "None of the above"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "A solution contains 20g of solute in 180g of solvent. If the solvent is water, what is the concentration of the solution in terms of mass by mass percentage",
         "options": {
-            "A": "\n\n            11.%\n",
-            "B": "\n\n            22.2%\n",
-            "C": "\n\n            10%\n",
-            "D": "\n\n            20%\n"
+            "A": "11.%",
+            "B": "22.2%",
+            "C": "10%",
+            "D": "20%"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -511,10 +511,10 @@
         "number": "29",
         "question": "The only metal that is anti-bacterial is?",
         "options": {
-            "A": "\n\n            Iron\n",
-            "B": "\n\n            Sodium\n",
-            "C": "\n\n            Alluminium\n",
-            "D": "\n\n            Copper\n"
+            "A": "Iron",
+            "B": "Sodium",
+            "C": "Alluminium",
+            "D": "Copper"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -529,10 +529,10 @@
         "number": "30",
         "question": "An element having the atomic number 17 will resemble which of the following elements having atomic number as given below?",
         "options": {
-            "A": "\n\n            33\n",
-            "B": "\n\n            35\n",
-            "C": "\n\n            18\n",
-            "D": "\n\n            19\n"
+            "A": "33",
+            "B": "35",
+            "C": "18",
+            "D": "19"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "A chemical process in which there is a gain of electrons is known as?",
         "options": {
-            "A": "\n\n            Sublimation\n",
-            "B": "\n\n            Reduction\n",
-            "C": "\n\n            Oxidation\n",
-            "D": "\n\n            Distillation\n"
+            "A": "Sublimation",
+            "B": "Reduction",
+            "C": "Oxidation",
+            "D": "Distillation"
         },
         "correct_answer": "B",
         "topic": "Redox Reactions",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "The reactions involving simultaneous oxidation and reduction?",
         "options": {
-            "A": "\n\n            Automatic reactions\n",
-            "B": "\n\n            Alternate reactions\n",
-            "C": "\n\n            Reduction agency\n",
-            "D": "\n\n            Redox reactions\n"
+            "A": "Automatic reactions",
+            "B": "Alternate reactions",
+            "C": "Reduction agency",
+            "D": "Redox reactions"
         },
         "correct_answer": "D",
         "topic": "Redox Reactions",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "A binary compound of oxygen with another element is referred to as?",
         "options": {
-            "A": "\n\n            Oxide\n",
-            "B": "\n\n            Element\n",
-            "C": "\n\n            Carbon\n",
-            "D": "\n\n            Nitrogen\n"
+            "A": "Oxide",
+            "B": "Element",
+            "C": "Carbon",
+            "D": "Nitrogen"
         },
         "correct_answer": "A",
         "topic": "Periodic Table",
@@ -601,10 +601,10 @@
         "number": "34",
         "question": "The process or act of extracting a metal from its ore and refining it is called?",
         "options": {
-            "A": "\n\n            Extraction\n",
-            "B": "\n\n            Metal mining\n",
-            "C": "\n\n            Mettallurgy\n",
-            "D": "\n\n            Prospecting\n"
+            "A": "Extraction",
+            "B": "Metal mining",
+            "C": "Mettallurgy",
+            "D": "Prospecting"
         },
         "correct_answer": "C",
         "topic": "Chemistry & Industry",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "The compounds made up of only carbon and hydrogen are called?",
         "options": {
-            "A": "\n\n            Carbon compounds\n",
-            "B": "\n\n            Hydrocarbons\n",
-            "C": "\n\n            Atoms\n",
-            "D": "\n\n            Carbon hydrolysis\n"
+            "A": "Carbon compounds",
+            "B": "Hydrocarbons",
+            "C": "Atoms",
+            "D": "Carbon hydrolysis"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "One of the following is not a physical property of monosaccharides?",
         "options": {
-            "A": "\n\n            Monosaccharides get charred when heated\n",
-            "B": "\n\n            Monosaccharides are water-soluble, sweet substances\n",
-            "C": "\n\n            They are highly vital to the exploration of metals\n",
-            "D": "\n\n            They can be reduced to sugar alcohols\n"
+            "A": "Monosaccharides get charred when heated",
+            "B": "Monosaccharides are water-soluble, sweet substances",
+            "C": "They are highly vital to the exploration of metals",
+            "D": "They can be reduced to sugar alcohols"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "In troposphere, the two types of pollutants are?",
         "options": {
-            "A": "\n\n            Gaseous and particulate pollutants\n",
-            "B": "\n\n            Carbon and metallic pollutants\n",
-            "C": "\n\n            Natural and man-made pollutants\n",
-            "D": "\n\n            Sulphuric and nitrogenous pollutants\n"
+            "A": "Gaseous and particulate pollutants",
+            "B": "Carbon and metallic pollutants",
+            "C": "Natural and man-made pollutants",
+            "D": "Sulphuric and nitrogenous pollutants"
         },
         "correct_answer": "A",
         "topic": "Chemical Bonding",
@@ -671,12 +671,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "38",
-        "question": "The molar enthalpy change accompanying the removal of an electron from a gas phase atom or ion in its ground state is called?",
+        "question": "The molar enthalpy change accompanying the removal of an electron from a gas phase atom or ion in its ground state is called?",
         "options": {
-            "A": "\n\n            Electron gain enthalpy\n",
-            "B": "\n\n            Ionization enthalpy\n",
-            "C": "\n\n            Enthalpy change\n",
-            "D": "\n\n            Enthalpic gas removal\n"
+            "A": "Electron gain enthalpy",
+            "B": "Ionization enthalpy",
+            "C": "Enthalpy change",
+            "D": "Enthalpic gas removal"
         },
         "correct_answer": "B",
         "topic": "Energetics/Thermochemistry",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "The fourteen elements (atomic number 90-103) after actinium are called?",
         "options": {
-            "A": "\n\n            Actinoids\n",
-            "B": "\n\n            Nucleotides\n",
-            "C": "\n\n            Pre-actinum elements\n",
-            "D": "\n\n            Atomic elements\n"
+            "A": "Actinoids",
+            "B": "Nucleotides",
+            "C": "Pre-actinum elements",
+            "D": "Atomic elements"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -707,12 +707,12 @@
         "subject": "Chemistry",
         "year": 2021,
         "number": "40",
-        "question": "The process by which salt and water reacted in a limited way to form an acid or a base is?",
+        "question": "The process by which salt and water reacted in a limited way to form an acid or a base is?",
         "options": {
-            "A": "\n\n            Neutral process\n",
-            "B": "\n\n            Basic acidic process\n",
-            "C": "\n\n            Hydrolysis\n",
-            "D": "\n\n            Sublimation\n"
+            "A": "Neutral process",
+            "B": "Basic acidic process",
+            "C": "Hydrolysis",
+            "D": "Sublimation"
         },
         "correct_answer": "C",
         "topic": "Acids/Bases/Salts",

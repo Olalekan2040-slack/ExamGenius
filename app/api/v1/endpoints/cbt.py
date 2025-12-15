@@ -18,6 +18,7 @@ from app.services.ai.gemini_service import (
     batch_generate_ai_questions
 )
 from app.services.analytics import AnalyticsService
+from app.utils.text_formatter import sanitize_question_data
 
 router = APIRouter(prefix="/cbt", tags=["CBT Exams"])
 
@@ -89,8 +90,8 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
             questions_for_subject = []
 
             if subject_position == 3:
-                # Slot 3: Generate AI questions
-                print(f"Generating AI questions for {subject}...")
+                # Slot 3: Try AI questions, fallback to DB on timeout/error
+                print(f"Attempting AI generation for {subject}...")
 
                 # Get sample questions for AI context
                 cursor.execute("""
@@ -109,47 +110,53 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
                     for row in cursor.fetchall()
                 ]
 
-                # Generate AI questions
+                # Generate AI questions (with built-in retry logic)
+                ai_questions = []
                 try:
                     ai_questions = batch_generate_ai_questions(
                         subject, "mixed", samples, count=40)
 
-                    for ai_q in ai_questions:
-                        # Insert into ai_generated_questions table
-                        ai_question_id = f"AI_{session_id}_{subject}_{ai_q['question_number']}"
+                    if ai_questions and len(ai_questions) >= 20:  # Got enough questions
+                        print(f"Generated {len(ai_questions)} AI questions")
+                        for ai_q in ai_questions:
+                            # Insert into ai_generated_questions table
+                            ai_question_id = f"AI_{session_id}_{subject}_{ai_q['question_number']}"
 
-                        cursor.execute("""
-                            INSERT INTO ai_generated_questions (
-                                id, subject, topic, question_text,
-                                option_a, option_b, option_c, option_d,
-                                correct_option, difficulty, explanation, generated_at
-                            )
-                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                        """, (
-                            ai_question_id, subject, ai_q.get(
-                                'topic', 'General'),
-                            ai_q['question_text'],
-                            ai_q['option_a'], ai_q['option_b'],
-                            ai_q['option_c'], ai_q['option_d'],
-                            ai_q['correct_option'], ai_q.get(
-                                'difficulty', 'medium'),
-                            ai_q.get('explanation', ''),
-                            datetime.utcnow().isoformat()
-                        ))
+                            cursor.execute("""
+                                INSERT INTO ai_generated_questions (
+                                    id, subject, topic, question_text,
+                                    option_a, option_b, option_c, option_d,
+                                    correct_option, difficulty, explanation, generated_at
+                                )
+                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                            """, (
+                                ai_question_id, subject, ai_q.get(
+                                    'topic', 'General'),
+                                ai_q['question_text'],
+                                ai_q['option_a'], ai_q['option_b'],
+                                ai_q['option_c'], ai_q['option_d'],
+                                ai_q['correct_option'], ai_q.get(
+                                    'difficulty', 'medium'),
+                                ai_q.get('explanation', ''),
+                                datetime.utcnow().isoformat()
+                            ))
 
-                        # Add to session
-                        cursor.execute("""
-                            INSERT INTO session_questions (
-                                session_id, question_id, subject, subject_position,
-                                question_number, generated_by
-                            )
-                            VALUES (?, ?, ?, ?, ?, 'ai')
-                        """, (session_id, ai_question_id, subject, subject_position, question_number))
+                            # Add to session
+                            cursor.execute("""
+                                INSERT INTO session_questions (
+                                    session_id, question_id, subject, subject_position,
+                                    question_number, generated_by
+                                )
+                                VALUES (?, ?, ?, ?, ?, 'ai')
+                            """, (session_id, ai_question_id, subject, subject_position, question_number))
 
-                        question_number += 1
+                            question_number += 1
+                    else:
+                        print(f"AI generated only {len(ai_questions)} questions, using DB fallback")
+                        raise Exception("Insufficient AI questions")
 
                 except Exception as e:
-                    print(f"AI generation failed, falling back to DB: {e}")
+                    print(f"AI generation failed ({str(e)}), using DB questions")
                     # Fallback: Use DB questions
                     cursor.execute("""
                         SELECT id FROM questions
@@ -282,7 +289,7 @@ async def get_cbt_questions(
 
                 q = cursor.fetchone()
                 if q:
-                    formatted.append({
+                    question_data = {
                         "question_id": q[0],
                         "question_number": row[1],
                         "subject": row[2],
@@ -296,7 +303,8 @@ async def get_cbt_questions(
                         "topic": q[7],
                         "generated_by": "ai",
                         "marked_for_review": bool(row[5])
-                    })
+                    }
+                    formatted.append(sanitize_question_data(question_data))
             else:
                 # Get DB question
                 cursor.execute("""
@@ -316,7 +324,7 @@ async def get_cbt_questions(
 
                     options = {opt[0]: opt[1] for opt in cursor.fetchall()}
 
-                    formatted.append({
+                    question_data = {
                         "question_id": q[0],
                         "question_number": row[1],
                         "subject": row[2],
@@ -326,7 +334,8 @@ async def get_cbt_questions(
                         "options": options,
                         "generated_by": "db",
                         "marked_for_review": bool(row[5])
-                    })
+                    }
+                    formatted.append(sanitize_question_data(question_data))
 
         return {
             "session_id": session_id,

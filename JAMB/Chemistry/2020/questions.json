@@ -5,12 +5,12 @@
         "subject": "Chemistry",
         "year": 2020,
         "number": "1",
-        "question": "The electronic configuration of an element is 1S\\(^2\\) 2S\\(^2\\) 2P\\(^6\\) 3S\\(^2\\) 3P\\(^3\\). How many unpaired electrons are there in the element?",
+        "question": "The electronic configuration of an element is 1S\\(^2\\) 2S\\(^2\\) 2P\\(^6\\) 3S\\(^2\\) 3P\\(^3\\). How many unpaired electrons are there in the element?",
         "options": {
-            "A": "\n\n            5\n",
-            "B": "\n\n            4\n",
-            "C": "\n\n            3\n",
-            "D": "\n\n            2\n"
+            "A": "5",
+            "B": "4",
+            "C": "3",
+            "D": "2"
         },
         "correct_answer": "C",
         "topic": "Periodic Table",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "Which of the following can be obtained by fractional distillation?",
         "options": {
-            "A": "\n\n            Nitrogen from liquid air\n",
-            "B": "\n\n            Sodium Chloride from sea water\n",
-            "C": "\n\n            Iodine from solution of Iodine in carbon tetrachloride\n",
-            "D": "\n\n            Sulphur from the solution of sulphur in carbon disulphide\n"
+            "A": "Nitrogen from liquid air",
+            "B": "Sodium Chloride from sea water",
+            "C": "Iodine from solution of Iodine in carbon tetrachloride",
+            "D": "Sulphur from the solution of sulphur in carbon disulphide"
         },
         "correct_answer": "A",
         "topic": "States of Matter",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "Duralumin consists of aluminum, copper?",
         "options": {
-            "A": "\n\n            Zinc and Gold\n",
-            "B": "\n\n            Lead and Manganese\n",
-            "C": "\n\n            Nickel and Silver\n",
-            "D": "\n\n            Manganese and Magnesium\n"
+            "A": "Zinc and Gold",
+            "B": "Lead and Manganese",
+            "C": "Nickel and Silver",
+            "D": "Manganese and Magnesium"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "An example of a polysaccharide is?",
         "options": {
-            "A": "\n\n            Dextrose\n",
-            "B": "\n\n            Mannose\n",
-            "C": "\n\n            Glucose\n",
-            "D": "\n\n            Starch\n"
+            "A": "Dextrose",
+            "B": "Mannose",
+            "C": "Glucose",
+            "D": "Starch"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -77,12 +77,12 @@
         "subject": "Chemistry",
         "year": 2020,
         "number": "5",
-        "question": "8g of CH\\(_4\\) occupies 11.2 at S.T.P. What volume would 22g of CH\\(_3\\)CH\\(_2\\)CH\\(_3\\) occupy under the same condition?",
+        "question": "8g of CH\\(_4\\) occupies 11.2 at S.T.P. What volume would 22g of CH\\(_3\\)CH\\(_2\\)CH\\(_3\\) occupy under the same condition?",
         "options": {
-            "A": "\n\n            3.7dm\\(^3\\)\n",
-            "B": "\n\n            11.2dm\\(^3\\)\n",
-            "C": "\n\n            22.4dm\\(^3\\)\n",
-            "D": "\n\n            33dm\\(^3\\)\n"
+            "A": "3.7dm\\(^3\\)",
+            "B": "11.2dm\\(^3\\)",
+            "C": "22.4dm\\(^3\\)",
+            "D": "33dm\\(^3\\)"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "The best treatment for a student who accidentally poured conc tetraoxosulphate(vi) on his skin in the laboratory is to wash his skin with?",
         "options": {
-            "A": "\n\n            with cool running water\n",
-            "B": "\n\n            sodium hydroxide solution\n",
-            "C": "\n\n            iodine solution\n",
-            "D": "\n\n            sodium trioxonitrate(v) solution\n"
+            "A": "with cool running water",
+            "B": "sodium hydroxide solution",
+            "C": "iodine solution",
+            "D": "sodium trioxonitrate(v) solution"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "Which of the gas laws does this graph illustrate?",
         "options": {
-            "A": "\n\n            Boyle\n",
-            "B": "\n\n            Charles\n",
-            "C": "\n\n            Gay-Lussac\n",
-            "D": "\n\n            Graham\n"
+            "A": "Boyle",
+            "B": "Charles",
+            "C": "Gay-Lussac",
+            "D": "Graham"
         },
         "correct_answer": "B",
         "topic": "States of Matter",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "What are the possible oxidation numbers of an element if its atomic number is 17?",
         "options": {
-            "A": "\n\n            -1 and 7\n",
-            "B": "\n\n            -1 and 6\n",
-            "C": "\n\n            -3 and 5\n",
-            "D": "\n\n            -2 and 6\n"
+            "A": "-1 and 7",
+            "B": "-1 and 6",
+            "C": "-3 and 5",
+            "D": "-2 and 6"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "What process would coal undergo to give coal gas, coal tar, ammoniacal liquor and coke?",
         "options": {
-            "A": "\n\n            Steam distillation\n",
-            "B": "\n\n            Destructive distillation\n",
-            "C": "\n\n            Liquefication\n",
-            "D": "\n\n            Hydrolysis\n"
+            "A": "Steam distillation",
+            "B": "Destructive distillation",
+            "C": "Liquefication",
+            "D": "Hydrolysis"
         },
         "correct_answer": "B",
         "topic": "States of Matter",
@@ -169,9 +169,9 @@
         "number": "10",
         "question": "Liquid black soap is made by boiling palm oil with liquid extract of ash. The function of the ash is to provide the ?",
         "options": {
-            "A": "\n\n            Acid\n",
-            "B": "\n\n            Ester of alkanoic acid\n",
-            "C": "\n\n            Alkanol\n"
+            "A": "Acid",
+            "B": "Ester of alkanoic acid",
+            "C": "Alkanol"
         },
         "correct_answer": "C",
         "topic": "States of Matter",
@@ -186,10 +186,10 @@
         "number": "11",
         "question": "When water drops are added to calcium carbide in a container and the gas produced is passed through a jet and lighted, the resultant flame is called an?",
         "options": {
-            "A": "\n\n            Oxyethene\n",
-            "B": "\n\n            Oxyhydrocarbon flame\n",
-            "C": "\n\n            Oxyacetylene flame\n",
-            "D": "\n\n            Oxymethane flame\n"
+            "A": "Oxyethene",
+            "B": "Oxyhydrocarbon flame",
+            "C": "Oxyacetylene flame",
+            "D": "Oxymethane flame"
         },
         "correct_answer": "C",
         "topic": "States of Matter",
@@ -204,10 +204,10 @@
         "number": "12",
         "question": "Which of the following substances is a mixture?",
         "options": {
-            "A": "\n\n            Granulated sugar\n",
-            "B": "\n\n            Seawater\n",
-            "C": "\n\n            Sodium chloride\n",
-            "D": "\n\n            Iron filling\n"
+            "A": "Granulated sugar",
+            "B": "Seawater",
+            "C": "Sodium chloride",
+            "D": "Iron filling"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -222,10 +222,10 @@
         "number": "13",
         "question": "If the quantity of oxygen occupying 2.76L container at a pressure of 0.825 atm and 300k is reduced by one-half, what is the pressure exerted by the remaining gas?",
         "options": {
-            "A": "\n\n            1.650atm\n",
-            "B": "\n\n            0.825atm\n",
-            "C": "\n\n            0.413atm\n",
-            "D": "\n\n            0.275atm\n"
+            "A": "1.650atm",
+            "B": "0.825atm",
+            "C": "0.413atm",
+            "D": "0.275atm"
         },
         "correct_answer": "A",
         "topic": "States of Matter",
@@ -240,10 +240,10 @@
         "number": "14",
         "question": "Four elements P, Q, R and S have atomic numbers of 4, 10, 12 and 14 respectively. Which of these elements is noble gas?",
         "options": {
-            "A": "\n\n            P\n",
-            "B": "\n\n            Q\n",
-            "C": "\n\n            R\n",
-            "D": "\n\n            S\n"
+            "A": "P",
+            "B": "Q",
+            "C": "R",
+            "D": "S"
         },
         "correct_answer": "B",
         "topic": "States of Matter",
@@ -258,10 +258,10 @@
         "number": "15",
         "question": "The products of the thermal decomposition of ammonium trioxonitrate(v) are?",
         "options": {
-            "A": "\n\n            Nitrogen (I) Oxide and Water\n",
-            "B": "\n\n            Ammonia and Oxide\n",
-            "C": "\n\n            Nitrogen and Water\n",
-            "D": "\n\n            Nitrogen (IV) Oxide and Water\n"
+            "A": "Nitrogen (I) Oxide and Water",
+            "B": "Ammonia and Oxide",
+            "C": "Nitrogen and Water",
+            "D": "Nitrogen (IV) Oxide and Water"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -274,12 +274,12 @@
         "subject": "Chemistry",
         "year": 2020,
         "number": "16",
-        "question": "How many valence electrons are contained in the element \\(^{31}_{15}P\\)?",
+        "question": "How many valence electrons are contained in the element \\(^3115P\\)?",
         "options": {
-            "A": "\n\n            3\n",
-            "B": "\n\n            4\n",
-            "C": "\n\n            15\n",
-            "D": "\n\n            31\n"
+            "A": "3",
+            "B": "4",
+            "C": "15",
+            "D": "31"
         },
         "correct_answer": "A",
         "topic": "Periodic Table",
@@ -292,12 +292,12 @@
         "subject": "Chemistry",
         "year": 2020,
         "number": "17",
-        "question": "The number of molecules of Carbon(iv)Oxide produced when 10.0g of CaCO\\(_3\\) is treated with 0.2dm\\(^3\\) of 1 Mole of HCL in the equation CaCO\\(_3\\) + 2HCL ⇒  CaCl\\(_2\\)  + H\\(_2\\) O + CO\\(_2\\)  , is?",
+        "question": "The number of molecules of Carbon(iv)Oxide produced when 10.0g of CaCO\\(_3\\) is treated with 0.2dm\\(^3\\) of 1 Mole of HCL in the equation CaCO\\(_3\\) + 2HCL \u21d2 CaCl\\(_2\\) + H\\(_2\\) O + CO\\(_2\\) , is?",
         "options": {
-            "A": "\n\n            1.00 X 10\\(^{23}\\)\n",
-            "B": "\n\n            6.02 X 10\\(^{23}\\)\n",
-            "C": "\n\n            6.02 X 10\\(^{22}\\)\n",
-            "D": "\n\n            6.02 X 10\\(^{24}\\)\n"
+            "A": "1.00 X 10\\(^23\\)",
+            "B": "6.02 X 10\\(^23\\)",
+            "C": "6.02 X 10\\(^22\\)",
+            "D": "6.02 X 10\\(^24\\)"
         },
         "correct_answer": "C",
         "topic": "Stoichiometry",
@@ -310,12 +310,12 @@
         "subject": "Chemistry",
         "year": 2020,
         "number": "18",
-        "question": "The volume occupied by 1.58g of a gas at S.T.P is 500cm\\(^3\\). What is the relative molecular mass of the gas?  [ G.M.V at S.T.P = 22.4dm\\(^{3}\\) ]",
+        "question": "The volume occupied by 1.58g of a gas at S.T.P is 500cm\\(^3\\). What is the relative molecular mass of the gas? [ G.M.V at S.T.P = 22.4dm\\(^3\\) ]",
         "options": {
-            "A": "\n\n            28\n",
-            "B": "\n\n            32\n",
-            "C": "\n\n            44\n",
-            "D": "\n\n            71\n"
+            "A": "28",
+            "B": "32",
+            "C": "44",
+            "D": "71"
         },
         "correct_answer": "D",
         "topic": "States of Matter",
@@ -330,9 +330,9 @@
         "number": "19",
         "question": "Which of the following gases will rekindle a brightly splint?",
         "options": {
-            "B": "\n\n            NO\n",
-            "C": "\n\n            N\\(_2\\)O\n",
-            "D": "\n\n            CL\\(_2\\)\n"
+            "B": "NO",
+            "C": "N\\(_2\\)O",
+            "D": "CL\\(_2\\)"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -347,10 +347,10 @@
         "number": "20",
         "question": "The shape of ammonia molecule is?",
         "options": {
-            "A": "\n\n            Trigonal planar\n",
-            "B": "\n\n            Octahedral\n",
-            "C": "\n\n            Square planar\n",
-            "D": "\n\n            Tetrahedral\n"
+            "A": "Trigonal planar",
+            "B": "Octahedral",
+            "C": "Square planar",
+            "D": "Tetrahedral"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -365,10 +365,10 @@
         "number": "21",
         "question": "A few drop of conc HCL are added to about 10cm\\(^3\\) of a solution of PH 3.4. The PH of the resulting mixture is?",
         "options": {
-            "A": "\n\n            less than 3.4\n",
-            "B": "\n\n            greater than 3.4\n",
-            "C": "\n\n            unaltered\n",
-            "D": "\n\n            the same as that of the pure water\n"
+            "A": "less than 3.4",
+            "B": "greater than 3.4",
+            "C": "unaltered",
+            "D": "the same as that of the pure water"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -383,10 +383,10 @@
         "number": "22",
         "question": "Chromatography is used to separate components of mixture which differ in their rates of ?",
         "options": {
-            "A": "\n\n            diffusion\n",
-            "B": "\n\n            migration\n",
-            "C": "\n\n            reaction\n",
-            "D": "\n\n            sedimentation\n"
+            "A": "diffusion",
+            "B": "migration",
+            "C": "reaction",
+            "D": "sedimentation"
         },
         "correct_answer": "B",
         "topic": "Rates of Reaction & Equilibrium",
@@ -401,10 +401,10 @@
         "number": "23",
         "question": "Deliquescent substances are also?",
         "options": {
-            "A": "\n\n            efflorescent\n",
-            "B": "\n\n            anhydrous\n",
-            "C": "\n\n            hygroscopic\n",
-            "D": "\n\n            insoluble\n"
+            "A": "efflorescent",
+            "B": "anhydrous",
+            "C": "hygroscopic",
+            "D": "insoluble"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -419,10 +419,10 @@
         "number": "24",
         "question": "Helium is used in observation of ballons because it is?",
         "options": {
-            "A": "\n\n            Light and combustible\n",
-            "B": "\n\n            light and non-combustible\n",
-            "C": "\n\n            heavy and combustible\n",
-            "D": "\n\n            heavy and non-combustible\n"
+            "A": "Light and combustible",
+            "B": "light and non-combustible",
+            "C": "heavy and combustible",
+            "D": "heavy and non-combustible"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -437,10 +437,10 @@
         "number": "25",
         "question": "32g of anhydrous copper(ii)tetraoxosulphate(vi) dissolved in 1dm\\(^3\\) of water generated 13.0kj of heat. The heat solution is?",
         "options": {
-            "A": "\n\n            26.0kj/mol\n",
-            "B": "\n\n            65.0kj/mol\n",
-            "C": "\n\n            130.0kj/mol\n",
-            "D": "\n\n            260.0kj/mol\n"
+            "A": "26.0kj/mol",
+            "B": "65.0kj/mol",
+            "C": "130.0kj/mol",
+            "D": "260.0kj/mol"
         },
         "correct_answer": "B",
         "topic": "Energetics/Thermochemistry",
@@ -455,10 +455,10 @@
         "number": "26",
         "question": "A gaseous metallic chloride MCl consists of 20.22% of M by mass. The formula of the chloride is? [ M = 27, Cl = 35.5]",
         "options": {
-            "A": "\n\n            MCl\n",
-            "B": "\n\n            MCl\\(_2\\)\n",
-            "C": "\n\n            MCl\\(_3\\)\n",
-            "D": "\n\n            M\\(_2\\)Cl\\(_6\\)\n"
+            "A": "MCl",
+            "B": "MCl\\(_2\\)",
+            "C": "MCl\\(_3\\)",
+            "D": "M\\(_2\\)Cl\\(_6\\)"
         },
         "correct_answer": "C",
         "topic": "Chemical Bonding",
@@ -473,10 +473,10 @@
         "number": "27",
         "question": "What quantity of electricity will liberate 0.125 mole of oxygen molecules during the electrolysis of dilute sodium chloride solution?",
         "options": {
-            "A": "\n\n            24,125 C\n",
-            "B": "\n\n            48,250 C\n",
-            "C": "\n\n            72,375 C\n",
-            "D": "\n\n            96,500 C\n"
+            "A": "24,125 C",
+            "B": "48,250 C",
+            "C": "72,375 C",
+            "D": "96,500 C"
         },
         "correct_answer": "B",
         "topic": "Stoichiometry",
@@ -491,10 +491,10 @@
         "number": "28",
         "question": "Which of the following types of bonding does not involve the formation of new substances?",
         "options": {
-            "A": "\n\n            Metallic\n",
-            "B": "\n\n            Covalent\n",
-            "C": "\n\n            Co-ordinate\n",
-            "D": "\n\n            Electrovalent\n"
+            "A": "Metallic",
+            "B": "Covalent",
+            "C": "Co-ordinate",
+            "D": "Electrovalent"
         },
         "correct_answer": "A",
         "topic": "Chemical Bonding",
@@ -509,10 +509,10 @@
         "number": "29",
         "question": "An organic compound that does not undergo a reaction with both hydrogen cyanide and hydroxylamine can be?",
         "options": {
-            "A": "\n\n            Alkene\n",
-            "B": "\n\n            Alkanal\n",
-            "C": "\n\n            Alkanone\n",
-            "D": "\n\n            Alkanoic Acid\n"
+            "A": "Alkene",
+            "B": "Alkanal",
+            "C": "Alkanone",
+            "D": "Alkanoic Acid"
         },
         "correct_answer": "A",
         "topic": "Rates of Reaction & Equilibrium",
@@ -527,10 +527,10 @@
         "number": "30",
         "question": "The substance often used for vulcanization of rubber is?",
         "options": {
-            "A": "\n\n            Chlorine\n",
-            "B": "\n\n            Hydrogen peroxide\n",
-            "C": "\n\n            Sulphur\n",
-            "D": "\n\n            Tetraoxosulphate(vi) acid\n"
+            "A": "Chlorine",
+            "B": "Hydrogen peroxide",
+            "C": "Sulphur",
+            "D": "Tetraoxosulphate(vi) acid"
         },
         "correct_answer": "C",
         "topic": "Acids/Bases/Salts",
@@ -545,10 +545,10 @@
         "number": "31",
         "question": "The chlorinated alkane often used industrially to remove grease is?",
         "options": {
-            "A": "\n\n            Tetrachloromethane\n",
-            "B": "\n\n            Chloromethane\n",
-            "C": "\n\n            Trichloromethane\n",
-            "D": "\n\n            Dichloromethane\n"
+            "A": "Tetrachloromethane",
+            "B": "Chloromethane",
+            "C": "Trichloromethane",
+            "D": "Dichloromethane"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -563,10 +563,10 @@
         "number": "32",
         "question": "What mass of water is produced when 8.0g of hydrogen reacts with excess oxygen?",
         "options": {
-            "A": "\n\n            8.0g\n",
-            "B": "\n\n            16.0g\n",
-            "C": "\n\n            36.0g\n",
-            "D": "\n\n            72.0g\n"
+            "A": "8.0g",
+            "B": "16.0g",
+            "C": "36.0g",
+            "D": "72.0g"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -581,10 +581,10 @@
         "number": "33",
         "question": "Proteins in acid solution undergo?",
         "options": {
-            "A": "\n\n            Substitution\n",
-            "B": "\n\n            Fermentation\n",
-            "C": "\n\n            Hydrolysis\n",
-            "D": "\n\n            Polymerisation\n"
+            "A": "Substitution",
+            "B": "Fermentation",
+            "C": "Hydrolysis",
+            "D": "Polymerisation"
         },
         "correct_answer": "C",
         "topic": "Acids/Bases/Salts",
@@ -597,12 +597,12 @@
         "subject": "Chemistry",
         "year": 2020,
         "number": "34",
-        "question": "The general formula for the Alkanals is?",
+        "question": "The general formula for the Alkanals is?",
         "options": {
-            "A": "\n\n            R\\(_2\\)CO\n",
-            "B": "\n\n            RCHO\n",
-            "C": "\n\n            ROH\n",
-            "D": "\n\n            RCOOR\n"
+            "A": "R\\(_2\\)CO",
+            "B": "RCHO",
+            "C": "ROH",
+            "D": "RCOOR"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -617,10 +617,10 @@
         "number": "35",
         "question": "When cathode rays are deflected onto the electrode of an electrometer, the instrument becomes?",
         "options": {
-            "A": "\n\n            Bipolar\n",
-            "B": "\n\n            Negatively charged\n",
-            "C": "\n\n            Positively charged\n",
-            "D": "\n\n            Neutral\n"
+            "A": "Bipolar",
+            "B": "Negatively charged",
+            "C": "Positively charged",
+            "D": "Neutral"
         },
         "correct_answer": "B",
         "topic": "Acids/Bases/Salts",
@@ -635,10 +635,10 @@
         "number": "36",
         "question": "When a solid substance disappears completely as a gas on heating, the substance is said to have undergone?",
         "options": {
-            "A": "\n\n            Sublimation\n",
-            "B": "\n\n            Crystallization\n",
-            "C": "\n\n            Distillation\n",
-            "D": "\n\n            Evaporation\n"
+            "A": "Sublimation",
+            "B": "Crystallization",
+            "C": "Distillation",
+            "D": "Evaporation"
         },
         "correct_answer": "A",
         "topic": "States of Matter",
@@ -653,10 +653,10 @@
         "number": "37",
         "question": "An electron can be added to a halogen atom to form a halide ion with?",
         "options": {
-            "A": "\n\n            8 valence electrons\n",
-            "B": "\n\n            7 valence electrons\n",
-            "C": "\n\n            2 valence electrons\n",
-            "D": "\n\n            3 valence electrons\n"
+            "A": "8 valence electrons",
+            "B": "7 valence electrons",
+            "C": "2 valence electrons",
+            "D": "3 valence electrons"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -671,10 +671,10 @@
         "number": "38",
         "question": "Aluminum hydroxide is used in the dyeing industry as a?",
         "options": {
-            "A": "\n\n            Dye\n",
-            "B": "\n\n            Dispersant\n",
-            "C": "\n\n            Salt\n",
-            "D": "\n\n            Mordant\n"
+            "A": "Dye",
+            "B": "Dispersant",
+            "C": "Salt",
+            "D": "Mordant"
         },
         "correct_answer": "D",
         "topic": "Acids/Bases/Salts",
@@ -689,10 +689,10 @@
         "number": "39",
         "question": "The most important element on the earth's crust is?",
         "options": {
-            "A": "\n\n            Nitrogen\n",
-            "B": "\n\n            Hydrogen\n",
-            "C": "\n\n            Oxygen\n",
-            "D": "\n\n            Fluorine\n"
+            "A": "Nitrogen",
+            "B": "Hydrogen",
+            "C": "Oxygen",
+            "D": "Fluorine"
         },
         "correct_answer": "C",
         "topic": "Periodic Table",
@@ -707,10 +707,10 @@
         "number": "40",
         "question": "To obtain pure carbon(ii)oxide from its mixture with carbon(iv)oxide, the mixture should be?",
         "options": {
-            "A": "\n\n            Passed over heated copper(ii)oxide\n",
-            "B": "\n\n            Bubbled through water\n",
-            "C": "\n\n            Bubbled through conc H\\(_2\\)SO\\(_4\\)\n",
-            "D": "\n\n            Bubbled through conc NAOH\n"
+            "A": "Passed over heated copper(ii)oxide",
+            "B": "Bubbled through water",
+            "C": "Bubbled through conc H\\(_2\\)SO\\(_4\\)",
+            "D": "Bubbled through conc NAOH"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",

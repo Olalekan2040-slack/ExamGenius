@@ -12,6 +12,7 @@ from app.db.database import get_connection
 from app.core.security import current_user_id
 from app.services.ai.gemini_service import generate_question_explanation
 from app.services.analytics import AnalyticsService
+from app.utils.text_formatter import sanitize_question_data
 
 router = APIRouter(prefix="/year-practice", tags=["Year Practice"])
 
@@ -128,7 +129,7 @@ async def get_year_practice_questions(
 
             options = {row[0]: row[1] for row in cursor.fetchall()}
 
-            formatted_questions.append({
+            question_data = {
                 "question_id": question_id,
                 "number": q[1],
                 "question": q[2],
@@ -138,7 +139,8 @@ async def get_year_practice_questions(
                 "year": q[6],
                 "subject": q[7],
                 "options": options
-            })
+            }
+            formatted_questions.append(sanitize_question_data(question_data))
 
         return {
             "subject": subject,
@@ -212,13 +214,8 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
             """, (question_id,))
             options = {row[0]: row[1] for row in cursor.fetchall()}
 
-            # Generate explanation
-            try:
-                explanation = generate_question_explanation(
-                    question_text, options, correct_answer, topic
-                )
-            except:
-                explanation = f"The correct answer is {correct_answer}."
+            # Quick deterministic explanation to avoid slow AI calls
+            explanation = f"The correct answer is {correct_answer}: {options.get(correct_answer, '')}"
 
             # Record attempt
             cursor.execute("""

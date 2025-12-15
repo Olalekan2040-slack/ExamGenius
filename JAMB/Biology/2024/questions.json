@@ -7,10 +7,10 @@
         "number": "1",
         "question": "The major building block of an organism is...",
         "options": {
-            "A": "\n\n            Nitrogen\n",
-            "B": "\n\n            Carbon\n",
-            "C": "\n\n            Water\n",
-            "D": "\n\n            Sulphur\n"
+            "A": "Nitrogen",
+            "B": "Carbon",
+            "C": "Water",
+            "D": "Sulphur"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "The process by which plants loss water to the atmosphere is",
         "options": {
-            "A": "\n\n            transpiration\n",
-            "B": "\n\n            guttation\n",
-            "C": "\n\n            translocation\n",
-            "D": "\n\n            evaporation\n"
+            "A": "transpiration",
+            "B": "guttation",
+            "C": "translocation",
+            "D": "evaporation"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "Use the diagram above to answer the question that follows The organism belongs to kingdom",
         "options": {
-            "A": "\n\n            monera\n",
-            "B": "\n\n            protista\n",
-            "C": "\n\n            fungi\n",
-            "D": "\n\n            animalia\n"
+            "A": "monera",
+            "B": "protista",
+            "C": "fungi",
+            "D": "animalia"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "The formation of cilia and flagella in living cells is carried out with the help of",
         "options": {
-            "A": "\n\n            ribosome\n",
-            "B": "\n\n            lysosome\n",
-            "C": "\n\n            centriole\n",
-            "D": "\n\n            plastid\n"
+            "A": "ribosome",
+            "B": "lysosome",
+            "C": "centriole",
+            "D": "plastid"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "The food nutrient with the highest energy value is",
         "options": {
-            "A": "\n\n            protein\n",
-            "B": "\n\n            carbohydrate\n",
-            "C": "\n\n            lipid\n",
-            "D": "\n\n            minerals\n"
+            "A": "protein",
+            "B": "carbohydrate",
+            "C": "lipid",
+            "D": "minerals"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -95,12 +95,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "6",
-        "question": "I 6 X  +  6 H\\(_2\\)O      →     C\\(_6\\)H\\(_{12}\\)O\\(_6\\)   +   6O\\(_2\\) III               chlorophyll      II               IV Use the diagram above to answer question that follows The part labelled I is",
+        "question": "I 6 X + 6 H\\(_2\\)O \u2192 C\\(_6\\)H\\(12\\)O\\(_6\\) + 6O\\(_2\\) III chlorophyll II IV Use the diagram above to answer question that follows The part labelled I is",
         "options": {
-            "A": "\n\n            enzyme\n",
-            "B": "\n\n            water\n",
-            "C": "\n\n            sunlight\n",
-            "D": "\n\n            chemical\n"
+            "A": "enzyme",
+            "B": "water",
+            "C": "sunlight",
+            "D": "chemical"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "Bilateral symmetry,cylindrical bodies and double openings are characteristic features of",
         "options": {
-            "A": "\n\n            nematodes\n",
-            "B": "\n\n            hydra\n",
-            "C": "\n\n            protozoa\n",
-            "D": "\n\n            protists\n"
+            "A": "nematodes",
+            "B": "hydra",
+            "C": "protozoa",
+            "D": "protists"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "Mouth part adapted for piercing and sucking is found in",
         "options": {
-            "A": "\n\n            housefly\n",
-            "B": "\n\n            grasshopper\n",
-            "C": "\n\n            mosquito\n",
-            "D": "\n\n            cockroach\n"
+            "A": "housefly",
+            "B": "grasshopper",
+            "C": "mosquito",
+            "D": "cockroach"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "The web-feet of frogs and toads is basically for",
         "options": {
-            "A": "\n\n            leaping\n",
-            "B": "\n\n            walking\n",
-            "C": "\n\n            swimming\n",
-            "D": "\n\n            mating\n"
+            "A": "leaping",
+            "B": "walking",
+            "C": "swimming",
+            "D": "mating"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "The part of the inner ear that is responsible for hearing is",
         "options": {
-            "A": "\n\n            sacculus\n",
-            "B": "\n\n            cochlea\n",
-            "C": "\n\n            utriculus\n",
-            "D": "\n\n            ampullae\n"
+            "A": "sacculus",
+            "B": "cochlea",
+            "C": "utriculus",
+            "D": "ampullae"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "The changes of living organisms over generation is referred to as",
         "options": {
-            "A": "\n\n            human evolution\n",
-            "B": "\n\n            organic evolution\n",
-            "C": "\n\n            physical evolution\n",
-            "D": "\n\n            chemical evolution\n"
+            "A": "human evolution",
+            "B": "organic evolution",
+            "C": "physical evolution",
+            "D": "chemical evolution"
         },
         "correct_answer": "B",
         "topic": "Genetics & Evolution",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "In a cross involving a heterozygous red flower plant (Rr) and a white flowered plant (rr). What is the probability that the offspring will be Rr?",
         "options": {
-            "A": "\n\n            \\(\\frac{1}{2}\\)\n",
-            "B": "\n\n            1\n",
-            "C": "\n\n            2\n",
-            "D": "\n\n            \\(\\frac{1}{4}\\)\n"
+            "A": "\\(1/2\\)",
+            "B": "1",
+            "C": "2",
+            "D": "\\(1/4\\)"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -223,10 +223,10 @@
         "number": "13",
         "question": "Inbreeding is highly discouraged in humans because it may",
         "options": {
-            "A": "\n\n            increase the death rate of new born\n",
-            "B": "\n\n            lead to the birth of dwarfs\n",
-            "C": "\n\n            lead to high rate of competition among offspring\n",
-            "D": "\n\n            lead to outbreak of hereditary diseases\n"
+            "A": "increase the death rate of new born",
+            "B": "lead to the birth of dwarfs",
+            "C": "lead to high rate of competition among offspring",
+            "D": "lead to outbreak of hereditary diseases"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -239,12 +239,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "14",
-        "question": "One main feature of trees in the savanna habitat is the possession of",
+        "question": "One main feature of trees in the savanna habitat is the possession of",
         "options": {
-            "A": "\n\n            large, leathery leaves\n",
-            "B": "\n\n            straight slender stems with branches near the top\n",
-            "C": "\n\n            thin, smooth barks\n",
-            "D": "\n\n            thick, corky bark\n"
+            "A": "large, leathery leaves",
+            "B": "straight slender stems with branches near the top",
+            "C": "thin, smooth barks",
+            "D": "thick, corky bark"
         },
         "correct_answer": "D",
         "topic": "Ecology",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "Use the diagram above to answer the question that follows The zone labelled II is called",
         "options": {
-            "A": "\n\n            supra-tidal zone\n",
-            "B": "\n\n            pelagic zone\n",
-            "C": "\n\n            littoral zone\n",
-            "D": "\n\n            benthic zone\n"
+            "A": "supra-tidal zone",
+            "B": "pelagic zone",
+            "C": "littoral zone",
+            "D": "benthic zone"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "Which of the following structures enables the exchange of gases in insects?",
         "options": {
-            "A": "\n\n            skin\n",
-            "B": "\n\n            tracheae\n",
-            "C": "\n\n            Malpighian tubules\n",
-            "D": "\n\n            flame cell\n"
+            "A": "skin",
+            "B": "tracheae",
+            "C": "Malpighian tubules",
+            "D": "flame cell"
         },
         "correct_answer": "B",
         "topic": "Cell Biology",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "The total number of ATP produced during glycolysis is",
         "options": {
-            "A": "\n\n            3 molecules\n",
-            "B": "\n\n            2 molecules\n",
-            "C": "\n\n            4 molecules\n",
-            "D": "\n\n            6 molecules\n"
+            "A": "3 molecules",
+            "B": "2 molecules",
+            "C": "4 molecules",
+            "D": "6 molecules"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "Use the diagram above to answer the question that follows The diagram above is",
         "options": {
-            "A": "\n\n            circulatory system\n",
-            "B": "\n\n            reproductive system\n",
-            "C": "\n\n            urinary system\n",
-            "D": "\n\n            nervous system\n"
+            "A": "circulatory system",
+            "B": "reproductive system",
+            "C": "urinary system",
+            "D": "nervous system"
         },
         "correct_answer": "C",
         "topic": "Organization of Life",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "Bile is a greenish alkaline liquid which is stored in the",
         "options": {
-            "A": "\n\n            gall bladder\n",
-            "B": "\n\n            liver\n",
-            "C": "\n\n            stomach\n",
-            "D": "\n\n            pancreas\n"
+            "A": "gall bladder",
+            "B": "liver",
+            "C": "stomach",
+            "D": "pancreas"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -347,12 +347,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "20",
-        "question": "A medium texture soil with high organic matter is",
+        "question": "A medium texture soil with high organic matter is",
         "options": {
-            "A": "\n\n            clay\n",
-            "B": "\n\n            loamy\n",
-            "C": "\n\n            humus\n",
-            "D": "\n\n            sandy\n"
+            "A": "clay",
+            "B": "loamy",
+            "C": "humus",
+            "D": "sandy"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "One of the following is an example of discontinuous variation",
         "options": {
-            "A": "\n\n            shape of the head\n",
-            "B": "\n\n            blood group\n",
-            "C": "\n\n            body complexion\n",
-            "D": "\n\n            pointed nose\n"
+            "A": "shape of the head",
+            "B": "blood group",
+            "C": "body complexion",
+            "D": "pointed nose"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "The type of variation where there are no remarkable differences between the two extreme individuals is called",
         "options": {
-            "A": "\n\n            continuous variation\n",
-            "B": "\n\n            morphological variation\n",
-            "C": "\n\n            physiological variation\n",
-            "D": "\n\n            discontinuous variation\n"
+            "A": "continuous variation",
+            "B": "morphological variation",
+            "C": "physiological variation",
+            "D": "discontinuous variation"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "The transmission of diseases through contamination of food is an economic importance of",
         "options": {
-            "A": "\n\n            mosquitoes\n",
-            "B": "\n\n            cockroaches\n",
-            "C": "\n\n            butterflies\n",
-            "D": "\n\n            bees\n"
+            "A": "mosquitoes",
+            "B": "cockroaches",
+            "C": "butterflies",
+            "D": "bees"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "Bryophyte is an intermediate group between higher algae and",
         "options": {
-            "A": "\n\n            thallophyte\n",
-            "B": "\n\n            pteridophyte\n",
-            "C": "\n\n            spermatophyte\n",
-            "D": "\n\n            tracheophyte\n"
+            "A": "thallophyte",
+            "B": "pteridophyte",
+            "C": "spermatophyte",
+            "D": "tracheophyte"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "Ecological succession can result from",
         "options": {
-            "A": "\n\n            newly formed habitat\n",
-            "B": "\n\n            habitat with abundant food\n",
-            "C": "\n\n            habitat with space and light\n",
-            "D": "\n\n            population of plants on a fertile land\n"
+            "A": "newly formed habitat",
+            "B": "habitat with abundant food",
+            "C": "habitat with space and light",
+            "D": "population of plants on a fertile land"
         },
         "correct_answer": "A",
         "topic": "Ecology",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "The first organism evolved from which of the following habitat?",
         "options": {
-            "A": "\n\n            terrestrial\n",
-            "B": "\n\n            arboreal\n",
-            "C": "\n\n            aquatic\n",
-            "D": "\n\n            desert\n"
+            "A": "terrestrial",
+            "B": "arboreal",
+            "C": "aquatic",
+            "D": "desert"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -475,10 +475,10 @@
         "number": "27",
         "question": "Which of these pair of substances must be present for a seed to germinate in a laboratory set-up?",
         "options": {
-            "A": "\n\n            microbes and water\n",
-            "B": "\n\n            heat and water\n",
-            "C": "\n\n            soil and manure\n",
-            "D": "\n\n            heat and microbe\n"
+            "A": "microbes and water",
+            "B": "heat and water",
+            "C": "soil and manure",
+            "D": "heat and microbe"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "A fruit formed from one flower with many carpels is referred to as",
         "options": {
-            "A": "\n\n            simple\n",
-            "B": "\n\n            multiple\n",
-            "C": "\n\n            aggregate\n",
-            "D": "\n\n            false\n"
+            "A": "simple",
+            "B": "multiple",
+            "C": "aggregate",
+            "D": "false"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -509,12 +509,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "29",
-        "question": "Which of the following plant is found in the ground layer of a tropical rainforest in Nigeria?",
+        "question": "Which of the following plant is found in the ground layer of a tropical rainforest in Nigeria?",
         "options": {
-            "A": "\n\n            obeche\n",
-            "B": "\n\n            liverwort\n",
-            "C": "\n\n            mahogany\n",
-            "D": "\n\n            oil palm\n"
+            "A": "obeche",
+            "B": "liverwort",
+            "C": "mahogany",
+            "D": "oil palm"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -527,12 +527,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "30",
-        "question": "Use the diagram above to answer the question that follows The endocrine gland that is located in the part labelled I is",
+        "question": "Use the diagram above to answer the question that follows The endocrine gland that is located in the part labelled I is",
         "options": {
-            "A": "\n\n            thyroid\n",
-            "B": "\n\n            adrenal\n",
-            "C": "\n\n            parathyroid\n",
-            "D": "\n\n            pituitary\n"
+            "A": "thyroid",
+            "B": "adrenal",
+            "C": "parathyroid",
+            "D": "pituitary"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "Which of the following processes takes place in the carbon cycle?",
         "options": {
-            "A": "\n\n            evaporation\n",
-            "B": "\n\n            nitrification\n",
-            "C": "\n\n            combustion\n",
-            "D": "\n\n            transpiration\n"
+            "A": "evaporation",
+            "B": "nitrification",
+            "C": "combustion",
+            "D": "transpiration"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "Which of the following plants shows hypogeal germination?",
         "options": {
-            "A": "\n\n            castor oil\n",
-            "B": "\n\n            groundnut\n",
-            "C": "\n\n            maize\n",
-            "D": "\n\n            orange\n"
+            "A": "castor oil",
+            "B": "groundnut",
+            "C": "maize",
+            "D": "orange"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "In vascular plants, xylem tissue is responsible for",
         "options": {
-            "A": "\n\n            transportation of water\n",
-            "B": "\n\n            translocation of food\n",
-            "C": "\n\n            transportation of hormones\n",
-            "D": "\n\n            storage of sugar\n"
+            "A": "transportation of water",
+            "B": "translocation of food",
+            "C": "transportation of hormones",
+            "D": "storage of sugar"
         },
         "correct_answer": "A",
         "topic": "Organization of Life",
@@ -601,10 +601,10 @@
         "number": "34",
         "question": "The causative agent of tuberculosis is",
         "options": {
-            "A": "\n\n            virus\n",
-            "B": "\n\n            bacteria\n",
-            "C": "\n\n            protozoa\n",
-            "D": "\n\n            fungi\n"
+            "A": "virus",
+            "B": "bacteria",
+            "C": "protozoa",
+            "D": "fungi"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "Which of these is a respiratory organ in mammals?",
         "options": {
-            "A": "\n\n            skin\n",
-            "B": "\n\n            mouth\n",
-            "C": "\n\n            heart\n",
-            "D": "\n\n            lungs\n"
+            "A": "skin",
+            "B": "mouth",
+            "C": "heart",
+            "D": "lungs"
         },
         "correct_answer": "D",
         "topic": "Organization of Life",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "Which of the Nigeria states is Northern guinea savanna located?",
         "options": {
-            "A": "\n\n            Borno\n",
-            "B": "\n\n            Kano\n",
-            "C": "\n\n            Oyo\n",
-            "D": "\n\n            Kwara\n"
+            "A": "Borno",
+            "B": "Kano",
+            "C": "Oyo",
+            "D": "Kwara"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "Darwin's theory of evolution is based on the principle of",
         "options": {
-            "A": "\n\n            use and disuse of organ\n",
-            "B": "\n\n            natural selection\n",
-            "C": "\n\n            acquired characteristics\n",
-            "D": "\n\n            mutation\n"
+            "A": "use and disuse of organ",
+            "B": "natural selection",
+            "C": "acquired characteristics",
+            "D": "mutation"
         },
         "correct_answer": "B",
         "topic": "Organization of Life",
@@ -673,10 +673,10 @@
         "number": "38",
         "question": "Similar structures that are modified to work in different ways in different organisms are referred to as",
         "options": {
-            "A": "\n\n            homologous structures\n",
-            "B": "\n\n            analogous structures\n",
-            "C": "\n\n            divergent structures\n",
-            "D": "\n\n            convergent structures\n"
+            "A": "homologous structures",
+            "B": "analogous structures",
+            "C": "divergent structures",
+            "D": "convergent structures"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "One of the ways of controlling Schistosomiasis is by",
         "options": {
-            "A": "\n\n            destroying water snails and water weeds\n",
-            "B": "\n\n            clearing the bushes around the house\n",
-            "C": "\n\n            washing hands after using the toilet\n",
-            "D": "\n\n            properly washing fruits before eating them\n"
+            "A": "destroying water snails and water weeds",
+            "B": "clearing the bushes around the house",
+            "C": "washing hands after using the toilet",
+            "D": "properly washing fruits before eating them"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -709,10 +709,10 @@
         "number": "40",
         "question": "The central nervous system comprises of",
         "options": {
-            "A": "\n\n            brain and somatic\n",
-            "B": "\n\n            brain and spinal cord\n",
-            "C": "\n\n            spinal cord and somatic\n",
-            "D": "\n\n            brain only\n"
+            "A": "brain and somatic",
+            "B": "brain and spinal cord",
+            "C": "spinal cord and somatic",
+            "D": "brain only"
         },
         "correct_answer": "B",
         "topic": "Organization of Life",
@@ -727,10 +727,10 @@
         "number": "41",
         "question": "Use the diagram above to answer the question that follows The organelle that shows the organism has plant characteristics is",
         "options": {
-            "A": "\n\n            I\n",
-            "B": "\n\n            II\n",
-            "C": "\n\n            III\n",
-            "D": "\n\n            IV\n"
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -745,10 +745,10 @@
         "number": "42",
         "question": "Reproduction in paramecium is by",
         "options": {
-            "A": "\n\n            binary fission\n",
-            "B": "\n\n            budding\n",
-            "C": "\n\n            spore formation\n",
-            "D": "\n\n            fragmentation\n"
+            "A": "binary fission",
+            "B": "budding",
+            "C": "spore formation",
+            "D": "fragmentation"
         },
         "correct_answer": "A",
         "topic": "Reproduction",
@@ -761,12 +761,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "43",
-        "question": "A community with a population of two million three hundred and ten thousand people living in an area of two thousand three hundred and ten square kilometres has a population density of",
+        "question": "A community with a population of two million three hundred and ten thousand people living in an area of two thousand three hundred and ten square kilometres has a population density of",
         "options": {
-            "A": "\n\n            10000\n",
-            "B": "\n\n            10\n",
-            "C": "\n\n            100\n",
-            "D": "\n\n            1000\n"
+            "A": "10000",
+            "B": "10",
+            "C": "100",
+            "D": "1000"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -779,12 +779,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "44",
-        "question": "A succession that occurs in an area where there are no pre-existing community is called",
+        "question": "A succession that occurs in an area where there are no pre-existing community is called",
         "options": {
-            "A": "\n\n            tertiary succession\n",
-            "B": "\n\n            primary succession\n",
-            "C": "\n\n            post-primary succession\n",
-            "D": "\n\n            secondary succession\n"
+            "A": "tertiary succession",
+            "B": "primary succession",
+            "C": "post-primary succession",
+            "D": "secondary succession"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -799,10 +799,10 @@
         "number": "45",
         "question": "Which of the following processes releases oxygen to the atmosphere?",
         "options": {
-            "A": "\n\n            Respiration\n",
-            "B": "\n\n            Combustion\n",
-            "C": "\n\n            Decomposition\n",
-            "D": "\n\n            photosynthesis\n"
+            "A": "Respiration",
+            "B": "Combustion",
+            "C": "Decomposition",
+            "D": "photosynthesis"
         },
         "correct_answer": "D",
         "topic": "Forms & Functions",
@@ -817,10 +817,10 @@
         "number": "46",
         "question": "The depressed side of paramecium which is lined with cilia leads to a tube-like structure called",
         "options": {
-            "A": "\n\n            anal pore\n",
-            "B": "\n\n            oral groove\n",
-            "C": "\n\n            gullet\n",
-            "D": "\n\n            food vacuole\n"
+            "A": "anal pore",
+            "B": "oral groove",
+            "C": "gullet",
+            "D": "food vacuole"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -833,12 +833,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "47",
-        "question": "The rhizoid of liverwort is",
+        "question": "The rhizoid of liverwort is",
         "options": {
-            "A": "\n\n            unicellular and unbranched\n",
-            "B": "\n\n            multicellular and branched\n",
-            "C": "\n\n            unicellular and branched\n",
-            "D": "\n\n            multicellular and unbranched\n"
+            "A": "unicellular and unbranched",
+            "B": "multicellular and branched",
+            "C": "unicellular and branched",
+            "D": "multicellular and unbranched"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -851,12 +851,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "48",
-        "question": "In glycolysis, glucose is broken down through series of reactions in the presence of enzyme and absence of oxygen to produce",
+        "question": "In glycolysis, glucose is broken down through series of reactions in the presence of enzyme and absence of oxygen to produce",
         "options": {
-            "A": "\n\n            Acetyl-coenzyme + ATP\n",
-            "B": "\n\n            Phosphorylated glucose\n",
-            "C": "\n\n            pyruvic acid + ATP\n",
-            "D": "\n\n            Amino acid\n"
+            "A": "Acetyl-coenzyme + ATP",
+            "B": "Phosphorylated glucose",
+            "C": "pyruvic acid + ATP",
+            "D": "Amino acid"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -871,10 +871,10 @@
         "number": "49",
         "question": "Gaseous exchange takes place through the plasma membrane in",
         "options": {
-            "A": "\n\n            hydra\n",
-            "B": "\n\n            paramecium\n",
-            "C": "\n\n            flatworm\n",
-            "D": "\n\n            earthworm\n"
+            "A": "hydra",
+            "B": "paramecium",
+            "C": "flatworm",
+            "D": "earthworm"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -889,10 +889,10 @@
         "number": "50",
         "question": "One of the characteristics of secondary succession is that it",
         "options": {
-            "A": "\n\n            starts on a bare surface\n",
-            "B": "\n\n            takes longer time to reach climax\n",
-            "C": "\n\n            starts on already colonized surface\n",
-            "D": "\n\n            starts with low organism\n"
+            "A": "starts on a bare surface",
+            "B": "takes longer time to reach climax",
+            "C": "starts on already colonized surface",
+            "D": "starts with low organism"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -907,10 +907,10 @@
         "number": "51",
         "question": "One of the components of xylem tissue is",
         "options": {
-            "A": "\n\n            companion cell\n",
-            "B": "\n\n            tracheid\n",
-            "C": "\n\n            sieve tube\n",
-            "D": "\n\n            epidermal\n"
+            "A": "companion cell",
+            "B": "tracheid",
+            "C": "sieve tube",
+            "D": "epidermal"
         },
         "correct_answer": "B",
         "topic": "Cell Biology",
@@ -925,10 +925,10 @@
         "number": "52",
         "question": "Which of the following statements explains the theory of natural selection?",
         "options": {
-            "A": "\n\n            There is no struggle for existence\n",
-            "B": "\n\n            New species get better adaptation\n",
-            "C": "\n\n            The weaker offspring are eliminated\n",
-            "D": "\n\n            Unused structures disappear later\n"
+            "A": "There is no struggle for existence",
+            "B": "New species get better adaptation",
+            "C": "The weaker offspring are eliminated",
+            "D": "Unused structures disappear later"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -943,10 +943,10 @@
         "number": "53",
         "question": "The chemical and physical composition of soil is an example of",
         "options": {
-            "A": "\n\n            climatic factor\n",
-            "B": "\n\n            topographic factor\n",
-            "C": "\n\n            Edaphic factor\n",
-            "D": "\n\n            chemical factor\n"
+            "A": "climatic factor",
+            "B": "topographic factor",
+            "C": "Edaphic factor",
+            "D": "chemical factor"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -959,12 +959,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "54",
-        "question": "The abiotic factor that affect the population growth of an organism is",
+        "question": "The abiotic factor that affect the population growth of an organism is",
         "options": {
-            "A": "\n\n            predator\n",
-            "B": "\n\n            rainfall\n",
-            "C": "\n\n            food shortage\n",
-            "D": "\n\n            disease\n"
+            "A": "predator",
+            "B": "rainfall",
+            "C": "food shortage",
+            "D": "disease"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -979,10 +979,10 @@
         "number": "55",
         "question": "The cells responsible for transmitting messages to the effectors are",
         "options": {
-            "A": "\n\n            motor neurons\n",
-            "B": "\n\n            sensory neurons\n",
-            "C": "\n\n            hair cells\n",
-            "D": "\n\n            relay neurons\n"
+            "A": "motor neurons",
+            "B": "sensory neurons",
+            "C": "hair cells",
+            "D": "relay neurons"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -997,10 +997,10 @@
         "number": "56",
         "question": "The oxygen transported to all parts of the body during blood circulation is used for the",
         "options": {
-            "A": "\n\n            growth and development of cells\n",
-            "B": "\n\n            removal of waste products\n",
-            "C": "\n\n            release of energy from food\n",
-            "D": "\n\n            formation of carboxyl haemoglobin\n"
+            "A": "growth and development of cells",
+            "B": "removal of waste products",
+            "C": "release of energy from food",
+            "D": "formation of carboxyl haemoglobin"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1015,10 +1015,10 @@
         "number": "57",
         "question": "After fertilization in plants, the zygote develops into",
         "options": {
-            "A": "\n\n            fruit\n",
-            "B": "\n\n            an embryo\n",
-            "C": "\n\n            seed\n",
-            "D": "\n\n            an endosperm\n"
+            "A": "fruit",
+            "B": "an embryo",
+            "C": "seed",
+            "D": "an endosperm"
         },
         "correct_answer": "B",
         "topic": "Reproduction",
@@ -1033,10 +1033,10 @@
         "number": "58",
         "question": "Use the diagram above to answer the question that follows The organ is responsible for",
         "options": {
-            "A": "\n\n            production of heat\n",
-            "B": "\n\n            osmoregulation\n",
-            "C": "\n\n            vasoconstriction\n",
-            "D": "\n\n            production of hormones\n"
+            "A": "production of heat",
+            "B": "osmoregulation",
+            "C": "vasoconstriction",
+            "D": "production of hormones"
         },
         "correct_answer": "B",
         "topic": "Organization of Life",
@@ -1051,10 +1051,10 @@
         "number": "59",
         "question": "Which of the following evidences of evolution employs the use of radio-isotope dating?",
         "options": {
-            "A": "\n\n            comparative anatomy\n",
-            "B": "\n\n            Embryology\n",
-            "C": "\n\n            Fossil records\n",
-            "D": "\n\n            vestigial organs\n"
+            "A": "comparative anatomy",
+            "B": "Embryology",
+            "C": "Fossil records",
+            "D": "vestigial organs"
         },
         "correct_answer": "C",
         "topic": "Genetics & Evolution",
@@ -1069,10 +1069,10 @@
         "number": "60",
         "question": "Pentadactyl forelimb of vertebrate function due to differences in environment is",
         "options": {
-            "A": "\n\n            comparative anatomy\n",
-            "B": "\n\n            physiological evidence\n",
-            "C": "\n\n            embryological evidence\n",
-            "D": "\n\n            fossil records\n"
+            "A": "comparative anatomy",
+            "B": "physiological evidence",
+            "C": "embryological evidence",
+            "D": "fossil records"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -1087,10 +1087,10 @@
         "number": "61",
         "question": "The feeding relationship between ruminants and the bacteria in their digestive tract is",
         "options": {
-            "A": "\n\n            saprophytic\n",
-            "B": "\n\n            parasitic\n",
-            "C": "\n\n            symbiotic\n",
-            "D": "\n\n            heterotrophic\n"
+            "A": "saprophytic",
+            "B": "parasitic",
+            "C": "symbiotic",
+            "D": "heterotrophic"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1105,10 +1105,10 @@
         "number": "62",
         "question": "A photosynthetic carnivorous plant which feeds on insects is",
         "options": {
-            "A": "\n\n            parasitic\n",
-            "B": "\n\n            saprophytic\n",
-            "C": "\n\n            herbivorous\n",
-            "D": "\n\n            insectivorous\n"
+            "A": "parasitic",
+            "B": "saprophytic",
+            "C": "herbivorous",
+            "D": "insectivorous"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -1123,10 +1123,10 @@
         "number": "63",
         "question": "Xerophytes are mostly found in the",
         "options": {
-            "A": "\n\n            arid land\n",
-            "B": "\n\n            tropical rainforest\n",
-            "C": "\n\n            montane forest\n",
-            "D": "\n\n            Sudan savanna\n"
+            "A": "arid land",
+            "B": "tropical rainforest",
+            "C": "montane forest",
+            "D": "Sudan savanna"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -1141,10 +1141,10 @@
         "number": "64",
         "question": "In which zone of the marine habitat does the organisms require adaptation for attachment?",
         "options": {
-            "A": "\n\n            Supratidal\n",
-            "B": "\n\n            Subtidal\n",
-            "C": "\n\n            intertidal\n",
-            "D": "\n\n            abyssal zone\n"
+            "A": "Supratidal",
+            "B": "Subtidal",
+            "C": "intertidal",
+            "D": "abyssal zone"
         },
         "correct_answer": "C",
         "topic": "Ecology",
@@ -1159,10 +1159,10 @@
         "number": "65",
         "question": "Energy transfer in plants and animals are in the form of",
         "options": {
-            "A": "\n\n            DNA\n",
-            "B": "\n\n            ATP\n",
-            "C": "\n\n            GTP\n",
-            "D": "\n\n            RNA\n"
+            "A": "DNA",
+            "B": "ATP",
+            "C": "GTP",
+            "D": "RNA"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1177,10 +1177,10 @@
         "number": "66",
         "question": "The pigment carrying oxygen in the blood is",
         "options": {
-            "A": "\n\n            plasma\n",
-            "B": "\n\n            haemoglobin\n",
-            "C": "\n\n            oxyhaemoglobin\n",
-            "D": "\n\n            erythrocytes\n"
+            "A": "plasma",
+            "B": "haemoglobin",
+            "C": "oxyhaemoglobin",
+            "D": "erythrocytes"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1195,10 +1195,10 @@
         "number": "67",
         "question": "Production of healthier offspring, viable seeds and formation of new varieties are good characteristics",
         "options": {
-            "A": "\n\n            self pollination\n",
-            "B": "\n\n            cross pollination\n",
-            "C": "\n\n            wind pollination\n",
-            "D": "\n\n            insect pollination\n"
+            "A": "self pollination",
+            "B": "cross pollination",
+            "C": "wind pollination",
+            "D": "insect pollination"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1211,12 +1211,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "68",
-        "question": "One of the following is a courtship behaviour in animals",
+        "question": "One of the following is a courtship behaviour in animals",
         "options": {
-            "A": "\n\n            fighting\n",
-            "B": "\n\n            display\n",
-            "C": "\n\n            hibernation\n",
-            "D": "\n\n            feeding\n"
+            "A": "fighting",
+            "B": "display",
+            "C": "hibernation",
+            "D": "feeding"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1231,10 +1231,10 @@
         "number": "69",
         "question": "In blood transfusion, a patient with group AB receives",
         "options": {
-            "A": "\n\n            Group A, B, AB\n",
-            "B": "\n\n            Group O, A, B\n",
-            "C": "\n\n            Group O, B, AB\n",
-            "D": "\n\n            Group O, A, B, AB\n"
+            "A": "Group A, B, AB",
+            "B": "Group O, A, B",
+            "C": "Group O, B, AB",
+            "D": "Group O, A, B, AB"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -1249,10 +1249,10 @@
         "number": "70",
         "question": "A trait that is always expressed during crossing of hereditary characteristics is",
         "options": {
-            "A": "\n\n            recessive trait\n",
-            "B": "\n\n            dominant trait\n",
-            "C": "\n\n            homozygous trait\n",
-            "D": "\n\n            heterozygous trait\n"
+            "A": "recessive trait",
+            "B": "dominant trait",
+            "C": "homozygous trait",
+            "D": "heterozygous trait"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1265,12 +1265,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "71",
-        "question": "Blood group AB is considered as universal recipient because they can receive blood from groups",
+        "question": "Blood group AB is considered as universal recipient because they can receive blood from groups",
         "options": {
-            "A": "\n\n            A and O\n",
-            "B": "\n\n            B and O\n",
-            "C": "\n\n            AB and O\n",
-            "D": "\n\n            A, B, AB and O\n"
+            "A": "A and O",
+            "B": "B and O",
+            "C": "AB and O",
+            "D": "A, B, AB and O"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -1285,10 +1285,10 @@
         "number": "72",
         "question": "An example of organism that exhibits counter-shading to escape from its predator is",
         "options": {
-            "A": "\n\n            grasshopper\n",
-            "B": "\n\n            toad\n",
-            "C": "\n\n            fish\n",
-            "D": "\n\n            chameleon\n"
+            "A": "grasshopper",
+            "B": "toad",
+            "C": "fish",
+            "D": "chameleon"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1301,12 +1301,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "73",
-        "question": "A form of adaptive colouration that helps animals to remain unnoticed is",
+        "question": "A form of adaptive colouration that helps animals to remain unnoticed is",
         "options": {
-            "A": "\n\n            hibernation\n",
-            "B": "\n\n            aestivation\n",
-            "C": "\n\n            countershading\n",
-            "D": "\n\n            migration\n"
+            "A": "hibernation",
+            "B": "aestivation",
+            "C": "countershading",
+            "D": "migration"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1319,12 +1319,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "74",
-        "question": "Use the diagram above to answer the question that follows The part labelled III is",
+        "question": "Use the diagram above to answer the question that follows The part labelled III is",
         "options": {
-            "A": "\n\n            abdomen\n",
-            "B": "\n\n            head\n",
-            "C": "\n\n            maxillae\n",
-            "D": "\n\n            thorax\n"
+            "A": "abdomen",
+            "B": "head",
+            "C": "maxillae",
+            "D": "thorax"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -1339,10 +1339,10 @@
         "number": "75",
         "question": "Lamarck's theory of evolution is based on the idea of",
         "options": {
-            "A": "\n\n            the inheritance of acquired traits\n",
-            "B": "\n\n            organisms' survival of the fittest\n",
-            "C": "\n\n            organisms constantly struggling for existence\n",
-            "D": "\n\n            plenty offspring produced by organisms\n"
+            "A": "the inheritance of acquired traits",
+            "B": "organisms' survival of the fittest",
+            "C": "organisms constantly struggling for existence",
+            "D": "plenty offspring produced by organisms"
         },
         "correct_answer": "A",
         "topic": "Genetics & Evolution",
@@ -1357,10 +1357,10 @@
         "number": "76",
         "question": "How many chromosomes will be present in a gamete if the somatic cell has 8 chromosomes?",
         "options": {
-            "A": "\n\n            16\n",
-            "B": "\n\n            6\n",
-            "C": "\n\n            4\n",
-            "D": "\n\n            8\n"
+            "A": "16",
+            "B": "6",
+            "C": "4",
+            "D": "8"
         },
         "correct_answer": "C",
         "topic": "Cell Biology",
@@ -1375,10 +1375,10 @@
         "number": "77",
         "question": "Use the diagram above to answer the question that follows What is the genotypic ratio of the offspring produced in F\\(_1\\) generation?",
         "options": {
-            "A": "\n\n            2:1:1\n",
-            "B": "\n\n            1:2:1\n",
-            "C": "\n\n            2:2\n",
-            "D": "\n\n            3:1\n"
+            "A": "2:1:1",
+            "B": "1:2:1",
+            "C": "2:2",
+            "D": "3:1"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1393,10 +1393,10 @@
         "number": "78",
         "question": "Body temperature, thirst and hunger are regulated by",
         "options": {
-            "A": "\n\n            thalamus\n",
-            "B": "\n\n            hypothalamus\n",
-            "C": "\n\n            medulla oblongata\n",
-            "D": "\n\n            spinal cord\n"
+            "A": "thalamus",
+            "B": "hypothalamus",
+            "C": "medulla oblongata",
+            "D": "spinal cord"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1409,12 +1409,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "79",
-        "question": "Cell division that involves the growth, development, repairs and replacement of worn out tissues is",
+        "question": "Cell division that involves the growth, development, repairs and replacement of worn out tissues is",
         "options": {
-            "A": "\n\n            biosynthesis\n",
-            "B": "\n\n            mitosis\n",
-            "C": "\n\n            meiosis\n",
-            "D": "\n\n            synthesis\n"
+            "A": "biosynthesis",
+            "B": "mitosis",
+            "C": "meiosis",
+            "D": "synthesis"
         },
         "correct_answer": "B",
         "topic": "Cell Biology",
@@ -1429,10 +1429,10 @@
         "number": "80",
         "question": "Use the diagram to answer the question that follows The flower of plants belongs to part labelled",
         "options": {
-            "A": "\n\n            I\n",
-            "B": "\n\n            II\n",
-            "C": "\n\n            III\n",
-            "D": "\n\n            IV\n"
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1447,10 +1447,10 @@
         "number": "81",
         "question": "The bacteria in the large intestine of man synthesizes",
         "options": {
-            "A": "\n\n            vitamins and minerals\n",
-            "B": "\n\n            vitamins and glucose\n",
-            "C": "\n\n            amino acids and vitamins\n",
-            "D": "\n\n            amino acids and minerals\n"
+            "A": "vitamins and minerals",
+            "B": "vitamins and glucose",
+            "C": "amino acids and vitamins",
+            "D": "amino acids and minerals"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1465,10 +1465,10 @@
         "number": "82",
         "question": "The main excretory product of earthworm is",
         "options": {
-            "A": "\n\n            ammonia\n",
-            "B": "\n\n            carbon dioxide\n",
-            "C": "\n\n            urea\n",
-            "D": "\n\n            uric acid\n"
+            "A": "ammonia",
+            "B": "carbon dioxide",
+            "C": "urea",
+            "D": "uric acid"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1481,12 +1481,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "83",
-        "question": "Which of the following conditions causes aestivation in animals?",
+        "question": "Which of the following conditions causes aestivation in animals?",
         "options": {
-            "A": "\n\n            Wind\n",
-            "B": "\n\n            Drought\n",
-            "C": "\n\n            Rain\n",
-            "D": "\n\n            Cold\n"
+            "A": "Wind",
+            "B": "Drought",
+            "C": "Rain",
+            "D": "Cold"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1501,10 +1501,10 @@
         "number": "84",
         "question": "An instrument used for measuring the intensity of light",
         "options": {
-            "A": "\n\n            thermometer\n",
-            "B": "\n\n            photometer\n",
-            "C": "\n\n            anemometer\n",
-            "D": "\n\n            hygrometer\n"
+            "A": "thermometer",
+            "B": "photometer",
+            "C": "anemometer",
+            "D": "hygrometer"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1519,10 +1519,10 @@
         "number": "85",
         "question": "A common component of blood and lymph is",
         "options": {
-            "A": "\n\n            fats\n",
-            "B": "\n\n            plasma\n",
-            "C": "\n\n            red blood cell\n",
-            "D": "\n\n            white blood cell\n"
+            "A": "fats",
+            "B": "plasma",
+            "C": "red blood cell",
+            "D": "white blood cell"
         },
         "correct_answer": "D",
         "topic": "Cell Biology",
@@ -1537,10 +1537,10 @@
         "number": "86",
         "question": "The part of the kidney where the selective reabsorption takes place is",
         "options": {
-            "A": "\n\n            glomerulus\n",
-            "B": "\n\n            Bowman's capsule\n",
-            "C": "\n\n            Henle's loop\n",
-            "D": "\n\n            urethra\n"
+            "A": "glomerulus",
+            "B": "Bowman's capsule",
+            "C": "Henle's loop",
+            "D": "urethra"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1555,10 +1555,10 @@
         "number": "87",
         "question": "The schlerenchyma tissues consist of",
         "options": {
-            "A": "\n\n            dead cell\n",
-            "B": "\n\n            living cell\n",
-            "C": "\n\n            tracheid cell\n",
-            "D": "\n\n            meristematic cell\n"
+            "A": "dead cell",
+            "B": "living cell",
+            "C": "tracheid cell",
+            "D": "meristematic cell"
         },
         "correct_answer": "A",
         "topic": "Cell Biology",
@@ -1573,10 +1573,10 @@
         "number": "88",
         "question": "The number of vertebrae in the human vertebral column is",
         "options": {
-            "A": "\n\n            30\n",
-            "B": "\n\n            33\n",
-            "C": "\n\n            38\n",
-            "D": "\n\n            39\n"
+            "A": "30",
+            "B": "33",
+            "C": "38",
+            "D": "39"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1591,10 +1591,10 @@
         "number": "89",
         "question": "The organisms that adopt swarming as an adaptation to overcome overcrowding are",
         "options": {
-            "A": "\n\n            Agama lizard\n",
-            "B": "\n\n            tilapia\n",
-            "C": "\n\n            rats\n",
-            "D": "\n\n            termites\n"
+            "A": "Agama lizard",
+            "B": "tilapia",
+            "C": "rats",
+            "D": "termites"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -1609,10 +1609,10 @@
         "number": "90",
         "question": "Loamy soil is characterized by",
         "options": {
-            "A": "\n\n            low humus and high porosity\n",
-            "B": "\n\n            high humus and high porosity\n",
-            "C": "\n\n            moderate humus and low porosity\n",
-            "D": "\n\n            high humus and moderate porosity\n"
+            "A": "low humus and high porosity",
+            "B": "high humus and high porosity",
+            "C": "moderate humus and low porosity",
+            "D": "high humus and moderate porosity"
         },
         "correct_answer": "D",
         "topic": "Variety of Organisms",
@@ -1627,10 +1627,10 @@
         "number": "91",
         "question": "The cone in the retina of eye is an example of",
         "options": {
-            "A": "\n\n            cell\n",
-            "B": "\n\n            tissue\n",
-            "C": "\n\n            organ\n",
-            "D": "\n\n            system\n"
+            "A": "cell",
+            "B": "tissue",
+            "C": "organ",
+            "D": "system"
         },
         "correct_answer": "A",
         "topic": "Organization of Life",
@@ -1645,10 +1645,10 @@
         "number": "92",
         "question": "The part of the flower that develops into seed is",
         "options": {
-            "A": "\n\n            ovule\n",
-            "B": "\n\n            pedicel\n",
-            "C": "\n\n            petal\n",
-            "D": "\n\n            style\n"
+            "A": "ovule",
+            "B": "pedicel",
+            "C": "petal",
+            "D": "style"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -1663,10 +1663,10 @@
         "number": "93",
         "question": "Which of these is a medium of transportation in plants?",
         "options": {
-            "A": "\n\n            cell sap\n",
-            "B": "\n\n            Nucleus\n",
-            "C": "\n\n            Mitochondrion\n",
-            "D": "\n\n            Ribosome\n"
+            "A": "cell sap",
+            "B": "Nucleus",
+            "C": "Mitochondrion",
+            "D": "Ribosome"
         },
         "correct_answer": "A",
         "topic": "Cell Biology",
@@ -1681,10 +1681,10 @@
         "number": "94",
         "question": "Which of the following is a viral disease?",
         "options": {
-            "A": "\n\n            Syphilis\n",
-            "B": "\n\n            Measles\n",
-            "C": "\n\n            Cholera\n",
-            "D": "\n\n            Typhoid\n"
+            "A": "Syphilis",
+            "B": "Measles",
+            "C": "Cholera",
+            "D": "Typhoid"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1699,10 +1699,10 @@
         "number": "95",
         "question": "Use the diagram above to answer the question that follows The experiment is set up to determine the presence of",
         "options": {
-            "A": "\n\n            chlorophyll\n",
-            "B": "\n\n            starch\n",
-            "C": "\n\n            oxygen\n",
-            "D": "\n\n            pigment\n"
+            "A": "chlorophyll",
+            "B": "starch",
+            "C": "oxygen",
+            "D": "pigment"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1715,12 +1715,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "96",
-        "question": "The type of circulatory system found in arthropods and some molluscs is",
+        "question": "The type of circulatory system found in arthropods and some molluscs is",
         "options": {
-            "A": "\n\n            open circulatory system\n",
-            "B": "\n\n            closed circulatory system\n",
-            "C": "\n\n            single circulatory system\n",
-            "D": "\n\n            double circulatory system\n"
+            "A": "open circulatory system",
+            "B": "closed circulatory system",
+            "C": "single circulatory system",
+            "D": "double circulatory system"
         },
         "correct_answer": "A",
         "topic": "Organization of Life",
@@ -1735,10 +1735,10 @@
         "number": "97",
         "question": "In plants, the main excretory product produced during metabolism is",
         "options": {
-            "A": "\n\n            oxygen\n",
-            "B": "\n\n            alkaloids\n",
-            "C": "\n\n            carbon(iv)oxide\n",
-            "D": "\n\n            mucilage\n"
+            "A": "oxygen",
+            "B": "alkaloids",
+            "C": "carbon(iv)oxide",
+            "D": "mucilage"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1753,10 +1753,10 @@
         "number": "98",
         "question": "Use the diagram above to answer the questions that follow The part labelled I is",
         "options": {
-            "A": "\n\n            oviduct\n",
-            "B": "\n\n            placenta\n",
-            "C": "\n\n            amnion\n",
-            "D": "\n\n            uterus\n"
+            "A": "oviduct",
+            "B": "placenta",
+            "C": "amnion",
+            "D": "uterus"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -1771,10 +1771,10 @@
         "number": "99",
         "question": "Comparative anatomy to study evidence for evolution depends on",
         "options": {
-            "A": "\n\n            four fingered\n",
-            "B": "\n\n            three fingered\n",
-            "C": "\n\n            two fingered\n",
-            "D": "\n\n            five fingered\n"
+            "A": "four fingered",
+            "B": "three fingered",
+            "C": "two fingered",
+            "D": "five fingered"
         },
         "correct_answer": "D",
         "topic": "Genetics & Evolution",
@@ -1789,10 +1789,10 @@
         "number": "100",
         "question": "Iron is an essential nutrient in plants because it",
         "options": {
-            "A": "\n\n            aids in the formation of chlorophyll and proteins\n",
-            "B": "\n\n            helps in cell division\n",
-            "C": "\n\n            protects the plants from pest attack\n",
-            "D": "\n\n            fastens fruits maturation\n"
+            "A": "aids in the formation of chlorophyll and proteins",
+            "B": "helps in cell division",
+            "C": "protects the plants from pest attack",
+            "D": "fastens fruits maturation"
         },
         "correct_answer": "A",
         "topic": "Cell Biology",
@@ -1807,10 +1807,10 @@
         "number": "101",
         "question": "The endocrine gland that is called the master gland is the",
         "options": {
-            "A": "\n\n            thyroid gland\n",
-            "B": "\n\n            pancreas\n",
-            "C": "\n\n            pituitary gland\n",
-            "D": "\n\n            adrenal gland\n"
+            "A": "thyroid gland",
+            "B": "pancreas",
+            "C": "pituitary gland",
+            "D": "adrenal gland"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1825,10 +1825,10 @@
         "number": "102",
         "question": "Which of the following characteristics is possessed by both living and non-living things?",
         "options": {
-            "A": "\n\n            Both age and die\n",
-            "B": "\n\n            Both have life\n",
-            "C": "\n\n            Both have weight\n",
-            "D": "\n\n            Both have no shape\n"
+            "A": "Both age and die",
+            "B": "Both have life",
+            "C": "Both have weight",
+            "D": "Both have no shape"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1843,10 +1843,10 @@
         "number": "103",
         "question": "Infectious diseases are caused by",
         "options": {
-            "A": "\n\n            bacteria\n",
-            "B": "\n\n            protists\n",
-            "C": "\n\n            Amoeba\n",
-            "D": "\n\n            protozoa\n"
+            "A": "bacteria",
+            "B": "protists",
+            "C": "Amoeba",
+            "D": "protozoa"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -1861,10 +1861,10 @@
         "number": "104",
         "question": "The cell organelle responsible for the synthesis of protein is the",
         "options": {
-            "A": "\n\n            centriole\n",
-            "B": "\n\n            vacuole\n",
-            "C": "\n\n            plastid\n",
-            "D": "\n\n            ribosome\n"
+            "A": "centriole",
+            "B": "vacuole",
+            "C": "plastid",
+            "D": "ribosome"
         },
         "correct_answer": "D",
         "topic": "Cell Biology",
@@ -1879,10 +1879,10 @@
         "number": "105",
         "question": "Use the diagram above to answer the question that follows The diagram demonstrates",
         "options": {
-            "A": "\n\n            thigmotropism\n",
-            "B": "\n\n            phototropism\n",
-            "C": "\n\n            geotropism\n",
-            "D": "\n\n            hydrotropism\n"
+            "A": "thigmotropism",
+            "B": "phototropism",
+            "C": "geotropism",
+            "D": "hydrotropism"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1897,10 +1897,10 @@
         "number": "106",
         "question": "Which of the following factors can lead to overcrowding?",
         "options": {
-            "A": "\n\n            Emigration\n",
-            "B": "\n\n            Competition\n",
-            "C": "\n\n            High natality\n",
-            "D": "\n\n            High mortality\n"
+            "A": "Emigration",
+            "B": "Competition",
+            "C": "High natality",
+            "D": "High mortality"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1915,10 +1915,10 @@
         "number": "107",
         "question": "The common examples of trees found in the desert are",
         "options": {
-            "A": "\n\n            raffia palm and coconut\n",
-            "B": "\n\n            baobab and cacti\n",
-            "C": "\n\n            white and red mangrove\n",
-            "D": "\n\n            shea-butter and isobelina\n"
+            "A": "raffia palm and coconut",
+            "B": "baobab and cacti",
+            "C": "white and red mangrove",
+            "D": "shea-butter and isobelina"
         },
         "correct_answer": "B",
         "topic": "Variety of Organisms",
@@ -1933,10 +1933,10 @@
         "number": "108",
         "question": "If the F1 generation allows for self-pollination, what will be the genotypic ratio of the offspring?",
         "options": {
-            "A": "\n\n            1 : 2 : 1\n",
-            "B": "\n\n            2 : 2\n",
-            "C": "\n\n            3 : 1\n",
-            "D": "\n\n            2 : 1 : 1\n"
+            "A": "1 : 2 : 1",
+            "B": "2 : 2",
+            "C": "3 : 1",
+            "D": "2 : 1 : 1"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -1951,10 +1951,10 @@
         "number": "109",
         "question": "The resemblance of an organism to another organism as means of enhancing it's chances of survival in its habitat is known as",
         "options": {
-            "A": "\n\n            counter shading\n",
-            "B": "\n\n            protective colouration\n",
-            "C": "\n\n            mimicry\n",
-            "D": "\n\n            warning\n"
+            "A": "counter shading",
+            "B": "protective colouration",
+            "C": "mimicry",
+            "D": "warning"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1967,12 +1967,12 @@
         "subject": "Biology",
         "year": 2024,
         "number": "110",
-        "question": "The urinary tubules opens into a proximal convoluted tubule coils to form distal by making a",
+        "question": "The urinary tubules opens into a proximal convoluted tubule coils to form distal by making a",
         "options": {
-            "A": "\n\n            Z- shaped loop\n",
-            "B": "\n\n            L- shaped loop\n",
-            "C": "\n\n            U- shaped loop\n",
-            "D": "\n\n            I- shaped loop\n"
+            "A": "Z- shaped loop",
+            "B": "L- shaped loop",
+            "C": "U- shaped loop",
+            "D": "I- shaped loop"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -1987,10 +1987,10 @@
         "number": "111",
         "question": "A discontinuous morphological variation often used in crime detection is the",
         "options": {
-            "A": "\n\n            skin colour\n",
-            "B": "\n\n            blood group\n",
-            "C": "\n\n            finger prints\n",
-            "D": "\n\n            eye colour\n"
+            "A": "skin colour",
+            "B": "blood group",
+            "C": "finger prints",
+            "D": "eye colour"
         },
         "correct_answer": "C",
         "topic": "Variety of Organisms",
@@ -2005,10 +2005,10 @@
         "number": "112",
         "question": "The component that serves as major buffer in blood is",
         "options": {
-            "A": "\n\n            plasma\n",
-            "B": "\n\n            erythrocytes\n",
-            "C": "\n\n            leucocytes\n",
-            "D": "\n\n            lymph\n"
+            "A": "plasma",
+            "B": "erythrocytes",
+            "C": "leucocytes",
+            "D": "lymph"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -2023,10 +2023,10 @@
         "number": "113",
         "question": "DNA carries the genetic information and are generally found in the",
         "options": {
-            "A": "\n\n            ribosomes\n",
-            "B": "\n\n            chromosomes\n",
-            "C": "\n\n            blood\n",
-            "D": "\n\n            enzymes\n"
+            "A": "ribosomes",
+            "B": "chromosomes",
+            "C": "blood",
+            "D": "enzymes"
         },
         "correct_answer": "B",
         "topic": "Genetics & Evolution",
@@ -2041,10 +2041,10 @@
         "number": "114",
         "question": "Use the diagram above to answer the question that follows: Recombination of genes at fertilization is represented by the part labelled",
         "options": {
-            "A": "\n\n            I\n",
-            "B": "\n\n            II\n",
-            "C": "\n\n            III\n",
-            "D": "\n\n            IV\n"
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV"
         },
         "correct_answer": "C",
         "topic": "Reproduction",
@@ -2059,10 +2059,10 @@
         "number": "115",
         "question": "Hemophilia in humans is controlled by the",
         "options": {
-            "A": "\n\n            blood group\n",
-            "B": "\n\n            dominant gene\n",
-            "C": "\n\n            rhesus factor\n",
-            "D": "\n\n            recessive gene\n"
+            "A": "blood group",
+            "B": "dominant gene",
+            "C": "rhesus factor",
+            "D": "recessive gene"
         },
         "correct_answer": "D",
         "topic": "Genetics & Evolution",
@@ -2077,10 +2077,10 @@
         "number": "116",
         "question": "The part of the brain that receives sensory impulses of smell is the",
         "options": {
-            "A": "\n\n            olfactory lobe\n",
-            "B": "\n\n            medulla oblongata\n",
-            "C": "\n\n            cerebrum\n",
-            "D": "\n\n            Cerebellum\n"
+            "A": "olfactory lobe",
+            "B": "medulla oblongata",
+            "C": "cerebrum",
+            "D": "Cerebellum"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",
@@ -2095,10 +2095,10 @@
         "number": "117",
         "question": "Use the diagram above to answer the question that follows. Examples of non-vascular plants are labelled",
         "options": {
-            "A": "\n\n            I and II\n",
-            "B": "\n\n            I and III\n",
-            "C": "\n\n            II and III\n",
-            "D": "\n\n            II and IV\n"
+            "A": "I and II",
+            "B": "I and III",
+            "C": "II and III",
+            "D": "II and IV"
         },
         "correct_answer": "A",
         "topic": "Variety of Organisms",

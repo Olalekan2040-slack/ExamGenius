@@ -7,10 +7,10 @@
         "number": "1",
         "question": "Marginal cost is?",
         "options": {
-            "A": "\n\n            the lowest cost of producing goods\n",
-            "B": "\n\n            the cost of production of the most efficient firm in an industry\n",
-            "C": "\n\n            the cost of production of the most inefficient firm in an industry\n",
-            "D": "\n\n            the cost of production of the last or extra unit of goods produced by a firm\n"
+            "A": "the lowest cost of producing goods",
+            "B": "the cost of production of the most efficient firm in an industry",
+            "C": "the cost of production of the most inefficient firm in an industry",
+            "D": "the cost of production of the last or extra unit of goods produced by a firm"
         },
         "correct_answer": "D",
         "topic": "Theory of Production",
@@ -25,11 +25,11 @@
         "number": "2",
         "question": "The price mechanism",
         "options": {
-            "A": "\n\n            regulates supply and demand\n",
-            "B": "\n\n            rations the consumers\n",
-            "C": "\n\n            rewards the producers\n",
-            "D": "\n\n            allocates scarce resources\n",
-            "E": "\n\n            does all of the above\n"
+            "A": "regulates supply and demand",
+            "B": "rations the consumers",
+            "C": "rewards the producers",
+            "D": "allocates scarce resources",
+            "E": "does all of the above"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -42,12 +42,12 @@
         "subject": "Economics",
         "year": 2022,
         "number": "3",
-        "question": "In a free market economy, the rationing of scarce goods is done principally by?",
+        "question": "In a free market economy, the rationing of scarce goods is done principally by?",
         "options": {
-            "A": "\n\n            the government\n",
-            "B": "\n\n            business organizations\n",
-            "C": "\n\n            the price mechanism\n",
-            "D": "\n\n            consumers\n"
+            "A": "the government",
+            "B": "business organizations",
+            "C": "the price mechanism",
+            "D": "consumers"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -62,10 +62,10 @@
         "number": "4",
         "question": "Scale of preference shows",
         "options": {
-            "A": "\n\n            incomes of consumers in order of size\n",
-            "B": "\n\n            utilities enjoyed by consumers\n",
-            "C": "\n\n            opportunity cost of goods consumed\n",
-            "D": "\n\n            consumer's wants in order of priority\n"
+            "A": "incomes of consumers in order of size",
+            "B": "utilities enjoyed by consumers",
+            "C": "opportunity cost of goods consumed",
+            "D": "consumer's wants in order of priority"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -80,10 +80,10 @@
         "number": "5",
         "question": "There is unemployment of resources when production is",
         "options": {
-            "A": "\n\n            within the production possibility curve\n",
-            "B": "\n\n            outside the production possibility curve\n",
-            "C": "\n\n            along the production possibility curve\n",
-            "D": "\n\n            adequate to meet market demand\n"
+            "A": "within the production possibility curve",
+            "B": "outside the production possibility curve",
+            "C": "along the production possibility curve",
+            "D": "adequate to meet market demand"
         },
         "correct_answer": "A",
         "topic": "Theory of Production",
@@ -96,12 +96,12 @@
         "subject": "Economics",
         "year": 2022,
         "number": "6",
-        "question": "A major characteristic of natural resources is they",
+        "question": "A major characteristic of natural resources is they",
         "options": {
-            "A": "\n\n            are unlimited in supply\n",
-            "B": "\n\n            have high cost of production\n",
-            "C": "\n\n            are free gifts of nature\n",
-            "D": "\n\n            do not command any price\n"
+            "A": "are unlimited in supply",
+            "B": "have high cost of production",
+            "C": "are free gifts of nature",
+            "D": "do not command any price"
         },
         "correct_answer": "C",
         "topic": "Demand & Supply",
@@ -116,10 +116,10 @@
         "number": "7",
         "question": "A major disadvantage of a capitalist economy is that it",
         "options": {
-            "A": "\n\n            leads to low production of goods and services\n",
-            "B": "\n\n            requires large number of officials to operate\n",
-            "C": "\n\n            considers individual consumers' satisfaction\n",
-            "D": "\n\n            worsens income inequality among the citizens\n"
+            "A": "leads to low production of goods and services",
+            "B": "requires large number of officials to operate",
+            "C": "considers individual consumers' satisfaction",
+            "D": "worsens income inequality among the citizens"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -134,10 +134,10 @@
         "number": "8",
         "question": "The mining sector of an economy contributes 60% to the Gross Domestic Product(GDP). If the GDP is $540, what is the contribution of the mining sector?",
         "options": {
-            "A": "\n\n            $ 90.00\n",
-            "B": "\n\n            $ 180.00\n",
-            "C": "\n\n            $ 324.00\n",
-            "D": "\n\n            $ 350.00\n"
+            "A": "$ 90.00",
+            "B": "$ 180.00",
+            "C": "$ 324.00",
+            "D": "$ 350.00"
         },
         "correct_answer": "C",
         "topic": "National Income",
@@ -152,10 +152,10 @@
         "number": "9",
         "question": "The increase in the demand for a commodity may lead to a decrease in the demand for another if both are",
         "options": {
-            "A": "\n\n            in complementary demand\n",
-            "B": "\n\n            of the same quality\n",
-            "C": "\n\n            in composite demand\n",
-            "D": "\n\n            in competitive demand\n"
+            "A": "in complementary demand",
+            "B": "of the same quality",
+            "C": "in composite demand",
+            "D": "in competitive demand"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -170,10 +170,10 @@
         "number": "10",
         "question": "The demand curve for goods of ostentation is usually",
         "options": {
-            "A": "\n\n            negatively sloped\n",
-            "B": "\n\n            positively sloped\n",
-            "C": "\n\n            vertical\n",
-            "D": "\n\n            horizontal\n"
+            "A": "negatively sloped",
+            "B": "positively sloped",
+            "C": "vertical",
+            "D": "horizontal"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -188,10 +188,10 @@
         "number": "11",
         "question": "PN equals average revenue or marginal revenue cure of",
         "options": {
-            "A": "\n\n            An imperfect competitive firm\n",
-            "B": "\n\n            a monopoly\n",
-            "C": "\n\n            a perfectly competitive firm\n",
-            "D": "\n\n            a monopolistic competitive firm\n"
+            "A": "An imperfect competitive firm",
+            "B": "a monopoly",
+            "C": "a perfectly competitive firm",
+            "D": "a monopolistic competitive firm"
         },
         "correct_answer": "C",
         "topic": "Market Structures",
@@ -206,10 +206,10 @@
         "number": "12",
         "question": "If the quantity demanded of a commodity increases from 20 units to 30 units when there is an increase in price from $4.00 to $5.00, the elasticity of demand is",
         "options": {
-            "A": "\n\n            0.50\n",
-            "B": "\n\n            0.65\n",
-            "C": "\n\n            2.00\n",
-            "D": "\n\n            2.50\n"
+            "A": "0.50",
+            "B": "0.65",
+            "C": "2.00",
+            "D": "2.50"
         },
         "correct_answer": "C",
         "topic": "Demand & Supply",
@@ -224,10 +224,10 @@
         "number": "13",
         "question": "The supply curve of a locally-produced good may shift to the right if",
         "options": {
-            "A": "\n\n            there is an increase in taxes on inputs\n",
-            "B": "\n\n            government increases subsidies\n",
-            "C": "\n\n            rural-urban migration is encouraged\n",
-            "D": "\n\n            the price of the commodity increases\n"
+            "A": "there is an increase in taxes on inputs",
+            "B": "government increases subsidies",
+            "C": "rural-urban migration is encouraged",
+            "D": "the price of the commodity increases"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -242,10 +242,10 @@
         "number": "14",
         "question": "In perfectly elastic supply, the supply curve",
         "options": {
-            "A": "\n\n            is vertical\n",
-            "B": "\n\n            is horizontal\n",
-            "C": "\n\n            slopes upward\n",
-            "D": "\n\n            slopes downward\n"
+            "A": "is vertical",
+            "B": "is horizontal",
+            "C": "slopes upward",
+            "D": "slopes downward"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -260,10 +260,10 @@
         "number": "15",
         "question": "A country's budget allocation to various sectors of the economy is shown in the pie chart above... Use it to answer this question. If the budget of the country was $7,200, how much is allocated to Education?",
         "options": {
-            "A": "\n\n            $2,400.00\n",
-            "B": "\n\n            $2,000.00\n",
-            "C": "\n\n            $1,200.00\n",
-            "D": "\n\n            $1,000.00\n"
+            "A": "$2,400.00",
+            "B": "$2,000.00",
+            "C": "$1,200.00",
+            "D": "$1,000.00"
         },
         "correct_answer": "A",
         "topic": "Public Finance",
@@ -278,10 +278,10 @@
         "number": "16",
         "question": "A country's budget allocation to various sectors of the economy is shown in the pie chart above... Use it to answer this question What is the ratio of expenditure on health to Agriculture if the yearly budget is 7200?",
         "options": {
-            "A": "\n\n            2: 3\n",
-            "B": "\n\n            3:4\n",
-            "C": "\n\n            4:3\n",
-            "D": "\n\n            5:4\n"
+            "A": "2: 3",
+            "B": "3:4",
+            "C": "4:3",
+            "D": "5:4"
         },
         "correct_answer": "B",
         "topic": "Public Finance",
@@ -296,10 +296,10 @@
         "number": "17",
         "question": "A consumer of a single commodity is in equilibrium when",
         "options": {
-            "A": "\n\n            he can equate his demand with price\n",
-            "B": "\n\n            he equates marginal utility and price\n",
-            "C": "\n\n            he can equate his marginal and total utilities\n",
-            "D": "\n\n            his marginal utility is equal to zero\n"
+            "A": "he can equate his demand with price",
+            "B": "he equates marginal utility and price",
+            "C": "he can equate his marginal and total utilities",
+            "D": "his marginal utility is equal to zero"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -314,10 +314,10 @@
         "number": "18",
         "question": "If the government imposes a minimum price on a commodity",
         "options": {
-            "A": "\n\n            market surplus occurs\n",
-            "B": "\n\n            the market will be cleared in the short-run\n",
-            "C": "\n\n            excess demand occurs\n",
-            "D": "\n\n            government regulation is no longer needed\n"
+            "A": "market surplus occurs",
+            "B": "the market will be cleared in the short-run",
+            "C": "excess demand occurs",
+            "D": "government regulation is no longer needed"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -332,10 +332,10 @@
         "number": "19",
         "question": "A minimum price legislation is also called",
         "options": {
-            "A": "\n\n            price ceiling\n",
-            "B": "\n\n            price floor\n",
-            "C": "\n\n            price control\n",
-            "D": "\n\n            price mechanism\n"
+            "A": "price ceiling",
+            "B": "price floor",
+            "C": "price control",
+            "D": "price mechanism"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -350,10 +350,10 @@
         "number": "20",
         "question": "Which of the following factors is not a cause of diminishing returns?",
         "options": {
-            "A": "\n\n            Increase in variable inputs\n",
-            "B": "\n\n            Land fragmentation\n",
-            "C": "\n\n            Constant technology\n",
-            "D": "\n\n            Technological innovations\n"
+            "A": "Increase in variable inputs",
+            "B": "Land fragmentation",
+            "C": "Constant technology",
+            "D": "Technological innovations"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -368,10 +368,10 @@
         "number": "21",
         "question": "In manufacturing, division of labour may be hindered by",
         "options": {
-            "A": "\n\n            excessive demand for the product\n",
-            "B": "\n\n            low level of technology\n",
-            "C": "\n\n            excess supply of labour\n",
-            "D": "\n\n            increase in the export of goods\n"
+            "A": "excessive demand for the product",
+            "B": "low level of technology",
+            "C": "excess supply of labour",
+            "D": "increase in the export of goods"
         },
         "correct_answer": "Error",
         "topic": "Demand & Supply",
@@ -386,10 +386,10 @@
         "number": "22",
         "question": "The production cost that varies inversely with output is the",
         "options": {
-            "A": "\n\n            total fixed cost\n",
-            "B": "\n\n            marginal cost\n",
-            "C": "\n\n            average fixed cost\n",
-            "D": "\n\n            average cost\n"
+            "A": "total fixed cost",
+            "B": "marginal cost",
+            "C": "average fixed cost",
+            "D": "average cost"
         },
         "correct_answer": "Error",
         "topic": "Theory of Production",
@@ -404,10 +404,10 @@
         "number": "23",
         "question": "A firm that closes down will still incur",
         "options": {
-            "A": "\n\n            variable cost\n",
-            "B": "\n\n            fixed cost\n",
-            "C": "\n\n            total cost\n",
-            "D": "\n\n            marginal cost\n"
+            "A": "variable cost",
+            "B": "fixed cost",
+            "C": "total cost",
+            "D": "marginal cost"
         },
         "correct_answer": "Error",
         "topic": "Theory of Production",
@@ -422,10 +422,10 @@
         "number": "24",
         "question": "The sufficient condition for a firm to be in equilibrium is that the",
         "options": {
-            "A": "\n\n            firm must show that it is profitable\n",
-            "B": "\n\n            marginal cost must be equal to average revenue\n",
-            "C": "\n\n            marginal revenue curve is above the average revenue curve\n",
-            "D": "\n\n            marginal cost curve cuts the marginal revenue curve from below\n"
+            "A": "firm must show that it is profitable",
+            "B": "marginal cost must be equal to average revenue",
+            "C": "marginal revenue curve is above the average revenue curve",
+            "D": "marginal cost curve cuts the marginal revenue curve from below"
         },
         "correct_answer": "Error",
         "topic": "Theory of Production",
@@ -440,10 +440,10 @@
         "number": "25",
         "question": "Cooperative societies are formed mainly to",
         "options": {
-            "A": "\n\n            assist producers to maximize their profits\n",
-            "B": "\n\n            encourage thrift and credit among members\n",
-            "C": "\n\n            promote and maintain the welfare of members\n",
-            "D": "\n\n            break the monopolies of private companies\n"
+            "A": "assist producers to maximize their profits",
+            "B": "encourage thrift and credit among members",
+            "C": "promote and maintain the welfare of members",
+            "D": "break the monopolies of private companies"
         },
         "correct_answer": "Error",
         "topic": "Banking",
@@ -458,10 +458,10 @@
         "number": "26",
         "question": "A disadvantage of a jont-stock company is",
         "options": {
-            "A": "\n\n            unlimited liability\n",
-            "B": "\n\n            limited liability\n",
-            "C": "\n\n            lack of continuity when a shareholder dies\n",
-            "D": "\n\n            limited control in management by shareholders\n"
+            "A": "unlimited liability",
+            "B": "limited liability",
+            "C": "lack of continuity when a shareholder dies",
+            "D": "limited control in management by shareholders"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -476,10 +476,10 @@
         "number": "27",
         "question": "The middlemen is responsible for",
         "options": {
-            "A": "\n\n            providing research facilities\n",
-            "B": "\n\n            purchasing raw materials\n",
-            "C": "\n\n            designing the product\n",
-            "D": "\n\n            breaking the bulk\n"
+            "A": "providing research facilities",
+            "B": "purchasing raw materials",
+            "C": "designing the product",
+            "D": "breaking the bulk"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -494,10 +494,10 @@
         "number": "28",
         "question": "A major function of the retailer is to",
         "options": {
-            "A": "\n\n            grant credit to the wholesaler\n",
-            "B": "\n\n            break bulk and sell products in small units\n",
-            "C": "\n\n            reduce cost of distribution\n",
-            "D": "\n\n            generate demand for products through advertisement\n"
+            "A": "grant credit to the wholesaler",
+            "B": "break bulk and sell products in small units",
+            "C": "reduce cost of distribution",
+            "D": "generate demand for products through advertisement"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -512,10 +512,10 @@
         "number": "29",
         "question": "A positive effect of a rapid population increase is",
         "options": {
-            "A": "\n\n            an excessive budget deficit\n",
-            "B": "\n\n            a reduction in standard of living\n",
-            "C": "\n\n            a wider market for goods and services\n",
-            "D": "\n\n            a higher dependency ratio\n"
+            "A": "an excessive budget deficit",
+            "B": "a reduction in standard of living",
+            "C": "a wider market for goods and services",
+            "D": "a higher dependency ratio"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -530,10 +530,10 @@
         "number": "30",
         "question": "Which of the following factors may not affect the efficiency of labour?",
         "options": {
-            "A": "\n\n            Education and training\n",
-            "B": "\n\n            Provision of welfare service\n",
-            "C": "\n\n            Race and colour of workforce\n",
-            "D": "\n\n            Quality of other factor inputs\n"
+            "A": "Education and training",
+            "B": "Provision of welfare service",
+            "C": "Race and colour of workforce",
+            "D": "Quality of other factor inputs"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -548,10 +548,10 @@
         "number": "31",
         "question": "The type of unemployment found among workers who leave their jobs in search of other jobs is termed",
         "options": {
-            "A": "\n\n            seasonal unemployment\n",
-            "B": "\n\n            structural unemployment\n",
-            "C": "\n\n            frictional unemployment\n",
-            "D": "\n\n            cyclical unemployment\n"
+            "A": "seasonal unemployment",
+            "B": "structural unemployment",
+            "C": "frictional unemployment",
+            "D": "cyclical unemployment"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -566,10 +566,10 @@
         "number": "32",
         "question": "The main objective of marketing boards is to",
         "options": {
-            "A": "\n\n            accumulate revenue for government\n",
-            "B": "\n\n            educate farmers on pricing of cash crops\n",
-            "C": "\n\n            stabilize the incomes of cash crop farmers\n",
-            "D": "\n\n            provide warehousing facilities\n"
+            "A": "accumulate revenue for government",
+            "B": "educate farmers on pricing of cash crops",
+            "C": "stabilize the incomes of cash crop farmers",
+            "D": "provide warehousing facilities"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -584,10 +584,10 @@
         "number": "33",
         "question": "The point x inside the ppc indicate?",
         "options": {
-            "A": "\n\n            resources are fully utilized\n",
-            "B": "\n\n            the country is poor\n",
-            "C": "\n\n            some resources are idle\n",
-            "D": "\n\n            resources are not available\n"
+            "A": "resources are fully utilized",
+            "B": "the country is poor",
+            "C": "some resources are idle",
+            "D": "resources are not available"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -602,10 +602,10 @@
         "number": "34",
         "question": "Which of the following industries will add more value to primary products?",
         "options": {
-            "A": "\n\n            Service industry\n",
-            "B": "\n\n            Construction industry\n",
-            "C": "\n\n            Mining industry\n",
-            "D": "\n\n            Processing industry\n"
+            "A": "Service industry",
+            "B": "Construction industry",
+            "C": "Mining industry",
+            "D": "Processing industry"
         },
         "correct_answer": "Error",
         "topic": "Basic Economic Concepts",
@@ -620,10 +620,10 @@
         "number": "35",
         "question": "Gross National Product (GNP) less the provision for the wear and tear of assets is the",
         "options": {
-            "A": "\n\n            net present value\n",
-            "B": "\n\n            net national product\n",
-            "C": "\n\n            net factor income\n",
-            "D": "\n\n            net indirect taxes\n"
+            "A": "net present value",
+            "B": "net national product",
+            "C": "net factor income",
+            "D": "net indirect taxes"
         },
         "correct_answer": "B",
         "topic": "National Income",
@@ -638,10 +638,10 @@
         "number": "36",
         "question": "An example of transfer payments in national income accounting is",
         "options": {
-            "A": "\n\n            money transferred to another country\n",
-            "B": "\n\n            unemployment allowance paid to the citizens\n",
-            "C": "\n\n            the amount paid to a worker on transfer\n",
-            "D": "\n\n            transfer of funds from one bank to another\n"
+            "A": "money transferred to another country",
+            "B": "unemployment allowance paid to the citizens",
+            "C": "the amount paid to a worker on transfer",
+            "D": "transfer of funds from one bank to another"
         },
         "correct_answer": "B",
         "topic": "National Income",
@@ -656,10 +656,10 @@
         "number": "37",
         "question": "Increasing national income without effective control of population size in a country can lead to",
         "options": {
-            "A": "\n\n            higher per capita income\n",
-            "B": "\n\n            increase in poverty\n",
-            "C": "\n\n            increased outflow of aid\n",
-            "D": "\n\n            underutilization of resources\n"
+            "A": "higher per capita income",
+            "B": "increase in poverty",
+            "C": "increased outflow of aid",
+            "D": "underutilization of resources"
         },
         "correct_answer": "D",
         "topic": "National Income",
@@ -674,10 +674,10 @@
         "number": "38",
         "question": "An example of commodity money is",
         "options": {
-            "A": "\n\n            currency note\n",
-            "B": "\n\n            mobile money\n",
-            "C": "\n\n            cheques\n",
-            "D": "\n\n            silver\n"
+            "A": "currency note",
+            "B": "mobile money",
+            "C": "cheques",
+            "D": "silver"
         },
         "correct_answer": "D",
         "topic": "Money & Inflation",
@@ -692,10 +692,10 @@
         "number": "39",
         "question": "If inflation is anticipated, people may",
         "options": {
-            "A": "\n\n            save more money\n",
-            "B": "\n\n            spend more money\n",
-            "C": "\n\n            give out more loans\n",
-            "D": "\n\n            spend less money\n"
+            "A": "save more money",
+            "B": "spend more money",
+            "C": "give out more loans",
+            "D": "spend less money"
         },
         "correct_answer": "Error",
         "topic": "Money & Inflation",
@@ -710,10 +710,10 @@
         "number": "40",
         "question": "If the Central Bank increases its bank rate",
         "options": {
-            "A": "\n\n            many banks will shut down their operations\n",
-            "B": "\n\n            customers will borrow more from banks\n",
-            "C": "\n\n            the supply of money may be reduced\n",
-            "D": "\n\n            interest charges by banks will fall\n"
+            "A": "many banks will shut down their operations",
+            "B": "customers will borrow more from banks",
+            "C": "the supply of money may be reduced",
+            "D": "interest charges by banks will fall"
         },
         "correct_answer": "C",
         "topic": "Banking",
@@ -728,10 +728,10 @@
         "number": "41",
         "question": "Commercial banks are different from development banks in that the latter",
         "options": {
-            "A": "\n\n            lend on short-term basis\n",
-            "B": "\n\n            pay interest on current accounts only\n",
-            "C": "\n\n            are mostly joint-stock companies\n",
-            "D": "\n\n            do not deal in foreign currencies\n"
+            "A": "lend on short-term basis",
+            "B": "pay interest on current accounts only",
+            "C": "are mostly joint-stock companies",
+            "D": "do not deal in foreign currencies"
         },
         "correct_answer": "D",
         "topic": "Banking",
@@ -746,10 +746,10 @@
         "number": "42",
         "question": "The use of the bank rate, cash ratio and open market operations constitute",
         "options": {
-            "A": "\n\n            fiscal policy\n",
-            "B": "\n\n            monetary policy\n",
-            "C": "\n\n            import policy\n",
-            "D": "\n\n            export policy\n"
+            "A": "fiscal policy",
+            "B": "monetary policy",
+            "C": "import policy",
+            "D": "export policy"
         },
         "correct_answer": "B",
         "topic": "International Trade",
@@ -764,10 +764,10 @@
         "number": "43",
         "question": "Fiscal policy measures imply a change in",
         "options": {
-            "A": "\n\n            only taxation to control aggregate demand\n",
-            "B": "\n\n            bank rate to infulence lending\n",
-            "C": "\n\n            only government expenditure to regulate an economy\n",
-            "D": "\n\n            government revenue and expenditure to regulate an economy\n"
+            "A": "only taxation to control aggregate demand",
+            "B": "bank rate to infulence lending",
+            "C": "only government expenditure to regulate an economy",
+            "D": "government revenue and expenditure to regulate an economy"
         },
         "correct_answer": "D",
         "topic": "Public Finance",
@@ -782,10 +782,10 @@
         "number": "44",
         "question": "Economics problems arise in all societies because",
         "options": {
-            "A": "\n\n            resources are mismanaged by leaders\n",
-            "B": "\n\n            there is no proper planning\n",
-            "C": "\n\n            resource are not in adequate supply\n",
-            "D": "\n\n            the services of economists are not employed\n"
+            "A": "resources are mismanaged by leaders",
+            "B": "there is no proper planning",
+            "C": "resource are not in adequate supply",
+            "D": "the services of economists are not employed"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -800,10 +800,10 @@
         "number": "45",
         "question": "Which of the following is not emphasized in a product possibility curve?",
         "options": {
-            "A": "\n\n            Scarcity of resources\n",
-            "B": "\n\n            Economic development\n",
-            "C": "\n\n            Inefficiency in the use of resources\n",
-            "D": "\n\n            Unemployment of labour\n"
+            "A": "Scarcity of resources",
+            "B": "Economic development",
+            "C": "Inefficiency in the use of resources",
+            "D": "Unemployment of labour"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -818,10 +818,10 @@
         "number": "46",
         "question": "Producers operating in a free market economy are more efficient as a result of",
         "options": {
-            "A": "\n\n            the existence of competition\n",
-            "B": "\n\n            the very few number of participants\n",
-            "C": "\n\n            the commitment of the shareholders\n",
-            "D": "\n\n            government regulation of their activities\n"
+            "A": "the existence of competition",
+            "B": "the very few number of participants",
+            "C": "the commitment of the shareholders",
+            "D": "government regulation of their activities"
         },
         "correct_answer": "A",
         "topic": "Market Structures",
@@ -836,10 +836,10 @@
         "number": "47",
         "question": "In a pie chart, the population of a city is represented by 45. If the country has a population of 10 million people, then the city's population is?",
         "options": {
-            "A": "\n\n            0.0045 million\n",
-            "B": "\n\n            4.5 million\n",
-            "C": "\n\n            1.25 million\n",
-            "D": "\n\n            16 million\n"
+            "A": "0.0045 million",
+            "B": "4.5 million",
+            "C": "1.25 million",
+            "D": "16 million"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -854,10 +854,10 @@
         "number": "48",
         "question": "A downward sloping demand curve means that",
         "options": {
-            "A": "\n\n            total revenue declines as price is lowered\n",
-            "B": "\n\n            demand falls as output increases\n",
-            "C": "\n\n            demand falls as output falls\n",
-            "D": "\n\n            price must be lowered to sell more\n"
+            "A": "total revenue declines as price is lowered",
+            "B": "demand falls as output increases",
+            "C": "demand falls as output falls",
+            "D": "price must be lowered to sell more"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -872,10 +872,10 @@
         "number": "49",
         "question": "If the price of commodity X rises and consumers shift to commodity Y, then commodities X and Y are",
         "options": {
-            "A": "\n\n            substitutes\n",
-            "B": "\n\n            complements\n",
-            "C": "\n\n            inferior goods\n",
-            "D": "\n\n            bought together\n"
+            "A": "substitutes",
+            "B": "complements",
+            "C": "inferior goods",
+            "D": "bought together"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -890,10 +890,10 @@
         "number": "50",
         "question": "An exceptional demand curve can result from",
         "options": {
-            "A": "\n\n            increase in price of raw materials\n",
-            "B": "\n\n            increase in the size of the population\n",
-            "C": "\n\n            expectation of future price increase\n",
-            "D": "\n\n            change in taste of consumer\n"
+            "A": "increase in price of raw materials",
+            "B": "increase in the size of the population",
+            "C": "expectation of future price increase",
+            "D": "change in taste of consumer"
         },
         "correct_answer": "C",
         "topic": "Demand & Supply",
@@ -908,10 +908,10 @@
         "number": "51",
         "question": "Palm oil and palm kernel are in",
         "options": {
-            "A": "\n\n            joint supply\n",
-            "B": "\n\n            competitive demand\n",
-            "C": "\n\n            competitive supply\n",
-            "D": "\n\n            complementary demand\n"
+            "A": "joint supply",
+            "B": "competitive demand",
+            "C": "competitive supply",
+            "D": "complementary demand"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -926,10 +926,10 @@
         "number": "52",
         "question": "A supply curve parallel to the X-axis indicates",
         "options": {
-            "A": "\n\n            fairly elastic supply\n",
-            "B": "\n\n            infinitely elastic supply\n",
-            "C": "\n\n            fairly inelastic supply\n",
-            "D": "\n\n            perfectly inelastic supply\n"
+            "A": "fairly elastic supply",
+            "B": "infinitely elastic supply",
+            "C": "fairly inelastic supply",
+            "D": "perfectly inelastic supply"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -944,10 +944,10 @@
         "number": "53",
         "question": "If the marginal utility of commodity is equal to its price, then",
         "options": {
-            "A": "\n\n            the consumer is in equilibrium\n",
-            "B": "\n\n            more of the commodity can be consumed\n",
-            "C": "\n\n            total utility is also equal to its price\n",
-            "D": "\n\n            the market is not in equilibrium\n"
+            "A": "the consumer is in equilibrium",
+            "B": "more of the commodity can be consumed",
+            "C": "total utility is also equal to its price",
+            "D": "the market is not in equilibrium"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -962,10 +962,10 @@
         "number": "54",
         "question": "A price floor is usually fixed",
         "options": {
-            "A": "\n\n            at the equilibrium and causes no shortage\n",
-            "B": "\n\n            above the equilibrium and causes shortage\n",
-            "C": "\n\n            below the equilibrium and causes surpluses\n",
-            "D": "\n\n            above the equilibrium and causes surpluses\n"
+            "A": "at the equilibrium and causes no shortage",
+            "B": "above the equilibrium and causes shortage",
+            "C": "below the equilibrium and causes surpluses",
+            "D": "above the equilibrium and causes surpluses"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -980,10 +980,10 @@
         "number": "55",
         "question": "A firm's average cost decreases in the long-run because of",
         "options": {
-            "A": "\n\n            increasing returns to scale\n",
-            "B": "\n\n            diminishing average returns\n",
-            "C": "\n\n            decreasing marginal returns\n",
-            "D": "\n\n            decreasing average fixed cost\n"
+            "A": "increasing returns to scale",
+            "B": "diminishing average returns",
+            "C": "decreasing marginal returns",
+            "D": "decreasing average fixed cost"
         },
         "correct_answer": "A",
         "topic": "Theory of Production",
@@ -998,10 +998,10 @@
         "number": "56",
         "question": "In the long-run, a firm must shut down if its average revenue is",
         "options": {
-            "A": "\n\n            greater than average cost\n",
-            "B": "\n\n            less than average variable cost\n",
-            "C": "\n\n            equal to the minimum average revenue is\n",
-            "D": "\n\n            equal to the average cost\n"
+            "A": "greater than average cost",
+            "B": "less than average variable cost",
+            "C": "equal to the minimum average revenue is",
+            "D": "equal to the average cost"
         },
         "correct_answer": "B",
         "topic": "Theory of Production",
@@ -1016,10 +1016,10 @@
         "number": "57",
         "question": "In the event of bankruptcy, owners of joint-stock companies lose",
         "options": {
-            "A": "\n\n            their private properties\n",
-            "B": "\n\n            both company and private assets\n",
-            "C": "\n\n            only the capital invested\n",
-            "D": "\n\n            only their dividends\n"
+            "A": "their private properties",
+            "B": "both company and private assets",
+            "C": "only the capital invested",
+            "D": "only their dividends"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1034,10 +1034,10 @@
         "number": "58",
         "question": "Wholesalers play an important in the distribution of goods and services because they",
         "options": {
-            "A": "\n\n            are located very close to consumers\n",
-            "B": "\n\n            finance both producers and retailers\n",
-            "C": "\n\n            pass information on from retailers to consumers\n",
-            "D": "\n\n            sell in small units to consumers\n"
+            "A": "are located very close to consumers",
+            "B": "finance both producers and retailers",
+            "C": "pass information on from retailers to consumers",
+            "D": "sell in small units to consumers"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1052,10 +1052,10 @@
         "number": "59",
         "question": "If workers at the school canteen cannot sell during the holidays, this is example of",
         "options": {
-            "A": "\n\n            structural unemployment\n",
-            "B": "\n\n            frictional unemployment\n",
-            "C": "\n\n            seasonal unemployment\n",
-            "D": "\n\n            residual unemployment\n"
+            "A": "structural unemployment",
+            "B": "frictional unemployment",
+            "C": "seasonal unemployment",
+            "D": "residual unemployment"
         },
         "correct_answer": "Error",
         "topic": "Basic Economic Concepts",
@@ -1070,10 +1070,10 @@
         "number": "60",
         "question": "Positive check as envisaged by Thomas Malthus can be prevented if",
         "options": {
-            "A": "\n\n            death rate is reduced\n",
-            "B": "\n\n            moral restraint abolished\n",
-            "C": "\n\n            more hospitals are built\n",
-            "D": "\n\n            there is natural calamities\n"
+            "A": "death rate is reduced",
+            "B": "moral restraint abolished",
+            "C": "more hospitals are built",
+            "D": "there is natural calamities"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -1088,10 +1088,10 @@
         "number": "61",
         "question": "Which of the following factors is not a reason for farmers' unstable incomes?",
         "options": {
-            "A": "\n\n            dependence on too many crops\n",
-            "B": "\n\n            poor storage facilities\n",
-            "C": "\n\n            adverse weather conditions\n",
-            "D": "\n\n            recession in the world economy\n"
+            "A": "dependence on too many crops",
+            "B": "poor storage facilities",
+            "C": "adverse weather conditions",
+            "D": "recession in the world economy"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -1106,10 +1106,10 @@
         "number": "62",
         "question": "Local firms can help in reducing unemployment in a country when",
         "options": {
-            "A": "\n\n            land acquisition becomes centralized\n",
-            "B": "\n\n            imports of substitutes are reduced\n",
-            "C": "\n\n            waste in the firm is eliminated\n",
-            "D": "\n\n            subsidies to firms are decreased\n"
+            "A": "land acquisition becomes centralized",
+            "B": "imports of substitutes are reduced",
+            "C": "waste in the firm is eliminated",
+            "D": "subsidies to firms are decreased"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1124,10 +1124,10 @@
         "number": "63",
         "question": "The largest component of national income in developing countries consist of",
         "options": {
-            "A": "\n\n            profit\n",
-            "B": "\n\n            profit and rent\n",
-            "C": "\n\n            rent\n",
-            "D": "\n\n            wages and salaries\n"
+            "A": "profit",
+            "B": "profit and rent",
+            "C": "rent",
+            "D": "wages and salaries"
         },
         "correct_answer": "D",
         "topic": "National Income",
@@ -1142,10 +1142,10 @@
         "number": "64",
         "question": "A baker bought flour and other ingredients for S250.00, spent S52.00 on distribution, sold the bread for S320.00. The value added by the baker.",
         "options": {
-            "A": "\n\n            $302.00\n",
-            "B": "\n\n            $52.00\n",
-            "C": "\n\n            $18.00\n",
-            "D": "\n\n            $622.00\n"
+            "A": "$302.00",
+            "B": "$52.00",
+            "C": "$18.00",
+            "D": "$622.00"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1160,10 +1160,10 @@
         "number": "65",
         "question": "In a country with large population of full-time house wives, national income",
         "options": {
-            "A": "\n\n            will be composed of goods produced by women\n",
-            "B": "\n\n            figures will be grossly over-stated\n",
-            "C": "\n\n            statistics will be difficult to calculate\n",
-            "D": "\n\n            figures will be grossly under-estimated\n"
+            "A": "will be composed of goods produced by women",
+            "B": "figures will be grossly over-stated",
+            "C": "statistics will be difficult to calculate",
+            "D": "figures will be grossly under-estimated"
         },
         "correct_answer": "B",
         "topic": "National Income",
@@ -1178,10 +1178,10 @@
         "number": "66",
         "question": "Demand-pull inflation is likely to be caused by",
         "options": {
-            "A": "\n\n            an increase in the cost of factor inputs\n",
-            "B": "\n\n            increase in the income tax rate\n",
-            "C": "\n\n            increase in bank lending rate\n",
-            "D": "\n\n            increasingly large budget deficit\n"
+            "A": "an increase in the cost of factor inputs",
+            "B": "increase in the income tax rate",
+            "C": "increase in bank lending rate",
+            "D": "increasingly large budget deficit"
         },
         "correct_answer": "D",
         "topic": "Public Finance",
@@ -1196,10 +1196,10 @@
         "number": "67",
         "question": "Holding money to take care of contingencies is",
         "options": {
-            "A": "\n\n            a speculative motive\n",
-            "B": "\n\n            a transactions motive\n",
-            "C": "\n\n            a precautionary motive\n",
-            "D": "\n\n            an expansionary motive\n"
+            "A": "a speculative motive",
+            "B": "a transactions motive",
+            "C": "a precautionary motive",
+            "D": "an expansionary motive"
         },
         "correct_answer": "C",
         "topic": "Money & Inflation",
@@ -1214,10 +1214,10 @@
         "number": "68",
         "question": "If a housewife has meat and wants tomatoes, she must find someone who has tomatoes to give and wants meat. This concept is described as",
         "options": {
-            "A": "\n\n            scale of preference\n",
-            "B": "\n\n            opportunity cost\n",
-            "C": "\n\n            complementary demand\n",
-            "D": "\n\n            double coincidence of wants\n"
+            "A": "scale of preference",
+            "B": "opportunity cost",
+            "C": "complementary demand",
+            "D": "double coincidence of wants"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -1232,10 +1232,10 @@
         "number": "69",
         "question": "The stock exchange is an example of the",
         "options": {
-            "A": "\n\n            labour market\n",
-            "B": "\n\n            money market\n",
-            "C": "\n\n            commodity market\n",
-            "D": "\n\n            capital market\n"
+            "A": "labour market",
+            "B": "money market",
+            "C": "commodity market",
+            "D": "capital market"
         },
         "correct_answer": "D",
         "topic": "Market Structures",
@@ -1250,10 +1250,10 @@
         "number": "70",
         "question": "What happens when the central bank increases the bank rate in an economy",
         "options": {
-            "A": "\n\n            borrowing is discouraged\n",
-            "B": "\n\n            customers increase their borrowing\n",
-            "C": "\n\n            banks can increase their lending\n",
-            "D": "\n\n            money supply increases\n"
+            "A": "borrowing is discouraged",
+            "B": "customers increase their borrowing",
+            "C": "banks can increase their lending",
+            "D": "money supply increases"
         },
         "correct_answer": "A",
         "topic": "Banking",
@@ -1268,10 +1268,10 @@
         "number": "71",
         "question": "In order to increase revenue, government should tax commodities for which demand is",
         "options": {
-            "A": "\n\n            perfectly price inelastic\n",
-            "B": "\n\n            price inelastic\n",
-            "C": "\n\n            price elastic\n",
-            "D": "\n\n            unitary elastic\n"
+            "A": "perfectly price inelastic",
+            "B": "price inelastic",
+            "C": "price elastic",
+            "D": "unitary elastic"
         },
         "correct_answer": "Error",
         "topic": "Demand & Supply",
@@ -1284,12 +1284,12 @@
         "subject": "Economics",
         "year": 2022,
         "number": "72",
-        "question": "The figure above shows change in demand for commodity x which is a normal good. Use it to answer the questions that follows Which of the following caused the change in demand from D0 D0 to D2 D2?",
+        "question": "The figure above shows change in demand for commodity x which is a normal good. Use it to answer the questions that follows Which of the following caused the change in demand from D0 D0 to D2 D2?",
         "options": {
-            "A": "\n\n            Fall in income of consumer\n",
-            "B": "\n\n            Rise in the price of a substitute\n",
-            "C": "\n\n            Rise in the price of a complement\n",
-            "D": "\n\n            Fall in the supply of commodity x\n"
+            "A": "Fall in income of consumer",
+            "B": "Rise in the price of a substitute",
+            "C": "Rise in the price of a complement",
+            "D": "Fall in the supply of commodity x"
         },
         "correct_answer": "Error",
         "topic": "Demand & Supply",
@@ -1304,10 +1304,10 @@
         "number": "73",
         "question": "Which of the following activities will not lead to economic growth?",
         "options": {
-            "A": "\n\n            Massive importation of capital goods\n",
-            "B": "\n\n            Intensive capital formation\n",
-            "C": "\n\n            Use of modern technology\n",
-            "D": "\n\n            Massive importation of consumer goods\n"
+            "A": "Massive importation of capital goods",
+            "B": "Intensive capital formation",
+            "C": "Use of modern technology",
+            "D": "Massive importation of consumer goods"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -1322,10 +1322,10 @@
         "number": "74",
         "question": "Nation engage in external trade because of difference in",
         "options": {
-            "A": "\n\n            comparative cost\n",
-            "B": "\n\n            absolute cost\n",
-            "C": "\n\n            fixed cost\n",
-            "D": "\n\n            variable cost\n"
+            "A": "comparative cost",
+            "B": "absolute cost",
+            "C": "fixed cost",
+            "D": "variable cost"
         },
         "correct_answer": "A",
         "topic": "Theory of Production",
@@ -1340,10 +1340,10 @@
         "number": "75",
         "question": "Which of the following forms of economic integration is a member nation free to impose duty against non-members",
         "options": {
-            "A": "\n\n            Customs union\n",
-            "B": "\n\n            free trade area\n",
-            "C": "\n\n            Common market\n",
-            "D": "\n\n            Economic community\n"
+            "A": "Customs union",
+            "B": "free trade area",
+            "C": "Common market",
+            "D": "Economic community"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -1356,12 +1356,12 @@
         "subject": "Economics",
         "year": 2022,
         "number": "76",
-        "question": "The pie chart above represents the total population of a school of 1,200. The shaded area of 60º shows the population of the underaged pupils. What is the population of the matured students?",
+        "question": "The pie chart above represents the total population of a school of 1,200. The shaded area of 60deg shows the population of the underaged pupils. What is the population of the matured students?",
         "options": {
-            "A": "\n\n            600\n",
-            "B": "\n\n            800\n",
-            "C": "\n\n            1000\n",
-            "D": "\n\n            1200\n"
+            "A": "600",
+            "B": "800",
+            "C": "1000",
+            "D": "1200"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1374,12 +1374,12 @@
         "subject": "Economics",
         "year": 2022,
         "number": "77",
-        "question": "What type of price elasticity of demand is the diagram above representing?",
+        "question": "What type of price elasticity of demand is the diagram above representing?",
         "options": {
-            "A": "\n\n            perfectly inelastic demand\n",
-            "B": "\n\n            perfectly elastic demand\n",
-            "C": "\n\n            fairly elastic demand\n",
-            "D": "\n\n            composite demand\n"
+            "A": "perfectly inelastic demand",
+            "B": "perfectly elastic demand",
+            "C": "fairly elastic demand",
+            "D": "composite demand"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -1394,10 +1394,10 @@
         "number": "78",
         "question": "The curve labelled x is the",
         "options": {
-            "A": "\n\n            total revenue curve\n",
-            "B": "\n\n            total product curve\n",
-            "C": "\n\n            marginal product curve\n",
-            "D": "\n\n            marginal revenue curve\n"
+            "A": "total revenue curve",
+            "B": "total product curve",
+            "C": "marginal product curve",
+            "D": "marginal revenue curve"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1410,12 +1410,12 @@
         "subject": "Economics",
         "year": 2022,
         "number": "79",
-        "question": "The line labelled M in the diagram above represent",
+        "question": "The line labelled M in the diagram above represent",
         "options": {
-            "A": "\n\n            total cost\n",
-            "B": "\n\n            fixed cost\n",
-            "C": "\n\n            variable cost\n",
-            "D": "\n\n            average cost\n"
+            "A": "total cost",
+            "B": "fixed cost",
+            "C": "variable cost",
+            "D": "average cost"
         },
         "correct_answer": "B",
         "topic": "Theory of Production",
@@ -1430,10 +1430,10 @@
         "number": "80",
         "question": "The International Bank for Reconstruction and Development(IBRD) performs the following functions except-------",
         "options": {
-            "A": "\n\n            granting long-term loans\n",
-            "B": "\n\n            assisting with technical expertise\n",
-            "C": "\n\n            reducing tariff among members\n",
-            "D": "\n\n            developing human resource\n"
+            "A": "granting long-term loans",
+            "B": "assisting with technical expertise",
+            "C": "reducing tariff among members",
+            "D": "developing human resource"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1448,10 +1448,10 @@
         "number": "81",
         "question": "An electrical engineer who is teaching physics in a secondary school is said to be",
         "options": {
-            "A": "\n\n            under-employed\n",
-            "B": "\n\n            unemployed\n",
-            "C": "\n\n            fully employed\n",
-            "D": "\n\n            technologically unemployed\n"
+            "A": "under-employed",
+            "B": "unemployed",
+            "C": "fully employed",
+            "D": "technologically unemployed"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -1466,10 +1466,10 @@
         "number": "82",
         "question": "One benefit a country can derive from the extraction of crude oil is increase in",
         "options": {
-            "A": "\n\n            population\n",
-            "B": "\n\n            employment\n",
-            "C": "\n\n            money supply\n",
-            "D": "\n\n            demand for imports\n"
+            "A": "population",
+            "B": "employment",
+            "C": "money supply",
+            "D": "demand for imports"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -1484,10 +1484,10 @@
         "number": "83",
         "question": "Which of the following cannot be classified as a natural resource?",
         "options": {
-            "A": "\n\n            Iron rod\n",
-            "B": "\n\n            Wild life\n",
-            "C": "\n\n            Solar energy\n",
-            "D": "\n\n            Gold\n"
+            "A": "Iron rod",
+            "B": "Wild life",
+            "C": "Solar energy",
+            "D": "Gold"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",

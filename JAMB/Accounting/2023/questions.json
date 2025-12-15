@@ -7,10 +7,10 @@
         "number": "1",
         "question": "The following are importance of branch account except",
         "options": {
-            "A": "\n\n            it allows fraud and wastage of resources\n",
-            "B": "\n\n            it assist the organization to determine the performance of a branch manager\n",
-            "C": "\n\n            it enable the organization to determine the branch that is making either profit or loss\n",
-            "D": "\n\n            it allows proper control over the branch by the head office\n"
+            "A": "it allows fraud and wastage of resources",
+            "B": "it assist the organization to determine the performance of a branch manager",
+            "C": "it enable the organization to determine the branch that is making either profit or loss",
+            "D": "it allows proper control over the branch by the head office"
         },
         "correct_answer": "A",
         "topic": "Departmental & Branch Accounts",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "The use of three column cash book is determined by",
         "options": {
-            "A": "\n\n            trade discount\n",
-            "B": "\n\n            cash transaction\n",
-            "C": "\n\n            bank transaction\n",
-            "D": "\n\n            cash discount\n"
+            "A": "trade discount",
+            "B": "cash transaction",
+            "C": "bank transaction",
+            "D": "cash discount"
         },
         "correct_answer": "D",
         "topic": "Books of Original Entry",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "The authority warrant issued prior to the approval of the appropriate bill at the begining of the year",
         "options": {
-            "A": "\n\n            contigencies\n",
-            "B": "\n\n            reserved expenditure warrant\n",
-            "C": "\n\n            annual general warrant\n",
-            "D": "\n\n            provisional general warrant\n"
+            "A": "contigencies",
+            "B": "reserved expenditure warrant",
+            "C": "annual general warrant",
+            "D": "provisional general warrant"
         },
         "correct_answer": "D",
         "topic": "Adjustments",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "The following appears in the trading account except",
         "options": {
-            "A": "\n\n            carriage inward\n",
-            "B": "\n\n            opening stock\n",
-            "C": "\n\n            carriage outward\n",
-            "D": "\n\n            sales\n"
+            "A": "carriage inward",
+            "B": "opening stock",
+            "C": "carriage outward",
+            "D": "sales"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -77,12 +77,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "5",
-        "question": "₦ Debtors opening 4000 Debtors closing 1500 Cash received from debtors 8500 Bad debts written off 350 Discount allowed 500 Discount received 1000 What is the amount of sales for the year?",
+        "question": "Naira Debtors opening 4000 Debtors closing 1500 Cash received from debtors 8500 Bad debts written off 350 Discount allowed 500 Discount received 1000 What is the amount of sales for the year?",
         "options": {
-            "A": "\n\n            ₦6850\n",
-            "B": "\n\n            ₦6650\n",
-            "C": "\n\n            ₦3850\n",
-            "D": "\n\n            ₦1550\n"
+            "A": "Naira6850",
+            "B": "Naira6650",
+            "C": "Naira3850",
+            "D": "Naira1550"
         },
         "correct_answer": "A",
         "topic": "Control Accounts",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "The principle of double entry developed from the axioms of accounting equation is given as",
         "options": {
-            "A": "\n\n            Liabilties + Equity = Net assets\n",
-            "B": "\n\n            Assets + Equity = Liabilities\n",
-            "C": "\n\n            Liabilities + Equity = Assets\n",
-            "D": "\n\n            Assets + Liability = Equity\n"
+            "A": "Liabilties + Equity = Net assets",
+            "B": "Assets + Equity = Liabilities",
+            "C": "Liabilities + Equity = Assets",
+            "D": "Assets + Liability = Equity"
         },
         "correct_answer": "C",
         "topic": "Balance Sheet",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "A part of public company's profit belonging to the shareholders is",
         "options": {
-            "A": "\n\n            right issue\n",
-            "B": "\n\n            bonus\n",
-            "C": "\n\n            dividends\n",
-            "D": "\n\n            public issue\n"
+            "A": "right issue",
+            "B": "bonus",
+            "C": "dividends",
+            "D": "public issue"
         },
         "correct_answer": "C",
         "topic": "Company Accounts",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "Accounting entry for dissolution expenses is",
         "options": {
-            "A": "\n\n            Dr : Partnership account ;Cr: Realization account\n",
-            "B": "\n\n            Dr: Revaluation account; Cr: Partnership account\n",
-            "C": "\n\n            Dr: Realization account; Cr: Cash account\n",
-            "D": "\n\n            Dr: Partners current account; Cr: Realization account\n"
+            "A": "Dr : Partnership account ;Cr: Realization account",
+            "B": "Dr: Revaluation account; Cr: Partnership account",
+            "C": "Dr: Realization account; Cr: Cash account",
+            "D": "Dr: Partners current account; Cr: Realization account"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "One of the options below is not the source of income for non - profit organization",
         "options": {
-            "A": "\n\n            ordinary shares\n",
-            "B": "\n\n            donations\n",
-            "C": "\n\n            subscription/dues\n",
-            "D": "\n\n            entrance fees\n"
+            "A": "ordinary shares",
+            "B": "donations",
+            "C": "subscription/dues",
+            "D": "entrance fees"
         },
         "correct_answer": "C",
         "topic": "Trading/Profit & Loss Account",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "Which of these is the main source document for recording cash paid into bank?",
         "options": {
-            "A": "\n\n            invoice\n",
-            "B": "\n\n            credit note\n",
-            "C": "\n\n            cheque book\n",
-            "D": "\n\n            pay-in-slip\n"
+            "A": "invoice",
+            "B": "credit note",
+            "C": "cheque book",
+            "D": "pay-in-slip"
         },
         "correct_answer": "D",
         "topic": "Books of Original Entry",
@@ -185,12 +185,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "11",
-        "question": "# Stock Jan 1 2600 Purchases 4000 Carriage inwards 500 Sales 9000 Carriage outwards 500 Determine the net profit",
+        "question": "# Stock Jan 1 2600 Purchases 4000 Carriage inwards 500 Sales 9000 Carriage outwards 500 Determine the net profit",
         "options": {
-            "A": "\n\n            #4,000\n",
-            "B": "\n\n            #4,500\n",
-            "C": "\n\n            #5,000\n",
-            "D": "\n\n            #1,400\n"
+            "A": "#4,000",
+            "B": "#4,500",
+            "C": "#5,000",
+            "D": "#1,400"
         },
         "correct_answer": "D",
         "topic": "Trading/Profit & Loss Account",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "Subscription in advance is treated in the balance sheet as a",
         "options": {
-            "A": "\n\n            fixed asset\n",
-            "B": "\n\n            long term liability\n",
-            "C": "\n\n            current asset\n",
-            "D": "\n\n            current liability\n"
+            "A": "fixed asset",
+            "B": "long term liability",
+            "C": "current asset",
+            "D": "current liability"
         },
         "correct_answer": "D",
         "topic": "Balance Sheet",
@@ -221,12 +221,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "13",
-        "question": "₦ Balance as per cash book 5467 Uncredited cheques 4410 Unpresented cheques 19404 The balance as per bank statement is",
+        "question": "Naira Balance as per cash book 5467 Uncredited cheques 4410 Unpresented cheques 19404 The balance as per bank statement is",
         "options": {
-            "A": "\n\n            ₦20,461\n",
-            "B": "\n\n            ₦21,091\n",
-            "C": "\n\n            ₦21,109\n",
-            "D": "\n\n            ₦19,021\n"
+            "A": "Naira20,461",
+            "B": "Naira21,091",
+            "C": "Naira21,109",
+            "D": "Naira19,021"
         },
         "correct_answer": "A",
         "topic": "Ledger & Trial Balance",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "When goods are received from head office, head office will be credited while",
         "options": {
-            "A": "\n\n            sales will be debited\n",
-            "B": "\n\n            requisition will be debited\n",
-            "C": "\n\n            issue will be debited\n",
-            "D": "\n\n            purchases will be debited\n"
+            "A": "sales will be debited",
+            "B": "requisition will be debited",
+            "C": "issue will be debited",
+            "D": "purchases will be debited"
         },
         "correct_answer": "D",
         "topic": "Principles of Double Entry",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "Changes in the profit sharing ratio may occur as a result of I. skill contributed by partners II. health status III. old age IV. Intangible asset increase",
         "options": {
-            "A": "\n\n            I, III and IV\n",
-            "B": "\n\n            I and III\n",
-            "C": "\n\n            I, II and III\n",
-            "D": "\n\n            I, II and IV\n"
+            "A": "I, III and IV",
+            "B": "I and III",
+            "C": "I, II and III",
+            "D": "I, II and IV"
         },
         "correct_answer": "C",
         "topic": "Partnership Accounts",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "Given: I. Cash refunds II. Debit note issued III. Dishnoured cheque IV. Purchases The item on the credit side of purchase ledger control account includes",
         "options": {
-            "A": "\n\n            I, II and IV only\n",
-            "B": "\n\n            I and IV only\n",
-            "C": "\n\n            I and II only\n",
-            "D": "\n\n            I, II and III only\n"
+            "A": "I, II and IV only",
+            "B": "I and IV only",
+            "C": "I and II only",
+            "D": "I, II and III only"
         },
         "correct_answer": "B",
         "topic": "Principles of Double Entry",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "Given: I. It records subscription in arrears II. Payments of liabilities is effected III. The account does not show if cash payment is revenue or capital expenditure IV. It performs the same function as cash book The features of receipts and payment account includes:",
         "options": {
-            "A": "\n\n            III and IV\n",
-            "B": "\n\n            I, II and IV\n",
-            "C": "\n\n            II, III and IV\n",
-            "D": "\n\n            I, II and III\n"
+            "A": "III and IV",
+            "B": "I, II and IV",
+            "C": "II, III and IV",
+            "D": "I, II and III"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "Which of the following is used to service all operations of government?",
         "options": {
-            "A": "\n\n            general reserve fund\n",
-            "B": "\n\n            consolidated revenue fund\n",
-            "C": "\n\n            special operational fund\n",
-            "D": "\n\n            consolidated reserve fund\n"
+            "A": "general reserve fund",
+            "B": "consolidated revenue fund",
+            "C": "special operational fund",
+            "D": "consolidated reserve fund"
         },
         "correct_answer": "B",
         "topic": "Public Sector Accounting",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "The effect of transaction when cash is paid into the bank is?",
         "options": {
-            "A": "\n\n            bank balance decrease and cash balance increase\n",
-            "B": "\n\n            cash balance decrease and bank balance increase\n",
-            "C": "\n\n            bank balance decrease and cash balance decrease\n",
-            "D": "\n\n            cash balance increase and bank balance increase\n"
+            "A": "bank balance decrease and cash balance increase",
+            "B": "cash balance decrease and bank balance increase",
+            "C": "bank balance decrease and cash balance decrease",
+            "D": "cash balance increase and bank balance increase"
         },
         "correct_answer": "B",
         "topic": "Ledger & Trial Balance",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "Which of these is not a subsidiary books?",
         "options": {
-            "A": "\n\n            sales day book\n",
-            "B": "\n\n            purchase day book\n",
-            "C": "\n\n            credit note\n",
-            "D": "\n\n            return inward day book\n"
+            "A": "sales day book",
+            "B": "purchase day book",
+            "C": "credit note",
+            "D": "return inward day book"
         },
         "correct_answer": "C",
         "topic": "Books of Original Entry",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "Salaries in arrears is treated in the balance sheet as a",
         "options": {
-            "A": "\n\n            current asset\n",
-            "B": "\n\n            current liability\n",
-            "C": "\n\n            long term liability\n",
-            "D": "\n\n            fixed asset\n"
+            "A": "current asset",
+            "B": "current liability",
+            "C": "long term liability",
+            "D": "fixed asset"
         },
         "correct_answer": "B",
         "topic": "Balance Sheet",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "Capital for a profit making organization is generated through",
         "options": {
-            "A": "\n\n            gift\n",
-            "B": "\n\n            donation\n",
-            "C": "\n\n            shares\n",
-            "D": "\n\n            subscription\n"
+            "A": "gift",
+            "B": "donation",
+            "C": "shares",
+            "D": "subscription"
         },
         "correct_answer": "C",
         "topic": "Trading/Profit & Loss Account",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "One of the options below have the same features as the profit and loss account in non-profit organization",
         "options": {
-            "A": "\n\n            non profit account\n",
-            "B": "\n\n            profit and loss account\n",
-            "C": "\n\n            income and expenditure account\n",
-            "D": "\n\n            receipts and payment account\n"
+            "A": "non profit account",
+            "B": "profit and loss account",
+            "C": "income and expenditure account",
+            "D": "receipts and payment account"
         },
         "correct_answer": "C",
         "topic": "Trading/Profit & Loss Account",
@@ -419,12 +419,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "24",
-        "question": "₦ Plant and Machinery 190000 Motor Vehicle 170000 Stock 60000 Current Liabilities 50000 Purchase consideration 40000 The goodwill is?",
+        "question": "Naira Plant and Machinery 190000 Motor Vehicle 170000 Stock 60000 Current Liabilities 50000 Purchase consideration 40000 The goodwill is?",
         "options": {
-            "A": "\n\n            ₦110,000\n",
-            "B": "\n\n            ₦30,000\n",
-            "C": "\n\n            ₦90,000\n",
-            "D": "\n\n            ₦80,000\n"
+            "A": "Naira110,000",
+            "B": "Naira30,000",
+            "C": "Naira90,000",
+            "D": "Naira80,000"
         },
         "correct_answer": "B",
         "topic": "Balance Sheet",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "Which of these is not method of stock valuation?",
         "options": {
-            "A": "\n\n            FIFO method\n",
-            "B": "\n\n            Base method\n",
-            "C": "\n\n            Standard method\n",
-            "D": "\n\n            LIFO method\n"
+            "A": "FIFO method",
+            "B": "Base method",
+            "C": "Standard method",
+            "D": "LIFO method"
         },
         "correct_answer": "C",
         "topic": "Principles & Books of Original Entry",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "An evidence of payment issued to a government ministry by a revenue collector is",
         "options": {
-            "A": "\n\n            treasury card\n",
-            "B": "\n\n            payment voucher\n",
-            "C": "\n\n            treasury receipt\n",
-            "D": "\n\n            receipt voucher\n"
+            "A": "treasury card",
+            "B": "payment voucher",
+            "C": "treasury receipt",
+            "D": "receipt voucher"
         },
         "correct_answer": "D",
         "topic": "Trading/Profit & Loss Account",
@@ -475,10 +475,10 @@
         "number": "27",
         "question": "The account where the profit are distributed to the partner in their profit sharing ratio in partnership",
         "options": {
-            "A": "\n\n            appropriation account\n",
-            "B": "\n\n            profit and loss account\n",
-            "C": "\n\n            balance sheet\n",
-            "D": "\n\n            trading account\n"
+            "A": "appropriation account",
+            "B": "profit and loss account",
+            "C": "balance sheet",
+            "D": "trading account"
         },
         "correct_answer": "A",
         "topic": "Ledger & Trial Balance",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "The main purpose of transaction file is?",
         "options": {
-            "A": "\n\n            to record assets and liabilities\n",
-            "B": "\n\n            to update income and expenses\n",
-            "C": "\n\n            to make organization decision\n",
-            "D": "\n\n            to update master files\n"
+            "A": "to record assets and liabilities",
+            "B": "to update income and expenses",
+            "C": "to make organization decision",
+            "D": "to update master files"
         },
         "correct_answer": "D",
         "topic": "Trading/Profit & Loss Account",
@@ -511,10 +511,10 @@
         "number": "29",
         "question": "A double entry for a transaction that offsets one amount against another on both sides of the cashbook is a",
         "options": {
-            "A": "\n\n            original entry\n",
-            "B": "\n\n            contract entry\n",
-            "C": "\n\n            prime entry\n",
-            "D": "\n\n            contra entry\n"
+            "A": "original entry",
+            "B": "contract entry",
+            "C": "prime entry",
+            "D": "contra entry"
         },
         "correct_answer": "D",
         "topic": "Principles of Double Entry",
@@ -529,10 +529,10 @@
         "number": "30",
         "question": "When starting with the cash book balance in preparing the bank reconciliation statement, the followings are added except",
         "options": {
-            "A": "\n\n            uncredited cheque\n",
-            "B": "\n\n            credit transfer\n",
-            "C": "\n\n            dividend\n",
-            "D": "\n\n            unpresented cheque\n"
+            "A": "uncredited cheque",
+            "B": "credit transfer",
+            "C": "dividend",
+            "D": "unpresented cheque"
         },
         "correct_answer": "A",
         "topic": "Ledger & Trial Balance",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "Discount allowed is enjoyed by",
         "options": {
-            "A": "\n\n            managers\n",
-            "B": "\n\n            customers\n",
-            "C": "\n\n            staff of the company\n",
-            "D": "\n\n            suppliers\n"
+            "A": "managers",
+            "B": "customers",
+            "C": "staff of the company",
+            "D": "suppliers"
         },
         "correct_answer": "B",
         "topic": "Company Accounts",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "In manufacturing, depreciation of office machine is charged to",
         "options": {
-            "A": "\n\n            trading account\n",
-            "B": "\n\n            balance sheet\n",
-            "C": "\n\n            appropriation account\n",
-            "D": "\n\n            profit and loss account\n"
+            "A": "trading account",
+            "B": "balance sheet",
+            "C": "appropriation account",
+            "D": "profit and loss account"
         },
         "correct_answer": "D",
         "topic": "Ledger & Trial Balance",
@@ -581,12 +581,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "33",
-        "question": "₦ ₦ Bal. b/f 3,250 Bal. b/f. 215 Sales 19,075 Bank 16,387.50 Dishonoured cheque 625 Discount 862.50 Stopped cheque 250 Returns inwards 325 Bal c/d 230 Set off 900 Bal c/d 4740 23,430 23430 Bal b/d 4740 Bal b/d 230 Dr. Sales Ledger Control Account . Cr The amount ₦16,378.50 described as \"Bank\" represents",
+        "question": "Naira Naira Bal. b/f 3,250 Bal. b/f. 215 Sales 19,075 Bank 16,387.50 Dishonoured cheque 625 Discount 862.50 Stopped cheque 250 Returns inwards 325 Bal c/d 230 Set off 900 Bal c/d 4740 23,430 23430 Bal b/d 4740 Bal b/d 230 Dr. Sales Ledger Control Account . Cr The amount Naira16,378.50 described as \"Bank\" represents",
         "options": {
-            "A": "\n\n            receipts from trade debtors only\n",
-            "B": "\n\n            cash sales for the month including discount\n",
-            "C": "\n\n            receipts from all debtors of the business\n",
-            "D": "\n\n            cash sales for the month excluding discount\n"
+            "A": "receipts from trade debtors only",
+            "B": "cash sales for the month including discount",
+            "C": "receipts from all debtors of the business",
+            "D": "cash sales for the month excluding discount"
         },
         "correct_answer": "C",
         "topic": "Ledger & Trial Balance",
@@ -599,12 +599,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "34",
-        "question": "Dr. Sales Ledger Control Account . Cr ₦ ₦ Bal b/f 3,250 Bal b/f 125 Sales 19,075 Bank 16,387.50 Dishonoured cheque 625 Discount 862.50 Stopped cheque 250 Returns inwards 325 Bal c/d 230 Set off 900 Bal c/d 4740 23430 23430 Bal b/d 4740 Bal b/d 230 The amount ₦19,075 represents",
+        "question": "Dr. Sales Ledger Control Account . Cr Naira Naira Bal b/f 3,250 Bal b/f 125 Sales 19,075 Bank 16,387.50 Dishonoured cheque 625 Discount 862.50 Stopped cheque 250 Returns inwards 325 Bal c/d 230 Set off 900 Bal c/d 4740 23430 23430 Bal b/d 4740 Bal b/d 230 The amount Naira19,075 represents",
         "options": {
-            "A": "\n\n            the double entry for the total sales account\n",
-            "B": "\n\n            total sales for the month\n",
-            "C": "\n\n            credit sales\n",
-            "D": "\n\n            cash sales for the month\n"
+            "A": "the double entry for the total sales account",
+            "B": "total sales for the month",
+            "C": "credit sales",
+            "D": "cash sales for the month"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "An advantage of FIFO method of stock valuation is that",
         "options": {
-            "A": "\n\n            it is calculated at the end of the year\n",
-            "B": "\n\n            its flow of cost is in sequence with the flow of stock\n",
-            "C": "\n\n            it is progressive in nature\n",
-            "D": "\n\n            it serves as a control during inflation\n"
+            "A": "it is calculated at the end of the year",
+            "B": "its flow of cost is in sequence with the flow of stock",
+            "C": "it is progressive in nature",
+            "D": "it serves as a control during inflation"
         },
         "correct_answer": "B",
         "topic": "Manufacturing Accounts",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "When expenses are paid on behalf of the venture, the accounting entries is to debit",
         "options": {
-            "A": "\n\n            expenses account and credit bank account\n",
-            "B": "\n\n            bank account and credit joint venture account\n",
-            "C": "\n\n            joint venture account and credit bank account\n",
-            "D": "\n\n            joint venture account and credit expenses account\n"
+            "A": "expenses account and credit bank account",
+            "B": "bank account and credit joint venture account",
+            "C": "joint venture account and credit bank account",
+            "D": "joint venture account and credit expenses account"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "The discount column on the left-hand side of cash book represents a discount",
         "options": {
-            "A": "\n\n            received from a debtor\n",
-            "B": "\n\n            allowed to a creditor\n",
-            "C": "\n\n            allowed to a debtor\n",
-            "D": "\n\n            received from a creditor\n"
+            "A": "received from a debtor",
+            "B": "allowed to a creditor",
+            "C": "allowed to a debtor",
+            "D": "received from a creditor"
         },
         "correct_answer": "C",
         "topic": "Control Accounts",
@@ -673,10 +673,10 @@
         "number": "38",
         "question": "Goodwill can be introduced when",
         "options": {
-            "A": "\n\n            the business suffers high loss\n",
-            "B": "\n\n            the business is being expanded\n",
-            "C": "\n\n            the partnership experience super profit\n",
-            "D": "\n\n            a new member is admitted\n"
+            "A": "the business suffers high loss",
+            "B": "the business is being expanded",
+            "C": "the partnership experience super profit",
+            "D": "a new member is admitted"
         },
         "correct_answer": "D",
         "topic": "Trading/Profit & Loss Account",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "Which fund is used to meet unforeseen or urgent expenditure",
         "options": {
-            "A": "\n\n            special fund\n",
-            "B": "\n\n            contigencies fund\n",
-            "C": "\n\n            general reserve fund\n",
-            "D": "\n\n            consolidated reserve fund\n"
+            "A": "special fund",
+            "B": "contigencies fund",
+            "C": "general reserve fund",
+            "D": "consolidated reserve fund"
         },
         "correct_answer": "B",
         "topic": "Public Sector Accounting",
@@ -709,10 +709,10 @@
         "number": "40",
         "question": "Given: I. Settlement of debts II. Cessation of business III. Introduction of assets IV. Disposal of assets Which of these constitutes dissolution of partnership?",
         "options": {
-            "A": "\n\n            I,II and III only\n",
-            "B": "\n\n            I,II and IV only\n",
-            "C": "\n\n            II and IV only\n",
-            "D": "\n\n            II and III and IV only\n"
+            "A": "I,II and III only",
+            "B": "I,II and IV only",
+            "C": "II and IV only",
+            "D": "II and III and IV only"
         },
         "correct_answer": "B",
         "topic": "Partnership Accounts",
@@ -727,10 +727,10 @@
         "number": "41",
         "question": "Bello withdraws cash from bank to office, this is called ---------- entry",
         "options": {
-            "A": "\n\n            credit\n",
-            "B": "\n\n            contra\n",
-            "C": "\n\n            double\n",
-            "D": "\n\n            debit\n"
+            "A": "credit",
+            "B": "contra",
+            "C": "double",
+            "D": "debit"
         },
         "correct_answer": "B",
         "topic": "Principles of Double Entry",
@@ -745,10 +745,10 @@
         "number": "42",
         "question": "Which of the following is recorded in the folio column of the journal?",
         "options": {
-            "A": "\n\n            particulars of transactions\n",
-            "B": "\n\n            date of entries\n",
-            "C": "\n\n            all credit and cash sales transactions\n",
-            "D": "\n\n            amount of money posted\n"
+            "A": "particulars of transactions",
+            "B": "date of entries",
+            "C": "all credit and cash sales transactions",
+            "D": "amount of money posted"
         },
         "correct_answer": "A",
         "topic": "Books of Original Entry",
@@ -761,12 +761,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "43",
-        "question": "Dairo and Segun are in partnership sharing profits and losses in the ratio 2:3 respectively. The information below relates to their business for the year ended 31st December, 2018. Drawings: ₦ Dairo 12000 Segun 18000 Capital Dairo 120000 Segun 60000 - Interest on drawings 10% - Interest on capital 5% - Profit for the year ₦36,000 - Salary: Segun ₦10,000 The interest on Dairo's drawings is",
+        "question": "Dairo and Segun are in partnership sharing profits and losses in the ratio 2:3 respectively. The information below relates to their business for the year ended 31st December, 2018. Drawings: Naira Dairo 12000 Segun 18000 Capital Dairo 120000 Segun 60000 - Interest on drawings 10% - Interest on capital 5% - Profit for the year Naira36,000 - Salary: Segun Naira10,000 The interest on Dairo's drawings is",
         "options": {
-            "A": "\n\n            ₦1,600\n",
-            "B": "\n\n            ₦1,200\n",
-            "C": "\n\n            ₦1,400\n",
-            "D": "\n\n            ₦1,800\n"
+            "A": "Naira1,600",
+            "B": "Naira1,200",
+            "C": "Naira1,400",
+            "D": "Naira1,800"
         },
         "correct_answer": "B",
         "topic": "Partnership Accounts",
@@ -779,12 +779,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "44",
-        "question": "Dairo and Segun are in partnership sharing profits and losses in the ratio 2:3 respectively. The information below relates to their business for the year ended 31st December, 2018. Drawings: ₦ Dairo 12000 Segun 18000 Capital: Dairo 120000 Segun 60000 - Interest on drawings 10% - Interest on capital 5% - Profit for the year ₦36,000 - Salary: Segun ₦10,000 Segun's share of profit is",
+        "question": "Dairo and Segun are in partnership sharing profits and losses in the ratio 2:3 respectively. The information below relates to their business for the year ended 31st December, 2018. Drawings: Naira Dairo 12000 Segun 18000 Capital: Dairo 120000 Segun 60000 - Interest on drawings 10% - Interest on capital 5% - Profit for the year Naira36,000 - Salary: Segun Naira10,000 Segun's share of profit is",
         "options": {
-            "A": "\n\n            ₦12,000\n",
-            "B": "\n\n            ₦21,400\n",
-            "C": "\n\n            ₦14,600\n",
-            "D": "\n\n            ₦16,400\n"
+            "A": "Naira12,000",
+            "B": "Naira21,400",
+            "C": "Naira14,600",
+            "D": "Naira16,400"
         },
         "correct_answer": "A",
         "topic": "Partnership Accounts",
@@ -799,10 +799,10 @@
         "number": "45",
         "question": "Which of the following is prepared to ascertain the trader's capital under incomplete records?",
         "options": {
-            "A": "\n\n            statement of affairs\n",
-            "B": "\n\n            statement of capital and liabilites\n",
-            "C": "\n\n            statement of complete records\n",
-            "D": "\n\n            income statement\n"
+            "A": "statement of affairs",
+            "B": "statement of capital and liabilites",
+            "C": "statement of complete records",
+            "D": "income statement"
         },
         "correct_answer": "A",
         "topic": "Incomplete Records",
@@ -817,10 +817,10 @@
         "number": "46",
         "question": "In the absence of a partnership agreement, a loan given to the partnership by a partner attracts interest of",
         "options": {
-            "A": "\n\n            7 \\(\\frac{1} {2}\\) %\n",
-            "B": "\n\n            5%\n",
-            "C": "\n\n            15%\n",
-            "D": "\n\n            10%\n"
+            "A": "7 \\(frac1 2\\) %",
+            "B": "5%",
+            "C": "15%",
+            "D": "10%"
         },
         "correct_answer": "B",
         "topic": "Partnership Accounts",
@@ -835,10 +835,10 @@
         "number": "47",
         "question": "The journal has the following headings except",
         "options": {
-            "A": "\n\n            date\n",
-            "B": "\n\n            debit\n",
-            "C": "\n\n            discount\n",
-            "D": "\n\n            credit\n"
+            "A": "date",
+            "B": "debit",
+            "C": "discount",
+            "D": "credit"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -853,10 +853,10 @@
         "number": "48",
         "question": "The part of capital issued only at the time of liquidation of the company is",
         "options": {
-            "A": "\n\n            issued capital\n",
-            "B": "\n\n            called-up capital\n",
-            "C": "\n\n            paid-up capital\n",
-            "D": "\n\n            reserved capital\n"
+            "A": "issued capital",
+            "B": "called-up capital",
+            "C": "paid-up capital",
+            "D": "reserved capital"
         },
         "correct_answer": "D",
         "topic": "Partnership Accounts",
@@ -871,10 +871,10 @@
         "number": "49",
         "question": "Which of the following is not charged to manufacturing account?",
         "options": {
-            "A": "\n\n            raw materials\n",
-            "B": "\n\n            factory wages\n",
-            "C": "\n\n            direct expenses\n",
-            "D": "\n\n            distribution expenses\n"
+            "A": "raw materials",
+            "B": "factory wages",
+            "C": "direct expenses",
+            "D": "distribution expenses"
         },
         "correct_answer": "D",
         "topic": "Manufacturing Accounts",
@@ -889,10 +889,10 @@
         "number": "50",
         "question": "The authority to transfer fund from one head to another within the same organization is called",
         "options": {
-            "A": "\n\n            fund\n",
-            "B": "\n\n            warrant\n",
-            "C": "\n\n            vote\n",
-            "D": "\n\n            virement\n"
+            "A": "fund",
+            "B": "warrant",
+            "C": "vote",
+            "D": "virement"
         },
         "correct_answer": "D",
         "topic": "Public Sector Accounting",
@@ -907,10 +907,10 @@
         "number": "51",
         "question": "Another name for control accounts is",
         "options": {
-            "A": "\n\n            total account\n",
-            "B": "\n\n            purchases ledger\n",
-            "C": "\n\n            creditors' account\n",
-            "D": "\n\n            debtors' account\n"
+            "A": "total account",
+            "B": "purchases ledger",
+            "C": "creditors' account",
+            "D": "debtors' account"
         },
         "correct_answer": "A",
         "topic": "Ledger & Trial Balance",
@@ -925,10 +925,10 @@
         "number": "52",
         "question": "Which of the following concepts recognizes the principle of double entry?",
         "options": {
-            "A": "\n\n            business entity\n",
-            "B": "\n\n            accrual\n",
-            "C": "\n\n            going concern\n",
-            "D": "\n\n            dual aspect\n"
+            "A": "business entity",
+            "B": "accrual",
+            "C": "going concern",
+            "D": "dual aspect"
         },
         "correct_answer": "D",
         "topic": "Principles of Double Entry",
@@ -941,12 +941,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "53",
-        "question": "Danladi Bako's Statement of Affairs as at 30/06/17 ₦ ₦ Capital ?? Fixtures and fittings 4,000 Stock 20,500 Sundry debtors 40,000 Creditors 18,000 Bank ?? 78,650 78,650 What is his bank balance as at 30/06/17?",
+        "question": "Danladi Bako's Statement of Affairs as at 30/06/17 Naira Naira Capital ?? Fixtures and fittings 4,000 Stock 20,500 Sundry debtors 40,000 Creditors 18,000 Bank ?? 78,650 78,650 What is his bank balance as at 30/06/17?",
         "options": {
-            "A": "\n\n            ₦14,150\n",
-            "B": "\n\n            ₦18,500\n",
-            "C": "\n\n            ₦15,300\n",
-            "D": "\n\n            ₦65,150\n"
+            "A": "Naira14,150",
+            "B": "Naira18,500",
+            "C": "Naira15,300",
+            "D": "Naira65,150"
         },
         "correct_answer": "A",
         "topic": "Ledger & Trial Balance",
@@ -959,12 +959,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "54",
-        "question": "Danladi Bako's Statement of Affairs as at 30/06/17 ₦ ₦ Capital ?? Fixtures and fittings 4,000 Stock 20,500 Sundry debtors 40,000 Creditors 18,000 Bank ?? 78650 78650 What is the value of Dalandi Bako's capital?",
+        "question": "Danladi Bako's Statement of Affairs as at 30/06/17 Naira Naira Capital ?? Fixtures and fittings 4,000 Stock 20,500 Sundry debtors 40,000 Creditors 18,000 Bank ?? 78650 78650 What is the value of Dalandi Bako's capital?",
         "options": {
-            "A": "\n\n            ₦60,150\n",
-            "B": "\n\n            ₦78,650\n",
-            "C": "\n\n            ₦50,160\n",
-            "D": "\n\n            ₦60,650\n"
+            "A": "Naira60,150",
+            "B": "Naira78,650",
+            "C": "Naira50,160",
+            "D": "Naira60,650"
         },
         "correct_answer": "D",
         "topic": "Balance Sheet",
@@ -979,10 +979,10 @@
         "number": "55",
         "question": "The accounting system in which only one aspect of transaction is recorded is",
         "options": {
-            "A": "\n\n            single entry\n",
-            "B": "\n\n            single column cash book\n",
-            "C": "\n\n            original entry\n",
-            "D": "\n\n            double entry\n"
+            "A": "single entry",
+            "B": "single column cash book",
+            "C": "original entry",
+            "D": "double entry"
         },
         "correct_answer": "A",
         "topic": "Principles of Double Entry",
@@ -997,10 +997,10 @@
         "number": "56",
         "question": "Which of the following is used in the public sector to monitor or control government expenditure?",
         "options": {
-            "A": "\n\n            sales day book\n",
-            "B": "\n\n            cash book\n",
-            "C": "\n\n            cheque\n",
-            "D": "\n\n            vote book\n"
+            "A": "sales day book",
+            "B": "cash book",
+            "C": "cheque",
+            "D": "vote book"
         },
         "correct_answer": "D",
         "topic": "Books of Original Entry",
@@ -1015,10 +1015,10 @@
         "number": "57",
         "question": "Profit expressed in relation to cost of goods sold is",
         "options": {
-            "A": "\n\n            turnover\n",
-            "B": "\n\n            cost price\n",
-            "C": "\n\n            margin\n",
-            "D": "\n\n            mark -up\n"
+            "A": "turnover",
+            "B": "cost price",
+            "C": "margin",
+            "D": "mark -up"
         },
         "correct_answer": "D",
         "topic": "Manufacturing Accounts",
@@ -1033,10 +1033,10 @@
         "number": "58",
         "question": "The document issued by a revenue collector as evidence of payment to a government ministry is a",
         "options": {
-            "A": "\n\n            receipt voucher card\n",
-            "B": "\n\n            stores receipt voucher\n",
-            "C": "\n\n            treasury receipt\n",
-            "D": "\n\n            payment voucher\n"
+            "A": "receipt voucher card",
+            "B": "stores receipt voucher",
+            "C": "treasury receipt",
+            "D": "payment voucher"
         },
         "correct_answer": "A",
         "topic": "Trading/Profit & Loss Account",
@@ -1051,10 +1051,10 @@
         "number": "59",
         "question": "When the goods are sold on credit to a buyer, the account receivable account will be",
         "options": {
-            "A": "\n\n            debit and credit\n",
-            "B": "\n\n            contra entry\n",
-            "C": "\n\n            debited\n",
-            "D": "\n\n            credited\n"
+            "A": "debit and credit",
+            "B": "contra entry",
+            "C": "debited",
+            "D": "credited"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -1067,12 +1067,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "60",
-        "question": "Larry Limited has 4,000,000 ordinary shares of 50k each and 150,000 5% prefrence shares of ₦1 each fully paid. ₦ Net profit for the year 90,000 Interim dividends paid: Ordinary shares 25,000 Profit and loss appropriation b/f 10,000 Goodwill written off 1,000 The amount of preference shares dividends payable at the end of the year is",
+        "question": "Larry Limited has 4,000,000 ordinary shares of 50k each and 150,000 5% prefrence shares of Naira1 each fully paid. Naira Net profit for the year 90,000 Interim dividends paid: Ordinary shares 25,000 Profit and loss appropriation b/f 10,000 Goodwill written off 1,000 The amount of preference shares dividends payable at the end of the year is",
         "options": {
-            "A": "\n\n            ₦10,000\n",
-            "B": "\n\n            ₦25,000\n",
-            "C": "\n\n            ₦7,500\n",
-            "D": "\n\n            ₦20,000\n"
+            "A": "Naira10,000",
+            "B": "Naira25,000",
+            "C": "Naira7,500",
+            "D": "Naira20,000"
         },
         "correct_answer": "C",
         "topic": "Trading/Profit & Loss Account",
@@ -1085,12 +1085,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "61",
-        "question": "Larry Limited has 4,000,000 ordinary shares of 50k each and 150,000 5% prefrence shares of ₦1 each fully paid. ₦ Net profit for the year 90,000 Interim dividends paid: Ordinary shares 25,000 Profit and loss appropriation b/f 10,000 Goodwill written off 1,000 At the end of the period, what is the balance of the profit and loss appropriation account?",
+        "question": "Larry Limited has 4,000,000 ordinary shares of 50k each and 150,000 5% prefrence shares of Naira1 each fully paid. Naira Net profit for the year 90,000 Interim dividends paid: Ordinary shares 25,000 Profit and loss appropriation b/f 10,000 Goodwill written off 1,000 At the end of the period, what is the balance of the profit and loss appropriation account?",
         "options": {
-            "A": "\n\n            ₦66,5000\n",
-            "B": "\n\n            ₦90,000\n",
-            "C": "\n\n            ₦100,000\n",
-            "D": "\n\n            ₦74,000\n"
+            "A": "Naira66,5000",
+            "B": "Naira90,000",
+            "C": "Naira100,000",
+            "D": "Naira74,000"
         },
         "correct_answer": "A",
         "topic": "Trading/Profit & Loss Account",
@@ -1105,10 +1105,10 @@
         "number": "62",
         "question": "The document which is legal charter of a company that defines the limits of a company's field of operation is known as",
         "options": {
-            "A": "\n\n            articles of association\n",
-            "B": "\n\n            equity share certificate\n",
-            "C": "\n\n            prospectus\n",
-            "D": "\n\n            memorandum of association\n"
+            "A": "articles of association",
+            "B": "equity share certificate",
+            "C": "prospectus",
+            "D": "memorandum of association"
         },
         "correct_answer": "D",
         "topic": "Company Accounts",
@@ -1121,12 +1121,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "63",
-        "question": "₦ Manufacturing wages 42,000 Factory rent 880 Raw materials: Stock 1/1/16 1,000 Purchases 16,000 Stock 31/12/16 1,400 Depreciation of Plants and Machinery 800 Royalties 300 Indirect wages 18,000 General indirect expenses 620 Calculate the cost of raw materials consumed",
+        "question": "Naira Manufacturing wages 42,000 Factory rent 880 Raw materials: Stock 1/1/16 1,000 Purchases 16,000 Stock 31/12/16 1,400 Depreciation of Plants and Machinery 800 Royalties 300 Indirect wages 18,000 General indirect expenses 620 Calculate the cost of raw materials consumed",
         "options": {
-            "A": "\n\n            ₦15,600\n",
-            "B": "\n\n            ₦17,000\n",
-            "C": "\n\n            ₦42,000\n",
-            "D": "\n\n            ₦20,300\n"
+            "A": "Naira15,600",
+            "B": "Naira17,000",
+            "C": "Naira42,000",
+            "D": "Naira20,300"
         },
         "correct_answer": "A",
         "topic": "Manufacturing Accounts",
@@ -1139,12 +1139,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "64",
-        "question": "₦ Manufacturing wages 42000 Factory rent 880 Raw materials: Stock 1/1/16 1000 Purchases 16000 Stock 31/12/16 1400 Depreciation of Plants and Machinery 800 Royalties 300 Indirect wages 18,000 General indirect expenses 620 The prime cost is",
+        "question": "Naira Manufacturing wages 42000 Factory rent 880 Raw materials: Stock 1/1/16 1000 Purchases 16000 Stock 31/12/16 1400 Depreciation of Plants and Machinery 800 Royalties 300 Indirect wages 18,000 General indirect expenses 620 The prime cost is",
         "options": {
-            "A": "\n\n            ₦57,900\n",
-            "B": "\n\n            ₦42,000\n",
-            "C": "\n\n            ₦45,000\n",
-            "D": "\n\n            ₦78,200\n"
+            "A": "Naira57,900",
+            "B": "Naira42,000",
+            "C": "Naira45,000",
+            "D": "Naira78,200"
         },
         "correct_answer": "A",
         "topic": "Manufacturing Accounts",
@@ -1157,12 +1157,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "65",
-        "question": "₦ Manufacturing wages 42,000 Factory rent 880 Raw materials: Stock 1/1/16 1,000 Purchases 16,000 Stock 31/12/16 1,400 Depreciation of Plants and Machinery 800 Royalties 300 Indirect wages 18,000 General indirect expenses 620 What is the value of the indirect manufacturing cost?",
+        "question": "Naira Manufacturing wages 42,000 Factory rent 880 Raw materials: Stock 1/1/16 1,000 Purchases 16,000 Stock 31/12/16 1,400 Depreciation of Plants and Machinery 800 Royalties 300 Indirect wages 18,000 General indirect expenses 620 What is the value of the indirect manufacturing cost?",
         "options": {
-            "A": "\n\n            ₦57,900\n",
-            "B": "\n\n            ₦18,200\n",
-            "C": "\n\n            ₦20,300\n",
-            "D": "\n\n            ₦23,000\n"
+            "A": "Naira57,900",
+            "B": "Naira18,200",
+            "C": "Naira20,300",
+            "D": "Naira23,000"
         },
         "correct_answer": "C",
         "topic": "Manufacturing Accounts",
@@ -1177,10 +1177,10 @@
         "number": "66",
         "question": "Current assets are shown in the balance sheet in order of performance as",
         "options": {
-            "A": "\n\n            debtors, stock, bank and cash\n",
-            "B": "\n\n            stock, debtors, bank and cash\n",
-            "C": "\n\n            stock, bank, debtors and cash\n",
-            "D": "\n\n            debtors, stock, cash and bank\n"
+            "A": "debtors, stock, bank and cash",
+            "B": "stock, debtors, bank and cash",
+            "C": "stock, bank, debtors and cash",
+            "D": "debtors, stock, cash and bank"
         },
         "correct_answer": "B",
         "topic": "Balance Sheet",
@@ -1195,10 +1195,10 @@
         "number": "67",
         "question": "Which of the following is found on the credit side of a profit and loss account?",
         "options": {
-            "A": "\n\n            advertising\n",
-            "B": "\n\n            dividend received\n",
-            "C": "\n\n            wages and salaries\n",
-            "D": "\n\n            bank charges\n"
+            "A": "advertising",
+            "B": "dividend received",
+            "C": "wages and salaries",
+            "D": "bank charges"
         },
         "correct_answer": "B",
         "topic": "Principles of Double Entry",
@@ -1213,10 +1213,10 @@
         "number": "68",
         "question": "Shares are said to be authorized when they are",
         "options": {
-            "A": "\n\n            paid -up\n",
-            "B": "\n\n            called up\n",
-            "C": "\n\n            offered for sale\n",
-            "D": "\n\n            subscribed\n"
+            "A": "paid -up",
+            "B": "called up",
+            "C": "offered for sale",
+            "D": "subscribed"
         },
         "correct_answer": "C",
         "topic": "Company Accounts",
@@ -1231,10 +1231,10 @@
         "number": "69",
         "question": "The assumption that a business will continue to exist into the foreseeanle future is recognized by a concept called",
         "options": {
-            "A": "\n\n            matching\n",
-            "B": "\n\n            business entity\n",
-            "C": "\n\n            going concern\n",
-            "D": "\n\n            historical cost\n"
+            "A": "matching",
+            "B": "business entity",
+            "C": "going concern",
+            "D": "historical cost"
         },
         "correct_answer": "C",
         "topic": "Manufacturing Accounts",
@@ -1249,10 +1249,10 @@
         "number": "70",
         "question": "The short term solvency of a company is determined with ------- ratio",
         "options": {
-            "A": "\n\n            acid test\n",
-            "B": "\n\n            gross profit margin\n",
-            "C": "\n\n            debt to equity\n",
-            "D": "\n\n            current\n"
+            "A": "acid test",
+            "B": "gross profit margin",
+            "C": "debt to equity",
+            "D": "current"
         },
         "correct_answer": "D",
         "topic": "Trading/Profit & Loss Account",
@@ -1267,10 +1267,10 @@
         "number": "71",
         "question": "Which of the following is charged to trading account?",
         "options": {
-            "A": "\n\n            rent\n",
-            "B": "\n\n            discount allowed\n",
-            "C": "\n\n            carriage inwards\n",
-            "D": "\n\n            carriage outwards\n"
+            "A": "rent",
+            "B": "discount allowed",
+            "C": "carriage inwards",
+            "D": "carriage outwards"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -1285,10 +1285,10 @@
         "number": "72",
         "question": "Which of the following expenses is *not* apportined in proportion to turnover?",
         "options": {
-            "A": "\n\n            rent\n",
-            "B": "\n\n            commission\n",
-            "C": "\n\n            discount allowed\n",
-            "D": "\n\n            carriage outwards\n"
+            "A": "rent",
+            "B": "commission",
+            "C": "discount allowed",
+            "D": "carriage outwards"
         },
         "correct_answer": "A",
         "topic": "Trading/Profit & Loss Account",
@@ -1303,10 +1303,10 @@
         "number": "73",
         "question": "The purchases ledger control account is also known as",
         "options": {
-            "A": "\n\n            bill payable control account\n",
-            "B": "\n\n            credit purchase control account\n",
-            "C": "\n\n            creditors control account\n",
-            "D": "\n\n            total purchase\n"
+            "A": "bill payable control account",
+            "B": "credit purchase control account",
+            "C": "creditors control account",
+            "D": "total purchase"
         },
         "correct_answer": "C",
         "topic": "Principles of Double Entry",
@@ -1321,10 +1321,10 @@
         "number": "74",
         "question": "The Accounting term used to describe a partnership firm that stops operation and disposes its assets is",
         "options": {
-            "A": "\n\n            Amortization\n",
-            "B": "\n\n            Revaluation\n",
-            "C": "\n\n            Realization\n",
-            "D": "\n\n            Dissolution\n"
+            "A": "Amortization",
+            "B": "Revaluation",
+            "C": "Realization",
+            "D": "Dissolution"
         },
         "correct_answer": "D",
         "topic": "Partnership Accounts",
@@ -1339,10 +1339,10 @@
         "number": "75",
         "question": "Income and Expenditure account is the same as the --------- of a sole trader",
         "options": {
-            "A": "\n\n            balance sheet\n",
-            "B": "\n\n            trading account\n",
-            "C": "\n\n            profit and loss account\n",
-            "D": "\n\n            cash book\n"
+            "A": "balance sheet",
+            "B": "trading account",
+            "C": "profit and loss account",
+            "D": "cash book"
         },
         "correct_answer": "C",
         "topic": "Trading/Profit & Loss Account",
@@ -1357,10 +1357,10 @@
         "number": "76",
         "question": "In company account, dividend payments are effected in which of the following accounts?",
         "options": {
-            "A": "\n\n            realization\n",
-            "B": "\n\n            current\n",
-            "C": "\n\n            appropriation\n",
-            "D": "\n\n            capital\n"
+            "A": "realization",
+            "B": "current",
+            "C": "appropriation",
+            "D": "capital"
         },
         "correct_answer": "C",
         "topic": "Company Accounts",
@@ -1373,12 +1373,12 @@
         "subject": "Accounting",
         "year": 2023,
         "number": "77",
-        "question": "The following was extracted from the books of MEGA COMPANY NIG. LTD ₦ Trade debtors 350,000 Fixtures and fittings 600,000 Cash at bank 25,000 Cash in hand 5,500 Trade creditors 116,500 Bank overdraft 7,500 Building 950,000 Motor van 35,000 The working capital of the company is",
+        "question": "The following was extracted from the books of MEGA COMPANY NIG. LTD Naira Trade debtors 350,000 Fixtures and fittings 600,000 Cash at bank 25,000 Cash in hand 5,500 Trade creditors 116,500 Bank overdraft 7,500 Building 950,000 Motor van 35,000 The working capital of the company is",
         "options": {
-            "A": "\n\n            ₦156,000\n",
-            "B": "\n\n            ₦280,000\n",
-            "C": "\n\n            ₦565,000\n",
-            "D": "\n\n            ₦256,500\n"
+            "A": "Naira156,000",
+            "B": "Naira280,000",
+            "C": "Naira565,000",
+            "D": "Naira256,500"
         },
         "correct_answer": "D",
         "topic": "Company Accounts",
@@ -1393,10 +1393,10 @@
         "number": "78",
         "question": "Which of the following is not an advantage of control account?",
         "options": {
-            "A": "\n\n            difficulty in committing fraud\n",
-            "B": "\n\n            it can be used to detect missing figure\n",
-            "C": "\n\n            helps to determine profit and loss\n",
-            "D": "\n\n            helps in locating errors\n"
+            "A": "difficulty in committing fraud",
+            "B": "it can be used to detect missing figure",
+            "C": "helps to determine profit and loss",
+            "D": "helps in locating errors"
         },
         "correct_answer": "A",
         "topic": "Trading/Profit & Loss Account",
@@ -1411,10 +1411,10 @@
         "number": "79",
         "question": "Factory overheads are also known as",
         "options": {
-            "A": "\n\n            direct manufacturing\n",
-            "B": "\n\n            direct expenses\n",
-            "C": "\n\n            indirect cost\n",
-            "D": "\n\n            direct labour\n"
+            "A": "direct manufacturing",
+            "B": "direct expenses",
+            "C": "indirect cost",
+            "D": "direct labour"
         },
         "correct_answer": "C",
         "topic": "Manufacturing Accounts",
@@ -1429,10 +1429,10 @@
         "number": "80",
         "question": "Which of the following has the ultimate control of a company?",
         "options": {
-            "A": "\n\n            board of directors\n",
-            "B": "\n\n            employees\n",
-            "C": "\n\n            shareholders\n",
-            "D": "\n\n            management\n"
+            "A": "board of directors",
+            "B": "employees",
+            "C": "shareholders",
+            "D": "management"
         },
         "correct_answer": "C",
         "topic": "Company Accounts",

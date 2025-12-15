@@ -7,10 +7,10 @@
         "number": "1",
         "question": "Evaluate (212)\\(_3\\) - (121)\\(_3\\) + (222)\\(_3\\)",
         "options": {
-            "A": "\n\n            (313)\\(_3\\)\n",
-            "B": "\n\n            (1000)\\(_3\\)\n",
-            "C": "\n\n            (1020)\\(_3\\)\n",
-            "D": "\n\n            (1222)\\(_3\\)\n"
+            "A": "(313)\\(_3\\)",
+            "B": "(1000)\\(_3\\)",
+            "C": "(1020)\\(_3\\)",
+            "D": "(1222)\\(_3\\)"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -23,12 +23,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "2",
-        "question": "Factorise (4a + 3) \\(^2\\) - (3a - 2)\\(^2\\)",
+        "question": "Factorise (4a + 3) \\(^2\\) - (3a - 2)\\(^2\\)",
         "options": {
-            "A": "\n\n            (a + 1)(a + 5)\n",
-            "B": "\n\n            (a - 5)(7a - 1)\n",
-            "C": "\n\n            (a + 5)(7a + 1)\n",
-            "D": "\n\n            a(7a + 1)\n"
+            "A": "(a + 1)(a + 5)",
+            "B": "(a - 5)(7a - 1)",
+            "C": "(a + 5)(7a + 1)",
+            "D": "a(7a + 1)"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -41,12 +41,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "3",
-        "question": "Find the median of the numbers 89, 141, 130, 161, 120, 131, 131, 100, 108 and 119",
+        "question": "Find the median of the numbers 89, 141, 130, 161, 120, 131, 131, 100, 108 and 119",
         "options": {
-            "A": "\n\n            131\n",
-            "B": "\n\n            125\n",
-            "C": "\n\n            123\n",
-            "D": "\n\n            120\n"
+            "A": "131",
+            "B": "125",
+            "C": "123",
+            "D": "120"
         },
         "correct_answer": "B",
         "topic": "Statistics",
@@ -59,12 +59,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "4",
-        "question": "Find all real number x which satisfy the inequality \\(\\frac{1}{3}\\) (x + 1) - 1 > \\(\\frac{1}{5}\\)(x + 4)",
+        "question": "Find all real number x which satisfy the inequality \\(1/3\\) (x + 1) - 1 > \\(1/5\\)(x + 4)",
         "options": {
-            "A": "\n\n            x < 11\n",
-            "B": "\n\n            x < -1\n",
-            "C": "\n\n            x > 6\n",
-            "D": "\n\n            x > 11\n"
+            "A": "x < 11",
+            "B": "x < -1",
+            "C": "x > 6",
+            "D": "x > 11"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -77,12 +77,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "5",
-        "question": "Reach each number to two significant figures and then evaluate \\(\\frac{0.02174 \\times 1.2047}{0.023789}\\)",
+        "question": "Reach each number to two significant figures and then evaluate \\(0.02174 times 1.2047/0.023789\\)",
         "options": {
-            "A": "\n\n            0\n",
-            "B": "\n\n            0.9\n",
-            "C": "\n\n            1.1\n",
-            "D": "\n\n            1.2\n"
+            "A": "0",
+            "B": "0.9",
+            "C": "1.1",
+            "D": "1.2"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -95,12 +95,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "6",
-        "question": "Four boys and ten girls can cut a field first in 5 hours. If the boys work at \\(\\frac{5}{4}\\) the rate at which the girls work, how many boys will be needed to cut the field in 3 hours?",
+        "question": "Four boys and ten girls can cut a field first in 5 hours. If the boys work at \\(5/4\\) the rate at which the girls work, how many boys will be needed to cut the field in 3 hours?",
         "options": {
-            "A": "\n\n            180\n",
-            "B": "\n\n            60\n",
-            "C": "\n\n            25\n",
-            "D": "\n\n            20\n"
+            "A": "180",
+            "B": "60",
+            "C": "25",
+            "D": "20"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -113,12 +113,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "7",
-        "question": "What is the circumference of latitude 0\\(^o\\)S if R is the radius of the earth?",
+        "question": "What is the circumference of latitude 0\\(^o\\)S if R is the radius of the earth?",
         "options": {
-            "A": "\n\n            cos \\(\\theta\\)\n",
-            "B": "\n\n            2\\(\\pi\\)R cos \\(\\theta\\)\n",
-            "C": "\n\n            R sin \\(\\theta\\)\n",
-            "D": "\n\n            2 \\(\\pi\\) r sin \\(\\theta\\)\n"
+            "A": "cos \\(theta\\)",
+            "B": "2\\(pi\\)R cos \\(theta\\)",
+            "C": "R sin \\(theta\\)",
+            "D": "2 \\(pi\\) r sin \\(theta\\)"
         },
         "correct_answer": "B",
         "topic": "Trigonometry",
@@ -131,12 +131,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "8",
-        "question": "A room is 12m long, 9m wide and 8m high. Find the cosine of the angle which a diagonal of the room makes with the floor of the room",
+        "question": "A room is 12m long, 9m wide and 8m high. Find the cosine of the angle which a diagonal of the room makes with the floor of the room",
         "options": {
-            "A": "\n\n            \\(\\frac{15}{17}\\)\n",
-            "B": "\n\n            \\(\\frac{8}{17}\\)\n",
-            "C": "\n\n            \\(\\frac{8}{15}\\)\n",
-            "D": "\n\n            \\(\\frac{12}{17}\\)\n"
+            "A": "\\(15/17\\)",
+            "B": "\\(8/17\\)",
+            "C": "\\(8/15\\)",
+            "D": "\\(12/17\\)"
         },
         "correct_answer": "A",
         "topic": "Trigonometry",
@@ -149,12 +149,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "9",
-        "question": "The goals scored by 40 football teams from three league  divisions are recorded below No of goals 0 1 2 3 4 5 6 Frequency 4 3 15 16 1 0 1 What is the total number of goals scored by all the teams?",
+        "question": "The goals scored by 40 football teams from three league divisions are recorded below No of goals 0 1 2 3 4 5 6 Frequency 4 3 15 16 1 0 1 What is the total number of goals scored by all the teams?",
         "options": {
-            "A": "\n\n            21\n",
-            "B": "\n\n            40\n",
-            "C": "\n\n            91\n",
-            "D": "\n\n            96\n"
+            "A": "21",
+            "B": "40",
+            "C": "91",
+            "D": "96"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -167,12 +167,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "10",
-        "question": "In a class of 150 students, the sector in a pie chart representing the students offering physics has angle 12\\(^o\\). How many students are offering physics?",
+        "question": "In a class of 150 students, the sector in a pie chart representing the students offering physics has angle 12\\(^o\\). How many students are offering physics?",
         "options": {
-            "A": "\n\n            18\n",
-            "B": "\n\n            15\n",
-            "C": "\n\n            10\n",
-            "D": "\n\n            5\n"
+            "A": "18",
+            "B": "15",
+            "C": "10",
+            "D": "5"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -185,12 +185,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "11",
-        "question": "If log\\(_{10}\\)2 = 0.3010 and log\\(_{10}\\)3 = 0.4771, eventually without using the logarithm tables, log\\(_{10}\\)4.5",
+        "question": "If log\\(10\\)2 = 0.3010 and log\\(10\\)3 = 0.4771, eventually without using the logarithm tables, log\\(10\\)4.5",
         "options": {
-            "A": "\n\n            0.3010\n",
-            "B": "\n\n            0.4771\n",
-            "C": "\n\n            0.6532\n",
-            "D": "\n\n            0.9542\n"
+            "A": "0.3010",
+            "B": "0.4771",
+            "C": "0.6532",
+            "D": "0.9542"
         },
         "correct_answer": "C",
         "topic": "Indices/Logarithms",
@@ -203,12 +203,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "12",
-        "question": "Simplify \\(\\frac{324 - 4x^2}{2x + 18}\\)",
+        "question": "Simplify \\(324 - 4x^2/2x + 18\\)",
         "options": {
-            "A": "\n\n            2(x - 9)\n",
-            "B": "\n\n            2(9 + x)\n",
-            "C": "\n\n            81 - x\\(^2\\)\n",
-            "D": "\n\n            -2(x - 9)\n"
+            "A": "2(x - 9)",
+            "B": "2(9 + x)",
+            "C": "81 - x\\(^2\\)",
+            "D": "-2(x - 9)"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -221,12 +221,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "13",
-        "question": "In preparing rice cutlets, a cook used 75g of rice, 40g of margarine, 105g of meat and 20g of bread crumbs. Find the angle of the sector which represent meat in a pie chart?",
+        "question": "In preparing rice cutlets, a cook used 75g of rice, 40g of margarine, 105g of meat and 20g of bread crumbs. Find the angle of the sector which represent meat in a pie chart?",
         "options": {
-            "A": "\n\n            30\\(^o\\)\n",
-            "B": "\n\n            60\\(^o\\)\n",
-            "C": "\n\n            112.5\\(^o\\)\n",
-            "D": "\n\n            157.5\\(^o\\)\n"
+            "A": "30\\(^o\\)",
+            "B": "60\\(^o\\)",
+            "C": "112.5\\(^o\\)",
+            "D": "157.5\\(^o\\)"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "The angle of a sector of a circle radius 10.5 cm is 48\\(^o\\). Calculate the perimeter of the sector.",
         "options": {
-            "A": "\n\n            25.4cm\n",
-            "B": "\n\n            25.4cm\n",
-            "C": "\n\n            25.6cm\n",
-            "D": "\n\n            29.8cm\n"
+            "A": "25.4cm",
+            "B": "25.4cm",
+            "C": "25.6cm",
+            "D": "29.8cm"
         },
         "correct_answer": "D",
         "topic": "Mensuration",
@@ -257,12 +257,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "15",
-        "question": "What is the product of \\(\\frac{27}{5}\\), \\((3)^{-3}\\) and (\\(\\frac{1}{5})^{-1}\\)?",
+        "question": "What is the product of \\(27/5\\), \\((3)^-3\\) and (\\(1/5)^-1\\)?",
         "options": {
-            "A": "\n\n            5\n",
-            "B": "\n\n            3\n",
-            "C": "\n\n            1\n",
-            "D": "\n\n            \\(\\frac{1}{25}\\)\n"
+            "A": "5",
+            "B": "3",
+            "C": "1",
+            "D": "\\(1/25\\)"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -275,12 +275,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "16",
-        "question": "A crate of soft drinks contains 10 bottle of Coca-Cola 8 of Fanta and 6 of Sprite. If one bottle is selected at random, what is the probability that it is Not a Coca-Cola bottle?",
+        "question": "A crate of soft drinks contains 10 bottle of Coca-Cola 8 of Fanta and 6 of Sprite. If one bottle is selected at random, what is the probability that it is Not a Coca-Cola bottle?",
         "options": {
-            "A": "\n\n            \\(\\frac{5}{12}\\)\n",
-            "B": "\n\n            \\(\\frac{1}{3}\\)\n",
-            "C": "\n\n            \\(\\frac{3}{4}\\)\n",
-            "D": "\n\n            \\(\\frac{7}{12}\\)\n"
+            "A": "\\(5/12\\)",
+            "B": "\\(1/3\\)",
+            "C": "\\(3/4\\)",
+            "D": "\\(7/12\\)"
         },
         "correct_answer": "D",
         "topic": "Probability",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "In this fiqure, PQ = PR = PS and SRT = 68\\(^o\\). Find QPS",
         "options": {
-            "A": "\n\n            136\\(^o\\)\n",
-            "B": "\n\n            124\\(^o\\)\n",
-            "C": "\n\n            112\\(^o\\)\n",
-            "D": "\n\n            68\\(^o\\)\n"
+            "A": "136\\(^o\\)",
+            "B": "124\\(^o\\)",
+            "C": "112\\(^o\\)",
+            "D": "68\\(^o\\)"
         },
         "correct_answer": "A",
         "topic": "Number Bases",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "Find the gradient of the line passing through the points (-2, 0) and (0, -4)",
         "options": {
-            "A": "\n\n            2\n",
-            "B": "\n\n            -4\n",
-            "C": "\n\n            -2\n",
-            "D": "\n\n            4\n"
+            "A": "2",
+            "B": "-4",
+            "C": "-2",
+            "D": "4"
         },
         "correct_answer": "C",
         "topic": "Coordinate Geometry",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "Find the equation of the line through the points (5, 7) parallel to the line 7x + 5y = 12.",
         "options": {
-            "A": "\n\n            5x + 7y = 120\n",
-            "B": "\n\n            7x + 5y = 70\n",
-            "C": "\n\n            x + y = 7\n",
-            "D": "\n\n            15x + 17y = 90\n"
+            "A": "5x + 7y = 120",
+            "B": "7x + 5y = 70",
+            "C": "x + y = 7",
+            "D": "15x + 17y = 90"
         },
         "correct_answer": "B",
         "topic": "Number Bases",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "If N225.00 yields N27.00 in x years simple interest at the rate of 4% per annum, find x.",
         "options": {
-            "A": "\n\n            3\n",
-            "B": "\n\n            4\n",
-            "C": "\n\n            12\n",
-            "D": "\n\n            17\n"
+            "A": "3",
+            "B": "4",
+            "C": "12",
+            "D": "17"
         },
         "correct_answer": "A",
         "topic": "Number Bases",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "Calculate the standard deviation of the following data: 7, 8, 9, 10, 11, 12, 13",
         "options": {
-            "A": "\n\n            2\n",
-            "B": "\n\n            4\n",
-            "C": "\n\n            12\n",
-            "D": "\n\n            17\n"
+            "A": "2",
+            "B": "4",
+            "C": "12",
+            "D": "17"
         },
         "correct_answer": "A",
         "topic": "Statistics",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "A number is selected at random between 20 and 30, both numbers inclusive. Find the probability that the number is a prime.",
         "options": {
-            "A": "\n\n            \\(\\frac{2}{11}\\)\n",
-            "B": "\n\n            \\(\\frac{5}{11}\\)\n",
-            "C": "\n\n            \\(\\frac{6}{11}\\)\n",
-            "D": "\n\n            \\(\\frac{8}{11}\\)\n"
+            "A": "\\(2/11\\)",
+            "B": "\\(5/11\\)",
+            "C": "\\(6/11\\)",
+            "D": "\\(8/11\\)"
         },
         "correct_answer": "A",
         "topic": "Probability",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "The equation of the line in the graph is",
         "options": {
-            "A": "\n\n            3y = 3x + 12\n",
-            "B": "\n\n            3y = 3x + 12\n",
-            "C": "\n\n            3y = -4x + 12\n",
-            "D": "\n\n            3y = -4x + 9\n"
+            "A": "3y = 3x + 12",
+            "B": "3y = 3x + 12",
+            "C": "3y = -4x + 12",
+            "D": "3y = -4x + 9"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "Express the product of 0.0014 and 0.011 in standard form",
         "options": {
-            "A": "\n\n            1.54 x 10\\(^{-2}\\)\n",
-            "B": "\n\n            1.54 x 10\\(^{-3}\\)\n",
-            "C": "\n\n            1.54 x 10\\(^{-2}\\)\n",
-            "D": "\n\n            1.54 x 10\\(^{-5}\\)\n"
+            "A": "1.54 x 10\\(^-2\\)",
+            "B": "1.54 x 10\\(^-3\\)",
+            "C": "1.54 x 10\\(^-2\\)",
+            "D": "1.54 x 10\\(^-5\\)"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "A school boy lying on the ground 30m away from the foot of a water tank towel observes that the angle of elevation of the top of the tank is 60\\(^o\\). Calculate the height of the tank.",
         "options": {
-            "A": "\n\n            60\\(\\sqrt{3m}\\)\n",
-            "B": "\n\n            30\\(\\sqrt{3m}\\)\n",
-            "C": "\n\n            20\\(\\sqrt{3m}\\)\n",
-            "D": "\n\n            10\\(\\sqrt{3m}\\)\n"
+            "A": "60\\(sqrt3m\\)",
+            "B": "30\\(sqrt3m\\)",
+            "C": "20\\(sqrt3m\\)",
+            "D": "10\\(sqrt3m\\)"
         },
         "correct_answer": "B",
         "topic": "Number Bases",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "Find the simple interest rate percent annum at which N1000 accumulates to N1240 in 3 years.",
         "options": {
-            "A": "\n\n            6%\n",
-            "B": "\n\n            8%\n",
-            "C": "\n\n            10%\n",
-            "D": "\n\n            12%\n"
+            "A": "6%",
+            "B": "8%",
+            "C": "10%",
+            "D": "12%"
         },
         "correct_answer": "B",
         "topic": "Number Bases",
@@ -475,10 +475,10 @@
         "number": "27",
         "question": "The pie chart shows the income of a civil servant in month. If his monthly income is N6,000. Find his monthly basic salary.",
         "options": {
-            "A": "\n\n            N2,050\n",
-            "B": "\n\n            N2600\n",
-            "C": "\n\n            N3,100\n",
-            "D": "\n\n            N3,450\n"
+            "A": "N2,050",
+            "B": "N2600",
+            "C": "N3,100",
+            "D": "N3,450"
         },
         "correct_answer": "A",
         "topic": "Number Bases",
@@ -491,12 +491,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "28",
-        "question": "If x is positive real number, find the range of values for which \\(\\frac{1}{3x}\\) + \\(\\frac{1}{2}\\) > \\(\\frac{1}{4x}\\)",
+        "question": "If x is positive real number, find the range of values for which \\(1/3x\\) + \\(1/2\\) > \\(1/4x\\)",
         "options": {
-            "A": "\n\n            x > -\\(\\frac{1}{6}\\)\n",
-            "B": "\n\n            x > 0\n",
-            "C": "\n\n            0 < x < 6\n",
-            "D": "\n\n            0 < x <\\(\\frac{1}{6}\\)\n"
+            "A": "x > -\\(1/6\\)",
+            "B": "x > 0",
+            "C": "0 < x < 6",
+            "D": "0 < x <\\(1/6\\)"
         },
         "correct_answer": "A",
         "topic": "Number Bases",
@@ -509,12 +509,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "29",
-        "question": "Find the value of x if \\(\\frac{\\sqrt{2}}{x + \\sqrt{2}}\\) = \\(\\frac{1}{x - \\sqrt{2}}\\)",
+        "question": "Find the value of x if \\(fracsqrt2x + sqrt2\\) = \\(frac1x - sqrt2\\)",
         "options": {
-            "A": "\n\n            3\\(\\sqrt{2}\\) + 4\n",
-            "B": "\n\n            3\\(\\sqrt{2}\\) - 4\n",
-            "C": "\n\n            3 - 2\\(\\sqrt{2}\\)\n",
-            "D": "\n\n            4 + 2\\(\\sqrt{2}\\)\n"
+            "A": "3\\(sqrt2\\) + 4",
+            "B": "3\\(sqrt2\\) - 4",
+            "C": "3 - 2\\(sqrt2\\)",
+            "D": "4 + 2\\(sqrt2\\)"
         },
         "correct_answer": "A",
         "topic": "Number Bases",
@@ -529,10 +529,10 @@
         "number": "30",
         "question": "A binary operation x is defined by a x b = a\\(^b\\). If a x 2 = 2 - a, find the possible values of a?",
         "options": {
-            "A": "\n\n            1, -2\n",
-            "B": "\n\n            2, -1\n",
-            "C": "\n\n            2, -2\n",
-            "D": "\n\n            1, -1\n"
+            "A": "1, -2",
+            "B": "2, -1",
+            "C": "2, -2",
+            "D": "1, -1"
         },
         "correct_answer": "A",
         "topic": "Number Bases",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "The chord ST of a circle is equal to the radius r of the circle. Find the length of arc ST",
         "options": {
-            "A": "\n\n            \\(\\frac{\\pi r}{3}\\)\n",
-            "B": "\n\n            \\(\\frac{\\pi r}{2}\\)\n",
-            "C": "\n\n            \\(\\frac{\\pi r}{12}\\)\n",
-            "D": "\n\n            \\(\\frac{\\pi r}{6}\\)\n"
+            "A": "\\(pi r/3\\)",
+            "B": "\\(pi r/2\\)",
+            "C": "\\(pi r/12\\)",
+            "D": "\\(pi r/6\\)"
         },
         "correct_answer": "A",
         "topic": "Mensuration",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "A sector of circle of radius 7.2cm which substends an angle of 300\\(^o\\) at the centre is used to form a cone. What s the radius of the base of the cone?",
         "options": {
-            "A": "\n\n            8cm\n",
-            "B": "\n\n            9cm\n",
-            "C": "\n\n            6cm\n",
-            "D": "\n\n            7cm\n"
+            "A": "8cm",
+            "B": "9cm",
+            "C": "6cm",
+            "D": "7cm"
         },
         "correct_answer": "C",
         "topic": "Mensuration",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "A cylindrical tank has a capacity of 3080m\\(^3\\). What is the depth of the tank if the diameter of its base is 14m?",
         "options": {
-            "A": "\n\n            25m\n",
-            "B": "\n\n            23m\n",
-            "C": "\n\n            22m\n",
-            "D": "\n\n            20m\n"
+            "A": "25m",
+            "B": "23m",
+            "C": "22m",
+            "D": "20m"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -601,10 +601,10 @@
         "number": "34",
         "question": "The acres for rice, pineapple, cassava, cocoa and palm oil in a certain district are given respectively as 2, 5, 3, 11 and 9. What is the angle of the sector of cassava in a pie chart?",
         "options": {
-            "A": "\n\n            180\\(^o\\)\n",
-            "B": "\n\n            36\\(^o\\)\n",
-            "C": "\n\n            60\\(^o\\)\n",
-            "D": "\n\n            108\\(^o\\)\n"
+            "A": "180\\(^o\\)",
+            "B": "36\\(^o\\)",
+            "C": "60\\(^o\\)",
+            "D": "108\\(^o\\)"
         },
         "correct_answer": "B",
         "topic": "Number Bases",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "Three consecutive terms of a geometric progression are give as n - 2, n and n + 3. Find the common ratio",
         "options": {
-            "A": "\n\n            \\(\\frac{3}{2}\\)\n",
-            "B": "\n\n            \\(\\frac{2}{3}\\)\n",
-            "C": "\n\n            \\(\\frac{1}{2}\\)\n",
-            "D": "\n\n            \\(\\frac{1}{4}\\)\n"
+            "A": "\\(3/2\\)",
+            "B": "\\(2/3\\)",
+            "C": "\\(1/2\\)",
+            "D": "\\(1/4\\)"
         },
         "correct_answer": "A",
         "topic": "Sequences & Series",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "In a class of 40 students, 32 offer mathematics, 24 offer physics and 4 offer neither mathematics nor physics. How many offer both mathematics and physics?",
         "options": {
-            "A": "\n\n            4\n",
-            "B": "\n\n            8\n",
-            "C": "\n\n            16\n",
-            "D": "\n\n            20\n"
+            "A": "4",
+            "B": "8",
+            "C": "16",
+            "D": "20"
         },
         "correct_answer": "D",
         "topic": "Number Bases",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "The sum of the interior angle of pentagon is 6x + 6y. Find y in terms of x.",
         "options": {
-            "A": "\n\n            y = 6 - x\n",
-            "B": "\n\n            y = 90 - x\n",
-            "C": "\n\n            y = 120 - x\n",
-            "D": "\n\n            y = 150 - x\n"
+            "A": "y = 6 - x",
+            "B": "y = 90 - x",
+            "C": "y = 120 - x",
+            "D": "y = 150 - x"
         },
         "correct_answer": "B",
         "topic": "Number Bases",
@@ -671,12 +671,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "38",
-        "question": "The mean age group of some students is 15years. When the age of a teacher, 45 years old, is added to the ages of the students, the mean of their ages become 18 years. Find the number of students in the group.",
+        "question": "The mean age group of some students is 15years. When the age of a teacher, 45 years old, is added to the ages of the students, the mean of their ages become 18 years. Find the number of students in the group.",
         "options": {
-            "A": "\n\n            7\n",
-            "B": "\n\n            9\n",
-            "C": "\n\n            15\n",
-            "D": "\n\n            42\n"
+            "A": "7",
+            "B": "9",
+            "C": "15",
+            "D": "42"
         },
         "correct_answer": "B",
         "topic": "Statistics",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "A surveyor walks 500m up a hill which slopes at an angle of 30\\(^o\\). Calculate the vertical height through which he rises",
         "options": {
-            "A": "\n\n            252m\n",
-            "B": "\n\n            500m\n",
-            "C": "\n\n            250m\n",
-            "D": "\n\n            255m\n"
+            "A": "252m",
+            "B": "500m",
+            "C": "250m",
+            "D": "255m"
         },
         "correct_answer": "C",
         "topic": "Number Bases",
@@ -707,12 +707,12 @@
         "subject": "Mathematics",
         "year": 2020,
         "number": "40",
-        "question": "Find the non-zero positive value of x which satisfies the equation \\(\\begin{bmatrix} x & 1 & 0 \\\\ 1 & x & 1 \\\\ 0 & 1 & x \\end{bmatrix}\\) = 0",
+        "question": "Find the non-zero positive value of x which satisfies the equation \\(beginbmatrix x , 1 , 0 \\\\ 1 , x , 1 \\\\ 0 , 1 , x endbmatrix\\) = 0",
         "options": {
-            "A": "\n\n            2\n",
-            "B": "\n\n            \\(\\sqrt{3}\\)\n",
-            "C": "\n\n            \\(\\sqrt{2}\\)\n",
-            "D": "\n\n            1\n"
+            "A": "2",
+            "B": "\\(sqrt3\\)",
+            "C": "\\(sqrt2\\)",
+            "D": "1"
         },
         "correct_answer": "C",
         "topic": "Number Bases",

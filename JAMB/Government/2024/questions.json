@@ -7,10 +7,10 @@
         "number": "1",
         "question": "The party system that Nigeria operated in the aborted Third Republic is",
         "options": {
-            "A": "\n\n            zero party system\n",
-            "B": "\n\n            one party system\n",
-            "C": "\n\n            two party system\n",
-            "D": "\n\n            multi-party system\n"
+            "A": "zero party system",
+            "B": "one party system",
+            "C": "two party system",
+            "D": "multi-party system"
         },
         "correct_answer": "C",
         "topic": "Political Parties",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "Delegated legislation can be regulated through",
         "options": {
-            "A": "\n\n            ministerial control\n",
-            "B": "\n\n            legislative control\n",
-            "C": "\n\n            executive control\n",
-            "D": "\n\n            judicial control\n"
+            "A": "ministerial control",
+            "B": "legislative control",
+            "C": "executive control",
+            "D": "judicial control"
         },
         "correct_answer": "B",
         "topic": "Arms of Government",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "The main argument against the 1999 Constitution is that",
         "options": {
-            "A": "\n\n            it was imposed by the military\n",
-            "B": "\n\n            the executive have immunity clause\n",
-            "C": "\n\n            It is expensive to operate\n",
-            "D": "\n\n            It did not create additional states\n"
+            "A": "it was imposed by the military",
+            "B": "the executive have immunity clause",
+            "C": "It is expensive to operate",
+            "D": "It did not create additional states"
         },
         "correct_answer": "C",
         "topic": "Arms of Government",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "Which of the following is a basic feature of the rule of law?",
         "options": {
-            "A": "\n\n            Secret trial of offenders\n",
-            "B": "\n\n            Unlimited power of the executive\n",
-            "C": "\n\n            Dependent judiciary\n",
-            "D": "\n\n            Equality before the law\n"
+            "A": "Secret trial of offenders",
+            "B": "Unlimited power of the executive",
+            "C": "Dependent judiciary",
+            "D": "Equality before the law"
         },
         "correct_answer": "D",
         "topic": "Arms of Government",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "The collective views of the citizens on a specific national matter is",
         "options": {
-            "A": "\n\n            group opinions\n",
-            "B": "\n\n            electoral opinion\n",
-            "C": "\n\n            public opinion\n",
-            "D": "\n\n            collective responsibility\n"
+            "A": "group opinions",
+            "B": "electoral opinion",
+            "C": "public opinion",
+            "D": "collective responsibility"
         },
         "correct_answer": "C",
         "topic": "Citizenship",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "The productivity of public corporations is believed to be enhanced when there is",
         "options": {
-            "A": "\n\n            increase in employment rate\n",
-            "B": "\n\n            redeployment of staff\n",
-            "C": "\n\n            increase in working hours\n",
-            "D": "\n\n            less political interference\n"
+            "A": "increase in employment rate",
+            "B": "redeployment of staff",
+            "C": "increase in working hours",
+            "D": "less political interference"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts in Government",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "NEPAD stands for",
         "options": {
-            "A": "\n\n            New Economic Programmes for African Development\n",
-            "B": "\n\n            New Partnership for Afro-Asian Development\n",
-            "C": "\n\n            New Economic Partnerships for African Development\n",
-            "D": "\n\n            New Partnerships for Africa's Development\n"
+            "A": "New Economic Programmes for African Development",
+            "B": "New Partnership for Afro-Asian Development",
+            "C": "New Economic Partnerships for African Development",
+            "D": "New Partnerships for Africa's Development"
         },
         "correct_answer": "D",
         "topic": "Forms of Government",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "Under the Hausa pre-colonial administration, the office of the Prime Minister is usually occupied by",
         "options": {
-            "A": "\n\n            sarki\n",
-            "B": "\n\n            waziri\n",
-            "C": "\n\n            galadima\n",
-            "D": "\n\n            madawaki\n"
+            "A": "sarki",
+            "B": "waziri",
+            "C": "galadima",
+            "D": "madawaki"
         },
         "correct_answer": "B",
         "topic": "Pre-colonial Systems",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "Nigerian Ports Authority is an example of",
         "options": {
-            "A": "\n\n            Civil Service\n",
-            "B": "\n\n            Public Service\n",
-            "C": "\n\n            Public Corporation\n",
-            "D": "\n\n            Maritime Corporation\n"
+            "A": "Civil Service",
+            "B": "Public Service",
+            "C": "Public Corporation",
+            "D": "Maritime Corporation"
         },
         "correct_answer": "C",
         "topic": "Public Administration",
@@ -167,12 +167,12 @@
         "subject": "Government",
         "year": 2024,
         "number": "10",
-        "question": "An agent in which the state undertakes direct political socialisation is the",
+        "question": "An agent in which the state undertakes direct political socialisation is the",
         "options": {
-            "A": "\n\n            church\n",
-            "B": "\n\n            school\n",
-            "C": "\n\n            peer groups\n",
-            "D": "\n\n            mass media\n"
+            "A": "church",
+            "B": "school",
+            "C": "peer groups",
+            "D": "mass media"
         },
         "correct_answer": "B",
         "topic": "Basic Concepts in Government",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "The Nigerian Youth Movement pursued its objectives through the use of",
         "options": {
-            "A": "\n\n            protest\n",
-            "B": "\n\n            newspapers\n",
-            "C": "\n\n            radio\n",
-            "D": "\n\n            strike actions\n"
+            "A": "protest",
+            "B": "newspapers",
+            "C": "radio",
+            "D": "strike actions"
         },
         "correct_answer": "B",
         "topic": "Nigerian Constitution",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "Formation of political parties in Nigeria is one of the features of",
         "options": {
-            "A": "\n\n            Lyttleton Constitution\n",
-            "B": "\n\n            Macpherson Constitution\n",
-            "C": "\n\n            Richards Constitution\n",
-            "D": "\n\n            Clifford Consitution\n"
+            "A": "Lyttleton Constitution",
+            "B": "Macpherson Constitution",
+            "C": "Richards Constitution",
+            "D": "Clifford Consitution"
         },
         "correct_answer": "D",
         "topic": "Nigerian Constitution",
@@ -223,10 +223,10 @@
         "number": "13",
         "question": "The commander of the army under the Hausa/ Fulani pre-colonial administration was",
         "options": {
-            "A": "\n\n            waziri\n",
-            "B": "\n\n            madawaki\n",
-            "C": "\n\n            galadima\n",
-            "D": "\n\n            maaji\n"
+            "A": "waziri",
+            "B": "madawaki",
+            "C": "galadima",
+            "D": "maaji"
         },
         "correct_answer": "B",
         "topic": "Pre-colonial Systems",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "The rationale behind the adoption of a federal system of government in Nigeria is to",
         "options": {
-            "A": "\n\n            promote the autonomy of states\n",
-            "B": "\n\n            establish a powerful central government\n",
-            "C": "\n\n            create more states\n",
-            "D": "\n\n            promote unity in diversity\n"
+            "A": "promote the autonomy of states",
+            "B": "establish a powerful central government",
+            "C": "create more states",
+            "D": "promote unity in diversity"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts in Government",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "Lawyers recruited into the civil service belong to the",
         "options": {
-            "A": "\n\n            professional class\n",
-            "B": "\n\n            administrative class\n",
-            "C": "\n\n            executive class\n",
-            "D": "\n\n            clerical class\n"
+            "A": "professional class",
+            "B": "administrative class",
+            "C": "executive class",
+            "D": "clerical class"
         },
         "correct_answer": "A",
         "topic": "Public Administration",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "A naturalised citizen can lose his citizenship if found guilty of",
         "options": {
-            "A": "\n\n            treason\n",
-            "B": "\n\n            evading of taxes\n",
-            "C": "\n\n            electoral violence\n",
-            "D": "\n\n            loitering\n"
+            "A": "treason",
+            "B": "evading of taxes",
+            "C": "electoral violence",
+            "D": "loitering"
         },
         "correct_answer": "A",
         "topic": "Citizenship",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "Shehu Shagari won the 1979 Presidential Election under",
         "options": {
-            "A": "\n\n            UPN\n",
-            "B": "\n\n            NPN\n",
-            "C": "\n\n            NPP\n",
-            "D": "\n\n            GNPP\n"
+            "A": "UPN",
+            "B": "NPN",
+            "C": "NPP",
+            "D": "GNPP"
         },
         "correct_answer": "B",
         "topic": "Electoral Process",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "A form of government where the powers of the state is determined by the citizens is",
         "options": {
-            "A": "\n\n            Monarchy\n",
-            "B": "\n\n            Aristocracy\n",
-            "C": "\n\n            Autocracy\n",
-            "D": "\n\n            Democracy\n"
+            "A": "Monarchy",
+            "B": "Aristocracy",
+            "C": "Autocracy",
+            "D": "Democracy"
         },
         "correct_answer": "D",
         "topic": "Forms of Government",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "As a non-aligned state, Nigeria attended the second meeting of the non-Aligned Movement that took place in Cairo, Egypt in",
         "options": {
-            "A": "\n\n            1960\n",
-            "B": "\n\n            1963\n",
-            "C": "\n\n            1964\n",
-            "D": "\n\n            1965\n"
+            "A": "1960",
+            "B": "1963",
+            "C": "1964",
+            "D": "1965"
         },
         "correct_answer": "C",
         "topic": "Basic Concepts in Government",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "The power of prerogative of mercy rests with the",
         "options": {
-            "A": "\n\n            legislature\n",
-            "B": "\n\n            executive\n",
-            "C": "\n\n            judiciary\n",
-            "D": "\n\n            national assembly\n"
+            "A": "legislature",
+            "B": "executive",
+            "C": "judiciary",
+            "D": "national assembly"
         },
         "correct_answer": "B",
         "topic": "Arms of Government",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "The judgement that ceded and transferred Bakassi legal title from Nigeria to Cameroon was delivered by",
         "options": {
-            "A": "\n\n            ECOWAS Court of Justice\n",
-            "B": "\n\n            Court of Justice of the African Union\n",
-            "C": "\n\n            International Criminal Court\n",
-            "D": "\n\n            International Court of Justice\n"
+            "A": "ECOWAS Court of Justice",
+            "B": "Court of Justice of the African Union",
+            "C": "International Criminal Court",
+            "D": "International Court of Justice"
         },
         "correct_answer": "D",
         "topic": "Citizenship",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "Absence of a Red-tape is a merit of",
         "options": {
-            "A": "\n\n            federal government structure\n",
-            "B": "\n\n            unitary structure\n",
-            "C": "\n\n            confederal structure\n",
-            "D": "\n\n            republican structure\n"
+            "A": "federal government structure",
+            "B": "unitary structure",
+            "C": "confederal structure",
+            "D": "republican structure"
         },
         "correct_answer": "B",
         "topic": "Federalism",
@@ -401,12 +401,12 @@
         "subject": "Government",
         "year": 2024,
         "number": "23",
-        "question": "ECOWAS was established in",
+        "question": "ECOWAS was established in",
         "options": {
-            "A": "\n\n            1970\n",
-            "B": "\n\n            1972\n",
-            "C": "\n\n            1975\n",
-            "D": "\n\n            1976\n"
+            "A": "1970",
+            "B": "1972",
+            "C": "1975",
+            "D": "1976"
         },
         "correct_answer": "C",
         "topic": "International Organizations",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "The Nigerian Civil War was fought during the military regime of",
         "options": {
-            "A": "\n\n            Aguiyi Ironsi\n",
-            "B": "\n\n            Yakubu Gowon\n",
-            "C": "\n\n            Murtala Muhammed\n",
-            "D": "\n\n            Olusegun Obasanjo\n"
+            "A": "Aguiyi Ironsi",
+            "B": "Yakubu Gowon",
+            "C": "Murtala Muhammed",
+            "D": "Olusegun Obasanjo"
         },
         "correct_answer": "B",
         "topic": "Nigerian Constitution",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "The rule of law is an essential ingredient of",
         "options": {
-            "A": "\n\n            democracy\n",
-            "B": "\n\n            aristocracy\n",
-            "C": "\n\n            monarchy\n",
-            "D": "\n\n            autocracy\n"
+            "A": "democracy",
+            "B": "aristocracy",
+            "C": "monarchy",
+            "D": "autocracy"
         },
         "correct_answer": "A",
         "topic": "Forms of Government",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "The fundamental objective guiding a nation's foreign policy is",
         "options": {
-            "A": "\n\n            national interest\n",
-            "B": "\n\n            foreign interest\n",
-            "C": "\n\n            African interest\n",
-            "D": "\n\n            colonial interest\n"
+            "A": "national interest",
+            "B": "foreign interest",
+            "C": "African interest",
+            "D": "colonial interest"
         },
         "correct_answer": "A",
         "topic": "Pre-colonial Systems",
@@ -475,10 +475,10 @@
         "number": "27",
         "question": "The fundamental law containing the rules and principles governing a country is the",
         "options": {
-            "A": "\n\n            convention\n",
-            "B": "\n\n            constitution\n",
-            "C": "\n\n            acts of parliament\n",
-            "D": "\n\n            judicial review\n"
+            "A": "convention",
+            "B": "constitution",
+            "C": "acts of parliament",
+            "D": "judicial review"
         },
         "correct_answer": "B",
         "topic": "Arms of Government",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "The electoral process in a representative government does NOT include",
         "options": {
-            "A": "\n\n            free and fair elections\n",
-            "B": "\n\n            free press\n",
-            "C": "\n\n            independent electoral commission\n",
-            "D": "\n\n            registration of birth\n"
+            "A": "free and fair elections",
+            "B": "free press",
+            "C": "independent electoral commission",
+            "D": "registration of birth"
         },
         "correct_answer": "D",
         "topic": "Electoral Process",
@@ -509,12 +509,12 @@
         "subject": "Government",
         "year": 2024,
         "number": "29",
-        "question": "The Aburi Accord was a popular phrase during the administration of",
+        "question": "The Aburi Accord was a popular phrase during the administration of",
         "options": {
-            "A": "\n\n            Aguiyi Ironsi\n",
-            "B": "\n\n            Murtala Muhammed\n",
-            "C": "\n\n            Yakubu Gowon\n",
-            "D": "\n\n            Olusegun Obasanjo\n"
+            "A": "Aguiyi Ironsi",
+            "B": "Murtala Muhammed",
+            "C": "Yakubu Gowon",
+            "D": "Olusegun Obasanjo"
         },
         "correct_answer": "C",
         "topic": "Public Administration",
@@ -529,10 +529,10 @@
         "number": "30",
         "question": "The Commission that examines complaints of civil wrongs committed by government employees is",
         "options": {
-            "A": "\n\n            Public Complaints Commission\n",
-            "B": "\n\n            Civil Service Commission\n",
-            "C": "\n\n            Economic and Financial Crimes Commission\n",
-            "D": "\n\n            Judicial Service Commission\n"
+            "A": "Public Complaints Commission",
+            "B": "Civil Service Commission",
+            "C": "Economic and Financial Crimes Commission",
+            "D": "Judicial Service Commission"
         },
         "correct_answer": "A",
         "topic": "Public Administration",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "Dual citizenship was a feature of the",
         "options": {
-            "A": "\n\n            Portuguese colonial system\n",
-            "B": "\n\n            German colonial system\n",
-            "C": "\n\n            British colonial system\n",
-            "D": "\n\n            French colonial system\n"
+            "A": "Portuguese colonial system",
+            "B": "German colonial system",
+            "C": "British colonial system",
+            "D": "French colonial system"
         },
         "correct_answer": "D",
         "topic": "Pre-colonial Systems",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "Which of these is a major challenge of public corporations in Nigeria?",
         "options": {
-            "A": "\n\n            Political interference\n",
-            "B": "\n\n            Political instability\n",
-            "C": "\n\n            Shortage of staff\n",
-            "D": "\n\n            Industrial dispute\n"
+            "A": "Political interference",
+            "B": "Political instability",
+            "C": "Shortage of staff",
+            "D": "Industrial dispute"
         },
         "correct_answer": "A",
         "topic": "Basic Concepts in Government",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "Lack of separation of power is a feature of",
         "options": {
-            "A": "\n\n            presidential system\n",
-            "B": "\n\n            cabinet system\n",
-            "C": "\n\n            democratic government\n",
-            "D": "\n\n            military government\n"
+            "A": "presidential system",
+            "B": "cabinet system",
+            "C": "democratic government",
+            "D": "military government"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts in Government",
@@ -601,10 +601,10 @@
         "number": "34",
         "question": "An economic system that encourages state ownership and control of the means of production is",
         "options": {
-            "A": "\n\n            socialism\n",
-            "B": "\n\n            communism\n",
-            "C": "\n\n            fascism\n",
-            "D": "\n\n            capitalism\n"
+            "A": "socialism",
+            "B": "communism",
+            "C": "fascism",
+            "D": "capitalism"
         },
         "correct_answer": "A",
         "topic": "Basic Concepts in Government",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "Which local government reform in Nigeria prevented traditional rulers from engaging in politics?",
         "options": {
-            "A": "\n\n            The 1960 Reform\n",
-            "B": "\n\n            The 1963 Reform\n",
-            "C": "\n\n            The 1976 Reform\n",
-            "D": "\n\n            The 1979 Reform\n"
+            "A": "The 1960 Reform",
+            "B": "The 1963 Reform",
+            "C": "The 1976 Reform",
+            "D": "The 1979 Reform"
         },
         "correct_answer": "C",
         "topic": "Basic Concepts in Government",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "Pressure groups are different from political parties because they",
         "options": {
-            "A": "\n\n            analyse elections\n",
-            "B": "\n\n            articulate interests\n",
-            "C": "\n\n            aggregate interests\n",
-            "D": "\n\n            contest elections\n"
+            "A": "analyse elections",
+            "B": "articulate interests",
+            "C": "aggregate interests",
+            "D": "contest elections"
         },
         "correct_answer": "B",
         "topic": "Basic Concepts in Government",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "A union of states with a common recognised authority is",
         "options": {
-            "A": "\n\n            federal system\n",
-            "B": "\n\n            unitary system\n",
-            "C": "\n\n            representative system\n",
-            "D": "\n\n            confederal system\n"
+            "A": "federal system",
+            "B": "unitary system",
+            "C": "representative system",
+            "D": "confederal system"
         },
         "correct_answer": "A",
         "topic": "Federalism",
@@ -673,10 +673,10 @@
         "number": "38",
         "question": "The famous Italian Fascist leader was",
         "options": {
-            "A": "\n\n            Mao Tse Tung\n",
-            "B": "\n\n            Kim Jung Un\n",
-            "C": "\n\n            Joseph Stalin\n",
-            "D": "\n\n            Benito Mussolini\n"
+            "A": "Mao Tse Tung",
+            "B": "Kim Jung Un",
+            "C": "Joseph Stalin",
+            "D": "Benito Mussolini"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "Aggregate view of individuals in a society is referred to as",
         "options": {
-            "A": "\n\n            Public outcry\n",
-            "B": "\n\n            people's voice\n",
-            "C": "\n\n            popular opinion\n",
-            "D": "\n\n            public opinion\n"
+            "A": "Public outcry",
+            "B": "people's voice",
+            "C": "popular opinion",
+            "D": "public opinion"
         },
         "correct_answer": "D",
         "topic": "Public Administration",
@@ -709,10 +709,10 @@
         "number": "40",
         "question": "The principle of civil service that guarantees the employment of public workers is",
         "options": {
-            "A": "\n\n            neutralism\n",
-            "B": "\n\n            anonymity\n",
-            "C": "\n\n            permanence\n",
-            "D": "\n\n            loyalty\n"
+            "A": "neutralism",
+            "B": "anonymity",
+            "C": "permanence",
+            "D": "loyalty"
         },
         "correct_answer": "C",
         "topic": "Public Administration",
@@ -727,10 +727,10 @@
         "number": "41",
         "question": "The fragmented nature of the Igbo pre-colonial political system qualified it to be described as",
         "options": {
-            "A": "\n\n            centralised in nature\n",
-            "B": "\n\n            ceremonial political arrangement\n",
-            "C": "\n\n            acephalous in nature\n",
-            "D": "\n\n            republican system\n"
+            "A": "centralised in nature",
+            "B": "ceremonial political arrangement",
+            "C": "acephalous in nature",
+            "D": "republican system"
         },
         "correct_answer": "C",
         "topic": "Pre-colonial Systems",
@@ -745,10 +745,10 @@
         "number": "42",
         "question": "Which of these colonial constitutions in Nigeria endured for the longest period?",
         "options": {
-            "A": "\n\n            Richard\n",
-            "B": "\n\n            Clifford\n",
-            "C": "\n\n            Macpherson\n",
-            "D": "\n\n            Lyttleton\n"
+            "A": "Richard",
+            "B": "Clifford",
+            "C": "Macpherson",
+            "D": "Lyttleton"
         },
         "correct_answer": "B",
         "topic": "Pre-colonial Systems",
@@ -763,10 +763,10 @@
         "number": "43",
         "question": "One of these is not an organ of the Commonwealth of Nations",
         "options": {
-            "A": "\n\n            Assembly of Heads of State and Government\n",
-            "B": "\n\n            Commonwealth Secretariat\n",
-            "C": "\n\n            Conference of Prime Ministers\n",
-            "D": "\n\n            Fund for technical cooperation\n"
+            "A": "Assembly of Heads of State and Government",
+            "B": "Commonwealth Secretariat",
+            "C": "Conference of Prime Ministers",
+            "D": "Fund for technical cooperation"
         },
         "correct_answer": "A",
         "topic": "Basic Concepts in Government",
@@ -781,10 +781,10 @@
         "number": "44",
         "question": "The organs of ECOWAS do NOT include the",
         "options": {
-            "A": "\n\n            Community Tribunal\n",
-            "B": "\n\n            Council of Ministers\n",
-            "C": "\n\n            Secreteriat\n",
-            "D": "\n\n            Conference\n"
+            "A": "Community Tribunal",
+            "B": "Council of Ministers",
+            "C": "Secreteriat",
+            "D": "Conference"
         },
         "correct_answer": "D",
         "topic": "International Organizations",
@@ -799,10 +799,10 @@
         "number": "45",
         "question": "ECOWAS secretariat is located in",
         "options": {
-            "A": "\n\n            Accra\n",
-            "B": "\n\n            Abuja\n",
-            "C": "\n\n            Niamey\n",
-            "D": "\n\n            Cotonou\n"
+            "A": "Accra",
+            "B": "Abuja",
+            "C": "Niamey",
+            "D": "Cotonou"
         },
         "correct_answer": "B",
         "topic": "International Organizations",
@@ -817,10 +817,10 @@
         "number": "46",
         "question": "Price stability in the international oil market is the major objective of the",
         "options": {
-            "A": "\n\n            UN\n",
-            "B": "\n\n            WTO\n",
-            "C": "\n\n            OPEC\n",
-            "D": "\n\n            AU\n"
+            "A": "UN",
+            "B": "WTO",
+            "C": "OPEC",
+            "D": "AU"
         },
         "correct_answer": "C",
         "topic": "Citizenship",
@@ -835,10 +835,10 @@
         "number": "47",
         "question": "Nigeria played fundamental roles in the creation of",
         "options": {
-            "A": "\n\n            ECOWAS\n",
-            "B": "\n\n            OPEC\n",
-            "C": "\n\n            UN\n",
-            "D": "\n\n            Commonwealth\n"
+            "A": "ECOWAS",
+            "B": "OPEC",
+            "C": "UN",
+            "D": "Commonwealth"
         },
         "correct_answer": "A",
         "topic": "Nigerian Constitution",
@@ -853,10 +853,10 @@
         "number": "48",
         "question": "The most effective instrument adopted by Nigeria against the East-West Cold War in the 1960s was",
         "options": {
-            "A": "\n\n            Good neighbourliness\n",
-            "B": "\n\n            Africa as the centrepiece\n",
-            "C": "\n\n            Anti-apartheid stance\n",
-            "D": "\n\n            Non-alignment policy\n"
+            "A": "Good neighbourliness",
+            "B": "Africa as the centrepiece",
+            "C": "Anti-apartheid stance",
+            "D": "Non-alignment policy"
         },
         "correct_answer": "D",
         "topic": "Arms of Government",
@@ -871,10 +871,10 @@
         "number": "49",
         "question": "The bipolar world was a major factor for the formation of",
         "options": {
-            "A": "\n\n            non-aligned movement\n",
-            "B": "\n\n            technical aid corps\n",
-            "C": "\n\n            NEPAD\n",
-            "D": "\n\n            ECOMOG\n"
+            "A": "non-aligned movement",
+            "B": "technical aid corps",
+            "C": "NEPAD",
+            "D": "ECOMOG"
         },
         "correct_answer": "A",
         "topic": "Forms of Government",
@@ -887,12 +887,12 @@
         "subject": "Government",
         "year": 2024,
         "number": "50",
-        "question": "The June 12 election in Nigeria was annulled by the regime of",
+        "question": "The June 12 election in Nigeria was annulled by the regime of",
         "options": {
-            "A": "\n\n            Olusegun Obasanjo\n",
-            "B": "\n\n            Ibrahim Babangida\n",
-            "C": "\n\n            Muhammadu Buhari\n",
-            "D": "\n\n            Yakubu Gowon\n"
+            "A": "Olusegun Obasanjo",
+            "B": "Ibrahim Babangida",
+            "C": "Muhammadu Buhari",
+            "D": "Yakubu Gowon"
         },
         "correct_answer": "B",
         "topic": "Electoral Process",
@@ -907,10 +907,10 @@
         "number": "51",
         "question": "Military intervention in Nigerian politics was first witnessed in",
         "options": {
-            "A": "\n\n            1965\n",
-            "B": "\n\n            1966\n",
-            "C": "\n\n            1964\n",
-            "D": "\n\n            1967\n"
+            "A": "1965",
+            "B": "1966",
+            "C": "1964",
+            "D": "1967"
         },
         "correct_answer": "B",
         "topic": "Nigerian Constitution",
@@ -925,10 +925,10 @@
         "number": "52",
         "question": "A major problem affecting Local government in Nigeria today is",
         "options": {
-            "A": "\n\n            resource control\n",
-            "B": "\n\n            personnel management\n",
-            "C": "\n\n            revenue allocation\n",
-            "D": "\n\n            state management interference\n"
+            "A": "resource control",
+            "B": "personnel management",
+            "C": "revenue allocation",
+            "D": "state management interference"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts in Government",
@@ -943,10 +943,10 @@
         "number": "53",
         "question": "Public corporations can be controlled by",
         "options": {
-            "A": "\n\n            Board of Directors\n",
-            "B": "\n\n            Judicial control\n",
-            "C": "\n\n            Ownership control\n",
-            "D": "\n\n            Management control\n"
+            "A": "Board of Directors",
+            "B": "Judicial control",
+            "C": "Ownership control",
+            "D": "Management control"
         },
         "correct_answer": "B",
         "topic": "Arms of Government",
@@ -959,12 +959,12 @@
         "subject": "Government",
         "year": 2024,
         "number": "54",
-        "question": "Public corporations in Nigeria are established through",
+        "question": "Public corporations in Nigeria are established through",
         "options": {
-            "A": "\n\n            Act of parliament\n",
-            "B": "\n\n            Executive order\n",
-            "C": "\n\n            Order-in-Council\n",
-            "D": "\n\n            judicial review\n"
+            "A": "Act of parliament",
+            "B": "Executive order",
+            "C": "Order-in-Council",
+            "D": "judicial review"
         },
         "correct_answer": "A",
         "topic": "Arms of Government",
@@ -979,10 +979,10 @@
         "number": "55",
         "question": "A major instrument designed to promote the workings of Nigerian federalism is",
         "options": {
-            "A": "\n\n            Federal Character Commission\n",
-            "B": "\n\n            National Judicial Council\n",
-            "C": "\n\n            National Assembly Commission\n",
-            "D": "\n\n            National Defence Council\n"
+            "A": "Federal Character Commission",
+            "B": "National Judicial Council",
+            "C": "National Assembly Commission",
+            "D": "National Defence Council"
         },
         "correct_answer": "A",
         "topic": "Citizenship",
@@ -997,10 +997,10 @@
         "number": "56",
         "question": "The party that controlled the government of South West States after the 1979 General Elections was",
         "options": {
-            "A": "\n\n            NPN\n",
-            "B": "\n\n            GNPP\n",
-            "C": "\n\n            NAP\n",
-            "D": "\n\n            UPN\n"
+            "A": "NPN",
+            "B": "GNPP",
+            "C": "NAP",
+            "D": "UPN"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts in Government",
@@ -1015,10 +1015,10 @@
         "number": "57",
         "question": "Recruitment and promotion of civil servants in Nigeria remain the responsibility of",
         "options": {
-            "A": "\n\n            Federal Character Commission\n",
-            "B": "\n\n            Civil Service Commission\n",
-            "C": "\n\n            National Universities Commission\n",
-            "D": "\n\n            Federal Judicial Commission\n"
+            "A": "Federal Character Commission",
+            "B": "Civil Service Commission",
+            "C": "National Universities Commission",
+            "D": "Federal Judicial Commission"
         },
         "correct_answer": "B",
         "topic": "Federalism",
@@ -1033,10 +1033,10 @@
         "number": "58",
         "question": "The commission that conducted elections that ushered in the Fourth Republic in Nigeria is",
         "options": {
-            "A": "\n\n            INEC\n",
-            "B": "\n\n            NECON\n",
-            "C": "\n\n            NEC\n",
-            "D": "\n\n            FEDECO\n"
+            "A": "INEC",
+            "B": "NECON",
+            "C": "NEC",
+            "D": "FEDECO"
         },
         "correct_answer": "A",
         "topic": "Public Administration",
@@ -1051,10 +1051,10 @@
         "number": "59",
         "question": "Before a treaty can be binding on a country, it has to be approved by the",
         "options": {
-            "A": "\n\n            executive\n",
-            "B": "\n\n            legislature\n",
-            "C": "\n\n            judiciary\n",
-            "D": "\n\n            military\n"
+            "A": "executive",
+            "B": "legislature",
+            "C": "judiciary",
+            "D": "military"
         },
         "correct_answer": "B",
         "topic": "Arms of Government",
@@ -1069,10 +1069,10 @@
         "number": "60",
         "question": "The first constitution to introduce a presidential system was the",
         "options": {
-            "A": "\n\n            1966 Constitution\n",
-            "B": "\n\n            1963 Constitution\n",
-            "C": "\n\n            1979 Constitution\n",
-            "D": "\n\n            1999 Constitution\n"
+            "A": "1966 Constitution",
+            "B": "1963 Constitution",
+            "C": "1979 Constitution",
+            "D": "1999 Constitution"
         },
         "correct_answer": "C",
         "topic": "Nigerian Constitution",
@@ -1087,10 +1087,10 @@
         "number": "61",
         "question": "One of the internal factors that led to the rise and growth of nationalism in Nigeria was",
         "options": {
-            "A": "\n\n            British Labour Party\n",
-            "B": "\n\n            return of ex-service men\n",
-            "C": "\n\n            Pan-African congress\n",
-            "D": "\n\n            independence of India\n"
+            "A": "British Labour Party",
+            "B": "return of ex-service men",
+            "C": "Pan-African congress",
+            "D": "independence of India"
         },
         "correct_answer": "B",
         "topic": "Political Parties",
@@ -1105,10 +1105,10 @@
         "number": "62",
         "question": "The political subjugation and economic exploitation of a people is known as",
         "options": {
-            "A": "\n\n            colonialism\n",
-            "B": "\n\n            neo-colonialism\n",
-            "C": "\n\n            apertheid\n",
-            "D": "\n\n            indirect rule\n"
+            "A": "colonialism",
+            "B": "neo-colonialism",
+            "C": "apertheid",
+            "D": "indirect rule"
         },
         "correct_answer": "A",
         "topic": "Basic Concepts in Government",
@@ -1123,10 +1123,10 @@
         "number": "63",
         "question": "The leader of the Oyo Mesi in the Yoruba pre-colonial political system was",
         "options": {
-            "A": "\n\n            Aremo\n",
-            "B": "\n\n            Oba\n",
-            "C": "\n\n            Bashorun\n",
-            "D": "\n\n            Baale\n"
+            "A": "Aremo",
+            "B": "Oba",
+            "C": "Bashorun",
+            "D": "Baale"
         },
         "correct_answer": "C",
         "topic": "Pre-colonial Systems",
@@ -1141,10 +1141,10 @@
         "number": "64",
         "question": "Strike action is mostly used by",
         "options": {
-            "A": "\n\n            political parties\n",
-            "B": "\n\n            traders\n",
-            "C": "\n\n            parliamentarians\n",
-            "D": "\n\n            pressure groups\n"
+            "A": "political parties",
+            "B": "traders",
+            "C": "parliamentarians",
+            "D": "pressure groups"
         },
         "correct_answer": "D",
         "topic": "Basic Concepts in Government",
@@ -1159,10 +1159,10 @@
         "number": "65",
         "question": "One of the functions of political party is",
         "options": {
-            "A": "\n\n            promotion of interest\n",
-            "B": "\n\n            organisation of election\n",
-            "C": "\n\n            political education\n",
-            "D": "\n\n            announcement of election results\n"
+            "A": "promotion of interest",
+            "B": "organisation of election",
+            "C": "political education",
+            "D": "announcement of election results"
         },
         "correct_answer": "C",
         "topic": "Electoral Process",
@@ -1177,10 +1177,10 @@
         "number": "66",
         "question": "The right to vote and be voted for is",
         "options": {
-            "A": "\n\n            fundamental human right\n",
-            "B": "\n\n            freedom of expression\n",
-            "C": "\n\n            franchise\n",
-            "D": "\n\n            electoral right\n"
+            "A": "fundamental human right",
+            "B": "freedom of expression",
+            "C": "franchise",
+            "D": "electoral right"
         },
         "correct_answer": "C",
         "topic": "Citizenship",

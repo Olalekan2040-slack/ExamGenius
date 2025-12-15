@@ -7,10 +7,10 @@
         "number": "1",
         "question": "An article used as a means of exchange in the early days of trade in West Africa was",
         "options": {
-            "A": "\n\n            cedis\n",
-            "B": "\n\n            cowrie\n",
-            "C": "\n\n            dalasi\n",
-            "D": "\n\n            naira\n"
+            "A": "cedis",
+            "B": "cowrie",
+            "C": "dalasi",
+            "D": "naira"
         },
         "correct_answer": "B",
         "topic": "Trade",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "The provision of services is classified under",
         "options": {
-            "A": "\n\n            batch production\n",
-            "B": "\n\n            flow production\n",
-            "C": "\n\n            secondary production\n",
-            "D": "\n\n            tertiary production\n"
+            "A": "batch production",
+            "B": "flow production",
+            "C": "secondary production",
+            "D": "tertiary production"
         },
         "correct_answer": "D",
         "topic": "Production",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "The growth of commerce is not enhanced by",
         "options": {
-            "A": "\n\n            development of modern forms of production\n",
-            "B": "\n\n            government participation in business\n",
-            "C": "\n\n            high population growth\n",
-            "D": "\n\n            low per capita income\n"
+            "A": "development of modern forms of production",
+            "B": "government participation in business",
+            "C": "high population growth",
+            "D": "low per capita income"
         },
         "correct_answer": "D",
         "topic": "Meaning & Scope of Commerce",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "One of the products of the construction industry is a",
         "options": {
-            "A": "\n\n            piece of cloth\n",
-            "B": "\n\n            bag of cement\n",
-            "C": "\n\n            television\n",
-            "D": "\n\n            chair\n"
+            "A": "piece of cloth",
+            "B": "bag of cement",
+            "C": "television",
+            "D": "chair"
         },
         "correct_answer": "B",
         "topic": "Production",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "The service of a retailer is part of production because it",
         "options": {
-            "A": "\n\n            creates a link between consumers and producers\n",
-            "B": "\n\n            enables finished goods to reach consumers\n",
-            "C": "\n\n            increases consumers standard of living\n",
-            "D": "\n\n            is a commercial occupation\n"
+            "A": "creates a link between consumers and producers",
+            "B": "enables finished goods to reach consumers",
+            "C": "increases consumers standard of living",
+            "D": "is a commercial occupation"
         },
         "correct_answer": "B",
         "topic": "Production",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "The resources put together to create goods and services are",
         "options": {
-            "A": "\n\n            working capital\n",
-            "B": "\n\n            producer goods\n",
-            "C": "\n\n            factors of production\n",
-            "D": "\n\n            consumer goods\n"
+            "A": "working capital",
+            "B": "producer goods",
+            "C": "factors of production",
+            "D": "consumer goods"
         },
         "correct_answer": "C",
         "topic": "Production",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "Which of the following organizations provide essential goods and services at low cost to citizens?",
         "options": {
-            "A": "\n\n            Thrift societies\n",
-            "B": "\n\n            Public enterprises\n",
-            "C": "\n\n            Private companies\n",
-            "D": "\n\n            Cooperative societies\n"
+            "A": "Thrift societies",
+            "B": "Public enterprises",
+            "C": "Private companies",
+            "D": "Cooperative societies"
         },
         "correct_answer": "B",
         "topic": "Advertising",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "A group of sellers who pool their resources to buy goods in large quantities and sell to its members is a",
         "options": {
-            "A": "\n\n            wholesaler cooperative society\n",
-            "B": "\n\n            thrift and credit society\n",
-            "C": "\n\n            consumer cooperative society\n",
-            "D": "\n\n            chamber of commerce\n"
+            "A": "wholesaler cooperative society",
+            "B": "thrift and credit society",
+            "C": "consumer cooperative society",
+            "D": "chamber of commerce"
         },
         "correct_answer": "A",
         "topic": "Meaning & Scope of Commerce",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "Average stock is derived by adding",
         "options": {
-            "A": "\n\n            closing stock to purchase divided by 2\n",
-            "B": "\n\n            closing stock to opening stock\n",
-            "C": "\n\n            opening stock to closing stock divided by 2\n",
-            "D": "\n\n            opening stock to purchases\n"
+            "A": "closing stock to purchase divided by 2",
+            "B": "closing stock to opening stock",
+            "C": "opening stock to closing stock divided by 2",
+            "D": "opening stock to purchases"
         },
         "correct_answer": "C",
         "topic": "Stock Exchange",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "A retail business that sells goods by post, using catalogue is a",
         "options": {
-            "A": "\n\n            chain store\n",
-            "B": "\n\n            department store\n",
-            "C": "\n\n            mail order firm\n",
-            "D": "\n\n            shopping mail\n"
+            "A": "chain store",
+            "B": "department store",
+            "C": "mail order firm",
+            "D": "shopping mail"
         },
         "correct_answer": "C",
         "topic": "Warehousing",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "Which of the following documents would a shareholder inspect to know his voting rights?",
         "options": {
-            "A": "\n\n            Articles of Association\n",
-            "B": "\n\n            Certificate of Incorporation\n",
-            "C": "\n\n            Certificate of Trading\n",
-            "D": "\n\n            Memorandum of Association\n"
+            "A": "Articles of Association",
+            "B": "Certificate of Incorporation",
+            "C": "Certificate of Trading",
+            "D": "Memorandum of Association"
         },
         "correct_answer": "A",
         "topic": "Business Units",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "An internal source of finance to an enterpreneur is",
         "options": {
-            "A": "\n\n            trade\n",
-            "B": "\n\n            retained earning\n",
-            "C": "\n\n            overdraft\n",
-            "D": "\n\n            debenture\n"
+            "A": "trade",
+            "B": "retained earning",
+            "C": "overdraft",
+            "D": "debenture"
         },
         "correct_answer": "B",
         "topic": "Trade",
@@ -223,10 +223,10 @@
         "number": "13",
         "question": "Use the information below to answer questions 13 and 14 # Sales 50,000.00 Debtors 10,000.00 Cash in hand 5,000.00 Opening stock 30,000.00 Creditors 8,000",
         "options": {
-            "A": "\n\n            #35,000.00\n",
-            "B": "\n\n            #20,000.00\n",
-            "C": "\n\n            #5,000.00\n",
-            "D": "\n\n            #14,000.00\n"
+            "A": "#35,000.00",
+            "B": "#20,000.00",
+            "C": "#5,000.00",
+            "D": "#14,000.00"
         },
         "correct_answer": "C",
         "topic": "Stock Exchange",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "Use the information below to answer questions 13 and 14 # Sales 50,000.00 Debtors 10,000.00 Cash in hand 5,000.00 Opening stock 30,000.00 Creditors 8,000.00 Purchases 16,000.00 Overdraft 12,000.00 Closing stock 10,000.00",
         "options": {
-            "A": "\n\n            #35,000.00\n",
-            "B": "\n\n            #20,000.00\n",
-            "C": "\n\n            #15,000.00\n",
-            "D": "\n\n            #14,000.00\n"
+            "A": "#35,000.00",
+            "B": "#20,000.00",
+            "C": "#15,000.00",
+            "D": "#14,000.00"
         },
         "correct_answer": "D",
         "topic": "Stock Exchange",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "A partner who contributes only his name to the formation of a partnership is",
         "options": {
-            "A": "\n\n            a nominal partner\n",
-            "B": "\n\n            a limited partner\n",
-            "C": "\n\n            a general partner\n",
-            "D": "\n\n            an active partner\n"
+            "A": "a nominal partner",
+            "B": "a limited partner",
+            "C": "a general partner",
+            "D": "an active partner"
         },
         "correct_answer": "A",
         "topic": "Business Units",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "Which of the following groups would advocate for the supply of constant electricity to households?",
         "options": {
-            "A": "\n\n            Consumer's association\n",
-            "B": "\n\n            Credit union\n",
-            "C": "\n\n            Employer's association\n",
-            "D": "\n\n            Labour union\n"
+            "A": "Consumer's association",
+            "B": "Credit union",
+            "C": "Employer's association",
+            "D": "Labour union"
         },
         "correct_answer": "A",
         "topic": "Banking & Finance",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "A retail store that sells a single product from a particular manufacturer is a",
         "options": {
-            "A": "\n\n            tied shop\n",
-            "B": "\n\n            shopping mail\n",
-            "C": "\n\n            hypermarket\n",
-            "D": "\n\n            chain store\n"
+            "A": "tied shop",
+            "B": "shopping mail",
+            "C": "hypermarket",
+            "D": "chain store"
         },
         "correct_answer": "D",
         "topic": "Warehousing",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "A country's visible balance of payment is made up of",
         "options": {
-            "A": "\n\n            interest on loans to foreign countries\n",
-            "B": "\n\n            profit from investment abroad\n",
-            "C": "\n\n            earnings from goods exported\n",
-            "D": "\n\n            dividend earned from companies\n"
+            "A": "interest on loans to foreign countries",
+            "B": "profit from investment abroad",
+            "C": "earnings from goods exported",
+            "D": "dividend earned from companies"
         },
         "correct_answer": "C",
         "topic": "Banking & Finance",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "The quality of money which makes it possible to buy goods in small quantities is",
         "options": {
-            "A": "\n\n            portability\n",
-            "B": "\n\n            homogeneity\n",
-            "C": "\n\n            divisibility\n",
-            "D": "\n\n            durability\n"
+            "A": "portability",
+            "B": "homogeneity",
+            "C": "divisibility",
+            "D": "durability"
         },
         "correct_answer": "C",
         "topic": "Stock Exchange",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "One of the functions of commerical banks that cannot be performed by central banks is",
         "options": {
-            "A": "\n\n            collection of old notes\n",
-            "B": "\n\n            collection of deposits from the public\n",
-            "C": "\n\n            issuance of treasury bills\n",
-            "D": "\n\n            printing of bank notes\n"
+            "A": "collection of old notes",
+            "B": "collection of deposits from the public",
+            "C": "issuance of treasury bills",
+            "D": "printing of bank notes"
         },
         "correct_answer": "B",
         "topic": "Banking & Finance",
@@ -367,9 +367,9 @@
         "number": "21",
         "question": "A document that instructs an agent to buy goods from a named firm is",
         "options": {
-            "A": "\n\n            proforma invoice\n",
-            "B": "\n\n            consular invoice\n",
-            "D": "\n\n            closed indent\n"
+            "A": "proforma invoice",
+            "B": "consular invoice",
+            "D": "closed indent"
         },
         "correct_answer": "D",
         "topic": "Business Law",
@@ -384,10 +384,10 @@
         "number": "22",
         "question": "The incentive given to a buyer to encourage prompt payment is",
         "options": {
-            "A": "\n\n            cash discount\n",
-            "B": "\n\n            seasonal discount\n",
-            "C": "\n\n            quantity discount\n",
-            "D": "\n\n            trade discount\n"
+            "A": "cash discount",
+            "B": "seasonal discount",
+            "C": "quantity discount",
+            "D": "trade discount"
         },
         "correct_answer": "A",
         "topic": "Trade",
@@ -402,10 +402,10 @@
         "number": "23",
         "question": "The principle which prevents an insured from receiving a claim that is more than the value of the loss, if the property is insured by more than one company is",
         "options": {
-            "A": "\n\n            indemnity\n",
-            "B": "\n\n            contribution\n",
-            "C": "\n\n            proximate cause\n",
-            "D": "\n\n            uberrimae fidei\n"
+            "A": "indemnity",
+            "B": "contribution",
+            "C": "proximate cause",
+            "D": "uberrimae fidei"
         },
         "correct_answer": "B",
         "topic": "Insurance",
@@ -420,10 +420,10 @@
         "number": "24",
         "question": "Dealers in stock exchange such as bulls, bears and stags are categorized as",
         "options": {
-            "A": "\n\n            actuaries\n",
-            "B": "\n\n            promoters\n",
-            "C": "\n\n            speculators\n",
-            "D": "\n\n            underwriter\n"
+            "A": "actuaries",
+            "B": "promoters",
+            "C": "speculators",
+            "D": "underwriter"
         },
         "correct_answer": "C",
         "topic": "Stock Exchange",
@@ -438,10 +438,10 @@
         "number": "25",
         "question": "Which of the following is not a characteristic of a commercial bank?",
         "options": {
-            "A": "\n\n            Established as limited liability company\n",
-            "B": "\n\n            Established by individuals or organizations\n",
-            "C": "\n\n            Established to issue bank notes\n",
-            "D": "\n\n            Established with the view of making profit\n"
+            "A": "Established as limited liability company",
+            "B": "Established by individuals or organizations",
+            "C": "Established to issue bank notes",
+            "D": "Established with the view of making profit"
         },
         "correct_answer": "C",
         "topic": "Banking & Finance",
@@ -456,10 +456,10 @@
         "number": "26",
         "question": "Central banks sell treasury bills to the public to",
         "options": {
-            "A": "\n\n            increase cash in the banking system\n",
-            "B": "\n\n            raise revenue for commerical banks\n",
-            "C": "\n\n            raise revenue for private investors\n",
-            "D": "\n\n            reduce cash in circulation\n"
+            "A": "increase cash in the banking system",
+            "B": "raise revenue for commerical banks",
+            "C": "raise revenue for private investors",
+            "D": "reduce cash in circulation"
         },
         "correct_answer": "D",
         "topic": "Business Law",
@@ -474,10 +474,10 @@
         "number": "27",
         "question": "A document used to ensure correct payment of duty at the importing country is",
         "options": {
-            "A": "\n\n            documentary credit\n",
-            "B": "\n\n            consular invoice\n",
-            "C": "\n\n            certificate of origin\n",
-            "D": "\n\n            bill of lading\n"
+            "A": "documentary credit",
+            "B": "consular invoice",
+            "C": "certificate of origin",
+            "D": "bill of lading"
         },
         "correct_answer": "D",
         "topic": "Business Law",
@@ -492,10 +492,10 @@
         "number": "28",
         "question": "A cheque is specially crossed if",
         "options": {
-            "A": "\n\n            the name of the account holder is written between two parallel lines drawn across it\n",
-            "B": "\n\n            it could be paid over the counter\n",
-            "C": "\n\n            the name of the bank is written between two parallel lines drawn across it\n",
-            "D": "\n\n            only two parallel lines are drawn across it\n"
+            "A": "the name of the account holder is written between two parallel lines drawn across it",
+            "B": "it could be paid over the counter",
+            "C": "the name of the bank is written between two parallel lines drawn across it",
+            "D": "only two parallel lines are drawn across it"
         },
         "correct_answer": "C",
         "topic": "Banking & Finance",
@@ -510,10 +510,10 @@
         "number": "29",
         "question": "One of the functions of a trade association is to",
         "options": {
-            "A": "\n\n            pay members salaries\n",
-            "B": "\n\n            promote members' welfare\n",
-            "C": "\n\n            provide loans to members\n",
-            "D": "\n\n            provide employment for members\n"
+            "A": "pay members salaries",
+            "B": "promote members' welfare",
+            "C": "provide loans to members",
+            "D": "provide employment for members"
         },
         "correct_answer": "B",
         "topic": "Trade",
@@ -528,10 +528,10 @@
         "number": "30",
         "question": "When a share with a nominal value of #50 is quoted at #70, it is being sold",
         "options": {
-            "A": "\n\n            cum div\n",
-            "B": "\n\n            ex-div\n",
-            "C": "\n\n            at a discount\n",
-            "D": "\n\n            at a premium\n"
+            "A": "cum div",
+            "B": "ex-div",
+            "C": "at a discount",
+            "D": "at a premium"
         },
         "correct_answer": "D",
         "topic": "Stock Exchange",
@@ -546,10 +546,10 @@
         "number": "31",
         "question": "Sea vessels that do not operate on regular times and routes are",
         "options": {
-            "A": "\n\n            tramps\n",
-            "B": "\n\n            ocean liners\n",
-            "C": "\n\n            container ships\n",
-            "D": "\n\n            ferries\n"
+            "A": "tramps",
+            "B": "ocean liners",
+            "C": "container ships",
+            "D": "ferries"
         },
         "correct_answer": "B",
         "topic": "Transportation",
@@ -564,10 +564,10 @@
         "number": "32",
         "question": "Payment made to a carrier for transportation of goods is",
         "options": {
-            "A": "\n\n            freight\n",
-            "B": "\n\n            fee\n",
-            "C": "\n\n            fare\n",
-            "D": "\n\n            duty\n"
+            "A": "freight",
+            "B": "fee",
+            "C": "fare",
+            "D": "duty"
         },
         "correct_answer": "A",
         "topic": "Transportation",
@@ -582,10 +582,10 @@
         "number": "33",
         "question": "An advantage of rail transport is that it",
         "options": {
-            "A": "\n\n            is less expensive to maintain\n",
-            "B": "\n\n            is not prone to delays\n",
-            "C": "\n\n            carries bulky and heavy goods\n",
-            "D": "\n\n            enhances door-to-door delivery\n"
+            "A": "is less expensive to maintain",
+            "B": "is not prone to delays",
+            "C": "carries bulky and heavy goods",
+            "D": "enhances door-to-door delivery"
         },
         "correct_answer": "C",
         "topic": "Transportation",
@@ -600,10 +600,10 @@
         "number": "34",
         "question": "The commission on a postal order is",
         "options": {
-            "A": "\n\n            tariff\n",
-            "B": "\n\n            poundage\n",
-            "C": "\n\n            brokerage\n",
-            "D": "\n\n            fee\n"
+            "A": "tariff",
+            "B": "poundage",
+            "C": "brokerage",
+            "D": "fee"
         },
         "correct_answer": "B",
         "topic": "Trade",
@@ -618,10 +618,10 @@
         "number": "35",
         "question": "Consumers could be encouraged to purchase a company's product through",
         "options": {
-            "A": "\n\n            research\n",
-            "B": "\n\n            planning\n",
-            "C": "\n\n            distribution\n",
-            "D": "\n\n            advertisement\n"
+            "A": "research",
+            "B": "planning",
+            "C": "distribution",
+            "D": "advertisement"
         },
         "correct_answer": "D",
         "topic": "Production",
@@ -636,10 +636,10 @@
         "number": "36",
         "question": "The marketing concept emphasizes",
         "options": {
-            "A": "\n\n            sales of goods directly to customers\n",
-            "B": "\n\n            use of promotional tools to stimulate sale\n",
-            "C": "\n\n            mass production of goods\n",
-            "D": "\n\n            consumer's satisfaction at a profit\n"
+            "A": "sales of goods directly to customers",
+            "B": "use of promotional tools to stimulate sale",
+            "C": "mass production of goods",
+            "D": "consumer's satisfaction at a profit"
         },
         "correct_answer": "D",
         "topic": "Production",
@@ -654,10 +654,10 @@
         "number": "37",
         "question": "An undertaking to repair a customer's vehicle for a certain period after it has been sold is",
         "options": {
-            "A": "\n\n            after-sales service\n",
-            "B": "\n\n            marketing mix\n",
-            "C": "\n\n            market segmentation\n",
-            "D": "\n\n            sales promotion\n"
+            "A": "after-sales service",
+            "B": "marketing mix",
+            "C": "market segmentation",
+            "D": "sales promotion"
         },
         "correct_answer": "A",
         "topic": "Advertising",
@@ -672,10 +672,10 @@
         "number": "38",
         "question": "Which of the following is not a right of a consumer?",
         "options": {
-            "A": "\n\n            Right to a fair hearing\n",
-            "B": "\n\n            Right to buy on credit\n",
-            "C": "\n\n            Right to obtain replacement\n",
-            "D": "\n\n            Right to safe product\n"
+            "A": "Right to a fair hearing",
+            "B": "Right to buy on credit",
+            "C": "Right to obtain replacement",
+            "D": "Right to safe product"
         },
         "correct_answer": "B",
         "topic": "Production",
@@ -690,10 +690,10 @@
         "number": "39",
         "question": "Advertisement which is geared towards a particular audience is",
         "options": {
-            "A": "\n\n            direct advertising\n",
-            "B": "\n\n            indirect advertising\n",
-            "C": "\n\n            mass advertising\n",
-            "D": "\n\n            persuasive advertising\n"
+            "A": "direct advertising",
+            "B": "indirect advertising",
+            "C": "mass advertising",
+            "D": "persuasive advertising"
         },
         "correct_answer": "A",
         "topic": "Advertising",
@@ -708,10 +708,10 @@
         "number": "40",
         "question": "The law by which a seller transfers the property in goods to a buyer at an agreed price is the",
         "options": {
-            "A": "\n\n            Weights and Measure Act\n",
-            "B": "\n\n            Trade Description Act\n",
-            "C": "\n\n            Sale of Goods Act\n",
-            "D": "\n\n            Foods and Drugs Act\n"
+            "A": "Weights and Measure Act",
+            "B": "Trade Description Act",
+            "C": "Sale of Goods Act",
+            "D": "Foods and Drugs Act"
         },
         "correct_answer": "C",
         "topic": "Trade",
@@ -726,10 +726,10 @@
         "number": "41",
         "question": "Commerce is defined as",
         "options": {
-            "A": "\n\n            buying and selling of goods and services only\n",
-            "B": "\n\n            all activities in the distribution and exchange of goods and services\n",
-            "C": "\n\n            all activities involved in the production of goods and services\n",
-            "D": "\n\n            transporting and warehousing of goods only\n"
+            "A": "buying and selling of goods and services only",
+            "B": "all activities in the distribution and exchange of goods and services",
+            "C": "all activities involved in the production of goods and services",
+            "D": "transporting and warehousing of goods only"
         },
         "correct_answer": "B",
         "topic": "Trade",
@@ -744,10 +744,10 @@
         "number": "42",
         "question": "The type of occupation that a broker belongs to is",
         "options": {
-            "A": "\n\n            commercial\n",
-            "B": "\n\n            construction\n",
-            "C": "\n\n            extraction\n",
-            "D": "\n\n            manufacturing\n"
+            "A": "commercial",
+            "B": "construction",
+            "C": "extraction",
+            "D": "manufacturing"
         },
         "correct_answer": "A",
         "topic": "Meaning & Scope of Commerce",
@@ -762,9 +762,9 @@
         "number": "43",
         "question": "A form of money which was not used in the early days of trade is",
         "options": {
-            "A": "\n\n            tobacco\n",
-            "B": "\n\n            metal bars\n",
-            "C": "\n\n            coins\n"
+            "A": "tobacco",
+            "B": "metal bars",
+            "C": "coins"
         },
         "correct_answer": "C",
         "topic": "Trade",
@@ -779,10 +779,10 @@
         "number": "44",
         "question": "Which of the following activities is not an example of the extractive industry?",
         "options": {
-            "A": "\n\n            weaving\n",
-            "B": "\n\n            quarrying\n",
-            "C": "\n\n            hunting\n",
-            "D": "\n\n            fishing\n"
+            "A": "weaving",
+            "B": "quarrying",
+            "C": "hunting",
+            "D": "fishing"
         },
         "correct_answer": "A",
         "topic": "Occupation",
@@ -797,10 +797,10 @@
         "number": "45",
         "question": "A business unit in which savings of members are lent to others is a",
         "options": {
-            "A": "\n\n            consumer cooperative society\n",
-            "B": "\n\n            producer cooperative society\n",
-            "C": "\n\n            credit and thrift society\n",
-            "D": "\n\n            wholesale cooperative society\n"
+            "A": "consumer cooperative society",
+            "B": "producer cooperative society",
+            "C": "credit and thrift society",
+            "D": "wholesale cooperative society"
         },
         "correct_answer": "C",
         "topic": "Business Units",
@@ -815,10 +815,10 @@
         "number": "46",
         "question": "The document issued by a public company allowing it to commence business is the",
         "options": {
-            "A": "\n\n            Articles of Association\n",
-            "B": "\n\n            Certificate of Incorporation\n",
-            "C": "\n\n            Memorandum of Association\n",
-            "D": "\n\n            Certificate of Trading\n"
+            "A": "Articles of Association",
+            "B": "Certificate of Incorporation",
+            "C": "Memorandum of Association",
+            "D": "Certificate of Trading"
         },
         "correct_answer": "D",
         "topic": "Business Units",
@@ -833,10 +833,10 @@
         "number": "47",
         "question": "Which of the following is not a function of a consumer association?",
         "options": {
-            "A": "\n\n            Ensuring that consumers buy quality goods\n",
-            "B": "\n\n            Educating consumers on their rights\n",
-            "C": "\n\n            Penalizing importers of fake goods\n",
-            "D": "\n\n            Ensuring that fair prices are charged\n"
+            "A": "Ensuring that consumers buy quality goods",
+            "B": "Educating consumers on their rights",
+            "C": "Penalizing importers of fake goods",
+            "D": "Ensuring that fair prices are charged"
         },
         "correct_answer": "C",
         "topic": "Transportation",
@@ -851,10 +851,10 @@
         "number": "48",
         "question": "An association formed by computer distributors to safeguard and promote their interest is a",
         "options": {
-            "A": "\n\n            chamber of commerce\n",
-            "B": "\n\n            cooperative society\n",
-            "C": "\n\n            trade association\n",
-            "D": "\n\n            trade union\n"
+            "A": "chamber of commerce",
+            "B": "cooperative society",
+            "C": "trade association",
+            "D": "trade union"
         },
         "correct_answer": "C",
         "topic": "Meaning & Scope of Commerce",
@@ -869,10 +869,10 @@
         "number": "49",
         "question": "The issue of prospectus by a company is an invitation to members of the public to",
         "options": {
-            "A": "\n\n            subscribe to the company's shares\n",
-            "B": "\n\n            attend the company's Annual general Meeting\n",
-            "C": "\n\n            buy the company's products\n",
-            "D": "\n\n            attend the company's board meeting\n"
+            "A": "subscribe to the company's shares",
+            "B": "attend the company's Annual general Meeting",
+            "C": "buy the company's products",
+            "D": "attend the company's board meeting"
         },
         "correct_answer": "A",
         "topic": "Business Units",
@@ -887,10 +887,10 @@
         "number": "50",
         "question": "Examples of current assets are",
         "options": {
-            "A": "\n\n            cash and trade debtors\n",
-            "B": "\n\n            cash and trade creditors\n",
-            "C": "\n\n            trade debtors, trade creditors and cash\n",
-            "D": "\n\n            trade creditors and trade debtors\n"
+            "A": "cash and trade debtors",
+            "B": "cash and trade creditors",
+            "C": "trade debtors, trade creditors and cash",
+            "D": "trade creditors and trade debtors"
         },
         "correct_answer": "A",
         "topic": "Trade",
@@ -905,10 +905,10 @@
         "number": "51",
         "question": "When the cost of sales is divided by the average stock, the result is",
         "options": {
-            "A": "\n\n            gross profit\n",
-            "B": "\n\n            net profit\n",
-            "C": "\n\n            rate of turnover\n",
-            "D": "\n\n            working capital\n"
+            "A": "gross profit",
+            "B": "net profit",
+            "C": "rate of turnover",
+            "D": "working capital"
         },
         "correct_answer": "C",
         "topic": "Stock Exchange",
@@ -923,10 +923,10 @@
         "number": "52",
         "question": "The part of issued share capital that the company has asked the subscribers to pay for",
         "options": {
-            "A": "\n\n            authorised capital\n",
-            "B": "\n\n            called-up capital\n",
-            "C": "\n\n            nominal capital\n",
-            "D": "\n\n            paid-up capital\n"
+            "A": "authorised capital",
+            "B": "called-up capital",
+            "C": "nominal capital",
+            "D": "paid-up capital"
         },
         "correct_answer": "B",
         "topic": "Business Units",
@@ -941,10 +941,10 @@
         "number": "53",
         "question": "The last link in a channel of distribution is the",
         "options": {
-            "A": "\n\n            wholesaler\n",
-            "B": "\n\n            retailer\n",
-            "C": "\n\n            consumer\n",
-            "D": "\n\n            agent\n"
+            "A": "wholesaler",
+            "B": "retailer",
+            "C": "consumer",
+            "D": "agent"
         },
         "correct_answer": "C",
         "topic": "Trade",
@@ -959,10 +959,10 @@
         "number": "54",
         "question": "The difference between a country's imports and exports of goods in a particular year is",
         "options": {
-            "A": "\n\n            terms of trade\n",
-            "B": "\n\n            terms of payment\n",
-            "C": "\n\n            balance of payment\n",
-            "D": "\n\n            balance of trade\n"
+            "A": "terms of trade",
+            "B": "terms of payment",
+            "C": "balance of payment",
+            "D": "balance of trade"
         },
         "correct_answer": "C",
         "topic": "Trade",
@@ -977,10 +977,10 @@
         "number": "55",
         "question": "Goods bought into the country for sale are the country's",
         "options": {
-            "A": "\n\n            invisible imports\n",
-            "B": "\n\n            invisible exports\n",
-            "C": "\n\n            visible imports\n",
-            "D": "\n\n            visible exports\n"
+            "A": "invisible imports",
+            "B": "invisible exports",
+            "C": "visible imports",
+            "D": "visible exports"
         },
         "correct_answer": "C",
         "topic": "Stock Exchange",
@@ -995,10 +995,10 @@
         "number": "56",
         "question": "A feature of supermarkets which distinguishes it from other large scale retail outlets is that items sold are",
         "options": {
-            "A": "\n\n            mainly household goods\n",
-            "B": "\n\n            mainly industrial goods\n",
-            "C": "\n\n            delivered by post\n",
-            "D": "\n\n            one line of products\n"
+            "A": "mainly household goods",
+            "B": "mainly industrial goods",
+            "C": "delivered by post",
+            "D": "one line of products"
         },
         "correct_answer": "A",
         "topic": "Production",
@@ -1013,10 +1013,10 @@
         "number": "57",
         "question": "One advantage of small scale retail outlets is",
         "options": {
-            "A": "\n\n            availability of self service facilities\n",
-            "B": "\n\n            ability to buy in bulk\n",
-            "C": "\n\n            easy acess to large amount of capital\n",
-            "D": "\n\n            personal attention to customers\n"
+            "A": "availability of self service facilities",
+            "B": "ability to buy in bulk",
+            "C": "easy acess to large amount of capital",
+            "D": "personal attention to customers"
         },
         "correct_answer": "D",
         "topic": "Trade",
@@ -1031,10 +1031,10 @@
         "number": "58",
         "question": "A discount deducted from the invoice price of goods to enable the retailer to make profit",
         "options": {
-            "A": "\n\n            cash discount\n",
-            "B": "\n\n            functional discount\n",
-            "C": "\n\n            trade discount\n",
-            "D": "\n\n            seasonal discount\n"
+            "A": "cash discount",
+            "B": "functional discount",
+            "C": "trade discount",
+            "D": "seasonal discount"
         },
         "correct_answer": "A",
         "topic": "Trade",
@@ -1049,10 +1049,10 @@
         "number": "59",
         "question": "A document issued by the seller's own courier and signed by the customer to acknowledge receipt of the goods is",
         "options": {
-            "A": "\n\n            advice note\n",
-            "B": "\n\n            consignment note\n",
-            "C": "\n\n            delivery note\n",
-            "D": "\n\n            freight note\n"
+            "A": "advice note",
+            "B": "consignment note",
+            "C": "delivery note",
+            "D": "freight note"
         },
         "correct_answer": "B",
         "topic": "Advertising",
@@ -1067,10 +1067,10 @@
         "number": "60",
         "question": "A request for goods from another country by an importer would be made using",
         "options": {
-            "A": "\n\n            an invoice\n",
-            "B": "\n\n            an indent\n",
-            "C": "\n\n            an order\n",
-            "D": "\n\n            a quotation\n"
+            "A": "an invoice",
+            "B": "an indent",
+            "C": "an order",
+            "D": "a quotation"
         },
         "correct_answer": "B",
         "topic": "Trade",
@@ -1085,10 +1085,10 @@
         "number": "61",
         "question": "The right to buy or sell stock in the stock exchange within a stipulated period is",
         "options": {
-            "A": "\n\n            option\n",
-            "B": "\n\n            contango\n",
-            "C": "\n\n            backwardation\n",
-            "D": "\n\n            brokerage\n"
+            "A": "option",
+            "B": "contango",
+            "C": "backwardation",
+            "D": "brokerage"
         },
         "correct_answer": "A",
         "topic": "Stock Exchange",
@@ -1103,10 +1103,10 @@
         "number": "62",
         "question": "The share value stated on a share certificate is",
         "options": {
-            "A": "\n\n            above par value\n",
-            "B": "\n\n            below par value\n",
-            "C": "\n\n            market value\n",
-            "D": "\n\n            nominal value\n"
+            "A": "above par value",
+            "B": "below par value",
+            "C": "market value",
+            "D": "nominal value"
         },
         "correct_answer": "D",
         "topic": "Stock Exchange",
@@ -1121,10 +1121,10 @@
         "number": "63",
         "question": "The bank which acts as the lender of last resort is the",
         "options": {
-            "A": "\n\n            Central bank\n",
-            "B": "\n\n            Commercial bank\n",
-            "C": "\n\n            Merchant bank\n",
-            "D": "\n\n            Mortegage bank\n"
+            "A": "Central bank",
+            "B": "Commercial bank",
+            "C": "Merchant bank",
+            "D": "Mortegage bank"
         },
         "correct_answer": "A",
         "topic": "Banking & Finance",
@@ -1139,10 +1139,10 @@
         "number": "64",
         "question": "An insurance policy which is not a contract of indemnity is",
         "options": {
-            "A": "\n\n            burglary insurance\n",
-            "B": "\n\n            fire insurance\n",
-            "C": "\n\n            life insurance\n",
-            "D": "\n\n            motor insurance\n"
+            "A": "burglary insurance",
+            "B": "fire insurance",
+            "C": "life insurance",
+            "D": "motor insurance"
         },
         "correct_answer": "C",
         "topic": "Insurance",
@@ -1157,10 +1157,10 @@
         "number": "65",
         "question": "When a company insures the lives of all its employees collectively, the policy is",
         "options": {
-            "A": "\n\n            accident insurance\n",
-            "B": "\n\n            fleet insurance\n",
-            "C": "\n\n            fidelity guarantee insurance\n",
-            "D": "\n\n            group insurance\n"
+            "A": "accident insurance",
+            "B": "fleet insurance",
+            "C": "fidelity guarantee insurance",
+            "D": "group insurance"
         },
         "correct_answer": "D",
         "topic": "Insurance",
@@ -1175,10 +1175,10 @@
         "number": "66",
         "question": "A cheque that could be cashed over the counter by the payee is",
         "options": {
-            "A": "\n\n            certified cheque\n",
-            "B": "\n\n            crossed cheque\n",
-            "C": "\n\n            open cheque\n",
-            "D": "\n\n            bank draft\n"
+            "A": "certified cheque",
+            "B": "crossed cheque",
+            "C": "open cheque",
+            "D": "bank draft"
         },
         "correct_answer": "C",
         "topic": "Banking & Finance",
@@ -1193,10 +1193,10 @@
         "number": "67",
         "question": "A specially-designed mode of transport for conveying liquid and gas is a",
         "options": {
-            "A": "\n\n            coaster\n",
-            "B": "\n\n            tanker\n",
-            "C": "\n\n            liner\n",
-            "D": "\n\n            ferry\n"
+            "A": "coaster",
+            "B": "tanker",
+            "C": "liner",
+            "D": "ferry"
         },
         "correct_answer": "B",
         "topic": "Transportation",
@@ -1211,10 +1211,10 @@
         "number": "68",
         "question": "The safe keeping of goods produced until they are needed is",
         "options": {
-            "A": "\n\n            hoarding\n",
-            "B": "\n\n            marketing\n",
-            "C": "\n\n            packaging\n",
-            "D": "\n\n            warehousing\n"
+            "A": "hoarding",
+            "B": "marketing",
+            "C": "packaging",
+            "D": "warehousing"
         },
         "correct_answer": "D",
         "topic": "Advertising",
@@ -1229,10 +1229,10 @@
         "number": "69",
         "question": "One of the objectives of the Niger Basin Commission is to",
         "options": {
-            "A": "\n\n            regulate the movement of citizens across borders\n",
-            "B": "\n\n            improve tariff and quota on non-members\n",
-            "C": "\n\n            regulate the movement of cargo along the river\n",
-            "D": "\n\n            streaming the construction of dams on the river\n"
+            "A": "regulate the movement of citizens across borders",
+            "B": "improve tariff and quota on non-members",
+            "C": "regulate the movement of cargo along the river",
+            "D": "streaming the construction of dams on the river"
         },
         "correct_answer": "D",
         "topic": "Transportation",
@@ -1247,10 +1247,10 @@
         "number": "70",
         "question": "A paid presentation about a product with a view to encouraging purchases by an identifiable sponsor is",
         "options": {
-            "A": "\n\n            publicity\n",
-            "B": "\n\n            personal selling\n",
-            "C": "\n\n            sales promotion\n",
-            "D": "\n\n            advertisement\n"
+            "A": "publicity",
+            "B": "personal selling",
+            "C": "sales promotion",
+            "D": "advertisement"
         },
         "correct_answer": "D",
         "topic": "Advertising",
@@ -1265,10 +1265,10 @@
         "number": "71",
         "question": "The face-to-face meeting of the seller with the buyer for the purpose of making sales is",
         "options": {
-            "A": "\n\n            mass selling\n",
-            "B": "\n\n            impulse buying\n",
-            "C": "\n\n            personal selling\n",
-            "D": "\n\n            sale promotion\n"
+            "A": "mass selling",
+            "B": "impulse buying",
+            "C": "personal selling",
+            "D": "sale promotion"
         },
         "correct_answer": "C",
         "topic": "Trade",
@@ -1283,10 +1283,10 @@
         "number": "72",
         "question": "The activity which improves the appearance of a product and also aimed at protecting it is",
         "options": {
-            "A": "\n\n            advertising\n",
-            "B": "\n\n            grading\n",
-            "C": "\n\n            labelling\n",
-            "D": "\n\n            packaging\n"
+            "A": "advertising",
+            "B": "grading",
+            "C": "labelling",
+            "D": "packaging"
         },
         "correct_answer": "D",
         "topic": "Advertising",
@@ -1301,10 +1301,10 @@
         "number": "73",
         "question": "Which of the following is not a component of the marketing mix?",
         "options": {
-            "A": "\n\n            product\n",
-            "B": "\n\n            production\n",
-            "C": "\n\n            promotion\n",
-            "D": "\n\n            place\n"
+            "A": "product",
+            "B": "production",
+            "C": "promotion",
+            "D": "place"
         },
         "correct_answer": "B",
         "topic": "Production",
@@ -1319,10 +1319,10 @@
         "number": "74",
         "question": "The marketing term which regards the consumer as king that must be satisfied is",
         "options": {
-            "A": "\n\n            market segmentation\n",
-            "B": "\n\n            market research\n",
-            "C": "\n\n            marketing concept\n",
-            "D": "\n\n            marketing mix\n"
+            "A": "market segmentation",
+            "B": "market research",
+            "C": "marketing concept",
+            "D": "marketing mix"
         },
         "correct_answer": "C",
         "topic": "Advertising",
@@ -1337,10 +1337,10 @@
         "number": "75",
         "question": "An agreement that is enforceable in law is",
         "options": {
-            "A": "\n\n            an offer\n",
-            "B": "\n\n            a consideration\n",
-            "C": "\n\n            a contract\n",
-            "D": "\n\n            an acceptance\n"
+            "A": "an offer",
+            "B": "a consideration",
+            "C": "a contract",
+            "D": "an acceptance"
         },
         "correct_answer": "C",
         "topic": "Business Law",
@@ -1355,10 +1355,10 @@
         "number": "76",
         "question": "A contract will not be discharge through",
         "options": {
-            "A": "\n\n            acceptance\n",
-            "B": "\n\n            agreement\n",
-            "C": "\n\n            breach\n",
-            "D": "\n\n            performance\n"
+            "A": "acceptance",
+            "B": "agreement",
+            "C": "breach",
+            "D": "performance"
         },
         "correct_answer": "A",
         "topic": "Business Law",
@@ -1373,10 +1373,10 @@
         "number": "77",
         "question": "A person engaged for the purpose of bringing his principal and a third party into a contractual relation is",
         "options": {
-            "A": "\n\n            an arbiter\n",
-            "B": "\n\n            an auctioneer\n",
-            "C": "\n\n            an agent\n",
-            "D": "\n\n            a middlemen\n"
+            "A": "an arbiter",
+            "B": "an auctioneer",
+            "C": "an agent",
+            "D": "a middlemen"
         },
         "correct_answer": "C",
         "topic": "Business Law",
@@ -1391,10 +1391,10 @@
         "number": "78",
         "question": "The management function which involves measuring outcomes and taking corrective action to reduce error is",
         "options": {
-            "A": "\n\n            staffing\n",
-            "B": "\n\n            organizing\n",
-            "C": "\n\n            directing\n",
-            "D": "\n\n            controlling\n"
+            "A": "staffing",
+            "B": "organizing",
+            "C": "directing",
+            "D": "controlling"
         },
         "correct_answer": "D",
         "topic": "Meaning & Scope of Commerce",
@@ -1409,10 +1409,10 @@
         "number": "79",
         "question": "A medium for intra-departmental communication is all except",
         "options": {
-            "A": "\n\n            intercom\n",
-            "B": "\n\n            notice board\n",
-            "C": "\n\n            radiophone\n",
-            "D": "\n\n            circular\n"
+            "A": "intercom",
+            "B": "notice board",
+            "C": "radiophone",
+            "D": "circular"
         },
         "correct_answer": "C",
         "topic": "Advertising & Communication",
@@ -1427,10 +1427,10 @@
         "number": "80",
         "question": "Which of the following is not an objective of ECOWAS?",
         "options": {
-            "A": "\n\n            promotion of a common language\n",
-            "B": "\n\n            improvement of infrastructural facilities\n",
-            "C": "\n\n            encouragement of free movement of people\n",
-            "D": "\n\n            encouragement of trade among member countries\n"
+            "A": "promotion of a common language",
+            "B": "improvement of infrastructural facilities",
+            "C": "encouragement of free movement of people",
+            "D": "encouragement of trade among member countries"
         },
         "correct_answer": "A",
         "topic": "Trade",

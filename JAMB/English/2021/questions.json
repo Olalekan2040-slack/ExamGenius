@@ -7,10 +7,10 @@
         "number": "1",
         "question": "What is Ummi's Occupation?",
         "options": {
-            "A": "\n\n            Nurse\n",
-            "B": "\n\n            Teacher\n",
-            "C": "\n\n            Businessperson\n",
-            "D": "\n\n            Accountant\n"
+            "A": "Nurse",
+            "B": "Teacher",
+            "C": "Businessperson",
+            "D": "Accountant"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "Who can be described as meddlesome?",
         "options": {
-            "A": "\n\n            Daddy\n",
-            "B": "\n\n            Ummi\n",
-            "C": "\n\n            Bint\n",
-            "D": "\n\n            Mallam Salihu\n"
+            "A": "Daddy",
+            "B": "Ummi",
+            "C": "Bint",
+            "D": "Mallam Salihu"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "''Just call yourself Omar Esquire\" Who makes this statement?",
         "options": {
-            "A": "\n\n            Teemah\n",
-            "B": "\n\n            Bint\n",
-            "C": "\n\n            Jamila\n",
-            "D": "\n\n            Ummi\n"
+            "A": "Teemah",
+            "B": "Bint",
+            "C": "Jamila",
+            "D": "Ummi"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "What position is Bint in the family?",
         "options": {
-            "A": "\n\n            Last born\n",
-            "B": "\n\n            First child\n",
-            "C": "\n\n            Second child\n",
-            "D": "\n\n            Third child\n"
+            "A": "Last born",
+            "B": "First child",
+            "C": "Second child",
+            "D": "Third child"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "What was Ummi's reason for her impromptu barging ?",
         "options": {
-            "A": "\n\n            To monitor her children's activities\n",
-            "B": "\n\n            To ensure the children were safe\n",
-            "C": "\n\n            To keep them on their feets\n",
-            "D": "\n\n            To ensure they maintain cleanliness\n"
+            "A": "To monitor her children's activities",
+            "B": "To ensure the children were safe",
+            "C": "To keep them on their feets",
+            "D": "To ensure they maintain cleanliness"
         },
         "correct_answer": "D",
         "topic": "Closest in Meaning",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "Omar's admission signals________",
         "options": {
-            "A": "\n\n            storytelling\n",
-            "B": "\n\n            a life-changing experience\n",
-            "C": "\n\n            being a learned\n",
-            "D": "\n\n            community's appraisal\n"
+            "A": "storytelling",
+            "B": "a life-changing experience",
+            "C": "being a learned",
+            "D": "community's appraisal"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "\"Money moves Mountains\" This statement was made by _________",
         "options": {
-            "A": "\n\n            Salma\n",
-            "B": "\n\n            Teemah\n",
-            "C": "\n\n            Bint\n",
-            "D": "\n\n            Ngozi\n"
+            "A": "Salma",
+            "B": "Teemah",
+            "C": "Bint",
+            "D": "Ngozi"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "What was the reason for the delay at the faculty registration office?",
         "options": {
-            "A": "\n\n            The lecturer's negligience\n",
-            "B": "\n\n            The queue was endless\n",
-            "C": "\n\n            John's delay in cleaning the office\n",
-            "D": "\n\n            the lecturer was absent\n"
+            "A": "The lecturer's negligience",
+            "B": "The queue was endless",
+            "C": "John's delay in cleaning the office",
+            "D": "the lecturer was absent"
         },
         "correct_answer": "C",
         "topic": "Comprehension",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "Salma compared lecturers with _________",
         "options": {
-            "A": "\n\n            Thieves\n",
-            "B": "\n\n            politician\n",
-            "C": "\n\n            lawyers\n",
-            "D": "\n\n            Policemen\n"
+            "A": "Thieves",
+            "B": "politician",
+            "C": "lawyers",
+            "D": "Policemen"
         },
         "correct_answer": "D",
         "topic": "Comprehension",
@@ -167,12 +167,12 @@
         "subject": "English",
         "year": 2021,
         "number": "10",
-        "question": "At what age did Talle lost his father and stepmother ?",
+        "question": "At what age did Talle lost his father and stepmother ?",
         "options": {
-            "A": "\n\n            21\n",
-            "B": "\n\n            20\n",
-            "C": "\n\n            19\n",
-            "D": "\n\n            18\n"
+            "A": "21",
+            "B": "20",
+            "C": "19",
+            "D": "18"
         },
         "correct_answer": "B",
         "topic": "Closest in Meaning",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "Talle was imprisoned for?",
         "options": {
-            "A": "\n\n            Murder\n",
-            "B": "\n\n            Kidnapping and Robbery\n",
-            "C": "\n\n            Kidnapping and extortion\n",
-            "D": "\n\n            smuggling\n"
+            "A": "Murder",
+            "B": "Kidnapping and Robbery",
+            "C": "Kidnapping and extortion",
+            "D": "smuggling"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "The novel is written in the ___________",
         "options": {
-            "A": "\n\n            First-person and Third person point of view\n",
-            "B": "\n\n            Third person Ominscient\n",
-            "C": "\n\n            second-person point of view\n",
-            "D": "\n\n            limited ominiscient\n"
+            "A": "First-person and Third person point of view",
+            "B": "Third person Ominscient",
+            "C": "second-person point of view",
+            "D": "limited ominiscient"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -221,12 +221,12 @@
         "subject": "English",
         "year": 2021,
         "number": "13",
-        "question": "What brand of Phone did Salim buy?",
+        "question": "What brand of Phone did Salim buy?",
         "options": {
-            "A": "\n\n            Nokia\n",
-            "B": "\n\n            Iphone\n",
-            "C": "\n\n            Itel\n",
-            "D": "\n\n            Samsung\n"
+            "A": "Nokia",
+            "B": "Iphone",
+            "C": "Itel",
+            "D": "Samsung"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -239,12 +239,12 @@
         "subject": "English",
         "year": 2021,
         "number": "14",
-        "question": "Omar's achievement was by no means a small feat. This means that?",
+        "question": "Omar's achievement was by no means a small feat. This means that?",
         "options": {
-            "A": "\n\n            Omar's achievement was difficult\n",
-            "B": "\n\n            His accomplishment was small\n",
-            "C": "\n\n            Omar's achievement was not as difficult as it seems\n",
-            "D": "\n\n            His accomplishment was not by a small feat\n"
+            "A": "Omar's achievement was difficult",
+            "B": "His accomplishment was small",
+            "C": "Omar's achievement was not as difficult as it seems",
+            "D": "His accomplishment was not by a small feat"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -257,12 +257,12 @@
         "subject": "English",
         "year": 2021,
         "number": "15",
-        "question": "Habib gives Tomiwa a bundle of _______?",
+        "question": "Habib gives Tomiwa a bundle of _______?",
         "options": {
-            "A": "\n\n            0ne thousand naira notes\n",
-            "B": "\n\n            five hundred naira notes\n",
-            "C": "\n\n            two hundred naira notes\n",
-            "D": "\n\n            dollar notes\n"
+            "A": "0ne thousand naira notes",
+            "B": "five hundred naira notes",
+            "C": "two hundred naira notes",
+            "D": "dollar notes"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "Salma and her roommates were _________",
         "options": {
-            "A": "\n\n            A students\n",
-            "B": "\n\n            Outstanding students\n",
-            "C": "\n\n            B students\n",
-            "D": "\n\n            Average students\n"
+            "A": "A students",
+            "B": "Outstanding students",
+            "C": "B students",
+            "D": "Average students"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "How old is Bint?",
         "options": {
-            "A": "\n\n            7\n",
-            "B": "\n\n            6\n",
-            "C": "\n\n            5\n",
-            "D": "\n\n            4\n"
+            "A": "7",
+            "B": "6",
+            "C": "5",
+            "D": "4"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "How did Omar check his admission status?",
         "options": {
-            "A": "\n\n            visiting a cyber cafe\n",
-            "B": "\n\n            through his phone\n",
-            "C": "\n\n            by visiting the university\n",
-            "D": "\n\n            through a friend's phone\n"
+            "A": "visiting a cyber cafe",
+            "B": "through his phone",
+            "C": "by visiting the university",
+            "D": "through a friend's phone"
         },
         "correct_answer": "A",
         "topic": "Fill in the Gaps",
@@ -329,12 +329,12 @@
         "subject": "English",
         "year": 2021,
         "number": "19",
-        "question": "What subject is optional in Bint's school?",
+        "question": "What subject is optional in Bint's school?",
         "options": {
-            "A": "\n\n            Music\n",
-            "B": "\n\n            French\n",
-            "C": "\n\n            Fine Art\n",
-            "D": "\n\n            Hand writing\n"
+            "A": "Music",
+            "B": "French",
+            "C": "Fine Art",
+            "D": "Hand writing"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -347,12 +347,12 @@
         "subject": "English",
         "year": 2021,
         "number": "20",
-        "question": "Omar had ______ credits in the WAEC examination",
+        "question": "Omar had ______ credits in the WAEC examination",
         "options": {
-            "A": "\n\n            9\n",
-            "B": "\n\n            5\n",
-            "C": "\n\n            8\n",
-            "D": "\n\n            7\n"
+            "A": "9",
+            "B": "5",
+            "C": "8",
+            "D": "7"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "Who often says \" what you teach a child is like writing on a rock and when dried, it would be difficult to erase\"",
         "options": {
-            "A": "\n\n            Ummi\n",
-            "B": "\n\n            Omar\n",
-            "C": "\n\n            Ummi's Grandmother\n",
-            "D": "\n\n            Salma's grandmother\n"
+            "A": "Ummi",
+            "B": "Omar",
+            "C": "Ummi's Grandmother",
+            "D": "Salma's grandmother"
         },
         "correct_answer": "C",
         "topic": "Idioms",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "Who is Jamila?",
         "options": {
-            "A": "\n\n            Salma's roommate\n",
-            "B": "\n\n            Salma's friend\n",
-            "C": "\n\n            Ummi's second child\n",
-            "D": "\n\n            Bint's immediate elder sister\n"
+            "A": "Salma's roommate",
+            "B": "Salma's friend",
+            "C": "Ummi's second child",
+            "D": "Bint's immediate elder sister"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "Ummi is translated in Arabic as _____?",
         "options": {
-            "A": "\n\n            my mentor\n",
-            "B": "\n\n            my mother\n",
-            "C": "\n\n            my morning star\n",
-            "D": "\n\n            my muse\n"
+            "A": "my mentor",
+            "B": "my mother",
+            "C": "my morning star",
+            "D": "my muse"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "Teemah is the first ________ of the family",
         "options": {
-            "A": "\n\n            child\n",
-            "B": "\n\n            graduate\n",
-            "C": "\n\n            daughter\n",
-            "D": "\n\n            female\n"
+            "A": "child",
+            "B": "graduate",
+            "C": "daughter",
+            "D": "female"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "Ummi's husband always wanted to study?",
         "options": {
-            "A": "\n\n            accounting\n",
-            "B": "\n\n            pharmacy\n",
-            "C": "\n\n            Linguistics\n",
-            "D": "\n\n            Law\n"
+            "A": "accounting",
+            "B": "pharmacy",
+            "C": "Linguistics",
+            "D": "Law"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "What reward was Omar expecting for his achievement?",
         "options": {
-            "A": "\n\n            a bag\n",
-            "B": "\n\n            a shoe\n",
-            "C": "\n\n            a phone\n",
-            "D": "\n\n            a laptop\n"
+            "A": "a bag",
+            "B": "a shoe",
+            "C": "a phone",
+            "D": "a laptop"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -473,12 +473,12 @@
         "subject": "English",
         "year": 2021,
         "number": "27",
-        "question": "What was Omar JAMB score?",
+        "question": "What was Omar JAMB score?",
         "options": {
-            "A": "\n\n            300\n",
-            "B": "\n\n            250\n",
-            "C": "\n\n            200\n",
-            "D": "\n\n            230\n"
+            "A": "300",
+            "B": "250",
+            "C": "200",
+            "D": "230"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "What was the double celebration in Lafayette?",
         "options": {
-            "A": "\n\n            The birth of Talle and his brother\n",
-            "B": "\n\n            Ummi's admission and marriage\n",
-            "C": "\n\n            Omar's WAEC and JAMB success\n",
-            "D": "\n\n            Salma's admission and engagement\n"
+            "A": "The birth of Talle and his brother",
+            "B": "Ummi's admission and marriage",
+            "C": "Omar's WAEC and JAMB success",
+            "D": "Salma's admission and engagement"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -509,12 +509,12 @@
         "subject": "English",
         "year": 2021,
         "number": "29",
-        "question": "According to Ummi, what is the first noticeable thing in the university?",
+        "question": "According to Ummi, what is the first noticeable thing in the university?",
         "options": {
-            "A": "\n\n            Different people\n",
-            "B": "\n\n            lawlessness and injustice\n",
-            "C": "\n\n            Freedom of dressing\n",
-            "D": "\n\n            immoral relationships\n"
+            "A": "Different people",
+            "B": "lawlessness and injustice",
+            "C": "Freedom of dressing",
+            "D": "immoral relationships"
         },
         "correct_answer": "C",
         "topic": "Oral Forms",
@@ -529,10 +529,10 @@
         "number": "30",
         "question": "According to the novel, how would you describe Salma?",
         "options": {
-            "A": "\n\n            fair complexioned skin, tall and slim\n",
-            "B": "\n\n            fair complexioned, short and fat\n",
-            "C": "\n\n            dark-complexioned skin, tall and slim\n",
-            "D": "\n\n            dark-complexioned girl, short and fat.\n"
+            "A": "fair complexioned skin, tall and slim",
+            "B": "fair complexioned, short and fat",
+            "C": "dark-complexioned skin, tall and slim",
+            "D": "dark-complexioned girl, short and fat."
         },
         "correct_answer": "A",
         "topic": "Fill in the Gaps",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "Where did Salma and Ummi first meet?",
         "options": {
-            "A": "\n\n            the university\n",
-            "B": "\n\n            departmental registration\n",
-            "C": "\n\n            School hostel\n",
-            "D": "\n\n            Faculty registration\n"
+            "A": "the university",
+            "B": "departmental registration",
+            "C": "School hostel",
+            "D": "Faculty registration"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "What is Salma's surname?",
         "options": {
-            "A": "\n\n            Mohammed\n",
-            "B": "\n\n            Muhammed\n",
-            "C": "\n\n            Moshood\n",
-            "D": "\n\n            Moshud\n"
+            "A": "Mohammed",
+            "B": "Muhammed",
+            "C": "Moshood",
+            "D": "Moshud"
         },
         "correct_answer": "A",
         "topic": "Closest in Meaning",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "Who among the following characters can be described as one with few words?",
         "options": {
-            "A": "\n\n            Ada\n",
-            "B": "\n\n            secretary to the HOD\n",
-            "C": "\n\n            John\n",
-            "D": "\n\n            Ngozi\n"
+            "A": "Ada",
+            "B": "secretary to the HOD",
+            "C": "John",
+            "D": "Ngozi"
         },
         "correct_answer": "B",
         "topic": "Lexis & Structure",
@@ -599,12 +599,12 @@
         "subject": "English",
         "year": 2021,
         "number": "34",
-        "question": "What exact incident led to Ummi 's development of claustrophobia?",
+        "question": "What exact incident led to Ummi 's development of claustrophobia?",
         "options": {
-            "A": "\n\n            She was ill\n",
-            "B": "\n\n            She was pregnant\n",
-            "C": "\n\n            The HOD had asked if she wanted something to drink\n",
-            "D": "\n\n            the HOD was too nice to her\n"
+            "A": "She was ill",
+            "B": "She was pregnant",
+            "C": "The HOD had asked if she wanted something to drink",
+            "D": "the HOD was too nice to her"
         },
         "correct_answer": "C",
         "topic": "Fill in the Gaps",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "What is Ummi's mariculation number?",
         "options": {
-            "A": "\n\n            UF0001\n",
-            "B": "\n\n            UG0002\n",
-            "C": "\n\n            UG0001\n",
-            "D": "\n\n            UF0002\n"
+            "A": "UF0001",
+            "B": "UG0002",
+            "C": "UG0001",
+            "D": "UF0002"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -635,12 +635,12 @@
         "subject": "English",
         "year": 2021,
         "number": "36",
-        "question": "Who assisted Ummi's husband with Ummi's admission?",
+        "question": "Who assisted Ummi's husband with Ummi's admission?",
         "options": {
-            "A": "\n\n            Mallam Salihu\n",
-            "B": "\n\n            Salim\n",
-            "C": "\n\n            Kabir\n",
-            "D": "\n\n            Samuel\n"
+            "A": "Mallam Salihu",
+            "B": "Salim",
+            "C": "Kabir",
+            "D": "Samuel"
         },
         "correct_answer": "D",
         "topic": "Closest in Meaning",
@@ -653,12 +653,12 @@
         "subject": "English",
         "year": 2021,
         "number": "37",
-        "question": "Ummi angrily left the HOD's office because?",
+        "question": "Ummi angrily left the HOD's office because?",
         "options": {
-            "A": "\n\n            The HOD disrespected her\n",
-            "B": "\n\n            He tried to be romantic with her\n",
-            "C": "\n\n            Ummi assumed he was trying to make a pass at her\n",
-            "D": "\n\n            He delayed her\n"
+            "A": "The HOD disrespected her",
+            "B": "He tried to be romantic with her",
+            "C": "Ummi assumed he was trying to make a pass at her",
+            "D": "He delayed her"
         },
         "correct_answer": "C",
         "topic": "Comprehension",
@@ -673,10 +673,10 @@
         "number": "38",
         "question": "According to the Novel, How would you describe Dr Samuel Johnson?",
         "options": {
-            "A": "\n\n            He has a tribal mark and he looks like an igala man\n",
-            "B": "\n\n            He has a tribal mark and he is an igala man\n",
-            "C": "\n\n            He has a tribal mark and he is not a Yoruba man\n",
-            "D": "\n\n            He has a tribal mark and he looks like an Edo man\n"
+            "A": "He has a tribal mark and he looks like an igala man",
+            "B": "He has a tribal mark and he is an igala man",
+            "C": "He has a tribal mark and he is not a Yoruba man",
+            "D": "He has a tribal mark and he looks like an Edo man"
         },
         "correct_answer": "A",
         "topic": "Closest in Meaning",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "Who apologizes to the HOD on behalf of Ummi?",
         "options": {
-            "A": "\n\n            Salma\n",
-            "B": "\n\n            Ummi's husband\n",
-            "C": "\n\n            Kabir\n",
-            "D": "\n\n            Salim\n"
+            "A": "Salma",
+            "B": "Ummi's husband",
+            "C": "Kabir",
+            "D": "Salim"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -709,10 +709,10 @@
         "number": "40",
         "question": "Who narrated the story of ''the quiet one'' to Ummi?",
         "options": {
-            "A": "\n\n            Hakimi\n",
-            "B": "\n\n            the people of Lafayette\n",
-            "C": "\n\n            Zaki\n",
-            "D": "\n\n            Ummi's husband\n"
+            "A": "Hakimi",
+            "B": "the people of Lafayette",
+            "C": "Zaki",
+            "D": "Ummi's husband"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -727,10 +727,10 @@
         "number": "41",
         "question": "The following lessons can be derived from the story of ''the quiet one'' except?",
         "options": {
-            "A": "\n\n            Never judge a book by its cover\n",
-            "B": "\n\n            Learn to trust sparingly\n",
-            "C": "\n\n            Justice is not fair\n",
-            "D": "\n\n            Not all that glitters is gold\n"
+            "A": "Never judge a book by its cover",
+            "B": "Learn to trust sparingly",
+            "C": "Justice is not fair",
+            "D": "Not all that glitters is gold"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -745,10 +745,10 @@
         "number": "42",
         "question": "What tradition was established in Lafayette?",
         "options": {
-            "A": "\n\n            Nobody was allowed to have visitors at night\n",
-            "B": "\n\n            No stranger should be hosted without the knowledge of the Hakimi\n",
-            "C": "\n\n            Nobody was allowed to accommodate friends\n",
-            "D": "\n\n            strangers were not allowed at ceremonial gatherings\n"
+            "A": "Nobody was allowed to have visitors at night",
+            "B": "No stranger should be hosted without the knowledge of the Hakimi",
+            "C": "Nobody was allowed to accommodate friends",
+            "D": "strangers were not allowed at ceremonial gatherings"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -763,10 +763,10 @@
         "number": "43",
         "question": "Who is Boka?",
         "options": {
-            "A": "\n\n            district head\n",
-            "B": "\n\n            head of the capital\n",
-            "C": "\n\n            head of faming\n",
-            "D": "\n\n            traditional medicine man\n"
+            "A": "district head",
+            "B": "head of the capital",
+            "C": "head of faming",
+            "D": "traditional medicine man"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -781,10 +781,10 @@
         "number": "44",
         "question": "Which of the following character dies while giving birth to her son?",
         "options": {
-            "A": "\n\n            Salma\n",
-            "B": "\n\n            Talle's mother\n",
-            "C": "\n\n            Ada\n",
-            "D": "\n\n            Tomiwa\n"
+            "A": "Salma",
+            "B": "Talle's mother",
+            "C": "Ada",
+            "D": "Tomiwa"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -797,12 +797,12 @@
         "subject": "English",
         "year": 2021,
         "number": "45",
-        "question": "Which of the following character has a reticent nature?",
+        "question": "Which of the following character has a reticent nature?",
         "options": {
-            "A": "\n\n            Jamila\n",
-            "B": "\n\n            Bint\n",
-            "C": "\n\n            Talle\n",
-            "D": "\n\n            Ada\n"
+            "A": "Jamila",
+            "B": "Bint",
+            "C": "Talle",
+            "D": "Ada"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -817,10 +817,10 @@
         "number": "46",
         "question": "Talle works as a ______?",
         "options": {
-            "A": "\n\n            driver\n",
-            "B": "\n\n            gateman\n",
-            "C": "\n\n            cleaner\n",
-            "D": "\n\n            government officer\n"
+            "A": "driver",
+            "B": "gateman",
+            "C": "cleaner",
+            "D": "government officer"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -835,10 +835,10 @@
         "number": "47",
         "question": "When did Talle stop being quiet?",
         "options": {
-            "A": "\n\n            When he started taking to market women\n",
-            "B": "\n\n            When he started making friends\n",
-            "C": "\n\n            when his usual demand for food items doubled\n",
-            "D": "\n\n            When he made friends with Zaki\n"
+            "A": "When he started taking to market women",
+            "B": "When he started making friends",
+            "C": "when his usual demand for food items doubled",
+            "D": "When he made friends with Zaki"
         },
         "correct_answer": "C",
         "topic": "Comprehension",
@@ -851,12 +851,12 @@
         "subject": "English",
         "year": 2021,
         "number": "48",
-        "question": "What was Talle guilty of?",
+        "question": "What was Talle guilty of?",
         "options": {
-            "A": "\n\n            Kidnap and murder\n",
-            "B": "\n\n            Extortion and Murder\n",
-            "C": "\n\n            Extortion and Rape\n",
-            "D": "\n\n            Kidnap and Extortion\n"
+            "A": "Kidnap and murder",
+            "B": "Extortion and Murder",
+            "C": "Extortion and Rape",
+            "D": "Kidnap and Extortion"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -871,10 +871,10 @@
         "number": "49",
         "question": "Which of the following character did not respect the Hakimi?",
         "options": {
-            "A": "\n\n            Talle\n",
-            "B": "\n\n            the IPO\n",
-            "C": "\n\n            the courtier\n",
-            "D": "\n\n            the vllagers\n"
+            "A": "Talle",
+            "B": "the IPO",
+            "C": "the courtier",
+            "D": "the vllagers"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -889,10 +889,10 @@
         "number": "50",
         "question": "Who suggested the abduction of a boy?",
         "options": {
-            "A": "\n\n            Talle\n",
-            "B": "\n\n            Zaki\n",
-            "C": "\n\n            John\n",
-            "D": "\n\n            Boki\n"
+            "A": "Talle",
+            "B": "Zaki",
+            "C": "John",
+            "D": "Boki"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -907,10 +907,10 @@
         "number": "51",
         "question": "According to the novel, EMAL means",
         "options": {
-            "A": "\n\n            Exam malpractice and license\n",
-            "B": "\n\n            Ethics and Morals\n",
-            "C": "\n\n            Examination Ethics and Morals\n",
-            "D": "\n\n            Examination malpractice\n"
+            "A": "Exam malpractice and license",
+            "B": "Ethics and Morals",
+            "C": "Examination Ethics and Morals",
+            "D": "Examination malpractice"
         },
         "correct_answer": "D",
         "topic": "Oral Forms",
@@ -925,10 +925,10 @@
         "number": "52",
         "question": "How long has Mr Dabo been in the university?",
         "options": {
-            "A": "\n\n            10 years\n",
-            "B": "\n\n            15 years\n",
-            "C": "\n\n            More than a decade\n",
-            "D": "\n\n            More than fiften years\n"
+            "A": "10 years",
+            "B": "15 years",
+            "C": "More than a decade",
+            "D": "More than fiften years"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -943,10 +943,10 @@
         "number": "53",
         "question": "''Don't come in after me...\" Whose principle was this?",
         "options": {
-            "A": "\n\n            Dr Samjohn\n",
-            "B": "\n\n            Dr Mohammed\n",
-            "C": "\n\n            Labaran\n",
-            "D": "\n\n            Dr Dabo\n"
+            "A": "Dr Samjohn",
+            "B": "Dr Mohammed",
+            "C": "Labaran",
+            "D": "Dr Dabo"
         },
         "correct_answer": "D",
         "topic": "Sentence Completion",
@@ -961,10 +961,10 @@
         "number": "54",
         "question": "''I want to know you intimately...'' The speaker of the excerpt above is_____",
         "options": {
-            "A": "\n\n            Dr Kabir\n",
-            "B": "\n\n            Dr Samjohn\n",
-            "C": "\n\n            Dr Dabo\n",
-            "D": "\n\n            Habib\n"
+            "A": "Dr Kabir",
+            "B": "Dr Samjohn",
+            "C": "Dr Dabo",
+            "D": "Habib"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -979,10 +979,10 @@
         "number": "55",
         "question": "''I want to know you intimately...'' This statement was made to whom _____",
         "options": {
-            "A": "\n\n            Salma\n",
-            "B": "\n\n            Ummi\n",
-            "C": "\n\n            Tomiwa\n",
-            "D": "\n\n            Ngozi\n"
+            "A": "Salma",
+            "B": "Ummi",
+            "C": "Tomiwa",
+            "D": "Ngozi"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -997,10 +997,10 @@
         "number": "56",
         "question": "''I want to know you intimately'' What was the recipient's response?",
         "options": {
-            "A": "\n\n            approval and acceptance\n",
-            "B": "\n\n            dismissal and confrontation\n",
-            "C": "\n\n            rejection, dismissal and contempt\n",
-            "D": "\n\n            sympathy and approval\n"
+            "A": "approval and acceptance",
+            "B": "dismissal and confrontation",
+            "C": "rejection, dismissal and contempt",
+            "D": "sympathy and approval"
         },
         "correct_answer": "C",
         "topic": "Oral Forms",
@@ -1015,10 +1015,10 @@
         "number": "57",
         "question": "How many girls were allocated to a room in the hostel?",
         "options": {
-            "A": "\n\n            five\n",
-            "B": "\n\n            four\n",
-            "C": "\n\n            three\n",
-            "D": "\n\n            two\n"
+            "A": "five",
+            "B": "four",
+            "C": "three",
+            "D": "two"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1031,12 +1031,12 @@
         "subject": "English",
         "year": 2021,
         "number": "58",
-        "question": "Where does Ada hail from?",
+        "question": "Where does Ada hail from?",
         "options": {
-            "A": "\n\n            North west\n",
-            "B": "\n\n            North central\n",
-            "C": "\n\n            West\n",
-            "D": "\n\n            South south\n"
+            "A": "North west",
+            "B": "North central",
+            "C": "West",
+            "D": "South south"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1051,10 +1051,10 @@
         "number": "59",
         "question": "What's the name of Ngozi's hostel?",
         "options": {
-            "A": "\n\n            Comrade\n",
-            "B": "\n\n            Beauty Queen\n",
-            "C": "\n\n            Queen Ana\n",
-            "D": "\n\n            Queen Amina\n"
+            "A": "Comrade",
+            "B": "Beauty Queen",
+            "C": "Queen Ana",
+            "D": "Queen Amina"
         },
         "correct_answer": "D",
         "topic": "Closest in Meaning",
@@ -1067,12 +1067,12 @@
         "subject": "English",
         "year": 2021,
         "number": "60",
-        "question": "According to the novel, what delicacy is considered to be students' favourite?",
+        "question": "According to the novel, what delicacy is considered to be students' favourite?",
         "options": {
-            "A": "\n\n            Danwake\n",
-            "B": "\n\n            Snail\n",
-            "C": "\n\n            Spagetti\n",
-            "D": "\n\n            Indomie jollof\n"
+            "A": "Danwake",
+            "B": "Snail",
+            "C": "Spagetti",
+            "D": "Indomie jollof"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -1087,10 +1087,10 @@
         "number": "61",
         "question": "What is Ada's home town delicacy?",
         "options": {
-            "A": "\n\n            Danwake\n",
-            "B": "\n\n            Rat\n",
-            "C": "\n\n            Snails\n",
-            "D": "\n\n            Indomie\n"
+            "A": "Danwake",
+            "B": "Rat",
+            "C": "Snails",
+            "D": "Indomie"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1105,10 +1105,10 @@
         "number": "62",
         "question": "Who among the following characters appears to be less voluble?",
         "options": {
-            "A": "\n\n            Habib\n",
-            "B": "\n\n            Labaran\n",
-            "C": "\n\n            Kabir\n",
-            "D": "\n\n            Salim\n"
+            "A": "Habib",
+            "B": "Labaran",
+            "C": "Kabir",
+            "D": "Salim"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -1123,10 +1123,10 @@
         "number": "63",
         "question": "Who among the following character is overconfident?",
         "options": {
-            "A": "\n\n            Ngozi\n",
-            "B": "\n\n            Ada\n",
-            "C": "\n\n            Tomiwa\n",
-            "D": "\n\n            Ummi\n"
+            "A": "Ngozi",
+            "B": "Ada",
+            "C": "Tomiwa",
+            "D": "Ummi"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -1139,12 +1139,12 @@
         "subject": "English",
         "year": 2021,
         "number": "64",
-        "question": "''I made a space for you in the front seat so you can sit near your heartthrob'' Who made this statement?",
+        "question": "''I made a space for you in the front seat so you can sit near your heartthrob'' Who made this statement?",
         "options": {
-            "A": "\n\n            Habib\n",
-            "B": "\n\n            Labaran\n",
-            "C": "\n\n            Kabir\n",
-            "D": "\n\n            Lawal\n"
+            "A": "Habib",
+            "B": "Labaran",
+            "C": "Kabir",
+            "D": "Lawal"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1157,12 +1157,12 @@
         "subject": "English",
         "year": 2021,
         "number": "65",
-        "question": "''I made a space for you in the front seat so you can sit near your heartthrob'' This statement was made to whom?",
+        "question": "''I made a space for you in the front seat so you can sit near your heartthrob'' This statement was made to whom?",
         "options": {
-            "A": "\n\n            Salma\n",
-            "B": "\n\n            Ummi\n",
-            "C": "\n\n            Tomiwa\n",
-            "D": "\n\n            Ngozi\n"
+            "A": "Salma",
+            "B": "Ummi",
+            "C": "Tomiwa",
+            "D": "Ngozi"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -1175,12 +1175,12 @@
         "subject": "English",
         "year": 2021,
         "number": "66",
-        "question": "How much money did Habib handed over to Tomiwa?",
+        "question": "How much money did Habib handed over to Tomiwa?",
         "options": {
-            "A": "\n\n            fifty thousand naira\n",
-            "B": "\n\n            one hundred thousand naira\n",
-            "C": "\n\n            Twenty-five thousand naira\n",
-            "D": "\n\n            Twenty thousand naira\n"
+            "A": "fifty thousand naira",
+            "B": "one hundred thousand naira",
+            "C": "Twenty-five thousand naira",
+            "D": "Twenty thousand naira"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -1195,10 +1195,10 @@
         "number": "67",
         "question": "What was the last General paper during Salma's Final year?",
         "options": {
-            "A": "\n\n            Philosophy and logic\n",
-            "B": "\n\n            Special Education\n",
-            "C": "\n\n            Psychology\n",
-            "D": "\n\n            Moral Philosophy\n"
+            "A": "Philosophy and logic",
+            "B": "Special Education",
+            "C": "Psychology",
+            "D": "Moral Philosophy"
         },
         "correct_answer": "D",
         "topic": "Oral Forms",
@@ -1211,12 +1211,12 @@
         "subject": "English",
         "year": 2021,
         "number": "68",
-        "question": "Which of the following course does Salma find very difficult?",
+        "question": "Which of the following course does Salma find very difficult?",
         "options": {
-            "A": "\n\n            Moral Philosophy\n",
-            "B": "\n\n            Use of English\n",
-            "C": "\n\n            Special education\n",
-            "D": "\n\n            Philosophy and Logic\n"
+            "A": "Moral Philosophy",
+            "B": "Use of English",
+            "C": "Special education",
+            "D": "Philosophy and Logic"
         },
         "correct_answer": "A",
         "topic": "Oral Forms",
@@ -1229,12 +1229,12 @@
         "subject": "English",
         "year": 2021,
         "number": "69",
-        "question": "Who among the following character was sitting next to Salma during her final examination?",
+        "question": "Who among the following character was sitting next to Salma during her final examination?",
         "options": {
-            "A": "\n\n            Tola\n",
-            "B": "\n\n            Kola\n",
-            "C": "\n\n            Bola\n",
-            "D": "\n\n            Deola\n"
+            "A": "Tola",
+            "B": "Kola",
+            "C": "Bola",
+            "D": "Deola"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -1249,10 +1249,10 @@
         "number": "70",
         "question": "Dr Amina dislike Salma because?",
         "options": {
-            "A": "\n\n            Salma is not intelligent\n",
-            "B": "\n\n            She is intimidated by Salma's appearance\n",
-            "C": "\n\n            She considers Salma to be a threat to the university\n",
-            "D": "\n\n            She does not like Salma's appearance\n"
+            "A": "Salma is not intelligent",
+            "B": "She is intimidated by Salma's appearance",
+            "C": "She considers Salma to be a threat to the university",
+            "D": "She does not like Salma's appearance"
         },
         "correct_answer": "B",
         "topic": "Lexis and Structure",
@@ -1267,10 +1267,10 @@
         "number": "71",
         "question": "Why did Salma sought for Habib's help?",
         "options": {
-            "A": "\n\n            Habib was her only saviour\n",
-            "B": "\n\n            Habib was her boyfriend\n",
-            "C": "\n\n            He was influential\n",
-            "D": "\n\n            He was a philanthropist\n"
+            "A": "Habib was her only saviour",
+            "B": "Habib was her boyfriend",
+            "C": "He was influential",
+            "D": "He was a philanthropist"
         },
         "correct_answer": "C",
         "topic": "Comprehension & Summary",
@@ -1285,10 +1285,10 @@
         "number": "72",
         "question": "What is Habib's Political title?",
         "options": {
-            "A": "\n\n            Governor\n",
-            "B": "\n\n            Speaker of the house\n",
-            "C": "\n\n            Minister of finance\n",
-            "D": "\n\n            Minister of Education\n"
+            "A": "Governor",
+            "B": "Speaker of the house",
+            "C": "Minister of finance",
+            "D": "Minister of Education"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1303,10 +1303,10 @@
         "number": "73",
         "question": "How much did Salma give to Dr Kabir?",
         "options": {
-            "A": "\n\n            one hundred thousand naira\n",
-            "B": "\n\n            one hundred and fifty thousand Naira\n",
-            "C": "\n\n            Two hundred thousand Naira\n",
-            "D": "\n\n            Three hundred thousand Naira\n"
+            "A": "one hundred thousand naira",
+            "B": "one hundred and fifty thousand Naira",
+            "C": "Two hundred thousand Naira",
+            "D": "Three hundred thousand Naira"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -1319,12 +1319,12 @@
         "subject": "English",
         "year": 2021,
         "number": "74",
-        "question": "According to Salma, No man was worthy to be called a man except ____",
+        "question": "According to Salma, No man was worthy to be called a man except ____",
         "options": {
-            "A": "\n\n            her husband\n",
-            "B": "\n\n            her boyfriend\n",
-            "C": "\n\n            her brothers\n",
-            "D": "\n\n            her father\n"
+            "A": "her husband",
+            "B": "her boyfriend",
+            "C": "her brothers",
+            "D": "her father"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -1339,10 +1339,10 @@
         "number": "75",
         "question": "What is Dr Kabir's weakness?",
         "options": {
-            "A": "\n\n            women\n",
-            "B": "\n\n            Easy money\n",
-            "C": "\n\n            Food\n",
-            "D": "\n\n            alcohol\n"
+            "A": "women",
+            "B": "Easy money",
+            "C": "Food",
+            "D": "alcohol"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1357,10 +1357,10 @@
         "number": "76",
         "question": "The Life Changer is authored by?",
         "options": {
-            "A": "\n\n            Khadija Abubakar Jilla\n",
-            "B": "\n\n            Khadija Abubakar Jalli\n",
-            "C": "\n\n            Khadija Abubakar Jali\n",
-            "D": "\n\n            Khadija Abubakar Jila\n"
+            "A": "Khadija Abubakar Jilla",
+            "B": "Khadija Abubakar Jalli",
+            "C": "Khadija Abubakar Jali",
+            "D": "Khadija Abubakar Jila"
         },
         "correct_answer": "B",
         "topic": "Comprehension & Summary",
@@ -1375,10 +1375,10 @@
         "number": "77",
         "question": "The Author of The Life Changer dedicates the novel to whom?",
         "options": {
-            "A": "\n\n            her Husband\n",
-            "B": "\n\n            Her mother\n",
-            "C": "\n\n            her father\n",
-            "D": "\n\n            her children\n"
+            "A": "her Husband",
+            "B": "Her mother",
+            "C": "her father",
+            "D": "her children"
         },
         "correct_answer": "D",
         "topic": "Comprehension & Summary",
@@ -1393,10 +1393,10 @@
         "number": "78",
         "question": "The author of The Life Changer holds a degree in ______",
         "options": {
-            "A": "\n\n            BSc (Ed) Mathematics\n",
-            "B": "\n\n            BA (Ed) English Language\n",
-            "C": "\n\n            BA (Ed) Economics\n",
-            "D": "\n\n            BA Mass Communication\n"
+            "A": "BSc (Ed) Mathematics",
+            "B": "BA (Ed) English Language",
+            "C": "BA (Ed) Economics",
+            "D": "BA Mass Communication"
         },
         "correct_answer": "A",
         "topic": "Comprehension & Summary",
@@ -1411,10 +1411,10 @@
         "number": "79",
         "question": "A suitable title for the passage is",
         "options": {
-            "A": "\n\n            Knowing fatigue\n",
-            "B": "\n\n            Fatigue\n",
-            "C": "\n\n            Tiredness and fatigue\n",
-            "D": "\n\n            Body machine\n"
+            "A": "Knowing fatigue",
+            "B": "Fatigue",
+            "C": "Tiredness and fatigue",
+            "D": "Body machine"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -1429,10 +1429,10 @@
         "number": "80",
         "question": "According to the passage, the worst stage of fatigue is",
         "options": {
-            "A": "\n\n            feeling of tiredness\n",
-            "B": "\n\n            poor muscular coordination\n",
-            "C": "\n\n            reduced efficiency\n",
-            "D": "\n\n            desire for rest\n"
+            "A": "feeling of tiredness",
+            "B": "poor muscular coordination",
+            "C": "reduced efficiency",
+            "D": "desire for rest"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -1445,12 +1445,12 @@
         "subject": "English",
         "year": 2021,
         "number": "81",
-        "question": "It can be inferred from the passage that",
+        "question": "It can be inferred from the passage that",
         "options": {
-            "A": "\n\n            every task can eventually result in fatigue\n",
-            "B": "\n\n            only difficult lessons lead to fatigue\n",
-            "C": "\n\n            a labourer must work all day before expressing fatigue\n",
-            "D": "\n\n            rest is needed only when you experience fatigue\n"
+            "A": "every task can eventually result in fatigue",
+            "B": "only difficult lessons lead to fatigue",
+            "C": "a labourer must work all day before expressing fatigue",
+            "D": "rest is needed only when you experience fatigue"
         },
         "correct_answer": "A",
         "topic": "Comprehension",
@@ -1465,10 +1465,10 @@
         "number": "82",
         "question": "It is advisable that one should rest once",
         "options": {
-            "A": "\n\n            there is a feeling of tiredness\n",
-            "B": "\n\n            there is no longer interest in the task\n",
-            "C": "\n\n            there is onset of physiological changes in the body\n",
-            "D": "\n\n            the task becomes difficult\n"
+            "A": "there is a feeling of tiredness",
+            "B": "there is no longer interest in the task",
+            "C": "there is onset of physiological changes in the body",
+            "D": "the task becomes difficult"
         },
         "correct_answer": "A",
         "topic": "Sentence Interpretation",
@@ -1483,10 +1483,10 @@
         "number": "83",
         "question": "definite limitation used to describe the human body in the passage means that",
         "options": {
-            "A": "\n\n            the body cannot be made to work continuously like a machine\n",
-            "B": "\n\n            the body should only perform simple tasks\n",
-            "C": "\n\n            body parts must be limited\n",
-            "D": "\n\n            the body is equal to man-made machines.\n"
+            "A": "the body cannot be made to work continuously like a machine",
+            "B": "the body should only perform simple tasks",
+            "C": "body parts must be limited",
+            "D": "the body is equal to man-made machines."
         },
         "correct_answer": "A",
         "topic": "Comprehension",
@@ -1501,10 +1501,10 @@
         "number": "84",
         "question": "A suitable title for the passage is",
         "options": {
-            "A": "\n\n            English language\n",
-            "B": "\n\n            Trends in Nigerian Education\n",
-            "C": "\n\n            Teaching and Learning English\n",
-            "D": "\n\n            Importance of English\n"
+            "A": "English language",
+            "B": "Trends in Nigerian Education",
+            "C": "Teaching and Learning English",
+            "D": "Importance of English"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -1519,10 +1519,10 @@
         "number": "85",
         "question": "Which of the following is not true according to the passage?",
         "options": {
-            "A": "\n\n            the competence level in the use of English has fallen greatly\n",
-            "B": "\n\n            what used to be in the past could be considered extreme\n",
-            "C": "\n\n            the writer is advocating for the use of indigenous language for teaching and learning\n",
-            "D": "\n\n            English language is the official language in Nigeria\n"
+            "A": "the competence level in the use of English has fallen greatly",
+            "B": "what used to be in the past could be considered extreme",
+            "C": "the writer is advocating for the use of indigenous language for teaching and learning",
+            "D": "English language is the official language in Nigeria"
         },
         "correct_answer": "C",
         "topic": "Comprehension",
@@ -1537,10 +1537,10 @@
         "number": "86",
         "question": "During the colonial period, according to the passage, an educated Nigerian was one who",
         "options": {
-            "A": "\n\n            has travelled to Oxford\n",
-            "B": "\n\n            is English in thought and culture\n",
-            "C": "\n\n            looks African in colour\n",
-            "D": "\n\n            has the English accent\n"
+            "A": "has travelled to Oxford",
+            "B": "is English in thought and culture",
+            "C": "looks African in colour",
+            "D": "has the English accent"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -1555,10 +1555,10 @@
         "number": "87",
         "question": "From the passage, it is evident that",
         "options": {
-            "A": "\n\n            we need to agree on the pattern of correctness in the use of English language\n",
-            "B": "\n\n            fluency in English leads to empty thought and ideas\n",
-            "C": "\n\n            Nigerians would say they are not English people because they hate the language\n",
-            "D": "\n\n            Every undergraduate needs to specialise in English.\n"
+            "A": "we need to agree on the pattern of correctness in the use of English language",
+            "B": "fluency in English leads to empty thought and ideas",
+            "C": "Nigerians would say they are not English people because they hate the language",
+            "D": "Every undergraduate needs to specialise in English."
         },
         "correct_answer": "A",
         "topic": "Comprehension",
@@ -1573,10 +1573,10 @@
         "number": "88",
         "question": "Considering it a serious offence to \"laugh in vernacular\" as indicated in the passage, can be viewed as",
         "options": {
-            "A": "\n\n            normal\n",
-            "B": "\n\n            extreme\n",
-            "C": "\n\n            correctness\n",
-            "D": "\n\n            proper\n"
+            "A": "normal",
+            "B": "extreme",
+            "C": "correctness",
+            "D": "proper"
         },
         "correct_answer": "B",
         "topic": "Comprehension",
@@ -1589,13 +1589,13 @@
         "subject": "English",
         "year": 2021,
         "number": "89",
-        "question": "In question number 11 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 11 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            house\n",
-            "B": "\n\n            colony\n",
-            "C": "\n\n            settlement\n",
-            "D": "\n\n            abode\n",
-            "E": "\n\n            habitat\n"
+            "A": "house",
+            "B": "colony",
+            "C": "settlement",
+            "D": "abode",
+            "E": "habitat"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -1608,13 +1608,13 @@
         "subject": "English",
         "year": 2021,
         "number": "90",
-        "question": "In question number 12 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 12 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            larger\n",
-            "B": "\n\n            enormous\n",
-            "C": "\n\n            thicker\n",
-            "D": "\n\n            older\n",
-            "E": "\n\n            wiser\n"
+            "A": "larger",
+            "B": "enormous",
+            "C": "thicker",
+            "D": "older",
+            "E": "wiser"
         },
         "correct_answer": "A",
         "topic": "Fill in the Gaps",
@@ -1627,13 +1627,13 @@
         "subject": "English",
         "year": 2021,
         "number": "91",
-        "question": "In question number 13 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 13 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            servant\n",
-            "B": "\n\n            maid\n",
-            "C": "\n\n            workers\n",
-            "D": "\n\n            errand\n",
-            "E": "\n\n            worker\n"
+            "A": "servant",
+            "B": "maid",
+            "C": "workers",
+            "D": "errand",
+            "E": "worker"
         },
         "correct_answer": "E",
         "topic": "Fill in the Gaps",
@@ -1646,13 +1646,13 @@
         "subject": "English",
         "year": 2021,
         "number": "92",
-        "question": "In question number 14 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 14 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            fruits\n",
-            "B": "\n\n            seed\n",
-            "C": "\n\n            pollen\n",
-            "D": "\n\n            grains\n",
-            "E": "\n\n            leaves\n"
+            "A": "fruits",
+            "B": "seed",
+            "C": "pollen",
+            "D": "grains",
+            "E": "leaves"
         },
         "correct_answer": "C",
         "topic": "Fill in the Gaps",
@@ -1665,13 +1665,13 @@
         "subject": "English",
         "year": 2021,
         "number": "93",
-        "question": "In question number 15 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 15 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            filtered\n",
-            "B": "\n\n            converted\n",
-            "C": "\n\n            refined\n",
-            "D": "\n\n            cooked\n",
-            "E": "\n\n            baked\n"
+            "A": "filtered",
+            "B": "converted",
+            "C": "refined",
+            "D": "cooked",
+            "E": "baked"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -1684,13 +1684,13 @@
         "subject": "English",
         "year": 2021,
         "number": "94",
-        "question": "In question number 16 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 16 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            born\n",
-            "B": "\n\n            hatched\n",
-            "C": "\n\n            transformed\n",
-            "D": "\n\n            raised\n",
-            "E": "\n\n            weaned\n"
+            "A": "born",
+            "B": "hatched",
+            "C": "transformed",
+            "D": "raised",
+            "E": "weaned"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -1703,13 +1703,13 @@
         "subject": "English",
         "year": 2021,
         "number": "95",
-        "question": "In question number 17 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 17 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            alpha\n",
-            "B": "\n\n            adult\n",
-            "C": "\n\n            drone\n",
-            "D": "\n\n            chief\n",
-            "E": "\n\n            leader\n"
+            "A": "alpha",
+            "B": "adult",
+            "C": "drone",
+            "D": "chief",
+            "E": "leader"
         },
         "correct_answer": "C",
         "topic": "Fill in the Gaps",
@@ -1722,13 +1722,13 @@
         "subject": "English",
         "year": 2021,
         "number": "96",
-        "question": "In question number 18 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 18 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            mate\n",
-            "B": "\n\n            sleep\n",
-            "C": "\n\n            romance\n",
-            "D": "\n\n            protect\n",
-            "E": "\n\n            lead\n"
+            "A": "mate",
+            "B": "sleep",
+            "C": "romance",
+            "D": "protect",
+            "E": "lead"
         },
         "correct_answer": "A",
         "topic": "Fill in the Gaps",
@@ -1741,13 +1741,13 @@
         "subject": "English",
         "year": 2021,
         "number": "97",
-        "question": "In question number 19 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 19 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            laid\n",
-            "B": "\n\n            born\n",
-            "C": "\n\n            delivered\n",
-            "D": "\n\n            produced\n",
-            "E": "\n\n            donated\n"
+            "A": "laid",
+            "B": "born",
+            "C": "delivered",
+            "D": "produced",
+            "E": "donated"
         },
         "correct_answer": "A",
         "topic": "Fill in the Gaps",
@@ -1760,13 +1760,13 @@
         "subject": "English",
         "year": 2021,
         "number": "98",
-        "question": "In question number 20 above choose the best option from letters A- E that best complete the gap",
+        "question": "In question number 20 above choose the best option from letters A- E that best complete the gap",
         "options": {
-            "A": "\n\n            former\n",
-            "B": "\n\n            latter\n",
-            "C": "\n\n            earlier\n",
-            "D": "\n\n            bee\n",
-            "E": "\n\n            princess\n"
+            "A": "former",
+            "B": "latter",
+            "C": "earlier",
+            "D": "bee",
+            "E": "princess"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -1781,10 +1781,10 @@
         "number": "99",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. He maintained that Nigerians need a leader with an iron fist",
         "options": {
-            "A": "\n\n            fist made of iron\n",
-            "B": "\n\n            severe in treatment\n",
-            "C": "\n\n            difiicult to please\n",
-            "D": "\n\n            strong as iron\n"
+            "A": "fist made of iron",
+            "B": "severe in treatment",
+            "C": "difiicult to please",
+            "D": "strong as iron"
         },
         "correct_answer": "B",
         "topic": "Lexis & Structure",
@@ -1799,10 +1799,10 @@
         "number": "100",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The emphasis placed on good moral conduct by the society in the past seems to have been relaxed",
         "options": {
-            "A": "\n\n            avoided\n",
-            "B": "\n\n            improved\n",
-            "C": "\n\n            weakened\n",
-            "D": "\n\n            outdated\n"
+            "A": "avoided",
+            "B": "improved",
+            "C": "weakened",
+            "D": "outdated"
         },
         "correct_answer": "C",
         "topic": "Lexis & Structure",
@@ -1817,10 +1817,10 @@
         "number": "101",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The matter was considered a private concern of the chairman to handle",
         "options": {
-            "A": "\n\n            personal\n",
-            "B": "\n\n            known\n",
-            "C": "\n\n            public\n",
-            "D": "\n\n            open\n"
+            "A": "personal",
+            "B": "known",
+            "C": "public",
+            "D": "open"
         },
         "correct_answer": "A",
         "topic": "Lexis & Structure",
@@ -1833,12 +1833,12 @@
         "subject": "English",
         "year": 2021,
         "number": "102",
-        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. He was underrated at the preliminary stage of the competition",
+        "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. He was underrated at the preliminary stage of the competition",
         "options": {
-            "A": "\n\n            advance\n",
-            "B": "\n\n            initial\n",
-            "C": "\n\n            selection\n",
-            "D": "\n\n            crucial\n"
+            "A": "advance",
+            "B": "initial",
+            "C": "selection",
+            "D": "crucial"
         },
         "correct_answer": "B",
         "topic": "Lexis & Structure",
@@ -1853,10 +1853,10 @@
         "number": "103",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The office assistant was dismissed for pilfering",
         "options": {
-            "A": "\n\n            fighting\n",
-            "B": "\n\n            incompetence\n",
-            "C": "\n\n            stealing\n",
-            "D": "\n\n            mismanagement\n"
+            "A": "fighting",
+            "B": "incompetence",
+            "C": "stealing",
+            "D": "mismanagement"
         },
         "correct_answer": "C",
         "topic": "Lexis & Structure",
@@ -1871,10 +1871,10 @@
         "number": "104",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. Almost everyone she had worked with took advantage of her meekness",
         "options": {
-            "A": "\n\n            gentleness\n",
-            "B": "\n\n            weakness\n",
-            "C": "\n\n            steadfastness\n",
-            "D": "\n\n            generosity\n"
+            "A": "gentleness",
+            "B": "weakness",
+            "C": "steadfastness",
+            "D": "generosity"
         },
         "correct_answer": "A",
         "topic": "Lexis & Structure",
@@ -1889,10 +1889,10 @@
         "number": "105",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. Barely six months after his father's demise, he has nothing left again of his patrimony",
         "options": {
-            "A": "\n\n            inheritance\n",
-            "B": "\n\n            property\n",
-            "C": "\n\n            reputation\n",
-            "D": "\n\n            valuables\n"
+            "A": "inheritance",
+            "B": "property",
+            "C": "reputation",
+            "D": "valuables"
         },
         "correct_answer": "A",
         "topic": "Lexis & Structure",
@@ -1907,10 +1907,10 @@
         "number": "106",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. His grandfather was one of the few patriotic Nigerians who ever lived.",
         "options": {
-            "A": "\n\n            obedient\n",
-            "B": "\n\n            lover of Nigeria\n",
-            "C": "\n\n            calculative\n",
-            "D": "\n\n            careless\n"
+            "A": "obedient",
+            "B": "lover of Nigeria",
+            "C": "calculative",
+            "D": "careless"
         },
         "correct_answer": "B",
         "topic": "Lexis & Structure",
@@ -1925,10 +1925,10 @@
         "number": "107",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. Many people believed that such an action is unbecoming of a leader",
         "options": {
-            "A": "\n\n            forthcoming\n",
-            "B": "\n\n            not befitting\n",
-            "C": "\n\n            unwanted\n",
-            "D": "\n\n            not necessary\n"
+            "A": "forthcoming",
+            "B": "not befitting",
+            "C": "unwanted",
+            "D": "not necessary"
         },
         "correct_answer": "B",
         "topic": "Lexis & Structure",
@@ -1943,10 +1943,10 @@
         "number": "108",
         "question": "choose the most appropriate option nearest in meaning to the word(s) underlined. The governor was incoherent in his speech",
         "options": {
-            "A": "\n\n            uncoordinated\n",
-            "B": "\n\n            talkative\n",
-            "C": "\n\n            confused\n",
-            "D": "\n\n            eloquent\n"
+            "A": "uncoordinated",
+            "B": "talkative",
+            "C": "confused",
+            "D": "eloquent"
         },
         "correct_answer": "A",
         "topic": "Lexis & Structure",
@@ -1961,10 +1961,10 @@
         "number": "109",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined The lady has devised a means of tackling her current challenges.",
         "options": {
-            "A": "\n\n            attacking\n",
-            "B": "\n\n            avoiding\n",
-            "C": "\n\n            handling\n",
-            "D": "\n\n            suspending\n"
+            "A": "attacking",
+            "B": "avoiding",
+            "C": "handling",
+            "D": "suspending"
         },
         "correct_answer": "B",
         "topic": "Synonyms/Antonyms",
@@ -1979,10 +1979,10 @@
         "number": "110",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined One hundred and forty kilometres per hour is a reasonable speed limit.",
         "options": {
-            "A": "\n\n            acceptable\n",
-            "B": "\n\n            unbelievable\n",
-            "C": "\n\n            outrageous\n",
-            "D": "\n\n            detestable\n"
+            "A": "acceptable",
+            "B": "unbelievable",
+            "C": "outrageous",
+            "D": "detestable"
         },
         "correct_answer": "C",
         "topic": "Synonyms/Antonyms",
@@ -1997,10 +1997,10 @@
         "number": "111",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined The annual festival attracts dignitaries from both home and abroad.",
         "options": {
-            "A": "\n\n            spectators\n",
-            "B": "\n\n            celebrities\n",
-            "C": "\n\n            chieftains\n",
-            "D": "\n\n            nonentities\n"
+            "A": "spectators",
+            "B": "celebrities",
+            "C": "chieftains",
+            "D": "nonentities"
         },
         "correct_answer": "D",
         "topic": "Synonyms/Antonyms",
@@ -2015,10 +2015,10 @@
         "number": "112",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined The soldiers were remorseful for their inhuman treatment of the civilians.",
         "options": {
-            "A": "\n\n            boastful\n",
-            "B": "\n\n            sad\n",
-            "C": "\n\n            successful\n",
-            "D": "\n\n            reliable\n"
+            "A": "boastful",
+            "B": "sad",
+            "C": "successful",
+            "D": "reliable"
         },
         "correct_answer": "A",
         "topic": "Synonyms/Antonyms",
@@ -2033,10 +2033,10 @@
         "number": "113",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined Insecurity has escalated since the present government came into power.",
         "options": {
-            "A": "\n\n            abated\n",
-            "B": "\n\n            increased\n",
-            "C": "\n\n            proliferated\n",
-            "D": "\n\n            metamorphosed\n"
+            "A": "abated",
+            "B": "increased",
+            "C": "proliferated",
+            "D": "metamorphosed"
         },
         "correct_answer": "A",
         "topic": "Synonyms/Antonyms",
@@ -2051,10 +2051,10 @@
         "number": "114",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined It is embarrassing to accept our mistakes and tender an apology.",
         "options": {
-            "A": "\n\n            acceptable\n",
-            "B": "\n\n            honourable\n",
-            "C": "\n\n            detestable\n",
-            "D": "\n\n            pardonable\n"
+            "A": "acceptable",
+            "B": "honourable",
+            "C": "detestable",
+            "D": "pardonable"
         },
         "correct_answer": "B",
         "topic": "Synonyms/Antonyms",
@@ -2069,10 +2069,10 @@
         "number": "115",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined The lawmakers are perceived to be the greedies t set of politicians.",
         "options": {
-            "A": "\n\n            selfless\n",
-            "B": "\n\n            unwanted\n",
-            "C": "\n\n            popular\n",
-            "D": "\n\n            corrupt\n"
+            "A": "selfless",
+            "B": "unwanted",
+            "C": "popular",
+            "D": "corrupt"
         },
         "correct_answer": "A",
         "topic": "Synonyms/Antonyms",
@@ -2087,10 +2087,10 @@
         "number": "116",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined James found the photocopied material invaluable while preparing for the examination",
         "options": {
-            "A": "\n\n            Valuable\n",
-            "B": "\n\n            worthwhile\n",
-            "C": "\n\n            worthless\n",
-            "D": "\n\n            important\n"
+            "A": "Valuable",
+            "B": "worthwhile",
+            "C": "worthless",
+            "D": "important"
         },
         "correct_answer": "C",
         "topic": "Synonyms/Antonyms",
@@ -2105,10 +2105,10 @@
         "number": "117",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined Mr. Akin's health has greatly degenerated in the last week.",
         "options": {
-            "A": "\n\n            improved\n",
-            "B": "\n\n            deteriorated\n",
-            "C": "\n\n            expanded\n",
-            "D": "\n\n            abated\n"
+            "A": "improved",
+            "B": "deteriorated",
+            "C": "expanded",
+            "D": "abated"
         },
         "correct_answer": "A",
         "topic": "Synonyms/Antonyms",
@@ -2123,10 +2123,10 @@
         "number": "118",
         "question": "choose the option nearly opposite in meaning to the word(s) underlined The incumbent president conceded defeat before the final result was announced.",
         "options": {
-            "A": "\n\n            accepted\n",
-            "B": "\n\n            rejected\n",
-            "C": "\n\n            opposed\n",
-            "D": "\n\n            challenged\n"
+            "A": "accepted",
+            "B": "rejected",
+            "C": "opposed",
+            "D": "challenged"
         },
         "correct_answer": "B",
         "topic": "Synonyms/Antonyms",
@@ -2141,11 +2141,11 @@
         "number": "119",
         "question": "choose the option with the correct spelling from the options lettered A-E",
         "options": {
-            "A": "\n\n            Interprete\n",
-            "B": "\n\n            Interpret\n",
-            "C": "\n\n            Inteprete\n",
-            "D": "\n\n            Interprette\n",
-            "E": "\n\n            Interrpret\n"
+            "A": "Interprete",
+            "B": "Interpret",
+            "C": "Inteprete",
+            "D": "Interprette",
+            "E": "Interrpret"
         },
         "correct_answer": "B",
         "topic": "Sentence Interpretation",
@@ -2160,11 +2160,11 @@
         "number": "120",
         "question": "choose the option with the correct spelling from the options lettered A-E",
         "options": {
-            "A": "\n\n            Sucesful\n",
-            "B": "\n\n            Succeful\n",
-            "C": "\n\n            Successful\n",
-            "D": "\n\n            Sucessful\n",
-            "E": "\n\n            Sucessfull\n"
+            "A": "Sucesful",
+            "B": "Succeful",
+            "C": "Successful",
+            "D": "Sucessful",
+            "E": "Sucessfull"
         },
         "correct_answer": "C",
         "topic": "Closest in Meaning",
@@ -2179,11 +2179,11 @@
         "number": "121",
         "question": "choose the option with the correct spelling from the options lettered A-E",
         "options": {
-            "A": "\n\n            Acommodation\n",
-            "B": "\n\n            Accomodation\n",
-            "C": "\n\n            Accormodation\n",
-            "D": "\n\n            Accommodation\n",
-            "E": "\n\n            Accomodetion\n"
+            "A": "Acommodation",
+            "B": "Accomodation",
+            "C": "Accormodation",
+            "D": "Accommodation",
+            "E": "Accomodetion"
         },
         "correct_answer": "D",
         "topic": "Closest in Meaning",
@@ -2198,10 +2198,10 @@
         "number": "122",
         "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Biography",
         "options": {
-            "A": "\n\n            bioGRAphy\n",
-            "B": "\n\n            BIography\n",
-            "C": "\n\n            biograPHY\n",
-            "D": "\n\n            biOgraphy\n"
+            "A": "bioGRAphy",
+            "B": "BIography",
+            "C": "biograPHY",
+            "D": "biOgraphy"
         },
         "correct_answer": "D",
         "topic": "Closest in Meaning",
@@ -2216,10 +2216,10 @@
         "number": "123",
         "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Successful",
         "options": {
-            "A": "\n\n            SUccessful\n",
-            "B": "\n\n            suCcessful\n",
-            "C": "\n\n            sucCEssful\n",
-            "D": "\n\n            succESSful\n"
+            "A": "SUccessful",
+            "B": "suCcessful",
+            "C": "sucCEssful",
+            "D": "succESSful"
         },
         "correct_answer": "C",
         "topic": "Closest in Meaning",
@@ -2234,10 +2234,10 @@
         "number": "124",
         "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Democracy",
         "options": {
-            "A": "\n\n            DEmocracy\n",
-            "B": "\n\n            deMOcracy\n",
-            "C": "\n\n            demoCRAcy\n",
-            "D": "\n\n            democraCY\n"
+            "A": "DEmocracy",
+            "B": "deMOcracy",
+            "C": "demoCRAcy",
+            "D": "democraCY"
         },
         "correct_answer": "B",
         "topic": "Closest in Meaning",
@@ -2252,10 +2252,10 @@
         "number": "125",
         "question": "choose the option with the correct emphatic stress indicated in capital letters from the options lettered A-D Conventional",
         "options": {
-            "A": "\n\n            conVENtional\n",
-            "B": "\n\n            CONventional\n",
-            "C": "\n\n            convenTIOnal\n",
-            "D": "\n\n            conventioNAL\n"
+            "A": "conVENtional",
+            "B": "CONventional",
+            "C": "convenTIOnal",
+            "D": "conventioNAL"
         },
         "correct_answer": "A",
         "topic": "Oral Forms",
@@ -2268,12 +2268,12 @@
         "subject": "English",
         "year": 2021,
         "number": "126",
-        "question": "complete the statement from the options lettered A-D The two friends made promises to _____ when they met last year",
+        "question": "complete the statement from the options lettered A-D The two friends made promises to _____ when they met last year",
         "options": {
-            "A": "\n\n            each other\n",
-            "B": "\n\n            one another\n",
-            "C": "\n\n            theirselves\n",
-            "D": "\n\n            themselves\n"
+            "A": "each other",
+            "B": "one another",
+            "C": "theirselves",
+            "D": "themselves"
         },
         "correct_answer": "A",
         "topic": "Fill in the Gaps",
@@ -2288,10 +2288,10 @@
         "number": "127",
         "question": "complete the statement from the options lettered A-D The meeting was organised at _______ instance ?",
         "options": {
-            "A": "\n\n            whom\n",
-            "B": "\n\n            whose's\n",
-            "C": "\n\n            whose\n",
-            "D": "\n\n            whom's\n"
+            "A": "whom",
+            "B": "whose's",
+            "C": "whose",
+            "D": "whom's"
         },
         "correct_answer": "C",
         "topic": "Fill in the Gaps",
@@ -2306,10 +2306,10 @@
         "number": "128",
         "question": "complete the statement from the options lettered A-D Mr. Jude made the meeting _____his poor health",
         "options": {
-            "A": "\n\n            even though\n",
-            "B": "\n\n            inspite of\n",
-            "C": "\n\n            in spite of\n",
-            "D": "\n\n            despite that\n"
+            "A": "even though",
+            "B": "inspite of",
+            "C": "in spite of",
+            "D": "despite that"
         },
         "correct_answer": "C",
         "topic": "Fill in the Gaps",
@@ -2324,10 +2324,10 @@
         "number": "129",
         "question": "complete the statement from the options lettered A-D The manager met the ______ who came visiting last week",
         "options": {
-            "A": "\n\n            dark tall good-looking American\n",
-            "B": "\n\n            good-looking tall dark American\n",
-            "C": "\n\n            Tall dark American good-looking\n",
-            "D": "\n\n            American dark tall good-looking\n"
+            "A": "dark tall good-looking American",
+            "B": "good-looking tall dark American",
+            "C": "Tall dark American good-looking",
+            "D": "American dark tall good-looking"
         },
         "correct_answer": "B",
         "topic": "Fill in the Gaps",
@@ -2342,11 +2342,11 @@
         "number": "130",
         "question": "choose the option that has the same vowel sound as the letter(s) underlined from the options lettered A-E H ea d",
         "options": {
-            "A": "\n\n            bead\n",
-            "B": "\n\n            red\n",
-            "C": "\n\n            rear\n",
-            "D": "\n\n            stir\n",
-            "E": "\n\n            heel\n"
+            "A": "bead",
+            "B": "red",
+            "C": "rear",
+            "D": "stir",
+            "E": "heel"
         },
         "correct_answer": "B",
         "topic": "Closest in Meaning",
@@ -2361,11 +2361,11 @@
         "number": "131",
         "question": "choose the option that has the same vowel sound as the letter(s) underlined from the options lettered A-E M oo n",
         "options": {
-            "A": "\n\n            cook\n",
-            "B": "\n\n            loop\n",
-            "C": "\n\n            pull\n",
-            "D": "\n\n            look\n",
-            "E": "\n\n            double\n"
+            "A": "cook",
+            "B": "loop",
+            "C": "pull",
+            "D": "look",
+            "E": "double"
         },
         "correct_answer": "B",
         "topic": "Closest in Meaning",
@@ -2380,11 +2380,11 @@
         "number": "132",
         "question": "choose the option that has the same vowel sound as the letter(s) underlined from the options lettered A-E Cr ee p",
         "options": {
-            "A": "\n\n            beep\n",
-            "B": "\n\n            bring\n",
-            "C": "\n\n            tread\n",
-            "D": "\n\n            credit\n",
-            "E": "\n\n            ship\n"
+            "A": "beep",
+            "B": "bring",
+            "C": "tread",
+            "D": "credit",
+            "E": "ship"
         },
         "correct_answer": "A",
         "topic": "Closest in Meaning",
@@ -2399,11 +2399,11 @@
         "number": "133",
         "question": "choose the option that has the same consonant sound as the letter(s) underlined from the options lettered A-E K in g",
         "options": {
-            "A": "\n\n            that\n",
-            "B": "\n\n            think\n",
-            "C": "\n\n            thine\n",
-            "D": "\n\n            tongue\n",
-            "E": "\n\n            tone\n"
+            "A": "that",
+            "B": "think",
+            "C": "thine",
+            "D": "tongue",
+            "E": "tone"
         },
         "correct_answer": "B",
         "topic": "Closest in Meaning",
@@ -2418,11 +2418,11 @@
         "number": "134",
         "question": "choose the option that has the same consonant sound as the letter(s) underlined from the options lettered A-E T each",
         "options": {
-            "A": "\n\n            deviate\n",
-            "B": "\n\n            through\n",
-            "C": "\n\n            wrath\n",
-            "D": "\n\n            both\n",
-            "E": "\n\n            listen\n"
+            "A": "deviate",
+            "B": "through",
+            "C": "wrath",
+            "D": "both",
+            "E": "listen"
         },
         "correct_answer": "A",
         "topic": "Closest in Meaning",
@@ -2437,11 +2437,11 @@
         "number": "135",
         "question": "choose the option that has the same consonant sound as the letter(s) underlined from the options lettered A-E B ark",
         "options": {
-            "A": "\n\n            climb\n",
-            "B": "\n\n            tomb\n",
-            "C": "\n\n            curb\n",
-            "D": "\n\n            doubt\n",
-            "E": "\n\n            dumb\n"
+            "A": "climb",
+            "B": "tomb",
+            "C": "curb",
+            "D": "doubt",
+            "E": "dumb"
         },
         "correct_answer": "C",
         "topic": "Closest in Meaning",
@@ -2456,10 +2456,10 @@
         "number": "136",
         "question": "choose the option that best answers the question from the options lettered A-D The Parents Teachers Association promised to build a CAFETERIA.",
         "options": {
-            "A": "\n\n            Does the alumni association promised to build a cafeteria?\n",
-            "B": "\n\n            Does the school authority promised to build a library?\n",
-            "C": "\n\n            Did the parents teachers association promise to build a library?\n",
-            "D": "\n\n            Does the parents teachers association promised to demolish a cafeteria?\n"
+            "A": "Does the alumni association promised to build a cafeteria?",
+            "B": "Does the school authority promised to build a library?",
+            "C": "Did the parents teachers association promise to build a library?",
+            "D": "Does the parents teachers association promised to demolish a cafeteria?"
         },
         "correct_answer": "C",
         "topic": "Closest in Meaning",
@@ -2474,10 +2474,10 @@
         "number": "137",
         "question": "choose the option that best answers the question from the options lettered A-D He SLAPPED the teacher.",
         "options": {
-            "A": "\n\n            Did he greet the teacher?\n",
-            "B": "\n\n            Did the teacher flog him?\n",
-            "C": "\n\n            Did he slap the nurse?\n",
-            "D": "\n\n            Did he praise the principal?\n"
+            "A": "Did he greet the teacher?",
+            "B": "Did the teacher flog him?",
+            "C": "Did he slap the nurse?",
+            "D": "Did he praise the principal?"
         },
         "correct_answer": "A",
         "topic": "Idioms",
@@ -2492,10 +2492,10 @@
         "number": "138",
         "question": "choose the option that best answers the question from the options lettered A-D He travels every WEEKEND",
         "options": {
-            "A": "\n\n            Does he sleep every weekend?\n",
-            "B": "\n\n            Does he wash every week days?\n",
-            "C": "\n\n            Does he travel every month?\n",
-            "D": "\n\n            Does he travel every day?\n"
+            "A": "Does he sleep every weekend?",
+            "B": "Does he wash every week days?",
+            "C": "Does he travel every month?",
+            "D": "Does he travel every day?"
         },
         "correct_answer": "C",
         "topic": "Closest in Meaning",

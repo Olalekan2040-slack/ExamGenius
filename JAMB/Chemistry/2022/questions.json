@@ -5,12 +5,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "1",
-        "question": "The sub-atomic particles located in the nucleus of an atom are?",
+        "question": "The sub-atomic particles located in the nucleus of an atom are?",
         "options": {
-            "A": "\n\n            neutron and proton\n",
-            "B": "\n\n            proton and electron\n",
-            "C": "\n\n            proton and ions\n",
-            "D": "\n\n            neutron and electron\n"
+            "A": "neutron and proton",
+            "B": "proton and electron",
+            "C": "proton and ions",
+            "D": "neutron and electron"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -23,12 +23,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "2",
-        "question": "The IUPAC nomenclature of the structure is?",
+        "question": "The IUPAC nomenclature of the structure is?",
         "options": {
-            "A": "\n\n            3-chloro-3-methylbutane\n",
-            "B": "\n\n            2,2,-dichloro-3-methylbutane\n",
-            "C": "\n\n            3-methylchlorobutane\n",
-            "D": "\n\n            2-chloro-2-methylbutane\n"
+            "A": "3-chloro-3-methylbutane",
+            "B": "2,2,-dichloro-3-methylbutane",
+            "C": "3-methylchlorobutane",
+            "D": "2-chloro-2-methylbutane"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -41,12 +41,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "3",
-        "question": "SO\\(_2\\) + O\\(_2\\) → 2SO\\(_3\\) In the reaction above, the most suitable catalyst is?",
+        "question": "SO\\(_2\\) + O\\(_2\\) \u2192 2SO\\(_3\\) In the reaction above, the most suitable catalyst is?",
         "options": {
-            "A": "\n\n            chromium(vi)oxide\n",
-            "B": "\n\n            iron(iii)oxide\n",
-            "C": "\n\n            copper(i)oxide\n",
-            "D": "\n\n            vanadium(v)oxide\n"
+            "A": "chromium(vi)oxide",
+            "B": "iron(iii)oxide",
+            "C": "copper(i)oxide",
+            "D": "vanadium(v)oxide"
         },
         "correct_answer": "D",
         "topic": "Rates of Reaction & Equilibrium",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "In the preparation of salts, the method employed will depend on the?",
         "options": {
-            "A": "\n\n            composition\n",
-            "B": "\n\n            dissociating ability\n",
-            "C": "\n\n            stability to heat\n",
-            "D": "\n\n            precipitating ability\n"
+            "A": "composition",
+            "B": "dissociating ability",
+            "C": "stability to heat",
+            "D": "precipitating ability"
         },
         "correct_answer": "C",
         "topic": "Energetics/Thermochemistry",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "The following non-metal form acidic oxides with oxygen except?",
         "options": {
-            "A": "\n\n            phosphorus\n",
-            "B": "\n\n            sulphur\n",
-            "C": "\n\n            carbon\n",
-            "D": "\n\n            chlorine\n"
+            "A": "phosphorus",
+            "B": "sulphur",
+            "C": "carbon",
+            "D": "chlorine"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "How many neutrons are present in atom with mass number and atomic number 37 and 17 respectively?",
         "options": {
-            "A": "\n\n            18\n",
-            "B": "\n\n            20\n",
-            "C": "\n\n            37\n",
-            "D": "\n\n            17\n"
+            "A": "18",
+            "B": "20",
+            "C": "37",
+            "D": "17"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "The sulphide that is commonly used in coating electric fluorescent tubes is?",
         "options": {
-            "A": "\n\n            iron(ii)Sulphide\n",
-            "B": "\n\n            tin(ii)sulphide\n",
-            "C": "\n\n            Zinc Sulphide\n",
-            "D": "\n\n            lead(iv) Sulphide\n"
+            "A": "iron(ii)Sulphide",
+            "B": "tin(ii)sulphide",
+            "C": "Zinc Sulphide",
+            "D": "lead(iv) Sulphide"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "An organic compound which liberate carbon(iv)oxide from trioxocarbonate(iv) solution is likely to be?",
         "options": {
-            "A": "\n\n            C\\(_2\\)H\\(_5\\)OH\n",
-            "B": "\n\n            C\\(_3\\)H\\(_4\\)\n",
-            "C": "\n\n            C\\(_6\\)H\\(_6\\)\n",
-            "D": "\n\n            CH\\(_3\\)COOH\n"
+            "A": "C\\(_2\\)H\\(_5\\)OH",
+            "B": "C\\(_3\\)H\\(_4\\)",
+            "C": "C\\(_6\\)H\\(_6\\)",
+            "D": "CH\\(_3\\)COOH"
         },
         "correct_answer": "D",
         "topic": "Organic Chemistry",
@@ -149,12 +149,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "9",
-        "question": "Addition of sodium chloride to water to form a solution would  lead to?",
+        "question": "Addition of sodium chloride to water to form a solution would lead to?",
         "options": {
-            "A": "\n\n            increase in freezing point and increase the boiling point\n",
-            "B": "\n\n            increase in freezing point and decrease the boiling point\n",
-            "C": "\n\n            decrease in freezing point and decrease the boiling point\n",
-            "D": "\n\n            decrease in freezing point and increase the boiling point\n"
+            "A": "increase in freezing point and increase the boiling point",
+            "B": "increase in freezing point and decrease the boiling point",
+            "C": "decrease in freezing point and decrease the boiling point",
+            "D": "decrease in freezing point and increase the boiling point"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "A chemical widely used as a fertilizer is?",
         "options": {
-            "A": "\n\n            galena\n",
-            "B": "\n\n            bauxite\n",
-            "C": "\n\n            emerald\n",
-            "D": "\n\n            nitrochalk\n"
+            "A": "galena",
+            "B": "bauxite",
+            "C": "emerald",
+            "D": "nitrochalk"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "On the basis of the electrochemical series, which of these ions will show the greater tendency to be discharged at the cathode in an electrolytic cell",
         "options": {
-            "A": "\n\n            cu\\(^{2+}\\)\n",
-            "B": "\n\n            sn\\(^{2+}\\)\n",
-            "C": "\n\n            fe\\(^{2+}\\)\n",
-            "D": "\n\n            zn\\(^{2+}\\)\n"
+            "A": "cu\\(^2+\\)",
+            "B": "sn\\(^2+\\)",
+            "C": "fe\\(^2+\\)",
+            "D": "zn\\(^2+\\)"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "Addition of charcoal to the filter bed of sand during water treatment for township supply is to?",
         "options": {
-            "A": "\n\n            prevent goiter\n",
-            "B": "\n\n            prevent tooth decay\n",
-            "C": "\n\n            remove odour\n",
-            "D": "\n\n            kill germs\n"
+            "A": "prevent goiter",
+            "B": "prevent tooth decay",
+            "C": "remove odour",
+            "D": "kill germs"
         },
         "correct_answer": "C",
         "topic": "Structure of the Atom",
@@ -223,10 +223,10 @@
         "number": "13",
         "question": "Using the metal activity series, the metal that can liberate hydrogen gas from steam is?",
         "options": {
-            "A": "\n\n            iron\n",
-            "B": "\n\n            copper\n",
-            "C": "\n\n            tin\n",
-            "D": "\n\n            lead\n"
+            "A": "iron",
+            "B": "copper",
+            "C": "tin",
+            "D": "lead"
         },
         "correct_answer": "A",
         "topic": "States of Matter",
@@ -241,9 +241,9 @@
         "number": "14",
         "question": "An organic compound with fishy smell is likely to have a general formula?",
         "options": {
-            "A": "\n\n            RCONH\\(_2\\)\n",
-            "C": "\n\n            RNH\\(_2\\)\n",
-            "D": "\n\n            RCOR\\(^1\\)\n"
+            "A": "RCONH\\(_2\\)",
+            "C": "RNH\\(_2\\)",
+            "D": "RCOR\\(^1\\)"
         },
         "correct_answer": "C",
         "topic": "Organic Chemistry",
@@ -256,12 +256,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "15",
-        "question": "N\\(_2\\)O\\(_4\\) ⇔ 2NO\\(_2\\)          (Δ = -ve) From the reaction above, which of these conditions would produce the highest equilibrium yield for N\\(_2\\)O\\(_4\\)?",
+        "question": "N\\(_2\\)O\\(_4\\) \u21d4 2NO\\(_2\\) (\u0394 = -ve) From the reaction above, which of these conditions would produce the highest equilibrium yield for N\\(_2\\)O\\(_4\\)?",
         "options": {
-            "A": "\n\n            Low temperature and high pressure\n",
-            "B": "\n\n            Low temperature and low pressure\n",
-            "C": "\n\n            high temperature and low pressure\n",
-            "D": "\n\n            high temperature and high pressure\n"
+            "A": "Low temperature and high pressure",
+            "B": "Low temperature and low pressure",
+            "C": "high temperature and low pressure",
+            "D": "high temperature and high pressure"
         },
         "correct_answer": "D",
         "topic": "Rates of Reaction & Equilibrium",
@@ -274,12 +274,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "16",
-        "question": "Zn + 2HCL → ZnCl\\(_2\\) + H\\(_2\\) What happens to zinc in the above reaction?",
+        "question": "Zn + 2HCL \u2192 ZnCl\\(_2\\) + H\\(_2\\) What happens to zinc in the above reaction?",
         "options": {
-            "A": "\n\n            oxidized\n",
-            "B": "\n\n            a reactant\n",
-            "C": "\n\n            reduced\n",
-            "D": "\n\n            a metal\n"
+            "A": "oxidized",
+            "B": "a reactant",
+            "C": "reduced",
+            "D": "a metal"
         },
         "correct_answer": "A",
         "topic": "Rates of Reaction & Equilibrium",
@@ -294,10 +294,10 @@
         "number": "17",
         "question": "An organic functional group which can likely decolorize ammoniacal silver nitrate is?",
         "options": {
-            "A": "\n\n            alkene\n",
-            "B": "\n\n            alkane\n",
-            "C": "\n\n            alkyne\n",
-            "D": "\n\n            alkanol\n"
+            "A": "alkene",
+            "B": "alkane",
+            "C": "alkyne",
+            "D": "alkanol"
         },
         "correct_answer": "C",
         "topic": "Periodic Table",
@@ -310,12 +310,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "18",
-        "question": "A colored gas that is known to be poisonous and can readily damage the mucous lining of the lungs is?",
+        "question": "A colored gas that is known to be poisonous and can readily damage the mucous lining of the lungs is?",
         "options": {
-            "A": "\n\n            hydrogen sulphide\n",
-            "B": "\n\n            carbon(ii)oxide\n",
-            "C": "\n\n            chlorine\n",
-            "D": "\n\n            sulphur(iv)oxide\n"
+            "A": "hydrogen sulphide",
+            "B": "carbon(ii)oxide",
+            "C": "chlorine",
+            "D": "sulphur(iv)oxide"
         },
         "correct_answer": "C",
         "topic": "States of Matter",
@@ -330,10 +330,10 @@
         "number": "19",
         "question": "In order to electroplate spoon with silver, the arrangement of the electrolytic cell is?",
         "options": {
-            "A": "\n\n            the anode is a silver rod and the cathode is the spoon\n",
-            "B": "\n\n            the anode is the spoon and the cathode is a silver rod\n",
-            "C": "\n\n            the electrolyte is silver trioxonitrate(v)( solution and the cathode is a silver rod.\n",
-            "D": "\n\n            the electrolyte  is silver trioxonitrate(v) solution and the anode is the spoon\n"
+            "A": "the anode is a silver rod and the cathode is the spoon",
+            "B": "the anode is the spoon and the cathode is a silver rod",
+            "C": "the electrolyte is silver trioxonitrate(v)( solution and the cathode is a silver rod.",
+            "D": "the electrolyte is silver trioxonitrate(v) solution and the anode is the spoon"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -348,10 +348,10 @@
         "number": "20",
         "question": "An organic compound which decolorizes bromine water is likely to be?",
         "options": {
-            "A": "\n\n            C\\(_3\\)H\\(_8\\)\n",
-            "B": "\n\n            C\\(_2\\)H\\(_6\\)\n",
-            "C": "\n\n            C\\(_4\\)H\\(_10\\)\n",
-            "D": "\n\n            C\\(_2\\)H\\(_4\\)\n"
+            "A": "C\\(_3\\)H\\(_8\\)",
+            "B": "C\\(_2\\)H\\(_6\\)",
+            "C": "C\\(_4\\)H\\(_10\\)",
+            "D": "C\\(_2\\)H\\(_4\\)"
         },
         "correct_answer": "D",
         "topic": "Organic Chemistry",
@@ -364,12 +364,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "21",
-        "question": "Crude petroleum is converted to useful products by the process of?",
+        "question": "Crude petroleum is converted to useful products by the process of?",
         "options": {
-            "A": "\n\n            fractional crystallization\n",
-            "B": "\n\n            fractional distillation\n",
-            "C": "\n\n            filtration\n",
-            "D": "\n\n            chromatography\n"
+            "A": "fractional crystallization",
+            "B": "fractional distillation",
+            "C": "filtration",
+            "D": "chromatography"
         },
         "correct_answer": "B",
         "topic": "Chemistry & Industry",
@@ -384,10 +384,10 @@
         "number": "22",
         "question": "An organic compound contains 69% carbon, 15.3% hydrogen and 30.7% oxygen. Calculate the the empirical formula [C=12, H = 1, O = 16]",
         "options": {
-            "A": "\n\n            C\\(_4\\)H\\(_12\\)O\n",
-            "B": "\n\n            C\\(_3\\)H\\(_9\\)O\n",
-            "C": "\n\n            C\\(_4\\)H\\(_9\\)O\n",
-            "D": "\n\n            C\\(_3\\)H\\(_8\\)O\n"
+            "A": "C\\(_4\\)H\\(_12\\)O",
+            "B": "C\\(_3\\)H\\(_9\\)O",
+            "C": "C\\(_4\\)H\\(_9\\)O",
+            "D": "C\\(_3\\)H\\(_8\\)O"
         },
         "correct_answer": "D",
         "topic": "Organic Chemistry",
@@ -400,12 +400,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "23",
-        "question": "2H\\(_2\\) + O\\(_2\\) → 2H\\(_2\\)O From the equation above, calculate the volume of unreacted oxygen gas if a mixture of 50cm\\(^3\\) of hydroden and 75cm\\(^3\\) of oxygen are involved",
+        "question": "2H\\(_2\\) + O\\(_2\\) \u2192 2H\\(_2\\)O From the equation above, calculate the volume of unreacted oxygen gas if a mixture of 50cm\\(^3\\) of hydroden and 75cm\\(^3\\) of oxygen are involved",
         "options": {
-            "A": "\n\n            85cm\\(^3\\)\n",
-            "B": "\n\n            50cm\\(^3\\)\n",
-            "C": "\n\n            125cm\\(^3\\)\n",
-            "D": "\n\n            55cm\\(^3\\)\n"
+            "A": "85cm\\(^3\\)",
+            "B": "50cm\\(^3\\)",
+            "C": "125cm\\(^3\\)",
+            "D": "55cm\\(^3\\)"
         },
         "correct_answer": "B",
         "topic": "Stoichiometry",
@@ -420,10 +420,10 @@
         "number": "24",
         "question": "In which of the following will hydrogen form ionic compound?",
         "options": {
-            "A": "\n\n            HCL\n",
-            "B": "\n\n            NaH\n",
-            "C": "\n\n            NH\\(_3\\)\n",
-            "D": "\n\n            CH\\(_4\\)\n"
+            "A": "HCL",
+            "B": "NaH",
+            "C": "NH\\(_3\\)",
+            "D": "CH\\(_4\\)"
         },
         "correct_answer": "B",
         "topic": "Chemical Bonding",
@@ -436,12 +436,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "25",
-        "question": "If the volume of a given mass of a gas at 0ºc is 29.5cm\\(^3\\). What will be the volume of the gas at 15ºc, given that the pressure remains constant.",
+        "question": "If the volume of a given mass of a gas at 0degc is 29.5cm\\(^3\\). What will be the volume of the gas at 15degc, given that the pressure remains constant.",
         "options": {
-            "A": "\n\n            31.6\n",
-            "B": "\n\n            62.2\n",
-            "C": "\n\n            32.7\n",
-            "D": "\n\n            31.1\n"
+            "A": "31.6",
+            "B": "62.2",
+            "C": "32.7",
+            "D": "31.1"
         },
         "correct_answer": "D",
         "topic": "States of Matter",
@@ -454,12 +454,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "26",
-        "question": "The reactions below represent neutralization reaction, in which of them is the value of ΔH highest?",
+        "question": "The reactions below represent neutralization reaction, in which of them is the value of \u0394H highest?",
         "options": {
-            "A": "\n\n            CH\\(_3\\)CH\\(_2\\)COOH + KOH  → CH\\(_3\\)CH\\(_2\\)COOK + H\\(_2\\)O\n",
-            "B": "\n\n            NH\\(_4\\)OH + HCL →  NH\\(_4\\) + H\\(_2\\)O\n",
-            "C": "\n\n            NaOH + HCL →  NaCL + H\\(_2\\)O\n",
-            "D": "\n\n            CH\\(_3\\)COOH + NaOH →  CH\\(_3\\)COONa + H\\(_2\\)O\n"
+            "A": "CH\\(_3\\)CH\\(_2\\)COOH + KOH \u2192 CH\\(_3\\)CH\\(_2\\)COOK + H\\(_2\\)O",
+            "B": "NH\\(_4\\)OH + HCL \u2192 NH\\(_4\\) + H\\(_2\\)O",
+            "C": "NaOH + HCL \u2192 NaCL + H\\(_2\\)O",
+            "D": "CH\\(_3\\)COOH + NaOH \u2192 CH\\(_3\\)COONa + H\\(_2\\)O"
         },
         "correct_answer": "C",
         "topic": "Rates of Reaction & Equilibrium",
@@ -474,10 +474,10 @@
         "number": "27",
         "question": "The pollutant usually presents in a city which generates its electricity from coal?",
         "options": {
-            "A": "\n\n            fog\n",
-            "B": "\n\n            carbon(ii)oxide\n",
-            "C": "\n\n            smog\n",
-            "D": "\n\n            sulphur(iv)oxide\n"
+            "A": "fog",
+            "B": "carbon(ii)oxide",
+            "C": "smog",
+            "D": "sulphur(iv)oxide"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -492,10 +492,10 @@
         "number": "28",
         "question": "The dehydration of CH\\(_3\\)CH\\(_2\\)CH\\(_2\\)CH\\(_2\\)OH will give?",
         "options": {
-            "A": "\n\n            HC≡CCH\\(_2\\)CH\\(_3\\)\n",
-            "B": "\n\n            CH\\(_2\\)≡CH\\(_2\\)CH\\(_3\\)\n",
-            "C": "\n\n            CH\\(_3\\)C≡CCH\\(_3\\)\n",
-            "D": "\n\n            CH\\(_3\\)CH=CHCH\\(_3\\)\n"
+            "A": "HC\u2261CCH\\(_2\\)CH\\(_3\\)",
+            "B": "CH\\(_2\\)\u2261CH\\(_2\\)CH\\(_3\\)",
+            "C": "CH\\(_3\\)C\u2261CCH\\(_3\\)",
+            "D": "CH\\(_3\\)CH=CHCH\\(_3\\)"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -510,10 +510,10 @@
         "number": "29",
         "question": "When heat is absorbed during a chemical reaction, the reaction is said to be",
         "options": {
-            "A": "\n\n            thermodynamic\n",
-            "B": "\n\n            exothermic\n",
-            "C": "\n\n            isothermal\n",
-            "D": "\n\n            endothermic\n"
+            "A": "thermodynamic",
+            "B": "exothermic",
+            "C": "isothermal",
+            "D": "endothermic"
         },
         "correct_answer": "D",
         "topic": "Energetics/Thermochemistry",
@@ -528,10 +528,10 @@
         "number": "30",
         "question": "Which of the following best represent solid gas mixture?",
         "options": {
-            "A": "\n\n            milk\n",
-            "B": "\n\n            kerosene\n",
-            "C": "\n\n            soil\n",
-            "D": "\n\n            smoke\n"
+            "A": "milk",
+            "B": "kerosene",
+            "C": "soil",
+            "D": "smoke"
         },
         "correct_answer": "D",
         "topic": "States of Matter",
@@ -544,12 +544,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "31",
-        "question": "H\\(^+\\) + OH\\(^-\\) → H\\(_2\\)O The equation above illustrates",
+        "question": "H\\(^+\\) + OH\\(^-\\) \u2192 H\\(_2\\)O The equation above illustrates",
         "options": {
-            "A": "\n\n            precipitation\n",
-            "B": "\n\n            hydration\n",
-            "C": "\n\n            hydrolysis\n",
-            "D": "\n\n            neutralization\n"
+            "A": "precipitation",
+            "B": "hydration",
+            "C": "hydrolysis",
+            "D": "neutralization"
         },
         "correct_answer": "D",
         "topic": "Stoichiometry",
@@ -564,10 +564,10 @@
         "number": "32",
         "question": "Electrons enter into orbitals in order of increasing energy as exemplified by?",
         "options": {
-            "A": "\n\n            1S\\(^2\\)2S\\(^2\\)2PX\\(^2\\)2py\\(^2\\)2pz\\(^0\\)3s\\(^0\\)\n",
-            "B": "\n\n            1S\\(^2\\)2S\\(^2\\)2PX\\(^2\\)2py\\(^1\\)2pz\\(^1\\)3s\\(^0\\)\n",
-            "C": "\n\n            1S\\(^2\\)2S\\(^2\\)2PX\\(^1\\)2py\\(^1\\)2pz\\(^1\\)3s\\(^1\\)\n",
-            "D": "\n\n            1S\\(^2\\)2S\\(^2\\)2PX\\(^2\\)2py\\(^2\\)2pz\\(^0\\)3s\\(^1\\)\n"
+            "A": "1S\\(^2\\)2S\\(^2\\)2PX\\(^2\\)2py\\(^2\\)2pz\\(^0\\)3s\\(^0\\)",
+            "B": "1S\\(^2\\)2S\\(^2\\)2PX\\(^2\\)2py\\(^1\\)2pz\\(^1\\)3s\\(^0\\)",
+            "C": "1S\\(^2\\)2S\\(^2\\)2PX\\(^1\\)2py\\(^1\\)2pz\\(^1\\)3s\\(^1\\)",
+            "D": "1S\\(^2\\)2S\\(^2\\)2PX\\(^2\\)2py\\(^2\\)2pz\\(^0\\)3s\\(^1\\)"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -582,10 +582,10 @@
         "number": "33",
         "question": "Wrought iron is obtained by heating cast iron in a furnace with?",
         "options": {
-            "A": "\n\n            magnetite\n",
-            "B": "\n\n            haematite\n",
-            "C": "\n\n            carbon(ii)oxide\n",
-            "D": "\n\n            calcium trioxosilicate(iv)\n"
+            "A": "magnetite",
+            "B": "haematite",
+            "C": "carbon(ii)oxide",
+            "D": "calcium trioxosilicate(iv)"
         },
         "correct_answer": "B",
         "topic": "Structure of the Atom",
@@ -598,12 +598,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "34",
-        "question": "In the extraction of iron, hot air is introduced into the blast furnace through?",
+        "question": "In the extraction of iron, hot air is introduced into the blast furnace through?",
         "options": {
-            "A": "\n\n            valves\n",
-            "B": "\n\n            open-hearths\n",
-            "C": "\n\n            arcs\n",
-            "D": "\n\n            tuyeres\n"
+            "A": "valves",
+            "B": "open-hearths",
+            "C": "arcs",
+            "D": "tuyeres"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -618,10 +618,10 @@
         "number": "35",
         "question": "How many bonding pair are present in carbon(iv)oxide?",
         "options": {
-            "A": "\n\n            4\n",
-            "B": "\n\n            3\n",
-            "C": "\n\n            2\n",
-            "D": "\n\n            1\n"
+            "A": "4",
+            "B": "3",
+            "C": "2",
+            "D": "1"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",
@@ -634,12 +634,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "36",
-        "question": "2-methylprop-1-ene is a structural isomer of?",
+        "question": "2-methylprop-1-ene is a structural isomer of?",
         "options": {
-            "A": "\n\n             But-1-yne\n",
-            "B": "\n\n            2-methyl But-1-ene\n",
-            "C": "\n\n            3-methyl prop-1-yne\n",
-            "D": "\n\n             But-2-ene\n"
+            "A": "But-1-yne",
+            "B": "2-methyl But-1-ene",
+            "C": "3-methyl prop-1-yne",
+            "D": "But-2-ene"
         },
         "correct_answer": "D",
         "topic": "Structure of the Atom",
@@ -654,10 +654,10 @@
         "number": "37",
         "question": "Alkanes are used mainly?",
         "options": {
-            "A": "\n\n            in the textile industry\n",
-            "B": "\n\n            in the hydrogenation of oils\n",
-            "C": "\n\n            as domestic and industrial fuels\n",
-            "D": "\n\n            as fine chemicals\n"
+            "A": "in the textile industry",
+            "B": "in the hydrogenation of oils",
+            "C": "as domestic and industrial fuels",
+            "D": "as fine chemicals"
         },
         "correct_answer": "C",
         "topic": "Chemistry & Industry",
@@ -672,10 +672,10 @@
         "number": "38",
         "question": "What volume of (dm\\(^3\\)) of water will be added to 10dm\\(^3\\) of 2.0 mol/dm\\(^3\\) HCL acid solution to give a final solution of 0.5 mol/dm\\(^3\\)?",
         "options": {
-            "A": "\n\n            30\n",
-            "B": "\n\n            40\n",
-            "C": "\n\n            20\n",
-            "D": "\n\n            50\n"
+            "A": "30",
+            "B": "40",
+            "C": "20",
+            "D": "50"
         },
         "correct_answer": "A",
         "topic": "Acids/Bases/Salts",
@@ -688,12 +688,12 @@
         "subject": "Chemistry",
         "year": 2022,
         "number": "39",
-        "question": "GAS CO\\(_2\\) N\\(_2\\) O\\(_2\\) % BY VOLUME 4 72 24 The above table shows the compositions of the atmosphere of planet X. Which of these gases are present in higher percentages on earth?",
+        "question": "GAS CO\\(_2\\) N\\(_2\\) O\\(_2\\) % BY VOLUME 4 72 24 The above table shows the compositions of the atmosphere of planet X. Which of these gases are present in higher percentages on earth?",
         "options": {
-            "A": "\n\n            CO\\(_2\\) and O\\(_2\\)\n",
-            "B": "\n\n            N\\(_2\\) and CO\\(_2\\)\n",
-            "C": "\n\n            CO\\(_2\\), O\\(_2\\) and N\\(_2\\)\n",
-            "D": "\n\n            O\\(_2\\) and N\\(_2\\)\n"
+            "A": "CO\\(_2\\) and O\\(_2\\)",
+            "B": "N\\(_2\\) and CO\\(_2\\)",
+            "C": "CO\\(_2\\), O\\(_2\\) and N\\(_2\\)",
+            "D": "O\\(_2\\) and N\\(_2\\)"
         },
         "correct_answer": "D",
         "topic": "States of Matter",
@@ -708,10 +708,10 @@
         "number": "40",
         "question": "Hard water is water with high concentrations of dissolved ions, in particular calcium and",
         "options": {
-            "A": "\n\n            magnesium ions\n",
-            "B": "\n\n            nitrogen ions\n",
-            "C": "\n\n            phosporus ions\n",
-            "D": "\n\n            helium ions\n"
+            "A": "magnesium ions",
+            "B": "nitrogen ions",
+            "C": "phosporus ions",
+            "D": "helium ions"
         },
         "correct_answer": "A",
         "topic": "Structure of the Atom",

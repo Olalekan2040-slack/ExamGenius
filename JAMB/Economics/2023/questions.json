@@ -7,10 +7,10 @@
         "number": "1",
         "question": "A tariff is a tax imposed on",
         "options": {
-            "A": "\n\n            Consumer goods\n",
-            "B": "\n\n            Domestic goods\n",
-            "C": "\n\n            Imported goods\n",
-            "D": "\n\n            Exported goods\n"
+            "A": "Consumer goods",
+            "B": "Domestic goods",
+            "C": "Imported goods",
+            "D": "Exported goods"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "The demand for a good is price inelastic if",
         "options": {
-            "A": "\n\n            The price elasticity is less than one\n",
-            "B": "\n\n            The price elasticity is one\n",
-            "C": "\n\n            The price elasticity is negative\n",
-            "D": "\n\n            The price elasticity is greater than one\n"
+            "A": "The price elasticity is less than one",
+            "B": "The price elasticity is one",
+            "C": "The price elasticity is negative",
+            "D": "The price elasticity is greater than one"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "Which of the following is an example of free good?",
         "options": {
-            "A": "\n\n            Free education\n",
-            "B": "\n\n            Water in the ocean\n",
-            "C": "\n\n            Dinner you did not pay for\n",
-            "D": "\n\n            Your rented apartment\n"
+            "A": "Free education",
+            "B": "Water in the ocean",
+            "C": "Dinner you did not pay for",
+            "D": "Your rented apartment"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "The marginal propensity to consume is",
         "options": {
-            "A": "\n\n            Options A, B and C\n",
-            "B": "\n\n            ΔC/ΔY\n",
-            "C": "\n\n            The slope of the consumption function\n",
-            "D": "\n\n            Coefficient c in the equation C = C + cYd\n"
+            "A": "Options A, B and C",
+            "B": "\u0394C/\u0394Y",
+            "C": "The slope of the consumption function",
+            "D": "Coefficient c in the equation C = C + cYd"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "The short run can be defined as the period of time during which",
         "options": {
-            "A": "\n\n            All inputs are fixed\n",
-            "B": "\n\n            At least one of the firm's input is fixed\n",
-            "C": "\n\n            At least two inputs are fixed\n",
-            "D": "\n\n            All inputs are variable\n"
+            "A": "All inputs are fixed",
+            "B": "At least one of the firm's input is fixed",
+            "C": "At least two inputs are fixed",
+            "D": "All inputs are variable"
         },
         "correct_answer": "B",
         "topic": "Theory of Production",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "The \"velocity\" of money is",
         "options": {
-            "A": "\n\n            The real money supply divided by the real GDP\n",
-            "B": "\n\n            The money supply multiplied by the price level\n",
-            "C": "\n\n            The money supply divided by the price level\n",
-            "D": "\n\n            The ratio of real GDP to the real money supply\n"
+            "A": "The real money supply divided by the real GDP",
+            "B": "The money supply multiplied by the price level",
+            "C": "The money supply divided by the price level",
+            "D": "The ratio of real GDP to the real money supply"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "The part of income after tax that is not consumed is defined as",
         "options": {
-            "A": "\n\n            Wages and salaries\n",
-            "B": "\n\n            Saving\n",
-            "C": "\n\n            Capital investment\n",
-            "D": "\n\n            Nondurable goods expenditure\n"
+            "A": "Wages and salaries",
+            "B": "Saving",
+            "C": "Capital investment",
+            "D": "Nondurable goods expenditure"
         },
         "correct_answer": "B",
         "topic": "Public Finance",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "An industry is",
         "options": {
-            "A": "\n\n            A group of firms producing differentiated products\n",
-            "B": "\n\n            A group of firms producing distinct commodities\n",
-            "C": "\n\n            A group of firms producing related goods\n",
-            "D": "\n\n            A group of firms producing unrelated goods\n"
+            "A": "A group of firms producing differentiated products",
+            "B": "A group of firms producing distinct commodities",
+            "C": "A group of firms producing related goods",
+            "D": "A group of firms producing unrelated goods"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "The type of unemployment that occurs when an individual cannot find job as a result of obsolete skill is",
         "options": {
-            "A": "\n\n            Structural unemployment\n",
-            "B": "\n\n            Cyclical unemployment\n",
-            "C": "\n\n            Seasonal unemployment\n",
-            "D": "\n\n            Frictional unemployment\n"
+            "A": "Structural unemployment",
+            "B": "Cyclical unemployment",
+            "C": "Seasonal unemployment",
+            "D": "Frictional unemployment"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "The theory of ............... was propounded by ..................",
         "options": {
-            "A": "\n\n            Comparative advantage; Mercantilists\n",
-            "B": "\n\n            Absolute advantage; Adam Smith\n",
-            "C": "\n\n            Comparative advantage; Adam Smith\n",
-            "D": "\n\n            Absolute advantage; David Ricardo\n"
+            "A": "Comparative advantage; Mercantilists",
+            "B": "Absolute advantage; Adam Smith",
+            "C": "Comparative advantage; Adam Smith",
+            "D": "Absolute advantage; David Ricardo"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "If a business' total economic cost of producing 10,000 units of a product is N750,000 and this output is sold to consumers for N1,000,000, then the firm would earn",
         "options": {
-            "A": "\n\n            A normal profit of N750,000\n",
-            "B": "\n\n            An economic profit of N750,000\n",
-            "C": "\n\n            A normal profit o N1,750,000\n",
-            "D": "\n\n            An economic profit of N250,000\n"
+            "A": "A normal profit of N750,000",
+            "B": "An economic profit of N750,000",
+            "C": "A normal profit o N1,750,000",
+            "D": "An economic profit of N250,000"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "One major problem facing West African countries is",
         "options": {
-            "A": "\n\n            Relations with Colonial Masters\n",
-            "B": "\n\n            Joint Military operations in Member States\n",
-            "C": "\n\n            Political integration\n",
-            "D": "\n\n            Financial crunch of Member States\n"
+            "A": "Relations with Colonial Masters",
+            "B": "Joint Military operations in Member States",
+            "C": "Political integration",
+            "D": "Financial crunch of Member States"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -223,10 +223,10 @@
         "number": "13",
         "question": "The development of an economic hypothesis through intuition, insight, or logic is associated with",
         "options": {
-            "A": "\n\n            Deduction\n",
-            "B": "\n\n            Policy economics\n",
-            "C": "\n\n            Normative economics\n",
-            "D": "\n\n            Induction\n"
+            "A": "Deduction",
+            "B": "Policy economics",
+            "C": "Normative economics",
+            "D": "Induction"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "A major factor contributing to productivity is",
         "options": {
-            "A": "\n\n            Immigration of young workers\n",
-            "B": "\n\n            The labour force\n",
-            "C": "\n\n            The baby boom of generation\n",
-            "D": "\n\n            The rate of GDP per year\n"
+            "A": "Immigration of young workers",
+            "B": "The labour force",
+            "C": "The baby boom of generation",
+            "D": "The rate of GDP per year"
         },
         "correct_answer": "B",
         "topic": "National Income",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": ".............is presently used in Nigeria to measure inflation",
         "options": {
-            "A": "\n\n            GNP implicit price deflator\n",
-            "B": "\n\n            Consumer price index\n",
-            "C": "\n\n            Wholesale price index\n",
-            "D": "\n\n            Real Gross Domestic Product\n"
+            "A": "GNP implicit price deflator",
+            "B": "Consumer price index",
+            "C": "Wholesale price index",
+            "D": "Real Gross Domestic Product"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "The fundamental problem of economics is",
         "options": {
-            "A": "\n\n            Finding striking determinants between the forces of supply and demand\n",
-            "B": "\n\n            The scarcity of productive resources relative to society's unlimited wants\n",
-            "C": "\n\n            The establishment of a political framework to determine the what, how and for whom of production\n",
-            "D": "\n\n            To establish an equitable distribution of income\n"
+            "A": "Finding striking determinants between the forces of supply and demand",
+            "B": "The scarcity of productive resources relative to society's unlimited wants",
+            "C": "The establishment of a political framework to determine the what, how and for whom of production",
+            "D": "To establish an equitable distribution of income"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "The diagram above represent",
         "options": {
-            "A": "\n\n            perfect competition\n",
-            "B": "\n\n            mononpoly\n",
-            "C": "\n\n            demand curve\n",
-            "D": "\n\n            competitive market\n"
+            "A": "perfect competition",
+            "B": "mononpoly",
+            "C": "demand curve",
+            "D": "competitive market"
         },
         "correct_answer": "B",
         "topic": "Market Structures",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "What is the lowest price the monopolist can charge",
         "options": {
-            "A": "\n\n            P2\n",
-            "B": "\n\n            P1\n",
-            "C": "\n\n            P3\n",
-            "D": "\n\n            P4\n"
+            "A": "P2",
+            "B": "P1",
+            "C": "P3",
+            "D": "P4"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "The maximum price is",
         "options": {
-            "A": "\n\n            P1\n",
-            "B": "\n\n            P2\n",
-            "C": "\n\n            P3\n",
-            "D": "\n\n            P4\n"
+            "A": "P1",
+            "B": "P2",
+            "C": "P3",
+            "D": "P4"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "Real cost is",
         "options": {
-            "A": "\n\n            Alternative commodities forgone\n",
-            "B": "\n\n            Amount of money spent on goods and services\n",
-            "C": "\n\n            Cost of goods and services\n",
-            "D": "\n\n            True cost\n"
+            "A": "Alternative commodities forgone",
+            "B": "Amount of money spent on goods and services",
+            "C": "Cost of goods and services",
+            "D": "True cost"
         },
         "correct_answer": "A",
         "topic": "Theory of Production",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "..................... is the highest body in ECOWAS organogram",
         "options": {
-            "A": "\n\n            Authority of Head of State and Government\n",
-            "B": "\n\n            The Executive Secretariat\n",
-            "C": "\n\n            The Defense Council\n",
-            "D": "\n\n            Council of Ministers\n"
+            "A": "Authority of Head of State and Government",
+            "B": "The Executive Secretariat",
+            "C": "The Defense Council",
+            "D": "Council of Ministers"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "Government uses all of the following ways to redistribute income, except",
         "options": {
-            "A": "\n\n            Market intervention\n",
-            "B": "\n\n            Transfer earnings\n",
-            "C": "\n\n            Limited liability\n",
-            "D": "\n\n            Taxation\n"
+            "A": "Market intervention",
+            "B": "Transfer earnings",
+            "C": "Limited liability",
+            "D": "Taxation"
         },
         "correct_answer": "C",
         "topic": "Market Structures",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "The principle that specified that the amount, when and how to pay tax should be made known to tax payer is known as",
         "options": {
-            "A": "\n\n            Principle of economy\n",
-            "B": "\n\n            Principle of convenience\n",
-            "C": "\n\n            Principle of simplicity\n",
-            "D": "\n\n            Principle of certainty\n"
+            "A": "Principle of economy",
+            "B": "Principle of convenience",
+            "C": "Principle of simplicity",
+            "D": "Principle of certainty"
         },
         "correct_answer": "D",
         "topic": "Public Finance",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "Money could be defined as",
         "options": {
-            "A": "\n\n            Options A, B and C\n",
-            "B": "\n\n            Medium of exchange\n",
-            "C": "\n\n            Settlement of debt\n",
-            "D": "\n\n            Medium of payment\n"
+            "A": "Options A, B and C",
+            "B": "Medium of exchange",
+            "C": "Settlement of debt",
+            "D": "Medium of payment"
         },
         "correct_answer": "A",
         "topic": "Money & Inflation",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "Business cycle is associated with",
         "options": {
-            "A": "\n\n            Recession\n",
-            "B": "\n\n            Unemployment\n",
-            "C": "\n\n            Seasonal variation\n",
-            "D": "\n\n            Inflation\n"
+            "A": "Recession",
+            "B": "Unemployment",
+            "C": "Seasonal variation",
+            "D": "Inflation"
         },
         "correct_answer": "A",
         "topic": "Money & Inflation",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "Economic problem occurs when",
         "options": {
-            "A": "\n\n            There is scarcity relative to demand\n",
-            "B": "\n\n            All raw materials are imported\n",
-            "C": "\n\n            Many people are out of work\n",
-            "D": "\n\n            There are no buyers for our goods\n"
+            "A": "There is scarcity relative to demand",
+            "B": "All raw materials are imported",
+            "C": "Many people are out of work",
+            "D": "There are no buyers for our goods"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -475,10 +475,10 @@
         "number": "27",
         "question": "A ............ in the price of the domestic currency in terms of a foreign currency is referred to as .............",
         "options": {
-            "A": "\n\n            Decrease, appreciation\n",
-            "B": "\n\n            Increase, de-appreciation\n",
-            "C": "\n\n            Decrease, depreciation\n",
-            "D": "\n\n            Increase, consolidation\n"
+            "A": "Decrease, appreciation",
+            "B": "Increase, de-appreciation",
+            "C": "Decrease, depreciation",
+            "D": "Increase, consolidation"
         },
         "correct_answer": "C",
         "topic": "Money & Inflation",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "Among all the determinants of economic growth, the most important one is",
         "options": {
-            "A": "\n\n            Human capital\n",
-            "B": "\n\n            Increased GDP\n",
-            "C": "\n\n            Land and Natural resources\n",
-            "D": "\n\n            Technologies\n"
+            "A": "Human capital",
+            "B": "Increased GDP",
+            "C": "Land and Natural resources",
+            "D": "Technologies"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -511,10 +511,10 @@
         "number": "29",
         "question": "An increase in money income with constant price results in",
         "options": {
-            "A": "\n\n            Outward shift in the budget line\n",
-            "B": "\n\n            Inward parallel shift in the budget line\n",
-            "C": "\n\n            Options A and C\n",
-            "D": "\n\n            Budget line remain constant\n"
+            "A": "Outward shift in the budget line",
+            "B": "Inward parallel shift in the budget line",
+            "C": "Options A and C",
+            "D": "Budget line remain constant"
         },
         "correct_answer": "A",
         "topic": "Public Finance",
@@ -529,10 +529,10 @@
         "number": "30",
         "question": "The law of supply states that, other things being constant, as price increases",
         "options": {
-            "A": "\n\n            Supply increases\n",
-            "B": "\n\n            Supply decreases\n",
-            "C": "\n\n            Quantity supplied increases\n",
-            "D": "\n\n            Quantity supplied decreases\n"
+            "A": "Supply increases",
+            "B": "Supply decreases",
+            "C": "Quantity supplied increases",
+            "D": "Quantity supplied decreases"
         },
         "correct_answer": "C",
         "topic": "Demand & Supply",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "The demand for money will fall if",
         "options": {
-            "A": "\n\n            People expect deflation soon\n",
-            "B": "\n\n            Real GDP rises\n",
-            "C": "\n\n            Real interest rates rise\n",
-            "D": "\n\n            The GDP deflator rises\n"
+            "A": "People expect deflation soon",
+            "B": "Real GDP rises",
+            "C": "Real interest rates rise",
+            "D": "The GDP deflator rises"
         },
         "correct_answer": "C",
         "topic": "National Income",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "Which of the following is an example of expansionary monetary policy by the Central Bank of Nigeria?",
         "options": {
-            "A": "\n\n            Lowering income taxes\n",
-            "B": "\n\n            Increasing the discount rate\n",
-            "C": "\n\n            Increasing the reserve ratio\n",
-            "D": "\n\n            Buying Treasury securities from commercial banks\n"
+            "A": "Lowering income taxes",
+            "B": "Increasing the discount rate",
+            "C": "Increasing the reserve ratio",
+            "D": "Buying Treasury securities from commercial banks"
         },
         "correct_answer": "D",
         "topic": "National Income",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "If commodities X and Y are substitute, their cross elasticity of demand will be",
         "options": {
-            "A": "\n\n            One\n",
-            "B": "\n\n            positive\n",
-            "C": "\n\n            negative\n",
-            "D": "\n\n            zero\n"
+            "A": "One",
+            "B": "positive",
+            "C": "negative",
+            "D": "zero"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -601,10 +601,10 @@
         "number": "34",
         "question": "The term 'investment' in macroeconomics means",
         "options": {
-            "A": "\n\n            Profit\n",
-            "B": "\n\n            Total amount of money invested in bonds and stocks\n",
-            "C": "\n\n            The total amount of capital goods in the country\n",
-            "D": "\n\n            The production of goods for immediate consumption\n"
+            "A": "Profit",
+            "B": "Total amount of money invested in bonds and stocks",
+            "C": "The total amount of capital goods in the country",
+            "D": "The production of goods for immediate consumption"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -619,10 +619,10 @@
         "number": "35",
         "question": "The following are economic agents in any economy EXCEPT",
         "options": {
-            "A": "\n\n            Central Bank\n",
-            "B": "\n\n            House hold\n",
-            "C": "\n\n            Firm\n",
-            "D": "\n\n            Government\n"
+            "A": "Central Bank",
+            "B": "House hold",
+            "C": "Firm",
+            "D": "Government"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "One major criticism of foreign aid to developing countries is that it",
         "options": {
-            "A": "\n\n            Gives too much power and control to world bank\n",
-            "B": "\n\n            Encourages growth in government bureaucracy\n",
-            "C": "\n\n            Is capital using rather than capital saving\n",
-            "D": "\n\n            Provides incentives for capital flight\n"
+            "A": "Gives too much power and control to world bank",
+            "B": "Encourages growth in government bureaucracy",
+            "C": "Is capital using rather than capital saving",
+            "D": "Provides incentives for capital flight"
         },
         "correct_answer": "C",
         "topic": "Banking",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "Public corporation is financed with",
         "options": {
-            "A": "\n\n            Capital raised from shareholders\n",
-            "B": "\n\n            Tax payer's money\n",
-            "C": "\n\n            Capital raised from stock exchange\n",
-            "D": "\n\n            Capital contributed by owners\n"
+            "A": "Capital raised from shareholders",
+            "B": "Tax payer's money",
+            "C": "Capital raised from stock exchange",
+            "D": "Capital contributed by owners"
         },
         "correct_answer": "B",
         "topic": "Money & Inflation",
@@ -673,10 +673,10 @@
         "number": "38",
         "question": "The type of price elasticity of demand for a commodity whose quantity demanded remain unchanged despite changes in the price is",
         "options": {
-            "A": "\n\n            Perfectly elastic\n",
-            "B": "\n\n            Infinitely elastic\n",
-            "C": "\n\n            Inelastic\n",
-            "D": "\n\n            Perfectly inelastic\n"
+            "A": "Perfectly elastic",
+            "B": "Infinitely elastic",
+            "C": "Inelastic",
+            "D": "Perfectly inelastic"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -691,10 +691,10 @@
         "number": "39",
         "question": "An increase in total production (real GDP) causes the demand for money to ______and the interest rate to _________",
         "options": {
-            "A": "\n\n            Increase; decrease\n",
-            "B": "\n\n            Decrease; decrease\n",
-            "C": "\n\n            Increase; increase\n",
-            "D": "\n\n            Decrease; increase\n"
+            "A": "Increase; decrease",
+            "B": "Decrease; decrease",
+            "C": "Increase; increase",
+            "D": "Decrease; increase"
         },
         "correct_answer": "C",
         "topic": "Demand & Supply",
@@ -709,10 +709,10 @@
         "number": "40",
         "question": "Part-time workers who desire full-time employment are:",
         "options": {
-            "A": "\n\n            Underemployed and contribute to the unemployment statistic\n",
-            "B": "\n\n            Underemployed but do not contribute to the unemployment statistic\n",
-            "C": "\n\n            Not part of the labour force and do not contribute to the unemployment statistic\n",
-            "D": "\n\n            Cyclical unemployment\n"
+            "A": "Underemployed and contribute to the unemployment statistic",
+            "B": "Underemployed but do not contribute to the unemployment statistic",
+            "C": "Not part of the labour force and do not contribute to the unemployment statistic",
+            "D": "Cyclical unemployment"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -727,10 +727,10 @@
         "number": "41",
         "question": "Which of the following is the resultant effect of a fall in the profit margin of producers in an economy?",
         "options": {
-            "A": "\n\n            Unemployment will fall\n",
-            "B": "\n\n            Unemployment will remain constant\n",
-            "C": "\n\n            Unemployment will increase\n",
-            "D": "\n\n            Unemployment will fluctuate\n"
+            "A": "Unemployment will fall",
+            "B": "Unemployment will remain constant",
+            "C": "Unemployment will increase",
+            "D": "Unemployment will fluctuate"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -745,10 +745,10 @@
         "number": "42",
         "question": "Indicator of underdevelopment is",
         "options": {
-            "A": "\n\n            high life expectancy\n",
-            "B": "\n\n            low birth rate\n",
-            "C": "\n\n            low population growth rate\n",
-            "D": "\n\n            low per capita income\n"
+            "A": "high life expectancy",
+            "B": "low birth rate",
+            "C": "low population growth rate",
+            "D": "low per capita income"
         },
         "correct_answer": "D",
         "topic": "National Income",
@@ -763,10 +763,10 @@
         "number": "43",
         "question": "The decision to consume more of one product under normal circumstances will apply",
         "options": {
-            "A": "\n\n            less of another product will be consumed\n",
-            "B": "\n\n            more of another product will be consumed\n",
-            "C": "\n\n            less of the product will be consumed\n",
-            "D": "\n\n            no other products will be consumed\n"
+            "A": "less of another product will be consumed",
+            "B": "more of another product will be consumed",
+            "C": "less of the product will be consumed",
+            "D": "no other products will be consumed"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -781,10 +781,10 @@
         "number": "44",
         "question": "Identify one of the following which can NOT be used to close deflationary gap",
         "options": {
-            "A": "\n\n            Increased interest rate\n",
-            "B": "\n\n            Increased money supply\n",
-            "C": "\n\n            Increase government expenditure\n",
-            "D": "\n\n            Reduction in taxes\n"
+            "A": "Increased interest rate",
+            "B": "Increased money supply",
+            "C": "Increase government expenditure",
+            "D": "Reduction in taxes"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -799,10 +799,10 @@
         "number": "45",
         "question": "An increase in nominal income without increase in price will result to",
         "options": {
-            "A": "\n\n            increased real income\n",
-            "B": "\n\n            increased GDP\n",
-            "C": "\n\n            decreased real income\n",
-            "D": "\n\n            decreased GNP\n"
+            "A": "increased real income",
+            "B": "increased GDP",
+            "C": "decreased real income",
+            "D": "decreased GNP"
         },
         "correct_answer": "A",
         "topic": "National Income",
@@ -817,10 +817,10 @@
         "number": "46",
         "question": "If demand function for a product is Qd = 30 - 4P, and the price and quantity of products is 4 and 14 respectively. What is the price elasticity of demand for the product?",
         "options": {
-            "A": "\n\n            1.14\n",
-            "B": "\n\n            7.1\n",
-            "C": "\n\n            14.1\n",
-            "D": "\n\n            1.7\n"
+            "A": "1.14",
+            "B": "7.1",
+            "C": "14.1",
+            "D": "1.7"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -835,10 +835,10 @@
         "number": "47",
         "question": "Macroeconomics focuses on the following units in an aggregative manner",
         "options": {
-            "A": "\n\n            household, firms, government, corporate sector and external sector\n",
-            "B": "\n\n            individual consumers, individual firms, government and external sector\n",
-            "C": "\n\n            government, household firms, individual consumers and external sector\n",
-            "D": "\n\n            individual consumers, household firms and manufacturing sector\n"
+            "A": "household, firms, government, corporate sector and external sector",
+            "B": "individual consumers, individual firms, government and external sector",
+            "C": "government, household firms, individual consumers and external sector",
+            "D": "individual consumers, household firms and manufacturing sector"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -853,10 +853,10 @@
         "number": "48",
         "question": "Which of the following would not be a reason for a government to impose a quota on imports?",
         "options": {
-            "A": "\n\n            To support strategic industry\n",
-            "B": "\n\n            To prevent dumping\n",
-            "C": "\n\n            To decrease tax revenue\n",
-            "D": "\n\n            Employment oppourtunity\n"
+            "A": "To support strategic industry",
+            "B": "To prevent dumping",
+            "C": "To decrease tax revenue",
+            "D": "Employment oppourtunity"
         },
         "correct_answer": "C",
         "topic": "Public Finance",
@@ -871,10 +871,10 @@
         "number": "49",
         "question": "The economies of West African Countries depend majorly on",
         "options": {
-            "A": "\n\n            primary product\n",
-            "B": "\n\n            secondary product\n",
-            "C": "\n\n            tertiary product\n",
-            "D": "\n\n            manufacturing product\n"
+            "A": "primary product",
+            "B": "secondary product",
+            "C": "tertiary product",
+            "D": "manufacturing product"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -889,10 +889,10 @@
         "number": "50",
         "question": "When a generalization is made based on observed facts, it is",
         "options": {
-            "A": "\n\n            inductive reasoning\n",
-            "B": "\n\n            normative reasoning\n",
-            "C": "\n\n            theoretical reasoning\n",
-            "D": "\n\n            deductive reasoning\n"
+            "A": "inductive reasoning",
+            "B": "normative reasoning",
+            "C": "theoretical reasoning",
+            "D": "deductive reasoning"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -907,10 +907,10 @@
         "number": "51",
         "question": "A persistence rise in the prices of inputs will lead to",
         "options": {
-            "A": "\n\n            cost push inflation\n",
-            "B": "\n\n            demand pull inflation\n",
-            "C": "\n\n            hyperinflation\n",
-            "D": "\n\n            stagflation\n"
+            "A": "cost push inflation",
+            "B": "demand pull inflation",
+            "C": "hyperinflation",
+            "D": "stagflation"
         },
         "correct_answer": "A",
         "topic": "Money & Inflation",
@@ -925,10 +925,10 @@
         "number": "52",
         "question": "From the graph below, Point \"E\" shows--------------",
         "options": {
-            "A": "\n\n            product inefficiency\n",
-            "B": "\n\n            product efficiency\n",
-            "C": "\n\n            productive efficiency\n",
-            "D": "\n\n            allocative efficiency\n"
+            "A": "product inefficiency",
+            "B": "product efficiency",
+            "C": "productive efficiency",
+            "D": "allocative efficiency"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -943,10 +943,10 @@
         "number": "53",
         "question": "Which of the following Age group belongs to active Labour force?",
         "options": {
-            "A": "\n\n            15 - 25yrs\n",
-            "B": "\n\n            0 - 17yrs\n",
-            "C": "\n\n            65yrs and above\n",
-            "D": "\n\n            18 - 64yrs\n"
+            "A": "15 - 25yrs",
+            "B": "0 - 17yrs",
+            "C": "65yrs and above",
+            "D": "18 - 64yrs"
         },
         "correct_answer": "D",
         "topic": "Basic Economic Concepts",
@@ -961,10 +961,10 @@
         "number": "54",
         "question": "Suppose the public expenditure as a percentage of GDP of four countries is shown in the table below A 40% B 50% C 33% D 36% Which type of economy exists in these countries?",
         "options": {
-            "A": "\n\n            Traditional\n",
-            "B": "\n\n            Planned\n",
-            "C": "\n\n            Pure market\n",
-            "D": "\n\n            Mixed\n"
+            "A": "Traditional",
+            "B": "Planned",
+            "C": "Pure market",
+            "D": "Mixed"
         },
         "correct_answer": "D",
         "topic": "Market Structures",
@@ -979,10 +979,10 @@
         "number": "55",
         "question": "The diagram above represent",
         "options": {
-            "A": "\n\n            Supply curve\n",
-            "B": "\n\n            Production possibility curve\n",
-            "C": "\n\n            indifference curve\n",
-            "D": "\n\n            Demand curve\n"
+            "A": "Supply curve",
+            "B": "Production possibility curve",
+            "C": "indifference curve",
+            "D": "Demand curve"
         },
         "correct_answer": "B",
         "topic": "Demand & Supply",
@@ -997,10 +997,10 @@
         "number": "56",
         "question": "40 men were employed in a farm, and they produced an average of 30 tonnes of cassava per person. Calculate the total product.",
         "options": {
-            "A": "\n\n            1,300 tonnes\n",
-            "B": "\n\n            1,100 tonnes\n",
-            "C": "\n\n            1,200 tonnes\n",
-            "D": "\n\n            1,400 tonnes\n"
+            "A": "1,300 tonnes",
+            "B": "1,100 tonnes",
+            "C": "1,200 tonnes",
+            "D": "1,400 tonnes"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1015,10 +1015,10 @@
         "number": "57",
         "question": "Economists refer to private goods as",
         "options": {
-            "A": "\n\n            rivalrous and non-excludable\n",
-            "B": "\n\n            rivalrous and excludable\n",
-            "C": "\n\n            non rival and non- excludable\n",
-            "D": "\n\n            non rival and excludable\n"
+            "A": "rivalrous and non-excludable",
+            "B": "rivalrous and excludable",
+            "C": "non rival and non- excludable",
+            "D": "non rival and excludable"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1033,10 +1033,10 @@
         "number": "58",
         "question": "The rate of output per worker (or group of workers) per unit time is called",
         "options": {
-            "A": "\n\n            labour productivity\n",
-            "B": "\n\n            total output\n",
-            "C": "\n\n            individual output\n",
-            "D": "\n\n            workdone\n"
+            "A": "labour productivity",
+            "B": "total output",
+            "C": "individual output",
+            "D": "workdone"
         },
         "correct_answer": "C",
         "topic": "Theory of Production",
@@ -1051,10 +1051,10 @@
         "number": "59",
         "question": "The quantity of commodity a consumer is willing and able to buy at a particular time is called",
         "options": {
-            "A": "\n\n            supply\n",
-            "B": "\n\n            wish\n",
-            "C": "\n\n            demand\n",
-            "D": "\n\n            desire\n"
+            "A": "supply",
+            "B": "wish",
+            "C": "demand",
+            "D": "desire"
         },
         "correct_answer": "C",
         "topic": "Demand & Supply",
@@ -1069,10 +1069,10 @@
         "number": "60",
         "question": "If the supply curve of labour market is given as S = 4L + 8. What is L when s = 20?",
         "options": {
-            "A": "\n\n            2\n",
-            "B": "\n\n            4\n",
-            "C": "\n\n            5\n",
-            "D": "\n\n            3\n"
+            "A": "2",
+            "B": "4",
+            "C": "5",
+            "D": "3"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -1087,10 +1087,10 @@
         "number": "61",
         "question": "All of the following describes conditions necessary for existence of a perfect market EXCEPT",
         "options": {
-            "A": "\n\n            lack of homogeneity of goods\n",
-            "B": "\n\n            perfect knowledge\n",
-            "C": "\n\n            large buyers and sellers\n",
-            "D": "\n\n            portability of goods\n"
+            "A": "lack of homogeneity of goods",
+            "B": "perfect knowledge",
+            "C": "large buyers and sellers",
+            "D": "portability of goods"
         },
         "correct_answer": "A",
         "topic": "Basic Economic Concepts",
@@ -1105,10 +1105,10 @@
         "number": "62",
         "question": "From the graph above, the consumer is at equilibrium at point",
         "options": {
-            "A": "\n\n            k\n",
-            "B": "\n\n            l\n",
-            "C": "\n\n            m\n",
-            "D": "\n\n            j\n"
+            "A": "k",
+            "B": "l",
+            "C": "m",
+            "D": "j"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -1123,10 +1123,10 @@
         "number": "63",
         "question": "Calculate the equilibrium level of national income (Y) where Y = C + I + G; C = 100 + 0.75Y; I = 50; G = 200",
         "options": {
-            "A": "\n\n            2000\n",
-            "B": "\n\n            100\n",
-            "C": "\n\n            1500\n",
-            "D": "\n\n            1400\n"
+            "A": "2000",
+            "B": "100",
+            "C": "1500",
+            "D": "1400"
         },
         "correct_answer": "D",
         "topic": "National Income",
@@ -1141,10 +1141,10 @@
         "number": "64",
         "question": "When a kilogram of carrot is #8.00, 20 kilograms are demanded and when the price decreased to #6.000 per kilogram, 30 kilograms are demanded. The elasticity of demand equals to",
         "options": {
-            "A": "\n\n            11\n",
-            "B": "\n\n            12\n",
-            "C": "\n\n            \\(\\frac{1}{2}\\)\n",
-            "D": "\n\n            2\n"
+            "A": "11",
+            "B": "12",
+            "C": "\\(1/2\\)",
+            "D": "2"
         },
         "correct_answer": "D",
         "topic": "Demand & Supply",
@@ -1159,10 +1159,10 @@
         "number": "65",
         "question": "Agriculture accounts for about 60% of the",
         "options": {
-            "A": "\n\n            commodity market in West Africa\n",
-            "B": "\n\n            arable land in West Africa\n",
-            "C": "\n\n            active labour force in West Africa\n",
-            "D": "\n\n            service sector activities in West Africa\n"
+            "A": "commodity market in West Africa",
+            "B": "arable land in West Africa",
+            "C": "active labour force in West Africa",
+            "D": "service sector activities in West Africa"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1177,10 +1177,10 @@
         "number": "66",
         "question": "Which of the following shows why individual demand curve for a good usually slopes downward from left to right?",
         "options": {
-            "A": "\n\n            More of commodities are offered for sale at a lower than higher prices\n",
-            "B": "\n\n            Marginal utility falls as consumption increases\n",
-            "C": "\n\n            The higher the price, the higher the quantity offered for sale\n",
-            "D": "\n\n            Prices are usually falling when demand is low\n"
+            "A": "More of commodities are offered for sale at a lower than higher prices",
+            "B": "Marginal utility falls as consumption increases",
+            "C": "The higher the price, the higher the quantity offered for sale",
+            "D": "Prices are usually falling when demand is low"
         },
         "correct_answer": "A",
         "topic": "Demand & Supply",
@@ -1195,10 +1195,10 @@
         "number": "67",
         "question": "Multiplier can be described as",
         "options": {
-            "A": "\n\n            the ratio of change in an endogenous variable to the change spending\n",
-            "B": "\n\n            the ratio of variables that multiplies autonomous spending plus tax\n",
-            "C": "\n\n            the ratio of change in output to a change in autonomous spending\n",
-            "D": "\n\n            the ratio of variables that multiplies autonomous spending\n"
+            "A": "the ratio of change in an endogenous variable to the change spending",
+            "B": "the ratio of variables that multiplies autonomous spending plus tax",
+            "C": "the ratio of change in output to a change in autonomous spending",
+            "D": "the ratio of variables that multiplies autonomous spending"
         },
         "correct_answer": "A",
         "topic": "Theory of Production",
@@ -1213,10 +1213,10 @@
         "number": "68",
         "question": "Which one of the following measures the natural growth rate of population?",
         "options": {
-            "A": "\n\n            Natural increase - Birth rate + Net migration\n",
-            "B": "\n\n            Birth rate - Death rate\n",
-            "C": "\n\n            Birth rate/Death rate\n",
-            "D": "\n\n            Birth + Net migration = Death\n"
+            "A": "Natural increase - Birth rate + Net migration",
+            "B": "Birth rate - Death rate",
+            "C": "Birth rate/Death rate",
+            "D": "Birth + Net migration = Death"
         },
         "correct_answer": "B",
         "topic": "Economic Growth & Development",
@@ -1231,10 +1231,10 @@
         "number": "69",
         "question": "In a two by two model of international trade, it is assumed that",
         "options": {
-            "A": "\n\n            both countries could gain from trade at the same time, but term of trade is inconsequential for the distribution of the gains\n",
-            "B": "\n\n            both countries could gain from trade at the same time, but the volume of the gains depends on terms of trade\n",
-            "C": "\n\n            neither country could ever gain from trade since term of trade is depends on the distribution of the gains from trade\n",
-            "D": "\n\n            both countries could gain from trade at the same time, and the volume of the gains does not depend on terms of trade\n"
+            "A": "both countries could gain from trade at the same time, but term of trade is inconsequential for the distribution of the gains",
+            "B": "both countries could gain from trade at the same time, but the volume of the gains depends on terms of trade",
+            "C": "neither country could ever gain from trade since term of trade is depends on the distribution of the gains from trade",
+            "D": "both countries could gain from trade at the same time, and the volume of the gains does not depend on terms of trade"
         },
         "correct_answer": "B",
         "topic": "International Trade",
@@ -1249,10 +1249,10 @@
         "number": "70",
         "question": "------------- is NOT the cause of balance of payments (BOP) deficits in Nigeria",
         "options": {
-            "A": "\n\n            Poor performance of non-oil sector\n",
-            "B": "\n\n            Export promotion\n",
-            "C": "\n\n            No import substitution strategies\n",
-            "D": "\n\n            High servicing of debt\n"
+            "A": "Poor performance of non-oil sector",
+            "B": "Export promotion",
+            "C": "No import substitution strategies",
+            "D": "High servicing of debt"
         },
         "correct_answer": "A",
         "topic": "International Trade",
@@ -1267,10 +1267,10 @@
         "number": "71",
         "question": "Institutions serving as links between surplus and deficit units can be identified as",
         "options": {
-            "A": "\n\n            tax officers\n",
-            "B": "\n\n            pension offices\n",
-            "C": "\n\n            financial intermediates\n",
-            "D": "\n\n            acceptance houses\n"
+            "A": "tax officers",
+            "B": "pension offices",
+            "C": "financial intermediates",
+            "D": "acceptance houses"
         },
         "correct_answer": "C",
         "topic": "Public Finance",
@@ -1285,10 +1285,10 @@
         "number": "72",
         "question": "Which of the following will cause an increase in cost of production?",
         "options": {
-            "A": "\n\n            Hyper-inflation\n",
-            "B": "\n\n            Cost push inflation\n",
-            "C": "\n\n            Structural inflation\n",
-            "D": "\n\n            Demand pull inflation\n"
+            "A": "Hyper-inflation",
+            "B": "Cost push inflation",
+            "C": "Structural inflation",
+            "D": "Demand pull inflation"
         },
         "correct_answer": "B",
         "topic": "Money & Inflation",
@@ -1303,10 +1303,10 @@
         "number": "73",
         "question": "The number of people who are qualified to work and who offered themselves for employment are called",
         "options": {
-            "A": "\n\n            mobility of labour\n",
-            "B": "\n\n            working population\n",
-            "C": "\n\n            migrant labour\n",
-            "D": "\n\n            labour turnover\n"
+            "A": "mobility of labour",
+            "B": "working population",
+            "C": "migrant labour",
+            "D": "labour turnover"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1321,10 +1321,10 @@
         "number": "74",
         "question": "The diagram above represent",
         "options": {
-            "A": "\n\n            structural unemployment\n",
-            "B": "\n\n            cyclical unemployment\n",
-            "C": "\n\n            volunatary unempployment\n",
-            "D": "\n\n            frictional unemployment\n"
+            "A": "structural unemployment",
+            "B": "cyclical unemployment",
+            "C": "volunatary unempployment",
+            "D": "frictional unemployment"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1339,10 +1339,10 @@
         "number": "75",
         "question": "Overpopulation is caused by",
         "options": {
-            "A": "\n\n            emigration\n",
-            "B": "\n\n            disease\n",
-            "C": "\n\n            low Literacy rates\n",
-            "D": "\n\n            war and conflicts\n"
+            "A": "emigration",
+            "B": "disease",
+            "C": "low Literacy rates",
+            "D": "war and conflicts"
         },
         "correct_answer": "C",
         "topic": "Basic Economic Concepts",
@@ -1357,10 +1357,10 @@
         "number": "76",
         "question": "Which of the following must be true to have a closed economy with no government, and yet the value of the investmet multiplier still increase?",
         "options": {
-            "A": "\n\n            Marginal propensity to save has fallen\n",
-            "B": "\n\n            Actual investment had fallen\n",
-            "C": "\n\n            Average propensity to invest has fallen\n",
-            "D": "\n\n            Actual saving has fallen\n"
+            "A": "Marginal propensity to save has fallen",
+            "B": "Actual investment had fallen",
+            "C": "Average propensity to invest has fallen",
+            "D": "Actual saving has fallen"
         },
         "correct_answer": "A",
         "topic": "Economic Growth & Development",
@@ -1375,10 +1375,10 @@
         "number": "77",
         "question": "Economics is often described as a science because it",
         "options": {
-            "A": "\n\n            employs the use of laboratory experiments\n",
-            "B": "\n\n            use scientific methods to explain observed phenomena\n",
-            "C": "\n\n            make use of controlled experiments\n",
-            "D": "\n\n            engages accurate predication of human beings\n"
+            "A": "employs the use of laboratory experiments",
+            "B": "use scientific methods to explain observed phenomena",
+            "C": "make use of controlled experiments",
+            "D": "engages accurate predication of human beings"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1393,10 +1393,10 @@
         "number": "78",
         "question": "Given the table demonstrating the law of diminishing marginal utility below, what is the value of X? No. of oranges Consumed Total Utility Average Utility Marginal Utility 1 9 9 - 2 16 8 x 3 24 8 6 4 30 7.5 4 5 34 6.8 y 6 36 6 2 7 36 5.1 0",
         "options": {
-            "A": "\n\n            0.5\n",
-            "B": "\n\n            7\n",
-            "C": "\n\n            0\n",
-            "D": "\n\n            8\n"
+            "A": "0.5",
+            "B": "7",
+            "C": "0",
+            "D": "8"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",
@@ -1411,10 +1411,10 @@
         "number": "79",
         "question": "Which of the following is NOT one of the characteristics of developing countries?",
         "options": {
-            "A": "\n\n            High unemployment\n",
-            "B": "\n\n            Mono- product economy\n",
-            "C": "\n\n            High capital formation\n",
-            "D": "\n\n            Low saving\n"
+            "A": "High unemployment",
+            "B": "Mono- product economy",
+            "C": "High capital formation",
+            "D": "Low saving"
         },
         "correct_answer": "B",
         "topic": "Basic Economic Concepts",

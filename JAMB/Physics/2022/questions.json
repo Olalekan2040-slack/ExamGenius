@@ -7,10 +7,10 @@
         "number": "1",
         "question": "Which of these is a derived unit?",
         "options": {
-            "A": "\n\n            Kilogram\n",
-            "B": "\n\n            Metre\n",
-            "C": "\n\n            Newton\n",
-            "D": "\n\n            Second\n"
+            "A": "Kilogram",
+            "B": "Metre",
+            "C": "Newton",
+            "D": "Second"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "A bar magnet is divided into two pieces, which of the following statement is correct?",
         "options": {
-            "A": "\n\n            two new magnets are created\n",
-            "B": "\n\n            the magnetic field of each separate piece becomes stronger\n",
-            "C": "\n\n            the electric field is created\n",
-            "D": "\n\n            the bar magnet is demagnetized\n"
+            "A": "two new magnets are created",
+            "B": "the magnetic field of each separate piece becomes stronger",
+            "C": "the electric field is created",
+            "D": "the bar magnet is demagnetized"
         },
         "correct_answer": "A",
         "topic": "Electricity & Magnetism",
@@ -41,12 +41,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "3",
-        "question": "Consider the wave equation y = 5mm sin [1cm\\(^{-1}\\)x - 60s\\(^{-1}\\)t]. The wave number is?",
+        "question": "Consider the wave equation y = 5mm sin [1cm\\(^-1\\)x - 60s\\(^-1\\)t]. The wave number is?",
         "options": {
-            "A": "\n\n            0.1 cm\\(^{-1}\\)\n",
-            "B": "\n\n            10cm\\(^{-1}\\)\n",
-            "C": "\n\n            1.0cm\\(^{-1}\\)\n",
-            "D": "\n\n            2cm\\(^{-1}\\)\n"
+            "A": "0.1 cm\\(^-1\\)",
+            "B": "10cm\\(^-1\\)",
+            "C": "1.0cm\\(^-1\\)",
+            "D": "2cm\\(^-1\\)"
         },
         "correct_answer": "C",
         "topic": "Waves & Sound",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "An object 40 cm high is 30cm from the pin hole camera. If the height of the image formed is 20 cm. What is the distance of the image from the pin height?",
         "options": {
-            "A": "\n\n            15 cm\n",
-            "B": "\n\n            70 cm\n",
-            "C": "\n\n            40 cm\n",
-            "D": "\n\n            40 cm\n"
+            "A": "15 cm",
+            "B": "70 cm",
+            "C": "40 cm",
+            "D": "40 cm"
         },
         "correct_answer": "A",
         "topic": "Mechanics",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "A bar magnet is placed near and lying along the axis of a solenoid connected to a galvanometer. The pointer of the galvanometer shows no deflection when?",
         "options": {
-            "A": "\n\n            the magnet is moved towards the stationary solenoid\n",
-            "B": "\n\n            there is no relative motion\n",
-            "C": "\n\n            the magnet is moved away from the stationary solenoid\n",
-            "D": "\n\n            the solenoid is moved away from the stationary magnet\n"
+            "A": "the magnet is moved towards the stationary solenoid",
+            "B": "there is no relative motion",
+            "C": "the magnet is moved away from the stationary solenoid",
+            "D": "the solenoid is moved away from the stationary magnet"
         },
         "correct_answer": "B",
         "topic": "Electricity & Magnetism",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "Tyres are treaded to?",
         "options": {
-            "A": "\n\n            increase weight of tyres\n",
-            "B": "\n\n            increase friction\n",
-            "C": "\n\n            increase its longevity\n",
-            "D": "\n\n            look good\n"
+            "A": "increase weight of tyres",
+            "B": "increase friction",
+            "C": "increase its longevity",
+            "D": "look good"
         },
         "correct_answer": "B",
         "topic": "Mechanics",
@@ -113,12 +113,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "7",
-        "question": "A car starts from rest and covers a distance of 40 m in 10 s. Calculate the magnitude of its acceleration",
+        "question": "A car starts from rest and covers a distance of 40 m in 10 s. Calculate the magnitude of its acceleration",
         "options": {
-            "A": "\n\n            3.20 ms\\(^{-2}\\)\n",
-            "B": "\n\n            0.25 ms\\(^{-2}\\)\n",
-            "C": "\n\n            0.80 ms\\(^{-2}\\)\n",
-            "D": "\n\n            4.00 ms\\(^{-2}\\)\n"
+            "A": "3.20 ms\\(^-2\\)",
+            "B": "0.25 ms\\(^-2\\)",
+            "C": "0.80 ms\\(^-2\\)",
+            "D": "4.00 ms\\(^-2\\)"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -131,12 +131,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "8",
-        "question": "The relationship between the coefficient of linear expansion \\(\\alpha\\) and volumetric expansion (\\(\\gamma\\)) is-----------------",
+        "question": "The relationship between the coefficient of linear expansion \\(alpha\\) and volumetric expansion (\\(gamma\\)) is-----------------",
         "options": {
-            "A": "\n\n            \\(\\gamma\\) = \\(\\alpha ^{-3}\\)\n",
-            "B": "\n\n            \\(\\gamma\\) = \\(\\alpha\\)\n",
-            "C": "\n\n            3\\(\\alpha\\)\n",
-            "D": "\n\n            \\(\\gamma\\) = \\(\\alpha ^{3}\\)\n"
+            "A": "\\(gamma\\) = \\(alpha ^-3\\)",
+            "B": "\\(gamma\\) = \\(alpha\\)",
+            "C": "3\\(alpha\\)",
+            "D": "\\(gamma\\) = \\(alpha ^3\\)"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "Which of the following is not a consequence of hydrogen bubbles covering the copper plate of a primary cell?",
         "options": {
-            "A": "\n\n            formation of hydrogen bubbles on the electrode\n",
-            "B": "\n\n            increase in the resistance of the cell\n",
-            "C": "\n\n            local action\n",
-            "D": "\n\n            polarization\n"
+            "A": "formation of hydrogen bubbles on the electrode",
+            "B": "increase in the resistance of the cell",
+            "C": "local action",
+            "D": "polarization"
         },
         "correct_answer": "C",
         "topic": "Electricity & Optics",
@@ -167,12 +167,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "10",
-        "question": "A cell whose internal resistance is 0.55\\(\\Omega\\) delivers a current of 4 A to an external resistor. The lost voltage of the cell is?",
+        "question": "A cell whose internal resistance is 0.55\\(Ohm\\) delivers a current of 4 A to an external resistor. The lost voltage of the cell is?",
         "options": {
-            "A": "\n\n            4.00 V\n",
-            "B": "\n\n            2.20 V\n",
-            "C": "\n\n            0.15 V\n",
-            "D": "\n\n            8.00 V\n"
+            "A": "4.00 V",
+            "B": "2.20 V",
+            "C": "0.15 V",
+            "D": "8.00 V"
         },
         "correct_answer": "B",
         "topic": "Electricity & Optics",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "Which of the following liquid is a poor conductor of electricity?",
         "options": {
-            "A": "\n\n            Distilled water\n",
-            "B": "\n\n            Tap water\n",
-            "C": "\n\n            Sea water\n",
-            "D": "\n\n            Drinking water\n"
+            "A": "Distilled water",
+            "B": "Tap water",
+            "C": "Sea water",
+            "D": "Drinking water"
         },
         "correct_answer": "A",
         "topic": "Mechanics",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "An isotope has an initial activity of 120 Bq. 6 days later its activity is 15 Bq. The half-life is?",
         "options": {
-            "A": "\n\n            3 days\n",
-            "B": "\n\n            2 days\n",
-            "C": "\n\n            1 day\n",
-            "D": "\n\n            4 days\n"
+            "A": "3 days",
+            "B": "2 days",
+            "C": "1 day",
+            "D": "4 days"
         },
         "correct_answer": "B",
         "topic": "Mechanics",
@@ -223,10 +223,10 @@
         "number": "13",
         "question": "The secondary pigments consist of?",
         "options": {
-            "A": "\n\n            blue, green, and violet\n",
-            "B": "\n\n            yellow, green, and magenta\n",
-            "C": "\n\n            magenta, yellow, and cyan\n",
-            "D": "\n\n            red, green, and blue\n"
+            "A": "blue, green, and violet",
+            "B": "yellow, green, and magenta",
+            "C": "magenta, yellow, and cyan",
+            "D": "red, green, and blue"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "A person standing waist-deep in a swimming pool appears to have short legs because of light?",
         "options": {
-            "A": "\n\n            diffraction\n",
-            "B": "\n\n            refraction\n",
-            "C": "\n\n            reflection\n",
-            "D": "\n\n            interference\n"
+            "A": "diffraction",
+            "B": "refraction",
+            "C": "reflection",
+            "D": "interference"
         },
         "correct_answer": "B",
         "topic": "Light",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "A tuning fork having a frequency of 312 Hz emits a wave which has a wavelength of 1.10 m. Calculate the velocity of sound",
         "options": {
-            "A": "\n\n            312.0 ms\\(^{-1}\\)\n",
-            "B": "\n\n            110.0 ms\\(^{-1}\\)\n",
-            "C": "\n\n            343.2 ms\\(^{-1}\\)\n",
-            "D": "\n\n            686.4 ms\\(^{-1}\\)\n"
+            "A": "312.0 ms\\(^-1\\)",
+            "B": "110.0 ms\\(^-1\\)",
+            "C": "343.2 ms\\(^-1\\)",
+            "D": "686.4 ms\\(^-1\\)"
         },
         "correct_answer": "C",
         "topic": "Waves & Sound",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "When the plate area of a capacitor increases?",
         "options": {
-            "A": "\n\n            the voltage can withstand increase\n",
-            "B": "\n\n            the capacitance decreases\n",
-            "C": "\n\n            the capacitance is unaffected\n",
-            "D": "\n\n            the capacitance increases\n"
+            "A": "the voltage can withstand increase",
+            "B": "the capacitance decreases",
+            "C": "the capacitance is unaffected",
+            "D": "the capacitance increases"
         },
         "correct_answer": "D",
         "topic": "Electricity & Optics",
@@ -295,10 +295,10 @@
         "number": "17",
         "question": "A magnet relay is a device used for?",
         "options": {
-            "A": "\n\n            reading the magnitude of magnetic flux\n",
-            "B": "\n\n            controlling another circuit carrying larger current\n",
-            "C": "\n\n            turning in sports\n",
-            "D": "\n\n            storing magnetic field\n"
+            "A": "reading the magnitude of magnetic flux",
+            "B": "controlling another circuit carrying larger current",
+            "C": "turning in sports",
+            "D": "storing magnetic field"
         },
         "correct_answer": "B",
         "topic": "Electricity & Magnetism",
@@ -313,10 +313,10 @@
         "number": "18",
         "question": "According to kinetic molecular model in gases,",
         "options": {
-            "A": "\n\n            the particles are closely packed together; they occupy minimum space are usually arranged in a regular pattern\n",
-            "B": "\n\n            the particles vibrate about fixed positions and are held together by the strong intermolecular bonds between them\n",
-            "C": "\n\n            the molecules are very far apart and occupy all the spaces made available to them\n",
-            "D": "\n\n            the particles occur in clusters with molecules slightly further apart\n"
+            "A": "the particles are closely packed together; they occupy minimum space are usually arranged in a regular pattern",
+            "B": "the particles vibrate about fixed positions and are held together by the strong intermolecular bonds between them",
+            "C": "the molecules are very far apart and occupy all the spaces made available to them",
+            "D": "the particles occur in clusters with molecules slightly further apart"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -331,10 +331,10 @@
         "number": "19",
         "question": "A current of 0.5 A flows through a resistor when connected to a 40 V battery. How much energy is dispatched in 2 minutes?",
         "options": {
-            "A": "\n\n            2400 J\n",
-            "B": "\n\n            9600 J\n",
-            "C": "\n\n            1500 J\n",
-            "D": "\n\n            1200 J\n"
+            "A": "2400 J",
+            "B": "9600 J",
+            "C": "1500 J",
+            "D": "1200 J"
         },
         "correct_answer": "A",
         "topic": "Electricity & Optics",
@@ -349,10 +349,10 @@
         "number": "20",
         "question": "For a pear-shaped conductor shown above, the concentration of charge on the outside is highest at?",
         "options": {
-            "A": "\n\n            X\n",
-            "B": "\n\n            Z\n",
-            "C": "\n\n            Y\n",
-            "D": "\n\n            K\n"
+            "A": "X",
+            "B": "Z",
+            "C": "Y",
+            "D": "K"
         },
         "correct_answer": "A",
         "topic": "Mechanics",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "The vapour pressure?",
         "options": {
-            "A": "\n\n            increases non-linearly with measuring temperature\n",
-            "B": "\n\n            increases linearly with increasing temperature\n",
-            "C": "\n\n            decreases linearly with increasing temperature\n",
-            "D": "\n\n            decreases non-linearly ith measuring temperature\n"
+            "A": "increases non-linearly with measuring temperature",
+            "B": "increases linearly with increasing temperature",
+            "C": "decreases linearly with increasing temperature",
+            "D": "decreases non-linearly ith measuring temperature"
         },
         "correct_answer": "A",
         "topic": "Heat & Temperature",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "The potential energy in an elastic string of force constant k, which has an extension X is?",
         "options": {
-            "A": "\n\n            kX\n",
-            "B": "\n\n            KX\\(^{2}\\)\n",
-            "C": "\n\n            ½KX\\(^{2}\\)\n",
-            "D": "\n\n            ½K\n"
+            "A": "kX",
+            "B": "KX\\(^2\\)",
+            "C": "\u00bdKX\\(^2\\)",
+            "D": "\u00bdK"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -401,12 +401,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "23",
-        "question": "A reservoir is filled with liquid of density 2000 kgm\\(^{-1}\\). Calculate the depth at which the pressure in the liquid will be equal to 9100 Nm\\(^{-2}\\) (g = 10 ms\\(^{-2}\\))",
+        "question": "A reservoir is filled with liquid of density 2000 kgm\\(^-1\\). Calculate the depth at which the pressure in the liquid will be equal to 9100 Nm\\(^-2\\) (g = 10 ms\\(^-2\\))",
         "options": {
-            "A": "\n\n            0.262 m\n",
-            "B": "\n\n            0.664 m\n",
-            "C": "\n\n            0.819 m\n",
-            "D": "\n\n            0.455 m\n"
+            "A": "0.262 m",
+            "B": "0.664 m",
+            "C": "0.819 m",
+            "D": "0.455 m"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "Water is not a good thermometric liquid because it?",
         "options": {
-            "A": "\n\n            expands unevenly between 0 ºC and 4 ºC\n",
-            "B": "\n\n            maintains fixed density\n",
-            "C": "\n\n            has low freezing point\n",
-            "D": "\n\n            wets glass\n"
+            "A": "expands unevenly between 0 degC and 4 degC",
+            "B": "maintains fixed density",
+            "C": "has low freezing point",
+            "D": "wets glass"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -437,12 +437,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "25",
-        "question": "Which of these is a second-class lever?",
+        "question": "Which of these is a second-class lever?",
         "options": {
-            "A": "\n\n            sugar tongs\n",
-            "B": "\n\n            claw hammer\n",
-            "C": "\n\n            plier\n",
-            "D": "\n\n            wheelbarrow\n"
+            "A": "sugar tongs",
+            "B": "claw hammer",
+            "C": "plier",
+            "D": "wheelbarrow"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "In the formation of sea breeze, wind blows from?",
         "options": {
-            "A": "\n\n            sky to land\n",
-            "B": "\n\n            sea to sky\n",
-            "C": "\n\n            land to sea\n",
-            "D": "\n\n            sea to land\n"
+            "A": "sky to land",
+            "B": "sea to sky",
+            "C": "land to sea",
+            "D": "sea to land"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -473,12 +473,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "27",
-        "question": "Which component of fiber-optic connector has a provision of entry for the fibre along with the fixation to connector housing?",
+        "question": "Which component of fiber-optic connector has a provision of entry for the fibre along with the fixation to connector housing?",
         "options": {
-            "A": "\n\n            coupling device\n",
-            "B": "\n\n            cable\n",
-            "C": "\n\n            ferrule\n",
-            "D": "\n\n            connector housing\n"
+            "A": "coupling device",
+            "B": "cable",
+            "C": "ferrule",
+            "D": "connector housing"
         },
         "correct_answer": "A",
         "topic": "Light",
@@ -493,10 +493,10 @@
         "number": "28",
         "question": "In order to view the sun, the most suitable instrument to use is?",
         "options": {
-            "A": "\n\n            helioscope\n",
-            "B": "\n\n            telescope\n",
-            "C": "\n\n            stroboscope\n",
-            "D": "\n\n            sun meter\n"
+            "A": "helioscope",
+            "B": "telescope",
+            "C": "stroboscope",
+            "D": "sun meter"
         },
         "correct_answer": "A",
         "topic": "Mechanics",
@@ -511,10 +511,10 @@
         "number": "29",
         "question": "The eclipse of the moon occurs when?",
         "options": {
-            "A": "\n\n            the moon reflects the rays from the sun to the earth\n",
-            "B": "\n\n            the moon comes exactly between the earth and the sun\n",
-            "C": "\n\n            the earth comes exactly between the moon and the sun\n",
-            "D": "\n\n            the sun comes exactly between the earth and the moon\n"
+            "A": "the moon reflects the rays from the sun to the earth",
+            "B": "the moon comes exactly between the earth and the sun",
+            "C": "the earth comes exactly between the moon and the sun",
+            "D": "the sun comes exactly between the earth and the moon"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -527,12 +527,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "30",
-        "question": "The gravitational pull on the moon is \\(\\frac{1}{6}\\) that of the earth. If a body weighs 6.0 N on the moon, what will be the weight on the earth?",
+        "question": "The gravitational pull on the moon is \\(1/6\\) that of the earth. If a body weighs 6.0 N on the moon, what will be the weight on the earth?",
         "options": {
-            "A": "\n\n            6.0 N\n",
-            "B": "\n\n            5.0 N\n",
-            "C": "\n\n            12.0 N\n",
-            "D": "\n\n            36.0 N\n"
+            "A": "6.0 N",
+            "B": "5.0 N",
+            "C": "12.0 N",
+            "D": "36.0 N"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -547,10 +547,10 @@
         "number": "31",
         "question": "The amount of energy required to change a kilogram of ice block into water without a change in temperature is?",
         "options": {
-            "A": "\n\n            specific latent heat of fusion of ice\n",
-            "B": "\n\n            specific heat capacity of ice\n",
-            "C": "\n\n            heat capacity of ice\n",
-            "D": "\n\n            specific heat of vaporization of ice\n"
+            "A": "specific latent heat of fusion of ice",
+            "B": "specific heat capacity of ice",
+            "C": "heat capacity of ice",
+            "D": "specific heat of vaporization of ice"
         },
         "correct_answer": "A",
         "topic": "Heat & Temperature",
@@ -565,10 +565,10 @@
         "number": "32",
         "question": "Which expression gives magnetic flux?",
         "options": {
-            "A": "\n\n            qVB sin\\(\\theta\\)\n",
-            "B": "\n\n            \\(\\frac{\\mu \\phi I}{2 \\pi r}\\)\n",
-            "C": "\n\n            BA cos \\(\\theta\\)\n",
-            "D": "\n\n            -N \\(\\frac{d \\phi}{dt}\\)\n"
+            "A": "qVB sin\\(theta\\)",
+            "B": "\\(mu phi I/2 pi r\\)",
+            "C": "BA cos \\(theta\\)",
+            "D": "-N \\(d phi/dt\\)"
         },
         "correct_answer": "C",
         "topic": "Electricity & Magnetism",
@@ -583,10 +583,10 @@
         "number": "33",
         "question": "The graph of pressure (P) against the reciprocal of the volume (I/V) in Boyles's law is a?",
         "options": {
-            "A": "\n\n            hyperbola\n",
-            "B": "\n\n            parabola\n",
-            "C": "\n\n            curve\n",
-            "D": "\n\n            straight line\n"
+            "A": "hyperbola",
+            "B": "parabola",
+            "C": "curve",
+            "D": "straight line"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -599,12 +599,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "34",
-        "question": "What quantity of heat is required to convert 20 g of ice at 0 ºC to water at the same temperature? (Specific latent heat of ice = 336 Jg\\(^{-1}\\))",
+        "question": "What quantity of heat is required to convert 20 g of ice at 0 degC to water at the same temperature? (Specific latent heat of ice = 336 Jg\\(^-1\\))",
         "options": {
-            "A": "\n\n            7.06 x 10\\(^{3}\\)J\n",
-            "B": "\n\n            5.38 x 10\\(^{3}\\)J\n",
-            "C": "\n\n            6.72 x 10\\(^{3}\\)J\n",
-            "D": "\n\n            1.35 x 10\\(^{3}\\)J\n"
+            "A": "7.06 x 10\\(^3\\)J",
+            "B": "5.38 x 10\\(^3\\)J",
+            "C": "6.72 x 10\\(^3\\)J",
+            "D": "1.35 x 10\\(^3\\)J"
         },
         "correct_answer": "C",
         "topic": "Heat & Temperature",
@@ -617,12 +617,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "35",
-        "question": "A train of mass 1600 kg attains a speed of 25 ms\\(^{-1}\\) in 20 seconds. The power developed in the engine is?",
+        "question": "A train of mass 1600 kg attains a speed of 25 ms\\(^-1\\) in 20 seconds. The power developed in the engine is?",
         "options": {
-            "A": "\n\n            2.5 KW\n",
-            "B": "\n\n            80 KW\n",
-            "C": "\n\n            25 KW\n",
-            "D": "\n\n            50 KW\n"
+            "A": "2.5 KW",
+            "B": "80 KW",
+            "C": "25 KW",
+            "D": "50 KW"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -637,10 +637,10 @@
         "number": "36",
         "question": "The main factor which affects the speed of sound wave is the?",
         "options": {
-            "A": "\n\n            properties of the medium\n",
-            "B": "\n\n            amplitude of the sound wave\n",
-            "C": "\n\n            intensity of the sound wave\n",
-            "D": "\n\n            loudness of the sound wave\n"
+            "A": "properties of the medium",
+            "B": "amplitude of the sound wave",
+            "C": "intensity of the sound wave",
+            "D": "loudness of the sound wave"
         },
         "correct_answer": "A",
         "topic": "Waves & Sound",
@@ -655,10 +655,10 @@
         "number": "37",
         "question": "A semiconductor is formed by?",
         "options": {
-            "A": "\n\n            co-ordinate bonds\n",
-            "B": "\n\n            electrovalent bonds\n",
-            "C": "\n\n            a substance free of bonds\n",
-            "D": "\n\n            covalent bonds\n"
+            "A": "co-ordinate bonds",
+            "B": "electrovalent bonds",
+            "C": "a substance free of bonds",
+            "D": "covalent bonds"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -673,10 +673,10 @@
         "number": "38",
         "question": "One of the following is a scalar quantity?",
         "options": {
-            "A": "\n\n            weight\n",
-            "B": "\n\n            momentum\n",
-            "C": "\n\n            potential energy\n",
-            "D": "\n\n            displacement\n"
+            "A": "weight",
+            "B": "momentum",
+            "C": "potential energy",
+            "D": "displacement"
         },
         "correct_answer": "C",
         "topic": "Mechanics",
@@ -689,12 +689,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "39",
-        "question": "The mercury column in the barometer at notational  atmospheric pressure has a height of?",
+        "question": "The mercury column in the barometer at notational atmospheric pressure has a height of?",
         "options": {
-            "A": "\n\n            0.76 cm at see level\n",
-            "B": "\n\n            760 cm at sea level\n",
-            "C": "\n\n            7.6 cm at sea level\n",
-            "D": "\n\n            76 cm at sea level\n"
+            "A": "0.76 cm at see level",
+            "B": "760 cm at sea level",
+            "C": "7.6 cm at sea level",
+            "D": "76 cm at sea level"
         },
         "correct_answer": "D",
         "topic": "Mechanics",
@@ -707,12 +707,12 @@
         "subject": "Physics",
         "year": 2022,
         "number": "40",
-        "question": "If an object just begins to slide on a surface inclined at 30º to the horizontal,the coefficient of friction is?",
+        "question": "If an object just begins to slide on a surface inclined at 30deg to the horizontal,the coefficient of friction is?",
         "options": {
-            "A": "\n\n            √3\n",
-            "B": "\n\n            \\(\\frac{√3}{2}\\)\n",
-            "C": "\n\n            \\(\\frac{1}{√2}\\)\n",
-            "D": "\n\n            \\(\\frac{1}{√3}\\)\n"
+            "A": "sqrt3",
+            "B": "\\(sqrt3/2\\)",
+            "C": "\\(1/sqrt2\\)",
+            "D": "\\(1/sqrt3\\)"
         },
         "correct_answer": "D",
         "topic": "Mechanics",

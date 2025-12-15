@@ -7,10 +7,10 @@
         "number": "1",
         "question": "The repetition of a consonant sound in quick succession of sound effect is",
         "options": {
-            "A": "\n\n            Alliteration\n",
-            "B": "\n\n            Pun\n",
-            "C": "\n\n            onomatopoeia\n",
-            "D": "\n\n            Assonance\n"
+            "A": "Alliteration",
+            "B": "Pun",
+            "C": "onomatopoeia",
+            "D": "Assonance"
         },
         "correct_answer": "A",
         "topic": "Literary Terms & Appreciation",
@@ -25,10 +25,10 @@
         "number": "2",
         "question": "A play in which the acts succeed one another without probable or necessary sequence is",
         "options": {
-            "A": "\n\n            Episodic\n",
-            "B": "\n\n            Simple\n",
-            "C": "\n\n            Linear\n",
-            "D": "\n\n            Convoluted\n"
+            "A": "Episodic",
+            "B": "Simple",
+            "C": "Linear",
+            "D": "Convoluted"
         },
         "correct_answer": "A",
         "topic": "Drama",
@@ -43,10 +43,10 @@
         "number": "3",
         "question": "A technique by which a previous scene or action can be recalled in a play to shed light on the present action is",
         "options": {
-            "A": "\n\n            Climax\n",
-            "B": "\n\n            Flashback\n",
-            "C": "\n\n            Interlude\n",
-            "D": "\n\n            Cathersis\n"
+            "A": "Climax",
+            "B": "Flashback",
+            "C": "Interlude",
+            "D": "Cathersis"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -61,10 +61,10 @@
         "number": "4",
         "question": "Criticism is a literary activity which seeks to",
         "options": {
-            "A": "\n\n            Find faults in a literary work\n",
-            "B": "\n\n            Analyze and evaluate a literary work\n",
-            "C": "\n\n            compare and contrast novels\n",
-            "D": "\n\n            Discover the beauty of a literary work.\n"
+            "A": "Find faults in a literary work",
+            "B": "Analyze and evaluate a literary work",
+            "C": "compare and contrast novels",
+            "D": "Discover the beauty of a literary work."
         },
         "correct_answer": "B",
         "topic": "General Literary Appreciation",
@@ -79,10 +79,10 @@
         "number": "5",
         "question": "A situation where an actor addresses the audience without the other actors hearing him is called",
         "options": {
-            "A": "\n\n            Soliloquy\n",
-            "B": "\n\n            Chorus\n",
-            "C": "\n\n            Aside\n",
-            "D": "\n\n            Solo\n"
+            "A": "Soliloquy",
+            "B": "Chorus",
+            "C": "Aside",
+            "D": "Solo"
         },
         "correct_answer": "C",
         "topic": "Drama",
@@ -97,10 +97,10 @@
         "number": "6",
         "question": "A band of singers and dancers in drama who acts as a link between the play and the audience is the",
         "options": {
-            "A": "\n\n            Chorus\n",
-            "B": "\n\n            Clown\n",
-            "C": "\n\n            Playwright\n",
-            "D": "\n\n            Cast\n"
+            "A": "Chorus",
+            "B": "Clown",
+            "C": "Playwright",
+            "D": "Cast"
         },
         "correct_answer": "A",
         "topic": "Drama",
@@ -115,10 +115,10 @@
         "number": "7",
         "question": "This question is based on General Literary Principles. Persona refers to the",
         "options": {
-            "A": "\n\n            central character in a play\n",
-            "B": "\n\n            voice of the character\n",
-            "C": "\n\n            the image a character presents\n",
-            "D": "\n\n            the personality of a character\n"
+            "A": "central character in a play",
+            "B": "voice of the character",
+            "C": "the image a character presents",
+            "D": "the personality of a character"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -133,10 +133,10 @@
         "number": "8",
         "question": "This question is based on General Literary Principles. The three main unities in drama are those of",
         "options": {
-            "A": "\n\n            action, time and place\n",
-            "B": "\n\n            time, space and action\n",
-            "C": "\n\n            place, time and space\n",
-            "D": "\n\n            space, action and time\n"
+            "A": "action, time and place",
+            "B": "time, space and action",
+            "C": "place, time and space",
+            "D": "space, action and time"
         },
         "correct_answer": "A",
         "topic": "Drama",
@@ -151,10 +151,10 @@
         "number": "9",
         "question": "This question is based on General Literary Principles. Poems that are not written in meter or regular line length are called",
         "options": {
-            "A": "\n\n            short verses\n",
-            "B": "\n\n            rhythmic verses\n",
-            "C": "\n\n            free verses\n",
-            "D": "\n\n            irregular verses\n"
+            "A": "short verses",
+            "B": "rhythmic verses",
+            "C": "free verses",
+            "D": "irregular verses"
         },
         "correct_answer": "C",
         "topic": "Poetry",
@@ -169,10 +169,10 @@
         "number": "10",
         "question": "This question is based on General Literary Principles. An elegy is a poem that mourns for the",
         "options": {
-            "A": "\n\n            deceased\n",
-            "B": "\n\n            bereaved\n",
-            "C": "\n\n            accused\n",
-            "D": "\n\n            king\n"
+            "A": "deceased",
+            "B": "bereaved",
+            "C": "accused",
+            "D": "king"
         },
         "correct_answer": "A",
         "topic": "Poetry",
@@ -187,10 +187,10 @@
         "number": "11",
         "question": "This question is based on General Literary Principles. When two statements or comparisons are apparently contradictory, we have an example of",
         "options": {
-            "A": "\n\n            irony\n",
-            "B": "\n\n            paradox\n",
-            "C": "\n\n            contrast\n",
-            "D": "\n\n            parallelism\n"
+            "A": "irony",
+            "B": "paradox",
+            "C": "contrast",
+            "D": "parallelism"
         },
         "correct_answer": "B",
         "topic": "Literary Terms & Principles",
@@ -205,10 +205,10 @@
         "number": "12",
         "question": "This question is based on General Literary Principles. 'If Winter comes, can Spring be far behind?' Shelly, 'Ode to the West Wind'. The literary device used here is",
         "options": {
-            "A": "\n\n            an apostrophe\n",
-            "B": "\n\n            an allegory\n",
-            "C": "\n\n            a poetic license\n",
-            "D": "\n\n            a rhetoric\n"
+            "A": "an apostrophe",
+            "B": "an allegory",
+            "C": "a poetic license",
+            "D": "a rhetoric"
         },
         "correct_answer": "D",
         "topic": "Literary Terms & Principles",
@@ -221,12 +221,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "13",
-        "question": "This question is based on General Literary Principles. A melodramatic play is based on",
+        "question": "This question is based on General Literary Principles. A melodramatic play is based on",
         "options": {
-            "A": "\n\n            a melodious manipulation of events\n",
-            "B": "\n\n            ingredients that mellow down events\n",
-            "C": "\n\n            sensational plot and characters\n",
-            "D": "\n\n            the playwright's didactic overtones\n"
+            "A": "a melodious manipulation of events",
+            "B": "ingredients that mellow down events",
+            "C": "sensational plot and characters",
+            "D": "the playwright's didactic overtones"
         },
         "correct_answer": "C",
         "topic": "Drama",
@@ -241,10 +241,10 @@
         "number": "14",
         "question": "This question is based on General Literary Principles. Romantic poetry emphasizes",
         "options": {
-            "A": "\n\n            the beauty of nature\n",
-            "B": "\n\n            intimate relationships\n",
-            "C": "\n\n            the love in human nature\n",
-            "D": "\n\n            the romance in human aspiration\n"
+            "A": "the beauty of nature",
+            "B": "intimate relationships",
+            "C": "the love in human nature",
+            "D": "the romance in human aspiration"
         },
         "correct_answer": "A",
         "topic": "Poetry",
@@ -259,10 +259,10 @@
         "number": "15",
         "question": "This question is based on General Literary Principles. In drama, a conspicuous weakness in the character of the protagonist contributing to his downfall is referred to as",
         "options": {
-            "A": "\n\n            an anagnorisis\n",
-            "B": "\n\n            a tragic flaw\n",
-            "C": "\n\n            a catharsis\n",
-            "D": "\n\n            a catastrophe\n"
+            "A": "an anagnorisis",
+            "B": "a tragic flaw",
+            "C": "a catharsis",
+            "D": "a catastrophe"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -277,10 +277,10 @@
         "number": "16",
         "question": "This question is based on General Literary Principles. 'The woman whose breast I sucked is gone to the worms, 'Oculi, Orphan'. These lines illustrate the use of",
         "options": {
-            "A": "\n\n            sadism\n",
-            "B": "\n\n            sophism\n",
-            "C": "\n\n            satire\n",
-            "D": "\n\n            euphemism\n"
+            "A": "sadism",
+            "B": "sophism",
+            "C": "satire",
+            "D": "euphemism"
         },
         "correct_answer": "D",
         "topic": "Literary Terms & Principles",
@@ -293,12 +293,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "17",
-        "question": "This question is based on Femi Osofisan's Morountodun. In the play, social change is achieved through",
+        "question": "This question is based on Femi Osofisan's Morountodun. In the play, social change is achieved through",
         "options": {
-            "A": "\n\n            collectivism\n",
-            "B": "\n\n            sectionalism\n",
-            "C": "\n\n            individualism\n",
-            "D": "\n\n            communism\n"
+            "A": "collectivism",
+            "B": "sectionalism",
+            "C": "individualism",
+            "D": "communism"
         },
         "correct_answer": "A",
         "topic": "Drama",
@@ -311,12 +311,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "18",
-        "question": "This question is based on Femi Osofisan's Morountodun. Titubi joins the farmer's revolt",
+        "question": "This question is based on Femi Osofisan's Morountodun. Titubi joins the farmer's revolt",
         "options": {
-            "A": "\n\n            to ensure it's success\n",
-            "B": "\n\n            as a spy for the establishment\n",
-            "C": "\n\n            in pursuit of Marshal\n",
-            "D": "\n\n            to defy the police\n"
+            "A": "to ensure it's success",
+            "B": "as a spy for the establishment",
+            "C": "in pursuit of Marshal",
+            "D": "to defy the police"
         },
         "correct_answer": "C",
         "topic": "Literary Terms & Appreciation",
@@ -329,12 +329,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "19",
-        "question": "This question is based on Femi Osofisan's Morountodun. The re-enactment of the Moremi legend in the play can be described as",
+        "question": "This question is based on Femi Osofisan's Morountodun. The re-enactment of the Moremi legend in the play can be described as",
         "options": {
-            "A": "\n\n            dramatic epilogue\n",
-            "B": "\n\n            dramatic monologue\n",
-            "C": "\n\n            role-playing\n",
-            "D": "\n\n            flashback\n"
+            "A": "dramatic epilogue",
+            "B": "dramatic monologue",
+            "C": "role-playing",
+            "D": "flashback"
         },
         "correct_answer": "D",
         "topic": "Drama",
@@ -347,12 +347,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "20",
-        "question": "This question is based on Femi Osofisan's Morountodun. The stage direction at the end of the play reveals",
+        "question": "This question is based on Femi Osofisan's Morountodun. The stage direction at the end of the play reveals",
         "options": {
-            "A": "\n\n            the actors in a changing room\n",
-            "B": "\n\n            Mama Kayode raising the song of hope\n",
-            "C": "\n\n            Moremi and Titubi in harsh spotlight\n",
-            "D": "\n\n            the Director making a farewell speech\n"
+            "A": "the actors in a changing room",
+            "B": "Mama Kayode raising the song of hope",
+            "C": "Moremi and Titubi in harsh spotlight",
+            "D": "the Director making a farewell speech"
         },
         "correct_answer": "D",
         "topic": "Drama",
@@ -367,10 +367,10 @@
         "number": "21",
         "question": "This question is based on William Shakespeare's Twelfth Night. 'She bore a mind that envy could not but call fair' The statement above characterizes",
         "options": {
-            "A": "\n\n            Maria\n",
-            "B": "\n\n            Olivia\n",
-            "C": "\n\n            Roderigo\n",
-            "D": "\n\n            Viola\n"
+            "A": "Maria",
+            "B": "Olivia",
+            "C": "Roderigo",
+            "D": "Viola"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -385,10 +385,10 @@
         "number": "22",
         "question": "This question is based on William Shakespeare's Twelfth Night. According to the play, the Duke of illyria is fascinated by",
         "options": {
-            "A": "\n\n            the idea of love\n",
-            "B": "\n\n            the food of love\n",
-            "C": "\n\n            music\n",
-            "D": "\n\n            entertainment\n"
+            "A": "the idea of love",
+            "B": "the food of love",
+            "C": "music",
+            "D": "entertainment"
         },
         "correct_answer": "A",
         "topic": "Drama",
@@ -403,10 +403,10 @@
         "number": "23",
         "question": "This question is based on William Shakespeare's Twelfth Night. DUKE:... Thou know'st no less but all; I have unclasped to thee the book even of my secret soul. What exactly has the Duke unclasped?",
         "options": {
-            "A": "\n\n            The book of his relationship with Olivia\n",
-            "B": "\n\n            The secret of his soul\n",
-            "C": "\n\n            The details of his relationship with Viola\n",
-            "D": "\n\n            The details of his relationship with Olivia\n"
+            "A": "The book of his relationship with Olivia",
+            "B": "The secret of his soul",
+            "C": "The details of his relationship with Viola",
+            "D": "The details of his relationship with Olivia"
         },
         "correct_answer": "D",
         "topic": "Drama",
@@ -421,10 +421,10 @@
         "number": "24",
         "question": "This question is based on William Shakespeare's Twelfth Night. 'I'll do my best To woo your lady.' What is the sincere desire of the person who made the statement above?",
         "options": {
-            "A": "\n\n            That she succeeds in winning the love for the master\n",
-            "B": "\n\n            That her best is good enough to win affection\n",
-            "C": "\n\n            That she herself becomes the beloved\n",
-            "D": "\n\n            That she herself wins the love\n"
+            "A": "That she succeeds in winning the love for the master",
+            "B": "That her best is good enough to win affection",
+            "C": "That she herself becomes the beloved",
+            "D": "That she herself wins the love"
         },
         "correct_answer": "C",
         "topic": "Drama",
@@ -439,10 +439,10 @@
         "number": "25",
         "question": "This question is based on William Shakespeare's Twelfth Night. The significance of the sub-plot dealing with Feste, Toby and Maria is the expression of life's",
         "options": {
-            "A": "\n\n            fragility\n",
-            "B": "\n\n            pleasure\n",
-            "C": "\n\n            comedy\n",
-            "D": "\n\n            romance\n"
+            "A": "fragility",
+            "B": "pleasure",
+            "C": "comedy",
+            "D": "romance"
         },
         "correct_answer": "A",
         "topic": "Poetry",
@@ -457,10 +457,10 @@
         "number": "26",
         "question": "This question is based on William Shakespeare's Twelfth Night. What would you consider to be the major theme of the play?",
         "options": {
-            "A": "\n\n            Love at first sight\n",
-            "B": "\n\n            Unrequited love\n",
-            "C": "\n\n            Illusion and reality\n",
-            "D": "\n\n            Humor and Tragedy\n"
+            "A": "Love at first sight",
+            "B": "Unrequited love",
+            "C": "Illusion and reality",
+            "D": "Humor and Tragedy"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -473,12 +473,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "27",
-        "question": "This question is based on Abubakar Gimba's Witnesses to Tears. In the novel, Al-Amin's initial reservations about his daughter's engagement to Lahab are dormed by",
+        "question": "This question is based on Abubakar Gimba's Witnesses to Tears. In the novel, Al-Amin's initial reservations about his daughter's engagement to Lahab are dormed by",
         "options": {
-            "A": "\n\n            a premonition of his death\n",
-            "B": "\n\n            Lahab's doubtful morality\n",
-            "C": "\n\n            Hussaina's immaturity\n",
-            "D": "\n\n            his fear of loneliness\n"
+            "A": "a premonition of his death",
+            "B": "Lahab's doubtful morality",
+            "C": "Hussaina's immaturity",
+            "D": "his fear of loneliness"
         },
         "correct_answer": "B",
         "topic": "Prose",
@@ -491,12 +491,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "28",
-        "question": "This question is based on Abubakar Gimba's Witnesses to Tears. The witnesses to the tears in the novel are",
+        "question": "This question is based on Abubakar Gimba's Witnesses to Tears. The witnesses to the tears in the novel are",
         "options": {
-            "A": "\n\n            Saahir and Lahab\n",
-            "B": "\n\n            Lahab and Hussaina\n",
-            "C": "\n\n            Lahab and Sagiir\n",
-            "D": "\n\n            Al-Amin and Hussaina\n"
+            "A": "Saahir and Lahab",
+            "B": "Lahab and Hussaina",
+            "C": "Lahab and Sagiir",
+            "D": "Al-Amin and Hussaina"
         },
         "correct_answer": "D",
         "topic": "Prose",
@@ -509,12 +509,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "29",
-        "question": "This question is based on Abubakar Gimba's Witnesses to Tears. The novel is largely set in",
+        "question": "This question is based on Abubakar Gimba's Witnesses to Tears. The novel is largely set in",
         "options": {
-            "A": "\n\n            Futa Toro\n",
-            "B": "\n\n            Sabonville city\n",
-            "C": "\n\n            Alligator city\n",
-            "D": "\n\n            Nuclear city\n"
+            "A": "Futa Toro",
+            "B": "Sabonville city",
+            "C": "Alligator city",
+            "D": "Nuclear city"
         },
         "correct_answer": "A",
         "topic": "Prose",
@@ -527,12 +527,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "30",
-        "question": "This question is based on George Orwell's Animal Farm. Old Major ends his speech to the animals with song in order to",
+        "question": "This question is based on George Orwell's Animal Farm. Old Major ends his speech to the animals with song in order to",
         "options": {
-            "A": "\n\n            spur them to action\n",
-            "B": "\n\n            entertain them\n",
-            "C": "\n\n            display his ability to sing\n",
-            "D": "\n\n            teach them how to sing an anthem\n"
+            "A": "spur them to action",
+            "B": "entertain them",
+            "C": "display his ability to sing",
+            "D": "teach them how to sing an anthem"
         },
         "correct_answer": "A",
         "topic": "Drama",
@@ -545,11 +545,11 @@
         "subject": "Literature",
         "year": 2021,
         "number": "31",
-        "question": "This question is based on George Orwell's Animal Farm. The execution of some of the animals on the orders of Napoleon is to",
+        "question": "This question is based on George Orwell's Animal Farm. The execution of some of the animals on the orders of Napoleon is to",
         "options": {
-            "A": "\n\n            prevent snowball from coming back to the farm\n",
-            "B": "\n\n            make the pigs constitute themselves into special classes\n",
-            "C": "\n\n            achieve the pigs socialite goal\n"
+            "A": "prevent snowball from coming back to the farm",
+            "B": "make the pigs constitute themselves into special classes",
+            "C": "achieve the pigs socialite goal"
         },
         "correct_answer": "D",
         "topic": "Literary Terms & Appreciation",
@@ -562,12 +562,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "32",
-        "question": "This question is based on George Orwell's Animal Farm. The message of the novel is that",
+        "question": "This question is based on George Orwell's Animal Farm. The message of the novel is that",
         "options": {
-            "A": "\n\n            capitalism is as bad as communism\n",
-            "B": "\n\n            humanism is better than animalism\n",
-            "C": "\n\n            communism is better than capitalism\n",
-            "D": "\n\n            no society exists where everyone is equal\n"
+            "A": "capitalism is as bad as communism",
+            "B": "humanism is better than animalism",
+            "C": "communism is better than capitalism",
+            "D": "no society exists where everyone is equal"
         },
         "correct_answer": "D",
         "topic": "Prose",
@@ -580,12 +580,12 @@
         "subject": "Literature",
         "year": 2021,
         "number": "33",
-        "question": "This question is based on George Orwell's Animal Farm. After the expulsion of Snowball from the farm, the truim virate that ran the farm was composed of",
+        "question": "This question is based on George Orwell's Animal Farm. After the expulsion of Snowball from the farm, the truim virate that ran the farm was composed of",
         "options": {
-            "A": "\n\n            Minimus, Napoleon and Squealer \n",
-            "B": "\n\n            Jesse, Napoleon and Bluebell\n",
-            "C": "\n\n            Boxer, Old Major and Napoleon\n",
-            "D": "\n\n            Squealer, Boxer and Napoleon\n"
+            "A": "Minimus, Napoleon and Squealer",
+            "B": "Jesse, Napoleon and Bluebell",
+            "C": "Boxer, Old Major and Napoleon",
+            "D": "Squealer, Boxer and Napoleon"
         },
         "correct_answer": "D",
         "topic": "Drama",
@@ -600,10 +600,10 @@
         "number": "34",
         "question": "This question is based on J.P Clark's The Wives Revolt. Characterization in the play is",
         "options": {
-            "A": "\n\n            economical but effecive\n",
-            "B": "\n\n            economical and effective\n",
-            "C": "\n\n            elaborate but ineffective\n",
-            "D": "\n\n            elaborate and effective\n"
+            "A": "economical but effecive",
+            "B": "economical and effective",
+            "C": "elaborate but ineffective",
+            "D": "elaborate and effective"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -618,10 +618,10 @@
         "number": "35",
         "question": "This question is based on J.P Clark's The Wives Revolt. The play is pre occupied with",
         "options": {
-            "A": "\n\n            the fight by women to keep their goats\n",
-            "B": "\n\n            the evil that oil money breeds\n",
-            "C": "\n\n            women liberation from males domination\n",
-            "D": "\n\n            Women's protest against men's wickedness\n"
+            "A": "the fight by women to keep their goats",
+            "B": "the evil that oil money breeds",
+            "C": "women liberation from males domination",
+            "D": "Women's protest against men's wickedness"
         },
         "correct_answer": "C",
         "topic": "Drama",
@@ -636,10 +636,10 @@
         "number": "36",
         "question": "This question is based on J.P Clark's The Wives Revolt. The highest measure women in the community can take to register their protest is",
         "options": {
-            "A": "\n\n            take prostitution\n",
-            "B": "\n\n            carry out the nude act\n",
-            "C": "\n\n            abandon their husbands\n",
-            "D": "\n\n            abandon their children\n"
+            "A": "take prostitution",
+            "B": "carry out the nude act",
+            "C": "abandon their husbands",
+            "D": "abandon their children"
         },
         "correct_answer": "B",
         "topic": "Drama",
@@ -654,10 +654,10 @@
         "number": "37",
         "question": "In Angira's Expelled, the poet persona laments the",
         "options": {
-            "A": "\n\n            Loss of his property\n",
-            "B": "\n\n            Harrowing experiences from the stranger's visit\n",
-            "C": "\n\n            presence of the strangers\n",
-            "D": "\n\n            Problem of his family and their economic implications\n"
+            "A": "Loss of his property",
+            "B": "Harrowing experiences from the stranger's visit",
+            "C": "presence of the strangers",
+            "D": "Problem of his family and their economic implications"
         },
         "correct_answer": "D",
         "topic": "Poetry",
@@ -672,10 +672,10 @@
         "number": "38",
         "question": "Fletcher's Upon An Honest Man's Fortune achieves its lyrical effect through the use of",
         "options": {
-            "A": "\n\n            Synecdoche\n",
-            "B": "\n\n            Antithesis\n",
-            "C": "\n\n            enjambment\n",
-            "D": "\n\n            Ballad\n"
+            "A": "Synecdoche",
+            "B": "Antithesis",
+            "C": "enjambment",
+            "D": "Ballad"
         },
         "correct_answer": "D",
         "topic": "Literary Terms & Appreciation",
@@ -690,10 +690,10 @@
         "number": "39",
         "question": "Rhythm is achieved in Raleigh's The Soul's Errand through the use of",
         "options": {
-            "A": "\n\n            Metaphor\n",
-            "B": "\n\n            Alliteration\n",
-            "C": "\n\n            repetition\n",
-            "D": "\n\n            Antithesis\n"
+            "A": "Metaphor",
+            "B": "Alliteration",
+            "C": "repetition",
+            "D": "Antithesis"
         },
         "correct_answer": "A",
         "topic": "Poetry",

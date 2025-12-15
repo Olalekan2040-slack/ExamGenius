@@ -274,16 +274,17 @@ async function showYearPracticeResults(result) {
                 <div style="display: flex; flex-direction: column; gap: 16px;">
                     ${result.results.map((res, idx) => {
         const question = yearPracticeState.questions.find(q => q.question_id === res.question_id);
+        const isCorrect = res.is_correct !== undefined ? res.is_correct : res.correct; // backend returns is_correct
         return `
-                            <div style="padding: 16px; border: 2px solid ${res.correct ? 'var(--success)' : 'var(--error)'}; border-radius: var(--radius-md); background: ${res.correct ? '#E8F5E9' : '#FFEBEE'};">
+                            <div style="padding: 16px; border: 2px solid ${isCorrect ? 'var(--success)' : 'var(--error)'}; border-radius: var(--radius-md); background: ${isCorrect ? '#E8F5E9' : '#FFEBEE'};">
                                 <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
                                     <strong>Q${idx + 1}: ${question.topic}</strong>
-                                    <i class="fas fa-${res.correct ? 'check-circle' : 'times-circle'}" style="color: ${res.correct ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
+                                    <i class="fas fa-${isCorrect ? 'check-circle' : 'times-circle'}" style="color: ${isCorrect ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
                                 </div>
                                 <p style="margin-bottom: 12px;">${question.question}</p>
                                 <div>
                                     <div><strong style="color: var(--success);">Correct:</strong> ${res.correct_answer}</div>
-                                    ${!res.correct ? `<div><strong style="color: var(--error);">Your answer:</strong> ${res.user_answer || 'None'}</div>` : ''}
+                                    ${!isCorrect ? `<div><strong style="color: var(--error);">Your answer:</strong> ${res.user_answer || 'None'}</div>` : ''}
                                 </div>
                                 ${res.explanation ? `
                                     <div style="margin-top: 12px; padding: 12px; background: var(--white); border-radius: var(--radius-sm);">
