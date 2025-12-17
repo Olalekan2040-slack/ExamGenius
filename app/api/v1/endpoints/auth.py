@@ -175,6 +175,37 @@ async def verify_email(request: VerifyEmailRequest):
     }
 
 
+@router.get("/verify-email")
+async def verify_email_link(token: str):
+    """Handle verification link clicks via GET with query param token."""
+    db = get_connection()
+    cursor = db.cursor()
+
+    cursor.execute(
+        "SELECT id, email FROM users WHERE reset_token = ?",
+        (token,)
+    )
+    user = cursor.fetchone()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid or expired verification token"
+        )
+
+    cursor.execute("""
+        UPDATE users SET is_verified = 1, email_verified_at = ?, reset_token = NULL 
+        WHERE id = ?
+    """, (datetime.utcnow().isoformat(), user["id"]))
+    db.commit()
+
+    return {
+        "success": True,
+        "message": "Email verified successfully. You can now login.",
+        "email": user["email"]
+    }
+
+
 @router.post("/login")
 async def login(request: LoginRequest):
     """
@@ -281,6 +312,7 @@ async def refresh_tokens(request: RefreshRequest):
 
 
 @router.post("/request-password-reset")
+@router.post("/request-reset")
 async def request_password_reset(request: RequestPasswordResetRequest):
     """
     Request password reset email.
@@ -356,6 +388,51 @@ async def reset_password(request: ResetPasswordRequest):
     return {
         "success": True,
         "message": "Password reset successfully. You can now login with your new password."
+    }
+
+
+@router.get("/reset-password")
+async def reset_password_link(token: str, new_password: Optional[str] = None):
+    """
+    Handle password reset link clicks via GET.
+    If new_password is provided, reset it; otherwise return a form prompt or instructions.
+    """
+    db = get_connection()
+    cursor = db.cursor()
+
+    # Validate token
+    cursor.execute("""
+        SELECT id, email FROM users 
+        WHERE reset_token = ? AND reset_token_expires > ?
+    """, (token, datetime.utcnow().isoformat()))
+    user = cursor.fetchone()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid or expired reset token"
+        )
+
+    # If new_password provided via query param, reset immediately (simple flow)
+    if new_password:
+        hashed_password = hash_password(new_password)
+        cursor.execute("""
+            UPDATE users SET password_hash = ?, reset_token = NULL, reset_token_expires = NULL 
+            WHERE id = ?
+        """, (hashed_password, user["id"]))
+        db.commit()
+        return {
+            "success": True,
+            "message": "Password reset successfully. You can now login with your new password.",
+            "email": user["email"]
+        }
+
+    # Token is valid; return confirmation so frontend can show reset form
+    return {
+        "success": True,
+        "message": "Token is valid. Submit new password via POST or provide new_password query param.",
+        "token_valid": True,
+        "email": user["email"]
     }
 
 
@@ -536,7 +613,7 @@ async def logout(request: Request):
 
         # Clear refresh token from database
         cursor.execute("""
-            UPDATE users SET refresh_token = NULL, refresh_token_expires = NULL 
+            UPDATE users SET refresh_token = NULL 
             WHERE id = ?
         """, (user_id,))
         db.commit()

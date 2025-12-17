@@ -48,9 +48,20 @@ class Settings(BaseSettings):
     MAIL_SERVER: Optional[str] = None
     MAIL_FROM_NAME: str = "ExamGenius"
 
+    # App URLs and modes
+    BASE_URL: str = "http://localhost:8000"
+    DEV_MODE: bool = True
+
+    # SMTP sender credentials
+    SENDER_EMAIL: Optional[str] = None
+    SENDER_PASSWORD: Optional[str] = None
+
     # Rate Limiting
     RATE_LIMIT_ENABLED: bool = True
     RATE_LIMIT_PER_MINUTE: int = 60
+
+    # CBT gating
+    CBT_PRACTICE_WARNING: bool = True
 
     class Config:
         env_file = ".env"

@@ -14,6 +14,7 @@ from app.api.v1.endpoints import (
     dashboard,
     jamb,
     admin,
+    performance,
 )
 
 # Create main API router
@@ -30,3 +31,4 @@ api_router.include_router(cbt.router)
 api_router.include_router(dashboard.router)
 api_router.include_router(jamb.router)
 api_router.include_router(admin.router)
+api_router.include_router(performance.router)

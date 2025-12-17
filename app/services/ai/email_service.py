@@ -5,13 +5,17 @@ from datetime import datetime, timedelta
 import secrets
 import os
 
-SMTP_SERVER = "smtp.gmail.com"
-SMTP_PORT = 587
-SENDER_EMAIL = os.getenv("SENDER_EMAIL", "olalekanquadri58@gmail.com")
-SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "bvpohygauymw")
-BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
+from app.core.config import settings
+
+# Prefer settings (loads .env) with sensible fallbacks
+SMTP_SERVER = settings.MAIL_SERVER or "smtp.gmail.com"
+SMTP_PORT = settings.MAIL_PORT or 587
+SENDER_EMAIL = settings.SENDER_EMAIL or settings.MAIL_USERNAME or os.getenv("SENDER_EMAIL") or os.getenv("MAIL_USERNAME") or ""
+SENDER_PASSWORD = settings.SENDER_PASSWORD or settings.MAIL_PASSWORD or os.getenv("SENDER_PASSWORD") or os.getenv("MAIL_PASSWORD") or ""
+BASE_URL = settings.BASE_URL
+API_PREFIX = settings.API_V1_PREFIX if hasattr(settings, "API_V1_PREFIX") else "/api/v1"
 PROJECT_NAME = "ExamGenius"
-DEV_MODE = os.getenv("DEV_MODE", "true").lower() == "true"
+DEV_MODE = bool(settings.DEV_MODE)
 
 
 def generate_verification_token() -> str:
@@ -22,16 +26,19 @@ def generate_verification_token() -> str:
 def send_verification_email(email: str, name: str, token: str) -> tuple[bool, str]:
     """Send email verification link to user. Returns (success, link)"""
     try:
-        verification_link = f"{BASE_URL}/api/auth/verify-email?token={token}"
+        verification_link = f"{BASE_URL}{API_PREFIX}/auth/verify-email?token={token}"
 
         # In development mode, just log the link
         if DEV_MODE:
             print(f"\n{'='*60}")
-            print(f"📧 DEV MODE: Email would be sent to {email}")
+            print(f"DEV MODE: Email would be sent to {email}")
             print(f"Name: {name}")
             print(f"Verification Link: {verification_link}")
             print(f"{'='*60}\n")
             return True, verification_link
+
+        if not SENDER_EMAIL or not SENDER_PASSWORD:
+            raise ValueError("SMTP credentials missing: set SENDER_EMAIL and SENDER_PASSWORD (or MAIL_USERNAME/MAIL_PASSWORD)")
 
         subject = f"Verify Your {PROJECT_NAME} Email"
         html_body = f"""
@@ -65,24 +72,24 @@ def send_verification_email(email: str, name: str, token: str) -> tuple[bool, st
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             server.send_message(msg)
 
-        print(f"✓ Verification email sent to {email}")
+        print(f"[OK] Verification email sent to {email}")
         return True, verification_link
     except smtplib.SMTPAuthenticationError:
-        print(f"✗ SMTP Authentication failed: Check email/password")
-        print(f"⚠️  FALLBACK: Verification link for {email}:")
-        verification_link = f"{BASE_URL}/api/auth/verify-email?token={token}"
+        print(f"[ERROR] SMTP Authentication failed: Check email/password")
+        print(f"[FALLBACK] Verification link for {email}:")
+        verification_link = f"{BASE_URL}{API_PREFIX}/auth/verify-email?token={token}"
         print(f"   {verification_link}")
         return False, verification_link
     except smtplib.SMTPException as e:
-        print(f"✗ SMTP error: {e}")
-        print(f"⚠️  FALLBACK: Verification link for {email}:")
-        verification_link = f"{BASE_URL}/api/auth/verify-email?token={token}"
+        print(f"[ERROR] SMTP error: {e}")
+        print(f"[FALLBACK] Verification link for {email}:")
+        verification_link = f"{BASE_URL}{API_PREFIX}/auth/verify-email?token={token}"
         print(f"   {verification_link}")
         return False, verification_link
     except Exception as e:
-        print(f"✗ Error sending verification email: {e}")
-        print(f"⚠️  FALLBACK: Verification link for {email}:")
-        verification_link = f"{BASE_URL}/api/auth/verify-email?token={token}"
+        print(f"[ERROR] Error sending verification email: {e}")
+        print(f"[FALLBACK] Verification link for {email}:")
+        verification_link = f"{BASE_URL}{API_PREFIX}/auth/verify-email?token={token}"
         print(f"   {verification_link}")
         return False, verification_link
 
@@ -90,16 +97,19 @@ def send_verification_email(email: str, name: str, token: str) -> tuple[bool, st
 def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, str]:
     """Send password reset link to user. Returns (success, link)"""
     try:
-        reset_link = f"{BASE_URL}/api/auth/reset-password?token={token}"
+        reset_link = f"{BASE_URL}{API_PREFIX}/auth/reset-password?token={token}"
 
         # In development mode, just log the link
         if DEV_MODE:
             print(f"\n{'='*60}")
-            print(f"🔐 DEV MODE: Password reset email would be sent to {email}")
+            print(f"DEV MODE: Password reset email would be sent to {email}")
             print(f"Name: {name}")
             print(f"Reset Link: {reset_link}")
             print(f"{'='*60}\n")
             return True, reset_link
+
+        if not SENDER_EMAIL or not SENDER_PASSWORD:
+            raise ValueError("SMTP credentials missing: set SENDER_EMAIL and SENDER_PASSWORD (or MAIL_USERNAME/MAIL_PASSWORD)")
 
         subject = f"Reset Your {PROJECT_NAME} Password"
         html_body = f"""
@@ -134,23 +144,23 @@ def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, 
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             server.send_message(msg)
 
-        print(f"✓ Password reset email sent to {email}")
+        print(f"[OK] Password reset email sent to {email}")
         return True, reset_link
     except smtplib.SMTPAuthenticationError:
-        print(f"✗ SMTP Authentication failed: Check email/password")
-        print(f"⚠️  FALLBACK: Password reset link for {email}:")
-        reset_link = f"{BASE_URL}/api/auth/reset-password?token={token}"
+        print(f"[ERROR] SMTP Authentication failed: Check email/password")
+        print(f"[FALLBACK] Password reset link for {email}:")
+        reset_link = f"{BASE_URL}{API_PREFIX}/auth/reset-password?token={token}"
         print(f"   {reset_link}")
         return False, reset_link
     except smtplib.SMTPException as e:
-        print(f"✗ SMTP error: {e}")
-        print(f"⚠️  FALLBACK: Password reset link for {email}:")
-        reset_link = f"{BASE_URL}/api/auth/reset-password?token={token}"
+        print(f"[ERROR] SMTP error: {e}")
+        print(f"[FALLBACK] Password reset link for {email}:")
+        reset_link = f"{BASE_URL}{API_PREFIX}/auth/reset-password?token={token}"
         print(f"   {reset_link}")
         return False, reset_link
     except Exception as e:
-        print(f"✗ Error sending password reset email: {e}")
-        print(f"⚠️  FALLBACK: Password reset link for {email}:")
-        reset_link = f"{BASE_URL}/api/auth/reset-password?token={token}"
+        print(f"[ERROR] Error sending password reset email: {e}")
+        print(f"[FALLBACK] Password reset link for {email}:")
+        reset_link = f"{BASE_URL}{API_PREFIX}/auth/reset-password?token={token}"
         print(f"   {reset_link}")
         return False, reset_link

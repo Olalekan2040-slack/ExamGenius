@@ -12,6 +12,7 @@ import random
 import uuid
 from app.db.database import get_connection
 from app.core.security import current_user_id
+from app.core.config import settings
 from app.services.ai.gemini_service import (
     generate_ai_question,
     generate_question_explanation,
@@ -72,6 +73,17 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
                 status_code=400,
                 detail=f"Invalid subjects: {', '.join(invalid)}"
             )
+
+        practice_notice = None
+        if settings.CBT_PRACTICE_WARNING:
+            cursor.execute(
+                "SELECT COUNT(*) FROM practice_attempts WHERE user_id = ?",
+                (user_id,),
+            )
+            fetch = cursor.fetchone()
+            practice_attempts = fetch[0] if fetch else 0
+            if not practice_attempts:
+                practice_notice = "No practice history found; complete topic practice before CBT for better results."
 
         # Create session record
         session_id = generate_session_id()
@@ -205,7 +217,8 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
             "total_questions": 160,
             "questions_per_subject": 40,
             "time_limit_minutes": 180,
-            "expires_at": expires_at
+            "expires_at": expires_at,
+            "notice": practice_notice
         }
 
     except HTTPException:
@@ -448,6 +461,26 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
                     explanation = f"The correct answer is {correct_answer}."
 
             is_correct = (user_answer == correct_answer)
+
+            # Log to practice_attempts for analytics (DB questions only to keep FK intact)
+            if not question_id.startswith("AI_"):
+                cursor.execute(
+                    """
+                    INSERT INTO practice_attempts (user_id, practice_type, subject, topic, question_id,
+                                                  user_answer, correct_answer, is_correct, time_spent, created_at)
+                    VALUES (?, 'cbt', ?, ?, ?, ?, ?, ?, NULL, ?)
+                    """,
+                    (
+                        user_id,
+                        subject,
+                        topic,
+                        question_id,
+                        user_answer,
+                        correct_answer,
+                        1 if is_correct else 0,
+                        datetime.utcnow().isoformat(),
+                    ),
+                )
 
             if is_correct:
                 correct_count += 1
