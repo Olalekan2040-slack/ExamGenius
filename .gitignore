@@ -223,3 +223,15 @@ docker-compose.override.yml
 # Add project-specific files below
 # /path/to/sensitive/config
 # /local/test/data
+
+# JAMB source data folder (large, not needed in repo)
+JAMB/
+
+# Static images (generated from JAMB folder)
+static/images/
+
+# Syllabus markdown files (reference only)
+syllabus/
+
+# Past questions JSON (imported to database)
+past_questions/

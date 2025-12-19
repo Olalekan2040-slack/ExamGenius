@@ -1,49 +1,114 @@
 """
-DeepSeek AI Service for ExamGenius (via OpenRouter)
+AI Service for ExamGenius (via OpenRouter)
 Handles lesson generation, question generation, and explanation generation
-Uses DeepSeek V3.2 model with reasoning capabilities
+Uses Google Gemini 2.0 Flash (FREE) model
 """
 
 import os
 import json
 import random
 import requests
+import sqlite3
 from typing import Dict, List, Optional
 from datetime import datetime
 from app.core.config import settings
 
-# Configure DeepSeek API via OpenRouter
+
+def get_syllabus_objectives(subject: str, topic: str) -> Optional[str]:
+    """
+    Fetch syllabus objectives for a topic from the database.
+    """
+    try:
+        db_path = settings.DATABASE_URL.replace("sqlite:///", "")
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        
+        # Try exact match first
+        cursor.execute(
+            "SELECT objectives FROM syllabus_topics WHERE subject = ? AND topic_name = ?",
+            (subject, topic)
+        )
+        result = cursor.fetchone()
+        
+        if not result:
+            # Try partial match
+            cursor.execute(
+                "SELECT objectives FROM syllabus_topics WHERE subject = ? AND topic_name LIKE ?",
+                (subject, f"%{topic}%")
+            )
+            result = cursor.fetchone()
+        
+        conn.close()
+        return result[0] if result else None
+    except Exception:
+        return None
+
+# Configure AI API via OpenRouter (using FREE model)
 OPENROUTER_API_KEY = settings.OPENROUTER_API_KEY
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 if not OPENROUTER_API_KEY:
     raise ValueError("OPENROUTER_API_KEY not configured in .env file")
 
+# ============================================================
+# EXAMGENIUS JAMB AI TUTOR SYSTEM PROMPT
+# ============================================================
+JAMB_TUTOR_SYSTEM_PROMPT = """You are ExamGenius, a private JAMB tutor helping Nigerian students pass JAMB.
 
-def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000, retries: int = 3) -> str:
+Your sole purpose is to explain JAMB topics and questions in a way that helps students answer questions correctly in the exam.
+
+GENERAL RULES:
+- Write in very simple English suitable for a Nigerian secondary school student.
+- Be short, clear, and practical. Avoid long explanations.
+- Do NOT teach like a textbook or lecturer.
+- Do NOT give definitions unless they help answer a JAMB question.
+- Do NOT explain history or theory unless JAMB tests it directly.
+- Do NOT use advanced grammar or academic language.
+- Do NOT greet the student or introduce yourself.
+- Do NOT use unnecessary headings or decorative formatting.
+- Avoid symbols that may not render well. Use plain math when possible.
+
+JAMB-FOCUSED RULES:
+- Always explain topics from the angle of how JAMB asks questions.
+- Clearly state what JAMB usually tests in the topic.
+- Highlight common tricks and traps used in JAMB questions.
+- Mention common mistakes students make in this topic.
+- Use real-style JAMB examples, not abstract ones.
+- If calculations are involved, show only the necessary steps.
+- Keep worked examples short and exam-focused.
+
+STYLE RULES:
+- Your tone should sound like a calm private tutor sitting beside the student.
+- Write as if the student wants to understand quickly and move on.
+- Every sentence must help the student score marks.
+
+LENGTH RULE:
+- Your full response must fit comfortably on a mobile screen.
+- If the explanation feels long, shorten it.
+
+FINAL RULE:
+- If you are unsure whether something helps in JAMB, leave it out.
+"""
+
+
+def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_tokens: int = 2000, retries: int = 4) -> str:
     """
-    Make a request to DeepSeek V3.2 via OpenRouter with retry logic
-
-    Args:
-        messages: List of message dicts with role and content
-        temperature: Model temperature (0-2)
-        max_tokens: Maximum tokens to generate
-        retries: Number of retry attempts on failure
-
-    Returns:
-        Model response text
+    Make a request to Gemini 2.0 Flash (FREE) via OpenRouter with retry logic
     """
+    import time
+    
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
+        "HTTP-Referer": "https://examgenius.ng",
+        "X-Title": "ExamGenius",
     }
 
     payload = {
-        "model": "deepseek/deepseek-v3.2",
+        "model": "google/gemini-2.0-flash-exp:free",
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
-        "reasoning": {"enabled": True}  # Enable reasoning for better quality
     }
 
     last_error = None
@@ -53,36 +118,41 @@ def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_to
                 f"{OPENROUTER_BASE_URL}/chat/completions",
                 headers=headers,
                 json=payload,
-                timeout=45,  # Increased timeout
-                verify=True  # Explicit SSL verification
+                timeout=90,  # 90 second timeout
+                verify=True
             )
+            
+            # Handle rate limiting (429)
+            if response.status_code == 429:
+                wait_time = (attempt + 1) * 8  # 8s, 16s, 24s, 32s
+                print(f"Rate limited, waiting {wait_time}s before retry...")
+                time.sleep(wait_time)
+                continue
+            
             response.raise_for_status()
 
             result = response.json()
             message = result['choices'][0]['message']
-
-            # Return just the content, reasoning is handled internally
             return message.get('content', '')
 
         except requests.exceptions.SSLError as e:
             last_error = f"SSL error: {str(e)}"
             if attempt < retries - 1:
-                import time
-                time.sleep(2)  # Wait before retry
+                time.sleep(2)
                 continue
         except requests.exceptions.Timeout as e:
             last_error = f"Timeout error: {str(e)}"
             if attempt < retries - 1:
+                time.sleep(2)
                 continue
         except requests.exceptions.RequestException as e:
             last_error = f"Request error: {str(e)}"
             if attempt < retries - 1:
-                import time
-                time.sleep(1)
+                time.sleep(3)
                 continue
         except (KeyError, IndexError, ValueError) as e:
             last_error = f"Parse error: {str(e)}"
-            break  # Don't retry parse errors
+            break
     
     raise Exception(f"OpenRouter API failed after {retries} attempts: {last_error}")
 
@@ -118,7 +188,7 @@ def make_gemini_request(messages: List[Dict], temperature: float = 0.7, max_toke
     }
 
     try:
-        response = requests.post(url, json=payload, timeout=45)
+        response = requests.post(url, json=payload, timeout=90)
         response.raise_for_status()
         data = response.json()
         candidates = data.get("candidates")
@@ -151,40 +221,62 @@ def make_ai_request(messages: List[Dict], temperature: float = 0.7, max_tokens: 
 
 def generate_topic_lesson(subject: str, topic: str, language: str = "english", sample_questions: List[Dict] = None) -> Dict:
     """
-    Generate AI lesson for a specific topic
+    Generate AI lesson for a specific topic following JAMB tutor structure.
+    Now includes syllabus objectives, JAMB patterns, and suggested questions.
 
     Args:
-        subject: Subject name (e.g., "Biology")
-        topic: Topic name (e.g., "Cell Biology")
+        subject: Subject name (e.g., "Physics")
+        topic: Topic name (e.g., "Mechanics")
         language: "english" or "pidgin"
         sample_questions: Optional list of sample questions for context
 
     Returns:
-        Dict with lesson structure: key_idea, example, steps, quick_tip, full_content
+        Dict with lesson structure including objectives and suggested questions
     """
     language_instruction = "simple English" if language == "english" else "Nigerian Pidgin English"
 
+    # Fetch syllabus objectives from database
+    syllabus_objectives = get_syllabus_objectives(subject, topic)
+    objectives_context = ""
+    if syllabus_objectives:
+        objectives_context = f"\nJAMB SYLLABUS OBJECTIVES for this topic:\n{syllabus_objectives}\n"
+
+    # Extract what JAMB actually asks from sample questions
     sample_context = ""
     if sample_questions:
-        sample_context = "\n\nHere are some sample JAMB questions on this topic for context:\n"
+        sample_context = "\nReal JAMB questions on this topic:\n"
         for i, q in enumerate(sample_questions[:3], 1):
-            sample_context += f"{i}. {q.get('question', '')}\n"
+            sample_context += f"{i}. {q.get('question', '')[:150]}...\n"
 
-    prompt = f"""You are an expert JAMB tutor for Nigerian SS3 students. Create a comprehensive lesson for the topic "{topic}" in {subject}.
+    prompt = f"""{JAMB_TUTOR_SYSTEM_PROMPT}
 
+TOPIC: {topic} ({subject})
+Use {language_instruction}.
+{objectives_context}
 {sample_context}
 
-Please structure your response in this EXACT JSON format:
+STRUCTURE FOR THIS TOPIC (follow EXACTLY this order):
+
+1. LEARNING OBJECTIVES - What you will learn (use the syllabus objectives above if provided)
+2. WHAT JAMB TESTS - Specific things JAMB asks about this topic
+3. KEY CONCEPTS - Short bullet points of must-know facts
+4. WORKED EXAMPLE - One typical JAMB question with step-by-step solution
+5. COMMON MISTAKES - 2-3 mistakes that cost students marks
+6. EXAM TIP - One quick tip to score marks
+7. QUESTIONS TO ASK - 3 good follow-up questions a student might want to ask
+
+Return as JSON:
 {{
-    "key_idea": "A 2-3 sentence summary of the core concept in {language_instruction}",
-    "example": "A clear, relatable example that SS3 students can understand",
-    "steps": "Step-by-step breakdown of how to approach problems in this topic (use numbered list)",
-    "quick_tip": "One memorable tip or mnemonic to help students remember this topic",
-    "diagrams": "List of diagram descriptions that would help illustrate this topic (if applicable)"
+    "objectives": "What you will learn from this topic (bullet points)",
+    "what_jamb_tests": "Specific patterns JAMB uses in this topic",
+    "key_concepts": "Bullet points of must-know facts",
+    "worked_example": "One worked JAMB-style example with solution",
+    "common_mistakes": "2-3 mistakes that cost marks",
+    "exam_tip": "One quick tip to score marks",
+    "suggested_questions": ["Question 1 student might ask", "Question 2", "Question 3"]
 }}
 
-Make it engaging, clear, and focused on JAMB exam requirements. Use {language_instruction} throughout.
-Return ONLY the JSON, no markdown formatting."""
+Return ONLY valid JSON, no markdown or code blocks."""
 
     try:
         response_text = make_ai_request([
@@ -192,42 +284,66 @@ Return ONLY the JSON, no markdown formatting."""
         ])
 
         lesson_text = response_text.strip()
-        # Try to parse as JSON
-        # Remove markdown code blocks if present
         if lesson_text.startswith("```json"):
-            lesson_text = lesson_text.replace(
-                "```json", "").replace("```", "").strip()
+            lesson_text = lesson_text.replace("```json", "").replace("```", "").strip()
         elif lesson_text.startswith("```"):
             lesson_text = lesson_text.replace("```", "").strip()
 
         lesson_data = json.loads(lesson_text)
 
-        # Construct full content
-        full_content = f"""**Key Idea:**
-{lesson_data.get('key_idea', 'N/A')}
+        # Ensure suggested_questions is a list
+        suggested_questions = lesson_data.get('suggested_questions', [])
+        if isinstance(suggested_questions, str):
+            suggested_questions = [q.strip() for q in suggested_questions.split('\n') if q.strip()]
+        
+        # Build mobile-friendly content with objectives first
+        full_content = f"""📚 Learning Objectives:
+{lesson_data.get('objectives', 'N/A')}
 
-**Example:**
-{lesson_data.get('example', 'N/A')}
+🎯 What JAMB Tests:
+{lesson_data.get('what_jamb_tests', 'N/A')}
 
-**Steps:**
-{lesson_data.get('steps', 'N/A')}
+💡 Key Concepts:
+{lesson_data.get('key_concepts', 'N/A')}
 
-**Quick Tip:**
-{lesson_data.get('quick_tip', 'N/A')}
-"""
+📝 Worked Example:
+{lesson_data.get('worked_example', 'N/A')}
 
+⚠️ Common Mistakes:
+{lesson_data.get('common_mistakes', 'N/A')}
+
+✅ Exam Tip:
+{lesson_data.get('exam_tip', 'N/A')}"""
+
+        # Map to expected frontend fields
         lesson_data['full_content'] = full_content
+        lesson_data['key_idea'] = lesson_data.get('what_jamb_tests', '')
+        lesson_data['steps'] = lesson_data.get('key_concepts', '')
+        lesson_data['quick_tip'] = lesson_data.get('exam_tip', '')
+        lesson_data['example'] = lesson_data.get('worked_example', '')
+        lesson_data['diagrams'] = ''
+        lesson_data['suggested_questions'] = suggested_questions[:3] if suggested_questions else [
+            f"What are the most common JAMB questions on {topic}?",
+            f"Can you explain {topic} with more examples?",
+            f"What mistakes should I avoid in {topic}?"
+        ]
+        
         return lesson_data
 
     except json.JSONDecodeError:
-        # Fallback: structure the response manually
         return {
+            "objectives": f"Understand the key concepts of {topic}",
             "key_idea": f"Understanding {topic} in {subject}",
             "example": response_text[:200] if response_text else "No example available",
             "steps": "1. Study the concept\n2. Practice questions\n3. Review mistakes",
             "quick_tip": f"Focus on understanding {topic} fundamentals",
-            "diagrams": "No diagrams available",
-            "full_content": response_text if response_text else "Lesson generation failed"
+            "diagrams": "",
+            "full_content": response_text if response_text else "Lesson generation failed",
+            "suggested_questions": [
+                f"What are the most common JAMB questions on {topic}?",
+                f"Can you explain {topic} with more examples?",
+                f"What mistakes should I avoid in {topic}?"
+            ]
         }
     except Exception as e:
         raise Exception(f"Lesson generation failed: {str(e)}")
@@ -268,7 +384,6 @@ Generate a NEW question that:
 3. Has ONE clearly correct answer
 4. Has 3 plausible but incorrect distractors
 5. Tests understanding, not just memorization
-6. Is appropriate for SS3 students
 
 Return ONLY valid JSON in this EXACT format (no markdown, no code blocks):
 {{
@@ -278,7 +393,7 @@ Return ONLY valid JSON in this EXACT format (no markdown, no code blocks):
     "option_c": "Third option",
     "option_d": "Fourth option",
     "correct_option": "A",
-    "explanation": "Brief explanation why this answer is correct",
+    "explanation": "1-2 sentence coach-style explanation: 'The trick here is...' or 'You need to remember...'",
     "diagram_required": false
 }}
 """
@@ -323,7 +438,7 @@ Return ONLY valid JSON in this EXACT format (no markdown, no code blocks):
 
 def generate_question_explanation(question: str, options: Dict, correct_answer: str, topic: str, language: str = "english") -> str:
     """
-    Generate AI explanation for a question's answer
+    Generate AI explanation for a question's answer - JAMB tutor style.
 
     Args:
         question: Question text
@@ -338,39 +453,39 @@ def generate_question_explanation(question: str, options: Dict, correct_answer: 
 
     options_text = "\n".join([f"{k}. {v}" for k, v in options.items()])
 
-    prompt = f"""You are a JAMB tutor. Explain why the correct answer is right for this question.
+    prompt = f"""{JAMB_TUTOR_SYSTEM_PROMPT}
+
+The student got this question wrong. Explain why the correct answer is right.
 
 Question: {question}
 
 Options:
 {options_text}
 
-Correct Answer: {correct_answer}. {options.get(correct_answer, '')}
+Correct Answer: {correct_answer}
 
-Topic: {topic}
+Use {language_instruction}.
 
-Provide a clear, concise explanation in {language_instruction} that:
-1. States why the correct answer is right
-2. Briefly mentions why other options are incorrect (if relevant)
-3. Links to the key concept from the topic
-4. Is 2-4 sentences maximum
+Explain in this order:
+1. Why wrong options are wrong (1 sentence)
+2. Why correct answer is correct (1-2 sentences)  
+3. Quick tip to remember (1 sentence)
 
-Return only the explanation text, no JSON, no formatting.
-"""
+Keep it short - must fit on mobile screen. No headings."""
 
     try:
         explanation = make_ai_request([
             {"role": "user", "content": prompt}
-        ])
+        ], max_tokens=300)
         return explanation.strip()
 
     except Exception as e:
-        return f"The correct answer is {correct_answer}. {options.get(correct_answer, '')} (Explanation generation failed)"
+        return f"The correct answer is {correct_answer}. Review {topic} to understand why."
 
 
 def generate_recommendations(weak_topics: List[Dict], recent_attempts: List[Dict]) -> Dict:
     """
-    Generate personalized study recommendations based on performance
+    Generate personalized study recommendations - JAMB tutor style.
 
     Args:
         weak_topics: List of weakest topics with accuracy data
@@ -384,20 +499,19 @@ def generate_recommendations(weak_topics: List[Dict], recent_attempts: List[Dict
         for t in weak_topics[:5]
     ])
 
-    prompt = f"""You are a JAMB study advisor. Based on this student's performance, create a short study recommendation.
+    prompt = f"""{JAMB_TUTOR_SYSTEM_PROMPT}
 
-Weakest Topics:
+The student has these weak topics:
 {weak_topics_text}
 
-Generate a brief recommendation in JSON format:
-{{
-    "recommended_topics": ["topic1", "topic2", "topic3"],
-    "study_plan": "Brief 2-3 sentence study plan",
-    "estimated_time": "Time estimate (e.g., '2-3 hours')"
-}}
+Give a short, direct study recommendation. What should they focus on first?
 
-Focus on the top 2-3 most critical topics. Be encouraging but realistic.
-Return ONLY the JSON."""
+Return JSON only:
+{{
+    "recommended_topics": ["topic1", "topic2"],
+    "study_plan": "2-sentence action plan",
+    "estimated_time": "30-45 mins"
+}}"""
 
     try:
         response_text = make_ai_request([
@@ -405,10 +519,8 @@ Return ONLY the JSON."""
         ])
 
         rec_text = response_text.strip()
-
         if rec_text.startswith("```json"):
-            rec_text = rec_text.replace(
-                "```json", "").replace("```", "").strip()
+            rec_text = rec_text.replace("```json", "").replace("```", "").strip()
         elif rec_text.startswith("```"):
             rec_text = rec_text.replace("```", "").strip()
 
@@ -416,11 +528,10 @@ Return ONLY the JSON."""
         return recommendations
 
     except Exception as e:
-        # Fallback
         return {
             "recommended_topics": [t.get('topic', 'Study') for t in weak_topics[:3]],
-            "study_plan": f"Focus on improving {weak_topics[0].get('topic', 'weak topics')} through targeted practice.",
-            "estimated_time": "2-3 hours"
+            "study_plan": f"Focus on {weak_topics[0].get('topic', 'weak topics')} - do 20 questions today.",
+            "estimated_time": "30-45 mins"
         }
 
 
@@ -545,7 +656,7 @@ Return ONLY the JSON array, no additional text. Format: [{{...}}, {{...}}, ...]
 
 def ask_ai_tutor(subject: str, topic: str, question: str, lesson_context: Optional[Dict] = None, chat_history: Optional[List[Dict]] = None) -> str:
     """
-    Interactive AI tutor that answers student questions about a topic
+    Interactive AI tutor that answers student questions - JAMB tutor style.
 
     Args:
         subject: Subject name
@@ -562,50 +673,38 @@ def ask_ai_tutor(subject: str, topic: str, question: str, lesson_context: Option
     lesson_info = ""
     if lesson_context:
         lesson_info = f"""
-Here's the lesson content for reference:
-- Key Idea: {lesson_context.get('key_idea', 'N/A')}
-- Example: {lesson_context.get('example', 'N/A')}
-- Steps: {lesson_context.get('steps', 'N/A')}
-- Quick Tip: {lesson_context.get('quick_tip', 'N/A')}
+Current lesson context:
+- Topic: {topic}
+- What JAMB tests: {lesson_context.get('what_jamb_tests', lesson_context.get('key_idea', 'N/A'))}
 """
 
-    # Build messages including chat history
+    # Build messages
     messages = []
 
-    # System message
+    # System message with JAMB tutor prompt
     messages.append({
         "role": "user",
-        "content": f"""You are an expert JAMB tutor for Nigerian SS3 students. 
-You are teaching about {topic} in {subject}.
+        "content": f"""{JAMB_TUTOR_SYSTEM_PROMPT}
 
+Subject: {subject}
+Topic: {topic}
 {lesson_info}
 
-Your role is to:
-1. Answer student questions clearly and concisely
-2. Give relatable examples for Nigerian students
-3. Connect answers to the lesson content
-4. Encourage understanding over memorization
-5. Use simple English when possible
+The student is asking you a question. Answer it following ALL the rules above.
+Remember: short, simple, JAMB-focused. Must fit on mobile screen.
 
-The student is now asking you a question. Answer it helpfully and in the context of {subject} - {topic}."""
+Student's question: {question}"""
     })
 
-    # Add previous messages if any
+    # Add chat history if any
     if chat_history:
         for msg in chat_history:
             messages.append(msg)
 
-    # Add current question
-    messages.append({
-        "role": "user",
-        "content": question
-    })
-
     try:
-        response = make_ai_request(
-            messages, temperature=0.7, max_tokens=1500)
+        response = make_ai_request(messages, temperature=0.7, max_tokens=400)
         return response
 
     except Exception as e:
         print(f"AI Tutor error: {e}")
-        return f"I apologize, I'm having trouble responding. Please try again. Error: {str(e)}"
+        return "Having trouble right now. Try asking again?"

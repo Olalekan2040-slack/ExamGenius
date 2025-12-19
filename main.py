@@ -5,7 +5,9 @@ Main application entry point
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from fastapi.openapi.utils import get_openapi
+import os
 
 from app.core.config import settings
 from app.api.v1.api import api_router
@@ -40,6 +42,11 @@ def create_application() -> FastAPI:
 
     # Include API v1 router
     application.include_router(api_router, prefix=settings.API_V1_PREFIX)
+
+    # Mount static files for serving question images
+    static_dir = os.path.join(os.path.dirname(__file__), "static")
+    if os.path.exists(static_dir):
+        application.mount("/static", StaticFiles(directory=static_dir), name="static")
 
     # Customize OpenAPI schema for Bearer authentication
     def custom_openapi():

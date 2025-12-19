@@ -171,30 +171,44 @@ async function showTopicLesson() {
                             <h2><i class="fas fa-lightbulb"></i> Lesson</h2>
                         </div>
                         
-                        ${data.lesson.key_idea ? `
-                            <div style="padding: 16px; background: var(--primary-yellow-light); border-radius: var(--radius-md); margin-bottom: 16px;">
-                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-key"></i> Key Idea</h3>
-                                <p style="line-height: 1.6; font-size: 13px;">${data.lesson.key_idea}</p>
+                        ${data.lesson.objectives ? `
+                            <div style="padding: 16px; background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-radius: var(--radius-md); margin-bottom: 16px; border-left: 4px solid var(--primary-blue);">
+                                <h3 style="margin-bottom: 8px; font-size: 14px; color: var(--primary-blue);"><i class="fas fa-bullseye"></i> Learning Objectives</h3>
+                                <div style="white-space: pre-wrap; line-height: 1.6; font-size: 13px;">${data.lesson.objectives}</div>
                             </div>
                         ` : ''}
                         
-                        ${data.lesson.example ? `
-                            <div style="padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); margin-bottom: 16px;">
-                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-flask"></i> Example</h3>
-                                <p style="line-height: 1.6; font-size: 13px;">${data.lesson.example}</p>
+                        ${data.lesson.key_idea ? `
+                            <div style="padding: 16px; background: var(--primary-yellow-light); border-radius: var(--radius-md); margin-bottom: 16px;">
+                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-key"></i> What JAMB Tests</h3>
+                                <p style="line-height: 1.6; font-size: 13px;">${data.lesson.key_idea}</p>
                             </div>
                         ` : ''}
                         
                         ${data.lesson.steps ? `
                             <div style="padding: 16px; background: var(--white); border: 2px solid var(--border-color); border-radius: var(--radius-md); margin-bottom: 16px;">
-                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-list-ol"></i> Steps</h3>
+                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-list-ol"></i> Key Concepts</h3>
                                 <div style="white-space: pre-wrap; line-height: 1.6; font-size: 13px;">${data.lesson.steps}</div>
+                            </div>
+                        ` : ''}
+                        
+                        ${data.lesson.example ? `
+                            <div style="padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); margin-bottom: 16px;">
+                                <h3 style="margin-bottom: 8px; font-size: 14px;"><i class="fas fa-flask"></i> Worked Example</h3>
+                                <div style="white-space: pre-wrap; line-height: 1.6; font-size: 13px;">${data.lesson.example}</div>
+                            </div>
+                        ` : ''}
+                        
+                        ${data.lesson.common_mistakes ? `
+                            <div style="padding: 16px; background: #FFF3E0; border-radius: var(--radius-md); margin-bottom: 16px; border-left: 4px solid var(--warning);">
+                                <h3 style="margin-bottom: 8px; font-size: 14px; color: #E65100;"><i class="fas fa-exclamation-triangle"></i> Common Mistakes</h3>
+                                <div style="white-space: pre-wrap; line-height: 1.6; font-size: 13px;">${data.lesson.common_mistakes}</div>
                             </div>
                         ` : ''}
                         
                         ${data.lesson.quick_tip ? `
                             <div style="padding: 16px; background: linear-gradient(135deg, var(--success) 0%, #81C784 100%); color: var(--white); border-radius: var(--radius-md); margin-bottom: 16px;">
-                                <h3 style="margin-bottom: 8px; font-size: 14px; color: var(--white);"><i class="fas fa-bolt"></i> Quick Tip</h3>
+                                <h3 style="margin-bottom: 8px; font-size: 14px; color: var(--white);"><i class="fas fa-bolt"></i> Exam Tip</h3>
                                 <p style="line-height: 1.6; font-size: 13px;">${data.lesson.quick_tip}</p>
                             </div>
                         ` : ''}
@@ -222,6 +236,21 @@ async function showTopicLesson() {
                         <div style="padding: 12px; background: var(--white); border-radius: var(--radius-md); color: var(--text-secondary); font-size: 13px;">
                             👋 Hi! I'm your AI tutor. Ask me anything about ${currentLearnState.topic}. I can explain concepts, give examples, or answer questions!
                         </div>
+                        ${data.lesson.suggested_questions && data.lesson.suggested_questions.length > 0 ? `
+                            <div style="padding: 12px; background: var(--primary-yellow-light); border-radius: var(--radius-md);">
+                                <p style="font-size: 12px; font-weight: 600; margin-bottom: 8px; color: var(--text-primary);">
+                                    <i class="fas fa-lightbulb"></i> Try asking:
+                                </p>
+                                <div style="display: flex; flex-direction: column; gap: 6px;">
+                                    ${data.lesson.suggested_questions.map(q => `
+                                        <button class="suggested-question-btn" onclick="askSuggestedQuestion('${q.replace(/'/g, "\\'")}')" 
+                                            style="text-align: left; padding: 8px 12px; background: var(--white); border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 12px; cursor: pointer; color: var(--primary-blue); transition: all 0.2s;">
+                                            <i class="fas fa-question-circle"></i> ${q}
+                                        </button>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
                     </div>
                     
                     <div style="padding: 12px; border-top: 2px solid var(--border-color);">
@@ -333,6 +362,13 @@ async function sendChatMessage() {
         typingDiv.remove();
         showToast('Failed to get response: ' + error.message, 'error');
     }
+}
+
+// Function to handle clicking on suggested questions
+function askSuggestedQuestion(question) {
+    const input = document.getElementById('chat-input');
+    input.value = question;
+    sendChatMessage();
 }
 
 async function startTopicPractice() {

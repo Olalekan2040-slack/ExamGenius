@@ -212,7 +212,7 @@ class APIService {
     async getLesson(subject, topic, language = 'english') {
         return this.request(
             `/learn/lesson/${encodeURIComponent(subject)}/${encodeURIComponent(topic)}?language=${language}`,
-            { requireAuth: true }
+            { requireAuth: true, timeoutMs: API_CONFIG.AI_TIMEOUT || 90000 }
         );
     }
 
