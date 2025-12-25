@@ -845,10 +845,7 @@ select:focus {
         max-width: 100%;
     }
 
-    .floating-card:nth-child(2) {
-        align-self: flex-start;
-    }
-
+    .floating-card:nth-child(2),
     .floating-card:nth-child(3) {
         align-self: flex-start;
     }
@@ -858,7 +855,16 @@ select:focus {
     }
 
     .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 80vw;
+        max-width: 320px;
+        z-index: 2000;
         transform: translateX(-100%);
+        transition: var(--transition);
+        box-shadow: var(--shadow-lg);
     }
 
     .sidebar.mobile-open {
@@ -867,6 +873,20 @@ select:focus {
 
     .main-content {
         margin-left: 0;
+    }
+
+    .top-bar {
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1500;
+        box-shadow: var(--shadow-md);
+        background: var(--white);
+    }
+
+    .content-area {
+        padding-top: 72px;
     }
 
     .toast-container {
