@@ -1,0 +1,1303 @@
+[
+  {
+    "id": "JAMB_Chemistry_2016_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "1",
+    "question": "In an electrochemical cell, polarization is caused by",
+    "options": {
+      "A": "Oxygen",
+      "B": "Hydrogen",
+      "C": "Tetraoxosulphate(IV) acid",
+      "D": "Chlorine"
+    },
+    "correct_answer": "B",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrochemical cells",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "2",
+    "question": "The condition required for corrosion to take place is the presence of",
+    "options": {
+      "A": "Oxygen and Carbon (IV) oxide",
+      "B": "Water and Oxygen",
+      "C": "Water and Carbon (IV) oxide and Oxygen",
+      "D": "Water and Carbon (IV) oxide"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "the conditions necessary for corrosion to take place are; 1 presence of oxygen² moisture(water)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "3",
+    "question": "The enzyme used in the hydrolysis of starch to dextrin and maltose is",
+    "options": {
+      "A": "Zymase",
+      "B": "Sucrase",
+      "C": "Amylase",
+      "D": "Lactase"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Carbohydrates",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "4",
+    "question": "In the laboratory preparation of chlorine from concentrated hydrochloric acid in the presence of potassuim tetraoxomanganate(VII) the produced is dried by passing it through",
+    "options": {
+      "A": "Concentrated tetraoxosulphate (VI) acid",
+      "B": "Anhydrous calcium chloride",
+      "C": "Calcium oxide",
+      "D": "Sodium hydroxide"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "5",
+    "question": "The monomer of nylon is",
+    "options": {
+      "A": "Hydroxybenzene",
+      "B": "Hexanedioic acid",
+      "C": "Benzene⁻¹,-4-dicarboxylic acid",
+      "D": "Ethane-1,2-diol"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Polymers and plastics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "6",
+    "question": "The principle of column chromatography is based on th ability of the constituents to",
+    "options": {
+      "A": "React with the solvent in the column",
+      "B": "React with each other in the solvent in the column",
+      "C": "Dissolve in each other in the column",
+      "D": "Move at different speeds in the column"
+    },
+    "correct_answer": "D",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Separation techniques (distillation, filtration, chromatography)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "7",
+    "question": "Ammonium chloride can be separated from its mixture with common salt by",
+    "options": {
+      "A": "Distillation",
+      "B": "Evaporation",
+      "C": "Decantation",
+      "D": "Sublimation"
+    },
+    "correct_answer": "D",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "8",
+    "question": "The ability of carbon to form long chains is referred to as",
+    "options": {
+      "A": "Alkylation",
+      "B": "Acylation",
+      "C": "Carbonation",
+      "D": "Catenation"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2016_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "9",
+    "question": "The industrial preparation of hydrogen gas from water gas is referred to as",
+    "options": {
+      "A": "Bosch process",
+      "B": "Contact process",
+      "C": "Haber process",
+      "D": "Bayer Process"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "10",
+    "question": "The relative atomic mass of a naturally occurring lithium consisting of 90%(7/3)Li and 10%(6/3)Li is",
+    "options": {
+      "A": "6.2",
+      "B": "6.8",
+      "C": "7.1",
+      "D": "6.9"
+    },
+    "correct_answer": "D",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "11",
+    "question": "The colour of litmus in an alkaline medium is",
+    "options": {
+      "A": "Red",
+      "B": "Yellow",
+      "C": "Pink",
+      "D": "Blue"
+    },
+    "correct_answer": "D",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "12",
+    "question": "The compounds CH³ CH² CHO and CH³ COCH³ can be distinguished from each other using",
+    "options": {
+      "A": "Dilute ammonia",
+      "B": "Benedict's solution",
+      "C": "Tollen's reagent",
+      "D": "Sodium hydroxide solution"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "13",
+    "question": "Which of the following statements is true about²-methylpropane and butane",
+    "options": {
+      "A": "They have different number of carbon atoms",
+      "B": "They are members of same homologous series",
+      "C": "They have the same boiling points",
+      "D": "They have different chemical properties"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "They are members of same homologous series and Isomers as well",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2016_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "14",
+    "question": "The process that requires the use of hardwater in its operation is",
+    "options": {
+      "A": "Tanning",
+      "B": "Bottling",
+      "C": "Laundry",
+      "D": "Dyeing"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "15",
+    "question": "What is the concentration of a solution containing 2g of NaOH in 100cm³ of solution? [Na=23, O=16, H=1]",
+    "options": {
+      "A": "0.05 moldm⁻³",
+      "B": "0.30 moldm⁻³",
+      "C": "0.50 moldm⁻³",
+      "D": "0.40 moldm⁻³"
+    },
+    "correct_answer": "C",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "16",
+    "question": "The radioisotope used in industrial radiography for the rapid checking of faults in welds and casting is",
+    "options": {
+      "A": "Phosphorus-32",
+      "B": "Cobalt-60",
+      "C": "Carbon-14",
+      "D": "Iodine-131"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "17",
+    "question": "The compound produced when sodium peroxide is heated with excess sodium is",
+    "options": {
+      "A": "Na² CO³",
+      "B": "Na² O",
+      "C": "NaNO²",
+      "D": "NaOH"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "18",
+    "question": "The pollutant that contributes to the depletion of the ozone layer is",
+    "options": {
+      "A": "CFCs",
+      "B": "NO²",
+      "C": "SO²",
+      "D": "CO"
+    },
+    "correct_answer": "A",
+    "topic": "8. Environmental Pollution",
+    "subtopic": "Air pollution",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "19",
+    "question": "Which of the following properties is not peculiar to matter?",
+    "options": {
+      "A": "Kinetic energy of particles increases from solid to gas",
+      "B": "Random motion of particles increases from gas to solid",
+      "C": "Orderliness of particles increases from gas to liquid",
+      "D": "Random motion of particles increases from liquid to gas"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "20",
+    "question": "Cast iron is used in making",
+    "options": {
+      "A": "Chains and agricultural implements",
+      "B": "Iron sheets and retort stand",
+      "C": "Nails and iron rods",
+      "D": "Stoves and cookers"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "21",
+    "question": "Which of the following compounds is used as a gaseous fuel?",
+    "options": {
+      "A": "CH³ -CH² -CHO² -COOH",
+      "B": "CH³ -C = CH",
+      "C": "CH³ -CH² -CH² -CH³",
+      "D": "CH² -CH² -CH³"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C₄H₁₀, which is butane, is a common and easily liquefied gaseous fuel, used in various applications like portable stoves, cigarette lighters, and as a fuel for cooking and camping.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "22",
+    "question": "The products formed when primary Alkanols are oxidized using acidified potassium tetraoxomanganate (VII) are what?",
+    "options": {
+      "A": "CH³ CH² CHO and H² O",
+      "B": "CH³ CHO and CO²",
+      "C": "CH³ CH² COOH and H²",
+      "D": "CH³ COOH and CO²"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "23",
+    "question": "Alkanols have the general molecular formula",
+    "options": {
+      "A": "C n H 2n-2",
+      "B": "C n H 2n+1 CHO",
+      "C": "C n H 2n-2 OH",
+      "D": "C n H 2n+1 OH"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "24",
+    "question": "Which of the following is not an alkali?",
+    "options": {
+      "A": "Ca(OH) 2",
+      "B": "NH³",
+      "C": "NaOH",
+      "D": "Al(OH) 3"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Al(OH)3 is not generally an alkali but is amphoteric; acting as a base and an acid when the need arises.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "25",
+    "question": "Which of the following statements is correct about the periodic table?",
+    "options": {
+      "A": "Elements in the same group have the same number of electron shells",
+      "B": "The non-metallic properties of the elements tend to decrease across each period",
+      "C": "Elements in the same period have the same number of valence electrons",
+      "D": "The valence electrons of the elements increase progressively across the period"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2016_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "26",
+    "question": "The metal whose ore can be concentrated by passing it through a magnetic separator is",
+    "options": {
+      "A": "Zn",
+      "B": "Sn",
+      "C": "Cu",
+      "D": "Ca"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "27",
+    "question": "An example of an acidic oxide is",
+    "options": {
+      "A": "NO",
+      "B": "CO",
+      "C": "SO²",
+      "D": "CuO"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "28",
+    "question": "What volume of 0.5M H₂SO₄ will exactly neutralize 20cm3 of 0.1M NaOH Solution?",
+    "options": {
+      "A": "2.0cm³",
+      "B": "5.0cm³",
+      "C": "6.8cm³",
+      "D": "8.3cm³"
+    },
+    "correct_answer": "A",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The balanced equation is given as:",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "29",
+    "question": "Diamond cannot be used",
+    "options": {
+      "A": "In making bicycle chains",
+      "B": "As abrasives",
+      "C": "In cutting glass and metals",
+      "D": "As dies for drawing wires"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "30",
+    "question": "Ethanol is soluble in water due to the presence of a",
+    "options": {
+      "A": "Carbonyl group",
+      "B": "Hydroxyl group",
+      "C": "Phenyl group",
+      "D": "Methyl group"
+    },
+    "correct_answer": "B",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "31",
+    "question": "The number of electronic shells contained in an atom with electron configuration 1S²2S²2P⁶3S²3P⁶4S² is",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To determine the number of electronic shell, first, you need to add up the electrons (the numbers at the superscript or power).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "32",
+    "question": "The drying agent suitable for drying ammonia is",
+    "options": {
+      "A": "Calcium Chloride",
+      "B": "Calcium Oxide",
+      "C": "Phosphorus(V) Oxide",
+      "D": "Concentrated H² SO 4"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "33",
+    "question": "The arrangement of particles in crystal lattices can be studied using",
+    "options": {
+      "A": "X-rays",
+      "B": "β-rays",
+      "C": "α-rays",
+      "D": "γ-rays"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "34",
+    "question": "In the extraction of iron, the waste gas from the furnace is a mixture of",
+    "options": {
+      "A": "PH³ CO and CO²",
+      "B": "CO and C",
+      "C": "N² , CO and CO²",
+      "D": "PH³ and CO"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "the N₂ from the hot air blast to burn the coke (48%), the CO (23%) and CO₂ (21%) produced from the reduction of the iron ore Fe₂O₃ by carbon (the coke) are the major components of the waste from the extraction.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "35",
+    "question": "In a neutralization reaction involving HCI and NaOH using litmus as indicator, the colour at the end point is",
+    "options": {
+      "A": "Blue",
+      "B": "Red",
+      "C": "Orange",
+      "D": "Purple"
+    },
+    "correct_answer": "D",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Neutralization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Neutral litmus paper ispurple.the result of a neutralization reaction is salt and water and hence is neutral.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "36",
+    "question": "An example of a solid emulsion is",
+    "options": {
+      "A": "Butter",
+      "B": "Hair cream",
+      "C": "Milk",
+      "D": "Cod-liver oil"
+    },
+    "correct_answer": "A",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "37",
+    "question": "An isotope has an atomic number of 15 and a mass number of 31. The number of proton it contains is",
+    "options": {
+      "A": "16",
+      "B": "15",
+      "C": "31",
+      "D": "46"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "38",
+    "question": "Calculate the volume in cm³ of oxygen evolved at s.t.p when a current of 5A is passed through acidified water for 193s? [F = 96500 C mol 1 . Molar volume of a gas at s.t.p = 22.4dm³ ]",
+    "options": {
+      "A": "0.056dm³",
+      "B": "0.224dm³",
+      "C": "224.000dm³",
+      "D": "56.000dm³"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "39",
+    "question": "The gas that is used for the treatment of cancer is",
+    "options": {
+      "A": "Neon",
+      "B": "Radon",
+      "C": "Xenon",
+      "D": "Argon"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "40",
+    "question": "A chemical reaction in which the hydration energy is greater than the lattice energy is referred to as",
+    "options": {
+      "A": "A reversible reaction",
+      "B": "A spontenous reaction",
+      "C": "An endothermic reaction",
+      "D": "An exothermic reaction"
+    },
+    "correct_answer": "D",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In salts for which the hydration energy is higher than the lattice energy, solvation occurs with a release of energy in the form of heat. A reaction in which there is a release of energy as LIGHT OR HEAT is EXOTHERMIC.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_41",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "41",
+    "question": "MnO₄(aq) + Y + 5Fe²⁺ (aq) Mn²⁺ (aq) + 5Fe³⁺ (aq) + 4H₂O (l). In the equation above, Y is",
+    "options": {
+      "A": "10H + (aq)",
+      "B": "5H + (aq)",
+      "C": "8H + (aq)",
+      "D": "4H + (aq)"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_42",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "42",
+    "question": "The compound above exhibits",
+    "options": {
+      "A": "Geometric isomerism",
+      "B": "Positional isomerism",
+      "C": "Structural isomerism",
+      "D": "Optical isomerism"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Optical isomers are molecules that are non-superimposable mirror images of each other andthey are not identical. Molecules with a chiral carbon show this kind of isomerism. Chiral carbon, also known as asymmetric carbon, refers to carbon atom that are bonded to four different atoms or groups of atoms.",
+    "images": [
+      {
+        "filename": "Chemistry_2016_q42_f2a8de78.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/22146743325_14643015_1190213497709982_844422422_n.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_43",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "43",
+    "question": "n monosaccharide {Q}{{P}{leftharpoons}} polysaccharide - n water. In the process above, P and Q respectively represent",
+    "options": {
+      "A": "Condensation and hydrolysis",
+      "B": "Fermentation and condensation",
+      "C": "Polymerization and hydrolysis",
+      "D": "Polymerization and condensation"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Carbohydrates",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_44",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "44",
+    "question": "The functional groups present in the compound above are",
+    "options": {
+      "A": "Alkene and halo-group",
+      "B": "Hydroxyl and chloro-group",
+      "C": "Alkene and chloro-group",
+      "D": "Hydroxyl and halo-group"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2016_q44_da885b8b.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/10335148215_14741793_1190213927709939_294065343_n.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_45",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "45",
+    "question": "In the diagram above, X is the",
+    "options": {
+      "A": "Enthalphy",
+      "B": "Activated complex",
+      "C": "Activation energy",
+      "D": "Enthalphy change"
+    },
+    "correct_answer": "D",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2016_q45_cc8d1f71.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/16240948460_14694681_1190214791043186_722875803_n.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_46",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "46",
+    "question": "The diagram represents",
+    "options": {
+      "A": "A spontaneous reaction",
+      "B": "An exothermic reaction",
+      "C": "A non-spontaneous",
+      "D": "An endothermic reaction"
+    },
+    "correct_answer": "B",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2016_q46_d551472c.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/tGCSo0dsSCstXqs3TpYkOIzPtSbrYAWgHVVIjyFy.png"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_47",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "47",
+    "question": "The curve depicts titration between a strong acid of pH",
+    "options": {
+      "A": "Strong acid and strong base",
+      "B": "Strong acid and weak base",
+      "C": "Weak acid and weak base",
+      "D": "Weak acid and strong base"
+    },
+    "correct_answer": "B",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Acid-base titration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2016_q47_d35e05ae.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/29529003520_14658288_1190219151042750_234961054_n.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_48",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "48",
+    "question": "From the diagram above, an ideal gas can be represented by",
+    "options": {
+      "A": "K",
+      "B": "M",
+      "C": "L",
+      "D": "N"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "see diagram in textbook",
+    "images": [
+      {
+        "filename": "Chemistry_2016_q48_d7af1a3f.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/11811602312_14686681_1190220611042604_1964644175_n.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_49",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "49",
+    "question": "CH₄(g) + CI²(g) CH² CI (s) + HCI g The major factor that influences the rate of the reaction above is",
+    "options": {
+      "A": "Concentration",
+      "B": "Catalyst",
+      "C": "Temperature",
+      "D": "Light"
+    },
+    "correct_answer": "D",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2016_50",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2016,
+    "number": "50",
+    "question": "N² O 4(aq) leftharpoons 2NO²(g) = +ve In the reaction above, an increase in temperature will",
+    "options": {
+      "A": "Increase the reactant production",
+      "B": "Increase the value of the equilibrium constant",
+      "C": "Shift the equilibrium to the left",
+      "D": "Decrease the value of the equilibrium constant"
+    },
+    "correct_answer": "B",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  }
+]

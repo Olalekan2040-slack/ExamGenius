@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "JAMB_Biology_2013_1",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "1",
+    "question": "The process in which complex substances are broken down into simpler ones is referred to as",
+    "options": {
+      "A": "anabolism",
+      "B": "catabolism",
+      "C": "metabolism",
+      "D": "tropism"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_2",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "2",
+    "question": "The organ which is sensitive to light in Euglena is the",
+    "options": {
+      "A": "gullet",
+      "B": "flagellum",
+      "C": "chloroplast",
+      "D": "eyespot"
+    },
+    "correct_answer": "D",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_3",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "3",
+    "question": "The organelles present in cells that are actively respiring and photosynthesizing are",
+    "options": {
+      "A": "lysosomes and ribosomes",
+      "B": "Golgi apparatus and endoplasmic reticulum",
+      "C": "nucleus and centrioles",
+      "D": "mitrochondria and chloroplast"
+    },
+    "correct_answer": "D",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_4",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "4",
+    "question": "Taenia solium can be found in",
+    "options": {
+      "A": "cow",
+      "B": "goat",
+      "C": "dog",
+      "D": "pig"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_5",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "5",
+    "question": "Which of the following describes a characteristic of arthropods?",
+    "options": {
+      "A": "The organism finds it easy to grow freely",
+      "B": "the organism has a pair of jointed appendages",
+      "C": "the body is not divided into a number of segments seg",
+      "D": "the body is covered by chitin"
+    },
+    "correct_answer": "D",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_6",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "6",
+    "question": "Which of the following distinguishes a butterfly from a moth?",
+    "options": {
+      "A": "the wings of butterfly rest horizontally but those of moth rest vertically",
+      "B": "Both are active during the day",
+      "C": "they have similar antennae",
+      "D": "the abdomen of moth is fatter than that of butterfly"
+    },
+    "correct_answer": "D",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Moths generally have fatter abdomens compared to butterflies. This difference is noticeable due to the moths' tendency to have shorter, thicker bodies with more hair, while butterflies are typically slenderer and longer.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_7",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "7",
+    "question": "Which of the following types of feathers is used for flight in birds?",
+    "options": {
+      "A": "Quill",
+      "B": "Filoplume",
+      "C": "covert",
+      "D": "Down"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_8",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "8",
+    "question": "The plants that grow in deserts or very dry areas are referred to as",
+    "options": {
+      "A": "mesophytes",
+      "B": "hydrophytes",
+      "C": "epiphytes",
+      "D": "xerophytes"
+    },
+    "correct_answer": "D",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_9",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "9",
+    "question": "Which of the following is the simplest living organism?",
+    "options": {
+      "A": "Paramecium",
+      "B": "Virus",
+      "C": "Amoeba",
+      "D": "Chlamydomonas"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_10",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "10",
+    "question": "Proboscis is a structure that is mostly found in",
+    "options": {
+      "A": "insects",
+      "B": "tapeworms",
+      "C": "amphibians",
+      "D": "molluses"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_11",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "11",
+    "question": "The structural adaptation of desert plants for water conservation is",
+    "options": {
+      "A": "broad leaves with numerous stomata",
+      "B": "spongy mesophyll",
+      "C": "spiny leaves",
+      "D": "prominent stomata in leaves"
+    },
+    "correct_answer": "C",
+    "topic": "E: Evolution",
+    "subtopic": "Adaptation for survival",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_12",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "12",
+    "question": "The long and sharp clawed feet of birds is an adaptation for",
+    "options": {
+      "A": "crushing seeds",
+      "B": "scooping mud",
+      "C": "tearing flesh",
+      "D": "grasping prey"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The long, sharp, clawed feet of birds are adapted for grasping and holding unto the prey, such branches, perches, or even small animals. This is especially true for birds of prey, like eagles, hawks and owls.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_13",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "13",
+    "question": "During the manufacture of food by plants, which of the following organism use energy from the sun?",
+    "options": {
+      "A": "anabaena",
+      "B": "sulfur bacteria",
+      "C": "nitrosomonas sp",
+      "D": "nitrobacter sp"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Plant kingdom (Thallophyta to Spermatophyta)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_14",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "14",
+    "question": "Movement of minerals and chemical compounds with a plant occurs during",
+    "options": {
+      "A": "osmosis",
+      "B": "translocation",
+      "C": "transpiration",
+      "D": "diffusion"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Support and movement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_15",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "15",
+    "question": "The enzyme that is present in the saliva is",
+    "options": {
+      "A": "rennin",
+      "B": "lipase",
+      "C": "pepsin",
+      "D": "ptyalin"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_16",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "16",
+    "question": "Plants that have special devices for trapping and digesting insects are",
+    "options": {
+      "A": "carnivorous",
+      "B": "symbiotic",
+      "C": "parasitic",
+      "D": "saprophytic"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_17",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "17",
+    "question": "The process of transforming the chemical energy of cellular fuels into the high energy bonds of ATP in plants is",
+    "options": {
+      "A": "autotrophism",
+      "B": "photosysnthesis",
+      "C": "photolysis",
+      "D": "respiration"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_18",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "18",
+    "question": "Fungi are referred to as hetotrophs because they",
+    "options": {
+      "A": "are filamentous",
+      "B": "lack chlorophyll",
+      "C": "have mycelium",
+      "D": "lack roots"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Monera, Protista, Fungi",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_19",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "19",
+    "question": "An example of a parasitic protozoan is",
+    "options": {
+      "A": "Paramecium",
+      "B": "Plasmodium",
+      "C": "Eughlena",
+      "D": "Chlamydomonas"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_20",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "20",
+    "question": "Which blood cell are involved in the immune response of vertebrates?",
+    "options": {
+      "A": "Phagoecytes",
+      "B": "lymphocytes",
+      "C": "erythrocytes",
+      "D": "monocytes"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_21",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "21",
+    "question": "The blood circulatory system of vertebrates consists of",
+    "options": {
+      "A": "heart, arteries, capillaries and veins",
+      "B": "heart, aorta, capillaries and veins",
+      "C": "heart, aorta, arteries and veins",
+      "D": "heart, vena cava, arteries, and veins"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Transport and circulatory system",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_22",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "22",
+    "question": "A plant tissue that carries water and mineral salts is the",
+    "options": {
+      "A": "cambium",
+      "B": "xylem",
+      "C": "cortex",
+      "D": "phloem"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_23",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "23",
+    "question": "Which of the following helps in the clotting of blood?",
+    "options": {
+      "A": "Red blood cells",
+      "B": "White blood cells",
+      "C": "Plasma",
+      "D": "Platelets"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Platelets (thrombocytes) are the blood cells that help blood clot. They are small cell fragments that circulate in the blood and are produced in bone marrow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_24",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "24",
+    "question": "The part of the mammalian skin involved in excretion is the",
+    "options": {
+      "A": "sweat glands",
+      "B": "malpighian layer",
+      "C": "sebaceous gland",
+      "D": "horny layer"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Excretion and excretory organs",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_25",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "25",
+    "question": "Which of the following forms about 55% of the volume of the blood in man?",
+    "options": {
+      "A": "leucocytes",
+      "B": "platelets",
+      "C": "plasma",
+      "D": "erythrocytes"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_26",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "26",
+    "question": "Which of the following is a waste product of an insect?",
+    "options": {
+      "A": "Alkaloids",
+      "B": "Uric acid",
+      "C": "Sweat",
+      "D": "Mucilage"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_27",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "27",
+    "question": "The main structure in vertebrates that supports and protects the body is the",
+    "options": {
+      "A": "skeleton",
+      "B": "ligament",
+      "C": "muscle",
+      "D": "joint"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_28",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "28",
+    "question": "The chitin in the exoskeleton of many arthropods is strengthened by",
+    "options": {
+      "A": "lids",
+      "B": "proteins",
+      "C": "calcium compounds",
+      "D": "organic salt"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_29",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "29",
+    "question": "The transfer of pollen grains from the anther to a sigma is",
+    "options": {
+      "A": "propagation",
+      "B": "placentation",
+      "C": "pollination",
+      "D": "fertilization"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2013_30",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "30",
+    "question": "The male reproductive organ of a flower is the",
+    "options": {
+      "A": "carpel",
+      "B": "stamen",
+      "C": "petal",
+      "D": "sepal"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_31",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "31",
+    "question": "The gland that is found just below the hypothalamus is the",
+    "options": {
+      "A": "parathyroid",
+      "B": "adrenal",
+      "C": "pituitary",
+      "D": "thyroid"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Thepituitary glandis located just below the hypothalamus. It is a small, pea-sized gland connected to the hypothalamus by a stalk, and it plays a crucial role in regulating many other endocrine glands by releasing various hormones.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_32",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "32",
+    "question": "The most important plant hormone is",
+    "options": {
+      "A": "cytokinin",
+      "B": "abscisic acid",
+      "C": "auxin",
+      "D": "gibberellin"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Auxins have a cardinal role in coordination of many growth and behavioral processes in the plant's life cycle and are essential for plant body development.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_33",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "33",
+    "question": "The sensory cell that responds to dim light is referred to as the",
+    "options": {
+      "A": "cone",
+      "B": "lens",
+      "C": "rod",
+      "D": "iris"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_34",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "34",
+    "question": "The absence of anti-diuretic hormone in humans results in",
+    "options": {
+      "A": "decreasing dehydration",
+      "B": "drastic dehydration",
+      "C": "eliminating dehydration",
+      "D": "increasing dehydration"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Too little ADH in your blood may be caused by compulsive water drinking. It can lead to severe dehydration as well.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_35",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "35",
+    "question": "Oestrogen is a hormone that is synthesized in the",
+    "options": {
+      "A": "ovaries",
+      "B": "testes",
+      "C": "anterior pituitary",
+      "D": "adrenal cortex"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_36",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "36",
+    "question": "The eye defect cause by the development of cloudy areas in the lenses is?",
+    "options": {
+      "A": "presbyopia",
+      "B": "glaucoma",
+      "C": "cataract",
+      "D": "astigmatism"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Most cataracts develop when aging or injury changes the tissue that makes up the eye's lens. Proteins and fibers in the lens begin to break down, causing vision to become hazy or cloudy. Some inherited genetic disorders that cause other health problems can increase your risk of cataracts.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_37",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "37",
+    "question": "A pollutant that is biodegradable is",
+    "options": {
+      "A": "crude oil",
+      "B": "heavy metals",
+      "C": "cellophane",
+      "D": "sewage"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_38",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "38",
+    "question": "A tropical disease caused by Trypanosoma is",
+    "options": {
+      "A": "sleeping sickness",
+      "B": "river blindness",
+      "C": "yellow fever",
+      "D": "malaria"
+    },
+    "correct_answer": "A",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_39",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "39",
+    "question": "The solid part of the ecosystem is referred to as the",
+    "options": {
+      "A": "atmosphere",
+      "B": "hydrosphere",
+      "C": "biosphere",
+      "D": "lithosphere"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_40",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "40",
+    "question": "Which of the following is caused by Treponema palladium?",
+    "options": {
+      "A": "Gonorrhea",
+      "B": "Leprosy",
+      "C": "Tuberculosis",
+      "D": "Syphilis"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_41",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "41",
+    "question": "To which blood group do universal recipients belong?",
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "O",
+      "D": "AB"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_42",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "42",
+    "question": "The clumping together of red blood cells is",
+    "options": {
+      "A": "agglutination",
+      "B": "fussion",
+      "C": "transfusion",
+      "D": "compatibility"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2013_43",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "43",
+    "question": "Physiological adaptation to very dry conditions in animals demonstrates",
+    "options": {
+      "A": "rejuvenation",
+      "B": "xeromorphism",
+      "C": "hibernation",
+      "D": "aestivation"
+    },
+    "correct_answer": "D",
+    "topic": "E: Evolution",
+    "subtopic": "Adaptation for survival",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2013_44",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "44",
+    "question": "One of adaptation of Cactus opuntia to conserve water is the reduction of",
+    "options": {
+      "A": "internodes",
+      "B": "stem to leaves",
+      "C": "leaves to spine",
+      "D": "flower size"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_45",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "45",
+    "question": "Which of the following structure is adapted for feeding in a bird of prey?",
+    "options": {
+      "A": "Hooked break and sharp claws",
+      "B": "Smooth beak and strong claws",
+      "C": "Big beaks and strong feet",
+      "D": "Pointed beak and strong claws"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_46",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "46",
+    "question": "The special pigment for colour change in chameleon is",
+    "options": {
+      "A": "melanin",
+      "B": "carotenoid",
+      "C": "chromatin",
+      "D": "chromatophore"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_47",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "47",
+    "question": "The behavioural adaptation in social insects could best be described as",
+    "options": {
+      "A": "symbiosis",
+      "B": "saprophytism",
+      "C": "parasitism",
+      "D": "commensalisms"
+    },
+    "correct_answer": "A",
+    "topic": "E: Evolution",
+    "subtopic": "Adaptation for survival",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_48",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "48",
+    "question": "In the diagram, the structure labelled II is the",
+    "options": {
+      "A": "spermathecal pore",
+      "B": "cocoon",
+      "C": "clitellum",
+      "D": "chaetea"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Biology_2013_q48_7ac8a4cf.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/14367879360_2013.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2013_49",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2013,
+    "number": "49",
+    "question": "The organism is found in soils rich in",
+    "options": {
+      "A": "mud",
+      "B": "humus",
+      "C": "clay",
+      "D": "sand"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Biology_2013_q49_4a66af88.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/21551819850_2013.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

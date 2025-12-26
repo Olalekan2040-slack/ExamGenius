@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "JAMB_Mathematics_2017_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "1",
+    "question": "Given T = even numbers from 1 to 12 N = common factors of 6, 8 and 12 Find T ∩ N",
+    "options": {
+      "A": "2, 3",
+      "B": "2, 3, 4",
+      "C": "3, 4, 6",
+      "D": "2"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "T = {evenn numbers from 1 to 12}N = {common factors of 6,8 and 12}Find T ∩ NT = {2, 4, 6, 8, 10, 12}N = {2}T ∩ N = 2 i.e value common to T & N",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "2",
+    "question": "What is the next number in the series², 1, (1/2), (1/4)...",
+    "options": {
+      "A": "(1/3)",
+      "B": "(2/8)",
+      "C": "(3/7)",
+      "D": "(1/8)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "3",
+    "question": "If U = x : x is an integer and 1 ≤ x ≤ 20 E1 = x: x is a multiple of³ E2 = x: x is a multiple of 4 and an integer is picked at random from U, find the probability that it is not in E2",
+    "options": {
+      "A": "(3/4)",
+      "B": "(3/10)",
+      "C": "(1/4)",
+      "D": "(1/20)"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}E1 = {3, 6, 9, 12, 15, 18}E2 = {4, 8, 12, 16, 20}Probability of E2 = (5/20) i.e (Total number inE₂/Entire number in set)Probability of set E2 = 1 − (5/20)= (15/20)= (3/4)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "4",
+    "question": "The curved surface area of a cylinder 5cm high is 110cm² . Find the radius of its base π = (22/7)",
+    "options": {
+      "A": "2.6cm",
+      "B": "3.5cm",
+      "C": "3.6cm",
+      "D": "7.0cm"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "5",
+    "question": "If two graphs Y = px² + q and y = 2x² − 1 intersect at x =2, find the value of p in terms of q",
+    "options": {
+      "A": "q − (8/7)",
+      "B": "7 − (q/4)",
+      "C": "8 − (q/2)",
+      "D": "7 + (q/8)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "6",
+    "question": "Evaluate (45º + 30º ) in surd form",
+    "options": {
+      "A": "(√3/2√2)",
+      "B": "√3 − (1/2)",
+      "C": "(1/2)√2",
+      "D": "(1 +√2/2)"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "7",
+    "question": "If y = x Sin x, find (dy/dx) when x = (π/2)",
+    "options": {
+      "A": "(- π/2)",
+      "B": "-1",
+      "C": "1",
+      "D": "(π/2)"
+    },
+    "correct_answer": "C",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = xsinx(dy/dx) = 1 x + x x= x + x xAt x = (π/2)= sin(π/2) + (π/2) {(π/2)}= 1 + (π/2) × 0= 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "8",
+    "question": "If temperature t is directly proportional to heat h, and when t = 20 o C, h = 50 J, find t when h = 60J",
+    "options": {
+      "A": "24 o C",
+      "B": "20 o C",
+      "C": "34 o C",
+      "D": "30 o C"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "9",
+    "question": "Evaluate 1 - ((1/5) x (2/3)) + ( 5 + (2/3))",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2(2/3)",
+      "D": "(98/15)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "10",
+    "question": "Given m = N√((SL/T)) make T the subject of the formula",
+    "options": {
+      "A": "(NSL/M)",
+      "B": "(N²SL/M²)",
+      "C": "(N²SL/M)",
+      "D": "(NSL/M²)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "M = N √((SL/T)),make T subject of formula square both sidesM² = (N²SL/T)TM² = N²SLT = (N²SL/M²)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "11",
+    "question": "Simplify³ ⁿ − ¹ × (27ⁿ ⁺ ¹/81^n)",
+    "options": {
+      "A": "3²ⁿ",
+      "B": "9",
+      "C": "3 n",
+      "D": "3 ⁿ ⁺ ¹"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3ⁿ ⁻ ¹ × (27ⁿ ⁺ ¹/81^n)= 3ⁿ ⁻ ¹ × (3³⁽ⁿ ⁺ ¹⁾/3⁴ⁿ)= 3ⁿ ⁻ ¹ ⁺ ³ⁿ ⁺ ³ − ⁴ⁿ= 3⁴ⁿ − ⁴ⁿ − ¹ ⁺ ³= 3²= 9",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "12",
+    "question": "The locus of a point which is equidistant from the line PQ forms a",
+    "options": {
+      "A": "circle centre P",
+      "B": "pair of parallel lines each opposite to PQ",
+      "C": "circle centre Q",
+      "D": "perpendicular line to PQ"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "13",
+    "question": "Given the quadrilateral RSTO inscribed in the circle with O as centre. Find the size angle x and given RST = 60 o",
+    "options": {
+      "A": "100 o",
+      "B": "140 o",
+      "C": "120 o",
+      "D": "10 o"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "o",
+    "images": [
+      {
+        "filename": "Mathematics_2017_q13_28d16171.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/21169946070_17_04.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "14",
+    "question": "Find the sum of the range and the mode of the set of numbers 10, 9, 10, 9, 8, 7, 7, 10, 8, 10, 8, 4, 6, 9, 10, 9, 7, 10, 6, 5",
+    "options": {
+      "A": "16",
+      "B": "14",
+      "C": "12",
+      "D": "10"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "15",
+    "question": "Find the sum to infinity of the series (1/4), (1/8), (1/16),..........",
+    "options": {
+      "A": "(1/2)",
+      "B": "(3/5)",
+      "C": "(-1/5)",
+      "D": "(73/12)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "16",
+    "question": "The base in which the operation was performed was",
+    "options": {
+      "A": "6",
+      "B": "2",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The operation was performed in base² because when counting in base², there are only two possible digits: 0 and 1.",
+    "images": [
+      {
+        "filename": "Mathematics_2017_q16_2fd25435.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/13609270755_17_24.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "17",
+    "question": "The value of x + x ( xx) when x = 2 is",
+    "options": {
+      "A": "16",
+      "B": "10",
+      "C": "18",
+      "D": "24"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "when x=2, we have",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "18",
+    "question": "In a regular polygon, each interior angle doubles its corresponding exterior angle. Find the number of sides of the polygon",
+    "options": {
+      "A": "8",
+      "B": "6",
+      "C": "4",
+      "D": "3"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "o",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "19",
+    "question": "A cylindrical tank has a capacity of 3080m³ . What is the depth of the tank if the diameter of its base is 14m? Take pi = 22/7.",
+    "options": {
+      "A": "23m",
+      "B": "25m",
+      "C": "20m",
+      "D": "22m"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "20",
+    "question": "Simplify 4√(27) + 5√(12) − 3√(75)",
+    "options": {
+      "A": "7",
+      "B": "− 7",
+      "C": "− 7√3",
+      "D": "7√3"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "21",
+    "question": "A man covered a distance of 50 miles on his first trip, on a later trip he traveled 300 miles while going³ times as fast. His new time compared with the old distance was?",
+    "options": {
+      "A": "three times as much",
+      "B": "the same",
+      "C": "twice as much",
+      "D": "half as much"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "22",
+    "question": "In the figure, find x",
+    "options": {
+      "A": "40 o",
+      "B": "55 o",
+      "C": "50 o",
+      "D": "60 o"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sum of angle at a point = 360o2x + 3x + 4x = 3609x = 360x = (360/9)x = 40o",
+    "images": [
+      {
+        "filename": "Mathematics_2017_q22_6dd577b4.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/3024646250_17_20.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "23",
+    "question": "Divide 4x3 - 3x + 1 by 2x - 1",
+    "options": {
+      "A": "2x² -x + 1",
+      "B": "2x² - x⁻¹",
+      "C": "2x² + x + 1",
+      "D": "2x² + x⁻¹"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "by method of long division, we get the answer.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "24",
+    "question": "A car dealer bought a second-hand car for 250,000 and spent N 70,000 refurbishing it. He then sold the car for N400,000. What is the percentage gain?",
+    "options": {
+      "A": "60%",
+      "B": "32%",
+      "C": "25%",
+      "D": "20%"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total Cost Price = N(250,000 + 70,000)= N 320,000Selling Price = N 400,000(Given)Gain = Selling Price - Cost Price= 400,000 - 320,000= 80,000% gain = (Gain/Cost Price) × 10⁰= (80,000/320,000) × 100Gain % = 25%",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "25",
+    "question": "Find the number of ways that the letters of the word EXCELLENCE be arranged",
+    "options": {
+      "A": "(10!/2!2!2!)",
+      "B": "(10!/4!2!)",
+      "C": "(10!/4!2!2!)",
+      "D": "(10!/2!2!)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "EXCELLENCEIt is a ten letter word = 10!Since we have repeating letters, we have to divide to remove the duplicates accordingly. There are 4 Es, 2 Cs, 2 Ls∴ there are(10!/4!2!2!) ways to arrange",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "26",
+    "question": "Evaluate (0.00000231/0.007) and leave the answer in standard form",
+    "options": {
+      "A": "3.3 x 10⁻⁴",
+      "B": "3.3 x 10⁻³",
+      "C": "3.3 × 10⁻⁵",
+      "D": "3.3 × 10⁻⁸"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(0.00000231/0.007) to standard form= (231 × 10⁻⁸/7 × 10⁻³)= 33 × 10⁻⁸ − ⁽−³⁾= 33 × 10− ⁸ ⁺ ³= 33 × 10⁻⁵",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "27",
+    "question": "If a rod 10cm in length was measured as 10.5cm, calculate the percentage error",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "8%",
+      "D": "7%"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "28",
+    "question": "Find the principal which amounts to ₦ 5,500 at a simple interest in 5 years at²% per annum",
+    "options": {
+      "A": "₦ 4,900",
+      "B": "₦ 5,000",
+      "C": "₦ 4,700",
+      "D": "₦ 4,000"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "29",
+    "question": "The pie chart shows the allocation of money to each sector in a farm. The total amount allocated to the farm is ₦ 80 000. Find the amount allocated to fertilizer",
+    "options": {
+      "A": "₦ 35, 000",
+      "B": "₦ 40,000",
+      "C": "₦ 25,000",
+      "D": "₦ 20,000"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2017_q29_c66429c5.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/27221866290_17_31.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "30",
+    "question": "In how many ways can the word MATHEMATICS be arranged?",
+    "options": {
+      "A": "(11!/9!2!)",
+      "B": "(11!/9!2!2!)",
+      "C": "(11!/2!2!2!)",
+      "D": "(11!/2!2!)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "MATHEMATICS is an eleven-letter word = 11!There are 2Ms and 2As and 2TsDivide the number of repeating letters= (11!/2!2!2!)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "31",
+    "question": "In how many ways can the word MACICITA be arranged?",
+    "options": {
+      "A": "(8!/2!)",
+      "B": "(8!/3! 2!)",
+      "C": "(8!/2! 2! 2!)",
+      "D": "8!"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "32",
+    "question": "y is inversely proportional to x and y is 6 when x = 7. Find the constant of the variation",
+    "options": {
+      "A": "47",
+      "B": "42",
+      "C": "54",
+      "D": "46"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Y ∝ (1/2)Y = 6, X = 7Y = (k/x) where k is constant6 = (k/7)k = 42",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "33",
+    "question": "Find the equation of the locus of a point p (x, y) such that pv = pw, where v= (1, 1) and w = (3, 5)",
+    "options": {
+      "A": "2x + 2y = 9",
+      "B": "2x + 3y = 8",
+      "C": "2x + y = 9",
+      "D": "x + 2y = 8"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "34",
+    "question": "Find ∫(x² + 3x − 5)dx",
+    "options": {
+      "A": "(x₃/3) - (3x₂/2) - 5x + k",
+      "B": "(x₃/3) - (3x₂/2) + 5x + k",
+      "C": "(x₃/3) + (3x₂/2) - 5x + k",
+      "D": "(x₃/3) + (3x₂/2) + 5x + k"
+    },
+    "correct_answer": "C",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "n",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "35",
+    "question": "In the diagram above MN is a chord of a circle KMN centre O and radius 10cm. If < MON = 140°, find, to the nearest cm, the length of the chord MN.",
+    "options": {
+      "A": "10cm",
+      "B": "19cm",
+      "C": "17cm",
+      "D": "12cm"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": "images/img_2017_mathematics_35.png",
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2017_q35_c7f5b13f.png",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/2020-02-19%20%282%29.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "36",
+    "question": "Factorize completely X2+2XY+Y2+3X+3Y-18",
+    "options": {
+      "A": "(x + y + 6)(x + y⁻³)",
+      "B": "(x - y - 6)(x - y + 3)",
+      "C": "(x - y + 6)(x - y - 3)",
+      "D": "(x + y - 6)(x + y + 3)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x² + 2xy + y² + 3x + 3y - 18x² + 2xy + 3x + y² + 3y -18x² + 2xy - 3x + 6x + y² -3y + 6y -18x² + 2xy -3x + y² -3y + 6x + 6y -18x² + xy -3x + xy + y² - 3y + 6x + 6y -18x(x + y - 3) + y(x + y - 3) + 6(x + y - 3)= (x + y - 3)(x + y + 6)= (x + y + 6)(x + y⁻³)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "37",
+    "question": "Make S the subject of the relation p = s + (sm²/nr)",
+    "options": {
+      "A": "s = (nrp/nr + m²)",
+      "B": "s = nr + (m²/mrp)",
+      "C": "s = (nrp/mr) + m²",
+      "D": "s = (nrp/nr) + m²"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "p = s + (sm²/nr)p = s + ( 1 + (m²/nr))p = s (1 + (nr + m²/nr))nr × p = s (nr + m2)s = (nrp/nr + m²)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "38",
+    "question": "The operation * on the set R of real number is defined by x * y = 3x + 2y − 1, find³* − 1",
+    "options": {
+      "A": "9",
+      "B": "- 9",
+      "C": "6",
+      "D": "- 6"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "39",
+    "question": "Find the gradient of the line joining the points (3, 2) and (1, 4)",
+    "options": {
+      "A": "3/2",
+      "B": "2/1",
+      "C": "-1",
+      "D": "3/2"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "40",
+    "question": "Simplify (³√(64a³))⁻¹",
+    "options": {
+      "A": "4a",
+      "B": "(1/8a)",
+      "C": "8a",
+      "D": "(1/4a)"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(³√(64a³))⁻¹(1/(³√(64a³)))= (1/4a)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "41",
+    "question": "If (2 √3 - √2/√3 + 2 √2) = m + n √6, find the values of m and n respectively",
+    "options": {
+      "A": "1, − 2",
+      "B": "− 2, n = 1",
+      "C": "(-2/5), 1",
+      "D": "(2/3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "42",
+    "question": "If α and β are the roots of the equation 3x2 + 5x - 2 = 0, find the value of 1/α + 1/β",
+    "options": {
+      "A": "(-5/3)",
+      "B": "(-2/3)",
+      "C": "(1/2)",
+      "D": "(5/2)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1/α + 1/β = β+α/αβ3x2 + 5x - 2 = 0x2 + 5x/3 - 2/3 = 0αβ =⁻²/3β+α = -5/3Thus; β+α/αβ =⁻²/3⁻²/3 = -5/2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "43",
+    "question": "Find the range of the following set of numbers 0.4, −0.4, 0.3, 0.47, −0.53, 0.2 and −0.2",
+    "options": {
+      "A": "1.03",
+      "B": "0.07",
+      "C": "0.03",
+      "D": "1.0"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "44",
+    "question": "Evaluate 1 − ((1/5) x 1(2/3)) + (5 + 1(2/3))",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "(22/3)",
+      "D": "3(2/3)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1 − ((1/5) x 1(2/3)) + (5 + 1(2/3))1 − ((1/5) x (5/3)) + (5 + (5/3))1 − (1/3) + (20/3)= (22/3)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2017_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2017,
+    "number": "45",
+    "question": "What is the product of 2x² − x + 1 and³ − 2x",
+    "options": {
+      "A": "4x³ − 8x² + 5x + 3",
+      "B": "−4x³ + 8x² − 5x + 3",
+      "C": "−4x³ − 8x² + 5x + 3",
+      "D": "4x³ + 8x² − 5x + 3"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

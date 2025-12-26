@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "JAMB_Chemistry_2013_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "1",
+    "question": "The presence of an impurity in substance will cause the melting point to",
+    "options": {
+      "A": "be zero",
+      "B": "reduce",
+      "C": "increase",
+      "D": "be stable"
+    },
+    "correct_answer": "B",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Boiling and melting points",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Impurities disrupt the repeating pattern of forces that holds the solid together. So a smaller amount of energy is required to melt the part of the solid surrounding the impurity. If less energy is required, then this explains the melting point depression (lowering) observed from impure solids. The more impure the solid is, the more the structure is disrupted and the greater the variation in intermolecular forces in different areas of the solid.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "2",
+    "question": "What volume of carbon (ll) oxide is produced by reacting excess carbon with 10 dm³ of oxygen?",
+    "options": {
+      "A": "5 dm³",
+      "B": "20 dm³",
+      "C": "15 dm³",
+      "D": "10 dm³"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "3",
+    "question": "The radioisotope used in industrial radiography for the rapid checking of faults in welds and casting is",
+    "options": {
+      "A": "carbon-14",
+      "B": "phosphorus-32",
+      "C": "cobalt-60",
+      "D": "iodine-131"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "4",
+    "question": "The shape of the carbon (lV) oxide molecule is",
+    "options": {
+      "A": "pyramidal",
+      "B": "linear",
+      "C": "angular",
+      "D": "tetrahedral"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Molecular shapes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "5",
+    "question": "Which of the following molecules is held together by hydrogen bond?",
+    "options": {
+      "A": "CH₄",
+      "B": "HBr",
+      "C": "H² SO 4",
+      "D": "HF"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Chemical bonding (ionic, covalent, metallic)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "HF is held by hydrogen bonding.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "6",
+    "question": "The bond formed between two elements with electron configurations 1s² 2s² 2p 6 3s² and 1s² 2s² 2p 4 is",
+    "options": {
+      "A": "metallic",
+      "B": "covalent",
+      "C": "dative",
+      "D": "ionic"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "7",
+    "question": "The constituent of air that acts as a diluent is",
+    "options": {
+      "A": "nitrogen",
+      "B": "carbon (IV) oxide",
+      "C": "noble gases",
+      "D": "oxygen"
+    },
+    "correct_answer": "A",
+    "topic": "5. Air",
+    "subtopic": "Composition of air",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "8",
+    "question": "Steam changes the colour of anhydrous cobalt (ll) chloride from",
+    "options": {
+      "A": "white to red",
+      "B": "blue to white",
+      "C": "blue to pink",
+      "D": "white to blue"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "9",
+    "question": "An example of a hygroscopic substance is",
+    "options": {
+      "A": "CuO (S).",
+      "B": "MgCL²(S).",
+      "C": "CaCL²(S).",
+      "D": "NaOH (S)."
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "10",
+    "question": "The solvent used for removing grease stain is",
+    "options": {
+      "A": "turpentine",
+      "B": "ammonia solution",
+      "C": "ethanol",
+      "D": "solution of borax in water"
+    },
+    "correct_answer": "B",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "11",
+    "question": "In a water body, too much sewage leads to",
+    "options": {
+      "A": "a decrease in the temperature of the water which cause in death of aquatic animals",
+      "B": "an increase in the number of aquatic animals in the water",
+      "C": "an increase in the bacterial population which reduces the level of oxygen in the water",
+      "D": "a decrease in the bacterial population which increases the level of oxygen in the water"
+    },
+    "correct_answer": "C",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "12",
+    "question": "10.0 dm³ of water was added to².0 mol dm⁻³ of².5dm³ solution of HCl. What is the concentration of the final solution in mol dm⁻³ ?",
+    "options": {
+      "A": "0.4",
+      "B": "8.0",
+      "C": "2.0",
+      "D": "0.5"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "13",
+    "question": "Three drops of a 1.0 mol dm⁻³ solution of HCl was added to 20 cm³ of a solution of pH6.4. The pH of the resulting solution will be",
+    "options": {
+      "A": "close to that of pure water",
+      "B": "less than 6.4",
+      "C": "greater than 6.4",
+      "D": "unaltered"
+    },
+    "correct_answer": "B",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "14",
+    "question": "Which of the following substances is not a salt?",
+    "options": {
+      "A": "Aluminium oxide",
+      "B": "Sodium hydrogentrioxosulphate (V)",
+      "C": "Sodium trioxocarbonate (V)",
+      "D": "Zinc chloride"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "15",
+    "question": "An insoluble salt can be prepared by",
+    "options": {
+      "A": "the reaction of trioxocarbonate (V) with an acid",
+      "B": "double decomposition",
+      "C": "the action of dilute acid on an insoluble base",
+      "D": "the reaction of metals with an acid"
+    },
+    "correct_answer": "B",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Salt preparation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "16",
+    "question": "2H² O (l) + 2F²(g) → 4HF (aq) + O²(g) . In the reaction above, the substance that is being reduced is",
+    "options": {
+      "A": "O²(g)",
+      "B": "H² O (l)",
+      "C": "F² (g)",
+      "D": "HF (aq)"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(2)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "17",
+    "question": "In an electrochemical cell, polarization is caused by",
+    "options": {
+      "A": "chlorine",
+      "B": "oxygen",
+      "C": "tetaoxsulphate (Vl) acid",
+      "D": "hydrogen"
+    },
+    "correct_answer": "D",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrochemical cells",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "18",
+    "question": "In an endothermic reaction, if there is a loss in entropy the reaction will",
+    "options": {
+      "A": "be indeterminate",
+      "B": "be spontaneous",
+      "C": "not be spontaneous",
+      "D": "be at equilibrium"
+    },
+    "correct_answer": "C",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "19",
+    "question": "the minimum amount of energy required for a reaction to take place is",
+    "options": {
+      "A": "lattice energy",
+      "B": "ionization energy",
+      "C": "activation energy",
+      "D": "kinetic energy"
+    },
+    "correct_answer": "C",
+    "topic": "12. Energy Changes",
+    "subtopic": "Bond energy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "20",
+    "question": "Which of the following compounds is a neutral oxide?",
+    "options": {
+      "A": "Carbon (IV) oxide",
+      "B": "Sulphur (Vl) oixide",
+      "C": "Sulphur (IV) oxide",
+      "D": "Carbon (ll) oxide"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "21",
+    "question": "In the laboratory preparation of ammonia, the flask is placed in a slanting position so as to",
+    "options": {
+      "A": "prevent condensed water from breaking the reaction flask",
+      "B": "enable the proper mixing of the reactions in the flask",
+      "C": "enhance the speed of the reaction",
+      "D": "prevent formation of precipitate"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Nitrogen and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "During the preparation of ammonia,NH₃ the flask is in slanting position in order to prevent the condensed water formed during the reaction from the reaction flask.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "22",
+    "question": "Which of the gases is employed as an anaesthesia?",
+    "options": {
+      "A": "N² O",
+      "B": "NO²",
+      "C": "NH³",
+      "D": "NO"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "23",
+    "question": "Sulphur (IV)oxide is a strong reducing agent in the presence of water due to the formation of",
+    "options": {
+      "A": "hydroxide ion",
+      "B": "sulpgur (Vl)oxide",
+      "C": "hydrogen sulhide",
+      "D": "trioxosulphate (IV) salt"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "24",
+    "question": "A metal that forms soluble trioxosulphate (IV) ion is",
+    "options": {
+      "A": "barium",
+      "B": "potassium",
+      "C": "manganese",
+      "D": "aluminium"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "25",
+    "question": "Copper is displaced from the solution of its salts by most metals because it",
+    "options": {
+      "A": "is a transition element",
+      "B": "is at the bottom of the activity series",
+      "C": "is very reactive",
+      "D": "has completely filled 3d-orbitals"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Copper",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "26",
+    "question": "The coloured nature of transition metal ions are associated with their partially filled",
+    "options": {
+      "A": "f- orbital",
+      "B": "s- orbital",
+      "C": "p-orbital",
+      "D": "d-orbital"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "27",
+    "question": "Aluminium containers are frequently used to transport trioxonitrate (V) acid because aluminium",
+    "options": {
+      "A": "has a silvery-white appearance",
+      "B": "has a low density",
+      "C": "does not react with the acid",
+      "D": "does not corrode"
+    },
+    "correct_answer": "C",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Acid-base titration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "28",
+    "question": "2- methylpropan-2-ol is an example of a",
+    "options": {
+      "A": "dihydric alkanol",
+      "B": "tertiary alkanol",
+      "C": "secondary alkanol",
+      "D": "primary alkanol"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "29",
+    "question": "The reaction between ammonia and ethyl ethanoate produces",
+    "options": {
+      "A": "propanol and ethanamide",
+      "B": "propanol and propanamide",
+      "C": "ethanol and propanamide",
+      "D": "ethanol and ethanamide"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "30",
+    "question": "The decarboxylation of ethanoic acid will produce carbon (IV)oxide and",
+    "options": {
+      "A": "methane",
+      "B": "ethane",
+      "C": "propane",
+      "D": "butane"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanoic acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "31",
+    "question": "A primary amide is generally represented by the formula",
+    "options": {
+      "A": "RCOOR",
+      "B": "RCONH²",
+      "C": "RCONHR",
+      "D": "RCONR²"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "32",
+    "question": "Which of the following fraction is used as raw material for the cracking process?",
+    "options": {
+      "A": "kerosine",
+      "B": "lubricating oil",
+      "C": "bitumen",
+      "D": "diesel oils"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Petroleum and petrochemicals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "33",
+    "question": "An organic compound contains 60% carbon, 13.3% hydrogen and 26.7% oxygen. Calculate the empirical formula rn(C=12,H =1, O=16)",
+    "options": {
+      "A": "C 5 H 12 O",
+      "B": "C³ H 8 O",
+      "C": "C 6 H 13 O²",
+      "D": "C 4 H 9 O"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "34",
+    "question": "From the diagram above, an ideal gas is represented by",
+    "options": {
+      "A": "Z",
+      "B": "W",
+      "C": "X",
+      "D": "Y"
+    },
+    "correct_answer": "A",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q34_f40e2b1e.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/27072398406_co.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "35",
+    "question": "In the graph above, the activation energy of the catalyzed reaction is",
+    "options": {
+      "A": "100KJ",
+      "B": "300KJ",
+      "C": "250KJ",
+      "D": "200KJ"
+    },
+    "correct_answer": "A",
+    "topic": "12. Energy Changes",
+    "subtopic": "Bond energy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the graph above, the activation energy of the catalyzed reaction is shown by the curve with the broken lines. Tracing it to the peak of the hump and extrapolating, we have 200kJ. However, to find the activation energy, it is the difference between the energy of the peak of the hump and energy of the reactant.",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q35_5700ad79.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/25647537150_c3.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "36",
+    "question": "Choose the correct option from the graph above . 3Fe (S) + 4H² O (g) ⇌ Fe³ O 4(s) + 4H²(g) . The equilibrium constant, K, of the reaction above is represented as",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Equilibrium constant",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q36_ba2e2459.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/11398920680_c2.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "37",
+    "question": "The IUPAC nomenclature for the compound above is",
+    "options": {
+      "A": "4-methylpent-1-ene",
+      "B": "3-methylpent-2-ene",
+      "C": "2-methylpent-1ene",
+      "D": "2-methylpent-4-ene"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The IUPAC name of the compound in question is 4-methylpent-1-ene.",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q37_fd977752.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/12823799112_co5.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "38",
+    "question": "Use the above option to answer this question. The dehydration of ammonium salt of alkanoic acids produces a compound with the general formula",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanoic acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q38_4da647c5.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/24222734495_co2.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "39",
+    "question": "Use the following option above to answer this question. Which of the following compounds in solution will turn red litmus paper blue?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "RNH₂, a general representation for an amine, turns red litmus paper blue because amines are basic in nature. When an amine is dissolved in water, it acts as a base, accepting a proton (H+) and forming a conjugate acid and a hydroxide ion (OH-). The presence of hydroxide ions makes the solution alkaline, and alkaline solutions turn red litmus paper blue.",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q39_59c09737.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/17098558632_co6.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "40",
+    "question": "The compound above is an",
+    "options": {
+      "A": "alkanone",
+      "B": "alkanoate",
+      "C": "alkanal",
+      "D": "akanol"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2013_q40_0695163b.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/7124336895_co.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_41",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "41",
+    "question": "How many unpaired electron are in the p-orbitals of a fluorine atom?",
+    "options": {
+      "A": "3",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_42",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "42",
+    "question": "The radioactive emission with the least ionization power is",
+    "options": {
+      "A": "α - particles",
+      "B": "X-rays",
+      "C": "γ -rays",
+      "D": "β - rays"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2013_43",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "43",
+    "question": "Zn (s) + CuSO 4(aq) ZnSO 4(aq) + Cu (s) In the reaction above, the oxidizing agent is",
+    "options": {
+      "A": "CuSO 4(aq)",
+      "B": "ZnSO 4(aq)",
+      "C": "Cu (s)",
+      "D": "Zn (s)"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2013_44",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2013,
+    "number": "44",
+    "question": "2SO²(g) + O²(g) 2SO³(g) H = -395.7kJmol⁻¹ In the reaction above, the concentration of 2SO³(g) can be in creased by",
+    "options": {
+      "A": "decreasing the pressure",
+      "B": "decreasing the temperature",
+      "C": "the addition of catalyst",
+      "D": "increasing the temperature"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  }
+]

@@ -1,0 +1,1043 @@
+[
+  {
+    "id": "JAMB_Economics_2020_1",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "1",
+    "question": "Scarcity in economics means?",
+    "options": {
+      "A": "human wants are limitless",
+      "B": "the economy has very few resources",
+      "C": "the economy can scarcely produce anything",
+      "D": "resources are limited in relation to wants"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Scarcity in economics means the available resources needed to satisfy human wants are limited, hence people are required to judiciously or efficiently allocate the scarce resources to meet the needs of society.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_2",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "2",
+    "question": "Economics is often described as a social science because?",
+    "options": {
+      "A": "laboratory experiments are performed",
+      "B": "It makes use of controlled experiments",
+      "C": "It uses scientific methods to explain an observed phenomenon and predict future events",
+      "D": "It makes use of fieldwork"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economics is considered a social science because it uses scientific methods to build theories that can help explain the behaviour of individuals, groups and organisations.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Public Corporations and Parastatals",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_3",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "3",
+    "question": "Which of the following is an example of an invisible item on the balance of payments account",
+    "options": {
+      "A": "shipping and aviation",
+      "B": "exports and imports",
+      "C": "merchandise",
+      "D": "Bullion"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "Balance of payments and exchange rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Invisible balance of payments are services and other products that do not result in the transfer of physical objects. Examples include consulting services, shipping services, tourism, and patent license revenues.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_4",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "4",
+    "question": "A major factor affecting the value of money is the?",
+    "options": {
+      "A": "price level",
+      "B": "banking habits",
+      "C": "transaction motive",
+      "D": "divisible nature of money"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The prevailing price level is one of the major factors that affect the value of money. A rise or decline in prices of goods and services has a direct effect on the value of money.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_5",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "5",
+    "question": "The Nigerian bank for commerce and industry is?",
+    "options": {
+      "A": "a commercial bank",
+      "B": "a development bank",
+      "C": "an industrial bank",
+      "D": "a merchant bank"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Development banks are specialized banks that provide medium and long-term finance to the industrial and agricultural sectors. The Nigerian bank for commerce and industry is an example of a development bank. It provides loans and finances for entities involved in the industrial and agricultural sectors.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_6",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "6",
+    "question": "To control inflation, the monetary authorities of a country can",
+    "options": {
+      "A": "reduce taxes",
+      "B": "advise the government to increase its expenditure",
+      "C": "engage in expansive monetary policies",
+      "D": "engage in restrictive monetary policies"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Governments can use a contractionary monetary policy to fight inflation by reducing the money supply within an economy through reduced bond prices and increased interest rates.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Public Corporations and Parastatals",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_7",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "7",
+    "question": "Which of the following is used by the central bank to control the rate of interest",
+    "options": {
+      "A": "bill of exchange",
+      "B": "banker's order",
+      "C": "fixed deposit account",
+      "D": "open market operation"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The open market operation refers to when the central bank buys or sells government securities to the public. This is done to control the flow of money in the country as well as control the rates of interest.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_8",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "8",
+    "question": "What form of market is found in an imperfect competition where there are few buyers and many sellers",
+    "options": {
+      "A": "monopoly",
+      "B": "oligopoly",
+      "C": "duopoly",
+      "D": "oligopsony"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Market structures (perfect competition, monopoly, oligopoly)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Oligopsony is a market structure consisting of a large number of sellers but a few buyers. Sellers have little negotiation power and compete to sell their goods and services to a handful of buyers.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_9",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "9",
+    "question": "A budget with a projected revenue in excess of its expenditure is said to be?",
+    "options": {
+      "A": "balanced",
+      "B": "surplus",
+      "C": "deficit",
+      "D": "inflationary"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A surplus budget is a budget whose revenues exceed the estimated expenditure in a particular financial year.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_10",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "10",
+    "question": "In order to raise more revenue for a certain period, the government should impose higher taxes on goods whose demand",
+    "options": {
+      "A": "elastic",
+      "B": "inelastic",
+      "C": "perfectly elastic",
+      "D": "unitary elastic"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "High taxes should be imposed on goods whose demand is inelastic.",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_11",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "11",
+    "question": "If aggregate income is N500.00 and aggregate consumption is N400.00, this means that the average propensity to consume is?",
+    "options": {
+      "A": "0.20",
+      "B": "0.80",
+      "C": "1.25",
+      "D": "2.00"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The average propensity to consume (APC) measures the percentage of income that is spent rather than saved.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_12",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "12",
+    "question": "The group of unemployed members of a community who are physically handicapped or disable, is generally classified under unemployment as?",
+    "options": {
+      "A": "frictional",
+      "B": "cyclical",
+      "C": "residual",
+      "D": "hidden"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Residual unemployment is the type of unemployment that occurs in periods of full employment, as a result of being mentally, physically, or emotionally unfit to work.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_13",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "13",
+    "question": "Collectivism refers to the management of state enterprises in a?",
+    "options": {
+      "A": "mixed economy",
+      "B": "co-operative organizations",
+      "C": "capitalist economic system",
+      "D": "socialist economy"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Collectivism is a political-economic theory that advocates for a collective control of resources, especially over production and distribution. It is the opposite of individualism which seeks individual ownership of production factors",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2020_14",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "14",
+    "question": "Efficiency in production means?",
+    "options": {
+      "A": "reducing the size of the work force",
+      "B": "producing a given output with the lowest cost of combination of factors of production",
+      "C": "adoption of capital intensive technology",
+      "D": "increasing the quantity of the fixed factors of production"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Efficiency of production means that an entity is operating at maximum capacity, where a firm is focused more on increasing the quantity being manufactured while reducing cost.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2020_15",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "15",
+    "question": "In economic life, the choice among alternatives depends on the?",
+    "options": {
+      "A": "income of the decision maker",
+      "B": "scarcity of resources",
+      "C": "the scale of preference of the decision-maker",
+      "D": "status of the decison maker"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_16",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "16",
+    "question": "The law of diminishing marginal utility indicates that if a consumer increases his consumption of a commodity continously",
+    "options": {
+      "A": "total utility must fall",
+      "B": "marginal utility must fall",
+      "C": "marginal utility may rise",
+      "D": "marginal utility may fall even though his total utility may be rising"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The law of diminishing marginal utility states that as a consumer consumes an item or a product, the satisfaction or utility that they derive from the product reduces as they consume more and more of that product.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_17",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "17",
+    "question": "Which of the following rewards is associated with entrepreneurship",
+    "options": {
+      "A": "salaries",
+      "B": "profits",
+      "C": "interest",
+      "D": "rent"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The reward for entrepreneurship is profit. Profit is described as the financial benefit gotten when the revenue generated from a business activity exceeds the expenses, costs, and taxes paid.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_18",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "18",
+    "question": "Which of the following is likely to be inflationary",
+    "options": {
+      "A": "taxes increase",
+      "B": "increase in unemployment",
+      "C": "budget surplus",
+      "D": "wages increase"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Inflation and deflation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Increment in wages and salaries will lead to inflation. This happens when business owners raise the minimum wage, leading to a corresponding rise in the prices of their goods or services, thereby causing inflation.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_19",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "19",
+    "question": "The relationship between the tax rate and income which is relevant to progressive tax is shown by?",
+    "options": {
+      "A": "curve X",
+      "B": "curve Y",
+      "C": "curve Z",
+      "D": "curve X and Z"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2020_q19_a3ffa59f.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/U8RsdHBi1f4EhP1obhOucrG3ztDmKgnQGJRGcCI0.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_20",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "20",
+    "question": "The relationship between tax rate and income which is relevant to a proportional tax is depicted by?",
+    "options": {
+      "A": "curve Z and Y",
+      "B": "curve X",
+      "C": "curve Z",
+      "D": "curve Y"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2020_q20_2dc2d9a3.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/dEua38njA9Z4U4lMBSRPFWNCSm1uT8jb28RPo9Ca.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_21",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "21",
+    "question": "Fiduciary issue is that part of?",
+    "options": {
+      "A": "the issue of notes backed entirely by gold",
+      "B": "a country's currency that is not negotiable",
+      "C": "the issue of notes not backed by gold",
+      "D": "a country's currency officially issued"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The fiduciary issue is that portion of a note issued by the government that is not matched by government holdings of gold or other securities or that part of a note that lacks the backing of metal or coin or assets capable of being converted into coin.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_22",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "22",
+    "question": "The type of business finances that entitles the holder to a fixed rate of dividend is?",
+    "options": {
+      "A": "preference stock",
+      "B": "common stock",
+      "C": "debentures",
+      "D": "bank loan"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Business organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A debenture is a long-term debt security issued by a company and secured against assets, to raise capital for a business. The holder of a debenture is entitled to a fixed rate of interest at the maturity of the debt.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_23",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "23",
+    "question": "A company's expenditure on raw materials is regarded as?",
+    "options": {
+      "A": "explicit cost",
+      "B": "implicit cost",
+      "C": "prime cost",
+      "D": "average cost"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Explicit costs are direct payments incurred by a firm in the course of running a business. These are costs actual and physical costs incurred by a firm. Examples of explicit costs include wages, lease payments, utilities, raw materials, and other direct costs.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_24",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "24",
+    "question": "Firms are often set up close to each other in order to take advantage of?",
+    "options": {
+      "A": "supply of skilled labour",
+      "B": "agglomeration economies",
+      "C": "internal economies of scale",
+      "D": "external economies of scale"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_25",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "25",
+    "question": "A situation in which a commodity is sold abroad below its cost of production in the home country is known as?",
+    "options": {
+      "A": "dumping",
+      "B": "counter trade",
+      "C": "trade liberalization",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dumping is a term used to describe a market situation where an exporter firm sells its product in an international market for a price lesser than its cost of production in the home country.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_26",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "26",
+    "question": "The problem of conducting census include",
+    "options": {
+      "A": "high rate of rural-urban migration",
+      "B": "poor geographical distribution of population",
+      "C": "high birth rate in the country",
+      "D": "poor town planning in urban areas"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_27",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "27",
+    "question": "The factor of production that has the highest degree of mobility is?",
+    "options": {
+      "A": "land",
+      "B": "labour",
+      "C": "capital",
+      "D": "entrepreneur"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Labour has the highest mobility, that is why people easily move from one place to another or switch jobs with ease",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_28",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "28",
+    "question": "In recent times, agriculture in Nigeria tends to lose its vital labour force as a result of?",
+    "options": {
+      "A": "lack of an effective agricultural policy",
+      "B": "employment opportunities in the agricultural sector",
+      "C": "rural-urban drift",
+      "D": "low prices of agricultural products"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Rural-urban drift is a situation where the desire for better employment, business opportunities, and education pushes both young and old out of theruralareas to the urban areas. This is one of the major problems facing the agricultural sector in Nigeria",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_29",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "29",
+    "question": "The most important goal of OPEC is to?",
+    "options": {
+      "A": "present a united front for the purpose of raise prices of crude oil",
+      "B": "bring unity among the petroleum exporting countries",
+      "C": "ensure political stability among member states",
+      "D": "ensure that rules on quota production are strictly followed"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2020_30",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "30",
+    "question": "Plywood industries are often located near the source of?",
+    "options": {
+      "A": "finance",
+      "B": "labour",
+      "C": "power supply",
+      "D": "raw materials"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A plywood firm would be located near the source of its raw materials to ensure easy access to the materials, before selling to its target.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2020_31",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "31",
+    "question": "When a country's population is experiencing increasing returns, that country is said to be?",
+    "options": {
+      "A": "overpopulated",
+      "B": "economically poor",
+      "C": "over-producing goods and services",
+      "D": "under-populated"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Increasing returns occur when the output increases in a greater proportion than the increase in input. Now, when a country population is experiencing increasing returns, it means its population is rising and may get to a point where it becomes over populated.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_32",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "32",
+    "question": "The most important attribute of money is?",
+    "options": {
+      "A": "homogeneity",
+      "B": "relative scarcity",
+      "C": "divisibility",
+      "D": "general acceptance"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The most distinctive attribute of money is its widely acceptance as a means of final payment for goods and servicesby all.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_33",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "33",
+    "question": "The use of legally permissible means to reduce tax liabilities is known as tax?",
+    "options": {
+      "A": "evasion",
+      "B": "avoidance",
+      "C": "relief",
+      "D": "exemption"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Tax relief is any government program or policy initiative that is designed to reduce the amount of taxes paid by individuals or businesses.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_34",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "34",
+    "question": "The Economic Commission for Africa was set up by the?",
+    "options": {
+      "A": "UNO",
+      "B": "ECOWAS",
+      "C": "OAU",
+      "D": "IMF"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "ECA was established by the Economic and Social Council of the United Nations (UN) in 1958 as one of the UN's five regional commissions.",
+    "predicted_topics": [
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_35",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "35",
+    "question": "One of the techniques of monetary control used by the central bank of Nigeria is",
+    "options": {
+      "A": "selective credit control",
+      "B": "budget deficit",
+      "C": "foreign exchange control",
+      "D": "monitoring the general price level"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Foreign exchange control is the procedure by which a government intervenes in the foreign exchange market, banning or restricting sales and purchases of local currencies by non-residents as well as sales and purchases of foreign currencies by residents. This is one of the techniques used by the central bank for its monetary policies.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_36",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "36",
+    "question": "Crude petroleum is a good example of a",
+    "options": {
+      "A": "lasting asset",
+      "B": "wasting asset",
+      "C": "synthetic product",
+      "D": "costless resources"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_37",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "37",
+    "question": "A major effect of a long distribution chain is",
+    "options": {
+      "A": "scarcity of commodities",
+      "B": "high retail",
+      "C": "low retails prices",
+      "D": "low producer earnings"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_38",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "38",
+    "question": "One of the major criticism of the 1962 -1968 National Development Plan was that?",
+    "options": {
+      "A": "it failed to incorporate lessons gained from earlier plans to enhance its efficiency",
+      "B": "it came too quickly after the country's independence",
+      "C": "planned expenditure was based too heavily on expected earnings from crude oil",
+      "D": "its execution was based largely on foregn-sourced financial resources"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2020_39",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "39",
+    "question": "Utility is the satisfaction derived from?",
+    "options": {
+      "A": "production",
+      "B": "distribution",
+      "C": "consumption",
+      "D": "demand"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Utility in economics refers to the total satisfaction received from consuming a good or service.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2020_40",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2020,
+    "number": "40",
+    "question": "Economic growth is different from economic development because economic growth",
+    "options": {
+      "A": "describes expansion and changes",
+      "B": "is measurable but not objective",
+      "C": "describes expansion and not change",
+      "D": "is not measurable but objective"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economic Growth is the increase in the real output of the country in a particular span of time. It has to do with the expansion (growth) of the economy.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  }
+]

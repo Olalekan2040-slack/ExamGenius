@@ -1,0 +1,1883 @@
+[
+  {
+    "id": "JAMB_Physics_2018_1",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "1",
+    "question": "A man walks 1km due east and then 1 km due north His displacement?",
+    "options": {
+      "A": "√2km N 45°E",
+      "B": "1km N 30°E",
+      "C": "1km N 15°E",
+      "D": "√2km N 60°E"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "His movements 1km due east and then 1 km due north make a Right-Angled Triangle."
+  },
+  {
+    "id": "JAMB_Physics_2018_2",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "2",
+    "question": "The density of 400cm³ of palm oil was 0.9gcm⁻³ before frying. If the density of the oil was 0.6gcm⁻³ after frying, assuming no loss of oil due to spilling, its new volume was?",
+    "options": {
+      "A": "1360cm³",
+      "B": "600cm³",
+      "C": "240cm³",
+      "D": "8000m³"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Density= (mass/volume)"
+  },
+  {
+    "id": "JAMB_Physics_2018_3",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "3",
+    "question": "Natural radioactivity consists of the emission of",
+    "options": {
+      "A": "α- particles and β-rays",
+      "B": "α- particles and X-rays",
+      "C": "α- particles, β - rays and y-rays",
+      "D": "γ- rays and X-rays"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Radioactivity is the spontaneous emission of radiation from atomic nuclei. This radiation can consist of alpha, beta, and gamma radiation."
+  },
+  {
+    "id": "JAMB_Physics_2018_4",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "4",
+    "question": "Which of the following is true of an electrical charge?",
+    "options": {
+      "A": "Positive charge means deficit electrons",
+      "B": "Negative charge means excess of electrons",
+      "C": "electric current means movement of electrons",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_5",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "5",
+    "question": "Which of the following does NOT describe the Image formed by a plane minor?",
+    "options": {
+      "A": "Erect",
+      "B": "Laterally inverted",
+      "C": "Same distance from mirror as object",
+      "D": "Magnified"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The image formed by a plane mirror is always virtual (the light rays do not actually come from the image), upright, and of the same shape and size as the object it is reflecting."
+  },
+  {
+    "id": "JAMB_Physics_2018_6",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "6",
+    "question": "What is the resultant resistance of the circuit in the image shown?",
+    "options": {
+      "A": "8Ω",
+      "B": "11Ω",
+      "C": "4Ω",
+      "D": "3.6Ω"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "First, the two²-Ω resistors are in parallel",
+    "images": [
+      {
+        "filename": "Physics_2018_q6_425d9d99.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/g7YHENr7akuQdsE9gSK5zrYIb9PCVBj3kA1y7yLz.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_7",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "7",
+    "question": "Which of the following best describes the energy changes which take place when a steam engine drives a generator which lights a lamp?",
+    "options": {
+      "A": "heat ----> Light----> Sound ----> Kinetic",
+      "B": "Kinetic ----> Light ----> Heat ----> Electricity",
+      "C": "heat ----> Kinetic ----> Electricity ----> Heat and Light",
+      "D": "electricity ----> Kinetic ----> Heat ----> Light"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Change of state",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The steam engine uses the Heat supplied from steam to supply kinetic energy into the generator which converts it to electricity to light the lamp, the lamp gives out light and heat as it works"
+  },
+  {
+    "id": "JAMB_Physics_2018_8",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "8",
+    "question": "Cathode rays are",
+    "options": {
+      "A": "High-energy electromagnetic waves",
+      "B": "protons",
+      "C": "neutrons",
+      "D": "streams of electrons"
+    },
+    "correct_answer": "D",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2018_9",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "9",
+    "question": "A narrow beam of white light can be split up into different Colours by a glass prism. The correct explanation is that",
+    "options": {
+      "A": "white light Is an electromagnetic wave",
+      "B": "the prism has all the colours of the white light",
+      "C": "different colours of white light travel with different speeds in glass",
+      "D": "white light has undergone total Internal reflection in the prism"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Light reflection",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_10",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "10",
+    "question": "The diagram shown represents a block-and-tackle pulley system on which an effort of W Newtons supports a load of 120.0N. If the efficiency of the machine is 40, then the value of W is?",
+    "options": {
+      "A": "28.0",
+      "B": "48.0N",
+      "C": "233.0N",
+      "D": "50.0N"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Newton's laws of motion",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given Data:",
+    "images": [
+      {
+        "filename": "Physics_2018_q10_63465c4c.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/IqCOoigqxCYJZHDD7mLVrZYd78puZDY75dghlC1O.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_11",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "11",
+    "question": "What type of reaction is represented by the following scheme? ₁ ² X + ₁ ² Y -----> ₂ ³ Z + ₀ ¹ n + energy",
+    "options": {
+      "A": "fusion reaction",
+      "B": "fission reaction",
+      "C": "Chain reaction",
+      "D": "radioactive decay"
+    },
+    "correct_answer": "A",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_12",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "12",
+    "question": "The amount of heat needed to raise the temperature of 10kg of Copper by 1K is its",
+    "options": {
+      "A": "specific heat capacity",
+      "B": "latent heat",
+      "C": "heat capacity",
+      "D": "internal energy"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Theheat capacityof a defined system is the amount of heat (usually expressed in calories, kilocalories, or joules) needed to raise the system's temperature by one degree (usually expressed in Celsius or Kelvin)."
+  },
+  {
+    "id": "JAMB_Physics_2018_13",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "13",
+    "question": "The electrochemical equivalent of silver is 0.0012g/C. If 36.0g of silver is to be deposited by electrolysis on a surface by passing a steady current for 5mins, the current must be?",
+    "options": {
+      "A": "6000A",
+      "B": "100A",
+      "C": "10A",
+      "D": "1A"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given Data: Mass of Ag = 36.0g,"
+  },
+  {
+    "id": "JAMB_Physics_2018_14",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "14",
+    "question": "Shadows and eclipses result from the",
+    "options": {
+      "A": "refraction of light",
+      "B": "reflection of light",
+      "C": "defraction of light",
+      "D": "rectilinear propagation of light"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_15",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "15",
+    "question": "Which of the following obeys Ω's law?",
+    "options": {
+      "A": "all metals",
+      "B": "diode only",
+      "C": "all electrolytes",
+      "D": "glass"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_16",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "16",
+    "question": "Which of the following statements are TRUE of isotopes? I. Isotopes of an element have the same chemical properties because they have the same number of electrons II. Isotopes of elements are normally separated using physical properties III. Isotopes of an element have the same number of protons in their nuclei",
+    "options": {
+      "A": "I and II only",
+      "B": "I and III only",
+      "C": "II and III only",
+      "D": "I, II and III"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Change of state",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Which of the following statements are TRUE of isotopes?I. Isotopes of an element have the same chemical properties because they have the same number of electronsII. Isotopes of elements are normally separated using physical propertiesIII. Isotopes of an element have the same number of protons in their nuclei",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_17",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "17",
+    "question": "In the diagram given the hanging mass m² is adjusted until m 1 is on the verge of sliding. The coefficient of static",
+    "options": {
+      "A": "(m₁/m₂)",
+      "B": "(m₁g/m₂)",
+      "C": "(m₂/m₁)",
+      "D": "(m₂g/m₁)"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Physics_2018_q17_f47b6716.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/EwBuLkB969RgdE1hCsDt8lH40HtMukRDcTS6lxjj.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_18",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "18",
+    "question": "Which of the following may be used to explain a mirage? I. Layers of air near the road surface have varying refractive indices in hot weather II. Road surfaces sometimes becomes invisible in hot weather III. Light from the sky can be refracted upwards after coming close to the road surface.",
+    "options": {
+      "A": "I and III only",
+      "B": "II and III only",
+      "C": "II only",
+      "D": "I, II and III"
+    },
+    "correct_answer": "A",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_19",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "19",
+    "question": "In the diagram given if the atmospheric pressure is 760mm, the pressure in the chamber G Is",
+    "options": {
+      "A": "660mm",
+      "B": "830mm",
+      "C": "690mm",
+      "D": "860mm"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Physics_2018_q19_8aed448a.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/wJKFlZqGEodlysu7BuFeW7obhzkNDrxChMK9inUv.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_20",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "20",
+    "question": "Which of the following has the lowest internal resistance when new?",
+    "options": {
+      "A": "Leclanche cell",
+      "B": "Daniell cell",
+      "C": "Torch battery",
+      "D": "Accumulator"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_21",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "21",
+    "question": "The pitch of an acoustic device can be increased by",
+    "options": {
+      "A": "decreasing the loudness",
+      "B": "increasing the intensity",
+      "C": "increasing the frequency",
+      "D": "decreasing the intensity"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_22",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "22",
+    "question": "One of the features of the fission process is that",
+    "options": {
+      "A": "it leads to chain reaction",
+      "B": "its products are not radioactive",
+      "C": "neutrons are not released",
+      "D": "the of the masses of the reactants equals the sum of the masses of the products"
+    },
+    "correct_answer": "A",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_23",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "23",
+    "question": "The linear expansivity of brass is² x 10⁻⁵ C⁻¹. If the volume of a piece of brass is 15.00cm at 0°C, what is the volume at 100°C",
+    "options": {
+      "A": "16.03cm³",
+      "B": "15.09cm³",
+      "C": "16.00cm³",
+      "D": "15.03cm³"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Volume Expansivity γ = 3α"
+  },
+  {
+    "id": "JAMB_Physics_2018_24",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "24",
+    "question": "A lead bullet of mass 0.05 kg is fired with a velocity of 200 m/s into a lead block of mass 0.95 kg. Given that the lead block can move freely, the final kinetic energy after impact is",
+    "options": {
+      "A": "150J",
+      "B": "",
+      "C": "50J",
+      "D": "200J"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "From the law of conservation of linear momentum,"
+  },
+  {
+    "id": "JAMB_Physics_2018_25",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "25",
+    "question": "In a series R-L-C circuit at resonance, the voltages across the resistor and the inductor are 30V and 40V respectively. What is the voltage across the capacitor?",
+    "options": {
+      "A": "30V",
+      "B": "70V",
+      "C": "50V",
+      "D": "40V"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "At resonance in a series R-L-C circuit, the voltage across the capacitor equals that across the inductor. Given V_L = 40V, the voltage across the capacitor (V_C​) is also40V."
+  },
+  {
+    "id": "JAMB_Physics_2018_26",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "26",
+    "question": "If the fraction of the atoms of a radioactive material left after 120years is (1/64), what is the half-life of the material? (1/64)",
+    "options": {
+      "A": "20 years",
+      "B": "10 years",
+      "C": "2 years",
+      "D": "24 years"
+    },
+    "correct_answer": "A",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_27",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "27",
+    "question": "In the diagram shown, which of the simple pendulum will resonate with P when set into oscillation?",
+    "options": {
+      "A": "U",
+      "B": "T",
+      "C": "R and T",
+      "D": "Q and R"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Simple machines",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Physics_2018_q27_1dd62fc8.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/wMaUUnvjjP7He9q3u9bpWUYnxYlVmSBamYVCDhlw.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_28",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "28",
+    "question": "The time rate of loss of heat by a body is proportional to the",
+    "options": {
+      "A": "temperature of its surroundings",
+      "B": "temperature of the body",
+      "C": "difference in temperature between the body and its surroundings",
+      "D": "ratio of the temperature of the body to that of its surroundings"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_29",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "29",
+    "question": "A positively charged rod X is brought near an uncharged metal sphere Y and is then touched by a finger with X still in place. When the finger is removed, the result is that Y has",
+    "options": {
+      "A": "no charge and a zero potential",
+      "B": "a positive charge and a zero potential",
+      "C": "a negative charge and a positive potential",
+      "D": "a negative charge and a negative potential"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When a positively charged rod X is brought near an uncharged metal sphere Y, it induces a separation of charges. The side of the sphere near the rod becomes negatively charged as electrons are attracted to it, while the far side becomes positively charged."
+  },
+  {
+    "id": "JAMB_Physics_2018_30",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "30",
+    "question": "Electrical appliances in homes are normally earthed so that",
+    "options": {
+      "A": "a person touching the appliances is safe from electric shock",
+      "B": "both the a.c. and d.c. sources can be used",
+      "C": "the appliances are maintained at a higher pd than the earth",
+      "D": "the appliances are maintained at a lower pd than the earth"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Earthing keeps the metal body of an appliance atearth potential (0 V). If a live wire touches the casing, current flows to the ground, preventing electric shock."
+  },
+  {
+    "id": "JAMB_Physics_2018_31",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "31",
+    "question": "The process whereby a liquid turns spontaneously into vapour is called",
+    "options": {
+      "A": "regelation",
+      "B": "evaporation",
+      "C": "boiling",
+      "D": "sublimation"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_32",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "32",
+    "question": "The differences observed in solids, liquids and gases may be accounted for by",
+    "options": {
+      "A": "their relative masses",
+      "B": "their melting points",
+      "C": "the spacing and forces acting between the molecules",
+      "D": "the different molecules in each of them"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_33",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "33",
+    "question": "Convex mirrors are used as driving mirrors because images formed are",
+    "options": {
+      "A": "erect, Virtual and diminished",
+      "B": "erect, real and diminished",
+      "C": "erect, virtual and magnified",
+      "D": "inverted, virtual and diminished"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_34",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "34",
+    "question": "Musical instruments playing the same note can be distinguished from one another owing to the difference in their",
+    "options": {
+      "A": "quality",
+      "B": "pitch",
+      "C": "intensity",
+      "D": "loudness"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "subtopic": "Lenses and optical instruments",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": ". Sound \"quality\" or \"timbre\" describes those characteristics of sound which allow the ear to distinguish sounds which have the same pitch and loudness."
+  },
+  {
+    "id": "JAMB_Physics_2018_35",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "35",
+    "question": "In the diagram shown, If the south-poles of two magnets stroke a steel bar, the polarities at T and V will respectively be",
+    "options": {
+      "A": "north and south",
+      "B": "south and south",
+      "C": "north and north",
+      "D": "south and north"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Physics_2018_q35_0d9d0f7e.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/ahiOLBw0OxakPWBxSST6CwTbakRqPSLRwRQ22jpj.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_36",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "36",
+    "question": "In homes, electrical appliances and lamps are connected in parallel because",
+    "options": {
+      "A": "less current will be used",
+      "B": "less voltage will be used",
+      "C": "parallel connection does not heat up the wires",
+      "D": "series connection uses high voltage"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_37",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "37",
+    "question": "An object moves in a circular path of radius 0.5m with a speed of 1ms⁻¹. What is its angular velocity?",
+    "options": {
+      "A": "8rads⁻¹",
+      "B": "4rads⁻¹",
+      "C": "1rads⁻¹",
+      "D": "2rads⁻¹"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Circular motion",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_38",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "38",
+    "question": "What effort will a machine of efficiency 90% apply to a load of 180N if its efforts arm is twice as long as its load arm?",
+    "options": {
+      "A": "100N",
+      "B": "90N",
+      "C": "80N",
+      "D": "120N"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given:- Load W = 180 \\, N - Efficiency η = 90\\% = 0.9 - Let the effort E be applied."
+  },
+  {
+    "id": "JAMB_Physics_2018_39",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "39",
+    "question": "Calculate the effective capacitance of the circuit in the diagram given",
+    "options": {
+      "A": "4μf",
+      "B": "3μf",
+      "C": "2μf",
+      "D": "1μf"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The three 2µf capacitors from the left are parallel. Therefore, effective capacitance in parallel = 6µf",
+    "images": [
+      {
+        "filename": "Physics_2018_q39_3185ec2f.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/14EVPqLnn9iSaRQD9jSiSwfqS59ZLdxLzdHexmz6.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_40",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "40",
+    "question": "The inner diameter of a small test tube can be measured accurately using a",
+    "options": {
+      "A": "Micrometres screw gauge",
+      "B": "Pair of dividers",
+      "C": "Metre rule",
+      "D": "Pair of vernier calliper"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A vernier scale is a visual aid to take an accurate measurement reading between two graduation markings on a linear scale by using mechanical interpolation; thereby increasing resolution and reducing measurement"
+  },
+  {
+    "id": "JAMB_Physics_2018_41",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "41",
+    "question": "A pulley system has three pulleys in the fixed block and two in the movable block and if the pulley has an efficiency of 72%, the mechanical advantage of the system is?",
+    "options": {
+      "A": "36.0",
+      "B": "7.2",
+      "C": "5.0",
+      "D": "3.6"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mechanical Advantage = V.R × Efficiency"
+  },
+  {
+    "id": "JAMB_Physics_2018_42",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "42",
+    "question": "When an atom loses or gain a charge it becomes",
+    "options": {
+      "A": "An electron",
+      "B": "An ion",
+      "C": "A neutron",
+      "D": "A proton"
+    },
+    "correct_answer": "B",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If an atom gains or loses an electron, it becomes an ion. An atom that gains a negative electron, it becomes a negative ion. If it loses an electron it becomes a positive ion"
+  },
+  {
+    "id": "JAMB_Physics_2018_43",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "43",
+    "question": "A ball of mass 800g moving horizontally with a speed of 5m/s hits a vertical wall and rebounds with the same speed. The impulse experienced by the ball is?",
+    "options": {
+      "A": "0kgm",
+      "B": "2kgm/s",
+      "C": "4kgm/s",
+      "D": "8kgm/s"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Momentum and impulse",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Initial momentum = (0.8) × (5)"
+  },
+  {
+    "id": "JAMB_Physics_2018_44",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "44",
+    "question": "The force between the molecules of a liquid in contact with that of a solid is?",
+    "options": {
+      "A": "Adhesive",
+      "B": "Cohesive",
+      "C": "Magnetic",
+      "D": "Repulsive"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The term Adhesive forcesrefers to the attractiveforcesbetween unlike substance"
+  },
+  {
+    "id": "JAMB_Physics_2018_45",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "45",
+    "question": "A body of mass 100g moving with a velocity of 10ms-1 collides with a wall. If after collision it moves with a velocity of².0ms−1 in the opposite direction, calculate the change in momentum.",
+    "options": {
+      "A": "0.8Ns",
+      "B": "1.2Ns",
+      "C": "12.0Ns",
+      "D": "80.0Ns"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Momentum and impulse",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Momentum = Mass x VelocityChange in Momentum = Mass x (change in velocity)Change in Momentum = Mass x (v - u)Mass = 100g = 0.1kgU = 2ms⁻¹V = 10ms⁻¹Change in momentum = m (v − u)= 0.1 (2 -(- 10))= 0.1 (12)= 1.2Ns"
+  },
+  {
+    "id": "JAMB_Physics_2018_46",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "46",
+    "question": "A 20kg mass is to be pulled up a slope inclined at 30° to the horizontal. If efficiency of the plane is 75%. The force required to pull the load up the plane is J [g=10ms− ²]",
+    "options": {
+      "A": "87N",
+      "B": "73.5N",
+      "C": "133.3N",
+      "D": "533.2N"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "V. R = (1/Sinθ)"
+  },
+  {
+    "id": "JAMB_Physics_2018_47",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "47",
+    "question": "The tendency of a body to remain at rest when a force is applied to it is called.",
+    "options": {
+      "A": "Impulse",
+      "B": "Momentum",
+      "C": "Inertia",
+      "D": "Friction"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Inertia, property of a body by virtue of which it opposes any agency that attempts to put it in motion or, if it is moving, to change the magnitude or direction of its velocity. Inertia is a passive property and does not enable a body to do anything except oppose such active agents as forces and torques. A moving body keeps moving not because of its inertia but only because of the absence of a force to slow it down, change its course, or speed it up.There are two numerical measures of the inertia of a body: its mass, which governs its resistance to the action of a force, and its moment of inertia about a specified axis, which measures its resistance to the action of a torque about the same axis."
+  },
+  {
+    "id": "JAMB_Physics_2018_48",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "48",
+    "question": "An object is placed 20cm from a concave mirror of focal length 10cm. The linear magnification of the image produced is?",
+    "options": {
+      "A": "0",
+      "B": "(1/2)",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(I/V) = (1/f) – (1/u)"
+  },
+  {
+    "id": "JAMB_Physics_2018_49",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "49",
+    "question": "The energy needed to move a unit positive charge around a complete electric circuit is called the",
+    "options": {
+      "A": "electromotive force",
+      "B": "electric potential difference",
+      "C": "electric energy",
+      "D": "kinetic energy"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The energy needed to move a unit positive charge around a complete electric circuit is indeed referred to asElectromotive Force (EMF)."
+  },
+  {
+    "id": "JAMB_Physics_2018_50",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "50",
+    "question": "A force of 5N acts at a point Y on a rod XYZ as shown in this diagram. If XYZ is 2m, what is the moment of the force about point X?",
+    "options": {
+      "A": "0Nm",
+      "B": "3Nm",
+      "C": "7Nm",
+      "D": "10Nm"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "using the formular :",
+    "images": [
+      {
+        "filename": "Physics_2018_q50_d565be45.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/Z7FyOxkaWmrSBaGl6tDy5saVv3BKspPVDAYAM6EF.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2018_51",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "51",
+    "question": "The resistance of a 40W car head lamp, drawing current from a 12V battery is ____.",
+    "options": {
+      "A": "0.3Ω",
+      "B": "3.3Ω",
+      "C": "3.6Ω",
+      "D": "4.8Ω"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Power delivered to head lamp = (V₂/R)"
+  },
+  {
+    "id": "JAMB_Physics_2018_52",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "52",
+    "question": "A beam of light is incident from air to water at an angle of 30^o. Find the angle of refraction if the refractive index of water is 4/3",
+    "options": {
+      "A": "15^o",
+      "B": "18^o",
+      "C": "22^o",
+      "D": "24^o"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Light refraction",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "X = (4/3) r = ?"
+  },
+  {
+    "id": "JAMB_Physics_2018_53",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "53",
+    "question": "An electric heating coil rated at 1Kw is used to heat 2kg of water for² minutes. The initial water temperature is 30^oC. Taking the specific heat of the water as 4,000Jkg ⁻¹ and neglecting that of the container, the final water temperature is",
+    "options": {
+      "A": "15.0^oC",
+      "B": "45.0^oC",
+      "C": "60.0^oC",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Power = 1kw=100W"
+  },
+  {
+    "id": "JAMB_Physics_2018_54",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "54",
+    "question": "What flows to the positively charged conductor by connecting it to the earth?",
+    "options": {
+      "A": "Electrons",
+      "B": "Ion",
+      "C": "Neutron",
+      "D": "Proton"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Earthacts as a ground of zero potential. So when a positively chargedconductoris connected to theearth, positive charge flows into theearthand as a result, electrons flow fromearthto theconductor."
+  },
+  {
+    "id": "JAMB_Physics_2018_55",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "55",
+    "question": "Temperature is the property of a body which is proportional to the ____.",
+    "options": {
+      "A": "total kinetic energy of its molecules",
+      "B": "average kinetic energy of its molecules",
+      "C": "average speed of its molecules",
+      "D": "maximum speed of its molecules"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The last postulate of the kinetic molecular theory states that the average kinetic energy of agasparticle depends only on the temperature of thegas. Thus, the average kinetic energy of thegasparticles increases as thegasbecomes warmer."
+  },
+  {
+    "id": "JAMB_Physics_2018_56",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "56",
+    "question": "The product of force and time is?",
+    "options": {
+      "A": "Impulse",
+      "B": "Momentum",
+      "C": "Inertia",
+      "D": "Friction"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An impulse is equal to the net force on the object times the time period over which this force is applied. Impulse is derive from the equation F = ma, which comes from Newton's second law of motion"
+  },
+  {
+    "id": "JAMB_Physics_2018_57",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "57",
+    "question": "Which of the following concepts is not an evidence of the particles nature of matter?",
+    "options": {
+      "A": "Diffusion",
+      "B": "Brownian motion",
+      "C": "Diffraction",
+      "D": "Esterification"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Diffusion is the net movement of molecules/atoms from a region of high concentration to low concentration."
+  },
+  {
+    "id": "JAMB_Physics_2018_58",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "58",
+    "question": "A solid cube of side 50cm and mass 75kg floats in a liquid with (1/3) of its height above the liquid surface. The relative density of the liquid is?",
+    "options": {
+      "A": "0.33",
+      "B": "0.50",
+      "C": "0.67",
+      "D": "0.90"
+    },
+    "correct_answer": "D",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Volume of liquid displaced"
+  },
+  {
+    "id": "JAMB_Physics_2018_59",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "59",
+    "question": "A man hears his echo from a nearby hill 2s after he shouted. If the frequency of his voice is 260Hz and the wavelength is 1.29m, how far away is the hill?",
+    "options": {
+      "A": "330.0m",
+      "B": "335.4m",
+      "C": "660.0m",
+      "D": "670.8m"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Recall V = F × λ"
+  },
+  {
+    "id": "JAMB_Physics_2018_60",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "60",
+    "question": "Which of the following is an essential physical property of the wires uses for making fuses ?",
+    "options": {
+      "A": "Low density",
+      "B": "Hypothermal conductivity",
+      "C": "Low electrical resistivity",
+      "D": "Low melting point"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Fuse wires have a low melting point so that if a huge amount of current is passed through it to any appliance than that wire would melt and stop the appliance from getting damaged by not letting the current pass any further."
+  },
+  {
+    "id": "JAMB_Physics_2018_61",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "61",
+    "question": "A 40W instrument has a resistance 90 Ohms. On what voltage should it be operated normally",
+    "options": {
+      "A": "60V",
+      "B": "150V",
+      "C": "225V",
+      "D": "360V"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = 40W"
+  },
+  {
+    "id": "JAMB_Physics_2018_62",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "62",
+    "question": "Mercury which is spilled onto a glass surface forms ball-like shapes because____.",
+    "options": {
+      "A": "Mercury is a metal",
+      "B": "The cohesive force between its molecules is greater than the adhesive force between mercury and glass molecules",
+      "C": "The cohesive force between its molecules is less than the adhesive force between mercury and glass molecules",
+      "D": "The viscosity of mercury is height"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In case of small drops of mercury, the gravitational potential energy is negligible in comparison to the potential energy due to surface tension.Consequently, to keep the drop in equilibrium, the mercury drop’s surface tends to contract so that its surface area will be the least for a sphere and the drops will be spherical."
+  },
+  {
+    "id": "JAMB_Physics_2018_63",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "63",
+    "question": "Water of mass 150g at 60^oc is added to 300g of water at 20^oc and the mixture is well stirred. Calculate the temperature of the mixture.(neglect heat losses to the surroundings)",
+    "options": {
+      "A": "33^oc",
+      "B": "40^oc",
+      "C": "25^oc",
+      "D": "10^oc"
+    },
+    "correct_answer": "A",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Water 1 => M = 150g = 0.15kg,"
+  },
+  {
+    "id": "JAMB_Physics_2018_64",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "64",
+    "question": "Which of the following phenomena is the practical evidence for the existence of the continual motion of molecules.",
+    "options": {
+      "A": "Transitional Motion",
+      "B": "Rotational Motion",
+      "C": "Brownian Motion",
+      "D": "Oscillatory Motion"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Brownian motion, also called Brownian movement, any of various physical phenomena in which some quantity is constantly undergoing small, random fluctuations.If a number of particles subject to Brownian motion are present in a given medium and there is no preferred direction for the random oscillations, then over a period of time the particles will tend to be spread evenly throughout the medium."
+  },
+  {
+    "id": "JAMB_Physics_2018_65",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "65",
+    "question": "The process by which protons are converted into helium atoms with a tremendous release of energy is called?",
+    "options": {
+      "A": "thermionic emission",
+      "B": "nuclear fission",
+      "C": "thermonuclear fusion",
+      "D": "photoelectric emission"
+    },
+    "correct_answer": "C",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Thermonuclear fusionis the process that occurs when two atoms combine to make a larger atom, creating a whole lot of energy.Fusionalready happens naturally in stars — including the sun — when intense pressure and heat fuse hydrogen atoms together, generating helium and energy."
+  },
+  {
+    "id": "JAMB_Physics_2018_66",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "66",
+    "question": "Which of the following is not a product of nuclear fusion?",
+    "options": {
+      "A": "X – ray",
+      "B": "Y –ray",
+      "C": "α – particles",
+      "D": "neutron"
+    },
+    "correct_answer": "A",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Nuclear reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Y – Ray is a penetrating electro-magnetic radiation.α – particle is produced in the process of alpha decay.Neutron is a sub-atomic particle."
+  },
+  {
+    "id": "JAMB_Physics_2018_67",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "67",
+    "question": "A room is heated by means of a charcoal fire, an occupants of the room standing away from the fire is warmed mainly by",
+    "options": {
+      "A": "Convection",
+      "B": "Radiation",
+      "C": "Conduction",
+      "D": "Reflection"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Radiation refers to the transmission of energy as electromagnetic radiation from its emission at a heated surface to its absorption on another surface, a process requiring no medium to convey the energy.Conduction is the transferring of heat by direct contact.Convection is transferring heat through the motions of fluids (gases and liquids)."
+  },
+  {
+    "id": "JAMB_Physics_2018_68",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "68",
+    "question": "Which of the following phenomena cannot be explained by the molecular theory of matter?",
+    "options": {
+      "A": "Conduction",
+      "B": "Convection",
+      "C": "Expansion",
+      "D": "Radiation"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Conduction: the flow of internal energy from a region of higher temperature to lower temperatureConvection: heat transfer due to bulk movement of molecules within fluidsExpansion: the action of becoming larger or more extensive"
+  },
+  {
+    "id": "JAMB_Physics_2018_69",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "69",
+    "question": "The friction which exist between two layers of liquid in relative motion is called.",
+    "options": {
+      "A": "Capillary",
+      "B": "Surface",
+      "C": "Viscosity",
+      "D": "Cohesion"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Viscosity, resistance of a fluid (liquid or gas) to a change in shape, or movement of neighboring portions relative to one another. Viscosity denotes opposition to flow. The reciprocal of the viscosity is called the fluidity, a measure of the ease of flow. Molasses, for example, has a greater viscosity than water. Because part of a fluid that is forced to move carries along to some extent adjacent parts, viscosity may be thought of as internal friction between the molecules; such friction opposes the development of velocity differences within a fluid. Viscosity is a major factor in determining the forces that must be overcome when fluids are used in lubrication and transported in pipelines. It controls the liquid flow in such processes as spraying, injection molding, and surface coating."
+  },
+  {
+    "id": "JAMB_Physics_2018_70",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "70",
+    "question": "A particle of mass M initially at rest splits into two. If one of the particles of mass M1 moves with velocity V1 , the second particle moves with velocity",
+    "options": {
+      "A": "(M1V1/M-M1)",
+      "B": "(M1V1/M1-M)",
+      "C": "(M1V1/M)",
+      "D": "(MV/M-M1)"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_71",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "71",
+    "question": "To keep a vehicle moving at a constant speed V requires power P from the engine. The force provided by the engine is",
+    "options": {
+      "A": "(P/v)",
+      "B": "((1/2))V",
+      "C": "PV",
+      "D": "(P/V²)"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = F × (S/1)P = F x VF = (P/V)"
+  },
+  {
+    "id": "JAMB_Physics_2018_72",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "72",
+    "question": "Which of the following is the dimension of pressure",
+    "options": {
+      "A": "ML−¹T−²",
+      "B": "MLT−²",
+      "C": "ML²T³",
+      "D": "ML−³"
+    },
+    "correct_answer": "A",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Pressure = (Force/Area)"
+  },
+  {
+    "id": "JAMB_Physics_2018_73",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "73",
+    "question": "Palm oil from a bottle flows out more easily after it has been heated because the",
+    "options": {
+      "A": "Molecules do not increase speed during the heating",
+      "B": "Viscosity of oil is reduced",
+      "C": "Oil molecules force each other out",
+      "D": "Adhesion between the oil molecules and those of the bottle is increased"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If aliquidisheatedtheparticlesare given more energy and move faster and faster expanding theliquid.The result is thatliquidsshow areductioninviscositywith increasingtemperature. With high temperatures,viscosityincreases in gases and decreases inliquids, the drag forcewilldo the same."
+  },
+  {
+    "id": "JAMB_Physics_2018_74",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "74",
+    "question": "A ball of mass 5.0kg hits a smooth vertical wall normally with a speed of 2ms⁻¹. Determine the magnitude of the resulting impulse",
+    "options": {
+      "A": "20.0kgms⁻¹",
+      "B": "10.0kgms⁻¹",
+      "C": "5.0kgms⁻¹",
+      "D": "2.5kgms⁻¹"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Momentum and impulse",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Impulse = Change in momentum"
+  },
+  {
+    "id": "JAMB_Physics_2018_75",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "75",
+    "question": "The efficiency of energy conversion on the energy flow through a hydroelectric power is?",
+    "options": {
+      "A": "(E1/E2)",
+      "B": "(E3/E2)",
+      "C": "(E2/E1)+ E2",
+      "D": "(E2/E3) + E1"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Efficiency = (useful energy output from machine/energy input into machine)"
+  },
+  {
+    "id": "JAMB_Physics_2018_76",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "76",
+    "question": "An object weighs 30N in air and 21N in water. The weight of the object when completely immersed in a liquid of relative density 1.4 is",
+    "options": {
+      "A": "25.2N",
+      "B": "17.4N",
+      "C": "12.6N",
+      "D": "9.0N"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Weight of water displaced = upthrust = 30 - 21 = 9N"
+  },
+  {
+    "id": "JAMB_Physics_2018_77",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "77",
+    "question": "Which of the following instruments is most suitable for measuring the outside diameter of a narrow pipe in a few millimeters in diameter?",
+    "options": {
+      "A": "Pair of calipers",
+      "B": "Meter rule",
+      "C": "Micrometer screw gauge",
+      "D": "Tape rule"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_78",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "78",
+    "question": "Electrical power is transmitted at a high voltage rather than a low voltage because the amount of energy loss is due to",
+    "options": {
+      "A": "Heat dissipation",
+      "B": "Production of eddy currents",
+      "C": "Excessive current discharge",
+      "D": "Excessive voltage discharge"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary reason that power is transmitted at high voltages is to increase efficiency. As electricity is transmitted over long distances, there are inherent energy losses along the way. High voltage transmission minimizes the amount of power lost as electricity flows from one location to the next. How? The higher the voltage, the lower the current. The lower the current, the lower the resistance losses in the conductors. And when resistance losses are low, energy losses are low also. Electrical engineers consider factors such as the power being transmitted and the distance required for transmission when determining the optimal transmission voltage"
+  },
+  {
+    "id": "JAMB_Physics_2018_79",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "79",
+    "question": "If the focal length of a camera is 20cm, the distance from the film at which the lens must be set to produce a sharp image of 100cm away is",
+    "options": {
+      "A": "17cm",
+      "B": "20cm",
+      "C": "25cm",
+      "D": "100cm"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Focal length: f = 20 \\, cm"
+  },
+  {
+    "id": "JAMB_Physics_2018_80",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "80",
+    "question": "The image of an object is located 6cm behind a convex mirror. If it's magnification is 0.6, calculate the focal length of the mirror",
+    "options": {
+      "A": "3.75cm",
+      "B": "6.70cm",
+      "C": "10.00cm",
+      "D": "-15.00cm"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "V = -6cm"
+  },
+  {
+    "id": "JAMB_Physics_2018_81",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "81",
+    "question": "A lens of focal length 15cm forms an erect image which is three times the size of the object. The distance between the object and the image is ___.",
+    "options": {
+      "A": "10cm",
+      "B": "20cm",
+      "C": "30cm",
+      "D": "40cm"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "F= 15cm"
+  },
+  {
+    "id": "JAMB_Physics_2018_82",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "82",
+    "question": "The photo cell works on the principle of the",
+    "options": {
+      "A": "Voltaic cell",
+      "B": "Emission of electron by incident radiation",
+      "C": "Emission of protons by incident radiation",
+      "D": "Photographic plate"
+    },
+    "correct_answer": "B",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2018_83",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "83",
+    "question": "When a known standard resistor of².0 is connected to the 0.0cm end of a metre bridge, the balance point is found to be at 55.0cm",
+    "options": {
+      "A": "1.10Ω",
+      "B": "1.64Ω",
+      "C": "2.44Ω",
+      "D": "27.50Ω"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(R₁/R₂) = ((100- L₁)/( L₁))"
+  },
+  {
+    "id": "JAMB_Physics_2018_84",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "84",
+    "question": "A resistor connected to a 12V battery draws a current of 2A. The energy dispatched in the resistor in 5 minutes is ___.",
+    "options": {
+      "A": "3,600J",
+      "B": "6,000J",
+      "C": "7,200J",
+      "D": "14,400J"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Power drawn by the resistor = IV = (2)(3) = 24W = 24J/s"
+  },
+  {
+    "id": "JAMB_Physics_2018_85",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "85",
+    "question": "A solid weighs 45N and 15N respectively in air and water. Determine the relative density of the solid",
+    "options": {
+      "A": "0.33",
+      "B": "0.50",
+      "C": "1.50",
+      "D": "3.00"
+    },
+    "correct_answer": "C",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2018_86",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "86",
+    "question": "A boy receives the echo of his clap reflected by a nearby hill 0.8s later. If the speed of sound in air is 340ms⁻1, how far is he from the hill?",
+    "options": {
+      "A": "66m",
+      "B": "136m",
+      "C": "264m",
+      "D": "528m"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Sound waves",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2 × Distance = speed × time2 × Distance = (340) × (0.8)"
+  },
+  {
+    "id": "JAMB_Physics_2018_87",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2018,
+    "number": "87",
+    "question": "The critical angle for light traveling from a transparent medium to air s measured as 34º. The refractive index of the medium is",
+    "options": {
+      "A": "0.56",
+      "B": "1.50",
+      "C": "1.79",
+      "D": "2.02"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Light reflection",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "N = (1/sinθ)"
+  }
+]

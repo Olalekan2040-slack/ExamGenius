@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "JAMB_Physics_2010_1",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "1",
+    "question": "Two cars moving in the same direction have speeds of 100 kmh⁻¹ and 130 kmh⁻¹. What is the velocity of the faster car as measured by an observer in the slower car?",
+    "options": {
+      "A": "30 kmh⁻¹",
+      "B": "130 kmh⁻¹",
+      "C": "200 kmh",
+      "D": "230 kmh⁻¹"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since the cars are moving in the same direction, the velocity of a body A, Va,relative to another body B, Vb is given by V = Va - Vb∴ the velocity of faster car is measured by the observer in the slower car is V = 130kmh-1 - 100 kmh-1 = 30 kmh-1"
+  },
+  {
+    "id": "JAMB_Physics_2010_2",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "2",
+    "question": "A stone and a feather are dropped from the same height above the earth surface. Ignoring air resistance, which of the following is correct?",
+    "options": {
+      "A": "the feather will be blown away by the wind while stone will drop steadily",
+      "B": "the stone and the feather will both reach the ground at the same time",
+      "C": "the feather will reach the ground first",
+      "D": "the stone will reach the ground first"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The acceleration of free fall due to gravity is independent of mass of the body. Therefore, ignoring air resistance, which affects feather more than the stone, the stone and the feather will both reach the ground at the same time"
+  },
+  {
+    "id": "JAMB_Physics_2010_3",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "3",
+    "question": "A car moves with an initial velocity of 25 ms⁻¹ and reaches a velocity of 45 ms⁻¹ in 10s. What is the acceleration of the car?",
+    "options": {
+      "A": "2 ms⁻²",
+      "B": "5 ms⁻²",
+      "C": "20 ms⁻²",
+      "D": "25 ms⁻²"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Acceleration = (increase in velocity)/time taken= (45 - 25)/10 = (20)/10 = 2ms-2"
+  },
+  {
+    "id": "JAMB_Physics_2010_4",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "4",
+    "question": "The surfaces of conveyor belts are made rough so as to?",
+    "options": {
+      "A": "protect them while carrying loads",
+      "B": "prevent the loads from slipping",
+      "C": "enable them to carry more load",
+      "D": "make them stronger"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Rough surface promotes friction. Therefore, roughness of conveyor belt prevents the load from slipping"
+  },
+  {
+    "id": "JAMB_Physics_2010_5",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "5",
+    "question": "A machine of velocity ratio 6 requires an effort of 400 N to raise a load of 800 N through I m. Find the efficiency of the machine",
+    "options": {
+      "A": "55. 6 %",
+      "B": "50.0%",
+      "C": "33.3%",
+      "D": "22.2%"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Efficiency = (MA)/V.R × 10⁰% = (load)/Effort x (1)/V.R= (800)/400 x (1)/6 × 10⁰% = 33.3%"
+  },
+  {
+    "id": "JAMB_Physics_2010_6",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "6",
+    "question": "If a wire 30 cm long is extended to 30.5 cm by a force of 300 N. find the strain energy of wire",
+    "options": {
+      "A": "0.75 J",
+      "B": "7.50 J",
+      "C": "75.00 J",
+      "D": "750.00 J"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Energy stored in a stretched wire (strain energy)= average force x extension= (1)/2 Fe= (1)/2 x 300 N (30.5 - 30.0) × 10⁻² m= (300)/2 x 0.5 × 10⁻² = 0.75J"
+  },
+  {
+    "id": "JAMB_Physics_2010_7",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "7",
+    "question": "In a hydraulic press, the pump piston exerts a pressure of 100 pa on the liquid. what force is exerted in the second piston of cross sectional area³ m2?",
+    "options": {
+      "A": "300 N",
+      "B": "200 N",
+      "C": "150 N",
+      "D": "100 N"
+    },
+    "correct_answer": "A",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Thrust = pressure x area = 100 pa x³ m2 = 300 N"
+  },
+  {
+    "id": "JAMB_Physics_2010_8",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "8",
+    "question": "The accurate measurement of the relative density of a substance in its powdered form is done with a beam balance and?",
+    "options": {
+      "A": "a density bottle",
+      "B": "an eureka can",
+      "C": "a pipette",
+      "D": "a burette"
+    },
+    "correct_answer": "A",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since relative density = mass of substancemass of equal volume of water relative density bottle should be used to determine the mass of the substance, and mass of an equal volume of water by filling the bottle with the powder and water respectively and weighed with the beam balance."
+  },
+  {
+    "id": "JAMB_Physics_2010_9",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "9",
+    "question": "A hydrometer is an instrument used in measuring?",
+    "options": {
+      "A": "vapour pressure of a fluid",
+      "B": "density of liquid",
+      "C": "relative humidity of a liquid",
+      "D": "relative density of a liquid"
+    },
+    "correct_answer": "D",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The instrument used in measuring relative density is hydrometer"
+  },
+  {
+    "id": "JAMB_Physics_2010_10",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "10",
+    "question": "One special advantage of alcohol over mercury as a thermometric liquid is its?",
+    "options": {
+      "A": "low density",
+      "B": "low freezing point",
+      "C": "high specific",
+      "D": "low boiling point"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The low freezing point of alcohol, -115°c enable low temperatures to be measured. mercury freezes at 39°c, and cannot be used in countries like Russia where winter temperatures of -40°c are common"
+  },
+  {
+    "id": "JAMB_Physics_2010_11",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "11",
+    "question": "The density of a certain oil on frying becomes 0.4 kgm⁻³ with the volume of 20m³. what will be its initial volume when its initial density is 0.8 kgm⁻³ assuming no loss of oil due to spillage?",
+    "options": {
+      "A": "12m³",
+      "B": "10m³",
+      "C": "8m³",
+      "D": "5m³"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Density (D) = (mass/volume)"
+  },
+  {
+    "id": "JAMB_Physics_2010_12",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "12",
+    "question": "Heat is radiated by hot objects in the form?",
+    "options": {
+      "A": "x-rays",
+      "B": "light energy",
+      "C": "infrared rays",
+      "D": "solar energy"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Infrared rays falling on the skin causes the skin causes the sensation of warmth. since the objects are hot, the correct option is informed."
+  },
+  {
+    "id": "JAMB_Physics_2010_13",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "13",
+    "question": "If a container is filled with ice to the brim, what happens to the level of water when the ice completely melts?",
+    "options": {
+      "A": "the level of water goes up",
+      "B": "the water in the glass outflows",
+      "C": "the level of water remains unchanged",
+      "D": "the level of water drops"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Due to anomalous expansion of water at temperature range (0 - 4)°c, when a given mass of water turns into ice, its volume will increase, while the mass remains constant. Thus, when a given volum of ice melts, the volume of water formed will be less than the volume of ice. Hence, the level of water in the container will drop."
+  },
+  {
+    "id": "JAMB_Physics_2010_14",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "14",
+    "question": "The small droplet of water that forms on the grass in the early hours of the morning is",
+    "options": {
+      "A": "hail",
+      "B": "dew",
+      "C": "fog",
+      "D": "mist"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2010_15",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "15",
+    "question": "A vapor is said to be saturated when?",
+    "options": {
+      "A": "a dynamic equilibrium exists between liquid molecules and the vapour molecules",
+      "B": "a dynamic equilibrium exists such that more molecules return to the liquid than are leaving it",
+      "C": "the temperature of the vapour varies",
+      "D": "the vapour pressure is atmospheric"
+    },
+    "correct_answer": "A",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A saturated vapour is one which is in dynamic equilibrium with its own liquid; that is as many go from the liquid to the vapour state every second return back to liquid."
+  },
+  {
+    "id": "JAMB_Physics_2010_16",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "16",
+    "question": "The pressure of one mole of an ideal gas of volume 10⁻2 m³ at a temperature of 27°c is [molar gas constant = 8.3 J mol⁻¹ k⁻¹]",
+    "options": {
+      "A": "2.49 × 10⁴ Nm⁻²",
+      "B": "2.24 × 10⁴ Nm⁻²",
+      "C": "2.49 × 10⁵ Nm⁻²",
+      "D": "2.24 × 10⁵ Nm⁻¹"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "T = 27 + 273 = 300 K, volume, V = 10-2 m3 molar gass constant, R = 8.3 Jmol- 1k - 1 number of mole, n = 1PV = NRTi.e P = (NRT)/V = (1 x 8.3 x 300)/10-2= 2.49 x 10⁵ Nm⁻2"
+  },
+  {
+    "id": "JAMB_Physics_2010_17",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "17",
+    "question": "Which of the following has no effect on radiation?",
+    "options": {
+      "A": "nature of surface",
+      "B": "density",
+      "C": "surface area",
+      "D": "temperature"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Radiation depends on nature of the surface area and temperature. It is independent of density."
+  },
+  {
+    "id": "JAMB_Physics_2010_18",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "18",
+    "question": "The wavelength of a wave traveling with a velocity of 420 ms⁻¹ is 42 m. What is its period?",
+    "options": {
+      "A": "1.2 s",
+      "B": "1.0 s",
+      "C": "0.5 s",
+      "D": "0.1 s"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "V = fλf = (v)/λ = (420)/42 = 10 HZPeriod, T = (1)/F = (1)/10 = 0.1 secs"
+  },
+  {
+    "id": "JAMB_Physics_2010_19",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "19",
+    "question": "The sound of an electricity bell dies down slowly when air is slowly pumped out from a bottle because",
+    "options": {
+      "A": "the wavelength of sound becomes greater in the bottle",
+      "B": "sound cannot pass through the bottle",
+      "C": "sound needs a material medium",
+      "D": "sound can pass through a vacuum"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Sound waves",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sound wave requires a material medium for its propagation. so when air is being pumped out the density of the medium is being reduced and the sound dies down. when all the air has been pumped out of the glass, no sound will be heard, as sound sound cannot travel through vacuum"
+  },
+  {
+    "id": "JAMB_Physics_2010_20",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "20",
+    "question": "During a thunderstorm, the sound is heard over a long time. this phenomenon is referred to as?",
+    "options": {
+      "A": "diffraction of sound",
+      "B": "refraction of sound",
+      "C": "superposition",
+      "D": "reveraberation"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Sound waves",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The lengthening effect of sound is known as reverberation."
+  },
+  {
+    "id": "JAMB_Physics_2010_21",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "21",
+    "question": "In comparing the camera and the human eye, the film of the camera function as the?",
+    "options": {
+      "A": "retina",
+      "B": "iris",
+      "C": "cornea",
+      "D": "pupil"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The retina is light sensitive layer living the inner wall of the eye where image is formed. in the camera, image is formed on a light sensitive film."
+  },
+  {
+    "id": "JAMB_Physics_2010_22",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "22",
+    "question": "An object 4 cm high is placed 15 cm from a concave mirror of focal length 5 cm. The size of the image is?",
+    "options": {
+      "A": "2 cm",
+      "B": "3 cm",
+      "C": "4 cm",
+      "D": "5 cm"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(1)/v + (1)/u = (1)/f(1)/v + (1)/15 = (1)/5(1)/v = (1)/5 - (1)/15 = (3 - 1)/15 = (2)/15∴ v = (15)/2 = 7.5 cmmagnification = (v)/u = (image size)/object size(7.5)/15 = (X)/4∴ image size. X = (7.5 x 4)/15 = 2 cm"
+  },
+  {
+    "id": "JAMB_Physics_2010_23",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "23",
+    "question": "An object is embedded in a block of ice, 10 cm below the plane surface. if the refractive index of the ice is 1.50, the apparent depth below the surface is?",
+    "options": {
+      "A": "2.50 cm",
+      "B": "6.67 cm",
+      "C": "7.50 cm",
+      "D": "7.63 cm"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Refraction index, n = (real depth)/apparent depth1.5 = (10)/XX = (10)/1.5 = 6.67 cm"
+  },
+  {
+    "id": "JAMB_Physics_2010_24",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "24",
+    "question": "Which of the following is used for the correction of short sightedness?",
+    "options": {
+      "A": "convex lens",
+      "B": "concave lens",
+      "C": "convex mirror",
+      "D": "concave mirror"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Concave lens diverges parallel rays of light. A short sighted person has the image formed before the retina,and the rays have to be diverged so that they intersect to form image onto the retina"
+  },
+  {
+    "id": "JAMB_Physics_2010_25",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "25",
+    "question": "Dispersion occurs when white light passes through a glass prism because of the?",
+    "options": {
+      "A": "different hidden colours in the glass",
+      "B": "different speeds of the colour in the glass",
+      "C": "defects in the glass",
+      "D": "high density of the glass"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Light reflection",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dispersion is the splitting of white light into its spectral component colors and is caused by different speed of the colors in the prism."
+  },
+  {
+    "id": "JAMB_Physics_2010_26",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "26",
+    "question": "When a positively charged rod is brought nearer the cap of a positively charged electroscope, the leaves divergence will?",
+    "options": {
+      "A": "be induced",
+      "B": "converge",
+      "C": "diverge",
+      "D": "remain constant"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since the charged rod is not in contact with the electroscope, the leaves divergence will diverge."
+  },
+  {
+    "id": "JAMB_Physics_2010_27",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "27",
+    "question": "Power supply is transmitted at a very high voltage and low current in order to?",
+    "options": {
+      "A": "make pass through the trasformers",
+      "B": "increase the power supply",
+      "C": "make it travel fast",
+      "D": "prevent overheating of the coil"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "H eat generated in a wire carrying current, H = 12 Rt.so, when voltage is high and current is low heat generated in the wire will be minimal.Therefore, high voltage and low current prevent overheating of the coil."
+  },
+  {
+    "id": "JAMB_Physics_2010_28",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "28",
+    "question": "A galvanometer with full-scale deflection of 10 mA is to be converted to a voltmeter with full-scale deflection of 5v. if a series resistance of 498Ω is used for the conversion, the resistance of the galvanometer is ?",
+    "options": {
+      "A": "1Ω",
+      "B": "2Ω",
+      "C": "5Ω",
+      "D": "10Ω"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "r = resistance of the galvanometer"
+  },
+  {
+    "id": "JAMB_Physics_2010_29",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "29",
+    "question": "Two inductors of inductance 5 mll and 15 mll are connected in series and a current of 5A flows through them. the total energy stored in the inductor is?",
+    "options": {
+      "A": "500.0J",
+      "B": "250.0J",
+      "C": "62.5J",
+      "D": "50.0J"
+    },
+    "correct_answer": "",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2010_30",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "30",
+    "question": "In alternating current circuit at resonance, the angle of lead or lag is?",
+    "options": {
+      "A": "π°",
+      "B": "(π)/2°",
+      "C": "(π)/3°",
+      "D": "0°"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Resonance occurs whenever the phase angle of the circuit iszero, The only way that f = 0 is if XL = XC"
+  },
+  {
+    "id": "JAMB_Physics_2010_31",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "31",
+    "question": "In a discharge tube, most of the gas is pumped out so that electricity is conducted at?",
+    "options": {
+      "A": "low voltage",
+      "B": "steady voltage",
+      "C": "high pressure",
+      "D": "low pressure"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "pumping out of the gas in the discharge tube reduces the pressure inside the tube, therefore, electricity is conducted at low pressure"
+  },
+  {
+    "id": "JAMB_Physics_2010_32",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "32",
+    "question": "The ground state energy for the hydrogen atom is 5.44 x 10⁻¹⁹J. If an electron drops from zero energy to the ground state, calculate the frequency of the emitted radiation. [h = 6.6 x 10⁻³⁴ Js]",
+    "options": {
+      "A": "5.0 × 10¹⁶ Hz",
+      "B": "2.0 × 10¹⁶ Hz",
+      "C": "5.0 × 10¹⁵ Hz",
+      "D": "2.0 × 10¹⁵ Hz"
+    },
+    "correct_answer": "",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2010_33",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "33",
+    "question": "Transistors are used for the?",
+    "options": {
+      "A": "rectification of signals",
+      "B": "conversion of a.c to d.c",
+      "C": "amplification of signals",
+      "D": "conversion of d.c to a.c"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "transistor serve the same purpose as triode valve, which is amplification of signals."
+  },
+  {
+    "id": "JAMB_Physics_2010_34",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "34",
+    "question": "Which of the following is a pure semiconductor?",
+    "options": {
+      "A": "carbon",
+      "B": "silicon",
+      "C": "transistor",
+      "D": "phosphorus"
+    },
+    "correct_answer": "B",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A semiconductor is a material whose conductivity is between good conductor and insulator. Example of pure semi conductors are silicon and germanium"
+  },
+  {
+    "id": "JAMB_Physics_2010_35",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "35",
+    "question": "The diagram above shows a velocity - time graph. The statement that is true about this motion is that the car?",
+    "options": {
+      "A": "has no acceleration between point F and G",
+      "B": "decelerates between F and H",
+      "C": "has a constant soeed between points E and F",
+      "D": "Accelerates between points F and G"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Physics_2010_q35_8b688c4e.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/8184705780_phy20103.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2010_36",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "36",
+    "question": "The diagram above represents balls in an undulating surface. Which of the following option represents positions of stable equilibrium?",
+    "options": {
+      "A": "III, IV and VIII",
+      "B": "II, V and VIII",
+      "C": "III, VI and IX",
+      "D": "I, IV and VII"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Friction and equilibrium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A bod y is said to be in stable equilibrium if after a slight displacement, the body returns to its former position. Thus, position III, VI and XI represents position of stable equilibrium",
+    "images": [
+      {
+        "filename": "Physics_2010_q36_2374bb70.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/20461779795_phy20107.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2010_37",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "37",
+    "question": "A bob of weight 0.1 N hangs from a massless string of length 50 cm. A variable horizontal force which increase from zero is applied to pull the bob until the string makes an angle of 60o with the vertical. The work done is?",
+    "options": {
+      "A": "0.500 J",
+      "B": "0.250 J",
+      "C": "0.050 J",
+      "D": "0.025 J"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2010_38",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "38",
+    "question": "Two metals P and Q of length l1 and l2 are heated through the same temperature difference. If the ratio of the linear expansivities of P to Q is²:3 and the ratio of lengths is³:4. What is the ratio of increase in length of P to Q?",
+    "options": {
+      "A": "7:5",
+      "B": "5:7",
+      "C": "1:2",
+      "D": "2:1"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Metals P, Qoriginal length lP, lQIncrease in length ΔlP, ΔlQLinear expansivities αP, αQ∴ αP/αQ = 2/3 ; and lP/lQ = 3/4But increase in length, Δl = αlΔθ∴ΔlP = αPlPΔθΔlQ = αQlQΔθ"
+  },
+  {
+    "id": "JAMB_Physics_2010_39",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "39",
+    "question": "THe velocity of sound in air at 16oC is 340ms-1. What will it be when the pressure is doubled and its temperature raised to 127ºC?",
+    "options": {
+      "A": "400 ms⁻¹",
+      "B": "4,000 ms⁻¹",
+      "C": "8,000 ms⁻¹",
+      "D": "160,000 ms⁻¹"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "subtopic": "Sound waves",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The velocity of sound in air, V∝√T, where T is absolute temperatureThus V = K√T or K = V/TV is independent of pressure and density at a fixed temperature.∴ V1/√T1 = V2/√T2T1 = 16 + 273 = 289K, V1 = 340ms-1T2 = 127 + 273 = 400K, V2 = ?"
+  },
+  {
+    "id": "JAMB_Physics_2010_40",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "40",
+    "question": "Three capacitors of capacitance 2μF, 4μFand 8μF are connected in parallel and a P.D of 6V is maintained across each capacitor, the total energy stored is?",
+    "options": {
+      "A": "2.52 × 10⁻⁶ J",
+      "B": "6.90 × 10⁻⁶ J",
+      "C": "2.52 x 10⁻⁴ J",
+      "D": "6.90 x 10⁻⁴ J"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2010_41",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "41",
+    "question": "A cell of e.m.f 12V and internal resistance 4Ω is connected to an external resistor of resistance 2Ω. Find the current flow.",
+    "options": {
+      "A": "5 A",
+      "B": "4 A",
+      "C": "3 A",
+      "D": "2 A"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2010_42",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "42",
+    "question": "The diagram above shows a balanced metre bridge, the value of x is",
+    "options": {
+      "A": "75.0 cm",
+      "B": "66.7 cm",
+      "C": "33.3 cm",
+      "D": "25.0 cm"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1",
+    "images": [
+      {
+        "filename": "Physics_2010_q42_cbd6b11d.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/19098223536_phy201036.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2010_43",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "43",
+    "question": "Three 4Ω resistors connected in parallel have a potential difference of 16 V applied across them. What is the total current in the circuit?",
+    "options": {
+      "A": "14 A",
+      "B": "12 A",
+      "C": "10 A",
+      "D": "8 A"
+    },
+    "correct_answer": "B",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2010_44",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "44",
+    "question": "In the diagram above, a 200 W bulb is lighted by a 240 V a.c mains supply. If 1kwh is sold at N40, the cost of keeping the bulb lighted for a day is?",
+    "options": {
+      "A": "N1,920.00",
+      "B": "N192.00",
+      "C": "N19.20",
+      "D": "N1.92"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Energy consumed = power x time= 200W x 24hr = 4800wh= 4.8 kwhBut 1 kwh cost N40∴ 4.8kwh costs 4.8 x 40= N192",
+    "images": [
+      {
+        "filename": "Physics_2010_q44_6903d24b.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/17734599181_phy201038.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2010_45",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "45",
+    "question": "In the diagram above, if the south-poles of two magnets strokes steel bar, the polarities at T and V will respectively be",
+    "options": {
+      "A": "south and north",
+      "B": "north and south",
+      "C": "north and north",
+      "D": "south and south"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "IN magnetisation by stroking, the last touched has a pole opposite to that of the magnet used. Therefore, the poles T and V are N and N respectively",
+    "images": [
+      {
+        "filename": "Physics_2010_q45_96112b8d.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/25919826239_phy201040.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2010_46",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "46",
+    "question": "In Faradays law of electrolysis, a graph of the mass deposited against the quantity of electricity is plotted. The slope of the graph gives?",
+    "options": {
+      "A": "the energy released",
+      "B": "the electrochemical equivalent",
+      "C": "the current flowing",
+      "D": "the charge released"
+    },
+    "correct_answer": "B",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In Faradays law of electrolysisM = It = QWhere M is the mass of substance deposit . Q is the quantity of charge. A graph of m against Q is a straight line passing through the origin with slope equal to the electrochemical equivalent.Z"
+  },
+  {
+    "id": "JAMB_Physics_2010_47",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "47",
+    "question": "The process whereby a substance changes from a solid to liquid when heat is applied, is called?",
+    "options": {
+      "A": "Evaporation",
+      "B": "Vaporization",
+      "C": "Fission",
+      "D": "Fusion"
+    },
+    "correct_answer": "D",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The process of a substance changing from solid to liquid upon heating is called fusion. It happens when the temperature reaches the melting point, allowing particles to gain enough energy to move freely as a liquid."
+  },
+  {
+    "id": "JAMB_Physics_2010_48",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "48",
+    "question": "An object is weighed at different locations on the Earth. What will be the right observation?",
+    "options": {
+      "A": "Both the mass and weight vary",
+      "B": "The weight is constant while the mass varies",
+      "C": "The mass is constant while the weight varies",
+      "D": "Both the mass and weight are constant"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2010_49",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2010,
+    "number": "49",
+    "question": "The radioisotope ²³⁵₉₂U decays by emitting two alpha particles, three beta particles and a gamma ray. What is the mass and atomic number of the resulting element?",
+    "options": {
+      "A": "215 and 88",
+      "B": "91 and 227",
+      "C": "227 and 91",
+      "D": "92 and 238"
+    },
+    "correct_answer": "C",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "-Alpha radiationconsists of helium- He⁴₂"
+  }
+]

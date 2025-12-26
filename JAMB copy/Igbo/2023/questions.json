@@ -1,0 +1,962 @@
+[
+  {
+    "id": "JAMB_Igbo_2023_1",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "1",
+    "question": "Họpụta steeti na-esoghị n'ala Igbo ebe a",
+    "options": {
+      "A": "Imo",
+      "B": "Anambra",
+      "C": "Abịa",
+      "D": "Ebonyi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_2",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "2",
+    "question": "Gịnị ka 3/4 pụtara n'Igbo?",
+    "options": {
+      "A": "Atọ e tinyere anọ",
+      "B": "Atọ agbakwụnyere anọ",
+      "C": "Atọ n'ime anọ",
+      "D": "Anọ n'ime atọ."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_3",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "3",
+    "question": "Ude na-agu ............",
+    "options": {
+      "A": "akwụkwọ",
+      "B": "nri",
+      "C": "ụra",
+      "D": "akwa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_4",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "4",
+    "question": "Uzochi na-eri nri. Nke a kara ihe n'ọkpụrụ bụ.",
+    "options": {
+      "A": "ngwaa",
+      "B": "enyemakangwaa",
+      "C": "njikọ",
+      "D": "mbuuzo"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_5",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "5",
+    "question": "Ọ bụ ezi onye ọrụụgbọ. The pronoun in this sentence is",
+    "options": {
+      "A": "onye",
+      "B": "bụ",
+      "C": "Ọ",
+      "D": "ezi"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_6",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "6",
+    "question": "Ada na-ede",
+    "options": {
+      "A": "egwu",
+      "B": "akwa",
+      "C": "ụkwẹ",
+      "D": "nri"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_7",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "7",
+    "question": "Mgbọchiume mkpị ọle ka e nwere n'Igbo?",
+    "options": {
+      "A": "Itoọlụ",
+      "B": "Iri",
+      "C": "Asatọ",
+      "D": "Iri na itoọlụ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_8",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "8",
+    "question": "Nne m siri ofe egusi. Ọlee nke bụ ngwaa na ndị a?",
+    "options": {
+      "A": "M",
+      "B": "Siri",
+      "C": "Nne",
+      "D": "Egusi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_9",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "9",
+    "question": "Write 120 in Igbo. Ọtụ narị na.",
+    "options": {
+      "A": "iri abụọ na efu",
+      "B": "iri abụọ",
+      "C": "iri",
+      "D": "abụọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_10",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "10",
+    "question": "Gịnị ka \"80\" pụtara n'Igbo?",
+    "options": {
+      "A": "Asatọ",
+      "B": "Iri na asatọ",
+      "C": "Asatọ na efu",
+      "D": "Iri asatọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_11",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "11",
+    "question": "Gịnị ka a na-akpọ \"chair\" n'Igbo?",
+    "options": {
+      "A": "Nzụ ọdee",
+      "B": "Oche",
+      "C": "Ụgbọọjị",
+      "D": "Akwụkwọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_12",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "12",
+    "question": "Ụlọakụ na-aza.",
+    "options": {
+      "A": "ofe",
+      "B": "akwụkwọ",
+      "C": "nri",
+      "D": "ụlọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_13",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "13",
+    "question": "Which among these is not a vowel in Igbo?",
+    "options": {
+      "A": "N",
+      "B": "A",
+      "C": "E",
+      "D": "O"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_14",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "14",
+    "question": "Ehee ka i na-aga?",
+    "options": {
+      "A": "Ha na-abịa",
+      "B": "Anyị na-aga njem",
+      "C": "Mụ na ha na-aga njem",
+      "D": "Ana m aga akwụkwọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_15",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "15",
+    "question": "Choose the correct response to each of the following questions. Kedu maka nne gị?",
+    "options": {
+      "A": "Ha dị mma",
+      "B": "Ọ dị mma",
+      "C": "Anyị dị mma",
+      "D": "Ọ mara mma"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_16",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "16",
+    "question": "Choose the correct response to each of the following questions. Ụlọ ole ka nna gị nwere?",
+    "options": {
+      "A": "Nna m nwere ụlọ abụọ",
+      "B": "M nwere ụlọ abụọ",
+      "C": "Anyị nwere ya anọ",
+      "D": "Ha nwere ụlọ anọ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_17",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "17",
+    "question": "Choose the correct response to each of the following questions. Afọ ọle ka ị gbara ugbu a?",
+    "options": {
+      "A": "Agbara m afọ iri",
+      "B": "Ha gbara afọ isi",
+      "C": "Ọ gbara afọ iri",
+      "D": "Ọ gbara afọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_18",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "18",
+    "question": "Choose the correct response to each of the following questions. Ọlee aha ụlọakwụkwọ ụnu?",
+    "options": {
+      "A": "Ọ gụchara na GSS",
+      "B": "Ụlọakwụkwọ ụnu bụ GSS",
+      "C": "GSS bụ ụlọakwụkwọ ya",
+      "D": "Aha ụlọakwụkwọ anyị bụ GSS."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_19",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "19",
+    "question": "Choose the correct response to each of the following questions. What name is Agwọ called in English?",
+    "options": {
+      "A": "Crocodile",
+      "B": "Snake",
+      "C": "Python",
+      "D": "Lizard"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_20",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "20",
+    "question": "Choose the correct response to each of the following questions. What name is scorpion called in Igbo?",
+    "options": {
+      "A": "Ahụhụ",
+      "B": "Agwọ",
+      "C": "Awo",
+      "D": "Akpị"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_21",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "21",
+    "question": "Choose the correct response to each of the following questions. How do you greet somebody who is returning from a journey in Igbo?",
+    "options": {
+      "A": "Ndewo",
+      "B": "Ndọ",
+      "C": "Daalụ",
+      "D": "Ịjẹ ọma"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_22",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "22",
+    "question": "​​​​​​​Choose the correct response to each of the following questions. How do you greet someone who is working?",
+    "options": {
+      "A": "Ndewo",
+      "B": "Daalụ",
+      "C": "Ịjẹ ọma",
+      "D": "Jisie ike"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_23",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "23",
+    "question": "Choose the correct response to each of the following questions. Ana m eri nri. Translate this sentence to English",
+    "options": {
+      "A": "We were eating",
+      "B": "I am eating food",
+      "C": "They are eating food",
+      "D": "I am dancing for food"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_24",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "24",
+    "question": "​​​​​​Choose the correct response to each of the following questions. Ha na-eri nri. \"Ha\" n'ahiriokwu a bụ",
+    "options": {
+      "A": "aha",
+      "B": "nnochiahịa",
+      "C": "mbuuzo",
+      "D": "njụajụjụ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_25",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "25",
+    "question": "Choose the correct response to each of the following questions. Ụzọ adireesi ọle ka leta anamachọọrọ nwere?",
+    "options": {
+      "A": "Anọ",
+      "B": "Ọtụ",
+      "C": "Atọ",
+      "D": "Abụọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_26",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "26",
+    "question": "Choose the correct response to each of the following questions. Ọlee the one hundred and fifty pụtara n'Igbo? Ọtụ narị na",
+    "options": {
+      "A": "Iri ise na ise",
+      "B": "Iri ise",
+      "C": "Ise",
+      "D": "Iri na ise"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_27",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "27",
+    "question": "​​​​​​Choose the correct response to each of the following questions. Ọtụ puku, narị abụọ na anọ pụtar",
+    "options": {
+      "A": "1,402",
+      "B": "1,204",
+      "C": "1,040",
+      "D": "1,002"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_28",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "28",
+    "question": "Choose the correct response to each of the following questions. Ọlee the \"one million\" pụtara n'asụsụ Igbo?",
+    "options": {
+      "A": "Ọtụ nde",
+      "B": "Ọtụ ijeri",
+      "C": "Ọtụ narị",
+      "D": "Ọtụ puku"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_29",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "29",
+    "question": "Choose the correct response to each of the following questions. Gịnị ka 2/4 pụtara n'Igbo?",
+    "options": {
+      "A": "Anọ n'ime abụọ",
+      "B": "Ọtụ n'ime anọ",
+      "C": "Abụọ n'ime anọ",
+      "D": "Abụọ n'elu anọ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_30",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "30",
+    "question": "Choose the correct response to each of the following questions. Ọtụ n'ime anọ pụtara",
+    "options": {
+      "A": "2/4",
+      "B": "1/4",
+      "C": "3/4",
+      "D": "1/2"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_31",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "31",
+    "question": "​​​​​​Choose the correct response to each of the following questions. Gịnị ka a na-akpọ ship n'Igbo?",
+    "options": {
+      "A": "Ụgbọ mmiri",
+      "B": "Ụgbọoloko",
+      "C": "Ụgbọ ala",
+      "D": "Ụgbọelu"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_32",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "32",
+    "question": "Choose the correct response to each of the following questions. Kedu ihe nzụ pụtara n'asụsụ bekee?",
+    "options": {
+      "A": "Chalk",
+      "B": "Duster",
+      "C": "Pencil",
+      "D": "Chalkboard"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_33",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "33",
+    "question": "Choose the correct response to each of the following questions. Ọlee nke bụ nnochiahịa ebe a? Ha zụtara ewụ ọcha ụnyaahụ. Ọjị",
+    "options": {
+      "A": "ụnyaahụ",
+      "B": "ọcha",
+      "C": "ụnyaahụ",
+      "D": ""
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_34",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "34",
+    "question": "Nnamdi_______ ụlọ ọma ahụ.",
+    "options": {
+      "A": "rụrụ",
+      "B": "gbụrụ",
+      "C": "kụrụ",
+      "D": "nyara"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_35",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "35",
+    "question": "Ụdaụme Igbo ọ dị ọle?​​​​​​​",
+    "options": {
+      "A": "Abụọ",
+      "B": "Iri abụọ na asatọ",
+      "C": "Itoọlụ",
+      "D": "Asatọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_36",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "36",
+    "question": "​​​​​​​Uchenna na-agba__________ .",
+    "options": {
+      "A": "nri",
+      "B": "ọsọ",
+      "C": "ịjẹ",
+      "D": "akwa"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_37",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "37",
+    "question": "​​​​​​Họpụta nke abụghị okwụ ajụjụ na ndị a.",
+    "options": {
+      "A": "Ebee",
+      "B": "Kedụ",
+      "C": "Gịnị",
+      "D": "Ọlee"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_38",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "38",
+    "question": "Ugochi na ​ Eze. The underlined word is.​​​​​​​",
+    "options": {
+      "A": "pronoun",
+      "B": "noun",
+      "C": "adjective",
+      "D": "conjunction"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_39",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "39",
+    "question": "Ọlee akara e ji egosi mgbe ihe mberedede mere?​​​​​​​",
+    "options": {
+      "A": "-",
+      "B": "!",
+      "C": "?",
+      "D": ":"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2023_40",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2023,
+    "number": "40",
+    "question": "​​​​​​What is mkpuruokwu called in English?",
+    "options": {
+      "A": "Alphabet",
+      "B": "Word",
+      "C": "Formation",
+      "D": "Letters"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

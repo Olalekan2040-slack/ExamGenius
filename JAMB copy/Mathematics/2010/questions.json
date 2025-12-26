@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "JAMB_Mathematics_2010_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "1",
+    "question": "Evaluate ((81/16))⁽⁻¹/⁴⁾× 2⁻¹",
+    "options": {
+      "A": "1 / 3",
+      "B": "3",
+      "C": "6",
+      "D": "1 / 6"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "((81/16))⁽⁻¹/⁴⁾× 2⁻¹ = {1}{((81/16))⁽¹/⁴⁾}× (1/2)= ((16/81))⁽¹/⁴⁾× (1/2)= ((2/3))⁴\\ᵗⁱᵐᵉˢ ⁽¹/⁴⁾=(2/3)× (1/2)= (1/3)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "2",
+    "question": "Rationalize (2√3 + √5/√5 - √3)",
+    "options": {
+      "A": "(3 √15 +11) / 2",
+      "B": "3 √15 -11",
+      "C": "(3 √15 -11) / 2",
+      "D": "3 √15 +11"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(2√3 + √5/√5 - √3)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "3",
+    "question": "Express the product of 0.21 and 0.34 in standard form",
+    "options": {
+      "A": "7.14 x 10⁻³",
+      "B": "7.14 x 10⁻²",
+      "C": "7.14 x 10⁻¹",
+      "D": "7.14 x 10⁻⁴"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "0.21 x 0.34 = 0.0714= 7.14 × 10⁻²",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "4",
+    "question": "In a survey of 50 newspaper readers, 40 read Champion and 30 read Guardian, how many read both papers?",
+    "options": {
+      "A": "10",
+      "B": "5",
+      "C": "15",
+      "D": "20"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "5",
+    "question": "Factorize completely (x³ + 3x² - 10x/2x² - 8)",
+    "options": {
+      "A": "x(x-5) 2(x+2)",
+      "B": "x(x-5) 2(x-2)",
+      "C": "x(x+5) 2(x+2)",
+      "D": "x² +5 2x+4"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(x³ + 3x² - 10x/2x² - 8) = (x(x² + 3x - 10)/2(x² - 4))",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "6",
+    "question": "If y varies directly as the square root of x and y = 3 when x = 16. Calculate y when x = 64",
+    "options": {
+      "A": "12",
+      "B": "6",
+      "C": "3",
+      "D": "5"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y∝ √xy= K√xK =y/√x= 3/√16= 3/4y= 3/4√x= 3/4√64 when x = 64= 3/4 x 8/1= 6",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "7",
+    "question": "If x * y = x + y², find then value of (2*3)*5",
+    "options": {
+      "A": "36",
+      "B": "25",
+      "C": "11",
+      "D": "55"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x * y = x + y²2 * 3 = 2 + 3²= 2 + 9= 11(2 * 3) * 5 = 11 + 5²= 11 + 25= 36",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "8",
+    "question": "If p and q are two non zero numbers and 18(p+q) = (18+p)q, which of the following must be true?",
+    "options": {
+      "A": "q = 18",
+      "B": "p <1",
+      "C": "p = 18",
+      "D": "q < 1"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If 18(p + q) = (18 + p)q",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "9",
+    "question": "If vmatrix x & 3 \\ 2 & 7 vmatrix = 15, find the value of x",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "2"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "vmatrix x & 3 \\ 2 & 7 vmatrix = 15xx 7 - 2 x³ = 157x- 6 = 157x= 15+67x= 21x= 21/7x= 3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "10",
+    "question": "From the diagram above, find x",
+    "options": {
+      "A": "65 o",
+      "B": "50 o",
+      "C": "75 o",
+      "D": "55 o"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∠RTS = 90o (∠ in semi circle)∠UTS = 25o (∠ in alternate segment)X+ 90 + 25 = 180(sum of ∠s on a str line)X+ 115 = 180X= 180 - 115X= 65o",
+    "images": [
+      {
+        "filename": "Mathematics_2010_q10_94d58b66.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/21722975424_maths201028.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "11",
+    "question": "From the cyclic quadrilateral TUVW above, find the value of x",
+    "options": {
+      "A": "26 o",
+      "B": "24 o",
+      "C": "20 o",
+      "D": "23 o"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "TUVW is a cyclic quad3χ+ 20 + 88 = 180 (opp ∠ s of a cyclic quad are supplementary)3χ+ 108 = 1803χ= 180 - 1083χ= 72χ= 72/3χ= 24o",
+    "images": [
+      {
+        "filename": "Mathematics_2010_q11_353cee79.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/10862098312_math201030.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "12",
+    "question": "If two smaller sides of a right angled triangle are 4cm and 5cm, find its area",
+    "options": {
+      "A": "10 cm²",
+      "B": "6 cm²",
+      "C": "24 cm²",
+      "D": "8 cm²"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "13",
+    "question": "An arc subtends an angle of 50º at the center of circle of radius 6cm. Calculate the area of the sector formed",
+    "options": {
+      "A": "100 / 7",
+      "B": "80 / 7",
+      "C": "110 / 7",
+      "D": "90 / 7"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Area of a sector = (θ/360) x ²",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "14",
+    "question": "What is the locus of point that is equidistant from points P(1,3) and Q(3,5)?",
+    "options": {
+      "A": "y = - χ + 6",
+      "B": "y = - χ - 6",
+      "C": "y = χ + 6",
+      "D": "y = χ - 6"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "15",
+    "question": "If the area of ΔPQR above is 12√3 cm², find the value of q?",
+    "options": {
+      "A": "6 cm",
+      "B": "7 cm",
+      "C": "8 cm",
+      "D": "5 cm"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Area of a triangle = (1/2) ab Sinθ12√3 = (1/2) x 8 x q sin 6012√3 = 4 x q x (√3/2)12√3 = 2q√3",
+    "images": [
+      {
+        "filename": "Mathematics_2010_q15_0c5c38d2.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/25797722910_math201039.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "16",
+    "question": "If y = (2x + 1)³ find (d/dx)",
+    "options": {
+      "A": "3(2x+1) 2",
+      "B": "6(2x+1)",
+      "C": "3(2x+1)",
+      "D": "6(2x+1) 2"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = (2x + 1)³(dy/dx) = 3(2x + 1)³⁻¹ x²= 3(2x + 1)²x²= 6(2x + 1)²",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "17",
+    "question": "Find ∫(sin x + 2)dx",
+    "options": {
+      "A": "cos x + x² + K",
+      "B": "cos x 2x + K",
+      "C": "-cos x + x² + K",
+      "D": "-cos x + 2x + K"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∫(sin χ + 2)dχ = (∫sin χ + ∫2)dx= -cos χ + 2χ + K",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "18",
+    "question": "Marks²³ 4 5 6 7 8 No. of students³ 1 5² 4²³ from the table above, if the pass mark is 5, how many students failed the test?",
+    "options": {
+      "A": "6",
+      "B": "2",
+      "C": "7",
+      "D": "9"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "MarksNumber of students233145Total9",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>Marks</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>8</td>\n</tr>\n<tr>\n<td>No. of students</td>\n<td>3</td>\n<td>1</td>\n<td>5</td>\n<td>2</td>\n<td>4</td>\n<td>2</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "19",
+    "question": "Marks 1²³ 4 5 Frequency² 2 8 4 4 The table above show the marks obtained in a given test. How many student took the test?",
+    "options": {
+      "A": "16",
+      "B": "13",
+      "C": "20",
+      "D": "15"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∑f= 2 + 2 + 8 + 4 + 4= 20",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>Marks</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>2</td>\n<td>2</td>\n<td>8</td>\n<td>4</td>\n<td>4</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "20",
+    "question": "Marks 1²³ 4 5 Frequency² 2 8 4 4 The table above show the marks obtained in a given test. Find the mean mark",
+    "options": {
+      "A": "3.1",
+      "B": "3.0",
+      "C": "3.2",
+      "D": "3.3"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mark(χ)ffχ122224382444165420∑f= 20∑fχ= 66",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>Marks</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>2</td>\n<td>2</td>\n<td>8</td>\n<td>4</td>\n<td>4</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "21",
+    "question": "Find r, if 6r7₈ = 511₉",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "6r7₈ = 511₉6 x 8² + r x 8¹ + 7 x 8⁰ = 5 x 9² + 1 x 9¹ + 1 x 9⁰6 x 64 + 8r + 7 x 1 = 5 x 81 + 9 + 1 x 1384 + 8r + 7 = 405 + 9 + 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "22",
+    "question": "Simplify ((3/4) of (4/9) ÷ 9(1/2)) ÷ 1(5/19)",
+    "options": {
+      "A": "(1/5)",
+      "B": "(1/4)",
+      "C": "(1/36)",
+      "D": "(1/25)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "((3/4) of (4/9) ÷ 9(1/2)) ÷ 1(5/19)Applying the rule of BODMAS, we have:((3/4) x (4/9) ÷(19/2)) ÷(24/19)((1/3) x (2/19)) ÷(24/19)(1/3) x (2/19) x (19/24)= (1/36)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "23",
+    "question": "A student measures a piece of rope and found that it was 1.26m long. If the actual length of the rope was 1.25m, what was the percentage error in the measurement?",
+    "options": {
+      "A": "0.25%",
+      "B": "0.01%",
+      "C": "0.80%",
+      "D": "0.40%"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Actual length of rope = 1.25mMeasured length of rope = 1.26merror = (1.26 - 1.25)m - 0.01mPercentage error = (error/actual length) × 10⁰%= (0.01/1.25) × 10⁰%= 0.8%",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "24",
+    "question": "At what rate will the interest on N400 increases to N24 in³ years reckoning in simple interest?",
+    "options": {
+      "A": "3%",
+      "B": "2%",
+      "C": "5%",
+      "D": "4%"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using simple interest = (P × T × R/100),where: P denoted principal = N400T denotes time = 3 yearsR denotes interest rate = ?24 = (400 × 3 × R/100)24 × 10⁰ = 400 x³ x RR = (24 × 10⁰/400 ×3)= 2%",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "25",
+    "question": "If p : q = (2/3) : (5/6) and q : r = (3/4) : (1/2), find p : q : r",
+    "options": {
+      "A": "12 : 15 : 10",
+      "B": "12 : 15 : 16",
+      "C": "10 : 15 : 24",
+      "D": "9 : 10 : 15"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If p : q = (2/3) : (5/6), then the sum S1 of ratio = (2/3) + (5/6) = (9/6)If q : r = (3/4) : (1/2), then the sum S2 of ratio = (3/4) + (1/2) = (5/4)Let p + q = T1, thenq = ((5/6) ÷ (9/6))T1 = ((5/6) × (6/9))T1 = (5/9)T1Again, let q + r = T2, thenq = ((3/4) ÷ (5/4))T2 = ((3/4) × (4/5))T2 = (3/5)T2Using q = q(5/9)T1 = (3/5)T25 x 5T1 = 9 x 3T2(T₁/T₂) = (9 × 3/5 x 5) = (27/25)Giving that, T1 = 27 and T2 = 25P = ((2/3) ÷ S₁)T1 = ((2/3) ÷ (9/6))T1= ((2/3) × (6/9))27 = 12q = ((5/6) ÷ S₁)T1 = ((5/6) ÷ (9/6))T1= ((5/6) × (6/9))27 = 15and r = ((1/2) ÷ S₂)T2 = ((1/2) ÷ (5/4))T2= ((1/2) × (4/5))25 = 10Hence p : q : r = 12: 15 : 10",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "26",
+    "question": "The 3rd term of an arithmetic progression is -9 and the 7th term is -29. Find the 10th term of the progression",
+    "options": {
+      "A": "-44",
+      "B": "-165",
+      "C": "165",
+      "D": "44"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3rd term : a + 2d = -9 .......(1)7th term : a + 6d = -29 ......(2)(2) - (1): 4d = -20:. d = -20/4 = -5From (1) : a + 2(-5) = -9a - 10 = -9:. a = -9 + 10 = 1:. 10th term of A.P is a + 9d = 1 + 9 (-5)= 1 - 45 = -44",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "27",
+    "question": "At what value of X does the function y =⁻³ - 2x + X2 attain a minimum value?",
+    "options": {
+      "A": "-1",
+      "B": "14",
+      "C": "4",
+      "D": "1"
+    },
+    "correct_answer": "D",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Application of differentiation (maxima, minima, rate of change)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given that y =⁻³ - 2x + X2then, (dy/dx) =⁻² + 2xAt maximum value, (dy/dx) = Otherefore,⁻² + 2x2x = 2x = 2/2 = 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "28",
+    "question": "Find the equation of a line parallel to y = -4x + 2 passing through (2,3)",
+    "options": {
+      "A": "y + 4x + 11 = 0",
+      "B": "y - 4x - 11 = 0",
+      "C": "y + 4x - 11 = 0",
+      "D": "y - 4x + 11 = 0"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "By comparing y = mx + cwith y = -4x + 2,the gradient of y = -4x + 2 is m1 = -4let the gradient of the line parallel to the given line be m2,then, m2 = m1 =⁻⁴(condition for parallelism)using, y - y1 = m2(x - x1)Hence the equation of the parallel line isy - 3 =⁻⁴(x-2)y - 3 =⁻⁴ x + 8y + 4x = 8 + 3y + 4x = 11y + 4x - 11 = 0",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "29",
+    "question": "Make Q the subject of formula if p = (M/5)(X + Q) + 1",
+    "options": {
+      "A": "(5P - MX + 5/M)",
+      "B": "(5P - MX - 5/M)",
+      "C": "(5P + MX + 5/M)",
+      "D": "(5P + MX - 5/M)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "p = (M/5)(X + Q) + 1P - 1 = (M/5)(X + Q)(5/M)(p - 1) = X + Q(5/M)(p - 1)- x = QQ = (5(p⁻¹) - Mx/M)= (5p - 5 - Mx/M)= (5p - Mx - 5/M)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "30",
+    "question": "If 9x² + 6xy + 4y² is a factor of 27x³ - 8y³, find the other factor.",
+    "options": {
+      "A": "2y + 3x",
+      "B": "2y - 3x",
+      "C": "3x + 2y",
+      "D": "3x - 2y"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given that 9x² + 6xy + 4y² is a factor of 27x³ - 8y³ , we can express:",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "31",
+    "question": "Solve for x and y if x - y = 2 and x2 - y2 = 8",
+    "options": {
+      "A": "(-1, 3)",
+      "B": "(3, 1)",
+      "C": "(-3, 1)",
+      "D": "(1, 3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x - y = 2 ...........(1)x2 - y2 = 8 ........... (2)x - 2 = y ............ (3)Put y = x⁻² in (2)x2 - (x - 2)2 = 8x2 - (x2 - 4x + 4) = 8x2 - x2 + 4x - 4 = 84x = 8 + 4 = 12x = (12/4)= 3from (3), y = 3 - 2 = 1therefore, x = 3, y = 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "32",
+    "question": "If x is inversely proportional to y and x = 2(1/2) when y = 2, find x if y = 4",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "1(1/4)",
+      "D": "2(1/4)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x α (1/y) .........(1)x = k x (1/y) .........(2)When x = 2(1/2)= (5/2), y = 2(2) becomes (5/2) = k x (1/2)giving k = 5from (2), x = (5/y)so when y =4, x = (5/y) = 1(1/4)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "33",
+    "question": "For what range of values of x is (1/2)x + (1/4) > (1/3)x + (1/2)?",
+    "options": {
+      "A": "x < (3/2)",
+      "B": "x > (3/2)",
+      "C": "x < -(3/2)",
+      "D": "x > -(3/2)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(1/2)x + (1/4) > (1/3)x + (1/2)Multiply through by through by the LCM of², 3 and 412 x (1/2)x + 12 x (1/4) > 12 x (1/3)x + 12 x (1/2)6x + 3 > 4x + 66x - 4x > 6 - 32x > 3(2x/2) > (3/2)x > (3/2)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "34",
+    "question": "Solve the inequalities -6 ≤ 4 - 2x < 5 - x",
+    "options": {
+      "A": "-1 < x < 5",
+      "B": "-1 < x ≤ 5",
+      "C": "-1 ≤ x ≤ 6",
+      "D": "-1 ≤ x < 6"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "-6 ≤ 4 - 2x < 5 - xsplit inequalities into two and solve each part as follows:-6 ≤ 4 - 2x = -6 - 4 ≤ -2x-10 ≤ -2x(-10/-2) ≥ (-2x/-2)giving 5 ≥ x or x ≤ 54 - 2x < 5 - x-2x + x < 5 - 4-x < 1(-x/-1) > (1/-1)giving x >⁻¹ or⁻¹ < xCombining the two results, gives⁻¹ < x ≤ 5",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "35",
+    "question": "Find the sum to infinity of the following series. 0.5 + 0.05 + 0.005 + 0.0005 + .....",
+    "options": {
+      "A": "(5/8)",
+      "B": "(5/7)",
+      "C": "(5/11)",
+      "D": "(5/9)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using S∞ = (a/1 - r)r = (0.05/0.5) = (1/10)S∞ = {0.5}{{(1/10)}}= {0.5}{({(9/10)})}= (0.5 × 10/9)= (5/9)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "36",
+    "question": "Evaluate vmatrix² & 0 & 5 \\ 4 & 6 & 3 \\ 8 & 9 & 1 vmatrix",
+    "options": {
+      "A": "5y - 2x -18 = 0",
+      "B": "102",
+      "C": "-102",
+      "D": "-42"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "vmatrix² & 0 & 5 \\ 4 & 6 & 3 \\ 8 & 9 & 1 {vmatrix}= 2(6 - 27) - 0(4 - 24) + 5(36 - 48)= 2(-21) - 0 + 5(-12)= -42 + 5(-12)= -42 - 60= -102",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "37",
+    "question": "If P = pmatrix² &⁻³ \\ 1 & 1 pmatrix , what is P⁻1",
+    "options": {
+      "A": "pmatrix -{(1/5)} & -{(3/5)} \\ -{(1/5)} & -{(2/5)} pmatrix",
+      "B": "pmatrix (1/5) & (3/5) \\ (1/5) & (2/5) pmatrix",
+      "C": "pmatrix -{(1/5)} & (3/5) \\ -{(1/5)} & (2/5) pmatrix",
+      "D": "pmatrix (1/5) & (3/5) \\ -{(1/5)} & (2/5) pmatrix"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = pmatrix² &⁻³ \\ 1 & 1 {pmatrix}|P| = 2 - 1 x⁻³ = 5P-1 = (1/5){pmatrix} 1 & 3 \\⁻¹ & 2 {pmatrix}= pmatrix (1/5) & (3/5) \\ -{(1/5)} & (2/5) pmatrix",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "38",
+    "question": "The interior angles of a quadrilateral are (x + 15)°, (2x - 45)°, ( x - 30)° and (x + 10)°. Find the value of the least interior angle.",
+    "options": {
+      "A": "112 o",
+      "B": "102 o",
+      "C": "82 o",
+      "D": "52 o"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(x + 15)º + (2x - 45)º + (x + 10)º + (x - 30)º = (2n - 4)90ºwhen n = 4x + 15º + 2x - 45º + x - 30º + x + 10º = (2 x 4 - 4) 90º5x - 50º = (8 - 4)90º5x - 50º = 4 x 90º = 360º5x = 360º + 50º5x = 410ºx = (410^o/5)= 82ºHence, the value of the least interior angle is (x - 30)º= (82 - 30) º= 52º",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "39",
+    "question": "A cylindrical pipe 50m long with radius 7m has one end open. What is the total surface area of the pipe?",
+    "options": {
+      "A": "7492",
+      "B": "7002",
+      "C": "3502",
+      "D": "982"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total surface area of the cylindrical pipe = area of circular base + curved surface area= ² + 2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "40",
+    "question": "Find the distance between the points ((1/2), (1/2)) and (-(1/2), -(1/2)).",
+    "options": {
+      "A": "1",
+      "B": "o",
+      "C": "√3",
+      "D": "√2"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let D denote the distance between ((1/2), -(1/2)) then usingD = √((x₂ - x₁)² + (y₂ - y₁)²)= {(-{(1/2) - (1/2)})² + (-{(1/2) - (1/2)})²}= √((-1)² + (-1)²)= √(1 + 1)= √2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "41",
+    "question": "Find the gradient of the line passing through the points P(1, 1) and Q(2, 5).",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "5",
+      "D": "4"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let (x1, y1) = (1, 1) and (x2, y2)= (2, 5)then gradient m of PQ ism = (y₂ - y₁/x₂ - x₁) = (5 - 1/2 - 1)= (4/1)= 4",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "42",
+    "question": "If cotθ = (8/15), where θ is acute, find sinθ",
+    "options": {
+      "A": "(8/17)",
+      "B": "(15/17)",
+      "C": "(16/17)",
+      "D": "(13/17)"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "cotθ = (1/θ)= (8/15)(given)tanθ = (15/8)By Pythagoras' theorem,x² = 15² + 8²x² = 225 + 64 = 289x = √(289)= 17Hence sinθ = (15/x)= (15/17)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "43",
+    "question": "If y = x sinx, find (dy/dx)",
+    "options": {
+      "A": "sin x - x cosx",
+      "B": "sinx + x cosx",
+      "C": "sinx - cosx",
+      "D": "sinx + cosx"
+    },
+    "correct_answer": "B",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If y = x sinx, thenLet u = x and v = sinx(du/dx) = 1 and (dv/dx) = cosxHence by the product rule,(dy/dx) = v (du/dx) + u(dv/dx)= (sin x) x 1 + x cosx= sinx + x cosx",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "44",
+    "question": "Evaluate ∈t²₀(x³ + x²)dx.",
+    "options": {
+      "A": "4(5/6)",
+      "B": "6(2/3)",
+      "C": "1(5/6)",
+      "D": "2(5/6)"
+    },
+    "correct_answer": "B",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t²₀(x³ + x²)dx = ∈t²₀((x⁴/4) + {{x³}{3}})= ((2⁴/4) + {{2³}{3}}) - ((0⁴/4) + {{0³}{3}})= ((16/4) + {{8}{3}}) - 0= (80/12)= {{20}{3}} or 6(2/3)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "45",
+    "question": "In how many ways can a committee of² women and³ men be chosen from 6 men and 5 women?",
+    "options": {
+      "A": "100",
+      "B": "200",
+      "C": "30",
+      "D": "50"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A committee of² women and³ men can be chosen from 6 men and 5 women, in ⁵C₂ x ⁶C₃ ways= (5!/(5 - 2)!2!) × {(6!/(6 - 3)!3!)}= (5!/3!2!) × {(6!/3 × 3!)}= (5 × 4 × 3!/3! × 2!) × {(6 × 5 × 4 × 3!/3! × 3!)}= (5 × 4/1 × 2) × {(6 × 5 × 4/1 × 2 × 3)}= 10 x (6 × 20/6)= 200",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "46",
+    "question": "If three unbiased coins are tossed, find the probability that they are all heads",
+    "options": {
+      "A": "(1/2)",
+      "B": "(1/3)",
+      "C": "(1/9)",
+      "D": "(1/8)"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P(H) = (1/2) and P(T) = (1/2)Using the binomial prob. distribution,(H + T)3 = H3 + 3H2T1 + 3HT2 + T3Hence the probability that three heads show in a toss of the three coins is H3= ((1/2))3= (1/8)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "47",
+    "question": "Find the standard deviation of², 3, 5 and 6",
+    "options": {
+      "A": "√6",
+      "B": "√10",
+      "C": "√(2/5)",
+      "D": "√(5/2)"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "{array}& x & x - x & (x - {x})² \\2 &⁻² & 4 \\ 3 &⁻¹ & 1 \\ 5 & 1 & 1 \\ 6 & 2 & 4\\ ∑ x = 16 & & ∑ (x - {x}²) = 10 {array}___________________________________{x} = (∑ x/N)= (16/4)= 4S = {{(x - {x})²}{N}}= {{(10)}{4}}= {{(5)}{2}}",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "48",
+    "question": "W is directly proportional to U. If W = 5 when U = 3, find U when W = (2/7)",
+    "options": {
+      "A": "(6/35)",
+      "B": "(10/21)",
+      "C": "(21/10)",
+      "D": "(35/6)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "W α UW = kuu = (w/k); (2/7) x (3/5)= (6/35)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2010_49",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2010,
+    "number": "49",
+    "question": "Determine the value of x for which (x² - 1)>0",
+    "options": {
+      "A": "x <⁻¹ or x > 1",
+      "B": "-1 < x < 1",
+      "C": "x > 0",
+      "D": "x <⁻¹"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(x² - 1) > 0",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

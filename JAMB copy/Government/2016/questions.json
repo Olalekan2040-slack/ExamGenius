@@ -1,0 +1,539 @@
+[
+  {
+    "id": "JAMB_Government_2016_1",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "1",
+    "question": "A major opposition party at the national level in Nigeria's Second Republic was",
+    "options": {
+      "A": "NNP",
+      "B": "UPN",
+      "C": "PRP",
+      "D": "GNPP"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "8. Political Parties and Party Politics (First to Fourth Republic)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "TheUnity Party of Nigeria(UPN) was a Nigerian political party that was dominant in western Nigeria during the second republic (1978-1983). The party revolved around the political leadership of Obafemi Awolowo, a sometimes polemical politician but effective administrator.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Political Parties and Party Systems",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_2",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "2",
+    "question": "The exclusion of Africans from colonial administration is associated with",
+    "options": {
+      "A": "policy of assimilation",
+      "B": "indirect rule system",
+      "C": "policy of association",
+      "D": "indignant policy"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "2. Imperialist Penetration (British and French Colonial Policies)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The assimilation policy was a policy of absorbing Aboriginal people into white society through the process of removing children from their families. The cultural believes and way of life of the French colonial masters was forced upon their subjects. The ultimate intent of this policy was the destruction of Aboriginal society and the abolition of any form of Africanism in their colonies.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_3",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "3",
+    "question": "During the 1964 Federal Election in Nigeria, the United Progressive Grand Alliance comprised the",
+    "options": {
+      "A": "NNDP, NPC and NDC",
+      "B": "NPC, UMBC and BYM",
+      "C": "UMBC, AG, NEPU and NCNC",
+      "D": "UMBC, BYM, NEPU and NPC"
+    },
+    "correct_answer": "C",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "3. Process of Decolonization (Nationalism, Nationalist Leaders)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "This was a coalition formed by opposition parties in Nigeria during the 1964 federal elections. The parties that came together to form UPGA were theUnited Middle Belt Congress (UMBC), Action Group (AG), Northern Elements Progressive Union (NEPU)andNational Council of Nigerian Citizens (NCNC).",
+    "predicted_topics": [
+      "Structures of Governance",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_4",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "4",
+    "question": "Which of the following binds Commonwealth Nations together?",
+    "options": {
+      "A": "Uniform Political System",
+      "B": "Common Currency",
+      "C": "Common Language",
+      "D": "Common Colonial History"
+    },
+    "correct_answer": "D",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "3. Commonwealth (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Commonwealth of Nations is a voluntary association of 54 sovereign states Known as the \"British Commonwealth\",. common colonial historybindsallCommonwealth nations togetherbecause all membernationshave one time been under British empire or British colonies.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_5",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "5",
+    "question": "A structure of government in which power is shared between the centre and the units is",
+    "options": {
+      "A": "confederal",
+      "B": "oligarchic",
+      "C": "unitary",
+      "D": "federalism"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "4. Structures of Governance (Unitary, Federal, Confederal)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Federalism is a type of government in which the power is divided between the national government and other governmental units",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_6",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "6",
+    "question": "Foreign Policy refers to",
+    "options": {
+      "A": "a policy made by a country when it is at war",
+      "B": "the general principles of a states international behaviour",
+      "C": "a policy made by a foreign country",
+      "D": "a policy made by a country for foreigners"
+    },
+    "correct_answer": "B",
+    "topic": "Part III: Foreign Policy and Nigeria's International Relations",
+    "subtopic": "1. Foreign Policy (Definition, Purpose, Determinants)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Foreign policy refers to the strategies and decisions a country employs to interact with other countries. It outlines how a nation conducts its relations with other nations, international organizations and non-state actors in the international arena. It includes decisions related to diplomacy, trade, military action and international cooperation.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_7",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "7",
+    "question": "'' From each according to his ability to each according to his needs' is the principle of",
+    "options": {
+      "A": "Communism",
+      "B": "Socialism",
+      "C": "Capitalism",
+      "D": "Communalism"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "6. Political Ideologies (Communalism, Feudalism, Capitalism, Socialism)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "From each according to his ability, to each according to his needs is a slogan popularized by Karl Marx in 1875 in his seminal work: \"The Communist Manifesto\"",
+    "predicted_topics": [
+      "Political Ideologies"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_8",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "8",
+    "question": "The maintenance of law and order is a function of the",
+    "options": {
+      "A": "legislature",
+      "B": "military",
+      "C": "judiciary",
+      "D": "executive"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The executive arm of government maintain law and order through the paramilitary, which is one of the agencies under the executive arm. We live in a society where we must maintain law and order. The police must enforce the laws to maintain order. The dictates of law and order state that we must create and establish a clear code of conduct.",
+    "predicted_topics": [
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Legislature",
+      "Arms of Government :: Executive",
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_9",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "9",
+    "question": "The development of attitudes and beliefs about a political system is known as",
+    "options": {
+      "A": "political orientation",
+      "B": "political apathy",
+      "C": "political culture",
+      "D": "political socialisation"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Political socialisation is a lifelong process by which people form their ideas and belief about politics and acquire political values.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Political Processes"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_10",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "10",
+    "question": "A nation could be identified through its",
+    "options": {
+      "A": "military strength",
+      "B": "common language and culture",
+      "C": "population",
+      "D": "constitution"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A nation is a large body of people united by common descent, history, culture, or language, inhabiting a particular country or territory.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Constitution",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_11",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "11",
+    "question": "A network of groups of people in an institution expressing human association is",
+    "options": {
+      "A": "community",
+      "B": "society",
+      "C": "nation",
+      "D": "state"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Asocietyis a group of individuals involved in persistent social interaction, or a large social group sharing the same geographical or social territory, typically subject to the same political authority and dominant cultural expectations.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_12",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "12",
+    "question": "The Commission on Mediation, Conciliation and Arbitration is an organ of",
+    "options": {
+      "A": "The United Nations",
+      "B": "Common Wealth",
+      "C": "Organization of Petroleum Exporting Countries",
+      "D": "African Union"
+    },
+    "correct_answer": "D",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "This is an organ of the African Union (AU) designed to help resolve disputes among member states through peaceful means such as mediation, conciliation and arbitration. It plays a key role in maintaining peace and stability within the continent.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_13",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "13",
+    "question": "The policy of assimilation was the colonial policy of the",
+    "options": {
+      "A": "French",
+      "B": "British",
+      "C": "Portuguese",
+      "D": "German"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "2. Imperialist Penetration (British and French Colonial Policies)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Policy of Assimilation (French colonialism); Assimilation was one ideological basis of French colonial policy in the 19th and 20th centuries.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_14",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "14",
+    "question": "The appointment, promotion and discipline of civil servants is the responsibility of the",
+    "options": {
+      "A": "Civil Service Commission",
+      "B": "Public Complaints Commission",
+      "C": "Judicial Service Commission",
+      "D": "Public Service Institute of Nigeria"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "15. The Civil Service",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A civil service commission is a government agency that is constituted by legislature to regulate the employment and working conditions of civil servants, oversee hiring and promotions, and promote the values of the public service.",
+    "predicted_topics": [
+      "The Civil Service"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_15",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "15",
+    "question": "A country is said to operate an unwritten constitution if the",
+    "options": {
+      "A": "constitution is not contained in a single document",
+      "B": "constitution cannot be written down",
+      "C": "existing constitution can be suspended at will",
+      "D": "country is not having a printed constitution"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "7. Constitution (Meaning, Sources, Functions, Types)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An unwritten constitution is a constitution that is not embodied in a single document but is based chiefly on custom and precedent as expressed in statutes and judicial decisions.",
+    "predicted_topics": [
+      "Constitution"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_16",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "16",
+    "question": "The form of government headed by a king is",
+    "options": {
+      "A": "monarchy",
+      "B": "presidentialism",
+      "C": "fascism",
+      "D": "republicanism"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "2. Forms of Government (Monarchy, Aristocracy, Oligarchy, Democracy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Monarchy is a form of government with a king or queen at the head.",
+    "predicted_topics": [
+      "Forms of Government",
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Monarchy",
+      "Forms of Government :: Republicanism"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_17",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "17",
+    "question": "Citizens exercise their sovereignty by",
+    "options": {
+      "A": "attending political rallies",
+      "B": "voting at elections",
+      "C": "registration to vote",
+      "D": "their right to sue the state"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "11. The Electoral Process (Suffrage, Elections, Electoral Systems)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Popular sovereignty means that the government can only exercise authority if it has been given permission to do so by the People. The People give to the government ONLY AS MUCH AUTHORITY as is necessary to fulfill the purposes for which government is established. Citizens exercise their authority by voting during elections for their preferred citizens",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2016_18",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "18",
+    "question": "Which of these is an attribute of government?",
+    "options": {
+      "A": "Political Power",
+      "B": "Sovereignty",
+      "C": "Constitution",
+      "D": "Definite territory"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Agovernmentis a system or group of people governing an organised community, often a state. A major attribute of government is political power to exercise authority. Other attributes include:",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_19",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "19",
+    "question": "Nigerian Judiciary is headed by",
+    "options": {
+      "A": "Attorney-General and Minister of Justice",
+      "B": "Solicitor-General of the Federation",
+      "C": "Chief Justice of the Federation",
+      "D": "President, Court of Appeal"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Supreme Court is presided over by the Chief Justice of Nigeria and thirteen associate justices, who are appointed by the President of Nigeria on the recommendation() of the National Judicial Council.",
+    "predicted_topics": [
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2016_20",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2016,
+    "number": "20",
+    "question": "The modern theory of sovereignty was popularized by",
+    "options": {
+      "A": "John Locke",
+      "B": "Thomas Hobbes",
+      "C": "Jean Bodin",
+      "D": "Baron De Montesquieu"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The modern concept of sovereignty owes more to the jurist Jean Bodin (1530–1596) . Bodin conceived it as a supreme, perpetual, and indivisible power, marked by the ability to make law without the consent of any other.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  }
+]

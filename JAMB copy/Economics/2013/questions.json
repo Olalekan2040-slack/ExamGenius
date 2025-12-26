@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "JAMB_Economics_2013_1",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "1",
+    "question": "If P = \\(\\frac{1}{4}\\)(Qs + 10). What is the quantity supplied at N14?",
+    "options": {
+      "A": "14",
+      "B": "60",
+      "C": "46",
+      "D": "32"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = \\(\\frac{1}{4}\\)(Qs + 10)14 = \\(\\frac{\\text{Qs + 10}}{4}\\)56 = Qs + 1056 - 10 = QsQs = 46",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_2",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "2",
+    "question": "The profit of a monopolist can be eliminated where price equals",
+    "options": {
+      "A": "AFC",
+      "B": "MC",
+      "C": "AC",
+      "D": "AVC"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Monopolies make profits by creating prices that are higher, and output that is lower. Profits would be eliminated when price is equal to marginal cost. That is the cost incurred by a firm by producing one additional unit of a product or service. The monopoly would no longer make profits if the price it charges for its product is equal to the additional cost it incurred in producing that good.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_3",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "3",
+    "question": "An economy in which both the public and private sectors contribute to economic growth is as",
+    "options": {
+      "A": "feudal economy",
+      "B": "capitalist economy",
+      "C": "socialist economy",
+      "D": "mixed economy"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A mixed economy is an economic system combining private and state enterprise. This means economic activities in a country are undertaken by both private indiduals and the government.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_4",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "4",
+    "question": "If the standard deviation of a given data is 53, what is the variance?",
+    "options": {
+      "A": "2082",
+      "B": "2809",
+      "C": "2808",
+      "D": "2209"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The root of the standard deviation is the variance. Therefore we have;",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_5",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "5",
+    "question": "Which of the following set of statistical tools is used for further economic analysis?",
+    "options": {
+      "A": "the median and standard deviation",
+      "B": "the mean and mode",
+      "C": "the mean and standard deviation",
+      "D": "the mode and median"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The mean is useful for predicting future results when there are no extreme values in the data set. Standard deviation is a number used to tell how measurements for a group are spread out from the average (mean), or expected value",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_6",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "6",
+    "question": "An advantage of the range as a measure of dispersion is that it",
+    "options": {
+      "A": "can be used to calculate open-ended distribution",
+      "B": "make use of all values of observations in a distribution",
+      "C": "takes all values into consideration",
+      "D": "is useful for further statistical calculation"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_7",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "7",
+    "question": "Find the median of the following set of data 35,10,14,38,15,18,22,30 and 28",
+    "options": {
+      "A": "10",
+      "B": "38",
+      "C": "35",
+      "D": "22"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Recall that the median is the middle number. To get the median, we will arrange the numbers from ascending order (that is, from smallest to the biggest). hence we have;",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_8",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "8",
+    "question": "An increase in demand without a corresponding change in supply will lead to",
+    "options": {
+      "A": "a decrease in equilirium price and increase in equilibrium quantity",
+      "B": "an increase in equilibrium price and quantity",
+      "C": "a decrease in equilibrium price and quantity",
+      "D": "an increase in equilibrium price and a decrease in equilibrium quantity"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An increase in demand without a corresponding increase in supply will lead to a rise in price and a decrease in the quantity available for sale.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_9",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "9",
+    "question": "An increase in the price of a commodity will result in",
+    "options": {
+      "A": "a decrease in the quantity demanded",
+      "B": "an increase in demand",
+      "C": "an increase in quantity demanded",
+      "D": "a decrease in demand"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "According to the law of demand, a rise in price will cause a decrease in the quantity demanded and vice versa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_10",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "10",
+    "question": "If the price of a bicycle changes from N120 to N80 and quantity bought changes from 300 to 500 units, the elasticity of demand for bicycle is",
+    "options": {
+      "A": "66.7",
+      "B": "0.5",
+      "C": "1.5",
+      "D": "2.0"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "change in price = 120- 80 = 40",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_11",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "11",
+    "question": "One of the assumptions of the cardinal approach is",
+    "options": {
+      "A": "diminishing marginal rate of substitution",
+      "B": "the consistency and transitivity of choice",
+      "C": "that total utility depends on the quantity of the commodities consumed",
+      "D": "unstable marginal utility of money"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "According to the Cardinalist school, the utility/satisfaction which is derived from the consumption of a good is a function of the quantity of that good alone.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_12",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "12",
+    "question": "Utility is the satisfaction derived from the",
+    "options": {
+      "A": "distribution of goods and services",
+      "B": "use of goods and services",
+      "C": "demand of goods and services",
+      "D": "production of goods and services"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Utility is simply the satisfaction a consumer derives from the consumption of  goods and services.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_13",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "13",
+    "question": "One of the major factors that brings about changes in supply is",
+    "options": {
+      "A": "market discrimination",
+      "B": "availability of storage facilities",
+      "C": "the cost of storage",
+      "D": "incentives granted to workers"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The available of facilities to store produced goods would affect the quantity of goods supplied to the market. Producers maybe willing to produce, but if there are no storage facilities to store the manufactured goods pending when the demand for it will arise, producers would cut down on production thereby affecting the quantity of goods supplied.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_14",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "14",
+    "question": "If the supply of a product is elastic, a small reduction in price will",
+    "options": {
+      "A": "reduce the cost of production",
+      "B": "reduce the quantity supplied",
+      "C": "increase the quantity supplied",
+      "D": "lead to no change in the quantity supplied"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Elastic demand means a change in price would cause a change in the quantity demanded. In an elastic demand,  a small reduction in price would increase the quantity demanded and a decrease in the quantity supplied. This is so because, suppliers will not be willing to supply much goods when the price for it is low.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_15",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "15",
+    "question": "If the price of a commodity is fixed below equilibrium, this will lead to",
+    "options": {
+      "A": "excess demand",
+      "B": "a decrease in price",
+      "C": "an increase in price",
+      "D": "excess supply"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Price determination and equilibrium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Just like the law of demand, the higher the price, the lower the quantity demanded and the lower the price the higher the quantity demanded. When the prices of goods are set below equilibrium, it will invariably lead to high demand for the product.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_16",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "16",
+    "question": "One of the criticisms of the price mechanism is that",
+    "options": {
+      "A": "producers are sovereign",
+      "B": "it provides low degree of freedom",
+      "C": "it widens the inequitable gap",
+      "D": "consumers are sovereign"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Price mechanism refers to the system where the forces of demand and supply determine the prices of commodities. This means that, prices are left in the fate of market forces negating the concept of consumer sovereignty.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_17",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "17",
+    "question": "In Nigeria, the government can reduce the cost of accommodation by fixing the rent",
+    "options": {
+      "A": "at the prevailing rate",
+      "B": "at the equilibrium price",
+      "C": "above the equilibrium price",
+      "D": "below the equilibrium price"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The government can reduce the cost of accommodation by fixing the rent at a maximum price. Maximum prices occur when a government sets a legal limit on the price of a good or service – with the aim of reducing prices below the market equilibrium price.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_18",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "18",
+    "question": "If a refinery achieves a reduction in cost by purchasing and transporting crude oil in large quantities, it enjoys",
+    "options": {
+      "A": "economies of scale",
+      "B": "specialization",
+      "C": "division of labour",
+      "D": "diseconomies of scale"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economies of scale is a proportionate saving in costs gained by an increased level of production. This means that, a firm begin to enjoy certain benefits such as a reduction in its direct and overhead cost as its scale of transaction and operation expands.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_19",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "19",
+    "question": "An isoquant lying above to the right of another represents",
+    "options": {
+      "A": "a higher output level",
+      "B": "constant returns to scale",
+      "C": "over-capacity utilization",
+      "D": "a lower output level"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_20",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "20",
+    "question": "A measure of national income used as comparison of standard of living among nations is",
+    "options": {
+      "A": "net national product",
+      "B": "gross domestic product",
+      "C": "gross national product",
+      "D": "per capita income"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Per capita income is a measure of the amount of income earned per person in a nation or geographical region. It is used to measure the national income of a country. The national income is then used to ascertain the standard of living. The higher the per capital income, the higher the standard of living and development of a region.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_21",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "21",
+    "question": "The speculative demand for money is inversely related to the",
+    "options": {
+      "A": "interest rate",
+      "B": "level of income",
+      "C": "exchange rate",
+      "D": "inflation rate"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The speculative demand for money is simply a need for money for investment purposes, which is indirectly influenced by interest rates. When the rates of interest is high, people would most likely want to invest their money so as to get a high return on investment.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_22",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "22",
+    "question": "If Mr .K obtains a N50.000 loan from a bank for the purpose of providing household needs, the demand for money is said to be",
+    "options": {
+      "A": "transactionary",
+      "B": "speculative",
+      "C": "precautionary and speculative",
+      "D": "transactional and speculative"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The transactionary motive of money is when people hold money for the purpose of meeting their daily needs and wants. It is simply the desire to hold money in order to finance transactions.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_23",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "23",
+    "question": "Which of the following is used by the Central Bank of Nigeria to control inflation?",
+    "options": {
+      "A": "Tariff on imports",
+      "B": "Tax rate",
+      "C": "Exchange rate",
+      "D": "Discount rate"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Discount rate is the minimum interest rate set by the central bank of a country. It is used in controlling inflation. We all know inflation is an economic situation where the value of money falls and causes a rise in the general price level. Inflation occurs when there is excess money in circulation. This means that, much money will be used to purchase few goods.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_24",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "24",
+    "question": "If CBN reduces money supply, the interest rate will",
+    "options": {
+      "A": "fluctuate",
+      "B": "rise",
+      "C": "fall",
+      "D": "remain unchanged"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The interest rates will be high if CBN reduces money supply. This is done to discourage borrowing and control the flow of money in the economy. It is mostly done when there is excess money in circulation. CBN would raise the interest rates to discourage borrowing and encourage savings and investments, thereby mopping out the excess money in circulation.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_25",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "25",
+    "question": "A tax on land will ultimately fall",
+    "options": {
+      "A": "partly on agents and users",
+      "B": "entirely on users",
+      "C": "entirely on owners",
+      "D": "partly on users and owners"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The seller is responsible for the maintenance of the property, any repairs and for paying property taxes and insurance, the same as any landlord.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_26",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "26",
+    "question": "An example of an expansionary fiscal policy action is",
+    "options": {
+      "A": "decrease in the corporate profit tax rates",
+      "B": "decrease in welfare payments",
+      "C": "purchase of government securities",
+      "D": "decrease in the bank rate"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Expansionary fiscal policy is when the government expands the money supply in the economy using budgetary tools to either increase spending or cut taxes—both of which provide consumers and businesses with more money to spend. Cutting down on tax rates would mean higher profits for businesses. This is done to increase the supply of money in the economy.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_27",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "27",
+    "question": "One of the goals of development plans in Nigeria is to",
+    "options": {
+      "A": "increase the profitability of multinational businesses",
+      "B": "improve the country's GDP",
+      "C": "achieve higher standard of living for the citizens",
+      "D": "deregulate the economy"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nigeria economic development plan is aimed at creating and maintaining a strong, vibrant local economy that will improve the standard of living of its citizens. This is done by putting in place policy direction for economic growth, and identify strategies, programs, and projects to improve the economy.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Citizenship"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_28",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "28",
+    "question": "Life insurance companies contribute to economic development by holding a part of their assets in",
+    "options": {
+      "A": "long-term financial instruments",
+      "B": "money market instruments",
+      "C": "cash and near money",
+      "D": "short-term financial instruments"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Financial institutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_29",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "29",
+    "question": "In order to add value to Nigeria agricultural produce, there is need to",
+    "options": {
+      "A": "cultivate high breed crops",
+      "B": "process them into finished goods",
+      "C": "adopt modern storage methods",
+      "D": "advertise them in European markets"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Most agricultural produce are perishables and do not last past a few days after it has been harvested. The agricultural sector needs to adopt new and modern methods of produce processing and storage to preserve the quality and nutritional value of the foods.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_30",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "30",
+    "question": "The main reason for low agricultural produce in west Africa is need to",
+    "options": {
+      "A": "the presence of large-scale agro-allied industries",
+      "B": "high dependency ratio",
+      "C": "over dependence on agriculture for subsistence",
+      "D": "the use of crude implements in farming process"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Farming implements used by farmers especially at the rural level has been known to lower productivity due to the amount of labour needed to increase production. These farmers still use outdated farm tools. This is one of the major reason for low productivity in the agricultural.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_31",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "31",
+    "question": "The most important determinant for the location of a brick industry is the availability of",
+    "options": {
+      "A": "market",
+      "B": "power supply",
+      "C": "water",
+      "D": "raw materials"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The most important determinant of the location of an industry that is into bricks production is the market. This has to do with people who are willing and able to patronize the product of the company. The market to buy produced goods/materials is very important. If the industry is located in a rural area, the patronage would be low because urban areas are the highest consumers of building materials.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_32",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "32",
+    "question": "In Nigeria, efficiency in public corporations can be achieved through",
+    "options": {
+      "A": "public offer",
+      "B": "indigenization",
+      "C": "privatization",
+      "D": "nationalization"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Privatization of public corporations is one of the ways to maintain efficiency in the sector. This happens when government owned and controlled enterprises are transferred to private shareholders which include corporate bodies and  individuals.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_33",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "33",
+    "question": "Government participation in the oil industry was necessitated by the",
+    "options": {
+      "A": "annual increase in production",
+      "B": "formation of OPEC",
+      "C": "high demand for crude oil",
+      "D": "huge investment outlay"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_34",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "34",
+    "question": "The deregulation of the petroleum sector in Nigeria will bring about",
+    "options": {
+      "A": "efficiency in pricing and distribution of the products",
+      "B": "an end to the importation of fuel",
+      "C": "an end to foreign firms' dominance",
+      "D": "fixing appropriate production quotas"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To understand this, we first have to understand what deregulation means. Deregulation is the removal of regulations or restrictions, especially in a particular industry. In this context it is the removal of regulations and restrictions such as subsidy paid by the Nigerian government on petroleum products.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_35",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "35",
+    "question": "A distinguishing characteristic of consumer co-operative society is that the",
+    "options": {
+      "A": "the maximum number of shareholders is 20",
+      "B": "members are the owners",
+      "C": "members are the workers",
+      "D": "the minimum number of shareholders is 5"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Some Characteristics of consumers' co-operative society:",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_36",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "36",
+    "question": "A major disadvantage of partnership business is",
+    "options": {
+      "A": "difficulty in the transfer of shares",
+      "B": "distrust among members",
+      "C": "limited liability",
+      "D": "large capital outlay"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Business organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Distrust among partners often stems from poor communication, leading to suspicion when none is warranted. This often lead to serious disagreement that may eventually end the partnership.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_37",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "37",
+    "question": "The quality of labour force in Nigeria can be improved by",
+    "options": {
+      "A": "establishing more tertiary institutions",
+      "B": "creating sufficient job opportunities",
+      "C": "encouraging the study of science and technology",
+      "D": "establishing more skills acquisition centres"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_38",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "38",
+    "question": "The effect of emigration on a country's population is",
+    "options": {
+      "A": "decrease in the population",
+      "B": "decrease in job opportunities",
+      "C": "increase in population",
+      "D": "increase in dependency ratio"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Emigration is the act of leaving one's own country to settle permanently in another. The effect on the emigrating country is a reduction in the population and labour force and an increase in the population of the new country of residence",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_39",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "39",
+    "question": "A measure for preventing the external value of the naira from falling is for the government to",
+    "options": {
+      "A": "increase its spending with foreign reserve",
+      "B": "sell its own currency",
+      "C": "reduce interest rate",
+      "D": "buy its currency with foreign reserve"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If the naira can be valued to the point where it can compete with other foreign currencies in the foreign exchange market, the value will be high in the international market.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_40",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "40",
+    "question": "A fiscal policy instrument that can influence the demand pattern in an economy is",
+    "options": {
+      "A": "government spending",
+      "B": "interest rate",
+      "C": "income tax",
+      "D": "tariff"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An income tax is a tax that governments impose on income generated by businesses and individuals within their jurisdiction. The higher the rate of taxation, the higher the cost of product or service. This will affect the rate of demand.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_41",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "41",
+    "question": "One of the main achievements of the Economic Commission for Africa is",
+    "options": {
+      "A": "eliminating trade restrictions among states",
+      "B": "encouraging transport and communication development",
+      "C": "guaranteeing a steady flow of foreign investment into Africa",
+      "D": "providing the machinery for collaboration on monetary issues"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Economic Commission for Africa was established to encourage economic cooperation among its member states (the nations of the African continent). They have achieved this  by eliminating barriers to trade among member states",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_42",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "42",
+    "question": "The rate of interest change on loans depends largely on",
+    "options": {
+      "A": "the prevailing exchange rate",
+      "B": "marginal efficiency of capital",
+      "C": "the risk associated with the loan",
+      "D": "the prevailing tax rate"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Interest rates are determined, in large part by central banks who actively commit to maintaining a target interest rate. They do this by using the open market operations. To discourage borrowing, interest rates would be set high and set low to encourage lending. Therefore interest rates are determined mainly by the prevailing exchange rate",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_43",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "43",
+    "question": "A valid explanation for real wage growth is",
+    "options": {
+      "A": "an increase in the rate of productivity",
+      "B": "the rising cost of capital accumulation",
+      "C": "a contraction of emploment in service industries",
+      "D": "an increase in the quantity of labour"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Real wage growth is largely due to increased in economic activity creating competition between businesses to attract and retain workers. The higher the rate of economic activities (production, buying and selling) in the economy, the higher the real wage growth.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_44",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "44",
+    "question": "If Mr. X lost his clerical job at a store and searched for a similar job for ten months before finding one this implies that Mr.X was",
+    "options": {
+      "A": "structurally unemployed",
+      "B": "frictionally unemployed",
+      "C": "seasonally unemployed",
+      "D": "cyclically unemployed"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Frictional unemployment happens when people move from one job to another. Mr X was frictionally unemployed for ten months",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_45",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "45",
+    "question": "From the graph above, the price elasticity of demand is",
+    "options": {
+      "A": "unitarily elastic",
+      "B": "perfectly elastic",
+      "C": "perfectly inelastic",
+      "D": "fairly inelastic"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "price elasticity of demand is the degree to which a change in price would affect the quantity demanded or supplied of a product. From the diagram above, price elasticity of demand is perfectly inelastic (that is,  the quantity demanded does not respond to price.) When price was zero, the quantity demanded remained unchanged/ the same.",
+    "images": [
+      {
+        "filename": "Economics_2013_q45_3eae0a92.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/18533380957_co6 1.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_46",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "46",
+    "question": "From the indifference curve above, consumer will prefer combination",
+    "options": {
+      "A": "F",
+      "B": "S",
+      "C": "M",
+      "D": "K"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "From the above diagram, consumers would mostly likely get the highest level of utility at point S. Because at point S, 3 of Y = 3 of X",
+    "images": [
+      {
+        "filename": "Economics_2013_q46_f95b48f2.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/15682102612_f4.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2013_47",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "47",
+    "question": "From the graph above, R represents",
+    "options": {
+      "A": "marginal cost",
+      "B": "total cost",
+      "C": "variable cost",
+      "D": "fixed cost"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "R represents Total cost which is the total economic cost of production and is made up of variable cost and fixed cost.The diagram below would help you know how to identify the various types of cost,",
+    "images": [
+      {
+        "filename": "Economics_2013_q47_11dbd2f7.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/2851291694_f5.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_48",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "48",
+    "question": "The optimum level of output of the firm is",
+    "options": {
+      "A": "BC",
+      "B": "OB",
+      "C": "OS",
+      "D": "BS"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2013_q48_815197ee.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5702584276_f6.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2013_49",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2013,
+    "number": "49",
+    "question": "The total revenue of the firm is represented by",
+    "options": {
+      "A": "GHEF",
+      "B": "GHJC",
+      "C": "EFJC",
+      "D": "GHOB"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2013_q49_b8c3513b.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/18533400626_f6.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

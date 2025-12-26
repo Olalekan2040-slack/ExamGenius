@@ -1,0 +1,971 @@
+[
+  {
+    "id": "JAMB_Chemistry_2021_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "1",
+    "question": "Give the common name for the following compound (CH₃)₂ CH CH₂ -Br",
+    "options": {
+      "A": "Isobutyl bromide",
+      "B": "Methyl bromide",
+      "C": "propyl bromide",
+      "D": "Butyl bromide"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "2",
+    "question": "The enzyme that converts glucose to ethyl alcohol is?",
+    "options": {
+      "A": "maltase",
+      "B": "zymase",
+      "C": "Diatase",
+      "D": "Invertase"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "3",
+    "question": "The scientist who stated that matter can be converted into energy is?",
+    "options": {
+      "A": "Boyle",
+      "B": "Lavoiser",
+      "C": "Avogadro",
+      "D": "Einstein"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2021_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "4",
+    "question": "What is the IUPAC name for the following compound? HC₃",
+    "options": {
+      "A": "Acetylene",
+      "B": "Methyl acetylene",
+      "C": "Butanol",
+      "D": "Decanoic acid"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "5",
+    "question": "What is the chemical name for the compound CuCO₃?",
+    "options": {
+      "A": "Copper (iii) carbonate",
+      "B": "Copper (ii) carbonate",
+      "C": "Copper (i) carbonate",
+      "D": "Copper"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "6",
+    "question": "A 'breath test' used by traffic police to check drunken driving uses?",
+    "options": {
+      "A": "Tumeric on filter paper",
+      "B": "Silica gel coated with saliva nitrate",
+      "C": "Potassium permanganate-sulphuric acid",
+      "D": "Potassium dichromatic-sulphuric acid"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "7",
+    "question": "Which one of the following is not a mixture?",
+    "options": {
+      "A": "Air",
+      "B": "Mercury",
+      "C": "Milk",
+      "D": "Cement"
+    },
+    "correct_answer": "B",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "8",
+    "question": "Which of the following is a non-metal that remains liquid at room temperature?",
+    "options": {
+      "A": "Chlorine",
+      "B": "Phosphorus",
+      "C": "Bromine",
+      "D": "Helium"
+    },
+    "correct_answer": "C",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "9",
+    "question": "Which of the following are chemical changes? I. cooking of food II. digestion of food III. freezing of water IV. water is heated up",
+    "options": {
+      "A": "I and II",
+      "B": "I, II, and III",
+      "C": "III and IV",
+      "D": "all of the above"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Physical and chemical changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "No official explanation is available for this question at this time. Please check contributions posted by others below. If you can provide an explanation to help other student learn, please",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "10",
+    "question": "The atomic weight of nitrogen is?",
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "11",
+    "question": "The gas which causes global warming is?",
+    "options": {
+      "A": "O₂",
+      "B": "CO₂",
+      "C": "N₂",
+      "D": "He"
+    },
+    "correct_answer": "B",
+    "topic": "8. Environmental Pollution",
+    "subtopic": "Air pollution",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "12",
+    "question": "Oxygen is absent in?",
+    "options": {
+      "A": "Kerosene",
+      "B": "Soil",
+      "C": "Glass",
+      "D": "Cement"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "13",
+    "question": "A sample of any of the following substances disappears after some time when exposed to air like camphor, naphthalene, or dry ice. This phenomenon is called?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Evaporation",
+      "C": "Diffusion",
+      "D": "Radiation"
+    },
+    "correct_answer": "A",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "14",
+    "question": "The maximum electron in N shell is?",
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "18",
+      "D": "32"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "15",
+    "question": "Neutrons were discovered by?",
+    "options": {
+      "A": "James Chadwick",
+      "B": "Ernest Rutherford",
+      "C": "J.J Thompson",
+      "D": "John Dalton"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "16",
+    "question": "Which of the following is a form of calcium carbonate? I. limestone II. marble III. chalk Iv. egg-shells",
+    "options": {
+      "A": "I only",
+      "B": "I, II and IV",
+      "C": "I and II only",
+      "D": "I, II, III, and IV"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkaline earth metals (Calcium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "17",
+    "question": "Soaps clean surfaces on the principle based on?",
+    "options": {
+      "A": "viscosity",
+      "B": "floatation",
+      "C": "elasticity",
+      "D": "surface tension"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Esters and fats",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "18",
+    "question": "The reactivity of fluorine is due to?",
+    "options": {
+      "A": "its high electro negativity",
+      "B": "small size of fluorine atom",
+      "C": "availability of D-orbitals",
+      "D": "strong f-f bond"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "19",
+    "question": "The mass number of a nucleus is?",
+    "options": {
+      "A": "Always less than its atomic number",
+      "B": "The sum of the number of protons and neutrons present in the nucleus",
+      "C": "Always more than the atomic weight",
+      "D": "A fraction"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "20",
+    "question": "The mass of one Avogadro number of helium atoms is?",
+    "options": {
+      "A": "1.00gram",
+      "B": "4.00gram",
+      "C": "8.00gram",
+      "D": "6.00gram"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Mole concept and Avogadro's number",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "21",
+    "question": "220g of carbon dioxide contains ----- moles",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Mole concept and Avogadro's number",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "22",
+    "question": "The inherited traits of an organism are controlled by?",
+    "options": {
+      "A": "RNA molecules",
+      "B": "Nucleotides",
+      "C": "DNA molecules",
+      "D": "Enzymes"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "23",
+    "question": "The most abundant rare gas in the atmosphere is?",
+    "options": {
+      "A": "He",
+      "B": "Ne",
+      "C": "Ar",
+      "D": "Xe"
+    },
+    "correct_answer": "C",
+    "topic": "5. Air",
+    "subtopic": "Composition of air",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "24",
+    "question": "The heat required to raise the temperature of the body by 1k is called?",
+    "options": {
+      "A": "Specific heat",
+      "B": "Thermal capacity",
+      "C": "Water equivalent",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "25",
+    "question": "The nucleus of a hydrogen atom consist of a?",
+    "options": {
+      "A": "1 proton only",
+      "B": "1 proton, 2 neutron",
+      "C": "1 neutron only",
+      "D": "1 electron only"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "26",
+    "question": "The metal used to recover copper from a solution of copper sulphate is?",
+    "options": {
+      "A": "Na",
+      "B": "Ag",
+      "C": "Hg",
+      "D": "Fe"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Copper",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "27",
+    "question": "The nucleus of an atom consists of?",
+    "options": {
+      "A": "Electrons and neutrons",
+      "B": "Electrons and protons",
+      "C": "Protons and neutrons",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "28",
+    "question": "A solution contains 20g of solute in 180g of solvent. If the solvent is water, what is the concentration of the solution in terms of mass by mass percentage",
+    "options": {
+      "A": "11.%",
+      "B": "22.2%",
+      "C": "10%",
+      "D": "20%"
+    },
+    "correct_answer": "C",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "29",
+    "question": "The only metal that is anti-bacterial is?",
+    "options": {
+      "A": "Iron",
+      "B": "Sodium",
+      "C": "Alluminium",
+      "D": "Copper"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "30",
+    "question": "An element having the atomic number 17 will resemble which of the following elements having atomic number as given below?",
+    "options": {
+      "A": "33",
+      "B": "35",
+      "C": "18",
+      "D": "19"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "31",
+    "question": "A chemical process in which there is a gain of electrons is known as?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Reduction",
+      "C": "Oxidation",
+      "D": "Distillation"
+    },
+    "correct_answer": "B",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Physical and chemical changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "32",
+    "question": "The reactions involving simultaneous oxidation and reduction?",
+    "options": {
+      "A": "Automatic reactions",
+      "B": "Alternate reactions",
+      "C": "Reduction agency",
+      "D": "Redox reactions"
+    },
+    "correct_answer": "D",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidation and reduction reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "33",
+    "question": "A binary compound of oxygen with another element is referred to as?",
+    "options": {
+      "A": "Oxide",
+      "B": "Element",
+      "C": "Carbon",
+      "D": "Nitrogen"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "34",
+    "question": "The process or act of extracting a metal from its ore and refining it is called?",
+    "options": {
+      "A": "Extraction",
+      "B": "Metal mining",
+      "C": "Mettallurgy",
+      "D": "Prospecting"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "35",
+    "question": "The compounds made up of only carbon and hydrogen are called?",
+    "options": {
+      "A": "Carbon compounds",
+      "B": "Hydrocarbons",
+      "C": "Atoms",
+      "D": "Carbon hydrolysis"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "36",
+    "question": "One of the following is not a physical property of monosaccharides?",
+    "options": {
+      "A": "Monosaccharides get charred when heated",
+      "B": "Monosaccharides are water-soluble, sweet substances",
+      "C": "They are highly vital to the exploration of metals",
+      "D": "They can be reduced to sugar alcohols"
+    },
+    "correct_answer": "C",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Physical and chemical changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "37",
+    "question": "In troposphere, the two types of pollutants are?",
+    "options": {
+      "A": "Gaseous and particulate pollutants",
+      "B": "Carbon and metallic pollutants",
+      "C": "Natural and man-made pollutants",
+      "D": "Sulphuric and nitrogenous pollutants"
+    },
+    "correct_answer": "A",
+    "topic": "8. Environmental Pollution",
+    "subtopic": "Pollutants and their effects",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "38",
+    "question": "The molar enthalpy change accompanying the removal of an electron from a gas phase atom or ion in its ground state is called?",
+    "options": {
+      "A": "Electron gain enthalpy",
+      "B": "Ionization enthalpy",
+      "C": "Enthalpy change",
+      "D": "Enthalpic gas removal"
+    },
+    "correct_answer": "B",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2021_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "39",
+    "question": "The fourteen elements (atomic number 90-103) after actinium are called?",
+    "options": {
+      "A": "Actinoids",
+      "B": "Nucleotides",
+      "C": "Pre-actinum elements",
+      "D": "Atomic elements"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2021_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2021,
+    "number": "40",
+    "question": "The process by which salt and water reacted in a limited way to form an acid or a base is?",
+    "options": {
+      "A": "Neutral process",
+      "B": "Basic acidic process",
+      "C": "Hydrolysis",
+      "D": "Sublimation"
+    },
+    "correct_answer": "C",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Acid-base titration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  }
+]

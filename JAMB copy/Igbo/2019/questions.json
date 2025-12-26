@@ -1,0 +1,122 @@
+[
+  {
+    "id": "JAMB_Igbo_2019_1",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2019,
+    "number": "1",
+    "question": "Zaa ajụjụ a Ụmụ ọle ka Adiele mụtara? Ụmụ",
+    "options": {
+      "A": "atọ",
+      "B": "anọ",
+      "C": "isii",
+      "D": "abụọ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2019_2",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2019,
+    "number": "2",
+    "question": "Gịnị bụ akaọrụ Adiele?",
+    "options": {
+      "A": "Ọrụụgbọ",
+      "B": "Nkụzi",
+      "C": "Ikpụ ụzụ",
+      "D": "Ịzụ ahịa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2019_3",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2019,
+    "number": "3",
+    "question": "Aha ọbọdọ ha bụ",
+    "options": {
+      "A": "Imo",
+      "B": "Awka",
+      "C": "Akaeze",
+      "D": "Abia"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2019_4",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2019,
+    "number": "4",
+    "question": "Ọlee aha steeti Adiele na ezinaụlọ ya?",
+    "options": {
+      "A": "Imo",
+      "B": "Abia",
+      "C": "Akaeze",
+      "D": "Anambra"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2019_5",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2019,
+    "number": "5",
+    "question": "Adiele ọ lụrụ nwạanyị ọle?",
+    "options": {
+      "A": "Atọ",
+      "B": "Ise",
+      "C": "Anọ",
+      "D": "Abụọ"
+    },
+    "correct_answer": "",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

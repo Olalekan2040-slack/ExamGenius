@@ -1,0 +1,1775 @@
+[
+  {
+    "id": "JAMB_Economics_2015_1",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "1",
+    "question": "The law of variable proportions is also known as",
+    "options": {
+      "A": "law of demand",
+      "B": "law of diminishing returns",
+      "C": "law of diminishing marginal utility",
+      "D": "law of returns to scale"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The law of variable proportions is also known as the law of diminishing returns. It states that, when the quantity of one factor of production is increased, while keeping all other factors constant, it will result in the decline of the marginal product of that factor.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_2",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "2",
+    "question": "All the following are problems identified with agriculture in West Africa except",
+    "options": {
+      "A": "land tenure system",
+      "B": "ignorance of the farmers",
+      "C": "use of crude implement",
+      "D": "provision of food for the teeming population"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Public Corporations and Parastatals",
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_3",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "3",
+    "question": "Revenue can be expressed as",
+    "options": {
+      "A": "total Profit made after sales",
+      "B": "amount of goods produced",
+      "C": "total money realized from sales",
+      "D": "amount spent on purchases"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_4",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "4",
+    "question": "All the following are factors that would bring about a change in supply except",
+    "options": {
+      "A": "level of technology",
+      "B": "government policy",
+      "C": "Entry of new firms",
+      "D": "Price of the commodity"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Factors Affecting the Supply of a Commodity",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_5",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "5",
+    "question": "The combination of two commodities each yielding the same level of satisfaction to the consumer is",
+    "options": {
+      "A": "consumer surplus",
+      "B": "indifference curve",
+      "C": "budget constant",
+      "D": "goods of necessity"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An indifference curve is a graph showing combination of two goods that give the consumer equal satisfaction and utility.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_6",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "6",
+    "question": "In which situation is it likely that the demand for labour would be inelastic?",
+    "options": {
+      "A": "Labour and capital are close substitutes",
+      "B": "Labour costs are only a small proportion of total costs",
+      "C": "Demand for the final product that the labour produces is elastic",
+      "D": "A large quantity of unemployed labour is available in the economy"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When specialised labour or capital is needed, then the demand for labour will be more inelastic with respect to the wage rate.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_7",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "7",
+    "question": "The headquarter of the Organization Of Petroleum Exporting Countries (OPEC) is in",
+    "options": {
+      "A": "Paris, France",
+      "B": "Geneva, Switzerland",
+      "C": "Lagos, Nigeria",
+      "D": "Vienna, Austria"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The OPEC Secretariat is the executive organ of the Organization of the Petroleum Exporting Countries (OPEC). Located in Vienna, it also functions as the Headquarters of the Organization, in accordance with the provisions of the OPEC Statute.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_8",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "8",
+    "question": "What will increase the likelihood that the firms in an industry will conclude to maximize their joint profit?",
+    "options": {
+      "A": "The industry has many differentiated products",
+      "B": "The industry is characterized by rapid technological change",
+      "C": "The industry consist of large number of producers",
+      "D": "There are significant barriers to prevent firms entering the market"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_9",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "9",
+    "question": "A commercial bank can create money by",
+    "options": {
+      "A": "issuing currency",
+      "B": "increasing cash ratio",
+      "C": "issuing cheque",
+      "D": "lending to borrowers"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_10",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "10",
+    "question": "The source of all economic problems arises from",
+    "options": {
+      "A": "wants",
+      "B": "Scarcity",
+      "C": "Opportunity Cost",
+      "D": "Scale of Preference"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Scarcity refers to the basic economic problem, the gap between limited – that is, scarce – resources and theoretically limitless wants. This situation requires people to make decisions about how to allocate resources efficiently, in order to satisfy basic needs and as many additional wants as possible",
+    "predicted_topics": [
+      "Public Corporations and Parastatals",
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_11",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "11",
+    "question": "The quantity theory of money states that a reduction in the quantity of money in circulation would bring about",
+    "options": {
+      "A": "A constant change in price",
+      "B": "A rise in prices",
+      "C": "An unequal fall in prices",
+      "D": "A proportionate fall in price"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The quantity theory of money assumes that the velocity of money is constant. This also means that the inflation rate is equal to the growth rate of the money supply minus the growth rate of output. If the money supply grows at the same rate as output, the price level will be stable.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_12",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "12",
+    "question": "The tax levied on locally produced goods is",
+    "options": {
+      "A": "import duty",
+      "B": "excise duty",
+      "C": "company tax",
+      "D": "value added tax"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A tax percentage levied on manufactured, sale, or use of locally produced goods (such as alcoholic drinks or tobacco products).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_13",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "13",
+    "question": "\\(\\begin{array}{c|c} \\text{Capital consumption allowance} & \\text{N20,000} \\\\ \\hline \\text{Gross domestic production} & \\text{N60,000} \\\\ \\hline \\text{Factor payment to foreigners} & \\text{N10,000} \\\\ \\hline \\text{Factor income from abroad} & \\text{N15,000} \\\\ \\end{array}\\) From the above table, calculate the Gross National Product.",
+    "options": {
+      "A": "N70,000",
+      "B": "N75,000",
+      "C": "N50,000",
+      "D": "N60,000"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "\\(\\begin{array}{c|c}\\text{Capital consumption allowance} & \\text{N20,000} \\\\\\hline\\text{Gross domestic production} & \\text{N60,000} \\\\\\hline\\text{Factor payment to foreigners} & \\text{N10,000} \\\\\\hline\\text{Factor income from abroad} & \\text{N15,000} \\\\\\end{array}\\)From the above table, calculate the Gross National Product.",
+    "explanation": "Theformulato calculate the components ofGNPis Y = C + I + G + X + Z.That stands forGNP= Consumption + Investment + Government + X (net exports, or imports minus exports) + Z (net income earned by domestic residents from overseas investments - net income earned by foreign residents from domestic investments.)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_14",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "14",
+    "question": "Petroleum has the following positive contributions to the Nigerian economy except",
+    "options": {
+      "A": "Generate employment",
+      "B": "Source of government revenue",
+      "C": "development of mono economy",
+      "D": "Infrastructure development"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Oil production brings about a billion investments in the country's economy as well as the development of related sectors of the economy and infrastructure. Besides, it supplies new jobs for Nigerian citizens and improvement of social and living standards in general.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_15",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "15",
+    "question": "The market in which the operators are many and none of them can influence the price is",
+    "options": {
+      "A": "stock exchange market",
+      "B": "imperfect market",
+      "C": "perfect market",
+      "D": "exchange market"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Perfect Competition is a market structure where a large number of buyers and sellers are present, and all are engaged in the buying and selling of the homogeneous products at a single price prevailing in the market.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_16",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "16",
+    "question": "The concentration of industries in a particular geographical area is",
+    "options": {
+      "A": "localization of industries",
+      "B": "roles of industrialization",
+      "C": "location of industry",
+      "D": "strategies of industrialization"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Localisation means the concentration of a certain industry in a particular area, locality or region. Localisation is related to the territorial division of labour, that is, specialisation by areas or regions. A certain town or region tends to specialise in the production of a particular commodity.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_17",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "17",
+    "question": "\\(\\begin{array}{c|c} \\text{Units of quantity} & \\text{Total utility} & \\text{Marginal utility} \\\\ \\hline 0 & - & - \\\\ \\hline 1 & 10 & 10 \\\\ \\hline 2 & 15 & 5 \\\\ \\hline 3 & 17 & 2 \\\\ \\hline 4 & 18 & 1 \\\\ \\hline 5 & 18 & 0 \\\\ \\end{array}\\) The table illustrate the law of",
+    "options": {
+      "A": "admonishing returns",
+      "B": "increasing returns",
+      "C": "diminishing marginal utility",
+      "D": "increasing marginal utility"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_18",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "18",
+    "question": "All the following are the canons of taxation given by Adam Smith except",
+    "options": {
+      "A": "objective",
+      "B": "economy",
+      "C": "convenience",
+      "D": "certainty"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_19",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "19",
+    "question": "Census can be classified as",
+    "options": {
+      "A": "defacto and dejure",
+      "B": "increasing and decreasing",
+      "C": "over and under",
+      "D": "optimum"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There are two types of population census. They are: Defacto Population Census and De jure Population Census.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_20",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "20",
+    "question": "A firm that charges the maximum price without attracting competition from new entrants is",
+    "options": {
+      "A": "Oil firms",
+      "B": "Monopolistic competitive firm",
+      "C": "Monopolistic firm",
+      "D": "Perfectly competitive firm"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Monopolistic firm is characterizes by an industry in which many firms offer products or services that are similar, but not perfect substitutes. Barriers to entry and exit in a monopolistic competitive industry are low, and the decisions of any one firm do not directly affect those of its competitors.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_21",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "21",
+    "question": "A monopolist has the power to influence the prices of goods and services. Therefore, he is a",
+    "options": {
+      "A": "price maker",
+      "B": "price taker",
+      "C": "price system",
+      "D": "price competition"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_22",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "22",
+    "question": "Which of the following business units can issue shares?",
+    "options": {
+      "A": "Partnership",
+      "B": "Public limited liability company",
+      "C": "Sole proprietorship",
+      "D": "Central bank"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Business organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A public limited company (PLC) is the legal designation of a limited liability company (LLC) that has offered shares to the general public and has limited liability.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_23",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "23",
+    "question": "Which of the following are examples of transfer payment",
+    "options": {
+      "A": "gift and donations",
+      "B": "rents and rates",
+      "C": "profit and dividends",
+      "D": "internal and external debts"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Examples of transfer payments include welfare, financial aid, gifts, social security, and government making subsidies for certain businesses.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_24",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "24",
+    "question": "The technical relationship between the physical inputs and the physical outputs of a firm is",
+    "options": {
+      "A": "Utility",
+      "B": "Cost",
+      "C": "Demand",
+      "D": "Production function"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_25",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "25",
+    "question": "The income elasticity of demand of normal goods is",
+    "options": {
+      "A": "negative",
+      "B": "positive",
+      "C": "zero",
+      "D": "fixed"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A positive income elasticity of demand is associated with normal goods; an increase in income will lead to a rise in demand.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_26",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "26",
+    "question": "The following equations relate to an open economy with a government sector. E = aggregate expenditure on domestically produced goods, C = Consumption, I = Investment, G = Government expenditure, T = taxes, M = imports, X = Exports. Which equation is correct",
+    "options": {
+      "A": "E = C + I + G",
+      "B": "E = C + I + G + M – X",
+      "C": "E = C + I + G + X – M",
+      "D": "E = C + I + G – T + M – X"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_27",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "27",
+    "question": "\\(\\begin{array}{c|c} \\text{Units of labour} & \\text{Fixed capital} & \\text{Total product} & \\text{Average product} & \\text{Marginal product} \\\\ \\hline 0 & 10 & - & - & - \\\\ \\hline 1 & 10 & 10 & 10 & 10 \\\\ \\hline 2 & 10 & 25 & ? & 15 \\\\ \\hline 3 & 10 & 50 & 16.7 & 25 \\\\ \\hline 4 & 10 & 80 & 20.0 & 30 \\\\ \\hline 5 & 10 & 106 & 21.2 & 26 \\\\ \\end{array}\\) Calculate the average product when the 2nd labour was employed 12.5",
+    "options": {
+      "A": "12.5",
+      "B": "12",
+      "C": "15",
+      "D": "10"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "\\(\\begin{array}{c|c}\\text{Units of labour} & \\text{Fixed capital} & \\text{Total product} & \\text{Average product} & \\text{Marginal product} \\\\\\hline0 & 10 & - & - & - \\\\\\hline1 & 10 & 10 & 10 & 10 \\\\\\hline2 & 10 & 25 & ? & 15 \\\\\\hline3 & 10 & 50 & 16.7 & 25 \\\\\\hline4 & 10 & 80 & 20.0 & 30 \\\\\\hline5 & 10 & 106 & 21.2 & 26 \\\\\\end{array}\\)Calculate the average product when the 2nd labour was employed 12.5",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_28",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "28",
+    "question": "The relationship between the cost of living and standard of living is",
+    "options": {
+      "A": "A rise in cost of living gives a corresponding rise in standard of living",
+      "B": "A lower cost of living give a higher standard of living",
+      "C": "A lower cost of living give a lower standard of living",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_29",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "29",
+    "question": "The ordinalist approach of utility postulated that utility can be",
+    "options": {
+      "A": "Rank",
+      "B": "Measurable",
+      "C": "Rise",
+      "D": "Fall"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_30",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "30",
+    "question": "The frequent value that occurs most in a data is",
+    "options": {
+      "A": "median",
+      "B": "mean",
+      "C": "mode",
+      "D": "range"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_31",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "31",
+    "question": "Mr. Patrick’s income is N900 while that of Mr. Shodawe is N1,300. if Mr. Patrick and Shodawe pay N90 and N130 as taxes, the tax system is",
+    "options": {
+      "A": "Direct",
+      "B": "Progressive",
+      "C": "Regressive",
+      "D": "Proportional"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A Proportionaltaxapplies the same tax rate to all individuals regardless of income.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_32",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "32",
+    "question": "Which of the following is not a type of unemployment",
+    "options": {
+      "A": "factory unemployment",
+      "B": "structural unemployment",
+      "C": "mass unemployment",
+      "D": "frictional unemployment"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There are three main types of unemployment: structural, frictional, and cyclical. The first two make up the natural unemployment rate.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_33",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "33",
+    "question": "\\(\\begin{array}{c|c} \\text{Units of variable factor} & \\text{Total Product} \\\\ \\hline 1 & 25 \\\\ \\hline 2 & 31 \\\\ \\hline 3 & 40 \\\\ \\hline 4 & 48 \\\\ \\hline 5 & 55 \\\\ \\end{array}\\) The marginal product at the fifth variable factor is",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "5",
+      "D": "9"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_34",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "34",
+    "question": "The financial institution known as a building society is",
+    "options": {
+      "A": "commercial bank",
+      "B": "central bank",
+      "C": "mortgage bank",
+      "D": "development bank"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Financial institutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_35",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "35",
+    "question": "A line in commodity space which shows the constraints imposed by his budget, his money income and the price of goods purchased is",
+    "options": {
+      "A": "supply curve",
+      "B": "liquidity preference",
+      "C": "Budget line",
+      "D": "demand curve"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Budget Line, also called as Budget Constraint shows all the combinations of two commodities that a consumer can afford at given market prices and within the particular income level.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_36",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "36",
+    "question": "The information that rank a consumer preferences is given by",
+    "options": {
+      "A": "Scale of preference",
+      "B": "Indifference map",
+      "C": "Demand schedule",
+      "D": "Supply schedule"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_37",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "37",
+    "question": "The ownership of a public limited liability company is made up of",
+    "options": {
+      "A": "two to twenty persons",
+      "B": "minimum of two and maximum of fifty",
+      "C": "minimum of seven and no maximum number",
+      "D": "owner owned by the government"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Business organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In order for a company to be public , it should have a minimum of 7 members (maximum unlimited). Limited liability: The liability of a public company is limited. No shareholder is individually liable for the payment.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_38",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "38",
+    "question": "All the following are types of specialization except",
+    "options": {
+      "A": "Manager Specialization",
+      "B": "Product specialization",
+      "C": "Specialization by sex",
+      "D": "Geographical specialization"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_39",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "39",
+    "question": "A market will be at equilibrium when",
+    "options": {
+      "A": "demand and supply are equal",
+      "B": "demand is greater than supply",
+      "C": "price is higher",
+      "D": "supply is greater than demand"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Price determination and equilibrium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_40",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "40",
+    "question": "Which of the following will shift the demand curve for Bournvita to the right",
+    "options": {
+      "A": "a rise in price of Bournvita",
+      "B": "an increase in income",
+      "C": "a tax on cocoa producer",
+      "D": "a fall in price of Bournvita"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A shift in demand means that at any price (and at every price), the quantity demanded will be different than it was before. It caused by a change in the number of consumers, a change in the distribution of tastes among consumers, a change in the distribution of income among consumers with different tastes. Price does not affect the shift of a demand curve.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_41",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "41",
+    "question": "Find the range in the following data 9, 15, 6, 20, 24, 18, 12, 8, 20, 10, 5.",
+    "options": {
+      "A": "24",
+      "B": "5",
+      "C": "19",
+      "D": "12"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_42",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "42",
+    "question": "All the following are properties of an indifference curves except",
+    "options": {
+      "A": "it can intersect",
+      "B": "it slopes downward from left to right like that of a normal demand curve",
+      "C": "as it shift rightward it indicate higher and higher level of satisfaction",
+      "D": "it does not intersect"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_43",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "43",
+    "question": "Isocost and isoquant can be attributed to",
+    "options": {
+      "A": "Theory of consumer behaviour",
+      "B": "Theory of cost",
+      "C": "Theory of production",
+      "D": "Theory of value"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_44",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "44",
+    "question": "The line Y in the diagram represents",
+    "options": {
+      "A": "total cost",
+      "B": "variable cost",
+      "C": "fixed cost",
+      "D": "marginal cost"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2015_q44_7c0550c8.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/26157682422_the_line_y.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_45",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "45",
+    "question": "The curve labeled II illustrates a system of taxation",
+    "options": {
+      "A": "proportional tax",
+      "B": "regressive tax",
+      "C": "value added",
+      "D": "progressive tax"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Economics_2015_q45_f401ba9e.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/1453204689_the_curve_labeled.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_46",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "46",
+    "question": "The curve labeled III illustrate a system of taxation",
+    "options": {
+      "A": "regressive tax",
+      "B": "progressive tax",
+      "C": "value added tax",
+      "D": "proportional tax"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Economics_2015_q46_807ddc95.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/18891676479_the curve labeled 111.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_47",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "47",
+    "question": "What would be likely to increase inflation in any economy?",
+    "options": {
+      "A": "Increase in demand",
+      "B": "Reduce public spending",
+      "C": "Control excessive import",
+      "D": "Increase in direct tax"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Inflation and deflation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_48",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "48",
+    "question": "The term of trade can be expressed as",
+    "options": {
+      "A": "(Price index of export ÷ Price index of export)× 100",
+      "B": "(price index of import ÷ price index of export) × 100",
+      "C": "(Price index of export ÷ Price index of import)× 100",
+      "D": "(Price index of export + Price index of import)× 100"
+    },
+    "correct_answer": "C",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Term of trade is the comparison between visible and invisible export and visible and invisible import expresses in price. The ratio of export to import. It could be expressed as(price index of export ÷ price index of import) × 100Which can be dented as (px ÷pm) × 100",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_49",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "49",
+    "question": "The income of an individual increases from N150 to N250 and his consumption rate increases from N100 to N150. Calculate the Marginal Propensity to Consume",
+    "options": {
+      "A": "2",
+      "B": "0.4",
+      "C": "1",
+      "D": "0.5"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_50",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "50",
+    "question": "The study of broad economic aggregates is",
+    "options": {
+      "A": "Macro economics",
+      "B": "deductive method of economic analysis",
+      "C": "micro economics",
+      "D": "Inductive method of economics analysis"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_51",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "51",
+    "question": "Disposable income is total income",
+    "options": {
+      "A": "less tax",
+      "B": "divided by tax",
+      "C": "plus tax",
+      "D": "multiplied by tax"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_52",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "52",
+    "question": "In which of the following economic systems do we have the means of production and exchange controlled by private individuals",
+    "options": {
+      "A": "socialist system",
+      "B": "mixed system",
+      "C": "capitalist system",
+      "D": "traditional system"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_53",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "53",
+    "question": "The situation whereby the government of a country spends more than its budgets for a given financial year is known as",
+    "options": {
+      "A": "surplus budget",
+      "B": "deficit budget",
+      "C": "balanced budget",
+      "D": "minus budget"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_54",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "54",
+    "question": "The total stock of money available for use in an economy is",
+    "options": {
+      "A": "supply of money",
+      "B": "value of money",
+      "C": "demand for money",
+      "D": "attribute of money"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_55",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "55",
+    "question": "What does the accelerator principles state?",
+    "options": {
+      "A": "Consumption is a function of the rate of change of income",
+      "B": "income is a function of the rate of change of investment",
+      "C": "Investment is a function of the rate of change of income",
+      "D": "Investment is a function of the rate of interest"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_56",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "56",
+    "question": "A major limiting factor of mass production is",
+    "options": {
+      "A": "efficient management",
+      "B": "adequate labour supply",
+      "C": "small size of the market",
+      "D": "adequate supply of raw materials"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_57",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "57",
+    "question": "When elasticity is zero, demand curve is",
+    "options": {
+      "A": "perfectly elastic",
+      "B": "perfectly inelastic",
+      "C": "down-ward sloping",
+      "D": "upward sloping"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_58",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "58",
+    "question": "In a situation where Mux represent the marginal utility of product X while Px represent the price respectively. Utility can be maximized when",
+    "options": {
+      "A": "MUX = MUA",
+      "B": "MUX = PX",
+      "C": "PX = X",
+      "D": "PX = PY"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_59",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "59",
+    "question": "Which of the following could be used to measure the efficiency of labour?",
+    "options": {
+      "A": "rate of inflation",
+      "B": "input-output ratio",
+      "C": "buying more machines",
+      "D": "unemployment rate"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_60",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "60",
+    "question": "How can a firm benefit from external economies?",
+    "options": {
+      "A": "Increasing its expenditure on advertising",
+      "B": "Increasing the workforce",
+      "C": "Locating in an area in which the industry is already established",
+      "D": "Merging with another domestic firm engaged in the same industry"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_61",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "61",
+    "question": "A smaller industry that grows to cater for the need of the major industry is",
+    "options": {
+      "A": "subsidiary industry",
+      "B": "constructive industry",
+      "C": "manufacturing industry",
+      "D": "infant industry"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A subsidiary, subsidiary company or daughter company is a company that is owned or controlled by another company, which is called the parent company, parent, or holding company. The subsidiary can be a company, corporation, or limited liability company.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_62",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "62",
+    "question": "In the diagram, the consumer budget line shift from JK to GH. What can definitely be deduced from the diagram?",
+    "options": {
+      "A": "There has been an increase in the consumer’s money income",
+      "B": "There has been a reduction in the price of both A and B",
+      "C": "There has been no change in the price of A or B",
+      "D": "There has been no change in the price of A relative to the price of B"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Economics_2015_q62_9dfd24dc.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5813545920_in the daigram.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_63",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "63",
+    "question": "What would encourage the growth of international division of labour?",
+    "options": {
+      "A": "Improvement in transport system",
+      "B": "Instability in international exchange rate",
+      "C": "Restrictions on the movement of resources",
+      "D": "increase in tariff"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2015_64",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "64",
+    "question": "The demand and supply functions of commodity x are given as follows: Qd = 20- 2p, Qs = 6p - 12 where p = price, Qd = quantity demanded and Qs = quantity supplied. Determine the equilibrium price",
+    "options": {
+      "A": "N4",
+      "B": "N8",
+      "C": "N2",
+      "D": "N10"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_65",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "65",
+    "question": "The practice of selling goods overseas and often below the cost of production is known as",
+    "options": {
+      "A": "retailing",
+      "B": "dumping",
+      "C": "internal trade",
+      "D": "advertising"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_66",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "66",
+    "question": "In a situation when a firm is operating in a perfectly competitive firm and the total cost is given perfectly competitive firm and the total cost is given as N75.00. If the market price is N7.00 determine the profit. When 25 units are produced",
+    "options": {
+      "A": "N75.00",
+      "B": "N100",
+      "C": "N175.00",
+      "D": "N125.00"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_67",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "67",
+    "question": "The theory of comparative cost advantage is associated with",
+    "options": {
+      "A": "Adam Smith",
+      "B": "Reverend Thomas Malthus",
+      "C": "Professor trum fisher",
+      "D": "David Ricardo"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The theory was first introduced by David Ricardo in the year 1817.  Comparative advantage introduces opportunity cost as a factor for analysis in choosing between different options for production.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_68",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "68",
+    "question": "If the quantity supplied of a commodity increases from 20 to 30 units when there is an increase in price from N4 to N5, the elasticity of supply is",
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "2",
+      "D": "5"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_69",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "69",
+    "question": "From the diagram, determine the profit-maximizing output",
+    "options": {
+      "A": "600",
+      "B": "800",
+      "C": "900",
+      "D": "1000"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The profit – maximizing output level is 900 because at this, output level MC = MR. The marginal cost curve is tangential to the marginal revenue line which shows the price maximizing level output.",
+    "images": [
+      {
+        "filename": "Economics_2015_q69_21ab3355.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/18894036148_15_15.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2015_70",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2015,
+    "number": "70",
+    "question": "Given that the prices and quantities supplied in litres of petrol is expressed as Qs = 25 + 0.25P. Qs is the quantity supplied and P is the price. Determine the quantity supplied when the price per liter is N30",
+    "options": {
+      "A": "50litres",
+      "B": "32.5litres",
+      "C": "30litres",
+      "D": "35litres"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Qs = 25 + 0.25p= 25 + 0.25(30) = 25 + 7.5= 32.5litres",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "JAMB_Chemistry_2010_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "1",
+    "question": "Which of the following is an example of a mixture?",
+    "options": {
+      "A": "Common salt",
+      "B": "Blood",
+      "C": "Sand",
+      "D": "Washing soda"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Blood is a mixture which consists of water, proteins, fats, oil, sugar, vitamins, hormones, enzymes,e\\ etc",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "2",
+    "question": "Calculate the percentage by mass of nitrogen in calcium trioxonitrate (V) [Ca = 40, N = 14, O = 16]",
+    "options": {
+      "A": "8.5%",
+      "B": "13.1%",
+      "C": "17.1%",
+      "D": "27.6%"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Nitrogen and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Calcium trioxonitrate(V) is (CaNO₃)₂",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "3",
+    "question": "The droplets of water observed around a bottle of milk taken out of the refrigerator is due to the fact that the?",
+    "options": {
+      "A": "water vapour in the air around the bottle gains some energy from the bottle",
+      "B": "temperature of the milk drops as it loses heat into the surroundings",
+      "C": "saturated vapour pressure of the milk is equal to the atmospheric pressure",
+      "D": "water vapour in the air around the bottle loses some of its energy to the bottle"
+    },
+    "correct_answer": "D",
+    "topic": "5. Air",
+    "subtopic": "Composition of air",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When a cold milk bottle is taken out from the refrigerator, the water vapor in the air around the bottle comes in contact with the cold surface of the bottle and gets condensed.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "4",
+    "question": "The volume of a given gas is V cm³ at a pressure P mm Hg. what is the new volume of the gas if the pressure is reduced to half at constant temperature?",
+    "options": {
+      "A": "4 V cm³",
+      "B": "2 V cm³",
+      "C": "V /2 cm³",
+      "D": "V cm³"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "5",
+    "question": "Moving from left to right across a period, the general rise in the first ionization energy can be attributed to the?",
+    "options": {
+      "A": "decrease in nuclear charge",
+      "B": "increase in nuclear charge",
+      "C": "decrease in screening effect",
+      "D": "increase in screening effect"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "6",
+    "question": "How many unpaired electron(s) are there in the nitrogen sub-levels?",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "none"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nitrogen has 7 electrons in all.Its electronic configuration is = 1s²2s²2p³So, it has three unpaired electrons in its p-orbitals.Note that the p orbital can accommodate a maximum of 6 electrons",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "7",
+    "question": "The stability of the noble gases is due to the fact that they?",
+    "options": {
+      "A": "have no electron in their outermost shells",
+      "B": "have duplet or octet electron configurations",
+      "C": "belong to group zero of the periodic table",
+      "D": "are volatile in nature"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Noble / Rare gases belong to group 0 because they have no bonding electrons in their outermost shell to satisfy the octet rule for stability.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "8",
+    "question": "The maximum number of electrons in the L shell of an atom is?",
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "18",
+      "D": "32"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The maximum number of electrons present in a particular shell is calculated by the formula2n2, where “n” represents the shell number. For instance, K shell is the first shell and it can hold up to²(1)2 = 2 electrons. Similarly, L shell is the second shell and it can hold up to²(2)2 = 8 electrons.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "9",
+    "question": "Elements in the same period in the periodic table have the same?",
+    "options": {
+      "A": "number of shells",
+      "B": "atomic number",
+      "C": "chemical properties",
+      "D": "physical properties"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Elements within the same group have the same number of electrons in their valence (outermost) shells, and they have similar electron configurations. They exhibit similar chemical properties.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "10",
+    "question": "12D + 13T → 24He + 01n + energy The reaction above illustrates?",
+    "options": {
+      "A": "alpha decay",
+      "B": "artificial transmutation",
+      "C": "nuclear fussion",
+      "D": "nuclear fission"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "11",
+    "question": "A noble gas with a high power of fog penetration used in aerodrome beacons is?",
+    "options": {
+      "A": "krypton",
+      "B": "argon",
+      "C": "helium",
+      "D": "neon"
+    },
+    "correct_answer": "A",
+    "topic": "5. Air",
+    "subtopic": "Noble gases and their uses",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The noble gas with a high power of fog penetration used in aerodrome beacons is krypton. Krypton's light can penetrate dense fog better than other noble gases, making it ideal for airport approach lights where visibility in foggy conditions is crucial.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2010_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "12",
+    "question": "Permanent hardness of water can be removed by?",
+    "options": {
+      "A": "filtration",
+      "B": "adding slaked lime",
+      "C": "adding caustic soda",
+      "D": "boiling"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- this hardness cannot be removed by boiling. We can remove this hardness bytreating the water with washing soda, caustic soda and permutit",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "13",
+    "question": "Substance employed as drying agents are usually?",
+    "options": {
+      "A": "amphoteric",
+      "B": "hygroscopic",
+      "C": "efflorescent",
+      "D": "acidic"
+    },
+    "correct_answer": "B",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "14",
+    "question": "Calculate the solubility in mol dm-3 of 40g of CuSO4 dissolved in 100g of water at 120°C? [Cu = 64, S = 32, O = 16]",
+    "options": {
+      "A": "4.00",
+      "B": "2.50",
+      "C": "0.40",
+      "D": "0.25"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Solubility = (number of moles of solution/vol of solution)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "15",
+    "question": "Coffee stains can best be removed by?",
+    "options": {
+      "A": "Kerosine",
+      "B": "turpentine",
+      "C": "a solution of borax in water",
+      "D": "ammonia solution"
+    },
+    "correct_answer": "C",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Borax solution refers to sodium borax in water. it is used for cleaning purposes. borax is mildly alkaline and can help break down acidic stains, such as those from coffee",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "16",
+    "question": "Carbon (II) oxide is considered dangerous if inhaled mainly because it?",
+    "options": {
+      "A": "can cause injury to the nervous system",
+      "B": "competes with oxygen in the blood",
+      "C": "competes with carbon (IV) oxide in the blood",
+      "D": "can cause lung cancer"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Carbon monoxide is harmful when breathed because it displaces oxygen in the blood and deprives the heart, brain and other vital organs of oxygen.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "17",
+    "question": "The acid that is used to remove rust is?",
+    "options": {
+      "A": "boric",
+      "B": "hydrochloric",
+      "C": "trioxonitrate (V)",
+      "D": "tetraoxosulphate (VI)"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "18",
+    "question": "Calculate the volume of 0.5 mol dm⁻³ H₂SO₄ that is neutralized by 25 cm³ of 0.1 mol dm³ NaOH?",
+    "options": {
+      "A": "5.0 cm³",
+      "B": "2.5 cm³",
+      "C": "0.4 cm³",
+      "D": "0.1 cm³"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Firstly, write a balanced equation for the chemical reaction: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "19",
+    "question": "The colour of methyl orange in alkaline medium is?",
+    "options": {
+      "A": "yellow",
+      "B": "pink",
+      "C": "orange",
+      "D": "red"
+    },
+    "correct_answer": "A",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Methyl orange has the property to color alkaline and neutral wateryellow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "20",
+    "question": "Which of the following salts is slightly soluble in water?",
+    "options": {
+      "A": "AgCl",
+      "B": "CaSO 4",
+      "C": "Na² CO³",
+      "D": "PbCl²"
+    },
+    "correct_answer": "B",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The salt that is slightly soluble in water is CaSO₄ (Calcium Sulfate).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "21",
+    "question": "6AgNO₄₍ₐq₎ + PH₃₍g₎ + 3H₂O₍ₗ₎ → 6Ag₍ₛ₎ + H₃PO₃₍g₎ + 6HNO₃₍ₐq₎ In the above reaction, the reducing agent is?",
+    "options": {
+      "A": "HNO³(aq)",
+      "B": "H² O (l)",
+      "C": "PH³(g)",
+      "D": "AgNO³(aq)"
+    },
+    "correct_answer": "C",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidizing and reducing agents",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Phosphorus(iii)hydride is a strong reducing agent which reduces solution of silver or copper(ii)salts to the metals or phosphides.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "22",
+    "question": "The IUPAC nomenclature of the compound LiAlH4 is?",
+    "options": {
+      "A": "lithiumtetrahydridoaluminate (III)",
+      "B": "aluminium tetrahydrido lithium",
+      "C": "tetrahydrido lithium aluminate (III)",
+      "D": "lithium aluminium hydride"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "23",
+    "question": "Iron can be protected from corrosion by coating the surface with?",
+    "options": {
+      "A": "gold",
+      "B": "silver",
+      "C": "copper",
+      "D": "zinc"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "24",
+    "question": "What quantity of aluminum is deposited when a current of 10A is passed through a solution of an aluminum salt for 1930s? [Al = 27, F = 96500 C mol⁻¹]",
+    "options": {
+      "A": "0.2 g",
+      "B": "1.8 g",
+      "C": "5.4 g",
+      "D": "14.2 g"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Aluminium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Q = It = 10 x 1930 ( given)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "25",
+    "question": "In which of the following is the entropy change positive?",
+    "options": {
+      "A": "Thermal dissociation of ammonium chloride",
+      "B": "Reaction between an acid and a base",
+      "C": "Addition of concentrated acid to water",
+      "D": "Dissolution of sodium metal in water"
+    },
+    "correct_answer": "A",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Thermal dissociation of ammonium chloride is an endothermic reaction as heat is absorbed for a positive entropy, with more products than reactants.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "26",
+    "question": "If a reaction is exothermic and there is a great disorder, it means that?",
+    "options": {
+      "A": "the reaction is static",
+      "B": "the reaction is in a state of equilibrium",
+      "C": "there will be a large increase in free energy",
+      "D": "there will be a large decrease in free energy"
+    },
+    "correct_answer": "D",
+    "topic": "12. Energy Changes",
+    "subtopic": "Exothermic and endothermic reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If a reaction is exothermic and there is a great disorder for a spontaneous reaction to occur, a large decrease in free energy is evident.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2010_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "27",
+    "question": "In the preparation of oxygen by heating KClO3 in the presence of MnO2, only moderate heat is needed because the catalyst acts by?",
+    "options": {
+      "A": "lowering the pressure of the reaction",
+      "B": "increasing the surface area of the reactant",
+      "C": "increase the rate of the reaction",
+      "D": "lowering the energy barrier of the reaction"
+    },
+    "correct_answer": "C",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- The presence of MnO2 increase the rate of the reaction by providing a new reaction path / making more particles possess kinetic energy greater then the activation energy.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "28",
+    "question": "The graph above demonstrate the effect of?",
+    "options": {
+      "A": "surface area on the rate of reaction",
+      "B": "catalyst on the rate of reaction",
+      "C": "pressure on the rate reaction",
+      "D": "concentration on the rate of reaction"
+    },
+    "correct_answer": "A",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2010_q28_35e19337.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/22995048334_chem200929.png"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "29",
+    "question": "2H2(g) + O₂(g) ⇌ 2H2O(g) ΔH = -ve what happens to the equilibrium constant of the reaction above if the temperature is increased?",
+    "options": {
+      "A": "it is unaffected",
+      "B": "it becomes zero",
+      "C": "it decrease",
+      "D": "it increase"
+    },
+    "correct_answer": "C",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Equilibrium constant",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "This given equation shows the forward reaction is exothermic, which means an increase in temperature will cause the equilibrium position to shift to left to favor reactant formation, i.e K decreases",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "30",
+    "question": "To a solution of an unknown compound, a little dilute tetraoxosulphate (VI) acid was added with some freshly prepared iron (II) tetraoxosulphate (VI) solution. The brown ring observed after the addition of a stream of concentrated tetraoxosulphate (VI) acid confirmed the presence of?",
+    "options": {
+      "A": "CO²⁻₃",
+      "B": "Cl -",
+      "C": "SO₃²⁻",
+      "D": "NO²⁻₃"
+    },
+    "correct_answer": "D",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Acid-base titration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "NO₃⁻ is confirmed, then the brown ring is due to the formation of FESO₄.NO",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "31",
+    "question": "Which of the following is used in rocket fuels?",
+    "options": {
+      "A": "HNO³",
+      "B": "CH³ COOH",
+      "C": "H² SO 4",
+      "D": "HCl"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- Due to its unique powerful oxidizing nature, Nitric acid is often used in rocket fuels as a propeller",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "32",
+    "question": "A constituent common to bronze and solder is?",
+    "options": {
+      "A": "lead",
+      "B": "silver",
+      "C": "copper",
+      "D": "tin"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alloys",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- bronze, alloy traditionally composed of copper and tin.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "33",
+    "question": "When iron is exposed to moist air, it gradually rusts. This is due to the formation of?",
+    "options": {
+      "A": "hydrate iron (III) oxide",
+      "B": "anhydrous iron (III) oxide",
+      "C": "anhydrous iron (II) oxide",
+      "D": "hydrate iron (II) oxide"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Rusting is an oxidation reaction. The iron reacts with water and oxygen to form hydrated iron(III) oxide, which we see as rust.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "34",
+    "question": "A compound gives an orange-red color to non-luminous flame. This compound is likely to contain?",
+    "options": {
+      "A": "Na +",
+      "B": "Ca²+",
+      "C": "Fe³+",
+      "D": "Fe²+"
+    },
+    "correct_answer": "B",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- Calcium when introduced into the flame, it will producebrick red / red-orange colour.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "35",
+    "question": "Stainless steel is used for making?",
+    "options": {
+      "A": "magnets",
+      "B": "tools",
+      "C": "coins and medals",
+      "D": "moving parts of clocks"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- Stainless steel is an alloy of iron, nickel and chromium. It is used in making cutlery, tools and surgical equipment.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "36",
+    "question": "The residual solids from the fractional distillation of petroleum are used as?",
+    "options": {
+      "A": "coatings of pipes",
+      "B": "raw materials for the cracking process",
+      "C": "fuel for the driving tractors",
+      "D": "fuel for jet engines"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Separation techniques (distillation, filtration, chromatography)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Other residues (apart from bitumen) are used as fuel, pipe coating, etc",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "37",
+    "question": "The IUPAC nomenclature of the compound above is?",
+    "options": {
+      "A": "4 - ethyloctane",
+      "B": "5 - ethyloctane",
+      "C": "5 - propylheptane",
+      "D": "3 - propylheptane"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Adhering to the basic naming rules, this compound is identified as 4 - ethyloctane",
+    "images": [
+      {
+        "filename": "Chemistry_2010_q37_f28d2ad7.gif",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/16231830192_chem200940.gif"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "38",
+    "question": "Which of the following is used as fuel in miners' lamp?",
+    "options": {
+      "A": "Ethanal",
+      "B": "Ethyne",
+      "C": "Ethene",
+      "D": "Ethane"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ethyne is a sometimes used a fuel in miners'lamps.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "39",
+    "question": "Which of the following organic compounds is very soluble in water?",
+    "options": {
+      "A": "CH³ COOH",
+      "B": "C² H²",
+      "C": "C² H 4",
+      "D": "CH³ COOC² H 5"
+    },
+    "correct_answer": "A",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ethanoic acid ( CH₃COOH ) is the only organic compound listed here that is (very) soluble in water.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "40",
+    "question": "Benzene reacts with hydrogen in the presence of nickel catalyst at 180ºC to give?",
+    "options": {
+      "A": "xylene",
+      "B": "toluene",
+      "C": "cyclopentane",
+      "D": "cyclohexane"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Benzene and aromatics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cyclohexane is formed when Benzene (vapor) undergoes addition reaction with hydrogen in the presence of nickel catalyst at 180°C",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_41",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "41",
+    "question": "Which of the following is used to hasten the ripening of fruit?",
+    "options": {
+      "A": "Ethene",
+      "B": "Ethanol",
+      "C": "Ethyne",
+      "D": "Ethane"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ethylene is a plant hormone produced during fruit ripening which mobilizes the genes to synthesize the enzymes which are responsible for fruit ripening.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_42",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "42",
+    "question": "The final products of the reaction between methane and chlorine in the presence of ultraviolet light are hydrogen chloride and?",
+    "options": {
+      "A": "tricloromethane",
+      "B": "dichloromethane",
+      "C": "tetrachloromethane",
+      "D": "chloromethane"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Carbon tetrachloride ( IUPAC: Tetrachloromethane) CCl₄, is the final product obtained in this substitution reaction.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_43",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "43",
+    "question": "The correct order of increasing boiling points of the following compounds C3H7OH, C7H16 and C4H10 is?",
+    "options": {
+      "A": "C³ H 7 OH → C 4 H 10 → C 7 H 10",
+      "B": "C 4 H 10 → C 7 H 16 → C³ H 7 OH",
+      "C": "C 7 H 16 → C³ H 7 OH → C 4 H 10",
+      "D": "C 4 H 10 → C³ H 7 OH → C 7 H 16"
+    },
+    "correct_answer": "D",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Boiling and melting points",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C3H7OH ( PROPANOL) ⇒ 97ºC",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_44",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "44",
+    "question": "One of the major uses of alkane is?",
+    "options": {
+      "A": "as domestic and industrial fuel",
+      "B": "in the hydrogenation of oils",
+      "C": "in the textile industries",
+      "D": "in the production of plastics"
+    },
+    "correct_answer": "A",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Chemical industries",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- Alkanes will react with Oxygen if they are given sufficient Activation Energy. This will result in a highly Exothermic reaction, producing Carbon Dioxide and Water, which makes Alkanes very useful as fuels.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2010_45",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "45",
+    "question": "The haloalkanes used in dry-cleaning industries are?",
+    "options": {
+      "A": "trichloromethane and tetrachloromethane",
+      "B": "chloroethene and dichloroethene",
+      "C": "trichloroethene and tetrachloroethene",
+      "D": "chloroethane and dichloroethene"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- Both trichloromethane and tetrachloromethane are such important organic solvent.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_46",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "46",
+    "question": "Two hydrocarbons X and Y were treated with bromine water. X decolorised the solution and Y did not not. Which class of compound does Y belong?",
+    "options": {
+      "A": "Benzene",
+      "B": "Alkynes",
+      "C": "Alkenes",
+      "D": "Alkanes"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Bromine water is an orange solution of bromine. It becomes colorless when it is shaken with an alkene. Alkenes can decolorize bromine water, butalkanes cannot.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_47",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "47",
+    "question": "The compound that is used as an anesthetic is?",
+    "options": {
+      "A": "CCl 4",
+      "B": "CH Cl³",
+      "C": "CH² Cl²",
+      "D": "CH³ Cl"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "- Chloroform / tricholoromethane ( CHCl₃ ) is a potent anaesthetic agent.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_48",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "48",
+    "question": "In the diagram above, the purpose of the asbestos to?",
+    "options": {
+      "A": "absorb impurities",
+      "B": "catalyze the reaction",
+      "C": "solidify the gas",
+      "D": "dry the gas"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Catalyst like platinize asbestos or vanadium(v)oxide is required to speed up the combination to form sulphur(iv)oxide.",
+    "images": [
+      {
+        "filename": "Chemistry_2010_q48_28d07c02.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/9974003865_co.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2010_49",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2010,
+    "number": "49",
+    "question": "In the diagram above, the gas produced is?",
+    "options": {
+      "A": "NO",
+      "B": "NO²",
+      "C": "N² O",
+      "D": "N² O 4"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the laboratory, nitrogen monoxide (NO), also known as nitric oxide, is commonly prepared by the reduction of dilute nitric acid with copper, resulting in the formation of copper(II) nitrate, water, and nitrogen monoxide gas.",
+    "images": [
+      {
+        "filename": "Chemistry_2010_q49_61798135.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/8549147514_c0.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

@@ -66,6 +66,37 @@ def init_schema():
         )
     """)
 
+
+    # Questions table (main question bank)
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS questions (
+            id TEXT PRIMARY KEY,
+            exam TEXT,
+            subject TEXT,
+            year INTEGER,
+            number TEXT,
+            question TEXT,
+            topic TEXT,
+            subtopic TEXT,
+            source TEXT,
+            image_path TEXT,
+            correct_option_key TEXT,
+            explanation TEXT,
+            predicted_topics TEXT,
+            predicted_subtopics TEXT
+        )
+    """)
+
+    # Add columns if missing (for upgrades)
+    cursor.execute("PRAGMA table_info(questions)")
+    q_columns = [col[1] for col in cursor.fetchall()]
+    if 'predicted_topics' not in q_columns:
+        cursor.execute("ALTER TABLE questions ADD COLUMN predicted_topics TEXT")
+        conn.commit()
+    if 'predicted_subtopics' not in q_columns:
+        cursor.execute("ALTER TABLE questions ADD COLUMN predicted_subtopics TEXT")
+        conn.commit()
+
     # Practice attempts (for topic and year practice)
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS practice_attempts (

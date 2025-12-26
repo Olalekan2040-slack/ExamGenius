@@ -1,0 +1,887 @@
+[
+  {
+    "id": "JAMB_Accounting_2021_1",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "1",
+    "question": "Sales ledger control account contains the total amount in respect of",
+    "options": {
+      "A": "\n\n            investors\n",
+      "B": "\n\n            creditors\n",
+      "C": "\n\n            shareholders\n",
+      "D": "\n\n            debtors\n"
+    },
+    "correct_answer": "D",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Control Accounts",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_2",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "2",
+    "question": "Which of the following stock valuation method is suitable under inflationary conditions?",
+    "options": {
+      "A": "\n\n            LIFO\n",
+      "B": "\n\n            simple average\n",
+      "C": "\n\n            FIFO\n",
+      "D": "\n\n            weighted average\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trading Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_3",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "3",
+    "question": "The ordinary shareholders enjoy the following right except the right to",
+    "options": {
+      "A": "\n\n            receive dividends at a predetermined rate\n",
+      "B": "\n\n            vote at annual general meetings\n",
+      "C": "\n\n            elect the board of directors\n",
+      "D": "\n\n            participate in additional issues of shares\n"
+    },
+    "correct_answer": "A",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Accruals and Prepayments",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_4",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "4",
+    "question": "Capital and revenue expenditures of government are usually accounted for under funds which include",
+    "options": {
+      "A": "\n\n            technical, special trust and commercial funds\n",
+      "B": "\n\n            personal advances, technical and public funds\n",
+      "C": "\n\n            personal advances, treasury clearance and special trust funds\n",
+      "D": "\n\n            commercial loans and treasury clearance funds\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_5",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "5",
+    "question": "Given: Depreciation of plant and machinery Factory rent Indirect wages General indirect expenses Lubricants Carriage inwards Factory power Bank charges Carriage outwards ₦ 1,600 650 695 726 1,235 829 350 612 2,900 Determine the total factory overhead cost",
+    "options": {
+      "A": "\n\n            ₦4,485\n",
+      "B": "\n\n            ₦6,085\n",
+      "C": "\n\n            ₦6,556\n",
+      "D": "\n\n            ₦5,256\n"
+    },
+    "correct_answer": "D",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Accounting_2021_6",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "6",
+    "question": "The excess of income over expenditure is usually transferred to the",
+    "options": {
+      "A": "\n\n            current assets in the balance sheet\n",
+      "B": "\n\n            profit and loss account\n",
+      "C": "\n\n            accumulated fund\n",
+      "D": "\n\n            current liabilities in the balance sheet\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_7",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "7",
+    "question": "In a departmental accounting system, which of the following expenses will most likely be apportioned on the basis of turnover",
+    "options": {
+      "A": "\n\n            carriage inwards\n",
+      "B": "\n\n            carriage outwards\n",
+      "C": "\n\n            discount received\n",
+      "D": "\n\n            returns outwards\n"
+    },
+    "correct_answer": "B",
+    "topic": "Departmental & Branch Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Departmental Accounting",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_8",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "8",
+    "question": "Given: ₦ Total debtors b/d 31/12/99                    25,000 Cheques received from debtors         255,000 Total debtors c/d 31/12/00                    15,000 Calculate the sales figure",
+    "options": {
+      "A": "\n\n            ₦245,000\n",
+      "B": "\n\n            ₦215,000\n",
+      "C": "\n\n            ₦295,000\n",
+      "D": "\n\n            ₦265,000\n"
+    },
+    "correct_answer": "A",
+    "topic": "Books of Original Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Cash Book and Banking",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_9",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "9",
+    "question": "Use the information below to answer the question Gross profit b/d Less: Salaries and wages Electricity Depreciation Net profit c/d Dept A ₦ 6,000 1,800 ? 600 ? 6,000 Dept B ₦ 4,000 1,200 ? ? 1,600 4,000 Total ₦ 10,000 3,000 2,000 1,000 4,000 10,000 It is the tradition of the organization to apportion expenses in the proportion 60%:40% for A and B respectively. What is the net profit made by department A?",
+    "options": {
+      "A": "\n\n            ₦2000\n",
+      "B": "\n\n            ₦3600\n",
+      "C": "\n\n            ₦3000\n",
+      "D": "\n\n            ₦2400\n"
+    },
+    "correct_answer": "D",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_10",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "10",
+    "question": "Use the information below to answer the question Gross profit b/d Less: Salaries and wages Electricity Depreciation Net profit c/d Dept A ₦ 6,000 1,800 ? 600 ? 6,000 Dept B ₦ 4,000 1,200 ? ? 1,600 4,000 Total ₦ 10,000 3,000 2,000 1,000 4,000 10,000 It is the tradition of the organization to apportion expenses in the proportion 60%:40% for A and B respectively. The depreciation to be charged to department B is",
+    "options": {
+      "A": "\n\n            ₦500\n",
+      "B": "\n\n            ₦300\n",
+      "C": "\n\n            ₦400\n",
+      "D": "\n\n            ₦600\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_11",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "11",
+    "question": "The accounting method that reports incomes when earned and expenses when incurred is called",
+    "options": {
+      "A": "\n\n            accrual accounting\n",
+      "B": "\n\n            cash accounting\n",
+      "C": "\n\n            fund accounting\n",
+      "D": "\n\n            commitment accounting\n"
+    },
+    "correct_answer": "A",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_12",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "12",
+    "question": "Stationery which will be used over a long period of time is usually recorded as an expense instead of an asset. This concept is called",
+    "options": {
+      "A": "\n\n            entity\n",
+      "B": "\n\n            accrual\n",
+      "C": "\n\n            realization\n",
+      "D": "\n\n            materiality\n"
+    },
+    "correct_answer": "D",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Financial Accounting Concepts",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_13",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "13",
+    "question": "Given: ₦ Bank overdraft       2,000 Cash                      2,000 Furniture                4,000 Derive the total amount on the credit side of the trial balance",
+    "options": {
+      "A": "\n\n            ₦4000\n",
+      "B": "\n\n            ₦6000\n",
+      "C": "\n\n            ₦2000\n",
+      "D": "\n\n            ₦8000\n"
+    },
+    "correct_answer": "C",
+    "topic": "Ledger & Trial Balance",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trial Balance",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_14",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "14",
+    "question": "Use the information below to answer this question: i. cash at bank  ii. cash in hand  iii. premises  iv. land  v. creditors  vi. loan from friends/bank Determine the fixed assets",
+    "options": {
+      "A": "\n\n            iii and iv\n",
+      "B": "\n\n            i and v\n",
+      "C": "\n\n            ii and iv\n",
+      "D": "\n\n            ii and vi\n"
+    },
+    "correct_answer": "A",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_15",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "15",
+    "question": "Use the information below to answer this question: i. cash at bank  ii. cash in hand  iii. premises  iv. land  v. creditors  vi. loan from friends/bank What are the current assets?",
+    "options": {
+      "A": "\n\n            i and v\n",
+      "B": "\n\n            i and ii\n",
+      "C": "\n\n            ii and iv\n",
+      "D": "\n\n            iii and v\n"
+    },
+    "correct_answer": "B",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_16",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "16",
+    "question": "Use the information below to answer this question A company advertised and issued 750,000, 12% preference shares of N1 each to be issued ₦1.50 per share. Applications for 1,370,000 were received at 30k per share. 70k per share (including premium) was due on allotment while 25k per share was due on each of the remaining two calls. All amounts due were received. Application money for 120,000 shares was refunded to unsuccessful applicants and the remaining applicants were allotted shares on prorata basis. The share premium account would be",
+    "options": {
+      "A": "\n\n            credited with application and allotment ₦187,500\n",
+      "B": "\n\n            debited with application and allotment ₦375,000\n",
+      "C": "\n\n            debited with application and allotment ₦187,500\n",
+      "D": "\n\n            credited with application and allotment ₦375,000\n"
+    },
+    "correct_answer": "D",
+    "topic": "Company Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Company Formation and Capital",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_17",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "17",
+    "question": "Use the information below to answer this question A company advertised and issued 750,000, 12% preference shares of N1 each to be issued ₦1.50 per share. Applications for 1,370,000 were received at 30k per share. 70k per share (including premium) was due on allotment while 25k per share was due on each of the remaining two calls. All amounts due were received. Application money for 120,000 shares was refunded to unsuccessful applicants and the remaining applicants were allotted shares on prorata basis. The second final call account was debited with",
+    "options": {
+      "A": "\n\n            ordinary share capital account ₦187,500\n",
+      "B": "\n\n            12% preference share capital account ₦187,500\n",
+      "C": "\n\n            12% preference share capital ₦375,000\n",
+      "D": "\n\n            bank account ₦187,500\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_18",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "18",
+    "question": "If a company values its stock in the period of rising prices using LIFO method, there is a tendency for it to",
+    "options": {
+      "A": "\n\n            have a higher cost of goods sold\n",
+      "B": "\n\n            have a higher value of closing stock\n",
+      "C": "\n\n            have a higher gross profit\n",
+      "D": "\n\n            pay higher income tax\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trading Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_19",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "19",
+    "question": "The major objectives of departmental account is to ascertain the",
+    "options": {
+      "A": "\n\n            materials sold in each department\n",
+      "B": "\n\n            insurance premium payable on employees\n",
+      "C": "\n\n            number of employees in each department\n",
+      "D": "\n\n            contribution of each department to profit\n"
+    },
+    "correct_answer": "D",
+    "topic": "Departmental & Branch Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Departmental Accounting",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_20",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "20",
+    "question": "Given: i. The memorandum of association of the company ii. The article of association of the company iii. The incorporation documents. From the above, which of the following is delivered to the registrar of companies for incorporation?",
+    "options": {
+      "A": "\n\n            i, ii and iii\n",
+      "B": "\n\n            i and ii\n",
+      "C": "\n\n            i and iii\n",
+      "D": "\n\n            ii and iii\n"
+    },
+    "correct_answer": "A",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Accruals and Prepayments",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_21",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "21",
+    "question": "The issued share capital is the number of shares that are",
+    "options": {
+      "A": "\n\n            shared among the directors\n",
+      "B": "\n\n            authorised by the shareholders\n",
+      "C": "\n\n            fully subscribed\n",
+      "D": "\n\n            in the share certificate\n"
+    },
+    "correct_answer": "B",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Capital and Equity",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_22",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "22",
+    "question": "The formular for calculating depreciation using straight line method is",
+    "options": {
+      "A": "\n\n            Cost-scrap value/useful life\n",
+      "B": "\n\n            Scrap value+sales/useful life\n",
+      "C": "\n\n            Sales-scrap value/useful life\n",
+      "D": "\n\n            Purshases+sales/useful life\n"
+    },
+    "correct_answer": "A",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Depreciation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_23",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "23",
+    "question": "The two legally recognized professional accounting bodies in Nigeria are the",
+    "options": {
+      "A": "\n\n            Nigerian Accounting Association and the Executive Cost and Management Accountants of Nigeria\n",
+      "B": "\n\n            Institute of Certified Public Accountants of Nigeria and the Institute of Cost and Management Accountants\n",
+      "C": "\n\n            Institute of Chartered Accountants of Nigeria and the Association of National Accountants of Nigeria\n",
+      "D": "\n\n            Association of Accountants of Nigeria and the Institute of Management Accountants of Nigeria\n"
+    },
+    "correct_answer": "C",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government",
+      "Pre-Colonial Polities",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State",
+      "Arms of Government :: Executive"
+    ]
+  },
+  {
+    "id": "JAMB_Accounting_2021_24",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "24",
+    "question": "The corresponding entry of personal accounts  found in the debit side of the cashbook is to",
+    "options": {
+      "A": "\n\n            credit real accounts\n",
+      "B": "\n\n            credit the ledger\n",
+      "C": "\n\n            debit real accounts\n",
+      "D": "\n\n            debit the ledger\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_25",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "25",
+    "question": "Use the information below to answer this question Zahki Plc balance sheet (extract) as at 31st December 1997. ₦                                             ₦ Paid up capital               200,000       Fixed assets        300,000 Share premium                15,000 Profit and loss account     60,000      Investment           180,000 Long-term loan               180,000      Stock                      28,000 Debtors                  90,000 Creditors                        200,000       provision(3000)      87,000 Other current liabilities    100,000      Cash                       60,000 Bank                     100,000 755,000 755,000 The quick ratio is",
+    "options": {
+      "A": "\n\n            0.82:1\n",
+      "B": "\n\n            1:53:1\n",
+      "C": "\n\n            0.95:1\n",
+      "D": "\n\n            0.91:1\n"
+    },
+    "correct_answer": "C",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_26",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "26",
+    "question": "Use the information below to answer this question Zahki Plc balance sheet (extract) as at 31st December 1997. ₦                                             ₦ Paid up capital               200,000       Fixed assets        300,000 Share premium                15,000 Profit and loss account     60,000          Investment           180,000 Long-term loan               180,000          Stock                      28,000 Debtors                  90,000 Creditors                        200,000          provision(3000)      87,000 Other current liabilities    100,000         Cash                       60,000 Bank                     100,000 755,000 755,000 Determine the owner's equity",
+    "options": {
+      "A": "\n\n            ₦275,000\n",
+      "B": "\n\n            ₦200,000\n",
+      "C": "\n\n            ₦755,000\n",
+      "D": "\n\n            ₦215,000\n"
+    },
+    "correct_answer": "B",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_27",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "27",
+    "question": "The prime cost is the total of the",
+    "options": {
+      "A": "\n\n            direct materials+direct labour+direct wages\n",
+      "B": "\n\n            production cost+selling expenses\n",
+      "C": "\n\n            administrative expenses+selling expenses+distribution expenses\n",
+      "D": "\n\n            direct materials+work overhead expenses\n"
+    },
+    "correct_answer": "A",
+    "topic": "Manufacturing Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Manufacturing Processes",
+    "predicted_topics": [
+      "The Civil Service",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_28",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "28",
+    "question": "Recurrent expenditures are expenses for the period not exceeding",
+    "options": {
+      "A": "\n\n            10years\n",
+      "B": "\n\n            2years\n",
+      "C": "\n\n            5years\n",
+      "D": "\n\n            1year\n"
+    },
+    "correct_answer": "D",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_29",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "29",
+    "question": "A source document is used for verifying the",
+    "options": {
+      "A": "\n\n            amount due from debtors\n",
+      "B": "\n\n            amount due to creditors\n",
+      "C": "\n\n            selling price of goods\n",
+      "D": "\n\n            actual cost of an asset\n"
+    },
+    "correct_answer": "C",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Journal and Journalizing",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_30",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "30",
+    "question": "If goods are sent to branch at 25% on cost, what will be the cost of goods sent to the branch at a selling price of ₦100,000?",
+    "options": {
+      "A": "\n\n            ₦130,000\n",
+      "B": "\n\n            ₦75,000\n",
+      "C": "\n\n            ₦80,000\n",
+      "D": "\n\n            ₦125,000\n"
+    },
+    "correct_answer": "B",
+    "topic": "Departmental & Branch Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Branch Accounting",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_31",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "31",
+    "question": "The purchase consideration that is lower than the net asset implies that, the buyer has gained the advantage of",
+    "options": {
+      "A": "\n\n            capital reserve\n",
+      "B": "\n\n            net loss\n",
+      "C": "\n\n            revenue reserve\n",
+      "D": "\n\n            net income\n"
+    },
+    "correct_answer": "A",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_32",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "32",
+    "question": "Use the information below to answer this question At the end of a financial period, the trading profit and loss account of a sole trader shows a profit of ₦180,000 it is however discovered that revenue of ₦15,000 is recorded as expenses while expenses of ₦4,000 is recorded as revenue. Determine the adjusted net profit",
+    "options": {
+      "A": "\n\n            ₦202,000\n",
+      "B": "\n\n            ₦210,000\n",
+      "C": "\n\n            ₦195,000\n",
+      "D": "\n\n            ₦184,000\n"
+    },
+    "correct_answer": "A",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_33",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "33",
+    "question": "Use the information below to answer this question At the end of a financial period, the trading profit and loss account of a sole trader shows a profit of ₦180,000 it is however discovered that revenue of ₦15,000 is recorded as expenses while expenses of ₦4,000 is recorded as revenue. The revenue to be added as an adjustment is",
+    "options": {
+      "A": "\n\n            ₦34,000\n",
+      "B": "\n\n            ₦4,000\n",
+      "C": "\n\n            ₦30,000\n",
+      "D": "\n\n            ₦15,000\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_34",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "34",
+    "question": "The principle of double entry system ensures",
+    "options": {
+      "A": "\n\n            balances at the bank\n",
+      "B": "\n\n            increase in the assets and liabilities\n",
+      "C": "\n\n            balance of cashbook\n",
+      "D": "\n\n            mathematical accuracy in trial balance\n"
+    },
+    "correct_answer": "D",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_35",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "35",
+    "question": "The interest on partner's loan is",
+    "options": {
+      "A": "\n\n            credited in current account\n",
+      "B": "\n\n            debited in profit and loss account\n",
+      "C": "\n\n            credited in profit and loss account\n",
+      "D": "\n\n            debited in current account\n"
+    },
+    "correct_answer": "B",
+    "topic": "Partnership Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Partnership Formation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_36",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "36",
+    "question": "Which of the following is a debit item in the purchase ledger control account?",
+    "options": {
+      "A": "\n\n            balance b/d\n",
+      "B": "\n\n            cheque dishonoured\n",
+      "C": "\n\n            balance c/d\n",
+      "D": "\n\n            purchases\n"
+    },
+    "correct_answer": "C",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_37",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "37",
+    "question": "Forlah, a stock broker bought stationery for ₦12,000 by cash. To record this transaction, debit",
+    "options": {
+      "A": "\n\n            cash and credit stationery\n",
+      "B": "\n\n            purchases and credit stationery\n",
+      "C": "\n\n            stationery and credit purchases\n",
+      "D": "\n\n            stationery and credit cash\n"
+    },
+    "correct_answer": "D",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2021_38",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2021,
+    "number": "38",
+    "question": "Given: Lankoh Company Ltd ₦ Stock                                        3,600,000 Cash at hand                               800,000 Cash in bank                            2,400,000 Debtors                                       580,000 Trade creditors                           920,000 Bank overdraft                            200,000 Tax liabilities                               600,000 Salary owed to staff                    180,000 What is the working capital?",
+    "options": {
+      "A": "\n\n            ₦5,480,000\n",
+      "B": "\n\n            ₦6,480,000\n",
+      "C": "\n\n            ₦8,480,000\n",
+      "D": "\n\n            ₦7,380,000\n"
+    },
+    "correct_answer": "A",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

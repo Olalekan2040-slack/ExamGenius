@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "JAMB_Hausa_2019_1",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "1",
+    "question": "'Baba na cin abinci yanzu'. Kalmar suna a wannan jimla ita ce",
+    "options": {
+      "A": "abinci",
+      "B": "Baba",
+      "C": "na",
+      "D": "cin"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What is the noun in the sentence \"Baba na cin abinci yanzu\"? Answer: Baba (Baba is the noun, which means \"father\". Abinci is a noun, cin is verb, na is a possessive pronoun, and yanzu is an adverb)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_2",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "2",
+    "question": "PASSAGE 2: Damukowa mutum ne wanda irin halayensa ne suka sa ake kiransa da wannan suna. Domin yana da kinibibi, da gulma, da ketti da rashin mutunci da rashin ganin kimar kowa. Kuma yana kiwon dabbobi kamar jakai da rakuma da rakuma da tumakai da kaji har da shanu. Asalin garin Damukowa shi ne Gunu wanda idan za a je garin sai an keta dazuzzuka da rafuka, kuma ana cin karo da dabbobin da kamar birai da kuraye da macizai da giwaye amma babu damisa da zaki. Idan damina ta sauka Mai unguwar Gunu kan umurci jama'a da su d'aure dabbobinsu don kar su yi barnar amfanin gonarsu kamar masara da dawa da gyada da wake amma ban da auduga domin ba sa nom ta. Nan ne fa Damukowa kan nuna halayensa na rashin ga umurnin Mai unguwa na kin daure dabbobinsa. Idan dabbobinsa sun yi barna a gonakin mutane yakan bijire wa dogaran da suka zo kama shi har ya sa a yi musu duka du keta musu tufafi, har ma da ji musu ciwo. Garin Gunu na makwabtaka da Shakwatu da Gwada da Badum da Akope. Cikin mutanen wadannan garuruwa akwai maharba da masunta da makiyaya da manoma amma babu madora. Duk wadannan halayen Damukowa ne in ban da",
+    "options": {
+      "A": "gulma",
+      "B": "kinibibi",
+      "C": "keta",
+      "D": "barna"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "PASSAGE 2: Damukowa mutum ne wanda irin halayensa ne suka sa ake kiransa da wannan suna. Domin yana da kinibibi, da gulma, da ketti da rashin mutunci da rashin ganin kimar kowa. Kuma yana kiwon dabbobi kamar jakai da rakuma da rakuma da tumakai da kaji har da shanu. Asalin garin Damukowa shi ne Gunu wanda idan za a je garin sai an keta dazuzzuka da rafuka, kuma ana cin karo da dabbobin da kamar birai da kuraye da macizai da giwaye amma babu damisa da zaki. Idan damina ta sauka Mai unguwar Gunu kan umurci jama'a da su d'aure dabbobinsu don kar su yi barnar amfanin gonarsu kamar masara da dawa da gyada da wake amma ban da auduga domin ba sa nom ta. Nan ne fa Damukowa kan nuna halayensa na rashin ga umurnin Mai unguwa na kin daure dabbobinsa. Idan dabbobinsa sun yi barna a gonakin mutane yakan bijire wa dogaran da suka zo kama shi har ya sa a yi musu duka du keta musu tufafi, har ma da ji musu ciwo. Garin Gunu na makwabtaka da Shakwatu da Gwada da Badum da Akope. Cikin mutanen wadannan garuruwa akwai maharba da masunta da makiyaya da manoma amma babu madora.Duk wadannan halayen Damukowa ne in ban da",
+    "explanation": "All of these are characteristics of Damukowa except: D",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_3",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "3",
+    "question": "(Almost identical passage as above, with minor differences at the end) ...Damukowa yana kiwon wadannan dabbobi in ban da.",
+    "options": {
+      "A": "kaji",
+      "B": "macizai",
+      "C": "A jakai",
+      "D": "rakuma"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Damukowa keeps all of these animals except: Answer: macizai (Macizai are wild animals, and Damukowa does not keep them. He keeps jakai (donkeys), kaji (horses), rakuma (camels), and shanu (cows))",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_4",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "4",
+    "question": "(Again similar passage) Wahe abu ne mutanen garin Gunu ba su nomawa?",
+    "options": {
+      "A": "Auduga",
+      "B": "Masara",
+      "C": "Dawa",
+      "D": "Gyada"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What crop do people in Gunu not farm? Answer: Auduga (Auduga is the crop that people in Gunu do not farm. The other options - Dawa (beans), Gyada (groundnuts), Masara (maize), and Wake (rice) - are all crops that they farm)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_5",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "5",
+    "question": "(Again similar passage) Ware bare.",
+    "options": {
+      "A": "Manoma",
+      "B": "Makiyaya",
+      "C": "Madora",
+      "D": "Maharba"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Madora (Madora are not found in these towns. The other options - Maharba (hunters), Makiyaya (herders), Manoma (farmers), and Masunta (traders) - are all found in these towns)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_6",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "6",
+    "question": "INSHA'I Ana warware kunshin jawabi ne a",
+    "options": {
+      "A": "gabatarwa",
+      "B": "gangar jiki",
+      "C": "kammalawa",
+      "D": "adireshi"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The conclusion of a letter is characterized by: Answer: kammalawa (Kammalawa means conclusion or ending, which is the correct answer. Adireshi refers to the address, gabatarwa is the introduction, gangar jiki is the body of the letter, and kanun batu is not a relevant term)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_7",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "7",
+    "question": "A rubutun wasika daga adireshi sai",
+    "options": {
+      "A": "kanun batu",
+      "B": "adireshi na biyu",
+      "C": "gaisuwa",
+      "D": "gabatarwa"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In a letter, the sender's address is usually followed by: Answer: adireshi na biyu (Adireshi na biyu means the recipient's address, which is the correct answer. Gabatarwa is the introduction, gaisuwa is the greeting, kanun batu is not a relevant term, and kwanan wata is the date)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_8",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "8",
+    "question": "'Malam ya sayi mota shud'iya jiya'. Fito da sifa daga wannan jimlar.",
+    "options": {
+      "A": "Mota",
+      "B": "Malam",
+      "C": "Jiya",
+      "D": "Shud'iya"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The adjective in the sentence \"Malam ya sayi mota shud'iya jiya\" is: Answer: Shud'iya (Shud'iya is the adjective modifying the noun mota, meaning \"new\". Jiya means \"yesterday\", Malam is the subject, mota means \"car\", and sayi means \"to buy\")",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_9",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "9",
+    "question": "Wace jimla ce ba ta d'auke da sifa?",
+    "options": {
+      "A": "Rigar da ta kone baka ce.",
+      "B": "A.Huhu-huhu yake sayar da goronsa.",
+      "C": "Koriyar mota ta fi.",
+      "D": "Nan-nan ya kasa kai damin dawa"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which sentence does not contain an adjective? Answer: Nan-nan ya kasa kai damin dawa (This sentence does not contain an adjective, while the other options do)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_10",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "10",
+    "question": "Wakilin suna na biyu, mace kuma tilo ita ce",
+    "options": {
+      "A": "ke",
+      "B": "kai",
+      "C": "ita",
+      "D": "ku"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The second person singular feminine possessive pronoun is: Answer: ita (Ita is the correct answer, as it is the second person singular feminine possessive pronoun. Kai is a masculine possessive pronoun, ke is a contraction, ku is a masculine object pronoun, and ni is a first person singular possessive pronoun)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_11",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "11",
+    "question": "A gundarin jawabi ne aka fi amfani da wadannan in ban da",
+    "options": {
+      "A": "kwanan wata",
+      "B": "sakin layi omi",
+      "C": "jeranta tunani",
+      "D": "hujjoji Kwarara"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In writing a letter, the following are essential except: Answer is kwanan wata (Kwanan wata refers to the date, which is not essential in a letter. Hujjoji kwarara refers to strong evidence, jeranta tunani is logical reasoning, sakin layi is clear language, and zaben kalmomi is appropriate vocabulary.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_12",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "12",
+    "question": "Ana amfani da d'afin - una wajen jam'in duk wadannan in ban da",
+    "options": {
+      "A": "rafi",
+      "B": "hula",
+      "C": "riga",
+      "D": "rumfa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The prefix \"una-\" is used to form the plural of all of the following except: Answer rafi (Rafi is an exception, as it forms its plural with the prefix \"ri-\" instead of \"una-\". The other options - hula, riga, rumfa, and shago - all form their plurals with the prefix \"una-\")",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_13",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "13",
+    "question": "'Sa hannun mai rubutu' yana zuwa ne a",
+    "options": {
+      "A": "Kasan adireshi",
+      "B": "sama daidai tsakiya",
+      "C": "kasa daga dama",
+      "D": "sama daga hagu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "kasa daga dama (Kasa daga dama means bottom right, which is the correct answer. Kasan adireshi is the address area, sama daga hagu is top left, sama daidai tsakiya is top center, and saman kammalawa is not a relevant term.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_14",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "14",
+    "question": "Bayanau a nahawu na nufin kalmar da ke Karin bayani a kan",
+    "options": {
+      "A": "aikatau",
+      "B": "adadi",
+      "C": "sifa",
+      "D": "jam'i"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In grammar, a modifier (bayanau) is a word that gives more information about: Answer: aikatau (Aikatau means \"verb\", and a modifier gives more information about the verb. Adadi means \"number\", jam'i means \"plural\", sifa means \"adjective\", and suna means \"name\")",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_15",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "15",
+    "question": "Insha'in da ake 'bugun jaki, sanman a bugi taiki da hujjoji shi ne na",
+    "options": {
+      "A": "labara",
+      "B": "bayani",
+      "C": "siffantawa",
+      "D": "muhawara"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The type of writing that involves presenting a topic, supporting it with evidence, and refuting opposing views is: Answer: muhawara (Muhawara refers to persuasive or argumentative writing, which involves presenting a topic, supporting it with evidence, and refuting opposing views. Bayani refers to exposition, labari is narrative, siffantawa is descriptive writing, and wasika is a letter.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_16",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "16",
+    "question": "Wace ce ta yi tafiya jiya Wannan jimlar......... ce",
+    "options": {
+      "A": "Karfafawa",
+      "B": "tambayau",
+      "C": "bayani",
+      "D": "korewa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What type of sentence is \"Wace ce ta yi tafiya jiya\"? Answer: Tambayau (Tambayau means \"interrogative sentence\", which is the correct answer. Bayani is an exposition, korewa is a negation, karfafawa is an intensification, and umurtau is not a relevant term)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_17",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "17",
+    "question": "Gano jimla korau a wad'annan.",
+    "options": {
+      "A": "Ta iya kitso",
+      "B": "Kar ka zo gobe",
+      "C": "Ta yi zugum",
+      "D": "Ya zo jiya"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Identify the sentence with a subordinate clause. Answer: Kar ka zo gobe (This sentence contains a subordinate clause, while the other options do not)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_18",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "18",
+    "question": "Damukowa ya fito daga",
+    "options": {
+      "A": "Gwada",
+      "B": "Gunu",
+      "C": "Badum",
+      "D": "Akope"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Damukowa comes from: Answer: Gunu (Damukowa comes from Gunu, which is his hometown)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_19",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "19",
+    "question": "Ware bare dangane da jam'i a tambaya ta 32 da ta 33.",
+    "options": {
+      "A": "Katifa",
+      "B": "Korama",
+      "C": "Takarda",
+      "D": "Littafi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following is a plural noun?",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_20",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "20",
+    "question": "NAHAWU Fati ta ga akuya wadda ta shanye ruwa.\" Wannan jimla ......ce.",
+    "options": {
+      "A": "sarkakkiya",
+      "B": "korau",
+      "C": "nufatau",
+      "D": "sassauka"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The sentence \"Fati ta ga akuya wadda ta shanye ruwa\" is an example of: Answer: sassauka (Sassauka means a relative clause, which is the correct answer. Korau refers to a subordinate clause, nufatau is a noun phrase, sarkakkiya is an adverbial phrase, and umurtau is not a relevant term)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_21",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "21",
+    "question": "Fito da wakilin suna na uku kuma jam'i.",
+    "options": {
+      "A": "Mu",
+      "B": "Su",
+      "C": "Ita",
+      "D": "Ku"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The third person plural possessive pronoun is: Answer: Su (Su is the correct answer, as it is the third person plural possessive pronoun. Ita is second person singular feminine, ku is second person singular masculine, mu is first person plural, and shi is third person singular masculine.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_22",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "22",
+    "question": "AUNA FAHIMTA Karanta wadannan labarai, sannan ka amsa tambayoyin da ke biye. Idan mutum ya kama sana'a, musamman a cikin sana'o'in Hausa na gargajiya tamkar ya shiga wani kulob ne. Dalili kuwa, kowace sana'ar Hausa ta gargajiya za ka iske tana da wadansu al'adu nata daban. Misali an san Mahauta a kan al'adar hawan kaho, da kuma iya mayar da magana. Sa'annan an san Makera da wasan cin-wuta, su ko Maharba kan bayar da magunguna irin na saiwa da sassake-sassake, da sauransu. Wasu sana'o'in har unguwanni gare su a cikin birane. Saboda haka idan bakon mai sana'a ya shigo gari, yakan nemi unguwar masu sana'a irin tasa ne, ya je ya zauna. Zaman irin wannan unguwar zama ne na cude-ni-in-cude-ka wajen aiki, ko a fagen kayan aiki, ko wajen dabarun samun kasuwa, da sauransu. Sa'annan dukkar sana'o'i suna da sorakuna, masu kula da zamansu a gari. Kuma su ne tsani daga masu sana'a zuwa ga hukumar gari ko kasa. Misali akwai Sarkin gini, da Galadiman gini, da Madakin gini, da Wakilin gini, da Sarkin fawa, da Wakilin fawa, da Sarkin aska, da Dangaladima, da Sarkin Makera, da sauran irinsu. ...it...i...i...i...i...i...i...i...i...i...i...i...i...",
+    "options": {
+      "A": "Maharba",
+      "B": "Makera",
+      "C": "Mahauta",
+      "D": "Magina"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "AUNA FAHIMTA Karanta wadannan labarai, sannan ka amsa tambayoyin da ke biye. Idan mutum ya kama sana'a, musamman a cikin sana'o'in Hausa na gargajiya tamkar ya shiga wani kulob ne. Dalili kuwa, kowace sana'ar Hausa ta gargajiya za ka iske tana da wadansu al'adu nata daban. Misali an san Mahauta a kan al'adar hawan kaho, da kuma iya mayar da magana. Sa'annan an san Makera da wasan cin-wuta, su ko Maharba kan bayar da magunguna irin na saiwa da sassake-sassake, da sauransu. Wasu sana'o'in har unguwanni gare su a cikin birane. Saboda haka idan bakon mai sana'a ya shigo gari, yakan nemi unguwar masu sana'a irin tasa ne, ya je ya zauna. Zaman irin wannan unguwar zama ne na cude-ni-in-cude-ka wajen aiki, ko a fagen kayan aiki, ko wajen dabarun samun kasuwa, da sauransu. Sa'annan dukkar sana'o'i suna da sorakuna, masu kula da zamansu a gari. Kuma su ne tsani daga masu sana'a zuwa ga hukumar gari ko kasa. Misali akwai Sarkin gini, da Galadiman gini, da Madakin gini, da Wakilin gini, da Sarkin fawa, da Wakilin fawa, da Sarkin aska, da Dangaladima, da Sarkin Makera, da sauran irinsu....it...i...i...i...i...i...i...i...i...i...i...i...i...",
+    "explanation": "The text states that Mahauta is known for the custom of 'iya mayar da magana (speaking eloquently)'",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_23",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "23",
+    "question": "(same passage as above, slightly extended at the end) Sana'o'in Hausa na gargajiya sun kunshi wadannan al'adu in ban da",
+    "options": {
+      "A": "bayar da magani",
+      "B": "hawan kaho",
+      "C": "sarauta",
+      "D": "zaman unguwa."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The text mentions that each traditional Hausa occupation has its own unique customs and practices, except for zaman unguwa (neighborhood association), which is not a custom specific to a particular occupation.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_24",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "24",
+    "question": "(same passage) Sarkin fawa shi ne mai kula da",
+    "options": {
+      "A": "Mahauta",
+      "B": "Makera",
+      "C": "Maharta",
+      "D": "Magina"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The text mentions that Sarkin Fawa is the leader of the farmers, and Mahauta is the traditional occupation of farming",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_25",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "25",
+    "question": "(same passage) Ware bare dangane da masu sarautar gini",
+    "options": {
+      "A": "Galadima",
+      "B": "Sarki",
+      "C": "Madaki",
+      "D": "Dangaladima"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dangaladima. The text mentions that Dangaladima is the leader of the blacksmiths, and the question asks about the leader of the builders (masu sarautar gini)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_26",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "26",
+    "question": "(same passage, extended) Tamkar ya shiga wani kulob ne'. Kalmar da aka ja wa layi na nufin",
+    "options": {
+      "A": "al'ada",
+      "B": "kungiya",
+      "C": "sarauta",
+      "D": "sana'a"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The text uses the phrase \"tamkar ya shiga wani kulob ne\" to mean joining a group or association (kungiya) of people with similar interests or occupations.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_27",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "27",
+    "question": "Wace jimla ce ba ta d'auke da sifa?",
+    "options": {
+      "A": "Lami fara ce.",
+      "B": "Mota mai ruwan kwai.",
+      "C": "Akuya na kuka ainun.",
+      "D": "Jaka mai launin kore."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which sentence does not contain an adjective?",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_28",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "28",
+    "question": "Da malalaci da mayaudari duk malalaciya ce uwarsu. Kalmomin sifa nawa ne a cikin wannan jimla?",
+    "options": {
+      "A": "Uku",
+      "B": "Biyu",
+      "C": "Biyar",
+      "D": "Hudu"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "How many adjectives are in the sentence \"Da malalaci da mayaudari duk malalaciya ce uwarsu\"? Answer: Uku (There are three adjectives in the sentence: malalaci, mayaudari, and malalaciya. Biyu means two, Hudu means four, Biyar means five, and Shida means six)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_29",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "29",
+    "question": "Wakili ya auri wata farar yariniya.\" Kalmar da aka ja wa layi........ce.",
+    "options": {
+      "A": "suna",
+      "B": "aikatau",
+      "C": "bayanau",
+      "D": "sifa"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The verb in the sentence \"Wakili ya auri wata farar yariniya\" is: Answer: aikatau (Aikatau means \"verb\", and in this sentence, the verb is \"auri\", which means \"to marry\". Bayanau is a modifier, sifa is an adjective, suna is a noun, and wakilin suna is a possessive pronoun)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_30",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "30",
+    "question": "'Audu ya fadi a rigingine'. Bayanau a nan shi ne",
+    "options": {
+      "A": "fadi",
+      "B": "a rigingine",
+      "C": "ya fadi",
+      "D": "Audu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The modifier in the sentence \"Audu ya fadi a rigingine\" is: Answer: a rigingine (A rigingine is the modifier indicating the location where the action of the verb \"fadi\" occurred. Audu is the subject, fadi means \"to fall\", and ya is an auxiliary verb)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_31",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "31",
+    "question": "Tsamo kalmar wakilin suna mutum na biyu namiji kurma tilo",
+    "options": {
+      "A": "Shi",
+      "B": "Mu",
+      "C": "Ni",
+      "D": "Kai"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Shi. The question is asking about the pronoun used to refer to a second-person singular male in Hausa, and the answer is Shi.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_32",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "32",
+    "question": "Ware bare dangane da sunayen yanka.",
+    "options": {
+      "A": "Danlami",
+      "B": "Danladi",
+      "C": "Balarabe",
+      "D": "Audu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following names is not a nickname? Answer: Balarabe (Balarabe is a full name, while the other options – Audu, Danladi, Danlami, and Mutum – are all nicknames)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_33",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "33",
+    "question": "Wanne ne ba sunan yanka ba?",
+    "options": {
+      "A": "Audu",
+      "B": "Najeriya",
+      "C": "Gambo",
+      "D": "Abuja"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following names is not a nickname? Answer: Gambo (Gambo is a full name, while the other options – Abuja, Audu, Najeriya, and Takalmi – are all nicknames)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_34",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "34",
+    "question": "\"Awakai sun fita gida da gudu.\" Kalmar aikatau a wannan jimla ita ce",
+    "options": {
+      "A": "da",
+      "B": "awakai",
+      "C": "fita",
+      "D": "gida"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The verb in the sentence \"Awakai sun fita gida da gudu\" is: Answer: fita (Fita is the verb in the sentence, which means \"to go out\". Awakai is the subject, da is a preposition, gida means \"home\", and sun is an auxiliary verb)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_35",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "35",
+    "question": "Gano kalmar bayanau.",
+    "options": {
+      "A": "Ci",
+      "B": "Yi",
+      "C": "Shaka",
+      "D": "Karkashi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Identify the modifier in the sentence. Answer: Yi (Yi is the modifier which indicates the verb \"to do\". Ci is a verb, Karkashi is a noun, Shaka is a noun, and Zo is a verb)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_36",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "36",
+    "question": "Wace jimla ce ke dauke da bayanau?",
+    "options": {
+      "A": "Audu ya ci nama.",
+      "B": "Akuyar Bello ta mutu.",
+      "C": "Jamila ta iya tuwo.",
+      "D": "Keken Gambo kore ne."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which sentence contains a modifier? Answer: Akuyar Bello ta mutu (The sentence contains the modifier \"Akuyar\", which gives more information about the verb \"mutu\". The other options do not contain modifiers)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_37",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "37",
+    "question": "\"Marin shi aka yi yau da rana.\" Wakilin suna a wannan jimla shi ne",
+    "options": {
+      "A": "aka",
+      "B": "da",
+      "C": "yau",
+      "D": "shi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The pronoun in the sentence \"Marin shi aka yi yau da rana\" is: Answer: shi (Shi is the pronoun, which means \"him\" or \"it\". Aka is an auxiliary verb, da is a preposition, yau means \"yesterday\", and yi means \"to do\")",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_38",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "38",
+    "question": "\"Wani saurayi fari yana shara.\" Aikatau a wannan jimla ita ce",
+    "options": {
+      "A": "fari",
+      "B": "saurayi",
+      "C": "shara",
+      "D": "yana."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What is the verb in the sentence \"Wani saurayi fari yana shara\"? Answer: yana (Yana is the verb, which means \"is\". Fari is an adjective, saurayi is a noun, shara is a noun, and wani is an adjective)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_39",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "39",
+    "question": "Duk wad'annan sunan gagara-kirga ne in ban da.",
+    "options": {
+      "A": "itace",
+      "B": "suna",
+      "C": "ruwa",
+      "D": "toka"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following is not a liquid noun? Answer: itace (Itace is a solid noun, while the other options are liquid nouns)",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2019_40",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2019,
+    "number": "40",
+    "question": "Jam'in Boyayye - Boyayyu. Korarre -",
+    "options": {
+      "A": "Korarriya",
+      "B": "Korarruwa",
+      "C": "Korarru",
+      "D": "Korarra"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The plural form of \"Korarre\" is: Answer: Korarru (Korarru is the correct plural form of Korarre. Korarriya, Korarra, Korarruwa, and Korarre are not the correct plural forms)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

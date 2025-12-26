@@ -1,0 +1,973 @@
+[
+  {
+    "id": "JAMB_Chemistry_2020_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "1",
+    "question": "The electronic configuration of an element is 1S² 2S² 2P⁶ 3S² 3P³. How many unpaired electrons are there in the element?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Once you figure out the electron configuration, you fill up the corresponding orbitals with electrons, any left with one is considered unpaired. Since 1s can only hold² electrons, and P has 15, that's obviously filled and has no unpaired electrons. The same is for 2s which holds², 2p which holds 6, 3s which holds².However 3p can hold 6 electrons and in order for that to be filled up you would need to have an element of 18 electrons. So you fill up as much as you can in 3p by first adding 1 electron to each energy level. 3p has³ energy levels and there are only³ electrons left to distribute, so each of those energy levels only gets 1, because you have to fill them all with one before you can start adding a second.So since you are only able to fill one electron in each of the three energy levels of the 3p orbital, that leaves the orbital open for 1 more electron in each of its energy levels. So there are³ unpaired electrons in P.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "2",
+    "question": "Which of the following can be obtained by fractional distillation?",
+    "options": {
+      "A": "Nitrogen from liquid air",
+      "B": "Sodium Chloride from sea water",
+      "C": "Iodine from solution of Iodine in carbon tetrachloride",
+      "D": "Sulphur from the solution of sulphur in carbon disulphide"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Fractional distillation is used to separate mixtures into its component parts or fractions with the difference in boiling points between successive fractions must be more than 10°C. An example is theliquidnitrogen and oxygen are then separated byfractional distillation.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "3",
+    "question": "Duralumin consists of aluminum, copper?",
+    "options": {
+      "A": "Zinc and Gold",
+      "B": "Lead and Manganese",
+      "C": "Nickel and Silver",
+      "D": "Manganese and Magnesium"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Aluminium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Duraluminis an alloy made up of 90% aluminum, 4% copper, 0.51% magnesium, and less than 1% manganese.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "4",
+    "question": "An example of a polysaccharide is?",
+    "options": {
+      "A": "Dextrose",
+      "B": "Mannose",
+      "C": "Glucose",
+      "D": "Starch"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "5",
+    "question": "8g of CH₄ occupies 11.2 at S.T.P. What volume would 22g of CH₃CH₂CH₃ occupy under the same condition?",
+    "options": {
+      "A": "3.7dm³",
+      "B": "11.2dm³",
+      "C": "22.4dm³",
+      "D": "33dm³"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "6",
+    "question": "The best treatment for a student who accidentally poured conc tetraoxosulphate(vi) on his skin in the laboratory is to wash his skin with?",
+    "options": {
+      "A": "with cool running water",
+      "B": "sodium hydroxide solution",
+      "C": "iodine solution",
+      "D": "sodium trioxonitrate(v) solution"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "7",
+    "question": "Which of the gas laws does this graph illustrate?",
+    "options": {
+      "A": "Boyle",
+      "B": "Charles",
+      "C": "Gay-Lussac",
+      "D": "Graham"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Chemistry_2020_q7_b7af9684.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/I5npx5qjrEeTaAsdFyCSMJ3Qm1cqmhQF1SjYHbWc.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "8",
+    "question": "What are the possible oxidation numbers of an element if its atomic number is 17?",
+    "options": {
+      "A": "-1 and 7",
+      "B": "-1 and 6",
+      "C": "-3 and 5",
+      "D": "-2 and 6"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "9",
+    "question": "What process would coal undergo to give coal gas, coal tar, ammoniacal liquor and coke?",
+    "options": {
+      "A": "Steam distillation",
+      "B": "Destructive distillation",
+      "C": "Liquefication",
+      "D": "Hydrolysis"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Nitrogen and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "10",
+    "question": "Liquid black soap is made by boiling palm oil with liquid extract of ash. The function of the ash is to provide the ?",
+    "options": {
+      "A": "Acid",
+      "B": "Ester of alkanoic acid",
+      "C": "Alkanol",
+      "D": ""
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Esters and fats",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "11",
+    "question": "When water drops are added to calcium carbide in a container and the gas produced is passed through a jet and lighted, the resultant flame is called an?",
+    "options": {
+      "A": "Oxyethene",
+      "B": "Oxyhydrocarbon flame",
+      "C": "Oxyacetylene flame",
+      "D": "Oxymethane flame"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "12",
+    "question": "Which of the following substances is a mixture?",
+    "options": {
+      "A": "Granulated sugar",
+      "B": "Seawater",
+      "C": "Sodium chloride",
+      "D": "Iron filling"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "13",
+    "question": "If the quantity of oxygen occupying².76L container at a pressure of 0.825 atm and 300k is reduced by one-half, what is the pressure exerted by the remaining gas?",
+    "options": {
+      "A": "1.650atm",
+      "B": "0.825atm",
+      "C": "0.413atm",
+      "D": "0.275atm"
+    },
+    "correct_answer": "A",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "14",
+    "question": "Four elements P, Q, R and S have atomic numbers of 4, 10, 12 and 14 respectively. Which of these elements is noble gas?",
+    "options": {
+      "A": "P",
+      "B": "Q",
+      "C": "R",
+      "D": "S"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "15",
+    "question": "The products of the thermal decomposition of ammonium trioxonitrate(v) are?",
+    "options": {
+      "A": "Nitrogen (I) Oxide and Water",
+      "B": "Ammonia and Oxide",
+      "C": "Nitrogen and Water",
+      "D": "Nitrogen (IV) Oxide and Water"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Nitrogen and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "16",
+    "question": "How many valence electrons are contained in the element ³¹₁₅P?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "15",
+      "D": "31"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "17",
+    "question": "The number of molecules of Carbon(iv)Oxide produced when 10.0g of CaCO₃ is treated with 0.2dm³ of 1 Mole of HCL in the equation CaCO₃ + 2HCL ⇒ CaCl₂ + H₂ O + CO₂ , is?",
+    "options": {
+      "A": "1.00 X 10²³",
+      "B": "6.02 X 10²³",
+      "C": "6.02 X 10²²",
+      "D": "6.02 X 10²⁴"
+    },
+    "correct_answer": "C",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Mole concept and Avogadro's number",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "18",
+    "question": "The volume occupied by 1.58g of a gas at S.T.P is 500cm³. What is the relative molecular mass of the gas? [ G.M.V at S.T.P = 22.4dm³ ]",
+    "options": {
+      "A": "28",
+      "B": "32",
+      "C": "44",
+      "D": "71"
+    },
+    "correct_answer": "D",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "19",
+    "question": "Which of the following gases will rekindle a brightly splint?",
+    "options": {
+      "A": "",
+      "B": "NO",
+      "C": "N₂O",
+      "D": "CL₂"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "20",
+    "question": "The shape of ammonia molecule is?",
+    "options": {
+      "A": "Trigonal planar",
+      "B": "Octahedral",
+      "C": "Square planar",
+      "D": "Tetrahedral"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Molecular shapes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "21",
+    "question": "A few drop of conc HCL are added to about 10cm³ of a solution of PH³.4. The PH of the resulting mixture is?",
+    "options": {
+      "A": "less than³.4",
+      "B": "greater than³.4",
+      "C": "unaltered",
+      "D": "the same as that of the pure water"
+    },
+    "correct_answer": "A",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "22",
+    "question": "Chromatography is used to separate components of mixture which differ in their rates of ?",
+    "options": {
+      "A": "diffusion",
+      "B": "migration",
+      "C": "reaction",
+      "D": "sedimentation"
+    },
+    "correct_answer": "B",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Separation techniques (distillation, filtration, chromatography)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "23",
+    "question": "Deliquescent substances are also?",
+    "options": {
+      "A": "efflorescent",
+      "B": "anhydrous",
+      "C": "hygroscopic",
+      "D": "insoluble"
+    },
+    "correct_answer": "C",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "24",
+    "question": "Helium is used in observation of ballons because it is?",
+    "options": {
+      "A": "Light and combustible",
+      "B": "light and non-combustible",
+      "C": "heavy and combustible",
+      "D": "heavy and non-combustible"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "25",
+    "question": "32g of anhydrous copper(ii)tetraoxosulphate(vi) dissolved in 1dm³ of water generated 13.0kj of heat. The heat solution is?",
+    "options": {
+      "A": "26.0kj/mol",
+      "B": "65.0kj/mol",
+      "C": "130.0kj/mol",
+      "D": "260.0kj/mol"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "26",
+    "question": "A gaseous metallic chloride MCl consists of 20.22% of M by mass. The formula of the chloride is? [ M = 27, Cl = 35.5]",
+    "options": {
+      "A": "MCl",
+      "B": "MCl₂",
+      "C": "MCl₃",
+      "D": "M₂Cl₆"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "27",
+    "question": "What quantity of electricity will liberate 0.125 mole of oxygen molecules during the electrolysis of dilute sodium chloride solution?",
+    "options": {
+      "A": "24,125 C",
+      "B": "48,250 C",
+      "C": "72,375 C",
+      "D": "96,500 C"
+    },
+    "correct_answer": "B",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrolysis of solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "28",
+    "question": "Which of the following types of bonding does not involve the formation of new substances?",
+    "options": {
+      "A": "Metallic",
+      "B": "Covalent",
+      "C": "Co-ordinate",
+      "D": "Electrovalent"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "29",
+    "question": "An organic compound that does not undergo a reaction with both hydrogen cyanide and hydroxylamine can be?",
+    "options": {
+      "A": "Alkene",
+      "B": "Alkanal",
+      "C": "Alkanone",
+      "D": "Alkanoic Acid"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "30",
+    "question": "The substance often used for vulcanization of rubber is?",
+    "options": {
+      "A": "Chlorine",
+      "B": "Hydrogen peroxide",
+      "C": "Sulphur",
+      "D": "Tetraoxosulphate(vi) acid"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "31",
+    "question": "The chlorinated alkane often used industrially to remove grease is?",
+    "options": {
+      "A": "Tetrachloromethane",
+      "B": "Chloromethane",
+      "C": "Trichloromethane",
+      "D": "Dichloromethane"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "32",
+    "question": "What mass of water is produced when 8.0g of hydrogen reacts with excess oxygen?",
+    "options": {
+      "A": "8.0g",
+      "B": "16.0g",
+      "C": "36.0g",
+      "D": "72.0g"
+    },
+    "correct_answer": "D",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "33",
+    "question": "Proteins in acid solution undergo?",
+    "options": {
+      "A": "Substitution",
+      "B": "Fermentation",
+      "C": "Hydrolysis",
+      "D": "Polymerisation"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Proteins",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "34",
+    "question": "The general formula for the Alkanals is?",
+    "options": {
+      "A": "R₂CO",
+      "B": "RCHO",
+      "C": "ROH",
+      "D": "RCOOR"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanals and Alkanones",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "35",
+    "question": "When cathode rays are deflected onto the electrode of an electrometer, the instrument becomes?",
+    "options": {
+      "A": "Bipolar",
+      "B": "Negatively charged",
+      "C": "Positively charged",
+      "D": "Neutral"
+    },
+    "correct_answer": "B",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrolytes and non-electrolytes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "36",
+    "question": "When a solid substance disappears completely as a gas on heating, the substance is said to have undergone?",
+    "options": {
+      "A": "Sublimation",
+      "B": "Crystallization",
+      "C": "Distillation",
+      "D": "Evaporation"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "37",
+    "question": "An electron can be added to a halogen atom to form a halide ion with?",
+    "options": {
+      "A": "8 valence electrons",
+      "B": "7 valence electrons",
+      "C": "2 valence electrons",
+      "D": "3 valence electrons"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "38",
+    "question": "Aluminum hydroxide is used in the dyeing industry as a?",
+    "options": {
+      "A": "Dye",
+      "B": "Dispersant",
+      "C": "Salt",
+      "D": "Mordant"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "39",
+    "question": "The most important element on the earth's crust is?",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Hydrogen",
+      "C": "Oxygen",
+      "D": "Fluorine"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2020_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2020,
+    "number": "40",
+    "question": "To obtain pure carbon(ii)oxide from its mixture with carbon(iv)oxide, the mixture should be?",
+    "options": {
+      "A": "Passed over heated copper(ii)oxide",
+      "B": "Bubbled through water",
+      "C": "Bubbled through conc H₂SO₄",
+      "D": "Bubbled through conc NAOH"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

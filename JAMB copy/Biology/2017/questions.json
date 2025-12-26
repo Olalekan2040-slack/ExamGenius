@@ -1,0 +1,1251 @@
+[
+  {
+    "id": "JAMB_Biology_2017_1",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "1",
+    "question": "The matured sex cell which takes part in sexual reproduction is referred to as",
+    "options": {
+      "A": "gamete",
+      "B": "fetus",
+      "C": "embryo",
+      "D": "zygote"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Reproduction in plants and mammals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_2",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "2",
+    "question": "The biome that is characterized with large herbivores, few and scattered fire resistant trees is",
+    "options": {
+      "A": "savanna",
+      "B": "tropical rain forest",
+      "C": "montane forest",
+      "D": "desert"
+    },
+    "correct_answer": "A",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_3",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "3",
+    "question": "Red blood cells are also known as _________?",
+    "options": {
+      "A": "erythrocytes",
+      "B": "thrombocytes",
+      "C": "phagocytes",
+      "D": "leucocytes"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_4",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "4",
+    "question": "The joint between the femur and tibia is known as ________?",
+    "options": {
+      "A": "hinge joint",
+      "B": "ball-and-socket joint",
+      "C": "pivot joint",
+      "D": "gliding joint"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_5",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "5",
+    "question": "What is the primary function of cofactors?",
+    "options": {
+      "A": "To aid in enzyme function",
+      "B": "To synthesize enzymes",
+      "C": "To inhibit enzymes",
+      "D": "To break down old enzymes"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_6",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "6",
+    "question": "Use the diagram below to answer the question that follow: The diagram represents a",
+    "options": {
+      "A": "hygrometer",
+      "B": "Wind vane",
+      "C": "Anemometer",
+      "D": "rain gauge"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An anemometer is a device used for measuring wind speed, and is also a common weather station instrument.",
+    "images": [
+      {
+        "filename": "Biology_2017_q6_d08e80e3.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/15126509130_111.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_7",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "7",
+    "question": "Coloration of the eye is ______ variation",
+    "options": {
+      "A": "physiological",
+      "B": "morphological",
+      "C": "adaptive",
+      "D": "recessive"
+    },
+    "correct_answer": "B",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_8",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "8",
+    "question": "Which of the following choices correctly describes the composition of the cell membrane?",
+    "options": {
+      "A": "contains only lipids",
+      "B": "contains lipids and protein",
+      "C": "contains lipids and cytosol",
+      "D": "contains only proteins"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_9",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "9",
+    "question": "The feeding relationship among a set of members of a community is referred to as _______?",
+    "options": {
+      "A": "a food web",
+      "B": "pyramid of energy",
+      "C": "a food chain",
+      "D": "pyramid of number"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Feeding relationships between organisms in a community are represented by food chains, which show the sequence in which organisms feed on each other. The chain generally begins with an autotroph such as a green plant (e.g. stinging nettle ---> small tortoiseshell butterfly caterpillar --> house sparrow --> sparrowhawk), or with dead organic matter (detritus) (e.g. leaf litter --> earthworm --> young blackbird --> fox). The arrows indicate the passage of food, and therefore energy flow, from one organism to another.Pyramids of energy are the most accurate representation of feeding relationships in a community, providing information about the amount of energy flowing through each trophic level over a set period of time.Food web involve many complex feeding relationship and most most ecosystems are more complex than food chain",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_10",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "10",
+    "question": "Nitrogen is released into the atmosphere when ________",
+    "options": {
+      "A": "plants absorbs mineral salt",
+      "B": "sugar is completely broken down",
+      "C": "through plant uptake",
+      "D": "when lightning strike"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_11",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "11",
+    "question": "Size, colour and fingerprints are examples of ______",
+    "options": {
+      "A": "physiological variation",
+      "B": "discontinuous variation",
+      "C": "morphological variation",
+      "D": "adaptive variation"
+    },
+    "correct_answer": "C",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Morphological variation includes aspects of the outward appearance i.e shape, structure, color, pattern, size which is in contrast to physiology variation which deals primarily with function.Morphological variation arises from a number of factors which can be bluntly classified as either genetic or environmental implanted into the process of evolution.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_12",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "12",
+    "question": "The level of organization in spirogyra and volvox is",
+    "options": {
+      "A": "organ",
+      "B": "system",
+      "C": "cell",
+      "D": "Tissue"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Levels of organization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The spirogyra and volvox are cells. The spirogyra is a cell acting as a FILAMENT while in the Volvox, it's a cell as a COLONY.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_13",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "13",
+    "question": "Which of the following scenarios is an example of cohesion?",
+    "options": {
+      "A": "Water molecules stick to the surface of a mirror.",
+      "B": "Water sticks to the walls of blood vessels.",
+      "C": "Water molecules stay on the tip of a pine needle because the water is attracted to the surface of the needle.",
+      "D": "Water molecules stick to one another and form a bead"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_14",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "14",
+    "question": "The common thing in plant and animal cell is",
+    "options": {
+      "A": "chloroplast",
+      "B": "cell wall",
+      "C": "nucleus",
+      "D": "centrioles"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_15",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "15",
+    "question": "The modification in structure, physiology and behaviour of plant and animal is called ______",
+    "options": {
+      "A": "adaptation",
+      "B": "evolution",
+      "C": "variation",
+      "D": "succession"
+    },
+    "correct_answer": "A",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Adaptation is process by which an animal or plant species becomes fitted to its environment; it is the result of natural selection’s acting upon heritable variation. Even the simpler organisms must be adapted in a great variety of ways: in their structure, physiology, and genetics, in their locomotion or dispersal, in their means of defense and attack, in their reproduction and development, and in other respects.Evolution explains how living things change over a long time, and how they have come to be the way they areVariation is any difference between cells, individual organisms, or groups of organisms of any species caused either by genetic differences (genotypic variation) or by the effect of environmental factors on the expression of the genetic potentials (phenotypic variation). Variation may be shown in physical appearance, metabolism, fertility, mode of reproduction, behaviour, learning and mental ability.Succession is the process by which the structure of a biological community evolves over time. Two different types of succession—primary and secondary—have been distinguished. Primary succession occurs in essentially lifeless areas—regions in which the soil is incapable of sustaining life as a result of such factors as lava flows, newly formed sand dunes, or rocks left from a retreating glacier.Secondary succession occurs in areas where a community that previously existed has been removed; it is typified by smaller-scale disturbances that do not eliminate all life and nutrients from the environment.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_16",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "16",
+    "question": "Use the diagram to answer the question that follows The instrument is used to measure",
+    "options": {
+      "A": "atmospheric pressure",
+      "B": "relative humidity",
+      "C": "direction of wind",
+      "D": "speed of wind"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An Anemometeris a device used for measuring wind speed and direction.",
+    "images": [
+      {
+        "filename": "Biology_2017_q16_42e497ef.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/21177122428_111.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_17",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "17",
+    "question": "A bacteria that is spherically shaped is called?",
+    "options": {
+      "A": "diplobacillus",
+      "B": "coccus",
+      "C": "bacillus",
+      "D": "vibrio"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_18",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "18",
+    "question": "The flame cells are used for excretion in",
+    "options": {
+      "A": "Fluke",
+      "B": "Nematode",
+      "C": "Bacteria",
+      "D": "Volvox"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Excretion and excretory organs",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_19",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "19",
+    "question": "Food chain refers to the feeding relationships between animals in a ______?",
+    "options": {
+      "A": "Family",
+      "B": "phylum",
+      "C": "community",
+      "D": "group"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Food chains and food webs",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_20",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "20",
+    "question": "The host of Taenia Solium is _________",
+    "options": {
+      "A": "cow",
+      "B": "pig",
+      "C": "sheep",
+      "D": "dog"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_21",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "21",
+    "question": "Use the diagram to answer the question that follows. The dentition is found in",
+    "options": {
+      "A": "rat",
+      "B": "dog",
+      "C": "sheep",
+      "D": "man"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Biology_2017_q21_a5fe6d4b.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/0BaJEVR5x7zY0p8IJR5u3wwwqQZy9qUrhSA5bmQb.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_22",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "22",
+    "question": "When an ovary is placed on the receptacle above the other floral parts it is referred to as",
+    "options": {
+      "A": "half inferior ovary",
+      "B": "superior ovary",
+      "C": "inferior ovary",
+      "D": "half superior ovary"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_23",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "23",
+    "question": "The type of nutrition exhibited when organism lives on the body surface or inside the body of another type of organism is",
+    "options": {
+      "A": "Holozoic",
+      "B": "parasitic",
+      "C": "saprohytic",
+      "D": "carnivores"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_24",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "24",
+    "question": "An example of organism which exists as a colony is",
+    "options": {
+      "A": "Volvox",
+      "B": "paramecium",
+      "C": "euglena",
+      "D": "chlamydomonas"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_25",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "25",
+    "question": "The following are example of morphological variation except",
+    "options": {
+      "A": "size",
+      "B": "ability to taste PTC",
+      "C": "color",
+      "D": "fingerprint"
+    },
+    "correct_answer": "B",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_26",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "26",
+    "question": "Ability to taste PTC in some individuals is a character that is",
+    "options": {
+      "A": "acquired",
+      "B": "heritable",
+      "C": "sex-linked",
+      "D": "morphological"
+    },
+    "correct_answer": "B",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_27",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "27",
+    "question": "Agglutination is the _______ of the ________",
+    "options": {
+      "A": "coagulation, white bloodcell",
+      "B": "coagulation, water",
+      "C": "white blood cells, red blood cell",
+      "D": "coagulation, red blood cell"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2017_28",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "28",
+    "question": "What organelle is the site of photosynthesis in plants?",
+    "options": {
+      "A": "Chloroplasts",
+      "B": "Ribosomes",
+      "C": "Cytoplasm",
+      "D": "Mitochondria"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Plant kingdom (Thallophyta to Spermatophyta)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_29",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "29",
+    "question": "Which of the following is a characteristics of a bacteria except _______?",
+    "options": {
+      "A": "they can be seen under microscope",
+      "B": "they range from 0.5 µ m in diameter",
+      "C": "They are grouped accordingly to their cell shape",
+      "D": "they do not cause disease"
+    },
+    "correct_answer": "D",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Bacteria is a disease- causing organism, hence all other options hold true except this one.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_30",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "30",
+    "question": "The level of organization of Amoeba and Euglena cell is ________?",
+    "options": {
+      "A": "organ",
+      "B": "system",
+      "C": "cell",
+      "D": "tissue"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_31",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "31",
+    "question": "The appendicular skeleton includes",
+    "options": {
+      "A": "pectoral and pelvic girdles",
+      "B": "forelimbs, skull and pectoral girdle",
+      "C": "lungs and ribs",
+      "D": "skull and the vertebral column"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The appendicular skeleton is the portion of the skeleton of vertebrates consisting of the bones that support the appendages.The appendicular skeleton includes the skeletal elements within the limbs, as well as supporting pectoral and pelvic girdlesPectoral girdles, arms and forearms, pelvis, thighs and legs, feet and ankles",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_32",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "32",
+    "question": "The protista that is a producer in an aquatic food chain is",
+    "options": {
+      "A": "trypanosome",
+      "B": "paramecium",
+      "C": "chlamydomonas",
+      "D": "amoeba"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Food chains and food webs",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Protists are single celled organisms that contain chloroplasts to aid photosynthesis.Algae → Protozoa → Small Insects → Large aquatic Insects → Small fish → Large fish",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_33",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "33",
+    "question": "The difference in structure, morphological and behavior of plant and animal is called",
+    "options": {
+      "A": "adaptation",
+      "B": "evolution",
+      "C": "variation",
+      "D": "succession"
+    },
+    "correct_answer": "C",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_34",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "34",
+    "question": "Use the diagram to answer the question that follows The structure is adapted for",
+    "options": {
+      "A": "omnivores",
+      "B": "herbivores",
+      "C": "canivores",
+      "D": "omnivores and canivore"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Biology_2017_q34_2facffee.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/zOFgXdbHbZQISzO7meXTKA0UcSaaI9B12j04bkBh.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_35",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "35",
+    "question": "The product after the union of the male and female gamete in animals is called",
+    "options": {
+      "A": "sperm",
+      "B": "egg",
+      "C": "embryo",
+      "D": "zygote"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_36",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "36",
+    "question": "The possession of scales, laying of eggs with shells and bony structure of the head are characteristics shared by",
+    "options": {
+      "A": "birds and reptiles",
+      "B": "fishes and birds",
+      "C": "reptiles and fishes",
+      "D": "birds and molluscs"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_37",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "37",
+    "question": "The lungs of the lung fish is an adaptation for respiration _______?",
+    "options": {
+      "A": "to complement gills while in water",
+      "B": "to complement gills while on land",
+      "C": "while on land",
+      "D": "while in water"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Lungfish are best known for retaining the ability to breathe air, to survive drought",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_38",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "38",
+    "question": "Which of the following is an example of active transport?",
+    "options": {
+      "A": "Oxygen exchanging between red blood cells and liver cells",
+      "B": "Carbon dioxide exchanging between muscle cells and red blood cells",
+      "C": "Water moving out of the small intestine",
+      "D": "Sodium being reabsorbed in the kidney"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Transport and circulatory system",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Although sodium ions are small, their charge prevents them from moving across the cell membrane through simple diffusion. They must be transported using active transport.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_39",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "39",
+    "question": "The key event in the transition of the amphibians from water to land is the ________",
+    "options": {
+      "A": "replacement of the gills with lungs",
+      "B": "possession of webbed limbs",
+      "C": "limbs",
+      "D": "possession of tympanic membrane"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_40",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "40",
+    "question": "Erythrocytes are known as ________",
+    "options": {
+      "A": "white blood cell",
+      "B": "red blood cells",
+      "C": "phagocytes",
+      "D": "leucocytes"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_41",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "41",
+    "question": "Gregor Mendel is regarded as the father of ______",
+    "options": {
+      "A": "variation",
+      "B": "genetics",
+      "C": "mycology",
+      "D": "natural selection"
+    },
+    "correct_answer": "B",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Mendel's laws",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_42",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "42",
+    "question": "The most efficient respiratory structure used by free living protozoan is ________",
+    "options": {
+      "A": "body surface",
+      "B": "gills",
+      "C": "buccal cavity",
+      "D": "spiracle"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_43",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "43",
+    "question": "Carbon (iv) oxide is added to the atmosphere when ________?",
+    "options": {
+      "A": "plants build-up organic compounds",
+      "B": "plants absorb mineral salts",
+      "C": "sugars are completely broken down in animals",
+      "D": "there is thunderstorm"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_44",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "44",
+    "question": "The host of liver fluke are ______?",
+    "options": {
+      "A": "pig and snail",
+      "B": "pig and sheep",
+      "C": "sheep and snail",
+      "D": "pig"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Liver fluke (Fasciola hepatica) is a parasite affecting a range of livestock and other species. Final hosts in which it can develop to sexual maturity include livestock such as sheep, cattle, horses, goats, alpacas and deer. People can be infected by eating water cress growing along creeks in fluke-infested country. While snails are intermediate hosts, sheep and pigs are definitive hosts.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_45",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "45",
+    "question": "Use the diagram to answer the question that follows The part labelled 1 is the ________",
+    "options": {
+      "A": "carpel",
+      "B": "sepal",
+      "C": "petal",
+      "D": "stigma"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The part labelled 1 is the stigma and the part labelled 2 is the ovary.",
+    "images": [
+      {
+        "filename": "Biology_2017_q45_cf626906.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/9si6IcnE0BJzVEZNYbjm882aiTNIdOFXC74MBffb.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_46",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "46",
+    "question": "Which of the following factors can reduce the population of a community?",
+    "options": {
+      "A": "Immigration",
+      "B": "edaphic",
+      "C": "predation",
+      "D": "mutualism"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_47",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "47",
+    "question": "In mosses the structure which performs the function of water absorption is the _________?",
+    "options": {
+      "A": "root hairs",
+      "B": "rhizoids",
+      "C": "capsule",
+      "D": "hyphae"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_48",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "48",
+    "question": "How does an enzyme affect the rate of a reaction?",
+    "options": {
+      "A": "It lowers the activation energy of the reaction, increasing the reaction rate.",
+      "B": "It raises the activation energy of the reaction, decreasing the reaction rate.",
+      "C": "It lowers the activation energy of the reaction, decreasing the reaction rate.",
+      "D": "It raises the activation energy of the reaction, increasing the reaction rate."
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2017_49",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2017,
+    "number": "49",
+    "question": "Insects that goes through adult stage without becoming pupa are except ________",
+    "options": {
+      "A": "crickets",
+      "B": "cockroach",
+      "C": "grasshopper",
+      "D": "bees"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

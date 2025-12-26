@@ -1,0 +1,998 @@
+[
+  {
+    "id": "JAMB_Government_2021_1",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "1",
+    "question": "The Nigeria's head of government in 1963 was _____",
+    "options": {
+      "A": "\n\n            Chief Nnamdi Azikiwe\n",
+      "B": "\n\n            General Yakubu Gowon\n",
+      "C": "\n\n            Alhaji Abubakar Tafawa\n",
+      "D": "\n\n            Major Gen. Aguiyi Ironsi\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "predicted_topics": [
+      "Systems of Governance",
+      "Process of Decolonization",
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_2",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "2",
+    "question": "Who re-organised the Nigeria's four regions into twelve states in May 1967?",
+    "options": {
+      "A": "\n\n            General Yakubu Gowon\n",
+      "B": "\n\n            Lieutenant-Colonel Ojukwu\n",
+      "C": "\n\n            Philip Effiong\n",
+      "D": "\n\n            Abubakar Tafawa Balewa\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "12. The Military in Nigerian Politics",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_3",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "3",
+    "question": "Government by the wealthy is known as _________",
+    "options": {
+      "A": "\n\n            Democracy\n",
+      "B": "\n\n            Plutocracy\n",
+      "C": "\n\n            Oligarchy\n",
+      "D": "\n\n            Aristocracy\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "2. Forms of Government (Monarchy, Aristocracy, Oligarchy, Democracy)",
+    "predicted_topics": [
+      "Forms of Government"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Aristocracy",
+      "Forms of Government :: Oligarchy",
+      "Forms of Government :: Democracy"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_4",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "4",
+    "question": "Professor lbrahim Gambari was the Special Assistant to the United Nations Secretary General on____________",
+    "options": {
+      "A": "\n\n            Security matters\n",
+      "B": "\n\n            African affairs\n",
+      "C": "\n\n            Political and social matters\n",
+      "D": "\n\n            The Economic Commission of Africa.\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_5",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "5",
+    "question": "Which of the following is a founding member of OPEC?",
+    "options": {
+      "A": "\n\n            Indonesia\n",
+      "B": "\n\n            Algeria\n",
+      "C": "\n\n            Venezuela\n",
+      "D": "\n\n            Nigeria\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "4. OPEC (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_6",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "6",
+    "question": "The main function of the Code of Conduct Bureau is to......",
+    "options": {
+      "A": "\n\n            Give the police more powers to make arrests.\n",
+      "B": "\n\n            Ensure accountability in government business.\n",
+      "C": "\n\n            Give the judiciary more powers to discipline erring judges.\n",
+      "D": "\n\n            Protect public officers from the press\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "predicted_topics": [
+      "Arms of Government",
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_7",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "7",
+    "question": "The two military coups that toppled civilian regimes in Nigeria were those of ......",
+    "options": {
+      "A": "\n\n            February 1976 and December 1983\n",
+      "B": "\n\n            July 1966 and August 1985\n",
+      "C": "\n\n            January 1966 and July 1975\n",
+      "D": "\n\n            January 1966 and December 1983\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "12. The Military in Nigerian Politics",
+    "predicted_topics": [
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_8",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "8",
+    "question": "Under the 1999 constitution of Nigeria, the power to create local governments is vested in the .....",
+    "options": {
+      "A": "\n\n            State Assembly\n",
+      "B": "\n\n            National Assembly\n",
+      "C": "\n\n            Office of the deputy governor\n",
+      "D": "\n\n            Presidency\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. Post-Independence Constitutions (1963, 1979, 1989, 1999)",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_9",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "9",
+    "question": "The first Nigerian constitution to provide for the Fundamental objectives and directive principles of the state policy was the _________",
+    "options": {
+      "A": "\n\n            1999 Constitution\n",
+      "B": "\n\n            1979 Constitution\n",
+      "C": "\n\n            1960 Constitution\n",
+      "D": "\n\n            1989 Constitution\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. Post-Independence Constitutions (1963, 1979, 1989, 1999)",
+    "predicted_topics": [
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_10",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "10",
+    "question": "The fees collected by local governments at motor parks represent ______",
+    "options": {
+      "A": "\n\n            Income tax\n",
+      "B": "\n\n            User charge\n",
+      "C": "\n\n            Fines\n",
+      "D": "\n\n            Levies\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "11. Local Government Administration",
+    "predicted_topics": [
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_11",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "11",
+    "question": "The lbadan Conference of 1950 was convened to discuss the provisions of the ....",
+    "options": {
+      "A": "\n\n            Richards Constitution\n",
+      "B": "\n\n            Macpherson Constitution\n",
+      "C": "\n\n            Clifford Constitution\n",
+      "D": "\n\n            Lyttleton Constitution\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "7. Constitution (Meaning, Sources, Functions, Types)",
+    "predicted_topics": [
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_12",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "12",
+    "question": "The absence of the rule of law in government will bring about ...",
+    "options": {
+      "A": "\n\n            Human rights abuse\n",
+      "B": "\n\n            Political apathy\n",
+      "C": "\n\n            Corrupt practices\n",
+      "D": "\n\n            Treasonable offences\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "8. Principles of Democratic Government (Rule of Law, Separation of Powers)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_13",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "13",
+    "question": "The Economic Community of West African States has made progress in the area of ....",
+    "options": {
+      "A": "\n\n            Increased trade among members\n",
+      "B": "\n\n            Providing financial aid to members\n",
+      "C": "\n\n            Political integration of the region\n",
+      "D": "\n\n            Free movement of persons and right of residence\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. ECOWAS (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_14",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "14",
+    "question": "Nigeria's withdrawal from the Edinburg Commonwealth Games in July 1986 was in protest against British.....",
+    "options": {
+      "A": "\n\n            Failure to impose sanctions on South Africa\n",
+      "B": "\n\n            Negative utterances on Nigeria\n",
+      "C": "\n\n            Supply of arms to Rhodesia\n",
+      "D": "\n\n            Support for UNITArebels in Angola.\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "3. Commonwealth (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_15",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "15",
+    "question": "During the Civil War, the major power that expressed moral support for Biafra's self- determination was ......",
+    "options": {
+      "A": "\n\n            Great Britain\n",
+      "B": "\n\n            China\n",
+      "C": "\n\n            France\n",
+      "D": "\n\n            The United States\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "12. The Military in Nigerian Politics",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_16",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "16",
+    "question": "____was the first Nigerian Permanent Representative to the United Nations.",
+    "options": {
+      "A": "\n\n            Chief Samuel Adebo\n",
+      "B": "\n\n            Professor Ibrahim Gambari\n",
+      "C": "\n\n            Alhaji Yusuf Maitama Sule\n",
+      "D": "\n\n            General Joseph Garba\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_17",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "17",
+    "question": "The Barclay's Bank and the British Petroleum Company in Nigeria were nationalized in the late 1970s for transacting business with ...",
+    "options": {
+      "A": "\n\n            Libya\n",
+      "B": "\n\n            South Africa\n",
+      "C": "\n\n            France\n",
+      "D": "\n\n            Portugal\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Pre-Colonial Polities (Hausa, Emirate, Tiv, Igbo, Yoruba)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_18",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "18",
+    "question": "The Murtala/Obasanjo regime in Nigeria increased the number of states from....",
+    "options": {
+      "A": "\n\n            30 to 36\n",
+      "B": "\n\n            19 to 20\n",
+      "C": "\n\n            12 to 19\n",
+      "D": "\n\n            4 to 12\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_19",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "19",
+    "question": "The ....... is responsible for advising the president of Nigeria on the sovereignty and territorial Integrity of the country.",
+    "options": {
+      "A": "\n\n            National Defence Council\n",
+      "B": "\n\n            Council of State\n",
+      "C": "\n\n            National Security Council\n",
+      "D": "\n\n            Federal Executive Council\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_20",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "20",
+    "question": "The independent National Electoral Commission has the power to prepare and maintain the register of.____",
+    "options": {
+      "A": "\n\n            Electoral candidates\n",
+      "B": "\n\n            Constituencies\n",
+      "C": "\n\n            Political parties\n",
+      "D": "\n\n            Voters\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "11. The Electoral Process (Suffrage, Elections, Electoral Systems)",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_21",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "21",
+    "question": "Before Nigeria became a republic, the highest body charged with the administration of justice was the......",
+    "options": {
+      "A": "\n\n            Court of Appeal\n",
+      "B": "\n\n            High Court\n",
+      "C": "\n\n            Privy Council\n",
+      "D": "\n\n            Supreme Court\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "predicted_topics": [
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_22",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "22",
+    "question": "A major issue that distinguishes pressure groups from political parties is the ...",
+    "options": {
+      "A": "\n\n            Ideology\n",
+      "B": "\n\n            Objective\n",
+      "C": "\n\n            Membership drive\n",
+      "D": "\n\n            Voting pattern\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "6. Political Ideologies (Communalism, Feudalism, Capitalism, Socialism)",
+    "predicted_topics": [
+      "Political Ideologies",
+      "The Electoral Process",
+      "Pressure Groups",
+      "Pre-Colonial Polities",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_23",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "23",
+    "question": "When Nigeria achieved independence in 1960, the head of state was the _____",
+    "options": {
+      "A": "\n\n            Queen of England\n",
+      "B": "\n\n            President\n",
+      "C": "\n\n            Prime Minister\n",
+      "D": "\n\n            Governor-General\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "predicted_topics": [
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_24",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "24",
+    "question": "After 1945, the demand of African nationalists changed from reform to independence because .....",
+    "options": {
+      "A": "\n\n            The Second World War enhanced colonial rule\n",
+      "B": "\n\n            Colonial rule became less oppressive\n",
+      "C": "\n\n            Colonial rule was in disarray\n",
+      "D": "\n\n            The Second World War boosted their morale\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "2. Imperialist Penetration (British and French Colonial Policies)",
+    "predicted_topics": [
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_25",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "25",
+    "question": "____________was the method used by the British to facilitate the administration of Southern Nigeria.",
+    "options": {
+      "A": "\n\n            Trade association\n",
+      "B": "\n\n            Divide and rule\n",
+      "C": "\n\n            Dialogue\n",
+      "D": "\n\n            Persuasion\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "2. Imperialist Penetration (British and French Colonial Policies)",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_26",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "26",
+    "question": "Some pre-colonial Nigerian societies are described as stateless because ......",
+    "options": {
+      "A": "\n\n            They had no formal governmental institutions\n",
+      "B": "\n\n            They were not independent\n",
+      "C": "\n\n            They had no definite political boundaries\n",
+      "D": "\n\n            Their population was too small\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Pre-Colonial Polities (Hausa, Emirate, Tiv, Igbo, Yoruba)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_27",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "27",
+    "question": "One argument against a multi-party system is the _______",
+    "options": {
+      "A": "\n\n            Inability to attract foreign assistance\n",
+      "B": "\n\n            High cost of conducting elections\n",
+      "C": "\n\n            Banning of interest groups\n",
+      "D": "\n\n            Encouragement of opposition and instability\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "12. Political Parties and Party Systems",
+    "predicted_topics": [
+      "Political Parties and Party Systems"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_28",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "28",
+    "question": "________refers to the manipulation of boundaries of constituencies in order to win more seats,",
+    "options": {
+      "A": "\n\n            Delimitation\n",
+      "B": "\n\n            Devolution\n",
+      "C": "\n\n            Determination\n",
+      "D": "\n\n            Gerrymandering\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_29",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "29",
+    "question": "The fundamental rights of citizens include the following EXCEPT.......",
+    "options": {
+      "A": "\n\n            Association, property and social security\n",
+      "B": "\n\n            Life, liberty and property\n",
+      "C": "\n\n            Free education, employment and freedom of thought\n",
+      "D": "\n\n            Life, speech and association.\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "10. Citizenship (Rights, Duties, Dual citizenship)",
+    "predicted_topics": [
+      "Citizenship"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_30",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "30",
+    "question": "In the legislative process, a bill is a ....",
+    "options": {
+      "A": "\n\n            Proposal before the legislature\n",
+      "B": "\n\n            Law passed by the legislature\n",
+      "C": "\n\n            Motion accepted for debate\n",
+      "D": "\n\n            Motion rejected after debate\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_31",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "31",
+    "question": "Under the 1999 Constitution, the appointment of Ministers and Ambassadors must be ratified by the ........",
+    "options": {
+      "A": "\n\n            Senate\n",
+      "B": "\n\n            House of Representatives\n",
+      "C": "\n\n            National Council of States\n",
+      "D": "\n\n            Presidency\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "predicted_topics": [
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Legislature"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_32",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "32",
+    "question": "In the First Republic, the official opposition party was the ..........",
+    "options": {
+      "A": "\n\n            National Council of Nigeria and Cameroons\n",
+      "B": "\n\n            Northern Elements Progressive Union\n",
+      "C": "\n\n            Action Group\n",
+      "D": "\n\n            Northern People's Congress\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "8. Political Parties and Party Politics (First to Fourth Republic)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government",
+      "Processes of Legislation",
+      "Political Parties and Party Systems",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_33",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "33",
+    "question": "The highest grade in the Civil Service is known as the ............",
+    "options": {
+      "A": "\n\n            Technical cadre\n",
+      "B": "\n\n            Executive cadre\n",
+      "C": "\n\n            Clerical cadre\n",
+      "D": "\n\n            Administrative cadre\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "15. The Civil Service",
+    "predicted_topics": [
+      "The Civil Service",
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_34",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "34",
+    "question": "The Native Authority System was most effective and successful in .......",
+    "options": {
+      "A": "\n\n            Mid-western Nigeria\n",
+      "B": "\n\n            Western Nigeria\n",
+      "C": "\n\n            Northern Nigeria\n",
+      "D": "\n\n            Eastern Nigeria\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Pre-Colonial Polities (Hausa, Emirate, Tiv, Igbo, Yoruba)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2021_35",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "35",
+    "question": "The major problem of the ECOWAS is lack of _______",
+    "options": {
+      "A": "\n\n            Uniform ideology\n",
+      "B": "\n\n            Commitment by members\n",
+      "C": "\n\n            Common customs union\n",
+      "D": "\n\n            Common currency\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. ECOWAS (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Political Ideologies",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_36",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "36",
+    "question": "The citizenship of a country could be acquired through_______",
+    "options": {
+      "A": "\n\n            President proclamation\n",
+      "B": "\n\n            Registration and arbitration\n",
+      "C": "\n\n            Birth and naturalization\n",
+      "D": "\n\n            Parliamentary legislature\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "10. Citizenship (Rights, Duties, Dual citizenship)",
+    "predicted_topics": [
+      "Citizenship"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_37",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "37",
+    "question": "A common feature of government is________",
+    "options": {
+      "A": "\n\n            The making of public policy\n",
+      "B": "\n\n            The separation of powers\n",
+      "C": "\n\n            The independence of the judiciary\n",
+      "D": "\n\n            A written constitution.\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "7. Constitution (Meaning, Sources, Functions, Types)",
+    "predicted_topics": [
+      "Constitution"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_38",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "38",
+    "question": "One of the duties of the legislature is to_______",
+    "options": {
+      "A": "\n\n            Exercise oversight\n",
+      "B": "\n\n            Implement law\n",
+      "C": "\n\n            Promulgate decrees\n",
+      "D": "\n\n            Adjudicate disputes\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_39",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "39",
+    "question": "The type of government operated in Nigeria between October 1st 1979 to December 3 1983 is called a __________",
+    "options": {
+      "A": "\n\n            Collegial system of government\n",
+      "B": "\n\n            Presidential system of government\n",
+      "C": "\n\n            Unitary system of government\n",
+      "D": "\n\n            Parliamentary system of government\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "predicted_topics": [
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2021_40",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2021,
+    "number": "40",
+    "question": "Financial allocation to local governments by the federal or the state government to supplement the cost of a project is called_____",
+    "options": {
+      "A": "\n\n            Revenue allocation\n",
+      "B": "\n\n            Reimbursement\n",
+      "C": "\n\n            Statutory allocation\n",
+      "D": "\n\n            Matching grant\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "9. Structure and Workings of Nigerian Federalism",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Structures of Governance",
+      "The Structure and Workings of Nigerian Federalism",
+      "Local Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  }
+]

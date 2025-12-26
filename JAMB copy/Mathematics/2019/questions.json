@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "JAMB_Mathematics_2019_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "1",
+    "question": "Make q the subject of the formula in the equation (mn/a²) - (pq/b²) = 1",
+    "options": {
+      "A": "q = (b²(mn - a²)/a² p)",
+      "B": "q = (m² n - a²/p²)",
+      "C": "q = (mn - 2b²/a²)",
+      "D": "q = (b² (n² - ma²)/n)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(mn/a²) - (pq/b²) = 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "2",
+    "question": "The angle of elevation of the top of a tree from a point on the ground 60m away from the foot of the tree is 78°. Find the height of the tree correct to the nearest whole number.",
+    "options": {
+      "A": "148m",
+      "B": "382m",
+      "C": "282m",
+      "D": "248m"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "3",
+    "question": "A binary operation is defined by m n = mn + m - n on the set of real numbers, for all m, n ∈ R. Find the value of³ (2 4).",
+    "options": {
+      "A": "6",
+      "B": "25",
+      "C": "15",
+      "D": "18"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "m n = mn + m - n",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "4",
+    "question": "Age in years 7 8 9 10 11 No of pupils 4 13 30 44 9 The table above shows the number of pupils in a class with respect to their ages. If a pie chart is constructed to represent the age, the angle corresponding to 8 years old is",
+    "options": {
+      "A": "48.6°",
+      "B": "56.3°",
+      "C": "46.8°",
+      "D": "13°"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total number of pupils : 4 + 13 + 30 + 44 + 9 = 100",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:50%\">\n<tbody>\n<tr>\n<td>Age in years</td>\n<td>7</td>\n<td>8</td>\n<td>9</td>\n<td>10</td>\n<td>11</td>\n</tr>\n<tr>\n<td>No of pupils</td>\n<td>4</td>\n<td>13</td>\n<td>30</td>\n<td>44</td>\n<td>9</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "5",
+    "question": "In a class of 50 students, 40 students offered Physics and 30 offered Biology. How many offered both Physics and Biology?",
+    "options": {
+      "A": "42",
+      "B": "20",
+      "C": "70",
+      "D": "54"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "n(Total) = 50",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "6",
+    "question": "Rationalize (√2 + √3/√2 - √3)",
+    "options": {
+      "A": "-5 - 2√6",
+      "B": "-5 + 3√2",
+      "C": "5 - 2√3",
+      "D": "5 + 2√6"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(√2 + √3/√2 - √3)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "7",
+    "question": "Find the length of the chord |AB| in the diagram shown above.",
+    "options": {
+      "A": "4.2 cm",
+      "B": "4.3 cm",
+      "C": "3.2 cm",
+      "D": "3.4 cm"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Length of chord = 2r ((θ/2))",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q7_d7d2d277.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/IVWjrAKLAXL2VfkwFdUYSE34CbjOtPFFC97Min4B.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "8",
+    "question": "Given 58° = p°, find p.",
+    "options": {
+      "A": "48°",
+      "B": "58°",
+      "C": "32°",
+      "D": "52°"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "θ = (90 - θ)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "9",
+    "question": "((2/3) ÷ (4/5)/(1/4) + (3/5) - (1/3))",
+    "options": {
+      "A": "(31/50)",
+      "B": "(20/31)",
+      "C": "(31/20)",
+      "D": "(50/31)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "((2/3) ÷ (4/5)/(1/4) + (3/5) - (1/3))",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "10",
+    "question": "If 6x³ + 2x² - 5x + 1 divides x² - x - 1, find the remainder.",
+    "options": {
+      "A": "2x + 6",
+      "B": "6x + 8",
+      "C": "5x - 3",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "11",
+    "question": "If a fair coin is tossed³ times, what is the probability of getting at least two heads?",
+    "options": {
+      "A": "(2/3)",
+      "B": "(4/5)",
+      "C": "(2/5)",
+      "D": "(1/2)"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The outcomes are HHH, HHT, HTT, HTH, THH, THT, TTH, TTT",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "12",
+    "question": "In how many ways can the word MATHEMATICIAN be arranged?",
+    "options": {
+      "A": "6794800 ways",
+      "B": "2664910 ways",
+      "C": "6227020800 ways",
+      "D": "129729600 ways"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "MATHEMATICIAN = 13 letters with 2M, 3A, 2T, 2I.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "13",
+    "question": "Given matrix M = vmatrix⁻² & 0 & 4 \\ 0 &⁻¹ & 6 \\ 5 & 6 & 3 {vmatrix}, find MT + 2M",
+    "options": {
+      "A": "vmatrix⁻⁴ & 2 & 1\\ 6 & 0 & 5 \\ 0 & 6 & 2 vmatrix",
+      "B": "vmatrix -6 & 0 & 13\\ 0 &⁻³ & 18 \\ 14 & 18 & 9 vmatrix",
+      "C": "vmatrix 5 & 2 & 6 \\ 0 & 1 & 1\\ 3 & 4 & -7 vmatrix",
+      "D": "vmatrix⁻⁴ & 0 & 8 \\ 0 &⁻² & -16 \\ 10 & 12 & 6 vmatrix"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "M = vmatrix⁻² & 0 & 4 \\ 0 &⁻¹ & 6 \\ 5 & 6 & 3 vmatrix",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "14",
+    "question": "Score (x) 0 1²³ 4 5 6 Freq (f) 5 7³ 7 11 6 7 Find the mean of the data.",
+    "options": {
+      "A": "3.26",
+      "B": "4.91",
+      "C": "6.57",
+      "D": "3.0"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Score (x)0123456Freq (f)5737116746fx07621443042150",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:50%\">\n<tbody>\n<tr>\n<td>Score (x)</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n</tr>\n<tr>\n<td>Freq (f)</td>\n<td>5</td>\n<td>7</td>\n<td>3</td>\n<td>7</td>\n<td>11</td>\n<td>6</td>\n<td>7</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "15",
+    "question": "Score (x) 0 1²³ 4 5 6 Freq (f) 5 7³ 7 11 6 7 Find the variance",
+    "options": {
+      "A": "3.42",
+      "B": "4.69",
+      "C": "4.85",
+      "D": "3.72"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "xffx(x - {x})(x - {x})²f(x - {x})²050-3.2610.62853.14177-2.265.10835.756236-1.261.5884.7643721-0.260.0680.476411440.740.5486.02856301.743.02818.16867422.747.50852.55646150170.888",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:50%\">\n<tbody>\n<tr>\n<td>Score (x)</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n</tr>\n<tr>\n<td>Freq (f)</td>\n<td>5</td>\n<td>7</td>\n<td>3</td>\n<td>7</td>\n<td>11</td>\n<td>6</td>\n<td>7</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "16",
+    "question": "The locus of a point which moves so that it is equidistant from two intersecting straight lines is the",
+    "options": {
+      "A": "bisector of the two lines",
+      "B": "line parallel to the two lines",
+      "C": "angle bisector of the two lines",
+      "D": "perpendicular bisector of the two lines"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "17",
+    "question": "From the cyclic quadrilateral MNOP above, find the value of x.",
+    "options": {
+      "A": "16°",
+      "B": "25°",
+      "C": "42°",
+      "D": "39°"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": "images/img_2019_mathematics_17.png",
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q17_45387d8d.png",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/jamb_math_2019_16%281%29.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "18",
+    "question": "If 4² x - 3 = 0, find the value of x, when 0° ≤ x ≤ 90°",
+    "options": {
+      "A": "90°",
+      "B": "45°",
+      "C": "60°",
+      "D": "30°"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "19",
+    "question": "In the figure above, |CD| is the base of the triangle CDE. Find the area of the figure to the nearest whole number.",
+    "options": {
+      "A": "56 cm²",
+      "B": "24 cm²",
+      "C": "42 cm²",
+      "D": "34 cm²"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": "images/img_2019_mathematics_19.jpg",
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q19_7fcd11a0.jpg",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/IMG_20191213_121834%20%282%29.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "20",
+    "question": "The marks scored by 30 students in a Mathematics test are recorded in the table below: Scores (Mark) 0 1²³ 4 5 No of students 4³ 7 8 6² What is the total number of marks scored by the children?",
+    "options": {
+      "A": "82",
+      "B": "15",
+      "C": "63",
+      "D": "75"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:50%\">\n<tbody>\n<tr>\n<td>Scores (Mark)</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>No of students</td>\n<td>4</td>\n<td>3</td>\n<td>7</td>\n<td>8</td>\n<td>6</td>\n<td>2</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "21",
+    "question": "If given two points A(3, 12) and B(5, 22) on a x-y plane. Find the equation of the straight line with intercept at².",
+    "options": {
+      "A": "y = 5x + 2",
+      "B": "y = 5x + 3",
+      "C": "y = 12x + 2",
+      "D": "y = 22x + 3"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The equation of a straight line is given as y = mx + b",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "22",
+    "question": "If P(2, m) is the midpoint of the line joining Q(m, n) and R(n,⁻⁴), find the values of m and n.",
+    "options": {
+      "A": "m = 0, n = 4",
+      "B": "m = 4, n = 0",
+      "C": "m = 2, n = 2",
+      "D": "m =⁻², n = 4"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Q(m, n) and R(n,⁻⁴)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "23",
+    "question": "If vmatrix² &⁻⁴ \\ x & 9 vmatrix = 58, find the value of x.",
+    "options": {
+      "A": "10",
+      "B": "30",
+      "C": "14",
+      "D": "28"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "vmatrix² &⁻⁴ \\ x & 9 vmatrix = 58",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "24",
+    "question": "If y = 6x³ + 2x⁻² - x⁻³, find (d y/d x).",
+    "options": {
+      "A": "(d y/d x) = 15x² - 4x⁻² - 3x⁻²",
+      "B": "(d y/d x) = 6x + 4x⁻¹ - 3x⁻⁴",
+      "C": "(d y/d x) = 18x² - 4x⁻³ + 3x⁻⁴",
+      "D": "(d y/d x) = 12x² + 4x⁻¹ - 3x⁻²"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = 6x³ + 2x⁻² - x⁻³",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "25",
+    "question": "(d/dx) [(4x³ - 2x)] is equal to",
+    "options": {
+      "A": "(12x - 2/4x²)",
+      "B": "(43x² - 2x/7x)",
+      "C": "(4x² - 2/7x + 6)",
+      "D": "(12x² - 2/4x³ - 2x)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(d/dx) [(4x³ - 2x)] ... (1)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "26",
+    "question": "If f(x) = 3x³ + 4x² + x - 8, what is the value of f(-2)?",
+    "options": {
+      "A": "-24",
+      "B": "30",
+      "C": "-18",
+      "D": "-50"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "f(x) = 3x³ + 4x² + x - 8",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "27",
+    "question": "Solve for x in (4x - 6/3) ≤ (3 + 2x/2)",
+    "options": {
+      "A": "x ≤ 1(1/2)",
+      "B": "x ≤ (21/2)",
+      "C": "x ≥ (21/2)",
+      "D": "x ≥ 1(1/2)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(4x - 6/3) ≤ (3 + 2x/2)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "28",
+    "question": "Solve the inequality: -7 ≤ 9 - 8x < 16 - x",
+    "options": {
+      "A": "-1 ≤ x ≤ 2",
+      "B": "-1 ≤ x < 2",
+      "C": "-1 < x < 2",
+      "D": "-1 < x ≤ 2"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "-7 ≤ 9 - 8x < 16 - x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "29",
+    "question": "The nth term of a sequence is given by 2²ⁿ ⁻ ¹. Find the sum of the first four terms.",
+    "options": {
+      "A": "74",
+      "B": "32",
+      "C": "42",
+      "D": "170"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "T_n = 2²ⁿ ⁻ ¹",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "30",
+    "question": "Integrate ∈t₋₁ ² (2x² + x) d x",
+    "options": {
+      "A": "4(1/2)",
+      "B": "3(1/2)",
+      "C": "7(1/2)",
+      "D": "5(1/4)"
+    },
+    "correct_answer": "C",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t₋₁ ² (2x² + x) d x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "31",
+    "question": "If P varies inversely as the square root of q, where p = 3 and q = 16, find the value of q when p = 4.",
+    "options": {
+      "A": "12",
+      "B": "8",
+      "C": "9",
+      "D": "16"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "p (1/√q)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "32",
+    "question": "Tade bought 200 mangoes at 4 for ₦2.50. 30 out of the mangoes got spoilt and the remaining were sold at² for ₦2.40. Find the percentage profit or loss.",
+    "options": {
+      "A": "43.6% loss",
+      "B": "35% profit",
+      "C": "63.2% profit",
+      "D": "28% loss"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "200 mangoes at 4 for N₂.50",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "33",
+    "question": "The simple interest on ₦8550 for³ years at x% per annum is ₦4890. Calculate the value of x to the nearest whole number.",
+    "options": {
+      "A": "19%",
+      "B": "20%",
+      "C": "25%",
+      "D": "16.3%"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "S.I = (PRT/100)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "34",
+    "question": "Simplify 81⁽⁻³/⁴⁾ x 25⁽¹/²⁾ x 243⁽²/⁵⁾",
+    "options": {
+      "A": "(2/5)",
+      "B": "(3/5)",
+      "C": "(5/2)",
+      "D": "(5/3)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "81⁽⁻³/⁴⁾ x 25⁽¹/²⁾ x 243⁽²/⁵⁾",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "35",
+    "question": "Find the value of ((0.5436)³/0.017 × 0.219) to³ significant figures.",
+    "options": {
+      "A": "46.2",
+      "B": "43.1",
+      "C": "534",
+      "D": "431"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(((0.5436)³/0.017 × 0.219)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "36",
+    "question": "If S = (4t + 3)(t - 2), find ds/dt when t = 5 secs.",
+    "options": {
+      "A": "50 units per sec",
+      "B": "35 units per sec",
+      "C": "22 units per sec",
+      "D": "13 units per sec"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "s = (4t + 3)(t - 2)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "37",
+    "question": "The angles of a polygon are given by 2x, 5x, x and 4x respectively. The value of x is",
+    "options": {
+      "A": "31°",
+      "B": "30°",
+      "C": "26°",
+      "D": "48°"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since there are 4 angles given, the polygon is a quadrilateral.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "38",
+    "question": "The weight of a day-old chick was measured to be 0.21g. If the actual weight of the chick is 0.18g, what was the percentage error in the measurement?",
+    "options": {
+      "A": "15.5%",
+      "B": "18.2%",
+      "C": "14.8%",
+      "D": "16.7%"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Actual weight = 0.18g",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "39",
+    "question": "Evaluate ((6/0.32) ÷ (2/0.084))⁻¹ correct to 1 decimal place.",
+    "options": {
+      "A": "1.3",
+      "B": "2.5",
+      "C": "4.6",
+      "D": "3.2"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "((6/0.32) ÷ (2/0.084))⁻¹",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "40",
+    "question": "If 2ˣ ⁺ ʸ = 16 and 4ˣ ⁻ ʸ = (1/32), find the values of x and y.",
+    "options": {
+      "A": "x = (3/4), y = (11/4)",
+      "B": "x = (3/4), y = (13/4)",
+      "C": "x = (2/3), y = (4/5)",
+      "D": "x = (2/3), y = (13/4)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2ˣ ⁺ ʸ = 16 ; 4ˣ ⁻ ʸ = (1/32).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "41",
+    "question": "Simplify (0.0839 × 6.381/5.44) to² significant figures.",
+    "options": {
+      "A": "0.2809",
+      "B": "2.51",
+      "C": "3.5",
+      "D": "0.098"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "42",
+    "question": "Find the value of x and y in the simultaneous equation: 3x + y = 21; xy = 30",
+    "options": {
+      "A": "x = 3 or 7, y = 12 or 8",
+      "B": "x = 6 or 1, y = 11 or 5",
+      "C": "x = 2 or 5, y = 15 or 6",
+      "D": "x = 1 or 5, y = 10 or 7"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3x + y = 21 ... (i);",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "43",
+    "question": "Points X and Y are 20km North and 9km East of point O, respectively. What is the bearing of Y from X? Correct to the nearest degree.",
+    "options": {
+      "A": "24°",
+      "B": "56°",
+      "C": "127°",
+      "D": "156°"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "44",
+    "question": "If P = ((Q(R - T)/15))⁽¹/³⁾, make T the subject of the formula.",
+    "options": {
+      "A": "T = (15R - Q/P³)",
+      "B": "T = R - (15P³/Q)",
+      "C": "T = (R - 15P³/Q)",
+      "D": "T = (R + P³/15Q)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = ((Q(R - T)/15))⁽¹/³⁾",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "45",
+    "question": "In the diagram above, O is the centre of the circle ABC, < ABO = 26° and < BOC = 130°. Calculate < AOC.",
+    "options": {
+      "A": "26°",
+      "B": "13°",
+      "C": "80°",
+      "D": "102°"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q45_f8f45286.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/uFBqC7RfSc7xW6xaoPLiZdyK89LKPGLyxQLB88Fd.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "46",
+    "question": "Each of the interior angles of a regular polygon is 140°. Calculate the sum of all the interior angles of the polygon.",
+    "options": {
+      "A": "1080°",
+      "B": "1260°",
+      "C": "2160°",
+      "D": "1800°"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since each interior angle = 140°;",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "47",
+    "question": "A man bought a car newly for ₦1,250,000. He had a crash with the car and later sold it at the rate of ₦1,085,000. What is the percentage gain or loss of the man?",
+    "options": {
+      "A": "43.7% loss",
+      "B": "13.2% gain",
+      "C": "13.2% loss",
+      "D": "43.7% gain"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cost price of the car = N 1,250.00",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "48",
+    "question": "If the volume of a frustrum is given as V = (π h/3) (R² + Rr + r²), find (d V/d R).",
+    "options": {
+      "A": "(π h/3) (2R + r)",
+      "B": "2R + r + (π h/3)",
+      "C": "(π h/3) (2R² + r + 2r)",
+      "D": "(2R²/3) π h"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "V = (π h/3) (R² + Rr + r²)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_49",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "49",
+    "question": "Express (0.0439 ÷ 3.62) as a fraction.",
+    "options": {
+      "A": "(21/100)",
+      "B": "(21/1000)",
+      "C": "(12/1000)",
+      "D": "(12/100)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(0.0439 ÷ 3.62)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_50",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "50",
+    "question": "If 25¹ ⁻ ˣ × 5ˣ ⁺ ² ÷ ((1/125))ˣ = 625⁻¹, find the value of x.",
+    "options": {
+      "A": "x =⁻⁴",
+      "B": "x = 2",
+      "C": "x =⁻²",
+      "D": "x = 4"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "25¹ ⁻ ˣ × 5ˣ ⁺ ² ÷ ((1/125))ˣ = 625⁻¹",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_51",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "51",
+    "question": "A bricklayer charges ₦1,500 per day for himself and ₦500 per day for his assistant. If a two bedroom flat was built for ₦95,000 and the bricklayer worked 10 days more than his assistant, how much did the assistant receive?",
+    "options": {
+      "A": "N20,000",
+      "B": "N28,000",
+      "C": "N31,200",
+      "D": "N41,000"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let the number of days worked by the assistant = t",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_52",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "52",
+    "question": "Find the equation of the locus of a point A(x, y) which is equidistant from B(0, 2) and C(2, 1)",
+    "options": {
+      "A": "4x + 2y = 3",
+      "B": "4x - 3y = 1",
+      "C": "4x - 2y = 1",
+      "D": "4x + 2y =⁻¹"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since A(x, y) is the point of equidistance between B and C, then",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_53",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "53",
+    "question": "A factory worker earns ₦50,000 per month out of which he spends 15% on his children's education, ₦13,600 on Food, 3% on electricity and uses the rest for his personal purpose. How much does he have left?",
+    "options": {
+      "A": "N21,850",
+      "B": "N18,780",
+      "C": "N27,400",
+      "D": "N32,500"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Education = (15/100) × N 50,000",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_54",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "54",
+    "question": "A binary operation Δ is defined by a Δ b = a + 3b + 2. Find (3 Δ²) Δ 5",
+    "options": {
+      "A": "35",
+      "B": "59",
+      "C": "28",
+      "D": "87"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "a Δ b = a + 3b + 2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_55",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "55",
+    "question": "If M varies directly as N and inversely as the root of P. Given that M = 3, N = 5 and P = 25. Find the value of P when M = 2 and N = 6.",
+    "options": {
+      "A": "36",
+      "B": "63",
+      "C": "47",
+      "D": "81"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "M N ; M (1/√P).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_56",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "56",
+    "question": "This table below gives the scores of a group of students in a Further Mathematics Test. Score 1²³ 4 5 6 7 Frequency 4 6 8 4 10 6² Find the mode of the distribution.",
+    "options": {
+      "A": "7",
+      "B": "10",
+      "C": "5",
+      "D": "4"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mode = Score with the highest frequency",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:50%\">\n<tbody>\n<tr>\n<td>Score</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>4</td>\n<td>6</td>\n<td>8</td>\n<td>4</td>\n<td>10</td>\n<td>6</td>\n<td>2</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_57",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "57",
+    "question": "This table below gives the scores of a group of students in a Further Mathematics Test. Score 1²³ 4 5 6 7 Frequency 4 6 8 4 10 6² Calculate the mean deviation for the distribution",
+    "options": {
+      "A": "4.32",
+      "B": "2.81",
+      "C": "1.51",
+      "D": "3.90"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Score(x)1234567TotalFrequency (f)4684106240fx4122416503614156x - {x}-2.9-1.9-0.90.11.12.13.1|x - {x}|2.91.90.90.11.12.13.1f|x - {x}|11.611.47.20.41112.66.260.4",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:50%\">\n<tbody>\n<tr>\n<td>Score</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>4</td>\n<td>6</td>\n<td>8</td>\n<td>4</td>\n<td>10</td>\n<td>6</td>\n<td>2</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_58",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "58",
+    "question": "Integrate ∈t (4x⁻³ - 7x² + 5x - 6) d x.",
+    "options": {
+      "A": "-2x⁻² - (7/3)x³ + (5/2) x² - 6x",
+      "B": "2x² + (7/3) x³ - 5x + 6",
+      "C": "12x² + 14x - 5",
+      "D": "-12x⁻⁴ - 14x + 5"
+    },
+    "correct_answer": "A",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t (4x⁻³ - 7x² + 5x - 6) d x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_59",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "59",
+    "question": "Find the probability that a number selected at random from 21 to 34 is a multiple of³",
+    "options": {
+      "A": "(3/11)",
+      "B": "(2/9)",
+      "C": "(5/14)",
+      "D": "(5/13)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "S = 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_60",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "60",
+    "question": "If the 3rd and 7th terms of a G.P are 9 and 1/9 respectively. Find the common ratio.",
+    "options": {
+      "A": "(1/3)",
+      "B": "(1/9)",
+      "C": "(2/3)",
+      "D": "(2/9)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "T_n = arⁿ ⁻ ¹ (terms of a G.P)",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_61",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "61",
+    "question": "If the universal set μ = x : 1 ≤ x ≤ 20 and A = y : multiple of³ B = |z : odd numbers} Find A ∩ B",
+    "options": {
+      "A": "1, 3, 6",
+      "B": "3, 5, 9, 12",
+      "C": "3, 9, 15",
+      "D": "2, 3, 9"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "μ = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_62",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "62",
+    "question": "In a committee of 5, which must be selected from 4 males and³ females. In how many ways can the members be chosen if it were to include² females?",
+    "options": {
+      "A": "144 ways",
+      "B": "15 ways",
+      "C": "185 ways",
+      "D": "12 ways"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "For the committee to include² females, we must have³ males, so that there should be 5 members.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_63",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "63",
+    "question": "Find the value of k in the equation: √(28) + √(112) - √k = √(175)",
+    "options": {
+      "A": "√(28)",
+      "B": "7",
+      "C": "28",
+      "D": "√7"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "√(28) + √(112) - √k = √(175)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_64",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "64",
+    "question": "Evaluate (2₃ 9 × ₃ 81⁻²/₅ 625)",
+    "options": {
+      "A": "4",
+      "B": "-32",
+      "C": "-8",
+      "D": "16"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(2₃ 9 × ₃ 81⁻²/₅ 625)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_65",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "65",
+    "question": "Find the value of x for (2 + 2x/3) - 2 ≥ (4x - 6/5)",
+    "options": {
+      "A": "x ≥ -5",
+      "B": "x ≥⁻¹",
+      "C": "x ≤⁻¹",
+      "D": "x ≤ 3"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(2 + 2x/3) - 2 ≥ (4x - 6/5)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_66",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "66",
+    "question": "Determine the values for which x² - 7x + 10 ≤ 0",
+    "options": {
+      "A": "2 ≤ x ≥ 5",
+      "B": "-2 ≤ x ≤ 3",
+      "C": "-2 ≤ x ≥ 3",
+      "D": "2 ≤ x ≤ 5"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x² - 7x + 10 ≤ 0",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_67",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "67",
+    "question": "Find the polynomial if given q(x) = x² - x - 5, d(x) = 3x - 1 and r(x) = 7.",
+    "options": {
+      "A": "3x³ - 4x² - 14x + 12",
+      "B": "3x² + 3x - 7",
+      "C": "3x³ + 4x² + 14x - 12",
+      "D": "3x² - 3x + 4"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given q(x) [quotient], d(x) [divisor] and r(x) [remainder], the polynomial is gotten by multiplying the quotient and the divisor and adding the remainder.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_68",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "68",
+    "question": "If 2x² + x - 3 divides x - 2, find the remainder.",
+    "options": {
+      "A": "7",
+      "B": "3",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When you divide a polynomial p(x) by (x - a), the remainder = p(a)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_69",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "69",
+    "question": "If vmatrix² & -5 & 3 \\ x & 1 & 4 \\ 0 & 3 & 2 vmatrix = 132, find the value of x.",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "6",
+      "D": "3"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "vmatrix² & -5 & 3 \\ x & 1 & 4 \\ 0 & 3 & 2 vmatrix = 132",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_70",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "70",
+    "question": "Given the matrix A = vmatrix³ &⁻² \\ 1 & 6 {vmatrix}. Find the inverse of matrix A.",
+    "options": {
+      "A": "vmatrix 6 & 2 \\ 1 & 6 vmatrix",
+      "B": "vmatrix (2/11) & (1/12)\\ (3/20) & (1/10) vmatrix",
+      "C": "vmatrix⁻³ & 2 \\⁻¹ & -6 vmatrix",
+      "D": "vmatrix (3/10) & (1/10) \\ (-1/20) & (3/20){vmatrix}"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A = vmatrix³ &⁻² \\ 1 & 6 vmatrix",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_71",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "71",
+    "question": "If y = 8x³ - 3x² + 7x - 1, find (d² y/d x²).",
+    "options": {
+      "A": "48x - 6",
+      "B": "11x² + 6x - 7",
+      "C": "32x + 7",
+      "D": "24x² - 6x + 7"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = 8x³ - 3x² + 7x - 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_72",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "72",
+    "question": "Differentiate (2x/x) with respect to x.",
+    "options": {
+      "A": "2 x x (1 + x)",
+      "B": "2 x - x x",
+      "C": "2x x + x",
+      "D": "2x(1 - xx)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_73",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "73",
+    "question": "Find the distance between the points C(2, 2) and D(5, 6).",
+    "options": {
+      "A": "13 units",
+      "B": "7 units",
+      "C": "12 units",
+      "D": "5 units"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "= √((5 - 2)² + (6 - 2)²)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_74",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "74",
+    "question": "Find the equation of a line perpendicular to the line 4y = 7x + 3 which passes through (-3, 1)",
+    "options": {
+      "A": "7y + 4x + 5 = 0",
+      "B": "7y - 4x - 5 = 0",
+      "C": "3y - 5x + 2 = 0",
+      "D": "3y + 5x - 2 = 0"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Equation: 4y = 7x + 3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_75",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "75",
+    "question": "Marks 1²³ 4 5 Frequency 2y - 2 y - 1 3y - 4³ - y 6 - 2y The table above is the distribution of data with mean equals to³. Find the value of y.",
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "6"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Marks (x)12345Frequency (f)2y - 2y - 13y - 43 - y6 - 2y3y + 2fx2y - 22y - 29y - 1212 - 4y30 - 10y26 - y",
+    "table_html": "<table border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>Marks</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>2y - 2</td>\n<td>y - 1</td>\n<td>3y - 4</td>\n<td>3 - y</td>\n<td>6 - 2y</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_76",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "76",
+    "question": "The histogram above represents the number of candidates who did Further Mathematics examination in a school. How many candidates scored more than 40?",
+    "options": {
+      "A": "100",
+      "B": "79",
+      "C": "150",
+      "D": "90"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": "images/img_2019_mathematics_76.jpg",
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Number of students that scored above 40 = 55 + 45 + 30 + 15 + 5",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q76_de557f15.jpg",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/IMG_20191217_132732%20%282%29.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Mathematics_2019_77",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "77",
+    "question": "In the circle above, with centre O and radius 7 cm. Find the length of the arc AB, when < AOB = 57°.",
+    "options": {
+      "A": "5.32 cm",
+      "B": "4.39 cm",
+      "C": "7.33 cm",
+      "D": "6.97 cm"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": "images/img_2019_mathematics_77.png",
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Length of arc = (θ/360°) × 2 π r",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q77_ee3f7afe.png",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/2019-12-17%20%282%29.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_78",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "78",
+    "question": "Calculate the volume of the regular three dimensional figure drawn above, where < ABC = 90° (a right- angled triangle).",
+    "options": {
+      "A": "394 cm³",
+      "B": "425 cm³",
+      "C": "268 cm³",
+      "D": "540 cm³"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": "images/img_2019_mathematics_78.png",
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "|AC| = |DF| = 13 cm",
+    "images": [
+      {
+        "filename": "Mathematics_2019_q78_e1867396.png",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/2019-12-17%20%284%29.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_79",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "79",
+    "question": "If x = (4/5), find (1 + ² x/² x - 1).",
+    "options": {
+      "A": "(13/2)",
+      "B": "(25/9)",
+      "C": "(3/13)",
+      "D": "(4/11)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x = (opp/Hyp) = (4/5)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2019_80",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2019,
+    "number": "80",
+    "question": "Evaluate (230 + 560/60), leaving your answer in surd form.",
+    "options": {
+      "A": "(2√3/3) + 10",
+      "B": "(3√2 - 1/5)",
+      "C": "(3√2 + 1/5)",
+      "D": "(2√3/3) - 10"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(230 + 560/60)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

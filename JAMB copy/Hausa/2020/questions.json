@@ -1,0 +1,998 @@
+[
+  {
+    "id": "JAMB_Hausa_2020_1",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "1",
+    "question": "\"Shehu ya harbi zomo fari\" Fito da sifa daga wannan jimlar.",
+    "options": {
+      "A": "Fari",
+      "B": "Ya",
+      "C": "Shehu",
+      "D": "Harbi"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. Fari. In the sentence \"Shehu ya harbi zomo fari\", \"Fari\" is an adjective (sifa) describing the noun \"zomo\" (horse). It means \"white\" and gives more information about the horse's color. Therefore, the correct answer is A. Fari, as it is the adjective in the sentence. \"Tafi ka d'auko ruwa a rijiya\"",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_2",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "2",
+    "question": "Fito da wakilin suna na biyu, namiji, tilo.",
+    "options": {
+      "A": "Kai",
+      "B": "Shi",
+      "C": "Ita",
+      "D": "Ke"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is B. Shi. The question is asking for the second-person singular masculine pronoun, which is \"Shi\" in Hausa. The second-person singular masculine pronoun is used to refer to a male person being addressed, similar to \"you\" in English. The other options – Ita (her), Kai (you, plural), Ke (you, feminine), Ni (I) – do not fit this description, making \"Shi\" the correct answer.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_3",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "3",
+    "question": "\"\"Tsakanin likita da malamin makaranta wa ya fi muhimmancin ga jama'a\". Wannan misali ne na insha'in",
+    "options": {
+      "A": "musu",
+      "B": "bayani",
+      "C": "muhawara",
+      "D": "labari"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C. Muhawara. The quote is an example of a topic for an argumentative essay",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_4",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "4",
+    "question": "Ware bare dangane da jam'i a tambaya ta",
+    "options": {
+      "A": "Katifa",
+      "B": "Korama",
+      "C": "Takarda",
+      "D": "Littafi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_6",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "6",
+    "question": "Jam'in Boyayye - Boyayyu. Korarre -",
+    "options": {
+      "A": "Korarru",
+      "B": "Korarruwa",
+      "C": "Korarra",
+      "D": "Korarriya"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The plural form of \"Korarre\" is: Answer: A. Korarru (Korarru is the correct plural form of Korarre. Korarriya, Korarra, Korarruwa, and Korayye are not the correct plural forms)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_7",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "7",
+    "question": "(full Damukowa passage) Duk wadannan halayen Damukowa ne in ban da",
+    "options": {
+      "A": "keta",
+      "B": "barna",
+      "C": "gulma",
+      "D": "kinibibi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "All of these are characteristics of Damukowa except:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_8",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "8",
+    "question": "(same passage) Damukowa yana kiwon wadannan dabbobi in ban da.",
+    "options": {
+      "A": "macizai",
+      "B": "kaji",
+      "C": "A jakai",
+      "D": "rakuma"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Damukowa keeps all of these animals except: Answer: A. macizai (Macizai are wild animals, and Damukowa does not keep them. He keeps jakai (donkeys), kaji (horses), rakuma (camels), and shanu (cows))",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_9",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "9",
+    "question": "(same passage) Wahe abu ne mutanen garin Gunu ba su nomawa?",
+    "options": {
+      "A": "Auduga",
+      "B": "Dawa",
+      "C": "Gyada",
+      "D": "Masara"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What crop do people in Gunu not farm? Answer: A. Auduga (Auduga is the crop that people in Gunu do not farm. The other options – Dawa (beans), Gyada (groundnuts), Masara (maize), and Wake (rice) – are all crops that they farm)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_10",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "10",
+    "question": "(same passage) Ware bare.",
+    "options": {
+      "A": "Maharba",
+      "B": "Manoma",
+      "C": "Madora",
+      "D": "Makiyaya"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Madora (Madora are not found in these towns. The other options – Maharba (hunters), Makiyaya (herders), Manoma (farmers), and Masunta (traders) – are all found in these towns)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_11",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "11",
+    "question": "(same passage, cut off) Damukowa ya fito daga",
+    "options": {
+      "A": "Gwada",
+      "B": "Gunu",
+      "C": "Akope",
+      "D": "Badum"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Answer: B. Gunu (Damukowa comes from Gunu, which is his hometown)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_12",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "12",
+    "question": "Babban aikin da bayanau ke yi a cikin jimla shi ne karin bayani a kan",
+    "options": {
+      "A": "dirka",
+      "B": "sifa",
+      "C": "suna",
+      "D": "aikatau"
+    },
+    "correct_answer": "",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_13",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "13",
+    "question": "\"Audu ya hau keke sabo jiya.\" Kalmomin suna nawa ne a cikin wannan jimla?",
+    "options": {
+      "A": "Hudu",
+      "B": "Biyu",
+      "C": "Uku",
+      "D": "Biyar"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is B. Biyu. The question is asking how many nouns are in the sentence. The sentence \"Audu ya hau keke sabo jiya\" contains two nouns: \"Audu\" (a person's name) and \"keke\" (a bicycle). Therefore, the correct answer is B. Biyu (two). Note that \"sabo\" is an adjective modifying the noun \"keke\", and \"jiya\" is an adverb indicating the time of the action, so they are not counted as nouns.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_14",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "14",
+    "question": "Wannan misali ne na jimla",
+    "options": {
+      "A": "umurtau",
+      "B": "Karfafau",
+      "C": "korau",
+      "D": "bayanau"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. umurtau. The sentence \"Tafi ka d'auko ruwa a rijiya\" is a command or instruction, which is a characteristic of \"umurtau\" (imperative) sentences. Imperative sentences are used to give orders, instructions, or commands, and they typically start with a verb in the imperative form, as in this sentence. Therefore, the correct answer is A. umurtau.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_15",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "15",
+    "question": "Ware bare dangane da jam'i.",
+    "options": {
+      "A": "Riga",
+      "B": "Hula",
+      "C": "Rafi",
+      "D": "Lambu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C. Rafi. The question is asking about the name of a letter in the Hausa alphabet, and the answer is Rafi.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_16",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "16",
+    "question": "She washed her school uniform. Fassarar wannan ita ce Ta wanke......... makaranta",
+    "options": {
+      "A": "kayan",
+      "B": "rigar",
+      "C": "jakar",
+      "D": "takalmin"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. kayan. The correct translation of the sentence \"She washed her school uniform\" in Hausa is \"Ta wanke kayan makaranta\". Here, \"kayan\" means \"uniform\" or \"clothing\", and \"makaranta\" means \"school\". So, the correct answer is A. kayan. Here's a breakdown of the translation: \"Ta\" means \"she\" \"wanke\" means \"washed\" \"kayan\" means \"uniform\" or \"clothing\" \"makaranta\" means \"school\"",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_17",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "17",
+    "question": "Ware bare dangane da jinsi.",
+    "options": {
+      "A": "Mota",
+      "B": "Fata",
+      "C": "Hula",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A. Mota. The question is asking about the name of a letter in the Hausa alphabet, and the answer is Mota.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_18",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "18",
+    "question": "Wace jimla ce ba ta d'auke da aikatau?",
+    "options": {
+      "A": "Akuya ta mutu",
+      "B": "Kande doguwa ce",
+      "C": "Malam ya tafi",
+      "D": "Binta ta haihu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is B. Kande doguwa ce. The question is asking which sentence does not have a verb (aikatau). Option B, \"Kande doguwa ce\", is a sentence that describes a state of being, but it does not contain a verb. \"Kande\" is a noun (a type of food), \"doguwa\" is an adjective (sweet), and \"ce\" is a copula (is), but there is no verb in this sentence. The other options all contain verbs: \"mutu\" (die), \"haihu\" (give birth), \"tafi\" (go), and \"karanta\" (read). Therefore, the correct answer is B. Kande doguwa ce.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_19",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "19",
+    "question": "Ware sunan da ba gama-gari ba.",
+    "options": {
+      "A": "Mutum",
+      "B": "Kungiya",
+      "C": "Kwaro",
+      "D": "Dabba"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. Mutum. The question is asking which of the options is not a common name. Mutum is a common noun meaning \"person\" in Hausa, not a proper name. The other options – Dabba, Kungiya, Kwaro, and Tsuntsu – are all proper names, making Mutum the one that is not a common name.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_20",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "20",
+    "question": "Wace jimla ce ba ta d'auke da sifa?",
+    "options": {
+      "A": "Nan-nan ya kasa kai damin dawa",
+      "B": "A.Huhu-huhu yake sayar da goronsa.",
+      "C": "Koriyar mota ta fi.",
+      "D": "Rigar da ta kone baka ce."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which sentence does not contain an adjective? Answer: A. Nan-nan ya kasa kai damin dawa (This sentence does not contain an adjective, while the other options do)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_21",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "21",
+    "question": "Fito da suna gagara-kirga",
+    "options": {
+      "A": "Yashi",
+      "B": "Garke",
+      "C": "Ayari",
+      "D": "Wando"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is B. Yashi. The question is asking which of the options is a common name (suna gagara-kirga) in Hausa culture. Yashi is a common Hausa name, while the other options – Ayari, Garke, Wando, and Zaiki – are not typically used as names in Hausa culture. Therefore, the correct answer is B. Yashi.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_22",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "22",
+    "question": "Kalmar da aka ja wa layi....... ce",
+    "options": {
+      "A": "suna",
+      "B": "sifa",
+      "C": "aikatau",
+      "D": "bayanau"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. aikatau. The question is asking which word is used to indicate possession. In Hausa, the word \"aikatau\" is used to indicate possession, similar to the word \"of\" or \"belonging to\" in English. For example, \"aikatau Audu\" means \"belonging to Audu\" or \"Audu's\". Therefore, the correct answer is A. aikatau.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_23",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "23",
+    "question": "Duk wad'annan misalam kalmomi umurtau ne in ban da.",
+    "options": {
+      "A": "kwanta",
+      "B": "d'azu",
+      "C": "tafi",
+      "D": "tashi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. d'azu. The question is asking which of the options is not an imperative (umurtau) verb. D'azu is a verb in the prohibitive form, meaning \"don't go\" or \"don't do\", whereas the other options - kwanta (lie down), tafi (go), tashi (stand up), and zauna (sit down) - are all imperative verbs, used to give commands or instructions. Therefore, the correct answer is A. d'azu, as it is the only prohibitive verb among the options.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_24",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "24",
+    "question": "Wace ce ta yi tafiya jiya Wannan jimlar........ ce.",
+    "options": {
+      "A": "tambayau",
+      "B": "korewa",
+      "C": "bayani",
+      "D": "Karfafawa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What type of sentence is \"Wace ce ta yi tafiya jiya\"? Answer: Tambayau (Tambayau means \"interrogative sentence\", which is the correct answer. Bayani is an exposition, korewa is a negation, karfafawa is an intensification, and umurtau is not a relevant term)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_25",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "25",
+    "question": "Da malalaci da mayaudari duk malalaciya ce uwarsu. Kalmomin sifa nawa ne a cikin wannan jimla?",
+    "options": {
+      "A": "Uku",
+      "B": "Biyu",
+      "C": "Biyar",
+      "D": "Hudu"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "How many adjectives are in the sentence \"Da malalaci da mayaudari duk malalaciya ce uwarsu\"? Answer: B. Uku (There are three adjectives in the sentence: malalaci, mayaudari, and malalaciya. Biyu means two, Hudu means four, Biyar means five, and Shida means six)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_26",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "26",
+    "question": "Ware bare.",
+    "options": {
+      "A": "Dogo",
+      "B": "Fari",
+      "C": "Baki",
+      "D": "Ja"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Dogo. The question is asking which of the options is not among the list of names. Dogo is a masculine name, and the other options (Baki, Fari, Ja, and Rawaya) are all feminine names. Therefore, Dogo is the one that is not among the list of feminine names.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_27",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "27",
+    "question": "Ware bare dangane da sunayen yanka.",
+    "options": {
+      "A": "Danlami",
+      "B": "Balarabe",
+      "C": "Audu",
+      "D": "Danladi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following names is not a nickname? Answer: B. Balarabe (Balarabe is a full name, while the other options - Audu, Danladi, Danlami, and Mutum - are all nicknames)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_28",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "28",
+    "question": "Mutane sun tafi da Bello\". Kalmar da aka ja wa layi na iya d'aukar",
+    "options": {
+      "A": "mu",
+      "B": "ku",
+      "C": "kai",
+      "D": "shi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is E. shi. The sentence \"Mutane sun tafi da Bello\" means \"People have gone with Bello\". The word \"shi\" is a pronoun that means \"him\" or \"it\", and it is used to indicate possession or association. In this sentence, \"shi\" is used to indicate that Bello is the one with whom the people have gone. Therefore, the correct answer is E. shi. The word \"shi\" is often used in Hausa to indicate possession or association, similar to the word \"his\" or \"him\" in English. For example: \"shi na tafi\" means \"he has gone\", and \"shi ya dauki\" means \"he took it\".",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_29",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "29",
+    "question": "The students are hardworking. Daidai yake da; daliban na da",
+    "options": {
+      "A": "hankali",
+      "B": "fushi",
+      "C": "aiki",
+      "D": "kokari"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is D. kokari. The correct translation of the sentence \"The students are hardworking\" in Hausa is \"Daliban na da kokari\". Here, \"daliban\" means \"students\", \"na da\" is a verb phrase that means \"are\" or \"have\", and \"kokari\" means \"hard work\" or \"hardworking\". So, the correct answer is D. kokari. Note: \"Kokari\" is a noun that means \"hard work\" or \"effort\", and it is often used to describe someone who is hardworking or diligent",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_30",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "30",
+    "question": "Gano jimla korau a wad'annan.",
+    "options": {
+      "A": "Ta yi zugum",
+      "B": "Kar ka zo gobe",
+      "C": "Ya zo jiya",
+      "D": "Ta iya kitso"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Identify the sentence with a subordinate clause. Answer: Kar ka zo gobe (This sentence contains a subordinate clause, while the other options do not)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_31",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "31",
+    "question": "Duk wadannan kalmomin bayanau ne in ban da",
+    "options": {
+      "A": "gobe",
+      "B": "gefe",
+      "C": "dama",
+      "D": "gida"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is C. gida. The question is asking which of the options is not an adverb (bayanau). Gida is a noun meaning \"house\" or \"home\", while the other options - dama (right), gefe (side), gobe (tomorrow), and sama (up/above) - are all adverbs in Hausa. Therefore, the correct answer is C. gida, as it is the only noun among the options.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_32",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "32",
+    "question": "\"Wata akuya baka ta haifi tagwaye\". Kalmar aikatau a wannan jimla ita ce",
+    "options": {
+      "A": "tagwaye",
+      "B": "baka",
+      "C": "akuya",
+      "D": "haifi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is C. haifi. The question is asking which word is the verb (aikatau) in the sentence. In the sentence \"Wata akuya baka ta haifi tagwaye\", \"haifi\" is the verb meaning \"gave birth\" or \"had\", while the other options - akuya (goat), baka (your), tagwaye (twins), and wata (a/she) - are all nouns or pronouns. Therefore, the correct answer is C. haifi, as it is the verb describing the action in the sentence.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_33",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "33",
+    "question": "Ware bare daga wadannan",
+    "options": {
+      "A": "Garke-garke",
+      "B": "Kungiya-Rungiya",
+      "C": "Launi-launi",
+      "D": "Ayari-ayari"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is B. Garke-garke. The question is asking which of the options is not a duplicative word. Duplicative words are words that repeat a syllable or a sequence of syllables, often to emphasize or intensify the meaning. Options A, C, D, and E are all examples of reduplicative words in Hausa, while option B, \"Garke-garke\", is not a valid word in Hausa. Therefore, the correct answer is B. Garke-garke.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_34",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "34",
+    "question": "'Fati ta dafa abinci'. Kalmar 'dafa' a wannan jimla.......ce.",
+    "options": {
+      "A": "aikatau",
+      "B": "suna",
+      "C": "sifa",
+      "D": "bayanau"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is A. aikatau. The word \"dafa\" in the sentence is a verb (aikatau), specifically a cooking verb meaning \"to cook\" or \"to prepare\". In the sentence, \"dafa\" is describing the action of cooking, which is a verb. The other options - bayanau (adverb), sifa (adjective), suna (noun), and wakilin suna (pronoun) - do not fit the context of the word \"dafa\" in the sentence. Therefore, the correct answer is A. aikatau.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_35",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "35",
+    "question": "\"Wakili ya auri wata farar yariniya.\" Kalmar da aka ja wa layi.........ce.",
+    "options": {
+      "A": "bayanau",
+      "B": "sifa",
+      "C": "suna",
+      "D": "aikatau"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The verb in the sentence \"Wakili ya auri wata farar yariniya\" is: Answer: A. aikatau (Aikatau means \"verb\", and in this sentence, the verb is \"auri\", which means \"to marry\". Bayanau is a modifier, sifa is an adjective, suna is a noun, and wakilin suna is a possessive pronoun)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_36",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "36",
+    "question": "\"Wani yaro fari ya rubuta jarabawa jiya\". Kalmar da aka ja wa layi......... ce",
+    "options": {
+      "A": "suna",
+      "B": "sifa",
+      "C": "bayanau",
+      "D": "aikatau"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C. Sifa. \"A certain white boy wrote the exam yesterday.\" The word that was described as an adjective is C. sifa. In English, the sentence would be: \"A certain white boy wrote the exam yesterday.\" The word \"sifa\" means \"adjective\" or \"descriptive word\", used to describe a noun or pronoun. In this sentence, \"fari\" (meaning \"white\") is an adjective used to describe the noun \"yaro\" (meaning \"boy\").",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_37",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "37",
+    "question": "'Audu ya fadi a rigingine'. Bayanau a nan shi ne",
+    "options": {
+      "A": "a rigingine",
+      "B": "Audu",
+      "C": "ya fadi",
+      "D": "fadi"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The modifier in the sentence \"Audu ya fadi a rigingine\" is: Answer: A. a rigingine (A rigingine is the modifier, indicating the location where the action of the verb \"fadi\" occurred. Audu is the subject, fadi means \"to fall\", and ya is an auxiliary verb)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_38",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "38",
+    "question": "Jimla mai goyo daidai take da",
+    "options": {
+      "A": "hard'ad'iya",
+      "B": "korau",
+      "C": "nufatau",
+      "D": "sassauka"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is D. sassauka. The question is asking which of the options is related to a sentence with a balanced structure. \"Sassauka\" refers to a balanced or symmetrical sentence, where the two parts of the sentence have a similar structure and balance each other out. This is often achieved through the use of parallelism, where similar grammatical structures are used in both parts of the sentence. Therefore, the correct answer is D. sassauka.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_39",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "39",
+    "question": "'Marin shi aka yi yau da rana. Wakilin suna a wannan jimla shi ne",
+    "options": {
+      "A": "da",
+      "B": "shi",
+      "C": "aka",
+      "D": "yau"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The pronoun in the sentence \"Marin shi aka yi yau da rana\" is: Answer: C. shi (Shi is the pronoun, which means \"him\" or \"it\". Aka is an auxiliary verb, da is a preposition, yau means \"yesterday\", and yi means \"to do\")",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2020_40",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2020,
+    "number": "40",
+    "question": "Sifa' a nahawu na nufin kalmar da ke karin bayani a kan",
+    "options": {
+      "A": "bayanau",
+      "B": "aikatau",
+      "C": "adadi",
+      "D": "suna."
+    },
+    "correct_answer": "",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  }
+]

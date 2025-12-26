@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "JAMB_Mathematics_2016_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "1",
+    "question": "Integrate (2x³ + 2x/x) with respect to x",
+    "options": {
+      "A": "(2x³/3) - 2x + k",
+      "B": "x³ + 2x + k",
+      "C": "(2x³/3) + 2x + k",
+      "D": "x³ - 2x + k"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "2",
+    "question": "If the mean of 4, y, 8 and 10 is 7. Find Y?",
+    "options": {
+      "A": "6",
+      "B": "10",
+      "C": "7",
+      "D": "9"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "3",
+    "question": "Find the derivative of y = ( (1/3)X + 6)²",
+    "options": {
+      "A": "2( (1/3)X + 6",
+      "B": "(2/3) ( (1/3)X + 6)",
+      "C": "(2/3) ( (1/3)X + 6) 2",
+      "D": "(1/3) ( (1/3)X + 6) 2"
+    },
+    "correct_answer": "B",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Y = ( (1/3)X + 6)²(dy/dx) = 2( (1/3)X + 6) (1/3)= (2/3) ( (1/3)X + 6)",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "4",
+    "question": "In a school of 150 students, 80 offer French while 60 offer Arabic and 20 offer neither. How many students offer both subjects?",
+    "options": {
+      "A": "45",
+      "B": "10",
+      "C": "35",
+      "D": "30"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "5",
+    "question": "If the 2nd term of a G.P is (8/9) and the 6th term is 4(1/2). Find the common ratio.",
+    "options": {
+      "A": "2",
+      "B": "(3/2)",
+      "C": "(2/3)",
+      "D": "3"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "T2 = (8/9), T6 = 4(1/2)ar = (8/9)ar5 = (9/2)(ar/ar⁵) = (8/9) x (2/9)(1/r⁴) = (16/81)r = ⁴√((18/16)) = (3/2)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "6",
+    "question": "From the diagram above, find the value of < OTQ",
+    "options": {
+      "A": "230 o",
+      "B": "55 o",
+      "C": "115 o",
+      "D": "65 o"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q6_aa4a6a74.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/28072328183_scan1.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "7",
+    "question": "The sum of the interior angles of a polygon is a given as 1080 o . Find the number of the sides of the polygon.",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "8",
+    "question": "In the diagram above, l 1 is parallel to l² , Find the value of < PMT",
+    "options": {
+      "A": "82 o",
+      "B": "36 o",
+      "C": "72 o",
+      "D": "118 o"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "o",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q8_6fe63316.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5909964084_scan2.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "9",
+    "question": "From the diagram above, Find the value of < ROP",
+    "options": {
+      "A": "110 o",
+      "B": "70 o",
+      "C": "95 o",
+      "D": "85 o"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "o",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q9_150cd7af.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/23639857168_scan3.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "10",
+    "question": "The venn diagram shows a class of 50 students with the games they play. How many students play only two games?",
+    "options": {
+      "A": "15",
+      "B": "16",
+      "C": "20",
+      "D": "18"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Number of students that plays only two games = 4 + 8 + 3 = 15",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q10_5286d553.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/20684875610_scan4.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "11",
+    "question": "If line p = 5x + 3 is parallel to line p = wx + 5. Find the value of w.",
+    "options": {
+      "A": "7",
+      "B": "3",
+      "C": "6",
+      "D": "5"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "12",
+    "question": "Evaluate ∈t(cos4x + sin3x)dx",
+    "options": {
+      "A": "sin4x - cos3x + k",
+      "B": "sin4x + cos3x + k",
+      "C": "(1/4)sin4x - (1/3)cos3x + k",
+      "D": "(1/4)sin4x + (1/3)cos3x + k"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t (4x + 3x) d x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "13",
+    "question": "If x 10 = 23 5 . Find x",
+    "options": {
+      "A": "15",
+      "B": "12",
+      "C": "14",
+      "D": "13"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "10",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "14",
+    "question": "The pie chart above shows the distribution of subjects offered by students in SSS III level. If 80 students enrolled in the class. What is the size of the angle of the sector in economics?",
+    "options": {
+      "A": "24 o",
+      "B": "39 o",
+      "C": "32 o",
+      "D": "36 o"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "o",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q14_33840295.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/26594841456_sc.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "15",
+    "question": "Calculate the range of 20, -6, 25, 30, 21, 28, 32, 33, 34, 5, 3, 2, and 1.",
+    "options": {
+      "A": "32",
+      "B": "36",
+      "C": "33",
+      "D": "40"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Range = 34 - (-6) = 34 + 6 = 40",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "16",
+    "question": "The bar chart above shows the number of visitors received in a week. How many visitors were received on Friday, Tuesday and Sunday?",
+    "options": {
+      "A": "17",
+      "B": "22",
+      "C": "20",
+      "D": "16"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q16_f4858db3.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/17729894988_s.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "17",
+    "question": "Factorize k² - 2kp + p² .",
+    "options": {
+      "A": "(k +p) 2",
+      "B": "(k - p) 2",
+      "C": "k² + p²",
+      "D": "k² - p²"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "18",
+    "question": "Calculate the perimeter of a sector of a circle of raduis 12cm and angle 60o.",
+    "options": {
+      "A": "(12 + 4π)cm",
+      "B": "(24 + 4π)cm",
+      "C": "(12 + 6π)cm",
+      "D": "(24 + 6π)cm"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Perimeter = 2r + (θ/360) x²= 2(12) + (60/360) x² x π x 12= (24 + 4π)cm",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "19",
+    "question": "{array}{c|c} Marks & 2 & 3 & 4 \\ Frequency & 4 & 4 & y array The table above shows the frequency distribution of marks obtained by a group of students. If the total mark is 48, find the value of y.",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "7",
+      "D": "5"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "20",
+    "question": "Given U = x: x is a positive integer less than 15 and P = {x: x is even number from 1 to 14}. Find the compliment of P.",
+    "options": {
+      "A": "1, 3, 5, 7, 9, 11, 13, 15",
+      "B": "2, 3, 5, 7, 9, 11, 13",
+      "C": "1, 3, 5, 7, 9, 11, 13",
+      "D": "2, 3, 5, 7, 11, 15"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "U = {1, 2, 3, 4, 5......14}P = {2, 4, 6, 8, 10, 12, 14}P' = 1, 3, 5, 7, 9, 11,13",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "21",
+    "question": "Simplify (0.026 × 0.36/0.69). Leave your answer in standard form",
+    "options": {
+      "A": "1.36 x 10⁻⁴",
+      "B": "1.36 x 10⁻³",
+      "C": "1.36 x 10⁻¹",
+      "D": "1.36 x 10⁻²"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "22",
+    "question": "A number of pencils were shared out among Bisi, Sola and Tunde in the ratio of²:3:5 respectively. If Bisi got 5, how many were shared out?",
+    "options": {
+      "A": "15",
+      "B": "25",
+      "C": "30",
+      "D": "50"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "23",
+    "question": "Calculate the perimeter of a sector of a circle of raduis 9cm and angle 36 o .",
+    "options": {
+      "A": "18cm",
+      "B": "(18 + (9π/5))cm",
+      "C": "(9 + (9π/5))cm",
+      "D": "(9π/5)cm"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "24",
+    "question": "Evaluate (27^(1/3) - 8^(2/3)/16^(2/4) × 2)",
+    "options": {
+      "A": "(23/5)",
+      "B": "-(23/5)",
+      "C": "-(1/8)",
+      "D": "(21/7)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(27^(1/3) - 8^(2/3)/16^(2/4) × 2)(27^(1/3) - 8^(2/3)/16^(2/4) × 2) = (3√(27) - 3√8²/√(16) × 2)(3 - 4/4 × 2)= (-1/8)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "25",
+    "question": "{array}{c|c} Scores & 3 & 6 & 5 & 2 \\ Frequency & 2 & 3 & 4 & 6 array From the table above, find the median",
+    "options": {
+      "A": "3",
+      "B": "5",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Listing the scores according to the number of times they occur in ascending order",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "26",
+    "question": "Find (dy/dx), if y = (2/3) x³ - (4/x)",
+    "options": {
+      "A": "3x² - (4/x)",
+      "B": "2x² +(4/x²)",
+      "C": "3x² + (4/x²)",
+      "D": "2x² - (4/x)"
+    },
+    "correct_answer": "B",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = (2/3)x³ - (4/x)(dy/dx) = 2x² - (-4)x⁻² = 2x² + (4/x²)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "27",
+    "question": "Evaluate (0.8 × 0.43 × 0.031/0.05 × 0.72 × 0.021). Correct to four significant figures.",
+    "options": {
+      "A": "14.09",
+      "B": "14.1",
+      "C": "14.12",
+      "D": "14.11"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "28",
+    "question": "An arc subtends an angle of 30º at the centre of a circle radius 12cm. Calculate the length of the arc.",
+    "options": {
+      "A": "6",
+      "B": "2",
+      "C": "3",
+      "D": "9"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Length or arc = (θ/360) x²= (30/360) x² x (22/7) x 12= (1/12) x² x π x 12 = 2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "29",
+    "question": "Evaluate ∈t₀^(π/2) sin xdx",
+    "options": {
+      "A": "2",
+      "B": "-1",
+      "C": "1",
+      "D": "-2"
+    },
+    "correct_answer": "C",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "xdx",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "30",
+    "question": "An arc of the length 16subtends an angle of 80 o at the centre of the circle. Find the radius of the circle.",
+    "options": {
+      "A": "24cm",
+      "B": "28cm",
+      "C": "36cm",
+      "D": "32cm"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "31",
+    "question": "The mean of²-t, 4+t, 3-2t, 2+t and t-1 is",
+    "options": {
+      "A": "2",
+      "B": "t",
+      "C": "-t",
+      "D": "-2"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "32",
+    "question": "Evaluate (12.02 × 20.06/26.04 × 60.06), correct to three significant figures.",
+    "options": {
+      "A": "0.157",
+      "B": "0.154",
+      "C": "0.155",
+      "D": "0.158"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "33",
+    "question": "If y = 2x³ + 6x² + 6x + 1, Find (dy/dx)",
+    "options": {
+      "A": "6x² + 12x + 1",
+      "B": "6x² + 6x + 1",
+      "C": "6x² + 6x + 6",
+      "D": "6x² + 12x + 6"
+    },
+    "correct_answer": "D",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "34",
+    "question": "The nth term of the sequence³, 9, 27, 81.....is",
+    "options": {
+      "A": "3 x³ n-2",
+      "B": "3 x³ n-1",
+      "C": "3 x³ n+2",
+      "D": "3 x³ n+1"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "35",
+    "question": "Simplify 1 - ((1/7) x³ (1/2)) ÷ (3/4)",
+    "options": {
+      "A": "2",
+      "B": "(1/3)",
+      "C": "1",
+      "D": "(2/3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "36",
+    "question": "If a car travels 120km on 45 litres of petrol, how much petrol is needed for a journey of 600km?",
+    "options": {
+      "A": "720 litres",
+      "B": "160 litres",
+      "C": "225 litres",
+      "D": "960 litres"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "37",
+    "question": "Find (dy/dx). If y = 3x³ + 2x² + 3x + 1",
+    "options": {
+      "A": "9x² + 4x + 3",
+      "B": "9x² - 4x - 3",
+      "C": "9x² + 4x - 3",
+      "D": "9x² - 4x + 3"
+    },
+    "correct_answer": "A",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "38",
+    "question": "Evaluate ∈t(sinx - 5x² )dx",
+    "options": {
+      "A": "-cosx - 10x + k",
+      "B": "cosx - (5x³/3) + k",
+      "C": "-cosx - (5x³/3) + k",
+      "D": "cosx - 10x + k"
+    },
+    "correct_answer": "C",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(sin x - 5x²)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "39",
+    "question": "If N = (p/2)((T₁ - T₂/T₁)). Find P when N = 12, T 1 = 27 and T² = 24.",
+    "options": {
+      "A": "48",
+      "B": "108",
+      "C": "54",
+      "D": "216"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "40",
+    "question": "Solve for x and y respectively 3x - 5y = 9 6x - 4y = 12",
+    "options": {
+      "A": "(3/4), 1",
+      "B": "(4/3), 1",
+      "C": "(3/4),⁻¹",
+      "D": "(4/3),⁻¹"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "41",
+    "question": "If Q is a factor of 18 and T is prime numbers between² and 18. What is Q∩T?",
+    "options": {
+      "A": "(2,3)",
+      "B": "(2,3,18)",
+      "C": "(2,3,9)",
+      "D": "(2,3,6)"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "42",
+    "question": "From the cyclic quadrilateral above, find < TSV",
+    "options": {
+      "A": "60 o",
+      "B": "80 o",
+      "C": "70 o",
+      "D": "50 o"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "< TVS = 180o - (80 + 20)= 180 - 100 = 80o",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q42_1782053a.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/4432475094_sss.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "43",
+    "question": "Find the mean of 10, 8, 5, 11, 12, 9, 6, 3, 15, and 23.",
+    "options": {
+      "A": "11.2",
+      "B": "10",
+      "C": "10.2",
+      "D": "11.3"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "44",
+    "question": "In the cyclic quadrilateral above . Find < PRO",
+    "options": {
+      "A": "70 o",
+      "B": "20 o",
+      "C": "50 o",
+      "D": "30 o"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "< PRO = 180° - (110 + 50)°= 180 - 160 = 20°",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q44_6be07e1e.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/29549828100_sxxx.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "45",
+    "question": "OGIVE is constructed using",
+    "options": {
+      "A": "Third quartile range",
+      "B": "Semi-quartile range",
+      "C": "Cummulative frequency table",
+      "D": "Inter-quartile table"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An ogive is constructed using the cumulative frequencies from a frequency distribution table.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "46",
+    "question": "Rationalize (√6 - √4/√6 + √4)",
+    "options": {
+      "A": "5 + 2 √6",
+      "B": "5 - 4 √6",
+      "C": "5 + 4 √6",
+      "D": "5 - 2 √6"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "47",
+    "question": "The bar chart above shows the marks obtained by students in a mathematics test. How many students in all took the test?",
+    "options": {
+      "A": "40",
+      "B": "30",
+      "C": "10",
+      "D": "20"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q47_3e8b65a0.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/22162371750_scc.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "48",
+    "question": "Determine the mean score of the student that took the mathematics test?",
+    "options": {
+      "A": "4.5",
+      "B": "4.3",
+      "C": "4.2",
+      "D": "4.6"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q48_1ac4bf6c.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/28072338215_scc.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_49",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "49",
+    "question": "From the diagram above. Find the fraction of the shaded position?",
+    "options": {
+      "A": "(1/3)",
+      "B": "(1/5)",
+      "C": "(1/4)",
+      "D": "(1/6)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "o",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q49_429f2c30.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/10345476470_sa.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2016_50",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2016,
+    "number": "50",
+    "question": "From the diagram above, find the required roots/region of x.",
+    "options": {
+      "A": "x≤-1, x ≥4",
+      "B": "x≤4",
+      "C": "-1≤x≤4",
+      "D": "x≤-1, o≤x≤4"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The required roots/region of x is⁻¹≤x≤4",
+    "images": [
+      {
+        "filename": "Mathematics_2016_q50_981f0478.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/n0KA2TSHjeFX5nQRhIDeQcpS411KLjMwCjfgKS9W.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

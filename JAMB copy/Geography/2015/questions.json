@@ -1,0 +1,1963 @@
+[
+  {
+    "id": "JAMB_Geography_2015_1",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "1",
+    "question": "The following are natural resources except",
+    "options": {
+      "A": "rubber",
+      "B": "soil",
+      "C": "water",
+      "D": "cellphane"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_2",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "2",
+    "question": "all these are examples of fold mountains except",
+    "options": {
+      "A": "Himalayas",
+      "B": "Rockies",
+      "C": "Andes",
+      "D": "Voges Mountain"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_3",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "3",
+    "question": "All the following are fertile plains except",
+    "options": {
+      "A": "loess plains",
+      "B": "alluvial plains",
+      "C": "erosional plains",
+      "D": "flood plain"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_4",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "4",
+    "question": "The current world population is estimated at about",
+    "options": {
+      "A": "2.0 billion",
+      "B": "7.0 billion",
+      "C": "6 .0 billion",
+      "D": "4.0 billion"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_5",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "5",
+    "question": "soil factor in an ecosystem are referred to as -----",
+    "options": {
+      "A": "topographic",
+      "B": "climatic",
+      "C": "biotic",
+      "D": "edaphic"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_6",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "6",
+    "question": "All of these are the processes of chemical weathering except",
+    "options": {
+      "A": "solution",
+      "B": "oxidation",
+      "C": "alternating of wet and dry land",
+      "D": "carbonation"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Geography_2015_7",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "7",
+    "question": "the axis of the earth is inclined at plane of the ecliptic at angle of",
+    "options": {
+      "A": "66°",
+      "B": "23°",
+      "C": "90°",
+      "D": "180°"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_8",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "8",
+    "question": "west Africa is located between latitudes-----------and --------------of the equator",
+    "options": {
+      "A": "4 0 N and 20 0 N",
+      "B": "3 0 N and 15 0 N",
+      "C": "2 0 N and 10 0 N",
+      "D": "10 0 N and 15 0 N"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "0",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_9",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "9",
+    "question": "All the following crops involve in the plantation agriculture except",
+    "options": {
+      "A": "rubber",
+      "B": "wheat",
+      "C": "cocoa",
+      "D": "Howbell"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_10",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "10",
+    "question": "in a food chain, the position occupied by an organism is called",
+    "options": {
+      "A": "the tropic level",
+      "B": "energy level",
+      "C": "the feeding level",
+      "D": "the habitat level"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_11",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "11",
+    "question": "Tropical rain forest can be conserved by the following practices except",
+    "options": {
+      "A": "agroforestry",
+      "B": "deforestation",
+      "C": "shifting",
+      "D": "crop rotation"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_12",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "12",
+    "question": "population growth rate may be define as the",
+    "options": {
+      "A": "mortality rate per unit area over a period",
+      "B": "number of times an organism occurs with a given period",
+      "C": "number of particular species per units area",
+      "D": "net rate of mortality rate per unit area over a period"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_13",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "13",
+    "question": "tall trees with buttress root are associated with -----------",
+    "options": {
+      "A": "rain forest",
+      "B": "guinea savanna",
+      "C": "Sudan savanna",
+      "D": "Sahel savanna"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_14",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "14",
+    "question": "Which of the following resources is renewable",
+    "options": {
+      "A": "livestock",
+      "B": "mineral",
+      "C": "forest",
+      "D": "soil"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_15",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "15",
+    "question": "The solar system comprises the sun and it’s ----------",
+    "options": {
+      "A": "seven planets",
+      "B": "eight planets",
+      "C": "nine planets",
+      "D": "six planet"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_16",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "16",
+    "question": "On September 23rd, all towns or cities in the northern hemisphere can never experience",
+    "options": {
+      "A": "equal length of day and night",
+      "B": "complete daylight",
+      "C": "longer nights and shorter nights",
+      "D": "longer days and shorter nights"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_17",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "17",
+    "question": "Density,mortality, birth rate are factors that affect",
+    "options": {
+      "A": "population",
+      "B": "dominance",
+      "C": "cover",
+      "D": "habitat"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_18",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "18",
+    "question": "The predominant systems of agriculture among rural farmers in Nigeria is",
+    "options": {
+      "A": "terrace farming",
+      "B": "irrigation farming",
+      "C": "plantation agriculture",
+      "D": "bush fallowing"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_19",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "19",
+    "question": "What type of mountain is associated with syncline?",
+    "options": {
+      "A": "Block mountain",
+      "B": "fold mountain",
+      "C": "volcanic mountain",
+      "D": "residual mountain"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_20",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "20",
+    "question": "the instrument used for measuring the intensity of an earthquake is called",
+    "options": {
+      "A": "Epicenter",
+      "B": "Ismograph",
+      "C": "thermometer",
+      "D": "seismograph"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_21",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "21",
+    "question": "All of these are major industrial zones in Nigeria except",
+    "options": {
+      "A": "the western industrial zones",
+      "B": "the south east industrial zone",
+      "C": "the north central industrial zone",
+      "D": "the south/south industrial zone"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_22",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "22",
+    "question": "lines of longitude can be best be described as",
+    "options": {
+      "A": "imaginary line on the earth’s surface joining the north and the south pole",
+      "B": "the distance of a place east or west of Greenwich meridian",
+      "C": "the angular distance of a place north or south of the equator",
+      "D": "great circles number from 0 to 90"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_23",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "23",
+    "question": "The planet with rings of circular light dark bands is called",
+    "options": {
+      "A": "mercury",
+      "B": "Neptune",
+      "C": "Jupiter",
+      "D": "Mars."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_24",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "24",
+    "question": "-----------is the largest river in Nigeria",
+    "options": {
+      "A": "River Niger",
+      "B": "River Benue",
+      "C": "River Ogun",
+      "D": "River Osun"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_25",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "25",
+    "question": "All these are ways of representing relief on maps",
+    "options": {
+      "A": "contour",
+      "B": "form lines",
+      "C": "dot map",
+      "D": "hachures"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_26",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "26",
+    "question": "-------------is the longest river in West Africa",
+    "options": {
+      "A": "river Benue",
+      "B": "river Niger",
+      "C": "river Volta",
+      "D": "river Senegal"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_27",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "27",
+    "question": "Which of the following is not a way of conserving natural resources?",
+    "options": {
+      "A": "adopting good farming practices",
+      "B": "establishing forest reserves",
+      "C": "establishing game reserves",
+      "D": "encouraging poaching"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_28",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "28",
+    "question": "-------------is the movement of weathered materials under the force of gravity",
+    "options": {
+      "A": "weathering",
+      "B": "mass movement",
+      "C": "catastrophe",
+      "D": "mountains"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_29",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "29",
+    "question": "An intrusion of magma along a bedding plane is called",
+    "options": {
+      "A": "batholith",
+      "B": "dyke",
+      "C": "lava plain",
+      "D": "sill"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_30",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "30",
+    "question": "in the southern hemisphere, the autumnal equinox occurs on",
+    "options": {
+      "A": "21st March",
+      "B": "23rd September",
+      "C": "22nd December",
+      "D": "21st June"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_31",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "31",
+    "question": "The satellite of the earth is",
+    "options": {
+      "A": "the sun",
+      "B": "the moon",
+      "C": "mars",
+      "D": "Saturn"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_32",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "32",
+    "question": "the following are the effect of overgrazing except",
+    "options": {
+      "A": "completion of useful folder crops",
+      "B": "soil and wind erosion of pasture land",
+      "C": "epidemic of cattle diseases",
+      "D": "scarcity of good pasture land."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_33",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "33",
+    "question": "Sharp, slender, and downward growing pinnacles in underground limestone is called",
+    "options": {
+      "A": "limestone george",
+      "B": "uvala",
+      "C": "polje",
+      "D": "stalactites"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_34",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "34",
+    "question": "--------------- is referred to as landlocked country",
+    "options": {
+      "A": "Burkina Faso",
+      "B": "Guinea",
+      "C": "Nigeria",
+      "D": "Ghana"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_35",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "35",
+    "question": "The most important cash crops in the irrigated Nile Basin is",
+    "options": {
+      "A": "cotton",
+      "B": "millet",
+      "C": "sugarcane",
+      "D": "groundnut"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_36",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "36",
+    "question": "The density of sial is -----------------",
+    "options": {
+      "A": "2",
+      "B": "2.7",
+      "C": "3",
+      "D": "5"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_37",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "37",
+    "question": "the angular distance of a point on the earth’s surface measured in degrees from the Centre of the earth is known as",
+    "options": {
+      "A": "orbit",
+      "B": "latitude",
+      "C": "axis",
+      "D": "longitude"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_38",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "38",
+    "question": "Desert is found where?",
+    "options": {
+      "A": "Southern coast",
+      "B": "northern Mali",
+      "C": "northern Nigeria",
+      "D": "Senegal"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_39",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "39",
+    "question": "All of these are elements of weather and climate except",
+    "options": {
+      "A": "temperature",
+      "B": "altitude",
+      "C": "Rainfall",
+      "D": "sunshine"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_40",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "40",
+    "question": "------------- is one of the reasons of high population density",
+    "options": {
+      "A": "fertile soil",
+      "B": "unemployment",
+      "C": "unfavorable climate",
+      "D": "presence of some insects."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_41",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "41",
+    "question": "a given map is enlarged 3 times its original size which is 1;150,000 what will be the new scale?",
+    "options": {
+      "A": "1 : 50,000",
+      "B": "1 : 75,000",
+      "C": "1 : 100,000",
+      "D": "1 : 450,000"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_42",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "42",
+    "question": "Which of the following is not a biotic factor",
+    "options": {
+      "A": "parasite",
+      "B": "predator",
+      "C": "grazer",
+      "D": "pressure"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_43",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "43",
+    "question": "water pollution is caused by all the following except",
+    "options": {
+      "A": "increased silt load",
+      "B": "sewage deposit",
+      "C": "sand filling",
+      "D": "industrial effluent"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_44",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "44",
+    "question": "Which of the following represents the correct sequences in which denudation occurs?",
+    "options": {
+      "A": "Weathering –deposition-erosion",
+      "B": "weathering –erosion –deposition",
+      "C": "erosion –weathering –deposition",
+      "D": "deposition -erosion – weathering"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_45",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "45",
+    "question": "Because of its shape, the earth is best described as a",
+    "options": {
+      "A": "Gerald",
+      "B": "geosphere",
+      "C": "sphere",
+      "D": "circle"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A is correct; the shape of the earth is spherical, but it is better be described as geoid meaning the shape of the earth.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_46",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "46",
+    "question": "The following are abiotic components of the ecosystem except",
+    "options": {
+      "A": "bacteria",
+      "B": "topography",
+      "C": "water",
+      "D": "wind"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_47",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "47",
+    "question": "Which of the following human activities has a beneficial effect on soil",
+    "options": {
+      "A": "grazing",
+      "B": "strip-cultivation",
+      "C": "bush burning",
+      "D": "over-cropping"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_48",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "48",
+    "question": "the degree of saltiness or concentration of salt solution in oceans or seas is referred to as -----",
+    "options": {
+      "A": "ocean deep",
+      "B": "ocean ridge",
+      "C": "deep sea plain",
+      "D": "salinity of the ocean"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_49",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "49",
+    "question": "Stratified rocks are",
+    "options": {
+      "A": "metamorphic rock",
+      "B": "plutonic rocks",
+      "C": "igneous rock",
+      "D": "sedimentary rocks"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_50",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "50",
+    "question": "which of the following is not important in defining soil .",
+    "options": {
+      "A": "color",
+      "B": "capillary",
+      "C": "permeability",
+      "D": "texture"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_51",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "51",
+    "question": "The area around the earth where life activities go on is referred to as -------",
+    "options": {
+      "A": "biosphere",
+      "B": "lithosphere",
+      "C": "habitat",
+      "D": "ecosystem"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_52",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "52",
+    "question": "Nigeria is in ------ Africa",
+    "options": {
+      "A": "east",
+      "B": "north",
+      "C": "west",
+      "D": "south"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_53",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "53",
+    "question": "The type of transport that is mostly affected by climatic condition is",
+    "options": {
+      "A": "land transport",
+      "B": "water transport",
+      "C": "road transport",
+      "D": "air transport"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_54",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "54",
+    "question": "a great circle can best be described as",
+    "options": {
+      "A": "a circle whose plane passes through Centre of the globe.",
+      "B": "a line of longitude",
+      "C": "the equator",
+      "D": "the shortest distance between two point"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_55",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "55",
+    "question": "earthquake that destroyed about 30,000 people in Turkey happened in the year",
+    "options": {
+      "A": "1755",
+      "B": "1906",
+      "C": "1920",
+      "D": "2003"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_56",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "56",
+    "question": "The longitudinal extent of Nigeria is",
+    "options": {
+      "A": "0 0",
+      "B": "11 0",
+      "C": "20 0",
+      "D": "12 0"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "0",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_57",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "57",
+    "question": "The liquid portion of the earth’s crust is called",
+    "options": {
+      "A": "biosphere",
+      "B": "hydrosphere",
+      "C": "mesosphere",
+      "D": "atmosphere"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_58",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "58",
+    "question": "In which of the following areas is fruit farming least important",
+    "options": {
+      "A": "Morocco",
+      "B": "Egypt",
+      "C": "Algeria",
+      "D": "Uganda"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_59",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "59",
+    "question": "The busiest canal in the world is",
+    "options": {
+      "A": "Suez canal",
+      "B": "Panama Canal",
+      "C": "the North Pacific Route",
+      "D": "Cape Route"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_60",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "60",
+    "question": "the most urbanized parts of Nigeria is",
+    "options": {
+      "A": "North/central",
+      "B": "north/east",
+      "C": "south/west",
+      "D": "south/south"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_61",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "61",
+    "question": "All these are the characteristic Nigerian rivers except",
+    "options": {
+      "A": "seasonal flooding",
+      "B": "development of rapids and cataracts",
+      "C": "shallowness",
+      "D": "presence of misfit"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_62",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "62",
+    "question": "All the following are forms of subsistence farming in west Africa except",
+    "options": {
+      "A": "rotational bush farming",
+      "B": "permanent cultivation",
+      "C": "plantation agriculture",
+      "D": "mixed farming"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_63",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "63",
+    "question": "Desert plants are usually called",
+    "options": {
+      "A": "hydrophytes",
+      "B": "mesophytes",
+      "C": "xerophytes",
+      "D": "sporophytes"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_64",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "64",
+    "question": "very low animal rainfall, sparse vegetation, high day temperature and cold nights are the characteristics of the ---------",
+    "options": {
+      "A": "a swamp",
+      "B": "tropical forest",
+      "C": "southern guinea savanna",
+      "D": "desert"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_65",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "65",
+    "question": "----------- is a type of mass movement or mass wasting",
+    "options": {
+      "A": "steep slope",
+      "B": "landslides",
+      "C": "hills",
+      "D": "tableland"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_66",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "66",
+    "question": "the method of mining crude method oil is",
+    "options": {
+      "A": "open cast",
+      "B": "underground method",
+      "C": "shaft method",
+      "D": "drilling method"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_67",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "67",
+    "question": "---------- is the instrument used in the measurement of rainfall",
+    "options": {
+      "A": "rainguage",
+      "B": "thermometer",
+      "C": "hydrometer",
+      "D": "barometer"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_68",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "68",
+    "question": "The factors which determine the type of vegetation a particular habitat will support are related to the following except",
+    "options": {
+      "A": "nature of the soil particles",
+      "B": "amount of rainfall",
+      "C": "farming activities",
+      "D": "depth of the water-table"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_69",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "69",
+    "question": "-------- refers to water bodies like rivers, and lakes",
+    "options": {
+      "A": "canal",
+      "B": "ditch",
+      "C": "Drainage",
+      "D": "ocean"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_70",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "70",
+    "question": "All the following are important timber producing countries in Africa except",
+    "options": {
+      "A": "Ghana",
+      "B": "Cote d’lvorie",
+      "C": "Nigeria",
+      "D": "Mauritania."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_71",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "71",
+    "question": "All of these are the features of lower course of a River except",
+    "options": {
+      "A": "flood plain",
+      "B": "V shaped valley",
+      "C": "levees",
+      "D": "ox-box lake"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_72",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "72",
+    "question": "The point at which the shock originates is called",
+    "options": {
+      "A": "focus",
+      "B": "vent",
+      "C": "caldera",
+      "D": "crater"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_73",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "73",
+    "question": "Density,mortality, birth rate are factors that affect",
+    "options": {
+      "A": "population",
+      "B": "dominance",
+      "C": "cover",
+      "D": "habitat"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_74",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "74",
+    "question": "A spring is an outlet for",
+    "options": {
+      "A": "streams in karst region",
+      "B": "rain water",
+      "C": "underground water in limestone",
+      "D": "rivers"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_75",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "75",
+    "question": "loam is the best type of soil for crop production because",
+    "options": {
+      "A": "it has a high percentage of clay which prevents leaching",
+      "B": "it has a high humus content retention capacity",
+      "C": "porous and has good water retention capacity.",
+      "D": "gravels which obstruct implements are absent from it."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_76",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "76",
+    "question": "Which of the following planets has no satellite",
+    "options": {
+      "A": "Venus",
+      "B": "Uranus",
+      "C": "Neptune",
+      "D": "Jupiter"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_77",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "77",
+    "question": "when it is 9:00am in Munich, Western Germany (longitude 11 0 E) the time in Calcutta India (longitude 96 0 E) is",
+    "options": {
+      "A": "4:20am",
+      "B": "2:40am",
+      "C": "2:40pm",
+      "D": "5:40pm"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_78",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "78",
+    "question": "which of the following statement is not true about the solar system",
+    "options": {
+      "A": "the ray of the sun gives energy to the system",
+      "B": "all the planet rotate round the sun",
+      "C": "the planets revolve around the sun",
+      "D": "the sun is at the Centre of the system"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Geography_2015_79",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "79",
+    "question": "The earth’s movement from west to east on its own axis is known as",
+    "options": {
+      "A": "friction",
+      "B": "revolution",
+      "C": "gravitation",
+      "D": "rotation"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_80",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "80",
+    "question": "which of the following instruments is used to measure wind Speed",
+    "options": {
+      "A": "thermometer",
+      "B": "barometer",
+      "C": "hygrometer",
+      "D": "anemometer"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Geography_2015_81",
+    "exam": "JAMB",
+    "subject": "Geography",
+    "year": 2015,
+    "number": "81",
+    "question": "All these are the examples of urban settlement except",
+    "options": {
+      "A": "towns",
+      "B": "village",
+      "C": "conurbation",
+      "D": "megalopolis."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

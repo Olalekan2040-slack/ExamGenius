@@ -1,0 +1,2009 @@
+[
+  {
+    "id": "JAMB_Chemistry_2023_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "1",
+    "question": "What happens to the position of equilibrium, if a reversible exothermic reaction is subjected to a decrease in temperature?",
+    "options": {
+      "A": "The position of equilibrium shifts to the left",
+      "B": "The position of equilibrium shifts to the right.",
+      "C": "The position of equilibrium remains unchanged",
+      "D": "The reaction stops"
+    },
+    "correct_answer": "B",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "2",
+    "question": "Which noble gas is radioactive and is produced as a decay product of uranium and thorium?",
+    "options": {
+      "A": "Argon",
+      "B": "Krypton",
+      "C": "Radon",
+      "D": "Neon"
+    },
+    "correct_answer": "C",
+    "topic": "5. Air",
+    "subtopic": "Noble gases and their uses",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "3",
+    "question": "Which of the following reactions would be expected to have the highest entropy change?",
+    "options": {
+      "A": "Liquid → Gas",
+      "B": "Solid → Liquid",
+      "C": "Gas → Liquid",
+      "D": "Gas → Solid"
+    },
+    "correct_answer": "A",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "4",
+    "question": "What is the sum of the oxidation numbers in a neutral compound?",
+    "options": {
+      "A": "+2",
+      "B": "-1",
+      "C": "0",
+      "D": "+1"
+    },
+    "correct_answer": "C",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidation numbers",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "5",
+    "question": "According to the kinetic theory of gases, the pressure exerted by a gas is due to",
+    "options": {
+      "A": "The vibrations of gas particles.",
+      "B": "The weight of the gas particles",
+      "C": "The attractive forces between gas particles",
+      "D": "The collisions of gas particles with the container walls"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "6",
+    "question": "What is eutrophication?",
+    "options": {
+      "A": "The release of harmful chemicals into water bodies",
+      "B": "The excessive growth of algae due to nutrient enrichment",
+      "C": "The presence of heavy metals in water",
+      "D": "The formation of oil slicks on water surfaces"
+    },
+    "correct_answer": "B",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "7",
+    "question": "What is the name of the process by which ammonia is produced on an industrial scale?",
+    "options": {
+      "A": "Nitrogenation",
+      "B": "Ammoniation",
+      "C": "Nitrification",
+      "D": "Haber process"
+    },
+    "correct_answer": "D",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "8",
+    "question": "Who proposed the planetary model of the atom with electrons orbiting the nucleus?",
+    "options": {
+      "A": "Erwin Schrödinger",
+      "B": "Ernest Rutherford",
+      "C": "Niels Bohr",
+      "D": "J.J. Thomson"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "9",
+    "question": "Which of the following is an example of an endothermic reaction?",
+    "options": {
+      "A": "Combustion of propane (C₃H₈) to produce carbon dioxide (CO₂) and water (H₂O).",
+      "B": "Burning of methane (CH₄) in the presence of oxygen",
+      "C": "Formation of table salt (NaCl) from sodium (Na) and chlorine (Cl₂).",
+      "D": "Decomposition of hydrogen peroxide (H₂O₂) into water (H₂O) and oxygen (O₂)."
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "10",
+    "question": "What happens to the value of the equilibrium constant (Kc) for a reaction if the reaction is reversed?",
+    "options": {
+      "A": "It becomes zero",
+      "B": "It becomes negative",
+      "C": "It remains the same",
+      "D": "It becomes the reciprocal of the original value"
+    },
+    "correct_answer": "D",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Equilibrium constant",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "11",
+    "question": "What is the chemical structure of soap and detergent molecules?",
+    "options": {
+      "A": "Hydrophilic head and hydrophobic tail",
+      "B": "Hydrophilic head and hydrophilic tail",
+      "C": "Hydrophobic head and hydrophobic tail",
+      "D": "Hydrophilic tail and hydrophobic head"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Esters and fats",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "12",
+    "question": "What is the solubility product constant (Ksp) used for?",
+    "options": {
+      "A": "To measure the total mass of a solute that can dissolve in a solvent",
+      "B": "To determine the concentration of a solute in a saturated solution",
+      "C": "To calculate the solubility of a solute in a given solvent",
+      "D": "To compare the solubilities of different solutes in the same solvent"
+    },
+    "correct_answer": "B",
+    "topic": "7. Solubility",
+    "subtopic": "Solubility curves",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "13",
+    "question": "Which trace gas in the atmosphere plays a significant role in the greenhouse effect?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Argon",
+      "C": "Carbon dioxide",
+      "D": "Nitrogen"
+    },
+    "correct_answer": "C",
+    "topic": "5. Air",
+    "subtopic": "Composition of air",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "14",
+    "question": "Which of the following methods can be used to remove temporary hardness from water?",
+    "options": {
+      "A": "Boiling",
+      "B": "Filtration",
+      "C": "sedimentation",
+      "D": "Chlorination"
+    },
+    "correct_answer": "A",
+    "topic": "6. Water",
+    "subtopic": "Hard and soft water",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "15",
+    "question": "What is Faraday's constant?",
+    "options": {
+      "A": "6.022 x 10²³ mol⁻¹",
+      "B": "3.00 x 10⁸ m/s",
+      "C": "9.81 m/s²",
+      "D": "96,485 C/mol"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "16",
+    "question": "A gas occupies a volume of 1.5 liters at a pressure of² atmospheres. If the pressure is increased to 4 atmospheres while the temperature remains constant, what will be the new volume of the gas?",
+    "options": {
+      "A": "6 liters",
+      "B": "1.5 liters",
+      "C": "0.75 liters",
+      "D": "3 liters"
+    },
+    "correct_answer": "C",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "17",
+    "question": "Stainless steel is an alloy made up of",
+    "options": {
+      "A": "Iron and zinc",
+      "B": "Copper and tin",
+      "C": "Iron and chromium",
+      "D": "Iron and carbon"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alloys",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "18",
+    "question": "What is the state of matter in which particles are widely spaced and move freely with high kinetic energy?",
+    "options": {
+      "A": "Liquid",
+      "B": "Solid",
+      "C": "Plasma",
+      "D": "Gas"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "19",
+    "question": "Identify the reducing agent in the following reaction: Zn + CuSO₄ → ZnSO₄ + Cu",
+    "options": {
+      "A": "Cu",
+      "B": "Zn",
+      "C": "ZnSO₄",
+      "D": "CuSO₄"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "20",
+    "question": "Balance the following redox reaction: Fe₂O₃ + CO → Fe + CO₂",
+    "options": {
+      "A": "Fe₂O₃ + CO → 2Fe + 2CO₂",
+      "B": "2Fe₂O₃ + 3CO → 4Fe + 3CO₂",
+      "C": "Fe₂O₃ + 2CO → 2Fe + 2CO₂",
+      "D": "Fe₂O₃ + 3CO → 2Fe + 3CO₂"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "21",
+    "question": "What is the trend for ionization energy across a period in the periodic table?",
+    "options": {
+      "A": "Increases from left to right.",
+      "B": "Remains constant",
+      "C": "Varies randomly",
+      "D": "Decreases from left to right"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "22",
+    "question": "Which type of chemical combination involves the transfer of electrons from one atom to another, resulting in the formation of oppositely charged ions?",
+    "options": {
+      "A": "Ionic bonding",
+      "B": "Hydrogen bonding",
+      "C": "Covalent bonding",
+      "D": "Metallic bonding"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "23",
+    "question": "Which of the following alkanes has a straight-chain structure?",
+    "options": {
+      "A": "Cyclopentane (C5H10)",
+      "B": "Isobutane (C4H10)",
+      "C": "2 - methyl propane (C4H10)",
+      "D": "Pentane (C5H12)"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "24",
+    "question": "What is the product of the electrolysis of aqueous sodium chloride (NaCl) using inert electrodes?",
+    "options": {
+      "A": "Hydrogen gas at the cathode and chlorine gas at the anode",
+      "B": "Hydrogen gas at the cathode and oxygen gas at the anode",
+      "C": "Sodium metal at the cathode and chlorine gas at the anode",
+      "D": "Sodium metal at the cathode and oxygen gas at the anode"
+    },
+    "correct_answer": "B",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrolysis of solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "25",
+    "question": "When an acidic solution is diluted, what happens to its pH?",
+    "options": {
+      "A": "It depends on the specific acid",
+      "B": "It decreases",
+      "C": "It remains the same",
+      "D": "It increases"
+    },
+    "correct_answer": "D",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Acid-base titration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "26",
+    "question": "Which of the following factors does NOT affect the rate of a chemical reaction?",
+    "options": {
+      "A": "Concentration of reactants",
+      "B": "Presence of a catalyst",
+      "C": "Molecular weight of products",
+      "D": "Temperature"
+    },
+    "correct_answer": "C",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "27",
+    "question": "Which organic compound is responsible for the characteristic aroma of fruits?",
+    "options": {
+      "A": "Alkane",
+      "B": "Alkyne",
+      "C": "Ester",
+      "D": "Amine"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "28",
+    "question": "What is the molar mass of water (H₂O)?",
+    "options": {
+      "A": "18 g/mol",
+      "B": "22 g/mol",
+      "C": "16 g/mol",
+      "D": "12 g/mol"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "29",
+    "question": "What is the chemical formula of rust, which is formed on the surface of iron in the presence of oxygen and moisture?",
+    "options": {
+      "A": "Fe₃O₄",
+      "B": "FeO",
+      "C": "Fe(OH)3",
+      "D": "Fe₂O₃"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "30",
+    "question": "How many pi (π) bonds are there in an alkene with six carbon atoms?",
+    "options": {
+      "A": "1",
+      "B": "6",
+      "C": "5",
+      "D": "3"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkenes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "31",
+    "question": "What is the principal ore of iron, from which iron is extracted?",
+    "options": {
+      "A": "Calcite",
+      "B": "Bauxite",
+      "C": "Magnetite",
+      "D": "Hematite"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "32",
+    "question": "Which group does calcium belong to in the periodic table?",
+    "options": {
+      "A": "Alkaline earth metals",
+      "B": "Halogens",
+      "C": "Alkali metals",
+      "D": "Noble gases"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "33",
+    "question": "Which of the following is a primary constituent of crude oil?",
+    "options": {
+      "A": "Pentane",
+      "B": "Ethanol",
+      "C": "Heptane",
+      "D": "Methane"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Petroleum and petrochemicals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "34",
+    "question": "What is the main source of carbon monoxide (CO) in urban areas?",
+    "options": {
+      "A": "Volcanic eruptions",
+      "B": "Vehicle emissions",
+      "C": "Forest fires",
+      "D": "Industrial processes"
+    },
+    "correct_answer": "B",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Chemical industries",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "35",
+    "question": "What is the empirical formula of a compound containing 40.00% carbon, 6.67% hydrogen, and 53.33% oxygen by mass?",
+    "options": {
+      "A": "C₄H₈O₄",
+      "B": "CH₂O",
+      "C": "C₂H₄O₂",
+      "D": "C₃H₆O₃"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "36",
+    "question": "Which separation technique is used to separate different pigments in a mixture based on their affinity for a stationary phase and a mobile phase?",
+    "options": {
+      "A": "Chromatography",
+      "B": "Filtration",
+      "C": "Decantation",
+      "D": "Distillation"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Separation techniques (distillation, filtration, chromatography)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "37",
+    "question": "What is the common name for ethanoic acid?",
+    "options": {
+      "A": "Acetic acid",
+      "B": "Butyric acid",
+      "C": "Propionic acid",
+      "D": "Formic acid"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanoic acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "38",
+    "question": "What type of reaction is involved in the formation of alkanols from alkenes?",
+    "options": {
+      "A": "Elimination reaction",
+      "B": "Redox reaction",
+      "C": "Substitution reaction",
+      "D": "Addition reaction"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkenes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "39",
+    "question": "What is the mass percentage of carbon (C) in methane (CH₄)? (The molar mass of carbon is approximately 12 g/mol.)",
+    "options": {
+      "A": "25%",
+      "B": "12%",
+      "C": "75%",
+      "D": "50%"
+    },
+    "correct_answer": "C",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "40",
+    "question": "Which of the following is a common property of non-metals?",
+    "options": {
+      "A": "Exist as solids at room temperature",
+      "B": "Tend to gain electrons in chemical reactions",
+      "C": "High thermal conductivity",
+      "D": "Readily form cations in chemical reactions"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_41",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "41",
+    "question": "What is the symbol used to represent an alpha particle?",
+    "options": {
+      "A": "α",
+      "B": "γ",
+      "C": "δ",
+      "D": "β"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_42",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "42",
+    "question": "When a substance is oxidized, it",
+    "options": {
+      "A": "Loses electrons",
+      "B": "Gains oxygen atoms",
+      "C": "Gains electrons",
+      "D": "Loses protons (H+ ions)"
+    },
+    "correct_answer": "A",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidation and reduction reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_43",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "43",
+    "question": "A blue litmus paper turns red when dipped into a solution. What does this indicate about the solution?",
+    "options": {
+      "A": "The solution is basic",
+      "B": "The solution is neutral",
+      "C": "The solution is acidic",
+      "D": "The litmus paper is faulty"
+    },
+    "correct_answer": "C",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_44",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "44",
+    "question": "Which of the following compounds is an example of an electrovalent bond?",
+    "options": {
+      "A": "NaCl (sodium chloride)",
+      "B": "CO₂ (carbon dioxide)",
+      "C": "H₂O (water)",
+      "D": "CH₄ (methane)"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Sulphur and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_45",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "45",
+    "question": "If gas A has a molar mass of 32 g/mol and gas B has a molar mass of 64 g/mol, what is the ratio of their diffusion rates?",
+    "options": {
+      "A": "2:1",
+      "B": "1:2",
+      "C": "1:1",
+      "D": "1:4"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_46",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "46",
+    "question": "The contact process is used for the industrial production of",
+    "options": {
+      "A": "sulfuric acid (H₂SO₄)",
+      "B": "Hydrochloric acid (HCl)",
+      "C": "Sodium hydroxide (NaOH)",
+      "D": "Calcium oxide (CaO)"
+    },
+    "correct_answer": "A",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Industrial processes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_47",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "47",
+    "question": "Which of the following is a unique property of water compared to other liquids?",
+    "options": {
+      "A": "It is a poor solvent",
+      "B": "It does not evaporate",
+      "C": "It expands when freezing",
+      "D": "It has a low heat capacity"
+    },
+    "correct_answer": "C",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_48",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "48",
+    "question": "Sodium reacts vigorously with water to produce",
+    "options": {
+      "A": "Sodium chloride (NaCl) and oxygen gas (O₂)",
+      "B": "Sodium nitrate (NaNO3) and water (H₂O)",
+      "C": "Sodium hydroxide (NaOH) and hydrogen gas (H₂)",
+      "D": "Sodium oxide (Na2O) and hydrogen gas (H₂)"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_49",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "49",
+    "question": "At room temperature and standard pressure, chlorine gas is in which state of matter?",
+    "options": {
+      "A": "Plasma",
+      "B": "Solid",
+      "C": "Liquid",
+      "D": "Gas"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_50",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "50",
+    "question": "What is the molecular geometry of a molecule with three bonding pairs and no lone pairs around the central atom?",
+    "options": {
+      "A": "Tetrahedral",
+      "B": "Trigonal planar",
+      "C": "Linear",
+      "D": "Octahedral"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_51",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "51",
+    "question": "Isotopes of an element have",
+    "options": {
+      "A": "The same number of protons but different numbers of neutrons.",
+      "B": "The same number of neutrons and electrons",
+      "C": "The same number of protons and neutrons",
+      "D": "The same number of protons and electrons"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_52",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "52",
+    "question": "Which element is placed at the top of the electrochemical series?",
+    "options": {
+      "A": "Copper",
+      "B": "Hydrogen",
+      "C": "Sodium",
+      "D": "Oxygen"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_53",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "53",
+    "question": "Which transition metal is known for its multiple colorful oxidation states and compounds used in pigments and paints?",
+    "options": {
+      "A": "Silver (Ag)",
+      "B": "Copper (Cu)",
+      "C": "Gold (Au)",
+      "D": "Zinc (Zn)"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Transition metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_54",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "54",
+    "question": "Which of the following methods is commonly used to remove suspended impurities from water?",
+    "options": {
+      "A": "Fluoridation",
+      "B": "Chlorination",
+      "C": "Filtration",
+      "D": "Distillation"
+    },
+    "correct_answer": "C",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_55",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "55",
+    "question": "What is the valency of an element with the electronic configuration², 8, 7?",
+    "options": {
+      "A": "7",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_56",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "56",
+    "question": "When anhydrous cobalt chloride paper is exposed to water, what color change is observed?",
+    "options": {
+      "A": "From pink to blue",
+      "B": "From white to blue",
+      "C": "From blue to white",
+      "D": "From blue to pink"
+    },
+    "correct_answer": "D",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_57",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "57",
+    "question": "Which type of salt is found in antacid medications and is used to relieve heartburn and indigestion?",
+    "options": {
+      "A": "Aluminum chloride",
+      "B": "Magnesium chloride",
+      "C": "Sodium chloride",
+      "D": "Calcium chloride"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_58",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "58",
+    "question": "What is the atomic number of aluminium?",
+    "options": {
+      "A": "13",
+      "B": "26",
+      "C": "14",
+      "D": "12"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_59",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "59",
+    "question": "Which of the following metals is commonly alloyed with copper to make brass?",
+    "options": {
+      "A": "Iron",
+      "B": "Nickel",
+      "C": "Aluminum",
+      "D": "Zinc"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alloys",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_60",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "60",
+    "question": "What happens when alkanoic acids react with alcohols in the presence of an acid catalyst?",
+    "options": {
+      "A": "Saponification",
+      "B": "Esterification",
+      "C": "Polymerization",
+      "D": "Hydrolysis"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_61",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "61",
+    "question": "Which functional group is present in alkanals?",
+    "options": {
+      "A": "Carbonyl group (C=O)",
+      "B": "Hydroxyl group (-OH)",
+      "C": "Alkyl group (-R)",
+      "D": "Carboxyl group (-COOH)"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanals and Alkanones",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_62",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "62",
+    "question": "At².0 atm pressure, the volume of a gas is 4.0 L. If the pressure is reduced to 1.0 atm while keeping the temperature constant, what will be the new volume of the gas?",
+    "options": {
+      "A": "2.0 L",
+      "B": "6.0 L",
+      "C": "8.0 L",
+      "D": "4.0 L"
+    },
+    "correct_answer": "C",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_63",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "63",
+    "question": "What is the main environmental concern associated with sulfur dioxide emissions?",
+    "options": {
+      "A": "Formation of acid rain",
+      "B": "Global warming potential",
+      "C": "Depletion of the stratospheric ozone",
+      "D": "Depletion of the ozone layer"
+    },
+    "correct_answer": "A",
+    "topic": "8. Environmental Pollution",
+    "subtopic": "Air pollution",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_64",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "64",
+    "question": "Benzene can be converted to its derivative toluene by the addition of a methyl group. The reaction is an example of",
+    "options": {
+      "A": "Nucleophilic substitution",
+      "B": "Elimination reaction",
+      "C": "Electrophilic substitution",
+      "D": "Addition reaction"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Benzene and aromatics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_65",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "65",
+    "question": "Why is water often referred to as the \"universal solvent\"?",
+    "options": {
+      "A": "Water is the most abundant substance on Earth",
+      "B": "Water is essential for all living organisms.",
+      "C": "Water is involved in many chemical reactions",
+      "D": "Water can dissolve a wide variety of substances due to its polar nature"
+    },
+    "correct_answer": "D",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_66",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "66",
+    "question": "Which of the following mixtures is an example of a colloid?",
+    "options": {
+      "A": "Milk",
+      "B": "Orange juice",
+      "C": "Saltwater",
+      "D": "Sugar dissolved in water"
+    },
+    "correct_answer": "A",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_67",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "67",
+    "question": "Which of the following substances is NOT hygroscopic?",
+    "options": {
+      "A": "Salt",
+      "B": "Sugar",
+      "C": "Silica gel",
+      "D": "Aluminum"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_68",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "68",
+    "question": "What is the mass (in grams) of 500 mL of ethanol? (density of ethanol = 0.789 g/mL)",
+    "options": {
+      "A": "394.5 mL",
+      "B": "500 mL",
+      "C": "394.5 g",
+      "D": "500 g"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_69",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "69",
+    "question": "The heat of reaction can be determined experimentally using a device called a",
+    "options": {
+      "A": "Calorimeter",
+      "B": "Barometer",
+      "C": "Spectrometer",
+      "D": "Thermometer"
+    },
+    "correct_answer": "A",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_70",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "70",
+    "question": "Which halogen is a gas at room temperature and is pale yellow in color?",
+    "options": {
+      "A": "Chlorine (Cl)",
+      "B": "Fluorine (F)",
+      "C": "Iodine (I)",
+      "D": "Bromine (Br)"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_71",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "71",
+    "question": "What unit of temperature should be used when applying the ideal gas law?",
+    "options": {
+      "A": "Fahrenheit (°F)",
+      "B": "Kelvin (K)",
+      "C": "Rankine (°R)",
+      "D": "Celsius (°C)"
+    },
+    "correct_answer": "B",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_72",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "72",
+    "question": "Chlorine gas is commonly used in the production of which of the following industrial compounds?",
+    "options": {
+      "A": "Chlorofluorocarbons (CFCs)",
+      "B": "Methane",
+      "C": "Ammonia",
+      "D": "Ethanol"
+    },
+    "correct_answer": "A",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Industrial processes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_73",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "73",
+    "question": "The process of rusting is an example of the formation of",
+    "options": {
+      "A": "Basic oxide",
+      "B": "Acidic oxide",
+      "C": "Reducing oxide",
+      "D": "Amphoteric oxide"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_74",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "74",
+    "question": "Which of the following is an example of a primary cell?",
+    "options": {
+      "A": "Alkaline battery",
+      "B": "Nickel-cadmium battery",
+      "C": "Lead-acid battery",
+      "D": "Lithium-ion battery"
+    },
+    "correct_answer": "A",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrolytes and non-electrolytes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_75",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "75",
+    "question": "Which of the following is a characteristic property of acids?",
+    "options": {
+      "A": "Turn litmus paper blue",
+      "B": "Bitter taste",
+      "C": "pH value above 7",
+      "D": "React with metals to produce hydrogen gas"
+    },
+    "correct_answer": "D",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_76",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "76",
+    "question": "The lanthanides and actinides are located in which block of the periodic table?",
+    "options": {
+      "A": "P-block",
+      "B": "S-block",
+      "C": "F-block",
+      "D": "D-block"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_77",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "77",
+    "question": "What is the IUPAC name for the compound CCl₄?",
+    "options": {
+      "A": "Tetrahydrochloride",
+      "B": "Tetrachloromethane",
+      "C": "Carbon tetrachloride",
+      "D": "Chloroform"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_78",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "78",
+    "question": "Which of the following statements is true regarding the melting and boiling points of pure substances?",
+    "options": {
+      "A": "The boiling point is always higher than the melting point",
+      "B": "The melting point is always higher than the boiling point",
+      "C": "The melting and boiling points are always the same for all substances",
+      "D": "The melting and boiling points can vary depending on the substance"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_79",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "79",
+    "question": "An element has an atomic number of 8 and a mass number of 16. How many neutrons does this element have?",
+    "options": {
+      "A": "24",
+      "B": "16",
+      "C": "8",
+      "D": "32"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_80",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "80",
+    "question": "Which of the following statements is true for strong electrolytes?",
+    "options": {
+      "A": "They do not conduct electricity in the molten state",
+      "B": "They completely dissociate into ions in solution",
+      "C": "They are non-polar substances",
+      "D": "They partially dissociate into ions in solution"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2023_81",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "81",
+    "question": "What is the maximum number of electrons that can occupy the second energy level (n=2)?",
+    "options": {
+      "A": "2 electrons",
+      "B": "18 electrons",
+      "C": "8 electrons",
+      "D": "32 electrons"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2023_82",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2023,
+    "number": "82",
+    "question": "Which of the following is a common laboratory indicator for bases?",
+    "options": {
+      "A": "Methyl orange",
+      "B": "Phenolphthalein",
+      "C": "Bromothymol blue",
+      "D": "Litmus"
+    },
+    "correct_answer": "B",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

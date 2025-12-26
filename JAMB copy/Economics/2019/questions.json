@@ -1,0 +1,2055 @@
+[
+  {
+    "id": "JAMB_Economics_2019_1",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "1",
+    "question": "A demand which gives rise to the reverse of the law of demand is__________",
+    "options": {
+      "A": "Derived demand",
+      "B": "Joint demand",
+      "C": "Abnormal demand",
+      "D": "Composite demand"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A normal demand curve slopes downward from left to right indication. It lower price more will be demand but Abnormal demand curve slopes upward from left to right indications, It higher price more will be demanded which give reverse.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_2",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "2",
+    "question": "If two commodities are unrelated, a change in the price of one will____________",
+    "options": {
+      "A": "have effect on the quantity demanded of the other",
+      "B": "have no effect on the quantity demanded of the other",
+      "C": "increase the quantity demanded on the other",
+      "D": "decrease the quantity demanded on the other"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The two goods are Independent goods. Therefore, a change in the price of one will have no effect on the other. e.g. refrigerator and bicycle. A change in the price of refrigerator will have no effect on bicycle since they are not related.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_3",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "3",
+    "question": "Price (₦) Quantity Demanded 8 10 6 12 If we move from 8 to 6, the elasticity of demand is_______",
+    "options": {
+      "A": "-1.25",
+      "B": "0.62",
+      "C": "0.8",
+      "D": "1"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The elasticity of demand is calculated as the percentage change in quantity divided by the percentage change inprice.",
+    "table_html": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:100%\">\n<tbody>\n<tr>\n<td>Price<br/>\r\n\t\t\t(₦)</td>\n<td>Quantity Demanded</td>\n</tr>\n<tr>\n<td>8</td>\n<td>10</td>\n</tr>\n<tr>\n<td>6</td>\n<td>12</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_4",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "4",
+    "question": "In a perfect competition, the market price is determined by_______",
+    "options": {
+      "A": "the government",
+      "B": "the producer",
+      "C": "the consumer",
+      "D": "the market supply and demand junctions"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Market structures (perfect competition, monopoly, oligopoly)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since the buyers or sellers cannot influence the price of goods and services. The Demand and Supply determined the price the firm can sell any quantity it wishes.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_5",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "5",
+    "question": "In the short-run, the monopoly makes_______",
+    "options": {
+      "A": "Normal profit",
+      "B": "Abnormal Profit",
+      "C": "Loss",
+      "D": "Sales"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Market structures (perfect competition, monopoly, oligopoly)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_6",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "6",
+    "question": "The demand curve facing the monopolist in the foreign market is__________",
+    "options": {
+      "A": "Elastic",
+      "B": "Inelastic",
+      "C": "Perfectly elastic",
+      "D": "Unitary"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The foreign market is perfectly competitive while the home market is monopolistic. Since foreign market is a perfect competitor then the monopolist is faced with average revenue or horizontal demand curve or price line.",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_7",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "7",
+    "question": "Supply is________",
+    "options": {
+      "A": "A stock",
+      "B": "A Flow",
+      "C": "Constant",
+      "D": "A table"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Supply is a flow because its relates to a period of time i.e has a time dimension.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_8",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "8",
+    "question": "A rise in the supply of a commodity cause__________",
+    "options": {
+      "A": "an increase in the equilibrium price and decrease in the equilibrium quantity bought and sold",
+      "B": "an increase in both equilibrium",
+      "C": "a decrease in the equilibrium price and an increase in the equilibrium quantity bought and sold",
+      "D": "a decrease in both equilibrium"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_9",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "9",
+    "question": "The method obtained by adding all the reward of factors of production in national income is________",
+    "options": {
+      "A": "income approach",
+      "B": "expenditure approach",
+      "C": "value added method",
+      "D": "output approach"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The reward of factors of production are: Rent, Interest, wages & salaries and profit. In national income adding the reward i.e R + I + W + P is used in calculating the income approach.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_10",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "10",
+    "question": "An economy in which the whole income is not consumed is referred to as______",
+    "options": {
+      "A": "Frugal economy",
+      "B": "Spend thrift economy",
+      "C": "Capitalist economy",
+      "D": "Mixed economy"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A frugal economy is an economy in which the income is shared between consumption and saving or consumption and investment i.eγ = c + s or γ = C + I",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_11",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "11",
+    "question": "The arithmetic mean of 5, 8, 10, 15, 24 and 28 is_______",
+    "options": {
+      "A": "145",
+      "B": "15",
+      "C": "90",
+      "D": "6"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "ArithmeticMean=∑XN,",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_12",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "12",
+    "question": "A method of analysis that draws conclusions from data rather than general Principles already known is________",
+    "options": {
+      "A": "Deductive reasoning",
+      "B": "Inductive reasoning",
+      "C": "Normative reasoning",
+      "D": "Positive reasoning"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The deductive reasoning method involves following one or more factual statements that have been established to arrive at a conclusion. Deductive reasoning aims at testing an existing theory.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_13",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "13",
+    "question": "The money market equilibrium is defined as_________",
+    "options": {
+      "A": "when the demand and supply of money are equal",
+      "B": "when demand is greater than supply of money",
+      "C": "when demand is less than supply of money",
+      "D": "when supply is greater than demand for money"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Price determination and equilibrium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The money market is in equilibrium when the demand & supply of money are equal i.e L = μwhere L = money demand, μ = money supplyThus μ = LT(γ) + Ls(r)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_14",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "14",
+    "question": "An economic condition in which much reduced economic activity co-exists with inflation is referred to as__________",
+    "options": {
+      "A": "stagflation",
+      "B": "inflationary spiral",
+      "C": "slump inflation",
+      "D": "inflationary gap"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Inflation and deflation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An economic which idleness and under utilization of resources such as capital and labour is known as Slump Inflation",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_15",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "15",
+    "question": "An Instrument used by the central bank to fix commercial and merchant banks total credit to domestic economy is________",
+    "options": {
+      "A": "monetary policy",
+      "B": "fiscal policy",
+      "C": "credit ceiling",
+      "D": "open market operation"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Credit ceiling is one of the tools or instrument of monetary policy used by central bank to control credit in an economy.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_16",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "16",
+    "question": "Restrictive monetary policy is designed to curtail aggregate demand and to overcome________",
+    "options": {
+      "A": "Deflation",
+      "B": "Reinflation",
+      "C": "Disinflation",
+      "D": "Inflationary gap"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Restrictive monetary policy which is also known as contractionary monetary policy is used to increase interest rate and reduce investment so as to control inflation in an economy.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_17",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "17",
+    "question": "The average curve and the marginal curve are U-shaped in the short-run and flatter in the long-run due to________",
+    "options": {
+      "A": "Economies of scale",
+      "B": "Money cost",
+      "C": "Opportunity cost",
+      "D": "Cost functions"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economies of scale which is also known as scale of production set the size of plant, the number of plants installed and the technique of product. In the short-run, there is no time for the plant to expand while in the long-run, there is enough time for the firm to expand its size of plant which makes the AC α MC shape flatter.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_18",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "18",
+    "question": "The most important cost curve for the firm is_________",
+    "options": {
+      "A": "MC",
+      "B": "AC",
+      "C": "TC",
+      "D": "FC"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Average cost shows the cost per unit of any chosen output.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_19",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "19",
+    "question": "In the case of highly or close complementary goods, the indifference curve is_______",
+    "options": {
+      "A": "A straight line",
+      "B": "A right-angled",
+      "C": "L - shaped",
+      "D": "Curvature"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_20",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "20",
+    "question": "One of these is not an assumption of the cardinalist theory of utility?",
+    "options": {
+      "A": "The consumer is rational",
+      "B": "Diminishing marginal utility",
+      "C": "The concept of money utility",
+      "D": "Consistency and transivity of choice"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_21",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "21",
+    "question": "The shape of the production possibility frontier is determined by the_________",
+    "options": {
+      "A": "law of returns to scale",
+      "B": "law of diminishing returns",
+      "C": "factors of productions",
+      "D": "technology"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Law of diminishing returns also known as law of variable proportion is used to determine. The shape of the PPF.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_22",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "22",
+    "question": "As indifference curve shows equal level of satisfaction at all points, An isoquant shows equal level of_________",
+    "options": {
+      "A": "Input",
+      "B": "Commodities",
+      "C": "Output",
+      "D": "Factors"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An isoquant curve is the combination of labour and capital which shows the same output i.e labour and capital = Product.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_23",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "23",
+    "question": "Which of the following is not a cause of unemployment_______",
+    "options": {
+      "A": "poor education",
+      "B": "lack of skills",
+      "C": "good government planning",
+      "D": "corruption"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Good planning by the government helps to reduce unemployment.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_24",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "24",
+    "question": "The demand for labour is a________",
+    "options": {
+      "A": "Derived demand",
+      "B": "Joint demand",
+      "C": "Complementary demand",
+      "D": "Composite demand"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The demand for labour is a derived demand and has a negative slope indicating as wage rises less labour is determined.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_25",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "25",
+    "question": "The use of government income and expenditure instrument to regulate the economy is termed______",
+    "options": {
+      "A": "monetary policy",
+      "B": "physical policy",
+      "C": "fiscal policy",
+      "D": "public finance"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Fiscal policy is used to control inflation, deflation, unemployment, Economic recession.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_26",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "26",
+    "question": "A form of tax that is mildly progressive and regressive is_______",
+    "options": {
+      "A": "Proportional tax",
+      "B": "Progressive tax",
+      "C": "Regressive tax",
+      "D": "Digressive tax"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In aproportional taxsystem, all taxpayers are required to pay the same percentage of their income in taxes. This means that lower class, or middle class, or upper class people pay the same amount of tax. This is characterized by a Progressive and Regressive taxing system",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_27",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "27",
+    "question": "Industrialization is the process of___________",
+    "options": {
+      "A": "concentrating a firm in a place",
+      "B": "transforming as economy based on extractive to manufacturing",
+      "C": "transferring a government industry to individual",
+      "D": "transforming finished goods into semi-finished goods"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An industrialization increases the volume of Industrial activities such as manufacturing.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_28",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "28",
+    "question": "One of these is not a way by which government encourage industrialization?",
+    "options": {
+      "A": "Protection of Infant industries",
+      "B": "Establishment of Nigeria Enterprises Promotion Decree",
+      "C": "Low Productivity and inefficiency",
+      "D": "Establishment of higher institutions"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Low productivity and inefficiency is not a way by which government encourage industrialization.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_29",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "29",
+    "question": "The sector which contribute highly to the economy is___________",
+    "options": {
+      "A": "Primary sector",
+      "B": "Secondary sector",
+      "C": "Tertiary sector",
+      "D": "Education sector"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Primary sector or extractive occupations include farming, fishing, mining etc workers here form about 65 percent.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_30",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "30",
+    "question": "A permit that allows an importer to bring a certain quantity of foreign goods into a country is_________",
+    "options": {
+      "A": "Import monopoly",
+      "B": "Import licence",
+      "C": "Import quota",
+      "D": "Embargo"
+    },
+    "correct_answer": "C",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An import quota is a limit on the amount of goods that can be brought into a particular country. This means importers cannot exceed the quantity of imports permitted on the licence",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_31",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "31",
+    "question": "The lands that belong to the community is referred to as__________",
+    "options": {
+      "A": "sacred land",
+      "B": "individual land",
+      "C": "communal land",
+      "D": "rent land"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Communal land is a community land.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_32",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "32",
+    "question": "Among the disadvantages of the one-man business is the fact that______",
+    "options": {
+      "A": "its capital may not be increased without government permission",
+      "B": "the proprietor is personally liable for the firm's debts",
+      "C": "the proprietor is not able to obtain credit",
+      "D": "the proprietor may not sue for bad debts"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A one man business also sole proprietorship is run by an individual. The debts of the proprietor can affect the firm.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_33",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "33",
+    "question": "The most reliable and acceptable index of economic growth is the__________",
+    "options": {
+      "A": "Wholesale Price Index",
+      "B": "Consumer Price Index",
+      "C": "National Income",
+      "D": "Retailer's Price Index"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If the national income or output is increased, economic growth will also increase.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_34",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "34",
+    "question": "The release of a liquid petroleum hydrocarbon into the environment is_______",
+    "options": {
+      "A": "Oil glut",
+      "B": "Oil spill",
+      "C": "Oil shock",
+      "D": "Oil wastage"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Oil is release into the ocean or coastal waters but also occur on land. Oil spill is release into the environment especially marine areas due to human activity and is a form of pollution.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_35",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "35",
+    "question": "ECOWAS was formed for the purpose of________",
+    "options": {
+      "A": "promoting co-operation and integration",
+      "B": "to facilitate the expansion of international trade",
+      "C": "to provide insurance",
+      "D": "to insure new investment"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International economic organizations (IMF, WTO, ECOWAS)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Economic Community of West African States (ECOWAS) was formed to promote cooperation and integrate member state to accelerate economic growth and development in West Africa.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_36",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "36",
+    "question": "Economics is a social science concerned with the proper use and______",
+    "options": {
+      "A": "production of goods and services",
+      "B": "distribution of wealth",
+      "C": "allocation of resources for growth",
+      "D": "creation of utility"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economics study scarcity because the resources are limited. Also, it helps to study how resources are allocated or used up by the government, firm and individual.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_37",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "37",
+    "question": "The determination of price by bargaining between buyers and sellers is________",
+    "options": {
+      "A": "Sales by Auction",
+      "B": "Tender",
+      "C": "Higgling and Haggling",
+      "D": "Price Control"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Higgling and Haggling is one of the ways price are determined in an imperfect market. The buyer's maximum price and the seller's minimum price provide the \"price range of bargaining\".",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Public Corporations and Parastatals",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_38",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "38",
+    "question": "An economy system that uses what is regarded as the \"Market mechanism\" is called_______",
+    "options": {
+      "A": "Mixed economy",
+      "B": "Socialism",
+      "C": "Command economy",
+      "D": "Capitalism"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The market mechanism is solved through the Forces of demand and supply in the capitalist economy which is also known as free enterprises or free market economy.",
+    "predicted_topics": [
+      "Political Ideologies"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_39",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "39",
+    "question": "The last link in the channel of distribution is____________",
+    "options": {
+      "A": "Producer",
+      "B": "Retailer",
+      "C": "Consumer",
+      "D": "Wholesaler"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Goods are moved from the producer/manufacturer to the wholesaler, from the wholesaler to the retailer and from the retailer to the consumer, which is the last link in trade.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_40",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "40",
+    "question": "John an apprentice, engineer and amateur trumpet player, was earning ₦30 per week before accepting Full-time employment in a top orchestra, for which he now receives ₦150 per week. ₦120 of his current weekly earnings can be described as________",
+    "options": {
+      "A": "marginal physical productivity",
+      "B": "marginal income productivity",
+      "C": "consumer's surplus",
+      "D": "economic rent"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economic rent is a surplus arrived at by deducting marginal product and opportunity cost.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_41",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "41",
+    "question": "Effective demand for a commodity is desire for that commodity backed by_______",
+    "options": {
+      "A": "a wish for the lowest possible price",
+      "B": "ability and willingness to pay",
+      "C": "cash in one's pocket",
+      "D": "a promise to make payment"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Effective demand is the desire, backed by willingness and ability, to buy at a given price.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_42",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "42",
+    "question": "A commodity is defined as normal when its demand changes in the same direction as______",
+    "options": {
+      "A": "income",
+      "B": "price",
+      "C": "taste",
+      "D": "preferences"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A commodity whose income elasticity is positive is a normal good because more of it is purchased as the consumer's income increases.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_43",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "43",
+    "question": "Which of the following matters may account for changes in demand? I - changes in consumer preferences II - changes in real income III - changes in distribution of incomes IV - changes in levels of taxation",
+    "options": {
+      "A": "I, II",
+      "B": "II, III",
+      "C": "I, III, IV",
+      "D": "I, II, III, IV"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Consumer preferences (Taste), Income, taxation, advertisement, population, weather conditions, price of other commodities are shift. Factors that affect or change or shift the demand curve.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_44",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "44",
+    "question": "An example of a market which approaches fairly near to perfection is____________",
+    "options": {
+      "A": "the retail market",
+      "B": "the house market",
+      "C": "the labour market",
+      "D": "the foreign exchange market"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The foreign exchange market is a market which deals with foreign exchange transactions and it involves the buying and selling of foreign currencies.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_45",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "45",
+    "question": "Whether a monopolist is able to increase his revenue by restricting his output depends on the shape of the_________",
+    "options": {
+      "A": "marginal product",
+      "B": "marginal cost curve",
+      "C": "demand curve",
+      "D": "average cost curve"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A monopolist can either decide his output or the price at which he will sell, but not both. A monopolist must consider elasticity of demand, since his aim is to produce the output that will yield him maximum profit.If the demand curve is elastic, he will decrease his price and if it is inelastic, he will increase his price in order to earn revenue.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_46",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "46",
+    "question": "An example of a vertical combination is the merger of_________",
+    "options": {
+      "A": "a spinning firm and a wearing firm",
+      "B": "two meat retailing firms",
+      "C": "two very large wholesale textile distributors",
+      "D": "three secretarial employment agencies in one town"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Vertical combination is the merging together of two businesses that are at different stages of production. Merging in this way with something further on in the production process is known as Forward Integration.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_47",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "47",
+    "question": "When of the following matters may account for changes in supply? I - technological advances in an industry II - changes in labour costs III - changes in source of supply IV - changes in levels of taxation",
+    "options": {
+      "A": "I, II",
+      "B": "I, III",
+      "C": "II, III, IV",
+      "D": "I, II, III, IV"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A change in supply also known as shifts of the supply curve is determined by other factors affecting supply except price of the commodity when price is constant.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_48",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "48",
+    "question": "A supply curve slopes upwards from the left to the right indicating__________",
+    "options": {
+      "A": "a negative slope",
+      "B": "a positive slope",
+      "C": "a backward sloping supply curve",
+      "D": "short-run supply curve"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_49",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "49",
+    "question": "Use the following information given to answer this question Total of all expenditure incurred during the year ₤ 80,000m Indirect taxes on goods and services ₤ 8,000m Capital consumption ₤ 6,000m National income is__________",
+    "options": {
+      "A": "₤ 74,000m",
+      "B": "₤ 66,000m",
+      "C": "₤ 60,000m",
+      "D": "₤ 14,000m"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "National Income = Expenditure - Indirect taxes - Capital consumption (Depreciation)N.I = 80,000 - 8,000 - 6,000 = ₤ 66,000m",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_50",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "50",
+    "question": "Use the following information given to answer this question Total of all expenditure incurred during the year ₤80,000 m Indirect taxes on goods and services ₤8,000m Capital consumption ₤6,000m Gross national expenditure at factor cost is_________",
+    "options": {
+      "A": "₤ 88,000μ",
+      "B": "₤ 82,000μ",
+      "C": "₤ 74,000μ",
+      "D": "₤ 72,000μ"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "GNP at cost = Expenditure - Depreciation⇒ 80,000 - 6,000 = ₤ 74,000μ",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_51",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "51",
+    "question": "Let the quantity demanded in units of a particular commodity be represented as Qd = 80 - 2P, find the quantity demanded when P = ₦3.",
+    "options": {
+      "A": "70",
+      "B": "47",
+      "C": "74",
+      "D": "40"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Qd = 80 - 2PWhen P = 3Qd = 80 - 2(3)Qd = 80 - 6Qd = 74",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_52",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "52",
+    "question": "The following are measures of location except________",
+    "options": {
+      "A": "Arithmetic mean",
+      "B": "Harmonic mean",
+      "C": "Range",
+      "D": "Geometric mean"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The measure of central tendency also known as measure of location are = mean (Arithmetic mean), median, mode, geometric mean and Harmonic mean.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_53",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "53",
+    "question": "The term M \\(^3\\) comprises M \\(^1\\) together with deposits on deposit account held by_______",
+    "options": {
+      "A": "banks only",
+      "B": "discount houses only",
+      "C": "banks and discount houses",
+      "D": "banks, discount houses and stock, exchanges"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The money supply consist of M \\(^1\\) and M \\(^3\\). M \\(^3\\) is a measure in money supply. M \\(^3\\); This is M \\(^1\\) plus deposits on deposit account held by barks and discount houses.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_54",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "54",
+    "question": "The second equation of exchange is__________",
+    "options": {
+      "A": "MV = PT",
+      "B": "P = \\(\\frac {M}{KR}\\)",
+      "C": "P = \\(\\frac {MV}{T}\\)",
+      "D": "P=MV"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The second equation of exchange of money is P = \\(\\frac {M}{KR}\\)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_55",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "55",
+    "question": "The term \"Money at call and short notice\" in a bank's assets represents the bank's loans to______",
+    "options": {
+      "A": "industry and commerce",
+      "B": "overseas central banks",
+      "C": "the capital market",
+      "D": "the money markets"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Money at call or at short notice is a loan that is made for a very short period for a few days only for duration of a week. Money market is a market for short-term loans.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_56",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "56",
+    "question": "A contractionary monetary policy is used to control__________",
+    "options": {
+      "A": "Deflation",
+      "B": "Inflation",
+      "C": "Recession",
+      "D": "Balance of Payment deficit"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A contractionary monetary policy leads to a balance of payment surplus and there is increase in interest rate or cash reserve ratio thereby reducing investment and output. It is used to control inflation, to stabilise the price level exchange rate and achieve equilibrium in the balance of payment and also promote economy development.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_57",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "57",
+    "question": "Consider the following figures which refer to a firm's production department during one week: Wage bill ₦6,000, Rent, Rates, Depreciation ₦200, raw materials ₦800, Power ₦300. Total variable costs incurred during the week are",
+    "options": {
+      "A": "₦7,300",
+      "B": "₦7,100",
+      "C": "₦1,300",
+      "D": "₦1,100"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total variable costs also known as variable cost. TVC is the cost that varies or changes with the level of output.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_58",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "58",
+    "question": "If AC and MC are represented on a graph, the MC curve will cut the AC curve_______",
+    "options": {
+      "A": "at the maximum point on the AC curve",
+      "B": "at the highest point on the AC curve",
+      "C": "at the minimum point on the AC curve",
+      "D": "at the peak"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_59",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "59",
+    "question": "Consider the diagram below which shows a demand curve (d). Total expenditure on a commodity is represented by the area TUVW. Consumer's surplus is represented by___________",
+    "options": {
+      "A": "The area VWX",
+      "B": "The area XTUV",
+      "C": "\\(\\frac {XW} {XT}\\)",
+      "D": "\\(\\frac {TU} {UV}\\)"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Consumer surplus is the difference between what a consumer budgeted to have a commodity and the actual amount he paid to have the commodity.",
+    "images": [
+      {
+        "filename": "Economics_2019_q59_585b3865.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/K3XygzglaOUxiFGWA7Z2NqWD0TKAcH89fYWsLu9o.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_60",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "60",
+    "question": "Adam Smith's Theory of value stated that the value of a commodity depended on________",
+    "options": {
+      "A": "The market price in a free market over a long period",
+      "B": "The over-all cost of production of the commodity",
+      "C": "The amount of labour expended on its production",
+      "D": "Its relative scarcity at any given time"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Value means the power that goods and services have to exchange other goods and services. The value of a commodity depends on the satisfaction it can provide and the amount of labour used in production.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_61",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "61",
+    "question": "Which of the following persons is engaged in \"Secondary Production\"? I - a bricklayer II - an automobile assembly-line worker III - an accountant IV - a cinema projectionist",
+    "options": {
+      "A": "I only",
+      "B": "I, II",
+      "C": "II, III",
+      "D": "I, II, III, IV"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Secondary production is the conversion or transformation of extractive product into finished goods or semi-finished goods.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_62",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "62",
+    "question": "Let capital formation = CF, Production = P, C = consumption. Then CF =_______",
+    "options": {
+      "A": "P - C",
+      "B": "P + C",
+      "C": "PC",
+      "D": "P/C"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Capital Formation or capital accumulation refers to increasing a country's stock of real capital. There must be increase in savings and reduction in consumption of consumer goods i.e consumption must be subtracted from production.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_63",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "63",
+    "question": "If wage rate is less than the average revenue product, the firms would be earning________",
+    "options": {
+      "A": "loss",
+      "B": "super normal profit",
+      "C": "normal profit",
+      "D": "higher revenue"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_64",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "64",
+    "question": "The determination of wages in a labour market depends on the_______",
+    "options": {
+      "A": "Government",
+      "B": "People",
+      "C": "Interaction between demand and supply of labour",
+      "D": "Economy"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Irrespective of the presence of labour unions, labour laws and other forces, the interaction between dd and ss of labour determines the wages in a labour market i.e where dd for labour equals ss of labour.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_65",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "65",
+    "question": "If the demand for a commodity is perfectly elastic, the incidence of a tax on that commodity will be, other things being equal, entirely on the_______",
+    "options": {
+      "A": "buyer",
+      "B": "seller",
+      "C": "government",
+      "D": "local authority"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The seller or producer will bear the whole burden of taxation. Any attempt to increase price will make the demand for the commodity to fall to zero.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_66",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "66",
+    "question": "Most of the National debts is \"dead weight\" in the sense that is____",
+    "options": {
+      "A": "bound to increase from year to year",
+      "B": "accumulated as the result of past capital investment",
+      "C": "the responsibility of the treasury",
+      "D": "not covered by any real asset"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Public finance and fiscal policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dead weight is a debt that is incurred to meet current needs without the security of an enduring asset. It is usually incurred by the government.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_67",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "67",
+    "question": "The basic principle underlying location of industry is the tendency for production of a commodity to be located on the basis of______",
+    "options": {
+      "A": "division of labour",
+      "B": "employment trends",
+      "C": "relative costs and benefits",
+      "D": "immobility of skilled labour"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Location of industry is the sitting of a firm in a particular area. The benefits a firm derive i.e economies of scale is one of the principle in location of industry.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_68",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "68",
+    "question": "External economies arises essentially from__________",
+    "options": {
+      "A": "a firm's individual policies",
+      "B": "localisation of industry",
+      "C": "government economic policy",
+      "D": "free transferability of shares"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "External economies are the benefits a firm derives from concentration or localisation of industries in a particular area or the benefits a firm enjoys from increase in its output and decrease in cost as a result of the kind of assistance it derives from other firms.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_69",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "69",
+    "question": "The birth rate in 1976 for a certain country with a population of 10m was 8.0. This means that in 1976,___________",
+    "options": {
+      "A": "there were 80,000 live births in the country",
+      "B": "there were 6,400 live births in the country",
+      "C": "there were 8 live births to every 100 women in working-class families",
+      "D": "8 in every 1000 women of 21 - 45 gave birth to a live child"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since the population in the country is 10m and 8.0 gave birth to live child. Then 80,000 child were given birth in the country in 1976.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_70",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "70",
+    "question": "Assume that, for a certain country in a given year, the index of import prices stands at 102, the index of export prices stands at 106. The terms of trade are (to the nearest whole number)",
+    "options": {
+      "A": "208",
+      "B": "104",
+      "C": "54",
+      "D": "4"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Terms of trade = \\(\\frac {\\text{Index of export prices}} {\\text{Index of import prices}}\\) x 100",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_71",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "71",
+    "question": "One of these is not a problem of agriculture___________",
+    "options": {
+      "A": "provision of employment",
+      "B": "lack of preservation and storage facilities",
+      "C": "land tenure system",
+      "D": "poor transportation systems"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Provision or providing productive employment is not a problem of agriculture.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_72",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "72",
+    "question": "The business risks of a public corporation are borne ultimately________",
+    "options": {
+      "A": "by the government",
+      "B": "by the treasury",
+      "C": "by the rate payers",
+      "D": "by the tax payers"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Public corporation also known as statutory corporation or public enterprise risks of the business are borne by the government and the tax payers but the tax payer share the greater burden because the money is used to run the business.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_73",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "73",
+    "question": "Poverty simply refers to the low level of________",
+    "options": {
+      "A": "planning",
+      "B": "per capita income",
+      "C": "rich people",
+      "D": "labour face"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Poverty refers to the low level of per capital income of a country when the average income of the people in a country is low there will be high poverty and vice versa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_74",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "74",
+    "question": "The oil boom between 1970 - 1980 caused the oil sector to become____________",
+    "options": {
+      "A": "the main source of government",
+      "B": "management of spillage and pollution",
+      "C": "protection to the local operators in the petroleum industry",
+      "D": "decrease in the rate of inflation"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The oil booms caused the oil sector to become the ministry of the nigeria economy not only in terms of foreign exchange earnings but also the main source of government revenue.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_75",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "75",
+    "question": "When a member's currency is declared \"scarce\", it is the duty of the IMF to______",
+    "options": {
+      "A": "suspend the member state indefinitely",
+      "B": "ban all exports from that state",
+      "C": "suspend dealings in that currency for one year",
+      "D": "ration it among the countries demanding it"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International economic organizations (IMF, WTO, ECOWAS)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The clause provided that if the IMF ran out of sticks of a country's currency, this could be declared a \"scarce currency\", upon which members would be entitled and expected to discriminate against the country's goods in their trade policies.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2019_76",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "76",
+    "question": "The basic and essential economic problems in a community are related to choice and________",
+    "options": {
+      "A": "Freedom",
+      "B": "Scarcity",
+      "C": "Social class",
+      "D": "Politics"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Every society is faced with the economic problem of choice and scarcity",
+    "predicted_topics": [
+      "Public Corporations and Parastatals",
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_77",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "77",
+    "question": "Given two substitute goods (X and Y) with demand and supply function; Qd = 7p - 12 Qs = 4p + 9 Find the magnitude of excess demand when p = ₦18",
+    "options": {
+      "A": "303",
+      "B": "30",
+      "C": "114",
+      "D": "33"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To find quantity demanded when p = ₦18Qd = 7p - 127(18) - 12126 - 12Qd = 114unitsTo find quantity supplies at ₦18Qs = 4p + 94(18) + 9Qs = 72 + 9Qs = 81 unitsTo find the magnitude of excess demandExcess demand = 114 - 81 = 33 units",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_78",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "78",
+    "question": "Whatever form an economic system may take, choice is essential for members of the community because resources are__________",
+    "options": {
+      "A": "scarce",
+      "B": "unlimited",
+      "C": "free",
+      "D": "many"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The basic problem of every society in any type of economic system, be it capitalist, socialist and mixed economy is choice and scarcity because resources are limited.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_79",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "79",
+    "question": "A retailer is distinguished by the nature of its sales, which is in___________",
+    "options": {
+      "A": "Bulk",
+      "B": "Large",
+      "C": "Units",
+      "D": "Chain"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A retailer is a trader who buys goods in small quantities from the wholesaler and sells in bits or units to the final consumer.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2019_80",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2019,
+    "number": "80",
+    "question": "The purchasing power of money depends upon the__________",
+    "options": {
+      "A": "Value",
+      "B": "Index",
+      "C": "Price Level",
+      "D": "Wages"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The purchasing power of money depends upon the price level when the price leve rises, the purchasing power of money gets reduced, thus adversely affecting the real wages of workers and vice-versa.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  }
+]

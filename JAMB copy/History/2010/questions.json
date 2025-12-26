@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "JAMB_History_2010_1",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "1",
+    "question": "The savannah region of Nigeria is characterized by",
+    "options": {
+      "A": "sparse vegetation",
+      "B": "high population density",
+      "C": "abundant resources",
+      "D": "large bodies of water."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_2",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "2",
+    "question": "A major economic activity among the Nupe was",
+    "options": {
+      "A": "horse breeding",
+      "B": "leather work",
+      "C": "canoe-building",
+      "D": "cattle rearing."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_3",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "3",
+    "question": "The main features of the economy of the forest zone of Nigeria in the eighteenth century were",
+    "options": {
+      "A": "pastoral farming and fishing",
+      "B": "fishing and salt-making",
+      "C": "cotton cultivation and weaving",
+      "D": "cash crop production and trading."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_4",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "4",
+    "question": "The spread of Islam between the 11th and 14th centuries in Nigeria was largely due to",
+    "options": {
+      "A": "Arab missionary activities",
+      "B": "the waging of jihads",
+      "C": "trade and commerce",
+      "D": "absence of any religion in the area."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_5",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "5",
+    "question": "A significant effect of the Christian missionary activity in Nigeria was the",
+    "options": {
+      "A": "introduction of formal education",
+      "B": "training of nationalists",
+      "C": "introduction of new crops",
+      "D": "abolition of the slave trade."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_6",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "6",
+    "question": "An outstanding reason for the abolition of the trans-Atlantic slave trade was",
+    "options": {
+      "A": "industrial revolution",
+      "B": "nationalist agitation",
+      "C": "legitimate trade",
+      "D": "railway construction."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_7",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "7",
+    "question": "A major factor that led to the success of the Sokoto jihad was",
+    "options": {
+      "A": "military assistance from Borno",
+      "B": "lack of unity among the Hausa states",
+      "C": "the use of fire-arms by the jihadists",
+      "D": "periodic divine interventions."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_8",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "8",
+    "question": "Which of the following was a part of the Sokoto Caliphate?",
+    "options": {
+      "A": "Kukawa.",
+      "B": "Yauri.",
+      "C": "Biu.",
+      "D": "Lokoja."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_9",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "9",
+    "question": "The legendary founder of the Kanuri was",
+    "options": {
+      "A": "Ali Ghaji",
+      "B": "Idris b. Ali Katagarmabe",
+      "C": "Idris Alooma",
+      "D": "Sayf b. dhi Yazan."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_10",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "10",
+    "question": "The Queen mother, Magira, played a prominent role in the government of the",
+    "options": {
+      "A": "Hausa States",
+      "B": "Kwararafa Kingdom",
+      "C": "Kanem Borno Empire",
+      "D": "Igala Kingdom."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_11",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "11",
+    "question": "The Ekiti Parapo was an alliance against",
+    "options": {
+      "A": "the Muslim incursion into Yorubaland",
+      "B": "the rising power of Ibadan",
+      "C": "Christian missionary presence in Yorubaland",
+      "D": "the abolition of the slave trade."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_12",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "12",
+    "question": "The Oyo Empire collapsed as a result of",
+    "options": {
+      "A": "internal and external crises",
+      "B": "the revolt of Afonja",
+      "C": "the weakening of the army",
+      "D": "British presence in Yorubaland."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_13",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "13",
+    "question": "The failure of the Ogiso dynasty in Benin was attributed to",
+    "options": {
+      "A": "weakness and dependence of the rulers",
+      "B": "peoples’ resentment against the system",
+      "C": "the declining economy of the state",
+      "D": "inadequate supply of arms and ammunition."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_14",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "14",
+    "question": "The greatest ruler in the history of Benin Kingdom was",
+    "options": {
+      "A": "Oba Ewuare",
+      "B": "Oba Ewedo",
+      "C": "Oba Ovonramwen",
+      "D": "Oba Ewuakpe."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_15",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "15",
+    "question": "Armed resistance to British rule in Northern Nigeria ended with the conquest of",
+    "options": {
+      "A": "Kano and Sokoto",
+      "B": "Bida and Kano",
+      "C": "Katsina and Kano",
+      "D": "Bauchi and Katsina."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_16",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "16",
+    "question": "The Colony and Protectorate of Lagos was amalgameted with the Protectorate of Southern Nigeria in 1906 to form the",
+    "options": {
+      "A": "Colony and Protectorate of Southern Nigeria",
+      "B": "Colony and Protectorate of Nigeria",
+      "C": "Protectorate of Southern Nigeria",
+      "D": "Oil Rivers Protectorate."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_17",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "17",
+    "question": "A reason for the amalgamation of the Northern and Southern protectorates of Nigeria in 1914 was",
+    "options": {
+      "A": "economic expediency",
+      "B": "territorial integration",
+      "C": "political balancing",
+      "D": "religious harmony."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_18",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "18",
+    "question": "The Nigerian Council established in 1914 was ineffective because it",
+    "options": {
+      "A": "was not designed to be so",
+      "B": "lacked sufficient funds",
+      "C": "had too many vocal members",
+      "D": "was dominated by hand-picked members."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_19",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "19",
+    "question": "Two institutions of local government in Nigeria during the colonial period were native courts and",
+    "options": {
+      "A": "legislative council",
+      "B": "regional treasury",
+      "C": "native treasury",
+      "D": "native police."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_20",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "20",
+    "question": "Certain chiefs in Eastern Nigeria were called warrant chiefs because they",
+    "options": {
+      "A": "had some royal connections",
+      "B": "were created by the British",
+      "C": "had warrants to arrest offenders",
+      "D": "were the first to receive Western education."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_21",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "21",
+    "question": "In colonial Nigeria, mining industry was promoted in order to",
+    "options": {
+      "A": "diversify the economy",
+      "B": "engage the railway system",
+      "C": "make Nigeria self-reliant",
+      "D": "maximize exploitation."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_22",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "22",
+    "question": "The colonial government in Nigeria laid more emphasis on the production of export crops because",
+    "options": {
+      "A": "the people already had abundant food in stock",
+      "B": "such crops were desperately needed abroad",
+      "C": "such crops were more beneficial to the people",
+      "D": "the soil was more suitable for the production of such crops."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_23",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "23",
+    "question": "The Yaba Higher College did not meet the aspirations of the nationalists because",
+    "options": {
+      "A": "all its staff were Europeans",
+      "B": "it was meant to train assistants to Europeans",
+      "C": "only Europeans were qualified for admission",
+      "D": "it was affiliated to a polytechnic in Europe."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_24",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "24",
+    "question": "The 1922 Clifford Constitution restricted the franchise to",
+    "options": {
+      "A": "Calabar and Benin",
+      "B": "Lagos and Calabar",
+      "C": "Lagos and Warri",
+      "D": "Warri and Lokoja"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Constitution",
+      "The Electoral Process",
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_25",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "25",
+    "question": "The political parties that formed the opposition during the First Republic in Nigeria were the",
+    "options": {
+      "A": "NCNC and AG",
+      "B": "AG and UMBC",
+      "C": "NCNC and NEPU",
+      "D": "UMBC and NEPU."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The first partyto assume the role of anopposition partywas the Action Group (AG) led by Obafemi Awolowo inthe first republic.The politicalintriguesduringthat era weakened the AG. All this happened shortly before the country's independence in 1959. The second opposition political party was the National Council of Nigeria and Cameroons (NCNC). The (NCNC) was led by Nnamdi Azikiwe.",
+    "predicted_topics": [
+      "Political Parties and Party Systems",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_26",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "26",
+    "question": "The creation of Mid-Western region in 1963 was through",
+    "options": {
+      "A": "balloting",
+      "B": "referendum",
+      "C": "declaration",
+      "D": "voting."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_27",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "27",
+    "question": "The immediate cause of the January 1966 coup d’etat was",
+    "options": {
+      "A": "the breakdown of law and order in the West",
+      "B": "the desire of the military to seize power",
+      "C": "the failure of the 1963 census",
+      "D": "interferance by foreign powers"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Post-Independence Constitutions",
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_28",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "28",
+    "question": "Which of the following countries did the Murtala/Obasanjo regime assist during their struggle for independence?",
+    "options": {
+      "A": "Guinea Bissau and Namibia",
+      "B": "Angola and Zimbabwe",
+      "C": "Sierra Leone and Equitorial Guinea.",
+      "D": "The Gambia and Tanzania"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_29",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "29",
+    "question": "The Second Republic in Nigeria refers to the period",
+    "options": {
+      "A": "General Babangida was Head of State",
+      "B": "between 1979 and 1983",
+      "C": "General Obasanjo was Head of State",
+      "D": "the period between 1960 and 1966"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Systems of Governance",
+      "Post-Independence Constitutions",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_30",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "30",
+    "question": "Which of the following political parties formed an alliance in the Second Republic?",
+    "options": {
+      "A": "UPN and NPN.",
+      "B": "PRP and NPP.",
+      "C": "NPN and NPP.",
+      "D": "PRP and UPN."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_31",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "31",
+    "question": "The political party that controlled the Federal Government during the Second Republic in Nigeria was the",
+    "options": {
+      "A": "Great Nigeria Peoples Party",
+      "B": "Nigeria Peoples Party",
+      "C": "Unity Party of Nigeria",
+      "D": "National Party of Nigeria."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Structures of Governance",
+      "Political Parties and Party Systems",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_32",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "32",
+    "question": "The main aim of the formation of ECOMOG was to",
+    "options": {
+      "A": "foster stability in West Africa",
+      "B": "solve boundary disputes among member states",
+      "C": "provide security for the whole of Africa",
+      "D": "tackle the problem of piracy in African seaways."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_33",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "33",
+    "question": "A major contribution of Nigeria to ECOWAS is in the area of",
+    "options": {
+      "A": "diplomacy",
+      "B": "funding",
+      "C": "military support",
+      "D": "provision of education."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_34",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "34",
+    "question": "Samori Toure is often described as the “African Napoleon” because he",
+    "options": {
+      "A": "was a great military tactician",
+      "B": "learned a great deal from Napoleon",
+      "C": "employed similar tactics as Napoleon",
+      "D": "had a well trained army."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Military in Nigerian Politics",
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_35",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "35",
+    "question": "A major similarity of the 19th century jihads in West Africa was that",
+    "options": {
+      "A": "they were executed at the same time",
+      "B": "the participants were of the same origin",
+      "C": "they had a common objective",
+      "D": "they brought unity between the Hausa and the Fulani."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_36",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "36",
+    "question": "The greatest contribution of the Christian Missionary Society in West Africa was in",
+    "options": {
+      "A": "establishing trading companies",
+      "B": "stopping the slave trade",
+      "C": "the emergence of educated elite",
+      "D": "the production of cash crop."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_37",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "37",
+    "question": "Egypt became the centre of international rivalry because of the",
+    "options": {
+      "A": "huge investment in the Suez-canal",
+      "B": "rich soil for cotton and sugar cultivation",
+      "C": "great cities of Cairo and Alexandria",
+      "D": "strategic importance of the country."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_38",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "38",
+    "question": "Muhammad es Sadek was a 19th century ruler of",
+    "options": {
+      "A": "Morocco",
+      "B": "Libya",
+      "C": "Tunisia",
+      "D": "Algeria."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_39",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "39",
+    "question": "Muhammad Ahmad was easily accepted as the Mahdi in the Sudan because",
+    "options": {
+      "A": "the Islamic leaders in the area did not live up to the expectations of the people",
+      "B": "he came at a time the people were expecting to be delivered from the Egyptian rulers",
+      "C": "the national army was not strong enough to defend the country",
+      "D": "he was highly educated in the tenants of the Islamic religion."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_40",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "40",
+    "question": "After leaving Oman for East Africa, Sayyid Said established his headquarters in",
+    "options": {
+      "A": "Zanzibar",
+      "B": "Pemba",
+      "C": "Mombasa",
+      "D": "Kilwa."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_41",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "41",
+    "question": "In 1887, a plot to depose Kabaka Mwanga was hatched by",
+    "options": {
+      "A": "a Muslim group",
+      "B": "Baganda Christians",
+      "C": "Arab slave merchants",
+      "D": "Egyptian mercenaries."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_42",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "42",
+    "question": "An Ethiopian monarch that committed suicide in a battle field was",
+    "options": {
+      "A": "Theodore II",
+      "B": "Menelik",
+      "C": "Johannes IV",
+      "D": "Haile Selassie."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_43",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "43",
+    "question": "The white settlers in Southern Africa were known as",
+    "options": {
+      "A": "Bantu",
+      "B": "Boers",
+      "C": "Bushmen",
+      "D": "Hottentots."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_44",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "44",
+    "question": "The Mfecane occured as a result of",
+    "options": {
+      "A": "long standing inter-group rivalry",
+      "B": "inter-group struggles for natural resources",
+      "C": "Ndwandwe’s domination of the Zulu",
+      "D": "Shaka’s inordinate military ambition."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2010_45",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "45",
+    "question": "The Fashoda incident of 1898 resulted in a rift between",
+    "options": {
+      "A": "France and Germany",
+      "B": "Germany and Britain",
+      "C": "France and Italy",
+      "D": "Britain and France."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_46",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "46",
+    "question": "Paternalism was a colonial policy adopted by",
+    "options": {
+      "A": "Britain",
+      "B": "Portugal",
+      "C": "Germany",
+      "D": "France."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_47",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "47",
+    "question": "Where was indirect rule practised before it was introduced to Africa?",
+    "options": {
+      "A": "India.",
+      "B": "Malaysia.",
+      "C": "Pakistan.",
+      "D": "Indonesia."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_48",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "48",
+    "question": "The indirect rule system of administration meant that the colonialists",
+    "options": {
+      "A": "ruled through native courts",
+      "B": "barred the educated elite from local politics",
+      "C": "ruled through traditional institutions",
+      "D": "relied mostly on local interpreters"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_49",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "49",
+    "question": "In post-apartheid South Africa, the main concern of government is to",
+    "options": {
+      "A": "punish the people who perpetrated apartheid",
+      "B": "redress the injustices of the apartheid policy",
+      "C": "make the country the giant of Africa",
+      "D": "make the country a permanent member of the UN Security Council"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2010_50",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2010,
+    "number": "50",
+    "question": "The Ogaden war between Ethiopia and Somalia was caused by",
+    "options": {
+      "A": "disagreement over trade",
+      "B": "refugee problems",
+      "C": "boundary disputes",
+      "D": "personality clash between their leaders"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Public Corporations and Parastatals",
+      "Local Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  }
+]

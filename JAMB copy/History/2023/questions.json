@@ -1,0 +1,1970 @@
+[
+  {
+    "id": "JAMB_History_2023_1",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "1",
+    "question": "During the Great Trek, the Voortrekkers clashed with the indigenous Zulu people. Who was the Zulu king at that time?",
+    "options": {
+      "A": "King Zwelithini",
+      "B": "Dingane kaSenzangakhona",
+      "C": "Cetshwayo kaMpande",
+      "D": "Shaka Zulu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_2",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "2",
+    "question": "Which European explorer is credited with discovering Sierra Leone in the 15th century?",
+    "options": {
+      "A": "Vasco da Gama",
+      "B": "Christopher Columbus",
+      "C": "Ferdinand Magellan",
+      "D": "Pedro de Sintra"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_3",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "3",
+    "question": "Which military leader introduced the \"War Against Indiscipline\" campaign in the 1980s?",
+    "options": {
+      "A": "General Ibrahim Babangida",
+      "B": "General Murtala Ramat Mohammed",
+      "C": "General Sani Abacha",
+      "D": "General Muhammadu Buhari"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_4",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "4",
+    "question": "The Richards Constitution of 1946 introduced a new political structure in Nigeria. What was a major criticism of this constitution by Nigerian nationalists?",
+    "options": {
+      "A": "It failed to recognize the diversity of ethnic groups in Nigeria.",
+      "B": "It favored the interests of urban elites over rural populations.",
+      "C": "It restricted the activities of nationalist organizations.",
+      "D": "It granted too much power to regional governments."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_5",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "5",
+    "question": "The Lyttleton Constitution of 1954 introduced which significant political reform in Nigeria?",
+    "options": {
+      "A": "Introduction of regional autonomy",
+      "B": "Creation of the Office of the Governor-General",
+      "C": "Introduction of the federal system",
+      "D": "Establishment of the Legislative Council"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Structures of Governance",
+      "Constitution",
+      "Pre-Colonial Polities",
+      "Constitutional Development in Nigeria",
+      "Institutions of Government in Post-Independence Nigeria",
+      "The Structure and Workings of Nigerian Federalism",
+      "Local Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_6",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "6",
+    "question": "The city of Ife, in present-day Nigeria, is famous for its artistic heritage, particularly its",
+    "options": {
+      "A": "Beadwork",
+      "B": "Adire textiles",
+      "C": "Wooden masks",
+      "D": "Terracotta sculptures"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_7",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "7",
+    "question": "Who is often considered the founder of modern Egypt and the ruler of Egypt from 1805 to 1848?",
+    "options": {
+      "A": "Mohammed Ali",
+      "B": "Gamal Abdel Nasser",
+      "C": "Khedive Ismail",
+      "D": "King Farouk"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_8",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "8",
+    "question": "Which influential leader in the Sokoto Caliphate was responsible for administration and justice?",
+    "options": {
+      "A": "Waziri",
+      "B": "Caliph",
+      "C": "Emir",
+      "D": "Imam"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_9",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "9",
+    "question": "Which colonial policy was implemented to extract resources and labor from Nigeria for Britain's benefit?",
+    "options": {
+      "A": "Assimilation",
+      "B": "Indirect rule",
+      "C": "Association",
+      "D": "Exploitation"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_10",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "10",
+    "question": "Which of the following was a significant trading commodity in the Nigeria area before 1800?",
+    "options": {
+      "A": "Coffee",
+      "B": "Rubber",
+      "C": "Cocoa",
+      "D": "Kola nuts"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_11",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "11",
+    "question": "The Omani Empire declined in the 19th century due to",
+    "options": {
+      "A": "Internal power struggles",
+      "B": "Natural disasters",
+      "C": "Invasions from neighboring empires",
+      "D": "European colonialism"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_12",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "12",
+    "question": "Morocco is known for producing which luxury commodity, derived from the argan tree?",
+    "options": {
+      "A": "Olive oil",
+      "B": "Coffee",
+      "C": "Spices",
+      "D": "Argan oil"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_13",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "13",
+    "question": "Which pre-colonial kingdom in the Nigeria Area was renowned for its wealth and participation in the trans-Saharan trade?",
+    "options": {
+      "A": "Kanem-Bornu Empire",
+      "B": "Sokoto Caliphate",
+      "C": "Oyo Empire",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_14",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "14",
+    "question": "Which major event led to the decline of the Benin Kingdom's influence in the 19th century?",
+    "options": {
+      "A": "The American Civil War",
+      "B": "The Scramble for Africa",
+      "C": "The Opium Wars",
+      "D": "The French Revolution"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_15",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "15",
+    "question": "The British colonial policy of \"indirect rule\" was first implemented in Nigeria by Lugard in which region?",
+    "options": {
+      "A": "Calabar",
+      "B": "Oyo",
+      "C": "Lagos",
+      "D": "Kano"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_16",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "16",
+    "question": "The Aba Women's Riots of 1929 were a response to:",
+    "options": {
+      "A": "The prohibition of women from participating in politics.",
+      "B": "The banning of traditional religious practices.",
+      "C": "The imposition of heavy taxes on women traders.",
+      "D": "Forced labor in European-owned plantations."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_17",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "17",
+    "question": "The Kanem-Borno Empire prospered due to its control over",
+    "options": {
+      "A": "Ivory trade",
+      "B": "Salt trade",
+      "C": "Gold trade",
+      "D": "Copper trade"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_18",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "18",
+    "question": "Apartheid in South Africa was a system that institutionalized racial segregation and discrimination. What year did it officially begin?",
+    "options": {
+      "A": "1948",
+      "B": "1956",
+      "C": "1971",
+      "D": "1963"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_19",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "19",
+    "question": "The colonization of Liberia began in what year?",
+    "options": {
+      "A": "1875",
+      "B": "1807",
+      "C": "1807",
+      "D": "1850"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_20",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "20",
+    "question": "What was the outcome of the Battle of Adwa in 1896?",
+    "options": {
+      "A": "Ethiopia and Italy signed a peace treaty.",
+      "B": "Italy withdrew from Ethiopia.",
+      "C": "Ethiopia gained full independence from Italy.",
+      "D": "Ethiopia was annexed by Italy."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_21",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "21",
+    "question": "The ancient city of Carthage, once a powerful Phoenician civilization, was located in modern-day",
+    "options": {
+      "A": "Egypt",
+      "B": "Algeria",
+      "C": "Morocco",
+      "D": "Tunisia"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_22",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "22",
+    "question": "Which organization played a crucial role in the fight against apartheid in South Africa and was led by Nelson Mandela?",
+    "options": {
+      "A": "Economic Community of West African States (ECOWAS)",
+      "B": "African Union (AU)",
+      "C": "Southern African Development Community (SADC)",
+      "D": "African National Congress (ANC)"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_23",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "23",
+    "question": "Who was the Oba of Benin during the height of the kingdom's power in the 19th century?",
+    "options": {
+      "A": "Oba Ewuare II",
+      "B": "Oba Ovonramwen",
+      "C": "Oba Akenzua II",
+      "D": "Oba Erediauwa"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_24",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "24",
+    "question": "The decline of the Songhai Empire in the 16th century was partly due to",
+    "options": {
+      "A": "Internal unrest and external attacks",
+      "B": "Arab invasions",
+      "C": "British colonial expansion",
+      "D": "Portuguese trade restrictions"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_25",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "25",
+    "question": "What was the major consequence of the Scramble for Africa in Yorubaland?",
+    "options": {
+      "A": "Yorubaland experienced rapid industrialization.",
+      "B": "Yorubaland lost its independence and became a British protectorate.",
+      "C": "Yoruba city-states formed a confederation.",
+      "D": "Yorubaland became a French colony."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_26",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "26",
+    "question": "Which conference, held in 1884-1885, laid the groundwork for the partition of Africa among European powers?",
+    "options": {
+      "A": "Congress of Vienna",
+      "B": "Treaty of Tordesillas",
+      "C": "Treaty of Versailles",
+      "D": "Conference of Berlin"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_27",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "27",
+    "question": "Which African country experienced a prolonged and violent struggle for independence against French colonial rule, culminating in a war of independence that lasted from 1954 to 1962?",
+    "options": {
+      "A": "Algeria",
+      "B": "Tunisia",
+      "C": "Tunisia",
+      "D": "Morocco"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_28",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "28",
+    "question": "Which Yoruba city-state was the last to fall to British colonial rule in the late 19th century?",
+    "options": {
+      "A": "Abeokuta",
+      "B": "Oyo",
+      "C": "Lagos",
+      "D": "Ibadan"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_29",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "29",
+    "question": "How did the establishment of missionary schools during the colonial era affect the Nigerian economy?",
+    "options": {
+      "A": "It led to increased government spending on education.",
+      "B": "It hindered economic development due to religious conflicts.",
+      "C": "It improved the literacy rate and provided a skilled workforce.",
+      "D": "It favored British education over traditional Nigerian education."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_30",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "30",
+    "question": "Lake Victoria, one of the largest freshwater lakes in the world, is shared by three countries. Which of the following countries is NOT among them?",
+    "options": {
+      "A": "Uganda",
+      "B": "Tanzania",
+      "C": "Kenya",
+      "D": "Mozambique"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_31",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "31",
+    "question": "Which British explorer is credited with the \"discovery\" of the Niger River, sparking further interest in the Nigeria Area?",
+    "options": {
+      "A": "James Cook",
+      "B": "John Cabot",
+      "C": "David Livingstone",
+      "D": "Ferdinand Magellan"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_32",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "32",
+    "question": "Which Islamic reform movement aimed to purify the practice of Islam from local customs and traditions in West Africa during the 18th and 19th centuries?",
+    "options": {
+      "A": "Wahhabi Movement",
+      "B": "Mahdist Movement",
+      "C": "Sufi Brotherhoods",
+      "D": "Qadiriyya Movement"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_33",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "33",
+    "question": "In 1991, Nigeria hosted the \"World Festival of Black Arts and Culture.\" Which city was the venue for this cultural event?",
+    "options": {
+      "A": "Abuja",
+      "B": "Kano",
+      "C": "Calabar",
+      "D": "Lagos"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_34",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "34",
+    "question": "During the Mahdiyya Movement, the British-Egyptian forces were defeated at the Battle of",
+    "options": {
+      "A": "Kerreri",
+      "B": "Dongola",
+      "C": "Khartoum",
+      "D": "Omdurman"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_35",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "35",
+    "question": "During the Second Republic, Nigeria experienced a boom in which sector?",
+    "options": {
+      "A": "Technology",
+      "B": "Mining",
+      "C": "Oil and gas",
+      "D": "Agriculture"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_36",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "36",
+    "question": "What significant event occurred during the Murtala/Obasanjo regime's early days in office?",
+    "options": {
+      "A": "The declaration of war against neighboring countries",
+      "B": "The release of political prisoners",
+      "C": "The launch of the Green Revolution program",
+      "D": "The Second Republic elections"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Electoral Process",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_37",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "37",
+    "question": "Who was the Zulu king responsible for the expansion of the Zulu Kingdom during the MFECANE?",
+    "options": {
+      "A": "King Moshoeshoe",
+      "B": "King Cetshwayo",
+      "C": "Nelson Mandela",
+      "D": "Shaka Zulu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_38",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "38",
+    "question": "Which social group in Nigeria was most affected by the introduction of the indirect rule system?",
+    "options": {
+      "A": "Chief priest",
+      "B": "Educated elites",
+      "C": "Traditional rulers",
+      "D": "Women in rural areas"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_39",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "39",
+    "question": "Which constitutional conference in London paved the way for Nigeria's independence?",
+    "options": {
+      "A": "London Conference of 1945",
+      "B": "London Conference of 1920",
+      "C": "London Conference of 1963",
+      "D": "London Conference of 1957"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Constitution"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_40",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "40",
+    "question": "Which African leader famously stated, \"I am the captain of my soul\" and became an icon of the decolonization movement?",
+    "options": {
+      "A": "Nelson Mandela",
+      "B": "Julius Nyerere",
+      "C": "Patrice Lumumba",
+      "D": "Jomo Kenyatta"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_41",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "41",
+    "question": "The Mfecane was primarily driven by",
+    "options": {
+      "A": "Famine and drought",
+      "B": "Intertribal conflicts and population movements",
+      "C": "European colonial expansion",
+      "D": "Arab slave trade"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration",
+      "The Structure and Workings of Nigerian Federalism"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_42",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "42",
+    "question": "What was the political structure of the Nupe Kingdom during this period?",
+    "options": {
+      "A": "Feudal system",
+      "B": "Absolute monarchy",
+      "C": "Tribal confederation",
+      "D": "Parliamentary democracy"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Forms of Government"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Monarchy",
+      "Forms of Government :: Democracy"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_43",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "43",
+    "question": "What was the primary economic activity of the Nupe people during this period?",
+    "options": {
+      "A": "Hunting",
+      "B": "Farming",
+      "C": "Fishing",
+      "D": "Trading"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_44",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "44",
+    "question": "How did the amalgamation affect the traditional political systems in Nigeria?",
+    "options": {
+      "A": "It had no impact on the traditional systems",
+      "B": "It abolished the traditional systems",
+      "C": "It strengthened the traditional systems",
+      "D": "It led to the formation of a new political system"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_45",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "45",
+    "question": "Which of the following was a significant effect of colonial education in Nigeria?",
+    "options": {
+      "A": "Elimination of traditional educational systems",
+      "B": "Fostering unity among various ethnic groups",
+      "C": "Limited access to education for the masses",
+      "D": "Preservation of indigenous languages and cultures"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_46",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "46",
+    "question": "Which external influence contributed to the spread of the Bantu language in the Nigeria area?",
+    "options": {
+      "A": "Nok civilization",
+      "B": "Egyptian traders",
+      "C": "Phoenician explorers",
+      "D": "Arab merchants"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_47",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "47",
+    "question": "Which Christian missionary is known for translating the Bible into several indigenous Liberian languages?",
+    "options": {
+      "A": "Edward Blyden",
+      "B": "Samuel Ajayi Crowther",
+      "C": "Mary Slessor",
+      "D": "Lott Cary"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_48",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "48",
+    "question": "Which major international power supported Biafra during the Civil War?",
+    "options": {
+      "A": "France",
+      "B": "China",
+      "C": "United Kingdom",
+      "D": "United States"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_49",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "49",
+    "question": "How did Ethiopia's defeat of Italian forces at the Battle of Adwa impact the Pan-African movement?",
+    "options": {
+      "A": "It inspired other African nations to join the movement",
+      "B": "It encouraged African diaspora communities to return to Africa",
+      "C": "It led to the formation of the African Union",
+      "D": "It accelerated the end of colonialism in Africa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Imperialist Penetration",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_50",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "50",
+    "question": "The \"Magna Carta,\" signed in 1215, limited the power of which monarch?",
+    "options": {
+      "A": "King Louis XIV of France",
+      "B": "King Henry VIII of England",
+      "C": "King John of England",
+      "D": "Emperor Charlemagne of the Holy Roman Empire"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_51",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "51",
+    "question": "Sierra Leone is home to a rich musical tradition, with one popular genre known as",
+    "options": {
+      "A": "Maringa",
+      "B": "Reggae",
+      "C": "Highlife",
+      "D": "Salsa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_52",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "52",
+    "question": "The Mahdiyya Movement began with the declaration of the Mahdi in what year?",
+    "options": {
+      "A": "1878",
+      "B": "1882",
+      "C": "1890",
+      "D": "1885"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_53",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "53",
+    "question": "How did the Murtala/Obasanjo regime handle the issue of minority rights and tensions among various ethnic groups?",
+    "options": {
+      "A": "Encouraging forced assimilation of minority cultures",
+      "B": "Implementing a quota system in government employment and education",
+      "C": "Imposing martial law in regions with conflicts",
+      "D": "Granting autonomy to regions seeking independence"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Imperialist Penetration",
+      "The Structure and Workings of Nigerian Federalism",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_54",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "54",
+    "question": "Which region of Nigeria was known for its active involvement in long-distance trade during the pre-1800 period?",
+    "options": {
+      "A": "Sahara Desert",
+      "B": "Niger Delta",
+      "C": "Lake Chad Basin",
+      "D": "Benue River Valley"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_55",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "55",
+    "question": "The movement led by El Hadj Umar Tall in the 19th century aimed to create an Islamic state in",
+    "options": {
+      "A": "Senegal",
+      "B": "Mali",
+      "C": "Guinea",
+      "D": "Mauritania"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_56",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "56",
+    "question": "Which international boycott significantly contributed to the end of apartheid in South Africa?",
+    "options": {
+      "A": "The Suez Canal Boycott",
+      "B": "The Anti-Apartheid Boycott",
+      "C": "The Boston Tea Party Boycott",
+      "D": "The Montgomery Bus Boycott"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_57",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "57",
+    "question": "In which year did Nigeria host the Commonwealth Heads of Government Meeting (CHOGM)?",
+    "options": {
+      "A": "1999",
+      "B": "2013",
+      "C": "2007",
+      "D": "2003"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Post-Independence Constitutions",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_58",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "58",
+    "question": "The Omani influence in East Africa led to the growth of a distinct Swahili culture. What contributed to the development of this culture?",
+    "options": {
+      "A": "Chinese trade missions",
+      "B": "Persian conquests",
+      "C": "Indian migration",
+      "D": "Portuguese colonization"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_59",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "59",
+    "question": "What was the primary reason for the military takeover by the Abacha regime?",
+    "options": {
+      "A": "To implement economic reforms",
+      "B": "To promote religious freedom",
+      "C": "To restore democracy",
+      "D": "To fight corruption"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Forms of Government",
+      "Local Government",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Democracy"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_60",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "60",
+    "question": "Which historical period is characterized by the emergence of written language and the invention of the wheel?",
+    "options": {
+      "A": "Bronze Age",
+      "B": "Middle Ages",
+      "C": "Stone Age",
+      "D": "Neolithic Age"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_61",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "61",
+    "question": "What was the purpose of the Pan-African Congresses that began in 1900?",
+    "options": {
+      "A": "To advocate for African colonization of Europe",
+      "B": "To promote European imperialism in Africa",
+      "C": "To discuss strategies for African independence and unity",
+      "D": "To establish trade alliances with Asian countries"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Arms of Government",
+      "Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_62",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "62",
+    "question": "The system of Government in the Sokoto Caliphate was",
+    "options": {
+      "A": "Democracy",
+      "B": "Parliamentary",
+      "C": "Totalitarianism",
+      "D": "Communism"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Forms of Government"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Democracy"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_63",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "63",
+    "question": "The first colonial capital of Nigeria was established in",
+    "options": {
+      "A": "Lagos",
+      "B": "Port Harcourt",
+      "C": "Calabar",
+      "D": "Kano"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Arms of Government",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_64",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "64",
+    "question": "The Great Walls of Kano, ancient defensive walls, were built to protect the city from potential attacks in what century?",
+    "options": {
+      "A": "15th century",
+      "B": "12th century",
+      "C": "13th century",
+      "D": "18th century"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_65",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "65",
+    "question": "The Treaty of Nanjing, signed after the First Opium War, resulted in the cession of which territory to Great Britain?",
+    "options": {
+      "A": "Macau",
+      "B": "Hong Kong",
+      "C": "Taiwan",
+      "D": "Shanghai"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_66",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "66",
+    "question": "Which of the following trade commodities was highly sought after and contributed to the rise of several states in the Nigeria area up to 1800?",
+    "options": {
+      "A": "Ivory",
+      "B": "Gold",
+      "C": "Spices",
+      "D": "Salt"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_67",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "67",
+    "question": "Which event marked the rise of Mohammed Ali to power in Egypt?",
+    "options": {
+      "A": "The French Invasion of Egypt",
+      "B": "The British Occupation of Egypt",
+      "C": "The Mamluk Massacre",
+      "D": "The Ottoman-Saudi War"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_68",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "68",
+    "question": "The Rwandan genocide in 1994 resulted in the mass killing of which ethnic group?",
+    "options": {
+      "A": "Zulus",
+      "B": "Tutsis",
+      "C": "Hutus",
+      "D": "Bantus"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_69",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "69",
+    "question": "What event marked the official end of apartheid in South Africa?",
+    "options": {
+      "A": "The release of Nelson Mandela from prison",
+      "B": "The signing of the Freedom Charter",
+      "C": "The Sharpeville Massacre",
+      "D": "The Truth and Reconciliation Commission hearings"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_70",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "70",
+    "question": "The Richards Constitution of 1946 introduced the concept of regionalism in Nigeria, dividing the country into how many regions?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Constitution",
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_71",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "71",
+    "question": "During The Great Trek, the Boers clashed with which indigenous African groups?",
+    "options": {
+      "A": "Maasai and Kikuyu.",
+      "B": "Zulu and Xhosa.",
+      "C": "San and Khoikhoi.",
+      "D": "Berber and Tuareg."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_72",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "72",
+    "question": "Who was the leader of the opposition in Nigeria during the Second Republic?",
+    "options": {
+      "A": "Abubakar Tafawa Balewa",
+      "B": "Shehu Shagari",
+      "C": "Obafemi Awolowo",
+      "D": "Ahmadu Bello"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_73",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "73",
+    "question": "Muhammadu Buhari served as Nigeria's military head of state during which period?",
+    "options": {
+      "A": "1976-1979",
+      "B": "2007-2010",
+      "C": "1993-1998",
+      "D": "1983-1985"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Systems of Governance",
+      "Post-Independence Constitutions",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_74",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "74",
+    "question": "The Efik Kingdom had a highly developed system of writing known as",
+    "options": {
+      "A": "Hieroglyphics",
+      "B": "Cuneiform",
+      "C": "Ajami",
+      "D": "Nsibidi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_75",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "75",
+    "question": "The Oyo Empire reached its peak during the reign of which Alaafin?",
+    "options": {
+      "A": "Oba Ewuare",
+      "B": "Oduduwa",
+      "C": "Shango",
+      "D": "Abiodun"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_76",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "76",
+    "question": "Which initiative was launched by the Buhari administration to tackle corruption in Nigeria?",
+    "options": {
+      "A": "EFCC (Economic and Financial Crimes Commission)",
+      "B": "Operation Python Dance",
+      "C": "Operation Crocodile Smile",
+      "D": "Operation Lafiya Dole"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2023_77",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "77",
+    "question": "The Magna Carta, signed in 1215, is an important historical document that limited the power of which figure?",
+    "options": {
+      "A": "Kings and Monarchs",
+      "B": "The Pope",
+      "C": "Military Generals",
+      "D": "Wealthy Merchants"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2023_78",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2023,
+    "number": "78",
+    "question": "What contributed significantly to the rise of early states in Nigeria?",
+    "options": {
+      "A": "Industrial revolution",
+      "B": "Arab trade routes",
+      "C": "European colonization",
+      "D": "Agricultural advancements"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  }
+]

@@ -1,0 +1,3055 @@
+[
+  {
+    "id": "JAMB_Biology_2024_1",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "1",
+    "question": "The major building block of an organism is...",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Carbon",
+      "C": "Water",
+      "D": "Sulphur"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Carbon is the primary building block of life on Earth.Carbon can form stable, complex molecules with other elements, especially hydrogen, oxygen, and nitrogen.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_2",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "2",
+    "question": "The process by which plants loss water to the atmosphere is",
+    "options": {
+      "A": "transpiration",
+      "B": "guttation",
+      "C": "translocation",
+      "D": "evaporation"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The process by which plants lose water to the atmosphere is called transpiration.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_3",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "3",
+    "question": "Use the diagram above to answer the question that follows The organism belongs to kingdom",
+    "options": {
+      "A": "monera",
+      "B": "protista",
+      "C": "fungi",
+      "D": "animalia"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Plant kingdom (Thallophyta to Spermatophyta)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The diagram is that of the virus. Viruses are obligate parasites, meaning they can't produce their own energy or proteins. They enter the host cell and use the cell's machinery to make their own nucleic acids and proteins. Viruses also use the host cell's lipids and sugar chains to create their membranes and glycoproteins. This parasitic replication can severely damage the host cell, which can lead to disease or cell death. Theyusually enter your body through your mucous membranes. These include your eyes, nose, mouth, penis, vagina and anus.",
+    "images": [
+      {
+        "filename": "Biology_2024_q3_28fdbf27.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/3hMKLkc2QxGXqMhzaR6YRiWHD75GfVoMhnOzwubI.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_4",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "4",
+    "question": "The formation of cilia and flagella in living cells is carried out with the help of",
+    "options": {
+      "A": "ribosome",
+      "B": "lysosome",
+      "C": "centriole",
+      "D": "plastid"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A lysosome functions as the \"garbage disposal unit\" of a cell, primarily responsible for breaking down and recycling waste materials within the cell by digesting old cell parts, extracellular debris, and invading pathogens using digestive enzymes, thus maintaining cellular homeostasis and contributing to important processes like programmed cell death (apoptosis).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_5",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "5",
+    "question": "The food nutrient with the highest energy value is",
+    "options": {
+      "A": "protein",
+      "B": "carbohydrate",
+      "C": "lipid",
+      "D": "minerals"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Fat is the food nutrient with the highest energy value, providing 9 calories per gram, while carbohydrates and proteins provide 4 calories per gram.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_6",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "6",
+    "question": "I 6 X  +  6 H\\(_2\\)O      →     C\\(_6\\)H\\(_{12}\\)O\\(_6\\)   +   6O\\(_2\\) III               chlorophyll      II               IV Use the diagram above to answer question that follows The part labelled I is",
+    "options": {
+      "A": "enzyme",
+      "B": "water",
+      "C": "sunlight",
+      "D": "chemical"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The chemical reaction represents photosynthesis, a process through which green plants manufacture their food in the presence ofsunlight,making use of Carbon(IV) oxide and Water.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_7",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "7",
+    "question": "Bilateral symmetry,cylindrical bodies and double openings are characteristic features of",
+    "options": {
+      "A": "nematodes",
+      "B": "hydra",
+      "C": "protozoa",
+      "D": "protists"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nematodes are bilaterally symmetrical. Bilaterally symmetrical means that an organism can be divided lengthwise into two identical halves that are mirror images of each other. Nematodes have two openings: a mouth and an anus. This is because they have a complete digestive system, also known as an alimentary canal.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_8",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "8",
+    "question": "Mouth part adapted for piercing and sucking is found in",
+    "options": {
+      "A": "housefly",
+      "B": "grasshopper",
+      "C": "mosquito",
+      "D": "cockroach"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The housefly has a sponging and sucking type of mouthpart, meaning it absorbs liquid food by essentially \"lapping\" it up with its spongy labellum, not piercing to suck like a mosquito does.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_9",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "9",
+    "question": "The web-feet of frogs and toads is basically for",
+    "options": {
+      "A": "leaping",
+      "B": "walking",
+      "C": "swimming",
+      "D": "mating"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The webbed feet of frogs and toads help themswimand move through water.The thin layer of skin that connects the toes of frogs and toads increases the surface area of their feet, allowing them to push against the water more effectively. This helps them move quickly through the water to chase food or escape predators.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_10",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "10",
+    "question": "The part of the inner ear that is responsible for hearing is",
+    "options": {
+      "A": "sacculus",
+      "B": "cochlea",
+      "C": "utriculus",
+      "D": "ampullae"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The sacculus is a sensory organ located in the inner ear that primarily functions to detect vertical linear acceleration, meaning it senses movement in the up and down direction, like when you're in an elevator, and helps maintain balance by providing information about your head's position relative to gravity; essentially, it tells your brain if your head is tilting forward or backward.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_11",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "11",
+    "question": "The changes of living organisms over generation is referred to as",
+    "options": {
+      "A": "human evolution",
+      "B": "organic evolution",
+      "C": "physical evolution",
+      "D": "chemical evolution"
+    },
+    "correct_answer": "B",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Human evolution is the process by which humans evolved from ape-like ancestors over millions of years. This process resulted in the development of physical and behavioral traits that all humans share today.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_12",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "12",
+    "question": "In a cross involving a heterozygous red flower plant (Rr) and a white flowered plant (rr). What is the probability that the offspring will be Rr?",
+    "options": {
+      "A": "\\(\\frac{1}{2}\\)",
+      "B": "1",
+      "C": "2",
+      "D": "\\(\\frac{1}{4}\\)"
+    },
+    "correct_answer": "A",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "By crossing  Rr  x  rr",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_13",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "13",
+    "question": "Inbreeding is highly discouraged in humans because it may",
+    "options": {
+      "A": "increase the death rate of new born",
+      "B": "lead to the birth of dwarfs",
+      "C": "lead to high rate of competition among offspring",
+      "D": "lead to outbreak of hereditary diseases"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Inbreeding is the mating of organisms that are more closely related than would normally occur in nature. This can include mating between siblings, parents and children, or first cousins. Studies have confirmed anincrease in several genetic disordersdue to inbreeding such as blindness, hearing loss, neonatal diabetes, limb malformations, disorders of sex development, schizophrenia and several others. In adults, inbreeding can lead to deafness, visual impairment, and mental deficiency.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_14",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "14",
+    "question": "One main feature of trees in the savanna habitat is the possession of",
+    "options": {
+      "A": "large, leathery leaves",
+      "B": "straight slender stems with branches near the top",
+      "C": "thin, smooth barks",
+      "D": "thick, corky bark"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A savanna is a hot, dry ecosystem with a mix of grasslands and woodland.Trees in savannas often have thick bark to protect them from fire damage. Savannas are usually found near the equator, where there is more direct sunlight and warm temperatures all year.Some common trees found in savannas include acacia, combretum, baobabs, borassus, and euphorbia.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_15",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "15",
+    "question": "Use the diagram above to answer the question that follows The zone labelled II is called",
+    "options": {
+      "A": "supra-tidal zone",
+      "B": "pelagic zone",
+      "C": "littoral zone",
+      "D": "benthic zone"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The supra-tidal zone, also known as the splash zone or spray zone, is the area of a coastline or estuary that is above the spring high tide line and is regularly splashed by ocean water but never submerged. The supra-tidal zone is only flooded during storms or spring tides.",
+    "images": [
+      {
+        "filename": "Biology_2024_q15_026a325d.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/MoDFQu4BqOYBLDPpuTSaZIZiapRQ5CGrWnBqcOz1.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_16",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "16",
+    "question": "Which of the following structures enables the exchange of gases in insects?",
+    "options": {
+      "A": "skin",
+      "B": "tracheae",
+      "C": "Malpighian tubules",
+      "D": "flame cell"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Insects have a tracheal respiratory system in whichoxygen and carbon dioxide travel primarily through air-filled tubes called tracheae.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_17",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "17",
+    "question": "The total number of ATP produced during glycolysis is",
+    "options": {
+      "A": "3 molecules",
+      "B": "2 molecules",
+      "C": "4 molecules",
+      "D": "6 molecules"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Glycolysis is the process in which glucose is broken down to produce energy. It produces two molecules of pyruvate, ATP, NADH and water. Glycolysis is a two-phase process that begins in the cytoplasm of a cell. The first phase, called the investment phase, requires two ATP molecules to add phosphates to glucose. The net gain istwo ATP molecules.The total number of ATP produced during glycolysis istwo.The net gain of ATP produced during glycolysis is 2 molecules. While 4 ATP molecules are produced, 2 are consumed in the initial steps, resulting in a net gain of 2.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_18",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "18",
+    "question": "Use the diagram above to answer the question that follows The diagram above is",
+    "options": {
+      "A": "circulatory system",
+      "B": "reproductive system",
+      "C": "urinary system",
+      "D": "nervous system"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Biology_2024_q18_d910df3c.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/VvVkinvXC1MeomdpxOBZr3jbrjrFndz0kAQW8WaI.png"
+      }
+    ],
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_19",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "19",
+    "question": "Bile is a greenish alkaline liquid which is stored in the",
+    "options": {
+      "A": "gall bladder",
+      "B": "liver",
+      "C": "stomach",
+      "D": "pancreas"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The gallbladder stores bile, a greenish-yellow digestive fluid that helps break down fats in food:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_20",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "20",
+    "question": "A medium texture soil with high organic matter is",
+    "options": {
+      "A": "clay",
+      "B": "loamy",
+      "C": "humus",
+      "D": "sandy"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Soil characteristics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Loamy Soil is the mixture of clay, sand and silt soilwhich consists of additional organic matter and is very fertile compared to other types of soil. It is a mixture of sand, silt, and clay, loamy soil is characterized by a significant amount of organic matter, which is decomposed plant and animal material. Loamy soil is fertile and well-suited for cultivation because it provides plants with the nutrients and water they need to grow.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_21",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "21",
+    "question": "One of the following is an example of discontinuous variation",
+    "options": {
+      "A": "shape of the head",
+      "B": "blood group",
+      "C": "body complexion",
+      "D": "pointed nose"
+    },
+    "correct_answer": "B",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Discontinuous variation is when individuals fall into distinct categories or classes, and there are no values in between. Blood group is an example of discontinuous variation. In the ABO blood group system, there are only four possible blood groups: A, B, AB, or O. You can't have a blood group in between these four groups.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_22",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "22",
+    "question": "The type of variation where there are no remarkable differences between the two extreme individuals is called",
+    "options": {
+      "A": "continuous variation",
+      "B": "morphological variation",
+      "C": "physiological variation",
+      "D": "discontinuous variation"
+    },
+    "correct_answer": "A",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Continuous variation is a type of variation where there are no clear differences between two extreme individuals, and instead there is a gradual change from one extreme to another.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_23",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "23",
+    "question": "The transmission of diseases through contamination of food is an economic importance of",
+    "options": {
+      "A": "mosquitoes",
+      "B": "cockroaches",
+      "C": "butterflies",
+      "D": "bees"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cockroaches can transmit diseases through food contamination, which is an economic concern.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_24",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "24",
+    "question": "Bryophyte is an intermediate group between higher algae and",
+    "options": {
+      "A": "thallophyte",
+      "B": "pteridophyte",
+      "C": "spermatophyte",
+      "D": "tracheophyte"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Bryophytes are sometimes referred to as an intermediate group between algae and vascular plants(Pteridophytes).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_25",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "25",
+    "question": "Ecological succession can result from",
+    "options": {
+      "A": "newly formed habitat",
+      "B": "habitat with abundant food",
+      "C": "habitat with space and light",
+      "D": "population of plants on a fertile land"
+    },
+    "correct_answer": "A",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ecological succession is a gradual process that occurs when an ecosystem changes in species composition and community structure over time after a disturbance.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_26",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "26",
+    "question": "The first organism evolved from which of the following habitat?",
+    "options": {
+      "A": "terrestrial",
+      "B": "arboreal",
+      "C": "aquatic",
+      "D": "desert"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Amphibians, reptiles, mammals, and birds evolved after fish. The first amphibians evolved from a lobe-finned fish ancestor . They were the first vertebrates to live on land, but they had to return to water to reproduce.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_27",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "27",
+    "question": "Which of these pair of substances must be present for a seed to germinate in a laboratory set-up?",
+    "options": {
+      "A": "microbes and water",
+      "B": "heat and water",
+      "C": "soil and manure",
+      "D": "heat and microbe"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "All seeds needwater, oxygen, and proper temperaturein order to germinate. Experiment has shown thatgerminating seedsproduceheat.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_28",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "28",
+    "question": "A fruit formed from one flower with many carpels is referred to as",
+    "options": {
+      "A": "simple",
+      "B": "multiple",
+      "C": "aggregate",
+      "D": "false"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Asimple fruitis a fruit that develops from asingle flowerwithone ovaryor multiple fused carpels. The ovary wall ripens into a single fruit, separate from other ovaries.E.g Apples, Oranges, peaches, Lemon, melon etc",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_29",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "29",
+    "question": "Which of the following plant is found in the ground layer of a tropical rainforest in Nigeria?",
+    "options": {
+      "A": "obeche",
+      "B": "liverwort",
+      "C": "mahogany",
+      "D": "oil palm"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Liverworts are found in the ground layer of a tropical rainforest, along with other plants like ferns, wildflowers, moss, and sedges. Liverworts are non-vascular plants, meaning they don't have roots or vascular tissue, and instead absorb nutrients and water from the air through their leaves.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_30",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "30",
+    "question": "Use the diagram above to answer the question that follows The endocrine gland that is located in the part labelled I is",
+    "options": {
+      "A": "thyroid",
+      "B": "adrenal",
+      "C": "parathyroid",
+      "D": "pituitary"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Biology_2024_q30_5dc79c78.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/CvnXmcVfQ6tTmynSBaNORnY5Njui0EMX7RKPnEEy.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_31",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "31",
+    "question": "Which of the following processes takes place in the carbon cycle?",
+    "options": {
+      "A": "evaporation",
+      "B": "nitrification",
+      "C": "combustion",
+      "D": "transpiration"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Nutrient cycling (carbon, nitrogen, water)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Combustion is a process that takes place in the carbon cycle, while transpiration is not.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_32",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "32",
+    "question": "Which of the following plants shows hypogeal germination?",
+    "options": {
+      "A": "castor oil",
+      "B": "groundnut",
+      "C": "maize",
+      "D": "orange"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Hypogeal germination is a type of seed germination that occurs below ground, where the cotyledons  remain below the soil.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_33",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "33",
+    "question": "In vascular plants, xylem tissue is responsible for",
+    "options": {
+      "A": "transportation of water",
+      "B": "translocation of food",
+      "C": "transportation of hormones",
+      "D": "storage of sugar"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In vascular plants, xylem tissue is responsible for transporting water and dissolved minerals from the roots to the leaves. Xylem is a vascular tissue, along with phloem, which is the other main transport system in plants.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_34",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "34",
+    "question": "The causative agent of tuberculosis is",
+    "options": {
+      "A": "virus",
+      "B": "bacteria",
+      "C": "protozoa",
+      "D": "fungi"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The causative agent of tuberculosis (TB) is thebacterium Mycobacterium tuberculosis.TB is a contagious disease that spreads through the air when people with active TB in their lungs cough, sneeze, or spit.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_35",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "35",
+    "question": "Which of these is a respiratory organ in mammals?",
+    "options": {
+      "A": "skin",
+      "B": "mouth",
+      "C": "heart",
+      "D": "lungs"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Reproduction in plants and mammals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The lungs are the respiratory organ in mammals.They are the primary respiratory organs in mammals. They are located in the thorax, on either side of the mediastinum. The lungs take in oxygen from the air and release carbon dioxide, which oxygenates the blood.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_36",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "36",
+    "question": "Which of the Nigeria states is Northern guinea savanna located?",
+    "options": {
+      "A": "Borno",
+      "B": "Kano",
+      "C": "Oyo",
+      "D": "Kwara"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_37",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "37",
+    "question": "Darwin's theory of evolution is based on the principle of",
+    "options": {
+      "A": "use and disuse of organ",
+      "B": "natural selection",
+      "C": "acquired characteristics",
+      "D": "mutation"
+    },
+    "correct_answer": "B",
+    "topic": "E: Evolution",
+    "subtopic": "Darwin's theory of natural selection",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Jean-Baptiste Lamarck proposed the theory of use and disuse of organs, also known as Lamarckism",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_38",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "38",
+    "question": "Similar structures that are modified to work in different ways in different organisms are referred to as",
+    "options": {
+      "A": "homologous structures",
+      "B": "analogous structures",
+      "C": "divergent structures",
+      "D": "convergent structures"
+    },
+    "correct_answer": "A",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Similar structures that are modified to work in different ways in different organisms are called homologous structures.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_39",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "39",
+    "question": "One of the ways of controlling Schistosomiasis is by",
+    "options": {
+      "A": "destroying water snails and water weeds",
+      "B": "clearing the bushes around the house",
+      "C": "washing hands after using the toilet",
+      "D": "properly washing fruits before eating them"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Hormonal control",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Schistosomiasis, also known as bilharzia or snail fever, is a parasitic disease caused by blood flukes that live in freshwater snails. The larval form of the parasite, called cercariae, emerges from the snail and contaminates water. People become infected when their skin comes into contact with the contaminated water. Treating water sources with chemicals to kill snails (molluscicides) can reduce the number of infective larvae.This will help control the snails.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_40",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "40",
+    "question": "The central nervous system comprises of",
+    "options": {
+      "A": "brain and somatic",
+      "B": "brain and spinal cord",
+      "C": "spinal cord and somatic",
+      "D": "brain only"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Coordination and nervous system",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The central nervous system (CNS) is made up of the brain and spinal cord:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_41",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "41",
+    "question": "Use the diagram above to answer the question that follows The organelle that shows the organism has plant characteristics is",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "I - Paramylum granules",
+    "images": [
+      {
+        "filename": "Biology_2024_q41_2e8eb85e.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/c0DmqdZioar6fq6veC3SBG8L3BJEWho4yiArDO8h.png"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_42",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "42",
+    "question": "Reproduction in paramecium is by",
+    "options": {
+      "A": "binary fission",
+      "B": "budding",
+      "C": "spore formation",
+      "D": "fragmentation"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Reproduction in plants and mammals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The type of reproduction in Paramecium isasexual binary fissionin which a fully grown organism divides into two daughter cells. Paramecium also exhibits several types of sexual processes.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_43",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "43",
+    "question": "A community with a population of two million three hundred and ten thousand people living in an area of two thousand three hundred and ten square kilometres has a population density of",
+    "options": {
+      "A": "10000",
+      "B": "10",
+      "C": "100",
+      "D": "1000"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Population ecology",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The formula for population density is Dp = \\(\\frac{N}{A}\\)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_44",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "44",
+    "question": "A succession that occurs in an area where there are no pre-existing community is called",
+    "options": {
+      "A": "tertiary succession",
+      "B": "primary succession",
+      "C": "post-primary succession",
+      "D": "secondary succession"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Primary succession is the ecological succession that occurs in an area where there is no pre-existing community. Primary succession is the process of colonization that begins when an area has no plant life, such as after a volcanic eruption or glacial retreat.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_45",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "45",
+    "question": "Which of the following processes releases oxygen to the atmosphere?",
+    "options": {
+      "A": "Respiration",
+      "B": "Combustion",
+      "C": "Decomposition",
+      "D": "photosynthesis"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Photosynthesis is the process that releases oxygen into the atmosphere.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_46",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "46",
+    "question": "The depressed side of paramecium which is lined with cilia leads to a tube-like structure called",
+    "options": {
+      "A": "anal pore",
+      "B": "oral groove",
+      "C": "gullet",
+      "D": "food vacuole"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_47",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "47",
+    "question": "The rhizoid of liverwort is",
+    "options": {
+      "A": "unicellular and unbranched",
+      "B": "multicellular and branched",
+      "C": "unicellular and branched",
+      "D": "multicellular and unbranched"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_48",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "48",
+    "question": "In glycolysis, glucose is broken down through series of reactions in the presence of enzyme and absence of oxygen to produce",
+    "options": {
+      "A": "Acetyl-coenzyme + ATP",
+      "B": "Phosphorylated glucose",
+      "C": "pyruvic acid + ATP",
+      "D": "Amino acid"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Glycolysis is the first step in cellular respiration and occurs in the cytoplasm of cells. It's a series of ten enzymatic reactions that break down glucose into pyruvic acid. In glycolysis, glucose is broken down through a series of enzyme-catalyzed reactions to produce pyruvate, ATP, and NADH",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_49",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "49",
+    "question": "Gaseous exchange takes place through the plasma membrane in",
+    "options": {
+      "A": "hydra",
+      "B": "paramecium",
+      "C": "flatworm",
+      "D": "earthworm"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In unicellular organisms such as amoeba andparameciumexchange of gases takes place throughplasma membrane(also known as the cell membrane, the plasma membrane is found in all cells and separates the cell's interior from the outside environment) by simple diffusion. In earthworm, leech and frogs exchange of gases takes place through their moist skin.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_50",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "50",
+    "question": "One of the characteristics of secondary succession is that it",
+    "options": {
+      "A": "starts on a bare surface",
+      "B": "takes longer time to reach climax",
+      "C": "starts on already colonized surface",
+      "D": "starts with low organism"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Soil characteristics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Secondary succession is a natural ecological process that occurs when an area is disrupted, but some plants and animals still survive. A characteristic of secondary succession is that it starts on an already colonized surface. It may start with fairly complex organisms and it takes a shorter time or duration to reach a climax community.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_51",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "51",
+    "question": "One of the components of xylem tissue is",
+    "options": {
+      "A": "companion cell",
+      "B": "tracheid",
+      "C": "sieve tube",
+      "D": "epidermal"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_52",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "52",
+    "question": "Which of the following statements explains the theory of natural selection?",
+    "options": {
+      "A": "There is no struggle for existence",
+      "B": "New species get better adaptation",
+      "C": "The weaker offspring are eliminated",
+      "D": "Unused structures disappear later"
+    },
+    "correct_answer": "C",
+    "topic": "E: Evolution",
+    "subtopic": "Darwin's theory of natural selection",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The theory of natural selection, proposed by Charles Darwin, states that individuals with favorable traits are more likely to survive, reproduce, and pass those traits on to their offspring. Conversely, individuals with unfavorable traits are more likely to struggle, die off, or fail to reproduce, thereby eliminating those traits from the population.",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_53",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "53",
+    "question": "The chemical and physical composition of soil is an example of",
+    "options": {
+      "A": "climatic factor",
+      "B": "topographic factor",
+      "C": "Edaphic factor",
+      "D": "chemical factor"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Soil characteristics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Climatic factors are environmental conditions that affect the climate of a region, such as temperature, precipitation, and solar radiation.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_54",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "54",
+    "question": "The abiotic factor that affect the population growth of an organism is",
+    "options": {
+      "A": "predator",
+      "B": "rainfall",
+      "C": "food shortage",
+      "D": "disease"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Abiotic factors are non-living, physical, and chemical elements that influence ecosystems and the communities of organisms within them. E.g temperature, water, soil,sunlight, rainfall etc",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_55",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "55",
+    "question": "The cells responsible for transmitting messages to the effectors are",
+    "options": {
+      "A": "motor neurons",
+      "B": "sensory neurons",
+      "C": "hair cells",
+      "D": "relay neurons"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The cells that transmit messages to effectors aremotor neurons, also known as efferent neurons. They Transmit impulses from the central nervous system (CNS) to effectors, such as muscles and glands. Motor neurons typically have long axons and short dendrites. while the sensory neutrons transmit impulses from sense organs to the CNS. When a stimulus is detected, the information is converted to an electrical signal and sent through a sensory neuron.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_56",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "56",
+    "question": "The oxygen transported to all parts of the body during blood circulation is used for the",
+    "options": {
+      "A": "growth and development of cells",
+      "B": "removal of waste products",
+      "C": "release of energy from food",
+      "D": "formation of carboxyl haemoglobin"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Transport and circulatory system",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Oxygen transported to all parts of the body during blood circulation is used to release energy from food. When the red blood cells reach tissues that need oxygen, the oxygen is released from the haemoglobin and diffuses into the cells where it is used to make energy. All the systems in our body rely on oxygen to make energy.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_57",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "57",
+    "question": "After fertilization in plants, the zygote develops into",
+    "options": {
+      "A": "fruit",
+      "B": "an embryo",
+      "C": "seed",
+      "D": "an endosperm"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Afterfertilizationin plants, thezygotedevelops into anembryo, which is contained in theseed.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_58",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "58",
+    "question": "Use the diagram above to answer the question that follows The organ is responsible for",
+    "options": {
+      "A": "production of heat",
+      "B": "osmoregulation",
+      "C": "vasoconstriction",
+      "D": "production of hormones"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The kidneys' primary function is osmoregulation, which is the process of regulating the balance of water and electrolytes in the body. The kidneys also produce urine, filter blood, and remove waste.",
+    "images": [
+      {
+        "filename": "Biology_2024_q58_647916d3.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/oCZ9Bz3lIZ54odVNqc5PinvVA9jA1amePLepBe0Q.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_59",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "59",
+    "question": "Which of the following evidences of evolution employs the use of radio-isotope dating?",
+    "options": {
+      "A": "comparative anatomy",
+      "B": "Embryology",
+      "C": "Fossil records",
+      "D": "vestigial organs"
+    },
+    "correct_answer": "C",
+    "topic": "E: Evolution",
+    "subtopic": "Evidence of evolution (fossils, anatomy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Scientists can roughly date fossils using radiometric dating, a process that measures theradioactive decay of certain elements. Fossils document the existence of now-extinct species, showing that different organisms have lived on Earth during different periods of the planet's history.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_60",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "60",
+    "question": "Pentadactyl forelimb of vertebrate function due to differences in environment is",
+    "options": {
+      "A": "comparative anatomy",
+      "B": "physiological evidence",
+      "C": "embryological evidence",
+      "D": "fossil records"
+    },
+    "correct_answer": "A",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A pentadactyl forelimb in vertebrates, meaning a forelimb with five digits, serves a variety of functions depending on the animal's environment, showcasing how a single basic structure can be adapted through evolution to suit different needs, like swimming, flying, running, or grasping, all while maintaining the underlying five-digit pattern as a result of shared ancestry.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_61",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "61",
+    "question": "The feeding relationship between ruminants and the bacteria in their digestive tract is",
+    "options": {
+      "A": "saprophytic",
+      "B": "parasitic",
+      "C": "symbiotic",
+      "D": "heterotrophic"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Digestive system and enzymes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The relationship between ruminants and the bacteria in their digestive tract issymbiotic and mutualistic, meaning both organisms benefit from the interaction. The ruminant provides the bacteria with a warm, moist environment, a constant food supply, and a safe habitat, while the bacteria produce enzymes that break down complex compounds into simpler molecules that the ruminant's intestines can absorb. The bacteria also provide a protein source for the ruminant.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_62",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "62",
+    "question": "A photosynthetic carnivorous plant which feeds on insects is",
+    "options": {
+      "A": "parasitic",
+      "B": "saprophytic",
+      "C": "herbivorous",
+      "D": "insectivorous"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The green plants which obtain their food partly from insects are calledinsectivorous plants. Example -Pitcher plant, Sundew plant, venus fly-trap plant etc.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_63",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "63",
+    "question": "Xerophytes are mostly found in the",
+    "options": {
+      "A": "arid land",
+      "B": "tropical rainforest",
+      "C": "montane forest",
+      "D": "Sudan savanna"
+    },
+    "correct_answer": "A",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Xerophytes are plants that have adapted to survive in environments with little water, such as deserts, windy areas, or saline soil. Xerophytes are plants that are found indry habitats like the desert. They have special adaptations that help them survive in extreme dry conditions.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_64",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "64",
+    "question": "In which zone of the marine habitat does the organisms require adaptation for attachment?",
+    "options": {
+      "A": "Supratidal",
+      "B": "Subtidal",
+      "C": "intertidal",
+      "D": "abyssal zone"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_65",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "65",
+    "question": "Energy transfer in plants and animals are in the form of",
+    "options": {
+      "A": "DNA",
+      "B": "ATP",
+      "C": "GTP",
+      "D": "RNA"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Energy transfer in plants and animals occurs in the form of chemical energy, adenosine triphosphate (ATP), and heat.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_66",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "66",
+    "question": "The pigment carrying oxygen in the blood is",
+    "options": {
+      "A": "plasma",
+      "B": "haemoglobin",
+      "C": "oxyhaemoglobin",
+      "D": "erythrocytes"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Plasma is a liquid component of blood that carries blood cells and other vital substances throughout the body. It's also a state of matter, like solids, liquids, and gases. It is a light yellow liquid that contains water, salts, enzymes, and proteins. It contains clotting factors that help blood clot. It also contains antibodies that help fight infection.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_67",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "67",
+    "question": "Production of healthier offspring, viable seeds and formation of new varieties are good characteristics",
+    "options": {
+      "A": "self pollination",
+      "B": "cross pollination",
+      "C": "wind pollination",
+      "D": "insect pollination"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cross-pollination is a type of pollination that produces healthier offspring, viable seeds, and new varieties.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_68",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "68",
+    "question": "One of the following is a courtship behaviour in animals",
+    "options": {
+      "A": "fighting",
+      "B": "display",
+      "C": "hibernation",
+      "D": "feeding"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Courtship behavior is a series of actions that animals perform to find a mate and reproduce. Animals may display their beauty or strength to attract a mate.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government",
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State",
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_69",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "69",
+    "question": "In blood transfusion, a patient with group AB receives",
+    "options": {
+      "A": "Group A, B, AB",
+      "B": "Group O, A, B",
+      "C": "Group O, B, AB",
+      "D": "Group O, A, B, AB"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A patient with type AB blood can receive red blood cells from any blood type( A, B,AB or O), making them sometimes known as universal recipients. This is because people with type AB blood do not produce anti-A or anti-B antibodies.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_70",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "70",
+    "question": "A trait that is always expressed during crossing of hereditary characteristics is",
+    "options": {
+      "A": "recessive trait",
+      "B": "dominant trait",
+      "C": "homozygous trait",
+      "D": "heterozygous trait"
+    },
+    "correct_answer": "B",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A dominant allele is a trait that is always expressed in an organism's phenotype, as long as at least one copy of the allele is present. An organism's observable traits are called its phenotype, while its underlying genetic makeup is called its genotype. A person's phenotype is determined by both their genotype and environmental factors.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_71",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "71",
+    "question": "Blood group AB is considered as universal recipient because they can receive blood from groups",
+    "options": {
+      "A": "A and O",
+      "B": "B and O",
+      "C": "AB and O",
+      "D": "A, B, AB and O"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "People with type AB blood are considered universal recipients because they can receive blood from all blood groups A, B, or O without the risk of adverse effects. This is because people with type AB blood have both A and B antigens on their red blood cells, but no antibodies in their plasma.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_72",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "72",
+    "question": "An example of organism that exhibits counter-shading to escape from its predator is",
+    "options": {
+      "A": "grasshopper",
+      "B": "toad",
+      "C": "fish",
+      "D": "chameleon"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Counter-shading is a form of camouflage that helps organisms blend into their surroundings. Counter-shading is a coloration pattern where the parts of an animal that are usually in shadow are lighter in colour, and the parts that are usually in light are darker. This makes the animal more difficult to detect by reducing the contrast between the animal and its background.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_73",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "73",
+    "question": "A form of adaptive colouration that helps animals to remain unnoticed is",
+    "options": {
+      "A": "hibernation",
+      "B": "aestivation",
+      "C": "countershading",
+      "D": "migration"
+    },
+    "correct_answer": "C",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Hibernation is a natural behavior that allows animals to survive the winter by slowing down their metabolism and body temperature. Hibernating animals use stored fat for energy while they are inactive.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_74",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "74",
+    "question": "Use the diagram above to answer the question that follows The part labelled III is",
+    "options": {
+      "A": "abdomen",
+      "B": "head",
+      "C": "maxillae",
+      "D": "thorax"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Biology_2024_q74_c4bc6a16.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/hdlQA7azX1cqSPDtYvmFh9XAidiaNqUp7Cxx0yD7.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_75",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "75",
+    "question": "Lamarck's theory of evolution is based on the idea of",
+    "options": {
+      "A": "the inheritance of acquired traits",
+      "B": "organisms' survival of the fittest",
+      "C": "organisms constantly struggling for existence",
+      "D": "plenty offspring produced by organisms"
+    },
+    "correct_answer": "A",
+    "topic": "E: Evolution",
+    "subtopic": "Lamarck's theory",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Jean-Baptiste Lamarck's theory of evolution, also known as Lamarckism, is based on the idea that organisms can pass on physical characteristics they acquire during their lifetime to their offspring. This is also known as the inheritance of acquired characteristics or soft inheritance.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_76",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "76",
+    "question": "How many chromosomes will be present in a gamete if the somatic cell has 8 chromosomes?",
+    "options": {
+      "A": "16",
+      "B": "6",
+      "C": "4",
+      "D": "8"
+    },
+    "correct_answer": "C",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Chromosomes and DNA",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Somatic cells are diploid, meaning they have two sets of chromosomes, one from the mother and one from the father. During mitosis, somatic cells replicate their DNA and divide to produce two daughter cells that each receive a complete copy of the genome.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_77",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "77",
+    "question": "Use the diagram above to answer the question that follows What is the genotypic ratio of the offspring produced in F\\(_1\\) generation?",
+    "options": {
+      "A": "2:1:1",
+      "B": "1:2:1",
+      "C": "2:2",
+      "D": "3:1"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since offsprings for F\\(_1\\)  are  AA  AS  AS  SS",
+    "images": [
+      {
+        "filename": "Biology_2024_q77_b60fa2df.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/pGtiKvCqlRLc3rlFfkEpPnZLYxg9ljJcYxuCi279.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_78",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "78",
+    "question": "Body temperature, thirst and hunger are regulated by",
+    "options": {
+      "A": "thalamus",
+      "B": "hypothalamus",
+      "C": "medulla oblongata",
+      "D": "spinal cord"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The thalamus is a part of the brain that relays sensory and motor signals, and regulates consciousness, alertness, learning, and memory.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_79",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "79",
+    "question": "Cell division that involves the growth, development, repairs and replacement of worn out tissues is",
+    "options": {
+      "A": "biosynthesis",
+      "B": "mitosis",
+      "C": "meiosis",
+      "D": "synthesis"
+    },
+    "correct_answer": "B",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Biosynthesis is the process by which living organisms create new chemical compounds from nutrients. It involves chemical reactions that occur within cells.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_80",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "80",
+    "question": "Use the diagram to answer the question that follows The flower of plants belongs to part labelled",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The flower is the reproductive organ of a plant. It is a plant organ, which is defined as a group of tissues that work together to perform a specific function.",
+    "images": [
+      {
+        "filename": "Biology_2024_q80_25021e83.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/3D7G4jH6WO7hGn4EA5eGp3l0CJl6pqZeuxkRN5Ob.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_81",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "81",
+    "question": "The bacteria in the large intestine of man synthesizes",
+    "options": {
+      "A": "vitamins and minerals",
+      "B": "vitamins and glucose",
+      "C": "amino acids and vitamins",
+      "D": "amino acids and minerals"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The bacteria in the colon produce large amounts ofvitamins B and Kthroughfermentation.Vitamin K is a fat-soluble vitamin that helps blood clot and prevents excessive bleeding. Bacteria in the large intestine synthesize vitamins, not minerals, neither do they synthesize glucose but they do play a role in other processes that are important for the body.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_82",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "82",
+    "question": "The main excretory product of earthworm is",
+    "options": {
+      "A": "ammonia",
+      "B": "carbon dioxide",
+      "C": "urea",
+      "D": "uric acid"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Excretion and excretory organs",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The main excretory product of an earthworm is urea, with some ammonia gas also being released.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_83",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "83",
+    "question": "Which of the following conditions causes aestivation in animals?",
+    "options": {
+      "A": "Wind",
+      "B": "Drought",
+      "C": "Rain",
+      "D": "Cold"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Aestivation is a state of dormancy or reduced activity that animals enter to survive in hot, dry conditions or when food or water is scarce.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_84",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "84",
+    "question": "An instrument used for measuring the intensity of light",
+    "options": {
+      "A": "thermometer",
+      "B": "photometer",
+      "C": "anemometer",
+      "D": "hygrometer"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Photometers measure the strength of electromagnetic radiation, including visible light, ultraviolet light, gamma rays, and x-rays.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_85",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "85",
+    "question": "A common component of blood and lymph is",
+    "options": {
+      "A": "fats",
+      "B": "plasma",
+      "C": "red blood cell",
+      "D": "white blood cell"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "White blood cells, also known as leukocytes, are a common component of both blood and lymph.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_86",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "86",
+    "question": "The part of the kidney where the selective reabsorption takes place is",
+    "options": {
+      "A": "glomerulus",
+      "B": "Bowman's capsule",
+      "C": "Henle's loop",
+      "D": "urethra"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The glomerulus is a cluster of capillaries in the kidney that filters blood to remove waste and extra water. The filtered waste and water are then excreted from the body in urine.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_87",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "87",
+    "question": "The schlerenchyma tissues consist of",
+    "options": {
+      "A": "dead cell",
+      "B": "living cell",
+      "C": "tracheid cell",
+      "D": "meristematic cell"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sclerenchyma tissue is made up ofdead cellswith thick walls that contain lignin and cellulose.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_88",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "88",
+    "question": "The number of vertebrae in the human vertebral column is",
+    "options": {
+      "A": "30",
+      "B": "33",
+      "C": "38",
+      "D": "39"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The human vertebral column, also known as the spinal column or backbone, has 33 vertebrae:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_89",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "89",
+    "question": "The organisms that adopt swarming as an adaptation to overcome overcrowding are",
+    "options": {
+      "A": "Agama lizard",
+      "B": "tilapia",
+      "C": "rats",
+      "D": "termites"
+    },
+    "correct_answer": "D",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Swarming is a coordinated collective motion that can be seen in both animate and inanimate systems. For example, when ants get crowded, they coordinate waves of activity every 20 minutes. Social insects like ants and honey bees, as well as non-social insects like flies, moths, cockroaches, and locusts.Termites swarm after their original colony has reached a certain capacity leveland is ready to expand.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_90",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "90",
+    "question": "Loamy soil is characterized by",
+    "options": {
+      "A": "low humus and high porosity",
+      "B": "high humus and high porosity",
+      "C": "moderate humus and low porosity",
+      "D": "high humus and moderate porosity"
+    },
+    "correct_answer": "D",
+    "topic": "C: Ecology",
+    "subtopic": "Soil characteristics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Loam soil is considered the \"friendliest\" soil to cultivate. It's also relatively resistant to drought, warms up early in the spring, and is moderately easy to work. Loamy soil has moderate porosity. Loam is a mixture of sand, silt, and clay in roughly equal amounts, which results in a soil that's airy and not too dry.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_91",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "91",
+    "question": "The cone in the retina of eye is an example of",
+    "options": {
+      "A": "cell",
+      "B": "tissue",
+      "C": "organ",
+      "D": "system"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cones in the retina of the eye are photoreceptor cells, which are responsible for colour vision, visual acuity, and daylight vision.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_92",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "92",
+    "question": "The part of the flower that develops into seed is",
+    "options": {
+      "A": "ovule",
+      "B": "pedicel",
+      "C": "petal",
+      "D": "style"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The ovule, which is located inside the ovary of a flower, develops into a seed after fertilization. After fertilization, the ovary grows and matures into a fruit, which encloses the seeds.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_93",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "93",
+    "question": "Which of these is a medium of transportation in plants?",
+    "options": {
+      "A": "cell sap",
+      "B": "Nucleus",
+      "C": "Mitochondrion",
+      "D": "Ribosome"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Plant kingdom (Thallophyta to Spermatophyta)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cell Sap is a fluid transported in xylem cells (vessel elements or tracheids) or phloem sieve tube elements of a plant. These cells transport water and nutrients throughout the plant.",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_94",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "94",
+    "question": "Which of the following is a viral disease?",
+    "options": {
+      "A": "Syphilis",
+      "B": "Measles",
+      "C": "Cholera",
+      "D": "Typhoid"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Syphilis is a bacterial sexually transmitted infection (STI).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_95",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "95",
+    "question": "Use the diagram above to answer the question that follows The experiment is set up to determine the presence of",
+    "options": {
+      "A": "chlorophyll",
+      "B": "starch",
+      "C": "oxygen",
+      "D": "pigment"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The experiment is set up to determine the presence of starch. When Iodine is added to the parboiled leaf, a blue-black or brown colour is observed. This indicates the presence of starch and vice versa.",
+    "images": [
+      {
+        "filename": "Biology_2024_q95_5de35559.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/vJSIrW8Ihk4WRBhowm2oN4X4Qz2XO5P5flt6WJhi.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_96",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "96",
+    "question": "The type of circulatory system found in arthropods and some molluscs is",
+    "options": {
+      "A": "open circulatory system",
+      "B": "closed circulatory system",
+      "C": "single circulatory system",
+      "D": "double circulatory system"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Arthropods and most molluscs have an open circulatory system.  In an open circulatory system, blood is pumped from the heart into a body cavity, called a hemocoel, instead of being enclosed in blood vessels. The blood, called hemolymph, mixes with interstitial fluid and circulates around the organs as the animal moves. The blood returns to the heart through small pores called ostia.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_97",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "97",
+    "question": "In plants, the main excretory product produced during metabolism is",
+    "options": {
+      "A": "oxygen",
+      "B": "alkaloids",
+      "C": "carbon(iv)oxide",
+      "D": "mucilage"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The main excretory products of plants during metabolism are carbon dioxide, excess water, and nitrogenous compounds.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_98",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "98",
+    "question": "Use the diagram above to answer the questions that follow The part labelled I is",
+    "options": {
+      "A": "oviduct",
+      "B": "placenta",
+      "C": "amnion",
+      "D": "uterus"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Biology_2024_q98_1b973d68.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/qfbHpHGuQf9MiReZC75k0crrYlSeQgDWqkMvo8dL.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_99",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "99",
+    "question": "Comparative anatomy to study evidence for evolution depends on",
+    "options": {
+      "A": "four fingered",
+      "B": "three fingered",
+      "C": "two fingered",
+      "D": "five fingered"
+    },
+    "correct_answer": "D",
+    "topic": "E: Evolution",
+    "subtopic": "Evidence of evolution (fossils, anatomy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_100",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "100",
+    "question": "Iron is an essential nutrient in plants because it",
+    "options": {
+      "A": "aids in the formation of chlorophyll and proteins",
+      "B": "helps in cell division",
+      "C": "protects the plants from pest attack",
+      "D": "fastens fruits maturation"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Iron is a key component in the production of chlorophyll, which is essential for photosynthesis. It serves as a component of many vital enzymes such as cytochromes of the electron transport chain, and it is thus required for a wide range of biological functions. In plants, iron isinvolved in the synthesis of chlorophyll, and it is essential for the maintenance of chloroplast structure and function.",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_101",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "101",
+    "question": "The endocrine gland that is called the master gland is the",
+    "options": {
+      "A": "thyroid gland",
+      "B": "pancreas",
+      "C": "pituitary gland",
+      "D": "adrenal gland"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The pituitary gland is known as the \"master gland\" because it controls the functions of many other endocrine glands in the body. The pituitary gland is a small, pea-sized gland located at the base of the brain, in line with the top of the nose.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_102",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "102",
+    "question": "Which of the following characteristics is possessed by both living and non-living things?",
+    "options": {
+      "A": "Both age and die",
+      "B": "Both have life",
+      "C": "Both have weight",
+      "D": "Both have no shape"
+    },
+    "correct_answer": "C",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Both living and non-living things are matters. Matters are defined to be anything (living nad non-living things) that has mass and occupies space.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_103",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "103",
+    "question": "Infectious diseases are caused by",
+    "options": {
+      "A": "bacteria",
+      "B": "protists",
+      "C": "Amoeba",
+      "D": "protozoa"
+    },
+    "correct_answer": "A",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Characteristics of living things",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Infectious diseases are diseases caused by microorganisms like bacteria, viruses, fungi, or parasites that enter the body and multiply, damaging cells and causing an infection.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_104",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "104",
+    "question": "The cell organelle responsible for the synthesis of protein is the",
+    "options": {
+      "A": "centriole",
+      "B": "vacuole",
+      "C": "plastid",
+      "D": "ribosome"
+    },
+    "correct_answer": "D",
+    "topic": "A: Variety of Organisms",
+    "subtopic": "Cell structure and functions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Centrioles are organelles that help organize microtubules, cell division, and the assembly of cilia and flagella.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_105",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "105",
+    "question": "Use the diagram above to answer the question that follows The diagram demonstrates",
+    "options": {
+      "A": "thigmotropism",
+      "B": "phototropism",
+      "C": "geotropism",
+      "D": "hydrotropism"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Thigmotropism is a directional growth movement which occurs as a mechanosensory response to a touch stimulus. Mechanosensory responses in plants are the ways that plants move or change shape in response to touch, wind, or other mechanical stimuli.",
+    "images": [
+      {
+        "filename": "Biology_2024_q105_11e89f98.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/B3MPHBeh2ykkcwgXzs5xl1z8cC6R0nV6j0SLK7cz.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_106",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "106",
+    "question": "Which of the following factors can lead to overcrowding?",
+    "options": {
+      "A": "Emigration",
+      "B": "Competition",
+      "C": "High natality",
+      "D": "High mortality"
+    },
+    "correct_answer": "C",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "High natality, also known as a high birth rate, is when a population has a high number of births per person in a given amount of time. It's usually measured in relation to the population size, such as the number of births per 1,000 people in a year.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_107",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "107",
+    "question": "The common examples of trees found in the desert are",
+    "options": {
+      "A": "raffia palm and coconut",
+      "B": "baobab and cacti",
+      "C": "white and red mangrove",
+      "D": "shea-butter and isobelina"
+    },
+    "correct_answer": "B",
+    "topic": "C: Ecology",
+    "subtopic": "Abiotic and biotic factors",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_108",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "108",
+    "question": "If the F1 generation allows for self-pollination, what will be the genotypic ratio of the offspring?",
+    "options": {
+      "A": "1 : 2 : 1",
+      "B": "2 : 2",
+      "C": "3 : 1",
+      "D": "2 : 1 : 1"
+    },
+    "correct_answer": "A",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_109",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "109",
+    "question": "The resemblance of an organism to another organism as means of enhancing it's chances of survival in its habitat is known as",
+    "options": {
+      "A": "counter shading",
+      "B": "protective colouration",
+      "C": "mimicry",
+      "D": "warning"
+    },
+    "correct_answer": "C",
+    "topic": "E: Evolution",
+    "subtopic": "Adaptation for survival",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mimicry is a biological phenomenon where organisms that are not closely related resemble each other. This resemblance can be between different species or between individuals of the same species.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_110",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "110",
+    "question": "The urinary tubules opens into a proximal convoluted tubule coils to form distal by making a",
+    "options": {
+      "A": "Z- shaped loop",
+      "B": "L- shaped loop",
+      "C": "U- shaped loop",
+      "D": "I- shaped loop"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The urinary tubules open into a proximal convoluted tubule to form a U-shaped loop called the loop of Henle. The loop of Henle transfers fluid from the proximal to the distal tubule. The loop of Henle's two main functions are to dilute urine and establish an osmotic gradient.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_111",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "111",
+    "question": "A discontinuous morphological variation often used in crime detection is the",
+    "options": {
+      "A": "skin colour",
+      "B": "blood group",
+      "C": "finger prints",
+      "D": "eye colour"
+    },
+    "correct_answer": "C",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Continuous variation refers to a characteristic within a species that can vary gradually across a range of values, like height or weight, where individuals can fall anywhere along a spectrum.Discontinuous variation is when a characteristic has a limited number of possible values, and individuals fall into distinct categories. For example, Blood type(People can only have one of the four blood types: A, B, AB, or O), Gender(People are either male or female) , Eye colour(Eyes can only be a certain colour) etc",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_112",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "112",
+    "question": "The component that serves as major buffer in blood is",
+    "options": {
+      "A": "plasma",
+      "B": "erythrocytes",
+      "C": "leucocytes",
+      "D": "lymph"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A \"blood buffer\" refers to a chemical system within the blood, that helps maintain a stable pH level by neutralizing added acids or bases, ensuring proper bodily functions can occur;",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_113",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "113",
+    "question": "DNA carries the genetic information and are generally found in the",
+    "options": {
+      "A": "ribosomes",
+      "B": "chromosomes",
+      "C": "blood",
+      "D": "enzymes"
+    },
+    "correct_answer": "B",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "DNA is the material that contains genes and is the building block of the human body. DNA is made up of two strands that twist into a spiral ladder called a helix.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_114",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "114",
+    "question": "Use the diagram above to answer the question that follows: Recombination of genes at fertilization is represented by the part labelled",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "C",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "During prophase I, homologous chromosomes from each parent pair up and exchange genetic material, a process known as crossing over. This process creates new combinations of genes in the resulting gametes. When two gametes unite during fertilization, the offspring will have a unique combination of DNA.",
+    "images": [
+      {
+        "filename": "Biology_2024_q114_3543e2ac.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/TU9ZBoobkKF9JlbXs73a9L5D4eGVY1kkUUVhqh7H.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Biology_2024_115",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "115",
+    "question": "Hemophilia in humans is controlled by the",
+    "options": {
+      "A": "blood group",
+      "B": "dominant gene",
+      "C": "rhesus factor",
+      "D": "recessive gene"
+    },
+    "correct_answer": "D",
+    "topic": "D: Heredity and Variations",
+    "subtopic": "Morphological variations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Hemophilia is a rare,genetic blood disorderthat happens when your blood doesn't clot and make your bleeding slow down or stop.Most people who have hemophilia are born with it. It is inherited (passed down) from a parent to a child.Itis a chromosomally linked recessive disorder, the result of a mutated gene on the X chromosome. Because those assigned male at birth only have one X chromosome, they can develop hemophilia if they inherit the altered gene.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_116",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "116",
+    "question": "The part of the brain that receives sensory impulses of smell is the",
+    "options": {
+      "A": "olfactory lobe",
+      "B": "medulla oblongata",
+      "C": "cerebrum",
+      "D": "Cerebellum"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "TheOlfactory lobeis the portion of the cerebral cortex concerned with the sense of smell. It is part of the Cerebrum. It is a structurally distinct cortical region on the ventral surface of the forebrain, composed of several areas.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Biology_2024_117",
+    "exam": "JAMB",
+    "subject": "Biology",
+    "year": 2024,
+    "number": "117",
+    "question": "Use the diagram above to answer the question that follows. Examples of non-vascular plants are labelled",
+    "options": {
+      "A": "I and II",
+      "B": "I and III",
+      "C": "II and III",
+      "D": "II and IV"
+    },
+    "correct_answer": "A",
+    "topic": "B: Form and Functions",
+    "subtopic": "Internal structure of flowering plants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Marchantiais a member of the Marchantiaceae, the Marchantia family. This family is one of many thalloid liverwort families orbryophyta. A thalloid liverwort is strap-like and often forms large colonies on the surface on which it grows. A liverwort is non-vascular green plant.",
+    "images": [
+      {
+        "filename": "Biology_2024_q117_b5d34695.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/RWaj6nyVntjhlIVdX5C5ygMsHos2lCQYa1VCyvw8.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

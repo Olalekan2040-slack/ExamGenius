@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "JAMB_Government_2010_1",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "1",
+    "question": "Nation-state is synonymous with",
+    "options": {
+      "A": "self-actualization",
+      "B": "liberation",
+      "C": "sovereignty",
+      "D": "nationalism"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_2",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "2",
+    "question": "A fundamental component of political culture is",
+    "options": {
+      "A": "social values",
+      "B": "community structure",
+      "C": "family values",
+      "D": "economic values"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A fundamental component of political culture is social values.The Components of political culture are as follows:1. Cognitive Orientation2. Evaluation Orientation3. Affective Orientation.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Political Processes"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_3",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "3",
+    "question": "A form of oligarchy in which gifted people are at the helm of affairs is",
+    "options": {
+      "A": "aristocracy",
+      "B": "plutocracy",
+      "C": "theocracy",
+      "D": "gerontocracy"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "2. Forms of Government (Monarchy, Aristocracy, Oligarchy, Democracy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A form of oligarchy in which gifted people are at the helm of affairs is aristocracy.Aristocracy is seen as a form of government in which the best citizens rule. In most cases people of noble birth rule. It is believed that they possess the best qualities for leadership.",
+    "predicted_topics": [
+      "Forms of Government"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Aristocracy",
+      "Forms of Government :: Oligarchy"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_4",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "4",
+    "question": "A state that is ruled by an elected citizen is",
+    "options": {
+      "A": "a monarchy",
+      "B": "a republic",
+      "C": "a plutocracy",
+      "D": "an empire"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A state that is ruled by an elected citizen is a republic.A republican form of government is that which has a head of state elected by the people. This means that a sovereign state is referred to as a republic if the country has no traditional ruler of his representative as its head of state but by the one chosen by the people with a fixed term of office. Such head of state is known as a President in a republic. The President may be an Executive of Ceremonial President.Some of the characteristics of a republican form of government is that the head of state known as the President is elected by the people.In a republic, members of the legislature are directly elected by the people etc.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Forms of Government",
+      "Citizenship"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State",
+      "Forms of Government :: Monarchy"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_5",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "5",
+    "question": "A true democracy in the modern sense exists where the",
+    "options": {
+      "A": "elected representatives rule",
+      "B": "majority of the people vote",
+      "C": "majority of the people rule",
+      "D": "elite rule"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "2. Forms of Government (Monarchy, Aristocracy, Oligarchy, Democracy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Forms of Government",
+      "The Electoral Process",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Democracy"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_6",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "6",
+    "question": "In a parliamentary system, when the legislature passes a vote of no confidence on the executive it means that the",
+    "options": {
+      "A": "executive is expected to go on suspension",
+      "B": "executive is required to resign",
+      "C": "legislature ceases to trust the executive",
+      "D": "legislature commences legal proceeding against the executive"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In a parliamentary system, when the legislsses a vote of no confidence on the executive.it means that the executive is required to resign.One of the features of parliamentary system of government is use of vote of no confidence. Here, it is seen that the parliament can use ''vote of no confidence'' to force the Prime Minister and his cabinet ministers to resign en-bloc.",
+    "predicted_topics": [
+      "Arms of Government",
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Legislature"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_7",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "7",
+    "question": "The legislative body of the United States of America is the",
+    "options": {
+      "A": "Parliament",
+      "B": "Congress",
+      "C": "National Assembly",
+      "D": "Council"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State",
+      "Arms of Government :: Legislature"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_8",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "8",
+    "question": "The upper house in most federal systems is created to",
+    "options": {
+      "A": "ensure equality of federating units",
+      "B": "oversee and check  the lower house",
+      "C": "prevent excesses of the executive",
+      "D": "enable experienced elders make inputs to governance"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Arms of Government",
+      "Structures of Governance",
+      "Pre-Colonial Polities",
+      "Institutions of Government in Post-Independence Nigeria",
+      "The Structure and Workings of Nigerian Federalism"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Executive"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_9",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "9",
+    "question": "In which of the following systems is the power of the component units more than that of the central government?",
+    "options": {
+      "A": "Monarchical",
+      "B": "Unitary",
+      "C": "Federal",
+      "D": "Confederal"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "4. Structures of Governance (Unitary, Federal, Confederal)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_10",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "10",
+    "question": "One of the general tenets of fascists doctrine is that a leader is",
+    "options": {
+      "A": "supreme relative to the constitution",
+      "B": "surbodinate to the laws of the state",
+      "C": "weak relative to the constitution",
+      "D": "surbodinate to the norms of the society"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_11",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "11",
+    "question": "In a cabinet system of government, executive power is exercised by the",
+    "options": {
+      "A": "head of government",
+      "B": "president",
+      "C": "monarch",
+      "D": "dorminant party"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_12",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "12",
+    "question": "The principle of separation of powers is best practiced in the",
+    "options": {
+      "A": "presidential system",
+      "B": "monarchical system",
+      "C": "parliamentary system",
+      "D": "feudal system"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_13",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "13",
+    "question": "A typical form of delegated legislation is",
+    "options": {
+      "A": "an act",
+      "B": "a decree",
+      "C": "a bill",
+      "D": "a bye-law"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "9. Processes of Legislation (Acts, Edicts, Bye-laws, Decrees)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_14",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "14",
+    "question": "The rights of a citizen can be withdrawn by the state if the person",
+    "options": {
+      "A": "opposes the government violently",
+      "B": "is convicted of a serious crime",
+      "C": "leaves the country permanently",
+      "D": "is pronounced dead"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Citizenship"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_15",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "15",
+    "question": "An electoral process in which candidates are selected for elective offices by party members is",
+    "options": {
+      "A": "primary election",
+      "B": "bye election",
+      "C": "electoral college",
+      "D": "general election"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "11. The Electoral Process (Suffrage, Elections, Electoral Systems)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_16",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "16",
+    "question": "In theory, one major advantage of the one-party system is that it",
+    "options": {
+      "A": "eliminates intra-party conflict",
+      "B": "promotes greater mass participation in government",
+      "C": "serves as an instrument of national integration",
+      "D": "guarantees social justice"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "12. Political Parties and Party Systems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Systems"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_17",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "17",
+    "question": "A tactic employed by pressure groups to achieve their objectives is",
+    "options": {
+      "A": "memorandum",
+      "B": "propaganda",
+      "C": "electioneering campaign",
+      "D": "lobbying"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "13. Pressure Groups",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Pressure Groups"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_18",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "18",
+    "question": "Public opinion can be measured through",
+    "options": {
+      "A": "negotiation",
+      "B": "strike action",
+      "C": "referendum",
+      "D": "rumour"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "14. Public Opinion",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Public Opinion"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_19",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "19",
+    "question": "Which of the following is the main function of the civil service",
+    "options": {
+      "A": "implementing government policies",
+      "B": "supporting the party in power",
+      "C": "Allocating resources to the federating units",
+      "D": "Mobilizing grass root support for government"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Implementing government policies is the main function of the civil service.Civil service is a body of permanent officials who carry out day-to-day business of government.It is a body or department which is in the executive arm of the government responsible for the execution of the policies and programmes of the government. The civil service and its workers known as civil servants perform purely administrative and executive function which embraces formulation and implementation of government polices.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Civil Service",
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_20",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "20",
+    "question": "Who was the political head of the Old Oyo Empire?",
+    "options": {
+      "A": "Bashorun",
+      "B": "Aremo",
+      "C": "Oyomesi",
+      "D": "Alaafin"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The political head of the old Oyo Empire was Alaafin.The old Oyo Empire was monarchical in nature. The system was based on the principl of inheritance. The government of the empire thrived along four major organs.The first organ was the King known as the Alaafin. Although the Alaafin was a supreme King, but he was not a dictator. He ruled according to the advice of the council of Oyomesi but was not compulsory for him to accept all advice.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_21",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "21",
+    "question": "The Aro age-grade system in Igbo land was",
+    "options": {
+      "A": "a religious organization",
+      "B": "a commercial organization",
+      "C": "a political organization",
+      "D": "an imperial  organization"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_22",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "22",
+    "question": "France introduced the policy  of assimilation in her colonies primarily to",
+    "options": {
+      "A": "teach them the art of leadership",
+      "B": "change their way of life",
+      "C": "give them a sound education",
+      "D": "discourage them from ritual killings"
+    },
+    "correct_answer": "B",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_23",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "23",
+    "question": "The foremost British trading company on the West African coast was",
+    "options": {
+      "A": "Royal Niger Company",
+      "B": "Lever Brothers",
+      "C": "United African Company",
+      "D": "John Holt and Sons"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "1. ECOWAS (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The foremost British trading company company on the West African coast was United African Company.The scramble for Africa brought about the settlement of British traders at the Delta Area of the Niger. They named the area ''Oil Rivers Protectorate'' George Jaubman Goldie amalgamated the British private trading companies in the area in the year 1879 and gave the name of the new company as United African Company (UAC). This very company was granted a charter in 1886. with this, the name was changed to Royal Niger Company.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_24",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "24",
+    "question": "Which of these rulers resisted colonial rule and was deported to Calabar?",
+    "options": {
+      "A": "King Kosoko",
+      "B": "Oba Ovoranwen",
+      "C": "King Dosunmu",
+      "D": "King Jaja"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "1. Pre-Colonial Polities (Hausa, Emirate, Tiv, Igbo, Yoruba)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_25",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "25",
+    "question": "One of the major weaknesses of the Independence constitution is that it",
+    "options": {
+      "A": "failed to provide the country with full sovereignty",
+      "B": "gave full powers to the supreme Court in Nigeria",
+      "C": "gave total independence  to Nigeria",
+      "D": "empowered Britain to continue to rule"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "4. Constitutional Development (Clifford, Richards, Macpherson, Lyttleton)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_26",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "26",
+    "question": "The first law-making body in Nigeria after amalgamation was",
+    "options": {
+      "A": "Nigeria Council",
+      "B": "Legislative Council",
+      "C": "National Assembly",
+      "D": "Regional Assembly"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "1. Pre-Colonial Polities (Hausa, Emirate, Tiv, Igbo, Yoruba)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_27",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "27",
+    "question": "The designation of ministers as chief executives and accounting officers was recommended by a commission headed by",
+    "options": {
+      "A": "Jerome Udoji",
+      "B": "Simeon Adebo",
+      "C": "S.J Cookey",
+      "D": "Dotun Phillips"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Executive"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_28",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "28",
+    "question": "A major shortcoming of the Ombudsman is",
+    "options": {
+      "A": "lack of adequate resources",
+      "B": "its inability to restrain bureaucratic excesses",
+      "C": "lack of clear-cut mandate",
+      "D": "lack of executive power to enforce decisions"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government",
+      "The Civil Service",
+      "Pre-Colonial Polities",
+      "Institutions of Government in Post-Independence Nigeria",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Arms of Government :: Executive"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_29",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "29",
+    "question": "One of the strong points of the multiparty system in Nigeria's Fourth Republic is",
+    "options": {
+      "A": "the provision for a bicameral legislature",
+      "B": "government interference",
+      "C": "wider political participation",
+      "D": "wider anti-democracy campaign"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Forms of Government",
+      "Arms of Government",
+      "Political Parties and Party Systems",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Political Processes",
+      "Forms of Government :: Democracy",
+      "Arms of Government :: Legislature"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_30",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "30",
+    "question": "In which of the following is the ceremonial and executive powers fused?",
+    "options": {
+      "A": "Presidential system of government",
+      "B": "Federal system of government",
+      "C": "Parliamentary system of government",
+      "D": "Unitary system of government"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "5. Systems of Governance (Presidential, Parliamentary, Monarchical)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The ceremonial and executive powers are fused in a presidential System of Government. The president is the head of state as well as the head of government.",
+    "predicted_topics": [
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_31",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "31",
+    "question": "A major contentious issue confronting the Nigerian Federalism is",
+    "options": {
+      "A": "poverty",
+      "B": "health care delivery",
+      "C": "education",
+      "D": "revenue allocation"
+    },
+    "correct_answer": "D",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "9. Structure and Workings of Nigerian Federalism",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_32",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "32",
+    "question": "The main purpose of establishing public enterprise in Nigeria is to",
+    "options": {
+      "A": "increase government revenue",
+      "B": "enrich the title",
+      "C": "provide essential services",
+      "D": "compete with the private sector"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_33",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "33",
+    "question": "Parastatals are established to",
+    "options": {
+      "A": "enhance enterpreneurial skills",
+      "B": "expand business transactions",
+      "C": "maximize government profits",
+      "D": "render social services"
+    },
+    "correct_answer": "D",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "10. Public Corporations and Parastatals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Parastatals are established to render social services.In Nigeria, some public Corporations are federal-owned while others are state owned. Public corporations or enterprises are also called parastatals.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_34",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "34",
+    "question": "The General Purpose Committee of the local government is",
+    "options": {
+      "A": "cabinet of the local government",
+      "B": "body responsible for supervising self-help projects",
+      "C": "local government public relations unit",
+      "D": "body for awarding contracts"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "11. Local Government Administration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Arms of Government",
+      "Processes of Legislation",
+      "Local Government",
+      "Foreign Policy"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Executive"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_35",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "35",
+    "question": "The highest organ of the state during Babangida Regime was the",
+    "options": {
+      "A": "Provisional Ruling Council",
+      "B": "Armed Forces Ruling Council",
+      "C": "Supreme Military Council",
+      "D": "Federal Executive Council"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "subtopic": "12. The Military in Nigerian Politics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Armed Forces Ruling Council was the highest organ of the state during Babangida Regime.This was introduced to replace the Supreme Military Council. (SMC)",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_36",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "36",
+    "question": "Decree 34 of 1966 was unacceptable to many Nigerians because it was",
+    "options": {
+      "A": "seen as an instrument of impoverishment",
+      "B": "promulgated without consultation with the people",
+      "C": "perceived to abolish the federal system",
+      "D": "considered as alien"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "subtopic": "4. Structures of Governance (Unitary, Federal, Confederal)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow.",
+    "predicted_topics": [
+      "Structures of Governance",
+      "Processes of Legislation",
+      "The Structure and Workings of Nigerian Federalism",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_37",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "37",
+    "question": "Nigeria broke diplomatic relations with France in 1961 because",
+    "options": {
+      "A": "France's atomic test in the Sahara Desert",
+      "B": "Her poor relations with the francophone countries",
+      "C": "General de-Gaulle's negative attitude towards her",
+      "D": "France's diplomatic relations with Israel"
+    },
+    "correct_answer": "A",
+    "topic": "Part III: Foreign Policy and Nigeria's International Relations",
+    "subtopic": "1. Foreign Policy (Definition, Purpose, Determinants)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nigeria broke diplomatic relations with France in 1961 because France's atomic test in the Sahara Desert.This singular act was credited to Balewa administration.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_38",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "38",
+    "question": "An attribute that Nigeria shares with most non-aligned countries is",
+    "options": {
+      "A": "the state of her economy",
+      "B": "her large population",
+      "C": "her heterogenous population",
+      "D": "her large size"
+    },
+    "correct_answer": "A",
+    "topic": "Part III: Foreign Policy and Nigeria's International Relations",
+    "subtopic": "2. Nigeria's Foreign Policy (Major Powers, Developing Countries, Non-Alignment)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_39",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "39",
+    "question": "Nigeria spearheaded the formation of ECOWAS during the regime of",
+    "options": {
+      "A": "Olusegun Obasanjo",
+      "B": "Murtala Muhammed",
+      "C": "Yakubu Gowon",
+      "D": "Ibrahim Babangida"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "1. ECOWAS (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_40",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "40",
+    "question": "Nigeria was classified as a front line state for",
+    "options": {
+      "A": "participating in a peacekeeping in the Congo",
+      "B": "spearheading the formation of African Union",
+      "C": "supporting the liberation efforts in Southern Africa",
+      "D": "helping to end the crisis in Liberia"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nigeria was classified as aFrontline Statedue to itsstrong support for the liberation struggles in Southern Africa, particularly againstapartheid in South Africaandcolonial rule in Namibia, Zimbabwe, Angola, and Mozambique. Although the term \"Frontline States\" originally referred to Southern African countries bordering apartheid South Africa, Nigeria was recognized for itsfinancial, diplomatic, and military assistanceto liberation movements like theAfrican National Congress (ANC)and theSouth West Africa People's Organization (SWAPO).",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_41",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "41",
+    "question": "The prominent role Nigeria played in the UN in the 70's earned her",
+    "options": {
+      "A": "non-permanent membership position",
+      "B": "permanent representation at the UN",
+      "C": "membership of the Security Council",
+      "D": "chairmanship of the General Assembly"
+    },
+    "correct_answer": "B",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The prominent role Nigeria played in the UN in the 70's earned her permanent representation at the UN.Leslie Harriman was then appointed the chairman of the Special UN Committee against apartheid.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_42",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "42",
+    "question": "The head of Nigeria's foreign mission in a Commonwealth nation is known as",
+    "options": {
+      "A": "high commissioner",
+      "B": "ambassador",
+      "C": "charge d'affairs",
+      "D": "attache"
+    },
+    "correct_answer": "A",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "3. Commonwealth (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The head of Nigeria's foreign mission in a Commonwealth nation is known as high commissioner.The appointment and exchange of High Commissioners among member nations of Commonwealth is one of the factors that bind member - nations of Commonwealth together.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_43",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "43",
+    "question": "One of the major functions of the Authority of Heads of State and Government of ECOWAS is",
+    "options": {
+      "A": "organizing international conference",
+      "B": "appointing staff of the Secretariate",
+      "C": "appointing the Executive Secretary",
+      "D": "preparing the bugdet of the Community"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "1. ECOWAS (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "One of the major functions of the Authority of Heads of State and Government of ECOWAS is appointing the Executive Secretary.Other functions are as follows.1. Amendment of the charter,2. Approval of agreements and treaties3. Decision making4. It approves the recommendations of the council of ministers, etc.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_44",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "44",
+    "question": "The tenure of non-permanent members of the Security Council is",
+    "options": {
+      "A": "5 years",
+      "B": "4 years",
+      "C": "2 years",
+      "D": "6 years"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2010_45",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "45",
+    "question": "The Secretary General of the United Nations is appointed by the",
+    "options": {
+      "A": "Security Council acting alone",
+      "B": "Permanent members of the Security Council on the recommendation of the General Assembly",
+      "C": "General Assembly on the recommendation of the Security Council",
+      "D": "General Assembly in plenary session"
+    },
+    "correct_answer": "C",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Secretary General of the United Nations is appointed by the General Assembly on the recommendation of the Security Council.The Secretariat of the U.N.O. is situated at its headquarters in New York. It is headed by the Secretary General who is the Chief Executive Officer of the organization appointed by General Assembly on the recommendation of the Security Council. The Secretary-General holds office for a five year period. It could then be renewed if the incumbent performs satisfactorily.It should be noted that only citizens of the Scandinavian, African, Asian and Latin American countries are eligible for the office of the Secretary-General.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2010_46",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2010,
+    "number": "46",
+    "question": "The approval of treaties and agreements of the Economic Community of West African States is the responsibility of the",
+    "options": {
+      "A": "Secretariat",
+      "B": "Council of Minisiters",
+      "C": "ECOWAS Tribunal",
+      "D": "Assembly of Heads of State and Government"
+    },
+    "correct_answer": "D",
+    "topic": "Part IV: International Organizations",
+    "subtopic": "1. ECOWAS (Origin, Objectives, Structure, Functions)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The approval of treaties and agreements of the Economic Community of West African States is the responsibility of the Assembly of Heads of State and Government.According to Modern Government for Secondary Schools By G.A.I. Ofoegbu, ''The responsibility of amending the treaty of the community lies with the authority''.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  }
+]

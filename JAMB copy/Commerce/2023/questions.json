@@ -1,0 +1,2015 @@
+[
+  {
+    "id": "JAMB_Commerce_2023_1",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "1",
+    "question": "The macro-environmental forces and trends which are a constraint on business operations are referred to as",
+    "options": {
+      "A": "internal factors",
+      "B": "technological factors",
+      "C": "economic factors",
+      "D": "external factors"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "External factors of business environment refer to those factors outside the purview of the organization's control that can affect the business, its operations, profits, etc. These factors further impact the internal forces in an organization to a great extent. The effects can be positive or negative.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_2",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "2",
+    "question": "The payment made by a speculator to the buyer when he is unable to deliver stocks on the agreed date is",
+    "options": {
+      "A": "contango",
+      "B": "arbitrage",
+      "C": "backwardation",
+      "D": "franco"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Backwardation is a percentage paid by a person selling stock for the right of delaying its delivery.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_3",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "3",
+    "question": "A document that lists the goods that are being sent from one place to another is",
+    "options": {
+      "A": "mail transfer",
+      "B": "shipping note",
+      "C": "consular invoice",
+      "D": "bill of lading"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A bill of lading is a document that lists the goods being transported from one place to another. It serves as a receipt and a contract between the shipper and the carrier. The bill of lading specifically serves as a comprehensive record of the goods being transported.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_4",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "4",
+    "question": "The maximum number of shareholders in a public liability company is",
+    "options": {
+      "A": "twenty",
+      "B": "one hundred",
+      "C": "fifty",
+      "D": "unlimited"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In a private company, the transfer of shares is restricted, and the number of shareholders may range from a minimum of one to maximum of fifty. Public limited -liability companies must have a minimum of seven to maximum of unlimited shareholders.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_5",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "5",
+    "question": "The process of dividing tasks into jobs and departments and delegating authority is known as",
+    "options": {
+      "A": "organizing",
+      "B": "staffing",
+      "C": "directing",
+      "D": "leading"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Organising involves the division of work into different sections, allocating responsibilities and authority to all components of the organisation in order to achieve the objectives",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_6",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "6",
+    "question": "A demerit of communication is that it",
+    "options": {
+      "A": "increase the cost of goods in transit",
+      "B": "give room for distortion of fact",
+      "C": "hinder quick reception of messages over a long distance",
+      "D": "makes payment for goods cumbersome"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The sender of communication may have a clear idea about the message but it may still be marked by the poorly chosen words poor organization, awkward sentence structure, lack of coherence, omissions unnecessary jargon, and a failure to clarify its implications.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_7",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "7",
+    "question": "Which of the following regulates and controls the activities in the Nigerian Stock Exchange?",
+    "options": {
+      "A": "CBN",
+      "B": "BPE",
+      "C": "SEC",
+      "D": "NDIC"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "SEC is in charge of regulating funding schemes across Nigeria. From public funding to crowdfunding schemes, SEC is a significant agency to interrelate with before such schemes can be undertaken by companies in Nigeria.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_8",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "8",
+    "question": "An agent who has to sell perishable goods without the prior authority of the owner becomes an agent by",
+    "options": {
+      "A": "estoppel",
+      "B": "conduct",
+      "C": "necessity",
+      "D": "ratification"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Agency by necessity arises when an emergency situation happens. When somebody who is possession of another person's property has to so something to preserve the property.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_9",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "9",
+    "question": "Which of the following is not a veritable source of funds to a public limited liability company?",
+    "options": {
+      "A": "advances and loans from bank",
+      "B": "internally generated funds",
+      "C": "government financial grants",
+      "D": "funds from the sale of shares"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The sources of finance are:- hire purchase- trade credit- loans and overdraft- sales of shares- sales of debentures- bill of exchange- retained profits",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_10",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "10",
+    "question": "The document that explains the types of shares available for sale to the public is",
+    "options": {
+      "A": "a prospectus",
+      "B": "an invoice",
+      "C": "closed indent",
+      "D": "an open indent"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A prospectus is a formal document required by and filed with the Securities and Exchange Commission (SEC) that provides details about an investment offering to the public.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_11",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "11",
+    "question": "A major objective of all business resources is",
+    "options": {
+      "A": "human relation",
+      "B": "profit making",
+      "C": "public relation",
+      "D": "profit sharing"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "One of the objective of business is to derive maximum profit. Others include: to provide goods and services that will meet the needs of the consumers, to protect the interest of workers etc.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_12",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "12",
+    "question": "The type of letters that are delivered through the normal mail or by airmail express service is referred to as",
+    "options": {
+      "A": "express letters",
+      "B": "registered letters",
+      "C": "inland letters",
+      "D": "airmail letters"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The type of letters that are delivered through the normal mail or by airmail express service is referred to as inland letters. Inland letters are letters that are sent within the same country. They can be delivered through the normal mail service or by airmail express service, depending on the sender's preference and the urgency of the letter.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_13",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "13",
+    "question": "Parts payments made on alloted shares by subscribers is usually the",
+    "options": {
+      "A": "authorized capital",
+      "B": "subscribed capital",
+      "C": "called -up capital",
+      "D": "issued capital"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Called up share capital is shares issued to investors, under the understanding that the shares will be paid for at a later date or in installments.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_14",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "14",
+    "question": "Which of the following legislation aims primarily at the protection of consumers?",
+    "options": {
+      "A": "Company's Act",
+      "B": "Partnership Act",
+      "C": "Trade Description Act",
+      "D": "Law of contract"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Trade description Act was introduced to prevent the deception of consumers by false advertising. The provisions are meant to protect consumers against misleading description of goods and services.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_15",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "15",
+    "question": "The activity which entails buying of goods in bulk and selling in small quantities to retailers is",
+    "options": {
+      "A": "wholesaling",
+      "B": "retailing",
+      "C": "merchandising",
+      "D": "assembling"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wholesaling is a business activity which entails buying of goods in bulk from the producer and selling in small quantities to the retailer and other merchants.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_16",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "16",
+    "question": "An individual that links the producer with the retailer is",
+    "options": {
+      "A": "an agent",
+      "B": "a wholesaler",
+      "C": "a principal",
+      "D": "an entreprenuer"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A wholesaler is a merchant who purchases goods in large quantity from the manufacturer and sell in small quantities to the retailer. The wholesaler acts as an intermediary between the retailer and the manufacturer.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_17",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "17",
+    "question": "I. Its unlimited nature II. The number of partners III. The withdrawal of a major of partner IV. The bearing of risk Which of these is both merit and demerit in partnership?",
+    "options": {
+      "A": "III  and IV",
+      "B": "I only",
+      "C": "II only",
+      "D": "I and II"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Partnership are formed by an association of two to twenty persons. The number of partners involved serves as both merit and demerit to partnership business.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_18",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "18",
+    "question": "A factor necessary for siting of a warehouse is nearness to",
+    "options": {
+      "A": "labour",
+      "B": "consumers",
+      "C": "capital",
+      "D": "raw materials"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The pattern of consumption of consumers in an area must be taken into consideration since it is good to site a warehouse near the consumers.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_19",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "19",
+    "question": "The principle which requires the insurance company to disclose to the proposer all material facts of the risk to be covered is",
+    "options": {
+      "A": "uberrimae fidei",
+      "B": "subrogation",
+      "C": "contribution",
+      "D": "proximate cause"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An uberrimae fidei contract is a legal agreement, common to the insurance industry, requiring the highest standard of good faith during disclosure of all material facts that could influence the decision of the other party.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_20",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "20",
+    "question": "One disadvantages of advertising is that it",
+    "options": {
+      "A": "could be misleading",
+      "B": "decreases sales",
+      "C": "reduces profit",
+      "D": "causes over stocking"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Some advertisment may be false and misleading as they make exaggerated claims. Also it leads to monopoly and encourages buyers to make unncessary purchase.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_21",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "21",
+    "question": "Which of the following attracts only interest but leaves the capital unpaid?",
+    "options": {
+      "A": "a development bond",
+      "B": "a long term loan",
+      "C": "an irredeemable bond",
+      "D": "redeemable bond"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A redeemable bond is a government bond which has no date of maturity and which therefore provides interest but can never be redeemed at full value.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_22",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "22",
+    "question": "A bill of exchange already accepted can be discounted by the holder in",
+    "options": {
+      "A": "the central bank",
+      "B": "his bank",
+      "C": "at least two banks",
+      "D": "any bank"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A bill of exchange is addressed by one person to another and it must be an order to pay. Also, the order must be uncondtional.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_23",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "23",
+    "question": "The process of converting a non-profit making organisation to a profit-making business is",
+    "options": {
+      "A": "commercialisation",
+      "B": "deregulation",
+      "C": "indigenisation",
+      "D": "privatisation"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Privatization occurs when a government-owned business, operation, or property becomes owned by a private, non-government party. Privatization may also describe a transition that takes a company from being publicly traded to becoming privately held.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_24",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "24",
+    "question": "An agreement that is enforceable in law is",
+    "options": {
+      "A": "a contract",
+      "B": "an acceptance",
+      "C": "an offer",
+      "D": "a consideration"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A contract is an agreement between two or more parties which is intended by them to have legal backing. The vital thing which turns an agreements into a contract is when the parties intend to be legally bound to carry out their agreements.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_25",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "25",
+    "question": "One of the functions of a retailer is the",
+    "options": {
+      "A": "breaking of bulk",
+      "B": "provision of credit facilities to relations",
+      "C": "provision of jobs for customers",
+      "D": "financing of production activities"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The functions of the retailer are:- selling in small quantities to consumers- provides after sales services- gives advice to the consumers- grants credit facilities to the consumers",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_26",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "26",
+    "question": "A business organization that exploits the capabilities of a member to remedy the weakness of another is a",
+    "options": {
+      "A": "joint venture",
+      "B": "partnership",
+      "C": "nominal partnership",
+      "D": "cooperative"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A co­operative society is a special type of society, which is established by an economically weak person for the betterment and upliftment of their economic condition through mutual help. Many business organizations have the main motive to earn profit and also exploit customers.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_27",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "27",
+    "question": "The government agency involved in issuing of export licences is",
+    "options": {
+      "A": "Nigeria Port Authority",
+      "B": "Customs and Excise Authority",
+      "C": "Nigeria Export Promotion Council",
+      "D": "Nigeria Export Processing Zone"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Nigerian Export Promotion Council (NEPC) is the Federal Government of Nigeria's apex institution for the promotion, development and diversification of exports.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_28",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "28",
+    "question": "Insurance against burglary is an example of",
+    "options": {
+      "A": "non-indemnity insurance",
+      "B": "non-insurable risk",
+      "C": "indemnity insurance",
+      "D": "fidelity guarantee insurance"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "indemnity insurance is an insurance in which the insurer promises to make the insured party whole again for any covered loss in exchange for premiums the policyholder pays.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_29",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "29",
+    "question": "The concept that refers to the sale, transfer or exchange of goods and services is",
+    "options": {
+      "A": "trade",
+      "B": "tariff",
+      "C": "industry",
+      "D": "marketing"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Trade is the activity of buying and selling, or exchanging, goods and/or services between people or countries",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_30",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "30",
+    "question": "At the collapse of a business enterprises, the person appointed to dispose off the assets is called",
+    "options": {
+      "A": "an auctioneer",
+      "B": "an auditor",
+      "C": "a broker",
+      "D": "a liquidator"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A liquidator is a person with the legal authority to act on behalf of a company to sell the company's assets before the company closes in order to generate cash for a variety of reasons including debt repayment.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_31",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "31",
+    "question": "An announcement of a person's willingness to enter into a contract is referred to as",
+    "options": {
+      "A": "an acceptance",
+      "B": "a proxy",
+      "C": "consideration",
+      "D": "an offer"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An offer is a proposal made by one party (the offeror) to another person (the offeree) that indicates a willingness to enter into a contract.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_32",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "32",
+    "question": "An example of a cartel is",
+    "options": {
+      "A": "ECOWAS",
+      "B": "AU",
+      "C": "OPEC",
+      "D": "EU"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A cartel is a group of independent market participants who collude with each other in order to improve their profits and dominate the market e.g OPEC",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_33",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "33",
+    "question": "₦ ₦ Stock 1/1 20,000 Net Sales 370,000 Add purchases 250,000 Cost of goods available for sale 270,000 Less stock 31/12 40,000 Cost of goods sold 230,000 Rent expenses 35,000 Find the gross profit",
+    "options": {
+      "A": "₦150,000",
+      "B": "₦370,000",
+      "C": "₦230,000",
+      "D": "₦140,000"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Gross profit is calculated by subtracting the cost of goods sold from net sales. From the given data, Net sales is ₦370,000 and Cost of goods sold is ₦230,000. Therefore, Gross profit = Net sales - Cost of goods sold = ₦370,000 - ₦230,000 = ₦140,000.",
+    "table_html": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td> </td>\n<td>₦</td>\n<td>                                           </td>\n<td>\n<p>                    ₦</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Stock 1/1</p>\n</td>\n<td>20,000</td>\n<td>Net Sales</td>\n<td>370,000</td>\n</tr>\n<tr>\n<td>\n<p>Add purchases</p>\n</td>\n<td>250,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Cost of goods available for sale</p>\n</td>\n<td>270,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Less stock 31/12</p>\n</td>\n<td>40,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Cost of goods sold</p>\n</td>\n<td>230,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Rent expenses</p>\n</td>\n<td>35,000</td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_34",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "34",
+    "question": "₦ ₦ Stock 1/1 20,000 Net sales 370,000 Add purchases 250,000 Cost of goods available for sale 270,000 Less stock 31/12 40,000 Cost of goods sold 230,000 Rent expenses 35,000 Calculate the net profit",
+    "options": {
+      "A": "₦35,000",
+      "B": "₦115,000",
+      "C": "₦105,000",
+      "D": "₦40,000"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The net profit is calculated by subtracting the total expenses from the net sales. In this case, the net sales is ₦370,000 and the total expenses (cost of goods sold and rent expenses) is ₦265,000. Therefore, the net profit is ₦370,000 - ₦265,000 = ₦105,000.",
+    "table_html": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td> </td>\n<td>₦</td>\n<td> </td>\n<td>\n<p>₦</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Stock 1/1</p>\n</td>\n<td>20,000</td>\n<td>Net sales</td>\n<td>370,000</td>\n</tr>\n<tr>\n<td>\n<p>Add purchases</p>\n</td>\n<td>250,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Cost of goods available for sale</p>\n</td>\n<td>270,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Less stock 31/12</p>\n</td>\n<td>40,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Cost of goods sold</p>\n</td>\n<td>230,000</td>\n<td> </td>\n<td> </td>\n</tr>\n<tr>\n<td>\n<p>Rent expenses</p>\n</td>\n<td>35,000</td>\n<td> </td>\n<td> </td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_35",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "35",
+    "question": "The function of commerce in relation to production is",
+    "options": {
+      "A": "helping in the extraction of raw materials from nature",
+      "B": "yielding result",
+      "C": "providing a link between the different stage of conversion of good",
+      "D": "satisfying"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Commerce links producers and consumers. Production is meant for ultimate consumption. Commerce makes possible to link producers and consumers through retailers and wholesalers and also through the aids to trade. Thus commerce creates contact between the centers of production and consumption and links them.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_36",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "36",
+    "question": "A government policy that encourages transfer of ownership from foreigners to indigenes of the country is known as",
+    "options": {
+      "A": "indigenisation",
+      "B": "commercialisation",
+      "C": "nationalisation",
+      "D": "privatisation"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Indigenization is the transfer of ownership and control of the business enterprises from foreigners to the indigenes. It is a policy designed to ensure greater participation of indigenes in the ownership, control and management of business enterprises.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_37",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "37",
+    "question": "The rate where a country's exports exchange for its imports is called",
+    "options": {
+      "A": "terms of trade",
+      "B": "balance of trade",
+      "C": "terms of payments",
+      "D": "balance of payments"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Terms of Trade (TOT) is the rate at which a country's exports exchange for its imports and it is calculated as:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_38",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "38",
+    "question": "A major function of chamber of commerce is",
+    "options": {
+      "A": "promoting both home and foreign trade",
+      "B": "increasing productivity",
+      "C": "promoting trade in a particular line",
+      "D": "maximizing profit"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "They develop trade with other towns outside the country or other town within its territory thereby, promoting home and foreign trade.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_39",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "39",
+    "question": "The fees charged on postal order by the post office is",
+    "options": {
+      "A": "premium",
+      "B": "poundage",
+      "C": "interest",
+      "D": "brokerage"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Poundage is a small fixed charge that is levied by the post office for handling the postal order.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_40",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "40",
+    "question": "An advantage of division of labour is",
+    "options": {
+      "A": "productivity and total output is increased",
+      "B": "monopoly od task is eliminated",
+      "C": "interdependence of workers increase remuneration",
+      "D": "loss of individual craftmanship is minimized"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The advantages of division of labour are:- it increase production- development of greater skill- large scale of production- it leads to specialisation",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_41",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "41",
+    "question": "Which is the fastes means of transportation?",
+    "options": {
+      "A": "road",
+      "B": "air",
+      "C": "rail",
+      "D": "water"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Air transport are the fastest and most efficient means of transportation. It is comfortable and offers quality service. The ease of travelling over long distances in comfort are almost entirely due to air transport.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_42",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "42",
+    "question": "Factors considered when setting up a retail business is one of the following",
+    "options": {
+      "A": "capital, experience and trading",
+      "B": "experience, term of trade and trading",
+      "C": "capital, trading and term of trade",
+      "D": "capital, type of goods and source of supply"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The factors are: capital, pricing policy, source of supply, type of goods, terms of trade, experience, advertising, location of the business.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_43",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "43",
+    "question": "An example of extractive occupation is",
+    "options": {
+      "A": "driving",
+      "B": "teaching",
+      "C": "banking",
+      "D": "mining"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Extractive occupation is concerned with making available raw materials and natural products from land or sea e.g farming, fishing, mining, hunting etc.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_44",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "44",
+    "question": "The part of the computer that has the capacity to interpret instruction is",
+    "options": {
+      "A": "central processing unit",
+      "B": "universal power storage",
+      "C": "monitor",
+      "D": "keyboard"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "central processing unit (CPU), principal part of any digital computer system, generally composed of the main memory, control unit, and arithmetic-logic unit. It constitutes the physical heart of the entire computer system; to it is linked various peripheral equipment, including input/output devices and auxiliary storage units. In modern computers, the CPU is contained on an integrated circuit chip called a microprocessor.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_45",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "45",
+    "question": "The duties paid on goods produced locally is",
+    "options": {
+      "A": "export duty",
+      "B": "excise duty",
+      "C": "Ad-valorem duty",
+      "D": "quota"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An excise duty is a type of tax charged on goods produced within the country excise duty is a percentage levied on manufacture, sale, or use of locally produced goods.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_46",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "46",
+    "question": "Current account holders withdraw money through",
+    "options": {
+      "A": "transfer",
+      "B": "credit cards",
+      "C": "withdrawal form",
+      "D": "cheque"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Current account holders use cheques to withdraw money from their bank accounts. A cheque is an order to a bank to pay a stated sum from the drawer's account, written on a specially printed form.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_47",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "47",
+    "question": "The type of activity which turns processed raw materials into consumer and industrial goods is described as",
+    "options": {
+      "A": "extractive",
+      "B": "processing",
+      "C": "constructive",
+      "D": "manufacturing"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "manufacturing occupation is concerned with the activities of those who engage in processing and turning raw materials produced in the primary industry into finished products.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_48",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "48",
+    "question": "The organised effort of consumers to protect themselves against the unfair practices of businessmen is known as",
+    "options": {
+      "A": "picketing",
+      "B": "stroke",
+      "C": "consumerism",
+      "D": "demonstration"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Consumerism is the effort or actions of consumers or individuals to protect themselves against the unfair practices of businessmen. It can also be defined as a protest against business injustices and the efforts to correct such injustices.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_49",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "49",
+    "question": "Land as a factor of production does not vary in",
+    "options": {
+      "A": "cost",
+      "B": "quality",
+      "C": "quantity",
+      "D": "nature"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Land as a factor of production does not vary in quantity. The total land area of the earth is fixed and cannot be increased or decreased. However, the nature, quality, and cost of land can vary. The nature of land refers to its physical characteristics, the quality refers to its productivity or usefulness for a specific purpose, and the cost refers to the price of acquiring the land.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_50",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "50",
+    "question": "Which of the following is an item in the marketing mix?",
+    "options": {
+      "A": "market",
+      "B": "consumer",
+      "C": "demand",
+      "D": "promotion"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The marketing mix, also known as the 4Ps of marketing, includes Product, Price, Place, and Promotion. Therefore, 'promotion' is an item in the marketing mix. The other options, demand, market, and consumer, are not part of the marketing mix but are factors that influence marketing strategies.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_51",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "51",
+    "question": "One of the major problems of a sole properitor is sourcing for",
+    "options": {
+      "A": "labour",
+      "B": "machineries",
+      "C": "raw materials",
+      "D": "funds"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The sole proprietorship is always faced with inadequate capital because of the small sizeof his business and his ability to source funds outside his business.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals",
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_52",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "52",
+    "question": "Risk bearing in business organisation is a function of the",
+    "options": {
+      "A": "manager",
+      "B": "employee",
+      "C": "entrepreneur",
+      "D": "customers"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An entrepreneur is the one who organizes, manages,and assumes the risks of a business or enterprise. Risk taking is one of the key elements of entrepreneurship. An entrepreneur bears all the risks associated with the activities of the business.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_53",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "53",
+    "question": "The production of goods and services in anticipation of demand is made possible by",
+    "options": {
+      "A": "warehousing",
+      "B": "packaging",
+      "C": "branding",
+      "D": "advertising"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Warehousing is the process of storing physical inventory for sale or distribution. Warehouses are used by all different types of businesses that need to temporarily store products in bulk before either shipping them to other locations or individually to end consumers.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_54",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "54",
+    "question": "The business unit that applies the principle of one man vote is",
+    "options": {
+      "A": "public company",
+      "B": "partnership",
+      "C": "co-operative society",
+      "D": "sole properitorship"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cooperatives are about people having a shared sense of purpose and aligned self-interests. One-member, one-vote works great in this context because it distributes decision-making and is designed to reflect the interests of a majority of owners. For example, suppose a cooperatives proposes to purchase one of its competitors and expand the business.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_55",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "55",
+    "question": "A partnership is dissolved due to",
+    "options": {
+      "A": "resignation of an employee",
+      "B": "liquidity of the firm",
+      "C": "death of the employee",
+      "D": "insanity of a partner"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dissolution of partnership is coming to an end of a partnership agreement due to the following:- death of a partner- joint decision- insolvency of the business- insanity of a partner- expiration of agreement- bankruptcy of a partner",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Commerce_2023_56",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "56",
+    "question": "The effects of devaluation includes all except",
+    "options": {
+      "A": "expansion of local industries",
+      "B": "increase in import",
+      "C": "increase in standard of living",
+      "D": "exports become cheaper"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Devaluation of a currency makes imports more expensive, not cheaper, and can lead to a decrease in the standard of living as the cost of imported goods and services increases.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_57",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "57",
+    "question": "A major function of trade association is to",
+    "options": {
+      "A": "foster cooperation among members",
+      "B": "establish a link among member",
+      "C": "assist members to buy cars",
+      "D": "help individuals to set up small business"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The functions of trade association includes:- fixing prices for their services or product- provide credit facilities and assistance to members- educate their members on trade activities- settle dispute among members",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_58",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "58",
+    "question": "Which of the following is a verbal means of communication",
+    "options": {
+      "A": "express mail",
+      "B": "telephone",
+      "C": "telex",
+      "D": "business reply services"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Verbal Communication is a type of oral communication wherein the message is transmitted through the spoken words. Here the sender gives words to his feelings, thoughts, ideas and opinions and expresses them in the form of speeches, discussions, presentations, and conversations. It includes face to face conversation, phone calls, interview etc.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_59",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "59",
+    "question": "The Nigerian Stock Exchange consist of",
+    "options": {
+      "A": "primary and secondary -tier market",
+      "B": "commercial and mortgage market",
+      "C": "secondary and primary market",
+      "D": "money and commodities market"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Nigerian Stock Exchange (NSE) oversees the organized trading in capital markets products, including stocks, mutual funds, treasury bills, and bonds. The Capital Market in Nigeria is a deregulated market which is made up of both primary and secondary markets.Primary market: this is the part of the capital market where companies raise funds through the sale of new securities, while the secondary market, on the other hand, is a platform where investors purchase and sell existing securities.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_60",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "60",
+    "question": "A major merit of the retaining middlemen is to",
+    "options": {
+      "A": "regulate price for manufacturers",
+      "B": "stock perishable goods",
+      "C": "pay cash to the bank for manufacturers",
+      "D": "stock goods produced by different manufacturer"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The consumers can buy varieties of goods from the retailers , hence they are exposed to a wide range of goods.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_61",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "61",
+    "question": "Any activity directed at conveying commodities to buyers is an aspect of",
+    "options": {
+      "A": "delivering",
+      "B": "advertising",
+      "C": "selling",
+      "D": "marketing"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Marketing encompasses all activities directed at conveying commodities to buyers. This includes selling, delivering, advertising, and more. Therefore, the correct answer is 'marketing'.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_62",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "62",
+    "question": "Money is generally acceptable for transaction due to",
+    "options": {
+      "A": "the central bank's governor's signature",
+      "B": "the rule of the law",
+      "C": "its acceptability in the global market",
+      "D": "the legal backing"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts, such as taxes, in a particular country.Legal tender is any official medium of payment recognized by law that can be used to extinguish a public or private debt, or meet a financial obligation",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_63",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "63",
+    "question": "The scope commerce is limited to",
+    "options": {
+      "A": "home and foreign trade",
+      "B": "trade and aids-to-trade",
+      "C": "wholesale and retail trade",
+      "D": "wholesale and entreport trade"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The scope of commerce is Trade and Aids to trade, i.e commerce is divided into trade and aids to trade.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_64",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "64",
+    "question": "The act of selling in a foreign market at a price lower than the cost price is called",
+    "options": {
+      "A": "dumping",
+      "B": "under sale",
+      "C": "hedging",
+      "D": "fair trading"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dumping is considered a form of price discrimination. It occurs when a manufacturer lowers the price of an item entering a foreign market to a level that is less than the price paid by domestic customers in the originating country.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_65",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "65",
+    "question": "The board of directors of public enterprise is appointed by who?",
+    "options": {
+      "A": "government",
+      "B": "management",
+      "C": "employees",
+      "D": "shareholders"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A board of directors is a panel of people who are elected to represent shareholders. The board of directors of public enterprise is appointed by the government. The board of directors managed and controlled the business.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_66",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "66",
+    "question": "Good and services transferred from seller to buyer without immediate payment is referred to as",
+    "options": {
+      "A": "leasing",
+      "B": "hire purchase",
+      "C": "credit sale",
+      "D": "mutual understanding"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A credit sale is a sale in which the customer does not pay in full at the time of purchase, but agrees to pay later. The seller transfers the ownership of goods or services to the customer and expects to receive payment in the future.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_67",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "67",
+    "question": "A demonstration of social responsibility by a business is the payment of",
+    "options": {
+      "A": "interests on loans",
+      "B": "taxes to government",
+      "C": "dividends to shareholders",
+      "D": "premium on insurance"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "It is the responsibility of a business to pay tax as at and when due. Also, complying with the rules and regulations.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_68",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "68",
+    "question": "One of these is a current asset",
+    "options": {
+      "A": "machineries",
+      "B": "fittings",
+      "C": "stock",
+      "D": "motor vehicles"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Current Assets is an account listed on a balance sheet that shows the value of the assets owned by a company that can be converted to cash through liquidation, use, or sales within one year.Current assets include cash, cash equivalents, accounts receivable, stock inventory, marketable securities, pre-paid liabilities, and other liquid assets.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_69",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "69",
+    "question": "The stock exchange is a market where",
+    "options": {
+      "A": "short-term securities are sold",
+      "B": "medium term securities are sold",
+      "C": "all types of securities are sold",
+      "D": "long term securities are sold"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "It refers to several exchanges or securities such as shares, bonds, debentures etc in which shares of publicly held companies are bought and sold.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_70",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "70",
+    "question": "Another name or term for a dishonoured cheque is",
+    "options": {
+      "A": "a bearer cheque",
+      "B": "an open cheque",
+      "C": "a bounced cheque",
+      "D": "an order cheque"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A cheque is said to be bounced if the cheque is being rejected or dishonoured by the bank. Another name for dishonoured cheque is a bounced cheque.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_71",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "71",
+    "question": "Why is clean bill of lading called so?",
+    "options": {
+      "A": "it is a clear bill",
+      "B": "it shows not records of damaged goods",
+      "C": "it shows records of damaged goods",
+      "D": "it signifies no debt is owed"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A clean bill of lading is a type of ocean bill of lading. It is a transport document that indicates that the goods received in the vessel are in good condition and free from any defect.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_72",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "72",
+    "question": "What is a quota?",
+    "options": {
+      "A": "ban on all imported goods",
+      "B": "a physical restriction placed on quantity of goods that can be imported",
+      "C": "tax paid on goods produced within a country",
+      "D": "tax paid on goods produced outside a country"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A quota is a government-imposed trade restriction that limits the number or monetary value of goods that a country can import or export during a particular period. Countries use quotas in international trade to help regulate the volume of trade between them and other countries.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_73",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "73",
+    "question": "The four P's of marketing are also known as",
+    "options": {
+      "A": "marketing mix",
+      "B": "product mix",
+      "C": "promotion mix",
+      "D": "advertising mix"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A marketing mix includes multiple areas of focus as part of a comprehensive marketing plan. The term often refers to a common classification that began as the four Ps: product, price, place, and promotion.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_74",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "74",
+    "question": "The difference between the central bank and commercial bank is that the former",
+    "options": {
+      "A": "serves as lender of last resort",
+      "B": "discount treasury bills",
+      "C": "saves valuable of individual",
+      "D": "give loans to the public"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The central bank serves as lender of last resort, bankers bank . The CBN issues the country's currency and facilitates foreign exchange.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_75",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "75",
+    "question": "If a business uses part of its profit to develop the area where it operates, the business is fulfilling its",
+    "options": {
+      "A": "marketing responsibilities",
+      "B": "managerial responsibilities",
+      "C": "economic responsibilities",
+      "D": "social responsibilities"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Social responsibility means that individuals and companies must act in the best interests of their environment and society as a whole. It is also known as corporate social responsibilties.Corporate social responsibility is a business model by which companies make a concerted effort to operate in ways that enhance rather than degrade society and the environment.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_76",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "76",
+    "question": "The process of buying, selling and distribution of goods and services is",
+    "options": {
+      "A": "marketing concept",
+      "B": "marketing",
+      "C": "retail trade",
+      "D": "commerce"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Commerce is the exchange of goods or services among two or more parties. It is the subset of business that focuses on the sale of finished or unfinished products rather than their sourcing, manufacturing, transportation, or marketing.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_77",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "77",
+    "question": "The Central Bank Monetary policy instrument by which it buys and sells securities is called",
+    "options": {
+      "A": "open market operation",
+      "B": "bank credit",
+      "C": "cash reserve ratio",
+      "D": "bank rate"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Open market operations (\"OMOs\") are the central bank's primary tool of monetary policy. If the central bank wants interest rates to be lower, it buys bonds. Buying bonds injects money into the money market, increasing the money supply.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_78",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "78",
+    "question": "A system where customer patronage is sought by producing what they need is referred to as",
+    "options": {
+      "A": "sales promotion",
+      "B": "product promotion",
+      "C": "market promotion",
+      "D": "market orientation"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Market orientation is an approach to business that prioritizes identifying the needs and desires of consumers and creating products and services that satisfy them.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Commerce_2023_79",
+    "exam": "JAMB",
+    "subject": "Commerce",
+    "year": 2023,
+    "number": "79",
+    "question": "In law of contract, a counter offer operates as",
+    "options": {
+      "A": "an acceptance",
+      "B": "a rejection",
+      "C": "an offer",
+      "D": "a contract"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Counter offer meaning is an offer made in response to a previous offer by the other party. It implies a rejection of the original offer and requires an acceptance of the new terms or there is no contract. Counter offer can be used in different situations, such as when an employee resigns or when a seller negotiates with a buyer.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  }
+]

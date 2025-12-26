@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "JAMB_Mathematics_2011_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "1",
+    "question": "If 2q3 5 = 77 8 , find q",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "4",
+      "D": "O"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "5",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "2",
+    "question": "Simplify (3(2/3) × (5/6) × (2/3)/(11/15) × (3/4) × (2/27))",
+    "options": {
+      "A": "5(2/3)",
+      "B": "30",
+      "C": "4(1/3)",
+      "D": "50"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "3",
+    "question": "A man invested N5,000 for 9 months at 4%. What is the simple interest?",
+    "options": {
+      "A": "N150",
+      "B": "N220",
+      "C": "N130",
+      "D": "N250"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "4",
+    "question": "If the numbers M, N, Q are in the ratio 5:4:3, find the value of (2N - Q/M)",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "4"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "5",
+    "question": "Simplify ((16/81))⁽¹/⁴⁾ ÷ ((9/16))⁻⁽¹/²⁾",
+    "options": {
+      "A": "(2/3)",
+      "B": "(1/2)",
+      "C": "(8/9)",
+      "D": "(1/3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "6",
+    "question": "If log³ 18 + log³ 3 - log³ x = 3, Find x.",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "o",
+      "D": "3"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "7",
+    "question": "Rationalize (2 - 5/3 - 5)",
+    "options": {
+      "A": "(1 - 5/2)",
+      "B": "(1 - 5/4)",
+      "C": "(5 - 1/2)",
+      "D": "(1 + 5/4)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "8",
+    "question": "Simplify (2 + (1/3))(2 - (1/3))",
+    "options": {
+      "A": "(7/3)",
+      "B": "(5/3)",
+      "C": "(5/2)",
+      "D": "(3/2)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "9",
+    "question": "Raial has 7 different posters to be hanged in her bedroom, living room and kitchen. Assuming she has plans to place at least a poster in each of the³ rooms, how many choices does she have?",
+    "options": {
+      "A": "49",
+      "B": "170",
+      "C": "21",
+      "D": "210"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "10",
+    "question": "Make R the subject of the formula if T = {KR² + M}{3}",
+    "options": {
+      "A": "(3T - K/M)",
+      "B": "(3T - M/K)",
+      "C": "(3T + K/M)",
+      "D": "(3T - K/M)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "11",
+    "question": "Find the remainder when X³ - 2X² + 3X - 3 is divided by X² + 1",
+    "options": {
+      "A": "2X - 1",
+      "B": "X + 3",
+      "C": "2X + 1",
+      "D": "X - 3"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "12",
+    "question": "Factorize completely 9y² - 16X²",
+    "options": {
+      "A": "(3y - 2x)(3y + 4x)",
+      "B": "(3y + 4x)(3y + 4x)",
+      "C": "(3y + 2x)(3y - 4x)",
+      "D": "(3y - 4x)(3y + 4x)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "13",
+    "question": "Solve for x and y respectively in the simultaneous equations -2x - 5y = 3. x + 3y = 0",
+    "options": {
+      "A": "-3, -9",
+      "B": "9,⁻³",
+      "C": "-9,3",
+      "D": "3, -9"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "14",
+    "question": "If x varies directly as square root of y and x = 81 when y = 9, Find x when y = 1(7/9)",
+    "options": {
+      "A": "20(1/4)",
+      "B": "27",
+      "C": "2(1/4)",
+      "D": "36"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x α√yx = k√y81 = k9k = (81/3)= 27therefore, x = 27√yy = 1(7/9) = (16/9)x = 27 x √((16/9))= 27 x (4/3)dividing 27 by³= 9 x 4= 36",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "15",
+    "question": "T varies inversely as the cube of R. When R = 3, T = (2/81), find T when R = 2",
+    "options": {
+      "A": "(1/18)",
+      "B": "(1/12)",
+      "C": "(1/24)",
+      "D": "(1/6)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "16",
+    "question": "Solve the inequality -6(x + 3) ≤ 4(x - 2)",
+    "options": {
+      "A": "x ≤ 2",
+      "B": "x ≥⁻¹",
+      "C": "x ≥⁻²",
+      "D": "x ≤⁻¹"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "-6(x + 3) ≤ 4(x - 2)-6(x +3) ≤ 4(x - 2)-6x -18 ≤ 4x - 8-18 + 8 ≤ 4x +6x-10 ≤ 10x10x ≥ -10x ≥⁻¹",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "17",
+    "question": "Solve the inequality x2 + 2x > 15.",
+    "options": {
+      "A": "x <⁻³ or x > 5",
+      "B": "-5 < x < 3",
+      "C": "x < 3 or x > 5",
+      "D": "x > 3 or x < -5"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x2 + 2x > 15x2 + 2x - 15 > 0(x2 + 5x) - (3x - 15) > 0x(x + 5) - 3(x + 5) >0(x - 3)(x + 5) > 0therefore, x = 3 or -5i.e. x< 3 or x > -5",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "18",
+    "question": "Find the sum of the first 18 terms of the series³, 6, 9,..., 36.",
+    "options": {
+      "A": "505",
+      "B": "513",
+      "C": "433",
+      "D": "635"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "19",
+    "question": "The seconds term of a geometric series is 4 while the fourth term is 16. Find the sum of the first five terms",
+    "options": {
+      "A": "60",
+      "B": "62",
+      "C": "54",
+      "D": "64"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "20",
+    "question": "A binary operation om real numbers is defined by x y = xy + x + y for two real numbers x and y. Find the value of³ - (2/3).",
+    "options": {
+      "A": "- (1/2)",
+      "B": "(1/3)",
+      "C": "-1",
+      "D": "2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "21",
+    "question": "If vmatrix² & 3 \\ 5 & 3x vmatrix = vmatrix 4 & 1 \\ 3 & 2x {vmatrix}, find the value of x.",
+    "options": {
+      "A": "-6",
+      "B": "6",
+      "C": "-12",
+      "D": "12"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "vmatrix² & 3 \\ 5 & 3x vmatrix = vmatrix 4 & 1 \\ 3 & 2x {vmatrix}(2 x 3x) - (5 x³) = (4 x 2x) - (3 x 1)6x - 15 = 8x - 36x - 8x = 15 - 3-2x = 12x = (12/-2)= -6",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "22",
+    "question": "Evaluate vmatrix 4 & 2 &⁻¹ \\ 2 & 3 &⁻¹ \\⁻¹ & 1 & 3 vmatrix",
+    "options": {
+      "A": "25",
+      "B": "45",
+      "C": "15",
+      "D": "55"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "23",
+    "question": "The inverse of matrix N = vmatrix² & 3 \\ 1 & 4{vmatrix} is",
+    "options": {
+      "A": "(1/5) vmatrix² & 1 \\ 3 & 4{vmatrix}",
+      "B": "(1/5) vmatrix 4 &⁻³ \\⁻¹ & 2{vmatrix}",
+      "C": "(1/5) vmatrix² &⁻¹ \\⁻³ & 4{vmatrix}",
+      "D": "(1/5) vmatrix 4 & 3 \\ 1 & 2{vmatrix}"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "24",
+    "question": "What is the size of each interior angle of a 12-sided regular polygon?",
+    "options": {
+      "A": "120 o",
+      "B": "150 o",
+      "C": "30 o",
+      "D": "180 o"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "25",
+    "question": "A chord of circle of radius 7cm is 5cm from the centre of the circle.What is the length of the chord?",
+    "options": {
+      "A": "4√6 cm",
+      "B": "3√6 cm",
+      "C": "6√6 cm",
+      "D": "2√6 cm"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "From Pythagoras theorem|OA|2 = |AN|2 + |ON|272 = |AN|2 + (5)249 = |AN|2 + 25|AN|2 = 49 - 25 = 24|AN| = √{24}= √{4 × 6}= 2√6 cm|AN| = |NB| (A line drawn from the centre of a circle to a chord, divides the chord into two equal parts)|AN| + |NB| = |AB|2√6 + 2√6 = |AB||AB| = 4√6 cm",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "26",
+    "question": "A solid metal cube of side³ cm is placed in a rectangular tank of dimension³, 4 and 5 cm. What volume of water can the tank now hold",
+    "options": {
+      "A": "48 cm³",
+      "B": "33 cm³",
+      "C": "60 cm³",
+      "D": "27 cm³"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "27",
+    "question": "The perpendicular bisector of a line XY is the locus of a point",
+    "options": {
+      "A": "whose distance from X is always twice its distance from Y",
+      "B": "whose distance from Y is always twice its distance from X.",
+      "C": "which moves on the line XY",
+      "D": "which is equidistant from the points X and Y"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "28",
+    "question": "The midpoint of P(x, y) and Q(8, 6) is (5, 8). Find x and y.",
+    "options": {
+      "A": "(2, 10)",
+      "B": "(2, 8)",
+      "C": "(2, 12)",
+      "D": "(2, 6)"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P(x, y) Q(8, 6)midpoint = (5, 8)x + 8 = 5(y + 6/2) = 8x + 8 = 10x = 10 - 8 = 2y + 6 = 16y + 16 - 6 = 10therefore, P(2, 10)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "29",
+    "question": "Find the equation of a line perpendicular to line 2y = 5x + 4 which passes through (4, 2).",
+    "options": {
+      "A": "5y - 2x -18 = 0",
+      "B": "5y + 2x - 18 = 0",
+      "C": "5y - 2x + 18 = 0",
+      "D": "5y + 2x - 2 = 0"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2y = 5x + 4 (4, 2)y = (5x/2) + 4 comparing withy = mx + em = (5/2)Since they are perpendicularm1m2 = -1m2 = (-1/m₁) =⁻¹(5/2) =⁻¹ x (2/5)The equator of the line is thusy = mn + c (4, 2)2 = -(2/5)(4) + c(2/1) + (8/5) = cc = (18/5)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "30",
+    "question": "In a right angled triangle, if tan θ = (3/4). What is cosθ - sinθ?",
+    "options": {
+      "A": "(2/3)",
+      "B": "(3/5)",
+      "C": "(1/5)",
+      "D": "(4/5)"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "tanθ = (3/4)from Pythagoras tippet, the hypotenus is Ti.e. 3, 4, 5.then sin θ = (3/5) and cosθ = (4/5)cosθ - sinθ(4/5) - (3/5) = (1/5)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "31",
+    "question": "A man walks 100 m due West from a point X to Y, he then walks 100 m due North to a point Z. Find the bearing of X from Z.",
+    "options": {
+      "A": "195 o",
+      "B": "135 o",
+      "C": "225 o",
+      "D": "045 o"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "32",
+    "question": "The derivatives of (2x + 1)(3x + 1) is",
+    "options": {
+      "A": "12x + 1",
+      "B": "6x + 5",
+      "C": "6x + 1",
+      "D": "12x + 5"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2x + 1 (d(3x + 1)/d x) + (3x + 1) (d(2x + 1)/d x)2x + 1 (3) + (3x + 1) (2)6x + 3 + 6x + 2 = 12x + 5",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "33",
+    "question": "{array}{c|c} Class Intervals & 0 - 2 & 3 - 5 & 6 - 8 & 9 - 11 & \\ Frequency & 3 & 2 & 5 & 3 &{array} Find the mode of the above distribution.",
+    "options": {
+      "A": "9",
+      "B": "8",
+      "C": "10",
+      "D": "7"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "34",
+    "question": "Find the value of x at the minimum point of the curve y = x3 + x2 - x + 1",
+    "options": {
+      "A": "(1/3)",
+      "B": "-(1/3)",
+      "C": "1",
+      "D": "-1"
+    },
+    "correct_answer": "A",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Application of differentiation (maxima, minima, rate of change)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = x3 + x2 - x + 1(dy/dx) = (d(x³)/dx) + (d(x²)/dx) - (d(x)/dx) + (d(1)/dx)(dy/dx) = 3x2 + 2x - 1 = 0(dy/dx) = 3x2 + 2x - 1At the maximum point (dy/dx) = 03x2 + 2x - 1 = 0(3x2 + 3x) - (x - 1) = 03x(x + 1)⁻¹(x + 1) = 0(3x - 1)(x + 1) = 0therefore x = (1/3) or -1For the maximum point(d²y/dx²) < 0(d²y/dx²) 6x + 2when x = (1/3)(dx²/dx²) = 6((1/3)) + 2= 2 + 2 = 4(d²y/dx²) > o which is the minimum pointwhen x =⁻¹(d²y/dx²) = 6(-1) + 2= -6 + 2 =⁻⁴-4 < 0therefore, (d²y/dx²) < 0the minimum point is 1/3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "35",
+    "question": "Evaluate ∈t¹₀(3 - 2x)dx",
+    "options": {
+      "A": "33m",
+      "B": "5",
+      "C": "2",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t¹₀(3 - 2x)dx[3x - x²]₀ ¹[3(1) - (1)²] - [3(0) - (0)²](3 - 1) - (0 - 0) = 2 - 0= 2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "36",
+    "question": "Find ∈t cos4 x dx",
+    "options": {
+      "A": "(3/4) sin 4x + k",
+      "B": "-(1/4) sin 4x + k",
+      "C": "-(3/4) sin 4x + k",
+      "D": "(1/4) sin 4x + k"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t cos4 x dxlet u = 4x(dy/dx) = 4dx = (dy/4)∈tcos u. (dy/4) = (1/4)∈tcos u du= (1/4) sin u + k= (1/4) sin4x + k",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "37",
+    "question": "The sum of four consecutive integers is 34. Find the least of these numbers",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "8",
+      "D": "5"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "38",
+    "question": "{array}{c|c} No & 0 & 1 & 2 & 3 & 4 & 5 \\ Frequency & 1 & 4 & 3 & 8 & 2 & 5 {array}. From the table above, find the median and range of the data respectively.",
+    "options": {
+      "A": "(8,5)",
+      "B": "(3, 5)",
+      "C": "(5 , 8)",
+      "D": "(5 , 3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Median = ∑ f = 23+1 = 24Th = (24/2) = 12TH position is 8 = 3Range = 5 - 0 = 5(3, 5)",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "39",
+    "question": "{array}{c|c} Class Interval & 3 - 5 & 6 - 8 & 9 - 11 \\ Frequency & 2 & 2 & 2 {array}. Find the standard deviation of the above distribution.",
+    "options": {
+      "A": "√5",
+      "B": "√6",
+      "C": "√7",
+      "D": "√2"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "40",
+    "question": "In how many was can the letters of the word ELATION be arranged?",
+    "options": {
+      "A": "6!",
+      "B": "7!",
+      "C": "5!",
+      "D": "8!"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "ELATIONSince there are 7 letters. The first letter can be arranged in 7 ways, , the second letter in 6 ways, the third letter in 5 ways, the 4th letter in four ways, the 3rd letter in three ways, the 2nd letter in² ways and the last in one way.therefore, 7 x 6 x 5 x 4 x³ x² x 1 = 7! ways",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "41",
+    "question": "In how many ways can five people sit round a circular table?",
+    "options": {
+      "A": "24",
+      "B": "60",
+      "C": "12",
+      "D": "120"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "42",
+    "question": "Find the probability that a number picked at random from the set(43, 44, 45, ..., 60) is a prime number.",
+    "options": {
+      "A": "(2/3)",
+      "B": "(1/3)",
+      "C": "(2/9)",
+      "D": "(7/9)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "43",
+    "question": "Find the derivative of {θ}{θ}",
+    "options": {
+      "A": "sec² θ",
+      "B": "tan θ cosec θ",
+      "C": "cosec θ",
+      "D": "cosec² θ"
+    },
+    "correct_answer": "A",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Differentiation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "44",
+    "question": "From the venn diagram above, the complement of the set P∩Q is given by",
+    "options": {
+      "A": "a, b, d, e",
+      "B": "b, d",
+      "C": "a, e",
+      "D": "c"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Mathematics_2011_q44_ec11a7af.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/15713314892_marhs-1.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "45",
+    "question": "The pie chart shows the distribution of courses offered by students. What percentage of the students offer English?",
+    "options": {
+      "A": "30%",
+      "B": "25%",
+      "C": "35%",
+      "D": "20%"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(90/360) × 10⁰ = (100/4)= 25",
+    "images": [
+      {
+        "filename": "Mathematics_2011_q45_4c9a81c7.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/MiMsvdZpa3BEJ3mmp11jdxkKIW0L1bO4YjCGrFOk.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2011_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2011,
+    "number": "46",
+    "question": "The bar chart above shows the distribution of SS2 students in a school. Find the total number of students",
+    "options": {
+      "A": "180",
+      "B": "135",
+      "C": "210",
+      "D": "105"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "45 + 60 + 30 + 45 = 180 students.",
+    "images": [
+      {
+        "filename": "Mathematics_2011_q46_9b683c62.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/28569783860_maths-3.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

@@ -1,0 +1,2141 @@
+[
+  {
+    "id": "JAMB_Literature in English_2023_1",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "1",
+    "question": "A limerick has",
+    "options": {
+      "A": "ornate style, humour, irony and seven lines",
+      "B": "formal and elaborate style and humour",
+      "C": "humour,rhyme scheme and five lines",
+      "D": "a stinging climax, rhyme scheme, and five lines"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A humorous short poem with two long lines that rhyme with each other followed by two short lines that rhyme with each other and ending with a long line that rhymes with the first two. The rhyme scheme is usually aabba.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_2",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "2",
+    "question": "The process of creating characters and endowing them with certain attitude is ......",
+    "options": {
+      "A": "Action",
+      "B": "Character",
+      "C": "Characterization",
+      "D": "Dramatis personae"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Prose",
+    "subtopic": "Characterization in prose",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Characterization is the process by which the writer reveals the personality of a character. It is the method used by a writer to develop a character. This can be done directly by the author or indirectly through the actions, thoughts, and speech of the character.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_3",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "3",
+    "question": "This question is based on BAT. Read the excerpt and answer the question: \"Bat! Creatures that hang themselves up like an old rag, to sleep, And disgustingly upside down.\" The theme of this excerpt is____",
+    "options": {
+      "A": "All of the above",
+      "B": "the poet's right to Individual choice",
+      "C": "the poet's admiration of the beauty of nature",
+      "D": "the poet's appalling remarks about the bird"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The theme of the excerpt is the poet's appalling remarks about the bird. The poet describes the bat in a negative light, comparing it to an 'old rag' and expressing disgust at its sleeping habits.",
+    "predicted_topics": [
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_4",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "4",
+    "question": "The writing convention in which the events in a narrative are scrambled as they come to the writer's mind without any attempt to arrange them in orderly sequence is called",
+    "options": {
+      "A": "psycho-consciousness styles",
+      "B": "narrator's mind style",
+      "C": "shifting style",
+      "D": "stream of consciousness"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Narration and versification",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The writing convention in which the events in a narrative are presented as they come to the writer's mind, without any attempt to arrange them in an orderly sequence, is called 'stream of consciousness'. This style seeks to depict the myriad thoughts and feelings which pass through the mind. Therefore, the option 'stream of consciousness' is correct.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_5",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "5",
+    "question": "Using the name of one thing for something else with which it is closely associated in an instance is",
+    "options": {
+      "A": "paradox",
+      "B": "parody",
+      "C": "parallelism",
+      "D": "metonymy"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "It is the act of using a well-known object to represent the holder or user.e.g: \"I miss my home\" *home here means \"family\"",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_6",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "6",
+    "question": "Which of these is the oldest genre of literature?",
+    "options": {
+      "A": "Aroma",
+      "B": "Poetry",
+      "C": "Drama",
+      "D": "Prose"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Poetry is considered the oldest form of literature. It dates back to prehistoric times when oral storytelling was the primary method of communication. Poetry was used to tell stories, record history, express emotions, and convey ideas. It predates the written word and was used in ancient civilizations for religious rituals, songs, and storytelling. The other options, Drama and Prose, came later in the history of literature.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_7",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "7",
+    "question": "The tragic character is the person whose experiences arouse pity and",
+    "options": {
+      "A": "sympathy",
+      "B": "terror",
+      "C": "horror",
+      "D": "frustration"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In literature, a tragic character is one that experiences a downfall due to their own flaw or mistake. The downfall of this character arouses feelings of pity and fear (or terror) in the audience. This is a concept known as 'catharsis', a term used by Aristotle in his work 'Poetics', to describe the feelings of pity and fear that the audience feels for the tragic hero.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_8",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "8",
+    "question": "'As virtuous men pass mildly away, And whisper to their souls, to go Whilst some of their sad friends do say, The breadth goes now, and some say, \"No\".' John Donne: A Valediction: Forbidding Mourning The tone of this poem is generally",
+    "options": {
+      "A": "conversational",
+      "B": "imaginative",
+      "C": "serious",
+      "D": "appreciative"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Subject of death is being elucidated in the quatrain. Because death is a serious issue, the tone is serious.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_9",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "9",
+    "question": "Cast in a play refers to",
+    "options": {
+      "A": "three of the actors",
+      "B": "a few of the actors",
+      "C": "an exclusive social class in the play",
+      "D": "all the actors"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cast in a play refers to all the actors. We can as well call such actors and actresses the dramatis personae.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_10",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "10",
+    "question": "A panegyric poem is composed to",
+    "options": {
+      "A": "condemn",
+      "B": "elaborate",
+      "C": "abuse",
+      "D": "praise"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The panegyric poem is composed to offer high praisre to a person or thing. It is also known as a eulogy.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_11",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "11",
+    "question": "Jibunoh was simply a difficult man. He was hated by all his neighbours and deserted by his relations. He was the first and only person to beat a policeman in the entire village. He also had ten cases instituted against him for either stealing or violating the rights of others. He had no regard for deanery or normal conduct. No lover of peace or order could be his friends. It is not surprising that his death elicited jubilation rather than mourning' The passage above reveals that Jibunoh symbolizes",
+    "options": {
+      "A": "insanity",
+      "B": "wickedness",
+      "C": "lawlessness",
+      "D": "isolation"
+    },
+    "correct_answer": "C",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Jibunoh was simply a difficult man. He was hated by all his neighbours and deserted by his relations. He was the first and only person to beat a policeman in the entire village. He also had ten cases instituted against him for either stealing or violating the rights of others. He had no regard for deanery or normal conduct. No lover of peace or order could be his friends. It is not surprising that his death elicited jubilation rather than mourning'The passage above reveals that Jibunoh symbolizes",
+    "explanation": "The passage describes Jibunoh as a man who is difficult, hated, and has no regard for law or order. He has been involved in multiple cases of theft and violation of others' rights. This description symbolizes 'lawlessness'. Lawlessness refers to a state of disorder due to a disregard of the law. In this context, Jibunoh's actions and the reactions of others towards him represent a state of lawlessness.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Institutions of Government in Post-Independence Nigeria",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_12",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "12",
+    "question": "The part of a play when climax approaches is known as",
+    "options": {
+      "A": "Catastasis",
+      "B": "Catharsis",
+      "C": "protasis",
+      "D": "Epitasis"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Theme and plot analysis",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Epitasis refers to the part of the play or narrative where the action intensifies, leading toward the climax. It involves the development of the central conflict and the building of tension.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_13",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "13",
+    "question": "'And so Tom awoke and we rose in the dark And got with our bags and our brushes to work Though the morning was cold, Tom was happy and warm; So if all do their duty they need not fear harm. ' In the lines above, Tom is warm because he",
+    "options": {
+      "A": "is working indoors",
+      "B": "is wearing warm clothes",
+      "C": "is doing his duty",
+      "D": "has just woken from sleep"
+    },
+    "correct_answer": "C",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the lines above, Tom is warm because he is doing his duty. The last line of the poem states, 'So if all do their duty they need not fear harm.' This suggests that Tom's warmth is not a result of just waking from sleep, wearing warm clothes, or working indoors, but rather from the satisfaction and fulfillment derived from doing his duty.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_14",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "14",
+    "question": "The term given to a type of incident or device which recurs frequently in Literature is",
+    "options": {
+      "A": "concept",
+      "B": "myth",
+      "C": "ritual",
+      "D": "motif"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Motif is a literary technique that consists of a repeated element that has symbolic significance to a literary work. Sometimes, a motif is a recurring image. Other times, it's a repeated word, phrase, or topic expressed in language.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_15",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "15",
+    "question": "An extended fictional narrative which is realistic is known as a",
+    "options": {
+      "A": "short story",
+      "B": "diary",
+      "C": "novella",
+      "D": "novel"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Prose",
+    "subtopic": "Types of prose (novel, short story, non-fiction)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A novel is a fictional narrative which is realistic and of a certain length. Diary is never fictional. Novella and short story are limitedly realistic fictions.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_16",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "16",
+    "question": "A Government Driver on His Retirement is a poem of thirty-three lines divided into _______ stanzas.",
+    "options": {
+      "A": "six",
+      "B": "four",
+      "C": "three",
+      "D": "five"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Rhyme scheme and meter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A Government Driver on His Retirement is a poem of thirty-three lines divided into six stanzas. Stanzas 1, 2, 4 and 5 have four lines each while Stanzas 3 and 6 have eight and nine lines respectively.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_17",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "17",
+    "question": "This question is based on THE JOURNEY OF THE MAGI. Read the excerpt and answer question \"And running away, and wanting their liquor and women, And the night-fires going out, and the lack of shelters, And the cities hostile and the towns unfriendly\" The dominant device in this excerpt is ___",
+    "options": {
+      "A": "metaphor",
+      "B": "synecdoche",
+      "C": "simile",
+      "D": "paradox"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The dominant device in the excerpt from 'The Journey of the Magi' is synecdoche. Synecdoche is a figure of speech in which a part is made to represent the whole or vice versa. In this case, 'night-fires going out' and 'lack of shelters' are used to represent the overall hardships and difficulties of the journey. The device is not paradox, metaphor, or simile, as there is no contradiction, comparison, or likeness being expressed.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_18",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "18",
+    "question": "The sides of a stage are called",
+    "options": {
+      "A": "both sides",
+      "B": "the ways",
+      "C": "the wings",
+      "D": "the pits"
+    },
+    "correct_answer": "C",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In theatre terminology, the sides of a stage are referred to as 'the wings'. This is where actors prepare to enter the stage and where props may be stored ready for use.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_19",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "19",
+    "question": "Be him English Be him African Be him Nigerian The lines above are an example of",
+    "options": {
+      "A": "epigram",
+      "B": "anaphora",
+      "C": "epitaph",
+      "D": "tautology"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Anaphora refers to the repetition of certain words or phrase at the begining of each sentence or line in a poem",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_20",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "20",
+    "question": "When he gave me the bottle, and I opened it, I was shocked by the odour that hit my nose: I immediately corked it again, and spat on the floor. . Isidore Okpewho, The Last Duty . The reaction in the passage above is that of",
+    "options": {
+      "A": "anger",
+      "B": "protest",
+      "C": "rejection",
+      "D": "nausea"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The reaction in the passage above is that of nausea. The character is shocked by the odour that hits his nose when he opens the bottle, and he immediately corks it again and spits on the floor. This reaction is indicative of a feeling of nausea, which is a sensation of unease and discomfort in the upper stomach with an involuntary urge to vomit.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_21",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "21",
+    "question": "A formal dignified speech or writing praising a person or a thing for past or present deeds is",
+    "options": {
+      "A": "lampoon",
+      "B": "eulogy",
+      "C": "premiere",
+      "D": "anthology"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A eulogy is a formal speech or piece of writing that praises someone or something highly, typically someone who has just died. Therefore, the correct answer is 'eulogy'. An anthology is a published collection of poems or other pieces of writing. A lampoon is a speech or text criticizing someone or something humorously. A premiere is the first performance of a play or the first showing of a movie.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_22",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "22",
+    "question": "A character that is always against the interest of the protagonist is",
+    "options": {
+      "A": "opposition",
+      "B": "heroine",
+      "C": "villain",
+      "D": "hero"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Prose",
+    "subtopic": "Characterization in prose",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In literature, a character that is always against the interest of the protagonist is referred to as a villain. A villain is a character whose evil actions or motives are important to the plot.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Political Parties and Party Systems"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_23",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "23",
+    "question": "\"...Rage is Chief Rage drags rags after you, of Charity Laughter, sweetness and light, Rage is thief Enemy of equanimity\" The figure of speech dominant in these lines is _____",
+    "options": {
+      "A": "apostrophe",
+      "B": "personification",
+      "C": "metaphor",
+      "D": "simile"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Writers use personification to give human characteristics, such as emotions and behaviors, to non-human things, animals, and ideas.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_24",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "24",
+    "question": "'... Not a few of us ended our application letter like this: 'if you are kind enough to accomodate this humble application, Sir/Madam, I shall do my uttermost best to rendered you the greatest services which it is at my desposition to your best satisfactory. Yours obediently servant...' yet without English, you had no education fit for a white collar job Cameron Daodu: The Gab Boys The tone of the passage above is",
+    "options": {
+      "A": "Melancholic",
+      "B": "Ironic",
+      "C": "Harsh",
+      "D": "Derisive"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "'... Not a few of us ended our application letter like this: 'if you are kind enough to accomodate this humble application, Sir/Madam, I shall do my uttermost best to rendered you the greatest services which it is at my desposition to your best satisfactory. Yours obediently servant...' yet without English, you had no education fit for a white collarjobCameron Daodu: The Gab BoysThe tone of the passage above is",
+    "explanation": "The tone of the passage from Cameron Daodu's The Gab Boys is derisive. The author is mocking the overly formal and somewhat incorrect English used in the application letter. Derisive tone is used to ridicule or mock, often with sarcasm or satire.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_25",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "25",
+    "question": "A trilogy is the",
+    "options": {
+      "A": "set of three one-act drama written by related authors",
+      "B": "series of related stories divided into three equal parts",
+      "C": "sequence of three plays written by the same author",
+      "D": "collection of three poems of equal length"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A trilogy is a set of three works of literature, films, or plays that are connected and can be seen either as a single work or as three individual works. They are usually written by the same author. Therefore, a trilogy is a sequence of three plays written by the same author.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_26",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "26",
+    "question": "Dramatis personae in a play refers to",
+    "options": {
+      "A": "cast list",
+      "B": "list of characters",
+      "C": "portagonist and antagonist",
+      "D": "order of appearance"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Dramatis personae in a play refers to the list of characters. It is a Latin phrase meaning 'the characters of the play'. It is usually used at the beginning of a script for a play, before the action begins, to present the characters and their relationships to one another.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_27",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "27",
+    "question": "This question is based on SECOND CLASS CITIZEN. \"She swallowed it all, just like a nasty pill.\" The literary device employed here is",
+    "options": {
+      "A": "alliteration",
+      "B": "metaphor",
+      "C": "simile",
+      "D": "apostrophe"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The phrase 'She swallowed it all, just like a nasty pill' employs the literary device of simile. A simile is a figure of speech that makes a comparison between two different things using the words 'like' or 'as'. In this case, the author compares the act of swallowing a nasty pill to accepting a difficult situation.",
+    "predicted_topics": [
+      "Citizenship"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_28",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "28",
+    "question": "'My heart is a quiet drum, sometimes it flares like a parched thunder cracking through a damask sky it lifts me in its fired spectacle.' -Cynthia James; Drumology The imagery in the excerpt above is largely",
+    "options": {
+      "A": "olfactory and visual",
+      "B": "auditory and visual",
+      "C": "tactile and auditory",
+      "D": "olfactory and tactile"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The excerpt from Cynthia James' Drumology uses auditory and visual imagery. The auditory imagery is evident in phrases like 'quiet drum' and 'parched thunder cracking', which appeal to the sense of hearing. The visual imagery is seen in phrases like 'flares like a parched thunder' and 'cracking through a damask sky', which appeal to the sense of sight.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_29",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "29",
+    "question": "\"She wanted to split herself. But she checked herself. 'Get dressed,' she said earnestly. 'Get dressed and let's go. You know I have a lot of things to do. And if we are going to meet again like this... 'She slapped the bed, 'then it won't be here. It will be at the Samson and Delilah.'\" - Festus Iyayi; Violence In the passage above, the speaker can be described as",
+    "options": {
+      "A": "hungry",
+      "B": "domineering",
+      "C": "friendly",
+      "D": "treacherous"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "\"She wanted to split herself. But she checked herself. 'Get dressed,' she said earnestly. 'Get dressed and let's go. You know I have a lot of things to do. And if we are going to meet again like this... 'She slapped the bed, 'then it won't be here. It will be at the Samson and Delilah.'\"-Festus Iyayi; ViolenceIn the passage above, the speaker can be described as",
+    "explanation": "In the passage, the speaker is commanding another person to get dressed and stating that if they are to meet again, it will be at a location of her choosing. This suggests that the speaker is in control of the situation and is making decisions for both herself and the other person, which is characteristic of a domineering personality. The other options (treacherous, friendly, hungry) do not accurately describe the speaker's behavior in this passage.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_30",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "30",
+    "question": "This question is based on THE LION AND THE JEWEL. The indication that Soyinka's \"The Lion and the Jewel\" is culturally set is its use of_____",
+    "options": {
+      "A": "dance and songs",
+      "B": "flashback.",
+      "C": "foreshadowing",
+      "D": "irony"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The cultural setting of Wole Soyinka's 'The Lion and the Jewel' is indicated by its use of dance and songs. These elements are integral parts of Yoruba culture, which is the cultural background of the play.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_31",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "31",
+    "question": "This question is based on THE LEADER AND THE LED. \" The hyena says the crown is made for him\" in the above excerpt, the use of the word \"crown \" is a good deployment of ____",
+    "options": {
+      "A": "oxymoron",
+      "B": "imagery",
+      "C": "personification",
+      "D": "synedoche"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Synecdocheis a literary device where a part of something represents the whole, or vice versa. In the phrase\"the crown is made for him,\"the wordcrowndoes not literally refer to an actual crown but symbolizesleadership, authority, or kingship.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_32",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "32",
+    "question": "The exclusive right given to authors to protect their works from unlawful production is",
+    "options": {
+      "A": "an authority to write",
+      "B": "a copyright",
+      "C": "an author's right",
+      "D": "a constitutional provision"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A copyright prevents other people from producing an intellectual work without the permission of the author.",
+    "predicted_topics": [
+      "Constitution"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_33",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "33",
+    "question": "The narrative style in which the hero tells his own story directly is the",
+    "options": {
+      "A": "objective",
+      "B": "first-person",
+      "C": "subjective",
+      "D": "third-person"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Prose",
+    "subtopic": "Narrative techniques and point of view",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "This is a style of writing where the narrator is a character in the novel and uses 'I', 'We','Me', 'ourselves', 'myself'.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_34",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "34",
+    "question": "Lineation refers to",
+    "options": {
+      "A": "the arrangement of lines in verse form",
+      "B": "the grouping together of a number of units of rhythm",
+      "C": "the unit in the rhythmic structure of verse",
+      "D": "tracing family descent of poeple in verse"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Lineation in poetry is how lines are divided and where they end in relation to a clause or thought. Having a line break at the end of a phrase or complete thought is a regular and expected pattern in poetry.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_35",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "35",
+    "question": "The subject matter of a literary work is the",
+    "options": {
+      "A": "theme",
+      "B": "plot",
+      "C": "structure",
+      "D": "setting"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Prose",
+    "subtopic": "Types of prose (novel, short story, non-fiction)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The subject matter of a literary work refers to the main topic or the essence of the work, which is also known as the theme. The theme is the central idea or message that the writer wants to communicate to the reader. It is different from the plot, setting, and structure. The plot refers to the sequence of events in the story, the setting refers to the time and place where the story takes place, and the structure refers to how the story is organized.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_36",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "36",
+    "question": "A structural arrangement of unit of composition by which one element of equal importance with another is similarly placed is called",
+    "options": {
+      "A": "repetition",
+      "B": "paradox",
+      "C": "refrain",
+      "D": "parallelism"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Parallelism is a rhetorical device where parts of a sentence or a series of sentences are constructed similarly to convey equal importance. This structural arrangement ensures balance and symmetry in the expression of ideas. The elements that are parallel often have a similar grammatical structure, making the writing more clear, effective, and aesthetically pleasing.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_37",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "37",
+    "question": "This question is based on CAGED BIRD. \"for the caged bird/sings of freedom.\", The poetic device used in this expression is____",
+    "options": {
+      "A": "metaphor",
+      "B": "irony",
+      "C": "hyperbole",
+      "D": "paradox"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The poetic device used in the expression 'for the caged bird sings of freedom' is irony. Irony is a figure of speech in which the intended meaning is the opposite of the literal meaning. In this case, the irony lies in the fact that the caged bird, despite being confined, sings of freedom.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_38",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "38",
+    "question": "'Will college make you a better Olokun priest? Will it make you serve our ancestors better? Look at me. An able-bodied, strong-hearted priest of Olokun. Did I go to college? Gracy Osifo:Dizzy Angel The literary device used in the passage above is",
+    "options": {
+      "A": "onomatopoeia",
+      "B": "parallelism",
+      "C": "metaphor",
+      "D": "simile"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Literary terms and devices",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Parallelism is a literary device that uses the same grammatical structure in all parts of a sentence. In the passage, the speaker asks a series of questions that follow the same structure, which is a clear example of parallelism. Onomatopoeia refers to words that imitate the natural sounds of a thing. Metaphor is a figure of speech that makes an implicit, implied, or hidden comparison between two things that are unrelated, but share some common characteristics. Simile is a figure of speech that makes a comparison, showing similarities between two different things.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_39",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "39",
+    "question": "This question is based on RAIDER OF THE TREASURE TROVE. \"To fly flags of joy\" Two figures of speech used here are",
+    "options": {
+      "A": "alliteration and personification",
+      "B": "onomatopoeia and simile",
+      "C": "metaphor and alliteration",
+      "D": "simile and personification"
+    },
+    "correct_answer": "C",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The phrase 'To fly flags of joy' contains two figures of speech: metaphor and alliteration. 'To fly flags' is a metaphor for expressing joy, while 'flags of joy' is an example of alliteration due to the repetition of the 'f' sound.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_40",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "40",
+    "question": "This question is based on THE SONG OF THE WOMEN OF MY LAND. Use the excerpt to answer this question \"they sang in the forlorn fields about their lives; songs of how they ploughed the terrain of their landscape for memories of lyrics lost in the vast void of time, in those days when a song beheld their lives; when servitude cuffed the ankles of their soul, and dereliction decapitated the epic of their lives.\" The theme of this excerpt is____",
+    "options": {
+      "A": "All of the above",
+      "B": "the oppression of women",
+      "C": "Joys of motherhood",
+      "D": "colonization"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "This question is based on THE SONG OF THE WOMEN OF MY LAND.Use the excerpt to answer this question\"they sang in the forlorn fieldsabout their lives; songsof how they ploughed the terrain of their landscapefor memories of lyrics lost in the vast void of time,in those days when a song beheld their lives;when servitude cuffed the ankles of their soul,and dereliction decapitated the epic of their lives.\"The theme of this excerpt is____",
+    "explanation": "The theme of the excerpt is the oppression of women. The excerpt talks about how the women sang about their lives, how they worked hard (ploughed the terrain of their landscape), and how they were in servitude (servitude cuffed the ankles of their soul). This suggests that they were oppressed.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_41",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "41",
+    "question": "Jose Palacios, his oldest servant, found him floating naked with his eyes open in the purifying waters of his bath and thought he had drowned. He knew this was, one of the many ways the General meditated, but the ecstasy in which he lay drifting seemed that of a man no longer of this world. Gabriel Garcia Marquez, The General in His Labyrinth The master in the passage above is obviously in a state of",
+    "options": {
+      "A": "trance",
+      "B": "drowning",
+      "C": "forgetfulness",
+      "D": "labyrinth"
+    },
+    "correct_answer": "A",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Jose Palacios, his oldest servant, found him floating naked with his eyes open in the purifying waters of his bath and thought he had drowned. He knew this was, one of the many ways the General meditated, but the ecstasy in which he lay drifting seemed that of a man no longer of this world.Gabriel Garcia Marquez,The General in His LabyrinthThe master in the passage above is obviously in a state of",
+    "explanation": "The man was in trance. His oldest servant \"...found him floating naked with his eyes open in the purifying waters of his bath and thought he had drowned. For the fact that he lay drifting in addition to a man no longer of this world portends getting into a situation that was not planned or controlled.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2023_42",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "42",
+    "question": "A metrical pause occurring in the middle of a line in a poem is called",
+    "options": {
+      "A": "tetrametre",
+      "B": "rhythm",
+      "C": "caesura",
+      "D": "assonance"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A caesura is a pause in a line of poetry that is formed by the rhythms of natural speech rather than by metrics.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_43",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "43",
+    "question": "'The fair breeze blew The white foam flew The furrow followed free We were the first that ever burst Into that silent sea.' The dominant figure of speech in the above passage is",
+    "options": {
+      "A": "repitition",
+      "B": "alliteration",
+      "C": "paradox",
+      "D": "rhyme scheme"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Alliteration is the repetition of initial consonant sounds in a line of poetry. The repetition of the sounds /f/, /b/, /w/, and /s/ in the verse above signifies the use of alliteration.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_44",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "44",
+    "question": "Careened', These oily tears Dripping down the tears on your depressed face, Will one day be staunched, I swear! Ibiwari Ikiriko, Oily Tears . The tone of the poet is",
+    "options": {
+      "A": "supplicatory",
+      "B": "optimistic",
+      "C": "sympathetic",
+      "D": "piteous"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The tone is optimistic because it predicts an end to the shedding of tears. The phrase oily tears is a metonymy for oil spill being a cause of sorrow (i.e. tears) to the addressee,and the poet being of a strong hope that oil spilling and attendant suffering will become a past tense matter (staunched)sooner than later, is clearly optimistic.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_45",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "45",
+    "question": "CYCLIST gets down and begins to prop his bicycle. CYCLIST: All right. If you're sure it won't take long. BARBER: I am known for my lightning clippers. Even the soldiers know me. I can shave the head of an entire battalion between one coup and the next. Sit down and relax your back. Cycling is not easy when you've abandoned it for some time. Wole Soyinka, The Beautification of Area Boy . The literary devices in the dialogue above are",
+    "options": {
+      "A": "hyperbole and allusion",
+      "B": "irony and parody",
+      "C": "allusion and paradox",
+      "D": "humour and irony"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "CYCLIST gets down and begins to prop his bicycle.CYCLIST: All right. If you're sure it won't take long.BARBER: I am known for my lightning clippers. Even the soldiers know me. I can shave the head of an entire battalion between one coup and the next. Sit down and relax your back. Cycling is not easywhen you've abandoned it for some time.Wole Soyinka,The Beautification of Area Boy.The literary devices in the dialogue above are",
+    "explanation": "The excerpt smacks of plenteous exaggerations(hyperbole), and a once-upon-a time reference (allusions).",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_46",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "46",
+    "question": "\"I had not taken the first step in knowledge, I had not learnt to let go with the hands\".The above lines is an example of a",
+    "options": {
+      "A": "Alliteration",
+      "B": "Apostrophe",
+      "C": "Repetition",
+      "D": "Assonance"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The given lines are an example of 'Repetition'. Repetition is a literary device that repeats the same words or phrases a few times to make an idea clearer and more memorable. In the given lines, the phrase 'I had not' is repeated, which emphasizes the speaker's lack of action or progress.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_47",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "47",
+    "question": "This question is based on CAGED BIRD. Read this excerpt from the poem and answer questions . \"The free bird thinks of another breeze / and the trade winds soft through the sighing trees\" What is the effect of the trees sighing in this verse?",
+    "options": {
+      "A": "It shows where the bird sleeps",
+      "B": "It shows the tree is sleeping",
+      "C": "It indicates that the bird is carefree",
+      "D": "It indicates that it is still early in the day"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the given excerpt, the 'sighing trees' is a poetic device used to create a peaceful and carefree atmosphere. The free bird is thinking of another breeze and the trade winds soft through the sighing trees, which suggests a sense of freedom and lack of worries. Therefore, the best answer is 'It indicates that the bird is carefree.'",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_48",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "48",
+    "question": "Don't panic. Be calm. If you are somehow upset...try to regain your composure. The speaker in the excerpt above is",
+    "options": {
+      "A": "hopeless",
+      "B": "afraid",
+      "C": "confident",
+      "D": "uncertain"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The speaker in the excerpt is confident. This is inferred from the speaker's advice to not panic, be calm, and regain composure if upset. These are words of reassurance and guidance, indicating that the speaker is confident in their understanding of how to handle the situation.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_49",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "49",
+    "question": "This question is based on A GOVERNMENT DRIVER ON HIS RETIREMENT. \"I shall booze and zoom\" contains a device called",
+    "options": {
+      "A": "alliteration",
+      "B": "imagery",
+      "C": "onomatopoeia",
+      "D": "hyperbole"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "This device involves words that imitate or resemble the sound that they describe. In this case, \"zoom\" is an example of onomatopoeia because it echoes the sound associated with rapid movement or acceleration, like the sound a vehicle makes.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_50",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "50",
+    "question": "\"The sun used to smile in my hut\". The line is an example of",
+    "options": {
+      "A": "Apostrophe",
+      "B": "personification",
+      "C": "Rhetorical Question",
+      "D": "Zeugma"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The line 'The sun used to smile in my hut' is an example of 'Personification'. Personification is a figure of speech in which a thing, an idea or an animal is given human attributes. The non-human objects are portrayed in such a way that we feel they have the ability to act like human beings. In this case, the sun is given the human attribute of smiling. The other options do not fit the context of the question. 'Rhetorical Question' is a question asked in order to create a dramatic effect or to make a point rather than to get an answer. 'Zeugma' is a figure of speech in which a word applies to two others in different senses. 'Apostrophe' is a figure of speech in which the speaker directly addresses an absent or imaginary person, or some abstraction.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_51",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "51",
+    "question": "The use of two contrasting words that are placed side by side is called",
+    "options": {
+      "A": "oxymoron",
+      "B": "euphemism",
+      "C": "pun",
+      "D": "antithesis"
+    },
+    "correct_answer": "A",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Oxymoron is a rhetorical term that describes words or phrases that, when placed together, create paradoxes or contradictions. These contradictions seem foolish but, when we think about them a bit, often turn out to be sharp observations about our world.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_52",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "52",
+    "question": "The combination of two or more metaphors is called",
+    "options": {
+      "A": "Monometaphor",
+      "B": "Dymetaphor",
+      "C": "Mixed metaphor",
+      "D": "Combined metaphor"
+    },
+    "correct_answer": "C",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The combination of two or more unrelated and sometimes conflicting metaphors in a single expression is called a mixed metaphor. The metaphors are 'mixed' in the sense that they are incongruous or illogical when combined. Therefore, the correct answer is 'Mixed metaphor'.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2023_53",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "53",
+    "question": "________ are generally regarded as brief but purposeful references, within a literary text, to a person, place, event, or to another work of literature.",
+    "options": {
+      "A": "Referrals",
+      "B": "Chiasmus",
+      "C": "Metonymy",
+      "D": "Allusions"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Allusions are used as stylistic devices to help contextualize a story by referencing a well-known person, place, event, or another literary work. These references do not have to be explicitly explained; more often than not, writers choose to let readers fill in the blanks.",
+    "predicted_topics": [
+      "Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_54",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "54",
+    "question": "An action in a play that stimulates the audience to pity a character is",
+    "options": {
+      "A": "props",
+      "B": "parody",
+      "C": "pyrrhic",
+      "D": "pathos"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Characterization and dialogue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Pathos, or the appeal to emotion, means to persuade an audience by purposely evoking certain emotions to make them feel the way the author wants them to feel. Authors make deliberate word choices, use meaningful language, and use examples and stories that evoke emotion.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_55",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "55",
+    "question": "This question is based on BAT. Use the excerpt to answer this question. \"Where light pushes through; A sudden turning upon itself of a thing in the air. A dip to the water. And you think: \"The swallows are flying so late!\" Swallows?\" The dominant poetic device in the excerpt is___",
+    "options": {
+      "A": "Rhetorical question",
+      "B": "imagery",
+      "C": "Alliteration",
+      "D": "Paradox"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Poetic devices and techniques",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The dominant poetic device in the excerpt is imagery. Imagery is a literary device that uses descriptive language to create mental images and stimulate the senses. In this excerpt, the poet uses imagery to describe the scene of the bat flying and dipping to the water.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_56",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "56",
+    "question": "When an object is invested with a meaning beyond its immediate reference, it becomes",
+    "options": {
+      "A": "a symbol",
+      "B": "an irony",
+      "C": "a subject",
+      "D": "an epigram"
+    },
+    "correct_answer": "A",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Close reading and interpretation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In literature, a 'symbol' is an object, person, or situation that has another meaning other than its literal meaning. The metaphoric or figurative meaning is deeper and represents something significant. Therefore, when an object is invested with a meaning beyond its immediate reference, it becomes a symbol.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_57",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "57",
+    "question": "A story with elements that have both literal and figurative meanings is",
+    "options": {
+      "A": "allegory",
+      "B": "novella",
+      "C": "fable",
+      "D": "epistle"
+    },
+    "correct_answer": "A",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Allegory is a narration or description in which events, actions, characters, settings or objects represent specific abstractions or ideas. Allegory generally operates on two levels as a literary device. The overt or surface narrative/description is meant to have enough literary elements to be a standalone work that is interesting and/or entertaining by itself. However, the emphasis of allegory is typically placed on the abstract ideals represented or symbolized by the work's literary elements. In other words, the meaning behind the surface narrative has even greater value as a literary work. Though many allegories are intended to be didactic in providing a moral, ethical, or religious lesson, not all allegories set out to achieve this goal.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_58",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "58",
+    "question": "A tragic hero, according to the Aristotelian precept, must be a",
+    "options": {
+      "A": "central character after whom the play is named",
+      "B": "king with deep affection for his subjects",
+      "C": "noble character with hubris",
+      "D": "lowly character who suddenly stumbles on some fortunes"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Aristotle holds that a tragic hero should be a noble character with hubris. A tragic hero often falls because of his unrepentant nature and being proud.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_59",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "59",
+    "question": "This question is based on RAIDER OF THE TREASURE TROVE. The poetic device in the expression \"Rage is chief\" is ___",
+    "options": {
+      "A": "oxymoron",
+      "B": "simile",
+      "C": "metaphor",
+      "D": "hyperbole"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Poetic devices and techniques",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The phrase 'Rage is chief' is an example of a metaphor. A metaphor is a figure of speech that makes a comparison between two things that are basically dissimilar but have something in common. In this case, 'rage' is being compared to a 'chief', implying that rage is dominant or in control.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_60",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "60",
+    "question": "*For seven days it rained that June; A storm half out to sea kept turning around like a dog trying to settle himself on a rug; We were the fleas that complained in his hair. John Updike, Wash The image set in the lines above are of",
+    "options": {
+      "A": "rain and flood in June",
+      "B": "discomfort and likely destruction",
+      "C": "the days of Noah",
+      "D": "an animal insects and fun"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The dominant image painted by the words is that of discomfort, that is, the incessant rain is one that is not welcome because it can instigate destruction.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_61",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "61",
+    "question": "The overwhelming pride that destroys the tragic hero is called",
+    "options": {
+      "A": "nemesis",
+      "B": "catharsis",
+      "C": "hubris",
+      "D": "tragedy"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Hubris is the uncontrollable pride that causes the downfall of a hero. An action of the past (nemesis), or tragedy as a drama form, or catharsis (powerful or violent emotional development), are not synonymous with pride inherent of tragic flaws.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_62",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "62",
+    "question": "'Fierce harmattan sun on innocent tendrils; torrential downpour on leaking thatch roofs; painful comfort of helpless eunuchs; thorny beauty of modern witches; the falcon's call on day-old-chicks, ours is a tragicomic dialogue:... mute echoes of pains' . The sonority and rhythmical structure of the lines above are achieved through a pause- pattern called",
+    "options": {
+      "A": "scansion",
+      "B": "enjambment",
+      "C": "caesura",
+      "D": "apostrophe"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "'Fierce harmattan sun on innocent tendrils; torrential downpour on leaking thatch roofs; painful comfort of helpless eunuchs; thorny beauty of modern witches; the falcon's call on day-old-chicks, ours is a tragicomic dialogue:... mute echoes of pains'.The sonority and rhythmical structure of the lines above are achieved through a pause- pattern called",
+    "explanation": "This is a pause-pattern for enhancing movement from one major idea to another or from one major point to another.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_63",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "63",
+    "question": "This question is based on BLACK WOMAN. \"fruit with firm flesh\" illustrates the use of ____",
+    "options": {
+      "A": "onomatopoeia",
+      "B": "consonance",
+      "C": "assonance",
+      "D": "alliteration"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The phrase 'fruit with firm flesh' is an example of alliteration. Alliteration is a literary device where the first consonant sounds in several closely connected words are the same.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_64",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "64",
+    "question": "'Senhor Jose got cold during the night. After having uttered those redundant useless words, here she is, he wasn't sure what else he should do. It was true that, after long and arduous labours, he had managed, at last, to find the unknown woman, or rather, the place where she lay, a good six feet beneath an earth that still sustained him' Jose Saramago: All the Names What happens to the unknown woman in the passage above?",
+    "options": {
+      "A": "She falls asleep",
+      "B": "She is dead",
+      "C": "She is awake",
+      "D": "She runs away"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "'Senhor Jose got cold during the night. After having uttered those redundant useless words, here she is, he wasn't sure what else he should do. It was true that, after long and arduous labours, he had managed, at last, to find the unknown woman, or rather, the place where she lay, a good six feet beneath an earth that still sustained him'Jose Saramago: All the NamesWhat happens to the unknown woman in the passage above?",
+    "explanation": "The passage implies that the unknown woman is dead. The phrase 'the place where she lay, a good six feet beneath an earth that still sustained him' is a common euphemism for being buried, which typically implies death. Therefore, the unknown woman is dead, not awake, asleep, or has run away.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_65",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "65",
+    "question": "This question is based on THE GOOD MORROW. Use this excerpt to answer question \"If ever any beauty I did see, Which I desired, and got, 'twas but a dream of thee.\" The excerpt above evokes the use of ____",
+    "options": {
+      "A": "Olfactory imagery",
+      "B": "Tactile",
+      "C": "Auditory imagery",
+      "D": "Visual imagery"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The excerpt uses visual imagery. Imagery is a literary device that uses descriptive language to create mental images and stimulate the senses. In this case, the speaker is creating a visual image of the beauty he has seen and desired, which is a 'dream' of the person he is addressing.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_66",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "66",
+    "question": "The moment of recognition of truth when ignorance gives way to knowledge is known as",
+    "options": {
+      "A": "Anamnesis",
+      "B": "Anagnorisis",
+      "C": "Hamartia",
+      "D": "Hubris"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Anagnorisis is a moment in a play or other work when a character makes a critical discovery. It originally meant recognition in its Greek context, not only of a person but also of what that person stood for. It is the transition from ignorance to knowledge.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_67",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "67",
+    "question": "A long story narrating a series of complicated events is called a",
+    "options": {
+      "A": "harrangue",
+      "B": "discourse",
+      "C": "monologue",
+      "D": "saga"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A saga is a long story, often a narrative, that recounts the deeds and adventures of heroic or legendary figures or the history of a nation. It is a term used in literature to describe a long narrative, often in prose, that tells of the adventures and heroic exploits of a group of characters. The other options do not fit the definition of a long story narrating a series of complicated events.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_68",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "68",
+    "question": "This question is based on A GOVERNMENT DRIVER ON HIS RETIREMENT. \"Many years on wheels\" The reference to \"wheels\" exemplifies the use of ___ in the poem.",
+    "options": {
+      "A": "climax",
+      "B": "personification",
+      "C": "metonymy",
+      "D": "synecdoche"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Synecdoche is a figure of speech in which a part of something is used to represent the whole, or vice versa. This is because the term \"wheels\" is used to represent the entire vehicle. The wheels are a part of the car, and by using \"wheels,\" the speaker is referring to the broader experience of driving and spending time in a car.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_69",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "69",
+    "question": "A novel that features spiritual apparitions as major character is",
+    "options": {
+      "A": "Epistolary",
+      "B": "Historical",
+      "C": "Sociological",
+      "D": "Gothic"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Prose",
+    "subtopic": "Types of prose (novel, short story, non-fiction)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Much of Gothic literature's allure comes from the genre's suggestion of supernatural or inexplicable events, such as inanimate objects coming to life, ghosts, spirits, and vampires. An epistolary is a novel written in form of a letter. An historial novel retells history while a sociological novel relates with issues that affect our society",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_70",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "70",
+    "question": "This question is based on SECOND CLASS CITIZEN. The novel is set after which major war?",
+    "options": {
+      "A": "First World War (1914-1918)",
+      "B": "Aba Women Riot (1929)",
+      "C": "Second World War (1939-1945)",
+      "D": "The Nigerian Civil War (1967-1970)"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The novel 'Second Class Citizen' is set after the Second World War (1939-1945). The aftermath of the war had a significant impact on the socio-economic conditions of the time, which is reflected in the novel.",
+    "predicted_topics": [
+      "Citizenship",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_71",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "71",
+    "question": "This question is based on LOOK BACK IN ANGER. What were the other businesses Jimmy porter had tried apart from the sweet stall business?",
+    "options": {
+      "A": "farming, teaching and advertising",
+      "B": "Teaching, painting and trumpeting",
+      "C": "Journalism, faming and teaching.",
+      "D": "Journalism, advertising, and vacuum cleaning"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the play 'Look Back in Anger', Jimmy Porter had tried several businesses apart from the sweet stall business. These include journalism, advertising, and vacuum cleaning. Therefore, the correct answer is option 1.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_72",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "72",
+    "question": "This question is based on THE LION AND THE JEWEL. The use of language in the play is written in both___ and ___ forms.",
+    "options": {
+      "A": "vague and prosaic.",
+      "B": "prosaic and poetic.",
+      "C": "archaic and vague.",
+      "D": "ambiguous and lyrical"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The use of language in 'The Lion and the Jewel' is written in both prosaic and poetic forms. Prosaic language is straightforward and factual, while poetic language is more expressive and uses figurative language. The play uses both to convey its themes and messages.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_73",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "73",
+    "question": "This question is based on UNEXPECTED JOY AT DAWN. Which of these characters is at the center of the impact of the xenophobic attack in the novel?",
+    "options": {
+      "A": "Nii Tackie",
+      "B": "Ezla",
+      "C": "Massa",
+      "D": "Aaron Tsuru"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the novel 'Unexpected Joy at Dawn', the character at the center of the impact of the xenophobic attack is Nii Tackie. He experiences firsthand the hostility and violence of the xenophobic attacks, which significantly affects his life and the course of the story.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Military in Nigerian Politics",
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_74",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "74",
+    "question": "This question is based on THE LION AND THE JEWEL. Sidi insisted on the payment of her bride-price because it indicates that she_____",
+    "options": {
+      "A": "is a virgin",
+      "B": "has a wealthy family",
+      "C": "is of marriageable age",
+      "D": "is free from her family"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sidi's insistence on the payment of her bride price is linked to the traditional significance attached to the bride price in many African cultures. The payment of the bride price is a customary practice that symbolizes various things, one of which is the virginity of the bride.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_75",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "75",
+    "question": "This question is based on THE LION AND THE JEWEL. In the play, the jewel of Ilujinle is____",
+    "options": {
+      "A": "Sadiku",
+      "B": "Baroka",
+      "C": "Lakunle",
+      "D": "Sidi"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the play 'The Lion and the Jewel' by Wole Soyinka, the 'jewel' of Ilujinle is Sidi. She is a beautiful woman who is the object of desire for both the village chief (the 'Lion') and the schoolteacher, Lakunle.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_76",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "76",
+    "question": "This question is based on UNEXPECTED JOY AT DAWN. How did Mama Orojo meet Tom Monday.",
+    "options": {
+      "A": "she met him on her trip to Ghana",
+      "B": "she met him on an evangelism trip",
+      "C": "she met him during the religious riot",
+      "D": "she met him at the restaurant"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the novel 'Unexpected Joy at Dawn', Mama Orojo meets Tom Monday on an evangelism trip. This meeting is significant as it leads to a deep and meaningful relationship between the two characters.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_77",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "77",
+    "question": "This question is based on LOOK BACK IN ANGER. Who was the first-person Alison informed about her pregnancy?",
+    "options": {
+      "A": "her parents",
+      "B": "Jimmy",
+      "C": "Helena",
+      "D": "Cliff"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the play 'Look Back in Anger', Alison first informs Cliff about her pregnancy. She reveals this to him in Act 1 of the play after she gets burned by the iron during a rough play between Jimmy and Cliff. She had ordered Jimmy to get out of the house. As Cliff was treating her wound, she reveals this to him.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_78",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "78",
+    "question": "PROSE: AFRICAN: UNEXPECTED JOY AT DAWN What distinguishes Nii Tackie from every other Ghanaian?",
+    "options": {
+      "A": "His accent",
+      "B": "His face",
+      "C": "His tribal mark",
+      "D": "His skin"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nii Tackie was born and bred in Ghana. He's given a Ghanaian name, particularly of Ga origin. He has lived his all his life in Ghana. He is like every other Ghanaian but what distinguish him from every other Ghanaian are his tribal marks. Nothing can change that; not even his Ghanaian accent and mannerisms.",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_79",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "79",
+    "question": "This question is based on WUTHERING HEIGHT. What gift did Mr. Earnshaw promise to bring Nelly Dean from Liverpool?",
+    "options": {
+      "A": "A bridle for her horse",
+      "B": "A fiddle",
+      "C": "Fruit",
+      "D": "A set of paints"
+    },
+    "correct_answer": "C",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mr Earnshaw asked the children what they wanted when he was going on a journey, Hindley requested a fiddle, Miss Cathy, a horsewhip. Nelly is the Earnshaws' servant but he does not forget her. He promises to get her apples and pears(fruits).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_80",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "80",
+    "question": "This question is based on SECOND CLASS CITIZEN. Who is Mr Cole?",
+    "options": {
+      "A": "a black tenant at the first apartment at England",
+      "B": "Adah's colleague at the Consulate",
+      "C": "Adah's nephew she's forced to live with after Pa's death",
+      "D": "Adah's elementary school teacher"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the novel SECOND CLASS CITIZEN, Mr Cole is Adah's elementary teacher. He is a teacher at the local Methodist School. It is his class that Adah searches for when she enters the school compound. When she enters the class, Mr Cole welcomes her with a reassuring smile. He is described as a handsome and huge person. After school, he takes her back home.",
+    "predicted_topics": [
+      "Citizenship"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_81",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "81",
+    "question": "This question is based on THE LION AND THE JEWEL. The opening act in the plays takes place at______",
+    "options": {
+      "A": "the village market",
+      "B": "the roadside to the farm",
+      "C": "the baale's room",
+      "D": "by the village stream"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The opening act of the play 'The Lion and the Jewel' takes place at the village market by a large 'odan' tree at the centre of Ilujinle village. This is where Sidi is seen carrying a pail of water on her head, and Lakunle, who is in love with her, approaches her with his modern ideas.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_82",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "82",
+    "question": "This question is based on WUTHERING HEIGHT. Which of the following characters dies last?",
+    "options": {
+      "A": "Catherine",
+      "B": "Heathcliff",
+      "C": "Linton",
+      "D": "Mr. Linton"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Heathcliff is the last major character to die in the novel. Catherine, Edgar Linton and Linton Heathcliff all die before him. His death occurs towards the end of the story and marks the conclusion of the narrative.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_83",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "83",
+    "question": "This question is based on THE LION AND THE JEWEL. Which character may be an allegory of Nigeria itself?",
+    "options": {
+      "A": "Baroka",
+      "B": "Sadiku",
+      "C": "lakunle",
+      "D": "Sidi"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the play 'The Lion and the Jewel', Baroka may be seen as an allegory of Nigeria itself. He represents the traditional values and customs of Nigeria, and his struggle with Lakunle over Sidi can be seen as a metaphor for the struggle between tradition and modernity in Nigeria.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2023_84",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2023,
+    "number": "84",
+    "question": "This question is based on WUTHERING HEIGHT. What destination does the young Catherine have in mind when she leaves Thrushcross Grange for the first time?",
+    "options": {
+      "A": "Wuthering Heights",
+      "B": "The nearby village",
+      "C": "The fairy caves at Penistone Crags",
+      "D": "London, where her cousin Linton lives"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In the novel, when young Catherine leaves Thrushcross Grange for the first time, she has the fairy caves at Penistone Crags as her destination. Penistone Crags is a rocky outcrop that is supposed to be near Wuthering Heights.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  }
+]

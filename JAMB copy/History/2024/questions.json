@@ -1,0 +1,2103 @@
+[
+  {
+    "id": "JAMB_History_2024_1",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "1",
+    "question": "What was a significant change introduced by the Shehus in the administration of Borno?",
+    "options": {
+      "A": "Centralization of the military",
+      "B": "Abolition of the slave trade",
+      "C": "Introduction of Sharia law",
+      "D": "Conversion to Christianity"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Structures of Governance",
+      "Processes of Legislation",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_2",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "2",
+    "question": "The elective principle introduced by the Clifford Constitution allowed for elections in which Nigerian cities?",
+    "options": {
+      "A": "Lagos and Kano",
+      "B": "Lagos and Enugu",
+      "C": "Lagos and Calabar",
+      "D": "Lagos and Ibadan"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Constitution",
+      "The Electoral Process",
+      "Pre-Colonial Polities",
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_3",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "3",
+    "question": "The primary role of the Executive Council in colonial Nigeria was to",
+    "options": {
+      "A": "Oversee the judiciary",
+      "B": "Manage local government affairs",
+      "C": "Advise the Governor-General on policy matters",
+      "D": "Draft laws for the Legislative Council to pass"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_4",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "4",
+    "question": "Indirect rule was most successful in",
+    "options": {
+      "A": "Eastern Nigeria",
+      "B": "Northern Nigeria",
+      "C": "Southern Nigeria",
+      "D": "The Niger Delta region"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_5",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "5",
+    "question": "Nigeria's involvement in which UN agency has been crucial in addressing global health issues?",
+    "options": {
+      "A": "ILO",
+      "B": "WHO",
+      "C": "UNESCO",
+      "D": "FAO"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_6",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "6",
+    "question": "The Abacha regime is known for instituting which economic policy aimed at centralizing control of Nigeria's oil revenue?",
+    "options": {
+      "A": "Structural Adjustment Program (SAP)",
+      "B": "Green Revolution",
+      "C": "Petroleum Trust Fund (PTF)",
+      "D": "National Economic Empowerment and Development Strategy (NEEDS)"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_7",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "7",
+    "question": "Which Christian missionary is credited with the translation of the Bible into Yoruba?",
+    "options": {
+      "A": "James Johnson",
+      "B": "Samuel Ajayi Crowther",
+      "C": "Henry Venn",
+      "D": "Thomas Birch Freeman"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_8",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "8",
+    "question": "One major effect of the establishment of Native Authorities was",
+    "options": {
+      "A": "The empowerment of traditional rulers within the colonial administration",
+      "B": "The abolition of all traditional customs",
+      "C": "The weakening of traditional power structures",
+      "D": "The immediate modernization of local governance"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Imperialist Penetration",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "Local Government",
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_9",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "9",
+    "question": "The rise of the Kingdom of Ashanti was primarily driven by the trade of which commodity?",
+    "options": {
+      "A": "Salt",
+      "B": "Ivory",
+      "C": "Spices",
+      "D": "Gold"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_10",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "10",
+    "question": "The primary goal of early Christian missionaries in Nigeria was to",
+    "options": {
+      "A": "Promote Western fashion",
+      "B": "Establish trade routes",
+      "C": "Spread Christianity and convert the local population",
+      "D": "Gain political control"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_11",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "11",
+    "question": "Benin's military campaigns often targeted which neighboring ethnic group?",
+    "options": {
+      "A": "The Hausa",
+      "B": "The Yoruba",
+      "C": "The Nupe",
+      "D": "The Igbo"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_12",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "12",
+    "question": "The Battle of Blood River in 1838 was fought between the Boers and which indigenous group?",
+    "options": {
+      "A": "The Ndebele",
+      "B": "The Sotho",
+      "C": "The Zulus",
+      "D": "The Xhosas"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_13",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "13",
+    "question": "The amalgamation of 1914 resulted in the creation of",
+    "options": {
+      "A": "unified legal system for all of Nigeria",
+      "B": "The establishment of regional governments",
+      "C": "A new capital at Lagos",
+      "D": "Separate administrative structures for North and South"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Civil Service",
+      "Pre-Colonial Polities",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_14",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "14",
+    "question": "The Nupe kingdom reached its peak under the leadership of which notable ruler?",
+    "options": {
+      "A": "Etsu Aliyu",
+      "B": "Etsu Mamudu",
+      "C": "Etsu Tsoede",
+      "D": "Etsu Abubakar"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_15",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "15",
+    "question": "Which policy implemented by the British in the 1930s aimed at developing infrastructure and boosting agriculture in Nigeria?",
+    "options": {
+      "A": "The Colonial Development and Welfare Act",
+      "B": "The Northern Nigerian Development Plan",
+      "C": "The Nigerian Industrial Development Plan",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_16",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "16",
+    "question": "Which ancient civilization built the Great Zimbabwe?",
+    "options": {
+      "A": "The Swahili",
+      "B": "The Mutapa",
+      "C": "The Zulu",
+      "D": "The Shona"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_17",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "17",
+    "question": "The rise of nationalist movements in Nigeria was significantly influenced by",
+    "options": {
+      "A": "The spread of Islam",
+      "B": "World War II and the Atlantic Charter",
+      "C": "The Berlin Conference of 1884-1885",
+      "D": "The American Civil War"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_18",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "18",
+    "question": "Which Omani Sultan moved the capital from Muscat to Zanzibar in the 19th century?",
+    "options": {
+      "A": "Khalid bin Barghash",
+      "B": "Sa'id bin Sultan",
+      "C": "Thuwaini bin Said",
+      "D": "Sultan bin Saif"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_19",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "19",
+    "question": "Which of the following best describes the main cause of the Mfecane?",
+    "options": {
+      "A": "The spread of Christianity",
+      "B": "Competition over scarce resources",
+      "C": "European colonization",
+      "D": "Internal trade disputes"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_20",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "20",
+    "question": "The Yoruba city-state of Ibadan rose to prominence in the 19th century primarily due to",
+    "options": {
+      "A": "Its role as a center of education",
+      "B": "Its location on major trade routes",
+      "C": "The military prowess of its leaders",
+      "D": "The discovery of gold"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_21",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "21",
+    "question": "The primary economic activity that drew Europeans to Nigeria in the early period was",
+    "options": {
+      "A": "The transatlantic slave trade",
+      "B": "Agricultural exports",
+      "C": "Agricultural exports",
+      "D": "Textile manufacturing"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_22",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "22",
+    "question": "The capital of the Kanem-Borno Empire moved from Kanem to Borno primarily due to",
+    "options": {
+      "A": "Environmental changes",
+      "B": "Religious differences",
+      "C": "External invasions",
+      "D": "Internal conflicts"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Structure and Workings of Nigerian Federalism"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_23",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "23",
+    "question": "One of the key factors that led to military intervention in Nigeria's First Republic was",
+    "options": {
+      "A": "Widespread corruption and political instability",
+      "B": "External military threats",
+      "C": "The refusal of political leaders to implement Western education",
+      "D": "The lack of interest in independence"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_24",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "24",
+    "question": "Which of these leaders succeeded Usman dan Fodio as the head of the Sokoto Caliphate?",
+    "options": {
+      "A": "Umar Tall",
+      "B": "Al-Kanemi",
+      "C": "",
+      "D": "Muhammad al-Amin"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_25",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "25",
+    "question": "The Pan-African Congress of 1945, which called for an end to colonial rule in Africa, was held in which city?",
+    "options": {
+      "A": "Accra",
+      "B": "Paris",
+      "C": "London",
+      "D": "Manchester"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Arms of Government",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_26",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "26",
+    "question": "The Mahdiyya Movement in Sudan was primarily a response to",
+    "options": {
+      "A": "Egyptian and Ottoman control",
+      "B": "British colonial rule",
+      "C": "French influence in North Africa",
+      "D": "The spread of Christianity"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_27",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "27",
+    "question": "Which Islamic reform leader established the Massina Empire in present-day Mali?",
+    "options": {
+      "A": "Ahmad Lobbo",
+      "B": "Al-Hajj Umar Tal",
+      "C": "Usman dan Fodio",
+      "D": "Muhammad Bello"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_28",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "28",
+    "question": "Which of the following was a significant factor in the rise of Nigerian nationalism in the early 20th century?",
+    "options": {
+      "A": "The Atlantic Charter of 1941",
+      "B": "The British colonial policy of assimilation",
+      "C": "The introduction of indirect rule",
+      "D": "The Berlin Conference of 1884-1885"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_29",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "29",
+    "question": "What significant development in Benin's political structure occurred during the reign of Oba Ewedo?",
+    "options": {
+      "A": "The establishment of a centralized monarchy",
+      "B": "The introduction of the use of cowries as currency",
+      "C": "The division of the kingdom into administrative units",
+      "D": "The establishment of trade relations with the Portuguese"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Forms of Government",
+      "The Civil Service",
+      "Pre-Colonial Polities",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Forms of Government :: Monarchy"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_30",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "30",
+    "question": "Which constitution laid the foundation for federalism in Nigeria?",
+    "options": {
+      "A": "Clifford Constitution of 1922",
+      "B": "Lyttleton Constitution of 1954",
+      "C": "Macpherson Constitution of 1951",
+      "D": "Richards Constitution of 1946"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_31",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "31",
+    "question": "The invasion by which group significantly contributed to the fall of the Old Oyo Empire?",
+    "options": {
+      "A": "The Nupe",
+      "B": "The Benin",
+      "C": "The Hausa",
+      "D": "The Fulani"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The invasion by the Fulani significantly contributed to the fall of the Old Oyo Empire. The Fulani Jihad led by Usman dan Fodio weakened the empire and eventually led to its collapse.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_32",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "32",
+    "question": "Which of the following cash crops became highly significant in Nigeria during the colonial period?",
+    "options": {
+      "A": "Rice",
+      "B": "Millet",
+      "C": "Maize",
+      "D": "Cocoa"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Cocoa. Cocoa became highly significant in Nigeria during the colonial period due to its economic importance and the establishment of cocoa plantations by the colonial powers.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_33",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "33",
+    "question": "Which Nigerian leader led the resistance against British colonization in the Aba Women's War of 1929?",
+    "options": {
+      "A": "Funmilayo Ransome-Kuti",
+      "B": "Ikonna Nwanyi",
+      "C": "Madam Tinubu",
+      "D": "Nana of Itsekiri"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Funmilayo Ransome-Kuti led the resistance against British colonization in the Aba Women's War of 1929. She was a prominent Nigerian activist and played a significant role in the women's movement in Nigeria.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_34",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "34",
+    "question": "Which economic factor was a major influence behind the 1914 amalgamation?",
+    "options": {
+      "A": "The financial deficits in Northern Nigeria",
+      "B": "The need to control oil resources",
+      "C": "The desire to unify currency systems",
+      "D": "The expansion of railway networks"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The desire to unify currency systems was a major economic factor behind the 1914 amalgamation of Nigeria. The British colonial administration aimed to streamline economic policies and governance by unifying the currency systems in the region.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_35",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "35",
+    "question": "Mohammad Ali Pasha is often referred to as the \"founder of modern Egypt\" due to his reforms in which sectors?",
+    "options": {
+      "A": "Religion, trade, and healthcare",
+      "B": "Military, education, and agriculture",
+      "C": "Art, architecture, and governance",
+      "D": "Industrialization, law, and literature"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mohammad Ali Pasha is often referred to as the 'founder of modern Egypt' due to his reforms in military, education, and agriculture sectors. The correct option that matches this answer is 'Military, education, and agriculture'. Mohammad Ali Pasha implemented significant reforms in these sectors, modernizing Egypt and laying the foundation for its development.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Local Government",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_36",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "36",
+    "question": "The creation of the Mid-Western Region in 1963 was primarily a response to",
+    "options": {
+      "A": "The demands of the minority groups in the Niger Delta",
+      "B": "Ethnic tensions in the Western Region",
+      "C": "The growing influence of the NCNC",
+      "D": "The secessionist threats from Biafra"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is The demands of the minority groups in the Niger Delta. The creation of the Mid-Western Region ir 1963 was primarily a response to the demands of the minority groups in the Niger Delta who sought more autonomy an representation in the Nigerian political structure.",
+    "predicted_topics": [
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_37",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "37",
+    "question": "Which of the following Yoruba states rose to prominence as a result of the decline of Oyo?",
+    "options": {
+      "A": "Egba",
+      "B": "Ibadan",
+      "C": "Ife",
+      "D": "Ijebu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Yoruba state that rose to prominence as a result of the decline of Oyo was Ibadan. After the decline of the Oyo Empire, Ibadan emerged as a powerful Yoruba city-state in the 19th century.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_38",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "38",
+    "question": "Which treaty did Menelik II reject, leading to the Italian invasion and the subsequent Battle of Adwa?",
+    "options": {
+      "A": "Treaty of Addis Ababa",
+      "B": "Treaty of Ucciali",
+      "C": "Treaty of Algiers",
+      "D": "Treaty of Wuchale"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct treaty that Menelik II rejected was the Treaty of Wuchale, which led to the Italian invasion and the Battle of Adwa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_39",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "39",
+    "question": "The fall of which kingdom marked a significant milestone in the British conquest of the Nigerian area?",
+    "options": {
+      "A": "Benin Kingdom in 1897",
+      "B": "Sokoto Caliphate in 1903",
+      "C": "Kanem-Bornu Empire in 1914",
+      "D": "Oyo Empire in 1825"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Benin Kingdom in 1897. The fall of the Benin Kingdom marked a significant milestone in the British conquest of the Nigerian area as it led to the British annexation of Benin and the looting of valuable artifacts.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_40",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "40",
+    "question": "The Sharpeville Massacre of 1960 was a turning point in the struggle against apartheid because it led to",
+    "options": {
+      "A": "Increased support for apartheid policies",
+      "B": "The banning of the African National Congress (ANC) and Pan Africanist Congress (PAC)",
+      "C": "International recognition of South Africa's independence",
+      "D": "The immediate end of apartheid"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Increased support for apartheid policies. The Sharpeville Massacre of 1960, where 69 people were killed by police during a peaceful protest, led to increased international condemnation of apartheid policies andincreased support for the anti-apartheid movement.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_41",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "41",
+    "question": "Which principle was established at the Berlin Conference to justify European claims to African territories?",
+    "options": {
+      "A": "The Monroe Doctrine",
+      "B": "Effective occupation",
+      "C": "Terra nullius",
+      "D": "The Treaty of Tordesillas"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The principle established at the Berlin Conference to justify European claims to African territories was 'Effective occupation.' This principle required European powers to demonstrate effective control over a territory to legitimize their claims, regardless of prior African ownership or sovereignty.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_42",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "42",
+    "question": "The Cuban Missile Crisis of 1962 brought the world to the brink of nuclear war. It was a standoff between which two superpowers?",
+    "options": {
+      "A": "The United Kingdom and the Soviet Union",
+      "B": "The Soviet Union and NATO",
+      "C": "The United States and the Soviet Union",
+      "D": "The United States and China"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Cuban Missile Crisis of 1962 was a standoff between the United States and the Soviet Union. The crisis was a result of the placement of Soviet nuclear missiles in Cuba, which was seen as a direct threat to the United States.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_43",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "43",
+    "question": "The humanitarian crisis during the Nigerian Civil War was exacerbated by",
+    "options": {
+      "A": "The intervention of foreign mercenaries",
+      "B": "The destruction of infrastructure by the Biafran forces",
+      "C": "International sanctions against Nigeria",
+      "D": "A blockade imposed by the Nigerian government on Biafra"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The humanitarian crisis during the Nigerian Civil War was exacerbated by a blockade imposed by the Nigerian government on Biafra. The blockade led to severe food and medical shortages in Biafra, worsening the already dire humanitarian situation during the conflict.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_44",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "44",
+    "question": "The introduction of the 1946 Richards Constitution in Nigeria was significant because",
+    "options": {
+      "A": "It established a federal system with equal representation for all ethnic groups",
+      "B": "It led to the abolition of traditional chieftaincies and local governance",
+      "C": "It resulted in the complete independence of Nigeria from British control",
+      "D": "It marked the first significant step towards self-government and regional representation"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The introduction of the 1946 Richards Constitution in Nigeria was significant because it marked the first significant step towards self-government and regional representation. The constitution laid the foundation for increased Nigerian participation in governance and paved the way for future constitutional developments.",
+    "predicted_topics": [
+      "Structures of Governance",
+      "Constitution",
+      "Imperialist Penetration",
+      "Constitutional Development in Nigeria",
+      "The Structure and Workings of Nigerian Federalism",
+      "Public Corporations and Parastatals",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_45",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "45",
+    "question": "Khedive Ismail's ambitious modernization projects in Egypt led to",
+    "options": {
+      "A": "Massive debt and eventual control by European powers",
+      "B": "The unification of the Arab world under Egyptian leadership",
+      "C": "Egypt becoming a global economic powerhouse",
+      "D": "The full industrialization of Egypt"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Khedive Ismail's ambitious modernization projects in Egypt led to massive debt and eventual control by European powers. The modernization efforts, including the construction of the Suez Canal, put Egypt in significant debt, leading to European intervention.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_46",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "46",
+    "question": "Theodore II's efforts at unifying Ethiopia were challenged by",
+    "options": {
+      "A": "European colonizers seeking to divide the country",
+      "B": "Religious factions within the Ethiopian Orthodox Church",
+      "C": "Regional lords and noblemen who resisted central authority",
+      "D": "The invasion of neighboring Sudan"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Theodore II's efforts at unifying Ethiopia were challenged by regional lords and noblemen who resisted central authorit These local power structures posed significant obstacles to the centralization efforts of Theodore II, hindering his unification goals.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_47",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "47",
+    "question": "The United Nations General Assembly adopted a resolution in 1973 declaring apartheid as a",
+    "options": {
+      "A": "Crime against humanity",
+      "B": "Domestic policy of South Africa",
+      "C": "Form of racial discrimination",
+      "D": "Legal system"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The United Nations General Assembly adopted a resolution in 1973 declaring apartheid as a crime against humanity. Apartheid was a system of institutionalized racial segregation and discrimination in South Africa, and the resolution condemned it as a crime against humanity.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_48",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "48",
+    "question": "Which of the following social changes was a direct result of urbanization in colonial Nigeria?",
+    "options": {
+      "A": "The complete assimilation of Nigerian elites into British culture",
+      "B": "The decline of traditional chieftaincy institutions",
+      "C": "The growth of labor unions and political activism",
+      "D": "The eradication of ethnic and regional differences"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Urbanization led to a mix of traditional and modern influences, and the growth of labor unions and political activism was one of the outcomes.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_49",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "49",
+    "question": "Christian missionary activities in Liberia were primarily dominated by which denomination in the 19th century?",
+    "options": {
+      "A": "Baptist",
+      "B": "Anglican",
+      "C": "Presbyterian",
+      "D": "Methodist"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Christian missionary activities in Liberia in the 19th century were primarily dominated by the Methodist denomination The Methodist Church played a significant role in establishing missions and schools in Liberia during that period.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_50",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "50",
+    "question": "The impact of the Mfecane on trade in Southern Africa was",
+    "options": {
+      "A": "The decline of trade networks due to increased conflict",
+      "B": "Enhancement of trade relations with European traders",
+      "C": "Disruption of existing trade routes and establishment of new ones",
+      "D": "The integration of African trade systems with European markets"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The impact of the Mfecane on trade in Southern Africa was the disruption of existing trade routes and the establishment of new ones. The conflicts during the Mfecane led to the reorganization of trade networks in the region.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_51",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "51",
+    "question": "The Nupe rulers, known as the Emir, exercised control through",
+    "options": {
+      "A": "A complex system of provincial governors and military commanders",
+      "B": "Heavy taxation and land acquisition policies",
+      "C": "The establishment of a theocratic government",
+      "D": "Direct control over all economic activities"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Nupe rulers, known as the Emir, exercised control through a complex system of provincial governors and military commanders. This system allowed for effective governance and control over the region.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Public Corporations and Parastatals",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_52",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "52",
+    "question": "The Islamic reform movement led by Al-Hajj Umar Tall was characterized by",
+    "options": {
+      "A": "The introduction of Western education and technology in West Africa",
+      "B": "The development of alliances with European colonial powers",
+      "C": "The promotion of commercial agriculture and trade with Europe",
+      "D": "The establishment of a theocratic state in Senegal and the western Sudan"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Islamic reform movement led by Al-Hajj Umar Tall was characterized by the establishment of a theocratic state in Senegal and the western Sudan. This is evident from the historical accounts of Umar Tall's efforts to establish an Islamic state based on his interpretation of Islamic law and governance.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_53",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "53",
+    "question": "Which ECOWAS protocol allows for the free movement of persons, goods, and services within member states?",
+    "options": {
+      "A": "The ECOWAS Trade Liberalization Scheme",
+      "B": "The Protocol on Free Movement",
+      "C": "The Abuja Agreement",
+      "D": "The Treaty of Lagos"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The ECOWAS protocol that allows for the free movement of persons, goods, and services within member states is The Protocol on Free Movement. This protocol aims to promote integration and economic development within the Economic Community of West African States (ECOWAS).",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_54",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "54",
+    "question": "The Satiru Uprising of 1906 was a significant event in colonial Nigeria. What was the primary cause of this rebellion?",
+    "options": {
+      "A": "Resistance to the imposition of colonial rule",
+      "B": "Opposition to Christian missionary activities",
+      "C": "Disputes over land ownership",
+      "D": "Discontent with British taxation policies"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary cause of the Satiru Uprising of 1906 was resistance to the imposition of colonial rule. The British colonial rule was seen as oppressive and exploitative, leading to various uprisings and rebellions across Nigeria.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_55",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "55",
+    "question": "Mohammed Ali's economic reforms in Egypt included",
+    "options": {
+      "A": "The reduction of agricultural production and reliance on imports",
+      "B": "The establishment of state monopolies over key industries",
+      "C": "The introduction of a free market economy",
+      "D": "The privatization of major state enterprises"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mohammed Ali's economic reforms in Egypt included the establishment of state monopolies over key industries. This centralized control was a key aspect of his economic policies.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Public Corporations and Parastatals",
+      "Local Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_56",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "56",
+    "question": "The Kanem-Borno Empire was one of the most powerful states in the Nigeria area during the 19th century. Its capital during this period was",
+    "options": {
+      "A": "Kukawa",
+      "B": "Maiduguri",
+      "C": "Dikwa",
+      "D": "Ngazargamu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "During the 19th century, the capital of the Kanem-Borno Empire was Ngazargamu. This city served as the political and administrative center of the empire, showcasing its power and influence in the Nigeria area.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_57",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "57",
+    "question": "Which of the following was a major export commodity of the Oyo Empire during the pre-colonial period?",
+    "options": {
+      "A": "Ivory",
+      "B": "Kola nuts",
+      "C": "Salt",
+      "D": "Gold"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Kola nuts were a major export commodity of the Oyo Empire during the pre-colonial period. They were highly valued fo their stimulant properties and were traded extensively within and outside the empire.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_58",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "58",
+    "question": "The rise of the Kanem-Borno Empire in the 9th century was primarily due to",
+    "options": {
+      "A": "Agricultural surplus",
+      "B": "Conquest of neighboring empires",
+      "C": "Diplomatic alliances with the Ottoman Empire",
+      "D": "Control of trans-Saharan trade routes"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The empire's rise was mainly attributed to its control of trans-Saharan trade routes, which facilitated economic prosperity and political influence in the region.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_59",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "59",
+    "question": "The infamous Middle Passage refers to",
+    "options": {
+      "A": "The journey of enslaved Africans across the Atlantic Ocean to the Americas",
+      "B": "The migration of Africans to Europe for labor",
+      "C": "The pathway used by missionaries in Africa",
+      "D": "The route taken by European explorers to reach Asia"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The infamous Middle Passage refers to the journey of enslaved Africans across the Atlantic Ocean to the Americas. It waa horrific and inhumane voyage that resulted in immense suffering and loss of life among the enslaved population.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_60",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "60",
+    "question": "Seku Amadu initiated a jihad in the early 19th century and established the Massina Empire. His jihad was primarily against",
+    "options": {
+      "A": "The Asante Empire",
+      "B": "The Bambara Kingdoms",
+      "C": "The French colonial forces",
+      "D": "The Sokoto Caliphate"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Seku Amadu initiated a jihad against the Sokoto Caliphate. The Sokoto Caliphate was a powerful Islamic state in the region, and Seku Amadu's jihad was aimed at challenging their authority and establishing his own empire.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_61",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "61",
+    "question": "The activities of the British East Africa Company led to",
+    "options": {
+      "A": "The discovery of gold mines in South Africa",
+      "B": "The establishment of protectorates in East Africa",
+      "C": "The formation of the United Nations",
+      "D": "The creation of a trans-Saharan trade route"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The activities of the British East Africa Company led to the establishment of protectorates in East Africa. The company played a significant role in the colonization and establishment of British control in East Africa.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_62",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "62",
+    "question": "Which economic policy introduced by the Buhari regime had a significant impact on Nigeria's foreign exchange market?",
+    "options": {
+      "A": "Export promotion",
+      "B": "Countertrade",
+      "C": "Structural Adjustment Program (SAP)",
+      "D": "Import substitution industrialization"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The economic policy introduced by the Buhari regime that had a significant impact on Nigeria's foreign exchange marke was the Structural Adjustment Program (SAP). SAP aimed to restructure the economy through liberalization, privatization, and deregulation, impacting various sectors including the foreign exchange market.",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_63",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "63",
+    "question": "The primary aim of the Ekumeku Movement in the Asaba hinterland was to",
+    "options": {
+      "A": "Promote the spread of Christianity",
+      "B": "Resist British taxation and land policies",
+      "C": "Establish an independent Asaba kingdom",
+      "D": "Integrate with neighboring ethnic groups"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary aim of the Ekumeku Movement in the Asaba hinterland was to resist British taxation and land policies. This movement was a resistance movement against British colonial policies in the Asaba region.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_64",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "64",
+    "question": "The arrival of the Portuguese on the West African coast in the 15th century marked the beginning of European influence in the region. Their primary interest was in",
+    "options": {
+      "A": "Establishing colonies",
+      "B": "Converting the local population to Christianity",
+      "C": "Engaging in the trans-Atlantic slave trade",
+      "D": "Trading gold and spices"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary interest of the Portuguese upon arriving on the West African coast in the 15th century was engaging in the trans-Atlantic slave trade. This marked the beginning of a dark period in history where Africans were forcibly taken as slaves to the Americas.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_65",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "65",
+    "question": "The Sokoto Caliphate's relations with the British colonial powers in the 19th century were",
+    "options": {
+      "A": "Generally cooperative, with the Caliphate aiding British administrative efforts",
+      "B": "Marked by frequent conflicts and military confrontations",
+      "C": "Based on treaties and trade agreements leading to mutual cooperation",
+      "D": "Limited to diplomatic negotiations and sporadic trade interactions"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Sokoto Caliphate's relations with the British colonial powers in the 19th century were based on treaties and trade agreements leading to mutual cooperation. This cooperation was evident in various agreements and interactions between the Caliphate and the British authorities during that period.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_66",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "66",
+    "question": "The rise of consular authority in Africa during the colonial era involved",
+    "options": {
+      "A": "The removal of all forms of European governance",
+      "B": "European consuls exercising political and economic control in their respective regions",
+      "C": "The promotion of African trade unions and cooperatives",
+      "D": "The establishment of local African consulates to manage trade"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The rise of consular authority in Africa during the colonial era involved European consuls exercising political and economic control in their respective regions. Consuls played a crucial role in representing European interests and exerting influence in African territories.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pressure Groups",
+      "Pre-Colonial Polities",
+      "Imperialist Penetration",
+      "Public Corporations and Parastatals",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_67",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "67",
+    "question": "The primary destination of the Voortrekkers during the Great Trek was",
+    "options": {
+      "A": "The southern part of Mozambique",
+      "B": "The interior regions of modern-day South Africa, such as the Transvaal and the Orange Free State",
+      "C": "The coastal regions of Namibia",
+      "D": "The highlands of Kenya"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary destination of the Voortrekkers during the Great Trek was the interior regions of modern-day South Africa, such as the Transvaal and the Orange Free State. The Voortrekkers were Boer pastoralists who migrated inland during th Great Trek.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_68",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "68",
+    "question": "The major policy direction of the Obasanjo administration following the death of Murtala Mohammed was",
+    "options": {
+      "A": "Preparing the country for a transition to civilian rule and democratic elections",
+      "B": "Strengthening alliances with other military regimes in Africa",
+      "C": "Increasing military spending and expanding Nigeria's influence in international conflicts",
+      "D": "Pursuing aggressive land and agricultural reforms to boost the economy"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The major policy direction of the Obasanjo administration following the death of Murtala Mohammed was preparing the country for a transition to civilian rule and democratic elections. Obasanjo's administration focused on the restoration c civilian rule after a period of military governance, leading to the eventual transition to democratic elections in Nigeria.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process",
+      "The Structure and Workings of Nigerian Federalism",
+      "Local Government",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_69",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "69",
+    "question": "The challenge of building effective political institutions in newly independent African states has been exacerbated by",
+    "options": {
+      "A": "The prevalence of democratic governance models",
+      "B": "High levels of foreign direct investment",
+      "C": "Widespread support for national unity",
+      "D": "A lack of experienced administrative personnel and leadership"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The challenge of building effective political institutions in newly independent African states has been exacerbated by a lack of experienced administrative personnel and leadership. This lack of expertise and leadership has hindered the development of stable political institutions.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_70",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "70",
+    "question": "The concept of \"The White Man's Burden,\" which justified European imperialism, was popularized by which British writer?",
+    "options": {
+      "A": "H.G. Wells",
+      "B": "Joseph Conrad",
+      "C": "Charles Dickens",
+      "D": "Rudyard Kipling"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The concept of 'The White Man's Burden, which justified European imperialism, was popularized by Rudyard Kipling. Kipling's poem of the same name portrayed imperialism as a duty of the white race to civilize and uplift non-white peoples.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_71",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "71",
+    "question": "The Omani Sultanate's control over Zanzibar led to",
+    "options": {
+      "A": "The widespread conversion of Zanzibar to Christianity",
+      "B": "The complete cessation of the slave trade in the region",
+      "C": "The establishment of a major center for the East African slave trade",
+      "D": "The creation of a unified East African political entity"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Omani Sultanate's control over Zanzibar led to the establishment of a major center for the East African slave trade. Zanzibar became a significant hub for the slave trade under Omani rule.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_72",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "72",
+    "question": "One of Gowon's major achievements was the hosting of which international event in Lagos in 1973?",
+    "options": {
+      "A": "The All-Africa Games",
+      "B": "The Non-Aligned Movement Conference",
+      "C": "The OAU Summit",
+      "D": "The Commonwealth Heads of Government Meeting"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Gowon's major achievement was hosting The OAU Summit in Lagos in 1973. The OAU (Organization of African Unity) Summit was a significant international event that brought together African leaders to discuss and address key issues affecting the continent.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_73",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "73",
+    "question": "One of the key impacts of French colonialism in West Africa was",
+    "options": {
+      "A": "The imposition of the French legal system and civil code",
+      "B": "The abolition of all indigenous forms of governance",
+      "C": "The replacement of Islam with Christianity",
+      "D": "The promotion of Swahili as the lingua franca"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "One of the key impacts of French colonialism in West Africa was the imposition of the French legal system and civil code This helped in the administration and governance of the colonies by the French authorities.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_74",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "74",
+    "question": "Which leader, influenced by the Sokoto Caliphate, established a theocratic state in Masina in the early 19th century?",
+    "options": {
+      "A": "Al-Hajj Umar",
+      "B": "Ahmadou Sekou",
+      "C": "Samori Ture",
+      "D": "Seku Amadu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The leader influenced by the Sokoto Caliphate who established a theocratic state in Masina in the early 19th century wa Seku Amadu. He was inspired by the Sokoto Caliphate's model of Islamic governance and sought to establish a similar theocratic state in Masina.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_75",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "75",
+    "question": "The role of the Truth and Reconciliation Commission (TRC) in post-apartheid South Africa was to",
+    "options": {
+      "A": "Facilitate the redistribution of land and resources among previously disadvantaged groups",
+      "B": "Oversee the transition of economic policies from apartheid to democracy",
+      "C": "Enforce legal action against all members of the apartheid regime",
+      "D": "Investigate human rights violations and promote national healing"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The role of the Truth and Reconciliation Commission (TRC) in post-apartheid South Africa was to investigate human rights violations and promote national healing. The TRC played a crucial role in uncovering past atrocities, providing a platform for victims to share their stories, and fostering reconciliation in the country.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Forms of Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State",
+      "Forms of Government :: Democracy"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_76",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "76",
+    "question": "The apartheid policy of \"separate development\" was also known as",
+    "options": {
+      "A": "Afrikaner nationalism",
+      "B": "Bantustans",
+      "C": "Homelands",
+      "D": "Segregation"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The apartheid policy of 'separate development' was also known as Bantustans. This policy involved the creation of separate territories for different racial groups in South Africa, known as Bantustans, as part of the apartheid system.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2024_77",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "77",
+    "question": "The primary impact of the Mahdist Revolt in Sudan on Ethiopia was",
+    "options": {
+      "A": "The direct military support provided to Ethiopian forces",
+      "B": "The diversion of British and Italian resources away from Ethiopia",
+      "C": "The establishment of a Mahdist alliance with Ethiopian rulers",
+      "D": "The establishment of a political union between Sudan and Ethiopia"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary impact of the Mahdist Revolt in Sudan on Ethiopia was the diversion of British and Italian resources away from Ethiopia. The Mahdist Revolt (1881-1899), led by Muhammad Ahmad al-Mahdi, occupied British and other colonia powers' attention in Sudan, reducing their focus on Ethiopia. This created a temporary window for Ethiopia to consolidate its power and resist external pressures, including colonial encroachments by European powers.",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_78",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "78",
+    "question": "The Ebira people, also from the Niger-Benue Valley, are known for their resistance to which British colonial policy in the early 20th century?",
+    "options": {
+      "A": "Forced labor",
+      "B": "Land expropriation",
+      "C": "Taxation",
+      "D": "Indirect rule"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Ebira people resisted the British colonial policy of taxation in the early 20th century. Taxation was one of the key methods used by the British to extract resources from the colonies, leading to resistance and uprisings.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_79",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "79",
+    "question": "The British amalgamation of Nigeria in 1914 was primarily motivated by",
+    "options": {
+      "A": "desire to promote cultural unity among the diverse ethnic groups",
+      "B": "Pressure from the League of Nations",
+      "C": "Economic considerations, particularly the need to make the Northern Protectorate financially viable",
+      "D": "The influence of nationalist movements"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The British amalgamation of Nigeria in 1914 was primarily motivated by economic considerations, particularly the nee to make the Northern Protectorate financially viable. By merging the Northern and Southern Protectorates, the British aimed to create a more economically sustainable administrative unit.",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2024_80",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2024,
+    "number": "80",
+    "question": "The Voortrekker Monument, inaugurated in 1949, is a symbol of Afrikaner nationalism. It commemorates which historical event?",
+    "options": {
+      "A": "The Great Trek",
+      "B": "The founding of Cape Colony",
+      "C": "The Battle of Blood River",
+      "D": "The Union of South Africa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Voortrekker Monument commemorates The Great Trek, which was a significant historical event in Afrikaner history The monument symbolizes the pioneering spirit and nationalism of the Afrikaner people during their migration inland i the early 19th century.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Process of Decolonization",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  }
+]

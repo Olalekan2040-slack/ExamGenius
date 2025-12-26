@@ -1,0 +1,965 @@
+[
+  {
+    "id": "JAMB_Igbo_2022_1",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "1",
+    "question": "One of these is not part of Igboland?",
+    "options": {
+      "A": "Asaba",
+      "B": "Abakaliki",
+      "C": "Owere",
+      "D": "Benin"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_2",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "2",
+    "question": "Which of these is not a state in Igboland?",
+    "options": {
+      "A": "Ebonyi State",
+      "B": "Abia State",
+      "C": "Enugu State",
+      "D": "Edo State"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Igbo_2022_3",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "3",
+    "question": "Which is the Igbo staple food?",
+    "options": {
+      "A": "Garri (gba)",
+      "B": "Rice (osikapa)",
+      "C": "Cassava (akpụ)",
+      "D": "Beans (agwa)"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_4",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "4",
+    "question": "Họpụta nke bụ narị abụọ na iri abụọ.",
+    "options": {
+      "A": "202",
+      "B": "220",
+      "C": "22",
+      "D": "2002"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_5",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "5",
+    "question": "Họpụta nke bụ narị abụọ na iri abụọ.",
+    "options": {
+      "A": "narị",
+      "B": "ijeri",
+      "C": "puku",
+      "D": "nde"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_6",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "6",
+    "question": "Họpụta nke bụ 55 n'Igbo. Iri ise",
+    "options": {
+      "A": "ise",
+      "B": "ọtụt",
+      "C": "ise na ise ise",
+      "D": "na ise"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_7",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "7",
+    "question": "Kedu nke bụ 888? Narị",
+    "options": {
+      "A": "iri asatọ na asatọ",
+      "B": "asatọ na asatọ na asatọ",
+      "C": "asatọ asatọ asatọ",
+      "D": "asatọ iri asatọ na asatọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_8",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "8",
+    "question": "Dịpụta ọnuọgụgụ a bụ 60 n'Igbo. Iri",
+    "options": {
+      "A": "na isii",
+      "B": "isii na ọtụt",
+      "C": "isii na efu",
+      "D": "isii"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_9",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "9",
+    "question": "Write 70 in Igbo. Iri",
+    "options": {
+      "A": "asaa abụọ",
+      "B": "asaa na asaa",
+      "C": "asaa",
+      "D": "asaa na iri"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_10",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "10",
+    "question": "Write 260 in Igbo. Narị abụọ na",
+    "options": {
+      "A": "isii",
+      "B": "iri isii",
+      "C": "itoọlụ",
+      "D": "isii isii"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_11",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "11",
+    "question": "Họpụta nke bụ 23 n'Igbo. Iri abụọ na",
+    "options": {
+      "A": "abụọ",
+      "B": "atọ",
+      "C": "ise",
+      "D": "anọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_12",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "12",
+    "question": "Họpụta nke bụ 115 n'Igbo. Ọtụ narị na",
+    "options": {
+      "A": "iri ise",
+      "B": "iri ise ise",
+      "C": "iri na ise",
+      "D": "iri ise na ise"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_13",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "13",
+    "question": "Ọlee nke pụtara narị asaa na iri abụọ",
+    "options": {
+      "A": "707",
+      "B": "772",
+      "C": "720",
+      "D": "710"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_14",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "14",
+    "question": "What is the name of aeroplane in Igbo?",
+    "options": {
+      "A": "Ọgbatụmtụm",
+      "B": "Ụgbọmmiri",
+      "C": "Ụgbọala",
+      "D": "Ụgbọelu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_15",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "15",
+    "question": "How many letters are there in Igbo alphabet?",
+    "options": {
+      "A": "Iri abụọ na abụọ",
+      "B": "Asatọ",
+      "C": "Anọ",
+      "D": "Iri atọ na isii"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_16",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "16",
+    "question": "Kedu ụgbọ Tunde ji eme njem ya?",
+    "options": {
+      "A": "Ụgbọmmiri",
+      "B": "Anyịnyịagwẹ",
+      "C": "Ụgbọelu",
+      "D": "Ụgbọala"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_17",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "17",
+    "question": "Kedu ụgbọ Aminu ji eme njem ya?",
+    "options": {
+      "A": "Ụgbọelu",
+      "B": "Ụgbọamara",
+      "C": "Ụgbọọlọkọ",
+      "D": "Ụgbọala"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_18",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "18",
+    "question": "Ego ọle ka Tunde kwụrụ?",
+    "options": {
+      "A": "Narị naira atọ",
+      "B": "Narị naira anọ",
+      "C": "Ọtụ narị naira",
+      "D": "Narị naira abụọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_19",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "19",
+    "question": "Ego ọle ka Aminu kwụrụ? Narị naira",
+    "options": {
+      "A": "anọ",
+      "B": "abụọ",
+      "C": "atọ",
+      "D": "ise"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_20",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "20",
+    "question": "Họpụta ọbọdọ a kpọghị aha na mkparịtaụka a",
+    "options": {
+      "A": "Kaduna",
+      "B": "Minna",
+      "C": "Lagos",
+      "D": "Enugu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_21",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "21",
+    "question": "Họpụta ọbọdọ a kpọrọ aha na mkparịtaụka a",
+    "options": {
+      "A": "Lagos",
+      "B": "Ibadan",
+      "C": "Abuja",
+      "D": "Kafanchan"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_22",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "22",
+    "question": "Ọlee ụbọchị Aminu ga-alọghachị?",
+    "options": {
+      "A": "Nkwọ",
+      "B": "Eke",
+      "C": "Afọkwa",
+      "D": "Afọ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_23",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "23",
+    "question": "Họpụta ụbọchị Tunde ga-alọghachị. Ụbọchị ahịa",
+    "options": {
+      "A": "eke",
+      "B": "nkwọ",
+      "C": "afọ",
+      "D": "ekeorie"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_24",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "24",
+    "question": "Kedu ihe Aminu na-aga ịme?",
+    "options": {
+      "A": "Ịzụ ahịa",
+      "B": "Ịlegharị anya",
+      "C": "Ịhụ ọgbụnịgwẹ",
+      "D": "Ịlụ ọgụ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_25",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "25",
+    "question": "Ebee ka ị na-aga?",
+    "options": {
+      "A": "Ana m aga akwụkwọ",
+      "B": "Anyị na-aga njem",
+      "C": "Ha na-abịa",
+      "D": "Mụ na ha na-aga njem"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_26",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "26",
+    "question": "Kedụ maka nne gị?",
+    "options": {
+      "A": "Ọ mara mma",
+      "B": "Ha dị mma",
+      "C": "Anyị dị mma",
+      "D": "Ọ dị mma"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_27",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "27",
+    "question": "Ụlọ ọle ka nna gị nwere?",
+    "options": {
+      "A": "M nwere ụlọ abụọ",
+      "B": "Anyị nwere ya anọ",
+      "C": "Nna m nwere ụlọ abụọ",
+      "D": "Ha nwere ụlọ anọ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_28",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "28",
+    "question": "Afọ ọle ka ị gbara ugbu a?",
+    "options": {
+      "A": "Ha gbara afọ isii",
+      "B": "Ị gbara afọ iri",
+      "C": "Ọ gbara afọ iri",
+      "D": "Agbara m afọ iri"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_29",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "29",
+    "question": "Ọlee aha ụlọakwụkwọ ụnu?",
+    "options": {
+      "A": "Ụlọakwụkwọ ha bụ GSS",
+      "B": "GSS bụ ụlọakwụkwọ ya",
+      "C": "Ọ gụchara na GSS",
+      "D": "Aha ụlọakwụkwọ anyị bụ GSS"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_30",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "30",
+    "question": "What name is 'Agwọ' called in English?",
+    "options": {
+      "A": "Crocodile",
+      "B": "Snake",
+      "C": "Lizard",
+      "D": "Python"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_31",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "31",
+    "question": "What name is scorpion called in Igbo?",
+    "options": {
+      "A": "Awo",
+      "B": "Agwọ",
+      "C": "Ahụhụ",
+      "D": "Akpị"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_32",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "32",
+    "question": "How do you greet somebody who is returning from a journey in Igbo?",
+    "options": {
+      "A": "Nnọọ",
+      "B": "Ịjẹ ọma",
+      "C": "Daalụ",
+      "D": "Ndewo"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_33",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "33",
+    "question": "How do you greet someone who is working?",
+    "options": {
+      "A": "Daalụ",
+      "B": "Ịjẹ ọma",
+      "C": "Jisie ike",
+      "D": "Ndewo"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_34",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "34",
+    "question": "Ana m eri nri. Translate this sentence to English.",
+    "options": {
+      "A": "I am dancing for food",
+      "B": "All were eating",
+      "C": "I am eating food",
+      "D": "They are eating food"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_35",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "35",
+    "question": "Kedu aha gị?",
+    "options": {
+      "A": "Anyị bụ Amina",
+      "B": "Ha bụ Musa",
+      "C": "Aha m bụ Ụche",
+      "D": "Gị bụ Emeka"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_36",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "36",
+    "question": "Kedu aha ala anyị? Aha ala",
+    "options": {
+      "A": "ha bụ Maiduguri",
+      "B": "m bụ Enugu",
+      "C": "gị bụ Ibadan",
+      "D": "anyị bụ Naijiria"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_37",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "37",
+    "question": "Kedụ maka ahụ gị?",
+    "options": {
+      "A": "Adị m mma",
+      "B": "Anyị dị mma",
+      "C": "Ha dị mma",
+      "D": "Ị dị mma"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_38",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "38",
+    "question": "Ọlee aha nwanne gị nwoke? Aha",
+    "options": {
+      "A": "m bụ Musa",
+      "B": "ya bụ Emeka",
+      "C": "anyị bụ Ebikina",
+      "D": "ha bụ Biodun"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_39",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "39",
+    "question": "In Igbo, how do you invite somebody to come and join you in eating?",
+    "options": {
+      "A": "Gaa rie nri",
+      "B": "Ị ga-eri nri",
+      "C": "Bịa rie nri",
+      "D": "Nọdụ rie nri"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2022_40",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2022,
+    "number": "40",
+    "question": "How do you say \"Good night\" in Igbo?",
+    "options": {
+      "A": "Nbọọla chị",
+      "B": "Ehihiẹ ọma",
+      "C": "Ka ọ mesịa",
+      "D": "Ka chị bọọ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  }
+]

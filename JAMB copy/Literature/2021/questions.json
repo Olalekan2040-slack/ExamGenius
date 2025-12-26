@@ -1,0 +1,880 @@
+[
+  {
+    "id": "JAMB_Literature_2021_1",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "1",
+    "question": "The repetition of a consonant sound in quick succession of sound effect is",
+    "options": {
+      "A": "\n\n            Alliteration\n",
+      "B": "\n\n            Pun\n",
+      "C": "\n\n            onomatopoeia\n",
+      "D": "\n\n            Assonance\n"
+    },
+    "correct_answer": "A",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_2",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "2",
+    "question": "A play in which the acts succeed one another without probable or necessary sequence is",
+    "options": {
+      "A": "\n\n            Episodic\n",
+      "B": "\n\n            Simple\n",
+      "C": "\n\n            Linear\n",
+      "D": "\n\n            Convoluted\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_3",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "3",
+    "question": "A technique by which a previous scene or action can be recalled in a play to shed light on the present action is",
+    "options": {
+      "A": "\n\n            Climax\n",
+      "B": "\n\n            Flashback\n",
+      "C": "\n\n            Interlude\n",
+      "D": "\n\n            Cathersis\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_4",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "4",
+    "question": "Criticism is a literary activity which seeks to",
+    "options": {
+      "A": "\n\n            Find faults in a literary work\n",
+      "B": "\n\n            Analyze and evaluate a literary work\n",
+      "C": "\n\n            compare and contrast novels\n",
+      "D": "\n\n            Discover the beauty of a literary work.\n"
+    },
+    "correct_answer": "B",
+    "topic": "General Literary Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_5",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "5",
+    "question": "A situation where an actor addresses the audience without the other actors hearing him is called",
+    "options": {
+      "A": "\n\n            Soliloquy\n",
+      "B": "\n\n            Chorus\n",
+      "C": "\n\n            Aside\n",
+      "D": "\n\n            Solo\n"
+    },
+    "correct_answer": "C",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_6",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "6",
+    "question": "A band of singers and dancers in drama who acts as a link between the play and the audience is the",
+    "options": {
+      "A": "\n\n            Chorus\n",
+      "B": "\n\n            Clown\n",
+      "C": "\n\n            Playwright\n",
+      "D": "\n\n            Cast\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_7",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "7",
+    "question": "This question is based on General Literary Principles. Persona refers to the",
+    "options": {
+      "A": "\n\n            central character in a play\n",
+      "B": "\n\n            voice of the character\n",
+      "C": "\n\n            the image a character presents\n",
+      "D": "\n\n            the personality of a character\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_8",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "8",
+    "question": "This question is based on General Literary Principles. The three main unities in drama are those of",
+    "options": {
+      "A": "\n\n            action, time and place\n",
+      "B": "\n\n            time, space and action\n",
+      "C": "\n\n            place, time and space\n",
+      "D": "\n\n            space, action and time\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_9",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "9",
+    "question": "This question is based on General Literary Principles. Poems that are not written in meter or regular line length are called",
+    "options": {
+      "A": "\n\n            short verses\n",
+      "B": "\n\n            rhythmic verses\n",
+      "C": "\n\n            free verses\n",
+      "D": "\n\n            irregular verses\n"
+    },
+    "correct_answer": "C",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_10",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "10",
+    "question": "This question is based on General Literary Principles. An elegy is a poem that mourns for the",
+    "options": {
+      "A": "\n\n            deceased\n",
+      "B": "\n\n            bereaved\n",
+      "C": "\n\n            accused\n",
+      "D": "\n\n            king\n"
+    },
+    "correct_answer": "A",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_11",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "11",
+    "question": "This question is based on General Literary Principles. When two statements or comparisons are apparently contradictory, we have an example of",
+    "options": {
+      "A": "\n\n            irony\n",
+      "B": "\n\n            paradox\n",
+      "C": "\n\n            contrast\n",
+      "D": "\n\n            parallelism\n"
+    },
+    "correct_answer": "B",
+    "topic": "Literary Terms & Principles",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature_2021_12",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "12",
+    "question": "This question is based on General Literary Principles. 'If Winter comes, can Spring be far behind?' Shelly, 'Ode to the West Wind'. The literary device used here is",
+    "options": {
+      "A": "\n\n            an apostrophe\n",
+      "B": "\n\n            an allegory\n",
+      "C": "\n\n            a poetic license\n",
+      "D": "\n\n            a rhetoric\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Principles",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_13",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "13",
+    "question": "This question is based on General Literary Principles. A melodramatic play is based on",
+    "options": {
+      "A": "\n\n            a melodious manipulation of events\n",
+      "B": "\n\n            ingredients that mellow down events\n",
+      "C": "\n\n            sensational plot and characters\n",
+      "D": "\n\n            the playwright's didactic overtones\n"
+    },
+    "correct_answer": "C",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_14",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "14",
+    "question": "This question is based on General Literary Principles. Romantic poetry emphasizes",
+    "options": {
+      "A": "\n\n            the beauty of nature\n",
+      "B": "\n\n            intimate relationships\n",
+      "C": "\n\n            the love in human nature\n",
+      "D": "\n\n            the romance in human aspiration\n"
+    },
+    "correct_answer": "A",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_15",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "15",
+    "question": "This question is based on General Literary Principles. In drama, a conspicuous weakness in the character of the protagonist contributing to his downfall is referred to as",
+    "options": {
+      "A": "\n\n            an anagnorisis\n",
+      "B": "\n\n            a tragic flaw\n",
+      "C": "\n\n            a catharsis\n",
+      "D": "\n\n            a catastrophe\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_16",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "16",
+    "question": "This question is based on General Literary Principles. 'The woman whose breast I sucked is gone to the worms, 'Oculi, Orphan'. These lines illustrate the use of",
+    "options": {
+      "A": "\n\n            sadism\n",
+      "B": "\n\n            sophism\n",
+      "C": "\n\n            satire\n",
+      "D": "\n\n            euphemism\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Principles",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_17",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "17",
+    "question": "This question is based on Femi Osofisan's Morountodun. In the play, social change is achieved through",
+    "options": {
+      "A": "\n\n            collectivism\n",
+      "B": "\n\n            sectionalism\n",
+      "C": "\n\n            individualism\n",
+      "D": "\n\n            communism\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Political Ideologies",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_18",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "18",
+    "question": "This question is based on Femi Osofisan's Morountodun. Titubi joins the farmer's revolt",
+    "options": {
+      "A": "\n\n            to ensure it's success\n",
+      "B": "\n\n            as a spy for the establishment\n",
+      "C": "\n\n            in pursuit of Marshal\n",
+      "D": "\n\n            to defy the police\n"
+    },
+    "correct_answer": "C",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_19",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "19",
+    "question": "This question is based on Femi Osofisan's Morountodun. The re-enactment of the Moremi legend in the play can be described as",
+    "options": {
+      "A": "\n\n            dramatic epilogue\n",
+      "B": "\n\n            dramatic monologue\n",
+      "C": "\n\n            role-playing\n",
+      "D": "\n\n            flashback\n"
+    },
+    "correct_answer": "D",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_20",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "20",
+    "question": "This question is based on Femi Osofisan's Morountodun. The stage direction at the end of the play reveals",
+    "options": {
+      "A": "\n\n            the actors in a changing room\n",
+      "B": "\n\n            Mama Kayode raising the song of hope\n",
+      "C": "\n\n            Moremi and Titubi in harsh spotlight\n",
+      "D": "\n\n            the Director making a farewell speech\n"
+    },
+    "correct_answer": "D",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_21",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "21",
+    "question": "This question is based on William Shakespeare's Twelfth Night. 'She bore a mind that envy could not but call fair' The statement above characterizes",
+    "options": {
+      "A": "\n\n            Maria\n",
+      "B": "\n\n            Olivia\n",
+      "C": "\n\n            Roderigo\n",
+      "D": "\n\n            Viola\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature_2021_22",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "22",
+    "question": "This question is based on William Shakespeare's Twelfth Night. According to the play, the Duke of illyria is fascinated by",
+    "options": {
+      "A": "\n\n            the idea of love\n",
+      "B": "\n\n            the food of love\n",
+      "C": "\n\n            music\n",
+      "D": "\n\n            entertainment\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_23",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "23",
+    "question": "This question is based on William Shakespeare's Twelfth Night. DUKE:... Thou know'st no less but all; I have unclasped to thee the book even of my secret soul. What exactly has the Duke unclasped?",
+    "options": {
+      "A": "\n\n            The book of his relationship with Olivia\n",
+      "B": "\n\n            The secret of his soul\n",
+      "C": "\n\n            The details of his relationship with Viola\n",
+      "D": "\n\n            The details of his relationship with Olivia\n"
+    },
+    "correct_answer": "D",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_24",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "24",
+    "question": "This question is based on William Shakespeare's Twelfth Night. 'I'll do my best To woo your lady.' What is the sincere desire of the person who made the statement above?",
+    "options": {
+      "A": "\n\n            That she succeeds in winning the love for the master\n",
+      "B": "\n\n            That her best is good enough to win affection\n",
+      "C": "\n\n            That she herself becomes the beloved\n",
+      "D": "\n\n            That she herself wins the love\n"
+    },
+    "correct_answer": "C",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature_2021_25",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "25",
+    "question": "This question is based on William Shakespeare's Twelfth Night. The significance of the sub-plot dealing with Feste, Toby and Maria is the expression of life's",
+    "options": {
+      "A": "\n\n            fragility\n",
+      "B": "\n\n            pleasure\n",
+      "C": "\n\n            comedy\n",
+      "D": "\n\n            romance\n"
+    },
+    "correct_answer": "A",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_26",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "26",
+    "question": "This question is based on William Shakespeare's Twelfth Night. What would you consider to be the major theme of the play?",
+    "options": {
+      "A": "\n\n            Love at first sight\n",
+      "B": "\n\n            Unrequited love\n",
+      "C": "\n\n            Illusion and reality\n",
+      "D": "\n\n            Humor and Tragedy\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_27",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "27",
+    "question": "This question is based on Abubakar Gimba's Witnesses to Tears. In the novel, Al-Amin's initial reservations about his daughter's engagement to Lahab are dormed by",
+    "options": {
+      "A": "\n\n            a premonition of his death\n",
+      "B": "\n\n            Lahab's doubtful morality\n",
+      "C": "\n\n            Hussaina's immaturity\n",
+      "D": "\n\n            his fear of loneliness\n"
+    },
+    "correct_answer": "B",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_28",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "28",
+    "question": "This question is based on Abubakar Gimba's Witnesses to Tears. The witnesses to the tears in the novel are",
+    "options": {
+      "A": "\n\n            Saahir and Lahab\n",
+      "B": "\n\n            Lahab and Hussaina\n",
+      "C": "\n\n            Lahab and Sagiir\n",
+      "D": "\n\n            Al-Amin and Hussaina\n"
+    },
+    "correct_answer": "D",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_29",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "29",
+    "question": "This question is based on Abubakar Gimba's Witnesses to Tears. The novel is largely set in",
+    "options": {
+      "A": "\n\n            Futa Toro\n",
+      "B": "\n\n            Sabonville city\n",
+      "C": "\n\n            Alligator city\n",
+      "D": "\n\n            Nuclear city\n"
+    },
+    "correct_answer": "A",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_30",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "30",
+    "question": "This question is based on George Orwell's Animal Farm. Old Major ends his speech to the animals with song in order to",
+    "options": {
+      "A": "\n\n            spur them to action\n",
+      "B": "\n\n            entertain them\n",
+      "C": "\n\n            display his ability to sing\n",
+      "D": "\n\n            teach them how to sing an anthem\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_31",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "31",
+    "question": "This question is based on George Orwell's Animal Farm. The execution of some of the animals on the orders of Napoleon is to",
+    "options": {
+      "A": "\n\n            prevent snowball from coming back to the farm\n",
+      "B": "\n\n            make the pigs constitute themselves into special classes\n",
+      "C": "\n\n            achieve the pigs socialite goal\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_32",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "32",
+    "question": "This question is based on George Orwell's Animal Farm. The message of the novel is that",
+    "options": {
+      "A": "\n\n            capitalism is as bad as communism\n",
+      "B": "\n\n            humanism is better than animalism\n",
+      "C": "\n\n            communism is better than capitalism\n",
+      "D": "\n\n            no society exists where everyone is equal\n"
+    },
+    "correct_answer": "D",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Political Ideologies"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_33",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "33",
+    "question": "This question is based on George Orwell's Animal Farm. After the expulsion of Snowball from the farm, the truim virate that ran the farm was composed of",
+    "options": {
+      "A": "\n\n            Minimus, Napoleon and Squealer \n",
+      "B": "\n\n            Jesse, Napoleon and Bluebell\n",
+      "C": "\n\n            Boxer, Old Major and Napoleon\n",
+      "D": "\n\n            Squealer, Boxer and Napoleon\n"
+    },
+    "correct_answer": "D",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_34",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "34",
+    "question": "This question is based on J.P Clark's The Wives Revolt. Characterization in the play is",
+    "options": {
+      "A": "\n\n            economical but effecive\n",
+      "B": "\n\n            economical and effective\n",
+      "C": "\n\n            elaborate but ineffective\n",
+      "D": "\n\n            elaborate and effective\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_35",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "35",
+    "question": "This question is based on J.P Clark's The Wives Revolt. The play is pre occupied with",
+    "options": {
+      "A": "\n\n            the fight by women to keep their goats\n",
+      "B": "\n\n            the evil that oil money breeds\n",
+      "C": "\n\n            women liberation from males domination\n",
+      "D": "\n\n            Women's protest against men's wickedness\n"
+    },
+    "correct_answer": "C",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature_2021_36",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "36",
+    "question": "This question is based on J.P Clark's The Wives Revolt. The highest measure women in the community can take to register their protest is",
+    "options": {
+      "A": "\n\n            take prostitution\n",
+      "B": "\n\n            carry out the nude act\n",
+      "C": "\n\n            abandon their husbands\n",
+      "D": "\n\n            abandon their children\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_37",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "37",
+    "question": "In Angira's Expelled, the poet persona laments the",
+    "options": {
+      "A": "\n\n            Loss of his property\n",
+      "B": "\n\n            Harrowing experiences from the stranger's visit\n",
+      "C": "\n\n            presence of the strangers\n",
+      "D": "\n\n            Problem of his family and their economic implications\n"
+    },
+    "correct_answer": "D",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_38",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "38",
+    "question": "Fletcher's Upon An Honest Man's Fortune achieves its lyrical effect through the use of",
+    "options": {
+      "A": "\n\n            Synecdoche\n",
+      "B": "\n\n            Antithesis\n",
+      "C": "\n\n            enjambment\n",
+      "D": "\n\n            Ballad\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2021_39",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2021,
+    "number": "39",
+    "question": "Rhythm is achieved in Raleigh's The Soul's Errand through the use of",
+    "options": {
+      "A": "\n\n            Metaphor\n",
+      "B": "\n\n            Alliteration\n",
+      "C": "\n\n            repetition\n",
+      "D": "\n\n            Antithesis\n"
+    },
+    "correct_answer": "A",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

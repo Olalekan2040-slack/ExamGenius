@@ -1,0 +1,936 @@
+[
+  {
+    "id": "JAMB_Accounting_2020_1",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "1",
+    "question": "Under which of the following conditions is a partnership dissolved?",
+    "options": {
+      "A": "\n\n            change of the partnership's head office\n",
+      "B": "\n\n            purchase of a large quantity of fixed assets\n",
+      "C": "\n\n            admission of a new partner\n",
+      "D": "\n\n            retirement of a manager who is not a partner\n"
+    },
+    "correct_answer": "C",
+    "topic": "Partnership Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Partnership Formation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_2",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "2",
+    "question": "Which of the following accounting records are source documents?",
+    "options": {
+      "A": "\n\n            journals and ledgers\n",
+      "B": "\n\n            sales invoice and debit note\n",
+      "C": "\n\n            sales invoice and cashbook\n",
+      "D": "\n\n            cashbook and debit note\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_3",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "3",
+    "question": "In preparing accounting records, the owners of a business and the business are treated as",
+    "options": {
+      "A": "\n\n            separate legal entities\n",
+      "B": "\n\n            partners\n",
+      "C": "\n\n            the same person\n",
+      "D": "\n\n            having business relationship\n"
+    },
+    "correct_answer": "A",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_4",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "4",
+    "question": "₦ Bank account                       59,410 Capital account                    50,000 Purchases account              20,000 Rent                                       2,500 Stationery                                   90 Typewriter                              6,500 Sales                                    38,500 In preparing a trial balance from the list of balances given above, what is the total in debit and credit columns?",
+    "options": {
+      "A": "\n\n            ₦I38,500\n",
+      "B": "\n\n            ₦147,910\n",
+      "C": "\n\n            ₦85,800\n",
+      "D": "\n\n            ₦88,500\n"
+    },
+    "correct_answer": "D",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_5",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "5",
+    "question": "Use this information below to answer this question ₦ Capital: Opening balance                     307,000 Closing balance                                    342,000 Net profit for the period                         121,600 Purchases                                             706,000 Carriage inwards                                     17,500 Cost of goods sold                                740,700 Total selling, general and administration expenses                        526,000 Discount received                                      9,650 Opening stock                                         98,800 Calculate the closing stock for the period.",
+    "options": {
+      "A": "\n\n            ₦69,300\n",
+      "B": "\n\n            ₦81,600\n",
+      "C": "\n\n            ₦81,300\n",
+      "D": "\n\n            ₦106,400\n"
+    },
+    "correct_answer": "B",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trading Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_6",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "6",
+    "question": "Use this information below to answer this question ₦ Capital: Opening balance                     307,000 Closing balance                                    342,000 Net profit for the period                         121,600 Purchases                                             706,000 Carriage inwards                                     17,500 Cost of goods sold                                740,700 Total selling, general and administration expenses                        526,000 Discount received                                      9,650 Opening stock                                         98,800 What is the gross profit for the period?",
+    "options": {
+      "A": "\n\n            ₦535,650\n",
+      "B": "\n\n            ₦628,300\n",
+      "C": "\n\n            ₦647,600\n",
+      "D": "\n\n            ₦106,400\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trading Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_7",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "7",
+    "question": "Which of the following errors will affect the trial balance total?",
+    "options": {
+      "A": "\n\n            omission of sales of ₦3000 and purchases of\r\n₦2000\n",
+      "B": "\n\n            Posting discount allowed to the debit side of discount allowed account\n",
+      "C": "\n\n            omission of one account from the list when extracting the ledgers\n",
+      "D": "\n\n            failure to post sales of ₦2000 and purchases of ₦2000\n"
+    },
+    "correct_answer": "A",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Error and Suspense Account",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_8",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "8",
+    "question": "Danjuma Ltd. bought 10 bags of rice for N500 each. The company was given 5% and 12% trade and cash discounts respectively. What will be recorded as discount received in the company's book?",
+    "options": {
+      "A": "\n\n            ₦250\n",
+      "B": "\n\n            ₦570\n",
+      "C": "\n\n            ₦850\n",
+      "D": "\n\n            ₦600\n"
+    },
+    "correct_answer": "D",
+    "topic": "Company Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Company Formation and Capital",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_9",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "9",
+    "question": "Given                                                 ₦ Stock (1/4/94)                                  800 Purchases of flour                         2,450 Sales                                             4,745 Wages of bakery staff                      675 Carriage outwards                             50 Salary of administrative staff            225 Stock (31/3/95)                                 940 Capital                                           1,540 Calculate the cost of goods sold.",
+    "options": {
+      "A": "\n\n            ₦3,925\n",
+      "B": "\n\n            ₦3,250\n",
+      "C": "\n\n            ₦2,985\n",
+      "D": "\n\n            ₦2,575\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trading Account",
+    "predicted_topics": [
+      "The Civil Service",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_10",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "10",
+    "question": "In a control account, provision for bad debts is found on the",
+    "options": {
+      "A": "\n\n            credit side of the sales ledger control account\n",
+      "B": "\n\n            debit side of the purchases ledger control açcount\n",
+      "C": "\n\n            debit side of the sales ledger control account\n",
+      "D": "\n\n            credit side of the purchases ledger control account\n"
+    },
+    "correct_answer": "A",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Provisions and Allowances",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_11",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "11",
+    "question": "The rule of accounting equation requires that account payable should be placed under",
+    "options": {
+      "A": "\n\n            equities\n",
+      "B": "\n\n            assets\n",
+      "C": "\n\n            capital\n",
+      "D": "\n\n            liabilities\n"
+    },
+    "correct_answer": "D",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_12",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "12",
+    "question": "Use the following information below to answer this question Five hundred naira monthly is allowed on an imprest system. The following transactions took place Period 1: ₦ Cash advanced to petty cashier               500 Petty cashier paid out: Stamp                  200 Newspaper          250 Period 2: Cash to petty cashier                               450 Cashier paid for writing materials             350 How much should the petty cashier receive after period 2?",
+    "options": {
+      "A": "\n\n            ₦150\n",
+      "B": "\n\n            ₦350\n",
+      "C": "\n\n            ₦250\n",
+      "D": "\n\n            ₦500\n"
+    },
+    "correct_answer": "B",
+    "topic": "Books of Original Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Cash Book and Banking",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_13",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "13",
+    "question": "Use the following information below to answer this question Five hundred naira monthly is allowed on an imprest system. The following transactions took place Period 1: ₦ Cash advanced to petty cashier               500 Petty cashier paid out: Stamp                  200 Newspaper          250 Period 2: Cash to petty cashier                               450 Cashier paid for writing materials             350 What was the balance of cash with the petty cashier at the end of period 1?",
+    "options": {
+      "A": "\n\n            ₦450\n",
+      "B": "\n\n            ₦300\n",
+      "C": "\n\n            ₦50\n",
+      "D": "\n\n            ₦200\n"
+    },
+    "correct_answer": "C",
+    "topic": "Books of Original Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Cash Book and Banking",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_14",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "14",
+    "question": "Accrual accounting differs from cash accounting because it recognizes",
+    "options": {
+      "A": "\n\n            prepayment and cash\n",
+      "B": "\n\n            cash and creditors\n",
+      "C": "\n\n            cash and debtors\n",
+      "D": "\n\n            debtors and creditors\n"
+    },
+    "correct_answer": "D",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_15",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "15",
+    "question": "The amount of subscriptions accrued is reported in the balance sheet under",
+    "options": {
+      "A": "\n\n            fixed cost\n",
+      "B": "\n\n            current asset\n",
+      "C": "\n\n            long term liability\n",
+      "D": "\n\n            current liability\n"
+    },
+    "correct_answer": "B",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Accruals and Prepayments",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_16",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "16",
+    "question": "One of the major features of book keeping is that it",
+    "options": {
+      "A": "\n\n            is futuristic in nature\n",
+      "B": "\n\n            accepts responsibility for all wrong postings\n",
+      "C": "\n\n            provides permanent records for all financial transactions\n",
+      "D": "\n\n            does not give room for double entry procedure\n"
+    },
+    "correct_answer": "C",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_17",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "17",
+    "question": "Use the information below to answer this question ₦ Total current assets        2000 Total fixed assets           4000 Current liabilities            1200 Drawings                         200 Long term loan              2000 Calculate the capital of the business.",
+    "options": {
+      "A": "\n\n            ₦3000\n",
+      "B": "\n\n            ₦9400\n",
+      "C": "\n\n            ₦3400\n",
+      "D": "\n\n            ₦6000\n"
+    },
+    "correct_answer": "A",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_18",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "18",
+    "question": "Use the information below to answer this question ₦ Total current assets        2000 Total fixed assets           4000 Current liabilities            1200 Drawings                         200 Long term loan              2000 What is the net working capital?",
+    "options": {
+      "A": "\n\n            ₦1800\n",
+      "B": "\n\n            ₦800\n",
+      "C": "\n\n            ₦2600\n",
+      "D": "\n\n            ₦600\n"
+    },
+    "correct_answer": "B",
+    "topic": "Balance Sheet",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Assets and Liabilities",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_19",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "19",
+    "question": "A major cause of discrepancy between the bank statement and the cashbook that overstates the bank statement balance is the",
+    "options": {
+      "A": "\n\n            commission paid\n",
+      "B": "\n\n            interest received\n",
+      "C": "\n\n            direct withdrawal\n",
+      "D": "\n\n            direct payment\n"
+    },
+    "correct_answer": "D",
+    "topic": "Ledger & Trial Balance",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Bank Reconciliation",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Accounting_2020_20",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "20",
+    "question": "The major feature of a journal is that it has",
+    "options": {
+      "A": "\n\n            five columns, date, particulars, folio, debit and credit\n",
+      "B": "\n\n            three columns, date, particulars, folio and amount\n",
+      "C": "\n\n            Six columns, date. particulars, folio, amount debit and credit\n",
+      "D": "\n\n            four columns, date, particulars, folio and amount\n"
+    },
+    "correct_answer": "A",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Journal and Journalizing",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_21",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "21",
+    "question": "In the head office ledger, the value of goods sent to the branch are",
+    "options": {
+      "A": "\n\n            debited to the branch current account\n",
+      "B": "\n\n            debited to the head office current account\n",
+      "C": "\n\n            credited to the head office current account\n",
+      "D": "\n\n            credited to the branch current account\n"
+    },
+    "correct_answer": "B",
+    "topic": "Departmental & Branch Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Branch Accounting",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_22",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "22",
+    "question": "Use the information below to answer this question A machine bought for ₦35,000 was estimated to have a life span of 5 years with a scrap value of ₦9000. The yearly depreciation using the straight-line method would be",
+    "options": {
+      "A": "\n\n            ₦5200\n",
+      "B": "\n\n            ₦800\n",
+      "C": "\n\n            ₦6500\n",
+      "D": "\n\n            ₦4400\n"
+    },
+    "correct_answer": "A",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Depreciation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_23",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "23",
+    "question": "Use the information below to answer this question A machine bought for ₦35,000 was estimated to have a life span of 5 years with a scrap value of ₦9000. If the scrap value is presently ₦15,000 what will be the yearly depreciation using straight-line method?",
+    "options": {
+      "A": "\n\n            ₦7,000\n",
+      "B": "\n\n            ₦11,000\n",
+      "C": "\n\n            ₦4,000\n",
+      "D": "\n\n            ₦24,000\n"
+    },
+    "correct_answer": "C",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Depreciation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_24",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "24",
+    "question": "Fiyinfoluwa Motors bought three Toyota Hilux vans on cash at the cost of ₦6,000,000 on debiting the vehicle account, the corresponding credit for the purchase will appear in the",
+    "options": {
+      "A": "\n\n            sales day book\n",
+      "B": "\n\n            cash book\n",
+      "C": "\n\n            sales subsidiary book\n",
+      "D": "\n\n            purchase day book\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_25",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "25",
+    "question": "The term \"accounting period\" is used to refer to the",
+    "options": {
+      "A": "\n\n            time span, usually one year covered by the financial statement\n",
+      "B": "\n\n            period within which debtors are expected to settle accounts\n",
+      "C": "\n\n            time, span during which taxes are paid to the inland revenue board\n",
+      "D": "\n\n            budget period, usually one year relied on by the accountant\n"
+    },
+    "correct_answer": "A",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Financial Accounting Concepts",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Accounting_2020_26",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "26",
+    "question": "Appropriation Account TAYO                TOPE ₦                         ₦ interest on capital             750                    550 Salaries                               800                     600 Share of profit                   3,300                  3,300 Determine the net profits of the partnership",
+    "options": {
+      "A": "\n\n            ₦6,600\n",
+      "B": "\n\n            ₦9,300\n",
+      "C": "\n\n            ₦4,450\n",
+      "D": "\n\n            ₦4,850\n"
+    },
+    "correct_answer": "B",
+    "topic": "Partnership Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Partnership Formation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_27",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "27",
+    "question": "The major distinguishing element between the final accounts of a partnership and a sole trader is the",
+    "options": {
+      "A": "\n\n            drawings account\n",
+      "B": "\n\n            appropriation account\n",
+      "C": "\n\n            capital account\n",
+      "D": "\n\n            creditors account\n"
+    },
+    "correct_answer": "D",
+    "topic": "Partnership Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Partnership Formation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_28",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "28",
+    "question": "Advertising expenses incurred on a product in a business organization should be charged to",
+    "options": {
+      "A": "\n\n            production department\n",
+      "B": "\n\n            purchases department\n",
+      "C": "\n\n            sales department\n",
+      "D": "\n\n            administrative department\n"
+    },
+    "correct_answer": "C",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "The Civil Service",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_29",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "29",
+    "question": "Four broad classifications of overheads are",
+    "options": {
+      "A": "\n\n            production, selling, distribution and administration\n",
+      "B": "\n\n            production, selling, distribution and material\n",
+      "C": "\n\n            selling, distribution and material\n",
+      "D": "\n\n            distribution, selling, administration and materials\n"
+    },
+    "correct_answer": "A",
+    "topic": "Trading/Profit & Loss Account",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Profit & Loss Account",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_30",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "30",
+    "question": "Which of the following are advantages of departmental accounts?",
+    "options": {
+      "A": "\n\n            the capital of the business can be calculated easily\n",
+      "B": "\n\n            easy knowledge of the sources of funding\n",
+      "C": "\n\n            encouragement of healthy rivalry among the various department\n",
+      "D": "\n\n            the department making the highest profit can be easily determined\n"
+    },
+    "correct_answer": "D",
+    "topic": "Departmental & Branch Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Departmental Accounting",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_31",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "31",
+    "question": "The debenture issued at par above the nominal value is Said to be issued at a",
+    "options": {
+      "A": "\n\n            margin\n",
+      "B": "\n\n            premium\n",
+      "C": "\n\n            cost price\n",
+      "D": "\n\n            mark-up\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_32",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "32",
+    "question": "The standing order is a payment instruction given by a",
+    "options": {
+      "A": "\n\n            customer to a fellow customer\n",
+      "B": "\n\n            bank to an employee\n",
+      "C": "\n\n            customer to the bank\n",
+      "D": "\n\n            bank to the customers\n"
+    },
+    "correct_answer": "C",
+    "topic": "Books of Original Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Cash Book and Banking",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_33",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "33",
+    "question": "The value of the sales ledger control account is derived from the summation of the",
+    "options": {
+      "A": "\n\n            total creditors control account\n",
+      "B": "\n\n            total debtors control account\n",
+      "C": "\n\n            all day books\n",
+      "D": "\n\n            both the debtors and creditors accounts\n"
+    },
+    "correct_answer": "B",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Control Accounts",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_34",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "34",
+    "question": "The addition of prime cost, indirect cost and opening work- in-progress less the closing work-in-progress will result in cost of",
+    "options": {
+      "A": "\n\n            goods manufactured\n",
+      "B": "\n\n            materials put into production\n",
+      "C": "\n\n            goods available for sale\n",
+      "D": "\n\n            goods sold\n"
+    },
+    "correct_answer": "A",
+    "topic": "Manufacturing Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Manufacturing Processes",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_35",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "35",
+    "question": "The power to appoint the Auditor General of the Federation is vested in the",
+    "options": {
+      "A": "\n\n            National Assembly\n",
+      "B": "\n\n            Civil Service Commission\n",
+      "C": "\n\n            Judicial Service Commission\n",
+      "D": "\n\n            President\n"
+    },
+    "correct_answer": "D",
+    "topic": "Public Sector Accounting",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Public Sector Principles",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Accounting_2020_36",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "36",
+    "question": "In trial balance, income and liabilities are",
+    "options": {
+      "A": "\n\n            credited\n",
+      "B": "\n\n            credited and debited respectively\n",
+      "C": "\n\n            debited and credited respectively\n",
+      "D": "\n\n            debited\n"
+    },
+    "correct_answer": "A",
+    "topic": "Ledger & Trial Balance",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trial Balance",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_37",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "37",
+    "question": "The rules which govern the internal management of a firm and its financial affairs in a partnership business is a",
+    "options": {
+      "A": "\n\n            memoransum\n",
+      "B": "\n\n            deed\n",
+      "C": "\n\n            financial regulation\n",
+      "D": "\n\n            bye-law\n"
+    },
+    "correct_answer": "B",
+    "topic": "Partnership Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Partnership Formation",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_38",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "38",
+    "question": "Kola and Sunday are in partnership sharing profits and losses equally. If Kemi is admitted as a new partner to take 1/5 as her share, what is the new profit or loss sharing ratio?",
+    "options": {
+      "A": "\n\n            Kola 1/3, Sunday 1/3 and Kemi 1/3\n",
+      "B": "\n\n            Kola 1/5, Sunday 1/5 and Kemi 3/5\n",
+      "C": "\n\n            Kola 2/5, Sunday 1/5 and Kemi 2/5\n",
+      "D": "\n\n            Kola 2/5, Sunday 2/5 and Kemi 1/5\n"
+    },
+    "correct_answer": "D",
+    "topic": "Partnership Accounts",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Partnership Formation",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Accounting_2020_39",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "39",
+    "question": "Which of the following accounting conventions suggests that accountants should use a method of valuation that understates rather than overstates results?",
+    "options": {
+      "A": "\n\n            monetary\n",
+      "B": "\n\n            cost\n",
+      "C": "\n\n            conservatism\n",
+      "D": "\n\n            historical\n"
+    },
+    "correct_answer": "C",
+    "topic": "Principles of Double Entry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Debit and Credit Rules",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Accounting_2020_40",
+    "exam": "JAMB",
+    "subject": "Accounting",
+    "year": 2020,
+    "number": "40",
+    "question": "A company has departments L, M and O. Department L Occupies a space twice that of M while O occupies half the space of M. If the company pays ₦70,000 on rent, what is the amount of rent that should be allocated to M?",
+    "options": {
+      "A": "\n\n            ₦40,000\n",
+      "B": "\n\n            ₦20,000\n",
+      "C": "\n\n            ₦30,000\n",
+      "D": "\n\n            ₦10,000\n"
+    },
+    "correct_answer": "B",
+    "topic": "Adjustments",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Accruals and Prepayments",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

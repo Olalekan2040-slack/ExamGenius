@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "JAMB_Hausa_2018_1",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "1",
+    "question": "Newspaper vendors Za a iya fassara wannan da masu",
+    "options": {
+      "A": "buga jarida",
+      "B": "rubuta jaridu",
+      "C": "sayar da jaridu",
+      "D": "neman labarai"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is sayar da jaridu because newspaper vendors are translated as masu sayar da jaridu in Hausa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_2",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "2",
+    "question": "A tsarin rubutun insha'i, \"Ginshiki\" ya kunshi",
+    "options": {
+      "A": "gundarin labari",
+      "B": "shimfidar bayani",
+      "C": "kalmomin jawo hankali",
+      "D": "kammala bayani"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A tsarin rubutun insha'i, \"Ginshiki\" ya kunshi ... (In the structure of an essay, the \"Ginshiki\" consists of ... ). Answer: shimfidar bayani (a clearand concise summary). The \"Ginshiki\" is the conclusion section of an essay, and it should provide a clear and concise summary of the mainpoints and reiterate the thesis statement",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_3",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "3",
+    "question": "\"Shehu ya harbi zomo fari\" Fito da sifa daga wannan jimlar.",
+    "options": {
+      "A": "Shehu",
+      "B": "Fari",
+      "C": "Harbi",
+      "D": "ya"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Fari.In the sentence \"Shehu ya harbi zomo fari\", \"Fari\" is an adjective (sifa) describing the noun \"zomo\" (horse). It means \"white\" and givesmore information about the horse's color. Therefore, the correct answer is Fari, as it is the adjective in the sentence.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_4",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "4",
+    "question": "\"Audu ya hau keke sabo jiya.\" Kalmomin suna nawa ne a cikin wannan jimla?",
+    "options": {
+      "A": "Biyar",
+      "B": "Uku",
+      "C": "Hudu",
+      "D": "Biyu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Biyu. The question is asking how many nouns are in the sentence. The sentence \"Audu ya hau keke sabo jiya\"contains two nouns: \"Audu\" (a person's name) and \"keke\" (a bicycle). Therefore, the correct answer is Biyu (two). Note that \"sabo\" is anadjective modifying the noun \"keke\", and \"jiya\" is an adverb indicating the time of the action, so they are not counted as nouns.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_5",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "5",
+    "question": "FASSARA First aid box",
+    "options": {
+      "A": "Agajin akwatin farko",
+      "B": "Akwatin farkon agaji.",
+      "C": "Akwatin taimako",
+      "D": "Akwatin agajin gaggawa."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Akwatin taimako because a first aid box is translated as Akwatin taimako in Hausa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_6",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "6",
+    "question": "Insha'in da ake neman ka bayyana ra'ayinka shi ne.",
+    "options": {
+      "A": "jawabi",
+      "B": "bayani",
+      "C": "muhawara",
+      "D": "labari"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Insha'in da ake neman ka bayyana ra'ayinka shi ne ... (The type of writing that requires you to express your opinion is ... ). Answer: muhawara(an argumentative or persuasive essay). In an argumentative or persuasive essay, the writer is expected to express their opinion and supporit with evidence and reasoning",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_7",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "7",
+    "question": "Jimla mai goyo daidai take da",
+    "options": {
+      "A": "nufatau",
+      "B": "korau",
+      "C": "sassauka",
+      "D": "hard'ad'd'iya"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is sassauka.The question is asking which of the options is related to a sentence with a balanced structure. \"Sassauka\" refers to a balanced orsymmetrical sentence, where the two parts of the sentence have a similar structure and balance each other out. This is often achievedthrough the use of parallelism, where similar grammatical structures are used in both parts of the sentence. Therefore, the correct answeis sassauka.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_8",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "8",
+    "question": "Ruwa ya yi awon gaba da wad'annan in ban da",
+    "options": {
+      "A": "Asabari",
+      "B": "Randuna",
+      "C": "Akwatuna",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ruwa ya yi awon gaba da wad'annan in bana ... (The flood affected all of these except ... ). Answer: Randuna (the flood did not affect Randuna,earthen pot). The passage states that the flood affected many things, including akwatuna (pots), asabari, gadaje (beds), and katifu (cushon o1mattress), but not Randuna .",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_9",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "9",
+    "question": "Wane ne jama'a ke yi wa jaje saboda kirkinsa?",
+    "options": {
+      "A": "'Dan'umma",
+      "B": "Tanko",
+      "C": "Dantata",
+      "D": "Bala"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wane ne jama'a ke yi wa jaje saboda kirkinsa? (Who is the one that people visit to show appreciation for his kindness?). Answer: Tanko(Tanko is the one that people visit to show appreciation for his kindness)The passage states that people visit Tanko's house in groups toshow appreciation for his kindness and help to the community",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_10",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "10",
+    "question": "Duk wad'annan misalam kalmomi umurtau ne in ban da",
+    "options": {
+      "A": "tashi",
+      "B": "d'azu",
+      "C": "kwanta",
+      "D": "tafi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is d'azu. The question is asking which of the options is not an imperative (umurtau) verb. D'azu is a verb in theprohibitive form, meaning \"don't go\" or \"don't do\", whereas the other options - kwanta (lie down), tafi (go), tashi (stand up), and zauna (sidown) - are all imperative verbs, used to give commands or instructions. Therefore, the correct answer is d'azu, as it is the onlyprohibitive verb among the options.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_11",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "11",
+    "question": "Sifa' a nahawu na nufin kalmar da ke karin bayani a kan",
+    "options": {
+      "A": "adadi",
+      "B": "bayanau",
+      "C": "aikatau",
+      "D": "suna."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is suna.In Hausa grammar, \"sifa\" refers to an adjective, which is a word that gives more information about a noun (suna). Adjectives describe ormodify nouns, indicating their qualities, properties, or characteristics. For example, \"karamin\" (small) is an adjective that describes thenoun \"yaro\" (boy), giving more information about the boy's size. Therefore, the correct answer is suna, as sifa (adjective) gives moreinformation about a noun (suna).",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_12",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "12",
+    "question": "School billboard. Allon",
+    "options": {
+      "A": "rubutun yaran makaranta.",
+      "B": "sanarwar makaranta",
+      "C": "rubutun makaranta.",
+      "D": "nuna makaranta"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is nuna makaranta because a school billboard is translated as allon nuna makaranta in Hausa.He bought a new book.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_13",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "13",
+    "question": "Duk wad'annan dabbobin sun iya ruwa in banda",
+    "options": {
+      "A": "jakuna",
+      "B": "shanu",
+      "C": "agwagi",
+      "D": "dawaki"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Duk wad'annan dabbobin sun iya ruwa in bana ... (All of these animals can swim except ... ). Answer: jakuna (jakuna, meaning horses, cannotswim). The passage mentions that Tanko saved his animals that can swim, such as dawaki (donkeys), shanu (sheep), tumaki (ducks), andagwagi (goats), but not his horses (jakuna) because they cannot swim",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_14",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "14",
+    "question": "\"Wata akuya baka ta haifi tagwaye\". Kalmar aikatau a wannan jimla ita ce",
+    "options": {
+      "A": "baka",
+      "B": "tagwaye",
+      "C": "haifi",
+      "D": "akuya"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is haifi.The question is asking which word is the verb (aikatau) in the sentence. In the sentence \"Wata akuya baka ta haifi tagwaye\", \"haifi\" is theverb meaning \"gave birth\" or \"had\", while the other options - akuya (goat), baka (your), tagwaye (twins), and wata (a/she) - are all nounsor pronouns. Therefore, the correct answer is haifi, as it is the verb describing the action in the sentence.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_15",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "15",
+    "question": "PASSAGE 2: Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau, Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su b; gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jamaʼa kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jamaʼa. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala d 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. Burgami da gafaka da zabira sun tsira daga ambaliya saboda.",
+    "options": {
+      "A": "suna rataye a sama.",
+      "B": "Kafi mai kyau",
+      "C": "iya ruwansu",
+      "D": "nauyinsu"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "PASSAGE 2: Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban daburgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hanaruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su.Har ila yau, Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin yayi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su b;gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jamaʼa kungiya-kungiya suna tururuwa zuwa gidan Tanko don yimasa jaje, saboda kirkinsa da taimakon da yake yi wa jamaʼa. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala d'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa.Burgami da gafaka da zabira sun tsira daga ambaliya saboda.",
+    "explanation": "Burgami da gafaka da zabira sun tsira daga ambaliya saboda ... (Burgami, gafaka, and zabira were saved from the flood because ... ). Answer:suna rataye a sama (they were hanging above)The passage states that burgami, gafaka, and zabira were saved from the flood because they were hanging above, out of reach of the water",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_16",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "16",
+    "question": "PASSAGE 2: Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau, Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su b; gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jamaʼa. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala d 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. Wane ne marar kirki?",
+    "options": {
+      "A": "Jikan Dara",
+      "B": "Bala",
+      "C": "Dantata",
+      "D": "'Dan'umma"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "PASSAGE 2: Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban daburgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hanaruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su.Har ila yau, Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin yayi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su b;gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yimasa jaje, saboda kirkinsa da taimakon da yake yi wa jamaʼa. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala d'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. Wane ne marar kirki?",
+    "explanation": "Wane ne marar kirki? (Who is the one without kindness?)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_17",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "17",
+    "question": "NAHAWU 'Wani yaro baki ya fadi a rigingine. Bayanau a wannan jimla shi ne",
+    "options": {
+      "A": "a rigingine",
+      "B": "wani",
+      "C": "baki",
+      "D": "ya fad'i"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Bayanau a wannan jimla shi ne ... (The object of the sentence is ... ). Answer: baki (the boy). The sentence \"Wani yaro baki ya fadi a riginginemeans \"A certain boy fell off a bicycle\", so the object of the sentence is \"baki\" (the boy)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_18",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "18",
+    "question": "Kalmar da aka ja wa layi ......... ce",
+    "options": {
+      "A": "aikatau",
+      "B": "bayanau",
+      "C": "suna",
+      "D": "sifa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is aikatau.The question is asking which word is used to indicate possession. In Hausa, the word \"aikatau\" is used to indicate possession, similar tothe word \"of\" or \"belonging to\" in English. For example, \"aikatau Audu\" means \"belonging to Audu\" or \"Audu's\". Therefore, the correctanswer is aikatau.\"Ni da kai da su duk dogaye ne.'",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_19",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "19",
+    "question": "Wace jimla ce ba ta d'auke da aikatau?",
+    "options": {
+      "A": "Malam ya tafi",
+      "B": "Akuya ta mutu",
+      "C": "Binta ta haihu",
+      "D": "Kande doguwa ce"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Kande doguwa ce.The question is asking which sentence does not have a verb (aikatau). Option \"Kande doguwa ce\", is a sentence that describes a state ofbeing, but it does not contain a verb. \"Kande\" is a noun (a type of food), \"doguwa\" is an adjective (sweet), and \"ce\" is a copula (is), butthere is no verb in this sentence. The other options all contain verbs: \"mutu\" (die), \"haihu\" (give birth), \"tafi\" (go), and \"karanta\" (read).Therefore, the correct answer is Kande doguwa ce.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_20",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "20",
+    "question": "\"Tashi ka tafi\". Wannan jimla ....... ce.",
+    "options": {
+      "A": "Korau",
+      "B": "umurtau",
+      "C": "bayanau",
+      "D": "Rarfafau"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wannan jimla ... (This sentence is ... ). Answer: umurtau (a command). The sentence \"Tashi ka tafi\" is a command, meaning \"Get up and go",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_21",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "21",
+    "question": "Jam'in Hula-huluna Aska -",
+    "options": {
+      "A": "asake",
+      "B": "askoki",
+      "C": "aska",
+      "D": "asaku"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is asake. The question is asking for the correct plural form of the noun \"Hula-huluna Aska\". In Hausa, the plural formof a noun is typically formed by adding the suffix \"-e\" or \"-i\" to the singular form. In this case, the correct plural form of \"Aska\" is \"asake\",The other options - asaku, aska, askoki, and askuna - are not the correct plural forms. Therefore, the correct answer is asake.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_22",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "22",
+    "question": "Human Rights Watch Fassarar wannan ita ce Kungiyar kula da 'Dan' Adam.",
+    "options": {
+      "A": "tarbiyyar",
+      "B": "hakkin",
+      "C": "lokacin",
+      "D": "tanhin"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is hakkin because Human Rights Watch is translated as Kungiyar kula da hakkin 'Dan' Adam in Hausa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_23",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "23",
+    "question": "\"Tafi ka d'auko ruwa a rijiya\" Wannan misali ne na jimla",
+    "options": {
+      "A": "korau",
+      "B": "Karfafau",
+      "C": "bayanau",
+      "D": "umurtau"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is umurtau.The sentence \"Tafi ka d'auko ruwa a rijiya\" is a command or instruction, which is a characteristic of \"umurtau\" (imperative) sentences.Imperative sentences are used to give orders, instructions, or commands, and they typically start with a verb in the imperative form, as ilthis sentence. Therefore, the correct answer is umurtau.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_24",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "24",
+    "question": "INSHA'I A Gabatarwar rubutu ana bukatar",
+    "options": {
+      "A": "adireshi",
+      "B": "shimfida.",
+      "C": "bayani dalla-dalla",
+      "D": "dunkulallen bayani"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A Gabatarwar rubutu ana bukatar ... (In the introduction of a writing, what is needed is ... ). Answer: shimfida (a clear and concise statement).good introduction should start with a clear and concise statement that grabs the reader's attention",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_25",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "25",
+    "question": "Fito da wakilin suna na biyu, namiji, tilo",
+    "options": {
+      "A": "Ita",
+      "B": "Shi",
+      "C": "Kai",
+      "D": "Ke"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Shi.The question is asking for the second-person singular masculine pronoun, which is \"Shi\" in Hausa. The second-person singular masculinepronoun is used to refer to a male person being addressed, similar to \"you\" in English. The other options - Ita (her), Kai (you, plural), Ke(you, feminine), Ni (I) - do not fit this description,",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_26",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "26",
+    "question": "Wannan jimlar",
+    "options": {
+      "A": "Karfafau",
+      "B": "tambayau",
+      "C": "Korewa",
+      "D": "bayani"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wannan jimlar ... (This sentence is ... ). Answer: tambayau (a question). The sentence is a question, but it is not a complete question, so thecorrect answer is \"tambayau\" (an incomplete question).",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_27",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "27",
+    "question": "Ana amfani da d'afin-uka wajen jam'in",
+    "options": {
+      "A": "gona",
+      "B": "kujera",
+      "C": "rafi",
+      "D": "makaranta"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ana amfani da d'afin-uka wajen jam'in ... (The plural form is used for ... ). Answer: gona (farm). The plural form \"gona\" is used to refer to farms.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_28",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "28",
+    "question": "Za a iya fassara wannan da: Ya ........ sabon littafi",
+    "options": {
+      "A": "sayo",
+      "B": "bayar da",
+      "C": "kyautar da",
+      "D": "aro"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is sayo because \"he bought a new book\" is translated as Ya sayo sabon littafi in Hausa.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_29",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "29",
+    "question": "Duk wadannan kalmomin bayanau ne in ban da",
+    "options": {
+      "A": "gobe",
+      "B": "dama",
+      "C": "gefe",
+      "D": "gida."
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is gida.The question is asking which of the options is not an adverb (bayanau). Gida is a noun meaning \"house\" or \"home\", while the other option- dama (right), gefe (side), gobe (tomorrow), and sama (up/above) - are all adverbs in Hausa. Therefore, the correct answer is gida, as it isthe only noun among the options",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_30",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "30",
+    "question": "Wakilin suna na d'aya kuma jam'i shi ne",
+    "options": {
+      "A": "mu",
+      "B": "ni",
+      "C": "kai",
+      "D": "ku"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wakilin suna na d'aya kuma jam'i shi ne ... (The singular form of the pronoun is ... ). Answer: mu (we). The singular form of the pronoun \"mu\"used to refer to the speaker and one or more other people",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_31",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "31",
+    "question": "\"Damfara ajalin mai ita\" Wane irin insha'i ake bukata a nan?",
+    "options": {
+      "A": "Musu",
+      "B": "Labari",
+      "C": "Siffantawa",
+      "D": "Muhaivara"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "\"Damfara ajalin mai ita\" (What type of writing is required here?). Answer: Siffantawa (a eulogy or tribute). The phrase \"Damfara ajalin maiita\" suggests a tribute or eulogy to someone who has passed away",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_32",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "32",
+    "question": "Ware bare daga wadannan",
+    "options": {
+      "A": "Ayari-ayari",
+      "B": "Launi-launi",
+      "C": "Garke-garke",
+      "D": "Kungiya-Rungiya"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Garke-garke.The question is asking which of the options is not a duplicative word. Duplicative words are words that repeat a syllable or a sequence ofsyllables, often to emphasize or intensify the meaning. Options are all examples of reduplicative words in Hausa, while option \"Garke-garke\", is not a valid word in Hausa. Therefore, the correct answer is Garke-garke.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_33",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "33",
+    "question": "'Fati ta dafa abinci'. Kalmar 'dafa' a wannan jimla ......... ce.",
+    "options": {
+      "A": "suna",
+      "B": "sifa",
+      "C": "aikatau",
+      "D": "bayanau"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is aikatau. The word \"dafa\" in the sentence is a verb (aikatau), specifically a cooking verb meaning \"to cook\" or \"toprepare\". In the sentence, \"dafa\" is describing the action of cooking, which is a verb. The other options - bayanau (adverb), sifa (adjective)suna (noun), and wakilin suna (pronoun) - do not fit the context of the word \"dafa\" in the sentence. Therefore, the correct answer is",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_34",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "34",
+    "question": "Wanne ne ya kebanta ga rubutun wasika?",
+    "options": {
+      "A": "Adireshi",
+      "B": "Amfani da wakafi.",
+      "C": "Amfani da alamar tsayawa",
+      "D": "Jera tunani"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wanne ne ya kebanta ga rubutun wasika? (What is essential in writing a letter?). Answer: Adireshi (the address). The address is a crucialelement in writing a letter, as it ensures that the letter reaches the intended recipient",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_35",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "35",
+    "question": "COMPREHENSION AUNA FAHIMTA Instruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su. Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na da sassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu. Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebba da Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana ko ayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa da man gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su; karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Layin jirgi ya ratsa wad'annan garuruwa in ban da",
+    "options": {
+      "A": "Jebba",
+      "B": "Ilorin",
+      "C": "Mokwa",
+      "D": "Paiko"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "COMPREHENSIONAUNA FAHIMTAInstruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su.Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na dasassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu.Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebbada Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana koayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa daman gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su;karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsuLayin jirgi ya ratsa wad'annan garuruwa in ban da",
+    "explanation": "Layin jirgi ya ratsa wad'annan garuruwa in ban da ... (The railway passes through which towns except ... ) Answer: Paiko. According to thepassage, the railway passes through towns like Ilorin, Wushishi, Jebba, Mokwa, and Minna, but not Paiko.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_36",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "36",
+    "question": "COMPREHENSION AUNA FAHIMTA Instruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su. Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na da sassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu. Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebba da Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana ko ayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa da man gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su; karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Kasuwar Gwari ta yi makwabtaka da .......... a bangaren kudu.",
+    "options": {
+      "A": "garin Paiko",
+      "B": "garin Bosso",
+      "C": "kamfanin Janhol",
+      "D": "garin Kuta"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "COMPREHENSIONAUNA FAHIMTAInstruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su.Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na dasassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu.Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebbada Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana koayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa daman gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su;karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Kasuwar Gwari ta yi makwabtaka da .......... abangaren kudu.",
+    "explanation": "Kasuwar Gwari ta yi makwabtaka da ... (Kasuwar Gwari borders with ... ) Answer: kamfanin Janhol. The passage states that Kasuwar Gwariborders with Janhol company in the south.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_37",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "37",
+    "question": "COMPREHENSION AUNA FAHIMTA Instruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su. Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na da sassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu. Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebba da Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana ko ayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa da man gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su; karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Duk wad'annan kayan gwari ne in ban da",
+    "options": {
+      "A": "Lemu",
+      "B": "kankana",
+      "C": "ayaba",
+      "D": "Karfasa"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "COMPREHENSIONAUNA FAHIMTAInstruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su.Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na dasassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu.Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebbada Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana koayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa daman gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su;karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Duk wad'annan kayan gwari ne in ban da",
+    "explanation": "Duk wad'annan kayan gwari ne in ban da ... (All of these are types of goods except ... ). Answer: KarfasaThe passage mentions that Kasuwar Gwari has various sections, including the section for goods like lemu, kankana, ayaba, tuffa, andgwanda, but Karfasa is not among them. Instead, Karfasa is mentioned as a type of fish in the section for fish (sashen 'yan kifi).",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_38",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "38",
+    "question": "COMPREHENSION AUNA FAHIMTA Instruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su. Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na da sassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu. Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebba da Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana ko ayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa da man gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su; karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu A sashen 'yan tireda ake samun",
+    "options": {
+      "A": "jagira",
+      "B": "lemu",
+      "C": "gwanda",
+      "D": "Karaya"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "COMPREHENSIONAUNA FAHIMTAInstruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su.Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na dasassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu.Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebbada Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana koayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa daman gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su;karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu A sashen 'yan tireda ake samun",
+    "explanation": "A sashen 'yan tireda ake samun ... (In the section for tireda, you can find ... ). Answer: jagira. According to the passage, in the section fortireda (sashen 'yan tireda), you can find goods like man shafawa, man gasbi, gazal, jagira, hoda, and turare.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_39",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "39",
+    "question": "COMPREHENSION AUNA FAHIMTA Instruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su. Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na da sassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu. Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebba da Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana ko ayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa da man gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su; karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Ana samun Rawara a sashen",
+    "options": {
+      "A": "'yan gwangwan",
+      "B": "kayan gwari",
+      "C": "kayan abinci",
+      "D": "'yan kifi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "COMPREHENSIONAUNA FAHIMTAInstruction: Karanta wadannan labaral, sannan ka amaa tambayoyin da ke biye da su.Kasuwar Gwari babbar kasuwa ce, da ke a garin Minna wacce take makwabtaka da Bosso da Paiko da Kuta da kuma Bida. Kasuwar na dasassa daban-dabam da suka had'a da; sashen 'yan tireda da na kayan abinci da kayan gwari da 'yan kifi da 'yan gwangwan da sauransu.Kasuwar ta yi daura da layin dogo daga bangaren arewa, wanda ya taso daga garin Legas ya ratsa garuruwan Ilorin da Wushishi da Jebbada Mokwa har zuwa Minna. Amma a Bangaren kudu ta yi makwabtaka da kamfanin Janhol. Idan mutum na bukatar lemu ko kankana koayaba ko tuffa ko gwanda sai ka tafi sashen kayan gwari. A sashen 'yan tireda kuwa, nan ake samun kayan kwalliya irin su;man shafawa daman gasbi da gazal da jagira da hoda da turare da sauransu. Amma a sashen 'yan kifi nan ake samun ire-iren kifaye daban-dabam irin su;karaya da tarwada da giwa da karfasa da kawara da sauransu, d'anyu da busassu da bandarsu Ana samun Rawara a sashen",
+    "explanation": "Ana samun Rawara a sashen ... (You can find Rawara in the section for ... ). Answer: 'yan kifi. The passage mentions that various types of fishincluding karaya, tarwada, giwa, karfasa, kawara, and rawara, can be found in the section for fish (sashen 'yan kifi).",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2018_40",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2018,
+    "number": "40",
+    "question": "Fito da suna gagara-kirga",
+    "options": {
+      "A": "Ayari",
+      "B": "Yashi",
+      "C": "Wando",
+      "D": "Garke"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Yashi.The question is asking which of the options is a common name (suna gagara-kirga) in Hausa culture. Yashi is a common Hausa name, whilethe other options - Ayari, Garke, Wando, and Zaiki - are not typically used as names in Hausa culture. Therefore, the correct answer is Yashi.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

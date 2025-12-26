@@ -1,0 +1,965 @@
+[
+  {
+    "id": "JAMB_Igbo_2020_1",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "1",
+    "question": "Zaa ajụjụ a Kedụ ụgbọ Tunde ji eme njem ya?",
+    "options": {
+      "A": "Ụgbọelu",
+      "B": "Ụgbọala",
+      "C": "Anyịnyịagwẹ",
+      "D": "Ụgbọmmiri"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_2",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "2",
+    "question": "Zaa ajụjụ a Kedu ụgbọ Aminu ji eme njem ya?",
+    "options": {
+      "A": "Ụgbọamara",
+      "B": "Ụgbọelu",
+      "C": "Ụgbọọlọkọ",
+      "D": "Ụgbọala"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_3",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "3",
+    "question": "Zaa ajụjụ a Ego ọle ka Tunde kwụrụ?",
+    "options": {
+      "A": "Narị naira abụọ",
+      "B": "Narị naira anọ",
+      "C": "Narị naira atọ",
+      "D": "Ọtụ narị naira"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_4",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "4",
+    "question": "Zaa ajụjụ a Ego ọle ka Aminu kwụrụ. Narị naira",
+    "options": {
+      "A": "ise",
+      "B": "abụọ",
+      "C": "atọ",
+      "D": "anọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_5",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "5",
+    "question": "Zaa ajụjụ a Họpụta ọbọdọ a kpọghị aha na mkparịtaụka a",
+    "options": {
+      "A": "Minna",
+      "B": "Kaduna",
+      "C": "Lagos",
+      "D": "Enugu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_6",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "6",
+    "question": "Zaa ajụjụ ndị a Họpụta ọbọdọ a kpọrọ aha na mkparịtaụka a",
+    "options": {
+      "A": "Abuja",
+      "B": "Kafanchan",
+      "C": "Lagos",
+      "D": "Ibadan"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_7",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "7",
+    "question": "Zaa ajụjụ a Ọlee ụbọchị Aminu ga-alọghachị?",
+    "options": {
+      "A": "Afọkwa",
+      "B": "Eke",
+      "C": "Nkwọ",
+      "D": "Afọ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_8",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "8",
+    "question": "Zaa ajụjụ a Họpụta ụbọchị Tunde ga-alọghachị. Ụbọchị ahịa",
+    "options": {
+      "A": "ekeorie",
+      "B": "afọ",
+      "C": "eke",
+      "D": "nkwọ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_9",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "9",
+    "question": "Kedụ ihe Aminu na-aga ịme?",
+    "options": {
+      "A": "Ịlegharị anya",
+      "B": "Ịhụ ọgbụnịgwẹ",
+      "C": "Ịzụ ahịa",
+      "D": "Ịlụ ọgụ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_10",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "10",
+    "question": "One of these is not part of Igboland?",
+    "options": {
+      "A": "Abakaliki",
+      "B": "Benin",
+      "C": "Asaba",
+      "D": "Ọwẹrẹ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_11",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "11",
+    "question": "Which of these is not a state in Igboland?",
+    "options": {
+      "A": "Abia State",
+      "B": "Ebonyi State",
+      "C": "Enugu State",
+      "D": "Edo State"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Igbo_2020_12",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "12",
+    "question": "Which one is the Igbo staple food?",
+    "options": {
+      "A": "Rice (osikapa})",
+      "B": "Garri (gba)",
+      "C": "Cassava (akpụ)",
+      "D": "Beans (agwa)"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_13",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "13",
+    "question": "Họpụta nke bụ narị abụọ na iri abụọ",
+    "options": {
+      "A": "22",
+      "B": "220",
+      "C": "2002",
+      "D": "202"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_14",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "14",
+    "question": "Họpụta nke bụ narị abụọ na iri abụọ.",
+    "options": {
+      "A": "ijeri",
+      "B": "nde",
+      "C": "narị",
+      "D": "puku"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_15",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "15",
+    "question": "Họpụta nke bụ 55 n'Igbo. Iri ise",
+    "options": {
+      "A": "ise",
+      "B": "ise na ise",
+      "C": "ọtụ",
+      "D": "na ise"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_16",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "16",
+    "question": "Dịpụta ọnuọgụgụ a bụ 60 n'Igbo. Iri",
+    "options": {
+      "A": "isii na ọtụ",
+      "B": "isii na efu",
+      "C": "na isii",
+      "D": "isii"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_17",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "17",
+    "question": "Write 70 in Igbo. Iri",
+    "options": {
+      "A": "asaa abụọ",
+      "B": "asaa na iri",
+      "C": "asaa",
+      "D": "asaa na asaa"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_18",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "18",
+    "question": "Write 260 in Igbo. Narị abụọ na",
+    "options": {
+      "A": "Isii isii",
+      "B": "Iri isii",
+      "C": "Isii",
+      "D": "Itoọlụ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_19",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "19",
+    "question": "Họpụta nke bụ 23 n'Igbo. Iri abụọ na",
+    "options": {
+      "A": "ise",
+      "B": "atọ",
+      "C": "anọ",
+      "D": "abụọ"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_20",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "20",
+    "question": "Họpụta nke bụ 115 n'Igbo. Ọtụ narị na",
+    "options": {
+      "A": "iri ise na ise",
+      "B": "ire ise ise",
+      "C": "iri ise",
+      "D": "iri na ise"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_21",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "21",
+    "question": "Ụdaụme Igbo ọ dị ọle?",
+    "options": {
+      "A": "Abụọ",
+      "B": "Iri abụọ na asatọ",
+      "C": "Itoọlụ",
+      "D": "Asatọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_22",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "22",
+    "question": "Mgbọchiume mkpị ọle ka e nwere n'Igbo?",
+    "options": {
+      "A": "Iri na itoọlụ",
+      "B": "Asatọ",
+      "C": "Itoọlụ",
+      "D": "Iri"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_23",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "23",
+    "question": "Ọlee akara e ji egosi mgbe ihe mberedede mere?",
+    "options": {
+      "A": "-",
+      "B": "?",
+      "C": "!",
+      "D": ":"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_24",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "24",
+    "question": "Họpụta nke abụghị okwụ ajụjụ na ndị a",
+    "options": {
+      "A": "Ụlọ",
+      "B": "Ebee",
+      "C": "Gịnị",
+      "D": "Kedụ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_25",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "25",
+    "question": "Which among these is not a vowel in Igbo?",
+    "options": {
+      "A": "N",
+      "B": "A",
+      "C": "Ọ",
+      "D": "E"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_26",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "26",
+    "question": "What is mkpuruokwu called in English?",
+    "options": {
+      "A": "Word",
+      "B": "Formation",
+      "C": "Alphabet",
+      "D": "Letters"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_27",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "27",
+    "question": "Write 20 in Igbo.",
+    "options": {
+      "A": "abụọ",
+      "B": "iri abụọ",
+      "C": "iri",
+      "D": "iri abụọ na efu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_28",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "28",
+    "question": "Gịnị ka 3/4 pụtara n'Igbo?",
+    "options": {
+      "A": "Atọ agbakwụnyere anọ",
+      "B": "Anọ n'ime atọ",
+      "C": "Atọ e tinyere anọ",
+      "D": "Atọ n'ime anọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_29",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "29",
+    "question": "Gịnị ka '80' pụtara n'Igbo?",
+    "options": {
+      "A": "Iri asatọ",
+      "B": "Asatọ na efu",
+      "C": "Asatọ",
+      "D": "Iri na asatọ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_30",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "30",
+    "question": "Ha na-esi nri. \"Ha\" n'ahiriokwu a bụ",
+    "options": {
+      "A": "aha",
+      "B": "mbuuzo",
+      "C": "nnochiahịa",
+      "D": "njụajụjụ"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_31",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "31",
+    "question": "Ụzọ adireesi ọle ka leta anamachọọrọ nwere?",
+    "options": {
+      "A": "Abụọ",
+      "B": "Atọ",
+      "C": "Anọ",
+      "D": "Ọtụ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_32",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "32",
+    "question": "Ọlee ihe one hundred and fifty pụtara n'Igbo? Ọtụ narị na",
+    "options": {
+      "A": "Iri ise",
+      "B": "Iri na ise",
+      "C": "Ise",
+      "D": "Iri ise na ise"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_33",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "33",
+    "question": "Ọtụ puku, narị abụọ na anọ pụtara",
+    "options": {
+      "A": "1,204",
+      "B": "1,402",
+      "C": "1,002",
+      "D": "1,040"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_34",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "34",
+    "question": "Ọlee the \"one million\" pụtara n'asụsụ Igbo?",
+    "options": {
+      "A": "Ọtụ ijeri",
+      "B": "Ọtụ puku",
+      "C": "Ọtụ nde",
+      "D": "Ọtụ narị"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_35",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "35",
+    "question": "Gịnị ka 2/4 pụtara n'Igbo?",
+    "options": {
+      "A": "Ọtụ n'ime anọ",
+      "B": "Anọ n'ime abụọ",
+      "C": "Abụọ n'elu anọ",
+      "D": "Abụọ n'ime anọ"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_36",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "36",
+    "question": "Ọtụ n'ime anọ pụtara",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "3/4",
+      "D": ""
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_37",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "37",
+    "question": "Gịnị ka a na-akpọ ship n'Igbo?",
+    "options": {
+      "A": "Ụgbọ ala",
+      "B": "Ụgbọelu",
+      "C": "Ụgbọọlọkọ",
+      "D": "Ụgbọ mmiri"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_38",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "38",
+    "question": "Kedụ ihe nzụ pụtara n'asụsụ bekee?",
+    "options": {
+      "A": "Chalkboard",
+      "B": "Duster",
+      "C": "Chalk",
+      "D": "Pencil"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_39",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "39",
+    "question": "Ọlee nke bụ nnochiahịa ebe a? Ha zụtara ewụ ọcha ụnyaahụ. Ọjị",
+    "options": {
+      "A": "Ewụ",
+      "B": "ụnyaahụ",
+      "C": "ọcha",
+      "D": "Ha"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Igbo_2020_40",
+    "exam": "JAMB",
+    "subject": "Igbo",
+    "year": 2020,
+    "number": "40",
+    "question": "Kedụ nke bụ 888? Narị",
+    "options": {
+      "A": "asatọ iri asatọ na asatọ",
+      "B": "iri asatọ na asatọ",
+      "C": "asatọ asatọ asatọ",
+      "D": "asatọ na asatọ na asatọ"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

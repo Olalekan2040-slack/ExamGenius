@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "JAMB_Chemistry_2011_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "1",
+    "question": "What is the concentration of a solution containing 2g of NaOH in 100cm³ of solution? [Na = 23, O = 16, H = 1]",
+    "options": {
+      "A": "0.40 mol dm⁻³",
+      "B": "0.50 mol dm⁻³",
+      "C": "0.05 mol dm⁻³",
+      "D": "0.30 mol dm⁻³"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "2",
+    "question": "Which of the following properties is NOT peculiar to matter?",
+    "options": {
+      "A": "kinetic energy of particles increase from solid to gas",
+      "B": "Random motion of particles increases from liquid to gas",
+      "C": "Orderliness of particles increases from gas to liquid",
+      "D": "Random motion of particles increases from gas to solid"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "3",
+    "question": "From the diagram above, an ideal can be represented by",
+    "options": {
+      "A": "M",
+      "B": "N",
+      "C": "K",
+      "D": "L"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2011_q3_37131239.gif",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/22998168803_chem20105.gif"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "4",
+    "question": "Which of the following questions is correct about the periodic table?",
+    "options": {
+      "A": "The non-metallic properties of the elements tend to decrease across each period",
+      "B": "The valence electrons of the elements increase progressively across the period",
+      "C": "Elements in the same group have the same numbeer of electron shells",
+      "D": "Elements in the same period have the number of valence electrons"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "5",
+    "question": "The relative atomic mass of a naturally occurring lithium consisting of 90% ⁷ ₃Li and ⁶ ₃10% Li is",
+    "options": {
+      "A": "6.9",
+      "B": "7.1",
+      "C": "6.2",
+      "D": "6.8"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "R.A.M = m₁ ₁ + m₂ ₂",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "6",
+    "question": "An isotope has an atomic number of 15 and a mass number of 31. The number of protons it contain is",
+    "options": {
+      "A": "16",
+      "B": "15",
+      "C": "46",
+      "D": "31"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "7",
+    "question": "The molecular lattice of iodine is held together by",
+    "options": {
+      "A": "dative bond",
+      "B": "metallic bond",
+      "C": "hydrogen bond",
+      "D": "van der Waal's forces"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Molecular shapes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "8",
+    "question": "The arrangement of particles in crystal lattices can be studied using",
+    "options": {
+      "A": "X - rays",
+      "B": "γ - rays",
+      "C": "α - rays",
+      "D": "β - rays"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "9",
+    "question": "From the diagram above, find the amount of solute deposited when 200 cm³ of the solution is cooled from 55°C to 40°C.",
+    "options": {
+      "A": "0.10 mole",
+      "B": "0.20mole",
+      "C": "0.01 mole",
+      "D": "0.02 mole"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "From the diagram,",
+    "images": [
+      {
+        "filename": "Chemistry_2011_q9_e8bc955f.gif",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5411344312_chem 201011gif.gif"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "10",
+    "question": "The importance of sodium aluminate (III) in the treatment of water is to",
+    "options": {
+      "A": "cause coagulation",
+      "B": "neutralize acidity",
+      "C": "prevent goitre and tooth decay",
+      "D": "kill germs"
+    },
+    "correct_answer": "A",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "11",
+    "question": "What type of bond exits between an element X with atomic number 12 and Y with atomic number 17?",
+    "options": {
+      "A": "Electrovalent",
+      "B": "Metallic",
+      "C": "Covalent",
+      "D": "Dative"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "12",
+    "question": "Hardness of water is mainly due to the presence of",
+    "options": {
+      "A": "calcium hydroxide or magnesium hydroxide",
+      "B": "calcium trioxocarbonate (IV) or calcium tetraoxosulphate (VI)",
+      "C": "sodium hydroxide or magnesium hydroxide",
+      "D": "calcium chloride or sodium chloride salts"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Salts of Calcium and Magnesium are responsible for hardness of water. Bicarbonates, Carbonates, Chlorides and Sulfates of Calcium and Magnesium causes temporary and permanent hardness.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "13",
+    "question": "A suitable solvent for iodine and naphthalene is",
+    "options": {
+      "A": "carbon (IV) sulphide",
+      "B": "ethanol",
+      "C": "water",
+      "D": "benzene"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Both Iodine and Naphthalene, being nonpolar compounds, dissolve best in nonpolar or slightly polar solvents like benzene, toluene, and carbon disulfide.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "14",
+    "question": "Which of the following noble gases is commonly found in the atmosphere?",
+    "options": {
+      "A": "Xenon",
+      "B": "Neon",
+      "C": "Helium",
+      "D": "Argon"
+    },
+    "correct_answer": "D",
+    "topic": "5. Air",
+    "subtopic": "Noble gases and their uses",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Argon,with the symbol Ar which is the third noble gas, in group 18 makes up about 1% of the Earth's atmosphere, making it the most common noble gas on Earth.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "15",
+    "question": "N² O 4(g) ↔ 2NO²(g) ΔH = +ve In the reaction above, an increase in temperature will",
+    "options": {
+      "A": "increase the value of the equilibrium constant",
+      "B": "decreases the value of the equilibrium constant",
+      "C": "increase in the reactant production",
+      "D": "shift the equilibrium to the left"
+    },
+    "correct_answer": "A",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "16",
+    "question": "CH³ COOH (aq) + OH - (aq) ↔ CH³ COO - (aq) + H² O (l) In the reaction above ,CH³ COO - (aq) is",
+    "options": {
+      "A": "conjugate base",
+      "B": "acid",
+      "C": "base",
+      "D": "conjugate acid"
+    },
+    "correct_answer": "A",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "17",
+    "question": "How many cations will be produced from a solution of potassium aluminium tetraoxosulphate (VI)?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "18",
+    "question": "Which of the following is NOT an alkali?",
+    "options": {
+      "A": "NH³",
+      "B": "Mg(OH) 2",
+      "C": "Ca(OH) 2",
+      "D": "NaOH"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "19",
+    "question": "An effect of thermal pollution on water bodies is that the",
+    "options": {
+      "A": "volume of water reduces",
+      "B": "volume of chemical waste increase",
+      "C": "level of oxides of nitrogen increase",
+      "D": "level of oxygen reduces"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "20",
+    "question": "Which of the following is a deliquescent compound?",
+    "options": {
+      "A": "Na NO³",
+      "B": "CaCl²",
+      "C": "CuO",
+      "D": "Na² CO³ .10H² O"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Deliquescent substances are referred to known as those substances which absorbs moisture from the surrounding and dissolves themselves with the moisture or water to form a solution.Examples are sodium hydroxide(NaOH), calcium chloride(CaCl2), potassium hydroxide(KOH), ammonium chloride(NH4Cl) , etc",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "21",
+    "question": "A chemical reaction which the hydration energy is greater than the lattice energy is referred to as",
+    "options": {
+      "A": "a spontaneous reaction",
+      "B": "an endothermic reaction",
+      "C": "an exothermic reaction",
+      "D": "a reversible reaction"
+    },
+    "correct_answer": "C",
+    "topic": "12. Energy Changes",
+    "subtopic": "Bond energy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When the hydration energy is greater than the lattice energy, then it is exothermic.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "22",
+    "question": "The function of zinc electrode in a galvanic cells is that it",
+    "options": {
+      "A": "undergoes reduction",
+      "B": "serves as the positive electrode",
+      "C": "production of electons",
+      "D": "uses up electrons"
+    },
+    "correct_answer": "C",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Chemical industries",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If an external electrical conductor connects the copper and zinc electrodes, zinc from the zinc electrode dissolves into the solution as Zn2+ ions (oxidation), releasing electrons that enter the external conductor.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "23",
+    "question": "CH₄(g) + Cl²(g) → CH³ Cl (s) + HCl (g) The major factor that influence the rate of the reaction above is",
+    "options": {
+      "A": "catalyst",
+      "B": "temperature",
+      "C": "concentration",
+      "D": "light"
+    },
+    "correct_answer": "D",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "24",
+    "question": "The condition required for corrosion to take place is the presence of",
+    "options": {
+      "A": "water and carbon (IV) oxide",
+      "B": "water, carbon (IV) oxide and oxygen",
+      "C": "oxygen and carbon (IV) oxide",
+      "D": "water and oxygen"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "25",
+    "question": "The diagram above best illustrates the effect of decrease in",
+    "options": {
+      "A": "concentration",
+      "B": "temperature",
+      "C": "surface area",
+      "D": "pressure"
+    },
+    "correct_answer": "A",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2011_q25_1ddfbdbb.gif",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/13529306800_chem201128.gif"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "26",
+    "question": "MnO - 4(aq) + Y + 5Fe²+ (aq) → Mn²+ (aq) + 5Fe²+ (aq) + 4H² O (l) In the equation above, Y is",
+    "options": {
+      "A": "5H + (aq)",
+      "B": "4H + (aq)",
+      "C": "10H + (aq)",
+      "D": "8H + (aq)"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "27",
+    "question": "Given that M is the mass of a substance deposited during electrolysis and Q is the quantity of electricity consumed, then Faraday's first law can be written as [Electrochemical equivalent]",
+    "options": {
+      "A": "M = E/Q",
+      "B": "M = EQ",
+      "C": "M = Q/E",
+      "D": "M = E/2Q"
+    },
+    "correct_answer": "B",
+    "topic": "11. Electrolysis",
+    "subtopic": "Faraday's laws",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "28",
+    "question": "The impurities formed during the laboratory preparation of chlorine gas are removed by",
+    "options": {
+      "A": "H² O",
+      "B": "NH³",
+      "C": "H² SO 4",
+      "D": "HCl"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Impurities formed during the laboratory preparation of chlorine gas, particularly water vapor, can be removed by passing the gas through concentrated sulfuric acid (H₂SO₄). H₂SO₄ acts as a drying agent, absorbing water and leaving behind a more pure chlorine gas.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "29",
+    "question": "The effect of the presence of impurities such as carbon and sulphur on iron is that they",
+    "options": {
+      "A": "give it high tensile strenght",
+      "B": "make it malleable and ductile",
+      "C": "increase its melting point",
+      "D": "lower its melting point"
+    },
+    "correct_answer": "D",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "30",
+    "question": "A few drops of concentrated HNO₃ is added to an unknown solution and boiled for a while. If this produces a brown solution, the cation present is likely to be",
+    "options": {
+      "A": "Pb²+",
+      "B": "Cu²+",
+      "C": "Fe³+",
+      "D": "Fe²+"
+    },
+    "correct_answer": "C",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The brown color indicates the presence of iron (III) (Fe³⁺).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "31",
+    "question": "The bleaching action of chlorine gas is effective due to the presence of",
+    "options": {
+      "A": "hydrogen chloride",
+      "B": "water",
+      "C": "air",
+      "D": "oxygen"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "32",
+    "question": "In the laboratory preparation of oxygen, dried oxygen is usually collected over",
+    "options": {
+      "A": "hydrochloric acid",
+      "B": "mercury",
+      "C": "calcium chloride",
+      "D": "tetraoxosulphate (VI) acid"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "33",
+    "question": "The property of concentrated H₂SO₄ that makes it suitable for preparing HNO3 is its",
+    "options": {
+      "A": "boiling point",
+      "B": "density",
+      "C": "oxidizing properties",
+      "D": "dehydrating properties"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "H₂SO₄ acid has a high boiling point of 388°C. Due to its high boiling point, it is considered a non-volatile acid, so when sulphuric acid is reacted with salts of nitric acid eg NaNO₃, HNO₃ is displaced from its salt",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "34",
+    "question": "Bronze is preferred to copper in the making of medals because it",
+    "options": {
+      "A": "is stronger",
+      "B": "can withstand low temperature",
+      "C": "is lighter",
+      "D": "has low tensile strength"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Copper",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "35",
+    "question": "The constituents of baking powder that makes the dough to rise is",
+    "options": {
+      "A": "NaHCO³",
+      "B": "NaOH",
+      "C": "Na² CO³",
+      "D": "NaCl"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "36",
+    "question": "The ability of carbon to form long chains is referred to as",
+    "options": {
+      "A": "alkylation",
+      "B": "acylation",
+      "C": "catenation",
+      "D": "carbonation"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2011_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "37",
+    "question": "Which of the following compounds will undergo polymerization reaction?",
+    "options": {
+      "A": "C² H 4",
+      "B": "C² H 5 COOH",
+      "C": "C² H 6",
+      "D": "C² H 5 OH"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkenes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "38",
+    "question": "An organic compound has an empirical formula CH² O and vapour density of 45. What is the molecular formula? [C = 12, H = 1, O = 16]",
+    "options": {
+      "A": "C³ H 7 OH",
+      "B": "C² H 5 OH",
+      "C": "C³ H 6 O³",
+      "D": "C² H 4 O²"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "39",
+    "question": "At 25 o and zymase as catalyst, C 6 H 12 6 → 2C² H 5 OH + 2CO² + energy The reaction above represented by the equation above is useful in the production of",
+    "options": {
+      "A": "propanol",
+      "B": "butanol",
+      "C": "methanol",
+      "D": "ethanol"
+    },
+    "correct_answer": "D",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Chemical industries",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "40",
+    "question": "The number of isomers that can be obtained from C₄H₁₀ is",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "1",
+      "D": "2"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The two structural isomers of C₄H₁₀ are butane and²-methylpropane. Butane, also known as n-butane, has a straight-chain structure, while²-methylpropane, has a branched structure.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_41",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "41",
+    "question": "The functional groups present in the compound above are",
+    "options": {
+      "A": "alkene and halo-group",
+      "B": "hydroxyl and chloro-group",
+      "C": "alkene and chloro-group",
+      "D": "hydroxyl and halo-group"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2011_q41_583db49e.gif",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/17588283544_chem201146.gif"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_42",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "42",
+    "question": "Two organic compounds K and L were treated with a few drops of Fehling's solutions respectively . K formed a brick-red precipitate while L, remains unaffected. The compound K is an",
+    "options": {
+      "A": "alkanol",
+      "B": "alkane",
+      "C": "alkanal",
+      "D": "alkanone"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanals and Alkanones",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "The Structure and Workings of Nigerian Federalism"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_43",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "43",
+    "question": "Which of the following statements is true about²-methylpropane and butane",
+    "options": {
+      "A": "They are not members of the same homologous series",
+      "B": "They have the same boiling point",
+      "C": "They have different number of carbon atoms",
+      "D": "They have the same chemical properties"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2011_44",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "44",
+    "question": "with conc H² SO 4 as catalyst CH³ COOH + C² H 5 OH → CH³ COOC² H 5 + H² O",
+    "options": {
+      "A": "esterification",
+      "B": "Condensation",
+      "C": "saponification",
+      "D": "neutralization"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_45",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "45",
+    "question": "In the diagram above , X is the ``",
+    "options": {
+      "A": "enthalpy",
+      "B": "enthalpy change",
+      "C": "activation energy",
+      "D": "activated complex"
+    },
+    "correct_answer": "B",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2011_q45_6af81f96.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/27072306237_co1.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_46",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "46",
+    "question": "choose the correct answer in the option above. Which of the following is a primary amine?",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Chemistry_2011_q46_748cbe26.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5699436752_c0.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2011_47",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2011,
+    "number": "47",
+    "question": "The principle of column chromatography is based on the ability of the constituents to",
+    "options": {
+      "A": "move at different speeds in the column",
+      "B": "dissolve in each other in the column",
+      "C": "react with the solvent in the column",
+      "D": "react with each other in the column"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Separation techniques (distillation, filtration, chromatography)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  }
+]

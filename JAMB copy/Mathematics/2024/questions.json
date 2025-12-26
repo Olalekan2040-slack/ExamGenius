@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "JAMB_Mathematics_2024_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "1",
+    "question": "Evaluate the determinant of the matrix M = {bmatrix}3 & 4 & 6\\2 & 1 &⁻¹\\-1 & 3 & 5{bmatrix}",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Matrices and determinants",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "2",
+    "question": "Find the amount if simple interest is paid yearly at 5% per annum for³ years, on a principal of # 200,000.00",
+    "options": {
+      "A": "# 23, 000.00",
+      "B": "# 30,000.00",
+      "C": "# 300,000.00",
+      "D": "# 230,000.00"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Fractions, decimals and percentages",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "3",
+    "question": "y is inversely proportional to x and y = 4, when x = (1/2), find x when y = 10",
+    "options": {
+      "A": "2",
+      "B": "10",
+      "C": "(1/5)",
+      "D": "(1/10)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "4",
+    "question": "Find the angle subtended by an arc 33cm long of a circle of diameter 28cm.",
+    "options": {
+      "A": "105⁰",
+      "B": "115⁰",
+      "C": "120⁰",
+      "D": "135⁰"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Circle theorems",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "5",
+    "question": "Solve 16^x = 0.25",
+    "options": {
+      "A": "-(1/2)",
+      "B": "(1/4)",
+      "C": "-(1/4)",
+      "D": "(1/2)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "6",
+    "question": "The ratio of men to women in a 20-member committee is³:1. How many women must be added to the committee to make the ratio of men to women³:2?",
+    "options": {
+      "A": "2",
+      "B": "5",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Fractions, decimals and percentages",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "7",
+    "question": "If p * q = 2p + pq + q, find p when ( p * 2) - (p * 1) = 40",
+    "options": {
+      "A": "39",
+      "B": "40",
+      "C": "41",
+      "D": "42"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Binary operations",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "8",
+    "question": "Which of the following is a measure of central tendency?",
+    "options": {
+      "A": "Standard deviation",
+      "B": "Range",
+      "C": "Variance",
+      "D": "Mean"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "9",
+    "question": "From the figure above, find the length of Chord PQ",
+    "options": {
+      "A": "17cm",
+      "B": "18cm",
+      "C": "7cm",
+      "D": "9cm"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": "images/JAMB_Mathematics_2024_9.png",
+    "source": "myschool.ng",
+    "subtopic": "Circle theorems",
+    "images": [
+      {
+        "filename": "Mathematics_2024_q9_385e6820.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/h1d4SdDMrc3GDVEjMJTJWc7F7DIrIkiQNKlbQ4zj.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "10",
+    "question": "Identify the equation of the shaded region in the given graph",
+    "options": {
+      "A": "y > 1",
+      "B": "x < 1",
+      "C": "X > 1",
+      "D": "y < 1"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": "images/JAMB_Mathematics_2024_10.png",
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "images": [
+      {
+        "filename": "Mathematics_2024_q10_dc5a5035.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/Ku9VTtRKMeUoxSJBQAS28zFR2xogr1f2nyfwftQU.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "11",
+    "question": "In how many ways can 6 people sit around a table",
+    "options": {
+      "A": "120",
+      "B": "240",
+      "C": "60",
+      "D": "30"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Permutation and combination",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "12",
+    "question": "The graph above represents inequalities",
+    "options": {
+      "A": "3x +4y ≥12, x >0, y > 0",
+      "B": "3x + 4y≤ 12, x ≥ 0, y ≥ 0",
+      "C": "3x + 4y <12, x ≤ 0, y ≥ 0",
+      "D": "3x + 4y < 12, x ≥ 0, y ≥ 0"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": "images/JAMB_Mathematics_2024_12.png",
+    "source": "myschool.ng",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "images": [
+      {
+        "filename": "Mathematics_2024_q12_8423cd2c.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/BMMsIHGQTrb9eX0PBHKGGTDhIvukc9K9YLIIg5QL.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "13",
+    "question": "Let A = {pmatrix}2 &⁻⁴ & 3\\5 & 1 & 0{pmatrix} and B = {pmatrix}1 & 4 &⁻²\\-3 & 3 &⁻¹{pmatrix}. Find A + 2B",
+    "options": {
+      "A": "{pmatrix}4 & 4 &⁻¹\\-1 & 7 &⁻²{pmatrix}",
+      "B": "{pmatrix}-1 & 4 &⁻¹\\4 & 7 &⁻²{pmatrix}",
+      "C": "{pmatrix}4 & 4 &⁻¹\\7 & 7 &⁻²{pmatrix}",
+      "D": "{pmatrix}-1 & 7 &⁻²\\4 & 4 &⁻²{pmatrix}"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Matrices and determinants",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "14",
+    "question": "The sum to infinity of a GP is 100, find its first term if the common ratio is -(1/2)",
+    "options": {
+      "A": "150",
+      "B": "155",
+      "C": "160",
+      "D": "165"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sequences and series (AP and GP)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "15",
+    "question": "PQR is a triangle such that |PQ| = |QR| = 8cm and QPR = 60º. Find the area of ∠ PQR",
+    "options": {
+      "A": "16√3cm²",
+      "B": "16√2cm²",
+      "C": "8√3cm²",
+      "D": "16√2cm²"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "16",
+    "question": "The Venn diagram above shows the number of students offering physics and chemistry in a class of 65. What is the probability that a student selected from the class offers physics and chemistry if every students offers at least one subject?",
+    "options": {
+      "A": "(2/13)",
+      "B": "(5/13)",
+      "C": "(2/5)",
+      "D": "(3/13)"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "image": "images/JAMB_Mathematics_2024_16.png",
+    "source": "myschool.ng",
+    "subtopic": "Permutation and combination",
+    "images": [
+      {
+        "filename": "Mathematics_2024_q16_95a17629.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/bwA19eAmGmfKR9o2VVUPtnC7wcjL4x0pdIwTp0aS.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "17",
+    "question": "From the top of a building 10m high, the angle of elevation of a fruit on top of a tree 25m is 30º. Calculate the horizontal distance between the building and the tree.",
+    "options": {
+      "A": "15√3m",
+      "B": "5√3m",
+      "C": "25√3m",
+      "D": "30√3m"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trigonometry and bearings",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "18",
+    "question": "A boy bought Oranges at the rate of #24.00 for 5 and sold it at the rate of # 30.00 for 4 Oranges. Find the profit made of the ones sold",
+    "options": {
+      "A": "# 24.00",
+      "B": "#30.00",
+      "C": "# 10.80",
+      "D": "#20.00"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Fractions, decimals and percentages",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "19",
+    "question": "Differentiate y = (5x + 1)⁴",
+    "options": {
+      "A": "20 (5x + 1)³",
+      "B": "4(5x + 1)³",
+      "C": "5(5x + 1)³",
+      "D": "(5x)³"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "20",
+    "question": "Simplify (5 + √7/3 + √7)",
+    "options": {
+      "A": "17 - √7",
+      "B": "4 - √7",
+      "C": "7 - √7",
+      "D": "15 - √7"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Number bases",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "21",
+    "question": "Find the perimeter of a triangle whose vertices pass through ( 3, 2), (4, 5) and (6, 2) in surd form.",
+    "options": {
+      "A": "3 + √(12) + √(13)",
+      "B": "3 - √(10) + √(13)",
+      "C": "3 + √(10) + √(13)",
+      "D": "3 - √(12) + √(13)"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "22",
+    "question": "Find the 7ᵗʰ term of the sequence -10, 50, -250 ...........",
+    "options": {
+      "A": "165250",
+      "B": "156250",
+      "C": "-156250",
+      "D": "-165,250"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sequences and series (AP and GP)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "23",
+    "question": "The scores of students in a test are recorded as follows: 4, 3, 3, 2, 1, 2, 5, 7, 8, 3, and 5. Find the mode of the mark.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "24",
+    "question": "P(x, 4) and Q( 10, 8) are two points joined by a straight line in a plane. If the midpoint of the line is (9, 6), find the value of x.",
+    "options": {
+      "A": "12",
+      "B": "9",
+      "C": "8",
+      "D": "7"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Coordinate geometry",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "25",
+    "question": "Find x if (16² ⁺ ˣ/4) = 64^x",
+    "options": {
+      "A": "3",
+      "B": "- 3",
+      "C": "5",
+      "D": "- 5"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "26",
+    "question": "Given that P is the set of all prime numbers between 0 and 10, and Q is the set of all odd numbers between 0 and 10. Find the union of elements in P that are not in Q and the elements in Q that are not in P.",
+    "options": {
+      "A": "2, 9",
+      "B": "9",
+      "C": "1, 9",
+      "D": "1, 2, 9"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sets and Venn diagrams",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "27",
+    "question": "In the diagram above, T represents the construction of angle .....",
+    "options": {
+      "A": "15⁰",
+      "B": "30⁰",
+      "C": "45⁰",
+      "D": "60⁰"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": "images/JAMB_Mathematics_2024_27.png",
+    "source": "myschool.ng",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "images": [
+      {
+        "filename": "Mathematics_2024_q27_977e236d.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/3dx6wRh7GDyd2cm94PJ1d7CUU9AjBiegmCqU0cpR.png"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "28",
+    "question": "Convert the number 10111.11ₜwₒ to a mixed number.",
+    "options": {
+      "A": "23(1/4)",
+      "B": "23(3/4)",
+      "C": "22(1/4)",
+      "D": "24(3/4)"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Number bases",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "29",
+    "question": "Subtract 14256ₛₑᵥₑₙ from 20045ₛₑᵥₑₙ",
+    "options": {
+      "A": "1256ₛₑᵥₑₙ",
+      "B": "2456ₛₑᵥₑₙ",
+      "C": "1356ₛₑᵥₑₙ",
+      "D": "2465ₛₑᵥₑₙ"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "30",
+    "question": "The average age of the four female teachers in a school is 40 and the average age of eight male teachers in the school is 25. Calculate the average age of the teachers in the school.",
+    "options": {
+      "A": "20",
+      "B": "31",
+      "C": "32",
+      "D": "30"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "31",
+    "question": "How many proper and improper subsets are there in the set K = {a, b, c, d, e}?",
+    "options": {
+      "A": "10",
+      "B": "25",
+      "C": "32",
+      "D": "50"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sets and Venn diagrams",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "32",
+    "question": "Differentiate Cos25º - Sin 25º",
+    "options": {
+      "A": "- ( Sin25º + Cos25º)",
+      "B": "- ( Sec25 + Cot25)",
+      "C": "- ( Cot25 + Sec25)",
+      "D": "- ( Sin25 + Sec25)"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Trigonometry and bearings",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "33",
+    "question": "The mean of the numbers 13, 16, x, 18, 21, 2x, 35, is 22. Find the value of x",
+    "options": {
+      "A": "16",
+      "B": "17",
+      "C": "23",
+      "D": "25"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "34",
+    "question": "Find the variance of a group of data whose standard deviation is 12.34 to the nearest whole number.",
+    "options": {
+      "A": "150",
+      "B": "151",
+      "C": "152",
+      "D": "153"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "35",
+    "question": "Calculate the standard deviation of the following scores 5, 4, 6, 7, and 8",
+    "options": {
+      "A": "√2",
+      "B": "√3",
+      "C": "2",
+      "D": "3"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "36",
+    "question": "From a class of 5 girls and 7 boys, a committee consisting of² girls and³ boys is to be formed. How many ways can this be done?",
+    "options": {
+      "A": "350 ways",
+      "B": "420 ways",
+      "C": "550 ways",
+      "D": "720 ways"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Permutation and combination",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "37",
+    "question": "In how many ways can a committee of 5 be selected from a group of 7 males and³ females, if the committee must have one female?",
+    "options": {
+      "A": "105ways",
+      "B": "135 ways",
+      "C": "210 ways",
+      "D": "231 ways"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Permutation and combination",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "38",
+    "question": "A bag contains 7 red and 4 black identical balls. Two balls were picked at random from the bag and replaced each time. Find the probability the two balls were of same colour.",
+    "options": {
+      "A": "(54/121)",
+      "B": "(65/121)",
+      "C": "(29/55)",
+      "D": "(27/55)"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Probability",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "39",
+    "question": "U varies directly as the square root of V when U = 24, V = 9, find the value of V when U = 16.",
+    "options": {
+      "A": "0.32",
+      "B": "4",
+      "C": "6",
+      "D": "0.25"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "40",
+    "question": "If B varies inversely as c⁽¹/³⁾ and C = 27 when B = 2, find the value of the constant of proportionality K.",
+    "options": {
+      "A": "3",
+      "B": "6",
+      "C": "9",
+      "D": "12"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "41",
+    "question": "Find the roots of x³ - 19x - 30=0",
+    "options": {
+      "A": "-5, 3, and²",
+      "B": "5, 3, and⁻²",
+      "C": "5,⁻³ and⁻²",
+      "D": "-5,⁻³ and²"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "42",
+    "question": "If x is inversely proportional to y and x = 9 when y = 4, find the law containing x and y",
+    "options": {
+      "A": "x = (16/y)",
+      "B": "x = (36/y)",
+      "C": "x = (y/36)",
+      "D": "x = (13/y)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "43",
+    "question": "Given P = {bmatrix}1 & 2\\2 & 3{bmatrix}, find P² - 4P - I where I is the identity matrix",
+    "options": {
+      "A": "{bmatrix}1 & 0\\0 & 1{bmatrix}",
+      "B": "{bmatrix}0 & 0\\0 & 0{bmatrix}",
+      "C": "{bmatrix}-1 & 0\\0 &⁻¹{bmatrix}",
+      "D": "{bmatrix}0 & 1\\1 & 0{bmatrix}"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Matrices and determinants",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "44",
+    "question": "If A = {pmatrix}3 & 2 & 1\\4 & 2 &⁻¹{pmatrix} and B = {pmatrix}1 & 4\\0 & 1\\3 & 2{pmatrix}. Find A^T + B, ( where T means transpose)",
+    "options": {
+      "A": "{pmatrix}4 & 8\\3 & 2\\4 & 1{pmatrix}",
+      "B": "{pmatrix}4 & -8\\3 & 2\\4 & 1{pmatrix}",
+      "C": "{pmatrix}4 & 8\\4 &⁻²\\3 & 1{pmatrix}",
+      "D": "{pmatrix}4 & 8\\2 & 3\\4 & 1{pmatrix}"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Matrices and determinants",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "45",
+    "question": "If tanθ = (8/15), simplify (Sinθ - Cosθ/Sin²θ - Sinθ)",
+    "options": {
+      "A": "(-119/72)",
+      "B": "(119/72)",
+      "C": "(-7/17)",
+      "D": "(8/17)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "46",
+    "question": "A binary operation * is defined on a set of real numbers by x*y = x^y for all values of x and y, if x * 2 = x, find the possible values of x.",
+    "options": {
+      "A": "0, 2",
+      "B": "1, 2",
+      "C": "0, 1",
+      "D": "2, 2"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Binary operations",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "47",
+    "question": "The weights of 15 students in a class are given as 25, 30, 32, 30, 42, 45, 48, 50, 52, 51, 42, 38, 40, and 42. What is the mode of the given data?",
+    "options": {
+      "A": "51",
+      "B": "45",
+      "C": "42",
+      "D": "25"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "48",
+    "question": "The number of 144 students who registered for mathematics, physics, and chemistry in an examination are shown in the Venn diagram. How many registered for physics and mathematics?",
+    "options": {
+      "A": "16",
+      "B": "24",
+      "C": "62",
+      "D": "4"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sets and Venn diagrams",
+    "images": [
+      {
+        "filename": "Mathematics_2024_q48_13126fb1.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/vpXxzDykN1pkkYUTBzMWcuzxKeaFrhGceRYRPGAv.png"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Mathematics_2024_49",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "49",
+    "question": "Make q the subject of the relation t = √(((pq/r) - r²q))",
+    "options": {
+      "A": "q = (rt²/p - r³)",
+      "B": "q = (p - r³/rt²)",
+      "C": "q = (t²/p - r³)",
+      "D": "q = (rt/p - r³)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2024_50",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2024,
+    "number": "50",
+    "question": "(√a +√(8a))² = 54 + b√2, a and b are positive integers. Find the value of a and the value of b.",
+    "options": {
+      "A": "a = 24, b = 6",
+      "B": "a = 6, b = 2",
+      "C": "a = 6, b = 24",
+      "D": "a = 2, b = 6"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Polynomials and factorization",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  }
+]

@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "JAMB_Mathematics_2015_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "1",
+    "question": "In a town of 6250 inhabitants, there were 62 births during 1984. Find the percentage birth rate",
+    "options": {
+      "A": "3%",
+      "B": "1.0%",
+      "C": "2.5%",
+      "D": "5.40%"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Percentage birthrate = (62/6250) × 10⁰%",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "2",
+    "question": "Simplify 1¼ ÷ (2 ÷ ¼ of 28)",
+    "options": {
+      "A": "1 (3/8)",
+      "B": "2 (3/4)",
+      "C": "4 (3/8)",
+      "D": "3 (1/5)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "3",
+    "question": "Factorize x² + 9x + 20",
+    "options": {
+      "A": "(x − 5) 2",
+      "B": "(x + 5)(x + 4)",
+      "C": "(x – 5)(x + 3)",
+      "D": "(x + 3) 2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "4",
+    "question": "If three staff of Myschool Limited agreed to share their salary arrears in the ration of their ages, which are 18 years, 20 years, 22 years respectively. If the sum of the money collected is N120,000.00K, How much does the second staff received?",
+    "options": {
+      "A": "N36,000",
+      "B": "N44,000",
+      "C": "N40,000",
+      "D": "N15,000"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total of their ages: 18 + 20 + 22 = 60",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "5",
+    "question": "X and Y are two sets such that n(X) = 15, n(Y) = 12 and n{X ∩ Y} = 7. Find ∩{X ∪ Y}",
+    "options": {
+      "A": "21",
+      "B": "225",
+      "C": "15",
+      "D": "20"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "n(X ∪ Y) = n(X) + n(Y) − n(X ∩ Y)= 15 + 12 − 7∴ n(X ∪ Y) = 20",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "6",
+    "question": "Find the x and z intercepts of the graph of 3x - z ≤ 9",
+    "options": {
+      "A": "(3, -9)",
+      "B": "(-3, 9)",
+      "C": "(-3, -9)",
+      "D": "(-3, 0)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Starting from 3x − z ≤ 9x = 0, substitute the value of x (i.e. x = 0) into the equation 3x − z ≤ 93(0) − z ≤ 9z ≤ − 9If z = 0Then, 3x − 0 ≤ 93x ≤ 9x ≤ 3Intercept of x and z i.e (x,z)= (3, -9)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "7",
+    "question": "Simplify log 10 1.5 + 3 log 10² − log 10 0.3",
+    "options": {
+      "A": "log 10 4",
+      "B": "log 10 40",
+      "C": "log 10 -40",
+      "D": "log 10 4 -"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "10",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "8",
+    "question": "Find the total surface area of a cylinder of base radius 5cm and length 7cm ( π = 3.14)",
+    "options": {
+      "A": "17.8cm²",
+      "B": "15.8cm²",
+      "C": "75.4cm²",
+      "D": "54.7cm²"
+    },
+    "correct_answer": "",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "9",
+    "question": "If x + y = 90 simplify (sinx + siny)²−2sinxsiny",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "-1"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given: x + y = 90° ... (1)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "10",
+    "question": "A man with an annual salary of N2000, has allowances of N600. If Income Tax is 5%. How much income tax expenses does he pay each year?",
+    "options": {
+      "A": "15",
+      "B": "50",
+      "C": "70",
+      "D": "25"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "His annual salary = N2000His allowances = N600So his taxable income = Annual salary − allowance= N2000 − N600= N1400He pay at 5%Then, his allowance income tax 5/100 × 1400 = N70",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "11",
+    "question": "Solve the equation 3x² − 4x − 5 = 0",
+    "options": {
+      "A": "x = 1.75 or − 0.15",
+      "B": "x = 2.12 or − 0.79",
+      "C": "x = 1.5 or − 0.34",
+      "D": "x = 2.35 or −1.23"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using the quadratic formula, we have",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "12",
+    "question": "The first and last term of a linear sequence (AP) are 6 and 10 respectively. If the sum of the sequence is 40. Find the number of terms",
+    "options": {
+      "A": "nth = 3",
+      "B": "nth = 4",
+      "C": "nth = 5",
+      "D": "nth = 6"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "nth term of a linear sequence (AP) = a+(n − 1)dfirst term = 6, last term = 10 sum − 40i.e. a = 6, l = 10, S = 40Sₙ= n/2(2a + (n − 1)d or Sn = ÷2 (a + l)Sₙ = n/2(a + l)40 = n/2(6 + 10)40 = 8n8n = 408n = 40n = 40/8= 5The number of terms = 5",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "13",
+    "question": "Find the equation of a line which is form origin and passes through the point (−3, −4)",
+    "options": {
+      "A": "y = (3x/4)",
+      "B": "y = (4x/3)",
+      "C": "y = (2x/3)",
+      "D": "y = (x/2)"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The slope of the line from (0, 0) passing through (-3,⁻⁴) = (-4 - 0/-3 - 0)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "14",
+    "question": "The amount A to which a principal P amounts at r% compound interest for n years is given by the formula A = P(1 + (r ÷ 100)^n. Find A, if P = 126, r = 4 and n = 2.",
+    "options": {
+      "A": "N132.50K",
+      "B": "N136.30K",
+      "C": "N125.40K",
+      "D": "N257.42K"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A = P (1 + (r/100))^n Where P = 126, r = 4,n = 2A=126 (1 + (4/100))² Using LCM =126 ((100+4/100))² = 126 ((104/100))² =126 (1.04² ) = 126 * 1.04 * 1.04=136.28A = 136.30 (approx.)The Amount A, = N136.30k",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "15",
+    "question": "Make x the subject of the equation s = 2 + (t/5) (x + ⅗y)",
+    "options": {
+      "A": "x = 5[(s − 2) ÷ t] - 3/5y",
+      "B": "x = 25[(s − 2) ÷ t] − 3ty",
+      "C": "x = [1 ÷ (s − 2)3ty]",
+      "D": "x = [5(s − 2) 2 ÷ 3ty] × t"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "16",
+    "question": "If log 5 20 = x, find x",
+    "options": {
+      "A": "1.761",
+      "B": "1.354",
+      "C": "1.861",
+      "D": "2.549"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "5",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "17",
+    "question": "Find at which rate per annum simple interest N525 will amount to N588 in³ years.",
+    "options": {
+      "A": "3%",
+      "B": "2%",
+      "C": "5%",
+      "D": "4%"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "18",
+    "question": "Given that A = 1, 5, 7 B = 3, 9, 12, 15 C = 2, 4, 6, 8 Find (A ∪ B) ∪ C",
+    "options": {
+      "A": "1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 15",
+      "B": "1, 2, 3, 5, 6, 8, 12, 15",
+      "C": "2, 4, 5, 9, 12, 15",
+      "D": "1, 5, 6, 7, 8, 9, 12, 15"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "19",
+    "question": "The extension of a stretched string is directly proportional to its tension. If the extension produced by a tension of 8 Newton’s is 2cm, find the extension produced by a tension of 12 newton’s.",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "0",
+      "D": "3"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let the extension be E and the tension be T.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "20",
+    "question": "Factorize x² − 2x − 15",
+    "options": {
+      "A": "(x + 3) 2",
+      "B": "(x + 5)(x − 3)",
+      "C": "(x − 5) 2",
+      "D": "(x − 5)(x + 3)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "21",
+    "question": "If A = (−3,5) and B = (4,−1) find the co-ordinate of the mid point",
+    "options": {
+      "A": "2, ½",
+      "B": "½ , 2",
+      "C": "1, ½",
+      "D": "0, 2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The coordinate of the midpoint is ((-3 + 4/2), (5 + (-1)/2))",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "22",
+    "question": "Find the simple interest on N325 in 5years at³% per annum.",
+    "options": {
+      "A": "N48.75K",
+      "B": "N50.10K",
+      "C": "N75.50K",
+      "D": "N15.75K"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "23",
+    "question": "Simplify (0.09) 2 and give your answer correct to 4 significant figures",
+    "options": {
+      "A": "0.81",
+      "B": "0.081",
+      "C": "0.0081",
+      "D": "8.0001"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "24",
+    "question": "Simplify [1 ÷ (x² + 3x + 2)] + [1 ÷ (x² + 5x + 6)]",
+    "options": {
+      "A": "(2/(x + 1)²)",
+      "B": "(2/(x + 1)(x + 2)",
+      "C": "(2/(x + 1)(x + 2)",
+      "D": "(2/(x + 1)(x + 3)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "25",
+    "question": "One bag contain³ blue and 5 red balls, another bag contain² blue and 4 red balls respectively. One ball is drawn for each bag. What is the probability both balls are blue",
+    "options": {
+      "A": "(2/15)",
+      "B": "(3/24)",
+      "C": "(3/21)",
+      "D": "(3/28)"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The probability of drawing a blue ball from the first bag is (3/8) , since there are³ blue balls out of 8 total balls.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "26",
+    "question": "Given that A = 3, 4, 1, 10, ⅓ B = {4, 3,⅓, ⅓, 7}. Find A∩B",
+    "options": {
+      "A": "",
+      "B": "⅓, 1, 2",
+      "C": "3, 4, ⅓",
+      "D": "1, 3, ⅓"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A ∩ B = 3, 4, ⅓",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "27",
+    "question": "Find x if 132 x = 70 eight.",
+    "options": {
+      "A": "5",
+      "B": "3",
+      "C": "6",
+      "D": "1"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "28",
+    "question": "A man sells his new brand car for N420,000 at a gain of 15%. What did it cost him?",
+    "options": {
+      "A": "N410,000",
+      "B": "N365, 217",
+      "C": "N157, 250",
+      "D": "N257,000"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cost Price:Selling price = 100 : (100 + 15)= 100 : 115Cost Price= 100 ÷ 115 of selling price (i.e N420,000)= 100 ÷ 115 × N420,000= N365,217.4∴ Cost Price = N365, 217",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "29",
+    "question": "Find the value of x if [ 1 ÷ 64⁽ˣ ⁺ ²⁾]= [4⁽ˣ − ³⁾ ÷ 16^x ]",
+    "options": {
+      "A": "(3/2)",
+      "B": "(2/3)",
+      "C": "(1/3)",
+      "D": "-(3/2)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "30",
+    "question": "Solve x² − 2x − 3 = 0",
+    "options": {
+      "A": "x = 2 or 1",
+      "B": "x = 3 or⁻¹",
+      "C": "x = 1 or 0",
+      "D": "x = 1 or²"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "31",
+    "question": "The volume of a cylinder whose height is 4cm and whose radius 5cm is equal to (π = 3.14)",
+    "options": {
+      "A": "3.13cm²",
+      "B": "145cm²",
+      "C": "314cm²",
+      "D": "214cm²"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "32",
+    "question": "The probability of an event A is 1/5. The probability of B is 1/3 . The probability both A and B is 1/15. What is the probability of either event A or B or both",
+    "options": {
+      "A": "(2/15)",
+      "B": "(3/4)",
+      "C": "(9/15)",
+      "D": "(1/15)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In probability, or = +",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "33",
+    "question": "If (159.75)10 = (x)6. Find x",
+    "options": {
+      "A": "x 6 = 123.34 6",
+      "B": "x 6 = 424.5 6",
+      "C": "x 6 = 122.43 6",
+      "D": "x 6 = 124.45 6"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(159.75)10 = (y)6 {array}{c|c}6 & 159 \\6 & 26 rem³ \\6 & 4 rem² \\& 0 rem 4 \\{array}15910 = 4236Then Convert 0.75 to base 60.75 x 6 =4.5 i.e 4.5 - 3.00 = 1.50.5 x 6 = 3.00 423 + 1.5 =424.5159.75 = (424.5)6(159)10 = (424.5)6",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "34",
+    "question": "A man bought a car for N800 and sold it for N520. Find his loss per cent",
+    "options": {
+      "A": "15%",
+      "B": "25%",
+      "C": "35%",
+      "D": "10%"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "35",
+    "question": "Simplify 6(1/12) − 2 ¾ + 1 ½",
+    "options": {
+      "A": "3 (5/6)",
+      "B": "4 (5/6)",
+      "C": "2 (1/6)",
+      "D": "(1/3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "36",
+    "question": "Find the distance between the points (-2,-3) and (-2,4)",
+    "options": {
+      "A": "3m",
+      "B": "2.4m",
+      "C": "3.2m",
+      "D": "7.0m"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "37",
+    "question": "Determine the third term of a geometrical progression whose first and second term are² and 54 respectively",
+    "options": {
+      "A": "1458",
+      "B": "1485",
+      "C": "1345",
+      "D": "1258"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1st G.P. = a =22nd G.P. = ar² −¹ = 542(r) = 54r = 54/2 = 27r = 273rd term = ar² = (2) (27)²2 × 27 × 27= 1458",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "38",
+    "question": "Given that S and T are sets of real numbers such that S = x : 0 ≤ x ≤ 5 and T = x : − 2 < x < 3 Find S ∪ T",
+    "options": {
+      "A": "−3 < x < ≤3",
+      "B": "−2< x < ≤5",
+      "C": "2< x < ≥ −5",
+      "D": "−1< x ≥ ≤2"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "39",
+    "question": "If an investor invest N450,000 in a certain organization in order to yield X as a return of N25,000. Find the return on an investment of N700,000 by Y in the same organization.",
+    "options": {
+      "A": "N14,950.50K",
+      "B": "N25,150.30K",
+      "C": "N15,000.00K",
+      "D": "N38,888.90K"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "40",
+    "question": "Evaluate log 7 17",
+    "options": {
+      "A": "1.35",
+      "B": "1.353",
+      "C": "1.455",
+      "D": "0.455"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "7",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "41",
+    "question": "10011² + ***** 2 + 11100² + 101² = 1001111²",
+    "options": {
+      "A": "1111²",
+      "B": "11011²",
+      "C": "10111²",
+      "D": "11001²"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "42",
+    "question": "Evaluate log5( y²x⁵ ÷ 125b½)",
+    "options": {
+      "A": "2 log 5 y + 5log 5 y² − 3",
+      "B": "log 5 y² + 5log 5 x + 3",
+      "C": "25log y 5 + 3",
+      "D": "2log 5 y + 5log 5 x − ½ log 5 b −3"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "₅(y² x⁵ ÷ 125b⁽¹/²⁾)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "43",
+    "question": "Integral ∫ (5x³ + 7x² − 2x + 5)dx",
+    "options": {
+      "A": "(5x⁴/4) + (7x³/3) + 2x + C",
+      "B": "(5x⁴/4) + (7x³/3) - x² + 5x + C",
+      "C": "(5x³/3) + (7x²/x) - x + C",
+      "D": "(2x²/3) + (x/5) - C"
+    },
+    "correct_answer": "B",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t (5x³ + 7x² - 2x + 5) d x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "44",
+    "question": "Find the area of the curved surface of a cone whose base radius is 3cm and whose height is 4cm (π = 3.14)",
+    "options": {
+      "A": "17.1cm²",
+      "B": "27.2cm²",
+      "C": "47.1cm²",
+      "D": "37.3cm²"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "45",
+    "question": "Simplify (1/(x + 1)) + (1/(x − 1))",
+    "options": {
+      "A": "2x/(x + 1)(x−3)",
+      "B": "2x/(x + 1)(x−1)",
+      "C": "2x/(x + 1)2",
+      "D": "2x(x+1)2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "[1 ÷ (x+1)] + [1 ÷ (x − 1)]= ((x − 1) + [(x + 1)) ÷ (x+1)(x − 1)]Using the L.C.M.= (x − 1 + x + 1) ÷ (x + 1)(x − 1)= (x + 2 − 1 + 1) ÷ (x + 1)(x − 1)= 2x ÷ (x + 1)(x − 1) =2x ÷ (x + 1)(x − 1)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "46",
+    "question": "The area of a circle of radius 4cm is equal to (Take π = 3.142 )",
+    "options": {
+      "A": "10.3cm²",
+      "B": "15.7cm²",
+      "C": "50.3cm²",
+      "D": "17.4cm²"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "47",
+    "question": "The area of an ellipse is 132cm².The length of its major axis is 14cm.Find the length of its minor axis",
+    "options": {
+      "A": "10.5cm",
+      "B": "5cm",
+      "C": "10cm",
+      "D": "12cm"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To find the minor axis of an ellipse:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "48",
+    "question": "The volume of a cone (s) of height 6cm and base radius 5cm is",
+    "options": {
+      "A": "157cm³",
+      "B": "155cm³",
+      "C": "175cm³",
+      "D": "145cm³"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_49",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "49",
+    "question": "The probability of an outcome A is 1/6 . The probability of the B outcome is 1/4 . If the probability of A or B or both is 1/12 . What is the probability of both outcomes A and B?",
+    "options": {
+      "A": "1/2",
+      "B": "1/3",
+      "C": "2/5",
+      "D": "3/4"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_50",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "50",
+    "question": "Given that Z = 1,2,4,5 what is the power of set Z?",
+    "options": {
+      "A": "16",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Mathematics_2015_51",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "51",
+    "question": "Calculate the value of x and y if (27 x ÷ 81 x+2y = 9 ,x + 4y = 0",
+    "options": {
+      "A": "x = 1, y = 1/2",
+      "B": "x = 2, y = – 1/2",
+      "C": "x − 0, y = 1",
+      "D": "x = 2, y = –1"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_52",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "52",
+    "question": "Simplify √(30) × √(40)",
+    "options": {
+      "A": "10 √3",
+      "B": "5 √3",
+      "C": "20 √3",
+      "D": "15 √3"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "√(30) × √(40)= √((30 × 40))√((3 × 10 × 4 × 10))√((400 × 3))√(400) × √320 × √320√3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_53",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "53",
+    "question": "If √(2x + 2) − √x =1 ,find x.",
+    "options": {
+      "A": "x = 1 twice",
+      "B": "x = 0 or 1",
+      "C": "x = 3 or 1",
+      "D": "x = 2 twice"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_54",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "54",
+    "question": "The sum of two numbers is 5; their product is -14. Find the numbers.",
+    "options": {
+      "A": "x = 5 or 1",
+      "B": "x = 7 or 1",
+      "C": "x = 7 or 0",
+      "D": "x = 7 or − 2"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let x represent the first number;Then, the other is (5 − x) , since their sum is 5 and their product is 14x(5 − x) = 145x − x2 = 14x2 − 5x − 14 = 0(x2 − 7x) + (2x − 14) = 0x(x − 7) + 2(x − 7) = 0(x − 7)(x + 2) = 0Either (x − 7) = 0 or (x + 2) = 0x = 7 or x = − 2The two numbers are 7 and − 2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_55",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "55",
+    "question": "Solve the equation 5⁽ˣ − ²⁾ = (1 ÷ 125)⁽ˣ ⁺³⁾",
+    "options": {
+      "A": "3/2",
+      "B": "− 7/4",
+      "C": "4/7",
+      "D": "7/4"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_56",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "56",
+    "question": "How many sides has a regular polygon whose interior angles are 120°each",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "3"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_57",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "57",
+    "question": "If duty is levied at 25%, find the duty to be added to a bill of N80.",
+    "options": {
+      "A": "N100",
+      "B": "N20",
+      "C": "N80",
+      "D": "N150"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_58",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "58",
+    "question": "Simplify².04 × 3.7 (Leave your answer in² decimal place)",
+    "options": {
+      "A": "7.51",
+      "B": "7.71",
+      "C": "5.5",
+      "D": "7.55"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_59",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "59",
+    "question": "A public car dealer marked up the cost of a car at 30% in an attempt to make 20% gross profit. Due to the value of dollar, he now placed 20% discount on the car. What profit or loss will he make?",
+    "options": {
+      "A": "3%",
+      "B": "2%",
+      "C": "4%",
+      "D": "1%"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_60",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "60",
+    "question": "Rationalize 5 ÷ (2 − √3)",
+    "options": {
+      "A": "3(2 + √5)",
+      "B": "2(3 + √5)",
+      "C": "5(2 + √3)",
+      "D": "3 √2 + 1"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_61",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "61",
+    "question": "Factorize a² − b² − 4a + 4",
+    "options": {
+      "A": "(a + b)(a − b)",
+      "B": "(a − 2 + b)(a - 2- b)",
+      "C": "(a + 1)(a − 2 + b)",
+      "D": "(a + b) 2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The trinomial = a² − 4a + 4 ² − b²− 4a + 4 = (a² − 4a + 4) − b² a² − 2a − 2a + 4) − b² (a − 2)− 2(a − 2)] − b² a − 2)2 − b² a − 2 + b)(a − 2 − b )",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2015_62",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2015,
+    "number": "62",
+    "question": "Given that tan x = (2/3), where 0 o d\" x d\" 90 o , Find the value of 2sinx.",
+    "options": {
+      "A": "(2√(13)/13)",
+      "B": "(3√(13)/13)",
+      "C": "(4√(13)/13)",
+      "D": "(6√(13)/13)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

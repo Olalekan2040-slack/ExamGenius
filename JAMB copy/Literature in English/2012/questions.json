@@ -1,0 +1,1287 @@
+[
+  {
+    "id": "JAMB_Literature in English_2012_1",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "1",
+    "question": "This question is based on General Literary Principles. A literary work in which the characters and events are used as symbols is known as",
+    "options": {
+      "A": "characterization",
+      "B": "allegory",
+      "C": "metaphor",
+      "D": "paralellism"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Anallegoryis a narrative or visual representation in which a character, place, or event can be interpreted to represent a hidden meaning with moral or political significance.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_2",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "2",
+    "question": "This question is based on General Literary Principles. Characterization in a novel refers to the",
+    "options": {
+      "A": "writer's opinion of the characters",
+      "B": "way the characters are revealed to the reader",
+      "C": "characters and the way they behave",
+      "D": "reader's opinion of the characters"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Prose",
+    "subtopic": "Characterization in prose",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Characterization is the way an author or an actor describes or shows what a character is like.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_3",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "3",
+    "question": "This question is based on General Literary Principles. In literary work, verbal irony refers to a",
+    "options": {
+      "A": "device in which the speaker means the opposite of what he says",
+      "B": "situation in which a character speaks or acts against the trend of events",
+      "C": "difficult situation which defies a logical or rational resolution",
+      "D": "device in which the actor on stage means exactly what he says"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Verbal irony occurs when a speaker says one thing while meaning another, resulting in an ironic clash between their intended meaning and their literal meaning. Most types of verbal irony can be classified as either overstatement or understatement.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_4",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "4",
+    "question": "This question is based on General Literary Principles. In the theatre, words spoken by a character that are meant to be heard by the audience but not by the other characters on stage is called",
+    "options": {
+      "A": "aside",
+      "B": "soliloquy",
+      "C": "accoustic",
+      "D": "tone"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Characterization and dialogue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An aside is a dramatic device in which a character speaks to the audience. By convention, the audience is to realize that the character's speech is unheard by the other characters on stage.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_5",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "5",
+    "question": "This question is based on General Literary Principles. Drama is the representation of a complete series of actions by means of",
+    "options": {
+      "A": "movement and gesture for the screen and audience",
+      "B": "speech, movement and gesture for the stage only",
+      "C": "speech, movement and gesture for the stage, screen and radio",
+      "D": "speech, gesture and movement for the screen and radio"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Drama is a play for theatre, radio, or television.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_6",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "6",
+    "question": "This question is based on General Literary Principles. A poet's use of regular rhythm is known as",
+    "options": {
+      "A": "allegory",
+      "B": "assonance",
+      "C": "metre",
+      "D": "onomatopoeia"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Rhyme scheme and meter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Metre is the basic rhythmic structure of a line within a poem or poetic work.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_7",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "7",
+    "question": "This question is based on General Literary Principles. A literary genre which directly imitates human action is",
+    "options": {
+      "A": "drama",
+      "B": "comedy",
+      "C": "prose",
+      "D": "poetry"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Types of drama (tragedy, comedy, tragicomedy)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Drama is an imitation of human actions.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_8",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "8",
+    "question": "This question is based on General Literary Principles. A fable is a story in which",
+    "options": {
+      "A": "allegations are made about characters",
+      "B": "animals or things are used as characters",
+      "C": "there is an important setting",
+      "D": "the story is told in poetic form"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Prose",
+    "subtopic": "Types of prose (novel, short story, non-fiction)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A fable is narrative form, usuallyfeaturing animals that behave and speak as human beings,",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_9",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "9",
+    "question": "This question is based on General Literary Principles. The juxtaposition of two contrasting ideas in a line of poetry is",
+    "options": {
+      "A": "euphemism",
+      "B": "synedoche",
+      "C": "catharsis",
+      "D": "oxymoron"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Oxymoron is placing side by side two contradictory words.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_10",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "10",
+    "question": "This question is based on General Literary Principles. The main aim of caricature is to",
+    "options": {
+      "A": "describe",
+      "B": "expose",
+      "C": "emphasize",
+      "D": "ridicule"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Caricature is a picture, description, or imitation of a person in which certain striking characteristics are exaggerated in order to create a comic or grotesque effect.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_11",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "11",
+    "question": "This question is based on General Literary Appreciation. O! Ceremony,show me but thy worth What is thy soul of adoration The figure of speech in the lines above is",
+    "options": {
+      "A": "antithesis",
+      "B": "invocation",
+      "C": "personification",
+      "D": "apostrophe"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An apostrophe is a literary device in which the speaker addresses either an absent person or a non-human object, idea, or being.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_12",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "12",
+    "question": "This question is based on General Literary Appreciation. \"What eyes will watch our large mouths Shaped by the laughter of big children What eyes will watch our large mouths?\" Birage Diop:Vanity The tone of the lines above is one of",
+    "options": {
+      "A": "sarcasm",
+      "B": "sacrilege",
+      "C": "chiasmus",
+      "D": "eulogy"
+    },
+    "correct_answer": "A",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sarcasm is an ironic or satirical remark tempered by humour.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_13",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "13",
+    "question": "This question is based on General Literary Appreciation. The old man slept in his favourite chair The wind ran its fingers through his hair He looked like a tree gone dry of sap And his hands were dry upon his lap The rhyme scheme of the poem above is",
+    "options": {
+      "A": "bbaa",
+      "B": "aabb",
+      "C": "abab",
+      "D": "baba"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen poetry passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "chair (a)",
+    "predicted_topics": [
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_14",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "14",
+    "question": "This question is based on General Literary Appreciation. Unequal laws unto a savage race, That board, and sleep, and feed.... The lines above show that the speaker",
+    "options": {
+      "A": "detects discrimination",
+      "B": "is desirous of adventure",
+      "C": "hates his old wife",
+      "D": "knows much of his city men"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Unequal laws unto a savage race imply a discrimination on the grounds of race",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_15",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "15",
+    "question": "This question is based on General Literary Appreciation. ....How can i look at Oyo and say i hate long shiny cars? How can i come to the children and despise international schools? And Koomson comes, and the family sees Jesus Christ in him.... The feeling conveyed by the speaker above is one of",
+    "options": {
+      "A": "anger",
+      "B": "alienation",
+      "C": "hope",
+      "D": "despair"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Despair is the complete loss or absence of hope.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_16",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "16",
+    "question": "This question is based on General Literary Appreciation. \"Hide me now, when night children haunt the earth\" Wole Soyinka:Night Night children in the stanza above reflects the consciousness of",
+    "options": {
+      "A": "birds",
+      "B": "armed robbers",
+      "C": "animals",
+      "D": "spirit beings"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Night children suggest several possibilities; the insects and animals whose cries make the night terrifying, armed robbers who work under the covering of night, evil forces or spiritual beings which are believed to operate at night. However, the poet uses the word 'haunt' which primarily pertains to a ghost of spirits.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_17",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "17",
+    "question": "This question is based on General Literary Appreciation. \"Serrated shadows, through dark leaves Til, bathed in warm suffusion of your dapped cells Sensation pained me, faceless, silent as night thieves.\" Wole Soyinka: Night The dominant mood in the lines above is one of",
+    "options": {
+      "A": "apprehension",
+      "B": "defiance",
+      "C": "joy",
+      "D": "indifference"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_18",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "18",
+    "question": "This question is based on General Literary Appreciation. \"The drums overwhelmed the guns...\" J.P Clark: Casualties The poet in the excerpt above uses",
+    "options": {
+      "A": "litotes",
+      "B": "symbolism",
+      "C": "onomatopoeia",
+      "D": "alliteration"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The drum symbolizes Africans and the guns symbolizes the British",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_19",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "19",
+    "question": "This question is based on General Literary Appreciation. ....They do not see the funeral piles At home eating up the forests...\" J.P. Clark:Casualties The imagery created in the above excerpt is achieved through",
+    "options": {
+      "A": "metaphor",
+      "B": "personification",
+      "C": "synedoche",
+      "D": "metonym"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Prescribed poetry texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "personification is when a thing is represented as a human being.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_20",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "20",
+    "question": "This question is based on General Literary Appreciation. \"I cannot rest from travel: I will drink Life to the lees, all times I have enjoyed Greatly, have suffered greatly\" A.L. Tennyson:Ulysses The lines above inform the reader that the poet",
+    "options": {
+      "A": "is determined to suffer",
+      "B": "has his poetic imagination kindled",
+      "C": "will cure his sour mood",
+      "D": "will not drink much"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Poetry",
+    "subtopic": "Types of poetry (sonnet, ode, elegy, ballad)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The poet persona is inspired to travel more, even though he had suffered greatly from past travels he feels fulfilled travelling and wants to get the most of it.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_21",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "21",
+    "question": "Based on J.C. De Graft's Sons and Daughters: Who is the paternal aunt to Aaron and Maanan?",
+    "options": {
+      "A": "Mrs Bonu",
+      "B": "Hannah",
+      "C": "Fosuwa",
+      "D": "Adwao"
+    },
+    "correct_answer": "C",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_22",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "22",
+    "question": "Based on J.C. De Graft's Sons and Daughters: From the play, George is a",
+    "options": {
+      "A": "laboratory assistant",
+      "B": "pharmacist",
+      "C": "nurse",
+      "D": "medical doctor"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_23",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "23",
+    "question": "\"If you touch me,I shall smash your face with this bottle\" Based on J.C. De Graft's Sons and Daughters,The statement above is made by",
+    "options": {
+      "A": "Manaan to lawyer B",
+      "B": "Manaan to Mrs Bonu",
+      "C": "James to Awere",
+      "D": "Awere to Aaron"
+    },
+    "correct_answer": "A",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_24",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "24",
+    "question": "\"If you touch me, I shall smash your face with this bottle\" Based on J.C. De Graft's Sons and Daughters, the issue at stake is that",
+    "options": {
+      "A": "Maanan is trying to compromise",
+      "B": "Lawyer B is trying to kiss Maanan",
+      "C": "James sees Awere as a bad influence",
+      "D": "Mrs Bonu is taunting Maanan for loving her husband"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_25",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "25",
+    "question": "\"From forth the fatal loins of these two foes A pair of star-crossed lovers take their life...\" Based on William Shakespeare's Romeo and Juliet, the lines above suggests that the tragedy in the play",
+    "options": {
+      "A": "could have been averted",
+      "B": "is predestined",
+      "C": "is brought on enmity",
+      "D": "brought misfortune on the lovers"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_26",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "26",
+    "question": "\"O she doth teach the torches to burn bright! It seems she hangs upon the cheek of night A rich jewel in an Ethiop's ear.\" Based on William Shakespeare's Romeo and Juliet, from the lines above, Juliet's beauty is presented",
+    "options": {
+      "A": "in contrast to the dark night",
+      "B": "as a source of envy to all",
+      "C": "in terms of riches",
+      "D": "as being outstanding"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_27",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "27",
+    "question": "\"The all seeing sun Ne'er saw match since first the world begun.\" Based on William Shakespeare's Romeo and Juliet, The lines above were spoken by",
+    "options": {
+      "A": "Count Paris in praise of Juliet",
+      "B": "Romeo in praise of Juliet",
+      "C": "Romeo in praise of Roseline",
+      "D": "Lady Capulet in praise of Roseline"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_28",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "28",
+    "question": "Based on William Shakespeare's Romeo and Juliet, The major role of Mercutio in the play is to",
+    "options": {
+      "A": "accompany Romeo to Friar Lawrence",
+      "B": "aid and abet Romeo's passion",
+      "C": "annoy Tybalt",
+      "D": ""
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_29",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "29",
+    "question": "Based on William Shakespeare's Romeo and Juliet, The play shares the feature of classical tragedy through the use of",
+    "options": {
+      "A": "violence on stage",
+      "B": "chorus",
+      "C": "comic relief",
+      "D": "flashback"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_30",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "30",
+    "question": "\"Meka, kneeling down in his usual fashion with his behind up in the air. Kelara knelt down beside him. Amalia and her husband knelt down as well.\" Based on Ferdinand Oyono's The Old Man and the Medal, the actions of Meka, Kelara, Amalia and her husband signify",
+    "options": {
+      "A": "parade",
+      "B": "dance",
+      "C": "prayer",
+      "D": "celebration"
+    },
+    "correct_answer": "D",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_31",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "31",
+    "question": "\"He had knocked his toes against so many things that he had no toenails anymore and the yaws he had suffered from his youth had twisted his toes up so that they pointed to the sky\" Based on Ferdinand Oyono's The Old Man and the Medal,the description above is in reference to the foot of",
+    "options": {
+      "A": "Kelara",
+      "B": "Meka",
+      "C": "Egamba",
+      "D": "Mvondo"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_32",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "32",
+    "question": "\"They said their prayers in a monotonous sing-song, kneeling on their bamboo bed like camels waiting to be loaded.\" Based on Ferdinand Oyono's The Old Man and the Medal, the dominant figure of speech in the excerpt above",
+    "options": {
+      "A": "rhetorical question",
+      "B": "simile",
+      "C": "metaphor",
+      "D": "mixed metaphor"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_33",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "33",
+    "question": "Based on Buchi Emecheta's The Joys of Motherhood, As a symbol of marital success and fulfillment, Ibuza community places a lot of importance on",
+    "options": {
+      "A": "childbirth",
+      "B": "wealth",
+      "C": "male child",
+      "D": "female child"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_34",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "34",
+    "question": "Based on Buchi Emecheta's The Joys of Motherhood, Ona on her dying bed appeals to Agbadi to",
+    "options": {
+      "A": "give her a befitting burial",
+      "B": "take good care of her children",
+      "C": "take another wife",
+      "D": "allow Nnu Ego marry a man of her choice"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_35",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "35",
+    "question": "Based on Buchi Emecheta's The Joys of Motherhood, The little money Nnaife makes after returning from Fernando PO is used for",
+    "options": {
+      "A": "expanding Nnu Ego's business",
+      "B": "expanding Nnu Ego's business",
+      "C": "sending his children to school",
+      "D": "getting more wives"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Prose",
+    "subtopic": "Prescribed prose texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_36",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "36",
+    "question": "George Orwell's Nineteen Eighty Four. The novel is mainly classified as a",
+    "options": {
+      "A": "metaphor",
+      "B": "hyperbole",
+      "C": "satire",
+      "D": "fiction"
+    },
+    "correct_answer": "C",
+    "topic": "Section 4: General Literary Principles",
+    "subtopic": "Figures of speech",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_37",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "37",
+    "question": "Based on George Orwell's Nineteen Eighty Four, Winston writes that the hope of the country lies on the",
+    "options": {
+      "A": "ministry of the truth",
+      "B": "proles",
+      "C": "party",
+      "D": "party"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_38",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "38",
+    "question": "Based on George Orwell's Nineteen Eighty Four, two minutes hate is a programme designed for",
+    "options": {
+      "A": "parents",
+      "B": "thought police",
+      "C": "the community",
+      "D": "children"
+    },
+    "correct_answer": "B",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_39",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "39",
+    "question": "Based on George Orwell's Nineteen Eighty Four, To drop his philosophy of life and imbibe the tenets of the party, Winston is subjected to all forms of torture and inhuman treatment by",
+    "options": {
+      "A": "O'Brien",
+      "B": "thought police",
+      "C": "Big Brother",
+      "D": "Goldstein"
+    },
+    "correct_answer": "C",
+    "topic": "Section 5: Literary Appreciation",
+    "subtopic": "Unseen prose passage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Institutions of Government in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature in English_2012_40",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "40",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. The movement in Adeoti's Naked Soles is characterized by",
+    "options": {
+      "A": "hope and agreement",
+      "B": "freedom and self-determination",
+      "C": "pricks and tears",
+      "D": "dissapointed and disarray"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.The movement in Adeoti's Naked Soles is characterized by",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "The Electoral Process",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_41",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "41",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. One of the dominant themes if Rubadin's An African Thunderstorm is the",
+    "options": {
+      "A": "relationship between man and woman",
+      "B": "activities of man during rainy seasons",
+      "C": "effect of rain on women and children",
+      "D": "problem of climate change"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.One of the dominant themes if Rubadin's An African Thunderstorm is the",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "The Electoral Process",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_42",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "42",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. In Kunene's A Heritage of Liberation, the weapons are to be preserved for the generation yet unborn by the",
+    "options": {
+      "A": "gods",
+      "B": "elders",
+      "C": "people",
+      "D": "government"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.In Kunene's A Heritage of Liberation, the weapons are to be preserved for the generation yet unborn by the",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_43",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "43",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. Give Me The Minstrel's Seat ends on a clarion call for",
+    "options": {
+      "A": "freedom",
+      "B": "peace",
+      "C": "rectitude",
+      "D": "commitment"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.Give Me The Minstrel's Seat ends on a clarion call for",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_44",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "44",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. \"...the youthful hue/sits on thy skin like a morning due...\" The excerpt above from Marvell's To His Coy Mistress is an example of",
+    "options": {
+      "A": "simile",
+      "B": "anaphora",
+      "C": "paradox",
+      "D": "onomatopia"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.\"...the youthful hue/sits on thy skin like a morning due...\"The excerpt above from Marvell's To His Coy Mistress is an example of",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_45",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "45",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. In Lawrence's Bat, the poet compares bats with",
+    "options": {
+      "A": "sparrows",
+      "B": "swans",
+      "C": "swallows",
+      "D": "crows"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.In Lawrence's Bat, the poet compares bats with",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_46",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "46",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. Elliot's The Journey of the Magi could be said to examine the issues of",
+    "options": {
+      "A": "three trees on the low sky",
+      "B": "empty wine-skins",
+      "C": "spiritual rebirth",
+      "D": "holy pilgrimage"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.Elliot's The Journey of the Magi could be said to examine the issues of",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_47",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "47",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. \"We would be believing we dreamt it\" The figure of speech in the line above from Acquah's In the Navel of the Soul is",
+    "options": {
+      "A": "apostrophe",
+      "B": "assonance",
+      "C": "antithesis",
+      "D": "alliteration"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.\"We would be believing we dreamt it\"The figure of speech in the line above from Acquah's In the Navel of the Soul is",
+    "explanation": "Assonanceis the repetition of vowel sounds within words. In the line:\"We would be believing we dreamt it all\", The /i:/ soundappears in \"we\",\"be\" and\"believing\"; and the /i/ sound in  \"believing\" and\"it\". This repetition of vowel sounds is a clear example ofassonance.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_48",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "48",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. The casualties in Launko's End of the War",
+    "options": {
+      "A": "women",
+      "B": "children",
+      "C": "men",
+      "D": "soldiers"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.The casualties in Launko's End of the War",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature in English_2012_49",
+    "exam": "JAMB",
+    "subject": "Literature in English",
+    "year": 2012,
+    "number": "49",
+    "question": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles. The theme of Cope's Sonnet VII is",
+    "options": {
+      "A": "art of poetry",
+      "B": "adventure",
+      "C": "contempt for literature",
+      "D": "isolation"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Drama",
+    "subtopic": "Prescribed drama texts",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "These qustion is based on selected poems from Johnson, R, et al (eds.): New Poetry from Africa; Soyinka, W. (ED.): Poems of Black Africa; Senanu, K.E. and Vincent, T. (eds.): A Selection of African Poetry: U. Maduka, C.T et al: Exam Focus: Literature Examination Guides; Nwoga, D.I. (ed.): West African Verse and Adeoti G: Naked Soles.The theme of Cope's Sonnet VII is",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  }
+]

@@ -1,0 +1,775 @@
+[
+  {
+    "id": "JAMB_Physics_2020_1",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "1",
+    "question": "A few grains of table salt were put in a cup of cold water, kept at constant temperature and left undistributed. Eventually all the water tested salty. This action is due to?",
+    "options": {
+      "A": "convection",
+      "B": "osmosis",
+      "C": "capillarity",
+      "D": "diffusion"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_2",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "2",
+    "question": "The force required to make an object of mass m, travelling with velocity v, turn in a circle of radius r is",
+    "options": {
+      "A": "(mv²/r)",
+      "B": "(mr²/x)",
+      "C": "(mr/v)",
+      "D": "(mv/r²)"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  },
+  {
+    "id": "JAMB_Physics_2020_3",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "3",
+    "question": "A machine gun with a mass of 5kg fires a 50g bullet at a speed of 100 ms⁻¹. The recoil speed of the machine gun is",
+    "options": {
+      "A": "0.5 ms⁻¹",
+      "B": "1.5 ms⁻¹",
+      "C": "1 ms⁻¹",
+      "D": "2ms⁻1"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  },
+  {
+    "id": "JAMB_Physics_2020_4",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "4",
+    "question": "If in a simple pendulum experiment the length of the inextensible string is increased by a factor of four, its period is increased by a factor of?",
+    "options": {
+      "A": "4",
+      "B": "(π/2)",
+      "C": "(1/4)",
+      "D": "2"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Wave properties and types"
+  },
+  {
+    "id": "JAMB_Physics_2020_5",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "5",
+    "question": "In what range of temperature is the expansion of water anomalous?",
+    "options": {
+      "A": "+208^oC to +212^oC",
+      "B": "-80^oC + -76^oC",
+      "C": "0^oC to +4^oC",
+      "D": "-4^oC to +0^oC"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_6",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "6",
+    "question": "Which of the following statements about radioactivity is true? (i) Alpha particle is positively charged (ii) Beta particle is negatively charged (iii) Gamma ray is neutral (iv) Beta particle has the same mass as helium atom (v) Gamma ray is charged.",
+    "options": {
+      "A": "i, ii, iii, iv only",
+      "B": "i, ii, iii only",
+      "C": "iv and v only",
+      "D": "i, ii and v only"
+    },
+    "correct_answer": "B",
+    "topic": "Electricity & Magnetism",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Electric charges and fields"
+  },
+  {
+    "id": "JAMB_Physics_2020_7",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "7",
+    "question": "In the study of Physics, temperature and heat are often confused with each other. Which of the following statements correctly defines these two elements?",
+    "options": {
+      "A": "Temperature is a measure of the average kinetic energy of the molecules of a substance",
+      "B": "Heat is a measure of the total kinetic energy of the molecules in a system",
+      "C": "Different materials require different amounts of heat to cause a given change in temperature",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_8",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "8",
+    "question": "The effect of closing the key K in the circuit shown in the figure above would be to?",
+    "options": {
+      "A": "increase the current by 0.4A",
+      "B": "reduce the current by 0.4A",
+      "C": "increase the current by 0.6A",
+      "D": "reduce the current by 0.6A"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "image": "images/JAMB_Physics_2020_8.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations",
+    "images": [
+      {
+        "filename": "Physics_2020_q8_cb0e96c0.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/DY5IwHUFqLN10SwOQI26zyQ9aiGAONxP3dbregOv.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_9",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "9",
+    "question": "Which of the following statements on the use of X-rays is incorrect? X-rays are used",
+    "options": {
+      "A": "In a hospital to obtain photographs of tissues and bones in the body",
+      "B": "For the treatment of malignant growths like cancer cells",
+      "C": "In detecting fingerprints",
+      "D": "To reveal hidden flaws in metal castings and welded joints work of art"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  },
+  {
+    "id": "JAMB_Physics_2020_10",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "10",
+    "question": "Natural radioactivity consists of emission?",
+    "options": {
+      "A": "α-particles and β-rays",
+      "B": "α-particles and X-rays",
+      "C": "γ-ray and X-rays",
+      "D": "α-particles and β-rays and γ-rays"
+    },
+    "correct_answer": "D",
+    "topic": "Atomic & Nuclear Physics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Radioactivity"
+  },
+  {
+    "id": "JAMB_Physics_2020_11",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "11",
+    "question": "If a source of solid is moving, a stationary listener will hear a sound of different frequency. This is called?",
+    "options": {
+      "A": "doppler effect",
+      "B": "resonance",
+      "C": "ultra sound",
+      "D": "rarefaction"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sound waves"
+  },
+  {
+    "id": "JAMB_Physics_2020_12",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "12",
+    "question": "Which of the following can be described as high tension transmission?",
+    "options": {
+      "A": "High resistance and low voltage",
+      "B": "Low current and high voltage",
+      "C": "High current and low voltage",
+      "D": "High current and low resistance"
+    },
+    "correct_answer": "B",
+    "topic": "Electricity & Magnetism",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Electric charges and fields"
+  },
+  {
+    "id": "JAMB_Physics_2020_13",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "13",
+    "question": "What is the cost of running five 50W lamps and four 100W lamps for 10 hours if electrical energy costs² Kobo per KWh?",
+    "options": {
+      "A": "N0.65",
+      "B": "N0.39",
+      "C": "N3.90",
+      "D": "N0.13"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Work, energy and power"
+  },
+  {
+    "id": "JAMB_Physics_2020_14",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "14",
+    "question": "Tha mass of a proton is approximately equal to that of",
+    "options": {
+      "A": "an α-particle",
+      "B": "a β-Particle",
+      "C": "a neutron",
+      "D": "an electron"
+    },
+    "correct_answer": "C",
+    "topic": "Atomic & Nuclear Physics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Atomic structure"
+  },
+  {
+    "id": "JAMB_Physics_2020_15",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "15",
+    "question": "A transformer has 300 turns of wire in the primary coil and 30 turns in the secondary coil. If the input voltage is 100 volts, the output voltage is",
+    "options": {
+      "A": "5 volts",
+      "B": "10 volts",
+      "C": "15 volts",
+      "D": "20 volts"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  },
+  {
+    "id": "JAMB_Physics_2020_16",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "16",
+    "question": "A solid weighs 4.8g in air, 2.8g in water and³.2g in Kerosine. The ratio of density of the solid to that of the kerosine is",
+    "options": {
+      "A": "2",
+      "B": "(3/2)",
+      "C": "(2/3)",
+      "D": "3"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  },
+  {
+    "id": "JAMB_Physics_2020_17",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "17",
+    "question": "One of the following readings represents the measurement of the length of a metal rod using vernier callipers. Taking the reading accuracy into consideration, the most likely one is",
+    "options": {
+      "A": "5.16cm",
+      "B": "5.165cm",
+      "C": "5.0cm",
+      "D": "5.160cm"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Wave properties and types"
+  },
+  {
+    "id": "JAMB_Physics_2020_18",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "18",
+    "question": "When a sound wave passes from air into water its",
+    "options": {
+      "A": "speed and frequency increases but its wavelength remains the same",
+      "B": "speed and wavelength increases but its frequency remains the same",
+      "C": "speed decreases",
+      "D": "speed increases but its frequency and wavelength decreases"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Wave properties and types"
+  },
+  {
+    "id": "JAMB_Physics_2020_19",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "19",
+    "question": "A convex mirror is used as a driving mirror because I. its image is erect II. It has a large field of view III. It has a long focal length Identify the CORRECT statement(s)",
+    "options": {
+      "A": "I and III only",
+      "B": "I and II only",
+      "C": "II and IIII only",
+      "D": "I, II and III only"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Wave properties and types"
+  },
+  {
+    "id": "JAMB_Physics_2020_20",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "20",
+    "question": "Two mirrors of the same length are arranges as show in the diagram. A ray of light NO strikes the system at O and emerges along PQ. The emergent ray has been deviated through",
+    "options": {
+      "A": "220^o",
+      "B": "200^o",
+      "C": "210^o",
+      "D": "180^o"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "image": "images/JAMB_Physics_2020_20.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Light reflection",
+    "images": [
+      {
+        "filename": "Physics_2020_q20_8513ceda.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/SYq9uQIDdyyLwX3vH536j0zFDKoL8jCJkym0K0Vy.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_21",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "21",
+    "question": "A magnetic needle is suspended first at the earth's north magnetic pole and then at a point on the magnetic equator. The respective angles between the needle and the horizontal are",
+    "options": {
+      "A": "0^o and 0^o",
+      "B": "60^o and 60^o",
+      "C": "90^o and 90^o",
+      "D": "90^o and 0^o"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  },
+  {
+    "id": "JAMB_Physics_2020_22",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "22",
+    "question": "A hydrometer is an instrument for measuring the",
+    "options": {
+      "A": "a depth of water of water in a vessel",
+      "B": "relative density of a liquid by the method of flotation",
+      "C": "relative density of a liquid by finding the apparent loss in weight",
+      "D": "relative humidity of the air"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_23",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "23",
+    "question": "Consider the three forces acting at O and in equilibrium as shown in the figure. Which of the following equations is/are CORRECT? I. P₁ cos ₁ = p₁ cos ₂ II. P₃ = P₁ cos ₄ + P₂ cos₂ III. P₁ ₁ = P₂ ₂",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "III only",
+      "D": "I, II and III only"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "image": "images/JAMB_Physics_2020_23.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations",
+    "images": [
+      {
+        "filename": "Physics_2020_q23_35d31194.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5p6pD30djBv9ICt9LR07iUiFNWGqbhOS2M9xuoLf.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_24",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "24",
+    "question": "The refractive index of a liquid is 1.5. If the velocity of light in vacuum is³.0 x 10⁸ms⁻¹, the velocity of light in the liquid is",
+    "options": {
+      "A": "1.5 x 10⁸ms⁻¹",
+      "B": "2.0 x 10⁸ms⁻¹",
+      "C": "3.0 x 10⁸ms⁻¹",
+      "D": "4.5 x 10⁸ms⁻¹"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Light reflection"
+  },
+  {
+    "id": "JAMB_Physics_2020_25",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "25",
+    "question": "A ship travelling towards a cliff receives the echo of its whistle after³.5 seconds. A short while later, it receives the echo after².5 seconds. If the speed of sound in air under the prevalling condition is 250ms⁻¹, how much closer is the ship to the cliff?",
+    "options": {
+      "A": "10m",
+      "B": "350m",
+      "C": "175m",
+      "D": "125m"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sound waves"
+  },
+  {
+    "id": "JAMB_Physics_2020_26",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "26",
+    "question": "Which of the following statements about defects of vision is/are CORRECT? I. For a long sighted person, close objects appear blurred II. For a short sighted person, distant objects appear blurred III. Short sight is corrected by using a pair of converging lenses",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "I and II only",
+      "D": "II and III only"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Change of state"
+  },
+  {
+    "id": "JAMB_Physics_2020_27",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "27",
+    "question": "Which of the following conditions are necessary and sufficient for total internal reflection to take place at the boundary between two optical media? I. Light is passing from optical denser medium to optically less dense medium II. Light is passing from optically less dense medium to optically denser medium III. Angle of incidence is greater than a certain critical value IV. Angle of incidence is lesser than a certain critical value",
+    "options": {
+      "A": "I and II only",
+      "B": "II only III only",
+      "C": "III and IV only",
+      "D": "I and III only"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Light reflection",
+    "passage": "Which of the following conditions are necessary and sufficient for total internal reflection to take place at the boundary between two optical media?I. Light is passing from optical denser medium to optically less dense mediumII. Light is passing from optically less dense medium to optically denser mediumIII. Angle of incidence is greater than a certain critical valueIV. Angle of incidence is lesser  than a certain critical value"
+  },
+  {
+    "id": "JAMB_Physics_2020_28",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "28",
+    "question": "The linear expansivity of brass is² x 10⁻⁵ ^oC⁻¹. If the volume of piece of brass is 10cm³ at 0^oC. What will be its volume at 100^oC?",
+    "options": {
+      "A": "10.06cm³",
+      "B": "10.04 cm³",
+      "C": "10.02 cm³",
+      "D": "10.20 cm³"
+    },
+    "correct_answer": "A",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_29",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "29",
+    "question": "The lower and upper fixed points marked on a Mercury-in-glass thermometer are 210mm apart. The end of the mercury column in the tube is 49mm above the lower fixed point in a room. What is the temperature of the room in degrees Celsius?",
+    "options": {
+      "A": "55.3^oC",
+      "B": "23.3^oC",
+      "C": "49.0^oC",
+      "D": "16.43^oC"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_30",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "30",
+    "question": "Heat is supplied uniformly at the rate of 100W to 1.0 x 10⁻²kg of a liquid for 20 seconds. If the temperature of the liquid rises by 5^oC, then the specific heat capacity of the liquid is",
+    "options": {
+      "A": "2.0 x 10²Jkg⁻1K⁻1",
+      "B": "2.0 x 10²Jkg⁻1",
+      "C": "4.0 x 10⁴Jkg⁻1K⁻1",
+      "D": "4.0 x 10⁴Jkg⁻1"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_31",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "31",
+    "question": "Two divers G and H are at depths 20m and 40m, respectively below the water surface in a lake. The pressure on G is p₁ while the pressure on H is P₂, If the atmospheric pressure is equivalent to 10m of water, then the value of P₂/P₁ is?",
+    "options": {
+      "A": "0.50",
+      "B": "0.60",
+      "C": "1.67",
+      "D": "2.00"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat"
+  },
+  {
+    "id": "JAMB_Physics_2020_32",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "32",
+    "question": "The fiqure above represents a block-and-tackle pulley system on which an effort of W Newtons supports a load of 120.0N. If the efficiency of the machine is 40^o, then the value of W is",
+    "options": {
+      "A": "28.0N",
+      "B": "48.0N",
+      "C": "288.0N",
+      "D": "50.0N"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "image": "images/JAMB_Physics_2020_32.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Newton's laws of motion",
+    "images": [
+      {
+        "filename": "Physics_2020_q32_e57242ce.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/YGpJldeLPouIgwLwpRSbkK1Q9aV2ycrWrjmQ9Ggj.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_33",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "33",
+    "question": "In an experiment in which molten naphthalene is allowed to cool, the cooling curve i n the figure was obtained. The temperature 80^oC is known as the",
+    "options": {
+      "A": "cooling temperature",
+      "B": "boiling point",
+      "C": "melting point",
+      "D": "vaporization point"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "image": "images/JAMB_Physics_2020_33.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Temperature and heat",
+    "images": [
+      {
+        "filename": "Physics_2020_q33_28aef87c.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/cQ5mbtQdfDn5pVlVtNKJvKJuO4ZdxR8IErZsQldH.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_34",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "34",
+    "question": "In the figure, the value of R is",
+    "options": {
+      "A": "3Ω",
+      "B": "6Ω",
+      "C": "4Ω",
+      "D": "5Ω"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "image": "images/JAMB_Physics_2020_34.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations",
+    "images": [
+      {
+        "filename": "Physics_2020_q34_447740c1.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/Uc07fBz6cnNEYbjRk4PG630LkBcGNMQGODVAeME4.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_35",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "35",
+    "question": "Which of the following instruments consumes the highest current? I. Electric iron II. Television set III. Torchlight IV. Immersion heater 250v 220v 6v 110v 1kW 110W 30W 500W",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Electric charges and fields",
+    "table_html": "<table border=\"1\" cellpadding=\"3\" cellspacing=\"0\" style=\"width:70%\">\n<tbody>\n<tr>\n<td>\n<p>I. Electric iron</p>\n<p>II. Television set</p>\n<p>III. Torchlight</p>\n<p>IV. Immersion heater</p>\n</td>\n<td>\n<p>250v</p>\n<p>220v</p>\n<p>6v</p>\n<p>110v</p>\n</td>\n<td>\n<p>1kW</p>\n<p>110W</p>\n<p>30W</p>\n<p>500W</p>\n</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+    "id": "JAMB_Physics_2020_36",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "36",
+    "question": "In which of the following diagrams is the length of the tube equal to one wavelength?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "c",
+      "D": "d"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "image": "images/JAMB_Physics_2020_36.jpeg",
+    "source": "myschool.ng",
+    "subtopic": "Wave properties and types",
+    "images": [
+      {
+        "filename": "Physics_2020_q36_5e3eebf0.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/gRXJ3QOkgnEDBIbqK54L1xwkq4t9ebfbukVQR1wk.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2020_37",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "37",
+    "question": "Which of the following pairs is part of the electromagnetic spectrum? I. Radio waves II. sound waves III. Gamma rays IV. water waves",
+    "options": {
+      "A": "I and II",
+      "B": "III and IV",
+      "C": "I and III",
+      "D": "II and IV"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Sound waves"
+  },
+  {
+    "id": "JAMB_Physics_2020_38",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2020,
+    "number": "38",
+    "question": "A substance has half of³ min. After 6 min, the count rate was observed to be 400. What was its count rate at zero time?",
+    "options": {
+      "A": "1600",
+      "B": "1200",
+      "C": "200",
+      "D": "2400"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "Linear motion and equations"
+  }
+]

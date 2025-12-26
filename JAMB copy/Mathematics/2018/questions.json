@@ -1,0 +1,1625 @@
+[
+  {
+    "id": "JAMB_Mathematics_2018_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "1",
+    "question": "In a class of 40 students, 32 offer Mathematics, 24 offer Physics and 4 offer neither Mathematics nor Physics. How many offer both Mathematics and Physics?",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "16",
+      "D": "20"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let the number of people that offer both Mathematics and Physics = y",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "2",
+    "question": "Find the values of x for which {x+2}{4} - (2x - 3/3) < 4",
+    "options": {
+      "A": "x < 8",
+      "B": "x > -6",
+      "C": "x < 4",
+      "D": "x >⁻³"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "{x+2}{4} - (2x - 3/3) < 4",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "3",
+    "question": "The pie chart shows the monthly expenditure of a public servant. The monthly expenditure on housing is twice that of school fees. How much does the worker spend on housing if his monthly income is N7200?",
+    "options": {
+      "A": "1000",
+      "B": "2000",
+      "C": "3000",
+      "D": "4000"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let the angle for school fees = x°",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q3_12d7b350.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/uXgz1XwIFRLOprFX0QRG7ZSDHiU3lqeeUD40J7b8.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "4",
+    "question": "A trader realises 10x - x² Naira profit from the sale of x bags of corn. How many bags will give him the maximum profit?",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "5",
+      "D": "4"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Profit (P) = 10_x − _x2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "5",
+    "question": "If y = 23fᵢᵥₑ + 101ₜₕᵣₑₑ , find y, leaving your answer in base two",
+    "options": {
+      "A": "1110",
+      "B": "10111",
+      "C": "11101",
+      "D": "111100"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = 23fᵢᵥₑ + 101ₜₕᵣₑₑ",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "6",
+    "question": "Find the value of x in the diagram",
+    "options": {
+      "A": "10°",
+      "B": "28°",
+      "C": "36°",
+      "D": "40°"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The diagram shows angles at a point, the total angle at a point is 360",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q6_1c1ae39e.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/f5IiTpx6M61r2Es0ICA5vl98vwza1HICU1lVSkD5.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "7",
+    "question": "Solve for t in the equation (3/4)t + (1/3)(21 - t) = 11",
+    "options": {
+      "A": "(9/13)",
+      "B": "(7/13)",
+      "C": "5",
+      "D": "9(3/5)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "(3/4) t + (1/3) (21 - t) = 11",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "8",
+    "question": "A school girl spends (1/4) of her pocket money on books and (1/3) on dress. What fraction remains?",
+    "options": {
+      "A": "(5/6)",
+      "B": "(7/12)",
+      "C": "(5/12)",
+      "D": "(1/6)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "let the girls' initial pocket money be whole(1)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "9",
+    "question": "If (x/a + 1) + (y/b) = 1. Make y the subject of the relation.",
+    "options": {
+      "A": "(b(a + 1 - x)/a + 1)",
+      "B": "(a + 1/b(a - x + 1))",
+      "C": "(a(b - x + 1)/b + 1)",
+      "D": "(b/a(b - x + 1))"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "10",
+    "question": "Calculate the total surface area of a cupboard which measures 12cm by 10cm by 8cm",
+    "options": {
+      "A": "1920cm²",
+      "B": "592cm²",
+      "C": "296cm²",
+      "D": "148cm²"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Mensuration (areas and volumes)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total surface area of a cupboard is given by the equation A = 2(lb + bh + lh) L = 12, b = 10, h = 8",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "11",
+    "question": "Convert 0.04945 to two significant figures",
+    "options": {
+      "A": "0.040",
+      "B": "0.049",
+      "C": "0.050",
+      "D": "0.49"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "12",
+    "question": "The probabilities that John and James pass an examination are {3}{4}and {3}{5} respectively. Find the probability of both boys failing the examination.",
+    "options": {
+      "A": "{1}{10}",
+      "B": "{2}{10}",
+      "C": "{9}{20}",
+      "D": "{11}{20}"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To find the probability of both John and James failing the examination:",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Mathematics_2018_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "13",
+    "question": "An arc of a circle of radius 14cm subtends angle 300° at the centre. Find the perimeter of the sector formed by the arc (take π = (22/7))",
+    "options": {
+      "A": "14.67cm",
+      "B": "73.33 cm",
+      "C": "101.33cm",
+      "D": "513.33cm"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Length of the arc = (θ/360) × 2π r",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "14",
+    "question": "Simplify 25⁽²/³⁾ ÷ 25⁽¹/⁶⁾ ((1/5))⁽⁷/⁶⁾ ÷ ((1/5))⁽¹/⁶⁾",
+    "options": {
+      "A": "25",
+      "B": "1",
+      "C": "(1/5)",
+      "D": "(1/25)"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "25⁽²/³⁾ ÷ 25⁽¹/⁶⁾ ((1/5))⁽⁷/⁶⁾ ÷ ((1/5))⁽¹/⁶⁾",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "15",
+    "question": "Make T the subject of the relation.",
+    "options": {
+      "A": "T = (R + P3/15Q)",
+      "B": "T = (R - 15P³/Q)",
+      "C": "T =R - (15P³/Q)",
+      "D": "T = (15R + Q/P³)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = ((Q( R - T )/15))^(1/3)",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q15_b7120261.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/WkeMTDpzxSHugHw0Sss0b8qZkLIkwDVH9iaYUG1S.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "16",
+    "question": "What is the place value of 9 in the number³.0492?",
+    "options": {
+      "A": "(9/10000)",
+      "B": "(9/1000)",
+      "C": "(9/100)",
+      "D": "(9/10)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "17",
+    "question": "If the simple interest on a sum of money invested at³% per annum for²(1/2) years is N123, find the principal.",
+    "options": {
+      "A": "N676.50",
+      "B": "N820",
+      "C": "N1,640",
+      "D": "N4,920"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "18",
+    "question": "A machine valued at N20,000 depreciates by 10% every year. What will be the value of the machine at the end of two years?",
+    "options": {
+      "A": "N16,200",
+      "B": "N14,200",
+      "C": "N12,000",
+      "D": "N8,000"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since it depreciates by 10% At the end of first year, its value = 90% of 20000",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "19",
+    "question": "The table shown gives the marks scored by a group of student in a test. Use the table to answer the question given. Mark 0 1²³ 4 5 Frequency 1² 7 5 4³ What is the median mark?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total frequency = 1 + 2 + 7 + 5 + 4 + 3 = 22",
+    "table_html": "<table border=\"1\">\n<tbody>\n<tr>\n<td>Mark</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>1</td>\n<td>2</td>\n<td>7</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "20",
+    "question": "The table shown gives the marks scored by a group of student in a test. Use the table to answer the question given. Mark 0 1²³ 4 5 Frequency 1² 7 5 4³ What is the probability of selecting a student from the group that scored² or³",
+    "options": {
+      "A": "(1/11)",
+      "B": "(5/22)",
+      "C": "(7/22)",
+      "D": "(6/11)"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "table_html": "<table border=\"1\">\n<tbody>\n<tr>\n<td>Mark</td>\n<td>0</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Frequency</td>\n<td>1</td>\n<td>2</td>\n<td>7</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "21",
+    "question": "A boy walks 800m in 20 minutes. Calculate his average speed in Km/H",
+    "options": {
+      "A": "2.4",
+      "B": "4",
+      "C": "24",
+      "D": "6"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "22",
+    "question": "A car uses one litre of petrol for every 14km. If one litre of petrol cost N63.00, how far can the car go with N900.00 worth of petrol?",
+    "options": {
+      "A": "420Km",
+      "B": "405Km",
+      "C": "210Km",
+      "D": "200Km"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "since 1litre cost ₦63",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "23",
+    "question": "In the diagram, GI is a tangent to the circle at H. If EF||GI, calculate the size of ∠EHF",
+    "options": {
+      "A": "126°",
+      "B": "72°",
+      "C": "54°",
+      "D": "28°"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "<IHF = < EFH = 54º ( alternate angles)",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q23_ba6d2dc9.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/91UltQHRpqqUoY6EZiyH5dvwovjXe7wrZehmfVJB.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "24",
+    "question": "How many times, correct to the nearest whole number, will a man run round a circular track of diameter 100m to cover a distance of 1000m?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In terms of distance, a circle has a total distance or perimeter of 2πr or πd",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "25",
+    "question": "(0.00256 × 0.0064/0.025 × 0.08)",
+    "options": {
+      "A": "8.8 x 10⁻¹",
+      "B": "8.8 x 10⁻²",
+      "C": "8.2 x 10⁻³",
+      "D": "8.8 x 10³"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "26",
+    "question": "Two sisters, Taiwo and Kehinde, own a store. The ratio of Taiwo's share to Kehinde's is 11:9. Later Kehinde sells (2/3) of her share to Taiwo for N720.00. Find the value of the store",
+    "options": {
+      "A": "N1,080.00",
+      "B": "N₂,400.00",
+      "C": "N3,000.00",
+      "D": "N3,600.00"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "27",
+    "question": "A room is 12m long, 9m wide and 8m high. Find the cosine of the angle which a diagonal of the room makes with the floor of the room.",
+    "options": {
+      "A": "(15/17)",
+      "B": "(9/17)",
+      "C": "(8/15)",
+      "D": "(12/17)"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given length of the room = 12m; breadth = 9m and height = 8m.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "28",
+    "question": "Divide the L.C.M of 48, 64 and 80 by their H.C.F",
+    "options": {
+      "A": "20",
+      "B": "30",
+      "C": "48",
+      "D": "60"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "29",
+    "question": "Find the equation of the line through (5,7) parallel to the line 7x + 5y = 12",
+    "options": {
+      "A": "5x + 7y = 20",
+      "B": "7x + 5y = 70",
+      "C": "xy = 7",
+      "D": "15x + 17y = 90"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Find the equation of the line through (5,7) parallel to the line 7x + 5y = 12",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "30",
+    "question": "A man's initial salary is N540.00 a month and increases after each period of six months by N36.00. Find his salary in the eight month of the third year.",
+    "options": {
+      "A": "N828.00",
+      "B": "N756.00",
+      "C": "N720.00",
+      "D": "N684.00"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since the salary increases by #36 after every 6 months",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "31",
+    "question": "A man stands on a tree 150cm high and sees a boat at an angle of depression of 74°. Find the distance of the boat from the base of the tree.",
+    "options": {
+      "A": "52cm",
+      "B": "43cm",
+      "C": "40cm",
+      "D": "15cm"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Tan 74 = 150/x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "32",
+    "question": "Integrate the expression 6x² - 2x + 1",
+    "options": {
+      "A": "3x³ - 2x² + x + c",
+      "B": "2x³ - x² + x + c",
+      "C": "2x³ – 3x² + c",
+      "D": "x³ + x² – x + c"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "6x² - 2x + 1",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "33",
+    "question": "In how many ways can the letters LEADER be arranged?",
+    "options": {
+      "A": "72",
+      "B": "144",
+      "C": "360",
+      "D": "720"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The word LEADER has 1L 2E 1A 1D and 1R making total of 6! (6/1!2!1!1!1!) = (6!/2!)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "34",
+    "question": "In the figure below, /MX/ = 8cm, /XN/ = 12cm, /NZ/ = 4cm and ∠ XMN = ∠ XZY. Calculate /YM/",
+    "options": {
+      "A": "32cm",
+      "B": "24 cm",
+      "C": "16 cm",
+      "D": "12 cm"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "From the figure,",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q34_14715c46.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/DVp8gg97OuYlEzIaP3Co2M5JrRQ8dIsucx4SfBIN.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "35",
+    "question": "Express 495g as a percentage of 16.5kg",
+    "options": {
+      "A": "3%",
+      "B": "3 (1/3)%",
+      "C": "15%",
+      "D": "30%"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The two numbers must be expressed in the same unit. To convert 495g to kg, it will be divided by 1000",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "36",
+    "question": "Evaluate (2√3 - 4) (2√3 + 4)",
+    "options": {
+      "A": "-4",
+      "B": "-2",
+      "C": "2",
+      "D": "4"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2√3 - 4) ( 2√3 + 4)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "37",
+    "question": "Find the equation of the tangent at the point (2, 0) to the curve y = x² - 2x",
+    "options": {
+      "A": "y = 2x - 4",
+      "B": "y = 2x + 4",
+      "C": "y = 2x - 2",
+      "D": "y = 2x + 2"
+    },
+    "correct_answer": "A",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The gradient to the curve is found by differentiating the curve equation with respect to x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "38",
+    "question": "Use the quadratic equation curve to answer this questions What is the minimum value of the graph?",
+    "options": {
+      "A": "-5.3",
+      "B": "0.5",
+      "C": "3",
+      "D": "8"
+    },
+    "correct_answer": "A",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Application of differentiation (maxima, minima, rate of change)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The minimum value is the lowest value of the curve on y axis which gives a value of -5.3",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q38_f48c785f.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/2Cgh2bwCU6f3MIa0qJaW0VIlja87QJBISZL1svpK.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "39",
+    "question": "Evaluate log₂ 8 – log₃ (1/9)",
+    "options": {
+      "A": "-1 1(1/2)",
+      "B": "-1",
+      "C": "1",
+      "D": "5"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "log₂ 8 – log₃ (1/9)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "40",
+    "question": "Tanθ is positive and Sinθ is negative. In which quadrant does θ lies",
+    "options": {
+      "A": "Second only",
+      "B": "Third only",
+      "C": "Fourth only",
+      "D": "First and third only"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "First quadrant: Sin, Cos and Tan are all positive",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "41",
+    "question": "The table above shows the frequency of children age x years in a hospital x 1²³ 4 5 6 7 8 y³ 4 5 6 7 6 5 4 How many children are in the hospital",
+    "options": {
+      "A": "36",
+      "B": "40",
+      "C": "44",
+      "D": "50"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The total number of students is ∑ f = 3 + 4 + 5 + 6 + 7 + 6 + 5 + 4",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q41_17e7e39d.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/NPMTWTqcHTwcdJdRXq57DH7T1xVnVTZXPB6zOzHm.jpeg"
+      }
+    ],
+    "table_html": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n<caption>The table above shows the frequency of children age x years in a hospital</caption>\n<tbody>\n<tr>\n<td>x</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>8</td>\n</tr>\n<tr>\n<td>y</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "42",
+    "question": "The figure above is a Venn diagram showing the elements arranged within sets A,B,C,ε. Use the figure to answer this question What is n(A U B)1 ?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "7"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A = (p, q, r, t, u, v)",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q42_452c07de.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/ldSRxCNo55SRZR9HvwZ8UUvU5fzGMjs1psZWQ97B.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "43",
+    "question": "What is the loci of a distance 4cm from a given point P?",
+    "options": {
+      "A": "A straight line of length 4cm",
+      "B": "a circle of radius 4cm",
+      "C": "perpendicular to point P at 4cm",
+      "D": "a circle of diameter 4cm"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "44",
+    "question": "Given that Sin (5_x − 28)^o = Cos(3_x − 50)^o, o < x < 90^o Find the value of x",
+    "options": {
+      "A": "14^o",
+      "B": "21^o",
+      "C": "32^o",
+      "D": "39^o"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sin(5x - 28) = Cos(3x - 50)………..i",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "45",
+    "question": "Find the average of the first four prime numbers greater than 10",
+    "options": {
+      "A": "20",
+      "B": "19",
+      "C": "17",
+      "D": "15"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Inequalities",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Prime numbers are numbers that has only two factors (i.e 1 and itself). They are numbers that are only divisible by 1 and their selves. First four Prime numbers greater than 10 are 11, 13, 17 and 19",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "46",
+    "question": "What is the modal age?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The modal age is the age with the highest frequency, and that is age 5 years with f of 7",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q46_893faffd.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/XGnFFe18OLqce38zIgy4YeBcLYQs6iBKxGxjvG5H.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "47",
+    "question": "Convert 0.04945 to two significant figures",
+    "options": {
+      "A": "0.040",
+      "B": "0.049",
+      "C": "0.050",
+      "D": "0.49"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "0.04945 to 2s.f is 0.049",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "48",
+    "question": "Calculate 243ₛᵢₓ – 243fᵢᵥₑ expressing your answer in base 10",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "26",
+      "D": "46"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Since they are of different base, convert to base 10",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_49",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "49",
+    "question": "Evaluate ∫²₁ (5/x) dx",
+    "options": {
+      "A": "1.47",
+      "B": "2.67",
+      "C": "3.23",
+      "D": "3.47"
+    },
+    "correct_answer": "D",
+    "topic": "Section IV: Calculus",
+    "subtopic": "Integration and area under curve",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∫(5/x) dx = 5 ∫(1/x) = 5Inx",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_50",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "50",
+    "question": "Tossing a coin and rolling a die are two separate events. What is the probability of obtaining a tail on the coin and an even number on the die?",
+    "options": {
+      "A": "(1/16)",
+      "B": "(1/6)",
+      "C": "(1/4)",
+      "D": "(3/8)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P( tail on a coin) = (1/2)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_51",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "51",
+    "question": "Out of 7 consonants and 4 vowels, how many words of³ consonants and² vowels can be formed?",
+    "options": {
+      "A": "210",
+      "B": "1050",
+      "C": "21400",
+      "D": "25200"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To form words having³ consonants and² vowels out of 7 consonants and 4 vowels, the number of such words is 7/3Cx 4/2C= 35 x 6",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_52",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "52",
+    "question": "From a point P, Q is 5km due West and R is12km due South of Q. Find the distance between P and R.",
+    "options": {
+      "A": "5km",
+      "B": "12km",
+      "C": "13km",
+      "D": "17km"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using Pythagoras theorem",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_53",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "53",
+    "question": "if y = 23fᵢᵥₑ + 101ₜₕᵣₑₑ find y leaving your answer in base two",
+    "options": {
+      "A": "1110",
+      "B": "10111",
+      "C": "11101",
+      "D": "111100"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_54",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "54",
+    "question": "A box contains two red balls and four blue balls. A ball is drawn at random from the box and then replaced before a second ball is drawn. Find the probability of drawing two red balls.",
+    "options": {
+      "A": "(2/3)",
+      "B": "(1/3)",
+      "C": "(1/4)",
+      "D": "(1/9)"
+    },
+    "correct_answer": "D",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Total number of balls = 2 + 4 = 6",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_55",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "55",
+    "question": "Which one of the following gives the members of the set A1 n B n C?",
+    "options": {
+      "A": "Φ",
+      "B": "s",
+      "C": "t, u",
+      "D": "y, z"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A1 = Elements in the universal set but not in A = s, w, x, y, z",
+    "images": [
+      {
+        "filename": "Mathematics_2018_q55_13cbd162.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/1h4J8JwhwXMiWuf8oiXD2vXzN4nJbv9tTRqxZsHn.jpeg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_56",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "56",
+    "question": "Calculate the area of an equilateral triangle of side 8cm",
+    "options": {
+      "A": "8√3",
+      "B": "16",
+      "C": "4√3",
+      "D": "16√3"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An equilateral triangle has all sides equal and all angles equal as 600",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_57",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "57",
+    "question": "Approximate 0.9875 to 1 decimal place.",
+    "options": {
+      "A": "1.1",
+      "B": "1.0",
+      "C": "0.9",
+      "D": "0.10"
+    },
+    "correct_answer": "B",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "9 is on one decimal place, the next number to it is 8 which will be rounded up to 1 because it is greater than 5 and then added to 9 to give 10, 10 cannot be written, it will then be rounded up to 1 and added to 0.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_58",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "58",
+    "question": "Simplify 25⁽⁽¹/²⁾ × 8⁽⁽⁻²/³⁾",
+    "options": {
+      "A": "1(1/4)",
+      "B": "2(1/4)",
+      "C": "6",
+      "D": "10"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using law of indices",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_59",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "59",
+    "question": "From a point R, 300m north of P, a man walks eastwards to a place; Q which is 600m from P. Find the bearing of P from Q correct to the nearest degree",
+    "options": {
+      "A": "026^o",
+      "B": "045^o",
+      "C": "210^o",
+      "D": "240^o"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_60",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "60",
+    "question": "Add 54 ₑᵢgₕₜ and 67ₑᵢgₕₜ giving your answers in base eight",
+    "options": {
+      "A": "111",
+      "B": "121",
+      "C": "123",
+      "D": "143"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "54 ₑᵢgₕₜ and 67ₑᵢgₕₜ = 1438",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_61",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "61",
+    "question": "If X, Y can take values from the set (1, 2, 3 ,4), find the probability that the product of X and Y is not greater than 6",
+    "options": {
+      "A": "(5/8)",
+      "B": "(5/16)",
+      "C": "(1/2)",
+      "D": "(3/8)"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "x123411*2*3*4*22*4*6*833*6*91244*81216",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2018_62",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2018,
+    "number": "62",
+    "question": "If N = pmatrix³ & 5 &⁻⁴ \\ 6 &⁻³ & -5 \\⁻² & 2 & 1 {pmatrix}, find |N|.",
+    "options": {
+      "A": "65",
+      "B": "23",
+      "C": "17",
+      "D": "91"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "vmatrix³ & 5 &⁻⁴ \\ 6 &⁻³ & -5 \\⁻² & 2 & 1 vmatrix",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

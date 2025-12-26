@@ -1,0 +1,242 @@
+[
+  {
+    "id": "JAMB_Government_2022_1",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "1",
+    "question": "The highest authority in the Yoruba pre-colonial era was the _____",
+    "options": {
+      "A": "\n\n            Ogboni\n",
+      "B": "\n\n            Oba\n",
+      "C": "\n\n            Oyomesi\n",
+      "D": "\n\n            Balogun\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Pre-Colonial Polities (Hausa, Emirate, Tiv, Igbo, Yoruba)",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2022_2",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "2",
+    "question": "The philosophy behind Nigerian federalism is",
+    "options": {
+      "A": "\n\n            unity in diversity  \n",
+      "B": "\n\n            sectional development\n",
+      "C": "\n\n            review of sectionalism\n",
+      "D": "\n\n             colonial rule\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part II: Political Development in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "2. Imperialist Penetration (British and French Colonial Policies)",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2022_3",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "3",
+    "question": "One of the constitutional requirements for the registration of political parties in Nigeria is ______",
+    "options": {
+      "A": "\n\n            provision for review of party manifesto\n",
+      "B": "\n\n            ofices in at least 12 states\n",
+      "C": "\n\n            menbership from at least 12 states\n",
+      "D": "\n\n            national presence in the federal capital territory\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "1. Basic Concepts in Government (Power, Authority, Legitimacy, Sovereignty)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Constitution"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2022_4",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "4",
+    "question": "The Security Council of the United Nations Organization has",
+    "options": {
+      "A": "\n\n            five permanent members\n",
+      "B": "\n\n            seven permanent members\n",
+      "C": "\n\n            four permanent members\n",
+      "D": "\n\n            three permanent members.\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "5. UNO (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2022_5",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "5",
+    "question": "The oversight function is performed by the",
+    "options": {
+      "A": "\n\n            judiciary\n",
+      "B": "\n\n            executive\n",
+      "C": "\n\n            court\n",
+      "D": "\n\n            legislature\n"
+    },
+    "correct_answer": "D",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "3. Arms of Government (Legislature, Executive, Judiciary)",
+    "predicted_topics": [
+      "Arms of Government"
+    ],
+    "predicted_subtopics": [
+      "Arms of Government :: Judiciary"
+    ]
+  },
+  {
+    "id": "JAMB_Government_2022_6",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "6",
+    "question": "Before the emergence of OAU as a regional body, Nigeria belonged to",
+    "options": {
+      "A": "\n\n            Casablanca group\n",
+      "B": "\n\n            Monrovia group\n",
+      "C": "\n\n            Casablanca/Brazzavılle group\n",
+      "D": "\n\n            Brazzaville group\n"
+    },
+    "correct_answer": "B",
+    "topic": "Part IV: International Organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "2. OAU/AU (Origin, Objectives, Structure, Functions)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2022_7",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "7",
+    "question": "The political rights of a citızen include the",
+    "options": {
+      "A": "\n\n            freedom of speech\n",
+      "B": "\n\n            right to employment\n",
+      "C": "\n\n            right to vote\n",
+      "D": "\n\n            right to lıfe\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "11. The Electoral Process (Suffrage, Elections, Electoral Systems)",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2022_8",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "8",
+    "question": "One of the features of rule of law is that an",
+    "options": {
+      "A": "\n\n            offender is a deterrent\n",
+      "B": "\n\n            accused is a culprit before trial\n",
+      "C": "\n\n            accused must receive fair hearing\n",
+      "D": "\n\n            accused is an offender\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "8. Principles of Democratic Government (Rule of Law, Separation of Powers)",
+    "predicted_topics": [
+      "Principles of Democratic Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2022_9",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "9",
+    "question": "The first Legislative Councıl in Nigeria was established by",
+    "options": {
+      "A": "\n\n            Clifford Constitution\n",
+      "B": "\n\n            Richards Constitution\n",
+      "C": "\n\n            Macpherson Constitution\n",
+      "D": "\n\n            Lytleton Constitution\n"
+    },
+    "correct_answer": "A",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "7. Constitution (Meaning, Sources, Functions, Types)",
+    "predicted_topics": [
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Government_2022_10",
+    "exam": "JAMB",
+    "subject": "Government",
+    "year": 2022,
+    "number": "10",
+    "question": "An electoral system in which the winner must secure more than 50% of the vote is described as a/an",
+    "options": {
+      "A": "\n\n            plurality system\n",
+      "B": "\n\n            proportional representation\n",
+      "C": "\n\n            an absolute majority\n",
+      "D": "\n\n            electoral oblıgation\n"
+    },
+    "correct_answer": "C",
+    "topic": "Part I: Elements of Government",
+    "image": null,
+    "source": "myschool.ng",
+    "subtopic": "11. The Electoral Process (Suffrage, Elections, Electoral Systems)",
+    "predicted_topics": [
+      "The Electoral Process"
+    ],
+    "predicted_subtopics": []
+  }
+]

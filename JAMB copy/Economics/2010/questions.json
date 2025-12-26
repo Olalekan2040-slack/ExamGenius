@@ -1,0 +1,1253 @@
+[
+  {
+    "id": "JAMB_Economics_2010_1",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "1",
+    "question": "Economics is the study of human behaviour as it relates to the",
+    "options": {
+      "A": "efficient allocation of resources",
+      "B": "production of goods",
+      "C": "operation of companies",
+      "D": "generation of income"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Economics as the study of human behaviour has to do with efficiently allocating scarce resources to satisfy human wants. These human wants are unlimited, hence humans would rationally allocate resources to wants that will give them the highest level of satisfaction.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_2",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "2",
+    "question": "The downturn in the prices of shares on stock markets is a highlight of",
+    "options": {
+      "A": "efficient allocation of resources",
+      "B": "the invisible hand",
+      "C": "the regulatory nature of the market",
+      "D": "consumer rationality"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What is a regulated market? A regulated market is one that is supervised or controlled to some extent by the government or established public body. Most financial trading exchanges such as stock markets are regulated.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_3",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "3",
+    "question": "The standard deviation of a set of data is",
+    "options": {
+      "A": "always measured from the mode",
+      "B": "the most representative of averages",
+      "C": "always measured from the median",
+      "D": "a measure of dispersion"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The standard deviation is a statistic that measures the dispersion of a dataset relative to its mean and is calculated as the square root of the variance.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_4",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "4",
+    "question": "The mean is the best measure of central tendency because it",
+    "options": {
+      "A": "is not affected by extreme values in a data",
+      "B": "is a midpoint value in an array of data",
+      "C": "is a balancing point in an observation",
+      "D": "can be calculated from incomplete data"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The mean is an important measure because it incorporates the score from every subject in the research study. It includes all the data in a set to arrive at an answer.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_5",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "5",
+    "question": "The most popular sizes of dresses and shoes are determined by the",
+    "options": {
+      "A": "range",
+      "B": "mean",
+      "C": "mode",
+      "D": "median"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The mode of a set of data is the value that appears most often.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_6",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "6",
+    "question": "If the demand for a good is more elastic than its supply, the tax burden is borne",
+    "options": {
+      "A": "equally by consumers and producers",
+      "B": "more by producers",
+      "C": "more by consumers",
+      "D": "more by retailers and producers"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If the demand for a good is elastic it means a change in price would affect a change in quantity demanded.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_7",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "7",
+    "question": "If the price of a commodity with elastic demand increases, the revenue accruing to the producer will",
+    "options": {
+      "A": "double",
+      "B": "increase",
+      "C": "be constant",
+      "D": "decrease"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If the demand for a good is elastic, the producer revenue will reduce. This is because, when there is an increase in price it will lead to a decrease in the quantity demanded, consumers would most likely move on to consume a substitute, hence the producer of that product would loose revenue as a result of a drop in sales.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_8",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "8",
+    "question": "Consumer surplus tends to be higher when demand is",
+    "options": {
+      "A": "inelastic",
+      "B": "perfectly elastic",
+      "C": "elastic",
+      "D": "unitarily elastic"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_9",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "9",
+    "question": "One of the assumptions of ordinal utility theory is that",
+    "options": {
+      "A": "choice is not consistent",
+      "B": "utility can be ranked",
+      "C": "total utility is a function of price",
+      "D": "satisfaction is measurable"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An ordinal utility function is a function representing the preferences of an agent on an ordinal scale. Ordinal utility theory claims that it is only meaningful to ask which option is better than the other, but it is meaningless to ask how much better it is or how good it is. This means that utility can only be ranked and not measured as claimed by other theories.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_10",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "10",
+    "question": "The law of diminishing marginal utility explains why",
+    "options": {
+      "A": "the slope of a normal demand curve is negative",
+      "B": "an abnormal demand curve slopes upwards",
+      "C": "the slope of a normal demand curve is positive",
+      "D": "the consumption of inferior goods increases with income"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In economics, the law of diminishing marginal utility states that the marginal utility of a good or service declines as its supply increases.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_11",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "11",
+    "question": "If a consumer plans to spend 120k on four oranges but spent 80k, his consumer surplus is",
+    "options": {
+      "A": "N1.50",
+      "B": "N0.40",
+      "C": "N1.00",
+      "D": "N2.00"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Consumer Surplus is the difference between the price that consumers pay and the price that they are willing to pay.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_12",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "12",
+    "question": "A set of factors that can shift the supply curve are changes in",
+    "options": {
+      "A": "weather, price and technology",
+      "B": "technology, weather and population",
+      "C": "technology, price and taste",
+      "D": "population, price and taste"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A shift in the supply curve is brought about by a change in supply. Changes in production cost and related factors can cause an entire supply curve toshiftright or left.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_13",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "13",
+    "question": "If the coefficient of price elasticity of supply is greater than one, the supply is said to be",
+    "options": {
+      "A": "perfectly elastic",
+      "B": "fairly inelastic",
+      "C": "infinitely inelastic",
+      "D": "fairly elastic"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If a price elasticity of supply is greater than 1, it means supply is relatively or fairly elastic",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_14",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "14",
+    "question": "If commodity X is a by-product of commodity Y , this implies that both commodities are",
+    "options": {
+      "A": "in competitive supply",
+      "B": "in composite supply",
+      "C": "jointly supplied",
+      "D": "in excess supply"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When the process of making one thing results in a second product as well, that second thing is called a byproduct. Example The production of computer systems, require a software to function, hence would be jointly supplied.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_15",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "15",
+    "question": "In perfect competition,price is determined by the",
+    "options": {
+      "A": "government",
+      "B": "sellers",
+      "C": "buyers",
+      "D": "market"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Market structures (perfect competition, monopoly, oligopoly)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The price in perfect competition is determined by market forces which is demand and supply. There is one market price in perfect competition, firms can't charge different prices as they are selling identical products. In perfect competition the firms and sellers arepricetakers.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_16",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "16",
+    "question": "In order to reduce hardship faced by consumers due to high prices government can introduce",
+    "options": {
+      "A": "maximum prices",
+      "B": "commodity boards",
+      "C": "minimum prices",
+      "D": "price control boards"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Price controls are government-mandated minimum or maximum prices that can be charged for specified goods.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_17",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "17",
+    "question": "Average product is less than marginal product when",
+    "options": {
+      "A": "there is constant returns to scale",
+      "B": "there is increasing returns to scale",
+      "C": "there is decreasing returns to scale",
+      "D": "diminishing returns set in"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_18",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "18",
+    "question": "A firm enjoying economies of scale is said to be",
+    "options": {
+      "A": "reducing average cost as production increases",
+      "B": "benefiting from the activities of other firms",
+      "C": "maximizing profits as production increases",
+      "D": "having an upward-sloping average cost curve"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "As long as the Long run average cost curve is declining, then internal economies of scale are being exploited. If LRAC is falling when output is increasing, then the firm is experiencing economies of scale.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_19",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "19",
+    "question": "The rising portion of the long-run average cost curve of a firm is an indication that it is experiencing",
+    "options": {
+      "A": "increasing efficiency",
+      "B": "economies of scale",
+      "C": "diseconomies of scale",
+      "D": "increasing marginal returns"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The long-run average cost (LRAC) curve shows the firm's lowest cost per unit at each level of output, assuming that all factors of production are variable.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_20",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "20",
+    "question": "An industry's supply curve is more likely to be elastic when firms are",
+    "options": {
+      "A": "enjoying free entry and exit",
+      "B": "operating at full capacity",
+      "C": "operating below capacity",
+      "D": "maximizing profits"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Elastic supply curves indicate that the quantity supplied responds to price changes in a greater than proportional manner. An industry supply curve would most likely be elastic if the industry is operating in a market where there is free entry and exit.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_21",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "21",
+    "question": "One of the characteristics of monopolistic competition is that",
+    "options": {
+      "A": "there is mobility of factors of production",
+      "B": "no single seller dominates the market",
+      "C": "the firms are price-takers",
+      "D": "consumers have perfect knowledge of price"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Market structures (perfect competition, monopoly, oligopoly)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Monopolistic competition is an industry in which many firms offer products or services that are similar, but not perfect substitutes. Barriers to entry and exit in a monopolistic competitive industry are low, and the decisions of any one firm do not directly affect those of its competitors.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_22",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "22",
+    "question": "The demand curve for factors of production",
+    "options": {
+      "A": "is perfect elastic",
+      "B": "slopes upwards",
+      "C": "slopes of downwards",
+      "D": "is perfectly inelastic"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The factors of production demand curve indicates the quantity of a factor demanded at alternative factor prices. The demand curve is downwards sloping from left to right.An example is given below for the demand curve of labour, showing how wage rate affect the demand for labour.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_23",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "23",
+    "question": "An agreement among firms on price and segmentation is termed",
+    "options": {
+      "A": "cartel",
+      "B": "collusion",
+      "C": "haggling",
+      "D": "specialization"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A cartel is an association of manufacturers or suppliers with the purpose of maintaining prices at a high level and restricting competition. It is a group of similar companies who agree prices between them in order to increase profits and limit competition",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_24",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "24",
+    "question": "In national income accounting, tax is determined by the",
+    "options": {
+      "A": "level of income",
+      "B": "level of consumption",
+      "C": "level of investment",
+      "D": "rate of savings"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "National income accounting is a double-entry accounting system used by the government to measure how well a country's economy is performing.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2010_25",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "25",
+    "question": "A decrease in aggregate spending in an economy will ultimately lead to",
+    "options": {
+      "A": "boom",
+      "B": "inflation",
+      "C": "deflation",
+      "D": "recession"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A small downturn in consumer spending damages the economy. As it drops off, economic growth slows. Prices drop, creating deflation. If slow consumer spending continues, the economy contracts.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_26",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "26",
+    "question": "If MPC is 0.7 while government expenditure increased by N 150m, the equilibrium national income is",
+    "options": {
+      "A": "N 214 million",
+      "B": "N 45 million",
+      "C": "N 105 million",
+      "D": "N 500 million"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1/(1-MPC) x150",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2010_27",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "27",
+    "question": "The function of money which makes division of labour possible is its",
+    "options": {
+      "A": "unit of account",
+      "B": "store of value",
+      "C": "medium of exchange",
+      "D": "standard of deferred payment"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The most important function of money is that it serves as a medium of exchange. By serving as a convenient medium of exchange, money has made division of labour or specialization possible by being generally acceptable.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_28",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "28",
+    "question": "By buying treasury bills, the Central Bank of Nigeria intends to",
+    "options": {
+      "A": "increase money supply in the economy",
+      "B": "reduce the cash reserve ratio for banks",
+      "C": "reduce money supply in the economy",
+      "D": "increase the capital base of commercial banks"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "By buying treasury bills, the Central Bank of Nigeria intends to reduce the excess money in circulation in the economy. When the CBN issue treasury bills, they are inviting the public to invest in debt security. This means people will buy the security for a maturity period of 0-3 months.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_29",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "29",
+    "question": "One of the functions of commercial banks is",
+    "options": {
+      "A": "maintaining stable price in the economy",
+      "B": "regulating monetary policies",
+      "C": "granting loans to customers",
+      "D": "issuing bank notes and coins"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The primary functions of a commercial bank are accepting deposits and also lending funds. Deposits are savings, current, or time deposits. Also, a commercial bank lends funds to its customers in the form of loans and advances, cash credit, overdraft and discounting of bills, etc.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_30",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "30",
+    "question": "In Nigeria, the huge public debt is as a result of",
+    "options": {
+      "A": "balanced budgeting",
+      "B": "deficit budgeting",
+      "C": "surplus budgeting",
+      "D": "zero budgeting"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A budget deficit typically occurs when expenditures exceeds revenue.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_31",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "31",
+    "question": "A strategy for curbing unemployment is to",
+    "options": {
+      "A": "implement government stabilization policy",
+      "B": "increase taxes and decrease government expenditure",
+      "C": "increase government expenditure and decrease taxes",
+      "D": "ensure even distribution of job opportunities"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An equitable distribution of employment opportunities gives all citizens a fair opportunity to become successful. A situation where people are employed based on favoritism, religious/tribal affiliation or other partial basis, will hoard jobs from the right people and people who are less qualified and inefficient will be put in charge of certain positions. When employment opportunities are evenly distributed in such a way that every qualified candidate stand an equal chance of employment, unemployment is reduced and wealth distributed evenly.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_32",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "32",
+    "question": "National development plans in Nigeria fail mainly because of",
+    "options": {
+      "A": "overdependence on foreign aids",
+      "B": "inadequate funding of projects",
+      "C": "poor implementation strategies",
+      "D": "shortage of skilled manpower"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "One of the major reasons why developmental plans fail in Nigeria is because of poor implementation. Many strategy implementations fail because of a lack of monitoring and control.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2010_33",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "33",
+    "question": "The ultimate aim of agricultural policies in Nigeria is to achieve?",
+    "options": {
+      "A": "food sufficiency",
+      "B": "industrialization",
+      "C": "full employment",
+      "D": "industrial capacity utilization"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The ultimate goal of agriculture in Nigeria is to make Nigeria self-sufficient in food production and also geared towards the development of agricultural sector to achieve the aim of economic development.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_34",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "34",
+    "question": "Government can boost agricultural output in Nigeria primarily by",
+    "options": {
+      "A": "embarking on buffer stock programmes",
+      "B": "placing embargo on food importation",
+      "C": "granting subsidies on farm inputs",
+      "D": "placing farmers on monthly income"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Granting of subsidies by government is a government incentive paid to agribusinesses, agricultural organizations and farms to supplement their income, manage the supply of agricultural commodities, and influence the cost and supply of such commodities. This is one major way how government boost agricultural output in Nigeria.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_35",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "35",
+    "question": "The ultimate aim of agricultural policies in Nigeria is to achieve",
+    "options": {
+      "A": "food sufficiency",
+      "B": "industrialization",
+      "C": "full employment",
+      "D": "industrial capacity utilization"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "They major aim of agriculture in Nigeria is to provide food for the inhabitants of the nation (food security and sufficiency) and export excess to other countries and to provide rural dwellers and farmers with extension services, agricultural support and rural development services.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_36",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "36",
+    "question": "Localization of industries refers to the",
+    "options": {
+      "A": "spread of firms producing different products",
+      "B": "siting of industries near the market",
+      "C": "concentration of firms of an industry",
+      "D": "siting of firms producing different products"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Localization of industries is also called the geographical or territorial division of labour. This means that certain areas or towns come to specialise in the production of certain commodities.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_37",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "37",
+    "question": "In developing countries, governments influence the location of industries in order to",
+    "options": {
+      "A": "spread development",
+      "B": "redistribute wealth",
+      "C": "encourage enterpreneurs",
+      "D": "encourage industries to earn high profits"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Government use their  powers to influence the location of industries for development of backward regions. This is done to spread development around different regions in a country, especially the rural area.",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_38",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "38",
+    "question": "A disadvantage of Nigeria's dependence on imported petroleum products is the",
+    "options": {
+      "A": "instability in the demand for the products",
+      "B": "dominance of multinational firms",
+      "C": "instability in the supply of the product",
+      "D": "poor maintenance of the refineries"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2010_39",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "39",
+    "question": "The maximum number of shareholders for a limited liability company is",
+    "options": {
+      "A": "twenty",
+      "B": "five",
+      "C": "seven",
+      "D": "infinite"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Business organizations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is no limitation on the number of shareholders a limited liability company can have",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_40",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "40",
+    "question": "One of the characteristics of free trade zone is",
+    "options": {
+      "A": "common tariff against non-member countries",
+      "B": "different trade policies of non-member countries",
+      "C": "free factor mobility within the zone",
+      "D": "harmonized trade among member countries"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In a free trade zone, trade/business transactions are allowed to move freely between member nations. Each member country Is allowed to determine Its own trade Policies With regard to Nonmembers.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_41",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "41",
+    "question": "The primary motive for an individual engaging in production is to",
+    "options": {
+      "A": "make profit",
+      "B": "satisfy basic human wants",
+      "C": "redistribute wealth",
+      "D": "put inputs into use"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The main motive of a business organization, especially private business enterprise is to make profit.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_42",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "42",
+    "question": "If Nigeria imports vehicles from Japan the transaction will appear as a",
+    "options": {
+      "A": "debit on Japan's balance of payments",
+      "B": "credit on Japan's balance of payments",
+      "C": "credit on Nigeria's balance of trade",
+      "D": "credit on Nigeria's balance of payment"
+    },
+    "correct_answer": "B",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The balance of payments (BOP) is a statement of all transactions made between entities in one country and the rest of the world over a defined period of time, such as a quarter or a year.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_43",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "43",
+    "question": "One of the objectives of ADB is to",
+    "options": {
+      "A": "provide subsidies on imported goods to member countries",
+      "B": "mobilize short-term loans for member countries",
+      "C": "promote economic and social development of member countries",
+      "D": "provide technical assistance to only poor member countries"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The main aim of the Africa development bank is to fight poverty and improve living conditions on the continent through promoting the investment of public and private capital in projects and programs that are likely to contribute to the economic and social development of the region.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_44",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "44",
+    "question": "The choice of the method of production in an economy is determined by the",
+    "options": {
+      "A": "level of technical know-how",
+      "B": "rate of propulation growth",
+      "C": "availability of natural resources",
+      "D": "level of income"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The method of production has to do with Processes and techniques that are used to manufacture a product. The preferred production method used in production is mainly determined by the level of technological advancement of the firm or industry as a whole. For an economy that is embracing technological changes and advancements, the technical know-how will greatly influnce the production technique.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_45",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "45",
+    "question": "The amount of labour hired depends on the",
+    "options": {
+      "A": "number of skilled labour available",
+      "B": "skill of labour",
+      "C": "marginal productivity of labour",
+      "D": "price of the inputs"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The demand for an additional amount of labour depends on the Marginal Revenue Product (MRP). Firms will hire more labor when the marginal revenue product of labor is greater than the wage rate, and stop hiring as soon as the two values are equal.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_46",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "46",
+    "question": "What is the population growth rate in 2003?",
+    "options": {
+      "A": "33.3%",
+      "B": "20.0%",
+      "C": "11.0%",
+      "D": "50%"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Population growth rate = the difference between the previous year population and the current year population divided by the previous year",
+    "images": [
+      {
+        "filename": "Economics_2010_q46_d79f1f19.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/27085744614_c.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_47",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "47",
+    "question": "The percentage of working population in 2002 is?",
+    "options": {
+      "A": "50%",
+      "B": "25%",
+      "C": "8%",
+      "D": "80%"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The percentage of working population in 2002 =",
+    "images": [
+      {
+        "filename": "Economics_2010_q47_b7ef412b.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/24234654725_c.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_48",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "48",
+    "question": "if \\(\\bar{x}\\) = 6 and N = 6, determine the value of ∑fx",
+    "options": {
+      "A": "36",
+      "B": "12",
+      "C": "1",
+      "D": "72"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "\\(\\bar{x}\\) = ∑fxnCross multiply, hence we have;∑fx = x * n6 * 6 = 36",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2010_49",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2010,
+    "number": "49",
+    "question": "The velocity of money is represented as",
+    "options": {
+      "A": "\\(\\frac{\\text{Money supply}}{\\text{Real GDP}}\\)",
+      "B": "\\(\\frac{\\text{Real GDP}}{\\text{Money supply}}\\)",
+      "C": "\\(\\frac{\\text{Nominal GDP}}{\\text{Money supply}}\\)",
+      "D": "\\(\\frac{\\text{Real GDP}}{\\text{Nominal GDP}}\\)"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The velocity of money is a measurement of the rate at which money is exchanged in an economy.  Velocity of money is simply calculated by dividing the money supply with the economy's GDP.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

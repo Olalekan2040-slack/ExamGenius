@@ -1,0 +1,1941 @@
+[
+  {
+    "id": "JAMB_History_2022_1",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "1",
+    "question": "The Nguni people are originally from?",
+    "options": {
+      "A": "South Africa",
+      "B": "Namibia",
+      "C": "Mozambique",
+      "D": "Botswana"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_2",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "2",
+    "question": "Who was the head of the Zulus at the time of the Mfecane war?",
+    "options": {
+      "A": "Zwide",
+      "B": "Shaka",
+      "C": "Dingiswayo",
+      "D": "Sobhuza"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_3",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "3",
+    "question": "Who introduced indirect rule in Nigeria?",
+    "options": {
+      "A": "John Beecroft",
+      "B": "Bernard Bourdillon",
+      "C": "Lord Lugard",
+      "D": "King Richard II"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_4",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "4",
+    "question": "The Ekumeku movement started from Anioma which is part of present day ________.",
+    "options": {
+      "A": "Delta",
+      "B": "Enugu",
+      "C": "Imo",
+      "D": "Anambra"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_5",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "5",
+    "question": "The policy of Association was adopted by the ________.",
+    "options": {
+      "A": "French",
+      "B": "British",
+      "C": "Portuguese",
+      "D": "Belgians"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_6",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "6",
+    "question": "The Berlin conference on the partitioning of Africa was held in _______.",
+    "options": {
+      "A": "1888/1889",
+      "B": "1887/1888",
+      "C": "1885/1886",
+      "D": "1884/1885"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_7",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "7",
+    "question": "The indigenous pre-colonial Nigerian economy consisted of the following except",
+    "options": {
+      "A": "oil mining",
+      "B": "crafts",
+      "C": "local industries",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_8",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "8",
+    "question": "Which of these system was most popular in the pre-colonial era?",
+    "options": {
+      "A": "The barter system",
+      "B": "The coin system",
+      "C": "The paper notes",
+      "D": "The digital system"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_9",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "9",
+    "question": "In what year was the peace treaty signed in Yorubaland?",
+    "options": {
+      "A": "1885",
+      "B": "1886",
+      "C": "1887",
+      "D": "1888"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_10",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "10",
+    "question": "The longest war in Yoruba land lasted _____ years.",
+    "options": {
+      "A": "15",
+      "B": "14",
+      "C": "16",
+      "D": "10"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_11",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "11",
+    "question": "Who were the first Europeans travellers to reach Benin?",
+    "options": {
+      "A": "Germans",
+      "B": "French",
+      "C": "Portuguese",
+      "D": "British"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_12",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "12",
+    "question": "What is the title of the king's mother in Benin kingdom?",
+    "options": {
+      "A": "Iye",
+      "B": "Iyoba",
+      "C": "Yeye",
+      "D": "Ummi"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_13",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "13",
+    "question": "Who is regarded the father of modern Egypt?",
+    "options": {
+      "A": "Haile Selaisse",
+      "B": "Brutus Ghali Brutus",
+      "C": "Senghor Cedric",
+      "D": "Mohammad Ali"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_14",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "14",
+    "question": "How many geo-political zones are there in Nigeria?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_15",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "15",
+    "question": "Who established the Sokoto Caliphate?",
+    "options": {
+      "A": "Abdullahi Dan Fodio",
+      "B": "Ahmadu Bello",
+      "C": "Usman Dan Fodio",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_16",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "16",
+    "question": "Which constitution laid the foundation for the establishment of political parties in Nigeria?",
+    "options": {
+      "A": "The Clifford constitution of 1922",
+      "B": "The Richards constitution of 1946",
+      "C": "The Macpherson constitution of 1951",
+      "D": "The Lyttleton constitution of 1954"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Constitutional Development in Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_17",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "17",
+    "question": "The _____ conference of 1950 discussed the provisions of the Macpherson's constitution.",
+    "options": {
+      "A": "London",
+      "B": "Ibadan",
+      "C": "Lagos",
+      "D": "Calabar"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Constitution"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_18",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "18",
+    "question": "In what year was Lagos annexed by the British?",
+    "options": {
+      "A": "1861",
+      "B": "1862",
+      "C": "1863",
+      "D": "1851"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_19",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "19",
+    "question": "What was the first capital of the Kanem-Borno empire?",
+    "options": {
+      "A": "Birni Ngazargamu",
+      "B": "Njimi",
+      "C": "Bornu",
+      "D": "Birni Gazargamu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_20",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "20",
+    "question": "After the death of Said bin Sultan in 1856, the Asian section of the empire was ruled by ________.",
+    "options": {
+      "A": "Majid bin Said",
+      "B": "Thuwaini bin Said.",
+      "C": "Saif bin Sultan",
+      "D": "Sultan bin Ahmad"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_21",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "21",
+    "question": "When did the Madhist war begin?",
+    "options": {
+      "A": "1880",
+      "B": "1881",
+      "C": "1882",
+      "D": "1883"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_22",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "22",
+    "question": "Nigeria joined UNO as the ___ member.",
+    "options": {
+      "A": "99th",
+      "B": "100th",
+      "C": "98th",
+      "D": "90th"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_23",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "23",
+    "question": "Who was the first state president of the republic of South Africa?",
+    "options": {
+      "A": "Charles Robberts Swart",
+      "B": "Theophilus Ebenhaezer Dönges",
+      "C": "Nelson Mandela",
+      "D": "Thabo Mbeki"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2022_24",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "24",
+    "question": "The Trans-Atlantic slave trade was abolished in Britain in what year?",
+    "options": {
+      "A": "1806",
+      "B": "1807",
+      "C": "1808",
+      "D": "1809"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_25",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "25",
+    "question": "When was the Census crisis in Nigeria?",
+    "options": {
+      "A": "1962/1963",
+      "B": "1964/1965",
+      "C": "1965/1966",
+      "D": "1968/1969"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_26",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "26",
+    "question": "When did Christianity start in Sierra Leone?",
+    "options": {
+      "A": "1729",
+      "B": "1793",
+      "C": "1794",
+      "D": "1795"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_27",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "27",
+    "question": "Islam came to Nigeria in the ______ century.",
+    "options": {
+      "A": "11th",
+      "B": "12th",
+      "C": "17th",
+      "D": "18th"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_28",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "28",
+    "question": "The first school in Nigeria was __________.",
+    "options": {
+      "A": "CMS grammar school",
+      "B": "Yaba higher school",
+      "C": "Nursery of Infant Church",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_29",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "29",
+    "question": "Nigeria's vice president in the second republic was",
+    "options": {
+      "A": "Shehu Yar'adua",
+      "B": "Tunde Idiagbon",
+      "C": "Alex Ekwueme",
+      "D": "Mohammed Goni"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Systems of Governance",
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_30",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "30",
+    "question": "The economic reforms of Theodore II of Ethiopia involved which of the following?",
+    "options": {
+      "A": "encouragement of slave trade",
+      "B": "improvement of agriculture",
+      "C": "reorganization of the fiscal system",
+      "D": "revival of external trade"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "No official explanation is available for this question at this time. Please check contributions posted by others below. If you can provide an explanation to help other student learn, please",
+    "predicted_topics": [
+      "Local Government"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_31",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "31",
+    "question": "Which of these was not an effect of the Great Trek?",
+    "options": {
+      "A": "Afrikaners remained politically divided for many years",
+      "B": "The Trek resulted in the cultural and economic isolation of the Boers.",
+      "C": "The Great Trek led directly to the founding of several autonomous Boer republics",
+      "D": "It reduced trade between black and white groups"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_32",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "32",
+    "question": "Clothe dyeing started in what part of Nigeria?",
+    "options": {
+      "A": "South-East",
+      "B": "South-West",
+      "C": "North-East",
+      "D": "North-Central"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_33",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "33",
+    "question": "How many states did General Murtala Mohammed create?",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "11"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2022_34",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "34",
+    "question": "In what year was the Oil River protectorate established?",
+    "options": {
+      "A": "1885",
+      "B": "1886",
+      "C": "1887",
+      "D": "1888"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_35",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "35",
+    "question": "The Lagos colony and the Southern Protectorate was almagamated in _____.",
+    "options": {
+      "A": "1905",
+      "B": "1906",
+      "C": "1907",
+      "D": "1908"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_36",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "36",
+    "question": "Who was known as the Napoleon of West Africa?",
+    "options": {
+      "A": "Cedric Senghor",
+      "B": "Mohammad Ali",
+      "C": "Samori Toure",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_37",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "37",
+    "question": "What are the Kingmakers in Oyo called?",
+    "options": {
+      "A": "Ogoni",
+      "B": "Iwarefa",
+      "C": "Eunuchs",
+      "D": "Oyomesi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_38",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "38",
+    "question": "Who brought Christianity to Liberia?",
+    "options": {
+      "A": "Missionaries",
+      "B": "British Consuls",
+      "C": "Freed American slaves",
+      "D": "Freed British slaves"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_39",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "39",
+    "question": "Who is the father of nationalism in Nigeria?",
+    "options": {
+      "A": "Obafemi Awolowo",
+      "B": "Nnamdi Azikiwe",
+      "C": "Hebert Macaulay",
+      "D": "Ahmadu Bello"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_40",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "40",
+    "question": "In what year did Britain invade Egypt?",
+    "options": {
+      "A": "1882",
+      "B": "1884",
+      "C": "1886",
+      "D": "1888"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_41",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "41",
+    "question": "What is the king of the Nupe called?",
+    "options": {
+      "A": "Oba of Nupe",
+      "B": "Etsu Nupe",
+      "C": "King of Nupe",
+      "D": "Head of Nupe"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_42",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "42",
+    "question": "Who founded Nupe?",
+    "options": {
+      "A": "Tapa",
+      "B": "Idah",
+      "C": "Tsoede",
+      "D": "Oduduwa"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_43",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "43",
+    "question": "The Nigerian civil war lasted _____ months.",
+    "options": {
+      "A": "20",
+      "B": "18",
+      "C": "30",
+      "D": "28"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_44",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "44",
+    "question": "What country was the first to be introduced to Christianity in West Africa?",
+    "options": {
+      "A": "Sierra Leone",
+      "B": "Liberia",
+      "C": "Nigeria",
+      "D": "Ghana"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_45",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "45",
+    "question": "The Nok culture was known for",
+    "options": {
+      "A": "terracotta sculptures",
+      "B": "water painting",
+      "C": "fishing",
+      "D": "dancing"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_46",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "46",
+    "question": "General Muhammadu Buhari regime was overthrown by",
+    "options": {
+      "A": "Gen. Ibrahim Babangida",
+      "B": "Buka Suka Dimka",
+      "C": "Gen. Sani Abacha",
+      "D": "Gen. Olusegun Obasanjo"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_47",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "47",
+    "question": "Who founded itsekiri kingdom?",
+    "options": {
+      "A": "Iginua",
+      "B": "Oba Olua",
+      "C": "Iyoba",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_48",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "48",
+    "question": "How many states were created by Gen. Sani Abacha?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "9"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_History_2022_49",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "49",
+    "question": "Nigeria was birthed in the year",
+    "options": {
+      "A": "1900",
+      "B": "1906",
+      "C": "1914",
+      "D": "1960"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_50",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "50",
+    "question": "The Great Trek happened in what country?",
+    "options": {
+      "A": "South Africa",
+      "B": "Liberia",
+      "C": "Sierra Leone",
+      "D": "Egypt"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_51",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "51",
+    "question": "In what century did the Trans-Saharan trade start?",
+    "options": {
+      "A": "8th century",
+      "B": "5th century",
+      "C": "17th century",
+      "D": "4th century"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_52",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "52",
+    "question": "Who established the Tukulor empire?",
+    "options": {
+      "A": "Cedric Senghor",
+      "B": "Mohammad Ali",
+      "C": "Al-Ḥajj ʿUmar",
+      "D": "None of the above"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_53",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "53",
+    "question": "Emperor Menelik II defeated Italian troops in the battle of",
+    "options": {
+      "A": "Adwa",
+      "B": "Mfecane",
+      "C": "Kiriji",
+      "D": "None of the above"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_54",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "54",
+    "question": "The Nigerian second republic began in the year ____",
+    "options": {
+      "A": "1983",
+      "B": "1979",
+      "C": "1963",
+      "D": "1966"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_55",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "55",
+    "question": "The __________ were the first missionaries to arrive Nigeria.",
+    "options": {
+      "A": "Anglicans",
+      "B": "Catholics",
+      "C": "Witnesses",
+      "D": "Apostolic"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_56",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "56",
+    "question": "________ preceded Nelson Mandela as president of South Africa.",
+    "options": {
+      "A": "Thabo Mbeki",
+      "B": "Frederik Willem de Klerk",
+      "C": "Jan Christiaan Heunis",
+      "D": "Pieter Willem Botha"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Systems of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_57",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "57",
+    "question": "What does the name Liberia mean?",
+    "options": {
+      "A": "Liberated",
+      "B": "Cheers to freedom",
+      "C": "Land of freedom",
+      "D": "independence"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_58",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "58",
+    "question": "The first coup in Nigeria was led by",
+    "options": {
+      "A": "Major Chukwuma Nzeogu",
+      "B": "Gen. Aguiyi Ironsi",
+      "C": "Gen Sani Abacha",
+      "D": "Gen Murtala Mohammed"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_59",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "59",
+    "question": "In what year was ECOWAS established?",
+    "options": {
+      "A": "1975",
+      "B": "1976",
+      "C": "1960",
+      "D": "1963"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Post-Independence Constitutions",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_60",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "60",
+    "question": "NYM(Nigerian Youth Movement) evolved from _____.",
+    "options": {
+      "A": "LYM",
+      "B": "NNDP",
+      "C": "NCNC",
+      "D": "NPC"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_61",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "61",
+    "question": "The __________ constitution introduced federalism in Nigeria.",
+    "options": {
+      "A": "Richard's",
+      "B": "Clifford's",
+      "C": "Macpherson's",
+      "D": "Lyttleton's"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Structures of Governance"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_62",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "62",
+    "question": "________ moved the motion for Nigeria's independence.",
+    "options": {
+      "A": "Anthony Enahoro",
+      "B": "Herbert Macaulay",
+      "C": "Obafemi Awolowo",
+      "D": "Nnamdi Azikiwe"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_63",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "63",
+    "question": "The Northern region of Nigeria gained self-government in ____.",
+    "options": {
+      "A": "1957",
+      "B": "1958",
+      "C": "1959",
+      "D": "1960"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_64",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "64",
+    "question": "In 1840, Sayyid Said transferred his capital from Muscat to?",
+    "options": {
+      "A": "Arabia",
+      "B": "Zanzibar",
+      "C": "Omani",
+      "D": "None of the above"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_65",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "65",
+    "question": "Nigeria practised the Westminster system of government between",
+    "options": {
+      "A": "1959 and 1983",
+      "B": "1959 and 1966",
+      "C": "1960 and 1966",
+      "D": "1963 and 1966"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Systems of Governance",
+      "Processes of Legislation",
+      "Post-Independence Constitutions"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_66",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "66",
+    "question": "The equivalent of the Aare- ona kankanfo of the Yoruba pre-colonial system in the Hausa/Fulani pre-colonial system is the",
+    "options": {
+      "A": "Galadima",
+      "B": "Madawaki",
+      "C": "Waziri",
+      "D": "Sarkin"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_67",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "67",
+    "question": "The first British consul in Nigeria was",
+    "options": {
+      "A": "Lord Lugard",
+      "B": "John Beecroft",
+      "C": "William Parry",
+      "D": "Edward Nicolls"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Imperialist Penetration"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_68",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "68",
+    "question": "The first almagamation in Nigeria happened in the year ___",
+    "options": {
+      "A": "1914",
+      "B": "1886",
+      "C": "1906",
+      "D": "1900"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_69",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "69",
+    "question": "Who was appointed by the federal government of Nigeria as the administrator of Western Region in 1962?",
+    "options": {
+      "A": "Chief Ladoke Akintola",
+      "B": "Chief Obafemi Awolowo",
+      "C": "Dr M.A Majekodunmi",
+      "D": "Chief Remi Fani Kayode"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Structures of Governance",
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_70",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "70",
+    "question": "The Coussey Commission Report laid the ground-work for the eventual independence of",
+    "options": {
+      "A": "Ghana",
+      "B": "Gambia",
+      "C": "Liberia",
+      "D": "Nigeria"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_71",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "71",
+    "question": "Before the Macpherson's constitution of 1951, the North was governed by",
+    "options": {
+      "A": "Elders",
+      "B": "Emirs",
+      "C": "The Constitution",
+      "D": "Proclamation of the Governor"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "No official explanation is available for this question at this time. Please check contributions posted by others below. If you can provide an explanation to help other student learn, please",
+    "predicted_topics": [
+      "Constitution"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_72",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "72",
+    "question": "Kastina and Akwa-Ibom were created in September, _____.",
+    "options": {
+      "A": "1985",
+      "B": "1986",
+      "C": "1987",
+      "D": "1988"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_73",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "73",
+    "question": "Nigeria joined the Organisation of Petroleum Exporting Countries (OPEC) in__________",
+    "options": {
+      "A": "1971",
+      "B": "1972",
+      "C": "1973",
+      "D": "1974"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_74",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "74",
+    "question": "Nnamdi Azikiwe's West African Pilot was established in what year?",
+    "options": {
+      "A": "1936",
+      "B": "1937",
+      "C": "1938",
+      "D": "1939"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Process of Decolonization"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_75",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "75",
+    "question": "When did Lagos become a colony?",
+    "options": {
+      "A": "5 March,1861",
+      "B": "7 May, 1861",
+      "C": "5 March, 1862",
+      "D": "5 May, 1961"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_76",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "76",
+    "question": "The sokoto jihad began in what year",
+    "options": {
+      "A": "1804",
+      "B": "1805",
+      "C": "1807",
+      "D": ""
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_77",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "77",
+    "question": "The Kanem–Bornu Empire existed in areas which are now part of the following countries except",
+    "options": {
+      "A": "Chad",
+      "B": "Central African Republic",
+      "C": "Nigeria",
+      "D": "Togo"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_78",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "78",
+    "question": "The republic of Benin was formerly known as",
+    "options": {
+      "A": "Nguni",
+      "B": "Dahomey",
+      "C": "Zulu",
+      "D": "Rhodesia"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_79",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "79",
+    "question": "Ismail Pasha was removed as the Khedive of Egypt at the behest of Great Britain in____________",
+    "options": {
+      "A": "1878",
+      "B": "1879",
+      "C": "1880",
+      "D": "1881"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_History_2022_80",
+    "exam": "JAMB",
+    "subject": "History",
+    "year": 2022,
+    "number": "80",
+    "question": "The United Nations was created as a result of the failure of the ________",
+    "options": {
+      "A": "Commonwealth of Nations",
+      "B": "OPEC",
+      "C": "League of Nations",
+      "D": "All of the above"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations"
+    ],
+    "predicted_subtopics": []
+  }
+]

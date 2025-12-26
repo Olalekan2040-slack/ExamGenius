@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "JAMB_Mathematics_2013_1",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "1",
+    "question": "Convert 27 10 to another number in base three",
+    "options": {
+      "A": "1001³",
+      "B": "1010³",
+      "C": "1100³",
+      "D": "1000³"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_2",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "2",
+    "question": "3 girls share a number of apples in the ration 5:3:2. If the highest share is 40 apples, find the smallest share",
+    "options": {
+      "A": "36",
+      "B": "24",
+      "C": "16",
+      "D": "38"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_3",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "3",
+    "question": "Evaluate (1.25 × 0.025/0.05), correct to 1 decimal place",
+    "options": {
+      "A": "0.6",
+      "B": "6.2",
+      "C": "6.3",
+      "D": "0.5"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_4",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "4",
+    "question": "Calculate the time taken for N3000 to earn N600 if invested at 8% simple interest",
+    "options": {
+      "A": "2(1/2) years",
+      "B": "3 years",
+      "C": "3(1/2) years",
+      "D": "1(1/2) years"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Fractions, decimals and percentages",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_5",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "5",
+    "question": "Simplify (3⁻⁵ⁿ/9¹⁻ⁿ) × 27ⁿ ⁺ ¹",
+    "options": {
+      "A": "3²",
+      "B": "3³",
+      "C": "3 5",
+      "D": "3"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_6",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "6",
+    "question": "If log 10 4 = 0.6021, evaluate log 10 4 1/3",
+    "options": {
+      "A": "0.3011",
+      "B": "0.9021",
+      "C": "1.8063",
+      "D": "0.2007"
+    },
+    "correct_answer": "D",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Indices, logarithms and surds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "10",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_7",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "7",
+    "question": "Simplify (√5(√(147) - √(12)/√(15))",
+    "options": {
+      "A": "5",
+      "B": "(1/5)",
+      "C": "(1/9)",
+      "D": "9"
+    },
+    "correct_answer": "A",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_8",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "8",
+    "question": "if P = x:x is odd,⁻¹ < x ≤ 20 and Q is {y:y is prime,⁻² < y ≤ 25, find P ∩ Q",
+    "options": {
+      "A": "3,5,7,11,17,19",
+      "B": "3,5,11,13,17,19",
+      "C": "3,5,7,11,13,17,19",
+      "D": "2,3,5,7,11,13,17,19"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = 1, 3, 5, 7, 9, 11, 13, 15, 17, 19",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_9",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "9",
+    "question": "If S = √(t² - 4t + 4), find t in terms of S",
+    "options": {
+      "A": "S² - 2",
+      "B": "S + 2",
+      "C": "S - 2",
+      "D": "S² + 2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_10",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "10",
+    "question": "If x - 4 is a factor of x² - x - k, then k is",
+    "options": {
+      "A": "4",
+      "B": "12",
+      "C": "20",
+      "D": "2"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_11",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "11",
+    "question": "The remainder when 6p³ - p² - 47p + 30 is divided by p - 3 is",
+    "options": {
+      "A": "21",
+      "B": "42",
+      "C": "63",
+      "D": "18"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_12",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "12",
+    "question": "P varies jointly as m and u, and varies inversely as q. Given that p = 4, m = 3 and u = 2 and q = 1, find the value of p when m = 6, u = 4 and q =(8/5)",
+    "options": {
+      "A": "12(8/5)",
+      "B": "15",
+      "C": "10",
+      "D": "28(8/5)"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_13",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "13",
+    "question": "If r varies inversely as the square root of s and t, how does s vary with r and t?",
+    "options": {
+      "A": "s varies inversely as r and t²",
+      "B": "s varies inverely as r² and t",
+      "C": "s varies directly as r² and t²",
+      "D": "s varies directly as r and t"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_14",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "14",
+    "question": "Evaluate³(x + 2) > 6(x + 3)",
+    "options": {
+      "A": "x < 4",
+      "B": "x >⁻⁴",
+      "C": "x <⁻⁴",
+      "D": "x > 4"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_15",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "15",
+    "question": "Solve for x: |x - 2| < 3",
+    "options": {
+      "A": "x < 5",
+      "B": "-2 < x < 3",
+      "C": "-1 < x < 5",
+      "D": "x < 1"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "|x - 2| < 3 implies-(x - 2) < 3 .... or .... +(x - 2) < 3-x + 2 < 3 .... or .... x - 2 < 3-x < 3 - 2 .... or .... x < 3 + 2x >⁻¹ .... or .... x < 5combining the two inequalities results, we get;-1 < x < 5",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_16",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "16",
+    "question": "The n th term of the progression (4/2), (7/3), (10/4), (13/5) is ...",
+    "options": {
+      "A": "(1 - 3n/n + 1)",
+      "B": "(3n + 1/n + 1)",
+      "C": "(3n + 1/n - 1)",
+      "D": "(3n - 1/n + 1)"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Sequences and series (AP and GP)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "n",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_17",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "17",
+    "question": "If a binary operation * is defined by x * y = x + 2y, find² * (3 * 4)",
+    "options": {
+      "A": "24",
+      "B": "16",
+      "C": "14",
+      "D": "26"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Binary operations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_18",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "18",
+    "question": "If P = pmatrix 5 & 3 \\ 2 & 1 pmatrix and Q = pmatrix 4 & 2 \\ 3 & 5 {pmatrix}, find 2P + Q",
+    "options": {
+      "A": "vmatrix 7 & 7 \\ 14 & 8 vmatrix",
+      "B": "vmatrix 14 & 8 \\ 7 & 7 vmatrix",
+      "C": "vmatrix 7 & 7 \\ 8 & 14 vmatrix",
+      "D": "vmatrix 8 & 14 \\ 7 & 7 vmatrix"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2P + Q = 2{pmatrix} 5 & 3 \\ 2 & 1 pmatrix + pmatrix 4 & 2 \\ 3 & 5 {pmatrix}= pmatrix 10 & 6 \\ 4 & 2 pmatrix + pmatrix 4 & 2 \\ 3 & 5 {pmatrix}= pmatrix 14 & 8 \\ 7 & 7 pmatrix",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_19",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "19",
+    "question": "Find the inverse pmatrix 5 & 3 \\ 6 & 4 pmatrix",
+    "options": {
+      "A": "vmatrix² & -(3/2) \\⁻³ & -(5/2) vmatrix",
+      "B": "vmatrix² & -(3/2) \\⁻³ & (5/2) vmatrix",
+      "C": "vmatrix² & (3/2) \\⁻³ & (5/2) vmatrix",
+      "D": "vmatrix² & (3/2) \\⁻³ & (5/2) vmatrix"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Matrices and determinants",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Let A = pmatrix 5 & 3 \\ 6 & 4 {pmatrix}Then |A| = pmatrix 5 & 3 \\ 6 & 4 pmatrix = 20 - 18 = 2Hence A-1 = (1/|A|){pmatrix} 4 &⁻³ \\ -6 & 5 {pmatrix}= (1/2){pmatrix} 4 &⁻³ \\ -6 & 5 {pmatrix}= pmatrix 4 × 1/2 &⁻³ × 1/2 \\ -6 × 1/2 & 5 × 1/2 {pmatrix}= pmatrix² & -(3/2) \\⁻³ & (5/2) pmatrix",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_20",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "20",
+    "question": "If y = x sin x, find (δ y/δ x)",
+    "options": {
+      "A": "sin x - cos x",
+      "B": "cos x - x sin x",
+      "C": "cos x + x sin x",
+      "D": "sin x + x cos x"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_21",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "21",
+    "question": "If y = (2x + 2)³, find (δ y/δ x)",
+    "options": {
+      "A": "3(2x +2) 2",
+      "B": "6(2x +2)",
+      "C": "3(2x +2)",
+      "D": "6(2x +2) 2"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "y = (2x + 2)³",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_22",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "22",
+    "question": "The radius of a circle is increasing at the rate of 0.02cms⁻¹ . Find the rate at which the area is increasing when the radius of the circle is 7cm.",
+    "options": {
+      "A": "0.75cm² S⁻¹",
+      "B": "0.53cm² S⁻¹",
+      "C": "0.35cm² S⁻¹",
+      "D": "0.88cm² S⁻¹"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_23",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "23",
+    "question": "Find the mean of t + 2, 2t - 4, 3t + 2 and 2t.",
+    "options": {
+      "A": "t + 1",
+      "B": "2t",
+      "C": "2t + 1",
+      "D": "t"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_24",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "24",
+    "question": "The mean of seven numbers is 10. If six of the numbers are², 4, 8, 14, 16 and 18, find the mode.",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "14",
+      "D": "2"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_25",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "25",
+    "question": "Age 20 25 30 35 40 45 No of people³ 5 1 1²³ Calculate the median age of the frequency distribution in the table above",
+    "options": {
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "20"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "N = ∑ f = 15Hence the median age is the (N + 1/2)th age, i.e.(15 + 1/2)th = 8thFrom the table, the age that falls on the 8th position when arranged in ascending order is 25years",
+    "table_html": "<table border=\"1\" cellpadding=\"2\" cellspacing=\"0\" style=\"width:400px\">\n<tbody>\n<tr>\n<td>Age</td>\n<td>20</td>\n<td>25</td>\n<td>30</td>\n<td>35</td>\n<td>40</td>\n<td>45</td>\n</tr>\n<tr>\n<td>No of people</td>\n<td>3</td>\n<td>5</td>\n<td>1</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_26",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "26",
+    "question": "If the variance of³+x, 6, 4, x and 7-x is 4 and the mean is 5, find the standard deviation",
+    "options": {
+      "A": "√3",
+      "B": "2",
+      "C": "3",
+      "D": "√2"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_27",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "27",
+    "question": "{array}{c|c} Score & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\ Frequency & 1 & 0 & 7 & 5 & 2 & 3 & 1 & 1 array The table above shows the scores of 20 students in further mathematics test. What is the range of the distribution?",
+    "options": {
+      "A": "7",
+      "B": "6",
+      "C": "3",
+      "D": "10"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_28",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "28",
+    "question": "In how many ways can a student select² subjects from 5 subjects?",
+    "options": {
+      "A": "(5!/3!)",
+      "B": "(5!/2!2!)",
+      "C": "(5!/2!3!)",
+      "D": "(5!/2!)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_29",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "29",
+    "question": "In how many ways can³ seats be occupied if 5 people are willing to sit?",
+    "options": {
+      "A": "60",
+      "B": "20",
+      "C": "5",
+      "D": "120"
+    },
+    "correct_answer": "A",
+    "topic": "Section V: Statistics",
+    "subtopic": "Permutation and combination",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_30",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "30",
+    "question": "What is the probability that an integer x (1 ≤ x ≤ 25) chosen at random is divisible by both² and³?",
+    "options": {
+      "A": "(1/25)",
+      "B": "(1/5)",
+      "C": "(4/25)",
+      "D": "(3/4)"
+    },
+    "correct_answer": "C",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_31",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "31",
+    "question": "A basket contains 9 apples, 8 bananas and 7 oranges. A fruit is picked from the basket, find the probability that it is neither an apple nor an orange.",
+    "options": {
+      "A": "(3/8)",
+      "B": "(1/3)",
+      "C": "(7/24)",
+      "D": "(2/3)"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Probability",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "n(apples) = 9n(bananas) = 8n(oranges) = 7n() = 24Hence Prob(not apple, nor orange) = Prob(banana) = (8/24) = (1/3)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_32",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "32",
+    "question": "The graph above is correctly represented by",
+    "options": {
+      "A": "y = x² - x - 2",
+      "B": "y = x² - 3x + 2",
+      "C": "y = x² - x - 1",
+      "D": "y = x² + x - 2"
+    },
+    "correct_answer": "A",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The graph crosses the x-axis at x =⁻¹ and x = 2Thus, x + 1 = 0 and x - 2 = 0x² - 2x + x - 2 = 0x² - x - 2 = 0giving y = x² - x - 2",
+    "images": [
+      {
+        "filename": "Mathematics_2013_q32_b476c529.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/14284928670_maths-8.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_33",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "33",
+    "question": "In the diagram given, find the value of x.",
+    "options": {
+      "A": "30 o",
+      "B": "40 o",
+      "C": "45 o",
+      "D": "15 o"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2013_q33_028b6152.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/19998910330_maths-4.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_34",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "34",
+    "question": "The value x in the figure given is",
+    "options": {
+      "A": "110 o",
+      "B": "100 o",
+      "C": "70 o",
+      "D": "130 o"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Mathematics_2013_q34_16c11c73.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/4285483371_maths-5.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_35",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "35",
+    "question": "The bar chart above shows the allotment of time(in minutes) per week for selected subjects in a certain school. What is the total time allocated to the six subjects per week?",
+    "options": {
+      "A": "460mins",
+      "B": "720mins",
+      "C": "960mins",
+      "D": "200mins"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "80 + 160 + 200 + 80 + 128 + 72 = 720minutes",
+    "images": [
+      {
+        "filename": "Mathematics_2013_q35_3c20d6b6.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/7142477315_maths-6.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_36",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "36",
+    "question": "The pie chart above shows the statistical distribution of 80 students in five subjects in an examination. Calculate how many student offer Mathematics.",
+    "options": {
+      "A": "30",
+      "B": "11",
+      "C": "50",
+      "D": "20"
+    },
+    "correct_answer": "B",
+    "topic": "Section V: Statistics",
+    "subtopic": "Data representation (histogram, bar chart, pie chart)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "5x° + (16x - 24)° + 5x° + (4x + 12)° + (6x + 12)° = 360°36x° - 24 + 12 + 12 = 360°36x° = 360°x° = (360°/36)= 10°Thus, the angle of sector representing Mathematics is 5 x 10° = 50°. Hence the number of students who offer mathematics is(50/360) × 80 ≈ 11",
+    "images": [
+      {
+        "filename": "Mathematics_2013_q36_89a001f9.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/2856997614_maths-7.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Mathematics_2013_37",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "37",
+    "question": "If the angles of a quadrilateral are (3y + 10)°, (2y + 30)°, (y + 20)° and 4y°. Find the value of y.",
+    "options": {
+      "A": "66°",
+      "B": "12°",
+      "C": "30°",
+      "D": "42°"
+    },
+    "correct_answer": "C",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sum of angles in a quadrilateral = 360°",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_38",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "38",
+    "question": "A square tile has side 30 cm. How many of these tiles will cover a rectangular floor of length 7.2m and width 4.2m?",
+    "options": {
+      "A": "720",
+      "B": "336",
+      "C": "420",
+      "D": "576"
+    },
+    "correct_answer": "B",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Trigonometry and bearings",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Length of the tile = 30 cm = 0.3m",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_39",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "39",
+    "question": "Find the length of a chord which subtends an angle of 90° at the centre of a circle whose radius is 8 cm.",
+    "options": {
+      "A": "8√3 cm",
+      "B": "4 cm",
+      "C": "8 cm",
+      "D": "8√2 cm"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Length of chord = 2r ((θ/2))",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_40",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "40",
+    "question": "A chord of a circle subtends an angle of 120° at the centre of a circle of diameter 4√3 cm. Calculate the area of the major sector.",
+    "options": {
+      "A": "32π cm²",
+      "B": "4π cm²",
+      "C": "8π cm²",
+      "D": "16π cm²"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Circle theorems",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Angle of major sector = 360° - 120° = 240°",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_41",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "41",
+    "question": "The locus of the points which is equidistant from the line PQ forms a",
+    "options": {
+      "A": "perpendicular line to PQ",
+      "B": "circle centre P",
+      "C": "circle centre Q",
+      "D": "pair of parallel lines to PQ"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Loci",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If you take any point that is equidistant from the line PQ, it lies at a constant distance above and below the line.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_42",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "42",
+    "question": "If the midpoint of the line PQ is (2,3) and the point P is (-2, 1), find the coordinate of the point Q.",
+    "options": {
+      "A": "(8,6)",
+      "B": "(5,6)",
+      "C": "(0,4)",
+      "D": "(6,5)"
+    },
+    "correct_answer": "D",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Coordinate geometry",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Midpoint of a line PQ where P has coordinates (x₁, y₁) and Q has coordinates (x₂, y₂) is given as",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_43",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "43",
+    "question": "Find the equation of the perpendicular bisector of the line joining P(2,⁻³) to Q(-5, 1)",
+    "options": {
+      "A": "8y + 14x + 13 = 0",
+      "B": "8y - 14x + 13 = 0",
+      "C": "8y - 14x - 13 = 0",
+      "D": "8y + 14x - 13 = 0"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given P(2,⁻³) and Q(-5, 1)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_44",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "44",
+    "question": "In triangle PQR, q = 8 cm, r = 6 cm and cos P = (1/12). Calculate the value of p.",
+    "options": {
+      "A": "√(108) cm",
+      "B": "9 cm",
+      "C": "√(92) cm",
+      "D": "10 cm"
+    },
+    "correct_answer": "C",
+    "topic": "Section III: Geometry and Trigonometry",
+    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using the cosine rule, we have",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_45",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "45",
+    "question": "If θ = (3/4), find the value of θ + θ.",
+    "options": {
+      "A": "1(1/3)",
+      "B": "1(2/3)",
+      "C": "1(3/5)",
+      "D": "1(2/5)"
+    },
+    "correct_answer": "D",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "θ = (opp/adj) = (3/4)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_46",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "46",
+    "question": "Integrate (1 + x/x³) d x",
+    "options": {
+      "A": "2x² - (1/x) + k",
+      "B": "-(1/2x²) - (1/x) + k",
+      "C": "-(x²/2) - (1/x) + k",
+      "D": "x² - (1/x) + k"
+    },
+    "correct_answer": "B",
+    "topic": "Section II: Algebra",
+    "subtopic": "Polynomials and factorization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t (1 + x/x³) d x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_47",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "47",
+    "question": "Evaluate ∈t₀ ⁽π/²⁾ x d x",
+    "options": {
+      "A": "-2",
+      "B": "2",
+      "C": "1",
+      "D": "-1"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Number bases",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "∈t₀ ⁽π/²⁾ x d x",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Mathematics_2013_48",
+    "exam": "JAMB",
+    "subject": "Mathematics",
+    "year": 2013,
+    "number": "48",
+    "question": "P, Q and R are subsets of the universal set U. The Venn diagram showing the relationship (P ∩ Q) ∪ R is",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct_answer": "C",
+    "topic": "Section I: Number and Numeration",
+    "subtopic": "Sets and Venn diagrams",
+    "image": "images/img_2013_mathematics_48.jpg",
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Mathematics_2013_q48_7f05624a.jpg",
+        "alt": "",
+        "original_url": "/storage/classroom/editor_images/IMG_20191113_123557%20%282%29_LI.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

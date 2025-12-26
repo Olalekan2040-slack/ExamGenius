@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "JAMB_Physics_2017_1",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "1",
+    "question": "Which is the incorrect formula for a body accelerating uniformly?",
+    "options": {
+      "A": "a = v² − (u²/2)",
+      "B": "v² = u² + 2as",
+      "C": "s = ut + (1/2) at²",
+      "D": "v² − u² = 2as"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Look through the equations of motion"
+  },
+  {
+    "id": "JAMB_Physics_2017_2",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "2",
+    "question": "Which of the following is not an electromagnetic radiation?",
+    "options": {
+      "A": "x - ray",
+      "B": "Radio waves",
+      "C": "sunlight",
+      "D": "sound waves"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_3",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "3",
+    "question": "Calculate the electric field intensity between two plates of potential difference 6.5V when separated by a distance of 35cm.",
+    "options": {
+      "A": "18.57NC⁻¹",
+      "B": "53.06N C⁻¹",
+      "C": "2.28NC⁻¹",
+      "D": "0.80NC⁻¹"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_4",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "4",
+    "question": "Why do soldiers march disorderly while crossing a bridge?",
+    "options": {
+      "A": "To prevent resonance on the bridge",
+      "B": "To set the bridge into resonance",
+      "C": "To make the b ridge collapse",
+      "D": "To spread their weight evenly on the bridge"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Soldiers march disorderly while crossing a bridge to prevent resonance because when soldiers march in orderly manner across a bridge, they generate a rhythmic oscillation of wave on the bridge and at a certain point, would start oscillation to the same rhythm as that of the marching steps. This oscillation would reach a maximum peak when the bridge can no longer sustain its own strength and hence collapses. So for this reasons, soldier are ordered to march disorderly while crossing a bridge."
+  },
+  {
+    "id": "JAMB_Physics_2017_5",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "5",
+    "question": "Calculate the upthrust on an object of volume 50cm3 which is immersed in liquid of density 10³ kgm-3 [g = 10ms-2]",
+    "options": {
+      "A": "0.8N",
+      "B": "2.5N",
+      "C": "0.5N",
+      "D": "1.0N"
+    },
+    "correct_answer": "C",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Upthrust = change in weightdensity = (mass/volume)Mass of liquid displaced = Density of Liquid × Volume;= 10³ × 50 × 10−⁶m³= 0.05kg(Note that the volume of 50cm³ was converted to m³ by multiplying by 10⁶) i.e 50cm³ = 50 × 10−⁶m³Since mass displaced = 0.05kgUpthrust = mg = 0.05 × 10= 0.5N"
+  },
+  {
+    "id": "JAMB_Physics_2017_6",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "6",
+    "question": "Under what conditions are cathode rays produced in a discharge tube?",
+    "options": {
+      "A": "High pressure and low voltage",
+      "B": "High pressure and high voltage",
+      "C": "Low pressure and low voltage",
+      "D": "Low pressure and high volatge"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_7",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "7",
+    "question": "Under which of the following conditions is workdone",
+    "options": {
+      "A": "A man supports a heavy food above his head with his hands",
+      "B": "A boy climbs onto a table",
+      "C": "A man pushes unto a table",
+      "D": "A woman holds a pot of water"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_8",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "8",
+    "question": "Calculate the specific latent heat of vaporization of steam of 1.13 x 106J of heat energy is required to convert 15kg of steam to water.",
+    "options": {
+      "A": "7.53 × 10⁵ Jkg⁻¹",
+      "B": "7.53 × 10⁻²Jkg⁻¹",
+      "C": "7.53 × 10⁴Jkg⁻¹",
+      "D": "7.53 × 10⁻³Jkg⁻¹"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Quantity of heat = mass(m) × specific latent heat (L)Q = mLL = (Q/m)= (1.13 × 10⁶/15)= 7.53 × 10⁴Jkg⁻¹"
+  },
+  {
+    "id": "JAMB_Physics_2017_9",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "9",
+    "question": "A cell of internal resistance 2Ω supplies current to a 6Ω resistor. The efficiency of the cell is",
+    "options": {
+      "A": "12.0%",
+      "B": "25.0%",
+      "C": "33.3%",
+      "D": "75.0%"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Internal resistance determine the maximum current that can be suppliedEfficiency = (R/R+ r) × 10⁰= (6/8) × 10⁰= 75%"
+  },
+  {
+    "id": "JAMB_Physics_2017_10",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "10",
+    "question": "Which of the following statements is NOT correct?",
+    "options": {
+      "A": "Molecules of a liquid are stationary",
+      "B": "Brownian motion is an evidence of particle nature of matter",
+      "C": "Matter is made up of molecules",
+      "D": "The molecules of matter are in constant motion"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_11",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "11",
+    "question": "A block and tackle pulley arrangement has 6 pulleys in which an effort of 50N supports a load of 200N, calculate the efficiency of the machine",
+    "options": {
+      "A": "80.0%",
+      "B": "76.6%",
+      "C": "66.7%",
+      "D": "60.7%"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_12",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "12",
+    "question": "Three 3ω resistance are connected in parallel what is the equivalent resistance?",
+    "options": {
+      "A": "1ω",
+      "B": "9ω",
+      "C": "3ω",
+      "D": "0.33ω"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_13",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "13",
+    "question": "Which of the following instruments helps to maintain the correct humidity and temperature of a building?",
+    "options": {
+      "A": "A compressor",
+      "B": "A refrigerator",
+      "C": "Air blower",
+      "D": "Air conditioner"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_14",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "14",
+    "question": "An element and its isotope only differ in the number of",
+    "options": {
+      "A": "protons",
+      "B": "electrons",
+      "C": "ions",
+      "D": "neutrons"
+    },
+    "correct_answer": "D",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_15",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "15",
+    "question": "The S.I unit of moment of a force is",
+    "options": {
+      "A": "kgm",
+      "B": "Nm",
+      "C": "Jm",
+      "D": "µm⁻¹"
+    },
+    "correct_answer": "B",
+    "topic": "Properties of Matter",
+    "subtopic": "Density and pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Moment of a force is the product of a force and the perpendicular distance from the line of action of the forceMoment = force × distance= N × m= Nm"
+  },
+  {
+    "id": "JAMB_Physics_2017_16",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "16",
+    "question": "Calculate the height of the image formed by a pinhole camera of length 12cm used to photograph an object 60cm away from the hole and 70cm high",
+    "options": {
+      "A": "10 cm",
+      "B": "16 cm",
+      "C": "5 cm",
+      "D": "14 cm"
+    },
+    "correct_answer": "D",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Magnification = (Length of camera/distance of object from pin hole)m = (12/60)= 0.2Also magnification m = (Height of image/Height of object)∴ Height of image = m × height of object= 0.2 × 70= 14cm"
+  },
+  {
+    "id": "JAMB_Physics_2017_17",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "17",
+    "question": "When two objects P and Q are supplied with the same quantity of heat, the temperature change in P is observed to be twice that of Q. The mass of P is half that of Q. The ratio of the specific heat capacity pf P to Q is",
+    "options": {
+      "A": "1:4",
+      "B": "4:1",
+      "C": "1:1",
+      "D": "2:1"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_18",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "18",
+    "question": "When the r.m.s value of a source of electricity supply is given as 240v, it means that the peak value of the supply is",
+    "options": {
+      "A": "240v",
+      "B": "340v",
+      "C": "480v",
+      "D": "57600v"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_19",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "19",
+    "question": "Which of the following operations can be used to convert an alternative current dynamo into a direct current dynamo",
+    "options": {
+      "A": "number of turns in the coil is increased",
+      "B": "strength of the field magnet is increased",
+      "C": "slip rings are replaced with split ring commutator",
+      "D": "coil is wound on a soft iron armature"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Current electricity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A d.c generator is one in which its current is allowed to flow in one direction even through it may vary in value an a.c generator can only be made to produce a d.c by replacing the two slip rings with a single split ring or commutator."
+  },
+  {
+    "id": "JAMB_Physics_2017_20",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "20",
+    "question": "The net capacitance in the circuit above is",
+    "options": {
+      "A": "80µF",
+      "B": "6.0µF",
+      "C": "4.0µF",
+      "D": "2.0µF"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "For capacitance i n parallel, 2µF and 2µF are in parallel,their equivalence is 2µF and 2µF = 4µFThe 4µF generated is now in series with the remaining 4µF.The net capacitance for series connection is(1/C) = (1/4) + (1/4) = 1 + (1/4) = (2/4)C = (4/2)= 2µF",
+    "images": [
+      {
+        "filename": "Physics_2017_q20_8bcd3f60.jpeg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/oTqFTxsokbK3KG4QYvfeHs2UKy8EElbMA2SmpkOH.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2017_21",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "21",
+    "question": "The instrument used to measure the pressure of a gas is",
+    "options": {
+      "A": "barometer",
+      "B": "thermometer",
+      "C": "hydrometer",
+      "D": "manometer"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Barometer is used to measure atmosphere pressureThermometer is used to measure temperatureHydrometer is used to measure relative density of a liquidManometer is used to measure the pressure of a gas"
+  },
+  {
+    "id": "JAMB_Physics_2017_22",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "22",
+    "question": "A man of mass 50kg ascends a flight of stains 5m high in 5 seconds. If acceleration due to gravity is 10ms⁻² the power expended is",
+    "options": {
+      "A": "100w",
+      "B": "200w",
+      "C": "400w",
+      "D": "500w"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_23",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "23",
+    "question": "A radio station broadcast at a frequency of 600KHZ. If the speed of light in air is³ × 108ms−¹. Calculate the wavelength of the radio wave",
+    "options": {
+      "A": "2.20 × 10³m",
+      "B": "5.0 × 10²m",
+      "C": "5.0 × 10⁵m",
+      "D": "11.8 × 10¹¹m"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_24",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "24",
+    "question": "Which of the following is a scalar quantity?",
+    "options": {
+      "A": "Tension",
+      "B": "Weight",
+      "C": "Impulse",
+      "D": "Mass"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_25",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "25",
+    "question": "Determine the focal length of a thin converging lens if the power is 5.0 dioptres",
+    "options": {
+      "A": "0.1 m",
+      "B": "0.2 m",
+      "C": "2.0 m",
+      "D": "2.5 m"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_26",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "26",
+    "question": "A string of length 5cm is extended by 0.04m when a load of 0.8kg is suspended at the end. How far will it extend if a force of 16N is applied? [g = 10ms⁻²]",
+    "options": {
+      "A": "0.04m",
+      "B": "0.12m",
+      "C": "0.01m",
+      "D": "0.08m"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_27",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "27",
+    "question": "How can energy loss be minimized through Eddy-current?",
+    "options": {
+      "A": "By using high resistance wire",
+      "B": "By using insulated soft iron wires",
+      "C": "By using low resistance wires",
+      "D": "Bu using turns of wires"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_28",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "28",
+    "question": "From the diagram above, calculate the energy stored in the capacitor",
+    "options": {
+      "A": "4.0 x 10⁻²J",
+      "B": "4.0 x 10⁻⁴J",
+      "C": "8.0 x 10⁻⁴J",
+      "D": "8.0 x 10⁻²J"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Physics_2017_q28_31273a51.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/7561985875_17_19.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2017_29",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "29",
+    "question": "A constant force of 5N acts for 5 seconds on a mass of 5kg initially at rest. Calculate the final momentum",
+    "options": {
+      "A": "125kgms−1",
+      "B": "25kgms−1",
+      "C": "15kgms−1",
+      "D": "0kgms−1"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Momentum and impulse",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Impulse = momentumImpulse = Force (f) × time (t)Momentum = mass (m) × velocity (v)∴ Ft = Final momentum - initial momentumFT = mv - muSince it is initially at rest u = 0∴ 5 × 5 = mv − m(0)25 = mv∴ Final momentum = 25kgms⁻¹"
+  },
+  {
+    "id": "JAMB_Physics_2017_30",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "30",
+    "question": "I. Refraction II. Interference III. Diffraction Which of the above properties are common to all waves?",
+    "options": {
+      "A": "II and III only",
+      "B": "I, II and III",
+      "C": "I and II only",
+      "D": "I and III only"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_31",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "31",
+    "question": "Which of the following is correct about an electric cell?",
+    "options": {
+      "A": "Primary cell produces a large current for a long time",
+      "B": "Secondary cell has a very high internal resistance",
+      "C": "Primary cell has a very low internal resistance",
+      "D": "Secondary cell has a very low internal resistance"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_32",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "32",
+    "question": "Which of the following is a semiconductor",
+    "options": {
+      "A": "copper",
+      "B": "silicon",
+      "C": "plastic",
+      "D": "Iron"
+    },
+    "correct_answer": "B",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_33",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "33",
+    "question": "Which of the following surfaces will absorb radiant heat energy?",
+    "options": {
+      "A": "white",
+      "B": "red",
+      "C": "black",
+      "D": "blue"
+    },
+    "correct_answer": "C",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A black solution is a better radiator of heat and allow a better absorber of heat."
+  },
+  {
+    "id": "JAMB_Physics_2017_34",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "34",
+    "question": "It is known that a neutron exists in a light atomic nucleus Which of the following also exists in the nucleus?",
+    "options": {
+      "A": "An electron",
+      "B": "A β - particle",
+      "C": "β - particle",
+      "D": "proton"
+    },
+    "correct_answer": "D",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_35",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "35",
+    "question": "The instrument to measure the relative density of liquid is",
+    "options": {
+      "A": "thermometer",
+      "B": "hydrometer",
+      "C": "spring balance",
+      "D": "beaker"
+    },
+    "correct_answer": "B",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Thermometer is used to measure temperatureHydrometer is used to measure relative density of liquid.Spring balance is used to measure the weight of an objectBeaker is used to measure or take volume of a liquid"
+  },
+  {
+    "id": "JAMB_Physics_2017_36",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "36",
+    "question": "What is the speed of a body vibrating at 50 cyclic per second",
+    "options": {
+      "A": "100 πrads−₁",
+      "B": "200 πrads−₁",
+      "C": "50 πrads−₁",
+      "D": "400 πrads−₁"
+    },
+    "correct_answer": "A",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "1 cycle = 360° = 2π rad∴ 50 cycle = 2 π rad × 50 = 100 πrad∴ = angular speed = 50 cycles per seconds = 100 π rads−₁"
+  },
+  {
+    "id": "JAMB_Physics_2017_37",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "37",
+    "question": "The action of blotting paper on ink is due to",
+    "options": {
+      "A": "diffusion",
+      "B": "osmosis",
+      "C": "capillarity",
+      "D": "surface tension"
+    },
+    "correct_answer": "C",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_38",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "38",
+    "question": "When two mirrors are placed at an angle of 90º to each other, how many images will be formed when an object is placed in front of the mirrors",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "correct_answer": "C",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When two mirror are inclined at an angle θ, the number of images formed, n = (360/θ) − 1∴ since θ = 90o∴ (360/θ) − 1= 4 − 1= 3"
+  },
+  {
+    "id": "JAMB_Physics_2017_39",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "39",
+    "question": "If silicon is doped with phosphorus, what type of semiconductor material will be formed?",
+    "options": {
+      "A": "Zener material",
+      "B": "P-n junction",
+      "C": "n-type",
+      "D": "p-type"
+    },
+    "correct_answer": "C",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_40",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "40",
+    "question": "Calculate the angle of minimum deviation of a 60º prism of a refractive index 1.5[ sin⁻¹ (0.75) = 49º]",
+    "options": {
+      "A": "38 o",
+      "B": "19.47 o",
+      "C": "16.25 o",
+      "D": "49 o"
+    },
+    "correct_answer": "A",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "For a refractive index () = ((1/2) (A + D)/(1/2)A)D = angle of minimum deviationA = refractive angle of the prism1.5 = ((1/2) (60 + D)/(1/2) × 60)1.5 = ((1/2) (60 + D)/30)Sin (1/2) (60 + D) = 1.5 * Sin 30Sin (1/2) (60 + D) = 0.75(1/2) (60 + D) = Sin-1 (0.75)but Sin-1 (0.75) = 49o(1/2) (60 + D) = 4960 + D = 2 * 49 = 98oD = 98o - 60oD = 38o"
+  },
+  {
+    "id": "JAMB_Physics_2017_41",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "41",
+    "question": "What is the cost of running seven 40 W lamps and five 80 W lamps for 12 hours of the electrical energy cost N7.00kWh?",
+    "options": {
+      "A": "N80.00",
+      "B": "N45.36",
+      "C": "N65.00",
+      "D": "N57.12"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Work, energy and power",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Seven 40W lamps = 7 × 40 = 280WFive 80W lamps = 5 × 80 = 400WTotal power = 280W + 400W= 680W= (680KW/1000) = 0.68KWThe kilowatt hour = 0.68 KW × 12 hrs= 8.16 KWhCost is N 7 per KWhSo the cost of running them = 8.16KWh × N 7/KWh= 57.12"
+  },
+  {
+    "id": "JAMB_Physics_2017_42",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "42",
+    "question": "From the diagram above, calculate the total current in the circuit",
+    "options": {
+      "A": "5.0A",
+      "B": "3.7A",
+      "C": "4.5A",
+      "D": "4.0A"
+    },
+    "correct_answer": "B",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Physics_2017_q42_c17ff4f7.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/6049880104_17_35.jpg"
+      }
+    ]
+  },
+  {
+    "id": "JAMB_Physics_2017_43",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "43",
+    "question": "Calculate the time taken for a mango fruit that fall from the tree 20 m to the ground [g = 10 ms⁻² ]",
+    "options": {
+      "A": "10s",
+      "B": "5s",
+      "C": "4s",
+      "D": "2s"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_44",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "44",
+    "question": "Which of the following is not a mechanical wave?",
+    "options": {
+      "A": "wave in closed pipe",
+      "B": "radio waves",
+      "C": "water waves",
+      "D": "sound waves"
+    },
+    "correct_answer": "B",
+    "topic": "Waves & Optics",
+    "subtopic": "Wave properties and types",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "There is an explanation video availablebelow."
+  },
+  {
+    "id": "JAMB_Physics_2017_45",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "45",
+    "question": "The velocity ratio of an inclined plane where angle of inclination in θ is",
+    "options": {
+      "A": "Sinθ",
+      "B": "Cosθ",
+      "C": "Tanθ",
+      "D": "(1/θ)"
+    },
+    "correct_answer": "D",
+    "topic": "Mechanics",
+    "subtopic": "Linear motion and equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_46",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "46",
+    "question": "The volume of a fixed mass of gas is 10cm³ when its pressure is 400cmHg. Determine the volume of the gas when its pressure is 200cmHg.",
+    "options": {
+      "A": "30cm³",
+      "B": "40cm³",
+      "C": "50cm³",
+      "D": "20cm³"
+    },
+    "correct_answer": "D",
+    "topic": "Heat & Thermodynamics",
+    "subtopic": "Temperature and heat",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_47",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "47",
+    "question": "Which of the following representations is correct for an atom X with 28 electrons and 30 neutrons?",
+    "options": {
+      "A": "⁵⁸₂₈X",
+      "B": "³⁰₂₈X",
+      "C": "²⁸₃₀X",
+      "D": "⁵⁸₃₀X"
+    },
+    "correct_answer": "A",
+    "topic": "Atomic & Nuclear Physics",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": ""
+  },
+  {
+    "id": "JAMB_Physics_2017_48",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "48",
+    "question": "Which of the following is true of an electrical charge?",
+    "options": {
+      "A": "Positive charge means deficit electrons",
+      "B": "Negative charge means excess of electrons",
+      "C": "electric current means movement of electrons",
+      "D": "All of the above"
+    },
+    "correct_answer": "D",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  },
+  {
+    "id": "JAMB_Physics_2017_49",
+    "exam": "JAMB",
+    "subject": "Physics",
+    "year": 2017,
+    "number": "49",
+    "question": "Which of the following is not true of an electrical charge?",
+    "options": {
+      "A": "Negative charge means deficit electrons",
+      "B": "Negative charge means excess of electrons",
+      "C": "electric current means movement of electrons",
+      "D": "All of the above"
+    },
+    "correct_answer": "A",
+    "topic": "Electricity & Magnetism",
+    "subtopic": "Electric charges and fields",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here"
+  }
+]

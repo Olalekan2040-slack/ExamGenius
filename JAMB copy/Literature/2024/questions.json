@@ -1,0 +1,722 @@
+[
+  {
+    "id": "JAMB_Literature_2024_1",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "1",
+    "question": "This question is based on Literary Appreciation. Football is the only sport on earth that can be considered truly global. Simple and inexpensive. it is equally likely to be found in a tight Marseille banlieue, an obscure corner of a Lagos slum, and the heart of a Buenos barrio. Marley's music is similarly universal... According to the excerpt above, football is",
+    "options": {
+      "A": "\n\n            played only in Lagos slums\n",
+      "B": "\n\n            footballers like Marley's music\n",
+      "C": "\n\n            popular but cheap\n",
+      "D": "\n\n            a universal game\n"
+    },
+    "correct_answer": "D",
+    "topic": "General Literary Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_2",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "2",
+    "question": "This question is based on Literary Appreciation. \"The commission has the power to investigate, to conciliate to hold hearings, to order reinstatement of a discharged employee, and to direct the appointment of a qualified applicant\" The rhetorical device used in the excerpt above is",
+    "options": {
+      "A": "\n\n            Irony\n",
+      "B": "\n\n            Personification\n",
+      "C": "\n\n            Hyperbole\n",
+      "D": "\n\n            Parallelism\n"
+    },
+    "correct_answer": "D",
+    "topic": "General Literary Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty",
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature_2024_3",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "3",
+    "question": "This question is based on Literary Appreciation. \"Lonely road, Not a star Lonely road Shadows far And quiet\" Peter Abraham Lonely Road. The rhyme scheme in the excerpt above is",
+    "options": {
+      "A": "\n\n            abcdec\n",
+      "B": "\n\n            ababc\n",
+      "C": "\n\n            babac\n",
+      "D": "\n\n            aabbc\n"
+    },
+    "correct_answer": "B",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_4",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "4",
+    "question": "This question is based on Alex Agyei-Agyiri's Unexpected Joy at Dawn. The setting of the novel is",
+    "options": {
+      "A": "\n\n            Nigeria and Ghana\n",
+      "B": "\n\n            Nigeria and Togo\n",
+      "C": "\n\n            Ghana and Niger\n",
+      "D": "\n\n            Nigeria and Benin\n"
+    },
+    "correct_answer": "A",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_5",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "5",
+    "question": "This question is based on Alex Agyei-Agyiri's Unexpected Joy at Dawn. Wachuk in the novel is",
+    "options": {
+      "A": "\n\n            the cigarette seller\n",
+      "B": "\n\n            Niyi's friend\n",
+      "C": "\n\n            Idem's husband\n",
+      "D": "\n\n            the alcohol seller\n"
+    },
+    "correct_answer": "C",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_6",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "6",
+    "question": "In Senghor's Black Woman, the dominant literary device is",
+    "options": {
+      "A": "\n\n            hyperbole\n",
+      "B": "\n\n            personification\n",
+      "C": "\n\n            simile\n",
+      "D": "\n\n            metaphor\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Principles",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_7",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "7",
+    "question": "Sesay's \"The Song of the Woman of My Land\" is a",
+    "options": {
+      "A": "\n\n            political poem\n",
+      "B": "\n\n            geographical poem\n",
+      "C": "\n\n            social poem\n",
+      "D": "\n\n            panegyric poem\n"
+    },
+    "correct_answer": "D",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_8",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "8",
+    "question": "In Eliot's \"Journey of the Magi\", \"six hands at an open door\" is an example of",
+    "options": {
+      "A": "\n\n            synecdoche\n",
+      "B": "\n\n            irony\n",
+      "C": "\n\n            alliteration\n",
+      "D": "\n\n            metonymy\n"
+    },
+    "correct_answer": "A",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_9",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "9",
+    "question": "Osundare's \"The Leader and the Led\" is",
+    "options": {
+      "A": "\n\n            dramatic\n",
+      "B": "\n\n            satiric\n",
+      "C": "\n\n            narrative\n",
+      "D": "\n\n            elegaic\n"
+    },
+    "correct_answer": "B",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_10",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "10",
+    "question": "The poet persona in Donne's \"The Good Morrow\" reflects on",
+    "options": {
+      "A": "\n\n            spiritual love\n",
+      "B": "\n\n            the immortality of love\n",
+      "C": "\n\n            falling in love\n",
+      "D": "\n\n            love marriage\n"
+    },
+    "correct_answer": "B",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_11",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "11",
+    "question": "The style of Chibuike's \"A Government Driver on His Retirement\" is",
+    "options": {
+      "A": "\n\n            narrative\n",
+      "B": "\n\n            monologic\n",
+      "C": "\n\n            reflective\n",
+      "D": "\n\n            panegyric\n"
+    },
+    "correct_answer": "A",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_12",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "12",
+    "question": "\"But a caged bird stands on the grave of dreams\" The excerpt above from Angelou's \"Caged Bird\" implies that caged bird",
+    "options": {
+      "A": "\n\n            will die\n",
+      "B": "\n\n            will be frustrated\n",
+      "C": "\n\n            stands on its grave\n",
+      "D": "\n\n            walks freely to actualise its dream\n"
+    },
+    "correct_answer": "B",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_13",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "13",
+    "question": "Lawrence's \"Bats\" is a",
+    "options": {
+      "A": "\n\n            sarcasm\n",
+      "B": "\n\n            satire\n",
+      "C": "\n\n            dramatic dialogue\n",
+      "D": "\n\n            dramatic monolgue\n"
+    },
+    "correct_answer": "D",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_14",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "14",
+    "question": "This question is based on Wole Soyinka's The Lion and the Jewel Lakunle declines to pay bride price on Sidi because he sees tradition as",
+    "options": {
+      "A": "\n\n            unholy\n",
+      "B": "\n\n            illegal\n",
+      "C": "\n\n            babaric\n",
+      "D": "\n\n            childish\n"
+    },
+    "correct_answer": "C",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_15",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "15",
+    "question": "The question is based on Wole Soyinka's The Lion and the Jewel The play is a",
+    "options": {
+      "A": "\n\n            Comedy\n",
+      "B": "\n\n            Tragi-comedy\n",
+      "C": "\n\n            Farce\n",
+      "D": "\n\n            Melodrama\n"
+    },
+    "correct_answer": "A",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_16",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "16",
+    "question": "This question is based on John Osborne's Look Back in Anger Alison and Jimmy are accommodated during the first month of their marriage by",
+    "options": {
+      "A": "\n\n            Hugh Tanner\n",
+      "B": "\n\n            Nigel\n",
+      "C": "\n\n            Cliff\n",
+      "D": "\n\n            Webster\n"
+    },
+    "correct_answer": "A",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_17",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "17",
+    "question": "This question is based on John Osbourne's Look Back in Anger The protagonist in the play is",
+    "options": {
+      "A": "\n\n            Alison Porter\n",
+      "B": "\n\n            Cliff Lewis\n",
+      "C": "\n\n            Jimmy Porter\n",
+      "D": "\n\n            Colonel Redfern\n"
+    },
+    "correct_answer": "C",
+    "topic": "Drama",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_18",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "18",
+    "question": "This question is based on John Osbourne's Look Back in Anger The couple's marital crisis is aggravated by",
+    "options": {
+      "A": "\n\n            Jimmy\n",
+      "B": "\n\n            Cliff\n",
+      "C": "\n\n            Helena\n",
+      "D": "\n\n            Hugh\n"
+    },
+    "correct_answer": "C",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_19",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "19",
+    "question": "This question is based on John Osborne's Look Back in Anger. The reason why Jimmy easily gets along with Cliff is because",
+    "options": {
+      "A": "\n\n            they both belong to the working class\n",
+      "B": "\n\n            Alison speaks well of Cliff\n",
+      "C": "\n\n            the relatives of Jimmy's mother are rich\n",
+      "D": "\n\n            they are both from affluent backgrounds\n"
+    },
+    "correct_answer": "A",
+    "topic": "General Literary Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_20",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "20",
+    "question": "This question is based on John Osborne's Look Back in Anger. Jimmy's harmatia is",
+    "options": {
+      "A": "\n\n            infidelity\n",
+      "B": "\n\n            anger\n",
+      "C": "\n\n            pride\n",
+      "D": "\n\n            jealousy\n"
+    },
+    "correct_answer": "B",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_21",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "21",
+    "question": "This question is based on Buchi Emecheta's Second Class Citizen Adah is so obsessed with the sleek woman at the hospital because the woman",
+    "options": {
+      "A": "\n\n            has a doting husband\n",
+      "B": "\n\n            has a high paying job\n",
+      "C": "\n\n            gives birth to twins\n",
+      "D": "\n\n            lives in a mansion\n"
+    },
+    "correct_answer": "A",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Citizenship",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_22",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "22",
+    "question": "This question is based on Buchi Emecheta's Second Class Citizen. Adah's disappointment is in the overwhelming",
+    "options": {
+      "A": "\n\n            freedom for the blacks\n",
+      "B": "\n\n            reception of the blacks\n",
+      "C": "\n\n            recognition given the blacks\n",
+      "D": "\n\n            discrimination against the blacks\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Citizenship",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Literature_2024_23",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "23",
+    "question": "This question is based on Buchi Emecheta's Second Class Citizen The main challenge Adah encounters in England is",
+    "options": {
+      "A": "\n\n            being a woman\n",
+      "B": "\n\n            financial limitations\n",
+      "C": "\n\n            being half literate\n",
+      "D": "\n\n            being a black person\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Principles",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Citizenship"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_24",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "24",
+    "question": "The question is based on Emily Bronte's Wuthering Heights The structure of the novel is based on two major conflicts of",
+    "options": {
+      "A": "\n\n            love\n",
+      "B": "\n\n            passion\n",
+      "C": "\n\n            emotion\n",
+      "D": "\n\n            romance\n"
+    },
+    "correct_answer": "B",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Structure and Workings of Nigerian Federalism",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_25",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "25",
+    "question": "This question is based on Emily Bronte's Wuthering Heights The setting of the novel is",
+    "options": {
+      "A": "\n\n            Mid 16th century\n",
+      "B": "\n\n            Mid 17th century\n",
+      "C": "\n\n            Mid 18th century\n",
+      "D": "\n\n            Mid 19th century\n"
+    },
+    "correct_answer": "C",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_26",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "26",
+    "question": "This question is based on Emily Bronte's Wuthering Heights The novel can be described as a",
+    "options": {
+      "A": "\n\n            Renaissance prose\n",
+      "B": "\n\n            Victorian novel\n",
+      "C": "\n\n            French fiction\n",
+      "D": "\n\n            English autobiography\n"
+    },
+    "correct_answer": "B",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Imperialist Penetration",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_27",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "27",
+    "question": "This question is based on Emily Bronte's Wuthering Heights. Heathcliff considered himself the second half of",
+    "options": {
+      "A": "\n\n            Nelly Dean\n",
+      "B": "\n\n            Isabella Linton\n",
+      "C": "\n\n            Hindley Earnshaw\n",
+      "D": "\n\n            Catherine Earnshaw\n"
+    },
+    "correct_answer": "D",
+    "topic": "Literary Terms & Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_28",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "28",
+    "question": "This question is based on General Literary Principles. The collection of images within a literary work is referred to as",
+    "options": {
+      "A": "\n\n            imagery\n",
+      "B": "\n\n            images\n",
+      "C": "\n\n            symbolism\n",
+      "D": "\n\n            caesura\n"
+    },
+    "correct_answer": "A",
+    "topic": "Literary Terms & Principles",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_29",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "29",
+    "question": "This question is based on general literary principles The leading character in a literary work is the",
+    "options": {
+      "A": "\n\n            protagonist\n",
+      "B": "\n\n            antagonist\n",
+      "C": "\n\n            villain\n",
+      "D": "\n\n            anti-hero\n"
+    },
+    "correct_answer": "A",
+    "topic": "General Literary Appreciation",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_30",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "30",
+    "question": "A long narrative poem that relates heroic exploits is",
+    "options": {
+      "A": "\n\n            panegyric\n",
+      "B": "\n\n            lyric\n",
+      "C": "\n\n            ballad\n",
+      "D": "\n\n            epic\n"
+    },
+    "correct_answer": "D",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_31",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "31",
+    "question": "This question is based on General Literary Principles. A poem of eight rhyming lines is",
+    "options": {
+      "A": "\n\n            quatrain\n",
+      "B": "\n\n            octave\n",
+      "C": "\n\n            sonnet\n",
+      "D": "\n\n            limerick\n"
+    },
+    "correct_answer": "B",
+    "topic": "Poetry",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Literature_2024_32",
+    "exam": "JAMB",
+    "subject": "Literature",
+    "year": 2024,
+    "number": "32",
+    "question": "This question is based on General Literary Principles. The events that make up the story is the",
+    "options": {
+      "A": "\n\n            plot\n",
+      "B": "\n\n            setting\n",
+      "C": "\n\n            atmosphere\n",
+      "D": "\n\n            theme\n"
+    },
+    "correct_answer": "A",
+    "topic": "Prose",
+    "image": null,
+    "source": "myschool.ng",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

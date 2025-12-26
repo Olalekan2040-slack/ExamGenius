@@ -1,0 +1,2023 @@
+[
+  {
+    "id": "JAMB_Chemistry_2019_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "1",
+    "question": "A secondary alkanol can be oxidized to give an?",
+    "options": {
+      "A": "alkanone",
+      "B": "alkyne",
+      "C": "alkanoic acid",
+      "D": "alkanal"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanols (Alcohols)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "secondary alkanols(alcohols) can beoxidisedto alkanones (ketones)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "2",
+    "question": "Which of the following will give a precipitate with an aqueous solution of copper (I) chloride?",
+    "options": {
+      "A": "But-2-ene",
+      "B": "But-1-ene",
+      "C": "But-2-yne",
+      "D": "But-1-yne"
+    },
+    "correct_answer": "D",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A hydrocarbon that will produce a red precipitate when reacted with an aqueous solution of copper(I) chloride is an alkyne. More specifically, an alkyne with a terminal triple bond, like ethyne (acetylene), will react to form a red precipitate of copper(I) acetylide. The most reactive alkynes are those where the triple bond is at the end of the carbon chain (terminal triple bond).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "3",
+    "question": "The IUPAC name for CH₃CH₂COOCH₂CH₃ is",
+    "options": {
+      "A": "methylpropanoate",
+      "B": "ethylethanoate",
+      "C": "ethylpropanoate",
+      "D": "methylethanoate"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "While naming the IUPAC nomenclature of hydrocarbon compounds, we usually start with the naming from the rare i.e the functional group from the right hand side.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "4",
+    "question": "A certain hydrocarbon on complete combustion at s.t.p produced 89.6dm³ of CO₂ and 54g of water. The hydrocarbon should be?",
+    "options": {
+      "A": "C₆H₆",
+      "B": "C₄H₁₀",
+      "C": "C₅H₁₀",
+      "D": "C₄H₆"
+    },
+    "correct_answer": "D",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C_xH_y + (x + y/4)O₂ x CO₂ + y/2 H₂O",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "5",
+    "question": "2-methylprop-1-ene is an isomer of?",
+    "options": {
+      "A": "3-methyl but-1-ene",
+      "B": "2-methyl but-1-ene",
+      "C": "but-2-ene",
+      "D": "pent-2-ene"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Isomers of Butene: areBut-1-ene, But-2-ene, 2-Methylpropene /2-methylprop-1-ene",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "6",
+    "question": "Hydrocarbons which will react with Tollen's reagent conform to the general formula",
+    "options": {
+      "A": "C_nH₂ₙ",
+      "B": "C_nH₂ₙ ₊ ₂",
+      "C": "C_nH₂ₙ ₋ ₂",
+      "D": "C_nH₂ₙ ₊ ₁OH"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanals and Alkanones",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Only hydrocarbons containing an aldehyde group (RCHO) or a terminal alkyne (R-C≡C-H) will react with Tollens' reagent, leading to a silver mirror formation or a white precipitate, respectively. Aldehydes are oxidized by Tollens' reagent (ammoniacal silver nitrate solution) to form carboxylic acids, while the silver ions (Ag+) are reduced to metallic silver (Ag), which deposits as a silver mirror on the walls of the test tube.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "7",
+    "question": "The IUPAC name of the compound CF₃CHBrCl is",
+    "options": {
+      "A": "2-chloro-2-bromo-1,1,1-trifluoroethane",
+      "B": "2-bromo-2-chloro-1,1,1-trifluoroethane",
+      "C": "1-bromo-1-chloro-2,2,2-trifluoroethane",
+      "D": "1,1,1-trifluoro-2-bromo-2-chloroethane"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "8",
+    "question": "A synthetic rubber is not obtained from the polymerization of?",
+    "options": {
+      "A": "neoprene",
+      "B": "isoprene",
+      "C": "butandiene",
+      "D": "hexane"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Polymers and plastics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "9",
+    "question": "Burning magnesium ribbon in air removes which of the following (i) oxygen (ii) nitrogen (iii) argon and (iv) carbon(iv)oxide?",
+    "options": {
+      "A": "i and iv only",
+      "B": "i, ii, iii and iv only",
+      "C": "i only",
+      "D": "i and ii only"
+    },
+    "correct_answer": "C",
+    "topic": "5. Air",
+    "subtopic": "Nitrogen and oxygen in air",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The chemical reaction between magnesium ribbon and oxygen is a combustion reaction that produces magnesium oxide (MgO). Burning Magnesium ribbon in air removes oxygen, because as Magnesium burns in air, it reacts with oxygen in the air to form Magnesium oxide.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "10",
+    "question": "Which of the following is the best starting material for the preparation of oxygen? Heating of trioxonitrate (v) with",
+    "options": {
+      "A": "Pb",
+      "B": "Zn",
+      "C": "Ca",
+      "D": "Na"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The best starting material for the preparation of oxygen through heating trioxonitrate(V) (nitrates) would involve a metal that facilitates the decomposition of the nitrate to produce oxygen, coincidentally, Pb (Lead) falls into that category.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "11",
+    "question": "Which of the following metals is the most essential in the regulation of blood volume, blood pressure and osmotic equilibrium?",
+    "options": {
+      "A": "Zinc",
+      "B": "Manganese",
+      "C": "Sodium",
+      "D": "Iron"
+    },
+    "correct_answer": "C",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "12",
+    "question": "Which of the following alkaline earth metals react more spontaneously with water?",
+    "options": {
+      "A": "Calcium",
+      "B": "Beryllium",
+      "C": "Magnesium",
+      "D": "Strontium"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkaline earth metals (Calcium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "TheGroup 2metals become more reactive towardswateras you go down theGroup.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "13",
+    "question": "When chlorine water is exposed to bright sunlight, the following products are formed",
+    "options": {
+      "A": "HCl₍ₐq₎ and Cl₂",
+      "B": "HOCl₍ₐq₎ and Cl₂",
+      "C": "HCl₍ₐq₎ and O₂",
+      "D": "HOCl₍ₐq₎ and O₂"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When Chlorine water is exposed to bright sunlight, the products formed arehydrochloric acid (HCl)andoxygen gas O₂.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "14",
+    "question": "Which process(es) is/are involved in the turning of starch iodide paper blue-black by chlorine gas?",
+    "options": {
+      "A": "chlorine attacks the starch to give the blue-black color",
+      "B": "chlorine attacks the iodide ion to give the blue-black color",
+      "C": "chlorine oxidizes the iodide ion to produce iodine which attacks the starch to give the blue-black color",
+      "D": "iodine attacks the starch to give the blue-black color"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "15",
+    "question": "Which of the following is a set of neutral oxides?",
+    "options": {
+      "A": "N₂O, H₂O, CO",
+      "B": "N₂O, SO₂, CO",
+      "C": "N₂O, Na₂O, ZnO",
+      "D": "N₂O, SO₃, NO"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "16",
+    "question": "SO₃ is not directly dissolved in water in the industrial preparation of H₂SO₄ by the contact process because",
+    "options": {
+      "A": "SO₃ is an acidic gas",
+      "B": "Acid is usually added to water and not water to acid",
+      "C": "The reaction between SO₃ and water is violently exothermic",
+      "D": "SO₃ does not dissolve readily in water"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sulphur trioxide (SO₃) is not directly dissolved in water to produce sulphuric acid (H₂SO₄) because the reaction is highly exothermic and produces a fine mist of sulphuric acid, which is difficult to control and condense. Instead, SO₃ is absorbed in concentrated sulphuric acid (oleum) to form oleum, which is then diluted with water to produce the desired sulphuric acid concentration.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria's Foreign Policy",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "17",
+    "question": "Which of the following statements does not show Rutherford's account of Nuclear Theory? An atom contains a region",
+    "options": {
+      "A": "which contains protons and neutrons",
+      "B": "which is positively charged",
+      "C": "which is massive and can cause deflection of a few projectiles",
+      "D": "which is very large and in which close to 98% of projectiles pass undeflected"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Rutherford's initial atomic model, though crucial for understanding the nucleus, didn't explicitly include neutrons. Rutherford's model, developed in 1911, identified a small, positively charged nucleus at the atom's center, but it only included positively charged protons within this nucleus. The neutral neutron was discovered later, by James Chadwick, in 1932.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2019_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "18",
+    "question": "Elements X and Y have electronic configurations 1s²2s²2p⁴ and 1s²2s²2p⁶3s²3p¹ respectively. When they combine, the formula of the compound formed is",
+    "options": {
+      "A": "XY",
+      "B": "X₂Y",
+      "C": "Y₂X₃",
+      "D": "X₂Y₃"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "For better understanding, try to identify what elements X and Y are:",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "19",
+    "question": "By what amount must the temperature of 200cm³ of Nitrogen at 27°C be increased to double the pressure if the final volume is 150cm³ (Assume ideality)",
+    "options": {
+      "A": "150°C",
+      "B": "177°C",
+      "C": "75°C",
+      "D": "120°C"
+    },
+    "correct_answer": "A",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Dalton's law of partial pressure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Parameters given:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "20",
+    "question": "The combustion of carbon(II)oxide in oxygen can be represented by equation: 2CO + O₂ → 2CO₂ Calculate the volume of the resulting mixture at the end of the reaction, if 50cm³ of carbon(ii)oxide was exploded in 100cm³ of oxygen",
+    "options": {
+      "A": "75cm³",
+      "B": "125cm³",
+      "C": "100cm³",
+      "D": "50cm³"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "2CO + O₂ → 2CO₂",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "21",
+    "question": "When ammonia and hydrogen ion bond together to form ammonium ion, the bond formed is called",
+    "options": {
+      "A": "electrovalent bond",
+      "B": "compound bond",
+      "C": "ionic bond",
+      "D": "covalent bond"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Chemical bonding (ionic, covalent, metallic)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When ammonia and hydrogen ion go into bonding, they form ammonium ion with a one dative covalent bond and three covalent bonds.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "22",
+    "question": "Which of the following represents the kind of bonding present in ammonium chloride?",
+    "options": {
+      "A": "ionic only",
+      "B": "covalent only",
+      "C": "ionic and covalent",
+      "D": "dative covalent"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Halogens (Chlorine)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "23",
+    "question": "Consider the reaction A₍ₛ₎ + 2B₍g₎ → 2C₍ₐq₎ + D₍g₎ What will be the effect of a decrease in pressure on the reaction?",
+    "options": {
+      "A": "the equilibrium will shift",
+      "B": "rate of forward reaction will increase",
+      "C": "rate of backward reaction will increase",
+      "D": "rates of forward and backward reaction are not affected"
+    },
+    "correct_answer": "C",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given: The equation belowA₍ₛ₎ + 2B₍g₎ → 2C₍ₐq₎ + D₍g₎",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "24",
+    "question": "For the general equation of the nature xP + yQ ⇌ mR + nS, the expression for the equilibrium constant is",
+    "options": {
+      "A": "k[P]^x[Q]^y",
+      "B": "(m[R][S]/x[P]y[Q])",
+      "C": "([P]^x[Q]^y/[R]^m[S]^n)",
+      "D": "([R]^m[S]^n/[P]^x[Q]^y)"
+    },
+    "correct_answer": "D",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Equilibrium constant",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given:xP + yQ ⇌ mR + nSLet us assume they are all in aqueous solution",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "25",
+    "question": "Which of the following reactions is an oxidation process?",
+    "options": {
+      "A": "2H⁺ + 2e⁻ H₂",
+      "B": "2O²⁻ + 4e⁻ O₂",
+      "C": "OCl⁻ + H₂O + 2e⁻ 2OH⁻ + Cl⁻",
+      "D": "Cl + e⁻ Cl⁻"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Option B is the only oxidation process because there was an increase in oxidation state of Oxygen from - 2 to 0.Also, there was loss of electrons. The other options are reduction reactions as they involve gain of electrons as well as decrease in oxidation number.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "26",
+    "question": "If acidified Potassium Dichromate(VI) (K₂Cr₂O₇) acts as oxidizing agent, color changes from",
+    "options": {
+      "A": "yellow to green",
+      "B": "orange to green",
+      "C": "yellow to red",
+      "D": "orange to red"
+    },
+    "correct_answer": "B",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidizing and reducing agents",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Potassium dichromate is an oxidising agent in organic chemistry. It is used to oxidize alcohols.In an aqueous solution the color change exhibited can be used to test for distinguishing aldehydes from ketones. Aldehydes reduce dichromate from the +6 to the +3 oxidation state, changing color from orange to green. This color change arises because the aldehyde can be oxidized to the corresponding carboxylic acid.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "27",
+    "question": "The heat of formation of ethene, C₂H₄ is 50 kJmol⁻¹, and that of ethane, C₂H₆ is -82kJmol⁻¹. Calculate the heat evolved in the process: C₂H₄ + H₂ C₂H₆",
+    "options": {
+      "A": "-122kJ",
+      "B": "-132kJ",
+      "C": "-88kJ",
+      "D": "-60kJ"
+    },
+    "correct_answer": "B",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "28",
+    "question": "Which of the following statements about catalyst is false?",
+    "options": {
+      "A": "biological catalysts are called enzymes",
+      "B": "catalyst do not appear in the balanced equation",
+      "C": "catalyst reduce the activation energy for a reaction",
+      "D": "catalysts do not alter the mechanism of the reaction and never appear in the rate low"
+    },
+    "correct_answer": "D",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Option D says catalysts do not alter the mechanism of the reaction and never appear in the rate low. This statement is false; catalysts do alter the mechanism of a reaction by providing an alternative pathway with a lower activation energy, and while they do not appear in the overall balanced chemical equation, they can be involved in individual steps of the reaction mechanism, meaning they may appear in the rate law for a specific step of the reaction.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2019_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "29",
+    "question": "Which of the following does not support the fact that air is a mixture?",
+    "options": {
+      "A": "the constituents of air are in a fixed proportion by mass",
+      "B": "it cannot be represented with a chemical formula",
+      "C": "the constituents of air can be separated by physical by physical means",
+      "D": "none of the above"
+    },
+    "correct_answer": "D",
+    "topic": "5. Air",
+    "subtopic": "Composition of air",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "30",
+    "question": "What technique is suitable for separating a binary solution of potassium chloride and potassium trioxochlorate (V)?",
+    "options": {
+      "A": "Fractional crystallization",
+      "B": "Fractional distillation",
+      "C": "Filtration",
+      "D": "Evaporation"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "31",
+    "question": "At 27°C, 58.5g of sodium chloride is present in 250cm³ of a solution. The solubility of sodium chloride at this temperature is? (molar mass of sodium chloride = 111.0gmol⁻¹)",
+    "options": {
+      "A": "2.0 moldm⁻³",
+      "B": "0.25 moldm⁻³",
+      "C": "1.0 moldm⁻³",
+      "D": "0.5 moldm⁻³"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given the Mass of the salt = 58.5g",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "32",
+    "question": "Which of the following properties increases from left to right along the period but decreases down the group in the Periodic Table? i. Atomic Number ii. Ionization energy iii. Metallic character iv. Electron affinity",
+    "options": {
+      "A": "ii and iii only",
+      "B": "ii and iv only",
+      "C": "iii and iv only",
+      "D": "i and ii only"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ionization energy and electron affinity increase across a period, and decrease down a group.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "33",
+    "question": "The molecular shape and bond angle of water are respectively",
+    "options": {
+      "A": "linear, 180°",
+      "B": "bent, 109.5°",
+      "C": "tetrahedral, 109.5°",
+      "D": "bent, 105°"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Chemical bonding (ionic, covalent, metallic)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "34",
+    "question": "Na₂CO₃ + 2HCl 2NaCl + H₂O + CO₂ The indicator most suitable for this reaction should have a pH equal to",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "3",
+      "D": "9"
+    },
+    "correct_answer": "C",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Methyl orange is the best indicator for the reaction with range³.1 - 4.4.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "35",
+    "question": "A radioactive nucleus has a half-life of 20 years, starting with 100,000 particles, how many particles will be left exactly at the end of 40 years",
+    "options": {
+      "A": "75,000 particles",
+      "B": "35,000 particles",
+      "C": "25,000 particles",
+      "D": "50,000 particles"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Nuclear chemistry and radioactivity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given:",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "36",
+    "question": "Which two gases can be used for the demonstration of the fountain experiment?",
+    "options": {
+      "A": "SO₄ and NH₃",
+      "B": "SO₃ and NH₃",
+      "C": "HCl and NH₃",
+      "D": "SO₂ and CO"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "37",
+    "question": "Which of the following pollutants will lead to the depletion of ozone layer?",
+    "options": {
+      "A": "chlorofluorocarbon",
+      "B": "carbon (ii) oxide",
+      "C": "hydrogen sulphide",
+      "D": "sulphur (iv) oxide"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "38",
+    "question": "Which of the following describes the chemical property of acids?",
+    "options": {
+      "A": "None of the above",
+      "B": "Acid + XCO₃ Salt + H₂O + NH₃",
+      "C": "Acid + NaOH Normal salt + CO₂",
+      "D": "Acid + X_nCO₃ Salt + H₂O + CO₂"
+    },
+    "correct_answer": "D",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Properties of acids",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "39",
+    "question": "Which of the following pairs cannot be represented with a chemical formula?",
+    "options": {
+      "A": "air and bronze",
+      "B": "bronze and sodium chloride",
+      "C": "copper and sodium chloride",
+      "D": "caustic soda and washing soda"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "40",
+    "question": "Consider the equation below: Cr₂O₇ ²⁻ + 6Fe²⁺ + 14H⁺ 2Cr³⁺ + 6Fe³⁺ + 7H₂O. The oxidation number of chromium changes from",
+    "options": {
+      "A": "+5 to +3",
+      "B": "+6 to +3",
+      "C": "-2 to +3",
+      "D": "+7 to +3"
+    },
+    "correct_answer": "B",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidation and reduction reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Cr₂O₇ ²⁻ + 6Fe²⁺ + 14H⁺ 2Cr³⁺ + 6Fe³⁺ + 7H₂O",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_41",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "41",
+    "question": "Which of the following is a physical change?",
+    "options": {
+      "A": "Exposing white phosphorus to air",
+      "B": "Burning kerosene",
+      "C": "Dissolving calcium in water",
+      "D": "Freezing ice cream"
+    },
+    "correct_answer": "D",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Physical and chemical changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_42",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "42",
+    "question": "In the reaction between sodium hydroxide and tetraoxosulphate (VI) solutions, what volume of 0.5 molar sodium hydroxide would exactly neutralize 10cm³ of 1.25 molar tetraoxosulphate (vi) acid?",
+    "options": {
+      "A": "25cm³",
+      "B": "10cm³",
+      "C": "20cm³",
+      "D": "50cm³"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Equation of reaction : 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂OConcentration of a base, CB = 0.5MVolume of acid, V_A = 10cm³Concentration of an acid, C_A = 1.25MVolume of base, V_B = ?Recall:",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "The Structure and Workings of Nigerian Federalism"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_43",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "43",
+    "question": "Sulphur exists in six forms in the solid state. This property is known as",
+    "options": {
+      "A": "Isomerism",
+      "B": "Allotropy",
+      "C": "Isotopy",
+      "D": "Isomorphism"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Sulphur and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2019_44",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "44",
+    "question": "In the reaction: M + N → P ΔH = +Q kJ Which of the following would increase the concentration of the product?",
+    "options": {
+      "A": "Adding a suitable catalyst",
+      "B": "Increasing the concentration of P",
+      "C": "Increasing the temperature",
+      "D": "Decreasing the temperature"
+    },
+    "correct_answer": "C",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_45",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "45",
+    "question": "A compound contains 40.0% carbon, 6.7% hydrogen and 53.3% oxygen. If the molar mass of the compound is 180. Find the molecular formula. [H = 1, C = 12, O = 16]",
+    "options": {
+      "A": "C₃H₆O₃",
+      "B": "C₆H₆O₃",
+      "C": "C₆H₁₂O₆",
+      "D": "CH₂O"
+    },
+    "correct_answer": "C",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "C → 40/12 ≈ 3",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_46",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "46",
+    "question": "The IUPAC nomenclature of the compound H₃C - CH(CH₃) - CH(CH₃) - CH₂ - CH₃",
+    "options": {
+      "A": "3,4- dimethylhexane",
+      "B": "2,3- dimethyl pentane",
+      "C": "2- ethyl hexane",
+      "D": "2,3- dimethylhexane"
+    },
+    "correct_answer": "B",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_47",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "47",
+    "question": "Which of the following gases contains the least number of atoms at s.t.p?",
+    "options": {
+      "A": "1 mole of butane",
+      "B": "4 moles of chlorine",
+      "C": "3 moles of ozone",
+      "D": "7 moles of argon"
+    },
+    "correct_answer": "D",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Mole concept and Avogadro's number",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "4 moles of chlorine gas = 4Cl₂ = 8 atoms of chlorine3 moles of ozone = 3O₃ = 9 atoms of oxygen1 mole of butane = C₄H₁₀7 mole of argon = 7Ar = 7 atoms of argonArgon is a monoatomic noble gas with the least number of atoms.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_48",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "48",
+    "question": "What mass of magnesium would be obtained by passing a current of² amperes for² hours 30 mins, through molten magnesium chloride? [1 faraday = 96500C, Mg = 24]",
+    "options": {
+      "A": "1.12g",
+      "B": "4.48g",
+      "C": "1.80g",
+      "D": "2.00g"
+    },
+    "correct_answer": "D",
+    "topic": "11. Electrolysis",
+    "subtopic": "Faraday's laws",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given Data:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_49",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "49",
+    "question": "Which important nitrogen-containing compound is produced in Haber's process?",
+    "options": {
+      "A": "NH₃",
+      "B": "NO₂",
+      "C": "NO",
+      "D": "HNO₃"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Nitrogen and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_50",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "50",
+    "question": "Elements in the periodic table are arranged in the order of their",
+    "options": {
+      "A": "atomic numbers",
+      "B": "metallic character",
+      "C": "mass number",
+      "D": "relative atomic mass"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Periodic table and periodicity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_51",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "51",
+    "question": "What volume of 0.100M sodium trioxonitrate (V) solution contains 5g of solute ? [Na = 23, N = 14, O = 16]",
+    "options": {
+      "A": "1.7 litres",
+      "B": "0.420 litres",
+      "C": "0.588 litres",
+      "D": "2.35 litres"
+    },
+    "correct_answer": "C",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Given:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_52",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "52",
+    "question": "The two ions responsible for hardness in water are",
+    "options": {
+      "A": "Ca²⁺ and / or Mg²⁺",
+      "B": "K⁺ and / or Mg²⁺",
+      "C": "Ca²⁺ and / or Li⁺",
+      "D": "Ca²⁺ and / or Na⁺"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_53",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "53",
+    "question": "Which of the following could not be alkane?",
+    "options": {
+      "A": "C₄H₁₀",
+      "B": "C₅H₁₂",
+      "C": "C₇H₁₄",
+      "D": "C₈H₁₈"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_54",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "54",
+    "question": "The electronic configuration of element Z is 1s² 2s² 2p⁶ 3s² 3p¹. What is the formula of the compound formed between Z and tetraoxosulphate (VI) ion.",
+    "options": {
+      "A": "Z₃(SO₄)₂",
+      "B": "ZSO₄",
+      "C": "Z₂ SO₄",
+      "D": "Z₂(SO₄)₃"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Z = 1s² 2s² 2p⁶ 3s² 3p¹",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_55",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "55",
+    "question": "The hybridization in the compound CH₃ - CH₂ - C H is",
+    "options": {
+      "A": "sp³ and sp",
+      "B": "sp",
+      "C": "sp²",
+      "D": "sp³ and sp²"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_56",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "56",
+    "question": "The following are isoelectronic ions except",
+    "options": {
+      "A": "Na⁺",
+      "B": "Mg²⁺",
+      "C": "Si²⁺",
+      "D": "O²⁺"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Two or more ions are said to be isoelectronic if they have the same electronic structure and the same number of valence electrons.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_57",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "57",
+    "question": "Consider the reaction: A + 2B₍g₎ leftharpoons 2C + D₍g₎ (= +ve) What will be the effect of decrease in temperature on the reaction?",
+    "options": {
+      "A": "Rate of backward reaction will increase",
+      "B": "The equilibrium constant will shift",
+      "C": "Rates of forward and backward reactions are not affected",
+      "D": "Rate of forward reaction will increase"
+    },
+    "correct_answer": "A",
+    "topic": "14. Chemical Equilibrium",
+    "subtopic": "Reversible reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The given reaction is endothermic, hence, a decrease in temperature will favor the exothermic side which is the backward reaction.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_58",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "58",
+    "question": "A cell shorthand notation can be written as A / A⁺ // B²⁺ /B. The double slash in the notation represents the",
+    "options": {
+      "A": "electrolyte",
+      "B": "electrodes",
+      "C": "salt bridge",
+      "D": "solid - liquid interface"
+    },
+    "correct_answer": "C",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrolytes and non-electrolytes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_59",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "59",
+    "question": "The shapes of water, ammonia, carbon (iv) oxide and methane are respectively",
+    "options": {
+      "A": "linear, tetrahedral, angular and pyramidal",
+      "B": "angular, pyramidal, linear and tetrahedral",
+      "C": "pyramidal, linear, tetrahedral and angular",
+      "D": "tetrahedral, angular, pyramidal and linear"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Molecular shapes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ammonia (NH₃) has a trigonal pyramidal structure with a bond angle of approximately 107°. Methane (CH₄) has a tetrahedral structure with a bond angle of 109.5°.Carbon dioxide is a linear molecule,with a 180-degree bond angle. Water (H₂O) has a bent or V-shaped structure with a bond angle of approximately 104.5°.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_60",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "60",
+    "question": "Which quantum divides shells into orbitals?",
+    "options": {
+      "A": "Spin",
+      "B": "Principal",
+      "C": "Azimuthal",
+      "D": "Magnetic"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Electron configuration",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The azimuthal quantum number determines an atom's orbital angular momentum and the shape of the orbital. The principal quantum number determines its number of shells. Magnetic quantum number determines how many orbitals there are as well as their orientation within a subshell.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_61",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "61",
+    "question": "The oxidation state(s) of nitrogen in ammonium nitrite is/are",
+    "options": {
+      "A": "-3, +3",
+      "B": "+5",
+      "C": "-3, +5",
+      "D": "-3"
+    },
+    "correct_answer": "A",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidation and reduction reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Ammonium nitrite = NH₄NO₂",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2019_62",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "62",
+    "question": "Hydrogen bond is a sort of",
+    "options": {
+      "A": "van der waals force",
+      "B": "dative bond",
+      "C": "ionic bond",
+      "D": "a covalent bond"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Chemical bonding (ionic, covalent, metallic)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Hydrogen bonding is a type of Van der Waals force, specifically a strong dipole-dipole interaction. It's a distinct type of intermolecular attraction, not a covalent bond, though it's stronger than most other Van der Waals forces like London dispersion forces.",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_63",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "63",
+    "question": "Methane is prepared in the laboratory by heating a mixture of sodium ethanoate with soda lime. The chemical constituent(s) of soda lime is/are",
+    "options": {
+      "A": "Ca(OH)₂ and NaOH",
+      "B": "Na₂CO₃",
+      "C": "NaCl",
+      "D": "NaOH"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Alkali metals (Sodium)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Soda lime is a mixture of caustic soda (NaOH) and lime water (Ca(OH)₂).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_64",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "64",
+    "question": "Which of the following sets of operation will completely separate a mixture of sodium chloride, sand and iodine?",
+    "options": {
+      "A": "addition of water, filtration, evaporation to dryness and sublimation",
+      "B": "filtration, evaporation to dryness, addition of water and sublimation",
+      "C": "sublimation, filtration, evaporation and addition of water",
+      "D": "sublimation, addition of water, filtration and evaporation to dryness"
+    },
+    "correct_answer": "A",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Process:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_65",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "65",
+    "question": "200cm³ of 0.50mol/dm³ solution of calcium hydrogen trioxocarbonate (IV) is heated. The maximum weight of solid precipitated is",
+    "options": {
+      "A": "10g",
+      "B": "25g",
+      "C": "20g",
+      "D": "15g"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Equation: Ca(HCO₃)₂ CaCO₃ (precipitate) + H₂O + CO₂ (in the presence of heat)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_66",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "66",
+    "question": "Which of the following conditions will most enhance the spontaneity of a reaction?",
+    "options": {
+      "A": "is negative and greater than T",
+      "B": "is negative and = 0",
+      "C": "is positive and less than T",
+      "D": "is positive and equal to T"
+    },
+    "correct_answer": "A",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A reaction is spontaneous when the Gibbs free energy change (ΔG) is negative. This is determined by the equation ΔG = ΔH - TΔS, where ΔH is the enthalpy change, T is the temperature, and ΔS is the entropy change. Therefore, a reaction is spontaneous if ΔH is negative and TΔS is negative, or if ΔH is positive and TΔS is positive and greater than ΔH. In other words, for a reaction to be spontaneous, the decrease in enthalpy (ΔH) must be greater than the increase in entropy (TΔS).",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_67",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "67",
+    "question": "X is a substance which liberates CO₂ on treatment with concentrated H₂SO₄. A warm solution of X can decolorize acidified KMnO₄. X is",
+    "options": {
+      "A": "HCOOH",
+      "B": "NaHCO₃",
+      "C": "FeCO₃",
+      "D": "H₂C₂O₄"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "It should be noted that for X to liberate CO₂, X must be a carbonate or an oxalate. Since X decolorizes KMnO₄, X must be an oxalate.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_68",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "68",
+    "question": "The velocity, V of a gas is related to its mass, M by (k = proportionality constant)",
+    "options": {
+      "A": "V = (k/M)",
+      "B": "V = {k}{M⁽¹/²⁾}",
+      "C": "V = kM²",
+      "D": "V = ((k/M))⁽¹/²⁾"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Recall:",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_69",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "69",
+    "question": "The emission of two successive beta particles from the nucleus ³² ₁₅ P will produce",
+    "options": {
+      "A": "³⁰ ₁₄Si",
+      "B": "³² ₁₃Al",
+      "C": "³² ₁₇Cl",
+      "D": "³² ₁₆S"
+    },
+    "correct_answer": "C",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "³² ₁₅P 2⁰ ₋₁e + ᵃ bX",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_70",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "70",
+    "question": "Hydrogen diffused through a porous plug",
+    "options": {
+      "A": "thrice as fast as oxygen",
+      "B": "at the same speed as oxygen",
+      "C": "four times as fast as oxygen",
+      "D": "twice as fast as oxygen"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Using Graham's Law of Diffusion,",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_71",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "71",
+    "question": "If the cost of electricity required to discharge 10g of an ion X³⁺ is N20.00, how much would it cost to discharge 6g of ion Y²⁺? [1 faraday = 96,500C, atomic masses are X = 27, Y = 24]",
+    "options": {
+      "A": "N10.00",
+      "B": "N6.00",
+      "C": "N20.00",
+      "D": "N9.00"
+    },
+    "correct_answer": "D",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "X³⁺ + 3e⁻ X",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_72",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "72",
+    "question": "The cost of discharging 6.0g of a divalent metal, X from its salt is ₦12.00. What is the cost of discharging 9.0g of a trivalent metal, Y from its salt under the same condition? [X = 63, Y = 27, 1F = 96,500C]",
+    "options": {
+      "A": "N12.00",
+      "B": "N27.00",
+      "C": "N63.00",
+      "D": "N95.00"
+    },
+    "correct_answer": "C",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "For X: X²⁺ + 2e⁻ X",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_73",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "73",
+    "question": "How many alkoxyalkanes can be obtained from the molecular formula C₄H₁₀O?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "1",
+      "D": "3"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "Alkanes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_74",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "74",
+    "question": "The reaction 2H₂ S + SO₂ 3S + 2H₂ O is",
+    "options": {
+      "A": "not a redox reaction because there is no oxidant in the reaction",
+      "B": "not a redox reaction because there is no reductant in the reaction",
+      "C": "a redox reaction in which H₂S is the oxidant and SO₂ is the reductant",
+      "D": "a redox reaction in which SO₂ is the oxidant and H₂S is the reductant"
+    },
+    "correct_answer": "D",
+    "topic": "10. Oxidation and Reduction",
+    "subtopic": "Oxidation and reduction reactions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_75",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "75",
+    "question": "A solution X, on mixing with AgNO₃ solution gives a white precipitate soluble in aqueous NH₃, a solution Y, when also added to X, also gives a white precipitate which is soluble when heated solutions X and Y respectively contain",
+    "options": {
+      "A": "Al³⁺, Cl⁻",
+      "B": "Hg⁺, SO₄ ²⁻",
+      "C": "Pb²⁺, Cl⁻",
+      "D": "Ag⁺, SO₄ ²⁻"
+    },
+    "correct_answer": "C",
+    "topic": "7. Solubility",
+    "subtopic": "Saturated and unsaturated solutions",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "The Structure and Workings of Nigerian Federalism"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_76",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "76",
+    "question": "How many electrons will be found in the nucleus of an atom with mass number 23 and 17 neutrons?",
+    "options": {
+      "A": "none",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Electrons are found in the orbit of the atom. They revolve around the nucleus. There's no electron found in the nucleus of an atom.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_77",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "77",
+    "question": "An element Z contains 80% of ¹⁶ ₈Z and 20% of ¹⁸ ₈Z. Its relative atomic mass is",
+    "options": {
+      "A": "16.2",
+      "B": "17.6",
+      "C": "16.0",
+      "D": "16.4"
+    },
+    "correct_answer": "D",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Relative atomic and molecular mass",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "R.A.M of Z = 16((80/100)) + 18((20/100))",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_78",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "78",
+    "question": "When the end alkyl groups of ethyl ethanoate are interchanged, the compound formed is",
+    "options": {
+      "A": "propylmethanoate",
+      "B": "ethylpropanoate",
+      "C": "methyl ethanoate",
+      "D": "methyl propanoate"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The structural formula for ethyl ethanoate is",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_79",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "79",
+    "question": "The part of the total energy of a system that accounts for the useful work done in a system is known as",
+    "options": {
+      "A": "Enthalpy change",
+      "B": "None of the above",
+      "C": "Gibb's free energy",
+      "D": "Entropy"
+    },
+    "correct_answer": "C",
+    "topic": "12. Energy Changes",
+    "subtopic": "Bond energy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Gibb's free energy is the fraction of the total energy of a system that accounts for how much useful work can be done in a system.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2019_80",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2019,
+    "number": "80",
+    "question": "Which of the following factors will speed up the rate of evolution of carbon (iv) oxide in the reaction below? 2HCl + CaCO₃ → CaCl₂ + H₂O + CO₂",
+    "options": {
+      "A": "Increasing the concentration of the acid",
+      "B": "Increasing the surface area of CaCO₃",
+      "C": "A and B",
+      "D": "Reducing the concentration of the acid"
+    },
+    "correct_answer": "C",
+    "topic": "13. Rates of Chemical Reaction",
+    "subtopic": "Factors affecting reaction rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The following factors increase a reaction rate- Increase in concentration of reactants- Increase in temperature- Addition of catalyst- Increase in the surface area of reactant(s)",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  }
+]

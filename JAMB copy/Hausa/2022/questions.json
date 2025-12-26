@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "JAMB_Hausa_2022_1",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "1",
+    "question": "'Aliyu yana cin abinci kuma yana surutu'. Kalmar mahadi a nan ita ce.",
+    "options": {
+      "A": "kuma",
+      "B": "abinci",
+      "C": "Aliyu",
+      "D": "ci."
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_2",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "2",
+    "question": "Tsamo kalmar wakilin suna mutunm na biyu namiji kurma tilo",
+    "options": {
+      "A": "Ni",
+      "B": "Kai",
+      "C": "Shi",
+      "D": "Mu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_3",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "3",
+    "question": "Newspaper vendors Za a iya fassara wannan da masu",
+    "options": {
+      "A": "rubuta jaridu",
+      "B": "sayar da jaridu",
+      "C": "buga jarida",
+      "D": "neman labarai"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_4",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "4",
+    "question": "Jam'in kalmomin 'kwando da kezaʼ na karewa da dafin ........ da",
+    "options": {
+      "A": "-una-ji",
+      "B": "aye-oyi",
+      "C": "-obi-ra",
+      "D": "-uka-ai"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_5",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "5",
+    "question": "Kawo sunan wannan alamar da ke cikin baka (-)",
+    "options": {
+      "A": "Alamar dakatawa",
+      "B": "Alamar tambaya",
+      "C": "Karan d'ori",
+      "D": "Baka biyu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_6",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "6",
+    "question": "Ware bare dangane da jinsi.",
+    "options": {
+      "A": "Mota",
+      "B": "Hula",
+      "C": "Fata",
+      "D": "Gida"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_7",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "7",
+    "question": "The students are hardworking. Daidai yake da; daliban na da",
+    "options": {
+      "A": "kokari",
+      "B": "fushi",
+      "C": "aiki",
+      "D": "hankali"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_8",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "8",
+    "question": "She washed her school uniform. Fassarar wannan ita ce Ta wanke. ............ makaranta",
+    "options": {
+      "A": "kayan",
+      "B": "takalmin",
+      "C": "jakar",
+      "D": "rigar"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_9",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "9",
+    "question": "Ware bare",
+    "options": {
+      "A": "Handa",
+      "B": "Hanka",
+      "C": "Lebba.",
+      "D": "Ganda"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_10",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "10",
+    "question": "Wanne ne aka rubuta daidai?",
+    "options": {
+      "A": "Nakan",
+      "B": "Ya kan",
+      "C": "Na kan",
+      "D": "Yake"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_11",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "11",
+    "question": "\"Zauna, kuma ka yi shiru' Wannan misali ne na jimla",
+    "options": {
+      "A": "bayyanau",
+      "B": "umurtau",
+      "C": "Korau",
+      "D": "tabbatau"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_12",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "12",
+    "question": "Tsinin harshe da hanka kan hade su saki wajen furta",
+    "options": {
+      "A": "/g/",
+      "B": "/n/",
+      "C": "/m/",
+      "D": "/b/"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_13",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "13",
+    "question": "He bought a new book. Za a iya fassara wannan da: Ya ........ sabon littafi",
+    "options": {
+      "A": "sayo",
+      "B": "aro",
+      "C": "kyautar da",
+      "D": "bayar da"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_14",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "14",
+    "question": "Ana amfani da ganda wajen furta",
+    "options": {
+      "A": "/h/",
+      "B": "/m/",
+      "C": "/y/",
+      "D": "/d/"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_15",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "15",
+    "question": "Kalmar tilo na nufin abu",
+    "options": {
+      "A": "da yawa",
+      "B": "babba",
+      "C": "kadan",
+      "D": "daya"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_16",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "16",
+    "question": "Ware bare dangane da suna.",
+    "options": {
+      "A": "Rafi",
+      "B": "Shara",
+      "C": "Kwano",
+      "D": "Gida"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_17",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "17",
+    "question": "Human Rights Watch Fassarar wannan ita ce Kungiyar kula da ------- 'Dan' Adam.",
+    "options": {
+      "A": "hakkin",
+      "B": "lokaci",
+      "C": "tarbiyyar",
+      "D": "tanhin"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_18",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "18",
+    "question": "School billboard. Allon",
+    "options": {
+      "A": "rubutun makaranta.",
+      "B": "sanarwar makaranta",
+      "C": "rubutun yaran makaranta.",
+      "D": "nuna makaranta"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_19",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "19",
+    "question": "Mene ne amfanin baka biyu?",
+    "options": {
+      "A": "Cikakkiyar dakatawa",
+      "B": "Karin bayani",
+      "C": "Nuna tambaya",
+      "D": "Jeranta bayanı"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_20",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "20",
+    "question": "Inshaʼ in da ake zayyana wa mai karatu hoton abu a zuciyarsaʼ shi ne",
+    "options": {
+      "A": "labari",
+      "B": "hujjatau",
+      "C": "muhawara",
+      "D": "siffatau"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_21",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "21",
+    "question": "Ware bare dangane da sakin layi",
+    "options": {
+      "A": "Rufe magana",
+      "B": "Jeranta hujjoji",
+      "C": "Jeranta tunani",
+      "D": "Kulla jawabi"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_22",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "22",
+    "question": "Ware bare dangane da wasika.",
+    "options": {
+      "A": "Kwanan wata",
+      "B": "Kanu",
+      "C": "Adireshi",
+      "D": "Musu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_23",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "23",
+    "question": "Ware bare dangane da jam'i.",
+    "options": {
+      "A": "Riga",
+      "B": "Rafi",
+      "C": "Hula",
+      "D": "Lambu"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_24",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "24",
+    "question": "Fito da sifa a wadannan kalmomi.",
+    "options": {
+      "A": "Yaro",
+      "B": "Fari",
+      "C": "Karkashi",
+      "D": "Gobe"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "kashi\" (which means \"cough\"), \"Yaro\" (which means \"boy\" or \"youth\"), and \"Zarto\" (which is not a valid Hausad with the adjective \"Fito\".",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_25",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "25",
+    "question": "INSHA'I \"Tsakanin likita da malamin makaranta wa ya fi muhimmanci ga jama'a\". Wannan misali ne na insha'in",
+    "options": {
+      "A": "musu",
+      "B": "bayani",
+      "C": "labari",
+      "D": "muhawara"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_26",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "26",
+    "question": "Wani harshe ne a harabar tafkin Chadi ya haifar da harshen Hausa in ji ra'in",
+    "options": {
+      "A": "Hasumiyar babila",
+      "B": "Hausa bakwai",
+      "C": "Habasha",
+      "D": "Ajiyar Allah"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "They confused the language of humans, so they could no longer understand each other. This story is often used toent languages.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_27",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "27",
+    "question": "Ware bare.",
+    "options": {
+      "A": "/f/",
+      "B": "/t/",
+      "C": "/b/",
+      "D": "/d/"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_28",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "28",
+    "question": "Wata yarinya siririya ta zo' Fito da kalımar sifa a wanian jirnlar.",
+    "options": {
+      "A": "Wata",
+      "B": "Siriya",
+      "C": "Yarinya",
+      "D": "Ta"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_29",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "29",
+    "question": "Wane baki ne ba bahanke ba?",
+    "options": {
+      "A": "/z/",
+      "B": "/m/",
+      "C": "/d/",
+      "D": "/g/"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Therefore, the correct answer is /z/",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_30",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "30",
+    "question": "FASSARA First aid box",
+    "options": {
+      "A": "Akwatin taimako",
+      "B": "Akwatin agajin gaggaw",
+      "C": "Akwatin farkon agaji.",
+      "D": "Agajin akwatin farko"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_31",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "31",
+    "question": "Babana ya sayo mani karamar mota ja Kalmomin sifa nawa za a samu?",
+    "options": {
+      "A": "Uku",
+      "B": "Hudu",
+      "C": "Shida",
+      "D": "Daya"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is one, \"small\" (karamar).Uku), four (Hudu), six (Shida), and seven (Bakwai), are incorrect.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_32",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "32",
+    "question": "\"Wani yaro fari ya rubuta jarabawa jiya\". Kalmar da aka ja wa layi ............... ce",
+    "options": {
+      "A": "bayanau",
+      "B": "aikatau",
+      "C": "sifa",
+      "D": "suna"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "\"fari\" (meaning \"white\") is an adjective used to describe the noun \"yaro\" (meaning \"boy\").",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_33",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "33",
+    "question": "'Yadda ake kunun zaki' misali n insha'in",
+    "options": {
+      "A": "siffatau",
+      "B": "muhawara",
+      "C": "labari",
+      "D": "bayani"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_34",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "34",
+    "question": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jamaʼa kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa .. Burgami da gafaka da zabira sun tsira daga ambaliya saboda.",
+    "options": {
+      "A": "iya ruwansu",
+      "B": "Kafi mai kyau",
+      "C": "nauyinsu",
+      "D": "suna kulle a rumbu"
+    },
+    "correct_answer": "",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami dagafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yiawon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yauTanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafimai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayeniya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jamaʼa kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje,saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan'umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa ..Burgami da gafaka da zabira sun tsira daga ambaliya saboda.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_35",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "35",
+    "question": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jamaʼa kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa .. Burgami da gafaka da zabira sun tsira daga ambaliya saboda.",
+    "options": {
+      "A": "iya ruwansu",
+      "B": "Kafi mai kyau",
+      "C": "nauyinsu",
+      "D": "suna kulle a rumbu"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami dagafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yiawon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yauTanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafimai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayeniya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jamaʼa kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje,saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan'umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa ..Burgami da gafaka da zabira sun tsira daga ambaliya saboda.",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_36",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "36",
+    "question": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Wane ne marar kirki?",
+    "options": {
+      "A": "Bala",
+      "B": "Jikan Dara",
+      "C": "'Dan'umma",
+      "D": "Dantata"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami dagafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yiawon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yauTanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafimai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayeniya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje,saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan'umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Wane ne marar kirki?",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_37",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "37",
+    "question": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Wane ne jama'a ke yi wa jaje saboda kirkinsa?",
+    "options": {
+      "A": "Dantata",
+      "B": "'Dan'umma",
+      "C": "Bala",
+      "D": "Jikan Dira"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami dagafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yiawon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yauTanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafimai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayeniya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje,saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan'umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Wane ne jama'a ke yi wa jaje saboda kirkinsa?",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_38",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "38",
+    "question": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Duk wad'annan dabbobin sun iya ruwa in banda",
+    "options": {
+      "A": "jakuna",
+      "B": "dawaki",
+      "C": "agwagi",
+      "D": "shanu"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami dagafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yiawon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yauTanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafimai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayeniya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje,saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan'umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Duk wad'annan dabbobin sun iya ruwa in banda",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_39",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "39",
+    "question": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami da gafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yi awon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yau Tanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafi mai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayen iya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje, saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan' umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Ruwa ya yi awon gaba da wad'annan in ban da",
+    "options": {
+      "A": "Asabari",
+      "B": "Randuna",
+      "C": "Gadaje",
+      "D": "Akwatuna"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "Ambaliyar ruwan ke da wuya, sai ta yi awon gaba da wasu gadaje da katifu da akwatuna har ma da asabari. Amma ban da burgami dagafaka da zabirar Tanko, saboda suna rataye a sama. Sai kuma turmi da randunan matarsa su ma kuwa nauyinsu ne ya hana ruwa ya yiawon gaba da su. Haka kuma dawarsa da geronsa na kulle ne a rumbu, wannan shi ne dalilin da ya hana ruwa awon gaba da su. Har ila yauTanko ya kuma tsira da dawaki da shanu da tumaki da agwagi saboda sun iya ruwa, baka zalika ya tsira da darninsa domin ya yi masa kafimai kyau. Amma makwabcinsa Jikan Dara ya yi hasara matuka, saboda ruwa ya yi awon gaba da jakunansa kakaf, domin su ba gwanayeniya ruwa ba ne. Yanzu haka idan ka je Zuguru, za ka tarar da jama'a kungiya-kungiya suna tururuwa zuwa gidan Tanko don yi masa jaje,saboda kirkinsa da taimakon da yake yi wa jama'a. Amma makwabcinsa Jikan Dara sai tir jama'a ke yi masa, musamman Bala da 'Dan'umma da 'Dantata domin su tsararrakinsa ne, sun kuma fi kowa sanin rashin kirkinsa. .Ruwa ya yi awon gaba da wad'annan in ban da",
+    "explanation": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2022_40",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2022,
+    "number": "40",
+    "question": "Tsamo wakilin suna mutum na daya kurma tilo",
+    "options": {
+      "A": "Ke",
+      "B": "Ni",
+      "C": "Kai",
+      "D": "Mu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

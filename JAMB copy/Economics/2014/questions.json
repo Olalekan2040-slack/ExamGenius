@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "JAMB_Economics_2014_1",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "1",
+    "question": "The choice of how to produce in a command economy is determined by",
+    "options": {
+      "A": "government",
+      "B": "consumer",
+      "C": "industrialists",
+      "D": "labour unions"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A command economy is a system where the government, rather than the free market, determines what goods should be produced, how much should be produced, and the price at which the goods are offered for sale. It also determines investments and incomes. The command economy is a key feature of any communist society.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_2",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "2",
+    "question": "In capitalist economies, questions about what to produce are ultimately answered by",
+    "options": {
+      "A": "income level of households",
+      "B": "available technical skills in the economy",
+      "C": "output decisions of firms",
+      "D": "holding decision of households"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Capitalism is an economic system in which private individuals or businesses own capital goods. The production of goods and services is based on supply and demand in the general market—known as a market economy—rather than through central planning—known as a planned economy or command economy.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_3",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "3",
+    "question": "The best measure of dispersion to determine the tallest tree in a forest is",
+    "options": {
+      "A": "range",
+      "B": "variance",
+      "C": "standard deviation",
+      "D": "mean deviation"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "variance is the expectation of the squared deviation of a random variable from its mean. Informally, it measures how far a set of (random) numbers are spread out from their average value.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_4",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "4",
+    "question": "A change in demand for a normal goods implies that, there is a",
+    "options": {
+      "A": "change in the quantity demanded  as price changes",
+      "B": "shift in the demand curve",
+      "C": "movement along a given demand curve",
+      "D": "change in the price elasticity of demand"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A normal good is a good that experiences an increase in its demand due to a rise in consumers' income. In other words, if there's an increase in wages, demand for normal goods increases while conversely, a wage decline leads to a reduction in demand.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_5",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "5",
+    "question": "If a 10% rise in price causes a 5% decrease in the quantity demanded of a commodity, the elasticity of demand is",
+    "options": {
+      "A": "unitary elastic",
+      "B": "zero elastic",
+      "C": "elastic",
+      "D": "inelastic"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Elasticity of demand refers to how sensitive the demand for a good is to changes as prices and consumer income change.",
+    "predicted_topics": [
+      "Structures of Governance",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_6",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "6",
+    "question": "A rightward shift of the budget line is caused by a",
+    "options": {
+      "A": "fall in consumer income",
+      "B": "change in consumer taste",
+      "C": "fall in the commodity relative price",
+      "D": "rise in the consumer income"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "When there is an increase in income, a consumer can buy more of both goods and this shows an outward i.e. rightward shift in the budget line.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_7",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "7",
+    "question": "Given the supply function P = \\(\\frac{1}{4}\\)(Qs+10) when P = N10, what is Qs?",
+    "options": {
+      "A": "20",
+      "B": "1.5",
+      "C": "5.0",
+      "D": "30"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Supply and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "P = \\(\\frac{1}{4}\\)(Qs+10) when P = N10, what is Qs?",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_8",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "8",
+    "question": "When price is set below equilibrium, this will lead to",
+    "options": {
+      "A": "an increase in the quantity supplied",
+      "B": "a new equilibrium",
+      "C": "a decrease in the quantity supplied",
+      "D": "a fall in price"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Price determination and equilibrium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "If the market price is below the equilibrium price, quantity supplied is less than quantity demanded, because producers will not be willing to supply more goods when the price being paid is too small thereby creating a shortage.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_9",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "9",
+    "question": "Price mechanism determines the prices of commodities through",
+    "options": {
+      "A": "auctioning",
+      "B": "market forces",
+      "C": "the sales of treasury bills",
+      "D": "government legislation"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Price mechanismrefers to the system where the market forces of demand and supply determine thepricesof commodities and the changes therein. It is the buyers and sellers who actually determine thepriceof a commodity.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_10",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "10",
+    "question": "If the production of a large firm is higher than that of a small firm, it is experiencing.",
+    "options": {
+      "A": "external economies of scale",
+      "B": "external diseconomies of scale",
+      "C": "internal economies of scale",
+      "D": "internal diseconomies of scale"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Theory of production",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "\"Internal economies are those economies in production which occur to the firm itself when it expands its output or enlarge its scale of production\"",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_11",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "11",
+    "question": "Division of labour requires that, the tasks in a production line be performed",
+    "options": {
+      "A": "by specialists",
+      "B": "in stages",
+      "C": "by all workers",
+      "D": "by unskilled labourers"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Division of labour; the assignment of different parts of a manufacturing process or task to different people in order to improve efficiency.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_12",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "12",
+    "question": "Given that FC = N500, VC = N1,500, and Q = 50 units. Find the average cost of the product.",
+    "options": {
+      "A": "N30",
+      "B": "N40",
+      "C": "N10",
+      "D": "N20"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The Average Cost is the per unit cost of production obtained by dividing the total cost (TC) by the total output (Q). Thus we have;Average cost = Total cost ÷ Total output(quantity)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_13",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "13",
+    "question": "Rent and administrative expenses are examples of",
+    "options": {
+      "A": "average fixed costs",
+      "B": "average variable costs",
+      "C": "fixed costs",
+      "D": "variable costs"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Examples of general and administrative expenses are:",
+    "predicted_topics": [
+      "The Civil Service",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_14",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "14",
+    "question": "A perfect competitor will continue to expand output up to the point where",
+    "options": {
+      "A": "TC > TR",
+      "B": "MR = AR",
+      "C": "MC < MR",
+      "D": "MC > MR"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_15",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "15",
+    "question": "One of the characteristics of a monopolist is that, he can influence",
+    "options": {
+      "A": "quantity produced by other producers",
+      "B": "prices charged by other producers",
+      "C": "both price and quantity",
+      "D": "price or quantity"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Monopoly characteristics include profit maximizer, price maker, high barriers to entry, single seller, and price discrimination.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_16",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "16",
+    "question": "A monopolist can boost up his revenue by",
+    "options": {
+      "A": "adjusting both price and output upward",
+      "B": "reducing total output to match price",
+      "C": "increasing price",
+      "D": "reducing price"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A monopolist can determine its profit-maximizing price and quantity by analyzing the marginal revenue and marginal costs of producing an extra unit. If the marginal revenue exceeds the marginal cost, then the firm can increase profit by producing one more unit of output",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_17",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "17",
+    "question": "Which of the following can be used to measure the Gross National product in an open economy?",
+    "options": {
+      "A": "C+I+G+(X+M)",
+      "B": "C+I+G+X",
+      "C": "C+I+G",
+      "D": "C+I+G+(X-M)"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The formula tocalculatethe components ofGNPis Y = C + I + G + X + Z. That stands for",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_18",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "18",
+    "question": "If MPC = 2/3 and investment is N100 million, the level of national income is",
+    "options": {
+      "A": "N100 million",
+      "B": "N10 million",
+      "C": "N303 million",
+      "D": "N300 million"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_19",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "19",
+    "question": "The precautionary demand for money is determined by",
+    "options": {
+      "A": "the rate of interest",
+      "B": "the level of savings",
+      "C": "the level of income",
+      "D": "general price level"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Money, banking and monetary policy",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_20",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "20",
+    "question": "An inflation that co-exists with high rate of unemployment is",
+    "options": {
+      "A": "hyperinflation",
+      "B": "stagflation",
+      "C": "demand-pull inflation",
+      "D": "cost-push inflation"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Inflation and deflation",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Stagflation is a condition of slow economic growth and relatively high unemployment, or economic stagnation, accompanied by rising prices, or inflation. It can also be defined as inflation and a decline in gross domestic product (GDP).",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_21",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "21",
+    "question": "One of the challenges facing the banking industry in Nigeria is",
+    "options": {
+      "A": "ensuring technological security",
+      "B": "providing employment",
+      "C": "providing loans for investment",
+      "D": "creating more money"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Some challenges faced by nigerian banks;",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_22",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "22",
+    "question": "Short-term loans for investment are usually obtained through the",
+    "options": {
+      "A": "stock market",
+      "B": "development banks",
+      "C": "money market",
+      "D": "capital market"
+    },
+    "correct_answer": "C",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The money market is the trade in short-term debt investments.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_23",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "23",
+    "question": "Given a base year and the price index of 175% the following year, which of the following year will arise?",
+    "options": {
+      "A": "The cost of living decreases of that year",
+      "B": "The cost of living remains unchanged",
+      "C": "The value of money rises by 75%",
+      "D": "The value of money falls by 75%"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_24",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "24",
+    "question": "Wage freeze is a policy measure aimed at",
+    "options": {
+      "A": "encouraging investors",
+      "B": "curbing inflation",
+      "C": "regulating standard of living",
+      "D": "curbing deflation"
+    },
+    "correct_answer": "B",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Wage Freeze;  A policy in which a company refuses to raise wages and salaries for a period of time. A wage freeze is usually instituted when a company is having a difficult time financially and wishes to avoid layoffs or other cutbacks.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_25",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "25",
+    "question": "A major obstacle to the development of Nigeria economy is",
+    "options": {
+      "A": "low capital formation",
+      "B": "rural-urban migration",
+      "C": "over dependence on oil",
+      "D": "poor developmental policies"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Nigeria's economic potential is constrained by many structural issues, including inadequate infrastructure, tariff and non-tariff barriers to trade, obstacles to investment, poor developmental policies, lack of confidence in currency valuation, and limited foreign exchange capacity.",
+    "predicted_topics": [
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_26",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "26",
+    "question": "A major feature of an underdeveloped economy is",
+    "options": {
+      "A": "excess capacity utilization",
+      "B": "low rate of population growth",
+      "C": "low level of standard of living",
+      "D": "low level of unemployment"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "An underdeveloped economy is characterized by low per capita income, low levels of living, high rate of population growth, illiteracy, technical backwardness, capital deficiency, dependence on backward agriculture, high level of unemployment, unfavourable institutions and so on.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_27",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "27",
+    "question": "An important role of agriculture in Nigeria's economic development is the",
+    "options": {
+      "A": "processing of raw materials for industries",
+      "B": "regulation of price system",
+      "C": "provision of infrastructure",
+      "D": "provision of employment"
+    },
+    "correct_answer": "D",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "Economic growth and development",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The contribution of agriculture to economic growth and development lies in providing food to expanding population, increasing the demand for industrial products, providing local foreign exchange earnings for the import of capital goods, increasing social income, providing productive employment and improving welfare of farmers",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_28",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "28",
+    "question": "An advantage of large-scale farming over peasant farming is in the area of",
+    "options": {
+      "A": "providing research and massive employment of labour",
+      "B": "redistributing national income to various regions of the country",
+      "C": "encouraging the use of traditional implements",
+      "D": "encouraging urban-rural migration"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The benefit of large scale farming over peasant farming is the reduced cost of food. Consolidation and vertical coordination have not only reduced costs, but also expanded diversity of food products and solved information problems.",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_29",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "29",
+    "question": "A major disadvantage of localization of industry is",
+    "options": {
+      "A": "the risk of structural unemployment",
+      "B": "over-utilization of  installed industrial capacity",
+      "C": "the risk of seasonal unemployment",
+      "D": "under-utilization of installed industrial capacity"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Localisation of industries in a particular locality creates many social problems such as congestion, emergence of slums, accidents, strikes etc. These adversely affect the efficiency of labour and the productive ability of the industry.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_30",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "30",
+    "question": "One major factor that determines the location of an industry is",
+    "options": {
+      "A": "tax exemption grant",
+      "B": "its proximity to the market",
+      "C": "the capital base",
+      "D": "the social responsibility of the firm"
+    },
+    "correct_answer": "B",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Industry and industrialization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Factors responsible for location of Industries",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_31",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "31",
+    "question": "The major contribution of OPEC to the Nigerian economy is the",
+    "options": {
+      "A": "provision of social infrastructures",
+      "B": "granting of subsidies on petroleum products",
+      "C": "stabilization of oil prices",
+      "D": "building of refineries"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "OPEC aims to regulate the supply of oil in order to set the price on the world market.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_32",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "32",
+    "question": "The loading of crude oil at the terminal is an activity in the",
+    "options": {
+      "A": "downstream sector of the oil industry",
+      "B": "upstream  and downstream sector of the oil industry",
+      "C": "upstream sector of the oil industry",
+      "D": "midstream and upstream sectors of the oil industry"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Natural resources and petroleum",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The terms upstream and downstream oil and gas production refer to an oil or gas company's location in the supply chain. Upstream oil and gas production is conducted by companies who identify, extract, or produce raw materials.",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_33",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "33",
+    "question": "The short-run average variable cost of a firm will rise owing to",
+    "options": {
+      "A": "the expansion of factory space",
+      "B": "the building of new warehouse",
+      "C": "an increase in the cost of labour",
+      "D": "an increase in the salaries of directors"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Costs and revenue",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_34",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "34",
+    "question": "Firms embark on vertical integration in other to",
+    "options": {
+      "A": "take over markets formally controlled by other firms",
+      "B": "prevent other firms from entering the market",
+      "C": "reduce advertisement and management cost",
+      "D": "enjoy economies of large-scale production"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Vertical integrationis a strategy whereby a company owns or controls its suppliers, distributors, or retail locations to control its value or supply. The following are some of the reasons for vertical integration",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_35",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "35",
+    "question": "The voting power in co-operative societies is vested on",
+    "options": {
+      "A": "management",
+      "B": "members without loan",
+      "C": "shareholders",
+      "D": "members with the highest contribution"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The following are Some of the features of acooperative societyare:-1. Voluntary Association2. EqualVoting Rights3. Separate Legal Entity4. Service Motive",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "The Electoral Process",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Power, Authority, Legitimacy, Sovereignty"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_36",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "36",
+    "question": "An accurate census figure is an important tool for planners in",
+    "options": {
+      "A": "providing employment",
+      "B": "siting industries",
+      "C": "providing social amenities",
+      "D": "allocating resources"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "One of the core reasons behind the compilation of an accurate census figure is to assist the government in the distribution of resources amongst regions.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_37",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "37",
+    "question": "An accurate population census is important in other to",
+    "options": {
+      "A": "produce more food for the growing population",
+      "B": "provide employment opportunities for the people",
+      "C": "estimate a country's per capita income",
+      "D": "fast track industrial development"
+    },
+    "correct_answer": "C",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Population census helps to forecast the country's economic growth including its per capita income",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_38",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "38",
+    "question": "A major determinant of floating exchange rate is",
+    "options": {
+      "A": "the highest denomination of the currency",
+      "B": "an Act of the parliament",
+      "C": "the system of government",
+      "D": "the forest of demand and supply"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: International Economics",
+    "subtopic": "Balance of payments and exchange rate",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A floating exchange rate is a regime where the currency price of a nation is set by the forex market based on supply and demand relative to other currencies.",
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Arms of Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State",
+      "Arms of Government :: Legislature"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_39",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "39",
+    "question": "If the importation of a commodity is limited to a definite quantity, the trade control measure imposed is",
+    "options": {
+      "A": "excise duties",
+      "B": "import duties",
+      "C": "quotas",
+      "D": "tariff"
+    },
+    "correct_answer": "C",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International trade and comparative advantage",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "quotas; a limited quantity of a particular product which under official controls can be produced, exported, or imported.",
+    "predicted_topics": [
+      "Public Corporations and Parastatals"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_40",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "40",
+    "question": "The main objective of WTO is to",
+    "options": {
+      "A": "ensure adequate protection of infant industries",
+      "B": "provide a mechanism for tariff reduction",
+      "C": "assist countries with chronic balance of payments problem",
+      "D": "assist developing countries to execute developmental projects"
+    },
+    "correct_answer": "D",
+    "topic": "Section 4: International Economics",
+    "subtopic": "International economic organizations (IMF, WTO, ECOWAS)",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The world trade organisation has six key objectives some of which are:(1) to set and enforce rules for international trade(2) to provide a forum for negotiating and monitoring further trade liberalization(3) to resolve trade disputes(4) to increase the transparency of decision-making processes(5) to cooperate with othermajorinternational economic union",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria's Foreign Policy"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_41",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "41",
+    "question": "The major determinant of the total volume of output in an economy is the",
+    "options": {
+      "A": "level of total expenditure",
+      "B": "composition of consumer spending",
+      "C": "number of farmers",
+      "D": "size of the labour force"
+    },
+    "correct_answer": "A",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Agriculture in Nigeria",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_42",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "42",
+    "question": "The labour force of a country is determined by the",
+    "options": {
+      "A": "age structure of the population",
+      "B": "geographical distribution of the population",
+      "C": "sex distribution of the population",
+      "D": "number of people available for work"
+    },
+    "correct_answer": "D",
+    "topic": "Section 3: Nigerian Economy and Development",
+    "subtopic": "Population and labour",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The labour forceis the sum of persons in employment plus persons in unemployment. Together these two groups of the population represent the current supply oflabourfor the production of goods and services taking place in acountrythrough market transactions in exchange for remuneration.",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_43",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "43",
+    "question": "What is the percentage contribution of services to the national income?",
+    "options": {
+      "A": "15%",
+      "B": "10%",
+      "C": "54%",
+      "D": "24%"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "126% + 72% + 108% = 306360 - 306 = 54°",
+    "images": [
+      {
+        "filename": "Economics_2014_q43_bef706ea.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/27087298263_c.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_44",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "44",
+    "question": "If the national income is 60m, the contribution of the manufacturing sector is",
+    "options": {
+      "A": "18m",
+      "B": "17m",
+      "C": "12m",
+      "D": "9m"
+    },
+    "correct_answer": "A",
+    "topic": "Section 2: Macroeconomics and Finance",
+    "subtopic": "National income and measurement",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To calculate the percentage each slice is worth, measure the angle of each slice and divide this by 360 then multiply it by 100. To find the number of pieces of data each slice represents, multiply the percentage that each slice is worth by the total number of the data sets.",
+    "images": [
+      {
+        "filename": "Economics_2014_q44_ec1e5617.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/12830827680_c.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_45",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "45",
+    "question": "A combination of factors responsible for a shift from D o D o to D 1 D 1 are",
+    "options": {
+      "A": "consumers income and change in technology",
+      "B": "price of the commodity and weather conditions",
+      "C": "consumers income and population size",
+      "D": "consumers taste and change in price"
+    },
+    "correct_answer": "D",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2014_q45_aa90b1b1.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/5702595928_cc.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Basic Concepts in Government",
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Economics_2014_46",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "46",
+    "question": "From the graph above, the consumer will attain equilibrium at point",
+    "options": {
+      "A": "J",
+      "B": "K",
+      "C": "L",
+      "D": "M"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Consumer behaviour and utility",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "click here",
+    "images": [
+      {
+        "filename": "Economics_2014_q46_9c1bf23f.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/8553894834_co.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_47",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "47",
+    "question": "From the table above, Calculate the price elasticity of supply",
+    "options": {
+      "A": "0.50",
+      "B": "0.80",
+      "C": "2.00",
+      "D": "1.25"
+    },
+    "correct_answer": "B",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Demand and elasticity",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The elasticity of supply = % change in quantity supplied /%change in price",
+    "images": [
+      {
+        "filename": "Economics_2014_q47_dba25386.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/9979546633_co6 1.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_48",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "48",
+    "question": "From the table above, find the values of E and F respectively",
+    "options": {
+      "A": "27 and 1",
+      "B": "68 and 12",
+      "C": "28 and 5",
+      "D": "12 and 19"
+    },
+    "correct_answer": "A",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Definition and scope of economics",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "To get the total product for E multiply unit of labour by the average product.Thus we have 3 x 9 = 27",
+    "images": [
+      {
+        "filename": "Economics_2014_q48_b8ae9480.jpg",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/15682146293_f4.jpg"
+      }
+    ],
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Economics_2014_49",
+    "exam": "JAMB",
+    "subject": "Economics",
+    "year": 2014,
+    "number": "49",
+    "question": "Given that Qd = 40-2P and Qs = 6P+24. Calculate the equilibrium price.",
+    "options": {
+      "A": "34",
+      "B": "32",
+      "C": "36",
+      "D": "16"
+    },
+    "correct_answer": "C",
+    "topic": "Section 1: Basic Concepts and Microeconomics",
+    "subtopic": "Price determination and equilibrium",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Equilibrium price = quantity demanded = quantity supplied",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

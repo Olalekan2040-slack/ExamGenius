@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "JAMB_Hausa_2021_1",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "1",
+    "question": "First aid box",
+    "options": {
+      "A": "Agajin akwatin farko",
+      "B": "Akwatin farkon agaji.",
+      "C": "Akwatin taimako",
+      "D": "Akwatin agajin gaggawa."
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is Akwatin taimako because a first aid box is translated as Akwatin taimako in Hausa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_2",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "2",
+    "question": "\"Wani yaro fari ya rubuta jarabawa jiya. Kalmar da aka ja wa layi.......... ce\"",
+    "options": {
+      "A": "bayanau",
+      "B": "aikatau",
+      "C": "suna",
+      "D": "sifa"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Sifa. \"A certain white boy wrote the exam yesterday.\" The word that was described as an adjective is sifa.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_3",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "3",
+    "question": "Tsamo wakilin suna na daya kurma tilo",
+    "options": {
+      "A": "Ni",
+      "B": "Ke",
+      "C": "Mu",
+      "D": "Kai"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Kai. The question is asking about the pronoun used to refer to oneself in Hausa, and the answer is Kai.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_4",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "4",
+    "question": "'Aliyu yana cin abinci kuma yana surutu'. Kalmar mahadi a nan ce.",
+    "options": {
+      "A": "ci",
+      "B": "Aliyu",
+      "C": "kuma",
+      "D": "abinci"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_5",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "5",
+    "question": "Wace jimla ce ba ta d'auke da sifa?",
+    "options": {
+      "A": "Huhu-huhu yake sayar da goronsa.",
+      "B": "Koriyar mota ta fi.",
+      "C": "Rigar da ta kone baka ce.",
+      "D": "Nan-nan ya kasa kai damin dawa"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which sentence does not contain an adjective? Answer: Nan-nan ya kasa kai damin dawa (This sentence does not contain an adjective, while the other options do)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_6",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "6",
+    "question": "Newspaper vendors Za a iya fassara wannnan da masu",
+    "options": {
+      "A": "neman labarai",
+      "B": "sayar da jaridu",
+      "C": "rubuta jaridu",
+      "D": "buga jarida"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is sayar da jaridu because newspaper vendors are translated as masu sayar da jaridu in Hausa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_7",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "7",
+    "question": "Dalidai yake da; daliban na da",
+    "options": {
+      "A": "kokari",
+      "B": "hankali",
+      "C": "aiki",
+      "D": "fushi"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is kokari.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_8",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "8",
+    "question": "'Malam ya sayi mota shudiya jiya'. Fito da sifa daga gaban wannnan jimlar.",
+    "options": {
+      "A": "Shud'iya",
+      "B": "Malam",
+      "C": "Mota",
+      "D": "Jiya"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The adjective in the sentence \"Malam ya sayi mota shudiya jiya\" is: Answer: Shud'iya (Shud'iya is the adjective modifying the noun mota, meaning \"new\". Jiya means \"yesterday\", Malam is the subject, mota means \"car\", and sayi means \"to buy\")",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_9",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "9",
+    "question": "'Audu ya fadi a rigingine'. Bayanau a nan shi ne",
+    "options": {
+      "A": "fadi",
+      "B": "Audu",
+      "C": "a rigingine",
+      "D": "ya fadi"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The modifier in the sentence \"Audu ya fadi a rigingine\" is: Answer: a rigingine (A rigingine is the modifier, indicating the location where the action of the verb \"fadi\" occurred. Audu is the subject, fadi means \"to fall\", and ya is an auxiliary verb)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_10",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "10",
+    "question": "'Marin shi aka yi yau da rana. Wakilin suna a wannnan jimla shi ne",
+    "options": {
+      "A": "da",
+      "B": "shi",
+      "C": "yau",
+      "D": "aka"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The pronoun in the sentence \"Marin shi aka yi yau da rana\" is: Answer: shi (Shi is the pronoun, which means \"him\" or \"it\". Aka is an auxiliary verb, da is a preposition, yau means \"yesterday\", and yi means \"to do\")",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_11",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "11",
+    "question": "Ware bare dangane da sa sunayen yanka.",
+    "options": {
+      "A": "Danlami",
+      "B": "Danladi",
+      "C": "Balarabe",
+      "D": "Audu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following names is not a nickname? Answer: Balarabe (Balarabe is a full name, while the other options - Audu, Danladi, Danlami, and Mutum - are all nicknames)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_12",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "12",
+    "question": "Wakilin suna na biyu, mace kuma tilo ita ce",
+    "options": {
+      "A": "ita",
+      "B": "ku",
+      "C": "ke",
+      "D": "kai"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The second person singular feminine possessive pronoun is: Answer: ita (Ita is the correct answer, as it is the second person singular feminine possessive pronoun. Kai is a masculine possessive pronoun, ke is a contraction, ku is a masculine object pronoun, and ni is a first-person singular possessive pronoun.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_13",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "13",
+    "question": "He bought a new book. Za a iya fassara wannnan da: Ya....... sabon littafi",
+    "options": {
+      "A": "aro",
+      "B": "bayar da",
+      "C": "sayo",
+      "D": "kyautar da"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is sayo because \"he bought a new book\" is translated as Ya sayo sabon littafi in Hausa.",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_14",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "14",
+    "question": "Ware bare dangane da jam'i a tambaya ta",
+    "options": {
+      "A": "Wasa",
+      "B": "Mota",
+      "C": "Dodo",
+      "D": "Sako"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following is a feminine noun? Answer: Mota (Mota is a feminine noun, while the other options are masculine nouns)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_15",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "15",
+    "question": "Wanne ne ba sunan yanka ba?",
+    "options": {
+      "A": "Najeriya",
+      "B": "Abuja",
+      "C": "Gambo",
+      "D": "Audu"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following names is not a nickname? Answer: Gambo (Gambo is a full name, while the other options - Abuja, Audu, Najeriya, an Takalmi - are all nicknames)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_16",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "16",
+    "question": "Wace ce ta yi tafiya jiya Wannan jimla......... ce",
+    "options": {
+      "A": "tambayau",
+      "B": "Karfafawa",
+      "C": "bayani",
+      "D": "korewa"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "What type of sentence is \"Wace ce ta yi tafiya jiya\"? Answer: Tambayau (Tambayau means \"interrogative sentence\", which is the correct answer. Bayani is an exposition, korewa is a negation, karfafawa is emphatic, and umurtau is not a relevant term)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_17",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "17",
+    "question": "School billboard. Allon",
+    "options": {
+      "A": "Sanarwar Makaranta",
+      "B": "nuna makaranta",
+      "C": "rubutun makaranta.",
+      "D": "rubutun yaran makaranta."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is nuna makaranta because a school billboard is translated as allon nuna makaranta in Hausa.",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_18",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "18",
+    "question": "Ware bare dangane da jinsi.",
+    "options": {
+      "A": "Gida",
+      "B": "Mota",
+      "C": "Fata",
+      "D": "Hula"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Mota. The question is asking about the name of a letter in the Hausa alphabet, and the answer is Mota.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_19",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "19",
+    "question": "Human Rights Watch Fassarar wannnan ita ce ________ 'Dan' Adam.",
+    "options": {
+      "A": "lokacin",
+      "B": "tarbiyyar",
+      "C": "hakkin",
+      "D": "tanhin"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is hakkin because Human Rights Watch is translated as Kungiyar kula da hakkin 'Dan' Adam in Hausa.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_20",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "20",
+    "question": "Da malalaci da mayaudari duk malalaciya ce uwarsu. Kalmomin sifa su nawa ne a cikin wannnan jimla?",
+    "options": {
+      "A": "Uku",
+      "B": "Hudu",
+      "C": "Biyar",
+      "D": "Biyu"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "How many adjectives are in the sentence \"Da malalaci da mayaudari duk malalaciya ce uwarsu\"? Answer: Uku (There are three adjectives in the sentence: malalaci, mayaudari, and malalaciya. Biyu means two, Hudu means four; Biyar means five, and Shida means six)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_21",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "21",
+    "question": "Ware bare dangane da jam'i a tambaya ta",
+    "options": {
+      "A": "Korama",
+      "B": "Takarda",
+      "C": "Littafi",
+      "D": "Katifa"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which of the following is a plural noun?",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_22",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "22",
+    "question": "\"Zauna, kuma ka yi shiru\" Wannnan misali ne na jimla",
+    "options": {
+      "A": "bayyanau",
+      "B": "Korewa",
+      "C": "tabbatau",
+      "D": "umurtau"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "umurtau. The question is asking about the type of sentence that gives a command or instruction in Hausa, and the answer is umurtau (meaning \"imperative sentence\").",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_23",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "23",
+    "question": "Kalmar da aka ja wa layi..........ce.",
+    "options": {
+      "A": "bayanau",
+      "B": "suna",
+      "C": "sifa",
+      "D": "aikatau"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The verb in the sentence \"Wakili ya. auri. wata farar yarinya\" is: Answer: aikatau (Aikatau means \"verb\", and in this sentence, the verb is \"auri\", which means \"to marry\". Bayanau is a modifier, sifa is an adjective, suna is a noun, and wakilin suna is a possessive pronoun)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_24",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "24",
+    "question": "She washed her school uniform. Fassarar wannnan ita ce Ta wanke.......... makaranta",
+    "options": {
+      "A": "jakar",
+      "B": "rigar",
+      "C": "kayan",
+      "D": "takalmin"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The correct answer is kayan. The correct translation of the sentence \"She washed her school uniform\" in Hausa is \"Ta wanke kayan makaranta\". Here, \"kayan\" means \"uniform\" or \"clothing\", and \"makaranta\" means \"school\". So, the correct answer is kayan.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_25",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "25",
+    "question": "Fito da wakilin suna na uku kuma jam'i.",
+    "options": {
+      "A": "Ku",
+      "B": "Ita",
+      "C": "Mu",
+      "D": "Su"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The third person plural possessive pronoun is: Answer: Su (Su is the correct answer, as it is the third person plural possessive pronoun. Ita is second person singular feminine, Ku is second person singular masculine, mu is first person plural, and shi is third person singular masculine.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_26",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "26",
+    "question": "Gano jimla kora wa wad'annan.",
+    "options": {
+      "A": "Ta yi zugum",
+      "B": "Ya zo jiya",
+      "C": "Ta iya kitso",
+      "D": "Kar ka zo gobe"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Identify the sentence with a subordinate clause. Answer: Kar ka zo gobe (This sentence contains a subordinate clause, while the other options do not)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_27",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "27",
+    "question": "Wata yarinya siririya ta zo.' Fito da kalmar sifa a wannan jimlar.",
+    "options": {
+      "A": "Yarinya",
+      "B": "Ta",
+      "C": "Siriya",
+      "D": "Wata"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "A Siriya. The question is asking about the adjective used to describe a girl in Hausa, and the answer is Siriya (meaning \"beautiful\").",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_28",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "28",
+    "question": "Tsamo kalmar wakilin suna mutum na biyu namiji kurma tilo",
+    "options": {
+      "A": "Kai",
+      "B": "Mu",
+      "C": "Ni",
+      "D": "Shi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Shi. The question is asking about the pronoun used to refer to a second-person singular male in Hausa, and the answer is Shi.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_29",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "29",
+    "question": "Wace jimla ce ke dauke da bayanau?",
+    "options": {
+      "A": "Audu ya ci nama.",
+      "B": "Akuyar Bello ta mutu.",
+      "C": "Jamila ta iya tuwo.",
+      "D": "Keken Gambo kore ne."
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Which sentence contains a modifier? Answer: Akuyar Bello ta mutu (The sentence contains the modifier \"Akuyar\", which gives more information about the verb \"mutu\". The other options do not contain modifiers)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_30",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "30",
+    "question": "AUNA FAHIMTA Karantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su. Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alal misali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama. Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami. Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar. Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ga Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye. Yaron da aka haifi lokacin ruwan sama shi ne",
+    "options": {
+      "A": "Damina",
+      "B": "Dandare",
+      "C": "Ciwake",
+      "D": "Magawata"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "AUNA FAHIMTAKarantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su.Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alal misali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama.Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami.Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar.Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ga Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye.Yaron da aka haifi lokacin ruwan sama shi ne",
+    "explanation": "Damina (Damina is a name given to a child born during rainfall).",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_31",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "31",
+    "question": "AUNA FAHIMTA Karantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su. Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alalmisali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama. Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami. Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar. Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ko Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye. Yaron da aka haifi lokacin ruwan sama shi ne",
+    "options": {
+      "A": "Asabar",
+      "B": "Laraba",
+      "C": "Litinin",
+      "D": "Alhamis"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "AUNA FAHIMTAKarantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su.Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alalmisali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama.Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami.Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar.Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ko Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye.Yaron da aka haifi lokacin ruwan sama shi ne",
+    "explanation": "The correct option is Asabar, which means Saturday. Asabar (Subdu is a name given to a child born on Saturday)",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_32",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "32",
+    "question": "AUNA FAHIMTA Karantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su. Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alalmisali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama. Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami. Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar. Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ko Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye.Ana kiran yarinya da suna Subdu idan an haife ta ranar",
+    "options": {
+      "A": "Litinin",
+      "B": "Juma'a",
+      "C": "Alhamis",
+      "D": "Laraba"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "AUNA FAHIMTAKarantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su.Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alalmisali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama.Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami.Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar.Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ko Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye.Ana kiran yarinya da suna Subdu idan an haife ta ranar",
+    "explanation": "(Lantana is a name given to a child born on Sunday, Litinin means Sunday in Hausa)",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_33",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "33",
+    "question": "AUNA FAHIMTA Karantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su. Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alalmisali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama. Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami. Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar. Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ko Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye.Duk wadannan sunayen lokaci ne in ban da",
+    "options": {
+      "A": "Ciwake",
+      "B": "Altine",
+      "C": "Dandare",
+      "D": "Magawata"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "AUNA FAHIMTAKarantar wadannan labarai, sannan ka amsa tambayoyin da ke biye da su.Hausawa sukan sami suna daga lokaci ko hali korana ko yanayi ko faruwar wani abu. Alalmisali,idan aka haifi yaro a wani lokaci kamar, dare sai akira shi 'Dandare, in kuwa da hantsi ne sai akira shi 'Nahantsi ko Magawata idan an haife shi a farkon wata. ko Ciwake idan lokacin ana cin wake, ko Damina idan ana ruwan sama.Idan kuwa aka haifi yaro a wata rana sai a ba shi Suna da irin wannnan ranar; kamar Danliti ko Attine,ko Tanimu ga wanda aka haifa ran Litinin, idan kuwa Talata ce akan kira yaro da suna Dantala,ko Taku ko Lantana ko Talatu. Haka kuma Laraba ko Larai. Alhamis kuwa Lam ko Danlami.Najuma ko Danjuma da Juma ko Jummai suney'an Juma'a. Dan Asabe ko Asabe ko Assibi ko Subdu su ne aka haifa ran Asabar.Akwai kuma sunayen da ake sa wa yaro dangane da halayyar da aka haife shi a ciki. Misali: Talle wanda uwarsa ta mutu lokacin haihuwa ko Audi wanda ubansa ya mutu yana ciki. Idan kuwa aka haifi namiji bayan 'ya'ya mata uku ko fiye shi ne Mato, ko Delu ko Kande ko ko Dela wadda ta biyo maza da yawa. Gambo kuwa wanda aka haifa bayan tagwaye.Duk wadannan sunayen lokaci ne in ban da",
+    "explanation": "Altine is not among the name given to a child that is born at a specific time. Other options are names given to a child that is born at a specific time.",
+    "predicted_topics": [
+      "Pre-Colonial Polities",
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_34",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "34",
+    "question": "Ware bare dangane da jam'i.",
+    "options": {
+      "A": "Lambu",
+      "B": "Hula",
+      "C": "Riga",
+      "D": "Rafi"
+    },
+    "correct_answer": "D",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "Rafi. The question is asking about the name of a letter in the Hausa alphabet, and the answer is Rafi.",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_35",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "35",
+    "question": "Bayana a nahawu na nufin kalmar da ke Karin bayani a kan",
+    "options": {
+      "A": "aikatau",
+      "B": "sifa",
+      "C": "adadi",
+      "D": "jam'i"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "In grammar; a modifier (bayanau) is a word that gives more information about: Answer: aikatau (Aikatau means \"verb\", and a modifier give more information about the verb. Adadi means \"number\", jam'i means \"plural\", sifa means \"adjective\", and suna means \"name\")",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_36",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "36",
+    "question": "Ana amfani da d'afin - una wajen jam'in duk wadannan in ban da",
+    "options": {
+      "A": "rafi",
+      "B": "riga",
+      "C": "rumfa",
+      "D": "hula"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The prefix \"una-\" is used to form the plural of all of the following except: Answer: rafi (Rafi is an exception, as it forms its plural with the prefix \"ri-\" instead of \"una-\". The other options - hula, riga, rumfa, and shago - all form their plurals with the prefix \"una-\")",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_37",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "37",
+    "question": "\"Awakai sun fita gida da gudu.\" Kalmar aikatau a wannnan jimla ita ce",
+    "options": {
+      "A": "fita",
+      "B": "da",
+      "C": "gida",
+      "D": "awakai"
+    },
+    "correct_answer": "A",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The verb in the sentence \"Awakai sun fita gida da gudu\" is: Answer: fita (Fita is the verb in the sentence, which means \"to go out\". Awakai is the subject, da is a preposition, gida means \"home\", and sun is an auxiliary verb)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_38",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "38",
+    "question": "Jam'in Boyayye - Boyayyu. Korar re -",
+    "options": {
+      "A": "Korarra",
+      "B": "Korarru",
+      "C": "Korarruwa",
+      "D": "Korarriya"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The plural form of \"Korar re\" is: Answer: Korarru (Korarru is the correct plural form of Korarre. Korarriya, Korarra, Korarruwa, and Koraye are not the correct plural forms)",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_39",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "39",
+    "question": "Fati ta ga akuya wadda ta shanye ruwa.\" Wannnan jimla..........ce.",
+    "options": {
+      "A": "korau",
+      "B": "sassauka",
+      "C": "nuftau",
+      "D": "sarkakkiya"
+    },
+    "correct_answer": "B",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "The sentence \"Fati ta ga akuya wadda ta shanye ruwa\" is an example of: Answer: sassauka (Sassauka means a relative clause, which is the correct answer. Korau refers to a subordinate clause, nuftau is a noun phrase, sarkakkiya is an adverbial phrase, and umurtau is not a relevant term)",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Hausa_2021_40",
+    "exam": "JAMB",
+    "subject": "Hausa",
+    "year": 2021,
+    "number": "40",
+    "question": "HARSHE: NAHAWU Lokaci Na Yanzu II shi ne mai manunin lokaci",
+    "options": {
+      "A": "-na",
+      "B": "za",
+      "C": "-ke",
+      "D": "-kan"
+    },
+    "correct_answer": "C",
+    "topic": "",
+    "subtopic": "",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "explanation": "saboda ana cikin ba a kare ba",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]

@@ -1,0 +1,975 @@
+[
+  {
+    "id": "JAMB_Chemistry_2022_1",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "1",
+    "question": "The sub-atomic particles located in the nucleus of an atom are?",
+    "options": {
+      "A": "neutron and proton",
+      "B": "proton and electron",
+      "C": "proton and ions",
+      "D": "neutron and electron"
+    },
+    "correct_answer": "A",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_2",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "2",
+    "question": "The IUPAC nomenclature of the structure is?",
+    "options": {
+      "A": "3-chloro-3-methylbutane",
+      "B": "2,2,-dichloro-3-methylbutane",
+      "C": "3-methylchlorobutane",
+      "D": "2-chloro-2-methylbutane"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "images": [
+      {
+        "filename": "Chemistry_2022_q2_2dd1c915.png",
+        "alt": "",
+        "original_url": "https://myschool.ng/storage/classroom/l5Tccvcrr0m5FtN2PCyHNZzomrwpNoHHLjVCuowB.png"
+      }
+    ],
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria",
+      "The Military in Nigerian Politics"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_3",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "3",
+    "question": "SO₂ + O₂ → 2SO₃ In the reaction above, the most suitable catalyst is?",
+    "options": {
+      "A": "chromium(vi)oxide",
+      "B": "iron(iii)oxide",
+      "C": "copper(i)oxide",
+      "D": "vanadium(v)oxide"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_4",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "4",
+    "question": "In the preparation of salts, the method employed will depend on the?",
+    "options": {
+      "A": "composition",
+      "B": "dissociating ability",
+      "C": "stability to heat",
+      "D": "precipitating ability"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_5",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "5",
+    "question": "The following non-metal form acidic oxides with oxygen except?",
+    "options": {
+      "A": "phosphorus",
+      "B": "sulphur",
+      "C": "carbon",
+      "D": "chlorine"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_6",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "6",
+    "question": "How many neutrons are present in atom with mass number and atomic number 37 and 17 respectively?",
+    "options": {
+      "A": "18",
+      "B": "20",
+      "C": "37",
+      "D": "17"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_7",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "7",
+    "question": "The sulphide that is commonly used in coating electric fluorescent tubes is?",
+    "options": {
+      "A": "iron(ii)Sulphide",
+      "B": "tin(ii)sulphide",
+      "C": "Zinc Sulphide",
+      "D": "lead(iv) Sulphide"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Sulphur and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_8",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "8",
+    "question": "An organic compound which liberate carbon(iv)oxide from trioxocarbonate(iv) solution is likely to be?",
+    "options": {
+      "A": "C₂H₅OH",
+      "B": "C₃H₄",
+      "C": "C₆H₆",
+      "D": "CH₃COOH"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Carbon and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_9",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "9",
+    "question": "Addition of sodium chloride to water to form a solution would lead to?",
+    "options": {
+      "A": "increase in freezing point and increase the boiling point",
+      "B": "increase in freezing point and decrease the boiling point",
+      "C": "decrease in freezing point and decrease the boiling point",
+      "D": "decrease in freezing point and increase the boiling point"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_10",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "10",
+    "question": "A chemical widely used as a fertilizer is?",
+    "options": {
+      "A": "galena",
+      "B": "bauxite",
+      "C": "emerald",
+      "D": "nitrochalk"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Nigeria in International Organizations",
+      "International Organizations"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_11",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "11",
+    "question": "On the basis of the electrochemical series, which of these ions will show the greater tendency to be discharged at the cathode in an electrolytic cell",
+    "options": {
+      "A": "cu²⁺",
+      "B": "sn²⁺",
+      "C": "fe²⁺",
+      "D": "zn²⁺"
+    },
+    "correct_answer": "A",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrochemical cells",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_12",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "12",
+    "question": "Addition of charcoal to the filter bed of sand during water treatment for township supply is to?",
+    "options": {
+      "A": "prevent goiter",
+      "B": "prevent tooth decay",
+      "C": "remove odour",
+      "D": "kill germs"
+    },
+    "correct_answer": "C",
+    "topic": "6. Water",
+    "subtopic": "Water treatment",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_13",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "13",
+    "question": "Using the metal activity series, the metal that can liberate hydrogen gas from steam is?",
+    "options": {
+      "A": "iron",
+      "B": "copper",
+      "C": "tin",
+      "D": "lead"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation",
+      "Pre-Colonial Polities"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_14",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "14",
+    "question": "An organic compound with fishy smell is likely to have a general formula?",
+    "options": {
+      "A": "RCONH₂",
+      "B": "",
+      "C": "RNH₂",
+      "D": "RCOR¹"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_15",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "15",
+    "question": "N₂O₄ ⇔ 2NO₂ (Δ = -ve) From the reaction above, which of these conditions would produce the highest equilibrium yield for N₂O₄?",
+    "options": {
+      "A": "Low temperature and high pressure",
+      "B": "Low temperature and low pressure",
+      "C": "high temperature and low pressure",
+      "D": "high temperature and high pressure"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "Kinetic theory of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_16",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "16",
+    "question": "Zn + 2HCL → ZnCl₂ + H₂ What happens to zinc in the above reaction?",
+    "options": {
+      "A": "oxidized",
+      "B": "a reactant",
+      "C": "reduced",
+      "D": "a metal"
+    },
+    "correct_answer": "A",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "General properties of metals",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_17",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "17",
+    "question": "An organic functional group which can likely decolorize ammoniacal silver nitrate is?",
+    "options": {
+      "A": "alkene",
+      "B": "alkane",
+      "C": "alkyne",
+      "D": "alkanol"
+    },
+    "correct_answer": "C",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_18",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "18",
+    "question": "A colored gas that is known to be poisonous and can readily damage the mucous lining of the lungs is?",
+    "options": {
+      "A": "hydrogen sulphide",
+      "B": "carbon(ii)oxide",
+      "C": "chlorine",
+      "D": "sulphur(iv)oxide"
+    },
+    "correct_answer": "C",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_19",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "19",
+    "question": "In order to electroplate spoon with silver, the arrangement of the electrolytic cell is?",
+    "options": {
+      "A": "the anode is a silver rod and the cathode is the spoon",
+      "B": "the anode is the spoon and the cathode is a silver rod",
+      "C": "the electrolyte is silver trioxonitrate(v)( solution and the cathode is a silver rod.",
+      "D": "the electrolyte is silver trioxonitrate(v) solution and the anode is the spoon"
+    },
+    "correct_answer": "A",
+    "topic": "11. Electrolysis",
+    "subtopic": "Electrolytes and non-electrolytes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_20",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "20",
+    "question": "An organic compound which decolorizes bromine water is likely to be?",
+    "options": {
+      "A": "C₃H₈",
+      "B": "C₂H₆",
+      "C": "C₄H₁0",
+      "D": "C₂H₄"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_21",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "21",
+    "question": "Crude petroleum is converted to useful products by the process of?",
+    "options": {
+      "A": "fractional crystallization",
+      "B": "fractional distillation",
+      "C": "filtration",
+      "D": "chromatography"
+    },
+    "correct_answer": "B",
+    "topic": "1. Separation of Mixtures and Purification",
+    "subtopic": "Pure and impure substances",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_22",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "22",
+    "question": "An organic compound contains 69% carbon, 15.3% hydrogen and 30.7% oxygen. Calculate the the empirical formula [C=12, H = 1, O = 16]",
+    "options": {
+      "A": "C₄H₁2O",
+      "B": "C₃H₉O",
+      "C": "C₄H₉O",
+      "D": "C₃H₈O"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_23",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "23",
+    "question": "2H₂ + O₂ → 2H₂O From the equation above, calculate the volume of unreacted oxygen gas if a mixture of 50cm³ of hydroden and 75cm³ of oxygen are involved",
+    "options": {
+      "A": "85cm³",
+      "B": "50cm³",
+      "C": "125cm³",
+      "D": "55cm³"
+    },
+    "correct_answer": "B",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_24",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "24",
+    "question": "In which of the following will hydrogen form ionic compound?",
+    "options": {
+      "A": "HCL",
+      "B": "NaH",
+      "C": "NH₃",
+      "D": "CH₄"
+    },
+    "correct_answer": "B",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_25",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "25",
+    "question": "If the volume of a given mass of a gas at 0ºc is 29.5cm³. What will be the volume of the gas at 15ºc, given that the pressure remains constant.",
+    "options": {
+      "A": "31.6",
+      "B": "62.2",
+      "C": "32.7",
+      "D": "31.1"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_26",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "26",
+    "question": "The reactions below represent neutralization reaction, in which of them is the value of ΔH highest?",
+    "options": {
+      "A": "CH₃CH₂COOH + KOH → CH₃CH₂COOK + H₂O",
+      "B": "NH₄OH + HCL → NH₄ + H₂O",
+      "C": "NaOH + HCL → NaCL + H₂O",
+      "D": "CH₃COOH + NaOH → CH₃COONa + H₂O"
+    },
+    "correct_answer": "C",
+    "topic": "9. Acids, Bases and Salts",
+    "subtopic": "Neutralization",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_27",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "27",
+    "question": "The pollutant usually presents in a city which generates its electricity from coal?",
+    "options": {
+      "A": "fog",
+      "B": "carbon(ii)oxide",
+      "C": "smog",
+      "D": "sulphur(iv)oxide"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Carbon and compounds",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_28",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "28",
+    "question": "The dehydration of CH₃CH₂CH₂CH₂OH will give?",
+    "options": {
+      "A": "HC≡CCH₂CH₃",
+      "B": "CH₂≡CH₂CH₃",
+      "C": "CH₃C≡CCH₃",
+      "D": "CH₃CH=CHCH₃"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_29",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "29",
+    "question": "When heat is absorbed during a chemical reaction, the reaction is said to be",
+    "options": {
+      "A": "thermodynamic",
+      "B": "exothermic",
+      "C": "isothermal",
+      "D": "endothermic"
+    },
+    "correct_answer": "D",
+    "topic": "12. Energy Changes",
+    "subtopic": "Enthalpy changes",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_30",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "30",
+    "question": "Which of the following best represent solid gas mixture?",
+    "options": {
+      "A": "milk",
+      "B": "kerosene",
+      "C": "soil",
+      "D": "smoke"
+    },
+    "correct_answer": "D",
+    "topic": "3. Kinetic Theory and Gas Laws",
+    "subtopic": "States of matter",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_31",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "31",
+    "question": "H⁺ + OH⁻ → H₂O The equation above illustrates",
+    "options": {
+      "A": "precipitation",
+      "B": "hydration",
+      "C": "hydrolysis",
+      "D": "neutralization"
+    },
+    "correct_answer": "D",
+    "topic": "6. Water",
+    "subtopic": "Water as a solvent",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_32",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "32",
+    "question": "Electrons enter into orbitals in order of increasing energy as exemplified by?",
+    "options": {
+      "A": "1S²2S²2PX²2py²2pz⁰3s⁰",
+      "B": "1S²2S²2PX²2py¹2pz¹3s⁰",
+      "C": "1S²2S²2PX¹2py¹2pz¹3s¹",
+      "D": "1S²2S²2PX²2py²2pz⁰3s¹"
+    },
+    "correct_answer": "B",
+    "topic": "4. Atomic Structure and Bonding",
+    "subtopic": "Atomic structure",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_33",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "33",
+    "question": "Wrought iron is obtained by heating cast iron in a furnace with?",
+    "options": {
+      "A": "magnetite",
+      "B": "haematite",
+      "C": "carbon(ii)oxide",
+      "D": "calcium trioxosilicate(iv)"
+    },
+    "correct_answer": "B",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_34",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "34",
+    "question": "In the extraction of iron, hot air is introduced into the blast furnace through?",
+    "options": {
+      "A": "valves",
+      "B": "open-hearths",
+      "C": "arcs",
+      "D": "tuyeres"
+    },
+    "correct_answer": "D",
+    "topic": "16. Metals and Their Compounds",
+    "subtopic": "Iron and steel",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Processes of Legislation"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_35",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "35",
+    "question": "How many bonding pair are present in carbon(iv)oxide?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "correct_answer": "A",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Oxygen and oxides",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_36",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "36",
+    "question": "2-methylprop-1-ene is a structural isomer of?",
+    "options": {
+      "A": "But-1-yne",
+      "B": "2-methyl But-1-ene",
+      "C": "3-methyl prop-1-yne",
+      "D": "But-2-ene"
+    },
+    "correct_answer": "D",
+    "topic": "17. Organic Compounds",
+    "subtopic": "IUPAC nomenclature",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_37",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "37",
+    "question": "Alkanes are used mainly?",
+    "options": {
+      "A": "in the textile industry",
+      "B": "in the hydrogenation of oils",
+      "C": "as domestic and industrial fuels",
+      "D": "as fine chemicals"
+    },
+    "correct_answer": "C",
+    "topic": "18. Chemistry and Industry",
+    "subtopic": "Chemical industries",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Basic Concepts in Government"
+    ],
+    "predicted_subtopics": [
+      "Basic Concepts in Government :: Society, State, Nation, Nation-State"
+    ]
+  },
+  {
+    "id": "JAMB_Chemistry_2022_38",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "38",
+    "question": "What volume of (dm³) of water will be added to 10dm³ of².0 mol/dm³ HCL acid solution to give a final solution of 0.5 mol/dm³?",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "20",
+      "D": "50"
+    },
+    "correct_answer": "A",
+    "topic": "2. Chemical Combination",
+    "subtopic": "Stoichiometry and chemical equations",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_39",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "39",
+    "question": "GAS CO₂ N₂ O₂ % BY VOLUME 4 72 24 The above table shows the compositions of the atmosphere of planet X. Which of these gases are present in higher percentages on earth?",
+    "options": {
+      "A": "CO₂ and O₂",
+      "B": "N₂ and CO₂",
+      "C": "CO₂, O₂ and N₂",
+      "D": "O₂ and N₂"
+    },
+    "correct_answer": "D",
+    "topic": "15. Non-Metals and Their Compounds",
+    "subtopic": "Hydrogen",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "table_html": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\n<tbody>\n<tr>\n<td>GAS</td>\n<td>CO\\(_2\\)</td>\n<td>N\\(_2\\)</td>\n<td>\n<p>O\\(_2\\)</p>\n</td>\n</tr>\n<tr>\n<td>% BY VOLUME</td>\n<td>4</td>\n<td>72</td>\n<td>24</td>\n</tr>\n</tbody>\n</table>",
+    "predicted_topics": [
+      "Political Parties and Party Politics in Post-Independence Nigeria"
+    ],
+    "predicted_subtopics": []
+  },
+  {
+    "id": "JAMB_Chemistry_2022_40",
+    "exam": "JAMB",
+    "subject": "Chemistry",
+    "year": 2022,
+    "number": "40",
+    "question": "Hard water is water with high concentrations of dissolved ions, in particular calcium and",
+    "options": {
+      "A": "magnesium ions",
+      "B": "nitrogen ions",
+      "C": "phosporus ions",
+      "D": "helium ions"
+    },
+    "correct_answer": "A",
+    "topic": "6. Water",
+    "subtopic": "Hard and soft water",
+    "image": null,
+    "source": "myschool.ng",
+    "passage": "",
+    "predicted_topics": [
+      "Uncategorized"
+    ],
+    "predicted_subtopics": []
+  }
+]
