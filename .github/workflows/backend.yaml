@@ -1,0 +1,47 @@
+name: Deploy Backend to EC2
+
+on:
+  push:
+    branches: [ "." ]
+    paths:
+      - "app/**"
+      - "main.py"
+      - "requirements.txt"
+      
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy Backend
+        run: |
+          ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+            set -e
+
+            cd ~/examgenius || exit 1
+
+            git pull origin main
+
+            python3 -m venv venv || true
+            source venv/bin/activate
+
+            pip install --upgrade pip
+            pip install -r requirements.txt
+
+            pm2 restart examgenius || \
+            pm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" \
+              --name examgenius --interpreter bash
+
+            pm2 save
+          EOF
