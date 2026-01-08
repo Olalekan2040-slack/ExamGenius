@@ -226,12 +226,38 @@ docker-compose.override.yml
 
 # JAMB source data folder (large, not needed in repo)
 JAMB/
+JAMB copy/
 
 # Static images (generated from JAMB folder)
 static/images/
+static/uploads/
 
 # Syllabus markdown files (reference only)
 syllabus/
 
 # Past questions JSON (imported to database)
 past_questions/
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Script outputs and test files
+check_*.py
+test_*.py
+cleanup_*.py
+
+# Documentation that's auto-generated or temporary
+*_IMPLEMENTATION*.md
+*_CHECKLIST*.md
+*_DELIVERY*.md
+*_SETUP*.md
+*_COMPLETE*.md
+*_SUMMARY*.md
+*_REFERENCE*.md
+*_GUIDE*.md
+TROUBLESHOOTING*.md
+QUICK_START*.md
+DEEPSEEK*.md
