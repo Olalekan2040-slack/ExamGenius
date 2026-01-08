@@ -78,8 +78,123 @@ async function handleLogin(event) {
         showToast('Login successful! Welcome back.', 'success');
         router.navigate('dashboard');
     } else {
-        showToast(result.error, 'error');
+        // Check if error is email not verified
+        if (result.error && result.error.toLowerCase().includes('not verified')) {
+            showEmailNotVerifiedDialog(email);
+        } else {
+            showToast(result.error, 'error');
+        }
     }
+}
+
+// Show dialog for unverified email with resend option
+function showEmailNotVerifiedDialog(email) {
+    const dialog = document.createElement('div');
+    dialog.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        padding: 20px;
+    `;
+    
+    dialog.innerHTML = `
+        <div style="
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 450px;
+            width: 100%;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        ">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <div style="font-size: 48px; margin-bottom: 10px;">📧</div>
+                <h2 style="margin-bottom: 10px; color: #333;">Email Not Verified</h2>
+                <p style="color: #666; font-size: 14px; line-height: 1.5;">
+                    Your email address hasn't been verified yet. Please check your inbox for the verification link.
+                </p>
+            </div>
+            
+            <div style="margin-bottom: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                <p style="margin: 0; font-size: 13px; color: #666;">
+                    <strong>Email:</strong> ${email}
+                </p>
+            </div>
+            
+            <button id="resend-btn" style="
+                width: 100%;
+                padding: 14px;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                margin-bottom: 10px;
+                transition: transform 0.2s;
+            ">
+                Resend Verification Email
+            </button>
+            
+            <button id="close-dialog-btn" style="
+                width: 100%;
+                padding: 14px;
+                background: #f0f0f0;
+                color: #333;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: background 0.2s;
+            ">
+                Close
+            </button>
+        </div>
+    `;
+    
+    document.body.appendChild(dialog);
+    
+    // Handle resend
+    document.getElementById('resend-btn').addEventListener('click', async () => {
+        const btn = document.getElementById('resend-btn');
+        btn.disabled = true;
+        btn.textContent = 'Sending...';
+        
+        const result = await authManager.resendVerificationEmail(email);
+        
+        if (result.success) {
+            btn.textContent = '✓ Sent! Check your email';
+            btn.style.background = '#10b981';
+            showToast('Verification email sent! Please check your inbox.', 'success');
+            setTimeout(() => {
+                document.body.removeChild(dialog);
+            }, 2000);
+        } else {
+            btn.disabled = false;
+            btn.textContent = 'Resend Verification Email';
+            showToast('Failed to send email. Please try again.', 'error');
+        }
+    });
+    
+    // Handle close
+    document.getElementById('close-dialog-btn').addEventListener('click', () => {
+        document.body.removeChild(dialog);
+    });
+    
+    // Close on background click
+    dialog.addEventListener('click', (e) => {
+        if (e.target === dialog) {
+            document.body.removeChild(dialog);
+        }
+    });
 }
 
 // Show Register Screen

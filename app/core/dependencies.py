@@ -7,7 +7,6 @@ from typing import Generator
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from jose import jwt, JWTError
-import sqlite3
 
 from app.core.config import settings
 from app.db.database import get_db_connection
@@ -28,7 +27,7 @@ def get_db() -> Generator:
 
 async def get_current_user(
     credentials: HTTPAuthorizationCredentials = Depends(security),
-    conn: sqlite3.Connection = Depends(get_db)
+    conn = Depends(get_db)
 ) -> dict:
     """
     Validates JWT token and returns current user

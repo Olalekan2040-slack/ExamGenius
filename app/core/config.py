@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
 
     # Database
-    DATABASE_URL: str = "sqlite:///./jamb_questions.db"
+    DATABASE_URL: str = "postgresql://postgres:Policewomen@007@localhost:5432/ExamgeniusDB"
 
     # CORS
     ALLOWED_ORIGINS: list = [
@@ -62,6 +62,9 @@ class Settings(BaseSettings):
 
     # CBT gating
     CBT_PRACTICE_WARNING: bool = True
+
+    # Database Auto-Sync
+    DB_AUTO_SYNC: bool = False  # Set to True in production to auto-import questions
 
     class Config:
         env_file = ".env"

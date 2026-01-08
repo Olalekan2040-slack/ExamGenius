@@ -60,6 +60,8 @@ class CompleteProfileRequest(BaseModel):
             raise ValueError("Must select exactly 4 subjects for JAMB")
         if len(v) != len(set(v)):
             raise ValueError("Subjects must be unique")
+        if "Literature" in v:
+            raise ValueError("Literature is no longer available. Use 'Literature in English' instead.")
         return v
 
 
@@ -73,6 +75,8 @@ class UpdateSubjectsRequest(BaseModel):
             raise ValueError("Must select exactly 4 subjects for JAMB")
         if len(v) != len(set(v)):
             raise ValueError("Subjects must be unique")
+        if "Literature" in v:
+            raise ValueError("Literature is no longer available. Use 'Literature in English' instead.")
         return v
 
 
@@ -158,15 +162,17 @@ async def complete_profile(request: CompleteProfileRequest, user_id: int = Depen
         # Initialize user stats for new subjects
         for subject in request.subjects:
             cursor.execute("""
-                INSERT OR IGNORE INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy)
+                INSERT INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy)
                 VALUES (?, ?, NULL, 0, 0, 0.0)
+                ON CONFLICT(user_id, subject, topic) DO NOTHING
             """, (user_id, subject))
 
         # Initialize streak record
         cursor.execute("""
-            INSERT OR IGNORE INTO user_streaks (user_id, current_streak, longest_streak, 
+            INSERT INTO user_streaks (user_id, current_streak, longest_streak, 
                                                last_activity_date, total_active_days)
             VALUES (?, 0, 0, NULL, 0)
+            ON CONFLICT(user_id) DO NOTHING
         """, (user_id,))
 
         conn.commit()
@@ -293,14 +299,6 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
 
         updates = []
         params = []
-
-        if request.full_name:
-            updates.append("full_name = ?")
-            params.append(request.full_name)
-
-        if request.phone_number:
-            updates.append("phone_number = ?")
-            params.append(request.phone_number)
 
         if request.full_name:
             updates.append("full_name = ?")

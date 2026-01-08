@@ -110,9 +110,11 @@ async def register(request: RegisterRequest):
         cursor.execute("""
             INSERT INTO users (name, email, password_hash, reset_token)
             VALUES (?, ?, ?, ?)
+            RETURNING id
         """, (request.name, request.email, hashed_password, verification_token))
+        result = cursor.fetchone()
+        user_id = result[0] if result else None
         db.commit()
-        user_id = cursor.lastrowid
 
         # Send verification email
         try:
@@ -427,13 +429,9 @@ async def reset_password_link(token: str, new_password: Optional[str] = None):
             "email": user["email"]
         }
 
-    # Token is valid; return confirmation so frontend can show reset form
-    return {
-        "success": True,
-        "message": "Token is valid. Submit new password via POST or provide new_password query param.",
-        "token_valid": True,
-        "email": user["email"]
-    }
+    # Token is valid; redirect to frontend reset password page
+    frontend_url = f"http://localhost:8080/reset-password.html?token={token}&email={user['email']}"
+    return RedirectResponse(url=frontend_url)
 
 
 @router.post("/resend-verification-email")
@@ -560,10 +558,12 @@ async def google_mobile_auth(request: GoogleMobileRequest):
         cursor.execute("""
             INSERT INTO users (name, email, google_id, profile_pic_url, is_verified, email_verified_at)
             VALUES (?, ?, ?, ?, 1, ?)
+            RETURNING id
         """, (name, email, google_id, picture, datetime.utcnow().isoformat()))
-        db.commit()
-        user_id = cursor.lastrowid
+        result = cursor.fetchone()
+        user_id = result[0] if result else None
         user_name = name
+        db.commit()
 
     # Create tokens
     access_token = create_access_token({"sub": user_id})

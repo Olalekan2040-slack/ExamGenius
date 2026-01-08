@@ -1,7 +1,7 @@
 """
 Full CBT (Computerized Based Test) Router
 Handles complete 4-subject JAMB exam sessions with timed practice
-Subject slot 3 uses AI-generated questions
+Uses random past questions from all available years
 """
 
 from fastapi import APIRouter, HTTPException, Depends, Query, status
@@ -13,15 +13,12 @@ import uuid
 from app.db.database import get_connection
 from app.core.security import current_user_id
 from app.core.config import settings
-from app.services.ai.gemini_service import (
-    generate_ai_question,
-    generate_question_explanation,
-    batch_generate_ai_questions
-)
 from app.services.analytics import AnalyticsService
 from app.utils.text_formatter import sanitize_question_data
 
 router = APIRouter(prefix="/cbt", tags=["CBT Exams"])
+
+ENGLISH_VARIANTS = {"English", "English Language", "Use of English"}
 
 
 # Pydantic Models
@@ -29,9 +26,15 @@ class CreateCBTSessionRequest(BaseModel):
     subjects: List[str]
 
 
+class AnswerItem(BaseModel):
+    question_id: str
+    user_answer: Optional[str] = None
+    question_number: Optional[int] = None
+
+
 class SubmitCBTRequest(BaseModel):
-    # [{"question_id": "...", "user_answer": "A"}, ...]
-    answers: List[Dict[str, str]]
+    # Array of answers from the client
+    answers: List[AnswerItem]
 
 
 def generate_session_id():
@@ -39,14 +42,16 @@ def generate_session_id():
     return f"CBT_{datetime.utcnow().strftime('%Y%m%d%H%M%S')}_{uuid.uuid4().hex[:8]}"
 
 
+def normalize_subject_name(subject: str) -> str:
+    """Map English variants to the canonical DB value."""
+    return "English" if subject in ENGLISH_VARIANTS else subject
+
+
 @router.post("/create")
 async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = Depends(current_user_id)):
     """
     Create a new CBT session with 4 subjects (40 questions each = 160 total)
-
-    Subject slots:
-    - Slots 1, 2, 4: Real past JAMB questions from DB
-    - Slot 3: AI-generated questions
+    Uses random past JAMB questions from all available years
     """
     conn = get_connection()
     cursor = conn.cursor()
@@ -59,15 +64,30 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
                 detail="Must provide exactly 4 subjects"
             )
 
-        # Validate subjects exist
-        placeholders = ','.join(['?'] * len(request.subjects))
+        # Normalize subject names (English variants) before validation
+        normalized_subjects = [normalize_subject_name(s) for s in request.subjects]
+
+        # Validate subjects exist, exclude "Literature", and require English
+        if "Literature" in normalized_subjects:
+            raise HTTPException(
+                status_code=400,
+                detail="Literature is no longer available. Use 'Literature in English' instead."
+            )
+
+        if "English" not in normalized_subjects:
+            raise HTTPException(
+                status_code=400,
+                detail="English is mandatory for all CBT exams"
+            )
+
+        placeholders = ','.join(['?'] * len(normalized_subjects))
         cursor.execute(
             f"SELECT DISTINCT subject FROM questions WHERE subject IN ({placeholders})",
-            request.subjects
+            normalized_subjects
         )
         valid_subjects = [row[0] for row in cursor.fetchall()]
 
-        invalid = set(request.subjects) - set(valid_subjects)
+        invalid = set(normalized_subjects) - set(valid_subjects)
         if invalid:
             raise HTTPException(
                 status_code=400,
@@ -94,126 +114,35 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
             VALUES (?, ?, 'in_progress', 160, 180, ?)
         """, (session_id, user_id, expires_at))
 
-        # Build question set: 40 questions per subject
-        session_questions = []
+        # Build question set: 40 questions per subject from past years
         question_number = 1
 
-        for subject_position, subject in enumerate(request.subjects, 1):
-            questions_for_subject = []
+        for subject_position, subject in enumerate(normalized_subjects, 1):
+            # Get random questions from all years
+            cursor.execute("""
+                SELECT id FROM questions
+                WHERE subject = ? AND exam = 'JAMB'
+                ORDER BY RANDOM()
+                LIMIT 40
+            """, (subject,))
 
-            if subject_position == 3:
-                # Slot 3: Try AI questions, fallback to DB on timeout/error
-                print(f"Attempting AI generation for {subject}...")
-
-                # Get sample questions for AI context
+            for row in cursor.fetchall():
                 cursor.execute("""
-                    SELECT id, question, topic, correct_option_key
-                    FROM questions
-                    WHERE subject = ? AND exam = 'JAMB'
-                    LIMIT 10
-                """, (subject,))
+                    INSERT INTO session_questions (
+                        session_id, question_id, subject, subject_position,
+                        question_number, generated_by
+                    )
+                    VALUES (?, ?, ?, ?, ?, 'db')
+                """, (session_id, row[0], subject, subject_position, question_number))
 
-                samples = [
-                    {
-                        "question": row[1],
-                        "topic": row[2],
-                        "correct_option": row[3]
-                    }
-                    for row in cursor.fetchall()
-                ]
-
-                # Generate AI questions (with built-in retry logic)
-                ai_questions = []
-                try:
-                    ai_questions = batch_generate_ai_questions(
-                        subject, "mixed", samples, count=40)
-
-                    if ai_questions and len(ai_questions) >= 20:  # Got enough questions
-                        print(f"Generated {len(ai_questions)} AI questions")
-                        for ai_q in ai_questions:
-                            # Insert into ai_generated_questions table
-                            ai_question_id = f"AI_{session_id}_{subject}_{ai_q['question_number']}"
-
-                            cursor.execute("""
-                                INSERT INTO ai_generated_questions (
-                                    id, subject, topic, question_text,
-                                    option_a, option_b, option_c, option_d,
-                                    correct_option, difficulty, explanation, generated_at
-                                )
-                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                            """, (
-                                ai_question_id, subject, ai_q.get(
-                                    'topic', 'General'),
-                                ai_q['question_text'],
-                                ai_q['option_a'], ai_q['option_b'],
-                                ai_q['option_c'], ai_q['option_d'],
-                                ai_q['correct_option'], ai_q.get(
-                                    'difficulty', 'medium'),
-                                ai_q.get('explanation', ''),
-                                datetime.utcnow().isoformat()
-                            ))
-
-                            # Add to session
-                            cursor.execute("""
-                                INSERT INTO session_questions (
-                                    session_id, question_id, subject, subject_position,
-                                    question_number, generated_by
-                                )
-                                VALUES (?, ?, ?, ?, ?, 'ai')
-                            """, (session_id, ai_question_id, subject, subject_position, question_number))
-
-                            question_number += 1
-                    else:
-                        print(f"AI generated only {len(ai_questions)} questions, using DB fallback")
-                        raise Exception("Insufficient AI questions")
-
-                except Exception as e:
-                    print(f"AI generation failed ({str(e)}), using DB questions")
-                    # Fallback: Use DB questions
-                    cursor.execute("""
-                        SELECT id FROM questions
-                        WHERE subject = ? AND exam = 'JAMB'
-                        ORDER BY RANDOM()
-                        LIMIT 40
-                    """, (subject,))
-
-                    for row in cursor.fetchall():
-                        cursor.execute("""
-                            INSERT INTO session_questions (
-                                session_id, question_id, subject, subject_position,
-                                question_number, generated_by
-                            )
-                            VALUES (?, ?, ?, ?, ?, 'db')
-                        """, (session_id, row[0], subject, subject_position, question_number))
-
-                        question_number += 1
-
-            else:
-                # Slots 1, 2, 4: Real JAMB questions
-                cursor.execute("""
-                    SELECT id FROM questions
-                    WHERE subject = ? AND exam = 'JAMB'
-                    ORDER BY RANDOM()
-                    LIMIT 40
-                """, (subject,))
-
-                for row in cursor.fetchall():
-                    cursor.execute("""
-                        INSERT INTO session_questions (
-                            session_id, question_id, subject, subject_position,
-                            question_number, generated_by
-                        )
-                        VALUES (?, ?, ?, ?, ?, 'db')
-                    """, (session_id, row[0], subject, subject_position, question_number))
-
-                    question_number += 1
+                question_number += 1
 
         conn.commit()
 
         return {
             "success": True,
             "session_id": session_id,
-            "subjects": request.subjects,
+            "subjects": normalized_subjects,
             "total_questions": 160,
             "questions_per_subject": 40,
             "time_limit_minutes": 180,
@@ -263,8 +192,10 @@ async def get_cbt_questions(
             raise HTTPException(
                 status_code=400, detail=f"Session is {session[1]}")
 
-        # Check expiry
-        if datetime.fromisoformat(session[2]) < datetime.utcnow():
+        # Check expiry (Postgres returns datetime, SQLite may return str)
+        expires_val = session[2]
+        expires_dt = datetime.fromisoformat(expires_val) if isinstance(expires_val, str) else expires_val
+        if expires_dt < datetime.utcnow():
             raise HTTPException(status_code=400, detail="Session expired")
 
         # Build query
@@ -291,64 +222,37 @@ async def get_cbt_questions(
             question_id = row[0]
             generated_by = row[4]
 
-            if generated_by == 'ai':
-                # Get AI question
+            # All questions are from database
+            cursor.execute("""
+                SELECT q.id, q.question, q.image_path, q.topic
+                FROM questions q
+                WHERE q.id = ?
+            """, (question_id,))
+
+            q = cursor.fetchone()
+            if q:
                 cursor.execute("""
-                    SELECT id, question_text, option_a, option_b, option_c, option_d,
-                           correct_option, topic, difficulty
-                    FROM ai_generated_questions
-                    WHERE id = ?
+                    SELECT option_key, option_text
+                    FROM options
+                    WHERE question_id = ?
+                    ORDER BY option_key
                 """, (question_id,))
 
-                q = cursor.fetchone()
-                if q:
-                    question_data = {
-                        "question_id": q[0],
-                        "question_number": row[1],
-                        "subject": row[2],
-                        "question": q[1],
-                        "options": {
-                            "A": q[2],
-                            "B": q[3],
-                            "C": q[4],
-                            "D": q[5]
-                        },
-                        "topic": q[7],
-                        "generated_by": "ai",
-                        "marked_for_review": bool(row[5])
-                    }
-                    formatted.append(sanitize_question_data(question_data))
-            else:
-                # Get DB question
-                cursor.execute("""
-                    SELECT q.id, q.question, q.image_path, q.topic
-                    FROM questions q
-                    WHERE q.id = ?
-                """, (question_id,))
+                options = {opt[0]: opt[1] for opt in cursor.fetchall()}
 
-                q = cursor.fetchone()
-                if q:
-                    cursor.execute("""
-                        SELECT option_key, option_text
-                        FROM options
-                        WHERE question_id = ?
-                        ORDER BY option_key
-                    """, (question_id,))
-
-                    options = {opt[0]: opt[1] for opt in cursor.fetchall()}
-
-                    question_data = {
-                        "question_id": q[0],
-                        "question_number": row[1],
-                        "subject": row[2],
-                        "question": q[1],
-                        "image_path": q[3],
-                        "topic": q[3],
-                        "options": options,
-                        "generated_by": "db",
-                        "marked_for_review": bool(row[5])
-                    }
-                    formatted.append(sanitize_question_data(question_data))
+                question_data = {
+                    "question_id": q[0],
+                    "question_number": row[1],
+                    "subject": row[2],
+                    "subject_position": row[3],
+                    "question": q[1],
+                    "image_path": q[2],
+                    "topic": q[3],
+                    "options": options,
+                    "generated_by": "db",
+                    "marked_for_review": bool(row[5])
+                }
+                formatted.append(sanitize_question_data(question_data))
 
         return {
             "session_id": session_id,
@@ -398,9 +302,9 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
         topic_stats = {}
 
         for answer_data in request.answers:
-            question_id = answer_data.get("question_id")
-            user_answer = answer_data.get("user_answer")
-            question_number = answer_data.get("question_number")
+            question_id = answer_data.question_id
+            user_answer = answer_data.user_answer
+            question_number = answer_data.question_number
 
             # Update session question with answer
             cursor.execute("""
@@ -409,78 +313,53 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
                 WHERE session_id = ? AND question_id = ?
             """, (user_answer, session_id, question_id))
 
-            # Get correct answer and metadata
-            if question_id.startswith("AI_"):
-                # AI question
-                cursor.execute("""
-                    SELECT correct_option, question_text, subject, topic, explanation
-                    FROM ai_generated_questions
-                    WHERE id = ?
-                """, (question_id,))
+            # Get correct answer and metadata from DB questions
+            cursor.execute("""
+                SELECT q.correct_option_key, q.question, q.subject, q.topic
+                FROM questions q
+                WHERE q.id = ?
+            """, (question_id,))
 
-                q_row = cursor.fetchone()
-                if q_row:
-                    correct_answer = q_row[0]
-                    question_text = q_row[1]
-                    subject = q_row[2]
-                    topic = q_row[3]
-                    explanation = q_row[4]
-                    generated_by = "ai"
-            else:
-                # DB question
-                cursor.execute("""
-                    SELECT q.correct_option_key, q.question, q.subject, q.topic
-                    FROM questions q
-                    WHERE q.id = ?
-                """, (question_id,))
+            q_row = cursor.fetchone()
+            if not q_row:
+                continue
 
-                q_row = cursor.fetchone()
-                if not q_row:
-                    continue
+            correct_answer = q_row[0]
+            question_text = q_row[1]
+            subject = q_row[2]
+            topic = q_row[3]
 
-                correct_answer = q_row[0]
-                question_text = q_row[1]
-                subject = q_row[2]
-                topic = q_row[3]
-                generated_by = "db"
+            # Get options
+            cursor.execute("""
+                SELECT option_key, option_text
+                FROM options
+                WHERE question_id = ?
+            """, (question_id,))
+            options = {opt[0]: opt[1] for opt in cursor.fetchall()}
 
-                # Get options
-                cursor.execute("""
-                    SELECT option_key, option_text
-                    FROM options
-                    WHERE question_id = ?
-                """, (question_id,))
-                options = {opt[0]: opt[1] for opt in cursor.fetchall()}
-
-                # Generate explanation
-                try:
-                    explanation = generate_question_explanation(
-                        question_text, options, correct_answer, topic
-                    )
-                except:
-                    explanation = f"The correct answer is {correct_answer}."
+            # Use stored explanation or provide simple one
+            explanation = f"The correct answer is {correct_answer}."
 
             is_correct = (user_answer == correct_answer)
 
-            # Log to practice_attempts for analytics (DB questions only to keep FK intact)
-            if not question_id.startswith("AI_"):
-                cursor.execute(
-                    """
-                    INSERT INTO practice_attempts (user_id, practice_type, subject, topic, question_id,
-                                                  user_answer, correct_answer, is_correct, time_spent, created_at)
-                    VALUES (?, 'cbt', ?, ?, ?, ?, ?, ?, NULL, ?)
-                    """,
-                    (
-                        user_id,
-                        subject,
-                        topic,
-                        question_id,
-                        user_answer,
-                        correct_answer,
-                        1 if is_correct else 0,
-                        datetime.utcnow().isoformat(),
-                    ),
-                )
+            # Log to practice_attempts for analytics
+            cursor.execute(
+                """
+                INSERT INTO practice_attempts (user_id, practice_type, subject, topic, question_id,
+                                              user_answer, correct_answer, is_correct, time_spent, created_at)
+                VALUES (?, 'cbt', ?, ?, ?, ?, ?, ?, NULL, ?)
+                """,
+                (
+                    user_id,
+                    subject,
+                    topic,
+                    question_id,
+                    user_answer,
+                    correct_answer,
+                    1 if is_correct else 0,
+                    datetime.utcnow().isoformat(),
+                ),
+            )
 
             if is_correct:
                 correct_count += 1
@@ -514,22 +393,20 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
                 "is_correct": is_correct,
                 "subject": subject,
                 "topic": topic,
-                "generated_by": generated_by,
+                "generated_by": "db",
                 "explanation": explanation
             })
 
-        # Calculate subject scores
-        subject_breakdown = {}
+        # Calculate subject scores (as a list for frontend)
+        subject_breakdown_list = []
         for subject, scores in subject_scores.items():
-            accuracy = (scores["correct"] / scores["total"]
-                        * 100) if scores["total"] > 0 else 0
-            subject_breakdown[subject] = {
+            accuracy = (scores["correct"] / scores["total"] * 100) if scores["total"] > 0 else 0
+            subject_breakdown_list.append({
+                "subject": subject,
                 "correct": scores["correct"],
                 "total": scores["total"],
-                "accuracy": round(accuracy, 2),
-                # Simple scoring
-                "score": int(scores["correct"] / scores["total"] * 100)
-            }
+                "accuracy": round(accuracy, 2)
+            })
 
         # Identify weakest topics (bottom 5)
         topic_accuracies = []
@@ -555,9 +432,9 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
                 INSERT INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
                 ON CONFLICT(user_id, subject, topic) DO UPDATE SET
-                    total_attempts = total_attempts + ?,
-                    correct_attempts = correct_attempts + ?,
-                    accuracy = (CAST(correct_attempts + ? AS REAL) / (total_attempts + ?)) * 100,
+                    total_attempts = user_stats.total_attempts + ?,
+                    correct_attempts = user_stats.correct_attempts + ?,
+                    accuracy = (CAST(user_stats.correct_attempts + ? AS REAL) / (user_stats.total_attempts + ?)) * 100,
                     last_practiced = ?
             """, (
                 user_id, topic_stats[topic]["subject"], topic,
@@ -588,10 +465,10 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
             "success": True,
             "session_id": session_id,
             "total_questions": len(request.answers),
-            "correct_answers": correct_count,
+            "overall_score": correct_count,
             "overall_accuracy": round(overall_accuracy, 2),
             "performance_level": _get_performance_level(round(overall_accuracy, 2)),
-            "subject_breakdown": subject_breakdown,
+            "subject_breakdown": subject_breakdown_list,
             "weakest_topics": weakest_topics,
             "cbt_analysis": cbt_analysis,
             "strengths_weaknesses": overall_sw,
@@ -650,8 +527,8 @@ async def get_cbt_review(session_id: str, user_id: int = Depends(current_user_id
         cursor.execute("""
             SELECT sq.question_id, sq.question_number, sq.user_answer, sq.is_correct,
                    sq.subject, sq.subject_position, sq.generated_by
-            FROM session_questions
-            WHERE session_id = ?
+            FROM session_questions sq
+            WHERE sq.session_id = ?
             ORDER BY sq.question_number
         """, (session_id,))
 
@@ -697,6 +574,7 @@ async def get_cbt_review(session_id: str, user_id: int = Depends(current_user_id
                         "is_correct": bool(row[3]),
                         "subject": row[4],
                         "generated_by": "db",
+                        "question": q_row[0],
                         "correct_answer": q_row[1],
                         "topic": q_row[2]
                     })
@@ -707,7 +585,8 @@ async def get_cbt_review(session_id: str, user_id: int = Depends(current_user_id
             "total_questions": session[2],
             "accuracy": round(accuracy, 2),
             "completed_at": session[3],
-            "reviews": reviews
+            "reviews": reviews,
+            "questions_with_answers": reviews
         }
 
     except HTTPException:

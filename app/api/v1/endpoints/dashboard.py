@@ -32,6 +32,12 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
     conn = get_connection()
     cursor = conn.cursor()
 
+    # Clear any aborted transaction state from prior errors
+    try:
+        conn.rollback()
+    except Exception:
+        pass
+
     try:
         # Get overall stats
         cursor.execute("""
@@ -198,6 +204,15 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
         }
 
     except Exception as e:
+        # Reset any aborted transaction and surface a clean error
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        import traceback
+        error_trace = traceback.format_exc()
+        print(f"Dashboard error: {str(e)}")
+        print(f"Traceback: {error_trace}")
         raise HTTPException(
             status_code=500,
             detail=f"Failed to fetch stats: {str(e)}"
@@ -216,6 +231,12 @@ async def get_accuracy_trend(
     """
     conn = get_connection()
     cursor = conn.cursor()
+
+    # Clear any aborted transaction state from prior errors
+    try:
+        conn.rollback()
+    except Exception:
+        pass
 
     try:
         start_date = (datetime.utcnow() - timedelta(days=days)).date()
@@ -260,6 +281,10 @@ async def get_accuracy_trend(
         }
 
     except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
         raise HTTPException(
             status_code=500,
             detail=f"Failed to fetch trend: {str(e)}"
@@ -273,6 +298,12 @@ async def get_subject_breakdown(user_id: int = Depends(current_user_id)):
     """
     conn = get_connection()
     cursor = conn.cursor()
+
+    # Clear any aborted transaction state from prior errors
+    try:
+        conn.rollback()
+    except Exception:
+        pass
 
     try:
         cursor.execute("""
@@ -314,6 +345,10 @@ async def get_subject_breakdown(user_id: int = Depends(current_user_id)):
         }
 
     except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
         raise HTTPException(
             status_code=500,
             detail=f"Failed to fetch breakdown: {str(e)}"
@@ -330,6 +365,12 @@ async def get_recommendations(user_id: int = Depends(current_user_id)):
     """
     conn = get_connection()
     cursor = conn.cursor()
+
+    # Clear any aborted transaction state from prior errors
+    try:
+        conn.rollback()
+    except Exception:
+        pass
 
     try:
         # Get user's department
@@ -464,6 +505,10 @@ async def get_recommendations(user_id: int = Depends(current_user_id)):
         }
 
     except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
         raise HTTPException(
             status_code=500,
             detail=f"Failed to generate recommendations: {str(e)}"
@@ -478,6 +523,12 @@ async def get_grade_predictor(user_id: int = Depends(current_user_id)):
     """
     conn = get_connection()
     cursor = conn.cursor()
+
+    # Clear any aborted transaction state from prior errors
+    try:
+        conn.rollback()
+    except Exception:
+        pass
 
     try:
         # Get overall accuracy
@@ -534,6 +585,10 @@ async def get_grade_predictor(user_id: int = Depends(current_user_id)):
         }
 
     except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
         raise HTTPException(
             status_code=500,
             detail=f"Failed to calculate prediction: {str(e)}"

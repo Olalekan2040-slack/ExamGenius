@@ -95,57 +95,71 @@ async function showDashboard() {
                 ` : ''}
                 
                 
-                <!-- Recent Activity -->
+                <!-- Recent Activity (Compact Collapsible) -->
                 ${stats.recent_attempts && stats.recent_attempts.length > 0 ? `
                     <div class="card mt-3">
-                        <div class="card-header">
+                        <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
                             <h2><i class="fas fa-history"></i> Recent Activity</h2>
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <select id="activity-filter" onchange="filterRecentActivity(this.value)" style="padding: 6px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                                    <option value="5">Last 5</option>
+                                    <option value="10">Last 10</option>
+                                    <option value="20">Last 20</option>
+                                    <option value="all">Show All</option>
+                                </select>
+                            </div>
                         </div>
-                        <div style="display: flex; flex-direction: column; gap: 12px;">
-                            ${stats.recent_attempts.slice(0, 10).map(attempt => `
-                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px; border-bottom: 1px solid var(--border-color);">
-                                    <div style="display: flex; align-items: center; gap: 12px;">
-                                        <i class="fas ${attempt.is_correct ? 'fa-check-circle' : 'fa-times-circle'}" style="color: ${attempt.is_correct ? 'var(--success)' : 'var(--error)'}; font-size: 20px;"></i>
-                                        <div>
-                                            <strong>${attempt.subject}${attempt.topic ? ' - ' + attempt.topic : ''}</strong>
-                                            <div style="font-size: 12px; color: var(--text-secondary);">${attempt.practice_type}</div>
-                                        </div>
+                        <div id="activity-container" style="max-height: 300px; overflow-y: auto;">
+                            ${stats.recent_attempts.slice(0, 5).map((attempt, idx) => `
+                                <div class="activity-item" data-index="${idx}" style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--border-color);">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <i class="fas ${attempt.is_correct ? 'fa-check-circle' : 'fa-times-circle'}" style="color: ${attempt.is_correct ? 'var(--success)' : 'var(--error)'}; font-size: 16px;"></i>
+                                        <span style="font-size: 13px;"><strong>${attempt.subject}</strong>${attempt.topic ? ' - ' + attempt.topic : ''}</span>
                                     </div>
-                                    <div style="font-size: 12px; color: var(--text-secondary);">
-                                        ${utils.formatDate(attempt.timestamp)}
-                                    </div>
+                                    <span style="font-size: 11px; color: var(--text-secondary);">${utils.formatDate(attempt.timestamp)}</span>
                                 </div>
                             `).join('')}
                         </div>
                     </div>
+                    <script>
+                        window.recentActivityData = ${JSON.stringify(stats.recent_attempts)};
+                    </script>
                 ` : ''}
                 
-                <!-- CBT History -->
+                <!-- CBT History (Collapsible) -->
                 ${stats.cbt_history && stats.cbt_history.length > 0 ? `
                     <div class="card mt-3">
-                        <div class="card-header">
-                            <h2><i class="fas fa-laptop"></i> CBT Exam History</h2>
+                        <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
+                            <h2><i class="fas fa-laptop"></i> CBT Exam History (${stats.cbt_history.length})</h2>
+                            <div style="display: flex; gap: 12px; align-items: center;">
+                                <select id="cbt-history-filter" onchange="filterCBTHistory(this.value)" style="padding: 6px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                                    <option value="3">Last 3</option>
+                                    <option value="5">Last 5</option>
+                                    <option value="10">Last 10</option>
+                                    <option value="all">Show All</option>
+                                </select>
+                            </div>
                         </div>
-                        <div style="display: grid; gap: 16px;">
-                            ${stats.cbt_history.map(cbt => `
-                                <div style="padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); border-left: 4px solid var(--primary-yellow);">
-                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <div id="cbt-history-container" style="max-height: 400px; overflow-y: auto;">
+                            ${stats.cbt_history.slice(0, 3).map((cbt, idx) => `
+                                <div class="cbt-history-item" data-index="${idx}" style="padding: 12px 16px; background: var(--bg-light); border-radius: var(--radius-md); border-left: 4px solid var(--primary-yellow); margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+                                    <div>
                                         <strong>${utils.formatDate(cbt.date)}</strong>
-                                        <span style="font-size: 24px; font-weight: 700; color: var(--primary-yellow-dark);">${cbt.score}/${cbt.total}</span>
+                                        <div style="font-size: 12px; color: var(--text-secondary);">Accuracy: ${cbt.accuracy.toFixed(1)}%</div>
                                     </div>
-                                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                                        <span style="color: var(--text-secondary);">Accuracy: ${cbt.accuracy.toFixed(1)}%</span>
-                                        <button class="btn btn-outline" style="padding: 6px 12px; font-size: 12px;" onclick="router.navigate('cbt', {mode: 'review', sessionId: '${cbt.session_id}'})">
-                                            View Details
+                                    <div style="display: flex; align-items: center; gap: 12px;">
+                                        <span style="font-size: 18px; font-weight: 700; color: var(--primary-yellow-dark);">${cbt.score}/${cbt.total}</span>
+                                        <button class="btn btn-outline" style="padding: 4px 10px; font-size: 11px;" onclick="router.navigate('cbt', {mode: 'review', sessionId: '${cbt.session_id}'})">
+                                            <i class="fas fa-eye"></i> View
                                         </button>
-                                    </div>
-                                    <div class="progress-bar mt-2">
-                                        <div class="progress-fill" style="width: ${cbt.accuracy}%;"></div>
                                     </div>
                                 </div>
                             `).join('')}
                         </div>
                     </div>
+                    <script>
+                        window.cbtHistoryData = ${JSON.stringify(stats.cbt_history)};
+                    </script>
                 ` : ''}
                 
                 <!-- Registered Subjects -->
@@ -177,6 +191,55 @@ async function showDashboard() {
         showToast('Failed to load dashboard: ' + error.message, 'error');
     }
 }
+
+// Filter CBT history based on dropdown
+function filterCBTHistory(count) {
+    const container = document.getElementById('cbt-history-container');
+    if (!container || !window.cbtHistoryData) return;
+    
+    const data = window.cbtHistoryData;
+    const limit = count === 'all' ? data.length : parseInt(count);
+    const items = data.slice(0, limit);
+    
+    container.innerHTML = items.map((cbt, idx) => `
+        <div class="cbt-history-item" data-index="${idx}" style="padding: 12px 16px; background: var(--bg-light); border-radius: var(--radius-md); border-left: 4px solid var(--primary-yellow); margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <strong>${utils.formatDate(cbt.date)}</strong>
+                <div style="font-size: 12px; color: var(--text-secondary);">Accuracy: ${cbt.accuracy.toFixed(1)}%</div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <span style="font-size: 18px; font-weight: 700; color: var(--primary-yellow-dark);">${cbt.score}/${cbt.total}</span>
+                <button class="btn btn-outline" style="padding: 4px 10px; font-size: 11px;" onclick="router.navigate('cbt', {mode: 'review', sessionId: '${cbt.session_id}'})">
+                    <i class="fas fa-eye"></i> View
+                </button>
+            </div>
+        </div>
+    `).join('');
+}
+
+// Filter recent activity based on dropdown
+function filterRecentActivity(count) {
+    const container = document.getElementById('activity-container');
+    if (!container || !window.recentActivityData) return;
+    
+    const data = window.recentActivityData;
+    const limit = count === 'all' ? data.length : parseInt(count);
+    const items = data.slice(0, limit);
+    
+    container.innerHTML = items.map((attempt, idx) => `
+        <div class="activity-item" data-index="${idx}" style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--border-color);">
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <i class="fas ${attempt.is_correct ? 'fa-check-circle' : 'fa-times-circle'}" style="color: ${attempt.is_correct ? 'var(--success)' : 'var(--error)'}; font-size: 16px;"></i>
+                <span style="font-size: 13px;"><strong>${attempt.subject}</strong>${attempt.topic ? ' - ' + attempt.topic : ''}</span>
+            </div>
+            <span style="font-size: 11px; color: var(--text-secondary);">${utils.formatDate(attempt.timestamp)}</span>
+        </div>
+    `).join('');
+}
+
+// Export filter functions
+window.filterCBTHistory = filterCBTHistory;
+window.filterRecentActivity = filterRecentActivity;
 
 function createStatCard(label, value, icon, color) {
     return `

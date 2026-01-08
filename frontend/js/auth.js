@@ -134,6 +134,16 @@ class AuthManager {
         }
     }
 
+    // Resend verification email
+    async resendVerificationEmail(email) {
+        try {
+            const response = await api.resendVerificationEmail(email);
+            return { success: true, data: response };
+        } catch (error) {
+            return { success: false, error: error.message };
+        }
+    }
+
     // Load current user data
     async loadUserData() {
         if (!this.isAuthenticated()) {

@@ -5,7 +5,6 @@ Professional analysis module for calculating performance metrics, strengths, wea
 
 from typing import Dict, List, Tuple, Optional
 from datetime import datetime, timedelta, date
-import sqlite3
 from collections import defaultdict
 from app.db.database import get_connection
 
@@ -213,9 +212,19 @@ class AnalyticsService:
         conn = get_connection()
         cursor = conn.cursor()
 
-        # Ensure streak row exists to prevent null math later
-        AnalyticsService._ensure_streak_row(cursor, user_id)
-        conn.commit()
+        # If a previous statement aborted the transaction, clear it first
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+
+        try:
+            # Ensure streak row exists to prevent null math later
+            AnalyticsService._ensure_streak_row(cursor, user_id)
+            conn.commit()
+        except Exception:
+            conn.rollback()
+            raise
 
         # Overall stats
         cursor.execute("""
@@ -266,7 +275,7 @@ class AnalyticsService:
         # Recent practice
         cursor.execute("""
             SELECT topic, subject, COUNT(*) as attempts, 
-                   ROUND(CAST(SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) AS FLOAT) / COUNT(*) * 100, 2) as accuracy,
+                   ROUND((SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END)::numeric / NULLIF(COUNT(*), 0)::numeric) * 100, 2) as accuracy,
                    MAX(created_at) as last_attempt
             FROM practice_attempts
             WHERE user_id = ?
@@ -376,8 +385,9 @@ class AnalyticsService:
     @staticmethod
     def _ensure_streak_row(cursor, user_id: int) -> None:
         cursor.execute("""
-            INSERT OR IGNORE INTO user_streaks (user_id, current_streak, longest_streak, last_activity_date, total_active_days)
+            INSERT INTO user_streaks (user_id, current_streak, longest_streak, last_activity_date, total_active_days)
             VALUES (?, 0, 0, NULL, 0)
+            ON CONFLICT(user_id) DO NOTHING
         """, (user_id,))
 
     @staticmethod
@@ -423,12 +433,15 @@ class AnalyticsService:
 
         total_q, score, started, completed = session
 
-        # Calculate time taken
+        # Calculate time taken (Postgres may return datetime objects)
         try:
-            start_time = datetime.fromisoformat(started)
-            end_time = datetime.fromisoformat(completed)
-            time_taken_mins = int((end_time - start_time).total_seconds() / 60)
-        except:
+            start_time = datetime.fromisoformat(started) if isinstance(started, str) else started
+            end_time = datetime.fromisoformat(completed) if isinstance(completed, str) else completed
+            if start_time and end_time:
+                time_taken_mins = int((end_time - start_time).total_seconds() / 60)
+            else:
+                time_taken_mins = 0
+        except Exception:
             time_taken_mins = 0
 
         # Subject breakdown

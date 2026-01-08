@@ -12,12 +12,12 @@ router = APIRouter(prefix="/jamb", tags=["JAMB Questions"])
 
 @router.get("/subjects")
 def get_subjects():
-    """Get all available JAMB subjects"""
+    """Get all available JAMB subjects (excludes deprecated 'Literature')"""
     try:
         conn = get_connection()
         cursor = conn.cursor()
         cursor.execute(
-            "SELECT DISTINCT subject FROM questions WHERE exam='JAMB' ORDER BY subject"
+            "SELECT DISTINCT subject FROM questions WHERE exam='JAMB' AND subject != 'Literature' ORDER BY subject"
         )
         subjects = [row[0] for row in cursor.fetchall()]
         return {"subjects": subjects}

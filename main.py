@@ -8,9 +8,17 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.openapi.utils import get_openapi
 import os
+import logging
 
 from app.core.config import settings
 from app.api.v1.api import api_router
+
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 
 def create_application() -> FastAPI:
@@ -81,6 +89,44 @@ def create_application() -> FastAPI:
 app = create_application()
 
 
+@app.on_event("startup")
+async def startup_event():
+    """
+    Run on application startup
+    Automatically syncs database if DB_AUTO_SYNC is enabled
+    """
+    logger.info("Starting ExamGenius API...")
+    logger.info(f"Version: {settings.APP_VERSION}")
+    logger.info(f"Database: {settings.DATABASE_URL.split('@')[1] if '@' in settings.DATABASE_URL else 'localhost'}")
+    
+    # Run database sync if enabled
+    if settings.DB_AUTO_SYNC:
+        logger.info("DB_AUTO_SYNC enabled - starting database synchronization...")
+        try:
+            from app.services.db_sync import DatabaseSyncService
+            result = DatabaseSyncService.sync_database()
+            
+            if result.get('status') == 'success':
+                logger.info(f"✓ Database sync successful!")
+                logger.info(f"  - Initial questions: {result.get('initial_count', 0)}")
+                logger.info(f"  - Final questions: {result.get('final_count', 0)}")
+                if 'import' in result:
+                    logger.info(f"  - Imported: {result['import'].get('inserted', 0)} new")
+                    logger.info(f"  - Updated: {result['import'].get('updated', 0)} existing")
+                if 'tagging' in result:
+                    logger.info(f"  - Tagged: {result['tagging'].get('questions_tagged', 0)} questions")
+            else:
+                logger.warning(f"Database sync completed with status: {result.get('status')}")
+                if 'message' in result:
+                    logger.warning(f"  Message: {result['message']}")
+        except Exception as e:
+            logger.error(f"Database sync failed: {e}")
+            logger.info("Application will continue without sync...")
+    else:
+        logger.info("DB_AUTO_SYNC disabled - skipping database synchronization")
+        logger.info("To enable, set DB_AUTO_SYNC=true in environment variables")
+
+
 @app.get("/", tags=["Root"])
 async def root():
     """API root endpoint - health check"""
@@ -107,6 +153,6 @@ if __name__ == "__main__":
         "main:app",
         host="0.0.0.0",
         port=8000,
-        reload=True,
+        reload=False,
         log_level="info"
     )

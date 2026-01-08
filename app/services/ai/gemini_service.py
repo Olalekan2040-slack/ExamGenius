@@ -8,10 +8,10 @@ import os
 import json
 import random
 import requests
-import sqlite3
 from typing import Dict, List, Optional
 from datetime import datetime
 from app.core.config import settings
+from app.db.database import get_connection
 
 
 def get_syllabus_objectives(subject: str, topic: str) -> Optional[str]:
@@ -19,8 +19,7 @@ def get_syllabus_objectives(subject: str, topic: str) -> Optional[str]:
     Fetch syllabus objectives for a topic from the database.
     """
     try:
-        db_path = settings.DATABASE_URL.replace("sqlite:///", "")
-        conn = sqlite3.connect(db_path)
+        conn = get_connection()
         cursor = conn.cursor()
         
         # Try exact match first
@@ -39,7 +38,10 @@ def get_syllabus_objectives(subject: str, topic: str) -> Optional[str]:
             result = cursor.fetchone()
         
         conn.close()
-        return result[0] if result else None
+        # Handle psycopg2 tuple results
+        if not result:
+            return None
+        return result[0]
     except Exception:
         return None
 

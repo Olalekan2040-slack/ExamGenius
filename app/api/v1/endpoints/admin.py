@@ -4,7 +4,6 @@ Handles question management, learning materials, and content verification
 """
 from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, Query
 from typing import Optional
-import sqlite3
 import json
 import csv
 import io
@@ -23,7 +22,7 @@ router = APIRouter(prefix="/api/v1/admin", tags=["admin"])
 
 # Helper: Check admin role using DB + current user id
 def require_admin(
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     user_id: int = Depends(current_user_id)
 ):
     cur = db.cursor()
@@ -46,21 +45,24 @@ def require_admin(
 @router.post("/subjects", response_model=dict, status_code=201)
 async def create_subject(
     subject: ContentSubjectCreate,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Create a new subject category"""
     query = """
         INSERT INTO content_subjects (name, icon, description, order_priority)
         VALUES (?, ?, ?, ?)
+        RETURNING id
     """
     try:
         cursor = db.execute(query, (
             subject.name, subject.icon, subject.description, subject.order_priority
         ))
+        result = cursor.fetchone()
+        subject_id = result[0] if result else None
         db.commit()
         return {
-            "id": cursor.lastrowid,
+            "id": subject_id,
             "name": subject.name,
             "message": "Subject created successfully"
         }
@@ -69,7 +71,7 @@ async def create_subject(
         raise HTTPException(status_code=400, detail=str(e))
 
 @router.get("/subjects")
-async def list_subjects(db: sqlite3.Connection = Depends(get_db)):
+async def list_subjects(db = Depends(get_db)):
     """List all subjects"""
     query = """
         SELECT id, name, icon, description, order_priority, is_active
@@ -89,21 +91,24 @@ async def list_subjects(db: sqlite3.Connection = Depends(get_db)):
 @router.post("/topics", response_model=dict, status_code=201)
 async def create_topic(
     topic: ContentTopicCreate,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Create a new topic under a subject"""
     query = """
         INSERT INTO content_topics (subject_id, name, description, order_priority)
         VALUES (?, ?, ?, ?)
+        RETURNING id
     """
     try:
         cursor = db.execute(query, (
             topic.subject_id, topic.name, topic.description, topic.order_priority
         ))
+        result = cursor.fetchone()
+        topic_id = result[0] if result else None
         db.commit()
         return {
-            "id": cursor.lastrowid,
+            "id": topic_id,
             "name": topic.name,
             "message": "Topic created successfully"
         }
@@ -118,7 +123,7 @@ async def create_topic(
 @router.post("/questions", response_model=dict, status_code=201)
 async def create_question(
     question: QuestionCreate,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Create a single past question with options"""
@@ -129,6 +134,7 @@ async def create_question(
             (question_text, subject_id, topic_id, subtopic_id, year, 
              exam_type, difficulty, explanation, created_by)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            RETURNING id
         """
         cursor = db.execute(q_query, (
             question.question_text,
@@ -141,7 +147,8 @@ async def create_question(
             question.explanation,
             admin["id"]
         ))
-        question_id = cursor.lastrowid
+        result = cursor.fetchone()
+        question_id = result[0] if result else None
         
         # Insert options
         opt_query = """
@@ -164,7 +171,7 @@ async def create_question(
 @router.get("/questions/{question_id}", response_model=dict)
 async def get_question(
     question_id: int,
-    db: sqlite3.Connection = Depends(get_db)
+    db = Depends(get_db)
 ):
     """Get a specific question with all options"""
     q_query = """
@@ -201,7 +208,7 @@ async def get_question(
 async def update_question(
     question_id: int,
     question: QuestionUpdate,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Update an existing question"""
@@ -241,7 +248,7 @@ async def update_question(
 async def bulk_upload_questions(
     file: UploadFile = File(...),
     subject_id: int = Query(...),
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Bulk upload questions via CSV file"""
@@ -250,9 +257,11 @@ async def bulk_upload_questions(
         upload_query = """
             INSERT INTO bulk_uploads (uploaded_by, content_type, file_name, status)
             VALUES (?, ?, ?, ?)
+            RETURNING id
         """
         cursor = db.execute(upload_query, (admin["id"], 'questions', file.filename, 'processing'))
-        upload_id = cursor.lastrowid
+        result = cursor.fetchone()
+        upload_id = result[0] if result else None
         
         # Parse CSV
         content = await file.read()
@@ -270,6 +279,7 @@ async def bulk_upload_questions(
                     INSERT INTO past_questions 
                     (question_text, subject_id, topic_id, year, difficulty, explanation, created_by)
                     VALUES (?, ?, ?, ?, ?, ?, ?)
+                    RETURNING id
                 """
                 q_cursor = db.execute(q_query, (
                     row.get('question'),
@@ -280,7 +290,8 @@ async def bulk_upload_questions(
                     row.get('explanation', ''),
                     admin["id"]
                 ))
-                question_id = q_cursor.lastrowid
+                result = q_cursor.fetchone()
+                question_id = result[0] if result else None
                 
                 # Insert options (A, B, C, D)
                 for opt_key in ['A', 'B', 'C', 'D']:
@@ -325,7 +336,7 @@ async def bulk_upload_questions(
 @router.post("/videos", response_model=dict, status_code=201)
 async def create_video(
     video: LearningVideoCreate,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Create a learning video"""
@@ -333,6 +344,7 @@ async def create_video(
         INSERT INTO learning_videos 
         (subject_id, topic_id, subtopic_id, title, description, url, platform, duration_seconds, created_by)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+        RETURNING id
     """
     try:
         cursor = db.execute(query, (
@@ -346,9 +358,11 @@ async def create_video(
             video.duration_seconds,
             admin["id"]
         ))
+        result = cursor.fetchone()
+        video_id = result[0] if result else None
         db.commit()
         return {
-            "id": cursor.lastrowid,
+            "id": video_id,
             "title": video.title,
             "message": "Video created successfully"
         }
@@ -359,7 +373,7 @@ async def create_video(
 @router.post("/notes", response_model=dict, status_code=201)
 async def create_note(
     note: LearningNoteCreate,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Create learning notes"""
@@ -367,6 +381,7 @@ async def create_note(
         INSERT INTO learning_notes 
         (subject_id, topic_id, subtopic_id, title, content, format, created_by)
         VALUES (?, ?, ?, ?, ?, ?, ?)
+        RETURNING id
     """
     try:
         cursor = db.execute(query, (
@@ -378,9 +393,11 @@ async def create_note(
             note.format,
             admin["id"]
         ))
+        result = cursor.fetchone()
+        note_id = result[0] if result else None
         db.commit()
         return {
-            "id": cursor.lastrowid,
+            "id": note_id,
             "title": note.title,
             "message": "Note created successfully"
         }
@@ -395,7 +412,7 @@ async def create_note(
 @router.get("/pending-verification")
 async def get_pending_content(
     content_type: str = Query(..., description="questions, videos, notes"),
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Get unverified content pending admin approval"""
@@ -423,7 +440,7 @@ async def get_pending_content(
 async def verify_content(
     content_type: str,
     content_id: int,
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Mark content as verified by admin"""
@@ -459,7 +476,7 @@ async def verify_content(
 
 @router.get("/stats/content")
 async def get_content_stats(
-    db: sqlite3.Connection = Depends(get_db),
+    db = Depends(get_db),
     admin: dict = Depends(require_admin)
 ):
     """Get content statistics for dashboard"""

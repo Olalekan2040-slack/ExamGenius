@@ -434,9 +434,9 @@ async def submit_topic_practice(request: SubmitTopicPracticeRequest, user_id: in
             INSERT INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
             VALUES (?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(user_id, subject, topic) DO UPDATE SET
-                total_attempts = total_attempts + ?,
-                correct_attempts = correct_attempts + ?,
-                accuracy = (CAST(correct_attempts + ? AS REAL) / (total_attempts + ?)) * 100,
+                total_attempts = user_stats.total_attempts + ?,
+                correct_attempts = user_stats.correct_attempts + ?,
+                accuracy = (CAST(user_stats.correct_attempts + ? AS REAL) / (user_stats.total_attempts + ?)) * 100,
                 last_practiced = ?
         """, (
             user_id, request.subject, request.topic, total_count, correct_count, accuracy,
@@ -527,6 +527,12 @@ async def get_learning_analytics(user_id: int = Depends(current_user_id)):
         analytics = AnalyticsService.get_comprehensive_dashboard_stats(user_id)
         return analytics
     except Exception as e:
+        # Clear any aborted transaction state so future calls work
+        try:
+            from app.db.database import get_connection
+            get_connection().rollback()
+        except Exception:
+            pass
         raise HTTPException(
             status_code=500,
             detail=f"Failed to fetch analytics: {str(e)}"

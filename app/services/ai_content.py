@@ -3,7 +3,6 @@ AI Content Query Service
 Enables AI to retrieve relevant learning materials by subject/topic/difficulty
 """
 from typing import List, Dict, Optional
-import sqlite3
 import logging
 
 logger = logging.getLogger(__name__)
@@ -13,7 +12,7 @@ class AIContentService:
     
     @staticmethod
     def get_content_context(
-        db: sqlite3.Connection,
+        db,
         subject_id: Optional[int] = None,
         topic_id: Optional[int] = None,
         subtopic_id: Optional[int] = None,
@@ -53,7 +52,7 @@ class AIContentService:
         # Fetch questions with explanations
         q_query = f"""
             SELECT pq.id, pq.question_text, pq.explanation, pq.difficulty,
-                   GROUP_CONCAT(qo.option_key || ':' || qo.option_text, '|') as options
+                   string_agg(qo.option_key || ':' || qo.option_text, '|' ORDER BY qo.option_key) as options
             FROM past_questions pq
             LEFT JOIN question_options qo ON pq.id = qo.question_id
             WHERE {where_sql}
@@ -134,7 +133,7 @@ class AIContentService:
     
     @staticmethod
     def get_topic_questions(
-        db: sqlite3.Connection,
+        db,
         subject_id: int,
         topic_id: int,
         limit: int = 10,
@@ -156,12 +155,12 @@ class AIContentService:
         
         query = f"""
             SELECT pq.id, pq.question_text, pq.explanation, pq.difficulty, pq.year,
-                   GROUP_CONCAT(qo.option_key || ':' || qo.option_text, '|') as options,
+                   string_agg(qo.option_key || ':' || qo.option_text, '|' ORDER BY qo.option_key) as options,
                    MAX(CASE WHEN qo.is_correct = 1 THEN qo.option_key END) as correct_answer
             FROM past_questions pq
             LEFT JOIN question_options qo ON pq.id = qo.question_id
             WHERE {where_sql}
-            GROUP BY pq.id
+            GROUP BY pq.id, pq.question_text, pq.explanation, pq.difficulty, pq.year
             LIMIT ?
         """
         
@@ -181,7 +180,7 @@ class AIContentService:
     
     @staticmethod
     def get_related_videos(
-        db: sqlite3.Connection,
+        db,
         subject_id: int,
         topic_id: Optional[int] = None,
         limit: int = 5
@@ -220,7 +219,7 @@ class AIContentService:
     
     @staticmethod
     def log_content_interaction(
-        db: sqlite3.Connection,
+        db,
         user_id: int,
         content_type: str,
         content_id: int,

@@ -28,6 +28,7 @@ async function showCBTSelect() {
     try {
         const user = authManager.getUser();
         const subjects = await api.getSubjects();
+        const englishLabels = ['English', 'English Language', 'Use of English'];
 
         const content = `
             <div class="cbt-screen">
@@ -44,7 +45,8 @@ async function showCBTSelect() {
                     <div style="background: var(--primary-yellow-light); padding: 16px; border-radius: var(--radius-md); margin-bottom: 20px;">
                         <strong>⚠️ Important:</strong>
                         <ul style="margin: 8px 0 0 20px; line-height: 1.8;">
-                            <li>Select exactly 4 subjects</li>
+                            <li><strong>English Language is mandatory</strong> (always included)</li>
+                            <li>Select exactly 3 more subjects from the list below</li>
                             <li>You'll have 3 hours to complete 160 questions (40 per subject)</li>
                             <li>Timer starts immediately after you begin</li>
                             <li>You can switch between subjects during the exam</li>
@@ -52,17 +54,20 @@ async function showCBTSelect() {
                     </div>
                     
                     <div id="subject-selection" style="display: grid; gap: 12px; margin-bottom: 20px;">
-                        ${subjects.subjects.map(s => `
-                            <label style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); cursor: pointer; border: 2px solid transparent; transition: var(--transition);"
+                        ${subjects.subjects.map(s => {
+                            const isEnglish = englishLabels.includes(s);
+                            return `
+                            <label style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); cursor: pointer; border: 2px solid transparent; transition: var(--transition);" 
                                    onchange="updateCBTSubjectCount()" class="cbt-subject-option">
-                                <input type="checkbox" name="cbt-subject" value="${s}" style="margin-right: 12px; width: 20px; height: 20px;">
-                                <span style="font-weight: 600;">${s}</span>
+                                <input type="checkbox" name="cbt-subject" value="${s}" ${isEnglish ? 'checked' : ''} style="margin-right: 12px; width: 20px; height: 20px;" ${isEnglish ? 'onclick="preventEnglishUncheck(event)"' : ''}>
+                                <span style="font-weight: 600;">${s}${isEnglish ? ' (Required)' : ''}</span>
                             </label>
-                        `).join('')}
+                        `;
+                        }).join('')}
                     </div>
                     
                     <div id="subject-count" style="margin-bottom: 20px; padding: 12px; background: var(--bg-light); border-radius: var(--radius-sm); text-align: center; font-weight: 600;">
-                        0 of 4 subjects selected
+                        1 of 4 subjects selected (English Language + 3 more)
                     </div>
                     
                     <button class="btn btn-primary btn-lg btn-block" onclick="startCBTExam()" id="start-cbt-btn" disabled>
@@ -98,18 +103,40 @@ function updateCBTSubjectCount() {
     const count = checked.length;
     const countDiv = document.getElementById('subject-count');
     const startBtn = document.getElementById('start-cbt-btn');
+    const otherSubjectsCount = count - 1; // Subtract English which is always selected
 
-    countDiv.textContent = `${count} of 4 subjects selected`;
+    countDiv.textContent = `${count} of 4 subjects selected (English Language + ${otherSubjectsCount} more)`;
     countDiv.style.color = count === 4 ? 'var(--success)' : 'var(--text-primary)';
     startBtn.disabled = count !== 4;
 }
 
+function preventEnglishUncheck(event) {
+    if (!event.target.checked) {
+        event.target.checked = true;
+        showToast('English is mandatory and cannot be deselected', 'warning');
+    }
+}
+
 async function startCBTExam() {
     const checked = Array.from(document.querySelectorAll('input[name="cbt-subject"]:checked'));
-    const selectedSubjects = checked.map(cb => cb.value);
+    const englishLabels = ['English', 'English Language', 'Use of English'];
+    let selectedSubjects = checked.map(cb => cb.value);
 
+    // Normalize English variants to canonical "English" for backend
+    selectedSubjects = selectedSubjects.map(s => englishLabels.includes(s) ? 'English' : s);
+
+    // Ensure English is always included
+    if (!selectedSubjects.includes('English')) {
+        selectedSubjects.push('English');
+        const englishCheckbox = englishLabels
+            .map(label => document.querySelector(`input[name="cbt-subject"][value="${label}"]`))
+            .find(el => el);
+        if (englishCheckbox) englishCheckbox.checked = true;
+    }
+
+    // Check if we have exactly 4 subjects
     if (selectedSubjects.length !== 4) {
-        showToast('Please select exactly 4 subjects', 'warning');
+        showToast('Please select exactly 4 subjects (English Language + 3 more)', 'warning');
         return;
     }
 

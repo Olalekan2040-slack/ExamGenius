@@ -150,6 +150,13 @@ class APIService {
         });
     }
 
+    async resendVerificationEmail(email) {
+        return this.request('/auth/resend-verification-email', {
+            method: 'POST',
+            body: { email }
+        });
+    }
+
     // ===== USER ENDPOINTS =====
 
     async getCurrentUser() {
