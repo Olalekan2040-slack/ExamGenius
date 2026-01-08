@@ -101,7 +101,7 @@ async def get_year_practice_questions(
         # Get random questions
         cursor.execute("""
             SELECT q.id, q.number, q.question, q.topic, q.image_path, q.correct_option_key,
-                   q.year, q.subject
+                   q.year, q.subject, q.passage
             FROM questions q
             WHERE q.subject = ? AND q.year = ? AND q.exam = 'JAMB'
             ORDER BY RANDOM()
@@ -138,6 +138,7 @@ async def get_year_practice_questions(
                 "correct_answer": q[5],
                 "year": q[6],
                 "subject": q[7],
+                "passage": q[8] if q[8] else None,
                 "options": options
             }
             formatted_questions.append(sanitize_question_data(question_data))

@@ -228,7 +228,7 @@ async def get_practice_questions_by_path(
         # Get all questions for this topic
         cursor.execute("""
             SELECT q.id, q.number, q.question, q.topic, q.image_path, q.correct_option_key,
-                   q.year, q.subject
+                   q.year, q.subject, q.passage
             FROM questions q
             WHERE q.subject = ? AND q.topic = ? AND q.exam = 'JAMB'
             ORDER BY RANDOM()
@@ -266,6 +266,7 @@ async def get_practice_questions_by_path(
                 "correct_answer": q[5],
                 "year": q[6],
                 "subject": q[7],
+                "passage": q[8] if q[8] else None,
                 "options": options
             })
 
@@ -303,7 +304,7 @@ async def get_topic_practice_questions(
         # Get all questions for this topic
         cursor.execute("""
             SELECT q.id, q.number, q.question, q.topic, q.image_path, q.correct_option_key,
-                   q.year, q.subject
+                   q.year, q.subject, q.passage
             FROM questions q
             WHERE q.subject = ? AND q.topic = ? AND q.exam = 'JAMB'
             ORDER BY RANDOM()
@@ -341,6 +342,7 @@ async def get_topic_practice_questions(
                 "correct_answer": q[5],
                 "year": q[6],
                 "subject": q[7],
+                "passage": q[8] if q[8] else None,
                 "options": options
             })
 

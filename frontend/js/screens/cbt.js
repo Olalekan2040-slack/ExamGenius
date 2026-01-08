@@ -240,6 +240,14 @@ async function showCBTExam() {
             
             <div class="question-card">
                 <div class="question-number">Question ${question.subject_position}</div>
+                
+                ${question.passage ? `
+                    <div class="passage-box" style="background: var(--bg-light); padding: 16px; border-radius: var(--radius-md); margin-bottom: 16px; border-left: 4px solid var(--info);">
+                        <div style="font-weight: 600; margin-bottom: 8px; color: var(--info);"><i class="fas fa-book-open"></i> Passage/Context:</div>
+                        <div style="line-height: 1.6; color: var(--text-secondary);">${question.passage}</div>
+                    </div>
+                ` : ''}
+                
                 <div class="question-text">${question.question}</div>
                 
                 ${question.image_path ? `

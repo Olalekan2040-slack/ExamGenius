@@ -224,7 +224,7 @@ async def get_cbt_questions(
 
             # All questions are from database
             cursor.execute("""
-                SELECT q.id, q.question, q.image_path, q.topic
+                SELECT q.id, q.question, q.image_path, q.topic, q.passage
                 FROM questions q
                 WHERE q.id = ?
             """, (question_id,))
@@ -248,6 +248,7 @@ async def get_cbt_questions(
                     "question": q[1],
                     "image_path": q[2],
                     "topic": q[3],
+                    "passage": q[4] if q[4] else None,
                     "options": options,
                     "generated_by": "db",
                     "marked_for_review": bool(row[5])
