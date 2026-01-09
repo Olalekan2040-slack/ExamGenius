@@ -6,6 +6,22 @@ class APIService {
         this.apiVersion = API_CONFIG.API_VERSION;
     }
 
+    // Handle session expiry - clear auth and redirect to login
+    handleSessionExpiry() {
+        // Clear all auth data
+        localStorage.removeItem('refresh_token');
+        localStorage.removeItem('user');
+        
+        // Show message and redirect
+        showToast('Your session has expired. Please login again.', 'warning');
+        
+        // Small delay to let toast show, then redirect
+        setTimeout(() => {
+            window.location.href = 'index.html#login';
+            window.location.reload();
+        }, 1500);
+    }
+
     // Helper to build full URL
     getURL(endpoint) {
         return `${this.baseURL}${this.apiVersion}${endpoint}`;
@@ -51,15 +67,22 @@ class APIService {
 
             // Handle 401 - try to refresh token
             if (response.status === 401 && requireAuth) {
-                const refreshed = await authManager.refreshToken();
-                if (refreshed) {
-                    // Retry request with new token
-                    config.headers = this.getHeaders(true, isFormData ? null : 'application/json');
-                    const retryResponse = await fetch(this.getURL(endpoint), config);
-                    return this.handleResponse(retryResponse);
-                } else {
-                    authManager.logout();
-                    router.navigate('login');
+                try {
+                    const refreshed = await authManager.refreshToken();
+                    if (refreshed) {
+                        // Retry request with new token
+                        config.headers = this.getHeaders(true, isFormData ? null : 'application/json');
+                        const retryResponse = await fetch(this.getURL(endpoint), config);
+                        return this.handleResponse(retryResponse);
+                    } else {
+                        // Token refresh failed - redirect to login
+                        this.handleSessionExpiry();
+                        throw new Error('Session expired. Please login again.');
+                    }
+                } catch (refreshError) {
+                    // Any error during refresh - redirect to login
+                    console.error('Token refresh error:', refreshError);
+                    this.handleSessionExpiry();
                     throw new Error('Session expired. Please login again.');
                 }
             }
@@ -67,7 +90,13 @@ class APIService {
             return this.handleResponse(response);
         } catch (error) {
             const isAbort = error?.name === 'AbortError';
+            const isSessionExpiry = error?.message?.includes('Session expired');
             console.error('API Request Error:', error);
+            
+            if (isSessionExpiry) {
+                throw error; // Re-throw session expiry errors
+            }
+            
             throw new Error(isAbort ? 'Request timed out. Please try again.' : error.message || 'Request failed');
         } finally {
             clearTimeout(timer);

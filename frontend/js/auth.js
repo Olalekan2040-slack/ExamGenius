@@ -3,14 +3,14 @@
 class AuthManager {
     constructor() {
         this.accessToken = null;
-        this.refreshToken = localStorage.getItem('refresh_token');
+        this._refreshToken = localStorage.getItem('refresh_token');
         this.user = null;
     }
 
     // Set tokens after login
     setTokens(accessToken, refreshToken) {
         this.accessToken = accessToken;
-        this.refreshToken = refreshToken;
+        this._refreshToken = refreshToken;
         localStorage.setItem('refresh_token', refreshToken);
     }
 
@@ -21,7 +21,7 @@ class AuthManager {
 
     // Get refresh token
     getRefreshToken() {
-        return this.refreshToken;
+        return this._refreshToken;
     }
 
     // Set user data
@@ -43,17 +43,17 @@ class AuthManager {
 
     // Check if user is authenticated
     isAuthenticated() {
-        return !!this.accessToken && !!this.refreshToken;
+        return !!this.accessToken && !!this._refreshToken;
     }
 
-    // Refresh access token
+    // Refresh access token - renamed to avoid conflict with _refreshToken property
     async refreshToken() {
-        if (!this.refreshToken) {
+        if (!this._refreshToken) {
             return false;
         }
 
         try {
-            const response = await api.refreshToken(this.refreshToken);
+            const response = await api.refreshToken(this._refreshToken);
             this.accessToken = response.access_token;
             return true;
         } catch (error) {
@@ -99,14 +99,14 @@ class AuthManager {
     // Logout
     async logout() {
         try {
-            if (this.refreshToken) {
-                await api.logout(this.refreshToken);
+            if (this._refreshToken) {
+                await api.logout(this._refreshToken);
             }
         } catch (error) {
             console.error('Logout error:', error);
         } finally {
             this.accessToken = null;
-            this.refreshToken = null;
+            this._refreshToken = null;
             this.user = null;
             localStorage.removeItem('refresh_token');
             localStorage.removeItem('user');
