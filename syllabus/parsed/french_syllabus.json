@@ -1,0 +1,120 @@
+{
+  "subject": "French",
+  "topics": [
+    {
+      "number": 1,
+      "name": "understand and comprehend written French",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "apply principles of French grammar and syntax",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "appreciate French language and culture",
+      "subtopics": []
+    },
+    {
+      "number": 1,
+      "name": "Ates, Fabrice - Le Nouveau Petit Larousse Illustré",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Backman, Elise - Grammaire Méthodique du Français",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Beaulieu, Paul-Louis - Dictionnaire Usuel Français-Anglais",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "Bosquet, Alain - Anthologie de la Poésie Française",
+      "subtopics": []
+    },
+    {
+      "number": 5,
+      "name": "Chevalier, Claude - Histoire de la Langue Française",
+      "subtopics": []
+    },
+    {
+      "number": 6,
+      "name": "Collard, Claude - Littérature Française Contemporaine",
+      "subtopics": []
+    },
+    {
+      "number": 7,
+      "name": "Corbeau, Carole - Grammaire Française",
+      "subtopics": []
+    },
+    {
+      "number": 8,
+      "name": "Cottaz, Christiane - Dictionnaire de Poche Larousse",
+      "subtopics": []
+    },
+    {
+      "number": 9,
+      "name": "de Salinsne, Claude - Les Mystères du Château de Seddour",
+      "subtopics": []
+    },
+    {
+      "number": 10,
+      "name": "Demougin, Jacques - Dictionnaire des Littératures de Langue Française",
+      "subtopics": []
+    },
+    {
+      "number": 11,
+      "name": "Denuit, Nicolas - Exercices de Grammaire Française",
+      "subtopics": []
+    },
+    {
+      "number": 12,
+      "name": "Desbiolles, Jeanne - Écrits de Voyage",
+      "subtopics": []
+    },
+    {
+      "number": 13,
+      "name": "Desjardins, Michaël - Littérature Française Médiévale",
+      "subtopics": []
+    },
+    {
+      "number": 14,
+      "name": "Doneux, Laurence - Expression Orale en Français",
+      "subtopics": []
+    },
+    {
+      "number": 15,
+      "name": "Emond, Marc - Grammaire Française Comparée",
+      "subtopics": []
+    },
+    {
+      "number": 16,
+      "name": "Forestier, Georges - Anthologie de la Littérature Française",
+      "subtopics": []
+    },
+    {
+      "number": 17,
+      "name": "Fouché, Pierre - Phonétique Historique du Français",
+      "subtopics": []
+    },
+    {
+      "number": 18,
+      "name": "Gaillard, Baudouin - Dictionnaire des Auteurs Français",
+      "subtopics": []
+    },
+    {
+      "number": 19,
+      "name": "Godart, Emmanuel - Approche Contextuelle de la Grammaire Française",
+      "subtopics": []
+    },
+    {
+      "number": 20,
+      "name": "Gouvard, Michel - La Langue Française au Moyen Age",
+      "subtopics": []
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "subject": "Agricultural Science",
+  "topics": [
+    {
+      "number": 1,
+      "name": "understand fundamental principles of agriculture",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "apply agricultural science in food production",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "appreciate role of agriculture in national development",
+      "subtopics": []
+    },
+    {
+      "number": 1,
+      "name": "Ajakaiye, O. & Adeyeye, V. A. - Agricultural Economics and Farm Management",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Akobundu, I. O. - Weed Science in the Tropics",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Babatunde, G. O. - Animal Production Technology",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "Daramola, A. M. - Modern Agriculture in the Tropics",
+      "subtopics": []
+    },
+    {
+      "number": 5,
+      "name": "Fagade, S. O. - Crop Production in the Tropics",
+      "subtopics": []
+    },
+    {
+      "number": 6,
+      "name": "Horne, P. & Young, J. - The Handbook of Agriculture",
+      "subtopics": []
+    },
+    {
+      "number": 7,
+      "name": "Jones, M. J. & Wild, A. - Soils of the West African Savanna",
+      "subtopics": []
+    },
+    {
+      "number": 8,
+      "name": "Kolawole, O. D. - Agricultural Science for Schools",
+      "subtopics": []
+    },
+    {
+      "number": 9,
+      "name": "Lutz, W. & Scherbov, S. - The End of World Population Growth",
+      "subtopics": []
+    },
+    {
+      "number": 10,
+      "name": "Mannetje, L. - Grassland Production",
+      "subtopics": []
+    },
+    {
+      "number": 11,
+      "name": "Moskalev, A. A. - Agronomy and Plant Breeding",
+      "subtopics": []
+    },
+    {
+      "number": 12,
+      "name": "Nangju, D. - Legume Crops Production",
+      "subtopics": []
+    },
+    {
+      "number": 13,
+      "name": "National Agricultural Research Institute - Agricultural Research Reports",
+      "subtopics": []
+    },
+    {
+      "number": 14,
+      "name": "Nwachukwu, H. N. - Agricultural Science Practicals",
+      "subtopics": []
+    },
+    {
+      "number": 15,
+      "name": "Obi, I. U. - Statistical Methods for Agricultural Sciences",
+      "subtopics": []
+    },
+    {
+      "number": 16,
+      "name": "Ofor, M. O. - Agricultural Science Today",
+      "subtopics": []
+    },
+    {
+      "number": 17,
+      "name": "Okigbo, B. N. - Crop-Livestock Interactions",
+      "subtopics": []
+    }
+  ]
+}

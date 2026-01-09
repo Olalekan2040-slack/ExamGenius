@@ -1,0 +1,200 @@
+{
+  "subject": "Economics",
+  "topics": [
+    {
+      "number": 1,
+      "name": "Economics as a science; basic concepts; economic problems.",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Economic systems: capitalism, socialism, mixed economy.",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Methods and tools of economic analysis; data presentation.",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "Theory of Demand; elasticity; demand schedule.",
+      "subtopics": []
+    },
+    {
+      "number": 5,
+      "name": "Consumer behaviour; utility; indifference curves (introductory).",
+      "subtopics": []
+    },
+    {
+      "number": 6,
+      "name": "Theory of Supply; elasticity.",
+      "subtopics": []
+    },
+    {
+      "number": 7,
+      "name": "Price determination; market equilibrium.",
+      "subtopics": []
+    },
+    {
+      "number": 8,
+      "name": "Theory of Production; production functions; scale.",
+      "subtopics": []
+    },
+    {
+      "number": 9,
+      "name": "Costs and Revenue; short/long run.",
+      "subtopics": []
+    },
+    {
+      "number": 10,
+      "name": "Market Structures: perfect competition, monopoly, monopolistic competition, oligopoly.",
+      "subtopics": []
+    },
+    {
+      "number": 11,
+      "name": "National Income; concepts; measurement; problems.",
+      "subtopics": []
+    },
+    {
+      "number": 12,
+      "name": "Money and Inflation; functions; value of money.",
+      "subtopics": []
+    },
+    {
+      "number": 13,
+      "name": "Financial Institutions; banking; central bank; money/capital markets.",
+      "subtopics": []
+    },
+    {
+      "number": 14,
+      "name": "Public Finance; taxation; public expenditure; budgets.",
+      "subtopics": []
+    },
+    {
+      "number": 15,
+      "name": "Economic Growth and Development; planning; indicators.",
+      "subtopics": []
+    },
+    {
+      "number": 16,
+      "name": "Agriculture in Nigeria; problems; prospects.",
+      "subtopics": []
+    },
+    {
+      "number": 17,
+      "name": "Industry and Industrialization; location; policies.",
+      "subtopics": []
+    },
+    {
+      "number": 18,
+      "name": "Natural Resources and the Nigerian Economy.",
+      "subtopics": []
+    },
+    {
+      "number": 19,
+      "name": "Business Organizations; forms; advantages/limitations.",
+      "subtopics": []
+    },
+    {
+      "number": 20,
+      "name": "Population; theories; structure; distribution.",
+      "subtopics": []
+    },
+    {
+      "number": 21,
+      "name": "International Trade; terms of trade; balance of payments; exchange rate.",
+      "subtopics": []
+    },
+    {
+      "number": 22,
+      "name": "International Economic Organizations: IMF, World Bank, WTO, ECOWAS.",
+      "subtopics": []
+    },
+    {
+      "number": 23,
+      "name": "Factors of Production; labour market; capital formation.",
+      "subtopics": []
+    },
+    {
+      "number": 1,
+      "name": "understand basic economic concepts and principles",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "analyze economic systems and problems",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "apply economic knowledge to national development",
+      "subtopics": []
+    },
+    {
+      "number": 1,
+      "name": "Jhingan, M. L. - Economics of Development and Planning",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Lipsey, R. G. - Economics",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Samuelson, P. A. - Economics",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "Todaro, M. P. - Economic Development",
+      "subtopics": []
+    },
+    {
+      "number": 5,
+      "name": "Worland, S. T. - Modern Economic Thought",
+      "subtopics": []
+    },
+    {
+      "number": 6,
+      "name": "Andah, D. O., et al. - Economics for Secondary Schools",
+      "subtopics": []
+    },
+    {
+      "number": 7,
+      "name": "Ijaiya, G. T. - Microeconomics",
+      "subtopics": []
+    },
+    {
+      "number": 8,
+      "name": "Okunmudiagbo, S. - Economics for Nigerian Schools",
+      "subtopics": []
+    },
+    {
+      "number": 9,
+      "name": "Stanlake, G. F. - Economics",
+      "subtopics": []
+    },
+    {
+      "number": 10,
+      "name": "Ujah, C. A. - Economic Principles and Development",
+      "subtopics": []
+    },
+    {
+      "number": 11,
+      "name": "Yates, P. L. - Economics",
+      "subtopics": []
+    },
+    {
+      "number": 12,
+      "name": "Ziebura, G. - Economic Statistics",
+      "subtopics": []
+    },
+    {
+      "number": 13,
+      "name": "Zvosec, S. - International Economics",
+      "subtopics": []
+    }
+  ]
+}

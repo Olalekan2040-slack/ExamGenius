@@ -1,0 +1,418 @@
+{
+  "subject": "Physics",
+  "topics": [
+    {
+      "number": 1,
+      "name": "Measurements and Units",
+      "subtopics": [
+        {
+          "name": "Measurements and Units",
+          "objectives": [
+            "Identify units and measuring instruments.",
+            "Determine lengths, areas, volumes, mass, and time.",
+            "Relate fundamental/derived quantities to units.",
+            "Use dimensional analysis.",
+            "Estimate errors and accuracy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Scalars and Vectors",
+      "subtopics": [
+        {
+          "name": "Scalars and Vectors",
+          "objectives": [
+            "Distinguish between scalars and vectors.",
+            "Resolve and add vectors.",
+            "Apply vector techniques to solve problems."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Motion",
+      "subtopics": [
+        {
+          "name": "Motion",
+          "objectives": [
+            "Distinguish types of motion.",
+            "Apply equations of uniformly accelerated motion.",
+            "Solve problems on projectiles (range, height, time of flight).",
+            "Analyze motion graphs (displacement-time, velocity-time)."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Equilibrium of Forces",
+      "subtopics": [
+        {
+          "name": "Equilibrium of Forces",
+          "objectives": [
+            "Apply Newton's laws.",
+            "Determine resultant forces and equilibrium.",
+            "Calculate moments and conditions for stability.",
+            "Analyze SHM (e.g., pendulum, spring)."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Work, Energy, and Power",
+      "subtopics": [
+        {
+          "name": "Work, Energy, and Power",
+          "objectives": [
+            "Calculate work, energy, and power.",
+            "Apply conservation of energy.",
+            "Solve problems involving efficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Friction",
+      "subtopics": [
+        {
+          "name": "Friction",
+          "objectives": [
+            "Distinguish types of friction.",
+            "Calculate frictional forces.",
+            "Analyze effects on motion."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Simple Machines",
+      "subtopics": [
+        {
+          "name": "Simple Machines",
+          "objectives": [
+            "Identify types and principles.",
+            "Calculate MA, VR, and efficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Elasticity",
+      "subtopics": [
+        {
+          "name": "Elasticity",
+          "objectives": [
+            "Apply Hooke's law.",
+            "Calculate elastic constants."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Pressure",
+      "subtopics": [
+        {
+          "name": "Pressure",
+          "objectives": [
+            "Calculate pressure and upthrust.",
+            "Apply principles to hydraulic systems and flotation."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Liquids at Rest",
+      "subtopics": [
+        {
+          "name": "Liquids at Rest",
+          "objectives": [
+            "Explain effects and applications."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Temperature and Thermometers",
+      "subtopics": [
+        {
+          "name": "Temperature and Thermometers",
+          "objectives": [
+            "Convert temperature scales.",
+            "Use thermometers accurately."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Thermal Expansion",
+      "subtopics": [
+        {
+          "name": "Thermal Expansion",
+          "objectives": [
+            "Calculate linear, area, volume expansion.",
+            "Explain anomalies and real-life effects."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Heat Transfer",
+      "subtopics": [
+        {
+          "name": "Heat Transfer",
+          "objectives": [
+            "Distinguish modes of transfer.",
+            "Solve problems on heat quantity and transfer."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Gas Laws",
+      "subtopics": [
+        {
+          "name": "Gas Laws",
+          "objectives": [
+            "Apply gas laws to calculations."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Quantity of Heat",
+      "subtopics": [
+        {
+          "name": "Quantity of Heat",
+          "objectives": [
+            "Calculate heat changes in phase."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Waves",
+      "subtopics": [
+        {
+          "name": "Waves",
+          "objectives": [
+            "Analyze wave properties and propagation."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Sound Waves",
+      "subtopics": [
+        {
+          "name": "Sound Waves",
+          "objectives": [
+            "Calculate frequency, wavelength in strings/pipes.",
+            "Explain musical notes and acoustics."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Propagation of Sound Waves",
+      "subtopics": [
+        {
+          "name": "Propagation of Sound Waves",
+          "objectives": [
+            "Determine speed and effects of medium."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Light Energy",
+      "subtopics": [
+        {
+          "name": "Light Energy",
+          "objectives": [
+            "Explain formation of shadows/eclipses."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Reflection of Light",
+      "subtopics": [
+        {
+          "name": "Reflection of Light",
+          "objectives": [
+            "Apply laws and calculate image positions."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Refraction of Light",
+      "subtopics": [
+        {
+          "name": "Refraction of Light",
+          "objectives": [
+            "Calculate refractive index and lens power.",
+            "Explain image formation in lenses."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Dispersion of Light and Colours",
+      "subtopics": [
+        {
+          "name": "Dispersion of Light and Colours",
+          "objectives": [
+            "Mix colours and explain dispersion."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "name": "Fields",
+      "subtopics": [
+        {
+          "name": "Fields",
+          "objectives": [
+            "Apply Newton's law of gravitation.",
+            "Describe field patterns."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Electrostatics",
+      "subtopics": [
+        {
+          "name": "Electrostatics",
+          "objectives": [
+            "Calculate capacitance and energy stored."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Current Electricity",
+      "subtopics": [
+        {
+          "name": "Current Electricity",
+          "objectives": [
+            "Apply Ohm's law.",
+            "Calculate power and energy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Electrical Measuring Instruments",
+      "subtopics": [
+        {
+          "name": "Electrical Measuring Instruments",
+          "objectives": [
+            "Describe principles and uses."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "Magnetism",
+      "subtopics": [
+        {
+          "name": "Magnetism",
+          "objectives": [
+            "Explain properties and fields."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Electromagnetic Induction",
+      "subtopics": [
+        {
+          "name": "Electromagnetic Induction",
+          "objectives": [
+            "Calculate induced EMF.",
+            "Explain transformer efficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "name": "Alternating Current (A.C.) Circuits",
+      "subtopics": [
+        {
+          "name": "Alternating Current (A.C.) Circuits",
+          "objectives": [
+            "Distinguish A.C. from D.C.",
+            "Solve simple A.C. problems."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Atomic and Nuclear Physics",
+      "subtopics": [
+        {
+          "name": "Atomic and Nuclear Physics",
+          "objectives": [
+            "Explain atomic models.",
+            "Solve problems on decay and half-life."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "name": "Simple Models of the Atom",
+      "subtopics": [
+        {
+          "name": "Simple Models of the Atom",
+          "objectives": [
+            "Describe quantization of energy."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Modern Physics",
+      "subtopics": [
+        {
+          "name": "Modern Physics",
+          "objectives": [
+            "Explain basic quantum concepts."
+          ]
+        }
+      ]
+    }
+  ]
+}

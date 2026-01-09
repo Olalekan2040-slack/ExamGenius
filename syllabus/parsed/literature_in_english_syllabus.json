@@ -1,0 +1,55 @@
+{
+  "subject": "Literature In English",
+  "topics": [
+    {
+      "number": 1,
+      "name": "understand and appreciate literary works",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "analyze literary forms and techniques",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "interpret and evaluate literature within its context",
+      "subtopics": []
+    },
+    {
+      "number": 1,
+      "name": "Anthologies of African Literature",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Anthologies of Non-African Literature",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Critical texts on literary theory",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "Study guides for prescribed texts",
+      "subtopics": []
+    },
+    {
+      "number": 5,
+      "name": "Grammar and composition guides",
+      "subtopics": []
+    },
+    {
+      "number": 6,
+      "name": "Dictionary of Literary Terms",
+      "subtopics": []
+    },
+    {
+      "number": 7,
+      "name": "Collections of poems and short stories",
+      "subtopics": []
+    }
+  ]
+}

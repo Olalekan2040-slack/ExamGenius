@@ -232,8 +232,9 @@ JAMB copy/
 static/images/
 static/uploads/
 
-# Syllabus markdown files (reference only)
-syllabus/
+# Syllabus markdown files (reference only) - but keep parsed JSON
+syllabus/*.md
+!syllabus/parsed/
 
 # Past questions JSON (imported to database)
 past_questions/

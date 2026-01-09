@@ -1,0 +1,65 @@
+{
+  "subject": "Mathematics",
+  "topics": [
+    {
+      "number": 1,
+      "name": "Acquire computational and manipulative skills",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Develop precise, logical and formal reasoning skills",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Develop deductive skills in interpretation of graphs, diagrams and data",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "Apply mathematical concepts to resolve issues in daily living",
+      "subtopics": []
+    },
+    {
+      "number": 1,
+      "name": "Adelodun A. A (2000) *Distinction in Mathematics: Comprehensive Revision Text* (3rd Edition), Ado-Ekiti: FNPL",
+      "subtopics": []
+    },
+    {
+      "number": 2,
+      "name": "Anyebe, J. A. B (1998) *Basic Mathematics for Senior Secondary Schools and Remedial Students in Higher Institutions*, Lagos: Kenny Moore",
+      "subtopics": []
+    },
+    {
+      "number": 3,
+      "name": "Channon, J. B. Smith, A. M (2001) *New General Mathematics for West Africa SSS 1 to 3*, Lagos: Longman",
+      "subtopics": []
+    },
+    {
+      "number": 4,
+      "name": "David-Osuagwu, M. et al (2000) *New School Mathematics for Senior Secondary Schools*, Onitsha: Africana-FIRST Publishers",
+      "subtopics": []
+    },
+    {
+      "number": 5,
+      "name": "Egbe. E et al (2000) *Further Mathematics*, Onitsha: Africana-FIRST Publishers",
+      "subtopics": []
+    },
+    {
+      "number": 6,
+      "name": "Ibude, S. O. et al (2003) *Algebra and Calculus for Schools and Colleges*: LINCEL Publishers",
+      "subtopics": []
+    },
+    {
+      "number": 7,
+      "name": "Tuttuh-Adegun M. R. et al (1997) *Further Mathematics Project Books 1 to 3*, Ibadan: NPS Educational",
+      "subtopics": []
+    },
+    {
+      "number": 8,
+      "name": "Wisdomline Pass at Once JAMB",
+      "subtopics": []
+    }
+  ]
+}

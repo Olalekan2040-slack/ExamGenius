@@ -1,0 +1,425 @@
+{
+  "subject": "Government",
+  "topics": [
+    {
+      "number": 1,
+      "name": "Basic Concepts in Government",
+      "subtopics": [
+        {
+          "name": "Basic Concepts in Government",
+          "objectives": [
+            "i. identify the fundamental concepts in governance;",
+            "ii. analyse various political processes;"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Forms of Government:",
+      "subtopics": [
+        {
+          "name": "Forms of Government:",
+          "objectives": [
+            "i. distinguish between different forms of government."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Arms of Government:",
+      "subtopics": [
+        {
+          "name": "Arms of Government:",
+          "objectives": [
+            "i. identify the duties and obligations of the various arms of government and their agencies;",
+            "ii. relate each arm to its functions;",
+            "iii. appreciate how these arms interrelates."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Structures of Governance:",
+      "subtopics": [
+        {
+          "name": "Structures of Governance:",
+          "objectives": [
+            "i. compare the various political structures of governance."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Systems of Governance:",
+      "subtopics": [
+        {
+          "name": "Systems of Governance:",
+          "objectives": [
+            "i. distinguish between the different systems of governance."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Political Ideologies:",
+      "subtopics": [
+        {
+          "name": "Political Ideologies:",
+          "objectives": [
+            "i. differentiate between the major political ideologies;",
+            "ii. contrast modes of production"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Constitution:",
+      "subtopics": [
+        {
+          "name": "Constitution:",
+          "objectives": [
+            "i. Define and identify sources and functions of constitutions;",
+            "ii. compare the nature of constitutions."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Principles of Democratic Government:",
+      "subtopics": [
+        {
+          "name": "Principles of Democratic Government:",
+          "objectives": [
+            "i. identify the principles of democratic government;",
+            "ii. determine the application of these principles;"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Processes of Legislation:",
+      "subtopics": [
+        {
+          "name": "Processes of Legislation:",
+          "objectives": [
+            "i. analyse the processes involved in the making of laws."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Citizenship:",
+      "subtopics": [
+        {
+          "name": "Citizenship:",
+          "objectives": [
+            "i. differentiate between the various methods of acquiring citizenship;",
+            "ii. specify the rights and responsibilities of a citizen;",
+            "iii. assess the obligations of the state."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "The Electoral Process:",
+      "subtopics": [
+        {
+          "name": "The Electoral Process:",
+          "objectives": [
+            "i. distinguish the different types of franchise",
+            "ii. identify and explain the types of electoral systems",
+            "iii. analyse the various electoral processes."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Political Parties and Party Systems:",
+      "subtopics": [
+        {
+          "name": "Political Parties and Party Systems:",
+          "objectives": [
+            "i. assess the role of political parties;",
+            "ii. distinguish between types of party systems."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Pressure Groups:",
+      "subtopics": [
+        {
+          "name": "Pressure Groups:",
+          "objectives": [
+            "i. evaluate the functions and the modus operandi of pressure groups;",
+            "ii. distinguish between pressure groups and political parties."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Public Opinion:",
+      "subtopics": [
+        {
+          "name": "Public Opinion:",
+          "objectives": [
+            "i. compare methods of assessing public opinion;",
+            "ii. assess the functions of public opinion;",
+            "iii. analyse the limitations of public opinion."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "The Civil Service:",
+      "subtopics": [
+        {
+          "name": "The Civil Service:",
+          "objectives": [
+            "i. analyse the significance of civil service in governance.",
+            "PART II POLITICAL DEVELOPMENT IN NIGERIA"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Pre - colonial Polities:",
+      "subtopics": [
+        {
+          "name": "Pre - colonial Polities:",
+          "objectives": [
+            "i. appreciate the effectiveness of the pre-colonial political systems;",
+            "ii. compare pre-colonial systems of governance."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Imperialist Penetration:",
+      "subtopics": [
+        {
+          "name": "Imperialist Penetration:",
+          "objectives": [
+            "i. trace the processes of imperialist penetration;",
+            "ii. assess the impact of British and French policies;",
+            "iii. distinguish between British and French colonial practices."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Process of Decolonization:",
+      "subtopics": [
+        {
+          "name": "Process of Decolonization:",
+          "objectives": [
+            "i. evaluate the process of decolonization;",
+            "ii. assess the roles of nationalist leaders and parties;",
+            "iii. assess the impact of external forces and ideas (Pan-Africanism, Back-to-Africa Movements, Second World War etc)."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Constitutional Development in Nigeria:",
+      "subtopics": [
+        {
+          "name": "Constitutional Development in Nigeria:",
+          "objectives": [
+            "i. compare the various constitutional developments."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Post - Independence Constitutions:",
+      "subtopics": [
+        {
+          "name": "Post - Independence Constitutions:",
+          "objectives": [
+            "i. assess the workings of the various constitutions."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Institutions of Government in the Post - Independence Nigeria:",
+      "subtopics": [
+        {
+          "name": "Institutions of Government in the Post - Independence Nigeria:",
+          "objectives": [
+            "i. evaluate the operations of the arms of government and their agencies, e.g the civil service, armed forces, police, courts and others."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Public Commissions Established by the 1979 and Subsequent Constitutions:",
+      "subtopics": [
+        {
+          "name": "Public Commissions Established by the 1979 and Subsequent Constitutions:",
+          "objectives": [
+            "i. evaluate the operations of public commissions;",
+            "ii. assess the problems of the Public Commissions and their constraints."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Political Parties and Party Politics in Post-Independence Nigeria:",
+      "subtopics": [
+        {
+          "name": "Political Parties and Party Politics in Post-Independence Nigeria:",
+          "objectives": [
+            "i. contrast political processes in the republics;",
+            "ii. evaluate the ideologies, structure and composition of the political parties."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "The Structure and Workings of Nigerian Federalism:",
+      "subtopics": [
+        {
+          "name": "The Structure and Workings of Nigerian Federalism:",
+          "objectives": [
+            "i. examine the workings of Nigerian federalism;",
+            "ii. identify its problems;",
+            "iii. evaluate the corrective measure adopted."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Public Corporations and Parastatals:",
+      "subtopics": [
+        {
+          "name": "Public Corporations and Parastatals:",
+          "objectives": [
+            "i. examine the operations of public corporations and parastatals;",
+            "ii. identify the processes involved in privatization and commercialization;",
+            "iii. assess the economic importance of privatization and commercialization."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Local Government:",
+      "subtopics": [
+        {
+          "name": "Local Government:",
+          "objectives": [
+            "i. trace the evolution and structure of local government;",
+            "ii. identify the major problems faced by local governments."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "The Military in Nigerian Politics:",
+      "subtopics": [
+        {
+          "name": "The Military in Nigerian Politics:",
+          "objectives": [
+            "i. evaluate the reasons given for military intervention;",
+            "ii. assess the achievements of military rule;",
+            "iii. determine the conditions that necessitated withdrawal from governance.",
+            "PART III: FOREIGN POLICY AND NIGERIA'S RELATIONS WITH THE INTERNATIONAL COMMUNITY"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "Foreign Policy:",
+      "subtopics": [
+        {
+          "name": "Foreign Policy:",
+          "objectives": [
+            "i. Define foreign policy, identify and explain its determinants"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Nigeria's Foreign Policy:",
+      "subtopics": [
+        {
+          "name": "Nigeria's Foreign Policy:",
+          "objectives": [
+            "i. identify the major objectives of Nigeria's foreign policy.",
+            "ii. analyse Nigeria's non-aligned posture."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Relations with African Countries:",
+      "subtopics": [
+        {
+          "name": "Relations with African Countries:",
+          "objectives": [
+            "i. evaluate the role of Nigeria in continental affairs;",
+            "ii. assess the role of NEPAD in developing Africa."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Nigeria in International Organizations",
+      "subtopics": [
+        {
+          "name": "Nigeria in International Organizations",
+          "objectives": [
+            "i. analyse the dynamics of Nigeria's involvement in international organizations;",
+            "ii. assess their contribution to the development of Nigeria.",
+            "PART IV: INTERNATIONAL ORGANIZATIONS:"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "name": "International Organizations:",
+      "subtopics": [
+        {
+          "name": "International Organizations:",
+          "objectives": [
+            "i. evaluate the operations of these international organizations;",
+            "ii. assess the role of these organizations in world affairs;",
+            "iii. appreciate the challenges of these organizations and how they can be overcome."
+          ]
+        }
+      ]
+    }
+  ]
+}
