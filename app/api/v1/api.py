@@ -15,6 +15,7 @@ from app.api.v1.endpoints import (
     jamb,
     admin,
     performance,
+    guided_learning,
 )
 
 # Create main API router
@@ -32,3 +33,4 @@ api_router.include_router(dashboard.router)
 api_router.include_router(jamb.router)
 api_router.include_router(admin.router)
 api_router.include_router(performance.router)
+api_router.include_router(guided_learning.router)

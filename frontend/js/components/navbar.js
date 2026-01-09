@@ -16,9 +16,14 @@ function createNavbar(user) {
                     <span>Dashboard</span>
                 </div>
                 
+                <div class="nav-item ${router.currentRoute === 'guided-learn' ? 'active' : ''}" onclick="router.navigate('guided-learn')">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Guided Learning</span>
+                </div>
+                
                 <div class="nav-item ${router.currentRoute === 'learn' ? 'active' : ''}" onclick="router.navigate('learn')">
                     <i class="fas fa-book-reader"></i>
-                    <span>Learn Topics</span>
+                    <span>Topic Practice</span>
                 </div>
                 
                 <div class="nav-item ${router.currentRoute === 'year-practice' ? 'active' : ''}" onclick="router.navigate('year-practice')">
