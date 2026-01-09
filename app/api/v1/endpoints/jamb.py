@@ -77,7 +77,7 @@ def get_questions(
         cursor = conn.cursor()
 
         # Build query
-        query = "SELECT id, number, question, topic, image_path, correct_option_key, passage FROM questions WHERE exam='JAMB' AND subject=?"
+        query = "SELECT id, number, question, topic, image_path, correct_option_key FROM questions WHERE exam='JAMB' AND subject=?"
         params = [subject]
 
         if year:
@@ -104,7 +104,6 @@ def get_questions(
                     "topic": q[3],
                     "image_path": q[4],
                     "correct_option_key": q[5],
-                    "passage": q[6] if q[6] else None,
                 }
             )
 
@@ -127,7 +126,7 @@ def get_question_detail(question_id: str):
 
         # Get question details
         cursor.execute(
-            "SELECT id, number, question, topic, subject, year, image_path, correct_option_key, passage FROM questions WHERE id=?",
+            "SELECT id, number, question, topic, subject, year, image_path, correct_option_key FROM questions WHERE id=?",
             (question_id,),
         )
         q = cursor.fetchone()
@@ -155,7 +154,6 @@ def get_question_detail(question_id: str):
             "year": q[5],
             "image_path": q[6],
             "correct_option_key": q[7],
-            "passage": q[8] if q[8] else None,
             "options": options,
         }
     except HTTPException:
