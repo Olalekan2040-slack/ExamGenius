@@ -7,9 +7,17 @@ async function showDashboard() {
         const user = authManager.getUser();
         const stats = await api.getDashboardStats();
         
+        // Fetch learning points
+        let learningPoints = { total_points: 0, level: 1, level_name: 'Beginner' };
+        try {
+            learningPoints = await api.request('/guided-learn/points', { requireAuth: true });
+        } catch (e) {
+            console.log('Could not fetch learning points:', e);
+        }
+        
         // Log for debugging
         console.log('Dashboard stats received:', stats);
-        console.log('Recommended topics:', stats.recommended_topics);
+        console.log('Learning points:', learningPoints);
 
         const content = `
             <div class="dashboard">
@@ -17,18 +25,34 @@ async function showDashboard() {
                 
                 <!-- Stats Cards -->
                 <div class="stats-grid">
-                    ${createStatCard('Total Attempts', stats.overall_stats.total_attempts, 'fa-question-circle', 'var(--info)')}
+                    ${createStatCard('Learning Points', learningPoints.total_points, 'fa-star', 'var(--primary-yellow)')}
                     ${createStatCard('Accuracy', stats.overall_stats.overall_accuracy.toFixed(1) + '%', 'fa-bullseye', 'var(--success)')}
                     ${createStatCard('Correct Answers', stats.overall_stats.correct_attempts, 'fa-check-circle', 'var(--success)')}
                     ${createStatCard('Active Days', stats.overall_stats.total_active_days, 'fa-calendar-check', 'var(--primary-yellow-dark)')}
                 </div>
                 
-                <!-- Streak Card -->
-                <div class="streak-card mt-3">
-                    <div class="streak-icon">🔥</div>
-                    <div class="streak-info">
-                        <h3>${stats.streak.current_streak} Day Streak!</h3>
-                        <p>Longest streak: ${stats.streak.longest_streak} days • Last activity: ${utils.formatDate(stats.streak.last_activity)}</p>
+                <!-- Learning Level & Streak -->
+                <div class="level-streak-row mt-3" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                    <div class="learning-level-card card" style="border-top: 4px solid #8b5cf6;">
+                        <div class="card-header">
+                            <h2><i class="fas fa-trophy" style="color: #ffd700;"></i> Your Level</h2>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0;">
+                            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ffd700, #ff8c00); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: bold; color: white;">
+                                ${learningPoints.level}
+                            </div>
+                            <div>
+                                <h3 style="margin: 0; font-size: 24px; color: var(--text-primary);">${learningPoints.level_name}</h3>
+                                <p style="margin: 4px 0 0; color: var(--text-secondary);">${learningPoints.total_points} total points</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="streak-card" style="margin: 0;">
+                        <div class="streak-icon">🔥</div>
+                        <div class="streak-info">
+                            <h3>${stats.streak.current_streak} Day Streak!</h3>
+                            <p>Longest streak: ${stats.streak.longest_streak} days • Last activity: ${utils.formatDate(stats.streak.last_activity)}</p>
+                        </div>
                     </div>
                 </div>
                 
@@ -38,7 +62,7 @@ async function showDashboard() {
                         <h2>Quick Actions</h2>
                     </div>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
-                        <button class="btn btn-primary" onclick="router.navigate('learn')">
+                        <button class="btn btn-primary" onclick="router.navigate('guided-learn')">
                             <i class="fas fa-book-reader"></i> Learn Topics
                         </button>
                         <button class="btn btn-primary" onclick="router.navigate('year-practice')">
@@ -67,7 +91,7 @@ async function showDashboard() {
                                 <div style="padding: 16px; background: linear-gradient(135deg, var(--primary-yellow-light) 0%, var(--white) 100%); border-radius: var(--radius-md); border-left: 4px solid var(--success); cursor: pointer; transition: var(--transition);" 
                                      onmouseover="this.style.boxShadow='var(--shadow-lg)'; this.style.transform='translateY(-4px)'" 
                                      onmouseout="this.style.boxShadow='var(--shadow-md)'; this.style.transform='translateY(0)'"
-                                     onclick="router.navigate('learn', {subject: '${topic.subject}', topic: '${topic.topic}'})">
+                                     onclick="router.navigate('guided-learn', {subject: '${topic.subject}', topic: '${topic.topic}'})">
                                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
                                         <span style="display: inline-block; width: 28px; height: 28px; background: var(--primary-yellow); color: var(--white); border-radius: 50%; text-align: center; line-height: 28px; font-weight: 700;">${idx + 1}</span>
                                         <span style="font-weight: 600; color: var(--text-secondary);">${topic.subject}</span>
@@ -87,7 +111,7 @@ async function showDashboard() {
                             `).join('')}
                         </div>
                         <div style="padding-top: 16px; border-top: 1px solid var(--border-color); margin-top: 16px;">
-                            <button class="btn btn-primary" onclick="router.navigate('learn')" style="width: 100%; justify-content: center;">
+                            <button class="btn btn-primary" onclick="router.navigate('guided-learn')" style="width: 100%; justify-content: center;">
                                 <i class="fas fa-book-reader"></i> Start Learning
                             </button>
                         </div>

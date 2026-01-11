@@ -78,7 +78,7 @@ jamb_questions.db
 .env.production
 .env.development
 .env.test
-.env.example
+# Note: .env.example is NOT ignored - it should be committed
 secrets/
 *.pem
 *.key

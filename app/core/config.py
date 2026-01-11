@@ -26,11 +26,15 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = "postgresql://postgres:Policewomen@007@localhost:5432/ExamgeniusDB"
 
-    # CORS
+    # CORS - includes both development and production origins
     ALLOWED_ORIGINS: list = [
         "http://localhost:3000",
         "http://localhost:5173",
         "http://localhost:8080",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "https://examgenius.mooo.com",
+        "http://examgenius.mooo.com",
     ]
 
     # AI API Keys

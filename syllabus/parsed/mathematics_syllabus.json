@@ -3,63 +3,394 @@
   "topics": [
     {
       "number": 1,
-      "name": "Acquire computational and manipulative skills",
-      "subtopics": []
+      "name": "Number Bases",
+      "subtopics": [
+        {
+          "name": "Operations in Different Bases",
+          "objectives": [
+            "Perform four basic operations (×, +, −, ÷) in different number bases",
+            "Convert from one base to another including fractional parts"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
-      "name": "Develop precise, logical and formal reasoning skills",
-      "subtopics": []
+      "name": "Fractions, Decimals, Approximations and Percentages",
+      "subtopics": [
+        {
+          "name": "Fractions and Decimals",
+          "objectives": [
+            "Perform basic operations (×, +, −, ÷) on fractions and decimals",
+            "Express to specified number of significant figures and decimal places",
+            "Calculate simple interest, profit and loss percent; ratio proportion and rate",
+            "Solve problems involving share and VAT"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
-      "name": "Develop deductive skills in interpretation of graphs, diagrams and data",
-      "subtopics": []
+      "name": "Indices, Logarithms and Surds",
+      "subtopics": [
+        {
+          "name": "Laws of Indices",
+          "objectives": [
+            "Apply the laws of indices in calculation",
+            "Express numbers in standard form"
+          ]
+        },
+        {
+          "name": "Logarithms",
+          "objectives": [
+            "Establish the relationship between indices and logarithms",
+            "Apply laws of logarithms to simplify expressions",
+            "Solve problems using change of base formula"
+          ]
+        },
+        {
+          "name": "Surds",
+          "objectives": [
+            "Simplify and rationalize surds",
+            "Perform basic operations on surds"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
-      "name": "Apply mathematical concepts to resolve issues in daily living",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "Adelodun A. A (2000) *Distinction in Mathematics: Comprehensive Revision Text* (3rd Edition), Ado-Ekiti: FNPL",
-      "subtopics": []
-    },
-    {
-      "number": 2,
-      "name": "Anyebe, J. A. B (1998) *Basic Mathematics for Senior Secondary Schools and Remedial Students in Higher Institutions*, Lagos: Kenny Moore",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Channon, J. B. Smith, A. M (2001) *New General Mathematics for West Africa SSS 1 to 3*, Lagos: Longman",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "David-Osuagwu, M. et al (2000) *New School Mathematics for Senior Secondary Schools*, Onitsha: Africana-FIRST Publishers",
-      "subtopics": []
+      "name": "Sets",
+      "subtopics": [
+        {
+          "name": "Types of Sets",
+          "objectives": [
+            "Identify types of sets: empty, universal, complements, subsets, finite, infinite and disjoint sets",
+            "Use correct set notation and symbols"
+          ]
+        },
+        {
+          "name": "Algebra of Sets",
+          "objectives": [
+            "Solve problems involving cardinality of sets",
+            "Perform set operations: union, intersection, difference, complement"
+          ]
+        },
+        {
+          "name": "Venn Diagrams",
+          "objectives": [
+            "Use Venn diagrams to solve problems involving 2 sets",
+            "Use Venn diagrams to solve problems involving 3 sets"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
-      "name": "Egbe. E et al (2000) *Further Mathematics*, Onitsha: Africana-FIRST Publishers",
-      "subtopics": []
+      "name": "Polynomials",
+      "subtopics": [
+        {
+          "name": "Operations on Polynomials",
+          "objectives": [
+            "Find the subject of the formula of a given equation",
+            "Multiply and divide polynomials of degree not more than 3",
+            "Apply factor and remainder theorem to factorize a given expression"
+          ]
+        },
+        {
+          "name": "Factorization",
+          "objectives": [
+            "Factorize by regrouping, difference of two squares, perfect squares and cubic expressions",
+            "Find roots of polynomials not exceeding degree 3"
+          ]
+        },
+        {
+          "name": "Simultaneous Equations",
+          "objectives": [
+            "Solve simultaneous equations - one linear, one quadratic",
+            "Interpret graphs of polynomials including applications to maximum and minimum values"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
-      "name": "Ibude, S. O. et al (2003) *Algebra and Calculus for Schools and Colleges*: LINCEL Publishers",
-      "subtopics": []
+      "name": "Variation",
+      "subtopics": [
+        {
+          "name": "Types of Variation",
+          "objectives": [
+            "Solve problems involving direct variation",
+            "Solve problems involving inverse variation",
+            "Solve problems involving joint and partial variation",
+            "Solve problems on percentage increase and decrease in variation"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
-      "name": "Tuttuh-Adegun M. R. et al (1997) *Further Mathematics Project Books 1 to 3*, Ibadan: NPS Educational",
-      "subtopics": []
+      "name": "Inequalities",
+      "subtopics": [
+        {
+          "name": "Linear and Quadratic Inequalities",
+          "objectives": [
+            "Solve problems on linear inequalities analytically and graphically",
+            "Solve problems on quadratic inequalities with integral roots",
+            "Interpret graphs of inequalities"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
-      "name": "Wisdomline Pass at Once JAMB",
-      "subtopics": []
+      "name": "Progression",
+      "subtopics": [
+        {
+          "name": "Arithmetic Progression",
+          "objectives": [
+            "Determine the nth term of an arithmetic progression",
+            "Compute the sum of an arithmetic progression"
+          ]
+        },
+        {
+          "name": "Geometric Progression",
+          "objectives": [
+            "Determine the nth term of a geometric progression",
+            "Compute the sum of a geometric progression",
+            "Find the sum to infinity of a convergent geometric series"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Binary Operations",
+      "subtopics": [
+        {
+          "name": "Properties and Elements",
+          "objectives": [
+            "Solve problems involving closure, commutativity, associativity and distributivity",
+            "Solve problems involving identity and inverse elements"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Matrices and Determinants",
+      "subtopics": [
+        {
+          "name": "Matrix Operations",
+          "objectives": [
+            "Perform basic operations (×, +, −) on matrices not exceeding 3 × 3",
+            "Calculate determinants of matrices not exceeding 3 × 3"
+          ]
+        },
+        {
+          "name": "Inverse Matrices",
+          "objectives": [
+            "Compute inverses of 2 × 2 matrices",
+            "Solve simultaneous equations using matrices"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Euclidean Geometry",
+      "subtopics": [
+        {
+          "name": "Angles and Lines",
+          "objectives": [
+            "Identify various types of lines and angles",
+            "Solve problems involving properties of angles and lines"
+          ]
+        },
+        {
+          "name": "Polygons",
+          "objectives": [
+            "Solve problems involving triangles and quadrilaterals",
+            "Solve problems involving general polygons"
+          ]
+        },
+        {
+          "name": "Circle Theorems",
+          "objectives": [
+            "Calculate angles using circle theorems",
+            "Solve problems involving cyclic quadrilaterals and intersecting chords"
+          ]
+        },
+        {
+          "name": "Construction",
+          "objectives": [
+            "Identify construction procedures of special angles (30°, 45°, 60°, 75°, 90°)"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Mensuration",
+      "subtopics": [
+        {
+          "name": "Plane Figures",
+          "objectives": [
+            "Calculate the perimeters and areas of triangles and quadrilaterals",
+            "Calculate areas of circles and composite figures"
+          ]
+        },
+        {
+          "name": "Circles",
+          "objectives": [
+            "Find the length of an arc and a chord",
+            "Calculate perimeters and areas of sectors and segments of circles"
+          ]
+        },
+        {
+          "name": "Solid Figures",
+          "objectives": [
+            "Calculate total surface areas and volumes of cuboids, cylinders, cones, pyramids, prisms, spheres",
+            "Calculate surface areas and volumes of composite figures"
+          ]
+        },
+        {
+          "name": "Earth as a Sphere",
+          "objectives": [
+            "Determine the distance between two points on the earth's surface using longitude and latitude"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Loci",
+      "subtopics": [
+        {
+          "name": "Locus in 2 Dimensions",
+          "objectives": [
+            "Identify and interpret loci relating to parallel lines",
+            "Identify and interpret loci relating to perpendicular bisectors and angle bisectors",
+            "Identify and interpret loci relating to circles"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Coordinate Geometry",
+      "subtopics": [
+        {
+          "name": "Line Segments",
+          "objectives": [
+            "Determine the midpoint and gradient of a line segment",
+            "Find the distance between two points"
+          ]
+        },
+        {
+          "name": "Straight Lines",
+          "objectives": [
+            "Identify conditions for parallelism and perpendicularity",
+            "Find the equation of a line in various forms (two-point, point-slope, slope-intercept, general)"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Trigonometry",
+      "subtopics": [
+        {
+          "name": "Trigonometrical Ratios",
+          "objectives": [
+            "Calculate the sine, cosine and tangent of angles between -360° and 360°",
+            "Apply special angles (30°, 45°, 60°, etc.) to solve problems"
+          ]
+        },
+        {
+          "name": "Applications",
+          "objectives": [
+            "Solve problems involving angles of elevation and depression",
+            "Solve problems involving bearings"
+          ]
+        },
+        {
+          "name": "Triangles and Graphs",
+          "objectives": [
+            "Apply trigonometric formulae to find areas of triangles",
+            "Apply sine and cosine rules to solve triangles",
+            "Solve problems involving sine and cosine graphs"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Calculus",
+      "subtopics": [
+        {
+          "name": "Differentiation",
+          "objectives": [
+            "Find the limit of a function",
+            "Differentiate explicit algebraic functions",
+            "Differentiate simple trigonometrical functions (sine, cosine, tangent)"
+          ]
+        },
+        {
+          "name": "Application of Differentiation",
+          "objectives": [
+            "Solve problems involving rate of change",
+            "Solve problems involving maxima and minima"
+          ]
+        },
+        {
+          "name": "Integration",
+          "objectives": [
+            "Integrate explicit algebraic and simple trigonometric functions",
+            "Calculate area under the curve"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Statistics",
+      "subtopics": [
+        {
+          "name": "Representation of Data",
+          "objectives": [
+            "Identify and interpret frequency distribution tables",
+            "Interpret information on histogram, bar chart and pie chart"
+          ]
+        },
+        {
+          "name": "Measures of Location",
+          "objectives": [
+            "Calculate the mean, mode and median of ungrouped and grouped data",
+            "Use ogive to find the median, quartiles and percentiles"
+          ]
+        },
+        {
+          "name": "Measures of Dispersion",
+          "objectives": [
+            "Calculate the range and mean deviation",
+            "Calculate variance and standard deviation of ungrouped and grouped data"
+          ]
+        },
+        {
+          "name": "Permutation and Combination",
+          "objectives": [
+            "Solve simple problems involving linear and circular arrangements",
+            "Solve problems involving arrangements with repeated objects"
+          ]
+        },
+        {
+          "name": "Probability",
+          "objectives": [
+            "Solve simple problems in experimental probability",
+            "Solve problems involving addition and multiplication of probabilities"
+          ]
+        }
+      ]
     }
   ]
 }

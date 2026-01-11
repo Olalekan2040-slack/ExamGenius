@@ -21,7 +21,7 @@ class Router {
         }
 
         // Check authentication for protected routes
-        const protectedRoutes = ['dashboard', 'learn', 'year-practice', 'cbt', 'profile', 'guided-learn'];
+        const protectedRoutes = ['dashboard', 'year-practice', 'cbt', 'profile', 'guided-learn'];
         const authRoutes = ['login', 'register', 'verify-email', 'reset-password'];
 
         if (protectedRoutes.includes(name) && !authManager.isAuthenticated()) {
@@ -121,10 +121,6 @@ router.register('dashboard', async () => {
 
 router.register('guided-learn', async (params) => {
     await showGuidedLearnScreen(params);
-});
-
-router.register('learn', async (params) => {
-    await showLearnScreen(params);
 });
 
 router.register('year-practice', async (params) => {

@@ -79,7 +79,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
         department = profile_rows[0][0] if profile_rows else None
         registered_subjects = [row[1] for row in profile_rows if row[1]]
 
-        # Get weakest topics (bottom 5)
+        # Get weakest topics from practice attempts (bottom 5)
         cursor.execute("""
             SELECT subject, topic, accuracy, total_attempts
             FROM user_stats
@@ -93,18 +93,49 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 "subject": row[0],
                 "topic": row[1],
                 "accuracy": round(row[2], 2),
-                "attempts": row[3]
+                "attempts": row[3],
+                "source": "practice"
+            }
+            for row in cursor.fetchall()
+        ]
+        
+        # Get incomplete learning progress topics (started but not completed)
+        cursor.execute("""
+            SELECT subject, topic_name, 
+                   CAST(SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS FLOAT) / 
+                   NULLIF(CAST(COUNT(*) AS FLOAT), 0) * 100 as completion_rate,
+                   COUNT(*) as total_objectives
+            FROM learning_progress
+            WHERE user_id = ?
+            GROUP BY subject, topic_name
+            HAVING CAST(SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS FLOAT) / 
+                   NULLIF(CAST(COUNT(*) AS FLOAT), 0) * 100 < 100
+            ORDER BY CAST(SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS FLOAT) / 
+                   NULLIF(CAST(COUNT(*) AS FLOAT), 0) * 100 ASC
+            LIMIT 5
+        """, (user_id,))
+        
+        incomplete_learning = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "accuracy": round(row[2], 2) if row[2] else 0,
+                "attempts": row[3],
+                "source": "learning"
             }
             for row in cursor.fetchall()
         ]
 
         # Get recommended topics with fallback logic
-        # Try 1: Weakest topics from registered subjects
-        recommended_topics = [t for t in weakest_topics if t["subject"] in registered_subjects][:3]
+        # Combine weakest practice topics and incomplete learning topics
+        all_topics_for_recommendation = incomplete_learning + weakest_topics
+        
+        # Try 1: Topics from registered subjects (prioritize incomplete learning)
+        recommended_topics = [t for t in all_topics_for_recommendation if t["subject"] in registered_subjects][:3]
 
-        # Try 2: If no registered subjects or no practice in registered subjects, use ANY weakest topics
-        if not recommended_topics and weakest_topics:
-            recommended_topics = weakest_topics[:3]
+        # Try 2: If no registered subjects or no practice in registered subjects, use ANY topics
+        if not recommended_topics and all_topics_for_recommendation:
+            recommended_topics = all_topics_for_recommendation[:3]
 
         # Try 3: If no practice history at all, suggest starting topics
         if not recommended_topics:

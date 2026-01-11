@@ -641,3 +641,314 @@ async def get_subject_weaknesses(
         "weakness_count": len(weaknesses),
         "weaknesses": weaknesses
     }
+
+
+# ============================================================
+# TOPIC PRACTICE QUIZ ENDPOINT
+# ============================================================
+
+@router.get("/questions/by-topic")
+async def get_questions_by_topic(
+    subject: str,
+    topic: str,
+    limit: int = Query(10, ge=1, le=50),
+    user_id: int = Depends(current_user_id)
+):
+    """
+    Get randomized JAMB questions for a specific topic with all options.
+    Used for practice quizzes after completing guided learning.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        # Try to match topic name flexibly
+        # First try exact match
+        cursor.execute("""
+            SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+            FROM questions 
+            WHERE exam='JAMB' AND subject=? AND topic=?
+            ORDER BY RANDOM()
+            LIMIT ?
+        """, (subject, topic, limit))
+        
+        questions = cursor.fetchall()
+        
+        # If no exact match, try partial match
+        if not questions:
+            cursor.execute("""
+                SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+                FROM questions 
+                WHERE exam='JAMB' AND subject=? AND topic LIKE ?
+                ORDER BY RANDOM()
+                LIMIT ?
+            """, (subject, f"%{topic}%", limit))
+            questions = cursor.fetchall()
+        
+        # If still no match, try matching key words from topic
+        if not questions:
+            # Extract key words (first 2-3 meaningful words)
+            words = [w for w in topic.split() if len(w) > 3][:3]
+            if words:
+                like_pattern = f"%{words[0]}%"
+                cursor.execute("""
+                    SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+                    FROM questions 
+                    WHERE exam='JAMB' AND subject=? AND topic LIKE ?
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                """, (subject, like_pattern, limit))
+                questions = cursor.fetchall()
+        
+        result = []
+        for q in questions:
+            question_id = q[0]
+            
+            # Get options for this question
+            cursor.execute("""
+                SELECT option_key, option_text
+                FROM options 
+                WHERE question_id=?
+                ORDER BY option_key
+            """, (question_id,))
+            options_rows = cursor.fetchall()
+            
+            options = {}
+            for opt in options_rows:
+                options[opt[0]] = opt[1]
+            
+            result.append({
+                "id": question_id,
+                "question_text": q[1],
+                "topic": q[2],
+                "subject": q[3],
+                "year": q[4],
+                "image_path": q[5],
+                "correct_option_key": q[6],
+                "explanation": q[7] if len(q) > 7 else None,
+                "options": options
+            })
+        
+        return {
+            "subject": subject,
+            "topic": topic,
+            "count": len(result),
+            "questions": result
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        conn.close()
+
+
+# ============================================================
+# GAMIFICATION POINTS ENDPOINTS
+# ============================================================
+
+class AwardPointsRequest(BaseModel):
+    subject: str
+    topic: str
+    subtopic: Optional[str] = None
+    event_type: str  # 'objective_complete', 'subtopic_complete', 'topic_complete', 'correct_answer'
+    points: int
+    description: Optional[str] = None
+
+
+@router.post("/award-points")
+async def award_learning_points(
+    request: AwardPointsRequest,
+    user_id: int = Depends(current_user_id)
+):
+    """Award points for learning achievements"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        # Insert gamification event
+        cursor.execute("""
+            INSERT INTO gamification_events 
+            (user_id, event_type, points, subject, topic, subtopic, description)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (
+            user_id, request.event_type, request.points,
+            request.subject, request.topic, request.subtopic,
+            request.description
+        ))
+        
+        # Update total points in user_profiles
+        cursor.execute("""
+            UPDATE user_profiles 
+            SET learning_points = COALESCE(learning_points, 0) + ?
+            WHERE user_id = ?
+        """, (request.points, user_id))
+        
+        # Get updated total points
+        cursor.execute("""
+            SELECT learning_points FROM user_profiles WHERE user_id = ?
+        """, (user_id,))
+        result = cursor.fetchone()
+        total_points = result[0] if result else request.points
+        
+        conn.commit()
+        
+        return {
+            "success": True,
+            "points_awarded": request.points,
+            "total_points": total_points,
+            "event_type": request.event_type
+        }
+        
+    except Exception as e:
+        conn.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        conn.close()
+
+
+@router.get("/points")
+async def get_user_points(
+    user_id: int = Depends(current_user_id)
+):
+    """Get user's total learning points and recent achievements"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        # Get total points
+        cursor.execute("""
+            SELECT COALESCE(learning_points, 0) FROM user_profiles WHERE user_id = ?
+        """, (user_id,))
+        result = cursor.fetchone()
+        total_points = result[0] if result else 0
+        
+        # Get points breakdown by event type
+        cursor.execute("""
+            SELECT event_type, SUM(points) as total, COUNT(*) as count
+            FROM gamification_events
+            WHERE user_id = ?
+            GROUP BY event_type
+        """, (user_id,))
+        breakdown = cursor.fetchall()
+        
+        points_breakdown = {}
+        for row in breakdown:
+            points_breakdown[row[0]] = {
+                "points": row[1],
+                "count": row[2]
+            }
+        
+        # Get recent achievements (last 10)
+        cursor.execute("""
+            SELECT event_type, points, subject, topic, description, created_at
+            FROM gamification_events
+            WHERE user_id = ?
+            ORDER BY created_at DESC
+            LIMIT 10
+        """, (user_id,))
+        recent = cursor.fetchall()
+        
+        recent_achievements = []
+        for row in recent:
+            recent_achievements.append({
+                "event_type": row[0],
+                "points": row[1],
+                "subject": row[2],
+                "topic": row[3],
+                "description": row[4],
+                "timestamp": row[5].isoformat() if row[5] else None
+            })
+        
+        # Calculate level based on points
+        level = 1
+        if total_points >= 5000:
+            level = 10
+        elif total_points >= 3000:
+            level = 8
+        elif total_points >= 2000:
+            level = 6
+        elif total_points >= 1000:
+            level = 5
+        elif total_points >= 500:
+            level = 4
+        elif total_points >= 250:
+            level = 3
+        elif total_points >= 100:
+            level = 2
+        
+        level_names = {
+            1: "Beginner",
+            2: "Learner",
+            3: "Student",
+            4: "Scholar",
+            5: "Expert",
+            6: "Master",
+            8: "Genius",
+            10: "Legend"
+        }
+        
+        return {
+            "total_points": total_points,
+            "level": level,
+            "level_name": level_names.get(level, "Beginner"),
+            "breakdown": points_breakdown,
+            "recent_achievements": recent_achievements
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        conn.close()
+
+
+@router.get("/leaderboard")
+async def get_leaderboard(
+    limit: int = Query(default=10, le=50),
+    user_id: int = Depends(current_user_id)
+):
+    """Get top learners by points"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        # Get top users by points
+        cursor.execute("""
+            SELECT u.id, u.name, COALESCE(p.learning_points, 0) as points
+            FROM users u
+            LEFT JOIN profiles p ON u.id = p.user_id
+            ORDER BY COALESCE(p.learning_points, 0) DESC
+            LIMIT ?
+        """, (limit,))
+        
+        leaders = cursor.fetchall()
+        
+        leaderboard = []
+        for idx, row in enumerate(leaders):
+            leaderboard.append({
+                "rank": idx + 1,
+                "user_id": row[0],
+                "name": row[1],
+                "points": row[2],
+                "is_current_user": row[0] == user_id
+            })
+        
+        # Get current user's rank
+        cursor.execute("""
+            SELECT COUNT(*) + 1 as rank
+            FROM profiles 
+            WHERE COALESCE(learning_points, 0) > (
+                SELECT COALESCE(learning_points, 0) FROM profiles WHERE user_id = ?
+            )
+        """, (user_id,))
+        rank_result = cursor.fetchone()
+        user_rank = rank_result[0] if rank_result else 0
+        
+        return {
+            "leaderboard": leaderboard,
+            "current_user_rank": user_rank
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        conn.close()

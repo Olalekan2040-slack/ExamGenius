@@ -234,7 +234,7 @@ async function showAnalyticsDashboard() {
 
                 <!-- Action Buttons -->
                 <div style="display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap;">
-                    <button class="btn btn-primary" onclick="router.navigate('learn')" style="flex: 1; min-width: 150px;">
+                    <button class="btn btn-primary" onclick="router.navigate('guided-learn')" style="flex: 1; min-width: 150px;">
                         <i class="fas fa-book-reader"></i> Continue Learning
                     </button>
                     <button class="btn btn-outline" onclick="router.navigate('year-practice')" style="flex: 1; min-width: 150px;">

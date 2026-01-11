@@ -1,0 +1,480 @@
+{
+  "subject": "Chemistry",
+  "topics": [
+    {
+      "number": 1,
+      "name": "Separation of Mixtures and Purification of Chemical Substances",
+      "subtopics": [
+        {
+          "name": "Pure and impure substances",
+          "objectives": [
+            "Distinguish between pure and impure substances.",
+            "Use boiling and melting points as criteria for purity."
+          ]
+        },
+        {
+          "name": "Elements, compounds and mixtures",
+          "objectives": [
+            "Distinguish between elements, compounds, and mixtures.",
+            "Differentiate between chemical and physical changes."
+          ]
+        },
+        {
+          "name": "Separation processes",
+          "objectives": [
+            "Identify properties of mixture components.",
+            "Specify principles involved in each separation method."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Chemical Combination",
+      "subtopics": [
+        {
+          "name": "Laws of chemical combination",
+          "objectives": [
+            "Perform calculations based on laws of chemical combination."
+          ]
+        },
+        {
+          "name": "i. Law of definite proportions (constant composition).",
+          "objectives": [
+            "Use mole concept in stoichiometric calculations."
+          ]
+        },
+        {
+          "name": "ii. Law of multiple proportions.",
+          "objectives": [
+            "Relate Avogadro's number to particle quantities."
+          ]
+        },
+        {
+          "name": "iii. Law of conservation of matter.",
+          "objectives": []
+        },
+        {
+          "name": "iv. Law of reciprocal proportions.",
+          "objectives": []
+        },
+        {
+          "name": "Mole concept and Avogadro's number",
+          "objectives": []
+        },
+        {
+          "name": "i. Definition of mole and molar mass.",
+          "objectives": []
+        },
+        {
+          "name": "ii. Avogadro's number and its significance.",
+          "objectives": []
+        },
+        {
+          "name": "iii. Calculations involving moles.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Kinetic Theory of Matter and Gas Laws",
+      "subtopics": [
+        {
+          "name": "Kinetic theory",
+          "objectives": [
+            "Use kinetic theory to explain gas behavior."
+          ]
+        },
+        {
+          "name": "i. Assumptions of kinetic theory.",
+          "objectives": [
+            "Solve problems involving gas laws."
+          ]
+        },
+        {
+          "name": "ii. Explanation of states of matter (solid, liquid, gas).",
+          "objectives": [
+            "Perform calculations with ideal gas equation."
+          ]
+        },
+        {
+          "name": "iii. Brownian motion and diffusion.",
+          "objectives": []
+        },
+        {
+          "name": "Gas laws",
+          "objectives": []
+        },
+        {
+          "name": "i. Boyle's law, Charles's law, pressure law.",
+          "objectives": []
+        },
+        {
+          "name": "ii. General gas equation and ideal gas equation (PV = nRT).",
+          "objectives": []
+        },
+        {
+          "name": "iii. Dalton's law of partial pressures.",
+          "objectives": []
+        },
+        {
+          "name": "iv. Graham's law of diffusion.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Atomic Structure and Bonding",
+      "subtopics": [
+        {
+          "name": "Atomic structure",
+          "objectives": [
+            "Describe atomic structure and electron configuration."
+          ]
+        },
+        {
+          "name": "i. Gross features of atom (protons, neutrons, electrons).",
+          "objectives": [
+            "Explain types of bonding and their properties."
+          ]
+        },
+        {
+          "name": "ii. Atomic number, mass number, isotopes.",
+          "objectives": [
+            "Predict shapes of simple molecules."
+          ]
+        },
+        {
+          "name": "iii. Electron configuration and orbitals.",
+          "objectives": []
+        },
+        {
+          "name": "Bonding",
+          "objectives": []
+        },
+        {
+          "name": "i. Ionic, covalent, metallic, hydrogen, and van der Waals bonds.",
+          "objectives": []
+        },
+        {
+          "name": "ii. Shapes of simple molecules (linear, non-linear, tetrahedral, pyramidal).",
+          "objectives": []
+        },
+        {
+          "name": "iii. Intermolecular forces.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Air, Water, Solubility",
+      "subtopics": [
+        {
+          "name": "Air",
+          "objectives": [
+            "Explain composition and uses of air and water."
+          ]
+        },
+        {
+          "name": "i. Composition of air.",
+          "objectives": [
+            "Describe solubility and related calculations."
+          ]
+        },
+        {
+          "name": "ii. Separation of air components.",
+          "objectives": []
+        },
+        {
+          "name": "iii. Uses and pollution.",
+          "objectives": []
+        },
+        {
+          "name": "Water",
+          "objectives": []
+        },
+        {
+          "name": "i. Structure and properties.",
+          "objectives": []
+        },
+        {
+          "name": "ii. Hardness, treatment, and purification.",
+          "objectives": []
+        },
+        {
+          "name": "Solubility",
+          "objectives": []
+        },
+        {
+          "name": "i. Solubility curves and factors affecting solubility.",
+          "objectives": []
+        },
+        {
+          "name": "ii. Saturated, unsaturated, and supersaturated solutions.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Environmental Pollution",
+      "subtopics": [
+        {
+          "name": "Sources and types of pollution (air, water, soil).",
+          "objectives": [
+            "Identify sources and effects of pollution."
+          ]
+        },
+        {
+          "name": "Effects on health and environment.",
+          "objectives": [
+            "Suggest control methods."
+          ]
+        },
+        {
+          "name": "Control measures.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Acids, Bases, and Salts",
+      "subtopics": [
+        {
+          "name": "Definitions and properties",
+          "objectives": [
+            "Distinguish between acid-base theories."
+          ]
+        },
+        {
+          "name": "i. Arrhenius, Bronsted-Lowry, Lewis concepts.",
+          "objectives": [
+            "Prepare and classify salts."
+          ]
+        },
+        {
+          "name": "ii. Properties of acids and bases.",
+          "objectives": []
+        },
+        {
+          "name": "Salts",
+          "objectives": []
+        },
+        {
+          "name": "i. Types (normal, acidic, basic).",
+          "objectives": []
+        },
+        {
+          "name": "ii. Preparation and uses.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Oxidation and Reduction – Redox",
+      "subtopics": [
+        {
+          "name": "Oxidation and reduction definitions.",
+          "objectives": [
+            "Identify redox processes."
+          ]
+        },
+        {
+          "name": "Oxidizing and reducing agents.",
+          "objectives": [
+            "Balance redox equations."
+          ]
+        },
+        {
+          "name": "Balancing redox equations.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Electrolysis",
+      "subtopics": [
+        {
+          "name": "Faraday's laws.",
+          "objectives": [
+            "Apply Faraday's laws."
+          ]
+        },
+        {
+          "name": "Electrolytic and electrochemical cells.",
+          "objectives": [
+            "Explain electrolysis applications."
+          ]
+        },
+        {
+          "name": "Applications (electroplating, purification).",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Energy Changes",
+      "subtopics": [
+        {
+          "name": "Exothermic and endothermic reactions.",
+          "objectives": [
+            "Determine heat changes in processes."
+          ]
+        },
+        {
+          "name": "Enthalpy changes (∆H).",
+          "objectives": [
+            "Relate ∆H, ∆S, ∆G to spontaneity."
+          ]
+        },
+        {
+          "name": "Hess's law.",
+          "objectives": []
+        },
+        {
+          "name": "Entropy and Gibbs free energy.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Rates of Chemical Reaction",
+      "subtopics": [
+        {
+          "name": "Factors affecting rates (concentration, temperature, catalyst).",
+          "objectives": [
+            "Explain factors affecting reaction rates."
+          ]
+        },
+        {
+          "name": "Collision theory.",
+          "objectives": [
+            "Interpret rate graphs."
+          ]
+        },
+        {
+          "name": "Rate equations.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Chemical Equilibrium",
+      "subtopics": [
+        {
+          "name": "Reversible reactions.",
+          "objectives": [
+            "Apply Le Chatelier's principle."
+          ]
+        },
+        {
+          "name": "Le Chatelier's principle.",
+          "objectives": [
+            "Calculate equilibrium constants."
+          ]
+        },
+        {
+          "name": "Equilibrium constant (Kc, Kp).",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Non-metals and Their Compounds",
+      "subtopics": [
+        {
+          "name": "Hydrogen, halogens, oxygen, nitrogen, carbon.",
+          "objectives": [
+            "Describe properties and reactions of non-metals."
+          ]
+        },
+        {
+          "name": "Properties, preparation, and uses of compounds.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Metals and Their Compounds",
+      "subtopics": [
+        {
+          "name": "General properties of metals.",
+          "objectives": [
+            "Explain reactivity series and extraction."
+          ]
+        },
+        {
+          "name": "Alkali, alkaline earth, transition metals.",
+          "objectives": [
+            "Describe properties of metals."
+          ]
+        },
+        {
+          "name": "Extraction and uses.",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Organic Compounds",
+      "subtopics": [
+        {
+          "name": "Classification (hydrocarbons, functional groups).",
+          "objectives": [
+            "Name and classify organic compounds."
+          ]
+        },
+        {
+          "name": "Nomenclature and isomerism.",
+          "objectives": [
+            "Write reaction mechanisms."
+          ]
+        },
+        {
+          "name": "Alkanes, alkenes, alkynes, alcohols, carboxylic acids, etc.",
+          "objectives": []
+        },
+        {
+          "name": "Reactions (addition, substitution, polymerization).",
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Chemistry and Industry",
+      "subtopics": [
+        {
+          "name": "Chemical industries (types, raw materials).",
+          "objectives": [
+            "Classify industries and raw materials."
+          ]
+        },
+        {
+          "name": "Processes (Haber, Contact).",
+          "objectives": [
+            "Relate processes to biotechnology."
+          ]
+        },
+        {
+          "name": "Biotechnology.",
+          "objectives": [
+            "This order builds knowledge progressively from basics to advanced and applied topics. Study with recommended textbooks like New School Chemistry by O.Y. Ababio for deeper understanding. Good luck with your preparation!"
+          ]
+        }
+      ]
+    }
+  ]
+}
