@@ -2,12 +2,11 @@ name: Deploy Backend to EC2
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - "app/**"
       - "main.py"
       - "requirements.txt"
-      
 
 jobs:
   deploy:
@@ -26,22 +25,25 @@ jobs:
 
       - name: Deploy Backend
         run: |
-          ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          ssh -i ~/.ssh/id_ed25519 ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
             set -e
 
-            cd ~/examgenius || exit 1
+            cd ~/examgenius
 
             git pull origin main
 
-            python3 -m venv venv || true
-            source venv/bin/activate
+            if [ ! -d "venv" ]; then
+              python3 -m venv venv
+            fi
 
-            pip install --upgrade pip
-            pip install -r requirements.txt
+            ./venv/bin/pip install --upgrade pip
+            ./venv/bin/pip install -r requirements.txt
 
-            pm2 restart examgenius || \
-            pm2 start "uvicorn main:app --host 0.0.0.0 --port 8000" \
-              --name examgenius --interpreter bash
+            pm2 delete examgenius || true
+            pm2 start ./venv/bin/uvicorn \
+              --name examgenius \
+              --interpreter bash \
+              -- main:app --host 0.0.0.0 --port 8000
 
             pm2 save
           EOF
