@@ -318,7 +318,8 @@ class APIService {
         return this.request(`/cbt/${sessionId}/submit`, {
             method: 'POST',
             body: { answers },
-            requireAuth: true
+            requireAuth: true,
+            timeoutMs: 120000  // 2 minutes for CBT submission (160 questions)
         });
     }
 

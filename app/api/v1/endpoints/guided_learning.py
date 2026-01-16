@@ -513,33 +513,83 @@ async def save_learning_progress(
     conn = get_connection()
     cursor = conn.cursor()
     
-    is_weakness = request.answered_correctly == False
-    
-    cursor.execute("""
-        INSERT INTO learning_progress 
-        (user_id, subject, topic_name, subtopic_index, objective_index, 
-         status, question_answered, answered_correctly, is_weakness, 
-         completed_at, time_spent_seconds)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ON CONFLICT (user_id, subject, topic_name, subtopic_index, objective_index)
-        DO UPDATE SET 
-            status = EXCLUDED.status,
-            question_answered = COALESCE(EXCLUDED.question_answered, learning_progress.question_answered),
-            answered_correctly = COALESCE(EXCLUDED.answered_correctly, learning_progress.answered_correctly),
-            is_weakness = EXCLUDED.is_weakness,
-            completed_at = CASE WHEN EXCLUDED.status = 'completed' THEN CURRENT_TIMESTAMP ELSE learning_progress.completed_at END,
-            time_spent_seconds = learning_progress.time_spent_seconds + EXCLUDED.time_spent_seconds
-    """, (
-        user_id, request.subject, request.topic, request.subtopic_index,
-        request.objective_index, request.status, 
-        request.answered_correctly is not None, request.answered_correctly,
-        is_weakness, datetime.utcnow() if request.status == 'completed' else None,
-        request.time_spent_seconds
-    ))
-    
-    conn.commit()
-    
-    return {"success": True}
+    try:
+        is_weakness = request.answered_correctly == False
+        
+        # Check if this objective was already completed (to avoid duplicate points)
+        cursor.execute("""
+            SELECT status FROM learning_progress
+            WHERE user_id = ? AND subject = ? AND topic_name = ? 
+            AND subtopic_index = ? AND objective_index = ?
+        """, (user_id, request.subject, request.topic, request.subtopic_index, request.objective_index))
+        
+        existing = cursor.fetchone()
+        was_already_completed = existing and existing[0] == 'completed'
+        
+        cursor.execute("""
+            INSERT INTO learning_progress 
+            (user_id, subject, topic_name, subtopic_index, objective_index, 
+             status, question_answered, answered_correctly, is_weakness, 
+             completed_at, time_spent_seconds)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (user_id, subject, topic_name, subtopic_index, objective_index)
+            DO UPDATE SET 
+                status = EXCLUDED.status,
+                question_answered = COALESCE(EXCLUDED.question_answered, learning_progress.question_answered),
+                answered_correctly = COALESCE(EXCLUDED.answered_correctly, learning_progress.answered_correctly),
+                is_weakness = EXCLUDED.is_weakness,
+                completed_at = CASE WHEN EXCLUDED.status = 'completed' THEN CURRENT_TIMESTAMP ELSE learning_progress.completed_at END,
+                time_spent_seconds = learning_progress.time_spent_seconds + EXCLUDED.time_spent_seconds
+        """, (
+            user_id, request.subject, request.topic, request.subtopic_index,
+            request.objective_index, request.status, 
+            request.answered_correctly is not None, request.answered_correctly,
+            is_weakness, datetime.utcnow() if request.status == 'completed' else None,
+            request.time_spent_seconds
+        ))
+        
+        # Award points if objective completed correctly and not already completed
+        points_awarded = 0
+        if request.status == 'completed' and not was_already_completed:
+            if request.answered_correctly:
+                points_awarded = 10  # 10 points for correct answer
+            else:
+                points_awarded = 5   # 5 points for completing even if incorrect
+            
+            # Insert gamification event
+            cursor.execute("""
+                INSERT INTO gamification_events 
+                (user_id, event_type, points, subject, topic, subtopic, description)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            """, (
+                user_id, 
+                'objective_complete',
+                points_awarded,
+                request.subject, 
+                request.topic, 
+                None,
+                f"Completed objective {request.objective_index + 1} in {request.topic}"
+            ))
+            
+            # Update total points in user_profiles
+            cursor.execute("""
+                UPDATE user_profiles 
+                SET learning_points = COALESCE(learning_points, 0) + ?
+                WHERE user_id = ?
+            """, (points_awarded, user_id))
+        
+        conn.commit()
+        
+        return {
+            "success": True,
+            "points_awarded": points_awarded
+        }
+        
+    except Exception as e:
+        conn.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        conn.close()
 
 
 @router.get("/progress/{subject}/{topic_name}")

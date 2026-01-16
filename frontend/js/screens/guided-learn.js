@@ -45,6 +45,12 @@ function hasStaticContent(subject, topic) {
             return true;
         }
     }
+    // Government content
+    if (subject === 'Government') {
+        if (window.GOVERNMENT_LEARNING_CONTENT && window.GOVERNMENT_LEARNING_CONTENT[topic]) {
+            return true;
+        }
+    }
     // Add more subjects here as content is created
     return false;
 }
@@ -67,6 +73,10 @@ function getStaticTopicContent(subject, topic) {
     // Mathematics content
     if (subject === 'Mathematics' && window.MATHEMATICS_LEARNING_CONTENT && window.MATHEMATICS_LEARNING_CONTENT[topic]) {
         return window.MATHEMATICS_LEARNING_CONTENT[topic];
+    }
+    // Government content
+    if (subject === 'Government' && window.GOVERNMENT_LEARNING_CONTENT && window.GOVERNMENT_LEARNING_CONTENT[topic]) {
+        return window.GOVERNMENT_LEARNING_CONTENT[topic];
     }
     // Add more subjects here
     return null;
@@ -844,10 +854,10 @@ async function saveStaticProgress(status = 'in_progress', answeredCorrectly = nu
     
     // Also save to backend database for cross-device sync and recommendations
     try {
-        await api.request('/guided-learn/save-progress', {
+        const result = await api.request('/guided-learn/save-progress', {
             method: 'POST',
             requireAuth: true,
-            body: JSON.stringify({
+            body: {
                 subject: guidedLearnState.subject,
                 topic: guidedLearnState.topicName,
                 subtopic_index: guidedLearnState.currentSubtopicIndex,
@@ -855,11 +865,41 @@ async function saveStaticProgress(status = 'in_progress', answeredCorrectly = nu
                 status: status,
                 answered_correctly: answeredCorrectly,
                 time_spent_seconds: 0
-            })
+            }
         });
+        
+        // Show points notification if points were awarded
+        if (result && result.points_awarded > 0) {
+            showPointsNotification(result.points_awarded);
+        }
     } catch (e) {
         console.log('Could not save progress to server:', e);
     }
+}
+
+function showPointsNotification(points) {
+    const notification = document.createElement('div');
+    notification.style.cssText = `
+        position: fixed;
+        top: 80px;
+        right: 20px;
+        background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+        color: white;
+        padding: 15px 25px;
+        border-radius: 12px;
+        font-size: 18px;
+        font-weight: 600;
+        box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        z-index: 10000;
+        animation: slideInRight 0.3s ease-out;
+    `;
+    notification.innerHTML = `🎉 +${points} Learning Points!`;
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+        notification.style.animation = 'slideOutRight 0.3s ease-in';
+        setTimeout(() => notification.remove(), 300);
+    }, 2000);
 }
 
 function goToNextStaticObjective() {
@@ -1433,14 +1473,14 @@ async function selectObjectiveAnswer(key) {
         const result = await api.request('/guided-learn/answer-question', {
             method: 'POST',
             requireAuth: true,
-            body: JSON.stringify({
+            body: {
                 subject: guidedLearnState.subject,
                 topic: guidedLearnState.topicName,
                 subtopic: guidedLearnState.currentObjective.subtopic_name,
                 objective: guidedLearnState.currentObjective.objective_text,
                 question_id: q.question_id,
                 user_answer: key
-            })
+            }
         });
         
         // Show result
@@ -1471,7 +1511,7 @@ async function selectObjectiveAnswer(key) {
         await api.request('/guided-learn/save-progress', {
             method: 'POST',
             requireAuth: true,
-            body: JSON.stringify({
+            body: {
                 subject: guidedLearnState.subject,
                 topic: guidedLearnState.topicName,
                 subtopic_index: guidedLearnState.currentSubtopicIndex,
@@ -1479,7 +1519,7 @@ async function selectObjectiveAnswer(key) {
                 status: 'completed',
                 answered_correctly: result.is_correct,
                 time_spent_seconds: timeSpent
-            })
+            }
         });
         
     } catch (error) {
@@ -1518,14 +1558,14 @@ async function submitStudentQuestion() {
         const result = await api.request('/guided-learn/ask-question', {
             method: 'POST',
             requireAuth: true,
-            body: JSON.stringify({
+            body: {
                 subject: guidedLearnState.subject,
                 topic: guidedLearnState.topicName,
                 subtopic: guidedLearnState.currentObjective.subtopic_name,
                 objective: guidedLearnState.currentObjective.objective_text,
                 explanation_context: explanationContext,
                 question: question
-            })
+            }
         });
         
         responseArea.innerHTML = `
@@ -2163,14 +2203,14 @@ async function awardLearningPoints(params) {
         const response = await api.request('/guided-learn/award-points', {
             method: 'POST',
             requireAuth: true,
-            body: JSON.stringify({
+            body: {
                 subject: params.subject,
                 topic: params.topic,
                 subtopic: params.subtopic || null,
                 event_type: params.event_type,
                 points: params.points,
                 description: params.description || null
-            })
+            }
         });
         
         // Show toast notification for points

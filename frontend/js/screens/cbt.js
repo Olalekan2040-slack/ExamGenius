@@ -322,10 +322,21 @@ async function submitCBTExam() {
     showLoading('Submitting exam...');
 
     try {
+        // Ensure we have a valid session
+        if (!cbtState.sessionId) {
+            throw new Error('No active CBT session');
+        }
+        
+        if (!cbtState.questions || cbtState.questions.length === 0) {
+            throw new Error('No questions loaded');
+        }
+
         const answers = cbtState.questions.map(q => ({
             question_id: q.question_id,
             user_answer: cbtState.answers[q.question_id] || null
         }));
+        
+        console.log(`[CBT] Submitting ${answers.length} answers for session ${cbtState.sessionId}`);
 
         const result = await api.submitCBT(cbtState.sessionId, answers);
 
@@ -333,6 +344,7 @@ async function submitCBTExam() {
         hideLoading();
     } catch (error) {
         hideLoading();
+        console.error('[CBT] Submission error:', error);
         showToast('Failed to submit: ' + error.message, 'error');
     }
 }
