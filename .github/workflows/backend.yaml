@@ -26,13 +26,13 @@ jobs:
 
       - name: Deploy Backend
         run: |
-          # Added -i flag explicitly to ensure the correct key is used
-          ssh -i ~/.ssh/deploy_key ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          # The -T flag prevents the "Pseudo-terminal will not be allocated" warning
+          ssh -T -i ~/.ssh/deploy_key ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
             set -e
             cd ~/examgenius
             
-            # Ensure you are pulling the correct branch on the server
-            git pull origin main
+            # Make sure this matches your 'master' branch
+            git pull origin master
 
             if [ ! -d "venv" ]; then
               python3 -m venv venv
@@ -41,11 +41,13 @@ jobs:
             ./venv/bin/pip install --upgrade pip
             ./venv/bin/pip install -r requirements.txt
 
-            # PM2 restart logic
             pm2 delete examgenius || true
-            pm2 start ./venv/bin/uvicorn \
+            
+            # Direct execution of uvicorn from the venv is more stable with PM2
+            ./venv/bin/pm2 start ./venv/bin/uvicorn \
               --name examgenius \
               -- main:app --host 0.0.0.0 --port 8000
             
             pm2 save
+          EOF
           EOF
