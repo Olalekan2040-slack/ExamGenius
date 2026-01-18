@@ -5858,6 +5858,1814 @@ const GOVERNMENT_LEARNING_CONTENT = {
                 ]
             }
         ]
+    },
+
+    // ============================================================
+    // TOPIC 12: POLITICAL PARTIES AND PARTY SYSTEMS
+    // ============================================================
+    "Political Parties and Party Systems:": {
+        subject: "Government",
+        topic: "Political Parties and Party Systems:",
+        introduction: {
+            title: "Political Parties and Party Systems",
+            description: "This topic covers political parties (definition, organization, functions) and party systems (one-party, two-party, multi-party). Political parties are essential for democracy as they mobilize voters, form governments, and provide opposition. JAMB frequently tests definitions, comparisons between party systems, and Nigerian examples.",
+            jambInfo: "JAMB usually asks 3-5 questions from this topic, often comparing party systems or asking about functions of political parties."
+        },
+        subtopics: [
+            {
+                name: "Political Parties: Definition and Functions",
+                objectives: [
+                    {
+                        title: "Define political parties",
+                        explanation: `<p><strong>A political party</strong> is an organized group of individuals with shared ideologies, values, or interests who seek to gain control of government through elections to implement their policies and programs.</p>
+
+<div class="key-points">
+    <h4>Key Features of Political Parties:</h4>
+    <ul>
+        <li><strong>Organized structure:</strong> Has leadership, membership, and hierarchy</li>
+        <li><strong>Shared ideology/objectives:</strong> Common beliefs and goals</li>
+        <li><strong>Seeks political power:</strong> Aims to win elections and form government</li>
+        <li><strong>Presents candidates:</strong> Nominates people for public office</li>
+        <li><strong>Has a manifesto:</strong> Written program of policies and promises</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <div class="visual-grid">
+        <div class="visual-card">
+            <i class="fas fa-users"></i>
+            <p><strong>Membership</strong></p>
+            <p>Citizens who join and support</p>
+        </div>
+        <div class="visual-card">
+            <i class="fas fa-file-alt"></i>
+            <p><strong>Manifesto</strong></p>
+            <p>Policy promises to voters</p>
+        </div>
+        <div class="visual-card">
+            <i class="fas fa-vote-yea"></i>
+            <p><strong>Elections</strong></p>
+            <p>Contest for power</p>
+        </div>
+    </div>
+</div>
+
+<div class="warning-box">
+    <h4>Key Distinction (JAMB Favorite):</h4>
+    <p>Political parties <strong>seek to capture power</strong> through elections, while pressure groups only <strong>seek to influence</strong> policy without directly contesting elections.</p>
+</div>`,
+                        question: {
+                            text: "A political party is best defined as:",
+                            options: {
+                                "A": "A group that protests government policies",
+                                "B": "An organized group seeking to win elections and form government",
+                                "C": "A group of civil servants",
+                                "D": "An association of traders"
+                            },
+                            correctAnswer: "B",
+                            explanation: "A political party is an organized group with shared ideologies that seeks to gain control of government through elections. Unlike pressure groups, parties directly contest elections to form government."
+                        }
+                    },
+                    {
+                        title: "Identify the functions of political parties",
+                        explanation: `<p>Political parties perform essential functions in a democratic system.</p>
+
+<div class="key-points">
+    <h4>Functions of Political Parties:</h4>
+    <ul>
+        <li><strong>Political recruitment:</strong> Select and present candidates for elections</li>
+        <li><strong>Political education:</strong> Educate citizens about issues and mobilize voters</li>
+        <li><strong>Formation of government:</strong> Winning party forms and controls government</li>
+        <li><strong>Policy formulation:</strong> Develop manifestos and policy programs</li>
+        <li><strong>Interest aggregation:</strong> Combine diverse interests into coherent programs</li>
+        <li><strong>Opposition function:</strong> Losing parties criticize and check the ruling party</li>
+        <li><strong>Linkage function:</strong> Connect citizens to government</li>
+        <li><strong>Political stability:</strong> Peaceful transfer of power through elections</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Nigerian Examples:</h4>
+    <ul>
+        <li><strong>APC:</strong> Won 2015 elections, formed government, implemented policies like TSA</li>
+        <li><strong>PDP:</strong> As opposition (2015-2023), criticized APC policies</li>
+        <li><strong>Labour Party:</strong> Mobilized youth voters in 2023</li>
+    </ul>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>The PRIMARY function of a political party is to <strong>win elections and form government</strong>. This distinguishes it from pressure groups.</p>
+</div>`,
+                        question: {
+                            text: "Which of the following is NOT a function of political parties?",
+                            options: {
+                                "A": "Political recruitment of candidates",
+                                "B": "Formation of government",
+                                "C": "Enforcement of court judgments",
+                                "D": "Political education of citizens"
+                            },
+                            correctAnswer: "C",
+                            explanation: "Enforcement of court judgments is a function of the judiciary/executive, not political parties. Political parties recruit candidates, form governments, educate citizens, and provide opposition."
+                        }
+                    }
+                ]
+            },
+            {
+                name: "Party Systems",
+                objectives: [
+                    {
+                        title: "Explain one-party system",
+                        explanation: `<p><strong>One-party system</strong> is a political system where only one political party is legally allowed to exist, or one party completely dominates with no real competition.</p>
+
+<div class="key-points">
+    <h4>Features of One-Party System:</h4>
+    <ul>
+        <li>Only one legal party; opposition banned or suppressed</li>
+        <li>Party and state often fused together</li>
+        <li>No competitive elections</li>
+        <li>Single ideology dominates</li>
+        <li>Often associated with authoritarian regimes</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Examples:</h4>
+    <div class="comparison-cards">
+        <div class="comparison-card">
+            <h4>Historical</h4>
+            <p>Soviet Union (Communist Party)</p>
+            <p>Nazi Germany</p>
+        </div>
+        <div class="comparison-card">
+            <h4>Current</h4>
+            <p>China (CCP)</p>
+            <p>North Korea</p>
+            <p>Cuba</p>
+        </div>
+    </div>
+</div>
+
+<div class="key-points">
+    <h4>Merits:</h4>
+    <ul>
+        <li>National unity and stability</li>
+        <li>Quick decision-making</li>
+        <li>Avoids ethnic/religious party divisions</li>
+    </ul>
+    <h4>Demerits:</h4>
+    <ul>
+        <li>Undemocratic – no choice for voters</li>
+        <li>No accountability or opposition</li>
+        <li>Suppresses individual freedoms</li>
+        <li>Can lead to dictatorship</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "A major disadvantage of one-party system is:",
+                            options: {
+                                "A": "It promotes national unity",
+                                "B": "It allows quick decision-making",
+                                "C": "It is undemocratic with no opposition",
+                                "D": "It reduces ethnic tensions"
+                            },
+                            correctAnswer: "C",
+                            explanation: "One-party systems are undemocratic because they suppress opposition, deny citizens political choice, and often lead to authoritarianism and abuse of power."
+                        }
+                    },
+                    {
+                        title: "Explain two-party and multi-party systems",
+                        explanation: `<p><strong>Two-party system:</strong> Only two major parties have realistic chance of winning elections and forming government.</p>
+
+<p><strong>Multi-party system:</strong> More than two parties compete seriously, and coalition governments are common.</p>
+
+<div class="visual-section">
+    <h4>Comparison Table:</h4>
+    <table class="comparison-table">
+        <tr><th>Feature</th><th>Two-Party</th><th>Multi-Party</th></tr>
+        <tr><td>Major Parties</td><td>2 dominant parties</td><td>3 or more parties</td></tr>
+        <tr><td>Government</td><td>Single-party majority</td><td>Often coalition</td></tr>
+        <tr><td>Choice</td><td>Limited but clear</td><td>Wide range of options</td></tr>
+        <tr><td>Stability</td><td>More stable</td><td>Can be unstable</td></tr>
+        <tr><td>Examples</td><td>USA, UK</td><td>Nigeria, India, Italy</td></tr>
+    </table>
+</div>
+
+<div class="key-points">
+    <h4>Two-Party System - Merits:</h4>
+    <ul>
+        <li>Clear choices for voters</li>
+        <li>Strong, stable governments</li>
+        <li>Easier to form government</li>
+    </ul>
+    <h4>Multi-Party System - Merits:</h4>
+    <ul>
+        <li>Greater representation of diverse interests</li>
+        <li>More democratic choice</li>
+        <li>Minorities can have their own parties</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Nigeria's Multi-Party System:</h4>
+    <p>Nigeria currently operates a multi-party system with parties like APC, PDP, Labour Party, APGA, NNPP, etc. This allows diverse interests to be represented but can lead to fragmented opposition.</p>
+</div>`,
+                        question: {
+                            text: "Nigeria's current political system is best described as:",
+                            options: {
+                                "A": "One-party system",
+                                "B": "Two-party system",
+                                "C": "Multi-party system",
+                                "D": "No-party system"
+                            },
+                            correctAnswer: "C",
+                            explanation: "Nigeria operates a multi-party system where multiple parties (APC, PDP, LP, APGA, NNPP, etc.) compete in elections. This has been the case since the return to democracy in 1999."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC 14: PUBLIC OPINION
+    // ============================================================
+    "Public Opinion:": {
+        subject: "Government",
+        topic: "Public Opinion:",
+        introduction: {
+            title: "Public Opinion",
+            description: "Public opinion refers to the collective attitudes, beliefs, and views held by a significant portion of the population on public issues. It is crucial in democracy as it influences government policy and legitimizes political actions. JAMB tests definition, formation, methods of measuring, functions, and limitations.",
+            jambInfo: "JAMB usually asks 2-4 questions on this topic, especially on methods of assessing public opinion and its functions/limitations."
+        },
+        subtopics: [
+            {
+                name: "Meaning and Formation of Public Opinion",
+                objectives: [
+                    {
+                        title: "Define public opinion",
+                        explanation: `<p><strong>Public opinion</strong> is the collective attitude, beliefs, preferences, and judgments held by a significant portion of the population on public issues, policies, leaders, or events at a particular time.</p>
+
+<div class="key-points">
+    <h4>Key Characteristics:</h4>
+    <ul>
+        <li><strong>Collective:</strong> Not just one person's view but shared by many</li>
+        <li><strong>Dynamic:</strong> Changes over time with events</li>
+        <li><strong>Issue-specific:</strong> Relates to particular topics</li>
+        <li><strong>Measurable:</strong> Can be assessed through various methods</li>
+        <li><strong>Influential:</strong> Affects government decisions in democracies</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <div class="visual-card" style="text-align: center;">
+        <i class="fas fa-comments" style="font-size: 48px; color: #3498db;"></i>
+        <h4>Public Opinion = Voice of the People</h4>
+        <p>What citizens collectively think about government, policies, and issues</p>
+    </div>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>Public opinion is different from propaganda. Public opinion emerges naturally from the public, while propaganda is deliberately manufactured to influence opinion.</p>
+</div>`,
+                        question: {
+                            text: "Public opinion can best be described as:",
+                            options: {
+                                "A": "The view of the president",
+                                "B": "The collective attitude of citizens on public issues",
+                                "C": "Government propaganda",
+                                "D": "The opinion of journalists"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Public opinion is the collective attitudes, beliefs, and views held by a significant portion of the population on public issues. It represents what citizens think, not what government or media tells them."
+                        }
+                    },
+                    {
+                        title: "Identify agents of public opinion formation",
+                        explanation: `<p>Public opinion is formed through various agents and processes.</p>
+
+<div class="key-points">
+    <h4>Agents of Public Opinion Formation:</h4>
+    <ul>
+        <li><strong>Family:</strong> Primary agent; parents transmit political values</li>
+        <li><strong>Mass Media:</strong> TV, radio, newspapers, social media shape views</li>
+        <li><strong>Educational Institutions:</strong> Schools teach civic values</li>
+        <li><strong>Peer Groups:</strong> Friends and colleagues influence opinions</li>
+        <li><strong>Political Parties:</strong> Campaigns and manifestos shape views</li>
+        <li><strong>Religious Institutions:</strong> Churches, mosques influence moral positions</li>
+        <li><strong>Pressure Groups:</strong> Advocacy campaigns shape opinion on issues</li>
+        <li><strong>Opinion Leaders:</strong> Celebrities, intellectuals, influencers</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Nigerian Examples:</h4>
+    <ul>
+        <li><strong>Social Media:</strong> Twitter/X shaped #EndSARS movement</li>
+        <li><strong>Religious Leaders:</strong> Influence views on moral issues</li>
+        <li><strong>Traditional Media:</strong> Channels TV, Arise TV debates</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "The most powerful modern agent of public opinion formation is:",
+                            options: {
+                                "A": "The family",
+                                "B": "The mass media",
+                                "C": "Traditional rulers",
+                                "D": "The military"
+                            },
+                            correctAnswer: "B",
+                            explanation: "The mass media (TV, radio, newspapers, and especially social media) is the most powerful modern agent of public opinion formation due to its wide reach and ability to frame issues quickly."
+                        }
+                    }
+                ]
+            },
+            {
+                name: "Methods and Functions of Public Opinion",
+                objectives: [
+                    {
+                        title: "Compare methods of assessing public opinion",
+                        explanation: `<p>There are several methods to measure or assess public opinion.</p>
+
+<div class="key-points">
+    <h4>Methods of Assessing Public Opinion:</h4>
+    <ul>
+        <li><strong>Opinion Polls/Surveys:</strong> Scientific sampling with questionnaires (e.g., NOI Polls)</li>
+        <li><strong>Elections:</strong> Voting patterns reflect public preferences</li>
+        <li><strong>Referenda/Plebiscites:</strong> Direct vote on specific issues</li>
+        <li><strong>Mass Media Analysis:</strong> Editorials, letters, social media trends</li>
+        <li><strong>Public Demonstrations:</strong> Protests, rallies show public sentiment</li>
+        <li><strong>Focus Groups:</strong> In-depth discussion with small groups</li>
+        <li><strong>Petitions:</strong> Signed appeals on specific issues</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Comparison:</h4>
+    <table class="comparison-table">
+        <tr><th>Method</th><th>Strength</th><th>Weakness</th></tr>
+        <tr><td>Polls</td><td>Scientific, quantifiable</td><td>Sampling errors, bias</td></tr>
+        <tr><td>Elections</td><td>Binding, representative</td><td>Infrequent, not issue-specific</td></tr>
+        <tr><td>Protests</td><td>Immediate, passionate</td><td>May represent minority</td></tr>
+        <tr><td>Social Media</td><td>Real-time, broad reach</td><td>Bots, fake accounts</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "Which method of assessing public opinion is most scientific?",
+                            options: {
+                                "A": "Public demonstrations",
+                                "B": "Opinion polls using random sampling",
+                                "C": "Letters to newspapers",
+                                "D": "Social media comments"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Opinion polls using scientific random sampling and structured questionnaires are the most scientific method of assessing public opinion, though they are not perfect."
+                        }
+                    },
+                    {
+                        title: "Analyse functions and limitations of public opinion",
+                        explanation: `<p>Public opinion plays important roles in democracy but also has limitations.</p>
+
+<div class="key-points">
+    <h4>Functions of Public Opinion:</h4>
+    <ul>
+        <li><strong>Guides government policy:</strong> Leaders adjust policies based on public views</li>
+        <li><strong>Promotes accountability:</strong> Fear of public backlash checks government</li>
+        <li><strong>Legitimizes government:</strong> Popular support gives moral authority</li>
+        <li><strong>Protects rights:</strong> Public outcry can prevent abuses</li>
+        <li><strong>Promotes participation:</strong> Encourages civic engagement</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Limitations of Public Opinion:</h4>
+    <ul>
+        <li><strong>Can be manipulated:</strong> By propaganda, fake news, media bias</li>
+        <li><strong>May be uninformed:</strong> Based on ignorance rather than facts</li>
+        <li><strong>Often volatile:</strong> Changes quickly with events</li>
+        <li><strong>May reflect majority tyranny:</strong> Minority views ignored</li>
+        <li><strong>Difficult to measure accurately:</strong> Polls can be wrong</li>
+        <li><strong>May be apathetic:</strong> Low engagement on some issues</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Nigerian Example:</h4>
+    <p><strong>#EndSARS 2020:</strong> Public opinion (protests, social media) forced government to dissolve SARS. This shows the power of public opinion but also its limitations (government response was mixed).</p>
+</div>`,
+                        question: {
+                            text: "A major limitation of public opinion is that it:",
+                            options: {
+                                "A": "Always represents the majority view",
+                                "B": "Can be manipulated by propaganda and fake news",
+                                "C": "Is always based on accurate information",
+                                "D": "Never changes"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Public opinion can be manipulated through propaganda, fake news, media bias, and misinformation. This is a major limitation because the resulting opinion may not reflect genuine, informed views."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: IMPERIALIST PENETRATION
+    // ============================================================
+    "Imperialist Penetration:": {
+        subject: "Government",
+        topic: "Imperialist Penetration:",
+        introduction: {
+            title: "Imperialist Penetration",
+            description: "This topic covers how European powers (especially Britain and France) colonized Africa, the methods used (indirect rule, direct rule, assimilation), and the impact on Nigerian society. JAMB frequently tests reasons for colonization, features of colonial policies, and comparisons between British and French systems.",
+            jambInfo: "JAMB usually asks 3-5 questions on colonial administration, especially comparing British indirect rule with French policies."
+        },
+        subtopics: [
+            {
+                name: "Colonialism and Its Methods",
+                objectives: [
+                    {
+                        title: "Trace the processes of imperialist penetration",
+                        explanation: `<p><strong>Imperialism</strong> is the policy of extending a country's power and influence through colonization, military force, or economic dominance over other territories.</p>
+
+<div class="key-points">
+    <h4>Stages of European Penetration in Nigeria:</h4>
+    <ul>
+        <li><strong>1. Exploration (15th-18th century):</strong> Portuguese explorers arrived; trade in pepper, ivory</li>
+        <li><strong>2. Slave Trade (16th-19th century):</strong> Europeans bought slaves from African middlemen</li>
+        <li><strong>3. Legitimate Trade (19th century):</strong> Palm oil, groundnuts replaced slave trade</li>
+        <li><strong>4. Missionary Activities:</strong> Christianity, Western education introduced</li>
+        <li><strong>5. Berlin Conference (1884-85):</strong> Africa partitioned among European powers</li>
+        <li><strong>6. Conquest and Colonization:</strong> Britain conquered Nigerian territories</li>
+        <li><strong>7. Amalgamation (1914):</strong> Northern and Southern Nigeria merged</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Key Dates:</h4>
+    <div class="visual-grid">
+        <div class="visual-card">
+            <p><strong>1861</strong></p>
+            <p>Lagos annexed by Britain</p>
+        </div>
+        <div class="visual-card">
+            <p><strong>1900</strong></p>
+            <p>Protectorates established</p>
+        </div>
+        <div class="visual-card">
+            <p><strong>1914</strong></p>
+            <p>Amalgamation by Lugard</p>
+        </div>
+    </div>
+</div>`,
+                        question: {
+                            text: "The Berlin Conference of 1884-85 was significant because it:",
+                            options: {
+                                "A": "Ended the slave trade",
+                                "B": "Partitioned Africa among European powers",
+                                "C": "Granted independence to African countries",
+                                "D": "Established the United Nations"
+                            },
+                            correctAnswer: "B",
+                            explanation: "The Berlin Conference (1884-85) was where European powers agreed on rules for partitioning Africa among themselves. It formalized the 'Scramble for Africa' and set the stage for colonization."
+                        }
+                    },
+                    {
+                        title: "Explain British Indirect Rule",
+                        explanation: `<p><strong>Indirect Rule</strong> was the British colonial policy of governing through existing traditional rulers and institutions, with British officials supervising.</p>
+
+<div class="key-points">
+    <h4>Features of Indirect Rule:</h4>
+    <ul>
+        <li>Used existing traditional rulers (Emirs, Obas, Chiefs)</li>
+        <li>Traditional institutions maintained</li>
+        <li>Native courts and native authority system</li>
+        <li>British Resident Officers supervised</li>
+        <li>Local laws and customs respected (if not repugnant)</li>
+        <li>Cheaper to administer (fewer British officials needed)</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Reasons for Adoption:</h4>
+    <ul>
+        <li>Shortage of British personnel</li>
+        <li>Vastness of territory</li>
+        <li>Language barriers</li>
+        <li>Cost-effectiveness</li>
+        <li>Success in Northern Nigeria (existing emirate system)</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Success and Failure:</h4>
+    <table class="comparison-table">
+        <tr><th>Region</th><th>Outcome</th><th>Reason</th></tr>
+        <tr><td>North</td><td>Successful</td><td>Strong centralized emirate system</td></tr>
+        <tr><td>West</td><td>Partial success</td><td>Yoruba had chiefs but less centralized</td></tr>
+        <tr><td>East</td><td>Failed</td><td>No centralized authority; warrant chiefs created</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "Indirect rule was most successful in Northern Nigeria because:",
+                            options: {
+                                "A": "The people were educated",
+                                "B": "There was an existing centralized emirate system",
+                                "C": "The British built many schools there",
+                                "D": "The climate was favorable"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Indirect rule succeeded in Northern Nigeria because the existing Hausa-Fulani emirate system had a centralized, hierarchical structure with powerful emirs who could enforce British policies through traditional authority."
+                        }
+                    }
+                ]
+            },
+            {
+                name: "French Colonial Policies",
+                objectives: [
+                    {
+                        title: "Distinguish between British and French colonial practices",
+                        explanation: `<p>Britain and France had different approaches to colonizing Africa.</p>
+
+<div class="visual-section">
+    <h4>Comparison Table:</h4>
+    <table class="comparison-table">
+        <tr><th>Feature</th><th>British (Indirect Rule)</th><th>French (Assimilation/Association)</th></tr>
+        <tr><td>Approach</td><td>Ruled through traditional chiefs</td><td>Direct rule from France</td></tr>
+        <tr><td>Goal</td><td>Maintain local customs</td><td>Make Africans 'French'</td></tr>
+        <tr><td>Citizenship</td><td>Subjects of the Crown</td><td>Could become French citizens</td></tr>
+        <tr><td>Culture</td><td>Preserved local cultures</td><td>Imposed French culture</td></tr>
+        <tr><td>Education</td><td>Limited, in English</td><td>French language and culture</td></tr>
+        <tr><td>Administration</td><td>Decentralized</td><td>Centralized in Paris</td></tr>
+        <tr><td>Example</td><td>Nigeria</td><td>Senegal</td></tr>
+    </table>
+</div>
+
+<div class="key-points">
+    <h4>French Assimilation Policy:</h4>
+    <ul>
+        <li>Aimed to make Africans culturally French</li>
+        <li>French language, customs imposed</li>
+        <li>Assimilated Africans could become French citizens</li>
+        <li>Could vote and sit in French Parliament</li>
+        <li>Applied mainly in Four Communes of Senegal</li>
+    </ul>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>British policy <strong>preserved</strong> local cultures through indirect rule, while French policy sought to <strong>replace</strong> African culture with French culture through assimilation.</p>
+</div>`,
+                        question: {
+                            text: "The main difference between British and French colonial policies was that:",
+                            options: {
+                                "A": "Britain used direct rule while France used indirect rule",
+                                "B": "Britain preserved local cultures while France imposed French culture",
+                                "C": "France gave more independence to colonies",
+                                "D": "Britain colonized more territories"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Britain's indirect rule preserved local cultures and ruled through traditional institutions, while France's assimilation policy aimed to make Africans culturally French, imposing French language, customs, and citizenship."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: PROCESS OF DECOLONIZATION
+    // ============================================================
+    "Process of Decolonization:": {
+        subject: "Government",
+        topic: "Process of Decolonization:",
+        introduction: {
+            title: "Process of Decolonization",
+            description: "This topic covers how Nigeria and other African countries achieved independence from colonial rule. It includes the rise of nationalism, the roles of nationalist leaders and parties, and external influences like Pan-Africanism and World War II. JAMB frequently asks about nationalist leaders and their contributions.",
+            jambInfo: "JAMB usually asks 3-5 questions on nationalist movements, leaders (Azikiwe, Awolowo, Ahmadu Bello), and factors that led to independence."
+        },
+        subtopics: [
+            {
+                name: "Rise of Nationalism",
+                objectives: [
+                    {
+                        title: "Evaluate the process of decolonization",
+                        explanation: `<p><strong>Decolonization</strong> is the process by which colonies gained independence from European imperial powers.</p>
+
+<div class="key-points">
+    <h4>Factors that Led to Decolonization:</h4>
+    <ul>
+        <li><strong>Rise of African nationalism:</strong> Educated Africans demanded self-rule</li>
+        <li><strong>Impact of World War II:</strong> Africans fought for freedom abroad, demanded same at home</li>
+        <li><strong>Pan-African movements:</strong> Unity among black people worldwide</li>
+        <li><strong>UN Charter (1945):</strong> Supported self-determination</li>
+        <li><strong>Weakening of European powers:</strong> WWII drained Britain and France</li>
+        <li><strong>Cold War:</strong> USA and USSR opposed colonialism</li>
+        <li><strong>Independence of India (1947):</strong> Inspired African colonies</li>
+        <li><strong>Formation of nationalist parties:</strong> NCNC, AG, NPC</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Timeline to Nigerian Independence:</h4>
+    <div class="visual-grid">
+        <div class="visual-card">
+            <p><strong>1922</strong></p>
+            <p>Clifford Constitution (elective principle)</p>
+        </div>
+        <div class="visual-card">
+            <p><strong>1944</strong></p>
+            <p>NCNC formed</p>
+        </div>
+        <div class="visual-card">
+            <p><strong>1951</strong></p>
+            <p>Macpherson Constitution</p>
+        </div>
+        <div class="visual-card">
+            <p><strong>1960</strong></p>
+            <p>Independence</p>
+        </div>
+    </div>
+</div>`,
+                        question: {
+                            text: "Which of the following was NOT a factor in Nigeria's decolonization?",
+                            options: {
+                                "A": "Rise of nationalism",
+                                "B": "Impact of World War II",
+                                "C": "Support from the Soviet Union for colonialism",
+                                "D": "Pan-African movements"
+                            },
+                            correctAnswer: "C",
+                            explanation: "The Soviet Union opposed colonialism during the Cold War, which actually helped decolonization. Nationalism, WWII, and Pan-Africanism were all factors that contributed to Nigeria's independence."
+                        }
+                    },
+                    {
+                        title: "Assess the roles of nationalist leaders",
+                        explanation: `<p>Nigerian nationalist leaders played crucial roles in the struggle for independence.</p>
+
+<div class="key-points">
+    <h4>Major Nationalist Leaders:</h4>
+    <ul>
+        <li><strong>Herbert Macaulay (1864-1946):</strong> "Father of Nigerian Nationalism"; founded NNDP (1923); co-founded NCNC</li>
+        <li><strong>Nnamdi Azikiwe (1904-1996):</strong> Founded West African Pilot; led NCNC; first President of Nigeria</li>
+        <li><strong>Obafemi Awolowo (1909-1987):</strong> Founded Action Group (AG); Premier of Western Region; championed federalism</li>
+        <li><strong>Ahmadu Bello (1910-1966):</strong> Founded NPC; Sardauna of Sokoto; Premier of Northern Region</li>
+        <li><strong>Tafawa Balewa (1912-1966):</strong> First Prime Minister; moderate leader</li>
+        <li><strong>Aminu Kano (1920-1983):</strong> Founded NEPU; championed common people's rights in North</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Nationalist Parties:</h4>
+    <table class="comparison-table">
+        <tr><th>Party</th><th>Founded</th><th>Leader</th><th>Region</th></tr>
+        <tr><td>NCNC</td><td>1944</td><td>Azikiwe</td><td>East</td></tr>
+        <tr><td>AG</td><td>1951</td><td>Awolowo</td><td>West</td></tr>
+        <tr><td>NPC</td><td>1951</td><td>Ahmadu Bello</td><td>North</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "Who is regarded as the 'Father of Nigerian Nationalism'?",
+                            options: {
+                                "A": "Nnamdi Azikiwe",
+                                "B": "Herbert Macaulay",
+                                "C": "Obafemi Awolowo",
+                                "D": "Ahmadu Bello"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Herbert Macaulay is regarded as the 'Father of Nigerian Nationalism' because he pioneered the nationalist movement, founded the first political party (NNDP in 1923), and co-founded the NCNC in 1944."
+                        }
+                    }
+                ]
+            },
+            {
+                name: "External Influences",
+                objectives: [
+                    {
+                        title: "Assess the impact of Pan-Africanism and external forces",
+                        explanation: `<p>External forces and ideas influenced Nigeria's path to independence.</p>
+
+<div class="key-points">
+    <h4>Pan-Africanism:</h4>
+    <ul>
+        <li>Movement promoting unity and solidarity among people of African descent</li>
+        <li>Leaders: Marcus Garvey, W.E.B. Du Bois, Kwame Nkrumah</li>
+        <li>Pan-African Congresses (1919-1945) demanded African independence</li>
+        <li>Inspired Nigerian nationalists</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Other External Influences:</h4>
+    <ul>
+        <li><strong>World War II:</strong> African soldiers returned with new ideas about freedom</li>
+        <li><strong>Atlantic Charter (1941):</strong> USA and Britain promised self-determination</li>
+        <li><strong>United Nations (1945):</strong> Supported decolonization</li>
+        <li><strong>Cold War:</strong> Superpowers competed for African support</li>
+        <li><strong>Indian Independence (1947):</strong> Proved colonies could be free</li>
+        <li><strong>Ghanaian Independence (1957):</strong> First sub-Saharan country; inspired Nigeria</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Back-to-Africa Movement:</h4>
+    <p>Led by Marcus Garvey, this movement encouraged African Americans to return to Africa and take pride in African heritage. It influenced Pan-Africanism and African nationalism.</p>
+</div>`,
+                        question: {
+                            text: "Pan-Africanism contributed to Nigerian independence by:",
+                            options: {
+                                "A": "Providing military support",
+                                "B": "Promoting unity and solidarity among Africans against colonialism",
+                                "C": "Funding nationalist parties",
+                                "D": "Sending European advisers"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Pan-Africanism promoted unity and solidarity among people of African descent worldwide, inspiring Nigerian nationalists to demand independence and providing an ideological foundation for the anti-colonial struggle."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: CONSTITUTIONAL DEVELOPMENT IN NIGERIA
+    // ============================================================
+    "Constitutional Development in Nigeria:": {
+        subject: "Government",
+        topic: "Constitutional Development in Nigeria:",
+        introduction: {
+            title: "Constitutional Development in Nigeria",
+            description: "This topic covers the evolution of Nigerian constitutions from colonial times (Clifford 1922 to Lyttleton 1954) to independence. JAMB frequently tests features of each constitution, their innovations, and limitations.",
+            jambInfo: "JAMB usually asks 3-5 questions comparing colonial constitutions, especially their innovations and shortcomings."
+        },
+        subtopics: [
+            {
+                name: "Colonial Constitutions",
+                objectives: [
+                    {
+                        title: "Compare the various constitutional developments",
+                        explanation: `<p>Nigeria's constitutional development began with colonial constitutions that gradually introduced limited representation.</p>
+
+<div class="key-points">
+    <h4>Clifford Constitution (1922):</h4>
+    <ul>
+        <li>First to introduce elective principle in Nigeria</li>
+        <li>4 elected members (3 Lagos, 1 Calabar)</li>
+        <li>Only adult males with £100 income could vote</li>
+        <li>Led to formation of first political party (NNDP)</li>
+        <li>Limitation: Only applied to Lagos and Calabar</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Richards Constitution (1946):</h4>
+    <ul>
+        <li>Introduced regionalism (North, West, East)</li>
+        <li>Created regional assemblies (Houses of Assembly)</li>
+        <li>Unofficial majority in Legislative Council</li>
+        <li>Limitation: No elected members; all nominated</li>
+        <li>Criticized by nationalists for lack of consultation</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Macpherson Constitution (1951):</h4>
+    <ul>
+        <li>First to involve Nigerians in drafting</li>
+        <li>Introduced elections to regional assemblies</li>
+        <li>Central legislature with elected majority</li>
+        <li>Council of Ministers with African members</li>
+        <li>Limitation: Regions still subordinate to center</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "The Clifford Constitution of 1922 is significant because it:",
+                            options: {
+                                "A": "Created three regions",
+                                "B": "Introduced the elective principle for the first time",
+                                "C": "Granted independence to Nigeria",
+                                "D": "Established a federal system"
+                            },
+                            correctAnswer: "B",
+                            explanation: "The Clifford Constitution of 1922 was the first to introduce the elective principle in Nigeria, allowing for 4 elected members (3 from Lagos, 1 from Calabar) in the Legislative Council."
+                        }
+                    },
+                    {
+                        title: "Explain the Lyttleton Constitution",
+                        explanation: `<p>The Lyttleton Constitution (1954) was the last colonial constitution before independence.</p>
+
+<div class="key-points">
+    <h4>Lyttleton Constitution (1954):</h4>
+    <ul>
+        <li>Introduced true federalism</li>
+        <li>Regions became autonomous (own constitution, premier)</li>
+        <li>Federal structure with strong regions</li>
+        <li>Lagos became Federal Territory</li>
+        <li>Southern Cameroons separated from Eastern Region</li>
+        <li>Paved the way for independence</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Comparison of Colonial Constitutions:</h4>
+    <table class="comparison-table">
+        <tr><th>Constitution</th><th>Year</th><th>Key Innovation</th></tr>
+        <tr><td>Clifford</td><td>1922</td><td>Elective principle</td></tr>
+        <tr><td>Richards</td><td>1946</td><td>Regionalism</td></tr>
+        <tr><td>Macpherson</td><td>1951</td><td>Elected majority; Nigerian participation</td></tr>
+        <tr><td>Lyttleton</td><td>1954</td><td>True federalism; regional autonomy</td></tr>
+    </table>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>The Lyttleton Constitution (1954) introduced <strong>true federalism</strong> by making regions autonomous with their own constitutions and premiers. This laid the foundation for Nigeria's federal structure.</p>
+</div>`,
+                        question: {
+                            text: "True federalism was introduced in Nigeria by the:",
+                            options: {
+                                "A": "Clifford Constitution",
+                                "B": "Richards Constitution",
+                                "C": "Macpherson Constitution",
+                                "D": "Lyttleton Constitution"
+                            },
+                            correctAnswer: "D",
+                            explanation: "The Lyttleton Constitution of 1954 introduced true federalism by making regions autonomous with their own constitutions, legislatures, and premiers, while maintaining a federal government at the center."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: POST-INDEPENDENCE CONSTITUTIONS
+    // ============================================================
+    "Post - Independence Constitutions:": {
+        subject: "Government",
+        topic: "Post - Independence Constitutions:",
+        introduction: {
+            title: "Post-Independence Constitutions",
+            description: "This topic covers the constitutions of independent Nigeria: 1960 (Independence), 1963 (Republican), 1979, 1989 (unimplemented), and 1999 (current). JAMB tests the key features of each constitution and the political systems they established.",
+            jambInfo: "JAMB usually asks 3-5 questions on post-independence constitutions, especially comparing their features."
+        },
+        subtopics: [
+            {
+                name: "Independence and Republican Constitutions",
+                objectives: [
+                    {
+                        title: "Assess the 1960 and 1963 Constitutions",
+                        explanation: `<p>Nigeria's first constitutions after independence established the framework for governance.</p>
+
+<div class="key-points">
+    <h4>1960 Independence Constitution:</h4>
+    <ul>
+        <li>Established Nigeria as independent on October 1, 1960</li>
+        <li>Parliamentary system (Westminster model)</li>
+        <li>Queen Elizabeth II as Head of State (represented by Governor-General)</li>
+        <li>Prime Minister as Head of Government (Tafawa Balewa)</li>
+        <li>Federal structure with 3 regions</li>
+        <li>Bicameral legislature (Senate and House of Representatives)</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>1963 Republican Constitution:</h4>
+    <ul>
+        <li>Made Nigeria a republic (no more Queen)</li>
+        <li>Nigerian President as Head of State (Nnamdi Azikiwe)</li>
+        <li>Still parliamentary system (PM had real power)</li>
+        <li>Added Mid-Western Region (4 regions)</li>
+        <li>Supreme Court became highest court</li>
+        <li>Ended on January 15, 1966 (first military coup)</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>First Republic Structure:</h4>
+    <table class="comparison-table">
+        <tr><th>Position</th><th>1960</th><th>1963</th></tr>
+        <tr><td>Head of State</td><td>Queen (via Governor-General)</td><td>Nigerian President</td></tr>
+        <tr><td>Head of Government</td><td>Prime Minister</td><td>Prime Minister</td></tr>
+        <tr><td>Regions</td><td>3</td><td>4</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "The 1963 Constitution differed from the 1960 Constitution mainly by:",
+                            options: {
+                                "A": "Introducing presidential system",
+                                "B": "Making Nigeria a republic with a Nigerian President",
+                                "C": "Creating six regions",
+                                "D": "Abolishing the legislature"
+                            },
+                            correctAnswer: "B",
+                            explanation: "The 1963 Constitution's main change was making Nigeria a republic with a Nigerian President as ceremonial Head of State, replacing the British Queen. It still maintained the parliamentary system."
+                        }
+                    }
+                ]
+            },
+            {
+                name: "Later Constitutions",
+                objectives: [
+                    {
+                        title: "Assess the 1979 and 1999 Constitutions",
+                        explanation: `<p>The 1979 Constitution introduced the presidential system, which the 1999 Constitution continues.</p>
+
+<div class="key-points">
+    <h4>1979 Constitution:</h4>
+    <ul>
+        <li>Introduced American-style presidential system</li>
+        <li>Executive President (Head of State AND Government)</li>
+        <li>Separation of powers (Executive, Legislature, Judiciary)</li>
+        <li>19 states created</li>
+        <li>Federal character principle</li>
+        <li>Fundamental rights with enforcement procedures</li>
+        <li>Used during Second Republic (1979-1983)</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>1999 Constitution (Current):</h4>
+    <ul>
+        <li>Based largely on 1979 Constitution</li>
+        <li>Presidential system continues</li>
+        <li>36 states + FCT</li>
+        <li>3 tiers: Federal, State, Local Government</li>
+        <li>Fundamental human rights (Chapter 4)</li>
+        <li>Currently in use (Fourth Republic since 1999)</li>
+        <li>Has been amended several times</li>
+    </ul>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>The 1979 Constitution marked Nigeria's switch from <strong>parliamentary to presidential</strong> system. The President became both Head of State and Head of Government, unlike the First Republic where these were separate roles.</p>
+</div>`,
+                        question: {
+                            text: "A major feature introduced by the 1979 Constitution was:",
+                            options: {
+                                "A": "Parliamentary system",
+                                "B": "Presidential system with executive president",
+                                "C": "One-party system",
+                                "D": "Military rule"
+                            },
+                            correctAnswer: "B",
+                            explanation: "The 1979 Constitution introduced the presidential system where the President serves as both Head of State and Head of Government, with a clear separation of powers between Executive, Legislature, and Judiciary."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: LOCAL GOVERNMENT
+    // ============================================================
+    "Local Government:": {
+        subject: "Government",
+        topic: "Local Government:",
+        introduction: {
+            title: "Local Government",
+            description: "This topic covers the evolution, structure, functions, and problems of local government in Nigeria. Local government is the third tier of government, closest to the people. JAMB tests the 1976 reforms, functions, and challenges facing local governments.",
+            jambInfo: "JAMB usually asks 2-4 questions on local government, especially the 1976 reforms and functions."
+        },
+        subtopics: [
+            {
+                name: "Evolution and Structure",
+                objectives: [
+                    {
+                        title: "Trace the evolution of local government in Nigeria",
+                        explanation: `<p>Local government in Nigeria has evolved through several phases.</p>
+
+<div class="key-points">
+    <h4>Historical Evolution:</h4>
+    <ul>
+        <li><strong>Pre-colonial:</strong> Traditional rulers governed localities</li>
+        <li><strong>Colonial era:</strong> Native Authority system (indirect rule)</li>
+        <li><strong>1950s:</strong> Western Region introduced elected councils</li>
+        <li><strong>1976:</strong> Unified Local Government Reform</li>
+        <li><strong>1979:</strong> Constitutionally recognized as third tier</li>
+        <li><strong>1999:</strong> 774 local governments created</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>1976 Local Government Reform (Key Features):</h4>
+    <ul>
+        <li>Unified local government system nationwide</li>
+        <li>Single-tier structure</li>
+        <li>Elected councils with Chairman and Councillors</li>
+        <li>Defined functions and responsibilities</li>
+        <li>Direct federal allocations</li>
+        <li>Population-based creation criteria</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Current Structure:</h4>
+    <div class="visual-grid">
+        <div class="visual-card">
+            <i class="fas fa-user-tie"></i>
+            <p><strong>Chairman</strong></p>
+            <p>Elected executive head</p>
+        </div>
+        <div class="visual-card">
+            <i class="fas fa-users"></i>
+            <p><strong>Councillors</strong></p>
+            <p>Elected from wards</p>
+        </div>
+        <div class="visual-card">
+            <i class="fas fa-building"></i>
+            <p><strong>Secretariat</strong></p>
+            <p>Administrative staff</p>
+        </div>
+    </div>
+</div>`,
+                        question: {
+                            text: "The 1976 Local Government Reform in Nigeria:",
+                            options: {
+                                "A": "Abolished local governments",
+                                "B": "Introduced a unified local government system",
+                                "C": "Made traditional rulers local government chairmen",
+                                "D": "Removed federal funding for local governments"
+                            },
+                            correctAnswer: "B",
+                            explanation: "The 1976 Local Government Reform introduced a unified local government system throughout Nigeria with elected councils, defined functions, and direct federal allocations."
+                        }
+                    },
+                    {
+                        title: "Identify functions and problems of local government",
+                        explanation: `<p>Local governments have specific functions and face various challenges.</p>
+
+<div class="key-points">
+    <h4>Functions of Local Government:</h4>
+    <ul>
+        <li>Construction and maintenance of local roads</li>
+        <li>Primary education (shared with states)</li>
+        <li>Primary healthcare centers</li>
+        <li>Sanitation and refuse disposal</li>
+        <li>Markets, motor parks, public conveniences</li>
+        <li>Birth and death registration</li>
+        <li>Collection of local taxes and rates</li>
+        <li>Maintenance of law and order (with police)</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Problems Facing Local Governments:</h4>
+    <ul>
+        <li><strong>State interference:</strong> Governors control funds and dissolve councils</li>
+        <li><strong>Inadequate funding:</strong> Funds diverted by states</li>
+        <li><strong>Corruption:</strong> Mismanagement of resources</li>
+        <li><strong>Poor staffing:</strong> Unqualified personnel</li>
+        <li><strong>Political instability:</strong> Frequent dissolution of councils</li>
+        <li><strong>Lack of autonomy:</strong> Dependent on state and federal governments</li>
+        <li><strong>Erosion of powers:</strong> States take over functions</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Current Issue:</h4>
+    <p>The 2024 Supreme Court judgment on local government autonomy ruled that federal allocations should go directly to local governments, not through state governments. This aims to address the problem of state interference.</p>
+</div>`,
+                        question: {
+                            text: "A major problem facing local governments in Nigeria is:",
+                            options: {
+                                "A": "Too much autonomy",
+                                "B": "Excessive funding",
+                                "C": "Interference by state governments",
+                                "D": "Too many qualified staff"
+                            },
+                            correctAnswer: "C",
+                            explanation: "State government interference is a major problem facing local governments in Nigeria. Governors often control local government funds, dissolve elected councils, and appoint caretaker committees."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: NIGERIA'S FOREIGN POLICY
+    // ============================================================
+    "Nigeria's Foreign Policy:": {
+        subject: "Government",
+        topic: "Nigeria's Foreign Policy:",
+        introduction: {
+            title: "Nigeria's Foreign Policy",
+            description: "This topic covers the objectives, principles, and determinants of Nigeria's foreign policy. Key principles include Africa as the centerpiece, non-alignment, and good neighborliness. JAMB tests these principles and Nigeria's role in international affairs.",
+            jambInfo: "JAMB usually asks 2-4 questions on Nigeria's foreign policy objectives and principles."
+        },
+        subtopics: [
+            {
+                name: "Objectives and Principles",
+                objectives: [
+                    {
+                        title: "Identify the major objectives of Nigeria's foreign policy",
+                        explanation: `<p>Nigeria's foreign policy has specific objectives guided by national interest.</p>
+
+<div class="key-points">
+    <h4>Major Objectives:</h4>
+    <ul>
+        <li><strong>Protection of national sovereignty:</strong> Defending territorial integrity</li>
+        <li><strong>Promotion of African unity:</strong> Supporting AU, ECOWAS</li>
+        <li><strong>Eradication of colonialism/racism:</strong> Historical support for liberation movements</li>
+        <li><strong>Economic development:</strong> Attracting investment, trade agreements</li>
+        <li><strong>World peace:</strong> Participation in UN peacekeeping</li>
+        <li><strong>Good neighborliness:</strong> Peaceful relations with neighbors</li>
+        <li><strong>Protection of Nigerians abroad:</strong> Consular services</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Guiding Principles:</h4>
+    <ul>
+        <li><strong>Africa as centerpiece:</strong> Africa is the focus of Nigeria's foreign policy</li>
+        <li><strong>Non-alignment:</strong> Not allied to any superpower bloc</li>
+        <li><strong>Non-interference:</strong> Respecting sovereignty of other nations</li>
+        <li><strong>Multilateralism:</strong> Working through international organizations</li>
+        <li><strong>Good neighborliness:</strong> Peaceful coexistence with neighbors</li>
+    </ul>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p><strong>"Africa as the centerpiece"</strong> is the most distinctive principle of Nigeria's foreign policy. It means Nigeria prioritizes African interests and African unity in its international relations.</p>
+</div>`,
+                        question: {
+                            text: "The principle that Africa is the focus of Nigeria's external relations is called:",
+                            options: {
+                                "A": "Non-alignment",
+                                "B": "Africa as the centerpiece",
+                                "C": "Collective security",
+                                "D": "Isolationism"
+                            },
+                            correctAnswer: "B",
+                            explanation: "'Africa as the centerpiece' is the principle that Africa is the focus and priority of Nigeria's foreign policy. Nigeria has consistently championed African causes and supported African unity through organizations like AU and ECOWAS."
+                        }
+                    },
+                    {
+                        title: "Analyse Nigeria's non-aligned posture",
+                        explanation: `<p><strong>Non-alignment</strong> means Nigeria does not permanently ally with any major power bloc.</p>
+
+<div class="key-points">
+    <h4>Features of Nigeria's Non-Alignment:</h4>
+    <ul>
+        <li>Member of Non-Aligned Movement (NAM)</li>
+        <li>Maintains relations with both Western and Eastern blocs</li>
+        <li>Makes decisions based on national interest</li>
+        <li>Supports UN as forum for international cooperation</li>
+        <li>Opposes military alliances and Cold War politics</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Benefits of Non-Alignment:</h4>
+    <ul>
+        <li>Freedom to pursue independent foreign policy</li>
+        <li>Attracts aid and investment from multiple sources</li>
+        <li>Avoids being drawn into superpower conflicts</li>
+        <li>Enhances diplomatic flexibility</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Practical Application:</h4>
+    <p>During the Cold War, Nigeria maintained diplomatic and trade relations with both USA and USSR. Today, Nigeria has relations with USA, China, Russia, and European countries without being committed to any bloc.</p>
+</div>`,
+                        question: {
+                            text: "Nigeria's non-aligned foreign policy means:",
+                            options: {
+                                "A": "Nigeria has no foreign policy",
+                                "B": "Nigeria does not join any international organization",
+                                "C": "Nigeria is not permanently allied to any major power bloc",
+                                "D": "Nigeria only trades with African countries"
+                            },
+                            correctAnswer: "C",
+                            explanation: "Non-alignment means Nigeria is not permanently allied to any major power bloc (like NATO or former Warsaw Pact). Nigeria maintains independent foreign policy based on national interest and maintains relations with various countries."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: RELATIONS WITH AFRICAN COUNTRIES
+    // ============================================================
+    "Relations with African Countries:": {
+        subject: "Government",
+        topic: "Relations with African Countries:",
+        introduction: {
+            title: "Nigeria and African Affairs",
+            description: "This topic covers Nigeria's role in African affairs, including its support for liberation movements, leadership in ECOWAS and AU, and contribution to NEPAD. JAMB tests Nigeria's specific contributions to African development and unity.",
+            jambInfo: "JAMB usually asks 2-3 questions on Nigeria's role in Africa and NEPAD."
+        },
+        subtopics: [
+            {
+                name: "Nigeria's Role in Africa",
+                objectives: [
+                    {
+                        title: "Evaluate Nigeria's role in continental affairs",
+                        explanation: `<p>Nigeria has played a leading role in African affairs since independence.</p>
+
+<div class="key-points">
+    <h4>Nigeria's Contributions to Africa:</h4>
+    <ul>
+        <li><strong>Liberation movements:</strong> Supported anti-apartheid struggle in South Africa</li>
+        <li><strong>ECOWAS leadership:</strong> Founded and hosts ECOWAS; leads peacekeeping</li>
+        <li><strong>AU/OAU:</strong> Founding member; major contributor</li>
+        <li><strong>Peacekeeping:</strong> ECOMOG in Liberia, Sierra Leone; troops in Sudan, Mali</li>
+        <li><strong>Technical assistance:</strong> Technical Aid Corps (TAC) sends professionals to Africa</li>
+        <li><strong>Financial support:</strong> Largest contributor to ECOWAS budget</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Key Nigerian Contributions:</h4>
+    <table class="comparison-table">
+        <tr><th>Area</th><th>Nigeria's Role</th></tr>
+        <tr><td>Anti-Apartheid</td><td>Funded ANC; nationalized BP</td></tr>
+        <tr><td>ECOWAS</td><td>Host country; 70%+ of budget</td></tr>
+        <tr><td>Peacekeeping</td><td>Led ECOMOG missions</td></tr>
+        <tr><td>Frontline States</td><td>Supported liberation wars</td></tr>
+    </table>
+</div>
+
+<div class="example-box">
+    <h4>Anti-Apartheid Actions:</h4>
+    <p>Nigeria was a leading opponent of apartheid in South Africa. Nigeria nationalized British Petroleum's Nigerian operations in 1979 to protest British support for apartheid, and contributed millions to the ANC liberation fund.</p>
+</div>`,
+                        question: {
+                            text: "Nigeria's nationalization of BP in 1979 was in protest against:",
+                            options: {
+                                "A": "British colonial rule",
+                                "B": "British support for apartheid South Africa",
+                                "C": "High oil prices",
+                                "D": "Environmental pollution"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Nigeria nationalized British Petroleum's Nigerian operations in 1979 to protest British support for the apartheid regime in South Africa, demonstrating Nigeria's commitment to African liberation."
+                        }
+                    },
+                    {
+                        title: "Assess the role of NEPAD in developing Africa",
+                        explanation: `<p><strong>NEPAD</strong> (New Partnership for Africa's Development) is an African Union program for economic development.</p>
+
+<div class="key-points">
+    <h4>About NEPAD:</h4>
+    <ul>
+        <li>Launched in 2001 (now AUDA-NEPAD)</li>
+        <li>Initiated by South Africa, Nigeria, Algeria, Egypt, Senegal</li>
+        <li>Framework for African development</li>
+        <li>Emphasis on good governance and democracy</li>
+        <li>African ownership of development process</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>NEPAD Objectives:</h4>
+    <ul>
+        <li>Eradicate poverty and promote sustainable development</li>
+        <li>Integrate Africa into global economy</li>
+        <li>Accelerate women empowerment</li>
+        <li>Promote peace, security, and democracy</li>
+        <li>Develop infrastructure (roads, energy, ICT)</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>APRM (African Peer Review Mechanism):</h4>
+    <ul>
+        <li>Voluntary self-assessment by African countries</li>
+        <li>Reviews governance, democracy, human rights</li>
+        <li>Nigeria was among first to be reviewed</li>
+        <li>Promotes good governance standards</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "NEPAD was initiated to:",
+                            options: {
+                                "A": "Promote military coups in Africa",
+                                "B": "Promote African economic development and good governance",
+                                "C": "End all trade with non-African countries",
+                                "D": "Create a single African currency"
+                            },
+                            correctAnswer: "B",
+                            explanation: "NEPAD (New Partnership for Africa's Development) was initiated to promote African economic development, good governance, democracy, and integration into the global economy through African-owned initiatives."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: NIGERIA IN INTERNATIONAL ORGANIZATIONS
+    // ============================================================
+    "Nigeria in International Organizations": {
+        subject: "Government",
+        topic: "Nigeria in International Organizations",
+        introduction: {
+            title: "Nigeria in International Organizations",
+            description: "This topic covers Nigeria's membership and role in international organizations like UN, Commonwealth, OPEC, AU, and ECOWAS. JAMB tests Nigeria's contributions and benefits from these organizations.",
+            jambInfo: "JAMB usually asks 2-3 questions on Nigeria's participation in international organizations."
+        },
+        subtopics: [
+            {
+                name: "Nigeria's International Memberships",
+                objectives: [
+                    {
+                        title: "Analyse Nigeria's involvement in international organizations",
+                        explanation: `<p>Nigeria is a member of numerous international organizations and has played active roles in them.</p>
+
+<div class="key-points">
+    <h4>Key Memberships:</h4>
+    <ul>
+        <li><strong>United Nations (1960):</strong> Founding member at independence; served on Security Council</li>
+        <li><strong>Commonwealth (1960):</strong> Member since independence; suspended 1995-1999</li>
+        <li><strong>AU/OAU (1963):</strong> Founding member; major contributor</li>
+        <li><strong>ECOWAS (1975):</strong> Co-founder and host country</li>
+        <li><strong>OPEC (1971):</strong> Oil exporter member</li>
+        <li><strong>Non-Aligned Movement:</strong> Active member</li>
+        <li><strong>African Development Bank:</strong> Major shareholder</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Nigeria's Contributions:</h4>
+    <table class="comparison-table">
+        <tr><th>Organization</th><th>Nigeria's Role</th></tr>
+        <tr><td>UN</td><td>Peacekeeping troops; Security Council member</td></tr>
+        <tr><td>ECOWAS</td><td>Hosts headquarters; funds 70%+ of budget</td></tr>
+        <tr><td>AU</td><td>Major financial contributor</td></tr>
+        <tr><td>Commonwealth</td><td>Hosted CHOGM 2003</td></tr>
+        <tr><td>OPEC</td><td>Production quota influence</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "Nigeria was suspended from the Commonwealth in 1995 because of:",
+                            options: {
+                                "A": "Non-payment of dues",
+                                "B": "Human rights abuses under military rule",
+                                "C": "War with a neighboring country",
+                                "D": "Joining another organization"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Nigeria was suspended from the Commonwealth in 1995 following the execution of Ken Saro-Wiwa and eight other Ogoni activists by the Abacha military regime. The suspension was lifted in 1999 after return to democracy."
+                        }
+                    },
+                    {
+                        title: "Assess contributions of international organizations to Nigeria",
+                        explanation: `<p>International organizations have contributed to Nigeria's development in various ways.</p>
+
+<div class="key-points">
+    <h4>Contributions to Nigeria:</h4>
+    <ul>
+        <li><strong>UN:</strong> Development assistance, peacekeeping training, humanitarian aid</li>
+        <li><strong>World Bank/IMF:</strong> Loans, debt relief, technical assistance</li>
+        <li><strong>Commonwealth:</strong> Educational scholarships, technical cooperation</li>
+        <li><strong>ECOWAS:</strong> Free movement, regional trade, collective security</li>
+        <li><strong>OPEC:</strong> Oil price stability, development fund</li>
+        <li><strong>WHO:</strong> Health programs, COVID-19 vaccines</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Benefits to Nigeria:</h4>
+    <ul>
+        <li>Enhanced international prestige and influence</li>
+        <li>Access to development finance</li>
+        <li>Technical assistance and capacity building</li>
+        <li>Collective bargaining power</li>
+        <li>Platform for diplomatic engagement</li>
+        <li>Regional security cooperation</li>
+    </ul>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>Nigeria's membership in international organizations serves both national interest (benefits like loans, trade) and broader ideals (African unity, world peace).</p>
+</div>`,
+                        question: {
+                            text: "Nigeria benefits from ECOWAS membership through:",
+                            options: {
+                                "A": "Oil production quotas",
+                                "B": "Free movement of persons and goods",
+                                "C": "Permanent UN Security Council seat",
+                                "D": "Nuclear technology transfer"
+                            },
+                            correctAnswer: "B",
+                            explanation: "ECOWAS provides Nigeria with benefits including free movement of persons and goods across member states, regional trade opportunities, collective security, and regional integration."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: INSTITUTIONS OF GOVERNMENT IN POST-INDEPENDENCE NIGERIA
+    // ============================================================
+    "Institutions of Government in the Post - Independence Nigeria:": {
+        subject: "Government",
+        topic: "Institutions of Government in the Post - Independence Nigeria:",
+        introduction: {
+            title: "Institutions of Government in Post-Independence Nigeria",
+            description: "This topic examines the operations of the three arms of government (Executive, Legislature, Judiciary) and their agencies in post-independence Nigeria, including the civil service, armed forces, police, and courts.",
+            jambInfo: "JAMB usually asks 2-4 questions on the operations and relationships between these institutions."
+        },
+        subtopics: [
+            {
+                name: "Arms of Government and Agencies",
+                objectives: [
+                    {
+                        title: "Evaluate the operations of the arms of government and their agencies",
+                        explanation: `<p>Post-independence Nigeria operates a presidential system with three arms of government.</p>
+
+<div class="key-points">
+    <h4>The Three Arms:</h4>
+    <ul>
+        <li><strong>Executive:</strong> President, Vice President, Ministers, Civil Service, Armed Forces, Police</li>
+        <li><strong>Legislature:</strong> National Assembly (Senate + House of Representatives), State Houses of Assembly</li>
+        <li><strong>Judiciary:</strong> Supreme Court, Court of Appeal, Federal High Court, State Courts</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Key Agencies and Institutions:</h4>
+    <ul>
+        <li><strong>Civil Service:</strong> Implements government policies; permanent bureaucracy</li>
+        <li><strong>Armed Forces:</strong> Nigerian Army, Navy, Air Force for defence</li>
+        <li><strong>Nigeria Police Force:</strong> Maintains internal security and law enforcement</li>
+        <li><strong>Federal Courts:</strong> Interpret laws and administer justice</li>
+        <li><strong>INEC:</strong> Conducts elections</li>
+        <li><strong>EFCC, ICPC:</strong> Anti-corruption agencies</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Separation of Powers:</h4>
+    <table class="comparison-table">
+        <tr><th>Arm</th><th>Head</th><th>Main Function</th></tr>
+        <tr><td>Executive</td><td>President</td><td>Implements laws</td></tr>
+        <tr><td>Legislature</td><td>Senate President</td><td>Makes laws</td></tr>
+        <tr><td>Judiciary</td><td>Chief Justice</td><td>Interprets laws</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "The agency responsible for implementing government policies in Nigeria is the:",
+                            options: {
+                                "A": "Legislature",
+                                "B": "Judiciary",
+                                "C": "Civil Service",
+                                "D": "Political parties"
+                            },
+                            correctAnswer: "C",
+                            explanation: "The Civil Service is the permanent bureaucracy that implements government policies and programs. It provides continuity regardless of which political party is in power."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: PUBLIC COMMISSIONS
+    // ============================================================
+    "Public Commissions Established by the 1979 and Subsequent Constitutions:": {
+        subject: "Government",
+        topic: "Public Commissions Established by the 1979 and Subsequent Constitutions:",
+        introduction: {
+            title: "Public Commissions in Nigeria",
+            description: "This topic covers the various constitutional commissions established to ensure good governance, such as INEC, PSC, JSC, FCSC, and others. JAMB tests their functions, composition, and problems.",
+            jambInfo: "JAMB usually asks 2-4 questions on the functions of public commissions."
+        },
+        subtopics: [
+            {
+                name: "Types and Functions of Public Commissions",
+                objectives: [
+                    {
+                        title: "Evaluate the operations of public commissions",
+                        explanation: `<p>The 1979 and 1999 Constitutions established various independent commissions to promote good governance.</p>
+
+<div class="key-points">
+    <h4>Major Public Commissions:</h4>
+    <ul>
+        <li><strong>INEC:</strong> Independent National Electoral Commission - conducts elections</li>
+        <li><strong>PSC:</strong> Police Service Commission - oversees police appointments</li>
+        <li><strong>JSC:</strong> Judicial Service Commission - handles judicial appointments</li>
+        <li><strong>FCSC:</strong> Federal Civil Service Commission - civil service matters</li>
+        <li><strong>Federal Character Commission:</strong> Ensures equitable representation</li>
+        <li><strong>Code of Conduct Bureau:</strong> Asset declaration by public officers</li>
+        <li><strong>National Boundary Commission:</strong> Inter-state boundary disputes</li>
+        <li><strong>Revenue Mobilization Commission:</strong> Determines remuneration of officials</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Key Functions:</h4>
+    <table class="comparison-table">
+        <tr><th>Commission</th><th>Main Function</th></tr>
+        <tr><td>INEC</td><td>Conduct free and fair elections</td></tr>
+        <tr><td>PSC</td><td>Appoint, promote, discipline police officers</td></tr>
+        <tr><td>JSC</td><td>Recommend judicial appointments</td></tr>
+        <tr><td>FCSC</td><td>Recruit and manage civil servants</td></tr>
+        <tr><td>Federal Character</td><td>Ensure federal balance in appointments</td></tr>
+    </table>
+</div>`,
+                        question: {
+                            text: "The commission responsible for conducting elections in Nigeria is:",
+                            options: {
+                                "A": "Federal Character Commission",
+                                "B": "Independent National Electoral Commission",
+                                "C": "Police Service Commission",
+                                "D": "Civil Service Commission"
+                            },
+                            correctAnswer: "B",
+                            explanation: "INEC (Independent National Electoral Commission) is the constitutional body responsible for organizing and conducting elections at all levels in Nigeria."
+                        }
+                    },
+                    {
+                        title: "Assess the problems of Public Commissions",
+                        explanation: `<p>Public Commissions in Nigeria face various challenges that affect their effectiveness.</p>
+
+<div class="key-points">
+    <h4>Problems Facing Public Commissions:</h4>
+    <ul>
+        <li><strong>Political interference:</strong> Government influences appointments and decisions</li>
+        <li><strong>Inadequate funding:</strong> Depend on government for budget</li>
+        <li><strong>Lack of independence:</strong> Not truly autonomous in practice</li>
+        <li><strong>Corruption:</strong> Bribery and favoritism in operations</li>
+        <li><strong>Poor staffing:</strong> Inadequate qualified personnel</li>
+        <li><strong>Ethnic/religious considerations:</strong> Appointments based on quota, not merit</li>
+        <li><strong>Legal limitations:</strong> Powers not clearly defined or enforced</li>
+        <li><strong>Public distrust:</strong> Low confidence in their impartiality</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Example - INEC Challenges:</h4>
+    <ul>
+        <li>Allegations of electoral manipulation</li>
+        <li>Logistics failures during elections</li>
+        <li>Security challenges at polling units</li>
+        <li>Pressure from political parties</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "A major problem affecting public commissions in Nigeria is:",
+                            options: {
+                                "A": "Too much independence",
+                                "B": "Political interference in their operations",
+                                "C": "Excessive funding",
+                                "D": "Too many qualified staff"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Political interference is a major problem facing public commissions in Nigeria. The executive often influences appointments and operations, undermining their independence and effectiveness."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: POLITICAL PARTIES IN POST-INDEPENDENCE NIGERIA
+    // ============================================================
+    "Political Parties and Party Politics in Post-Independence Nigeria:": {
+        subject: "Government",
+        topic: "Political Parties and Party Politics in Post-Independence Nigeria:",
+        introduction: {
+            title: "Political Parties in Post-Independence Nigeria",
+            description: "This topic covers the evolution of political parties from the First Republic through the Fourth Republic, their ideologies, structures, and roles in Nigerian politics.",
+            jambInfo: "JAMB usually asks 3-5 questions on political parties in different republics."
+        },
+        subtopics: [
+            {
+                name: "Parties Across the Republics",
+                objectives: [
+                    {
+                        title: "Contrast political processes in the republics",
+                        explanation: `<p>Nigeria has experienced different party systems across its four republics.</p>
+
+<div class="key-points">
+    <h4>First Republic (1960-1966):</h4>
+    <ul>
+        <li><strong>NPC:</strong> Northern Peoples Congress (Ahmadu Bello) - North</li>
+        <li><strong>NCNC:</strong> National Council of Nigeria and Cameroons (Azikiwe) - East</li>
+        <li><strong>AG:</strong> Action Group (Awolowo) - West</li>
+        <li>Regional-based parties; ethnic politics dominated</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Second Republic (1979-1983):</h4>
+    <ul>
+        <li><strong>NPN:</strong> National Party of Nigeria (Shagari) - won presidency</li>
+        <li><strong>UPN:</strong> Unity Party of Nigeria (Awolowo)</li>
+        <li><strong>NPP:</strong> Nigerian Peoples Party (Azikiwe)</li>
+        <li><strong>GNPP:</strong> Great Nigeria Peoples Party</li>
+        <li><strong>PRP:</strong> Peoples Redemption Party (Aminu Kano)</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Third Republic (Aborted - 1993):</h4>
+    <ul>
+        <li><strong>SDP:</strong> Social Democratic Party (Abiola) - "a little to the left"</li>
+        <li><strong>NRC:</strong> National Republican Convention - "a little to the right"</li>
+        <li>Two-party system imposed by Babangida</li>
+        <li>June 12 election annulled</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Fourth Republic (1999-present):</h4>
+    <ul>
+        <li><strong>PDP:</strong> Peoples Democratic Party (ruled 1999-2015)</li>
+        <li><strong>APC:</strong> All Progressives Congress (merged 2013, ruling since 2015)</li>
+        <li><strong>LP:</strong> Labour Party (rose to prominence 2023)</li>
+        <li>Multi-party democracy</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "The two government-created parties during the Third Republic were:",
+                            options: {
+                                "A": "PDP and APC",
+                                "B": "NPN and UPN",
+                                "C": "SDP and NRC",
+                                "D": "AG and NPC"
+                            },
+                            correctAnswer: "C",
+                            explanation: "During the Third Republic, the Babangida military government created two political parties: SDP (Social Democratic Party) and NRC (National Republican Convention). This was a unique two-party experiment in Nigerian history."
+                        }
+                    },
+                    {
+                        title: "Evaluate the ideologies and structure of political parties",
+                        explanation: `<p>Nigerian political parties have had varying ideological orientations across the republics.</p>
+
+<div class="key-points">
+    <h4>Party Ideologies:</h4>
+    <ul>
+        <li><strong>AG (First Republic):</strong> Democratic socialism, welfarism, free education</li>
+        <li><strong>PRP:</strong> Radical socialism, pro-poor policies (talakawa)</li>
+        <li><strong>NPN:</strong> Conservative, federalist</li>
+        <li><strong>SDP:</strong> Center-left ("a little to the left")</li>
+        <li><strong>NRC:</strong> Center-right ("a little to the right")</li>
+        <li><strong>Modern parties (PDP, APC):</strong> Often described as ideologically similar; catch-all parties</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Common Criticisms of Nigerian Parties:</h4>
+    <ul>
+        <li>Lack of clear ideological difference</li>
+        <li>Ethnic and regional bases</li>
+        <li>Godfatherism and money politics</li>
+        <li>Weak internal democracy</li>
+        <li>Defection and party switching</li>
+        <li>Personality-driven rather than policy-driven</li>
+    </ul>
+</div>
+
+<div class="warning-box">
+    <h4>JAMB Key Point:</h4>
+    <p>The Action Group under Awolowo was known for its <strong>welfarism</strong> and <strong>free education</strong> policy in the Western Region. This is often tested as an example of ideological politics.</p>
+</div>`,
+                        question: {
+                            text: "The party known for implementing free education in the Western Region was:",
+                            options: {
+                                "A": "NPC",
+                                "B": "NCNC",
+                                "C": "Action Group",
+                                "D": "PRP"
+                            },
+                            correctAnswer: "C",
+                            explanation: "The Action Group (AG) under Obafemi Awolowo implemented free primary education in the Western Region during the First Republic. This was part of AG's welfarist ideology."
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    // ============================================================
+    // TOPIC: NIGERIAN FEDERALISM
+    // ============================================================
+    "The Structure and Workings of Nigerian Federalism:": {
+        subject: "Government",
+        topic: "The Structure and Workings of Nigerian Federalism:",
+        introduction: {
+            title: "Nigerian Federalism",
+            description: "This topic covers the federal structure of Nigeria, revenue allocation, federal character, and the challenges facing Nigerian federalism. JAMB frequently tests the features of federalism, state creation, and revenue sharing.",
+            jambInfo: "JAMB usually asks 3-5 questions on Nigerian federalism, especially revenue allocation and federal character."
+        },
+        subtopics: [
+            {
+                name: "Structure and Operation of Federalism",
+                objectives: [
+                    {
+                        title: "Examine the workings of Nigerian federalism",
+                        explanation: `<p>Nigeria operates a federal system with three tiers of government.</p>
+
+<div class="key-points">
+    <h4>Features of Nigerian Federalism:</h4>
+    <ul>
+        <li><strong>Written constitution:</strong> 1999 Constitution as supreme law</li>
+        <li><strong>Division of powers:</strong> Exclusive, Concurrent, Residual lists</li>
+        <li><strong>Three tiers:</strong> Federal, State (36), Local Government (774)</li>
+        <li><strong>Bicameral legislature:</strong> Senate and House of Representatives</li>
+        <li><strong>Supreme Court:</strong> Final arbiter of disputes</li>
+        <li><strong>Revenue sharing:</strong> Federation Account shared among tiers</li>
+        <li><strong>Federal character:</strong> Representation from all states/regions</li>
+    </ul>
+</div>
+
+<div class="visual-section">
+    <h4>Legislative Lists:</h4>
+    <table class="comparison-table">
+        <tr><th>List</th><th>Who Legislates</th><th>Examples</th></tr>
+        <tr><td>Exclusive</td><td>Federal only</td><td>Defence, Currency, Foreign Affairs</td></tr>
+        <tr><td>Concurrent</td><td>Federal & State</td><td>Education, Health, Agriculture</td></tr>
+        <tr><td>Residual</td><td>State only</td><td>Markets, Traditional rulers</td></tr>
+    </table>
+</div>
+
+<div class="key-points">
+    <h4>State Creation History:</h4>
+    <ul>
+        <li>1963: 4 regions</li>
+        <li>1967: 12 states (Gowon)</li>
+        <li>1976: 19 states (Murtala)</li>
+        <li>1987: 21 states (Babangida)</li>
+        <li>1991: 30 states (Babangida)</li>
+        <li>1996: 36 states + FCT (Abacha) - current</li>
+    </ul>
+</div>`,
+                        question: {
+                            text: "Matters on the Exclusive Legislative List can only be handled by:",
+                            options: {
+                                "A": "State governments",
+                                "B": "Local governments",
+                                "C": "Federal government",
+                                "D": "Traditional rulers"
+                            },
+                            correctAnswer: "C",
+                            explanation: "The Exclusive Legislative List contains matters that only the Federal Government can legislate on, such as defence, foreign affairs, currency, and customs."
+                        }
+                    },
+                    {
+                        title: "Identify problems of Nigerian federalism",
+                        explanation: `<p>Nigerian federalism faces several challenges that affect its effectiveness.</p>
+
+<div class="key-points">
+    <h4>Problems of Nigerian Federalism:</h4>
+    <ul>
+        <li><strong>Over-centralization:</strong> Federal government too powerful; weak states</li>
+        <li><strong>Revenue allocation disputes:</strong> Disagreements on sharing formula</li>
+        <li><strong>Resource control:</strong> Oil-producing states demand more control</li>
+        <li><strong>State creation agitation:</strong> Demands for more states</li>
+        <li><strong>Federal character abuse:</strong> Used to justify mediocrity</li>
+        <li><strong>Ethnic tensions:</strong> Competition among ethnic groups</li>
+        <li><strong>Local government weakness:</strong> States control LG funds</li>
+        <li><strong>Fiscal dependence:</strong> States depend on federal allocation</li>
+    </ul>
+</div>
+
+<div class="key-points">
+    <h4>Corrective Measures:</h4>
+    <ul>
+        <li>True federalism/restructuring debates</li>
+        <li>Derivation principle (13% to oil states)</li>
+        <li>Revenue Mobilization Commission reviews</li>
+        <li>Constitutional conferences/amendments</li>
+        <li>Local government autonomy (2024 SC judgment)</li>
+    </ul>
+</div>
+
+<div class="example-box">
+    <h4>Resource Control Debate:</h4>
+    <p>Oil-producing states (Niger Delta) argue they should control their resources and pay taxes to federal government, rather than federal government controlling oil revenues. This remains a major issue in Nigerian federalism.</p>
+</div>`,
+                        question: {
+                            text: "A major problem of Nigerian federalism is:",
+                            options: {
+                                "A": "Too many powerful states",
+                                "B": "Over-centralization of power at the federal level",
+                                "C": "Weak federal government",
+                                "D": "No written constitution"
+                            },
+                            correctAnswer: "B",
+                            explanation: "Over-centralization is a major problem of Nigerian federalism. The federal government controls most resources and powers, leaving states dependent on federal allocations and unable to develop independently."
+                        }
+                    }
+                ]
+            }
+        ]
     }
 };
 

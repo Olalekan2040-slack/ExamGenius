@@ -129,6 +129,14 @@ def get_db_connection():
     global _connection
     if _connection is None:
         db_url = settings.DATABASE_URL
+        
+        # Validate DATABASE_URL is set
+        if not db_url:
+            raise Exception(
+                "DATABASE_URL environment variable is not set. "
+                "Please create a .env file with DATABASE_URL=postgresql://user:password@host:5432/dbname"
+            )
+        
         try:
             _connection = PostgresConnectionCompat(db_url)
         except Exception as e:

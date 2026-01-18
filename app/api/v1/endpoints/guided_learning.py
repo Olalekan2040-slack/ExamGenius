@@ -156,6 +156,11 @@ async def get_subject_topics(subject: str, user_id: int = Depends(current_user_i
         completed = row[0] if row else 0
         weaknesses = row[1] if row else 0
         
+        # Calculate progress percent and cap at 100% to handle cases where
+        # static content has more objectives than the syllabus JSON
+        progress = (completed / total_objectives * 100) if total_objectives > 0 else 0
+        progress_percent = min(round(progress, 1), 100.0)
+        
         topics.append({
             'number': topic.get('number'),
             'name': topic_name,
@@ -163,7 +168,7 @@ async def get_subject_topics(subject: str, user_id: int = Depends(current_user_i
             'objective_count': total_objectives,
             'completed_objectives': completed,
             'weakness_count': weaknesses,
-            'progress_percent': round((completed / total_objectives * 100) if total_objectives > 0 else 0, 1)
+            'progress_percent': progress_percent
         })
     
     return {

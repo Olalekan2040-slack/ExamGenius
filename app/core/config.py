@@ -18,13 +18,13 @@ class Settings(BaseSettings):
     DEBUG: bool = False
 
     # Security
-    SECRET_KEY: str = "your-secret-key-change-in-production"
+    SECRET_KEY: str = "change-this-in-production-use-env-file"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
 
-    # Database
-    DATABASE_URL: str = "postgresql://postgres:Policewomen@007@localhost:5432/ExamgeniusDB"
+    # Database - MUST be set via environment variable in production
+    DATABASE_URL: str = ""
 
     # CORS - includes both development and production origins
     ALLOWED_ORIGINS: list = [
@@ -33,8 +33,12 @@ class Settings(BaseSettings):
         "http://localhost:8080",
         "http://localhost:8000",
         "http://127.0.0.1:8000",
+        "http://127.0.0.1:8080",
         "https://examgenius.mooo.com",
         "http://examgenius.mooo.com",
+        "https://examgenius.ng",
+        "http://examgenius.ng",
+        "https://www.examgenius.ng",
     ]
 
     # AI API Keys
