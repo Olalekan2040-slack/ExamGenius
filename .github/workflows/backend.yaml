@@ -2,11 +2,12 @@ name: Deploy Backend to EC2
 
 on:
   push:
-    branches: [ master]
+    branches: [ master ] # Changed from master to main
     paths:
       - "app/**"
       - "main.py"
       - "requirements.txt"
+      - ".github/workflows/backend.yaml"
 
 jobs:
   deploy:
@@ -19,17 +20,18 @@ jobs:
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
           ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy Backend
         run: |
-          ssh -i ~/.ssh/id_ed25519 ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          # Added -i flag explicitly to ensure the correct key is used
+          ssh -i ~/.ssh/deploy_key ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
             set -e
-
             cd ~/examgenius
-
+            
+            # Ensure you are pulling the correct branch on the server
             git pull origin main
 
             if [ ! -d "venv" ]; then
@@ -39,11 +41,11 @@ jobs:
             ./venv/bin/pip install --upgrade pip
             ./venv/bin/pip install -r requirements.txt
 
+            # PM2 restart logic
             pm2 delete examgenius || true
             pm2 start ./venv/bin/uvicorn \
               --name examgenius \
-              --interpreter bash \
               -- main:app --host 0.0.0.0 --port 8000
-
+            
             pm2 save
           EOF
