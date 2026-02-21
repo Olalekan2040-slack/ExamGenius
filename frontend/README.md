@@ -13,7 +13,8 @@ Modern, mobile-first web application for JAMB CBT preparation.
 - **Mobile-First Design**: Responsive across phone, tablet, desktop
 - **Real-time Updates**: Live timer, progress tracking, instant feedback
 
-## 📁 Project Structure
+## 📁 Project Structure 
+This is the structure below
 
 ```
 frontend/
