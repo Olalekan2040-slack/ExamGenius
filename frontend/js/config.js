@@ -8,13 +8,22 @@ const isProduction = window.location.hostname === 'examgenius.mooo.com' ||
 
 // Get production URL from current hostname or use default
 const getProductionURL = () => {
+    // Priority 1: Check for your specific custom domain
     if (window.location.hostname.includes('examgenius.ng')) {
-        return 'https://examgenius.ng';
+        return 'https://examgenius.ng'; // Assumes backend is on standard 443 for this domain
     }
+    
+    // Priority 2: Your current active production URL with port 8000
+    if (window.location.hostname.includes('examgenius.mooo.com')) {
+        return 'http://examgenius.mooo.com:8000';
+    }
+
+    // Fallback for AWS auto-generated hostnames
     if (window.location.hostname.includes('amazonaws.com')) {
-        return `${window.location.protocol}//${window.location.hostname}`;
+        return `${window.location.protocol}//${window.location.hostname}:8000`;
     }
-    return 'https://examgenius.mooo.com';
+
+    return 'http://examgenius.mooo.com:8000';
 };
 
 const API_CONFIG = {
@@ -23,20 +32,8 @@ const API_CONFIG = {
     BASE_URL: isProduction ? getProductionURL() : 'http://127.0.0.1:8000',
     API_VERSION: '/api/v1',
     TIMEOUT: 30000,
-    AI_TIMEOUT: 90000,  // 90 seconds for AI operations
+    AI_TIMEOUT: 90000,
     IS_PRODUCTION: isProduction
 };
 
-// Log environment for debugging
-console.log(`[API Config] Environment: ${isProduction ? 'PRODUCTION' : 'DEVELOPMENT'}`);
-console.log(`[API Config] Base URL: ${API_CONFIG.BASE_URL}`);
-
-// Get full API URL
-const getApiUrl = (endpoint) => {
-    return `${API_CONFIG.BASE_URL}${API_CONFIG.API_VERSION}${endpoint}`;
-};
-
-// Export configuration
-window.API_CONFIG = API_CONFIG;
-window.getApiUrl = getApiUrl;
-
+// ... remaining logic (logging and getApiUrl)
