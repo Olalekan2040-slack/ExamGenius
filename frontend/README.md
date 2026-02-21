@@ -14,7 +14,7 @@ Modern, mobile-first web application for JAMB CBT preparation.
 - **Real-time Updates**: Live timer, progress tracking, instant feedback
 
 ## 📁 Project Structure 
-This is the structure below
+This is the structure
 
 ```
 frontend/
