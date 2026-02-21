@@ -3,9 +3,9 @@ name: Deploy Frontend to EC2
 on:
   push:
     branches:
-      - master  # Set this to your default branch
+      - master
     paths:
-      - 'frontend/**' # Only trigger when files in the frontend folder change
+      - 'frontend/**'
 
 jobs:
   deploy:
@@ -15,7 +15,18 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Deploy to EC2 via SSH
+      - name: Copy Frontend files to EC2
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          source: "frontend/*"
+          target: "/tmp/frontend-deploy"
+          strip_components: 1 # This prevents it from creating a 'frontend' folder inside the target
+
+      - name: Move files and Set Permissions
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
@@ -23,20 +34,15 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: 22
           script: |
-            # 1. Navigate to your app directory (create if it doesn't exist)
+            # Ensure the web directory exists
             sudo mkdir -p /var/www/html
             
-            # 2. Navigate to a temp folder to pull the repo
-            cd /tmp
-            rm -rf my-repo-temp
-            git clone https://github.com/${{ github.repository }}.git my-repo-temp
+            # Move files from temp to web root
+            sudo cp -r /tmp/frontend-deploy/* /var/www/html/
             
-            # 3. Copy only the frontend folder contents to the web root
-            sudo cp -r my-repo-temp/frontend/* /var/www/html/
+            # Clean up temp files
+            rm -rf /tmp/frontend-deploy
             
-            # 4. Cleanup
-            rm -rf my-repo-temp
-            
-            # 5. Ensure correct permissions for the web server
+            # Set correct ownership for the web server (Nginx/Apache)
             sudo chown -R www-data:www-data /var/www/html
             sudo chmod -R 755 /var/www/html
