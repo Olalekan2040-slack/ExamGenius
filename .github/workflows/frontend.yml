@@ -24,9 +24,9 @@ jobs:
           port: 22
           source: "frontend/*"
           target: "/tmp/frontend-deploy"
-          strip_components: 1 # This prevents it from creating a 'frontend' folder inside the target
+          strip_components: 1
 
-      - name: Move files and Set Permissions
+      - name: Move files and Restart Nginx
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
@@ -34,15 +34,20 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: 22
           script: |
-            # Ensure the web directory exists
+            # 1. Ensure the web directory exists
             sudo mkdir -p /var/www/html
             
-            # Move files from temp to web root
+            # 2. Move files from temp to web root
             sudo cp -r /tmp/frontend-deploy/* /var/www/html/
             
-            # Clean up temp files
+            # 3. Clean up temp files
             rm -rf /tmp/frontend-deploy
             
-            # Set correct ownership for the web server (Nginx/Apache)
+            # 4. Set correct ownership
             sudo chown -R www-data:www-data /var/www/html
             sudo chmod -R 755 /var/www/html
+
+            # 5. Check Nginx config and restart
+            echo "Checking Nginx configuration..."
+            sudo nginx -t && sudo systemctl restart nginx
+            echo "Nginx restarted successfully."
