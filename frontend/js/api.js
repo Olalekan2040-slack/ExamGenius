@@ -385,29 +385,32 @@ class APIService {
 
     // ===== PROFILE ENDPOINTS =====
 
-    async completeProfile(fullName, phoneNumber, classLevel, subjects) {
-        return this.request('/api/profile/complete', {
+    async completeProfile(profileData) {
+        return this.request('/profile/complete', {
             method: 'POST',
-            body: {
-                full_name: fullName,
-                phone_number: phoneNumber,
-                class_level: classLevel,
-                subjects
-            },
+            body: profileData,
             requireAuth: true
         });
     }
 
     async checkProfileCompletion() {
-        return this.request('/api/profile/check-completion', {
+        return this.request('/profile/check-completion', {
             requireAuth: true
         });
     }
 
     async updateSubjects(subjects) {
-        return this.request('/api/profile/subjects', {
+        return this.request('/profile/subjects', {
             method: 'PUT',
             body: { subjects },
+            requireAuth: true
+        });
+    }
+
+    // ===== POINTS ENDPOINT =====
+
+    async getPoints() {
+        return this.request('/dashboard/points', {
             requireAuth: true
         });
     }

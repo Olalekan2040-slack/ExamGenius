@@ -76,6 +76,18 @@ async function handleLogin(event) {
 
     if (result.success) {
         showToast('Login successful! Welcome back.', 'success');
+        
+        // Check if profile is completed
+        try {
+            const profileCheck = await api.request('/profile/check-completion', { requireAuth: true });
+            if (profileCheck.requires_completion) {
+                router.navigate('profile-setup');
+                return;
+            }
+        } catch (e) {
+            console.log('Profile check failed, proceeding to dashboard:', e);
+        }
+        
         router.navigate('dashboard');
     } else {
         // Check if error is email not verified

@@ -1,28 +1,41 @@
 """
 Initialize PostgreSQL database schema for ExamGenius
-Creates all necessary tables for user management, practice, and analytics
+Creates all necessary tables from postgres_schema.sql
+Reads DATABASE_URL from .env file
 """
 
 import psycopg2
 from pathlib import Path
 import sys
+import os
+
+
+def load_database_url():
+    """Load DATABASE_URL from .env file"""
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        with open(env_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('DATABASE_URL='):
+                    return line.split('=', 1)[1].strip().strip('"').strip("'")
+    
+    # Fallback to environment variable
+    return os.environ.get('DATABASE_URL', '')
 
 
 def init_postgres_schema():
     """Initialize PostgreSQL schema"""
     
-    # Database connection parameters
-    db_config = {
-        'host': 'localhost',
-        'port': 5432,
-        'database': 'ExamgeniusDB',
-        'user': 'postgres',
-        'password': 'Policewomen@007'
-    }
+    db_url = load_database_url()
+    if not db_url:
+        print("ERROR: DATABASE_URL not found in .env file or environment variables")
+        print("Expected format: DATABASE_URL=postgresql://user:password@host:5432/dbname")
+        return False
     
     try:
         print("Connecting to PostgreSQL...")
-        conn = psycopg2.connect(**db_config)
+        conn = psycopg2.connect(db_url, connect_timeout=10)
         cursor = conn.cursor()
         print("=> Connected successfully!")
         
@@ -55,55 +68,20 @@ def init_postgres_schema():
         for table in tables:
             print(f"  - {table[0]}")
         
-        # Create a test admin user
-        print("\nCreating test admin user...")
-        from datetime import datetime
-        import hashlib
-        
-        test_email = "admin@examgenius.ng"
-        test_password = "admin123"  # Change this!
-        hashed_pwd = hashlib.sha256(test_password.encode()).hexdigest()
-        
-        try:
-            cursor.execute("""
-                INSERT INTO users (name, email, password_hash, role, is_verified, created_at)
-                VALUES (%s, %s, %s, %s, %s, %s)
-                ON CONFLICT (email) DO NOTHING
-                RETURNING id
-            """, ("Admin User", test_email, hashed_pwd, "admin", 1, datetime.now()))
-            
-            result = cursor.fetchone()
-            if result:
-                print(f"=> Admin user created: {test_email} / {test_password}")
-            else:
-                print(f"INFO: Admin user already exists: {test_email}")
-            
-            conn.commit()
-        except Exception as e:
-            print(f"WARNING: Could not create admin user: {e}")
-        
         cursor.close()
         conn.close()
+        
+        # Parse host info for display (hide password)
+        display_url = db_url.split('@')[1] if '@' in db_url else 'configured host'
         
         print("\n" + "="*60)
         print("DATABASE INITIALIZATION COMPLETE!")
         print("="*60)
-        print(f"""
-Database: {db_config['database']}
-Host: {db_config['host']}:{db_config['port']}
-Total Tables: {len(tables)}
-
-Test Admin Credentials:
-  Email: {test_email}
-  Password: {test_password}
-
-WARNING: Change the admin password in production!
-
-Next Steps:
-1. Update your .env file with DATABASE_URL
-2. Import existing data if migrating from SQLite
-3. Start the FastAPI server: uvicorn app.main:app --reload
-        """)
+        print(f"  Host: {display_url}")
+        print(f"  Total Tables: {len(tables)}")
+        print("\nNext Steps:")
+        print("  1. Import questions: python scripts/import_jamb_postgres.py")
+        print("  2. Start the server: uvicorn main:app --reload")
         print("="*60)
         
         return True

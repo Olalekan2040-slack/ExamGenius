@@ -1,9 +1,7 @@
 -- ExamGenius PostgreSQL Schema
--- Converted from SQLite schema
--- Drop existing tables if needed (careful in production!)
--- DROP TABLE IF EXISTS ... CASCADE;
+-- All tables required for the application
 
--- Users table (authentication and profiles)
+-- Users table (authentication)
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
@@ -35,6 +33,7 @@ CREATE TABLE IF NOT EXISTS user_profiles (
     local_government TEXT,
     preferred_exam TEXT DEFAULT 'JAMB',
     profile_completed INTEGER DEFAULT 0,
+    learning_points INTEGER DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -103,6 +102,16 @@ CREATE TABLE IF NOT EXISTS questions (
     predicted_subtopics TEXT
 );
 
+-- Options for questions (main question bank)
+CREATE TABLE IF NOT EXISTS options (
+    id SERIAL PRIMARY KEY,
+    question_id TEXT NOT NULL REFERENCES questions(id) ON DELETE CASCADE,
+    option_key TEXT NOT NULL,
+    option_text TEXT NOT NULL,
+    is_correct INTEGER DEFAULT 0,
+    UNIQUE(question_id, option_key)
+);
+
 -- Past Questions Management (admin content)
 CREATE TABLE IF NOT EXISTS past_questions (
     id SERIAL PRIMARY KEY,
@@ -124,7 +133,7 @@ CREATE TABLE IF NOT EXISTS past_questions (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Question options
+-- Options for past_questions (admin content)
 CREATE TABLE IF NOT EXISTS question_options (
     id SERIAL PRIMARY KEY,
     question_id INTEGER NOT NULL REFERENCES past_questions(id) ON DELETE CASCADE,
@@ -134,7 +143,7 @@ CREATE TABLE IF NOT EXISTS question_options (
     UNIQUE(question_id, option_key)
 );
 
--- Practice attempts (topic and year practice)
+-- Practice attempts (topic, year, and CBT practice)
 CREATE TABLE IF NOT EXISTS practice_attempts (
     id SERIAL PRIMARY KEY,
     user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
@@ -166,7 +175,7 @@ CREATE TABLE IF NOT EXISTS exam_sessions (
     expires_at TIMESTAMP
 );
 
--- Session questions
+-- Session questions (questions in a CBT session)
 CREATE TABLE IF NOT EXISTS session_questions (
     id SERIAL PRIMARY KEY,
     session_id TEXT NOT NULL REFERENCES exam_sessions(id) ON DELETE CASCADE,
@@ -194,6 +203,15 @@ CREATE TABLE IF NOT EXISTS user_stats (
     accuracy REAL DEFAULT 0.0,
     last_practiced TIMESTAMP,
     UNIQUE(user_id, subject, topic)
+);
+
+-- User streaks (daily activity)
+CREATE TABLE IF NOT EXISTS user_streaks (
+    user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+    current_streak INTEGER DEFAULT 0,
+    longest_streak INTEGER DEFAULT 0,
+    last_activity_date DATE,
+    total_active_days INTEGER DEFAULT 0
 );
 
 -- Topic lessons (AI-generated or cached)
@@ -293,15 +311,6 @@ CREATE TABLE IF NOT EXISTS ai_generated_questions (
     used_count INTEGER DEFAULT 0
 );
 
--- User streaks (daily activity)
-CREATE TABLE IF NOT EXISTS user_streaks (
-    user_id INTEGER PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
-    current_streak INTEGER DEFAULT 0,
-    longest_streak INTEGER DEFAULT 0,
-    last_activity_date DATE,
-    total_active_days INTEGER DEFAULT 0
-);
-
 -- Invalidated tokens (logout)
 CREATE TABLE IF NOT EXISTS invalidated_tokens (
     id SERIAL PRIMARY KEY,
@@ -373,7 +382,69 @@ CREATE TABLE IF NOT EXISTS content_performance (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Create indexes for performance
+-- Learning progress (guided learning objective tracking)
+CREATE TABLE IF NOT EXISTS learning_progress (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    subject TEXT NOT NULL,
+    topic_name TEXT NOT NULL,
+    subtopic_index INTEGER NOT NULL,
+    objective_index INTEGER NOT NULL,
+    status TEXT DEFAULT 'not_started' CHECK(status IN ('not_started', 'in_progress', 'completed')),
+    question_answered BOOLEAN DEFAULT FALSE,
+    answered_correctly BOOLEAN,
+    is_weakness BOOLEAN DEFAULT FALSE,
+    started_at TIMESTAMP,
+    completed_at TIMESTAMP,
+    time_spent_seconds INTEGER DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(user_id, subject, topic_name, subtopic_index, objective_index)
+);
+
+-- Objective explanations cache (AI-generated explanations)
+CREATE TABLE IF NOT EXISTS objective_explanations (
+    id SERIAL PRIMARY KEY,
+    subject TEXT NOT NULL,
+    topic_name TEXT NOT NULL,
+    subtopic_name TEXT NOT NULL,
+    objective_text TEXT NOT NULL,
+    explanation TEXT NOT NULL,
+    diagram_url TEXT,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE(subject, topic_name, subtopic_name, objective_text)
+);
+
+-- Objective Q&A cache (AI-generated answers to student questions)
+CREATE TABLE IF NOT EXISTS objective_qa_cache (
+    id SERIAL PRIMARY KEY,
+    subject TEXT NOT NULL,
+    topic_name TEXT NOT NULL,
+    subtopic_name TEXT NOT NULL,
+    objective_text TEXT NOT NULL,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Gamification events (points and achievements)
+CREATE TABLE IF NOT EXISTS gamification_events (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    event_type TEXT NOT NULL,
+    points INTEGER DEFAULT 0,
+    subject TEXT,
+    topic TEXT,
+    subtopic TEXT,
+    description TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Performance indexes
+CREATE INDEX IF NOT EXISTS idx_questions_subject ON questions(subject);
+CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(subject, topic);
+CREATE INDEX IF NOT EXISTS idx_questions_year ON questions(year);
+CREATE INDEX IF NOT EXISTS idx_options_question_id ON options(question_id);
 CREATE INDEX IF NOT EXISTS idx_practice_user_subject ON practice_attempts(user_id, subject);
 CREATE INDEX IF NOT EXISTS idx_practice_topic ON practice_attempts(subject, topic);
 CREATE INDEX IF NOT EXISTS idx_user_stats_accuracy ON user_stats(user_id, accuracy);
@@ -383,6 +454,6 @@ CREATE INDEX IF NOT EXISTS idx_user_subjects ON user_subjects(user_id);
 CREATE INDEX IF NOT EXISTS idx_past_questions_subject_topic ON past_questions(subject_id, topic_id, subtopic_id);
 CREATE INDEX IF NOT EXISTS idx_learning_videos_subject_topic ON learning_videos(subject_id, topic_id, subtopic_id);
 CREATE INDEX IF NOT EXISTS idx_learning_notes_subject_topic ON learning_notes(subject_id, topic_id, subtopic_id);
-CREATE INDEX IF NOT EXISTS idx_questions_subject ON questions(subject);
-CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(subject, topic);
-CREATE INDEX IF NOT EXISTS idx_questions_year ON questions(year);
+CREATE INDEX IF NOT EXISTS idx_learning_progress_user ON learning_progress(user_id, subject);
+CREATE INDEX IF NOT EXISTS idx_gamification_user ON gamification_events(user_id);
+CREATE INDEX IF NOT EXISTS idx_invalidated_tokens_token ON invalidated_tokens(token);

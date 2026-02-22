@@ -210,7 +210,7 @@ async function showGuidedSubjectSelect() {
                         <div class="tip-icon"><i class="fas fa-star"></i></div>
                         <div class="tip-content">
                             <h4>Earn Points</h4>
-                            <p>Complete objectives and answer questions correctly to earn learning points!</p>
+                            <p>Complete objectives and answer questions correctly to earn points!</p>
                         </div>
                     </div>
                     <div class="tip-card">
@@ -893,7 +893,7 @@ function showPointsNotification(points) {
         z-index: 10000;
         animation: slideInRight 0.3s ease-out;
     `;
-    notification.innerHTML = `🎉 +${points} Learning Points!`;
+    notification.innerHTML = `🎉 +${points} Points!`;
     document.body.appendChild(notification);
     
     setTimeout(() => {
@@ -1040,7 +1040,7 @@ async function showStaticTopicComplete() {
                         <i class="fas fa-star"></i>
                         <span>+${totalBonus} Points!</span>
                     </div>
-                    <p class="total-points-display">Total: <strong>${totalPoints}</strong> Learning Points</p>
+                    <p class="total-points-display">Total: <strong>${totalPoints}</strong> Points</p>
                 </div>
                 
                 <div class="summary-stats">
@@ -2215,7 +2215,7 @@ async function awardLearningPoints(params) {
         
         // Show toast notification for points
         if (response.success) {
-            showToast(`+${params.points} Learning Points!`, 'success');
+            showToast(`+${params.points} Points!`, 'success');
         }
         
         return response;

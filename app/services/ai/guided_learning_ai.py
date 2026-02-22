@@ -10,8 +10,8 @@ import requests
 from typing import Dict, List, Optional
 from app.core.config import settings
 
-# API Configuration - Use the provided Gemini API key
-GEMINI_API_KEY = "REDACTED_GEMINI_KEY"
+# API Configuration - Use Gemini API key from settings/.env
+GEMINI_API_KEY = settings.GEMINI_API_KEY
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 
 

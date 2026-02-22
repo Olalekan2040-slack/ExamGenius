@@ -53,7 +53,7 @@
 
 ### 🔐 **Secure & Scalable**
 - JWT-based authentication
-- SQLite database with optimized queries
+- PostgreSQL database with optimized queries
 - OpenRouter AI integration (DeepSeek V3.2)
 - Production-ready architecture
 
@@ -76,6 +76,7 @@
 ```
 ✓ Python 3.8+
 ✓ pip (package manager)
+✓ PostgreSQL 13+
 ✓ Git
 ✓ OpenRouter API Key (for AI features)
 ```
@@ -99,13 +100,18 @@ pip install -r requirements.txt
 ### 2️⃣ Configure Environment
 Create `.env` in the project root:
 ```env
+DATABASE_URL=postgresql://user:password@localhost:5432/ExamgeniusDB
 OPENROUTER_API_KEY=sk-your-key-here
-OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 SECRET_KEY=your-secret-key-here
 DEBUG=False
 ```
 
-### 3️⃣ Run Application
+### 3️⃣ Initialize Database
+```bash
+python scripts/init_postgres_db.py
+```
+
+### 4️⃣ Run Application
 ```bash
 # Terminal 1: Start Backend (Port 8000)
 uvicorn main:app --reload
@@ -115,7 +121,7 @@ cd frontend
 python -m http.server 8080
 ```
 
-### 4️⃣ Access Application
+### 5️⃣ Access Application
 ```
 Frontend:  http://localhost:8080
 Backend:   http://localhost:8000
@@ -138,7 +144,7 @@ examgenius/
 │   │   └── jamb.py              # Public question retrieval
 │   ├── services/ai/
 │   │   └── gemini_service.py     # DeepSeek via OpenRouter
-│   ├── db/database.py            # SQLite connection
+│   ├── db/database.py            # PostgreSQL connection
 │   └── core/security.py          # JWT & auth logic
 ├── 📂 frontend/
 │   ├── js/
@@ -239,7 +245,7 @@ curl -X GET "http://localhost:8000/api/v1/learn/topics/Biology" \
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
 | **Backend** | FastAPI, Pydantic | Modern async REST API |
-| **Database** | SQLite3 | Lightweight, serverless DB |
+| **Database** | PostgreSQL | Reliable, production-grade DB |
 | **AI** | OpenRouter (DeepSeek V3.2) | LLM for lessons & tutoring |
 | **Frontend** | Vanilla JS, HTML5, CSS3 | Lightweight, responsive UI |
 | **Auth** | JWT (PyJWT) | Secure token-based auth |
@@ -280,8 +286,8 @@ OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
 SECRET_KEY=your-256-bit-secret-key
 DEBUG=False
 
-# Database (auto-created)
-DATABASE_URL=sqlite:///./jamb_questions.db
+# Database (PostgreSQL)
+DATABASE_URL=postgresql://user:password@localhost:5432/ExamgeniusDB
 
 # Optional: Email
 MAIL_SERVER=smtp.gmail.com
@@ -336,7 +342,7 @@ DEBUG=True uvicorn main:app --reload --log-level debug
 | `[object Object]` errors | Check `frontend/js/api.js` error handler; verify API response |
 | 422 Validation Error | Ensure `question_id` is sent in practice submission |
 | AI tutor fails | Verify `OPENROUTER_API_KEY` is set & accessible |
-| Database locked | Ensure only one instance of the app is running |
+| Database connection failed | Check PostgreSQL is running and DATABASE_URL in .env is correct |
 | CORS errors | Adjust CORS settings in `main.py` if needed |
 
 ---

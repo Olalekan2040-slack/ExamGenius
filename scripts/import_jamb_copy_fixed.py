@@ -14,13 +14,7 @@ from app.core.config import settings
 
 def get_connection():
     """Create a fresh database connection"""
-    return psycopg2.connect(
-        dbname="ExamgeniusDB",
-        user="postgres",
-        password="Policewomen@007",
-        host="localhost",
-        port=5432
-    )
+    return psycopg2.connect(settings.DATABASE_URL, connect_timeout=10)
 
 
 def import_jamb_copy_questions():

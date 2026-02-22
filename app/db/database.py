@@ -14,12 +14,12 @@ _connection: Optional['PostgresConnectionCompat'] = None
 
 
 class PostgresCursorCompat:
-    """Wrapper to make psycopg2 cursor compatible with SQLite-style ? placeholders"""
+    """Wrapper to make psycopg2 cursor compatible with ? placeholders"""
     def __init__(self, cursor):
         self._cursor = cursor
 
     def execute(self, query: str, params=None):
-        # Convert SQLite "?" placeholders to psycopg2 "%s"
+        # Convert ? placeholders to psycopg2 %s format
         if "?" in query:
             query = query.replace("?", "%s")
         return self._cursor.execute(query, params or ())

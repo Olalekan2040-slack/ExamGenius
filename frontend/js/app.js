@@ -43,9 +43,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             hideLoading();
 
-            // Navigate to appropriate screen
-            // Priority: URL hash > saved route > dashboard
-            if (hash && router.routes[hash]) {
+            // Check if profile is completed before navigating
+            let profileCompleted = true;
+            try {
+                const profileCheck = await api.request('/profile/check-completion', { requireAuth: true });
+                profileCompleted = !profileCheck.requires_completion;
+            } catch (e) {
+                console.log('Profile completion check failed:', e);
+            }
+
+            if (!profileCompleted) {
+                router.navigate('profile-setup');
+            } else if (hash && router.routes[hash]) {
+                // Navigate to appropriate screen
+                // Priority: URL hash > saved route > dashboard
                 router.navigate(hash);
             } else {
                 const savedRoute = router.getSavedRoute();

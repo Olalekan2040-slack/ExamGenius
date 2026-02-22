@@ -8,9 +8,16 @@ from typing import List, Dict, Optional
 from datetime import datetime, timedelta
 from app.db.database import get_connection
 from app.core.security import current_user_id
-from app.services.ai.gemini_service import generate_recommendations
 
 router = APIRouter(prefix="/dashboard", tags=["Dashboard"])
+
+# Department-to-subjects mapping for filtering recommendations
+DEPARTMENT_SUBJECTS = {
+    'Science': ['English', 'Physics', 'Chemistry', 'Biology', 'Mathematics'],
+    'Commercial': ['English', 'Commerce', 'Accounting', 'Economics', 'Mathematics'],
+    'Art': ['English', 'Government', 'Literature in English', 'Economics', 'History',
+            'Geography', 'Hausa', 'Igbo', 'French', 'Music', 'Art']
+}
 
 
 @router.get("/stats")
@@ -79,13 +86,13 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
         department = profile_rows[0][0] if profile_rows else None
         registered_subjects = [row[1] for row in profile_rows if row[1]]
 
-        # Get weakest topics from practice attempts (bottom 5)
+        # Get weakest topics from practice attempts (bottom 8)
         cursor.execute("""
             SELECT subject, topic, accuracy, total_attempts
             FROM user_stats
             WHERE user_id = ? AND accuracy IS NOT NULL
             ORDER BY accuracy ASC
-            LIMIT 5
+            LIMIT 8
         """, (user_id,))
 
         weakest_topics = [
@@ -112,7 +119,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                    NULLIF(CAST(COUNT(*) AS FLOAT), 0) * 100 < 100
             ORDER BY CAST(SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) AS FLOAT) / 
                    NULLIF(CAST(COUNT(*) AS FLOAT), 0) * 100 ASC
-            LIMIT 5
+            LIMIT 6
         """, (user_id,))
         
         incomplete_learning = [
@@ -126,38 +133,123 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             for row in cursor.fetchall()
         ]
 
-        # Get recommended topics with fallback logic
-        # Combine weakest practice topics and incomplete learning topics
-        all_topics_for_recommendation = incomplete_learning + weakest_topics
-        
-        # Try 1: Topics from registered subjects (prioritize incomplete learning)
-        recommended_topics = [t for t in all_topics_for_recommendation if t["subject"] in registered_subjects][:3]
+        # Get weak topics from CBT sessions (join with questions to get topic)
+        cursor.execute("""
+            SELECT sq.subject, q.topic,
+                   ROUND(CAST(SUM(CASE WHEN sq.is_correct = 1 THEN 1 ELSE 0 END) AS NUMERIC) /
+                   NULLIF(CAST(COUNT(*) AS NUMERIC), 0) * 100, 2) as accuracy,
+                   COUNT(*) as attempts
+            FROM session_questions sq
+            JOIN exam_sessions es ON sq.session_id = es.id
+            JOIN questions q ON sq.question_id = q.id
+            WHERE es.user_id = ? AND es.status = 'completed' AND q.topic IS NOT NULL
+            GROUP BY sq.subject, q.topic
+            HAVING CAST(SUM(CASE WHEN sq.is_correct = 1 THEN 1 ELSE 0 END) AS FLOAT) /
+                   NULLIF(CAST(COUNT(*) AS FLOAT), 0) < 0.7
+            ORDER BY accuracy ASC
+            LIMIT 6
+        """, (user_id,))
 
-        # Try 2: If no registered subjects or no practice in registered subjects, use ANY topics
-        if not recommended_topics and all_topics_for_recommendation:
-            recommended_topics = all_topics_for_recommendation[:3]
+        cbt_weak_topics = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "accuracy": row[2] if row[2] else 0,
+                "attempts": row[3],
+                "source": "cbt"
+            }
+            for row in cursor.fetchall()
+        ]
 
-        # Try 3: If no practice history at all, suggest starting topics
-        if not recommended_topics:
-            if registered_subjects:
-                placeholders = ','.join(['?'] * len(registered_subjects))
-                cursor.execute(f"""
+        # Get weak topics from year practice (practice_type = 'year')
+        cursor.execute("""
+            SELECT subject, topic,
+                   ROUND(CAST(SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) AS NUMERIC) /
+                   NULLIF(CAST(COUNT(*) AS NUMERIC), 0) * 100, 2) as accuracy,
+                   COUNT(*) as attempts
+            FROM practice_attempts
+            WHERE user_id = ? AND practice_type = 'year' AND topic IS NOT NULL
+            GROUP BY subject, topic
+            HAVING CAST(SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) AS FLOAT) /
+                   NULLIF(CAST(COUNT(*) AS FLOAT), 0) < 0.7
+            ORDER BY accuracy ASC
+            LIMIT 6
+        """, (user_id,))
+
+        year_practice_weak = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "accuracy": row[2] if row[2] else 0,
+                "attempts": row[3],
+                "source": "year_practice"
+            }
+            for row in cursor.fetchall()
+        ]
+
+        # Combine all weakness sources and build recommendations
+        # Priority: incomplete learning > practice weak > CBT weak > year practice weak
+        all_weak = incomplete_learning + weakest_topics + cbt_weak_topics + year_practice_weak
+
+        # Determine allowed subjects based on department
+        allowed_subjects = set(registered_subjects)
+        if department and department in DEPARTMENT_SUBJECTS:
+            allowed_subjects = allowed_subjects | set(DEPARTMENT_SUBJECTS[department])
+
+        # Filter by department-appropriate subjects (Art students won't see Physics, etc.)
+        recommended_topics = []
+        seen_keys = set()
+        for t in all_weak:
+            key = f"{t['subject']}:{t['topic']}"
+            if key in seen_keys:
+                continue
+            if allowed_subjects and t['subject'] not in allowed_subjects:
+                continue
+            seen_keys.add(key)
+            recommended_topics.append(t)
+            if len(recommended_topics) >= 6:
+                break
+
+        # Fallback: if less than 6, add from registered subjects that haven't been practiced
+        if len(recommended_topics) < 6 and registered_subjects:
+            placeholders = ','.join(['?'] * len(registered_subjects))
+            cursor.execute(f"""
+                SELECT subject, topic FROM (
                     SELECT DISTINCT subject, topic
                     FROM questions
                     WHERE subject IN ({placeholders})
-                    LIMIT 3
-                """, registered_subjects)
-            else:
-                # No registered subjects - suggest from common JAMB subjects
-                cursor.execute("""
+                ) sub
+                ORDER BY RANDOM()
+                LIMIT ?
+            """, registered_subjects + [6 - len(recommended_topics)])
+            
+            for row in cursor.fetchall():
+                key = f"{row[0]}:{row[1]}"
+                if key not in seen_keys:
+                    recommended_topics.append({
+                        "subject": row[0], "topic": row[1], 
+                        "accuracy": None, "attempts": 0, "source": "suggested"
+                    })
+                    seen_keys.add(key)
+                    if len(recommended_topics) >= 6:
+                        break
+
+        # Fallback: if still empty, use department subjects
+        if not recommended_topics and department and department in DEPARTMENT_SUBJECTS:
+            dept_subjects = DEPARTMENT_SUBJECTS[department]
+            placeholders = ','.join(['?'] * len(dept_subjects))
+            cursor.execute(f"""
+                SELECT subject, topic FROM (
                     SELECT DISTINCT subject, topic
                     FROM questions
-                    WHERE subject IN ('English Language', 'Mathematics')
-                    LIMIT 3
-                """)
+                    WHERE subject IN ({placeholders})
+                ) sub
+                ORDER BY RANDOM()
+                LIMIT 6
+            """, dept_subjects)
             
             recommended_topics = [
-                {"subject": row[0], "topic": row[1], "accuracy": None, "attempts": 0}
+                {"subject": row[0], "topic": row[1], "accuracy": None, "attempts": 0, "source": "suggested"}
                 for row in cursor.fetchall()
             ]
 
@@ -623,4 +715,119 @@ async def get_grade_predictor(user_id: int = Depends(current_user_id)):
         raise HTTPException(
             status_code=500,
             detail=f"Failed to calculate prediction: {str(e)}"
+        )
+
+
+@router.get("/points")
+async def get_unified_points(user_id: int = Depends(current_user_id)):
+    """
+    Get unified points from all sources:
+    1. Learning points (correct answers in guided learning)
+    2. CBT scores (total correct in completed CBT sessions)
+    3. Year practice scores (correct answers in year practice)
+    4. Daily streak bonus (streak * 5 points per day)
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    try:
+        conn.rollback()
+    except Exception:
+        pass
+
+    try:
+        # 1. Learning points from user_profiles (accumulated from guided learning)
+        cursor.execute("""
+            SELECT COALESCE(learning_points, 0) FROM user_profiles WHERE user_id = ?
+        """, (user_id,))
+        result = cursor.fetchone()
+        learning_points = result[0] if result else 0
+
+        # 2. CBT points: total correct answers across all completed CBT sessions (* 2 points each)
+        cursor.execute("""
+            SELECT COALESCE(SUM(score), 0) FROM exam_sessions
+            WHERE user_id = ? AND status = 'completed'
+        """, (user_id,))
+        result = cursor.fetchone()
+        cbt_correct = result[0] if result else 0
+        cbt_points = cbt_correct * 2
+
+        # 3. Year practice points: correct answers in year practice (* 1 point each)
+        cursor.execute("""
+            SELECT COALESCE(SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END), 0)
+            FROM practice_attempts
+            WHERE user_id = ? AND practice_type = 'year'
+        """, (user_id,))
+        result = cursor.fetchone()
+        year_practice_points = result[0] if result else 0
+
+        # 4. Topic practice points: correct answers in topic practice (* 1 point each)
+        cursor.execute("""
+            SELECT COALESCE(SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END), 0)
+            FROM practice_attempts
+            WHERE user_id = ? AND practice_type = 'topic'
+        """, (user_id,))
+        result = cursor.fetchone()
+        topic_practice_points = result[0] if result else 0
+
+        # 5. Streak bonus: current_streak * 5
+        cursor.execute("""
+            SELECT COALESCE(current_streak, 0), COALESCE(total_active_days, 0)
+            FROM user_streaks WHERE user_id = ?
+        """, (user_id,))
+        result = cursor.fetchone()
+        current_streak = result[0] if result else 0
+        total_active_days = result[1] if result else 0
+        streak_points = current_streak * 5
+
+        # Total
+        total_points = learning_points + cbt_points + year_practice_points + topic_practice_points + streak_points
+
+        # Calculate level
+        level = 1
+        if total_points >= 5000:
+            level = 10
+        elif total_points >= 3000:
+            level = 8
+        elif total_points >= 2000:
+            level = 6
+        elif total_points >= 1000:
+            level = 5
+        elif total_points >= 500:
+            level = 4
+        elif total_points >= 250:
+            level = 3
+        elif total_points >= 100:
+            level = 2
+
+        level_names = {
+            1: "Beginner", 2: "Learner", 3: "Student", 4: "Scholar",
+            5: "Expert", 6: "Master", 8: "Genius", 10: "Legend"
+        }
+
+        return {
+            "total_points": total_points,
+            "level": level,
+            "level_name": level_names.get(level, "Beginner"),
+            "breakdown": {
+                "learning": learning_points,
+                "cbt": cbt_points,
+                "year_practice": year_practice_points,
+                "topic_practice": topic_practice_points,
+                "streak_bonus": streak_points
+            },
+            "streak": {
+                "current": current_streak,
+                "active_days": total_active_days
+            }
+        }
+
+    except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to calculate points: {str(e)}"
         )

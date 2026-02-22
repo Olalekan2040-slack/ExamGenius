@@ -192,7 +192,7 @@ async def get_cbt_questions(
             raise HTTPException(
                 status_code=400, detail=f"Session is {session[1]}")
 
-        # Check expiry (Postgres returns datetime, SQLite may return str)
+        # Check expiry (handle both datetime and string formats)
         expires_val = session[2]
         expires_dt = datetime.fromisoformat(expires_val) if isinstance(expires_val, str) else expires_val
         if expires_dt < datetime.utcnow():

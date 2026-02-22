@@ -7,17 +7,19 @@ async function showDashboard() {
         const user = authManager.getUser();
         const stats = await api.getDashboardStats();
         
-        // Fetch learning points
-        let learningPoints = { total_points: 0, level: 1, level_name: 'Beginner' };
+        // Fetch unified points from all sources
+        let pointsData = { total_points: 0, level: 1, level_name: 'Beginner', breakdown: {} };
         try {
-            learningPoints = await api.request('/guided-learn/points', { requireAuth: true });
+            pointsData = await api.getPoints();
         } catch (e) {
-            console.log('Could not fetch learning points:', e);
+            console.log('Could not fetch points:', e);
         }
         
         // Log for debugging
         console.log('Dashboard stats received:', stats);
-        console.log('Learning points:', learningPoints);
+        console.log('Points data:', pointsData);
+
+        const breakdown = pointsData.breakdown || {};
 
         const content = `
             <div class="dashboard">
@@ -25,7 +27,7 @@ async function showDashboard() {
                 
                 <!-- Stats Cards -->
                 <div class="stats-grid">
-                    ${createStatCard('Learning Points', learningPoints.total_points, 'fa-star', 'var(--primary-yellow)')}
+                    ${createStatCard('Points', pointsData.total_points, 'fa-star', 'var(--primary-yellow)')}
                     ${createStatCard('Accuracy', stats.overall_stats.overall_accuracy.toFixed(1) + '%', 'fa-bullseye', 'var(--success)')}
                     ${createStatCard('Correct Answers', stats.overall_stats.correct_attempts, 'fa-check-circle', 'var(--success)')}
                     ${createStatCard('Active Days', stats.overall_stats.total_active_days, 'fa-calendar-check', 'var(--primary-yellow-dark)')}
@@ -39,11 +41,18 @@ async function showDashboard() {
                         </div>
                         <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0;">
                             <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ffd700, #ff8c00); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: bold; color: white;">
-                                ${learningPoints.level}
+                                ${pointsData.level}
                             </div>
                             <div>
-                                <h3 style="margin: 0; font-size: 24px; color: var(--text-primary);">${learningPoints.level_name}</h3>
-                                <p style="margin: 4px 0 0; color: var(--text-secondary);">${learningPoints.total_points} total points</p>
+                                <h3 style="margin: 0; font-size: 24px; color: var(--text-primary);">${pointsData.level_name}</h3>
+                                <p style="margin: 4px 0 0; color: var(--text-secondary);">${pointsData.total_points} total points</p>
+                                <div class="points-breakdown" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px;">
+                                    ${breakdown.learning ? `<span class="points-badge" title="From guided learning"><i class="fas fa-book"></i> ${breakdown.learning}</span>` : ''}
+                                    ${breakdown.cbt ? `<span class="points-badge" title="From CBT exams"><i class="fas fa-laptop"></i> ${breakdown.cbt}</span>` : ''}
+                                    ${breakdown.year_practice ? `<span class="points-badge" title="From year practice"><i class="fas fa-calendar"></i> ${breakdown.year_practice}</span>` : ''}
+                                    ${breakdown.topic_practice ? `<span class="points-badge" title="From topic practice"><i class="fas fa-pen"></i> ${breakdown.topic_practice}</span>` : ''}
+                                    ${breakdown.streak_bonus ? `<span class="points-badge" title="Streak bonus"><i class="fas fa-fire"></i> ${breakdown.streak_bonus}</span>` : ''}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -86,21 +95,23 @@ async function showDashboard() {
                                 ${stats.profile.department ? `Based on your <strong>${stats.profile.department}</strong> department and your performance` : 'Based on your performance'}
                             </p>
                         </div>
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
-                            ${stats.recommended_topics.map((topic, idx) => `
-                                <div style="padding: 16px; background: linear-gradient(135deg, var(--primary-yellow-light) 0%, var(--white) 100%); border-radius: var(--radius-md); border-left: 4px solid var(--success); cursor: pointer; transition: var(--transition);" 
-                                     onmouseover="this.style.boxShadow='var(--shadow-lg)'; this.style.transform='translateY(-4px)'" 
-                                     onmouseout="this.style.boxShadow='var(--shadow-md)'; this.style.transform='translateY(0)'"
+                        <div class="recommended-topics-grid">
+                            ${stats.recommended_topics.map((topic, idx) => {
+                                const sourceLabels = { learning: 'Guided Learning', practice: 'Practice', cbt: 'CBT', year_practice: 'Year Practice', suggested: 'Suggested' };
+                                const sourceLabel = sourceLabels[topic.source] || '';
+                                return `
+                                <div class="recommended-topic-card" 
                                      onclick="router.navigate('guided-learn', {subject: '${topic.subject}', topic: '${topic.topic}'})">
                                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-                                        <span style="display: inline-block; width: 28px; height: 28px; background: var(--primary-yellow); color: var(--white); border-radius: 50%; text-align: center; line-height: 28px; font-weight: 700;">${idx + 1}</span>
-                                        <span style="font-weight: 600; color: var(--text-secondary);">${topic.subject}</span>
+                                        <span class="topic-number">${idx + 1}</span>
+                                        <span style="font-weight: 600; color: var(--text-secondary); flex: 1;">${topic.subject}</span>
+                                        ${sourceLabel ? `<span class="source-badge source-${topic.source || 'suggested'}">${sourceLabel}</span>` : ''}
                                     </div>
-                                    <h3 style="margin-bottom: 8px; color: var(--text-primary);">${topic.topic}</h3>
+                                    <h3 style="margin-bottom: 8px; color: var(--text-primary); font-size: 15px;">${topic.topic}</h3>
                                     ${topic.accuracy !== null && topic.accuracy !== undefined && topic.accuracy > 0 ? `
                                         <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 12px; border-top: 1px solid var(--border-color);">
                                             <span style="font-size: 12px; color: var(--text-secondary);">Current Accuracy</span>
-                                            <span style="font-size: 16px; font-weight: 700; color: var(--error);">${topic.accuracy.toFixed(1)}%</span>
+                                            <span style="font-size: 16px; font-weight: 700; color: ${topic.accuracy < 50 ? 'var(--error)' : 'var(--primary-yellow-dark)'};">${topic.accuracy.toFixed(1)}%</span>
                                         </div>
                                     ` : `
                                         <div style="padding-top: 12px; border-top: 1px solid var(--border-color);">
@@ -108,7 +119,7 @@ async function showDashboard() {
                                         </div>
                                     `}
                                 </div>
-                            `).join('')}
+                            `}).join('')}
                         </div>
                         <div style="padding-top: 16px; border-top: 1px solid var(--border-color); margin-top: 16px;">
                             <button class="btn btn-primary" onclick="router.navigate('guided-learn')" style="width: 100%; justify-content: center;">

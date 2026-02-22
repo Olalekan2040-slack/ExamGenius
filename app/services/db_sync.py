@@ -19,13 +19,8 @@ logger = logging.getLogger(__name__)
 # Get project root
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 
-DB_CONFIG = {
-    'dbname': 'ExamgeniusDB',
-    'user': 'postgres',
-    'password': 'Policewomen@007',
-    'host': 'localhost',
-    'port': 5432
-}
+# DB_CONFIG is parsed from DATABASE_URL in settings at runtime
+DB_CONFIG = None
 
 
 class DatabaseSyncService:
@@ -327,7 +322,7 @@ class DatabaseSyncService:
                     'dbname': host_port_db[1]
                 }
             else:
-                config = DB_CONFIG
+                raise Exception("DATABASE_URL must start with postgresql://")
 
             conn = psycopg2.connect(**config)
             

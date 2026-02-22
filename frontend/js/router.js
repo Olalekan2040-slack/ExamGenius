@@ -21,7 +21,7 @@ class Router {
         }
 
         // Check authentication for protected routes
-        const protectedRoutes = ['dashboard', 'year-practice', 'cbt', 'profile', 'guided-learn'];
+        const protectedRoutes = ['dashboard', 'year-practice', 'cbt', 'profile', 'guided-learn', 'profile-setup'];
         const authRoutes = ['login', 'register', 'verify-email', 'reset-password'];
 
         if (protectedRoutes.includes(name) && !authManager.isAuthenticated()) {
@@ -133,4 +133,8 @@ router.register('cbt', async (params) => {
 
 router.register('profile', async () => {
     await showProfileScreen();
+});
+
+router.register('profile-setup', async () => {
+    await showProfileSetupScreen();
 });

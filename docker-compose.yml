@@ -9,7 +9,6 @@ services:
     env_file:
       - .env
     volumes:
-      - ./jamb_questions.db:/app/jamb_questions.db
       - ./JAMB:/app/JAMB
       - ./logs:/app/logs
     restart: unless-stopped

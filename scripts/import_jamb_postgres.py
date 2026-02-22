@@ -16,14 +16,8 @@ from app.core.config import settings
 def import_all_jamb_questions():
     """Import all JAMB questions from the JAMB folder into PostgreSQL"""
     
-    # Connect directly using the config values
-    conn = psycopg2.connect(
-        dbname="ExamgeniusDB",
-        user="postgres",
-        password="Policewomen@007",
-        host="localhost",
-        port=5432
-    )
+    # Connect using DATABASE_URL from settings
+    conn = psycopg2.connect(settings.DATABASE_URL, connect_timeout=10)
     cursor = conn.cursor()
     
     # Get JAMB directory

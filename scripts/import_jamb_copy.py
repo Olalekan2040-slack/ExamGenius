@@ -17,15 +17,9 @@ from app.core.config import settings
 def import_jamb_copy_questions():
     """Import all JAMB copy questions from the JAMB copy folder into PostgreSQL"""
     
-    # Connect directly using the config values
+    # Connect using DATABASE_URL from settings
     try:
-        conn = psycopg2.connect(
-            dbname="ExamgeniusDB",
-            user="postgres",
-            password="Policewomen@007",
-            host="localhost",
-            port=5432
-        )
+        conn = psycopg2.connect(settings.DATABASE_URL, connect_timeout=10)
     except psycopg2.Error as e:
         print(f"ERROR: Cannot connect to database: {e}")
         return
