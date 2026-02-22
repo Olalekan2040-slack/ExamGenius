@@ -1276,29 +1276,32 @@ async function showObjectiveLearning() {
         const user = authManager.getUser();
         const nav = data.navigation;
         
-        // Parse explanation data
+        // Parse explanation data - handle both new rich format and legacy
         let explanation = data.explanation;
         if (typeof explanation.explanation === 'string') {
             try {
-                explanation = JSON.parse(explanation.explanation);
+                explanation = { ...data.explanation, ...JSON.parse(explanation.explanation) };
             } catch (e) {
-                // Keep as is if not JSON
+                // Keep as is
             }
         }
         
+        // Build the rich explanation content
+        const explanationHTML = buildRichExplanation(explanation);
+        
         const content = `
-            <div class="objective-learning-screen">
+            <div class="objective-learning-screen enhanced">
                 <!-- Header -->
                 <div class="objective-header">
                     <div class="breadcrumb">
                         <span onclick="showGuidedTopicList()" class="clickable">${guidedLearnState.subject}</span>
                         <i class="fas fa-chevron-right"></i>
-                        <span>${guidedLearnState.topicName}</span>
+                        <span onclick="showTopicOverview()" class="clickable">${guidedLearnState.topicName}</span>
                         <i class="fas fa-chevron-right"></i>
                         <span class="current">${data.subtopic_name}</span>
                     </div>
                     <div class="progress-indicator">
-                        <span>${nav.current_position} of ${nav.total_objectives}</span>
+                        <span class="progress-text">${nav.current_position} of ${nav.total_objectives}</span>
                         <div class="mini-progress">
                             <div class="mini-progress-fill" style="width: ${(nav.current_position / nav.total_objectives) * 100}%"></div>
                         </div>
@@ -1307,88 +1310,63 @@ async function showObjectiveLearning() {
                 
                 <!-- Objective Title -->
                 <div class="objective-title-box">
-                    <h2><i class="fas fa-bullseye"></i> Learning Objective</h2>
-                    <p class="objective-text">${data.objective_text}</p>
+                    <div class="objective-title-left">
+                        <span class="objective-badge"><i class="fas fa-bullseye"></i> Objective ${nav.current_position}</span>
+                        <h2>${data.objective_text}</h2>
+                    </div>
                 </div>
                 
-                <!-- Main Content Grid -->
-                <div class="learning-grid">
-                    <!-- Left Column: Explanation -->
-                    <div class="explanation-column">
-                        <div class="card explanation-card">
-                            <div class="card-header">
-                                <h3><i class="fas fa-lightbulb"></i> AI Explanation</h3>
+                <!-- Main Content - Single Column for Better Reading -->
+                <div class="learning-content-flow">
+                    
+                    <!-- AI Explanation Section (Collapsible) -->
+                    <div class="content-section explanation-section" id="explanation-section">
+                        <div class="section-header-bar" onclick="toggleExplanationSection()">
+                            <div class="section-title">
+                                <i class="fas fa-lightbulb"></i>
+                                <h3>Explanation</h3>
                             </div>
-                            <div class="card-body">
-                                ${typeof explanation === 'object' ? `
-                                    <div class="explanation-content">
-                                        ${explanation.explanation || ''}
-                                    </div>
-                                    ${explanation.example ? `
-                                        <div class="example-box">
-                                            <h4><i class="fas fa-flask"></i> Example</h4>
-                                            <p>${explanation.example}</p>
-                                        </div>
-                                    ` : ''}
-                                    ${explanation.jamb_tip ? `
-                                        <div class="jamb-tip-box">
-                                            <h4><i class="fas fa-graduation-cap"></i> JAMB Tip</h4>
-                                            <p>${explanation.jamb_tip}</p>
-                                        </div>
-                                    ` : ''}
-                                    ${explanation.needs_diagram && explanation.diagram_description ? `
-                                        <div class="diagram-placeholder">
-                                            <i class="fas fa-image"></i>
-                                            <p>Diagram: ${explanation.diagram_description}</p>
-                                        </div>
-                                    ` : ''}
-                                ` : `
-                                    <div class="explanation-content">${explanation}</div>
-                                `}
+                            <div class="section-controls">
+                                <button class="btn-icon" id="re-explain-btn" onclick="event.stopPropagation(); requestReExplanation()" title="Get a different explanation">
+                                    <i class="fas fa-sync-alt"></i> Re-explain
+                                </button>
+                                <i class="fas fa-chevron-up section-toggle" id="explanation-toggle"></i>
                             </div>
                         </div>
-                        
-                        <!-- Ask Question Box -->
-                        <div class="card ask-question-card">
-                            <div class="card-header">
-                                <h3><i class="fas fa-question-circle"></i> Ask a Question</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="ask-input-group">
-                                    <input type="text" id="student-question-input" 
-                                           placeholder="I don't understand why..."
-                                           onkeypress="if(event.key==='Enter') submitStudentQuestion()">
-                                    <button class="btn btn-primary" onclick="submitStudentQuestion()">
-                                        <i class="fas fa-paper-plane"></i>
-                                    </button>
-                                </div>
-                                <div id="qa-response-area"></div>
-                            </div>
+                        <div class="section-content" id="explanation-content">
+                            ${explanationHTML}
                         </div>
                     </div>
                     
-                    <!-- Right Column: Question -->
-                    <div class="question-column">
-                        <div class="card question-card">
-                            <div class="card-header">
-                                <h3><i class="fas fa-question"></i> Test Your Understanding</h3>
-                                ${guidedLearnState.questions.length > 0 ? `
-                                    <span class="question-badge">JAMB ${guidedLearnState.questions[0].year || 'Past Question'}</span>
-                                ` : ''}
+                    <!-- Ask Question Section -->
+                    <div class="content-section ask-section">
+                        <div class="ask-input-row">
+                            <div class="ask-avatar"><i class="fas fa-question-circle"></i></div>
+                            <input type="text" id="student-question-input" 
+                                   placeholder="Ask AI about this topic... e.g. 'Why does this happen?'"
+                                   onkeypress="if(event.key==='Enter') submitStudentQuestion()">
+                            <button class="btn btn-primary btn-ask" onclick="submitStudentQuestion()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div id="qa-response-area"></div>
+                    </div>
+                    
+                    <!-- Test Understanding (inline question if available) -->
+                    ${guidedLearnState.questions.length > 0 ? `
+                        <div class="content-section question-section">
+                            <div class="section-header-bar">
+                                <div class="section-title">
+                                    <i class="fas fa-question"></i>
+                                    <h3>Quick Check</h3>
+                                    ${guidedLearnState.questions[0].year ? `<span class="question-badge">JAMB ${guidedLearnState.questions[0].year}</span>` : ''}
+                                </div>
                             </div>
-                            <div class="card-body" id="question-area">
-                                ${guidedLearnState.questions.length > 0 ? renderObjectiveQuestion() : `
-                                    <div class="no-question">
-                                        <i class="fas fa-check-circle"></i>
-                                        <p>No practice question for this objective.</p>
-                                        <button class="btn btn-primary" onclick="goToNextObjective()">
-                                            Continue <i class="fas fa-arrow-right"></i>
-                                        </button>
-                                    </div>
-                                `}
+                            <div class="section-content" id="question-area">
+                                ${renderObjectiveQuestion()}
                             </div>
                         </div>
-                    </div>
+                    ` : ''}
                 </div>
                 
                 <!-- Navigation -->
@@ -1399,8 +1377,8 @@ async function showObjectiveLearning() {
                     <button class="btn btn-outline" onclick="showTopicOverview()">
                         <i class="fas fa-list"></i> Overview
                     </button>
-                    <button class="btn btn-primary" id="next-btn" ${!guidedLearnState.questionAnswered && guidedLearnState.questions.length > 0 ? 'disabled' : ''} onclick="goToNextObjective()">
-                        Next <i class="fas fa-arrow-right"></i>
+                    <button class="btn btn-primary" id="next-btn" onclick="goToNextObjective()">
+                        ${nav.has_next ? (nav.subtopic_complete ? 'Finish Subtopic <i class="fas fa-flag-checkered"></i>' : 'Next <i class="fas fa-arrow-right"></i>') : 'Complete Topic <i class="fas fa-trophy"></i>'}
                     </button>
                 </div>
             </div>
@@ -1411,9 +1389,190 @@ async function showObjectiveLearning() {
         mainApp.classList.remove('hidden');
         hideLoading();
         
+        // Auto-save progress as started
+        saveObjectiveProgress('in_progress');
+        
     } catch (error) {
         hideLoading();
         showToast('Failed to load objective: ' + error.message, 'error');
+    }
+}
+
+
+// Build rich HTML explanation from AI response
+function buildRichExplanation(explanation) {
+    let html = '';
+    
+    // Main explanation
+    if (explanation.explanation_html) {
+        html += `<div class="rich-explanation-body">${explanation.explanation_html}</div>`;
+    } else if (explanation.explanation) {
+        html += `<div class="rich-explanation-body"><p>${explanation.explanation}</p></div>`;
+    }
+    
+    // SVG Diagram
+    if (explanation.svg_diagram) {
+        html += `
+            <div class="diagram-container">
+                <div class="diagram-wrapper">
+                    ${explanation.svg_diagram}
+                </div>
+                ${explanation.diagram_caption ? `<p class="diagram-caption"><i class="fas fa-info-circle"></i> ${explanation.diagram_caption}</p>` : ''}
+            </div>
+        `;
+    }
+    
+    // Key Points
+    if (explanation.key_points && explanation.key_points.length > 0) {
+        html += `
+            <div class="key-points-box">
+                <h4><i class="fas fa-key"></i> Key Points</h4>
+                <ul>
+                    ${explanation.key_points.map(p => `<li>${p}</li>`).join('')}
+                </ul>
+            </div>
+        `;
+    }
+    
+    // Worked Example
+    if (explanation.worked_example) {
+        html += `
+            <div class="worked-example-box">
+                <h4><i class="fas fa-flask"></i> Worked Example</h4>
+                <div class="example-problem">
+                    <strong>Problem:</strong> ${explanation.worked_example.problem || ''}
+                </div>
+                ${explanation.worked_example.solution_html ? `
+                    <div class="example-solution">
+                        <strong>Solution:</strong>
+                        ${explanation.worked_example.solution_html}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    } else if (explanation.example) {
+        html += `
+            <div class="worked-example-box">
+                <h4><i class="fas fa-flask"></i> Example</h4>
+                <p>${explanation.example}</p>
+            </div>
+        `;
+    }
+    
+    // Common Mistakes
+    if (explanation.common_mistakes && explanation.common_mistakes.length > 0) {
+        html += `
+            <div class="common-mistakes-box">
+                <h4><i class="fas fa-exclamation-triangle"></i> Common Mistakes</h4>
+                <ul>
+                    ${explanation.common_mistakes.map(m => `<li>${m}</li>`).join('')}
+                </ul>
+            </div>
+        `;
+    }
+    
+    // JAMB Tip
+    if (explanation.jamb_tip) {
+        html += `
+            <div class="jamb-tip-box">
+                <h4><i class="fas fa-graduation-cap"></i> JAMB Tip</h4>
+                <p>${explanation.jamb_tip}</p>
+            </div>
+        `;
+    }
+    
+    // Summary
+    if (explanation.summary) {
+        html += `
+            <div class="summary-box">
+                <h4><i class="fas fa-compress-alt"></i> Summary</h4>
+                <p>${explanation.summary}</p>
+            </div>
+        `;
+    }
+    
+    return html;
+}
+
+
+// Toggle explanation section visibility
+function toggleExplanationSection() {
+    const content = document.getElementById('explanation-content');
+    const toggle = document.getElementById('explanation-toggle');
+    
+    if (content.classList.contains('collapsed')) {
+        content.classList.remove('collapsed');
+        toggle.classList.remove('fa-chevron-down');
+        toggle.classList.add('fa-chevron-up');
+    } else {
+        content.classList.add('collapsed');
+        toggle.classList.remove('fa-chevron-up');
+        toggle.classList.add('fa-chevron-down');
+    }
+}
+
+
+// Request a re-explanation with different teaching approach
+async function requestReExplanation() {
+    const btn = document.getElementById('re-explain-btn');
+    const contentEl = document.getElementById('explanation-content');
+    
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
+    
+    try {
+        const data = guidedLearnState.currentObjective;
+        const result = await api.request('/guided-learn/re-explain', {
+            method: 'POST',
+            requireAuth: true,
+            body: {
+                subject: guidedLearnState.subject,
+                topic: guidedLearnState.topicName,
+                subtopic: data.subtopic_name,
+                objective: data.objective_text
+            }
+        });
+        
+        if (result.explanation) {
+            const newHTML = buildRichExplanation(result.explanation);
+            contentEl.innerHTML = newHTML;
+            
+            // Ensure section is expanded
+            contentEl.classList.remove('collapsed');
+            document.getElementById('explanation-toggle').classList.remove('fa-chevron-down');
+            document.getElementById('explanation-toggle').classList.add('fa-chevron-up');
+            
+            showToast('Fresh explanation generated!', 'success');
+        }
+        
+    } catch (error) {
+        showToast('Failed to re-explain: ' + error.message, 'error');
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fas fa-sync-alt"></i> Re-explain';
+    }
+}
+
+
+// Save progress helper
+async function saveObjectiveProgress(status, answeredCorrectly = null) {
+    try {
+        const timeSpent = Math.round((Date.now() - guidedLearnState.timeStarted) / 1000);
+        await api.request('/guided-learn/save-progress', {
+            method: 'POST',
+            requireAuth: true,
+            body: {
+                subject: guidedLearnState.subject,
+                topic: guidedLearnState.topicName,
+                subtopic_index: guidedLearnState.currentSubtopicIndex,
+                objective_index: guidedLearnState.currentObjectiveIndex,
+                status: status,
+                answered_correctly: answeredCorrectly,
+                time_spent_seconds: timeSpent
+            }
+        });
+    } catch (e) {
+        console.error('Failed to save progress:', e);
     }
 }
 
@@ -1504,23 +1663,11 @@ async function selectObjectiveAnswer(key) {
         }
         
         // Enable next button
-        document.getElementById('next-btn').disabled = false;
+        const nextBtn = document.getElementById('next-btn');
+        if (nextBtn) nextBtn.disabled = false;
         
         // Save progress
-        const timeSpent = Math.round((Date.now() - guidedLearnState.timeStarted) / 1000);
-        await api.request('/guided-learn/save-progress', {
-            method: 'POST',
-            requireAuth: true,
-            body: {
-                subject: guidedLearnState.subject,
-                topic: guidedLearnState.topicName,
-                subtopic_index: guidedLearnState.currentSubtopicIndex,
-                objective_index: guidedLearnState.currentObjectiveIndex,
-                status: 'completed',
-                answered_correctly: result.is_correct,
-                time_spent_seconds: timeSpent
-            }
-        });
+        await saveObjectiveProgress('completed', result.is_correct);
         
     } catch (error) {
         feedbackEl.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Error: ${error.message}`;
@@ -1640,15 +1787,19 @@ async function showSubtopicComplete(nextSubtopicIndex, nextObjectiveIndex) {
             <p>You've completed all objectives in:</p>
             <div class="completed-name">${currentSubtopic.name}</div>
             
-            <div class="next-preview">
-                <h3>Up Next:</h3>
-                <div class="next-subtopic-name">${nextSubtopic.name}</div>
-                <p>${nextSubtopic.objectives.length} objectives</p>
+            <div class="subtopic-quiz-prompt">
+                <h3><i class="fas fa-brain"></i> Test Your Knowledge</h3>
+                <p>Take a quick quiz on what you just learned before moving on.</p>
+                <button class="btn btn-primary btn-lg" onclick="showSubtopicQuiz(${nextSubtopicIndex}, ${nextObjectiveIndex})">
+                    <i class="fas fa-clipboard-check"></i> Take Quiz
+                </button>
             </div>
             
-            <button class="btn btn-primary btn-lg" onclick="continueToNextSubtopic(${nextSubtopicIndex}, ${nextObjectiveIndex})">
-                Continue <i class="fas fa-arrow-right"></i>
-            </button>
+            <div class="skip-quiz">
+                <button class="btn btn-outline" onclick="continueToNextSubtopic(${nextSubtopicIndex}, ${nextObjectiveIndex})">
+                    Skip &amp; Continue to ${nextSubtopic.name} <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
     `;
     
@@ -1661,6 +1812,255 @@ function continueToNextSubtopic(stIdx, objIdx) {
     guidedLearnState.currentSubtopicIndex = stIdx;
     guidedLearnState.currentObjectiveIndex = objIdx;
     showObjectiveLearning();
+}
+
+
+// ============================================================
+// SUBTOPIC QUIZ 
+// ============================================================
+
+async function showSubtopicQuiz(nextSubtopicIndex, nextObjectiveIndex) {
+    showLoading('Generating quiz...');
+    
+    const user = authManager.getUser();
+    const currentSubtopic = guidedLearnState.topicStructure.subtopics[guidedLearnState.currentSubtopicIndex];
+    const nextSubtopic = guidedLearnState.topicStructure.subtopics[nextSubtopicIndex];
+    
+    try {
+        const quizData = await api.request(
+            `/guided-learn/subtopic-quiz/${encodeURIComponent(guidedLearnState.subject)}/${encodeURIComponent(guidedLearnState.topicName)}/${guidedLearnState.currentSubtopicIndex}`,
+            { requireAuth: true }
+        );
+        
+        const questions = quizData.questions || [];
+        
+        if (questions.length === 0) {
+            showToast('No quiz questions available. Continuing...', 'info');
+            continueToNextSubtopic(nextSubtopicIndex, nextObjectiveIndex);
+            return;
+        }
+        
+        // Store quiz state
+        guidedLearnState.subtopicQuiz = {
+            questions: questions,
+            currentIndex: 0,
+            answers: {},
+            score: 0,
+            total: questions.length,
+            nextSubtopicIndex: nextSubtopicIndex,
+            nextObjectiveIndex: nextObjectiveIndex,
+            completed: false
+        };
+        
+        const content = `
+            <div class="subtopic-quiz-screen">
+                <div class="quiz-header">
+                    <div class="quiz-title">
+                        <i class="fas fa-clipboard-check"></i>
+                        <h2>${currentSubtopic.name} - Quiz</h2>
+                    </div>
+                    <div class="quiz-progress">
+                        <span id="quiz-counter">Question 1 of ${questions.length}</span>
+                        <div class="mini-progress">
+                            <div class="mini-progress-fill" id="quiz-progress-bar" style="width: ${(1 / questions.length) * 100}%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quiz-body" id="quiz-body">
+                    ${renderSubtopicQuizQuestion(0)}
+                </div>
+                
+                <div class="quiz-footer" id="quiz-footer">
+                    <button class="btn btn-outline" onclick="continueToNextSubtopic(${nextSubtopicIndex}, ${nextObjectiveIndex})">
+                        <i class="fas fa-times"></i> Skip Quiz
+                    </button>
+                    <button class="btn btn-primary" id="quiz-next-btn" disabled onclick="nextQuizQuestion()">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        const mainApp = document.getElementById('main-app');
+        mainApp.innerHTML = createAppLayout(user, content);
+        mainApp.classList.remove('hidden');
+        hideLoading();
+        
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load quiz: ' + error.message, 'error');
+        continueToNextSubtopic(nextSubtopicIndex, nextObjectiveIndex);
+    }
+}
+
+function renderSubtopicQuizQuestion(index) {
+    const quiz = guidedLearnState.subtopicQuiz;
+    const q = quiz.questions[index];
+    const optionKeys = ['A', 'B', 'C', 'D'];
+    
+    // Handle both object and array options
+    let options = {};
+    if (Array.isArray(q.options)) {
+        q.options.forEach((opt, i) => {
+            if (i < optionKeys.length) options[optionKeys[i]] = opt;
+        });
+    } else {
+        options = q.options;
+    }
+    
+    return `
+        <div class="quiz-question-card">
+            ${q.objective ? `<div class="quiz-objective-tag"><i class="fas fa-bullseye"></i> ${q.objective}</div>` : ''}
+            <p class="quiz-question-text">${q.question}</p>
+            <div class="quiz-options">
+                ${Object.entries(options).map(([key, text]) => `
+                    <div class="quiz-option" id="quiz-opt-${key}" onclick="selectQuizAnswer('${key}')">
+                        <span class="option-key">${key}</span>
+                        <span class="option-text">${text}</span>
+                    </div>
+                `).join('')}
+            </div>
+            <div id="quiz-feedback" class="quiz-feedback hidden"></div>
+        </div>
+    `;
+}
+
+function selectQuizAnswer(key) {
+    const quiz = guidedLearnState.subtopicQuiz;
+    if (quiz.answers[quiz.currentIndex] !== undefined) return; // Already answered
+    
+    const q = quiz.questions[quiz.currentIndex];
+    quiz.answers[quiz.currentIndex] = key;
+    
+    // Determine correct answer
+    const correctAnswer = q.correct_answer || q.answer;
+    const isCorrect = key.toUpperCase() === correctAnswer.toUpperCase();
+    
+    if (isCorrect) quiz.score++;
+    
+    // Highlight options
+    document.querySelectorAll('.quiz-option').forEach(el => el.classList.add('disabled'));
+    
+    const selectedEl = document.getElementById(`quiz-opt-${key}`);
+    selectedEl.classList.add(isCorrect ? 'correct' : 'incorrect');
+    
+    if (!isCorrect) {
+        const correctEl = document.getElementById(`quiz-opt-${correctAnswer}`);
+        if (correctEl) correctEl.classList.add('correct');
+    }
+    
+    // Show feedback
+    const feedbackEl = document.getElementById('quiz-feedback');
+    feedbackEl.classList.remove('hidden');
+    feedbackEl.className = `quiz-feedback ${isCorrect ? 'correct' : 'incorrect'}`;
+    
+    const explanation = q.explanation || '';
+    feedbackEl.innerHTML = `
+        <div class="feedback-icon">${isCorrect ? '<i class="fas fa-check-circle"></i>' : '<i class="fas fa-times-circle"></i>'}</div>
+        <div class="feedback-text">
+            <strong>${isCorrect ? 'Correct!' : 'Incorrect'}</strong>
+            ${explanation ? `<p>${explanation}</p>` : ''}
+        </div>
+    `;
+    
+    // Enable next button
+    const nextBtn = document.getElementById('quiz-next-btn');
+    nextBtn.disabled = false;
+    
+    // Change button text if last question
+    if (quiz.currentIndex === quiz.total - 1) {
+        nextBtn.innerHTML = 'See Results <i class="fas fa-chart-bar"></i>';
+    }
+}
+
+function nextQuizQuestion() {
+    const quiz = guidedLearnState.subtopicQuiz;
+    
+    if (quiz.currentIndex >= quiz.total - 1) {
+        // Show results
+        showQuizResults();
+        return;
+    }
+    
+    quiz.currentIndex++;
+    
+    // Update counter and progress
+    document.getElementById('quiz-counter').textContent = `Question ${quiz.currentIndex + 1} of ${quiz.total}`;
+    document.getElementById('quiz-progress-bar').style.width = `${((quiz.currentIndex + 1) / quiz.total) * 100}%`;
+    
+    // Render next question
+    document.getElementById('quiz-body').innerHTML = renderSubtopicQuizQuestion(quiz.currentIndex);
+    
+    // Disable next button until answered
+    document.getElementById('quiz-next-btn').disabled = true;
+    document.getElementById('quiz-next-btn').innerHTML = 'Next <i class="fas fa-arrow-right"></i>';
+}
+
+function showQuizResults() {
+    const quiz = guidedLearnState.subtopicQuiz;
+    const percentage = Math.round((quiz.score / quiz.total) * 100);
+    const currentSubtopic = guidedLearnState.topicStructure.subtopics[guidedLearnState.currentSubtopicIndex];
+    const nextSubtopic = guidedLearnState.topicStructure.subtopics[quiz.nextSubtopicIndex];
+    
+    let gradeClass = 'poor';
+    let gradeIcon = 'fa-sad-tear';
+    let gradeMessage = 'Keep practicing!';
+    
+    if (percentage >= 80) {
+        gradeClass = 'excellent';
+        gradeIcon = 'fa-trophy';
+        gradeMessage = 'Excellent work!';
+    } else if (percentage >= 60) {
+        gradeClass = 'good';
+        gradeIcon = 'fa-thumbs-up';
+        gradeMessage = 'Good job!';
+    } else if (percentage >= 40) {
+        gradeClass = 'fair';
+        gradeIcon = 'fa-meh';
+        gradeMessage = 'Not bad, but room to improve.';
+    }
+    
+    const body = document.getElementById('quiz-body');
+    body.innerHTML = `
+        <div class="quiz-results">
+            <div class="result-icon ${gradeClass}">
+                <i class="fas ${gradeIcon}"></i>
+            </div>
+            <h2>${gradeMessage}</h2>
+            <div class="result-score ${gradeClass}">
+                <span class="score-number">${quiz.score}</span>
+                <span class="score-divider">/</span>
+                <span class="score-total">${quiz.total}</span>
+            </div>
+            <p class="score-percentage">${percentage}%</p>
+            <p class="result-subtopic">${currentSubtopic.name} Quiz</p>
+            
+            <div class="quiz-question-review">
+                ${quiz.questions.map((q, i) => {
+                    const correctAnswer = q.correct_answer || q.answer;
+                    const userAnswer = quiz.answers[i];
+                    const isCorrect = userAnswer && userAnswer.toUpperCase() === correctAnswer.toUpperCase();
+                    return `
+                        <div class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
+                            <span class="review-num">${i + 1}</span>
+                            <i class="fas ${isCorrect ? 'fa-check' : 'fa-times'}"></i>
+                        </div>
+                    `;
+                }).join('')}
+            </div>
+        </div>
+    `;
+    
+    const footer = document.getElementById('quiz-footer');
+    footer.innerHTML = `
+        <button class="btn btn-outline" onclick="showSubtopicQuiz(${quiz.nextSubtopicIndex}, ${quiz.nextObjectiveIndex})">
+            <i class="fas fa-redo"></i> Retake Quiz
+        </button>
+        <button class="btn btn-primary" onclick="continueToNextSubtopic(${quiz.nextSubtopicIndex}, ${quiz.nextObjectiveIndex})">
+            Continue to ${nextSubtopic.name} <i class="fas fa-arrow-right"></i>
+        </button>
+    `;
 }
 
 async function showTopicComplete() {
@@ -1711,6 +2111,17 @@ async function showTopicComplete() {
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
+}
+
+function reviewWeaknesses() {
+    // Go back to first objective and start over
+    guidedLearnState.currentSubtopicIndex = 0;
+    guidedLearnState.currentObjectiveIndex = 0;
+    showObjectiveLearning();
+}
+
+function startTopicPractice() {
+    showTopicOverview();
 }
 
 async function showTopicOverview() {
@@ -2244,3 +2655,17 @@ window.selectPracticeOption = selectPracticeOption;
 window.nextPracticeQuestion = nextPracticeQuestion;
 window.finishPracticeQuiz = finishPracticeQuiz;
 window.restartPracticeQuiz = restartPracticeQuiz;
+// Enhanced guided learning functions
+window.selectObjectiveAnswer = selectObjectiveAnswer;
+window.submitStudentQuestion = submitStudentQuestion;
+window.goToNextObjective = goToNextObjective;
+window.goToPrevObjective = goToPrevObjective;
+window.showTopicOverview = showTopicOverview;
+window.continueToNextSubtopic = continueToNextSubtopic;
+window.toggleExplanationSection = toggleExplanationSection;
+window.requestReExplanation = requestReExplanation;
+window.showSubtopicQuiz = showSubtopicQuiz;
+window.selectQuizAnswer = selectQuizAnswer;
+window.nextQuizQuestion = nextQuizQuestion;
+window.reviewWeaknesses = reviewWeaknesses;
+window.startTopicPractice = startTopicPractice;

@@ -16,7 +16,9 @@ from app.services.ai.guided_learning_ai import (
     generate_objective_explanation,
     answer_student_question,
     explain_question_answer,
-    get_related_questions
+    get_related_questions,
+    generate_subtopic_quiz,
+    regenerate_explanation
 )
 
 router = APIRouter(prefix="/guided-learn", tags=["Guided Learning"])
@@ -52,6 +54,13 @@ class SaveProgressRequest(BaseModel):
     status: str  # 'started', 'completed'
     answered_correctly: Optional[bool] = None
     time_spent_seconds: int = 0
+
+
+class ReExplainRequest(BaseModel):
+    subject: str
+    topic: str
+    subtopic: str
+    objective: str
 
 
 # ============================================================
@@ -403,6 +412,98 @@ async def get_objective_content(
             "subtopic_complete": subtopic_complete
         }
     }
+
+
+# ============================================================
+# RE-EXPLAIN AND SUBTOPIC QUIZ ENDPOINTS
+# ============================================================
+
+@router.post("/re-explain")
+async def re_explain_objective(
+    request: ReExplainRequest,
+    user_id: int = Depends(current_user_id)
+):
+    """
+    Generate a fresh explanation for an objective using a different teaching approach.
+    Does NOT cache the result - always generates fresh content.
+    """
+    try:
+        new_explanation = regenerate_explanation(
+            request.subject,
+            request.topic,
+            request.subtopic,
+            request.objective
+        )
+        
+        return {
+            "status": "success",
+            "explanation": new_explanation,
+            "is_regenerated": True
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to generate re-explanation: {str(e)}"
+        )
+
+
+@router.get("/subtopic-quiz/{subject}/{topic_name}/{subtopic_index}")
+async def get_subtopic_quiz(
+    subject: str,
+    topic_name: str,
+    subtopic_index: int,
+    limit: int = Query(default=5, ge=3, le=10),
+    user_id: int = Depends(current_user_id)
+):
+    """
+    Get a quiz for a completed subtopic.
+    Returns 3-5 questions (JAMB past questions + AI-generated if needed).
+    """
+    syllabus = load_syllabus_json(subject)
+    if not syllabus:
+        raise HTTPException(status_code=404, detail=f"Syllabus not found for {subject}")
+    
+    # Find the topic
+    topic_data = None
+    for t in syllabus.get('topics', []):
+        if t.get('name', '').lower() == topic_name.lower():
+            topic_data = t
+            break
+    
+    if not topic_data:
+        raise HTTPException(status_code=404, detail=f"Topic '{topic_name}' not found")
+    
+    subtopics = topic_data.get('subtopics', [])
+    if subtopic_index >= len(subtopics):
+        raise HTTPException(status_code=404, detail="Subtopic not found")
+    
+    subtopic = subtopics[subtopic_index]
+    subtopic_name = subtopic.get('name', topic_name)
+    objectives = subtopic.get('objectives', [])
+    
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        questions = generate_subtopic_quiz(
+            cursor, subject, topic_name, subtopic_name, objectives, limit=limit
+        )
+        
+        return {
+            "subject": subject,
+            "topic_name": topic_name,
+            "subtopic_name": subtopic_name,
+            "subtopic_index": subtopic_index,
+            "questions": questions,
+            "total_questions": len(questions)
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to generate subtopic quiz: {str(e)}"
+        )
 
 
 @router.post("/ask-question")
