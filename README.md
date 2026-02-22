@@ -106,18 +106,23 @@ SECRET_KEY=your-secret-key-here
 DEBUG=False
 ```
 
-### 3️⃣ Initialize Database
+### 3️⃣ Database Setup (Automatic!)
 ```bash
-python scripts/init_postgres_db.py
+# Database tables are created automatically on first server start!
+# No manual database setup required ✨
+
+# Optional: Run manual database setup if preferred
+python setup_database.py
 ```
 
 ### 4️⃣ Run Application
 ```bash
-# Terminal 1: Start Backend (Port 8000)
-uvicorn main:app --reload
+# Start Backend (Port 8000) - Database tables auto-created on startup!
+uvicorn main:app --host 0.0.0.0 --port 8000
 
-# Terminal 2: Start Frontend (Port 8080)
-cd frontend
+# Access your application:
+# Frontend: http://localhost:8000 (served by FastAPI)
+# API Docs: http://localhost:8000/docs
 python -m http.server 8080
 ```
 

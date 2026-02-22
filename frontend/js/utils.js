@@ -117,9 +117,41 @@ function debounce(func, wait) {
 
 // Toggle mobile menu
 function toggleMobileMenu() {
+    // Handle sidebar for logged-in app
     const sidebar = document.querySelector('.sidebar');
     if (sidebar) {
         sidebar.classList.toggle('mobile-open');
+        return;
+    }
+    
+    // Handle landing page navigation
+    const landingNav = document.querySelector('.landing-nav');
+    const mobileOverlay = document.querySelector('.mobile-nav-overlay');
+    
+    if (landingNav) {
+        // Create overlay if it doesn't exist
+        if (!mobileOverlay) {
+            const overlay = document.createElement('div');
+            overlay.className = 'mobile-nav-overlay';
+            overlay.innerHTML = `
+                <div class="mobile-nav-content">
+                    <button class="mobile-nav-close" onclick="utils.toggleMobileMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <nav class="mobile-nav-menu">
+                        <a href="#features" onclick="utils.toggleMobileMenu()">Features</a>
+                        <a href="#about" onclick="utils.toggleMobileMenu()">About</a>
+                        <button class="btn btn-outline btn-block" onclick="router.navigate('login'); utils.toggleMobileMenu();">Login</button>
+                        <button class="btn btn-primary btn-block" onclick="router.navigate('register'); utils.toggleMobileMenu();">Get Started</button>
+                    </nav>
+                </div>
+            `;
+            document.body.appendChild(overlay);
+        }
+        
+        const overlay = document.querySelector('.mobile-nav-overlay');
+        overlay.classList.toggle('show');
+        document.body.classList.toggle('menu-open');
     }
 }
 

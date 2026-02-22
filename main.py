@@ -93,11 +93,30 @@ app = create_application()
 async def startup_event():
     """
     Run on application startup
-    Automatically syncs database if DB_AUTO_SYNC is enabled
+    1. Initializes database schema (creates tables if needed)
+    2. Automatically syncs database if DB_AUTO_SYNC is enabled
     """
     logger.info("Starting ExamGenius API...")
     logger.info(f"Version: {settings.APP_VERSION}")
     logger.info(f"Database: {settings.DATABASE_URL.split('@')[1] if '@' in settings.DATABASE_URL else 'localhost'}")
+    
+    # Initialize database schema (create tables if they don't exist)
+    logger.info("🔧 Initializing database schema...")
+    try:
+        from app.services.database_init import DatabaseInitService
+        init_result = DatabaseInitService.initialize_database()
+        
+        if init_result['status'] == 'success':
+            logger.info(f"✓ Database schema created successfully!")
+            logger.info(f"  - Tables: {init_result['tables_created']}")
+        elif init_result['status'] == 'ready':
+            logger.info(f"✓ Database schema ready (tables already exist)")
+        else:
+            logger.error(f"✗ Database initialization failed: {init_result['message']}")
+            logger.error("Application may not function correctly without proper schema")
+    except Exception as e:
+        logger.error(f"Database initialization error: {e}")
+        logger.error("Application will continue but may encounter database errors...")
     
     # Run database sync if enabled
     if settings.DB_AUTO_SYNC:
