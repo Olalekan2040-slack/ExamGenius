@@ -1,27 +1,53 @@
-name: Deploy Frontend to S3
+name: Deploy Frontend to EC2
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - master
     paths:
-      - "frontend/**"
+      - 'frontend/**'
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
+      - name: Copy Frontend files to EC2
+        uses: appleboy/scp-action@v0.1.7
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          source: "frontend/*"
+          target: "/tmp/frontend-deploy"
+          strip_components: 1
 
-      - name: Sync frontend to S3
-        run: |
-          aws s3 sync frontend/ s3://${{ secrets.S3_BUCKET_NAME }} \
-            --delete
+      - name: Move files and Restart Nginx
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
+          script: |
+            # 1. Ensure the web directory exists
+            sudo mkdir -p /var/www/html
+            
+            # 2. Move files from temp to web root
+            sudo cp -r /tmp/frontend-deploy/* /var/www/html/
+            
+            # 3. Clean up temp files
+            rm -rf /tmp/frontend-deploy
+            
+            # 4. Set correct ownership
+            sudo chown -R www-data:www-data /var/www/html
+            sudo chmod -R 755 /var/www/html
+
+            # 5. Check Nginx config and restart
+            echo "Checking Nginx configuration..."
+            sudo nginx -t && sudo systemctl restart nginx
+            echo "Nginx restarted successfully."
