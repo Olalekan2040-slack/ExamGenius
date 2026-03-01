@@ -253,16 +253,54 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 for row in cursor.fetchall()
             ]
 
-        # Get recent attempts (last 10)
+        # ── Explicit STRENGTHS: topics ≥ 70% accuracy with ≥ 3 attempts ────
+        cursor.execute("""
+            SELECT subject, topic, accuracy, total_attempts
+            FROM user_stats
+            WHERE user_id = ? AND accuracy >= 70 AND total_attempts >= 3
+            ORDER BY accuracy DESC
+            LIMIT 8
+        """, (user_id,))
+
+        strengths = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "accuracy": round(row[2], 2),
+                "attempts": row[3]
+            }
+            for row in cursor.fetchall()
+        ]
+
+        # ── Explicit WEAKNESSES: topics < 70% accuracy with ≥ 2 attempts ───
+        cursor.execute("""
+            SELECT subject, topic, accuracy, total_attempts
+            FROM user_stats
+            WHERE user_id = ? AND accuracy < 70 AND total_attempts >= 2
+            ORDER BY accuracy ASC
+            LIMIT 8
+        """, (user_id,))
+
+        weaknesses = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "accuracy": round(row[2], 2),
+                "attempts": row[3]
+            }
+            for row in cursor.fetchall()
+        ]
+
+        # ── RECENT ACTIVITY from practice_attempts (CBT + year) ─────────────
         cursor.execute("""
             SELECT subject, topic, is_correct, practice_type, created_at
             FROM practice_attempts
             WHERE user_id = ?
             ORDER BY created_at DESC
-            LIMIT 10
+            LIMIT 30
         """, (user_id,))
 
-        recent_attempts = [
+        recent_from_attempts = [
             {
                 "subject": row[0],
                 "topic": row[1],
@@ -273,7 +311,51 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             for row in cursor.fetchall()
         ]
 
-        # Get CBT session history
+        # ── RECENT ACTIVITY from guided learning (learning_progress) ─────────
+        cursor.execute("""
+            SELECT subject, topic_name, answered_correctly, completed_at
+            FROM learning_progress
+            WHERE user_id = ? AND status = 'completed' AND completed_at IS NOT NULL
+            ORDER BY completed_at DESC
+            LIMIT 30
+        """, (user_id,))
+
+        recent_from_guided = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "is_correct": bool(row[2]) if row[2] is not None else None,
+                "practice_type": "guided",
+                "timestamp": row[3]
+            }
+            for row in cursor.fetchall()
+        ]
+
+        # Merge and sort all recent activity (individual attempts), keep top 20
+        all_recent = recent_from_attempts + recent_from_guided
+        all_recent.sort(key=lambda x: (x.get('timestamp') or ''), reverse=True)
+        recent_attempts = all_recent[:20]
+
+        # ── RECENT TOPICS: distinct subjects+topics, most recently practiced ──
+        cursor.execute("""
+            SELECT subject, topic, MAX(last_practiced) as last_practiced
+            FROM user_stats
+            WHERE user_id = ? AND last_practiced IS NOT NULL
+            GROUP BY subject, topic
+            ORDER BY MAX(last_practiced) DESC
+            LIMIT 5
+        """, (user_id,))
+
+        recent_topics = [
+            {
+                "subject": row[0],
+                "topic": row[1],
+                "last_practiced": row[2]
+            }
+            for row in cursor.fetchall()
+        ]
+
+        # ── CBT SESSION HISTORY ───────────────────────────────────────────────
         cursor.execute("""
             SELECT id, score, total_questions, completed_at
             FROM exam_sessions
@@ -320,9 +402,12 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 "department": department,
                 "registered_subjects": registered_subjects_with_pos
             },
+            "strengths": strengths,
+            "weaknesses": weaknesses,
             "weakest_topics": weakest_topics,
             "recommended_topics": recommended_topics,
             "recent_attempts": recent_attempts,
+            "recent_topics": recent_topics,
             "cbt_history": cbt_history
         }
 

@@ -12,6 +12,7 @@ import os
 from pathlib import Path
 from app.db.database import get_connection
 from app.core.security import current_user_id
+from app.services.analytics import AnalyticsService
 from app.services.ai.guided_learning_ai import (
     generate_objective_explanation,
     answer_student_question,
@@ -683,7 +684,37 @@ async def save_learning_progress(
                 SET learning_points = COALESCE(learning_points, 0) + ?
                 WHERE user_id = ?
             """, (points_awarded, user_id))
-        
+
+        # ── Update streak whenever the user completes an objective ────────
+        if request.status == 'completed':
+            try:
+                AnalyticsService.update_user_streak(cursor, user_id)
+            except Exception:
+                pass  # non-critical
+
+        # ── Update user_stats so guided-learning answers feed dashboard
+        #    strengths / weaknesses / recent-topics analytics ──────────
+        if request.status == 'completed' and request.answered_correctly is not None:
+            correct_int = 1 if request.answered_correctly else 0
+            cursor.execute("""
+                INSERT INTO user_stats
+                    (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
+                VALUES (?, ?, ?, 1, ?, ?, ?)
+                ON CONFLICT(user_id, subject, topic) DO UPDATE SET
+                    total_attempts   = user_stats.total_attempts + 1,
+                    correct_attempts = user_stats.correct_attempts + ?,
+                    accuracy         = (CAST(user_stats.correct_attempts + ? AS REAL) /
+                                        CAST(user_stats.total_attempts + 1 AS REAL)) * 100,
+                    last_practiced   = ?
+            """, (
+                user_id, request.subject, request.topic,
+                correct_int,
+                100.0 if request.answered_correctly else 0.0,
+                datetime.utcnow().isoformat(),
+                correct_int, correct_int,
+                datetime.utcnow().isoformat(),
+            ))
+
         conn.commit()
         
         return {

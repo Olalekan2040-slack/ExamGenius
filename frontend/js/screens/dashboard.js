@@ -128,9 +128,89 @@ async function showDashboard() {
                         </div>
                     </div>
                 ` : ''}
+
+                <!-- ===== STRENGTHS & WEAKNESSES ROW ===== -->
+                ${(stats.strengths && stats.strengths.length > 0) || (stats.weaknesses && stats.weaknesses.length > 0) ? (() => {
+                    const hasBoth = stats.strengths?.length > 0 && stats.weaknesses?.length > 0;
+                    return `
+                    <div class="sw-row mt-3" style="display: grid; grid-template-columns: ${hasBoth ? '1fr 1fr' : '1fr'}; gap: 16px;">
+
+                        <!-- STRENGTHS -->
+                        ${stats.strengths && stats.strengths.length > 0 ? `
+                        <div class="card" style="border-top: 4px solid var(--success);">
+                            <div class="card-header">
+                                <h2><i class="fas fa-star" style="color: var(--success);"></i> Your Strengths</h2>
+                                <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">Topics where you score ≥ 70%</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 8px;">
+                                ${stats.strengths.map(s => `
+                                    <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: #f0fdf4; border-radius: var(--radius-sm); border-left: 3px solid var(--success);">
+                                        <div>
+                                            <div style="font-size: 13px; font-weight: 600;">${s.topic}</div>
+                                            <div style="font-size: 11px; color: var(--text-secondary);">${s.subject} · ${s.attempts} attempt${s.attempts !== 1 ? 's' : ''}</div>
+                                        </div>
+                                        <div style="width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, #22c55e, #16a34a); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: white;">
+                                            ${Math.round(s.accuracy)}%
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+
+                        <!-- WEAKNESSES -->
+                        ${stats.weaknesses && stats.weaknesses.length > 0 ? `
+                        <div class="card" style="border-top: 4px solid var(--error);">
+                            <div class="card-header">
+                                <h2><i class="fas fa-exclamation-triangle" style="color: var(--error);"></i> Areas to Improve</h2>
+                                <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">Topics scoring below 70% — click to study</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 8px;">
+                                ${stats.weaknesses.map(w => `
+                                    <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: #fff1f2; border-radius: var(--radius-sm); border-left: 3px solid var(--error); cursor: pointer;"
+                                         onclick="router.navigate('guided-learn', {subject: '${w.subject}', topic: '${w.topic}'})">
+                                        <div>
+                                            <div style="font-size: 13px; font-weight: 600;">${w.topic}</div>
+                                            <div style="font-size: 11px; color: var(--text-secondary);">${w.subject} · ${w.attempts} attempt${w.attempts !== 1 ? 's' : ''}</div>
+                                        </div>
+                                        <div style="display: flex; align-items: center; gap: 6px;">
+                                            <div style="width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, #ef4444, #b91c1c); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; color: white;">
+                                                ${Math.round(w.accuracy)}%
+                                            </div>
+                                            <i class="fas fa-chevron-right" style="color: var(--error); font-size: 12px;"></i>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        ` : ''}
+                    </div>
+                    `;
+                })() : ''}
+
+                <!-- ===== RECENT TOPICS ===== -->
+                ${stats.recent_topics && stats.recent_topics.length > 0 ? `
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <h2><i class="fas fa-clock" style="color: var(--primary-yellow-dark);"></i> Recently Studied Topics</h2>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 10px; padding-top: 8px;">
+                            ${stats.recent_topics.map(rt => `
+                                <div onclick="router.navigate('guided-learn', {subject: '${rt.subject}', topic: '${rt.topic}'})"
+                                     style="padding: 10px 16px; background: var(--primary-yellow-light); border-radius: var(--radius-sm); cursor: pointer; display: flex; align-items: center; gap: 8px; transition: all 0.2s;"
+                                     onmouseover="this.style.background='#FFD54F'" onmouseout="this.style.background='var(--primary-yellow-light)'">
+                                    <i class="fas fa-book-open" style="color: var(--primary-yellow-dark); font-size: 14px;"></i>
+                                    <div>
+                                        <div style="font-size: 13px; font-weight: 600;">${rt.topic}</div>
+                                        <div style="font-size: 11px; color: var(--text-secondary);">${rt.subject}</div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                ` : ''}
                 
-                
-                <!-- Recent Activity (Compact Collapsible) -->
+                <!-- ===== RECENT ACTIVITY ===== -->
                 ${stats.recent_attempts && stats.recent_attempts.length > 0 ? `
                     <div class="card mt-3">
                         <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
@@ -144,16 +224,8 @@ async function showDashboard() {
                                 </select>
                             </div>
                         </div>
-                        <div id="activity-container" style="max-height: 300px; overflow-y: auto;">
-                            ${stats.recent_attempts.slice(0, 5).map((attempt, idx) => `
-                                <div class="activity-item" data-index="${idx}" style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--border-color);">
-                                    <div style="display: flex; align-items: center; gap: 10px;">
-                                        <i class="fas ${attempt.is_correct ? 'fa-check-circle' : 'fa-times-circle'}" style="color: ${attempt.is_correct ? 'var(--success)' : 'var(--error)'}; font-size: 16px;"></i>
-                                        <span style="font-size: 13px;"><strong>${attempt.subject}</strong>${attempt.topic ? ' - ' + attempt.topic : ''}</span>
-                                    </div>
-                                    <span style="font-size: 11px; color: var(--text-secondary);">${utils.formatDate(attempt.timestamp)}</span>
-                                </div>
-                            `).join('')}
+                        <div id="activity-container" style="max-height: 340px; overflow-y: auto;">
+                            ${stats.recent_attempts.slice(0, 5).map((attempt, idx) => renderActivityItem(attempt, idx)).join('')}
                         </div>
                     </div>
                     <script>
@@ -261,15 +333,51 @@ function filterRecentActivity(count) {
     const limit = count === 'all' ? data.length : parseInt(count);
     const items = data.slice(0, limit);
     
-    container.innerHTML = items.map((attempt, idx) => `
-        <div class="activity-item" data-index="${idx}" style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border-bottom: 1px solid var(--border-color);">
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <i class="fas ${attempt.is_correct ? 'fa-check-circle' : 'fa-times-circle'}" style="color: ${attempt.is_correct ? 'var(--success)' : 'var(--error)'}; font-size: 16px;"></i>
-                <span style="font-size: 13px;"><strong>${attempt.subject}</strong>${attempt.topic ? ' - ' + attempt.topic : ''}</span>
+    container.innerHTML = items.map((attempt, idx) => renderActivityItem(attempt, idx)).join('');
+}
+
+/**
+ * Renders a single recent-activity row with a source badge
+ * (CBT / Year Practice / Guided Learning) and correct/incorrect icon.
+ */
+function renderActivityItem(attempt, idx) {
+    const sourceConfig = {
+        cbt:     { label: 'CBT',     color: '#7C3AED', bg: '#F3E8FF' },
+        year:    { label: 'Year',    color: '#1D4ED8', bg: '#EFF6FF' },
+        guided:  { label: 'Guided', color: '#D97706', bg: '#FFF9E6' },
+        topic:   { label: 'Topic',  color: '#15803D', bg: '#F0FDF4' },
+        revision:{ label: 'Revision',color:'#BE123C', bg: '#FFF1F2' },
+    };
+    const src = sourceConfig[attempt.practice_type] || { label: attempt.practice_type || '—', color: '#6B7280', bg: '#F3F4F6' };
+
+    // is_correct can be null (guided completions without a question)
+    let resultIcon = '';
+    if (attempt.is_correct === true)  resultIcon = `<i class="fas fa-check-circle" style="color: var(--success); font-size: 15px;"></i>`;
+    if (attempt.is_correct === false) resultIcon = `<i class="fas fa-times-circle" style="color: var(--error); font-size: 15px;"></i>`;
+
+    return `
+        <div class="activity-item" data-index="${idx}"
+             style="display: flex; justify-content: space-between; align-items: center;
+                    padding: 9px 14px; border-bottom: 1px solid var(--border-color); gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 10px; flex: 1; min-width: 0;">
+                ${resultIcon}
+                <div style="flex: 1; min-width: 0;">
+                    <div style="font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        ${attempt.subject}${attempt.topic ? ' — ' + attempt.topic : ''}
+                    </div>
+                </div>
+                <span style="
+                    font-size: 11px; font-weight: 700; padding: 2px 8px;
+                    border-radius: 10px; background: ${src.bg}; color: ${src.color};
+                    white-space: nowrap; flex-shrink: 0;">
+                    ${src.label}
+                </span>
             </div>
-            <span style="font-size: 11px; color: var(--text-secondary);">${utils.formatDate(attempt.timestamp)}</span>
+            <span style="font-size: 11px; color: var(--text-secondary); white-space: nowrap; flex-shrink: 0; margin-left: 8px;">
+                ${utils.formatDate(attempt.timestamp)}
+            </span>
         </div>
-    `).join('');
+    `;
 }
 
 // Export filter functions
