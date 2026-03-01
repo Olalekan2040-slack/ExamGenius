@@ -166,7 +166,7 @@ async function showYearPracticeQuestion() {
                 <div class="question-text">${question.question}</div>
                 
                 ${question.image_path ? `
-                    <img src="${API_CONFIG.BASE_URL}${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;">
+                    <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;" onerror="this.style.display='none'">
                 ` : ''}
                 
                 <div class="options-list">
@@ -290,6 +290,7 @@ async function showYearPracticeResults(result) {
                                     <i class="fas fa-${isCorrect ? 'check-circle' : 'times-circle'}" style="color: ${isCorrect ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
                                 </div>
                                 <p style="margin-bottom: 12px;">${question.question}</p>
+                                ${question.image_path ? `<img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 8px 0 12px;" onerror="this.style.display='none'">` : ''}
                                 <div>
                                     <div><strong style="color: var(--success);">Correct:</strong> ${res.correct_answer}</div>
                                     ${!isCorrect ? `<div><strong style="color: var(--error);">Your answer:</strong> ${res.user_answer || 'None'}</div>` : ''}

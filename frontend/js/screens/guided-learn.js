@@ -542,10 +542,8 @@ async function showStaticObjectiveLearning() {
     currentPosition++;
     
     const progressPercent = (currentPosition / totalObjectives) * 100;
-    const questionKey = `${currentSubtopicIndex}_${currentObjectiveIndex}`;
-    const alreadyAnswered = guidedLearnState.answeredQuestions && guidedLearnState.answeredQuestions[questionKey];
-    
-    guidedLearnState.questionAnswered = !!alreadyAnswered;
+    const hasQuestion = !!objective.question;
+
     guidedLearnState.timeStarted = Date.now();
     
     const pageContent = `
@@ -566,125 +564,224 @@ async function showStaticObjectiveLearning() {
                     </div>
                 </div>
             </div>
-            
+
+            <!-- Step Indicator -->
+            <div class="learn-step-indicator">
+                <div class="step-item active">
+                    <div class="step-circle active"><i class="fas fa-book-open"></i></div>
+                    <span>Learn</span>
+                </div>
+                <div class="step-connector ${hasQuestion ? '' : 'inactive'}"></div>
+                <div class="step-item ${hasQuestion ? '' : 'inactive'}">
+                    <div class="step-circle"><i class="fas fa-pencil-alt"></i></div>
+                    <span>Practice</span>
+                </div>
+            </div>
+
             <!-- Objective Title -->
             <div class="objective-banner">
-                <h2>Objective: ${objective.title}</h2>
+                <div class="objective-label"><i class="fas fa-bullseye"></i> Objective ${currentPosition}</div>
+                <h2>${objective.title}</h2>
             </div>
             
-            <!-- Main Content -->
-            <div class="learning-content-grid">
-                <!-- Left: Explanation -->
-                <div class="explanation-section">
-                    <div class="content-card">
-                        <div class="card-header">
-                            <h3><i class="fas fa-lightbulb"></i> Explanation</h3>
-                        </div>
-                        <div class="card-body explanation-text">
-                            ${objective.explanation}
-                        </div>
+            <!-- Full-Width Explanation Content -->
+            <div class="explanation-full">
+                <div class="content-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-lightbulb"></i> Explanation</h3>
                     </div>
-                    
-                    ${objective.workedExample ? `
-                        <div class="content-card worked-example">
-                            <div class="card-header">
-                                <h3><i class="fas fa-calculator"></i> Worked Example</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="problem-box">
-                                    <strong>Problem:</strong> ${objective.workedExample.problem}
-                                </div>
-                                <div class="solution-box">
-                                    <strong>Solution:</strong>
-                                    <p>${objective.workedExample.solution}</p>
-                                </div>
-                            </div>
-                        </div>
-                    ` : ''}
-                    
-                    ${objective.visuals && objective.visuals.length > 0 ? `
-                        <div class="visual-card">
-                            ${renderStaticVisuals(objective.visuals)}
-                        </div>
-                    ` : ''}
+                    <div class="card-body explanation-text">
+                        ${objective.explanation}
+                    </div>
                 </div>
                 
-                <!-- Right: Question -->
-                <div class="question-section">
-                    <div class="content-card question-card">
+                ${objective.workedExample ? `
+                    <div class="content-card worked-example">
                         <div class="card-header">
-                            <h3><i class="fas fa-question-circle"></i> Test Your Understanding</h3>
-                            <span class="badge">JAMB Style</span>
+                            <h3><i class="fas fa-calculator"></i> Worked Example</h3>
                         </div>
                         <div class="card-body">
-                            ${objective.question ? `
-                                <div class="static-question" id="static-question-area">
-                                    <p class="question-text">${objective.question.text}</p>
-                                    <div class="options-list">
-                                        ${Object.entries(objective.question.options).map(([key, text]) => {
-                                            const isCorrect = key === objective.question.correctAnswer;
-                                            const wasSelected = alreadyAnswered === key;
-                                            let optionClass = '';
-                                            if (alreadyAnswered) {
-                                                if (isCorrect) optionClass = 'correct';
-                                                else if (wasSelected) optionClass = 'incorrect';
-                                            }
-                                            return `
-                                                <div class="option-item ${optionClass}" 
-                                                     id="static-option-${key}"
-                                                     onclick="selectStaticOption('${key}')"
-                                                     ${alreadyAnswered ? 'style="pointer-events: none;"' : ''}>
-                                                    <span class="option-key">${key}</span>
-                                                    <span class="option-text">${text}</span>
-                                                    ${alreadyAnswered && isCorrect ? '<i class="fas fa-check"></i>' : ''}
-                                                    ${alreadyAnswered && wasSelected && !isCorrect ? '<i class="fas fa-times"></i>' : ''}
-                                                </div>
-                                            `;
-                                        }).join('')}
-                                    </div>
-                                    <div class="feedback-box ${alreadyAnswered ? (alreadyAnswered === objective.question.correctAnswer ? 'correct' : 'incorrect') : 'hidden'}" id="static-feedback">
-                                        ${alreadyAnswered ? `
-                                            <div class="feedback-header">
-                                                <i class="fas fa-${alreadyAnswered === objective.question.correctAnswer ? 'check-circle' : 'times-circle'}"></i>
-                                                <strong>${alreadyAnswered === objective.question.correctAnswer ? 'Correct!' : 'Incorrect'}</strong>
-                                            </div>
-                                            <p>${objective.question.explanation}</p>
-                                        ` : ''}
-                                    </div>
+                            <div class="problem-box">
+                                <strong>Problem:</strong> ${objective.workedExample.problem}
+                            </div>
+                            <div class="solution-box">
+                                <strong>Solution:</strong>
+                                <p>${objective.workedExample.solution}</p>
+                            </div>
+                            ${objective.workedExample.explanation ? `
+                                <div class="explanation-box">
+                                    <strong>Why:</strong>
+                                    <p>${objective.workedExample.explanation}</p>
                                 </div>
-                            ` : `
-                                <div class="no-question">
-                                    <i class="fas fa-check-circle"></i>
-                                    <p>No practice question for this objective.</p>
-                                </div>
-                            `}
+                            ` : ''}
                         </div>
                     </div>
-                    
-                    <!-- Ask Question -->
-                    <div class="content-card ask-card">
-                        <div class="card-header">
-                            <h3><i class="fas fa-comments"></i> Ask a question about this concept</h3>
+                ` : ''}
+                
+                ${objective.visuals && objective.visuals.length > 0 ? `
+                    <div class="visual-card">
+                        ${renderStaticVisuals(objective.visuals)}
+                    </div>
+                ` : ''}
+
+                <!-- Ask Question -->
+                <div class="content-card ask-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-comments"></i> Ask about this concept</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="ask-input-wrapper">
+                            <input type="text" id="static-ask-input" placeholder="I don't understand why...">
+                            <button class="btn btn-primary" onclick="handleStaticAskQuestion()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
                         </div>
-                        <div class="card-body">
-                            <div class="ask-input-wrapper">
-                                <input type="text" id="static-ask-input" placeholder="I don't understand why...">
-                                <button class="btn btn-primary" onclick="handleStaticAskQuestion()">
-                                    <i class="fas fa-paper-plane"></i>
-                                </button>
+                        <div id="static-ask-response"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation -->
+            <div class="learning-navigation step-navigation">
+                <button class="btn btn-outline" onclick="goToPrevStaticObjective()" ${currentSubtopicIndex === 0 && currentObjectiveIndex === 0 ? 'disabled' : ''}>
+                    <i class="fas fa-arrow-left"></i> Previous
+                </button>
+                ${hasQuestion ? `
+                    <button class="btn btn-primary btn-practice-cta" onclick="showStaticObjectivePractice()">
+                        <i class="fas fa-pencil-alt"></i> Practice
+                    </button>
+                ` : `
+                    <button class="btn btn-primary" onclick="goToNextStaticObjective()">
+                        Next <i class="fas fa-arrow-right"></i>
+                    </button>
+                `}
+            </div>
+        </div>
+    `;
+    
+    const mainApp = document.getElementById('main-app');
+    mainApp.innerHTML = createAppLayout(user, pageContent);
+    mainApp.classList.remove('hidden');
+}
+
+function showStaticObjectivePractice() {
+    const user = authManager.getUser();
+    const content = guidedLearnState.staticContent;
+    const { currentSubtopicIndex, currentObjectiveIndex } = guidedLearnState;
+    
+    const subtopic = content.subtopics[currentSubtopicIndex];
+    const objective = subtopic.objectives[currentObjectiveIndex];
+    
+    // Calculate progress
+    let totalObjectives = 0;
+    let currentPosition = 0;
+    content.subtopics.forEach((st, stIdx) => {
+        st.objectives.forEach((obj, objIdx) => {
+            totalObjectives++;
+            if (stIdx < currentSubtopicIndex || (stIdx === currentSubtopicIndex && objIdx < currentObjectiveIndex)) {
+                currentPosition++;
+            }
+        });
+    });
+    currentPosition++;
+    
+    const progressPercent = (currentPosition / totalObjectives) * 100;
+    const questionKey = `${currentSubtopicIndex}_${currentObjectiveIndex}`;
+    const alreadyAnswered = guidedLearnState.answeredQuestions && guidedLearnState.answeredQuestions[questionKey];
+    const question = objective.question;
+
+    guidedLearnState.questionAnswered = !!alreadyAnswered;
+    
+    const pageContent = `
+        <div class="static-learn-screen">
+            <!-- Header -->
+            <div class="objective-header">
+                <div class="breadcrumb">
+                    <span class="clickable" onclick="showGuidedTopicList()">${content.subject}</span>
+                    <i class="fas fa-chevron-right"></i>
+                    <span class="clickable" onclick="showGuidedTopicList()">${content.topic}</span>
+                    <i class="fas fa-chevron-right"></i>
+                    <span class="current">${subtopic.name}</span>
+                </div>
+                <div class="progress-indicator">
+                    <span>${currentPosition} of ${totalObjectives}</span>
+                    <div class="progress-bar-mini">
+                        <div class="progress-fill-mini" style="width: ${progressPercent}%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step Indicator -->
+            <div class="learn-step-indicator">
+                <div class="step-item completed" onclick="showStaticObjectiveLearning()" title="Back to Explanation">
+                    <div class="step-circle completed"><i class="fas fa-check"></i></div>
+                    <span>Learn</span>
+                </div>
+                <div class="step-connector active"></div>
+                <div class="step-item active">
+                    <div class="step-circle active"><i class="fas fa-pencil-alt"></i></div>
+                    <span>Practice</span>
+                </div>
+            </div>
+
+            <!-- Practice Header -->
+            <div class="objective-banner practice-banner">
+                <div class="objective-label"><i class="fas fa-brain"></i> Test Your Understanding</div>
+                <h2>${objective.title}</h2>
+            </div>
+
+            <!-- Full-Width Question -->
+            <div class="practice-full">
+                <div class="content-card question-card-full">
+                    <div class="card-header">
+                        <h3><i class="fas fa-question-circle"></i> Practice Question</h3>
+                        <span class="badge">JAMB Style</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="static-question" id="static-question-area">
+                            <p class="question-text">${question.text}</p>
+                            <div class="options-list">
+                                ${Object.entries(question.options).map(([key, text]) => {
+                                    const isCorrect = key === question.correctAnswer;
+                                    const wasSelected = alreadyAnswered === key;
+                                    let optionClass = '';
+                                    if (alreadyAnswered) {
+                                        if (isCorrect) optionClass = 'correct';
+                                        else if (wasSelected) optionClass = 'incorrect';
+                                    }
+                                    return `
+                                        <div class="option-item ${optionClass}" 
+                                             id="static-option-${key}"
+                                             onclick="selectStaticOption('${key}')"
+                                             ${alreadyAnswered ? 'style="pointer-events: none;"' : ''}>
+                                            <span class="option-key">${key}</span>
+                                            <span class="option-text">${text}</span>
+                                            ${alreadyAnswered && isCorrect ? '<i class="fas fa-check"></i>' : ''}
+                                            ${alreadyAnswered && wasSelected && !isCorrect ? '<i class="fas fa-times"></i>' : ''}
+                                        </div>
+                                    `;
+                                }).join('')}
                             </div>
-                            <div id="static-ask-response"></div>
+                            <div class="feedback-box ${alreadyAnswered ? (alreadyAnswered === question.correctAnswer ? 'correct' : 'incorrect') : 'hidden'}" id="static-feedback">
+                                ${alreadyAnswered ? `
+                                    <div class="feedback-header">
+                                        <i class="fas fa-${alreadyAnswered === question.correctAnswer ? 'check-circle' : 'times-circle'}"></i>
+                                        <strong>${alreadyAnswered === question.correctAnswer ? 'Correct!' : 'Incorrect'}</strong>
+                                    </div>
+                                    <p>${question.explanation}</p>
+                                ` : ''}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <!-- Navigation -->
-            <div class="learning-navigation">
-                <button class="btn btn-outline" onclick="goToPrevStaticObjective()" ${currentSubtopicIndex === 0 && currentObjectiveIndex === 0 ? 'disabled' : ''}>
-                    <i class="fas fa-arrow-left"></i> Previous
+            <div class="learning-navigation step-navigation">
+                <button class="btn btn-outline" onclick="showStaticObjectiveLearning()">
+                    <i class="fas fa-arrow-left"></i> Back to Explanation
                 </button>
-                <button class="btn btn-primary" id="static-next-btn" onclick="goToNextStaticObjective()" ${!guidedLearnState.questionAnswered && objective.question ? 'disabled' : ''}>
+                <button class="btn btn-primary" id="static-next-btn" onclick="goToNextStaticObjective()" ${!guidedLearnState.questionAnswered ? 'disabled' : ''}>
                     Next <i class="fas fa-arrow-right"></i>
                 </button>
             </div>
@@ -1315,8 +1412,21 @@ async function showObjectiveLearning() {
                         <h2>${data.objective_text}</h2>
                     </div>
                 </div>
+
+                <!-- Step Indicator -->
+                <div class="learn-step-indicator">
+                    <div class="step-item active">
+                        <div class="step-circle active"><i class="fas fa-book-open"></i></div>
+                        <span>Learn</span>
+                    </div>
+                    <div class="step-connector ${guidedLearnState.questions.length > 0 ? '' : 'inactive'}"></div>
+                    <div class="step-item ${guidedLearnState.questions.length > 0 ? '' : 'inactive'}">
+                        <div class="step-circle"><i class="fas fa-pencil-alt"></i></div>
+                        <span>Practice</span>
+                    </div>
+                </div>
                 
-                <!-- Main Content - Single Column for Better Reading -->
+                <!-- Explanation Content (Full Width) -->
                 <div class="learning-content-flow">
                     
                     <!-- AI Explanation Section (Collapsible) -->
@@ -1351,35 +1461,25 @@ async function showObjectiveLearning() {
                         </div>
                         <div id="qa-response-area"></div>
                     </div>
-                    
-                    <!-- Test Understanding (inline question if available) -->
-                    ${guidedLearnState.questions.length > 0 ? `
-                        <div class="content-section question-section">
-                            <div class="section-header-bar">
-                                <div class="section-title">
-                                    <i class="fas fa-question"></i>
-                                    <h3>Quick Check</h3>
-                                    ${guidedLearnState.questions[0].year ? `<span class="question-badge">JAMB ${guidedLearnState.questions[0].year}</span>` : ''}
-                                </div>
-                            </div>
-                            <div class="section-content" id="question-area">
-                                ${renderObjectiveQuestion()}
-                            </div>
-                        </div>
-                    ` : ''}
                 </div>
                 
                 <!-- Navigation -->
-                <div class="objective-navigation">
+                <div class="objective-navigation step-navigation">
                     <button class="btn btn-outline" ${!nav.has_prev ? 'disabled' : ''} onclick="goToPrevObjective()">
                         <i class="fas fa-arrow-left"></i> Previous
                     </button>
                     <button class="btn btn-outline" onclick="showTopicOverview()">
                         <i class="fas fa-list"></i> Overview
                     </button>
-                    <button class="btn btn-primary" id="next-btn" onclick="goToNextObjective()">
-                        ${nav.has_next ? (nav.subtopic_complete ? 'Finish Subtopic <i class="fas fa-flag-checkered"></i>' : 'Next <i class="fas fa-arrow-right"></i>') : 'Complete Topic <i class="fas fa-trophy"></i>'}
-                    </button>
+                    ${guidedLearnState.questions.length > 0 ? `
+                        <button class="btn btn-primary btn-practice-cta" onclick="showObjectivePractice()">
+                            <i class="fas fa-pencil-alt"></i> Practice
+                        </button>
+                    ` : `
+                        <button class="btn btn-primary" id="next-btn" onclick="goToNextObjective()">
+                            ${nav.has_next ? (nav.subtopic_complete ? 'Finish Subtopic <i class="fas fa-flag-checkered"></i>' : 'Next <i class="fas fa-arrow-right"></i>') : 'Complete Topic <i class="fas fa-trophy"></i>'}
+                        </button>
+                    `}
                 </div>
             </div>
         `;
@@ -1396,6 +1496,87 @@ async function showObjectiveLearning() {
         hideLoading();
         showToast('Failed to load objective: ' + error.message, 'error');
     }
+}
+
+function showObjectivePractice() {
+    const user = authManager.getUser();
+    const data = guidedLearnState.currentObjective;
+    const nav = data.navigation;
+
+    const pageContent = `
+        <div class="objective-learning-screen enhanced">
+            <!-- Header -->
+            <div class="objective-header">
+                <div class="breadcrumb">
+                    <span onclick="showGuidedTopicList()" class="clickable">${guidedLearnState.subject}</span>
+                    <i class="fas fa-chevron-right"></i>
+                    <span onclick="showTopicOverview()" class="clickable">${guidedLearnState.topicName}</span>
+                    <i class="fas fa-chevron-right"></i>
+                    <span class="current">${data.subtopic_name}</span>
+                </div>
+                <div class="progress-indicator">
+                    <span class="progress-text">${nav.current_position} of ${nav.total_objectives}</span>
+                    <div class="mini-progress">
+                        <div class="mini-progress-fill" style="width: ${(nav.current_position / nav.total_objectives) * 100}%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step Indicator -->
+            <div class="learn-step-indicator">
+                <div class="step-item completed" onclick="showObjectiveLearning()" title="Back to Explanation">
+                    <div class="step-circle completed"><i class="fas fa-check"></i></div>
+                    <span>Learn</span>
+                </div>
+                <div class="step-connector active"></div>
+                <div class="step-item active">
+                    <div class="step-circle active"><i class="fas fa-pencil-alt"></i></div>
+                    <span>Practice</span>
+                </div>
+            </div>
+
+            <!-- Practice Header -->
+            <div class="objective-title-box practice-banner">
+                <div class="objective-title-left">
+                    <span class="objective-badge practice-badge"><i class="fas fa-brain"></i> Test Your Understanding</span>
+                    <h2>${data.objective_text}</h2>
+                </div>
+            </div>
+
+            <!-- Full-Width Question -->
+            <div class="practice-full">
+                <div class="content-section question-section-full">
+                    <div class="section-header-bar">
+                        <div class="section-title">
+                            <i class="fas fa-question-circle"></i>
+                            <h3>Practice Question</h3>
+                            ${guidedLearnState.questions[0] && guidedLearnState.questions[0].year ? `<span class="question-badge">JAMB ${guidedLearnState.questions[0].year}</span>` : '<span class="question-badge">JAMB Style</span>'}
+                        </div>
+                    </div>
+                    <div class="section-content" id="question-area">
+                        ${renderObjectiveQuestion()}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="objective-navigation step-navigation">
+                <button class="btn btn-outline" onclick="showObjectiveLearning()">
+                    <i class="fas fa-arrow-left"></i> Back to Explanation
+                </button>
+                <button class="btn btn-outline" onclick="showTopicOverview()">
+                    <i class="fas fa-list"></i> Overview
+                </button>
+                <button class="btn btn-primary" id="next-btn" onclick="goToNextObjective()" disabled>
+                    ${nav.has_next ? (nav.subtopic_complete ? 'Finish Subtopic <i class="fas fa-flag-checkered"></i>' : 'Next <i class="fas fa-arrow-right"></i>') : 'Complete Topic <i class="fas fa-trophy"></i>'}
+                </button>
+            </div>
+        </div>
+    `;
+
+    const mainApp = document.getElementById('main-app');
+    mainApp.innerHTML = createAppLayout(user, pageContent);
+    mainApp.classList.remove('hidden');
 }
 
 
@@ -1591,7 +1772,7 @@ function renderObjectiveQuestion() {
             ` : ''}
             ${q.image_path ? `
                 <div class="question-image">
-                    <img src="/static/${q.image_path}" alt="Question image" onerror="this.style.display='none'">
+                    <img src="${API_CONFIG.BASE_URL}/static/${q.image_path}" alt="Question image" onerror="this.style.display='none'">
                 </div>
             ` : ''}
             <p class="question-text">${q.question}</p>
@@ -2282,9 +2463,9 @@ function showTopicQuizQuestion() {
                     <div class="question-number">Question ${currentIndex + 1}</div>
                     <div class="question-text">${question.question_text}</div>
                     
-                    ${question.question_image ? `
+                    ${question.image_path ? `
                         <div class="question-image">
-                            <img src="${question.question_image}" alt="Question diagram">
+                            <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question diagram" onerror="this.style.display='none'">
                         </div>
                     ` : ''}
                     
@@ -2567,6 +2748,12 @@ function reviewTopicQuizAnswers() {
                             
                             <div class="review-question-text">${q.question_text}</div>
                             
+                            ${q.image_path ? `
+                                <div class="question-image" style="margin: 12px 0;">
+                                    <img src="${API_CONFIG.BASE_URL}/static/${q.image_path}" alt="Question image" style="max-width: 100%; border-radius: 8px;" onerror="this.style.display='none'">
+                                </div>
+                            ` : ''}
+                            
                             <div class="review-options">
                                 ${['A', 'B', 'C', 'D'].map(key => {
                                     const optionText = q.options?.[key] || q[`option_${key.toLowerCase()}`] || '';
@@ -2669,3 +2856,16 @@ window.selectQuizAnswer = selectQuizAnswer;
 window.nextQuizQuestion = nextQuizQuestion;
 window.reviewWeaknesses = reviewWeaknesses;
 window.startTopicPractice = startTopicPractice;
+window.startTopicPracticeQuiz = startTopicPracticeQuiz;
+window.selectTopicQuizOption = selectTopicQuizOption;
+window.prevTopicQuizQuestion = prevTopicQuizQuestion;
+window.nextTopicQuizQuestion = nextTopicQuizQuestion;
+window.jumpToTopicQuizQuestion = jumpToTopicQuizQuestion;
+window.exitTopicQuiz = exitTopicQuiz;
+window.finishTopicQuiz = finishTopicQuiz;
+window.reviewTopicQuizAnswers = reviewTopicQuizAnswers;
+window.showObjectivePractice = showObjectivePractice;
+window.showStaticObjectivePractice = showStaticObjectivePractice;
+window.handleStaticAskQuestion = handleStaticAskQuestion;
+window.reviewStaticWeakAreas = reviewStaticWeakAreas;
+window.restartStaticTopic = restartStaticTopic;

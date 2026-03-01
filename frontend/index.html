@@ -7,7 +7,7 @@
     <title>ExamGenius - JAMB CBT Preparation Platform</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="shortcut icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="stylesheet" href="css/styles.css?v=2.0">
+    <link rel="stylesheet" href="css/styles.css?v=3.0">
     <link rel="stylesheet" href="css/guided-learn.css?v=3.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -26,6 +26,8 @@
     <div id="app">
         <!-- Landing Page -->
         <div id="landing-page" class="screen">
+
+            <!-- ===== HEADER ===== -->
             <header class="landing-header">
                 <div class="container">
                     <div class="logo" onclick="window.location.reload()" style="cursor: pointer;">
@@ -34,9 +36,11 @@
                     </div>
                     <nav class="landing-nav">
                         <a href="#features">Features</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#points">Points System</a>
                         <a href="#about">About</a>
                         <button class="btn btn-outline" onclick="router.navigate('login')">Login</button>
-                        <button class="btn btn-primary" onclick="router.navigate('register')">Get Started</button>
+                        <button class="btn btn-primary" onclick="router.navigate('register')">Get Started Free</button>
                     </nav>
                     <button class="mobile-menu-toggle" onclick="utils.toggleMobileMenu()">
                         <i class="fas fa-bars"></i>
@@ -44,155 +48,411 @@
                 </div>
             </header>
 
+            <!-- ===== HERO ===== -->
             <section class="hero">
-                <div class="container">
+                <div class="hero-bg-image" style="background-image: url('images/image (5).jpg');"></div>
+                <div class="hero-overlay"></div>
+                <div class="container hero-inner">
                     <div class="hero-content">
-                        <h1>Ace Your JAMB Exam with <span class="highlight">ExamGenius</span></h1>
-                        <p class="hero-subtitle">Smart CBT preparation platform with AI-powered lessons, year-by-year
-                            practice, and full exam simulations</p>
+                        <div class="hero-badge">
+                            <i class="fas fa-star"></i> Nigeria's #1 JAMB Prep Platform
+                        </div>
+                        <h1>Ace Your JAMB With<br><span class="highlight">Confidence</span></h1>
+                        <p class="hero-subtitle">AI-powered lessons, 4,000+ past questions (2010–2024), full CBT simulations, and a reward system that keeps you motivated.</p>
                         <div class="hero-cta">
-                            <button class="btn btn-primary btn-lg" onclick="router.navigate('register')">
-                                <i class="fas fa-rocket"></i> Start Learning Free
+                            <button class="btn btn-primary btn-lg hero-btn-main" onclick="router.navigate('register')">
+                                <i class="fas fa-rocket"></i> Start for Free
                             </button>
-                            <button class="btn btn-outline btn-lg" onclick="router.navigate('login')">
+                            <button class="btn btn-hero-ghost btn-lg" onclick="router.navigate('login')">
                                 <i class="fas fa-sign-in-alt"></i> Sign In
                             </button>
                         </div>
-                        <div class="hero-stats">
-                            <div class="stat-item">
-                                <i class="fas fa-book"></i>
+                        <div class="hero-trust">
+                            <span><i class="fas fa-shield-alt"></i> 100% Free</span>
+                            <span><i class="fas fa-mobile-alt"></i> Works on Any Device</span>
+                            <span><i class="fas fa-bolt"></i> AI-Powered</span>
+                        </div>
+                    </div>
+                    <div class="hero-right">
+                        <div class="hero-stats-stack">
+                            <div class="hero-stat-pill">
+                                <div class="pill-icon yellow"><i class="fas fa-file-alt"></i></div>
                                 <div>
                                     <strong>4,115+</strong>
                                     <span>Past Questions</span>
                                 </div>
                             </div>
-                            <div class="stat-item">
-                                <i class="fas fa-calendar"></i>
+                            <div class="hero-stat-pill">
+                                <div class="pill-icon blue"><i class="fas fa-calendar-check"></i></div>
                                 <div>
-                                    <strong>2010-2024</strong>
+                                    <strong>2010 – 2024</strong>
                                     <span>Years Covered</span>
                                 </div>
                             </div>
-                            <div class="stat-item">
-                                <i class="fas fa-brain"></i>
+                            <div class="hero-stat-pill">
+                                <div class="pill-icon green"><i class="fas fa-brain"></i></div>
                                 <div>
-                                    <strong>AI-Powered</strong>
-                                    <span>Lessons</span>
+                                    <strong>10 Subjects</strong>
+                                    <span>With AI Lessons</span>
+                                </div>
+                            </div>
+                            <div class="hero-stat-pill">
+                                <div class="pill-icon purple"><i class="fas fa-trophy"></i></div>
+                                <div>
+                                    <strong>Points &amp; Badges</strong>
+                                    <span>Stay Motivated</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="hero-image">
-                        <div class="floating-card">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Track Your Progress</span>
-                        </div>
-                        <div class="floating-card">
-                            <i class="fas fa-chart-line"></i>
-                            <span>Improve Accuracy</span>
-                        </div>
-                        <div class="floating-card">
-                            <i class="fas fa-fire"></i>
-                            <span>Build Streaks</span>
-                        </div>
-                    </div>
                 </div>
             </section>
 
+            <!-- ===== STATS BAR ===== -->
+            <div class="stats-bar">
+                <div class="container stats-bar-inner">
+                    <div class="stats-bar-item">
+                        <i class="fas fa-book"></i>
+                        <strong>4,115+</strong>
+                        <span>Questions</span>
+                    </div>
+                    <div class="stats-bar-divider"></div>
+                    <div class="stats-bar-item">
+                        <i class="fas fa-clock"></i>
+                        <strong>15 Years</strong>
+                        <span>of Past Papers</span>
+                    </div>
+                    <div class="stats-bar-divider"></div>
+                    <div class="stats-bar-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <strong>10 Subjects</strong>
+                        <span>Covered</span>
+                    </div>
+                    <div class="stats-bar-divider"></div>
+                    <div class="stats-bar-item">
+                        <i class="fas fa-robot"></i>
+                        <strong>AI-Powered</strong>
+                        <span>Explanations</span>
+                    </div>
+                    <div class="stats-bar-divider"></div>
+                    <div class="stats-bar-item">
+                        <i class="fas fa-star"></i>
+                        <strong>Free Forever</strong>
+                        <span>No Hidden Costs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== FEATURES ===== -->
             <section id="features" class="features-section">
                 <div class="container">
-                    <h2>Everything You Need to Succeed</h2>
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-book-reader"></i>
+                    <div class="section-label">WHAT YOU GET</div>
+                    <h2 class="section-title">Everything You Need to <span class="yellow-text">Score High</span></h2>
+                    <p class="section-subtitle">Built from the ground up for JAMB success — every feature designed to match how UTME is structured.</p>
+
+                    <div class="features-split">
+                        <div class="features-image-col">
+                            <img src="images/image (13).jpg" alt="Student studying with ExamGenius" class="features-photo">
+                            <div class="features-photo-badge">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Learn → Practice → Excel</span>
                             </div>
-                            <h3>Learn by Topics</h3>
-                            <p>Master each topic with AI-generated lessons before practicing questions</p>
                         </div>
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-calendar-alt"></i>
+                        <div class="features-list-col">
+                            <div class="feature-row">
+                                <div class="feature-row-icon" style="background: #FFF9E6; color: #D97706;">
+                                    <i class="fas fa-route"></i>
+                                </div>
+                                <div>
+                                    <h3>Guided Learning</h3>
+                                    <p>Learn each objective step-by-step with AI explanations, then immediately practise JAMB-style questions on the same concept.</p>
+                                </div>
                             </div>
-                            <h3>Year Practice</h3>
-                            <p>Practice past questions from specific years (2010-2024) to understand exam patterns</p>
-                        </div>
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-laptop"></i>
+                            <div class="feature-row">
+                                <div class="feature-row-icon" style="background: #EFF6FF; color: #1D4ED8;">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div>
+                                    <h3>Year-by-Year Practice</h3>
+                                    <p>Drill specific exam years from 2010–2024. Understand trends, recurring topics, and exactly what JAMB tests.</p>
+                                </div>
                             </div>
-                            <h3>Full CBT Simulation</h3>
-                            <p>Experience real exam conditions with 160 questions and 3-hour timer</p>
-                        </div>
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-chart-pie"></i>
+                            <div class="feature-row">
+                                <div class="feature-row-icon" style="background: #F0FDF4; color: #15803D;">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <div>
+                                    <h3>Full CBT Simulation</h3>
+                                    <p>160 questions across 4 subjects, 3-hour countdown timer, question flagging, and instant score analysis — just like the real UTME.</p>
+                                </div>
                             </div>
-                            <h3>Performance Analytics</h3>
-                            <p>Track accuracy, identify weak topics, and monitor your improvement over time</p>
-                        </div>
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-fire-alt"></i>
+                            <div class="feature-row">
+                                <div class="feature-row-icon" style="background: #FDF4FF; color: #7C3AED;">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div>
+                                    <h3>Performance Analytics</h3>
+                                    <p>Track accuracy by topic, spot weak areas, and monitor your score trajectory over time with visual dashboards.</p>
+                                </div>
                             </div>
-                            <h3>Streak Tracking</h3>
-                            <p>Build consistency with daily practice streaks and stay motivated</p>
-                        </div>
-                        <div class="feature-card">
-                            <div class="feature-icon">
-                                <i class="fas fa-robot"></i>
+                            <div class="feature-row">
+                                <div class="feature-row-icon" style="background: #FFF1F2; color: #BE123C;">
+                                    <i class="fas fa-fire-alt"></i>
+                                </div>
+                                <div>
+                                    <h3>Streaks &amp; Progress Tracking</h3>
+                                    <p>Build daily study habits. Your streak keeps you consistent — missing a day resets it, so stay on top of your game.</p>
+                                </div>
                             </div>
-                            <h3>AI Recommendations</h3>
-                            <p>Get personalized study suggestions based on your performance</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="about" class="about-section">
+            <!-- ===== HOW IT WORKS ===== -->
+            <section id="how-it-works" class="how-section">
                 <div class="container">
-                    <h2>Why ExamGenius?</h2>
-                    <div class="about-content">
-                        <div class="about-text">
-                            <p>ExamGenius is Nigeria's most comprehensive JAMB preparation platform, designed
-                                specifically for students who want to excel in their UTME examinations.</p>
-                            <ul class="about-list">
-                                <li><i class="fas fa-check"></i> Authentic past questions from 2010-2024</li>
-                                <li><i class="fas fa-check"></i> Covers all major subjects with detailed explanations
-                                </li>
-                                <li><i class="fas fa-check"></i> Mobile-first design for learning on the go</li>
-                                <li><i class="fas fa-check"></i> Completely free to use</li>
-                                <li><i class="fas fa-check"></i> Regular updates with new questions</li>
-                            </ul>
+                    <div class="section-label">THE PROCESS</div>
+                    <h2 class="section-title">Study Smarter in <span class="yellow-text">3 Steps</span></h2>
+                    <div class="how-steps">
+                        <div class="how-step">
+                            <div class="how-step-img">
+                                <img src="images/image (14).jpg" alt="Choose your subject">
+                                <div class="step-number">1</div>
+                            </div>
+                            <h3>Choose a Subject &amp; Topic</h3>
+                            <p>Pick any of the 10 JAMB subjects. Browse topics aligned to the official JAMB syllabus.</p>
+                        </div>
+                        <div class="how-arrow"><i class="fas fa-chevron-right"></i></div>
+                        <div class="how-step">
+                            <div class="how-step-img">
+                                <img src="images/image (15).jpg" alt="Learn with AI">
+                                <div class="step-number">2</div>
+                            </div>
+                            <h3>Learn, Then Practise</h3>
+                            <p>Read the AI explanation for each objective, then answer a JAMB-style question before moving on.</p>
+                        </div>
+                        <div class="how-arrow"><i class="fas fa-chevron-right"></i></div>
+                        <div class="how-step">
+                            <div class="how-step-img">
+                                <img src="images/image (16).jpg" alt="Take the exam">
+                                <div class="step-number">3</div>
+                            </div>
+                            <h3>Simulate &amp; Score</h3>
+                            <p>Take a full CBT simulation or year practice. Review your results and improve your weaknesses.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
+            <!-- ===== POINTS SYSTEM ===== -->
+            <section id="points" class="points-section">
+                <div class="container">
+                    <div class="points-inner">
+                        <div class="points-text-col">
+                            <div class="section-label light">GAMIFICATION</div>
+                            <h2 class="section-title light">Earn Points as You <span class="yellow-text">Study</span></h2>
+                            <p class="section-subtitle light">ExamGenius rewards every step of your learning journey. The more you study and the better you perform, the more points you earn — keeping you motivated all the way to exam day.</p>
+
+                            <div class="points-table">
+                                <div class="points-row header-row">
+                                    <span>Activity</span>
+                                    <span>Points</span>
+                                </div>
+                                <div class="points-row">
+                                    <div class="points-activity">
+                                        <i class="fas fa-book-open" style="color:#F59E0B;"></i>
+                                        <span>Complete a learning objective</span>
+                                    </div>
+                                    <div class="points-badge-pill yellow">+10 pts</div>
+                                </div>
+                                <div class="points-row">
+                                    <div class="points-activity">
+                                        <i class="fas fa-check-circle" style="color:#10B981;"></i>
+                                        <span>Answer a practice question correctly</span>
+                                    </div>
+                                    <div class="points-badge-pill green">+5 pts bonus</div>
+                                </div>
+                                <div class="points-row">
+                                    <div class="points-activity">
+                                        <i class="fas fa-layer-group" style="color:#3B82F6;"></i>
+                                        <span>Complete a full subtopic</span>
+                                    </div>
+                                    <div class="points-badge-pill blue">+25 pts</div>
+                                </div>
+                                <div class="points-row">
+                                    <div class="points-activity">
+                                        <i class="fas fa-flag-checkered" style="color:#8B5CF6;"></i>
+                                        <span>Finish an entire topic</span>
+                                    </div>
+                                    <div class="points-badge-pill purple">+50 pts</div>
+                                </div>
+                                <div class="points-row">
+                                    <div class="points-activity">
+                                        <i class="fas fa-fire" style="color:#EF4444;"></i>
+                                        <span>Score 80%+ on topic completion</span>
+                                    </div>
+                                    <div class="points-badge-pill red">+30 pts bonus</div>
+                                </div>
+                                <div class="points-row">
+                                    <div class="points-activity">
+                                        <i class="fas fa-medal" style="color:#F59E0B;"></i>
+                                        <span>Score 60–79% on topic completion</span>
+                                    </div>
+                                    <div class="points-badge-pill yellow">+15 pts bonus</div>
+                                </div>
+                            </div>
+
+                            <div class="points-tip">
+                                <i class="fas fa-lightbulb"></i>
+                                <p><strong>Pro tip:</strong> A student who completes a full topic with 80%+ accuracy earns up to <strong>130+ points</strong> in a single session!</p>
+                            </div>
+                        </div>
+
+                        <div class="points-visual-col">
+                            <div class="points-card-display">
+                                <div class="points-card-top">
+                                    <img src="images/image (12).jpg" alt="Student earning points" class="points-photo">
+                                    <div class="points-overlay">
+                                        <div class="points-score-badge">
+                                            <i class="fas fa-star"></i>
+                                            <span>+130 pts</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="points-card-body">
+                                    <h4>Why does this matter?</h4>
+                                    <p>Points reflect your commitment and mastery. They help you track how much you've covered — and remind you to keep going when motivation dips.</p>
+                                    <div class="points-badges-row">
+                                        <div class="point-badge-chip"><i class="fas fa-star"></i> Motivated Learner</div>
+                                        <div class="point-badge-chip"><i class="fas fa-brain"></i> Topic Master</div>
+                                        <div class="point-badge-chip"><i class="fas fa-fire"></i> On a Roll</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== ABOUT ===== -->
+            <section id="about" class="about-section-new">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-image-col">
+                            <div class="about-image-wrapper">
+                                <img src="images/image (12).jpg" alt="Students using ExamGenius" class="about-photo">
+                                <div class="about-photo-card">
+                                    <div class="about-card-icon"><i class="fas fa-trophy"></i></div>
+                                    <div>
+                                        <strong>Built for JAMB</strong>
+                                        <span>Nigeria's UTME preparation platform</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-text-col">
+                            <div class="section-label">ABOUT EXAMGENIUS</div>
+                            <h2 class="section-title">Why Thousands of Students <span class="yellow-text">Choose Us</span></h2>
+                            <p class="about-para">ExamGenius is Nigeria's most comprehensive JAMB preparation platform, built specifically for students who want to excel in the UTME examination. We combine authentic past questions with AI-powered explanations to give every student the edge they need.</p>
+
+                            <div class="about-features-list">
+                                <div class="about-feature-item">
+                                    <div class="about-feature-icon"><i class="fas fa-database"></i></div>
+                                    <div>
+                                        <strong>Authentic Past Questions</strong>
+                                        <p>4,115+ questions verified from official JAMB papers from 2010 to 2024</p>
+                                    </div>
+                                </div>
+                                <div class="about-feature-item">
+                                    <div class="about-feature-icon"><i class="fas fa-brain"></i></div>
+                                    <div>
+                                        <strong>AI-Powered Learning</strong>
+                                        <p>Every topic has AI-generated explanations, worked examples, and instant feedback</p>
+                                    </div>
+                                </div>
+                                <div class="about-feature-item">
+                                    <div class="about-feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                                    <div>
+                                        <strong>Mobile-First Design</strong>
+                                        <p>Study anywhere, anytime — optimised for phones, tablets, and computers</p>
+                                    </div>
+                                </div>
+                                <div class="about-feature-item">
+                                    <div class="about-feature-icon"><i class="fas fa-gift"></i></div>
+                                    <div>
+                                        <strong>Completely Free</strong>
+                                        <p>No subscriptions, no paywalls — every feature is available to every student at no cost</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary btn-lg" onclick="router.navigate('register')">
+                                <i class="fas fa-user-plus"></i> Create Free Account
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== CTA BANNER ===== -->
+            <section class="cta-banner">
+                <div class="cta-bg" style="background-image: url('images/image (16).jpg');"></div>
+                <div class="cta-overlay"></div>
+                <div class="container cta-inner">
+                    <h2>Ready to Start Your JAMB Prep?</h2>
+                    <p>Join now and get access to 4,115+ questions, AI explanations, and full CBT simulations — all free.</p>
+                    <div class="cta-btns">
+                        <button class="btn btn-primary btn-lg" onclick="router.navigate('register')">
+                            <i class="fas fa-rocket"></i> Get Started Now — It's Free
+                        </button>
+                        <button class="btn btn-hero-ghost btn-lg" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">
+                            <i class="fas fa-play-circle"></i> See How It Works
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== FOOTER ===== -->
             <footer class="landing-footer">
                 <div class="container">
                     <div class="footer-content">
-                        <div class="footer-section">
+                        <div class="footer-section footer-brand">
                             <div class="logo">
                                 <i class="fas fa-graduation-cap"></i>
                                 <span>ExamGenius</span>
                             </div>
-                            <p>Your trusted partner in JAMB preparation</p>
+                            <p>Nigeria's most comprehensive JAMB preparation platform. Study smarter, score higher.</p>
+                            <div class="footer-social">
+                                <a href="#" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
                         </div>
                         <div class="footer-section">
-                            <h4>Quick Links</h4>
+                            <h4>Platform</h4>
                             <a href="#features">Features</a>
+                            <a href="#how-it-works">How It Works</a>
+                            <a href="#points">Points System</a>
                             <a href="#about">About</a>
-                            <a href="#" onclick="router.navigate('register')">Get Started</a>
                         </div>
                         <div class="footer-section">
-                            <h4>Legal</h4>
+                            <h4>Study</h4>
+                            <a href="#" onclick="router.navigate('register')">Guided Learning</a>
+                            <a href="#" onclick="router.navigate('register')">Year Practice</a>
+                            <a href="#" onclick="router.navigate('register')">CBT Simulation</a>
+                            <a href="#" onclick="router.navigate('register')">Analytics</a>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Account</h4>
+                            <a href="#" onclick="router.navigate('register')">Create Account</a>
+                            <a href="#" onclick="router.navigate('login')">Login</a>
                             <a href="#">Privacy Policy</a>
                             <a href="#">Terms of Service</a>
                         </div>
                     </div>
                     <div class="footer-bottom">
-                        <p>&copy; 2025 ExamGenius. All rights reserved.</p>
+                        <p>&copy; 2025 ExamGenius. All rights reserved. Built for Nigerian students.</p>
                     </div>
                 </div>
             </footer>

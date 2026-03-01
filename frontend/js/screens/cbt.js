@@ -251,7 +251,7 @@ async function showCBTExam() {
                 <div class="question-text">${question.question}</div>
                 
                 ${question.image_path ? `
-                    <img src="${API_CONFIG.BASE_URL}${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;">
+                    <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;" onerror="this.style.display='none'">
                 ` : ''}
                 
                 <div class="options-list">

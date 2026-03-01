@@ -2461,6 +2461,9 @@
     margin-bottom: 24px;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .objective-banner::before {
@@ -2474,6 +2477,13 @@
     border-radius: 50%;
 }
 
+.objective-banner .objective-label {
+    background: rgba(255,255,255,0.25);
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
 .objective-banner h2 {
     font-size: 22px;
     font-weight: 600;
@@ -2481,6 +2491,14 @@
     position: relative;
     z-index: 2;
     line-height: 1.4;
+}
+
+.objective-banner p.objective-subtitle {
+    font-size: 14px;
+    opacity: 0.85;
+    margin: 8px 0 0;
+    position: relative;
+    z-index: 2;
 }
 
 /* Learning Content Grid */
@@ -4174,5 +4192,260 @@
     
     .score-total {
         font-size: 20px;
+    }
+}
+
+/* ============================================================
+   SEQUENTIAL LEARN → PRACTICE FLOW
+   ============================================================ */
+
+/* Step Indicator */
+.learn-step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 20px 0 24px;
+    padding: 16px 24px;
+    background: var(--white);
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.step-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: default;
+    min-width: 80px;
+}
+
+.step-item.completed {
+    cursor: pointer;
+}
+
+.step-item span {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+}
+
+.step-item.active span {
+    color: var(--primary-yellow-dark);
+}
+
+.step-item.completed span {
+    color: #10B981;
+}
+
+.step-item.inactive span {
+    color: var(--text-secondary);
+    opacity: 0.4;
+}
+
+.step-circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.step-circle.active {
+    background: linear-gradient(135deg, #F59E0B, #D97706);
+    color: white;
+    border-color: #F59E0B;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.step-circle.completed {
+    background: linear-gradient(135deg, #10B981, #059669);
+    color: white;
+    border-color: #10B981;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.step-item.inactive .step-circle {
+    opacity: 0.35;
+}
+
+.step-connector {
+    flex: 1;
+    height: 3px;
+    background: var(--border-color);
+    margin: 0 8px;
+    margin-bottom: 20px; /* align with circle center offset */
+    border-radius: 2px;
+    min-width: 48px;
+    max-width: 120px;
+    transition: background 0.3s ease;
+}
+
+.step-connector.active {
+    background: linear-gradient(90deg, #10B981, #F59E0B);
+}
+
+.step-connector.inactive {
+    opacity: 0.25;
+}
+
+/* Objective Label (replaces "Objective: " prefix in title) */
+.objective-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(217,119,6,0.08));
+    color: #B45309;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+/* Full-Width Explanation Container */
+.explanation-full {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.explanation-full .content-card {
+    width: 100%;
+}
+
+/* Full-Width Practice Container */
+.practice-full {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.practice-full .content-card,
+.practice-full .content-section {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/* Question Card (full-width variant) */
+.question-card-full {
+    max-width: 760px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.question-section-full {
+    background: var(--white);
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    max-width: 760px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Practice Page Banner */
+.objective-banner.practice-banner,
+.objective-title-box.practice-banner {
+    background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+    border: 1px solid #BFDBFE;
+}
+
+.objective-banner.practice-banner h2,
+.objective-title-box.practice-banner h2 {
+    color: #1E40AF;
+}
+
+.objective-banner.practice-banner .objective-label {
+    background: linear-gradient(135deg, rgba(59,130,246,0.12), rgba(29,78,216,0.08));
+    color: #1D4ED8;
+}
+
+.objective-title-box.practice-banner .objective-badge {
+    background: linear-gradient(135deg, rgba(59,130,246,0.12), rgba(29,78,216,0.08));
+    color: #1D4ED8;
+    border: 1px solid rgba(59,130,246,0.2);
+}
+
+/* Practice CTA Button */
+.btn-practice-cta {
+    background: linear-gradient(135deg, #3B82F6, #1D4ED8) !important;
+    border-color: #3B82F6 !important;
+    min-width: 140px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 28px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35) !important;
+    transition: all 0.2s ease !important;
+}
+
+.btn-practice-cta:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.45) !important;
+}
+
+/* Step Navigation (overrides for step pages) */
+.step-navigation {
+    justify-content: space-between;
+}
+
+.learning-navigation.step-navigation,
+.objective-navigation.step-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 0;
+}
+
+/* Practice Badge */
+.practice-badge {
+    background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(29,78,216,0.1)) !important;
+    color: #1D4ED8 !important;
+    border: 1px solid rgba(59,130,246,0.25) !important;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .learn-step-indicator {
+        padding: 12px 16px;
+    }
+
+    .step-item {
+        min-width: 60px;
+    }
+
+    .step-circle {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    .step-connector {
+        min-width: 28px;
+    }
+
+    .practice-full .content-card,
+    .practice-full .content-section,
+    .question-card-full,
+    .question-section-full {
+        max-width: 100%;
     }
 }
