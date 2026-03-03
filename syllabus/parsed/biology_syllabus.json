@@ -1,0 +1,373 @@
+{
+  "subject": "Biology",
+  "topics": [
+    {
+      "number": 1,
+      "name": "Living Organisms",
+      "subtopics": [
+        {
+          "name": "Characteristics of Living Things",
+          "objectives": [
+            "Differentiate between the characteristics of living and non-living things.",
+            "Recall the seven life processes (MRS GREN).",
+            "Distinguish between aerobic and anaerobic respiration.",
+            "Distinguish between autotrophic and heterotrophic nutrition."
+          ]
+        },
+        {
+          "name": "The Cell — Basic Unit of Life",
+          "objectives": [
+            "Identify the structures of plant and animal cells.",
+            "Analyse the functions of cell components.",
+            "Compare and contrast plant and animal cells.",
+            "State the cell theory and the scientists associated with it."
+          ]
+        },
+        {
+          "name": "Organisation and Classification",
+          "objectives": [
+            "Trace the levels of organisation: Cell, Tissue, Organ, System, Organism.",
+            "Distinguish between unicellular and multicellular organisms.",
+            "Classify organisms into the five kingdoms.",
+            "Explain why viruses are considered acellular."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Evolution and Advancement of Organisms",
+      "subtopics": [
+        {
+          "name": "Evolution of Plants",
+          "objectives": [
+            "Trace the evolutionary sequence of plants: Thallophyta → Bryophyta → Pteridophyta → Spermatophyta.",
+            "Distinguish features of Gymnosperms and Angiosperms.",
+            "Describe the features of Monera, Protista, and Fungi.",
+            "Account for the transition from aquatic to terrestrial plants."
+          ]
+        },
+        {
+          "name": "Evolution of Animals — Invertebrates",
+          "objectives": [
+            "Trace the advancement of invertebrate animals.",
+            "Identify distinguishing features of each invertebrate phylum.",
+            "Determine the economic importance of insects.",
+            "State the correct evolutionary sequence of invertebrates."
+          ]
+        },
+        {
+          "name": "Evolution of Animals — Vertebrates",
+          "objectives": [
+            "Trace the advancement of multicellular animals from fish to mammals.",
+            "Compare features of vertebrate classes.",
+            "Describe the frog life cycle as evidence of transition from water to land.",
+            "Determine the economic importance of vertebrates."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Variety of Organisms",
+      "subtopics": [
+        {
+          "name": "Structural Adaptations",
+          "objectives": [
+            "Describe how structures adapt organisms to their environment.",
+            "Explain adaptations for obtaining food (bird beaks, insect mouthparts).",
+            "Explain adaptations for protection and defence (camouflage, spines).",
+            "Describe adaptations for water conservation and thermoregulation."
+          ]
+        },
+        {
+          "name": "Functional Adaptations",
+          "objectives": [
+            "Describe physiological adaptations of desert animals.",
+            "Explain water conservation mechanisms in animals.",
+            "Describe venom production and its functions in snakes."
+          ]
+        },
+        {
+          "name": "Behavioural Adaptations",
+          "objectives": [
+            "Categorise countershading in fish, toads, and snakes.",
+            "Explain warning colouration and its function.",
+            "Differentiate castes in termite colonies and their roles.",
+            "Account for basking in lizards, hibernation, and aestivation."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Internal Structure of a Flowering Plant",
+      "subtopics": [
+        {
+          "name": "Root, Stem and Leaf Structure",
+          "objectives": [
+            "Identify transverse sections of root, stem, and leaf.",
+            "Relate structure to function in plant organs.",
+            "Identify supporting tissues: collenchyma, sclerenchyma, xylem, phloem fibres.",
+            "Describe the distribution of supporting tissues in root, stem, and leaf."
+          ]
+        },
+        {
+          "name": "Internal Structure of a Mammal",
+          "objectives": [
+            "Examine the arrangement of mammalian internal organs.",
+            "Describe the position and appearance of digestive, reproductive, and excretory organs."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Nutrition",
+      "subtopics": [
+        {
+          "name": "Modes of Nutrition",
+          "objectives": [
+            "Compare autotrophic and heterotrophic modes of nutrition.",
+            "Provide examples of photosynthetic and chemosynthetic nutrition.",
+            "Differentiate holozoic, parasitic, saprophytic, and symbiotic nutrition."
+          ]
+        },
+        {
+          "name": "Plant Nutrition",
+          "objectives": [
+            "Describe photosynthesis and the conditions required.",
+            "Identify macro and micro-nutrient requirements in plants.",
+            "State the role of mineral salts in plant growth."
+          ]
+        },
+        {
+          "name": "Animal Nutrition",
+          "objectives": [
+            "Identify the six classes of food substances and their functions.",
+            "Perform food tests for starch, reducing sugar, protein, and fat.",
+            "Describe the structure and functions of mammalian teeth.",
+            "Describe digestion, absorption, and assimilation in the alimentary canal."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Transport",
+      "subtopics": [
+        {
+          "name": "Transport in Plants",
+          "objectives": [
+            "Describe the process of osmosis and its role in plants.",
+            "Explain the movement of water through xylem vessels.",
+            "Describe the translocation of food in phloem."
+          ]
+        },
+        {
+          "name": "Transport in Animals",
+          "objectives": [
+            "Describe the composition and functions of blood.",
+            "Trace the pathway of blood through the heart and lungs.",
+            "Compare open and closed circulatory systems.",
+            "Describe the lymphatic system."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Respiration",
+      "subtopics": [
+        {
+          "name": "Types of Respiration",
+          "objectives": [
+            "Differentiate aerobic from anaerobic respiration.",
+            "Write equations for aerobic and anaerobic respiration.",
+            "Describe the role of ATP in energy transfer.",
+            "Explain the respiratory quotient (RQ)."
+          ]
+        },
+        {
+          "name": "Respiratory Systems",
+          "objectives": [
+            "Describe the mechanism of breathing in mammals.",
+            "Compare respiratory surfaces in fish, insects, and mammals.",
+            "Describe gaseous exchange in plants and animals."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Excretion",
+      "subtopics": [
+        {
+          "name": "Excretion in Plants",
+          "objectives": [
+            "Identify excretory products in plants.",
+            "Describe how plants remove carbon dioxide and oxygen."
+          ]
+        },
+        {
+          "name": "Excretion in Animals",
+          "objectives": [
+            "Describe the structure and function of the mammalian kidney.",
+            "Explain the process of urine formation (filtration, reabsorption, secretion).",
+            "Compare excretory products in different organisms (urea, uric acid, ammonia).",
+            "Describe the role of the skin and lungs in excretion."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Support and Movement",
+      "subtopics": [
+        {
+          "name": "Support in Plants",
+          "objectives": [
+            "Describe mechanisms of support in herbaceous and woody plants.",
+            "Explain the role of turgidity in plant support.",
+            "Identify supporting tissues in plants."
+          ]
+        },
+        {
+          "name": "Support and Movement in Animals",
+          "objectives": [
+            "Describe the structure of the mammalian skeleton.",
+            "Explain the mechanism of muscle contraction.",
+            "Compare endoskeleton, exoskeleton, and hydrostatic skeleton.",
+            "Describe the structure of synovial joints."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Reproduction",
+      "subtopics": [
+        {
+          "name": "Reproduction in Plants",
+          "objectives": [
+            "Describe sexual and asexual reproduction in plants.",
+            "Identify the parts of a flower and their functions.",
+            "Describe pollination, fertilisation, and seed dispersal.",
+            "Describe vegetative propagation methods."
+          ]
+        },
+        {
+          "name": "Reproduction in Animals",
+          "objectives": [
+            "Compare asexual and sexual reproduction in animals.",
+            "Describe the human reproductive system (male and female).",
+            "Explain fertilisation, pregnancy, and birth.",
+            "Describe metamorphosis in insects and frogs."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Growth",
+      "subtopics": [
+        {
+          "name": "Growth and Development",
+          "objectives": [
+            "Define growth and state its characteristics.",
+            "Describe the germination of seeds.",
+            "Draw growth curves (sigmoid, growth rate curves).",
+            "Describe growth in plants and animals."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Co-ordination and Control",
+      "subtopics": [
+        {
+          "name": "The Nervous System",
+          "objectives": [
+            "Describe the structure and functions of neurons.",
+            "Explain reflex action and the reflex arc.",
+            "Describe the structure of the brain and spinal cord.",
+            "Describe the sense organs and their functions."
+          ]
+        },
+        {
+          "name": "Hormonal Co-ordination",
+          "objectives": [
+            "Describe the endocrine glands and the hormones they produce.",
+            "Explain the effects of hormones on growth, reproduction, and metabolism.",
+            "Compare nervous and hormonal control."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Ecology",
+      "subtopics": [
+        {
+          "name": "Factors Affecting Distribution of Organisms",
+          "objectives": [
+            "Identify abiotic and biotic factors affecting distribution.",
+            "Describe how temperature, light, humidity, and soil affect organisms.",
+            "Explain the concept of the ecological niche."
+          ]
+        },
+        {
+          "name": "Symbiotic Interactions",
+          "objectives": [
+            "Define symbiosis, mutualism, commensalism, and parasitism.",
+            "Give examples of each type of interaction.",
+            "Describe predator-prey relationships and competition."
+          ]
+        },
+        {
+          "name": "Natural Habitats and Biomes",
+          "objectives": [
+            "Describe the features of aquatic and terrestrial habitats.",
+            "Identify Nigerian biomes: forest, savanna, Sahel.",
+            "Describe food chains, food webs, and energy flow.",
+            "Explain biogeochemical cycles: carbon, nitrogen, water cycles."
+          ]
+        },
+        {
+          "name": "Ecology of Populations",
+          "objectives": [
+            "Define population and describe factors affecting population size.",
+            "Describe growth curves and limiting factors.",
+            "Explain conservation of natural resources.",
+            "Describe the effects of pollution on the environment."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Genetics and Variation",
+      "subtopics": [
+        {
+          "name": "Heredity and Variation",
+          "objectives": [
+            "Define genetics, gene, allele, genotype, and phenotype.",
+            "Explain Mendel's laws of inheritance.",
+            "Solve monohybrid and dihybrid cross problems.",
+            "Explain sex determination and sex-linked characteristics."
+          ]
+        },
+        {
+          "name": "Application of Genetics",
+          "objectives": [
+            "Describe mutations and their causes.",
+            "Explain variation (continuous and discontinuous).",
+            "Describe the significance of variation in evolution.",
+            "Discuss the application of genetics in agriculture and medicine."
+          ]
+        }
+      ]
+    }
+  ]
+}

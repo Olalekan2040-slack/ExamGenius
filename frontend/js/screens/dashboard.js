@@ -6,7 +6,7 @@ async function showDashboard() {
     try {
         const user = authManager.getUser();
         const stats = await api.getDashboardStats();
-        
+
         // Fetch unified points from all sources
         let pointsData = { total_points: 0, level: 1, level_name: 'Beginner', breakdown: {} };
         try {
@@ -14,7 +14,7 @@ async function showDashboard() {
         } catch (e) {
             console.log('Could not fetch points:', e);
         }
-        
+
         // Log for debugging
         console.log('Dashboard stats received:', stats);
         console.log('Points data:', pointsData);
@@ -97,9 +97,9 @@ async function showDashboard() {
                         </div>
                         <div class="recommended-topics-grid">
                             ${stats.recommended_topics.map((topic, idx) => {
-                                const sourceLabels = { learning: 'Guided Learning', practice: 'Practice', cbt: 'CBT', year_practice: 'Year Practice', suggested: 'Suggested' };
-                                const sourceLabel = sourceLabels[topic.source] || '';
-                                return `
+            const sourceLabels = { learning: 'Guided Learning', practice: 'Practice', cbt: 'CBT', year_practice: 'Year Practice', suggested: 'Suggested' };
+            const sourceLabel = sourceLabels[topic.source] || '';
+            return `
                                 <div class="recommended-topic-card" 
                                      onclick="router.navigate('guided-learn', {subject: '${topic.subject}', topic: '${topic.topic}'})">
                                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
@@ -131,8 +131,8 @@ async function showDashboard() {
 
                 <!-- ===== STRENGTHS & WEAKNESSES ROW ===== -->
                 ${(stats.strengths && stats.strengths.length > 0) || (stats.weaknesses && stats.weaknesses.length > 0) ? (() => {
-                    const hasBoth = stats.strengths?.length > 0 && stats.weaknesses?.length > 0;
-                    return `
+                const hasBoth = stats.strengths?.length > 0 && stats.weaknesses?.length > 0;
+                return `
                     <div class="sw-row mt-3" style="display: grid; grid-template-columns: ${hasBoth ? '1fr 1fr' : '1fr'}; gap: 16px;">
 
                         <!-- STRENGTHS -->
@@ -186,7 +186,7 @@ async function showDashboard() {
                         ` : ''}
                     </div>
                     `;
-                })() : ''}
+            })() : ''}
 
                 <!-- ===== RECENT TOPICS ===== -->
                 ${stats.recent_topics && stats.recent_topics.length > 0 ? `
@@ -303,11 +303,11 @@ async function showDashboard() {
 function filterCBTHistory(count) {
     const container = document.getElementById('cbt-history-container');
     if (!container || !window.cbtHistoryData) return;
-    
+
     const data = window.cbtHistoryData;
     const limit = count === 'all' ? data.length : parseInt(count);
     const items = data.slice(0, limit);
-    
+
     container.innerHTML = items.map((cbt, idx) => `
         <div class="cbt-history-item" data-index="${idx}" style="padding: 12px 16px; background: var(--bg-light); border-radius: var(--radius-md); border-left: 4px solid var(--primary-yellow); margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
             <div>
@@ -328,11 +328,11 @@ function filterCBTHistory(count) {
 function filterRecentActivity(count) {
     const container = document.getElementById('activity-container');
     if (!container || !window.recentActivityData) return;
-    
+
     const data = window.recentActivityData;
     const limit = count === 'all' ? data.length : parseInt(count);
     const items = data.slice(0, limit);
-    
+
     container.innerHTML = items.map((attempt, idx) => renderActivityItem(attempt, idx)).join('');
 }
 
@@ -342,17 +342,17 @@ function filterRecentActivity(count) {
  */
 function renderActivityItem(attempt, idx) {
     const sourceConfig = {
-        cbt:     { label: 'CBT',     color: '#7C3AED', bg: '#F3E8FF' },
-        year:    { label: 'Year',    color: '#1D4ED8', bg: '#EFF6FF' },
-        guided:  { label: 'Guided', color: '#D97706', bg: '#FFF9E6' },
-        topic:   { label: 'Topic',  color: '#15803D', bg: '#F0FDF4' },
-        revision:{ label: 'Revision',color:'#BE123C', bg: '#FFF1F2' },
+        cbt: { label: 'CBT', color: '#7C3AED', bg: '#F3E8FF' },
+        year: { label: 'Year', color: '#1D4ED8', bg: '#EFF6FF' },
+        guided: { label: 'Guided', color: '#D97706', bg: '#FFF9E6' },
+        topic: { label: 'Topic', color: '#15803D', bg: '#F0FDF4' },
+        revision: { label: 'Revision', color: '#BE123C', bg: '#FFF1F2' },
     };
     const src = sourceConfig[attempt.practice_type] || { label: attempt.practice_type || '—', color: '#6B7280', bg: '#F3F4F6' };
 
     // is_correct can be null (guided completions without a question)
     let resultIcon = '';
-    if (attempt.is_correct === true)  resultIcon = `<i class="fas fa-check-circle" style="color: var(--success); font-size: 15px;"></i>`;
+    if (attempt.is_correct === true) resultIcon = `<i class="fas fa-check-circle" style="color: var(--success); font-size: 15px;"></i>`;
     if (attempt.is_correct === false) resultIcon = `<i class="fas fa-times-circle" style="color: var(--error); font-size: 15px;"></i>`;
 
     return `

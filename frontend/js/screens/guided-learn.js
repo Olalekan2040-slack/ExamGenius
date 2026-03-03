@@ -78,6 +78,10 @@ function getStaticTopicContent(subject, topic) {
     if (subject === 'Government' && window.GOVERNMENT_LEARNING_CONTENT && window.GOVERNMENT_LEARNING_CONTENT[topic]) {
         return window.GOVERNMENT_LEARNING_CONTENT[topic];
     }
+    // Biology content
+    if (subject === 'Biology' && window.BIOLOGY_LEARNING_CONTENT && window.BIOLOGY_LEARNING_CONTENT[topic]) {
+        return window.BIOLOGY_LEARNING_CONTENT[topic];
+    }
     // Add more subjects here
     return null;
 }
@@ -88,14 +92,14 @@ function getStaticTopicContent(subject, topic) {
 
 async function showGuidedLearnScreen(params = {}) {
     const user = authManager.getUser();
-    
+
     if (params.subject && params.topic && params.subtopic !== undefined && params.objective !== undefined) {
         // Jump to specific objective
         guidedLearnState.subject = params.subject;
         guidedLearnState.topicName = params.topic;
         guidedLearnState.currentSubtopicIndex = parseInt(params.subtopic);
         guidedLearnState.currentObjectiveIndex = parseInt(params.objective);
-        
+
         // Check for static content
         const staticContent = getStaticTopicContent(params.subject, params.topic);
         if (staticContent) {
@@ -109,7 +113,7 @@ async function showGuidedLearnScreen(params = {}) {
         // Start or resume topic - check for static content
         guidedLearnState.subject = params.subject;
         guidedLearnState.topicName = params.topic;
-        
+
         const staticContent = getStaticTopicContent(params.subject, params.topic);
         if (staticContent) {
             guidedLearnState.useStaticContent = true;
@@ -134,11 +138,11 @@ async function showGuidedLearnScreen(params = {}) {
 
 async function showGuidedSubjectSelect() {
     showLoading('Loading subjects...');
-    
+
     try {
         const data = await api.request('/guided-learn/subjects', { requireAuth: true });
         const user = authManager.getUser();
-        
+
         // Get subject colors
         const subjectColors = {
             'Physics': { bg: 'linear-gradient(135deg, #3B82F6, #1D4ED8)', icon: '⚛️' },
@@ -152,7 +156,7 @@ async function showGuidedSubjectSelect() {
             'Commerce': { bg: 'linear-gradient(135deg, #F97316, #EA580C)', icon: '💼' },
             'Accounting': { bg: 'linear-gradient(135deg, #22C55E, #16A34A)', icon: '🧮' }
         };
-        
+
         const content = `
             <div class="guided-learn-screen">
                 <!-- Hero Section -->
@@ -177,8 +181,8 @@ async function showGuidedSubjectSelect() {
                 
                 <div class="subject-grid">
                     ${data.subjects.map(s => {
-                        const colors = subjectColors[s.name] || { bg: 'linear-gradient(135deg, #64748B, #475569)', icon: '📘' };
-                        return `
+            const colors = subjectColors[s.name] || { bg: 'linear-gradient(135deg, #64748B, #475569)', icon: '📘' };
+            return `
                             <div class="subject-card-modern" onclick="selectGuidedSubject('${s.name}')">
                                 <div class="subject-card-bg" style="background: ${colors.bg}">
                                     <div class="subject-card-icon">${colors.icon}</div>
@@ -194,7 +198,7 @@ async function showGuidedSubjectSelect() {
                                 </div>
                             </div>
                         `;
-                    }).join('')}
+        }).join('')}
                 </div>
                 
                 <!-- Tips Section -->
@@ -223,12 +227,12 @@ async function showGuidedSubjectSelect() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
         hideLoading();
-        
+
     } catch (error) {
         hideLoading();
         showToast('Failed to load subjects: ' + error.message, 'error');
@@ -246,17 +250,17 @@ function selectGuidedSubject(subject) {
 
 async function showGuidedTopicList() {
     showLoading(`Loading ${guidedLearnState.subject} topics...`);
-    
+
     try {
         const data = await api.request(`/guided-learn/topics/${encodeURIComponent(guidedLearnState.subject)}`, { requireAuth: true });
         const user = authManager.getUser();
-        
+
         // Calculate overall progress
         const totalObjectives = data.topics.reduce((sum, t) => sum + t.objective_count, 0);
         const completedObjectives = data.topics.reduce((sum, t) => sum + t.completed_objectives, 0);
         const overallProgress = totalObjectives > 0 ? Math.round((completedObjectives / totalObjectives) * 100) : 0;
         const completedTopics = data.topics.filter(t => t.progress_percent === 100).length;
-        
+
         const content = `
             <div class="guided-learn-screen">
                 <!-- Subject Header -->
@@ -302,9 +306,9 @@ async function showGuidedTopicList() {
                     
                     <div class="topic-cards-grid">
                         ${data.topics.map(t => {
-                            const statusClass = t.progress_percent === 100 ? 'completed' : t.progress_percent > 0 ? 'in-progress' : 'not-started';
-                            const hasStatic = hasStaticContent(guidedLearnState.subject, t.name);
-                            return `
+            const statusClass = t.progress_percent === 100 ? 'completed' : t.progress_percent > 0 ? 'in-progress' : 'not-started';
+            const hasStatic = hasStaticContent(guidedLearnState.subject, t.name);
+            return `
                                 <div class="topic-card-modern ${statusClass}" onclick="selectGuidedTopic('${t.name.replace(/'/g, "\\'")}')">
                                     <div class="topic-card-header">
                                         <div class="topic-number-badge">${t.number}</div>
@@ -338,17 +342,17 @@ async function showGuidedTopicList() {
                                     </div>
                                 </div>
                             `;
-                        }).join('')}
+        }).join('')}
                     </div>
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
         hideLoading();
-        
+
     } catch (error) {
         hideLoading();
         showToast('Failed to load topics: ' + error.message, 'error');
@@ -357,7 +361,7 @@ async function showGuidedTopicList() {
 
 async function selectGuidedTopic(topicName) {
     guidedLearnState.topicName = topicName;
-    
+
     // Check if static content is available for this topic
     const staticContent = getStaticTopicContent(guidedLearnState.subject, topicName);
     if (staticContent) {
@@ -377,7 +381,7 @@ async function selectGuidedTopic(topicName) {
 
 async function loadTopicProgress() {
     showLoading('Loading your progress...');
-    
+
     try {
         // Get topic structure
         const structure = await api.request(
@@ -385,13 +389,13 @@ async function loadTopicProgress() {
             { requireAuth: true }
         );
         guidedLearnState.topicStructure = structure.topic;
-        
+
         // Get progress
         const progress = await api.request(
             `/guided-learn/progress/${encodeURIComponent(guidedLearnState.subject)}/${encodeURIComponent(guidedLearnState.topicName)}`,
             { requireAuth: true }
         );
-        
+
         // Find next uncompleted objective
         let foundNext = false;
         for (let st_idx = 0; st_idx < structure.topic.subtopics.length; st_idx++) {
@@ -407,14 +411,14 @@ async function loadTopicProgress() {
             }
             if (foundNext) break;
         }
-        
+
         if (!foundNext) {
             // Topic complete!
             await showTopicComplete();
         } else {
             await showObjectiveLearning();
         }
-        
+
     } catch (error) {
         hideLoading();
         showToast('Failed to load topic: ' + error.message, 'error');
@@ -427,11 +431,11 @@ async function loadTopicProgress() {
 
 async function loadStaticTopicProgress() {
     const content = guidedLearnState.staticContent;
-    
+
     // Get progress from localStorage
     const progressKey = `guided_progress_${guidedLearnState.subject}_${guidedLearnState.topicName}`;
     const savedProgress = localStorage.getItem(progressKey);
-    
+
     if (savedProgress) {
         const progress = JSON.parse(savedProgress);
         guidedLearnState.currentSubtopicIndex = progress.subtopicIndex || 0;
@@ -446,14 +450,14 @@ async function loadStaticTopicProgress() {
         guidedLearnState.weaknesses = [];
         guidedLearnState.hasStarted = false;
     }
-    
+
     // Check if topic is complete
     const lastSubtopic = content.subtopics.length - 1;
     const lastObjective = content.subtopics[lastSubtopic].objectives.length - 1;
-    
+
     if (guidedLearnState.currentSubtopicIndex > lastSubtopic ||
-        (guidedLearnState.currentSubtopicIndex === lastSubtopic && 
-         guidedLearnState.currentObjectiveIndex > lastObjective)) {
+        (guidedLearnState.currentSubtopicIndex === lastSubtopic &&
+            guidedLearnState.currentObjectiveIndex > lastObjective)) {
         await showStaticTopicComplete();
     } else if (!guidedLearnState.hasStarted) {
         // Show topic introduction first
@@ -467,11 +471,11 @@ function showStaticTopicIntro() {
     const user = authManager.getUser();
     const content = guidedLearnState.staticContent;
     const intro = content.introduction;
-    
+
     // Count total objectives
     let totalObjectives = 0;
     content.subtopics.forEach(st => totalObjectives += st.objectives.length);
-    
+
     const pageContent = `
         <div class="static-learn-screen">
             <div class="topic-intro-card">
@@ -494,7 +498,7 @@ function showStaticTopicIntro() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -504,7 +508,7 @@ function startStaticLearningFlow() {
     guidedLearnState.hasStarted = true;
     guidedLearnState.currentSubtopicIndex = 0;
     guidedLearnState.currentObjectiveIndex = 0;
-    
+
     // Save that we've started
     const progressKey = `guided_progress_${guidedLearnState.subject}_${guidedLearnState.topicName}`;
     const progress = {
@@ -516,7 +520,7 @@ function startStaticLearningFlow() {
         lastUpdated: Date.now()
     };
     localStorage.setItem(progressKey, JSON.stringify(progress));
-    
+
     showStaticObjectiveLearning();
 }
 
@@ -524,10 +528,10 @@ async function showStaticObjectiveLearning() {
     const user = authManager.getUser();
     const content = guidedLearnState.staticContent;
     const { currentSubtopicIndex, currentObjectiveIndex } = guidedLearnState;
-    
+
     const subtopic = content.subtopics[currentSubtopicIndex];
     const objective = subtopic.objectives[currentObjectiveIndex];
-    
+
     // Calculate progress
     let totalObjectives = 0;
     let currentPosition = 0;
@@ -540,12 +544,12 @@ async function showStaticObjectiveLearning() {
         });
     });
     currentPosition++;
-    
+
     const progressPercent = (currentPosition / totalObjectives) * 100;
     const hasQuestion = !!objective.question;
 
     guidedLearnState.timeStarted = Date.now();
-    
+
     const pageContent = `
         <div class="static-learn-screen">
             <!-- Header -->
@@ -658,7 +662,7 @@ async function showStaticObjectiveLearning() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -668,10 +672,10 @@ function showStaticObjectivePractice() {
     const user = authManager.getUser();
     const content = guidedLearnState.staticContent;
     const { currentSubtopicIndex, currentObjectiveIndex } = guidedLearnState;
-    
+
     const subtopic = content.subtopics[currentSubtopicIndex];
     const objective = subtopic.objectives[currentObjectiveIndex];
-    
+
     // Calculate progress
     let totalObjectives = 0;
     let currentPosition = 0;
@@ -684,14 +688,14 @@ function showStaticObjectivePractice() {
         });
     });
     currentPosition++;
-    
+
     const progressPercent = (currentPosition / totalObjectives) * 100;
     const questionKey = `${currentSubtopicIndex}_${currentObjectiveIndex}`;
     const alreadyAnswered = guidedLearnState.answeredQuestions && guidedLearnState.answeredQuestions[questionKey];
     const question = objective.question;
 
     guidedLearnState.questionAnswered = !!alreadyAnswered;
-    
+
     const pageContent = `
         <div class="static-learn-screen">
             <!-- Header -->
@@ -742,14 +746,14 @@ function showStaticObjectivePractice() {
                             <p class="question-text">${question.text}</p>
                             <div class="options-list">
                                 ${Object.entries(question.options).map(([key, text]) => {
-                                    const isCorrect = key === question.correctAnswer;
-                                    const wasSelected = alreadyAnswered === key;
-                                    let optionClass = '';
-                                    if (alreadyAnswered) {
-                                        if (isCorrect) optionClass = 'correct';
-                                        else if (wasSelected) optionClass = 'incorrect';
-                                    }
-                                    return `
+        const isCorrect = key === question.correctAnswer;
+        const wasSelected = alreadyAnswered === key;
+        let optionClass = '';
+        if (alreadyAnswered) {
+            if (isCorrect) optionClass = 'correct';
+            else if (wasSelected) optionClass = 'incorrect';
+        }
+        return `
                                         <div class="option-item ${optionClass}" 
                                              id="static-option-${key}"
                                              onclick="selectStaticOption('${key}')"
@@ -760,7 +764,7 @@ function showStaticObjectivePractice() {
                                             ${alreadyAnswered && wasSelected && !isCorrect ? '<i class="fas fa-times"></i>' : ''}
                                         </div>
                                     `;
-                                }).join('')}
+    }).join('')}
                             </div>
                             <div class="feedback-box ${alreadyAnswered ? (alreadyAnswered === question.correctAnswer ? 'correct' : 'incorrect') : 'hidden'}" id="static-feedback">
                                 ${alreadyAnswered ? `
@@ -787,7 +791,7 @@ function showStaticObjectivePractice() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -864,20 +868,20 @@ function renderStaticVisuals(visuals) {
 
 function selectStaticOption(key) {
     if (guidedLearnState.questionAnswered) return;
-    
+
     const content = guidedLearnState.staticContent;
     const subtopic = content.subtopics[guidedLearnState.currentSubtopicIndex];
     const objective = subtopic.objectives[guidedLearnState.currentObjectiveIndex];
     const question = objective.question;
     const correctAnswer = question.correctAnswer;
     const isCorrect = key === correctAnswer;
-    
+
     // Mark as answered
     guidedLearnState.questionAnswered = true;
     const questionKey = `${guidedLearnState.currentSubtopicIndex}_${guidedLearnState.currentObjectiveIndex}`;
     if (!guidedLearnState.answeredQuestions) guidedLearnState.answeredQuestions = {};
     guidedLearnState.answeredQuestions[questionKey] = key;
-    
+
     // Track weakness if wrong
     if (!isCorrect) {
         if (!guidedLearnState.weaknesses) guidedLearnState.weaknesses = [];
@@ -888,12 +892,12 @@ function selectStaticOption(key) {
             objectiveTitle: objective.title
         });
     }
-    
+
     // Award points for completing objective (10 pts) + bonus for correct answer (5 pts)
     const objectivePoints = 10;
     const correctBonus = isCorrect ? 5 : 0;
     const totalPoints = objectivePoints + correctBonus;
-    
+
     awardLearningPoints({
         subject: content.subject,
         topic: content.topic,
@@ -902,7 +906,7 @@ function selectStaticOption(key) {
         points: totalPoints,
         description: `Completed: ${objective.title}${isCorrect ? ' (correct!)' : ''}`
     });
-    
+
     // Update UI
     Object.keys(question.options).forEach(optKey => {
         const el = document.getElementById(`static-option-${optKey}`);
@@ -916,7 +920,7 @@ function selectStaticOption(key) {
             el.innerHTML += '<i class="fas fa-times"></i>';
         }
     });
-    
+
     // Show feedback with points
     const feedbackEl = document.getElementById('static-feedback');
     feedbackEl.className = `feedback-box ${isCorrect ? 'correct' : 'incorrect'}`;
@@ -927,11 +931,11 @@ function selectStaticOption(key) {
         </div>
         <p><strong>Explanation:</strong> ${question.explanation}</p>
     `;
-    
+
     // Enable next button
     const nextBtn = document.getElementById('static-next-btn');
     if (nextBtn) nextBtn.disabled = false;
-    
+
     // Save progress with completed status
     saveStaticProgress('completed', isCorrect);
 }
@@ -948,7 +952,7 @@ async function saveStaticProgress(status = 'in_progress', answeredCorrectly = nu
         lastUpdated: Date.now()
     };
     localStorage.setItem(progressKey, JSON.stringify(progress));
-    
+
     // Also save to backend database for cross-device sync and recommendations
     try {
         const result = await api.request('/guided-learn/save-progress', {
@@ -964,7 +968,7 @@ async function saveStaticProgress(status = 'in_progress', answeredCorrectly = nu
                 time_spent_seconds: 0
             }
         });
-        
+
         // Show points notification if points were awarded
         if (result && result.points_awarded > 0) {
             showPointsNotification(result.points_awarded);
@@ -992,7 +996,7 @@ function showPointsNotification(points) {
     `;
     notification.innerHTML = `🎉 +${points} Points!`;
     document.body.appendChild(notification);
-    
+
     setTimeout(() => {
         notification.style.animation = 'slideOutRight 0.3s ease-in';
         setTimeout(() => notification.remove(), 300);
@@ -1002,7 +1006,7 @@ function showPointsNotification(points) {
 function goToNextStaticObjective() {
     const content = guidedLearnState.staticContent;
     const subtopic = content.subtopics[guidedLearnState.currentSubtopicIndex];
-    
+
     // Move to next objective
     if (guidedLearnState.currentObjectiveIndex < subtopic.objectives.length - 1) {
         guidedLearnState.currentObjectiveIndex++;
@@ -1034,7 +1038,7 @@ function showStaticSubtopicComplete() {
     const content = guidedLearnState.staticContent;
     const completedSubtopic = content.subtopics[guidedLearnState.currentSubtopicIndex];
     const nextSubtopic = content.subtopics[guidedLearnState.currentSubtopicIndex + 1];
-    
+
     // Award subtopic completion bonus (25 pts)
     awardLearningPoints({
         subject: content.subject,
@@ -1044,7 +1048,7 @@ function showStaticSubtopicComplete() {
         points: 25,
         description: `Completed subtopic: ${completedSubtopic.name}`
     });
-    
+
     const pageContent = `
         <div class="static-learn-screen">
             <div class="subtopic-complete-card">
@@ -1070,7 +1074,7 @@ function showStaticSubtopicComplete() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -1086,23 +1090,23 @@ function continueToNextStaticSubtopic() {
 async function showStaticTopicComplete() {
     const user = authManager.getUser();
     const content = guidedLearnState.staticContent;
-    
+
     // Calculate stats
     const totalQuestions = Object.keys(guidedLearnState.answeredQuestions || {}).length;
     const weaknessCount = (guidedLearnState.weaknesses || []).length;
     const correctCount = totalQuestions - weaknessCount;
     const scorePercent = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 100;
-    
+
     let totalObjectives = 0;
     content.subtopics.forEach(st => totalObjectives += st.objectives.length);
-    
+
     const trophyClass = scorePercent >= 80 ? 'gold' : scorePercent >= 60 ? 'silver' : 'bronze';
-    
+
     // Award topic completion bonus (50 pts) + performance bonus
     const baseBonus = 50;
     const performanceBonus = scorePercent >= 80 ? 30 : scorePercent >= 60 ? 15 : 0;
     const totalBonus = baseBonus + performanceBonus;
-    
+
     await awardLearningPoints({
         subject: content.subject,
         topic: content.topic,
@@ -1111,7 +1115,7 @@ async function showStaticTopicComplete() {
         points: totalBonus,
         description: `Completed topic: ${content.topic} (${scorePercent}% score)`
     });
-    
+
     // Get updated total points
     let totalPoints = 0;
     try {
@@ -1120,7 +1124,7 @@ async function showStaticTopicComplete() {
     } catch (e) {
         console.log('Could not fetch points:', e);
     }
-    
+
     const pageContent = `
         <div class="static-learn-screen">
             <div class="topic-summary-card">
@@ -1266,7 +1270,7 @@ async function showStaticTopicComplete() {
             </div>
         </div>
     `;
-    
+
     // Mark topic as complete in localStorage
     const progressKey = `guided_progress_${guidedLearnState.subject}_${guidedLearnState.topicName}`;
     const progress = JSON.parse(localStorage.getItem(progressKey) || '{}');
@@ -1274,7 +1278,7 @@ async function showStaticTopicComplete() {
     progress.completedAt = Date.now();
     progress.finalScore = scorePercent;
     localStorage.setItem(progressKey, JSON.stringify(progress));
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -1297,13 +1301,13 @@ function restartStaticTopic() {
     // Clear progress
     const progressKey = `guided_progress_${guidedLearnState.subject}_${guidedLearnState.topicName}`;
     localStorage.removeItem(progressKey);
-    
+
     // Reset state
     guidedLearnState.currentSubtopicIndex = 0;
     guidedLearnState.currentObjectiveIndex = 0;
     guidedLearnState.answeredQuestions = {};
     guidedLearnState.weaknesses = [];
-    
+
     showStaticObjectiveLearning();
 }
 
@@ -1311,12 +1315,12 @@ function handleStaticAskQuestion() {
     const input = document.getElementById('static-ask-input');
     const question = input.value.trim();
     if (!question) return;
-    
+
     const responseEl = document.getElementById('static-ask-response');
     const content = guidedLearnState.staticContent;
     const subtopic = content.subtopics[guidedLearnState.currentSubtopicIndex];
     const objective = subtopic.objectives[guidedLearnState.currentObjectiveIndex];
-    
+
     // Provide contextual help without AI
     responseEl.innerHTML = `
         <div class="ask-response-box">
@@ -1331,13 +1335,13 @@ function handleStaticAskQuestion() {
             </div>
         </div>
     `;
-    
+
     input.value = '';
 }
 
 async function loadTopicAndShowObjective() {
     showLoading('Loading...');
-    
+
     try {
         const structure = await api.request(
             `/guided-learn/topic/${encodeURIComponent(guidedLearnState.subject)}/${encodeURIComponent(guidedLearnState.topicName)}`,
@@ -1357,22 +1361,22 @@ async function loadTopicAndShowObjective() {
 
 async function showObjectiveLearning() {
     showLoading('Loading objective...');
-    
+
     try {
         const data = await api.request(
             `/guided-learn/objective/${encodeURIComponent(guidedLearnState.subject)}/${encodeURIComponent(guidedLearnState.topicName)}/${guidedLearnState.currentSubtopicIndex}/${guidedLearnState.currentObjectiveIndex}`,
             { requireAuth: true }
         );
-        
+
         guidedLearnState.currentObjective = data;
         guidedLearnState.questions = data.questions || [];
         guidedLearnState.currentQuestionIndex = 0;
         guidedLearnState.questionAnswered = false;
         guidedLearnState.timeStarted = Date.now();
-        
+
         const user = authManager.getUser();
         const nav = data.navigation;
-        
+
         // Parse explanation data - handle both new rich format and legacy
         let explanation = data.explanation;
         if (typeof explanation.explanation === 'string') {
@@ -1382,10 +1386,10 @@ async function showObjectiveLearning() {
                 // Keep as is
             }
         }
-        
+
         // Build the rich explanation content
         const explanationHTML = buildRichExplanation(explanation);
-        
+
         const content = `
             <div class="objective-learning-screen enhanced">
                 <!-- Header -->
@@ -1483,15 +1487,15 @@ async function showObjectiveLearning() {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
         hideLoading();
-        
+
         // Auto-save progress as started
         saveObjectiveProgress('in_progress');
-        
+
     } catch (error) {
         hideLoading();
         showToast('Failed to load objective: ' + error.message, 'error');
@@ -1583,14 +1587,14 @@ function showObjectivePractice() {
 // Build rich HTML explanation from AI response
 function buildRichExplanation(explanation) {
     let html = '';
-    
+
     // Main explanation
     if (explanation.explanation_html) {
         html += `<div class="rich-explanation-body">${explanation.explanation_html}</div>`;
     } else if (explanation.explanation) {
         html += `<div class="rich-explanation-body"><p>${explanation.explanation}</p></div>`;
     }
-    
+
     // SVG Diagram
     if (explanation.svg_diagram) {
         html += `
@@ -1602,7 +1606,7 @@ function buildRichExplanation(explanation) {
             </div>
         `;
     }
-    
+
     // Key Points
     if (explanation.key_points && explanation.key_points.length > 0) {
         html += `
@@ -1614,7 +1618,7 @@ function buildRichExplanation(explanation) {
             </div>
         `;
     }
-    
+
     // Worked Example
     if (explanation.worked_example) {
         html += `
@@ -1639,7 +1643,7 @@ function buildRichExplanation(explanation) {
             </div>
         `;
     }
-    
+
     // Common Mistakes
     if (explanation.common_mistakes && explanation.common_mistakes.length > 0) {
         html += `
@@ -1651,7 +1655,7 @@ function buildRichExplanation(explanation) {
             </div>
         `;
     }
-    
+
     // JAMB Tip
     if (explanation.jamb_tip) {
         html += `
@@ -1661,7 +1665,7 @@ function buildRichExplanation(explanation) {
             </div>
         `;
     }
-    
+
     // Summary
     if (explanation.summary) {
         html += `
@@ -1671,7 +1675,7 @@ function buildRichExplanation(explanation) {
             </div>
         `;
     }
-    
+
     return html;
 }
 
@@ -1680,7 +1684,7 @@ function buildRichExplanation(explanation) {
 function toggleExplanationSection() {
     const content = document.getElementById('explanation-content');
     const toggle = document.getElementById('explanation-toggle');
-    
+
     if (content.classList.contains('collapsed')) {
         content.classList.remove('collapsed');
         toggle.classList.remove('fa-chevron-down');
@@ -1697,10 +1701,10 @@ function toggleExplanationSection() {
 async function requestReExplanation() {
     const btn = document.getElementById('re-explain-btn');
     const contentEl = document.getElementById('explanation-content');
-    
+
     btn.disabled = true;
     btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Generating...';
-    
+
     try {
         const data = guidedLearnState.currentObjective;
         const result = await api.request('/guided-learn/re-explain', {
@@ -1713,19 +1717,19 @@ async function requestReExplanation() {
                 objective: data.objective_text
             }
         });
-        
+
         if (result.explanation) {
             const newHTML = buildRichExplanation(result.explanation);
             contentEl.innerHTML = newHTML;
-            
+
             // Ensure section is expanded
             contentEl.classList.remove('collapsed');
             document.getElementById('explanation-toggle').classList.remove('fa-chevron-down');
             document.getElementById('explanation-toggle').classList.add('fa-chevron-up');
-            
+
             showToast('Fresh explanation generated!', 'success');
         }
-        
+
     } catch (error) {
         showToast('Failed to re-explain: ' + error.message, 'error');
     } finally {
@@ -1759,9 +1763,9 @@ async function saveObjectiveProgress(status, answeredCorrectly = null) {
 
 function renderObjectiveQuestion() {
     if (guidedLearnState.questions.length === 0) return '';
-    
+
     const q = guidedLearnState.questions[guidedLearnState.currentQuestionIndex];
-    
+
     return `
         <div class="objective-question">
             ${q.passage ? `
@@ -1791,23 +1795,23 @@ function renderObjectiveQuestion() {
 
 async function selectObjectiveAnswer(key) {
     if (guidedLearnState.questionAnswered) return;
-    
+
     const q = guidedLearnState.questions[guidedLearnState.currentQuestionIndex];
     guidedLearnState.questionAnswered = true;
-    
+
     // Highlight selected
     document.querySelectorAll('.option-item').forEach(el => {
         el.classList.remove('selected', 'correct', 'incorrect');
     });
-    
+
     const selectedEl = document.getElementById(`option-${key}`);
     selectedEl.classList.add('selected');
-    
+
     // Show loading
     const feedbackEl = document.getElementById('answer-feedback');
     feedbackEl.classList.remove('hidden');
     feedbackEl.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking...';
-    
+
     try {
         // Submit answer
         const result = await api.request('/guided-learn/answer-question', {
@@ -1822,7 +1826,7 @@ async function selectObjectiveAnswer(key) {
                 user_answer: key
             }
         });
-        
+
         // Show result
         if (result.is_correct) {
             selectedEl.classList.add('correct');
@@ -1842,14 +1846,14 @@ async function selectObjectiveAnswer(key) {
                 <p>${result.explanation}</p>
             `;
         }
-        
+
         // Enable next button
         const nextBtn = document.getElementById('next-btn');
         if (nextBtn) nextBtn.disabled = false;
-        
+
         // Save progress
         await saveObjectiveProgress('completed', result.is_correct);
-        
+
     } catch (error) {
         feedbackEl.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Error: ${error.message}`;
     }
@@ -1859,7 +1863,7 @@ async function submitStudentQuestion() {
     const input = document.getElementById('student-question-input');
     const question = input.value.trim();
     if (!question) return;
-    
+
     const responseArea = document.getElementById('qa-response-area');
     responseArea.innerHTML = `
         <div class="qa-loading">
@@ -1867,7 +1871,7 @@ async function submitStudentQuestion() {
         </div>
     `;
     input.value = '';
-    
+
     try {
         // Get explanation context
         let explanationContext = '';
@@ -1882,7 +1886,7 @@ async function submitStudentQuestion() {
                 }
             }
         }
-        
+
         const result = await api.request('/guided-learn/ask-question', {
             method: 'POST',
             requireAuth: true,
@@ -1895,7 +1899,7 @@ async function submitStudentQuestion() {
                 question: question
             }
         });
-        
+
         responseArea.innerHTML = `
             <div class="qa-exchange">
                 <div class="qa-question">
@@ -1907,7 +1911,7 @@ async function submitStudentQuestion() {
                 </div>
             </div>
         `;
-        
+
     } catch (error) {
         responseArea.innerHTML = `
             <div class="qa-error">
@@ -1923,17 +1927,17 @@ async function submitStudentQuestion() {
 
 async function goToNextObjective() {
     const nav = guidedLearnState.currentObjective.navigation;
-    
+
     if (!nav.has_next) {
         await showTopicComplete();
         return;
     }
-    
+
     if (nav.subtopic_complete) {
         await showSubtopicComplete(nav.next_subtopic_index, nav.next_objective_index);
         return;
     }
-    
+
     guidedLearnState.currentSubtopicIndex = nav.next_subtopic_index;
     guidedLearnState.currentObjectiveIndex = nav.next_objective_index;
     await showObjectiveLearning();
@@ -1942,7 +1946,7 @@ async function goToNextObjective() {
 async function goToPrevObjective() {
     const st_idx = guidedLearnState.currentSubtopicIndex;
     const obj_idx = guidedLearnState.currentObjectiveIndex;
-    
+
     if (obj_idx > 0) {
         guidedLearnState.currentObjectiveIndex = obj_idx - 1;
     } else if (st_idx > 0) {
@@ -1950,7 +1954,7 @@ async function goToPrevObjective() {
         const prevSubtopic = guidedLearnState.topicStructure.subtopics[st_idx - 1];
         guidedLearnState.currentObjectiveIndex = prevSubtopic.objectives.length - 1;
     }
-    
+
     await showObjectiveLearning();
 }
 
@@ -1958,7 +1962,7 @@ async function showSubtopicComplete(nextSubtopicIndex, nextObjectiveIndex) {
     const user = authManager.getUser();
     const currentSubtopic = guidedLearnState.topicStructure.subtopics[guidedLearnState.currentSubtopicIndex];
     const nextSubtopic = guidedLearnState.topicStructure.subtopics[nextSubtopicIndex];
-    
+
     const content = `
         <div class="subtopic-complete-screen">
             <div class="complete-animation">
@@ -1983,7 +1987,7 @@ async function showSubtopicComplete(nextSubtopicIndex, nextObjectiveIndex) {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
@@ -2002,25 +2006,25 @@ function continueToNextSubtopic(stIdx, objIdx) {
 
 async function showSubtopicQuiz(nextSubtopicIndex, nextObjectiveIndex) {
     showLoading('Generating quiz...');
-    
+
     const user = authManager.getUser();
     const currentSubtopic = guidedLearnState.topicStructure.subtopics[guidedLearnState.currentSubtopicIndex];
     const nextSubtopic = guidedLearnState.topicStructure.subtopics[nextSubtopicIndex];
-    
+
     try {
         const quizData = await api.request(
             `/guided-learn/subtopic-quiz/${encodeURIComponent(guidedLearnState.subject)}/${encodeURIComponent(guidedLearnState.topicName)}/${guidedLearnState.currentSubtopicIndex}`,
             { requireAuth: true }
         );
-        
+
         const questions = quizData.questions || [];
-        
+
         if (questions.length === 0) {
             showToast('No quiz questions available. Continuing...', 'info');
             continueToNextSubtopic(nextSubtopicIndex, nextObjectiveIndex);
             return;
         }
-        
+
         // Store quiz state
         guidedLearnState.subtopicQuiz = {
             questions: questions,
@@ -2032,7 +2036,7 @@ async function showSubtopicQuiz(nextSubtopicIndex, nextObjectiveIndex) {
             nextObjectiveIndex: nextObjectiveIndex,
             completed: false
         };
-        
+
         const content = `
             <div class="subtopic-quiz-screen">
                 <div class="quiz-header">
@@ -2062,12 +2066,12 @@ async function showSubtopicQuiz(nextSubtopicIndex, nextObjectiveIndex) {
                 </div>
             </div>
         `;
-        
+
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
         hideLoading();
-        
+
     } catch (error) {
         hideLoading();
         showToast('Failed to load quiz: ' + error.message, 'error');
@@ -2079,7 +2083,7 @@ function renderSubtopicQuizQuestion(index) {
     const quiz = guidedLearnState.subtopicQuiz;
     const q = quiz.questions[index];
     const optionKeys = ['A', 'B', 'C', 'D'];
-    
+
     // Handle both object and array options
     let options = {};
     if (Array.isArray(q.options)) {
@@ -2089,7 +2093,7 @@ function renderSubtopicQuizQuestion(index) {
     } else {
         options = q.options;
     }
-    
+
     return `
         <div class="quiz-question-card">
             ${q.objective ? `<div class="quiz-objective-tag"><i class="fas fa-bullseye"></i> ${q.objective}</div>` : ''}
@@ -2110,32 +2114,32 @@ function renderSubtopicQuizQuestion(index) {
 function selectQuizAnswer(key) {
     const quiz = guidedLearnState.subtopicQuiz;
     if (quiz.answers[quiz.currentIndex] !== undefined) return; // Already answered
-    
+
     const q = quiz.questions[quiz.currentIndex];
     quiz.answers[quiz.currentIndex] = key;
-    
+
     // Determine correct answer
     const correctAnswer = q.correct_answer || q.answer;
     const isCorrect = key.toUpperCase() === correctAnswer.toUpperCase();
-    
+
     if (isCorrect) quiz.score++;
-    
+
     // Highlight options
     document.querySelectorAll('.quiz-option').forEach(el => el.classList.add('disabled'));
-    
+
     const selectedEl = document.getElementById(`quiz-opt-${key}`);
     selectedEl.classList.add(isCorrect ? 'correct' : 'incorrect');
-    
+
     if (!isCorrect) {
         const correctEl = document.getElementById(`quiz-opt-${correctAnswer}`);
         if (correctEl) correctEl.classList.add('correct');
     }
-    
+
     // Show feedback
     const feedbackEl = document.getElementById('quiz-feedback');
     feedbackEl.classList.remove('hidden');
     feedbackEl.className = `quiz-feedback ${isCorrect ? 'correct' : 'incorrect'}`;
-    
+
     const explanation = q.explanation || '';
     feedbackEl.innerHTML = `
         <div class="feedback-icon">${isCorrect ? '<i class="fas fa-check-circle"></i>' : '<i class="fas fa-times-circle"></i>'}</div>
@@ -2144,11 +2148,11 @@ function selectQuizAnswer(key) {
             ${explanation ? `<p>${explanation}</p>` : ''}
         </div>
     `;
-    
+
     // Enable next button
     const nextBtn = document.getElementById('quiz-next-btn');
     nextBtn.disabled = false;
-    
+
     // Change button text if last question
     if (quiz.currentIndex === quiz.total - 1) {
         nextBtn.innerHTML = 'See Results <i class="fas fa-chart-bar"></i>';
@@ -2157,22 +2161,22 @@ function selectQuizAnswer(key) {
 
 function nextQuizQuestion() {
     const quiz = guidedLearnState.subtopicQuiz;
-    
+
     if (quiz.currentIndex >= quiz.total - 1) {
         // Show results
         showQuizResults();
         return;
     }
-    
+
     quiz.currentIndex++;
-    
+
     // Update counter and progress
     document.getElementById('quiz-counter').textContent = `Question ${quiz.currentIndex + 1} of ${quiz.total}`;
     document.getElementById('quiz-progress-bar').style.width = `${((quiz.currentIndex + 1) / quiz.total) * 100}%`;
-    
+
     // Render next question
     document.getElementById('quiz-body').innerHTML = renderSubtopicQuizQuestion(quiz.currentIndex);
-    
+
     // Disable next button until answered
     document.getElementById('quiz-next-btn').disabled = true;
     document.getElementById('quiz-next-btn').innerHTML = 'Next <i class="fas fa-arrow-right"></i>';
@@ -2183,11 +2187,11 @@ function showQuizResults() {
     const percentage = Math.round((quiz.score / quiz.total) * 100);
     const currentSubtopic = guidedLearnState.topicStructure.subtopics[guidedLearnState.currentSubtopicIndex];
     const nextSubtopic = guidedLearnState.topicStructure.subtopics[quiz.nextSubtopicIndex];
-    
+
     let gradeClass = 'poor';
     let gradeIcon = 'fa-sad-tear';
     let gradeMessage = 'Keep practicing!';
-    
+
     if (percentage >= 80) {
         gradeClass = 'excellent';
         gradeIcon = 'fa-trophy';
@@ -2201,7 +2205,7 @@ function showQuizResults() {
         gradeIcon = 'fa-meh';
         gradeMessage = 'Not bad, but room to improve.';
     }
-    
+
     const body = document.getElementById('quiz-body');
     body.innerHTML = `
         <div class="quiz-results">
@@ -2219,20 +2223,20 @@ function showQuizResults() {
             
             <div class="quiz-question-review">
                 ${quiz.questions.map((q, i) => {
-                    const correctAnswer = q.correct_answer || q.answer;
-                    const userAnswer = quiz.answers[i];
-                    const isCorrect = userAnswer && userAnswer.toUpperCase() === correctAnswer.toUpperCase();
-                    return `
+        const correctAnswer = q.correct_answer || q.answer;
+        const userAnswer = quiz.answers[i];
+        const isCorrect = userAnswer && userAnswer.toUpperCase() === correctAnswer.toUpperCase();
+        return `
                         <div class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
                             <span class="review-num">${i + 1}</span>
                             <i class="fas ${isCorrect ? 'fa-check' : 'fa-times'}"></i>
                         </div>
                     `;
-                }).join('')}
+    }).join('')}
             </div>
         </div>
     `;
-    
+
     const footer = document.getElementById('quiz-footer');
     footer.innerHTML = `
         <button class="btn btn-outline" onclick="showSubtopicQuiz(${quiz.nextSubtopicIndex}, ${quiz.nextObjectiveIndex})">
@@ -2246,14 +2250,14 @@ function showQuizResults() {
 
 async function showTopicComplete() {
     const user = authManager.getUser();
-    
+
     // Get weaknesses
     let weaknesses = [];
     try {
         const weakData = await api.request(`/guided-learn/weaknesses/${encodeURIComponent(guidedLearnState.subject)}`, { requireAuth: true });
         weaknesses = weakData.weaknesses.filter(w => w.topic === guidedLearnState.topicName);
-    } catch (e) {}
-    
+    } catch (e) { }
+
     const content = `
         <div class="topic-complete-screen">
             <div class="complete-animation big">
@@ -2288,7 +2292,7 @@ async function showTopicComplete() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
@@ -2308,7 +2312,7 @@ function startTopicPractice() {
 async function showTopicOverview() {
     const user = authManager.getUser();
     const topic = guidedLearnState.topicStructure;
-    
+
     const content = `
         <div class="topic-overview-screen">
             <div class="overview-header">
@@ -2330,9 +2334,9 @@ async function showTopicOverview() {
                                 <div class="objective-item ${obj.status}" 
                                      onclick="jumpToObjective(${stIdx}, ${objIdx})">
                                     <span class="status-icon">
-                                        ${obj.status === 'completed' ? '<i class="fas fa-check-circle"></i>' : 
-                                          obj.status === 'in_progress' ? '<i class="fas fa-play-circle"></i>' : 
-                                          '<i class="fas fa-circle"></i>'}
+                                        ${obj.status === 'completed' ? '<i class="fas fa-check-circle"></i>' :
+            obj.status === 'in_progress' ? '<i class="fas fa-play-circle"></i>' :
+                '<i class="fas fa-circle"></i>'}
                                     </span>
                                     <span class="objective-text">${obj.text}</span>
                                     ${obj.is_weakness ? '<span class="weakness-icon"><i class="fas fa-exclamation-triangle"></i></span>' : ''}
@@ -2344,7 +2348,7 @@ async function showTopicOverview() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, content);
     mainApp.classList.remove('hidden');
@@ -2391,23 +2395,23 @@ let topicQuizState = {
 
 async function startTopicPracticeQuiz(count) {
     showLoading(`Loading ${count} JAMB questions...`);
-    
+
     const subject = guidedLearnState.subject;
     const topic = guidedLearnState.topicName;
-    
+
     try {
         // Fetch questions from database for this topic
         const data = await api.request(
             `/guided-learn/questions/by-topic?subject=${encodeURIComponent(subject)}&topic=${encodeURIComponent(topic)}&limit=${count}`,
             { requireAuth: true }
         );
-        
+
         if (!data.questions || data.questions.length === 0) {
             hideLoading();
             showToast('No JAMB questions found for this topic. Try a different quiz size.', 'warning');
             return;
         }
-        
+
         topicQuizState = {
             questions: data.questions,
             currentIndex: 0,
@@ -2416,10 +2420,10 @@ async function startTopicPracticeQuiz(count) {
             subject: subject,
             topic: topic
         };
-        
+
         hideLoading();
         showTopicQuizQuestion();
-        
+
     } catch (error) {
         hideLoading();
         showToast('Failed to load questions: ' + error.message, 'error');
@@ -2433,10 +2437,10 @@ function showTopicQuizQuestion() {
     const totalQuestions = questions.length;
     const answeredCount = Object.keys(answers).length;
     const progress = Math.round((currentIndex / totalQuestions) * 100);
-    
+
     // Check if already answered
     const previousAnswer = answers[question.id];
-    
+
     const pageContent = `
         <div class="topic-quiz-screen">
             <div class="quiz-header">
@@ -2471,19 +2475,19 @@ function showTopicQuizQuestion() {
                     
                     <div class="quiz-options" id="quiz-options">
                         ${['A', 'B', 'C', 'D'].map(key => {
-                            const optionText = question.options?.[key] || question[`option_${key.toLowerCase()}`] || '';
-                            if (!optionText) return '';
-                            
-                            let optionClass = 'quiz-option';
-                            if (previousAnswer) {
-                                if (key === question.correct_option_key) {
-                                    optionClass += ' correct';
-                                } else if (key === previousAnswer) {
-                                    optionClass += ' incorrect';
-                                }
-                            }
-                            
-                            return `
+        const optionText = question.options?.[key] || question[`option_${key.toLowerCase()}`] || '';
+        if (!optionText) return '';
+
+        let optionClass = 'quiz-option';
+        if (previousAnswer) {
+            if (key === question.correct_option_key) {
+                optionClass += ' correct';
+            } else if (key === previousAnswer) {
+                optionClass += ' incorrect';
+            }
+        }
+
+        return `
                                 <div class="${optionClass}" 
                                      onclick="selectTopicQuizOption('${key}')"
                                      data-key="${key}"
@@ -2492,7 +2496,7 @@ function showTopicQuizQuestion() {
                                     <span class="option-text">${optionText}</span>
                                 </div>
                             `;
-                        }).join('')}
+    }).join('')}
                     </div>
                     
                     <div class="quiz-feedback ${previousAnswer ? '' : 'hidden'}" id="quiz-feedback">
@@ -2521,12 +2525,12 @@ function showTopicQuizQuestion() {
                 
                 <div class="quiz-dots">
                     ${questions.slice(Math.max(0, currentIndex - 3), currentIndex + 4).map((q, i) => {
-                        const actualIdx = Math.max(0, currentIndex - 3) + i;
-                        const isAnswered = answers[questions[actualIdx].id];
-                        const isCurrent = actualIdx === currentIndex;
-                        return `<span class="quiz-dot ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''}" 
+        const actualIdx = Math.max(0, currentIndex - 3) + i;
+        const isAnswered = answers[questions[actualIdx].id];
+        const isCurrent = actualIdx === currentIndex;
+        return `<span class="quiz-dot ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''}" 
                                       onclick="jumpToTopicQuizQuestion(${actualIdx})"></span>`;
-                    }).join('')}
+    }).join('')}
                 </div>
                 
                 ${currentIndex === totalQuestions - 1 ? `
@@ -2541,7 +2545,7 @@ function showTopicQuizQuestion() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -2549,13 +2553,13 @@ function showTopicQuizQuestion() {
 
 function selectTopicQuizOption(key) {
     const question = topicQuizState.questions[topicQuizState.currentIndex];
-    
+
     // Already answered
     if (topicQuizState.answers[question.id]) return;
-    
+
     // Store answer
     topicQuizState.answers[question.id] = key;
-    
+
     // Update UI
     const options = document.querySelectorAll('.quiz-option');
     options.forEach(opt => {
@@ -2567,7 +2571,7 @@ function selectTopicQuizOption(key) {
         }
         opt.style.pointerEvents = 'none';
     });
-    
+
     // Show feedback
     const feedback = document.getElementById('quiz-feedback');
     const isCorrect = key === question.correct_option_key;
@@ -2620,12 +2624,12 @@ function exitTopicQuiz() {
 function finishTopicQuiz() {
     const { questions, answers, startTime, subject, topic } = topicQuizState;
     const user = authManager.getUser();
-    
+
     // Calculate results
     let correct = 0;
     let incorrect = 0;
     let unanswered = 0;
-    
+
     questions.forEach(q => {
         if (answers[q.id]) {
             if (answers[q.id] === q.correct_option_key) {
@@ -2637,15 +2641,15 @@ function finishTopicQuiz() {
             unanswered++;
         }
     });
-    
+
     const totalQuestions = questions.length;
     const scorePercent = Math.round((correct / totalQuestions) * 100);
     const timeTaken = Math.round((Date.now() - startTime) / 1000);
     const minutes = Math.floor(timeTaken / 60);
     const seconds = timeTaken % 60;
-    
+
     const trophyClass = scorePercent >= 80 ? 'gold' : scorePercent >= 60 ? 'silver' : 'bronze';
-    
+
     const pageContent = `
         <div class="quiz-result-screen">
             <div class="result-card">
@@ -2711,7 +2715,7 @@ function finishTopicQuiz() {
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -2720,7 +2724,7 @@ function finishTopicQuiz() {
 function reviewTopicQuizAnswers() {
     const user = authManager.getUser();
     const { questions, answers, subject, topic } = topicQuizState;
-    
+
     const pageContent = `
         <div class="quiz-review-screen">
             <div class="review-header">
@@ -2732,11 +2736,11 @@ function reviewTopicQuizAnswers() {
             
             <div class="review-questions">
                 ${questions.map((q, idx) => {
-                    const userAnswer = answers[q.id];
-                    const isCorrect = userAnswer === q.correct_option_key;
-                    const isSkipped = !userAnswer;
-                    
-                    return `
+        const userAnswer = answers[q.id];
+        const isCorrect = userAnswer === q.correct_option_key;
+        const isSkipped = !userAnswer;
+
+        return `
                         <div class="review-question-card ${isSkipped ? 'skipped' : isCorrect ? 'correct' : 'incorrect'}">
                             <div class="review-question-header">
                                 <span class="question-num">Q${idx + 1}</span>
@@ -2756,14 +2760,14 @@ function reviewTopicQuizAnswers() {
                             
                             <div class="review-options">
                                 ${['A', 'B', 'C', 'D'].map(key => {
-                                    const optionText = q.options?.[key] || q[`option_${key.toLowerCase()}`] || '';
-                                    if (!optionText) return '';
-                                    
-                                    let optClass = 'review-option';
-                                    if (key === q.correct_option_key) optClass += ' correct-answer';
-                                    if (key === userAnswer && key !== q.correct_option_key) optClass += ' wrong-answer';
-                                    
-                                    return `
+            const optionText = q.options?.[key] || q[`option_${key.toLowerCase()}`] || '';
+            if (!optionText) return '';
+
+            let optClass = 'review-option';
+            if (key === q.correct_option_key) optClass += ' correct-answer';
+            if (key === userAnswer && key !== q.correct_option_key) optClass += ' wrong-answer';
+
+            return `
                                         <div class="${optClass}">
                                             <span class="opt-key">${key}</span>
                                             <span class="opt-text">${optionText}</span>
@@ -2771,7 +2775,7 @@ function reviewTopicQuizAnswers() {
                                             ${key === userAnswer && key !== q.correct_option_key ? '<i class="fas fa-times"></i>' : ''}
                                         </div>
                                     `;
-                                }).join('')}
+        }).join('')}
                             </div>
                             
                             ${q.explanation ? `
@@ -2781,11 +2785,11 @@ function reviewTopicQuizAnswers() {
                             ` : ''}
                         </div>
                     `;
-                }).join('')}
+    }).join('')}
             </div>
         </div>
     `;
-    
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
@@ -2810,12 +2814,12 @@ async function awardLearningPoints(params) {
                 description: params.description || null
             }
         });
-        
+
         // Show toast notification for points
         if (response.success) {
             showToast(`+${params.points} Points!`, 'success');
         }
-        
+
         return response;
     } catch (error) {
         console.error('Failed to award points:', error);

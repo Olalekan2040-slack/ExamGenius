@@ -24,7 +24,7 @@ DEPARTMENT_SUBJECTS = {
 async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
     """
     Get comprehensive dashboard statistics with personalized recommendations
-    
+
     Returns:
     - Overall stats: total attempts, accuracy, active days
     - Streak data: current, longest, last activity
@@ -105,7 +105,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             }
             for row in cursor.fetchall()
         ]
-        
+
         # Get incomplete learning progress topics (started but not completed)
         cursor.execute("""
             SELECT subject, topic_name, 
@@ -121,7 +121,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                    NULLIF(CAST(COUNT(*) AS FLOAT), 0) * 100 ASC
             LIMIT 6
         """, (user_id,))
-        
+
         incomplete_learning = [
             {
                 "subject": row[0],
@@ -189,12 +189,14 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
 
         # Combine all weakness sources and build recommendations
         # Priority: incomplete learning > practice weak > CBT weak > year practice weak
-        all_weak = incomplete_learning + weakest_topics + cbt_weak_topics + year_practice_weak
+        all_weak = incomplete_learning + weakest_topics + \
+            cbt_weak_topics + year_practice_weak
 
         # Determine allowed subjects based on department
         allowed_subjects = set(registered_subjects)
         if department and department in DEPARTMENT_SUBJECTS:
-            allowed_subjects = allowed_subjects | set(DEPARTMENT_SUBJECTS[department])
+            allowed_subjects = allowed_subjects | set(
+                DEPARTMENT_SUBJECTS[department])
 
         # Filter by department-appropriate subjects (Art students won't see Physics, etc.)
         recommended_topics = []
@@ -222,12 +224,12 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 ORDER BY RANDOM()
                 LIMIT ?
             """, registered_subjects + [6 - len(recommended_topics)])
-            
+
             for row in cursor.fetchall():
                 key = f"{row[0]}:{row[1]}"
                 if key not in seen_keys:
                     recommended_topics.append({
-                        "subject": row[0], "topic": row[1], 
+                        "subject": row[0], "topic": row[1],
                         "accuracy": None, "attempts": 0, "source": "suggested"
                     })
                     seen_keys.add(key)
@@ -247,9 +249,10 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 ORDER BY RANDOM()
                 LIMIT 6
             """, dept_subjects)
-            
+
             recommended_topics = [
-                {"subject": row[0], "topic": row[1], "accuracy": None, "attempts": 0, "source": "suggested"}
+                {"subject": row[0], "topic": row[1], "accuracy": None,
+                    "attempts": 0, "source": "suggested"}
                 for row in cursor.fetchall()
             ]
 
@@ -629,9 +632,10 @@ async def get_recommendations(user_id: int = Depends(current_user_id)):
                     WHERE subject IN ({placeholders})
                     LIMIT 10
                 """, registered_subjects)
-                
+
                 foundational = [
-                    {"subject": row[0], "topic": row[1], "accuracy": None, "attempts": 0}
+                    {"subject": row[0], "topic": row[1],
+                        "accuracy": None, "attempts": 0}
                     for row in cursor.fetchall()
                 ]
                 weak_topics_filtered = foundational[:5]
@@ -682,21 +686,24 @@ async def get_recommendations(user_id: int = Depends(current_user_id)):
             recommendation_msg.append(
                 f"Based on your {department} department choice, focus on topics critical for your stream."
             )
-        
+
         if weak_topics_filtered:
-            weak_subject_topics = [f"{t['subject']}: {t['topic']}" for t in weak_topics_filtered[:3]]
+            weak_subject_topics = [
+                f"{t['subject']}: {t['topic']}" for t in weak_topics_filtered[:3]]
             recommendation_msg.append(
                 f"Your weakest areas are {', '.join(weak_subject_topics)}. Start with these for maximum improvement."
             )
-        
+
         if urgent_focus:
-            urgent_topics = [f"{t['subject']}: {t['topic']}" for t in urgent_focus]
+            urgent_topics = [
+                f"{t['subject']}: {t['topic']}" for t in urgent_focus]
             recommendation_msg.append(
                 f"⚠️ Urgent focus needed: {', '.join(urgent_topics)}"
             )
-        
+
         if not recommendation_msg:
-            recommendation_msg.append("Keep practicing consistently to track improvement!")
+            recommendation_msg.append(
+                "Keep practicing consistently to track improvement!")
 
         return {
             "success": True,
@@ -866,7 +873,8 @@ async def get_unified_points(user_id: int = Depends(current_user_id)):
         streak_points = current_streak * 5
 
         # Total
-        total_points = learning_points + cbt_points + year_practice_points + topic_practice_points + streak_points
+        total_points = learning_points + cbt_points + \
+            year_practice_points + topic_practice_points + streak_points
 
         # Calculate level
         level = 1

@@ -55,15 +55,15 @@ async function showCBTSelect() {
                     
                     <div id="subject-selection" style="display: grid; gap: 12px; margin-bottom: 20px;">
                         ${subjects.subjects.map(s => {
-                            const isEnglish = englishLabels.includes(s);
-                            return `
+            const isEnglish = englishLabels.includes(s);
+            return `
                             <label style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); cursor: pointer; border: 2px solid transparent; transition: var(--transition);" 
                                    onchange="updateCBTSubjectCount()" class="cbt-subject-option">
                                 <input type="checkbox" name="cbt-subject" value="${s}" ${isEnglish ? 'checked' : ''} style="margin-right: 12px; width: 20px; height: 20px;" ${isEnglish ? 'onclick="preventEnglishUncheck(event)"' : ''}>
                                 <span style="font-weight: 600;">${s}${isEnglish ? ' (Required)' : ''}</span>
                             </label>
                         `;
-                        }).join('')}
+        }).join('')}
                     </div>
                     
                     <div id="subject-count" style="margin-bottom: 20px; padding: 12px; background: var(--bg-light); border-radius: var(--radius-sm); text-align: center; font-weight: 600;">
@@ -326,7 +326,7 @@ async function submitCBTExam() {
         if (!cbtState.sessionId) {
             throw new Error('No active CBT session');
         }
-        
+
         if (!cbtState.questions || cbtState.questions.length === 0) {
             throw new Error('No questions loaded');
         }
@@ -335,7 +335,7 @@ async function submitCBTExam() {
             question_id: q.question_id,
             user_answer: cbtState.answers[q.question_id] || null
         }));
-        
+
         console.log(`[CBT] Submitting ${answers.length} answers for session ${cbtState.sessionId}`);
 
         const result = await api.submitCBT(cbtState.sessionId, answers);
