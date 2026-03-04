@@ -20,8 +20,8 @@ class AnalyticsService:
         attempt_results: List[Dict]
     ) -> Dict:
         """
-        Calculate detailed topic-level analysis
-        Returns metrics, performance insights, and trends
+        Calculate detailed topic-level analysis.
+        Uses a single bulk query instead of N individual queries.
         """
         if not attempt_results:
             return {}
@@ -30,29 +30,23 @@ class AnalyticsService:
         correct = sum(1 for r in attempt_results if r['is_correct'])
         accuracy = (correct / total * 100) if total > 0 else 0
 
-        # Question difficulty analysis
+        # ── Single bulk query for all question years ───────────────────────
         conn = get_connection()
         cursor = conn.cursor()
+        qids = [r['question_id'] for r in attempt_results]
+        placeholders = ",".join(["?" for _ in qids])
+        cursor.execute(f"""
+            SELECT id, year FROM questions WHERE id IN ({placeholders})
+        """, qids)
+        year_map = {row[0]: row[1] for row in cursor.fetchall()}
 
-        difficulty_map = {}
-        for result in attempt_results:
-            cursor.execute("""
-                SELECT q.year, q.number
-                FROM questions q
-                WHERE q.id = ?
-            """, (result['question_id'],))
-            
-            q_row = cursor.fetchone()
-            if q_row:
-                year = q_row[0]
-                # Older years = harder (assumption)
-                difficulty = 'hard' if year <= 2014 else 'medium' if year <= 2018 else 'easy'
-                difficulty_map[result['question_id']] = difficulty
-
-        # Performance by difficulty
         difficulty_performance = defaultdict(lambda: {'correct': 0, 'total': 0})
         for result in attempt_results:
-            difficulty = difficulty_map.get(result['question_id'], 'unknown')
+            year = year_map.get(result['question_id'])
+            if year:
+                difficulty = 'hard' if year <= 2014 else 'medium' if year <= 2018 else 'easy'
+            else:
+                difficulty = 'unknown'
             difficulty_performance[difficulty]['total'] += 1
             if result['is_correct']:
                 difficulty_performance[difficulty]['correct'] += 1
@@ -70,7 +64,7 @@ class AnalyticsService:
             'correct_answers': correct,
             'accuracy': round(accuracy, 2),
             'difficulty_breakdown': difficulty_metrics,
-            'completion_rate': round((total / total * 100), 2),
+            'completion_rate': 100.0,
             'time_taken': datetime.utcnow().isoformat()
         }
 
@@ -81,11 +75,7 @@ class AnalyticsService:
     ) -> Dict:
         """
         Analyse strengths and weaknesses using practice_attempts directly.
-        Covers ALL practice types: guided, CBT, year practice.
-
-        Fixed thresholds (not relative):
-          - Strength : accuracy >= 70%  AND attempts >= 5
-          - Weakness : accuracy <  60%  AND attempts >= 3
+        Uses a single aggregation query — no N+1 per-topic queries.
         """
         conn = get_connection()
         cursor = conn.cursor()
@@ -96,6 +86,7 @@ class AnalyticsService:
             subject_clause = " AND subject = ?"
             params.append(subject)
 
+        # ── Single aggregation query ──────────────────────────────────────
         cursor.execute(f"""
             SELECT topic, subject,
                    COUNT(*) AS attempts,
@@ -120,6 +111,38 @@ class AnalyticsService:
                 'summary': 'Practice more questions to see your strengths and weaknesses.'
             }
 
+        # ── Batch trend calculation — one query for all topics ────────────
+        topics = [r[0] for r in rows]
+        topic_ph = ",".join(["?" for _ in topics])
+        trend_params = [user_id] + topics
+        cursor.execute(f"""
+            SELECT topic,
+                   is_correct,
+                   ROW_NUMBER() OVER (PARTITION BY topic ORDER BY created_at DESC) AS rn
+            FROM practice_attempts
+            WHERE user_id = ? AND topic IN ({topic_ph})
+        """, trend_params)
+        trend_rows_all = cursor.fetchall()
+
+        # Build trend map: topic → list of recent is_correct (up to 5)
+        trend_recent: dict = {}
+        for topic_, is_correct_, rn_ in trend_rows_all:
+            if rn_ <= 5:
+                trend_recent.setdefault(topic_, []).append(is_correct_)
+
+        def _trend_from_list(recent: list) -> str:
+            if len(recent) < 2:
+                return 'stable'
+            recent_avg = sum(recent[:3]) / max(len(recent[:3]), 1)
+            older = recent[3:]
+            older_avg = sum(older) / len(older) if older else recent_avg
+            if recent_avg > older_avg + 0.2:
+                return 'improving'
+            elif recent_avg < older_avg - 0.2:
+                return 'declining'
+            return 'stable'
+        # ─────────────────────────────────────────────────────────────────
+
         total_accuracy = sum(
             (r[3] / r[2] * 100) for r in rows if r[2] > 0
         ) / len(rows)
@@ -135,14 +158,13 @@ class AnalyticsService:
                 'accuracy': accuracy,
                 'attempts': attempts,
                 'correct': correct,
-                'trend': AnalyticsService._calculate_trend(user_id, topic)
+                'trend': _trend_from_list(trend_recent.get(topic, []))
             }
             if accuracy >= 70 and attempts >= 5:
                 strengths.append(entry)
             elif accuracy < 60:
                 weaknesses.append(entry)
 
-        # Sorted: best first for strengths, worst first for weaknesses
         strengths.sort(key=lambda x: x['accuracy'], reverse=True)
         weaknesses.sort(key=lambda x: x['accuracy'])
 

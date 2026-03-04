@@ -157,6 +157,9 @@ async function showGuidedSubjectSelect() {
             'Accounting': { bg: 'linear-gradient(135deg, #22C55E, #16A34A)', icon: '🧮' }
         };
 
+        // Subjects that have full static learning content
+        const SUBJECTS_WITH_CONTENT = new Set(['Physics', 'Chemistry', 'Mathematics', 'Government', 'Biology']);
+
         const content = `
             <div class="guided-learn-screen">
                 <!-- Hero Section -->
@@ -182,18 +185,24 @@ async function showGuidedSubjectSelect() {
                 <div class="subject-grid">
                     ${data.subjects.map(s => {
             const colors = subjectColors[s.name] || { bg: 'linear-gradient(135deg, #64748B, #475569)', icon: '📘' };
+            const hasContent = SUBJECTS_WITH_CONTENT.has(s.name);
             return `
-                            <div class="subject-card-modern" onclick="selectGuidedSubject('${s.name}')">
-                                <div class="subject-card-bg" style="background: ${colors.bg}">
+                            <div class="subject-card-modern${hasContent ? '' : ' subject-card-disabled'}"
+                                 onclick="${hasContent ? `selectGuidedSubject('${s.name}')` : `showToast('${s.name} content is coming soon! Check back later.', 'info')`}">
+                                ${!hasContent ? '<div class="coming-soon-badge"><i class="fas fa-tools"></i> Coming Soon</div>' : ''}
+                                <div class="subject-card-bg" style="background: ${colors.bg}${hasContent ? '' : '; filter: grayscale(0.7) opacity(0.6)'}">
                                     <div class="subject-card-icon">${colors.icon}</div>
                                 </div>
                                 <div class="subject-card-body">
                                     <h3>${s.name}</h3>
                                     <div class="subject-stats">
-                                        <span><i class="fas fa-book-open"></i> ${s.topic_count} Topics</span>
+                                        ${hasContent
+                    ? `<span><i class="fas fa-book-open"></i> ${s.topic_count} Topics</span>`
+                    : `<span style="color:#94a3b8;font-size:0.8rem;"><i class="fas fa-clock"></i> Under Construction</span>`
+                }
                                     </div>
                                     <div class="subject-card-arrow">
-                                        <i class="fas fa-arrow-right"></i>
+                                        <i class="fas fa-${hasContent ? 'arrow-right' : 'lock'}"></i>
                                     </div>
                                 </div>
                             </div>
