@@ -20,11 +20,14 @@ def import_all_jamb_questions():
     conn = psycopg2.connect(settings.DATABASE_URL, connect_timeout=10)
     cursor = conn.cursor()
     
-    # Get JAMB directory
-    jamb_root = Path(__file__).parent.parent / "JAMB"
-    
+    # Get JAMB directory — support both "JAMB copy" (local) and "JAMB" (server after rename)
+    jamb_root = Path(__file__).parent.parent / "JAMB copy"
     if not jamb_root.exists():
-        print(f"ERROR: JAMB directory not found at {jamb_root}")
+        # Try plain "JAMB" as fallback (in case folder was renamed on server)
+        jamb_root = Path(__file__).parent.parent / "JAMB"
+
+    if not jamb_root.exists():
+        print(f"ERROR: JAMB directory not found at {jamb_root} (tried 'JAMB copy' and 'JAMB')")
         return
     
     subjects = [d for d in jamb_root.iterdir() if d.is_dir() and d.name.lower() not in ("images",)]

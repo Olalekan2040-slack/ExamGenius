@@ -13,10 +13,89 @@ router = APIRouter(prefix="/dashboard", tags=["Dashboard"])
 
 # Department-to-subjects mapping for filtering recommendations
 DEPARTMENT_SUBJECTS = {
-    'Science': ['English', 'Physics', 'Chemistry', 'Biology', 'Mathematics'],
-    'Commercial': ['English', 'Commerce', 'Accounting', 'Economics', 'Mathematics'],
-    'Art': ['English', 'Government', 'Literature in English', 'Economics', 'History',
+    'Science': ['English Language', 'Physics', 'Chemistry', 'Biology', 'Mathematics'],
+    'Commercial': ['English Language', 'Commerce', 'Accounting', 'Economics', 'Mathematics'],
+    'Art': ['English Language', 'Government', 'Literature in English', 'Economics', 'History',
             'Geography', 'Hausa', 'Igbo', 'French', 'Music', 'Art']
+}
+
+# Default priority topics per subject — shown when a student has no practice history yet
+DEFAULT_TOPICS_BY_SUBJECT: dict = {
+    "Mathematics": [
+        "Algebra", "Quadratic Equations", "Trigonometry", "Statistics", "Calculus",
+        "Indices and Logarithms", "Sets", "Geometry", "Probability", "Vectors",
+    ],
+    "English Language": [
+        "Comprehension", "Summary Writing", "Lexis and Structure",
+        "Essay Writing", "Oral English", "Register and Diction",
+    ],
+    "Biology": [
+        "Cell Biology", "Genetics and Heredity", "Ecology", "Nutrition",
+        "Reproduction", "Evolution", "Transport Systems", "Excretion",
+    ],
+    "Chemistry": [
+        "Atomic Structure", "Chemical Bonding", "Periodicity",
+        "Organic Chemistry", "Equilibrium", "Electrochemistry",
+        "Metals and Their Compounds", "Rates of Reaction",
+    ],
+    "Physics": [
+        "Mechanics", "Waves", "Electricity and Magnetism", "Optics",
+        "Thermodynamics", "Modern Physics", "Force and Motion",
+        "Energy and Power",
+    ],
+    "Economics": [
+        "Demand and Supply", "National Income", "Money and Banking",
+        "International Trade", "Government Revenue", "Market Structures",
+    ],
+    "Commerce": [
+        "Trade", "Aids to Trade", "Business Finance",
+        "Insurance", "Warehousing", "Communication in Business",
+    ],
+    "Accounting": [
+        "Double Entry", "Trial Balance", "Final Accounts",
+        "Bank Reconciliation", "Depreciation", "Partnership Accounts",
+    ],
+    "Government": [
+        "Constitution", "Federalism", "Electoral Systems",
+        "Public Administration", "International Organisations",
+        "Nigerian Government History",
+    ],
+    "Literature in English": [
+        "African Literature", "Poetry Analysis", "Drama",
+        "Prose Fiction", "Oral Literature", "Stylistics",
+    ],
+    "Geography": [
+        "Map Reading", "Climatology", "Geomorphology",
+        "Population and Settlement", "Economic Geography", "Oceanography",
+    ],
+    "History": [
+        "Pre-colonial Africa", "Colonialism", "Nigerian Independence",
+        "World Wars", "Post-independence Africa", "Early Civilisations",
+    ],
+    "Agricultural Science": [
+        "Crop Production", "Animal Husbandry", "Soil Science",
+        "Farm Machinery", "Agricultural Economics", "Pest and Disease Control",
+    ],
+    "Further Mathematics": [
+        "Matrices", "Complex Numbers", "Linear Programming",
+        "Logical Reasoning", "Sequences and Series", "Calculus",
+    ],
+    "CRK": [
+        "The Life of Jesus", "Paul's Missionary Journeys",
+        "The Prophets", "The Church", "Old Testament History",
+    ],
+    "IRK": [
+        "Tawheed", "Hadith", "Islamic History",
+        "Fiqh", "Seerah", "Pillars of Islam",
+    ],
+    "French": [
+        "Grammar", "Vocabulary", "Comprehension",
+        "Oral French", "Composition", "Reading Texts",
+    ],
+    "Hausa": ["Grammar", "Literature", "Composition", "Comprehension", "Culture"],
+    "Igbo": ["Grammar", "Literature", "Composition", "Comprehension", "Culture"],
+    "Music": ["Music Theory", "Harmony", "History of Music", "Ear Training", "African Music"],
+    "Art": ["Drawing", "Painting", "Design", "Art History", "Sculpture"],
 }
 
 
@@ -214,47 +293,38 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
 
         # Fallback: if less than 8, add from registered subjects that haven't been practiced
         if len(recommended_topics) < 8 and registered_subjects:
-            placeholders = ','.join(['?'] * len(registered_subjects))
-            cursor.execute(f"""
-                SELECT subject, topic FROM (
-                    SELECT DISTINCT subject, topic
-                    FROM questions
-                    WHERE subject IN ({placeholders})
-                ) sub
-                ORDER BY RANDOM()
-                LIMIT ?
-            """, registered_subjects + [8 - len(recommended_topics)])
-
-            for row in cursor.fetchall():
-                key = f"{row[0]}:{row[1]}"
-                if key not in seen_keys:
-                    recommended_topics.append({
-                        "subject": row[0], "topic": row[1],
-                        "accuracy": None, "attempts": 0, "source": "suggested"
-                    })
-                    seen_keys.add(key)
-                    if len(recommended_topics) >= 8:
-                        break
+            for subj in registered_subjects:
+                default_topics = DEFAULT_TOPICS_BY_SUBJECT.get(subj, [])
+                for topic in default_topics:
+                    key = f"{subj}:{topic}"
+                    if key not in seen_keys:
+                        recommended_topics.append({
+                            "subject": subj, "topic": topic,
+                            "accuracy": None, "attempts": 0, "source": "suggested"
+                        })
+                        seen_keys.add(key)
+                        if len(recommended_topics) >= 8:
+                            break
+                if len(recommended_topics) >= 8:
+                    break
 
         # Fallback: if still empty, use department subjects
         if not recommended_topics and department and department in DEPARTMENT_SUBJECTS:
             dept_subjects = DEPARTMENT_SUBJECTS[department]
-            placeholders = ','.join(['?'] * len(dept_subjects))
-            cursor.execute(f"""
-                SELECT subject, topic FROM (
-                    SELECT DISTINCT subject, topic
-                    FROM questions
-                    WHERE subject IN ({placeholders})
-                ) sub
-                ORDER BY RANDOM()
-                LIMIT 8
-            """, dept_subjects)
-
-            recommended_topics = [
-                {"subject": row[0], "topic": row[1], "accuracy": None,
-                    "attempts": 0, "source": "suggested"}
-                for row in cursor.fetchall()
-            ]
+            for subj in dept_subjects:
+                default_topics = DEFAULT_TOPICS_BY_SUBJECT.get(subj, [])
+                for topic in default_topics:
+                    key = f"{subj}:{topic}"
+                    if key not in seen_keys:
+                        recommended_topics.append({
+                            "subject": subj, "topic": topic,
+                            "accuracy": None, "attempts": 0, "source": "suggested"
+                        })
+                        seen_keys.add(key)
+                        if len(recommended_topics) >= 8:
+                            break
+                if len(recommended_topics) >= 8:
+                    break
 
         # ── Explicit STRENGTHS: topics ≥ 70% accuracy with ≥ 3 attempts ────
         cursor.execute("""

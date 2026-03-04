@@ -9,6 +9,19 @@ from typing import List, Optional
 
 router = APIRouter(prefix="/jamb", tags=["JAMB Questions"])
 
+# Static fallback data — shown whenever questions table is empty
+STATIC_JAMB_SUBJECTS = sorted([
+    "Accounting", "Agricultural Science", "Art",
+    "Biology", "Chemistry", "Commerce",
+    "CRK", "Economics", "English Language",
+    "French", "Further Mathematics", "Geography",
+    "Government", "Hausa", "History",
+    "Igbo", "IRK", "Literature in English",
+    "Mathematics", "Music", "Physics",
+])
+
+STATIC_JAMB_YEARS = list(range(2024, 2009, -1))  # 2024 down to 2010
+
 
 @router.get("/subjects")
 def get_subjects():
@@ -20,14 +33,17 @@ def get_subjects():
             "SELECT DISTINCT subject FROM questions WHERE exam='JAMB' AND subject != 'Literature' ORDER BY subject"
         )
         subjects = [row[0] for row in cursor.fetchall()]
+        # Fall back to static list when table is empty
+        if not subjects:
+            subjects = STATIC_JAMB_SUBJECTS
         return {"subjects": subjects}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        return {"subjects": STATIC_JAMB_SUBJECTS}
 
 
 @router.get("/years")
 def get_years():
-    """Get all available JAMB exam years (2020-2025)"""
+    """Get all available JAMB exam years"""
     try:
         conn = get_connection()
         cursor = conn.cursor()
@@ -35,9 +51,12 @@ def get_years():
             "SELECT DISTINCT year FROM questions WHERE exam='JAMB' ORDER BY year DESC"
         )
         years = [row[0] for row in cursor.fetchall()]
+        # Fall back to static list when table is empty
+        if not years:
+            years = STATIC_JAMB_YEARS
         return {"years": years}
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        return {"years": STATIC_JAMB_YEARS}
 
 
 @router.get("/topics")

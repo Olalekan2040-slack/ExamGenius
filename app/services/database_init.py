@@ -26,8 +26,9 @@ class DatabaseInitService:
             bool: True if all essential tables exist
         """
         essential_tables = [
-            'users', 'user_profiles', 'subjects', 'questions', 
-            'options', 'user_answers', 'cbt_sessions'
+            'users', 'user_profiles', 'user_subjects',
+            'questions', 'options',
+            'exam_sessions', 'session_questions', 'practice_attempts'
         ]
         
         try:

@@ -17,6 +17,18 @@ from app.utils.text_formatter import sanitize_question_data
 
 router = APIRouter(prefix="/year-practice", tags=["Year Practice"])
 
+# Static fallback years — used when questions table is empty
+STATIC_JAMB_YEARS = list(range(2024, 2009, -1))  # 2024 down to 2010
+STATIC_JAMB_SUBJECTS_LIST = sorted([
+    "Accounting", "Agricultural Science", "Art",
+    "Biology", "Chemistry", "Commerce",
+    "CRK", "Economics", "English Language",
+    "French", "Further Mathematics", "Geography",
+    "Government", "Hausa", "History",
+    "Igbo", "IRK", "Literature in English",
+    "Mathematics", "Music", "Physics",
+])
+
 
 def _ensure_year_practice_sessions_table(cursor):
     """Create year_practice_sessions table if it doesn't exist"""
@@ -81,6 +93,15 @@ async def get_year_practice_info():
                 pools[subject] = {}
             pools[subject][year] = count
 
+        # If questions table is empty, return static fallback so dropdowns still work
+        if not years:
+            years = STATIC_JAMB_YEARS
+            # Build a placeholder pool so subjects show up in the UI
+            pools = {
+                subj: {yr: 0 for yr in STATIC_JAMB_YEARS}
+                for subj in STATIC_JAMB_SUBJECTS_LIST
+            }
+
         return {
             "available_years": years,
             "min_pool_size_required": 100,
@@ -88,10 +109,15 @@ async def get_year_practice_info():
         }
 
     except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Failed to fetch year info: {str(e)}"
-        )
+        # Even on error, return static data so UI doesn't break
+        return {
+            "available_years": STATIC_JAMB_YEARS,
+            "min_pool_size_required": 100,
+            "subject_pools": {
+                subj: {yr: 0 for yr in STATIC_JAMB_YEARS}
+                for subj in STATIC_JAMB_SUBJECTS_LIST
+            }
+        }
 
 
 @router.get("/questions")
