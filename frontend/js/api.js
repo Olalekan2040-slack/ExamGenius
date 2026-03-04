@@ -367,6 +367,14 @@ class APIService {
         });
     }
 
+    async getYearPracticeHistory() {
+        return this.request('/year-practice/history', { requireAuth: true });
+    }
+
+    async getYearPracticeSessionReview(sessionId) {
+        return this.request(`/year-practice/session/${sessionId}/review`, { requireAuth: true });
+    }
+
     // ===== AI TUTOR ENDPOINTS =====
 
     async askAITutor(subject, topic, question, lesson, chatHistory) {

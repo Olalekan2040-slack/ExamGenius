@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from typing import List, Optional, Dict
 from datetime import datetime
 import random
+import json
 from app.db.database import get_connection
 from app.core.security import current_user_id
 from app.services.ai.gemini_service import generate_question_explanation
@@ -17,7 +18,29 @@ from app.utils.text_formatter import sanitize_question_data
 router = APIRouter(prefix="/year-practice", tags=["Year Practice"])
 
 
-# Pydantic Models
+def _ensure_year_practice_sessions_table(cursor):
+    """Create year_practice_sessions table if it doesn't exist"""
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS year_practice_sessions (
+            id SERIAL PRIMARY KEY,
+            user_id INTEGER NOT NULL,
+            subject TEXT NOT NULL,
+            year INTEGER NOT NULL,
+            total_questions INTEGER NOT NULL,
+            correct_answers INTEGER NOT NULL,
+            accuracy REAL NOT NULL,
+            completed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            results_json TEXT
+        )
+    """)
+    # Add results_json column if it was created before this migration
+    try:
+        cursor.execute("""
+            ALTER TABLE year_practice_sessions
+            ADD COLUMN IF NOT EXISTS results_json TEXT
+        """)
+    except Exception:
+        pass
 class SubmitYearPracticeRequest(BaseModel):
     subject: str
     year: int
@@ -228,10 +251,13 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
 
             results.append({
                 "question_id": question_id,
+                "question": question_text,
+                "options": options,
                 "user_answer": user_answer,
                 "correct_answer": correct_answer,
                 "is_correct": is_correct,
                 "topic": topic,
+                "subject": subject,
                 "explanation": explanation
             })
 
@@ -256,6 +282,23 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
             ))
 
         AnalyticsService.update_user_streak(cursor, user_id)
+
+        # ── Save year practice session record ──────────────────────────────
+        try:
+            _ensure_year_practice_sessions_table(cursor)
+            cursor.execute("""
+                INSERT INTO year_practice_sessions
+                    (user_id, subject, year, total_questions, correct_answers, accuracy, completed_at, results_json)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                user_id, request.subject, request.year,
+                total_count, correct_count,
+                round((correct_count / total_count * 100) if total_count > 0 else 0, 2),
+                datetime.utcnow().isoformat(),
+                json.dumps(results)
+            ))
+        except Exception as e:
+            print(f"Warning: Could not save year practice session: {e}")
 
         conn.commit()
 
@@ -316,3 +359,93 @@ def _get_performance_level(accuracy: float) -> str:
         return "poor"
     else:
         return "needs_improvement"
+
+
+@router.get("/history")
+async def get_year_practice_history(
+    user_id: int = Depends(current_user_id)
+):
+    """
+    Get history of all year practice sessions for the current user.
+    Returns sessions ordered by most recent first.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+    try:
+        _ensure_year_practice_sessions_table(cursor)
+        conn.commit()
+        cursor.execute("""
+            SELECT id, subject, year, total_questions, correct_answers, accuracy, completed_at
+            FROM year_practice_sessions
+            WHERE user_id = ?
+            ORDER BY completed_at DESC
+            LIMIT 50
+        """, (user_id,))
+        history = [
+            {
+                "id": row[0],
+                "subject": row[1],
+                "year": row[2],
+                "total_questions": row[3],
+                "correct_answers": row[4],
+                "accuracy": round(row[5], 2) if row[5] else 0,
+                "performance_level": _get_performance_level(row[5] or 0),
+                "date": row[6]
+            }
+            for row in cursor.fetchall()
+        ]
+        return {"history": history, "total": len(history)}
+    except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        raise HTTPException(status_code=500, detail=f"Failed to fetch history: {str(e)}")
+
+
+@router.get("/session/{session_id}/review")
+async def get_year_practice_session_review(
+    session_id: int,
+    user_id: int = Depends(current_user_id)
+):
+    """
+    Get full question-by-question review of a past year practice session.
+    Returns stored question text, options, user's answer and correct answer.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+    try:
+        _ensure_year_practice_sessions_table(cursor)
+        conn.commit()
+        cursor.execute("""
+            SELECT id, subject, year, total_questions, correct_answers, accuracy, completed_at, results_json
+            FROM year_practice_sessions
+            WHERE id = ? AND user_id = ?
+        """, (session_id, user_id))
+        row = cursor.fetchone()
+        if not row:
+            raise HTTPException(status_code=404, detail="Session not found or access denied")
+        stored_results = []
+        if row[7]:
+            try:
+                stored_results = json.loads(row[7])
+            except Exception:
+                stored_results = []
+        return {
+            "session_id": row[0],
+            "subject": row[1],
+            "year": row[2],
+            "total_questions": row[3],
+            "correct_answers": row[4],
+            "accuracy": round(row[5], 2) if row[5] else 0,
+            "completed_at": row[6],
+            "results": stored_results
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        try:
+            conn.rollback()
+        except Exception:
+            pass
+        raise HTTPException(status_code=500, detail=f"Review failed: {str(e)}")

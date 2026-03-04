@@ -73,6 +73,9 @@ async function showYearPracticeSelect() {
                     <button class="btn btn-primary btn-lg btn-block" onclick="handleStartYearPractice()">
                         <i class="fas fa-play-circle"></i> Start Practice
                     </button>
+                    <button class="btn btn-outline btn-block" style="margin-top:12px;" onclick="showYearPracticeHistory()">
+                        <i class="fas fa-history"></i> View Practice History
+                    </button>
                 </div>
             </div>
         `;
@@ -329,3 +332,169 @@ window.selectYearAnswer = selectYearAnswer;
 window.navigateYearQuestion = navigateYearQuestion;
 window.confirmExitYearPractice = confirmExitYearPractice;
 window.submitYearPractice = submitYearPractice;
+
+async function showYearPracticeHistory() {
+    showLoading('Loading history...');
+    try {
+        const user = authManager.getUser();
+        const data = await api.getYearPracticeHistory();
+        const history = data.history || [];
+
+        const content = `
+            <div class="year-practice-screen">
+                <div style="display:flex; align-items:center; gap:12px; margin-bottom:24px;">
+                    <button class="btn btn-outline" onclick="showYearPracticeSelect()">
+                        <i class="fas fa-arrow-left"></i> Back
+                    </button>
+                    <h1 style="margin:0;"><i class="fas fa-history"></i> Year Practice History</h1>
+                </div>
+
+                ${history.length === 0 ? `
+                    <div class="card" style="text-align:center; padding:40px;">
+                        <i class="fas fa-inbox" style="font-size:48px; color:var(--text-secondary); opacity:0.4;"></i>
+                        <p style="margin-top:16px; color:var(--text-secondary);">No year practice sessions yet.</p>
+                        <button class="btn btn-primary" style="margin-top:16px;" onclick="showYearPracticeSelect()">
+                            <i class="fas fa-play-circle"></i> Start a Practice
+                        </button>
+                    </div>
+                ` : `
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>${history.length} Session${history.length !== 1 ? 's' : ''}</h2>
+                        </div>
+                        <div style="display:flex; flex-direction:column; gap:12px; padding-top:8px;">
+                            ${history.map(session => `
+                                <div style="padding:14px 16px; background:var(--bg-light); border-radius:var(--radius-md); border-left:4px solid #1D4ED8; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+                                    <div>
+                                        <div style="font-weight:700; font-size:15px;">${session.subject} &mdash; ${session.year}</div>
+                                        <div style="font-size:12px; color:var(--text-secondary); margin-top:2px;">${utils.formatDate(session.date || session.completed_at)}</div>
+                                    </div>
+                                    <div style="display:flex; align-items:center; gap:12px;">
+                                        <span style="font-size:16px; font-weight:700; color:#1D4ED8;">${session.correct_answers}/${session.total_questions}</span>
+                                        <span style="font-size:13px; font-weight:600; color:${session.accuracy >= 70 ? 'var(--success)' : session.accuracy >= 50 ? '#D97706' : 'var(--error)'}">${typeof session.accuracy === 'number' ? session.accuracy.toFixed(1) : session.accuracy}%</span>
+                                        ${session.id ? `
+                                            <button class="btn btn-outline" style="padding:4px 12px; font-size:12px;" onclick="reviewYearPracticeSession(${session.id})">
+                                                <i class="fas fa-eye"></i> Review
+                                            </button>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `}
+            </div>
+        `;
+
+        const mainApp = document.getElementById('main-app');
+        mainApp.innerHTML = createAppLayout(user, content);
+        mainApp.classList.remove('hidden');
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load history: ' + error.message, 'error');
+    }
+}
+
+async function reviewYearPracticeSession(sessionId) {
+    showLoading('Loading review...');
+    try {
+        const user = authManager.getUser();
+        const session = await api.getYearPracticeSessionReview(sessionId);
+        const results = session.results || [];
+
+        const content = `
+            <div class="results-screen">
+                <div style="display:flex; align-items:center; gap:12px; margin-bottom:24px; flex-wrap:wrap;">
+                    <button class="btn btn-outline" onclick="showYearPracticeHistory()">
+                        <i class="fas fa-arrow-left"></i> Back to History
+                    </button>
+                    <h1 style="margin:0;">${session.subject} ${session.year} &mdash; Review</h1>
+                </div>
+
+                <div class="stats-grid mb-3">
+                    ${createStatCard('Score', (session.accuracy || 0).toFixed(1) + '%', 'fa-trophy', 'var(--primary-yellow-dark)')}
+                    ${createStatCard('Correct', session.correct_answers, 'fa-check', 'var(--success)')}
+                    ${createStatCard('Incorrect', session.total_questions - session.correct_answers, 'fa-times', 'var(--error)')}
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Question Review (${results.length} questions)</h2>
+                        <p style="font-size:13px; color:var(--text-secondary); margin-top:4px;">Completed: ${utils.formatDate(session.completed_at)}</p>
+                    </div>
+                    ${results.length === 0 ? `
+                        <div style="padding:24px; text-align:center; color:var(--text-secondary);">
+                            <i class="fas fa-info-circle"></i> Detailed review is only available for sessions completed after the latest update.
+                        </div>
+                    ` : `
+                        <div style="display:flex; flex-direction:column; gap:16px; padding-top:8px;">
+                            ${results.map((res, idx) => {
+                                const isCorrect = res.is_correct;
+                                const opts = res.options || {};
+                                return `
+                                    <div style="padding:16px; border:2px solid ${isCorrect ? 'var(--success)' : 'var(--error)'}; border-radius:var(--radius-md); background:${isCorrect ? '#f0fdf4' : '#fff1f2'};">
+                                        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+                                            <div>
+                                                <span style="font-size:12px; font-weight:600; color:var(--text-secondary);">${res.subject || ''} &bull; ${res.topic || ''}</span>
+                                                <div style="font-weight:700; margin-top:4px;">Q${idx + 1}</div>
+                                            </div>
+                                            <i class="fas fa-${isCorrect ? 'check-circle' : 'times-circle'}" style="color:${isCorrect ? 'var(--success)' : 'var(--error)'}; font-size:22px;"></i>
+                                        </div>
+                                        <p style="margin:0 0 12px; line-height:1.5;">${res.question || ''}</p>
+                                        ${Object.keys(opts).length > 0 ? `
+                                            <div style="display:flex; flex-direction:column; gap:6px; margin-bottom:12px;">
+                                                ${Object.entries(opts).map(([key, text]) => `
+                                                    <div style="padding:7px 12px; border-radius:6px; font-size:13px;
+                                                        background:${key === res.correct_answer ? '#dcfce7' : (key === res.user_answer && !isCorrect ? '#fee2e2' : 'var(--bg-light)')};
+                                                        border:1px solid ${key === res.correct_answer ? 'var(--success)' : (key === res.user_answer && !isCorrect ? 'var(--error)' : 'var(--border-color)') };                                                        font-weight:${key === res.correct_answer || key === res.user_answer ? '600' : '400'};">
+                                                        <strong>${key}.</strong> ${text}
+                                                        ${key === res.correct_answer ? ' <span style="color:var(--success); font-size:11px;">&#10003; Correct</span>' : ''}
+                                                        ${key === res.user_answer && !isCorrect ? ' <span style="color:var(--error); font-size:11px;">&#10005; Your answer</span>' : ''}
+                                                    </div>
+                                                `).join('')}
+                                            </div>
+                                        ` : `
+                                            <div style="font-size:13px; margin-bottom:8px;">
+                                                <strong style="color:var(--success);">Correct:</strong> ${res.correct_answer}
+                                                ${!isCorrect ? ` &nbsp; <strong style="color:var(--error);">Yours:</strong> ${res.user_answer || 'None'}` : ''}
+                                            </div>
+                                        `}
+                                        ${res.explanation ? `
+                                            <div style="padding:10px 12px; background:white; border-radius:var(--radius-sm); font-size:13px;">
+                                                <strong>Explanation:</strong> ${res.explanation}
+                                            </div>
+                                        ` : ''}
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    `}
+                </div>
+
+                <div style="display:flex; gap:12px; margin-top:24px; flex-wrap:wrap;">
+                    <button class="btn btn-primary" onclick="showYearPracticeSelect()">
+                        <i class="fas fa-play-circle"></i> New Practice
+                    </button>
+                    <button class="btn btn-outline" onclick="showYearPracticeHistory()">
+                        <i class="fas fa-history"></i> History
+                    </button>
+                    <button class="btn btn-outline" onclick="router.navigate('dashboard')">
+                        <i class="fas fa-home"></i> Dashboard
+                    </button>
+                </div>
+            </div>
+        `;
+
+        const mainApp = document.getElementById('main-app');
+        mainApp.innerHTML = createAppLayout(user, content);
+        mainApp.classList.remove('hidden');
+        hideLoading();
+    } catch (error) {
+        hideLoading();
+        showToast('Failed to load review: ' + error.message, 'error');
+    }
+}
+
+window.showYearPracticeHistory = showYearPracticeHistory;
+window.reviewYearPracticeSession = reviewYearPracticeSession;

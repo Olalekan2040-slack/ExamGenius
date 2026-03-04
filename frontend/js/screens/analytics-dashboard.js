@@ -153,9 +153,10 @@ async function showAnalyticsDashboard() {
                                     <div style="padding: 12px; background: #E8F5E920; border-radius: var(--radius-md); border-left: 3px solid var(--success);">
                                         <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                                             <div style="flex: 1;">
-                                                <div style="font-weight: 600; margin-bottom: 4px;">${idx + 1}. ${strength.topic}</div>
+                                                <div style="font-weight: 600; margin-bottom: 2px;">${idx + 1}. ${strength.topic}</div>
+                                                <div style="font-size: 11px; color: var(--text-secondary); margin-bottom: 4px;">${strength.subject || ''}</div>
                                                 <div style="font-size: 12px; color: var(--text-secondary);">
-                                                    ${strength.attempts} attempts • Trend: ${strength.trend}
+                                                    ${strength.attempts} attempts &bull; Trend: ${strength.trend}
                                                 </div>
                                             </div>
                                             <div style="font-size: 20px; font-weight: 700; color: var(--success);">${strength.accuracy}%</div>
@@ -176,12 +177,14 @@ async function showAnalyticsDashboard() {
                             <p style="margin: 0 0 16px 0; color: var(--text-secondary); font-size: 14px;">Topics needing more practice</p>
                             <div style="display: flex; flex-direction: column; gap: 12px;">
                                 ${sw.weaknesses.slice(0, 5).map((weakness, idx) => `
-                                    <div style="padding: 12px; background: #FFEBEE20; border-radius: var(--radius-md); border-left: 3px solid var(--error);">
+                                    <div style="padding: 12px; background: #FFEBEE20; border-radius: var(--radius-md); border-left: 3px solid var(--error); cursor: pointer;"
+                                         onclick="router.navigate('guided-learn', {subject: '${weakness.subject}', topic: '${weakness.topic}'})">
                                         <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                                             <div style="flex: 1;">
-                                                <div style="font-weight: 600; margin-bottom: 4px;">${idx + 1}. ${weakness.topic}</div>
+                                                <div style="font-weight: 600; margin-bottom: 2px;">${idx + 1}. ${weakness.topic}</div>
+                                                <div style="font-size: 11px; color: var(--text-secondary); margin-bottom: 4px;">${weakness.subject || ''}</div>
                                                 <div style="font-size: 12px; color: var(--text-secondary);">
-                                                    ${weakness.attempts} attempts • Trend: ${weakness.trend}
+                                                    ${weakness.attempts} attempts &bull; Trend: ${weakness.trend} &bull; <span style="color:var(--primary);">Click to study</span>
                                                 </div>
                                             </div>
                                             <div style="font-size: 20px; font-weight: 700; color: var(--error);">${weakness.accuracy}%</div>

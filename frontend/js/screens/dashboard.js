@@ -138,10 +138,13 @@ async function showDashboard() {
                         <!-- STRENGTHS -->
                         ${stats.strengths && stats.strengths.length > 0 ? `
                         <div class="card" style="border-top: 4px solid var(--success);">
-                            <div class="card-header">
-                                <h2><i class="fas fa-star" style="color: var(--success);"></i> Your Strengths</h2>
+                            <div class="card-header" style="cursor:pointer;" onclick="toggleSection('strengths-body')">
+                                <h2><i class="fas fa-star" style="color: var(--success);"></i> Your Strengths
+                                    <i id="strengths-chevron" class="fas fa-chevron-down" style="margin-left:8px; font-size:13px; color:var(--text-secondary);"></i>
+                                </h2>
                                 <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">Topics where you score ≥ 70%</p>
                             </div>
+                            <div id="strengths-body" style="display:none;">
                             <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 8px;">
                                 ${stats.strengths.map(s => `
                                     <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: #f0fdf4; border-radius: var(--radius-sm); border-left: 3px solid var(--success);">
@@ -155,16 +158,20 @@ async function showDashboard() {
                                     </div>
                                 `).join('')}
                             </div>
+                            </div>
                         </div>
                         ` : ''}
 
                         <!-- WEAKNESSES -->
                         ${stats.weaknesses && stats.weaknesses.length > 0 ? `
                         <div class="card" style="border-top: 4px solid var(--error);">
-                            <div class="card-header">
-                                <h2><i class="fas fa-exclamation-triangle" style="color: var(--error);"></i> Areas to Improve</h2>
+                            <div class="card-header" style="cursor:pointer;" onclick="toggleSection('weaknesses-body')">
+                                <h2><i class="fas fa-exclamation-triangle" style="color: var(--error);"></i> Areas to Improve
+                                    <i id="weaknesses-chevron" class="fas fa-chevron-down" style="margin-left:8px; font-size:13px; color:var(--text-secondary);"></i>
+                                </h2>
                                 <p style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;">Topics scoring below 70% — click to study</p>
                             </div>
+                            <div id="weaknesses-body" style="display:none;">
                             <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 8px;">
                                 ${stats.weaknesses.map(w => `
                                     <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: #fff1f2; border-radius: var(--radius-sm); border-left: 3px solid var(--error); cursor: pointer;"
@@ -181,6 +188,7 @@ async function showDashboard() {
                                         </div>
                                     </div>
                                 `).join('')}
+                            </div>
                             </div>
                         </div>
                         ` : ''}
@@ -217,9 +225,12 @@ async function showDashboard() {
                             <h2><i class="fas fa-history"></i> Recent Activity</h2>
                             <div style="display: flex; gap: 12px; align-items: center;">
                                 <select id="activity-filter" onchange="filterRecentActivity(this.value)" style="padding: 6px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                                    <option value="5">Last 5</option>
-                                    <option value="10">Last 10</option>
-                                    <option value="20">Last 20</option>
+                                    <option value="count-5">Last 5</option>
+                                    <option value="count-10">Last 10</option>
+                                    <option value="count-20">Last 20</option>
+                                    <option value="days-1">Today</option>
+                                    <option value="days-3">Last 3 Days</option>
+                                    <option value="days-7">Last 7 Days</option>
                                     <option value="all">Show All</option>
                                 </select>
                             </div>
@@ -228,9 +239,7 @@ async function showDashboard() {
                             ${stats.recent_attempts.slice(0, 5).map((attempt, idx) => renderActivityItem(attempt, idx)).join('')}
                         </div>
                     </div>
-                    <script>
-                        window.recentActivityData = ${JSON.stringify(stats.recent_attempts)};
-                    </script>
+
                 ` : ''}
                 
                 <!-- CBT History (Collapsible) -->
@@ -240,9 +249,12 @@ async function showDashboard() {
                             <h2><i class="fas fa-laptop"></i> CBT Exam History (${stats.cbt_history.length})</h2>
                             <div style="display: flex; gap: 12px; align-items: center;">
                                 <select id="cbt-history-filter" onchange="filterCBTHistory(this.value)" style="padding: 6px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                                    <option value="3">Last 3</option>
-                                    <option value="5">Last 5</option>
-                                    <option value="10">Last 10</option>
+                                    <option value="count-3">Last 3</option>
+                                    <option value="count-5">Last 5</option>
+                                    <option value="count-10">Last 10</option>
+                                    <option value="days-3">Last 3 Days</option>
+                                    <option value="days-7">Last 7 Days</option>
+                                    <option value="days-30">Last 30 Days</option>
                                     <option value="all">Show All</option>
                                 </select>
                             </div>
@@ -264,11 +276,42 @@ async function showDashboard() {
                             `).join('')}
                         </div>
                     </div>
-                    <script>
-                        window.cbtHistoryData = ${JSON.stringify(stats.cbt_history)};
-                    </script>
+
                 ` : ''}
                 
+                <!-- Year Practice History -->
+                ${stats.year_practice_history && stats.year_practice_history.length > 0 ? `
+                    <div class="card mt-3">
+                        <div class="card-header" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center;" onclick="toggleSection('year-practice-body')">
+                            <h2><i class="fas fa-calendar-alt" style="color:#1D4ED8;"></i> Year Practice History (${stats.year_practice_history.length})
+                                <i id="year-practice-chevron" class="fas fa-chevron-down" style="margin-left:8px; font-size:13px; color:var(--text-secondary);"></i>
+                            </h2>
+                            <div style="display:flex; gap:12px; align-items:center;" onclick="event.stopPropagation()">
+                                <select id="year-practice-filter" onchange="filterYearPracticeHistory(this.value)" style="padding:6px 12px; border-radius:var(--radius-sm); border:1px solid var(--border-color);">
+                                    <option value="count-5">Last 5</option>
+                                    <option value="count-10">Last 10</option>
+                                    <option value="days-7">Last 7 Days</option>
+                                    <option value="days-30">Last 30 Days</option>
+                                    <option value="all">Show All</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="year-practice-body" style="display:block;">
+                            <div id="year-practice-history-container" style="max-height:400px; overflow-y:auto;">
+                                ${stats.year_practice_history.slice(0, 5).map((yp, idx) => `
+                                    <div class="yp-history-item" data-index="${idx}" style="padding:12px 16px; background:var(--bg-light); border-radius:var(--radius-md); border-left:4px solid #1D4ED8; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+                                        <div>
+                                            <strong>${yp.subject} — ${yp.year}</strong>
+                                            <div style="font-size:12px; color:var(--text-secondary);">Accuracy: ${typeof yp.accuracy === 'number' ? yp.accuracy.toFixed(1) : yp.accuracy}% &nbsp;·&nbsp; ${utils.formatDate(yp.completed_at || yp.date)}</div>
+                                        </div>
+                                        <span style="font-size:18px; font-weight:700; color:#1D4ED8;">${yp.correct_answers}/${yp.total_questions}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                ` : ''}
+
                 <!-- Registered Subjects -->
                 ${stats.profile && stats.profile.registered_subjects && stats.profile.registered_subjects.length > 0 ? `
                     <div class="card mt-3">
@@ -291,6 +334,15 @@ async function showDashboard() {
         const mainApp = document.getElementById('main-app');
         mainApp.innerHTML = createAppLayout(user, content);
         mainApp.classList.remove('hidden');
+
+        // Assign data AFTER render so filter functions can access it (script tags inside innerHTML don't execute)
+        window.recentActivityData = stats.recent_attempts || [];
+        window.cbtHistoryData = stats.cbt_history || [];
+        window.yearPracticeHistoryData = stats.year_practice_history || [];
+
+        // Start real-time activity polling (every 30 seconds)
+        if (window._activityPollTimer) clearInterval(window._activityPollTimer);
+        window._activityPollTimer = setInterval(() => refreshDashboardActivity(), 30000);
 
         hideLoading();
     } catch (error) {
@@ -324,16 +376,33 @@ function filterCBTHistory(count) {
     `).join('');
 }
 
-// Filter recent activity based on dropdown
-function filterRecentActivity(count) {
+// Filter recent activity based on dropdown (supports count-N and days-N prefixes)
+function filterRecentActivity(value) {
     const container = document.getElementById('activity-container');
     if (!container || !window.recentActivityData) return;
 
     const data = window.recentActivityData;
-    const limit = count === 'all' ? data.length : parseInt(count);
-    const items = data.slice(0, limit);
+    let items;
 
-    container.innerHTML = items.map((attempt, idx) => renderActivityItem(attempt, idx)).join('');
+    if (value === 'all') {
+        items = data;
+    } else if (value.startsWith('days-')) {
+        const days = parseInt(value.split('-')[1]);
+        const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+        items = data.filter(a => {
+            const ts = new Date(a.timestamp).getTime();
+            return !isNaN(ts) && ts >= cutoff;
+        });
+    } else if (value.startsWith('count-')) {
+        const limit = parseInt(value.split('-')[1]);
+        items = data.slice(0, limit);
+    } else {
+        items = data.slice(0, parseInt(value) || 5);
+    }
+
+    container.innerHTML = items.length === 0
+        ? '<p style="color:var(--text-secondary);padding:12px;">No activity found for this period.</p>'
+        : items.map((attempt, idx) => renderActivityItem(attempt, idx)).join('');
 }
 
 /**
@@ -380,9 +449,83 @@ function renderActivityItem(attempt, idx) {
     `;
 }
 
+// Filter year practice history
+function filterYearPracticeHistory(value) {
+    const container = document.getElementById('year-practice-history-container');
+    if (!container || !window.yearPracticeHistoryData) return;
+
+    const data = window.yearPracticeHistoryData;
+    let items;
+
+    if (value === 'all') {
+        items = data;
+    } else if (value.startsWith('days-')) {
+        const days = parseInt(value.split('-')[1]);
+        const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+        items = data.filter(yp => {
+            const ts = new Date(yp.completed_at || yp.date).getTime();
+            return !isNaN(ts) && ts >= cutoff;
+        });
+    } else if (value.startsWith('count-')) {
+        const limit = parseInt(value.split('-')[1]);
+        items = data.slice(0, limit);
+    } else {
+        items = data.slice(0, parseInt(value) || 5);
+    }
+
+    container.innerHTML = items.length === 0
+        ? '<p style="color:var(--text-secondary);padding:12px;">No records found for this period.</p>'
+        : items.map((yp, idx) => `
+        <div class="yp-history-item" data-index="${idx}" style="padding:12px 16px; background:var(--bg-light); border-radius:var(--radius-md); border-left:4px solid #1D4ED8; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <strong>${yp.subject} — ${yp.year}</strong>
+                <div style="font-size:12px; color:var(--text-secondary);">Accuracy: ${typeof yp.accuracy === 'number' ? yp.accuracy.toFixed(1) : yp.accuracy}% &nbsp;·&nbsp; ${utils.formatDate(yp.completed_at || yp.date)}</div>
+            </div>
+            <span style="font-size:18px; font-weight:700; color:#1D4ED8;">${yp.correct_answers}/${yp.total_questions}</span>
+        </div>
+    `).join('');
+}
+
+// Toggle accordion section visibility
+function toggleSection(bodyId) {
+    const body = document.getElementById(bodyId);
+    if (!body) return;
+    const isHidden = body.style.display === 'none';
+    body.style.display = isHidden ? 'block' : 'none';
+    // Rotate chevron icon
+    const chevronId = bodyId.replace('-body', '-chevron');
+    const chevron = document.getElementById(chevronId);
+    if (chevron) {
+        chevron.style.transform = isHidden ? 'rotate(180deg)' : 'rotate(0deg)';
+        chevron.style.transition = 'transform 0.2s';
+    }
+}
+
+// Real-time activity refresh (polls /dashboard/stats every 30 seconds)
+async function refreshDashboardActivity() {
+    try {
+        const stats = await api.getDashboardStats();
+        if (!stats) return;
+        window.recentActivityData = stats.recent_attempts || [];
+
+        // Re-apply the current filter selection
+        const activityFilter = document.getElementById('activity-filter');
+        const container = document.getElementById('activity-container');
+        if (container) {
+            const value = activityFilter ? activityFilter.value : 'count-5';
+            filterRecentActivity(value);
+        }
+    } catch (e) {
+        // Silently ignore network errors during background refresh
+    }
+}
+
 // Export filter functions
 window.filterCBTHistory = filterCBTHistory;
 window.filterRecentActivity = filterRecentActivity;
+window.filterYearPracticeHistory = filterYearPracticeHistory;
+window.toggleSection = toggleSection;
+window.refreshDashboardActivity = refreshDashboardActivity;
 
 function createStatCard(label, value, icon, color) {
     return `

@@ -209,11 +209,11 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 continue
             seen_keys.add(key)
             recommended_topics.append(t)
-            if len(recommended_topics) >= 6:
+            if len(recommended_topics) >= 8:
                 break
 
-        # Fallback: if less than 6, add from registered subjects that haven't been practiced
-        if len(recommended_topics) < 6 and registered_subjects:
+        # Fallback: if less than 8, add from registered subjects that haven't been practiced
+        if len(recommended_topics) < 8 and registered_subjects:
             placeholders = ','.join(['?'] * len(registered_subjects))
             cursor.execute(f"""
                 SELECT subject, topic FROM (
@@ -223,7 +223,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 ) sub
                 ORDER BY RANDOM()
                 LIMIT ?
-            """, registered_subjects + [6 - len(recommended_topics)])
+            """, registered_subjects + [8 - len(recommended_topics)])
 
             for row in cursor.fetchall():
                 key = f"{row[0]}:{row[1]}"
@@ -233,7 +233,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                         "accuracy": None, "attempts": 0, "source": "suggested"
                     })
                     seen_keys.add(key)
-                    if len(recommended_topics) >= 6:
+                    if len(recommended_topics) >= 8:
                         break
 
         # Fallback: if still empty, use department subjects
@@ -247,7 +247,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                     WHERE subject IN ({placeholders})
                 ) sub
                 ORDER BY RANDOM()
-                LIMIT 6
+                LIMIT 8
             """, dept_subjects)
 
             recommended_topics = [
@@ -364,7 +364,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             FROM exam_sessions
             WHERE user_id = ? AND status = 'completed'
             ORDER BY completed_at DESC
-            LIMIT 5
+            LIMIT 20
         """, (user_id,))
 
         cbt_history = [
@@ -377,6 +377,49 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             }
             for row in cursor.fetchall()
         ]
+
+        # ── YEAR PRACTICE SESSION HISTORY ─────────────────────────────────────
+        try:
+            # Ensure table exists before querying (avoids aborting the transaction)
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS year_practice_sessions (
+                    id SERIAL PRIMARY KEY,
+                    user_id INTEGER NOT NULL,
+                    subject TEXT NOT NULL,
+                    year INTEGER NOT NULL,
+                    total_questions INTEGER NOT NULL,
+                    correct_answers INTEGER NOT NULL,
+                    accuracy REAL NOT NULL,
+                    completed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            """)
+            cursor.execute("""
+                SELECT id, subject, year, total_questions, correct_answers, accuracy, completed_at
+                FROM year_practice_sessions
+                WHERE user_id = ?
+                ORDER BY completed_at DESC
+                LIMIT 20
+            """, (user_id,))
+            year_practice_history = [
+                {
+                    "id": row[0],
+                    "subject": row[1],
+                    "year": row[2],
+                    "total_questions": row[3],
+                    "correct_answers": row[4],
+                    "accuracy": round(row[5], 2) if row[5] else 0,
+                    "date": row[6]
+                }
+                for row in cursor.fetchall()
+            ]
+        except Exception as yp_err:
+            print(f"year_practice_history fetch warning: {yp_err}")
+            year_practice_history = []
+            # Reset aborted transaction so subsequent queries can continue
+            try:
+                conn.rollback()
+            except Exception:
+                pass
 
         # Get registered subjects
         cursor.execute("""
@@ -411,7 +454,8 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             "recommended_topics": recommended_topics,
             "recent_attempts": recent_attempts,
             "recent_topics": recent_topics,
-            "cbt_history": cbt_history
+            "cbt_history": cbt_history,
+            "year_practice_history": year_practice_history
         }
 
     except Exception as e:

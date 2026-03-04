@@ -80,96 +80,78 @@ class AnalyticsService:
         subject: Optional[str] = None
     ) -> Dict:
         """
-        Analyze user's strengths and weaknesses across topics/subjects
-        Returns top performing and struggling areas
+        Analyse strengths and weaknesses using practice_attempts directly.
+        Covers ALL practice types: guided, CBT, year practice.
+
+        Fixed thresholds (not relative):
+          - Strength : accuracy >= 70%  AND attempts >= 5
+          - Weakness : accuracy <  60%  AND attempts >= 3
         """
         conn = get_connection()
         cursor = conn.cursor()
 
-        # Get all topic performance
+        params: list = [user_id]
+        subject_clause = ""
         if subject:
-            cursor.execute("""
-                SELECT topic, accuracy, total_attempts, correct_attempts
-                FROM user_stats
-                WHERE user_id = ? AND subject = ?
-                ORDER BY accuracy DESC
-            """, (user_id, subject))
-        else:
-            cursor.execute("""
-                SELECT topic, accuracy, total_attempts, correct_attempts
-                FROM user_stats
-                WHERE user_id = ?
-                ORDER BY accuracy DESC
-            """, (user_id,))
+            subject_clause = " AND subject = ?"
+            params.append(subject)
 
-        stats = cursor.fetchall()
-        if not stats:
+        cursor.execute(f"""
+            SELECT topic, subject,
+                   COUNT(*) AS attempts,
+                   SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) AS correct
+            FROM practice_attempts
+            WHERE user_id = ?{subject_clause}
+              AND topic IS NOT NULL AND topic != ''
+            GROUP BY topic, subject
+            HAVING COUNT(*) >= 3
+            ORDER BY
+                (CAST(SUM(CASE WHEN is_correct = 1 THEN 1 ELSE 0 END) AS FLOAT)
+                 / NULLIF(COUNT(*), 0)) DESC
+        """, params)
+
+        rows = cursor.fetchall()
+        if not rows:
             return {
                 'strengths': [],
                 'weaknesses': [],
                 'average_accuracy': 0,
-                'topics_covered': 0
+                'topics_covered': 0,
+                'summary': 'Practice more questions to see your strengths and weaknesses.'
             }
 
-        # Calculate averages
-        total_accuracy = sum(row[1] for row in stats) / len(stats) if stats else 0
+        total_accuracy = sum(
+            (r[3] / r[2] * 100) for r in rows if r[2] > 0
+        ) / len(rows)
 
-        # Strengths: topics with accuracy >= (average + 10)
-        threshold_high = total_accuracy + 10
-        threshold_low = total_accuracy - 10
+        strengths: list = []
+        weaknesses: list = []
 
-        strengths = []
-        weaknesses = []
-
-        for row in stats:
-            topic, accuracy, total_attempts, correct = row
-            if total_attempts < 2:  # Need at least 2 attempts
-                continue
-
-            analysis = {
+        for topic, subj, attempts, correct in rows:
+            accuracy = round(correct / attempts * 100, 2) if attempts > 0 else 0
+            entry = {
                 'topic': topic,
-                'accuracy': round(accuracy, 2),
-                'attempts': total_attempts,
+                'subject': subj,
+                'accuracy': accuracy,
+                'attempts': attempts,
                 'correct': correct,
                 'trend': AnalyticsService._calculate_trend(user_id, topic)
             }
+            if accuracy >= 70 and attempts >= 5:
+                strengths.append(entry)
+            elif accuracy < 60:
+                weaknesses.append(entry)
 
-            if accuracy >= threshold_high:
-                strengths.append(analysis)
-            elif accuracy <= threshold_low:
-                weaknesses.append(analysis)
-
-        # If no clear strengths/weaknesses, use top 3 and bottom 3
-        if not strengths:
-            strengths = [
-                {
-                    'topic': row[0],
-                    'accuracy': round(row[1], 2),
-                    'attempts': row[2],
-                    'correct': row[3],
-                    'trend': AnalyticsService._calculate_trend(user_id, row[0])
-                }
-                for row in stats[:3]
-            ]
-
-        if not weaknesses:
-            weaknesses = [
-                {
-                    'topic': row[0],
-                    'accuracy': round(row[1], 2),
-                    'attempts': row[2],
-                    'correct': row[3],
-                    'trend': AnalyticsService._calculate_trend(user_id, row[0])
-                }
-                for row in stats[-3:] if row[1] < total_accuracy
-            ]
+        # Sorted: best first for strengths, worst first for weaknesses
+        strengths.sort(key=lambda x: x['accuracy'], reverse=True)
+        weaknesses.sort(key=lambda x: x['accuracy'])
 
         return {
-            'strengths': strengths,
-            'weaknesses': weaknesses,
+            'strengths': strengths[:8],
+            'weaknesses': weaknesses[:8],
             'average_accuracy': round(total_accuracy, 2),
-            'topics_covered': len(stats),
-            'summary': AnalyticsService._generate_summary(strengths, weaknesses, total_accuracy)
+            'topics_covered': len(rows),
+            'summary': AnalyticsService._generate_summary(strengths[:8], weaknesses[:8], total_accuracy)
         }
 
     @staticmethod

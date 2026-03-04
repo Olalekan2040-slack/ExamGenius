@@ -440,6 +440,21 @@ CREATE TABLE IF NOT EXISTS gamification_events (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Year Practice Sessions (summary record per completed year practice)
+CREATE TABLE IF NOT EXISTS year_practice_sessions (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    subject TEXT NOT NULL,
+    year INTEGER NOT NULL,
+    total_questions INTEGER NOT NULL,
+    correct_answers INTEGER NOT NULL,
+    accuracy REAL NOT NULL,
+    completed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    results_json TEXT
+);
+
+CREATE INDEX IF NOT EXISTS idx_year_practice_sessions_user ON year_practice_sessions(user_id);
+
 -- Performance indexes
 CREATE INDEX IF NOT EXISTS idx_questions_subject ON questions(subject);
 CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(subject, topic);
