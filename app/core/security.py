@@ -222,8 +222,23 @@ def invalidate_refresh_token(refresh_token: str, user_id: int):
     db = get_connection()
     cursor = db.cursor()
 
+    # Derive expiry from the token's own exp claim; fall back to 7 days.
+    try:
+        payload = jwt.decode(
+            refresh_token, SECRET_KEY, algorithms=[ALGORITHM],
+            options={"verify_exp": False}   # allow already-expired tokens
+        )
+        exp_ts = payload.get("exp")
+        expires_at = (
+            datetime.utcfromtimestamp(exp_ts).isoformat()
+            if exp_ts else
+            (datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)).isoformat()
+        )
+    except Exception:
+        expires_at = (datetime.utcnow() + timedelta(days=REFRESH_TOKEN_EXPIRE_DAYS)).isoformat()
+
     cursor.execute(
-        "INSERT INTO invalidated_tokens (user_id, token) VALUES (?, ?)",
-        (user_id, refresh_token)
+        "INSERT INTO invalidated_tokens (user_id, token, expires_at) VALUES (?, ?, ?)",
+        (user_id, refresh_token, expires_at)
     )
     db.commit()
