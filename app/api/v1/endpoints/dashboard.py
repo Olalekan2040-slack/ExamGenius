@@ -13,9 +13,9 @@ router = APIRouter(prefix="/dashboard", tags=["Dashboard"])
 
 # Department-to-subjects mapping for filtering recommendations
 DEPARTMENT_SUBJECTS = {
-    'Science': ['English Language', 'Physics', 'Chemistry', 'Biology', 'Mathematics'],
-    'Commercial': ['English Language', 'Commerce', 'Accounting', 'Economics', 'Mathematics'],
-    'Art': ['English Language', 'Government', 'Literature in English', 'Economics', 'History',
+    'Science': ['English', 'Physics', 'Chemistry', 'Biology', 'Mathematics'],
+    'Commercial': ['English', 'Commerce', 'Accounting', 'Economics', 'Mathematics'],
+    'Art': ['English', 'Government', 'Literature in English', 'Economics', 'History',
             'Geography', 'Hausa', 'Igbo', 'French', 'Music', 'Art']
 }
 
@@ -24,6 +24,11 @@ DEFAULT_TOPICS_BY_SUBJECT: dict = {
     "Mathematics": [
         "Algebra", "Quadratic Equations", "Trigonometry", "Statistics", "Calculus",
         "Indices and Logarithms", "Sets", "Geometry", "Probability", "Vectors",
+    ],
+    # Both spellings are valid — profile setup allows either
+    "English": [
+        "Comprehension", "Summary Writing", "Lexis and Structure",
+        "Essay Writing", "Oral English", "Register and Diction",
     ],
     "English Language": [
         "Comprehension", "Summary Writing", "Lexis and Structure",
