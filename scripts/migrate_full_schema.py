@@ -191,7 +191,8 @@ def main():
             correct_option_key TEXT,
             explanation TEXT,
             predicted_topics TEXT,
-            predicted_subtopics TEXT
+            predicted_subtopics TEXT,
+            passage TEXT
         )
     """, "questions")
 
@@ -280,6 +281,10 @@ def main():
         }
         for col, col_type in required_cols.items():
             add_column_if_missing(cur, conn, 'practice_attempts', col, col_type)
+
+    # Add missing columns to questions table
+    print("\n=== Patching questions table ===")
+    add_column_if_missing(cur, conn, 'questions', 'passage', 'TEXT')
 
     # ----------------------------------------------------------------
     # 4. REMAINING TABLES
