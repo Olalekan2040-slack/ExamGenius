@@ -166,10 +166,10 @@ async function showYearPracticeQuestion() {
                     </div>
                 ` : ''}
                 
-                <div class="question-text">${question.question}</div>
+                <div class="question-text">${utils.formatQuestionText(question.question, question.subject || yearPracticeState.subject)}</div>
                 
                 ${question.image_path ? `
-                    <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;" onerror="this.style.display='none'">
+                    <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 16px 0; display: block;" onerror="this.style.display='none'">
                 ` : ''}
                 
                 <div class="options-list">
@@ -177,7 +177,7 @@ async function showYearPracticeQuestion() {
                         <div class="option-item ${yearPracticeState.answers[question.question_id] === letter ? 'selected' : ''}" 
                              onclick="selectYearAnswer('${question.question_id}', '${letter}')">
                             <div class="option-letter">${letter}</div>
-                            <div>${text}</div>
+                            <div>${utils.formatQuestionText(text, question.subject || yearPracticeState.subject)}</div>
                         </div>
                     `).join('')}
                 </div>
@@ -292,8 +292,8 @@ async function showYearPracticeResults(result) {
                                     <strong>Q${idx + 1}: ${question.topic}</strong>
                                     <i class="fas fa-${isCorrect ? 'check-circle' : 'times-circle'}" style="color: ${isCorrect ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
                                 </div>
-                                <p style="margin-bottom: 12px;">${question.question}</p>
-                                ${question.image_path ? `<img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 8px 0 12px;" onerror="this.style.display='none'">` : ''}
+                                <p style="margin-bottom: 12px;">${utils.formatQuestionText(question.question, question.subject || yearPracticeState.subject)}</p>
+                                ${question.image_path ? `<img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 8px 0 12px; display: block;" onerror="this.style.display='none'">` : ''}
                                 <div>
                                     <div><strong style="color: var(--success);">Correct:</strong> ${res.correct_answer}</div>
                                     ${!isCorrect ? `<div><strong style="color: var(--error);">Your answer:</strong> ${res.user_answer || 'None'}</div>` : ''}

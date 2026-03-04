@@ -248,10 +248,13 @@ async function showCBTExam() {
                     </div>
                 ` : ''}
                 
-                <div class="question-text">${question.question}</div>
+                <div class="question-text">${utils.formatQuestionText(question.question, cbtState.subjects[cbtState.currentSubjectIndex])}</div>
                 
                 ${question.image_path ? `
-                    <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 20px 0;" onerror="this.style.display='none'">
+                    <img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" 
+                         alt="Question image" 
+                         style="max-width: 100%; border-radius: var(--radius-md); margin: 16px 0; display: block;"
+                         onerror="this.style.display='none'">
                 ` : ''}
                 
                 <div class="options-list">
@@ -259,7 +262,7 @@ async function showCBTExam() {
                         <div class="option-item ${cbtState.answers[question.question_id] === letter ? 'selected' : ''}" 
                              onclick="selectCBTAnswer('${question.question_id}', '${letter}')">
                             <div class="option-letter">${letter}</div>
-                            <div>${text}</div>
+                            <div>${utils.formatQuestionText(text, cbtState.subjects[cbtState.currentSubjectIndex])}</div>
                         </div>
                     `).join('')}
                 </div>

@@ -25,15 +25,20 @@ def sanitize_latex(text: str) -> str:
     if not text:
         return text
     
-    # Replace common LaTeX superscripts
-    text = re.sub(r'\\\(\^(\d+)\\\)', r'^\1', text)
-    text = re.sub(r'\\\(\^-(\d+)\\\)', r'^-\1', text)
-    text = re.sub(r'\\\(\^{(\d+)}\\\)', r'^\1', text)
-    text = re.sub(r'\\\(\^{-(\d+)}\\\)', r'^-\1', text)
+    # Replace common LaTeX superscripts → HTML <sup>
+    text = re.sub(r'\\\(\^(\d+)\\\)', r'<sup>\1</sup>', text)
+    text = re.sub(r'\\\(\^-(\d+)\\\)', r'<sup>-\1</sup>', text)
+    text = re.sub(r'\\\(\^{(\d+)}\\\)', r'<sup>\1</sup>', text)
+    text = re.sub(r'\\\(\^{-(\d+)}\\\)', r'<sup>-\1</sup>', text)
     
-    # Replace common LaTeX subscripts
-    text = re.sub(r'\\\(_(\d+)\\\)', r'_\1', text)
-    text = re.sub(r'\\\(_{(\d+)}\\\)', r'_\1', text)
+    # Replace common LaTeX subscripts → HTML <sub>
+    text = re.sub(r'\\\(_(\d+)\\\)', r'<sub>\1</sub>', text)
+    text = re.sub(r'\\\(_{(\d+)}\\\)', r'<sub>\1</sub>', text)
+    
+    # Convert standalone _digit notation to <sub>digit</sub> (e.g. H_2O → H<sub>2</sub>O)
+    text = re.sub(r'_(\d+)', r'<sub>\1</sub>', text)
+    # Convert standalone ^digit notation to <sup>digit</sup> (e.g. x^2 → x<sup>2</sup>)
+    text = re.sub(r'\^(-?\d+)', r'<sup>\1</sup>', text)
     
     # Handle fractions
     text = re.sub(r'\\frac\{([^}]+)\}\{([^}]+)\}', r'\1/\2', text)

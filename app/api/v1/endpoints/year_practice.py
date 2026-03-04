@@ -287,25 +287,37 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
                 "explanation": explanation
             })
 
-        # Update stats by topic
-        for topic, stats in topic_stats.items():
+        # Update stats by topic — sort by topic name to prevent deadlocks from inconsistent lock ordering
+        for topic in sorted(topic_stats.keys()):
+            stats = topic_stats[topic]
             accuracy = (stats["correct"] / stats["total"]
                         * 100) if stats["total"] > 0 else 0
 
-            cursor.execute("""
-                INSERT INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
-                ON CONFLICT(user_id, subject, topic) DO UPDATE SET
-                    total_attempts = user_stats.total_attempts + ?,
-                    correct_attempts = user_stats.correct_attempts + ?,
-                    accuracy = (CAST(user_stats.correct_attempts + ? AS REAL) / (user_stats.total_attempts + ?)) * 100,
-                    last_practiced = ?
-            """, (
-                user_id, request.subject, topic, stats["total"], stats["correct"], accuracy,
-                datetime.utcnow().isoformat(),
-                stats["total"], stats["correct"], stats["correct"], stats["total"],
-                datetime.utcnow().isoformat()
-            ))
+            # Retry up to 3 times on deadlock (PostgreSQL error code 40P01)
+            for attempt in range(3):
+                try:
+                    cursor.execute("""
+                        INSERT INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
+                        VALUES (?, ?, ?, ?, ?, ?, ?)
+                        ON CONFLICT(user_id, subject, topic) DO UPDATE SET
+                            total_attempts = user_stats.total_attempts + ?,
+                            correct_attempts = user_stats.correct_attempts + ?,
+                            accuracy = (CAST(user_stats.correct_attempts + ? AS REAL) / (user_stats.total_attempts + ?)) * 100,
+                            last_practiced = ?
+                    """, (
+                        user_id, request.subject, topic, stats["total"], stats["correct"], accuracy,
+                        datetime.utcnow().isoformat(),
+                        stats["total"], stats["correct"], stats["correct"], stats["total"],
+                        datetime.utcnow().isoformat()
+                    ))
+                    break  # success
+                except Exception as e:
+                    if "deadlock" in str(e).lower() and attempt < 2:
+                        import time
+                        time.sleep(0.1 * (attempt + 1))  # 100ms, 200ms backoff
+                        conn.rollback()
+                        continue
+                    raise  # re-raise on non-deadlock or 3rd attempt
 
         AnalyticsService.update_user_streak(cursor, user_id)
 

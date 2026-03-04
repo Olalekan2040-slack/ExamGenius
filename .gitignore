@@ -228,8 +228,8 @@ docker-compose.override.yml
 JAMB/
 JAMB copy/
 
-# Static images (generated from JAMB folder)
-static/images/
+# Static images (generated from JAMB folder) — included in repo for deployment
+# static/images/   ← un-commented to allow question images to be deployed
 static/uploads/
 
 # Syllabus markdown files (reference only) - but keep parsed JSON

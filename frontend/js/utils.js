@@ -173,6 +173,95 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
+/**
+ * Format question text with proper HTML rendering:
+ *  - English "underlined word" questions: auto-detect and underline the key word
+ *  - Chemistry questions: fix superscripts that should be subscripts in formulas
+ *  - All subjects: ensures HTML tags like <sub>,<sup>,<u>,<b>,<i> are rendered
+ *
+ * @param {string} text - Raw question or option text
+ * @param {string} subject - Subject name (e.g. "English", "Chemistry")
+ * @returns {string} HTML-safe formatted text
+ */
+function formatQuestionText(text, subject) {
+    if (!text) return '';
+
+    // ── Chemistry fix: <sup>digit(s)-without-sign</sup> → <sub>digit(s)</sub>
+    // In chemical formulas, pure-digit superscripts are atom counts (subscripts).
+    // Charges always include a sign: Fe³⁺ → Fe<sup>3+</sup>, so those are untouched.
+    if (subject && subject.toLowerCase() === 'chemistry') {
+        text = text.replace(/<sup>(\d+)<\/sup>/g, '<sub>$1</sub>');
+    }
+
+    // ── English underlined-word detection ───────────────────────────────────
+    if (subject && subject.toLowerCase() === 'english' &&
+        /underlined word/i.test(text)) {
+
+        // Typical format: "[Instruction sentence]. [Sentence with key word.]"
+        // Split on ". " to separate instruction from question sentence.
+        const dotIdx = text.indexOf('. ');
+        if (dotIdx !== -1 && dotIdx < text.length - 2) {
+            const instruction = text.substring(0, dotIdx + 1);
+            let sentence = text.substring(dotIdx + 2);
+
+            // 1st: look for a word followed by " ." (trailing space before period)
+            //      — a scraping artefact that marks the underlined word boundary
+            const trailingMatch = sentence.match(/(\b[\w'-]+\b)\s\.\s*$/);
+            if (trailingMatch) {
+                const word = trailingMatch[1];
+                // Replace last occurrence of "word ." with "<u>word</u>."
+                sentence = sentence.replace(
+                    new RegExp('(\\b' + escapeRegex(word) + '\\b)\\s\\.\\s*$'),
+                    '<u>$1</u>.'
+                );
+            } else {
+                // 2nd fallback: underline the last non-stopword in the sentence
+                const STOPWORDS = new Set([
+                    'a','an','the','of','to','in','by','for','from','at','on',
+                    'with','and','or','but','that','this','these','those',
+                    'it','its','his','her','their','our','my','your','he','she',
+                    'is','was','were','are','be','been','has','had','have',
+                    'do','did','does','will','would','could','should','may',
+                    'might','can','shall','any','some','into','out','up',
+                    'about','not','no','nor','as','if','when','while','then',
+                    'there','here','just','very','so','such','more','most'
+                ]);
+
+                // Strip punctuation, split into words
+                const words = sentence.replace(/[.!?]$/, '').split(/\s+/);
+                // Walk backwards to find last non-stopword (min 4 chars to avoid short words)
+                let targetWord = null;
+                for (let i = words.length - 1; i >= 0; i--) {
+                    const clean = words[i].replace(/[^a-zA-Z'-]/g, '');
+                    if (clean.length >= 4 && !STOPWORDS.has(clean.toLowerCase())) {
+                        targetWord = clean;
+                        break;
+                    }
+                }
+
+                if (targetWord) {
+                    // Underline the LAST occurrence of this word in the sentence
+                    const lastIdx = sentence.lastIndexOf(targetWord);
+                    if (lastIdx !== -1) {
+                        sentence = sentence.substring(0, lastIdx) +
+                            '<u>' + targetWord + '</u>' +
+                            sentence.substring(lastIdx + targetWord.length);
+                    }
+                }
+            }
+
+            text = instruction + ' ' + sentence;
+        }
+    }
+
+    return text;
+}
+
+/** Escape special regex characters in a string */
+function escapeRegex(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 // Export utilities
 window.utils = {
     showLoading,
@@ -186,5 +275,5 @@ window.utils = {
     shuffleArray,
     debounce,
     toggleMobileMenu,
-    calculateAccuracy
-};
+    calculateAccuracy,
+    formatQuestionText
