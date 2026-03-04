@@ -223,57 +223,63 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
         correct_count = 0
         total_count = len(request.answers)
 
-        topic_stats = {}  # Track accuracy by topic
+        if total_count == 0:
+            raise HTTPException(status_code=400, detail="No answers provided")
+
+        # ── Bulk-fetch all question data in 2 queries ────────────────────
+        question_ids = [a.get("question_id") for a in request.answers]
+        placeholders = ",".join(["?" for _ in question_ids])
+
+        cursor.execute(f"""
+            SELECT id, correct_option_key, question, topic, subject
+            FROM questions
+            WHERE id IN ({placeholders})
+        """, question_ids)
+        questions_map = {row[0]: row for row in cursor.fetchall()}
+
+        cursor.execute(f"""
+            SELECT question_id, option_key, option_text
+            FROM options
+            WHERE question_id IN ({placeholders})
+            ORDER BY option_key
+        """, question_ids)
+        options_map: dict = {}
+        for row in cursor.fetchall():
+            options_map.setdefault(row[0], {})[row[1]] = row[2]
+        # ─────────────────────────────────────────────────────────────────
+
+        topic_stats: dict = {}
+
+        # Build practice_attempts insert batch
+        attempt_rows = []
 
         for answer_data in request.answers:
             question_id = answer_data.get("question_id")
             user_answer = answer_data.get("user_answer")
 
-            # Get question details
-            cursor.execute("""
-                SELECT q.correct_option_key, q.question, q.topic, q.subject
-                FROM questions q
-                WHERE q.id = ?
-            """, (question_id,))
-
-            q_row = cursor.fetchone()
+            q_row = questions_map.get(question_id)
             if not q_row:
                 continue
 
-            correct_answer = q_row[0]
-            question_text = q_row[1]
-            topic = q_row[2]
-            subject = q_row[3]
+            _, correct_answer, question_text, topic, subject = q_row
             is_correct = (user_answer == correct_answer)
 
             if is_correct:
                 correct_count += 1
 
-            # Track by topic
             if topic not in topic_stats:
                 topic_stats[topic] = {"correct": 0, "total": 0}
             topic_stats[topic]["total"] += 1
             if is_correct:
                 topic_stats[topic]["correct"] += 1
 
-            # Get options
-            cursor.execute("""
-                SELECT option_key, option_text
-                FROM options
-                WHERE question_id = ?
-            """, (question_id,))
-            options = {row[0]: row[1] for row in cursor.fetchall()}
-
-            # Quick deterministic explanation to avoid slow AI calls
+            options = options_map.get(question_id, {})
             explanation = f"The correct answer is {correct_answer}: {options.get(correct_answer, '')}"
 
-            # Record attempt
-            cursor.execute("""
-                INSERT INTO practice_attempts (user_id, practice_type, subject, topic, question_id,
-                                              user_answer, correct_answer, is_correct, created_at)
-                VALUES (?, 'year', ?, ?, ?, ?, ?, ?, ?)
-            """, (user_id, subject, topic, question_id, user_answer, correct_answer,
-                  1 if is_correct else 0, datetime.utcnow().isoformat()))
+            attempt_rows.append((
+                user_id, subject, topic, question_id, user_answer, correct_answer,
+                1 if is_correct else 0, datetime.utcnow().isoformat()
+            ))
 
             results.append({
                 "question_id": question_id,
@@ -286,6 +292,14 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
                 "subject": subject,
                 "explanation": explanation
             })
+
+        # ── Bulk insert practice_attempts ─────────────────────────────────
+        cursor.executemany("""
+            INSERT INTO practice_attempts
+                (user_id, practice_type, subject, topic, question_id,
+                 user_answer, correct_answer, is_correct, created_at)
+            VALUES (?, 'year', ?, ?, ?, ?, ?, ?, ?)
+        """, attempt_rows)
 
         # Update stats by topic — sort by topic name to prevent deadlocks from inconsistent lock ordering
         for topic in sorted(topic_stats.keys()):
@@ -340,15 +354,7 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
 
         conn.commit()
 
-        overall_accuracy = (correct_count / total_count *
-                            100) if total_count > 0 else 0
-
-        # Get analytics for year practice
-        attempt_results = [{"question_id": r["question_id"], "is_correct": r["is_correct"]} for r in results]
-        topic_analysis = AnalyticsService.calculate_topic_analysis(
-            user_id, request.subject, f"Year {request.year}", attempt_results
-        )
-        overall_sw = AnalyticsService.identify_strengths_weaknesses(user_id, request.subject)
+        overall_accuracy = (correct_count / total_count * 100) if total_count > 0 else 0
 
         return {
             "success": True,
@@ -364,8 +370,8 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
                 "incorrect": total_count - correct_count,
                 "total": total_count
             },
-            "topic_analysis": topic_analysis,
-            "strengths_weaknesses": overall_sw,
+            "topic_analysis": {},
+            "strengths_weaknesses": {},
             "by_topic": {
                 topic: {
                     "correct": stats["correct"],
