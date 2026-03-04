@@ -11,7 +11,18 @@ from app.db.database import get_connection
 from app.core.security import current_user_id
 
 router = APIRouter(prefix="/profile", tags=["profile"])
-
+# All valid JAMB subjects - used for validation so sign-up works even before questions are imported
+VALID_JAMB_SUBJECTS = {
+    "Mathematics", "English", "English Language", "Use of English",
+    "Biology", "Physics", "Chemistry",
+    "Economics", "Commerce", "Accounting",
+    "Government", "History", "Geography",
+    "Literature", "Literature in English",
+    "Art", "Music", "French", "Hausa", "Igbo",
+    "CRK", "Christian Religious Knowledge",
+    "IRK", "Islamic Religious Knowledge",
+    "Agricultural Science", "Further Mathematics",
+}
 
 # Pydantic Models
 class CompleteProfileRequest(BaseModel):
@@ -112,19 +123,12 @@ async def complete_profile(request: CompleteProfileRequest, user_id: int = Depen
                 detail="Profile already completed"
             )
 
-        # Validate subjects exist in database
-        placeholders = ','.join(['?'] * len(request.subjects))
-        cursor.execute(
-            f"SELECT DISTINCT subject FROM questions WHERE subject IN ({placeholders})",
-            request.subjects
-        )
-        valid_subjects = [row[0] for row in cursor.fetchall()]
-
-        invalid = set(request.subjects) - set(valid_subjects)
+        # Validate subjects against known JAMB subject list
+        invalid = set(request.subjects) - VALID_JAMB_SUBJECTS
         if invalid:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail=f"Invalid subjects: {', '.join(invalid)}"
+                detail=f"Invalid subjects: {', '.join(invalid)}. Valid subjects: {', '.join(sorted(VALID_JAMB_SUBJECTS))}"
             )
 
         # Create or update profile
@@ -424,19 +428,12 @@ async def update_subjects(request: UpdateSubjectsRequest, user_id: int = Depends
     cursor = conn.cursor()
 
     try:
-        # Validate subjects exist
-        placeholders = ','.join(['?'] * len(request.subjects))
-        cursor.execute(
-            f"SELECT DISTINCT subject FROM questions WHERE subject IN ({placeholders})",
-            request.subjects
-        )
-        valid_subjects = [row[0] for row in cursor.fetchall()]
-
-        invalid = set(request.subjects) - set(valid_subjects)
+        # Validate subjects against known JAMB subject list
+        invalid = set(request.subjects) - VALID_JAMB_SUBJECTS
         if invalid:
             raise HTTPException(
                 status_code=400,
-                detail=f"Invalid subjects: {', '.join(invalid)}"
+                detail=f"Invalid subjects: {', '.join(invalid)}. Valid subjects: {', '.join(sorted(VALID_JAMB_SUBJECTS))}"
             )
 
         # Delete old subjects

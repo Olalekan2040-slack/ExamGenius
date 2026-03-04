@@ -20,6 +20,19 @@ router = APIRouter(prefix="/cbt", tags=["CBT Exams"])
 
 ENGLISH_VARIANTS = {"English", "English Language", "Use of English"}
 
+# All valid JAMB subjects - validate here so CBT works even before questions are imported
+VALID_JAMB_SUBJECTS = {
+    "Mathematics", "English", "English Language", "Use of English",
+    "Biology", "Physics", "Chemistry",
+    "Economics", "Commerce", "Accounting",
+    "Government", "History", "Geography",
+    "Literature", "Literature in English",
+    "Art", "Music", "French", "Hausa", "Igbo",
+    "CRK", "Christian Religious Knowledge",
+    "IRK", "Islamic Religious Knowledge",
+    "Agricultural Science", "Further Mathematics",
+}
+
 
 # Pydantic Models
 class CreateCBTSessionRequest(BaseModel):
@@ -80,18 +93,12 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
                 detail="English is mandatory for all CBT exams"
             )
 
-        placeholders = ','.join(['?'] * len(normalized_subjects))
-        cursor.execute(
-            f"SELECT DISTINCT subject FROM questions WHERE subject IN ({placeholders})",
-            normalized_subjects
-        )
-        valid_subjects = [row[0] for row in cursor.fetchall()]
-
-        invalid = set(normalized_subjects) - set(valid_subjects)
+        # Validate subjects against known JAMB subject list
+        invalid = set(normalized_subjects) - VALID_JAMB_SUBJECTS
         if invalid:
             raise HTTPException(
                 status_code=400,
-                detail=f"Invalid subjects: {', '.join(invalid)}"
+                detail=f"Invalid subjects: {', '.join(invalid)}. Valid subjects: {', '.join(sorted(VALID_JAMB_SUBJECTS))}"
             )
 
         practice_notice = None
