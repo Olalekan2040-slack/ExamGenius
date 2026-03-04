@@ -346,7 +346,7 @@ def get_related_questions(
     
     # First try exact subtopic match
     cursor.execute("""
-        SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, q.passage
+        SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, NULL as passage
         FROM questions q
         WHERE q.subject = %s AND q.topic = %s AND q.exam = 'JAMB'
         ORDER BY RANDOM()
@@ -413,7 +413,7 @@ def generate_subtopic_quiz(
     
     try:
         cursor.execute("""
-            SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, q.passage
+            SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, NULL as passage
             FROM questions q
             WHERE q.subject = %s AND q.topic = %s AND q.exam = 'JAMB'
             ORDER BY RANDOM()

@@ -231,7 +231,7 @@ async def get_cbt_questions(
 
             # All questions are from database
             cursor.execute("""
-                SELECT q.id, q.question, q.image_path, q.topic, q.passage
+                SELECT q.id, q.question, q.image_path, q.topic, NULL as passage
                 FROM questions q
                 WHERE q.id = ?
             """, (question_id,))

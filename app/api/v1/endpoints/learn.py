@@ -228,7 +228,7 @@ async def get_practice_questions_by_path(
         # Get all questions for this topic
         cursor.execute("""
             SELECT q.id, q.number, q.question, q.topic, q.image_path, q.correct_option_key,
-                   q.year, q.subject, q.passage
+                   q.year, q.subject, NULL as passage
             FROM questions q
             WHERE q.subject = ? AND q.topic = ? AND q.exam = 'JAMB'
             ORDER BY RANDOM()
@@ -304,7 +304,7 @@ async def get_topic_practice_questions(
         # Get all questions for this topic
         cursor.execute("""
             SELECT q.id, q.number, q.question, q.topic, q.image_path, q.correct_option_key,
-                   q.year, q.subject, q.passage
+                   q.year, q.subject, NULL as passage
             FROM questions q
             WHERE q.subject = ? AND q.topic = ? AND q.exam = 'JAMB'
             ORDER BY RANDOM()
@@ -315,8 +315,7 @@ async def get_topic_practice_questions(
 
         # Check if we have fewer than requested
         partial_set = total_available < limit
-        questions_to_return = all_questions[:
-                                            limit] if limit < total_available else all_questions
+        questions_to_return = all_questions[:limit] if limit < total_available else all_questions
 
         # Format questions with options
         formatted_questions = []

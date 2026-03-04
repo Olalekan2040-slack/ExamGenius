@@ -150,7 +150,7 @@ async def get_year_practice_questions(
         # Get random questions
         cursor.execute("""
             SELECT q.id, q.number, q.question, q.topic, q.image_path, q.correct_option_key,
-                   q.year, q.subject, q.passage
+                   q.year, q.subject, NULL as passage
             FROM questions q
             WHERE q.subject = ? AND q.year = ? AND q.exam = 'JAMB'
             ORDER BY RANDOM()
