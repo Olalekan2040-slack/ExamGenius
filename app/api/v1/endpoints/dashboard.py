@@ -331,6 +331,28 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 if len(recommended_topics) >= 8:
                     break
 
+        # Final fallback: user has no profile at all — show universal starter topics
+        # so the "Recommended Topics" card is never blank for brand-new students
+        if not recommended_topics:
+            _universal_defaults = [
+                ("Mathematics", "Algebra"),
+                ("English", "Comprehension"),
+                ("Physics", "Mechanics"),
+                ("Chemistry", "Atomic Structure"),
+                ("Biology", "Cell Biology"),
+                ("Economics", "Demand and Supply"),
+                ("Government", "Constitution"),
+                ("Literature in English", "Poetry Analysis"),
+            ]
+            for subj, topic in _universal_defaults:
+                key = f"{subj}:{topic}"
+                if key not in seen_keys:
+                    recommended_topics.append({
+                        "subject": subj, "topic": topic,
+                        "accuracy": None, "attempts": 0, "source": "suggested"
+                    })
+                    seen_keys.add(key)
+
         # ── Explicit STRENGTHS: topics ≥ 70% accuracy with ≥ 3 attempts ────
         cursor.execute("""
             SELECT subject, topic, accuracy, total_attempts

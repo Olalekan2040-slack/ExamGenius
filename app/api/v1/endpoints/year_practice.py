@@ -29,9 +29,17 @@ STATIC_JAMB_SUBJECTS_LIST = sorted([
     "Mathematics", "Music", "Physics",
 ])
 
+# Module-level flag: ensures the DDL runs at most once per process lifetime
+# instead of on every submit request (avoids repeated schema-lock overhead)
+_year_practice_table_ensured: bool = False
+
 
 def _ensure_year_practice_sessions_table(cursor):
-    """Create year_practice_sessions table if it doesn't exist"""
+    """Create year_practice_sessions table if it doesn't exist.
+    Uses a module-level flag so the DDL only executes once per process."""
+    global _year_practice_table_ensured
+    if _year_practice_table_ensured:
+        return
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS year_practice_sessions (
             id SERIAL PRIMARY KEY,
@@ -53,6 +61,9 @@ def _ensure_year_practice_sessions_table(cursor):
         """)
     except Exception:
         pass
+    _year_practice_table_ensured = True
+
+
 class SubmitYearPracticeRequest(BaseModel):
     subject: str
     year: int
@@ -333,8 +344,6 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
                         continue
                     raise  # re-raise on non-deadlock or 3rd attempt
 
-        AnalyticsService.update_user_streak(cursor, user_id)
-
         # ── Save year practice session record ──────────────────────────────
         try:
             _ensure_year_practice_sessions_table(cursor)
@@ -345,7 +354,8 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
             """, (
                 user_id, request.subject, request.year,
                 total_count, correct_count,
-                round((correct_count / total_count * 100) if total_count > 0 else 0, 2),
+                round((correct_count / total_count * 100)
+                      if total_count > 0 else 0, 2),
                 datetime.utcnow().isoformat(),
                 json.dumps(results)
             ))
@@ -354,7 +364,15 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
 
         conn.commit()
 
-        overall_accuracy = (correct_count / total_count * 100) if total_count > 0 else 0
+        # Update streak AFTER commit — non-critical, open its own connection
+        try:
+            AnalyticsService.update_user_streak(cursor, user_id)
+            conn.commit()
+        except Exception:
+            pass
+
+        overall_accuracy = (correct_count / total_count *
+                            100) if total_count > 0 else 0
 
         return {
             "success": True,
@@ -444,7 +462,8 @@ async def get_year_practice_history(
             conn.rollback()
         except Exception:
             pass
-        raise HTTPException(status_code=500, detail=f"Failed to fetch history: {str(e)}")
+        raise HTTPException(
+            status_code=500, detail=f"Failed to fetch history: {str(e)}")
 
 
 @router.get("/session/{session_id}/review")
@@ -468,7 +487,8 @@ async def get_year_practice_session_review(
         """, (session_id, user_id))
         row = cursor.fetchone()
         if not row:
-            raise HTTPException(status_code=404, detail="Session not found or access denied")
+            raise HTTPException(
+                status_code=404, detail="Session not found or access denied")
         stored_results = []
         if row[7]:
             try:
