@@ -123,11 +123,11 @@ function toggleMobileMenu() {
         sidebar.classList.toggle('mobile-open');
         return;
     }
-    
+
     // Handle landing page navigation
     const landingNav = document.querySelector('.landing-nav');
     const mobileOverlay = document.querySelector('.mobile-nav-overlay');
-    
+
     if (landingNav) {
         // Create overlay if it doesn't exist
         if (!mobileOverlay) {
@@ -148,7 +148,7 @@ function toggleMobileMenu() {
             `;
             document.body.appendChild(overlay);
         }
-        
+
         const overlay = document.querySelector('.mobile-nav-overlay');
         overlay.classList.toggle('show');
         document.body.classList.toggle('menu-open');
@@ -217,14 +217,14 @@ function formatQuestionText(text, subject) {
             } else {
                 // 2nd fallback: underline the last non-stopword in the sentence
                 const STOPWORDS = new Set([
-                    'a','an','the','of','to','in','by','for','from','at','on',
-                    'with','and','or','but','that','this','these','those',
-                    'it','its','his','her','their','our','my','your','he','she',
-                    'is','was','were','are','be','been','has','had','have',
-                    'do','did','does','will','would','could','should','may',
-                    'might','can','shall','any','some','into','out','up',
-                    'about','not','no','nor','as','if','when','while','then',
-                    'there','here','just','very','so','such','more','most'
+                    'a', 'an', 'the', 'of', 'to', 'in', 'by', 'for', 'from', 'at', 'on',
+                    'with', 'and', 'or', 'but', 'that', 'this', 'these', 'those',
+                    'it', 'its', 'his', 'her', 'their', 'our', 'my', 'your', 'he', 'she',
+                    'is', 'was', 'were', 'are', 'be', 'been', 'has', 'had', 'have',
+                    'do', 'did', 'does', 'will', 'would', 'could', 'should', 'may',
+                    'might', 'can', 'shall', 'any', 'some', 'into', 'out', 'up',
+                    'about', 'not', 'no', 'nor', 'as', 'if', 'when', 'while', 'then',
+                    'there', 'here', 'just', 'very', 'so', 'such', 'more', 'most'
                 ]);
 
                 // Strip punctuation, split into words
@@ -277,3 +277,4 @@ window.utils = {
     toggleMobileMenu,
     calculateAccuracy,
     formatQuestionText
+};

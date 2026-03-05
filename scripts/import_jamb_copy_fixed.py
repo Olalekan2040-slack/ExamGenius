@@ -182,7 +182,11 @@ def import_jamb_copy_questions():
 
 def tag_physics_questions():
     """Tag Physics questions with topics and subtopics using ML"""
-    from scripts.tag_physics_questions import PhysicsQuestionTagger
+    try:
+        from scripts.tag_physics_questions import PhysicsQuestionTagger  # type: ignore[import]
+    except ImportError:
+        print("scripts.tag_physics_questions not found – skipping ML tagging")
+        return
     
     try:
         conn = get_connection()

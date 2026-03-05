@@ -1930,7 +1930,7 @@ body.menu-open {
 .features-section .section-title,
 .features-section .section-subtitle,
 .features-section .section-label {
-    /* normal dark colors */
+    color: inherit;
 }
 
 .features-section>.container>.section-label,
