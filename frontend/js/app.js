@@ -1,5 +1,32 @@
 // Main Application Entry Point
 
+/**
+ * Decode a JWT payload without verifying the signature.
+ * Returns null if the token is malformed.
+ */
+function decodeJwtPayload(token) {
+    try {
+        const parts = token.split('.');
+        if (parts.length !== 3) return null;
+        // base64url → base64 → JSON
+        const padded = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+        const json = atob(padded.padEnd(padded.length + (4 - padded.length % 4) % 4, '='));
+        return JSON.parse(json);
+    } catch (_) {
+        return null;
+    }
+}
+
+/**
+ * Returns true if the JWT token is expired (or malformed / missing exp).
+ * Adds a 30-second buffer so we don't use a token that's about to expire.
+ */
+function isJwtExpired(token) {
+    const payload = decodeJwtPayload(token);
+    if (!payload || !payload.exp) return true;
+    return (payload.exp - 30) < (Date.now() / 1000);
+}
+
 // Initialize app on page load
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('ExamGenius Frontend Loading...');
@@ -30,6 +57,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Check if user is authenticated
     const refreshToken = localStorage.getItem('refresh_token');
 
+    // Skip network call entirely if the token is already expired
+    if (refreshToken && isJwtExpired(refreshToken)) {
+        localStorage.removeItem('refresh_token');
+        localStorage.removeItem('user');
+        localStorage.removeItem('last_route');
+        localStorage.removeItem('last_route_params');
+        router.navigate('landing');
+        return;
+    }
+
     if (refreshToken) {
         // Try to refresh access token
         showLoading('Restoring session...');
@@ -55,8 +92,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (!profileCompleted) {
                 router.navigate('profile-setup');
             } else if (hash && router.routes[hash]) {
-                // Navigate to appropriate screen
-                // Priority: URL hash > saved route > dashboard
                 router.navigate(hash);
             } else {
                 const savedRoute = router.getSavedRoute();

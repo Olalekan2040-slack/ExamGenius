@@ -7,5 +7,6 @@ const API_CONFIG = {
                ? 'http://127.0.0.1:8000'
                : BACKEND_URL,
     API_VERSION: '/api/v1',
-    // ... rest of config
+    // Request timeout in milliseconds — keep short so stale-token hangs don't block the UI
+    TIMEOUT: 12000,
 };
