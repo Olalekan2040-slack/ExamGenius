@@ -35,19 +35,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     const hash = window.location.hash.slice(1);
 
     // Handle email verification from link
+    // The link format is /#verify-email?token=... so the token lives
+    // inside the hash fragment, NOT in window.location.search.
     if (hash.startsWith('verify-email')) {
-        const urlParams = new URLSearchParams(window.location.search);
-        const token = urlParams.get('token');
+        const hashQuery = new URLSearchParams(hash.split('?')[1] || '');
+        const token = hashQuery.get('token');
         if (token) {
             router.navigate('verify-email', { token });
             return;
         }
     }
 
-    // Handle password reset from link
+    // Handle password reset from link (same pattern)
     if (hash.startsWith('reset-password')) {
-        const urlParams = new URLSearchParams(window.location.search);
-        const token = urlParams.get('token');
+        const hashQuery = new URLSearchParams(hash.split('?')[1] || '');
+        const token = hashQuery.get('token');
         if (token) {
             router.navigate('reset-password', { token });
             return;
