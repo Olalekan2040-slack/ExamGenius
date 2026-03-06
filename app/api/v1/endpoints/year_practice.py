@@ -3,7 +3,7 @@ Year Practice Router
 Handles past JAMB practice by year and subject with random sampling
 """
 
-from fastapi import APIRouter, HTTPException, Depends, Query, status
+from fastapi import APIRouter, BackgroundTasks, HTTPException, Depends, Query, status
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 from datetime import datetime
@@ -220,11 +220,44 @@ async def get_year_practice_questions(
         )
 
 
+def _save_session_and_streak_bg(
+    user_id: int, subject: str, year: int,
+    total_count: int, correct_count: int, accuracy: float,
+    results: list,
+) -> None:
+    """Background task: persist session record and streak after response is sent."""
+    try:
+        bg_conn = get_connection()
+        bg_cursor = bg_conn.cursor()
+        _ensure_year_practice_sessions_table(bg_cursor)
+        bg_cursor.execute("""
+            INSERT INTO year_practice_sessions
+                (user_id, subject, year, total_questions, correct_answers, accuracy, completed_at, results_json)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (user_id, subject, year, total_count, correct_count, accuracy,
+               datetime.utcnow().isoformat(), json.dumps(results)))
+        bg_conn.commit()
+    except Exception as e:
+        print(f"[BG] Session save failed: {e}")
+    try:
+        bg_conn2 = get_connection()
+        bg_cursor2 = bg_conn2.cursor()
+        AnalyticsService.update_user_streak(bg_cursor2, user_id)
+        bg_conn2.commit()
+    except Exception as e:
+        print(f"[BG] Streak update failed: {e}")
+
+
 @router.post("/submit")
-async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int = Depends(current_user_id)):
+async def submit_year_practice(
+    request: SubmitYearPracticeRequest,
+    background_tasks: BackgroundTasks,
+    user_id: int = Depends(current_user_id),
+):
     """
-    Submit year practice answers and get grading with explanations
-    Updates user stats by topic and year
+    Submit year practice answers and get grading with explanations.
+    Scores and stats are committed immediately; session logging and
+    streak update run as a background task so the response is fast.
     """
     conn = get_connection()
     cursor = conn.cursor()
@@ -312,64 +345,37 @@ async def submit_year_practice(request: SubmitYearPracticeRequest, user_id: int 
             VALUES (?, 'year', ?, ?, ?, ?, ?, ?, ?)
         """, attempt_rows)
 
-        # Update stats by topic — sort by topic name to prevent deadlocks from inconsistent lock ordering
-        for topic in sorted(topic_stats.keys()):
-            stats = topic_stats[topic]
-            accuracy = (stats["correct"] / stats["total"]
-                        * 100) if stats["total"] > 0 else 0
-
-            # Retry up to 3 times on deadlock (PostgreSQL error code 40P01)
-            for attempt in range(3):
-                try:
-                    cursor.execute("""
-                        INSERT INTO user_stats (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
-                        VALUES (?, ?, ?, ?, ?, ?, ?)
-                        ON CONFLICT(user_id, subject, topic) DO UPDATE SET
-                            total_attempts = user_stats.total_attempts + ?,
-                            correct_attempts = user_stats.correct_attempts + ?,
-                            accuracy = (CAST(user_stats.correct_attempts + ? AS REAL) / (user_stats.total_attempts + ?)) * 100,
-                            last_practiced = ?
-                    """, (
-                        user_id, request.subject, topic, stats["total"], stats["correct"], accuracy,
-                        datetime.utcnow().isoformat(),
-                        stats["total"], stats["correct"], stats["correct"], stats["total"],
-                        datetime.utcnow().isoformat()
-                    ))
-                    break  # success
-                except Exception as e:
-                    if "deadlock" in str(e).lower() and attempt < 2:
-                        import time
-                        time.sleep(0.1 * (attempt + 1))  # 100ms, 200ms backoff
-                        conn.rollback()
-                        continue
-                    raise  # re-raise on non-deadlock or 3rd attempt
-
-        # ── Save year practice session record ──────────────────────────────
-        try:
-            _ensure_year_practice_sessions_table(cursor)
-            cursor.execute("""
-                INSERT INTO year_practice_sessions
-                    (user_id, subject, year, total_questions, correct_answers, accuracy, completed_at, results_json)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-            """, (
-                user_id, request.subject, request.year,
-                total_count, correct_count,
-                round((correct_count / total_count * 100)
-                      if total_count > 0 else 0, 2),
-                datetime.utcnow().isoformat(),
-                json.dumps(results)
+        # ── Batch-upsert user_stats (one executemany call, no per-topic round trips)
+        now_iso = datetime.utcnow().isoformat()
+        stats_rows = []
+        for topic, s in topic_stats.items():
+            acc = (s["correct"] / s["total"] * 100) if s["total"] > 0 else 0
+            stats_rows.append((
+                user_id, request.subject, topic, s["total"], s["correct"], acc, now_iso,
+                s["total"], s["correct"], s["correct"], s["total"], now_iso,
             ))
-        except Exception as e:
-            print(f"Warning: Could not save year practice session: {e}")
+        if stats_rows:
+            cursor.executemany("""
+                INSERT INTO user_stats
+                    (user_id, subject, topic, total_attempts, correct_attempts, accuracy, last_practiced)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(user_id, subject, topic) DO UPDATE SET
+                    total_attempts   = user_stats.total_attempts + ?,
+                    correct_attempts = user_stats.correct_attempts + ?,
+                    accuracy = (CAST(user_stats.correct_attempts + ? AS REAL) /
+                                (user_stats.total_attempts + ?)) * 100,
+                    last_practiced   = ?
+            """, stats_rows)
 
         conn.commit()
 
-        # Update streak AFTER commit — non-critical, open its own connection
-        try:
-            AnalyticsService.update_user_streak(cursor, user_id)
-            conn.commit()
-        except Exception:
-            pass
+        # ── Non-critical work runs in background after response is sent ────
+        overall_acc = round((correct_count / total_count * 100) if total_count > 0 else 0, 2)
+        background_tasks.add_task(
+            _save_session_and_streak_bg,
+            user_id, request.subject, request.year,
+            total_count, correct_count, overall_acc, results,
+        )
 
         overall_accuracy = (correct_count / total_count *
                             100) if total_count > 0 else 0

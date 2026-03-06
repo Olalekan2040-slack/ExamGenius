@@ -309,11 +309,11 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                 continue
             seen_keys.add(key)
             recommended_topics.append(t)
-            if len(recommended_topics) >= 8:
+            if len(recommended_topics) >= 3:
                 break
 
-        # Fallback: if less than 8, add from registered subjects that haven't been practiced
-        if len(recommended_topics) < 8 and registered_subjects:
+        # Fallback: if less than 3, add from registered subjects that haven't been practiced
+        if len(recommended_topics) < 3 and registered_subjects:
             for subj in registered_subjects:
                 default_topics = DEFAULT_TOPICS_BY_SUBJECT.get(subj, [])
                 for topic in default_topics:
@@ -324,9 +324,9 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                             "accuracy": None, "attempts": 0, "source": "suggested"
                         })
                         seen_keys.add(key)
-                        if len(recommended_topics) >= 8:
+                        if len(recommended_topics) >= 3:
                             break
-                if len(recommended_topics) >= 8:
+                if len(recommended_topics) >= 3:
                     break
 
         # Fallback: if still empty, use department subjects
@@ -342,23 +342,17 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                             "accuracy": None, "attempts": 0, "source": "suggested"
                         })
                         seen_keys.add(key)
-                        if len(recommended_topics) >= 8:
+                        if len(recommended_topics) >= 3:
                             break
-                if len(recommended_topics) >= 8:
+                if len(recommended_topics) >= 3:
                     break
 
-        # Final fallback: user has no profile at all — show universal starter topics
-        # so the "Recommended Topics" card is never blank for brand-new students
+        # Final fallback: user has no profile — show 3 universal starter topics
         if not recommended_topics:
             _universal_defaults = [
                 ("Mathematics", "Algebra"),
                 ("English", "Comprehension"),
                 ("Physics", "Mechanics"),
-                ("Chemistry", "Atomic Structure"),
-                ("Biology", "Cell Biology"),
-                ("Economics", "Demand and Supply"),
-                ("Government", "Constitution"),
-                ("Literature in English", "Poetry Analysis"),
             ]
             for subj, topic in _universal_defaults:
                 key = f"{subj}:{topic}"
