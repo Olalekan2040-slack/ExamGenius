@@ -146,7 +146,7 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
 
         # Get streak info
         cursor.execute("""
-            SELECT current_streak, longest_streak, total_active_days, last_activity_date
+            SELECT current_streak, longest_streak, last_activity_date
             FROM user_streaks
             WHERE user_id = ?
         """, (user_id,))
@@ -154,8 +154,24 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
         streak_row = cursor.fetchone()
         current_streak = streak_row[0] if streak_row else 0
         longest_streak = streak_row[1] if streak_row else 0
-        total_active_days = streak_row[2] if streak_row else 0
-        last_activity = streak_row[3] if streak_row else None
+        last_activity = streak_row[2] if streak_row else None
+
+        # Compute accurate active days directly from practice data.
+        # The counter in user_streaks can drift if update_user_streak is
+        # skipped or fails, so we count distinct calendar dates instead.
+        cursor.execute("""
+            SELECT COUNT(DISTINCT active_date) FROM (
+                SELECT DATE(created_at) AS active_date
+                FROM practice_attempts
+                WHERE user_id = ?
+                UNION
+                SELECT DATE(completed_at) AS active_date
+                FROM learning_progress
+                WHERE user_id = ? AND completed_at IS NOT NULL
+            ) _days
+        """, (user_id, user_id))
+        active_days_row = cursor.fetchone()
+        total_active_days = active_days_row[0] if active_days_row and active_days_row[0] else 0
 
         # Get user's department and registered subjects
         cursor.execute("""

@@ -950,6 +950,8 @@ body.menu-open {
 
     .main-content {
         margin-left: 0;
+        /* Prevent any child from causing horizontal scroll */
+        overflow-x: hidden;
     }
 
     .top-bar {
@@ -962,13 +964,31 @@ body.menu-open {
         background: var(--white);
     }
 
+    /* Tighter padding on small screens so content doesn't get squeezed */
     .content-area {
-        padding-top: 72px;
+        padding: 16px 12px 24px;
+    }
+
+    /* Collapse 2-column dashboard rows to single column */
+    .level-streak-row,
+    .sw-row {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Recommended topics: single column on narrow screens */
+    .recommended-topics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Stats grid: 2 columns on mobile instead of auto-fit */
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
     }
 
     .toast-container {
-        left: 20px;
-        right: 20px;
+        left: 12px;
+        right: 12px;
     }
 
     .toast {
