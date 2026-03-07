@@ -333,3 +333,174 @@ def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, 
         print(f"[ERROR] Error sending password reset email: {e}")
         print(f"[FALLBACK] Password reset link for {email}: {reset_link}")
         return False, reset_link
+
+
+def send_role_change_email(email: str, name: str, old_role: str, new_role: str) -> bool:
+    """Notify a user that their account role has been changed by an admin."""
+    role_labels = {
+        "student":   ("🎓 Student",   "#3B82F6"),
+        "moderator": ("🛡️ Moderator", "#8B5CF6"),
+        "admin":     ("⚙️ Admin",     "#EF4444"),
+    }
+    old_label, _ = role_labels.get(old_role, (old_role.capitalize(), "#64748b"))
+    new_label, new_color = role_labels.get(new_role, (new_role.capitalize(), "#64748b"))
+    first_name = name.split()[0] if name else "there"
+
+    if DEV_MODE:
+        print(f"\nDEV MODE: Role change email to {email}: {old_role} → {new_role}")
+        return True
+
+    if not SENDER_EMAIL or not SENDER_PASSWORD:
+        print("[WARN] SMTP credentials missing — role change email skipped")
+        return False
+
+    subject = f"Your ExamGenius account role has been updated"
+    html_body = f"""<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/></head>
+<body style="margin:0;padding:0;background:#f5f7fb;font-family:'Segoe UI',Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fb;padding:40px 16px;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);">
+        <tr>
+          <td style="background:linear-gradient(135deg,#1a1a2e,#0f3460);padding:40px 48px;text-align:center;">
+            <div style="display:inline-block;background:linear-gradient(135deg,#FCD34D,#F59E0B);border-radius:14px;padding:10px 18px;margin-bottom:16px;">
+              <span style="font-size:22px;font-weight:900;color:#1a1a2e;">ExamGenius</span>
+            </div>
+            <h1 style="margin:0;color:#fff;font-size:22px;font-weight:700;">Account Role Updated</h1>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:36px 48px;">
+            <p style="margin:0 0 16px;font-size:16px;color:#1e293b;">Hi <strong>{first_name}</strong> 👋</p>
+            <p style="margin:0 0 24px;font-size:15px;color:#475569;line-height:1.7;">
+              Your <strong>ExamGenius</strong> account role has been updated by an administrator.
+            </p>
+            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:28px;">
+              <tr>
+                <td style="background:#f8fafc;border-radius:10px;padding:20px;text-align:center;">
+                  <p style="margin:0 0 10px;font-size:13px;color:#64748b;text-transform:uppercase;letter-spacing:1px;">Role Change</p>
+                  <div style="display:inline-flex;align-items:center;gap:12px;font-size:18px;font-weight:700;">
+                    <span style="color:#94a3b8;">{old_label}</span>
+                    <span style="color:#64748b;font-size:20px;">→</span>
+                    <span style="color:{new_color};">{new_label}</span>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <p style="margin:0 0 8px;font-size:14px;color:#64748b;line-height:1.6;">
+              If you believe this is a mistake, please contact support or log in to verify your account status.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background:#f8fafc;border-top:1px solid #e2e8f0;padding:20px 48px;text-align:center;">
+            <p style="margin:0;font-size:12px;color:#94a3b8;">© {datetime.utcnow().year} ExamGenius · This email was sent to <strong>{email}</strong></p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
+
+    try:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"] = SENDER_EMAIL
+        msg["To"] = email
+        msg.attach(MIMEText(html_body, "html"))
+        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=10) as server:
+            server.starttls()
+            server.login(SENDER_EMAIL, SENDER_PASSWORD)
+            server.send_message(msg)
+        print(f"[OK] Role change email sent to {email}")
+        return True
+    except Exception as e:
+        print(f"[ERROR] Role change email failed for {email}: {e}")
+        return False
+
+
+def send_ban_notification_email(email: str, name: str, banned: bool, reason: str = None) -> bool:
+    """Notify a user that their account has been banned or unbanned."""
+    first_name = name.split()[0] if name else "there"
+    action_word = "Suspended" if banned else "Reinstated"
+    action_color = "#EF4444" if banned else "#10B981"
+    icon = "🚫" if banned else "✅"
+
+    if DEV_MODE:
+        print(f"\nDEV MODE: Ban notification to {email}: banned={banned}, reason={reason}")
+        return True
+
+    if not SENDER_EMAIL or not SENDER_PASSWORD:
+        print("[WARN] SMTP credentials missing — ban notification email skipped")
+        return False
+
+    subject = f"Your ExamGenius account has been {action_word.lower()}"
+    reason_block = f"""
+            <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:20px;">
+              <tr>
+                <td style="background:#fef2f2;border:1px solid #fecaca;border-left:4px solid #ef4444;border-radius:8px;padding:14px 18px;">
+                  <p style="margin:0;font-size:13px;color:#991b1b;"><strong>Reason:</strong> {reason}</p>
+                </td>
+              </tr>
+            </table>""" if banned and reason else ""
+
+    reinstate_note = """<p style="margin:0 0 16px;font-size:14px;color:#10B981;font-weight:600;">
+              🎉 Your account has been reinstated. You can now log in and continue using ExamGenius.
+            </p>""" if not banned else ""
+
+    html_body = f"""<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/></head>
+<body style="margin:0;padding:0;background:#f5f7fb;font-family:'Segoe UI',Arial,sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fb;padding:40px 16px;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,0.08);">
+        <tr>
+          <td style="background:linear-gradient(135deg,#1a1a2e,#0f3460);padding:40px 48px;text-align:center;">
+            <div style="display:inline-block;background:linear-gradient(135deg,#FCD34D,#F59E0B);border-radius:14px;padding:10px 18px;margin-bottom:16px;">
+              <span style="font-size:22px;font-weight:900;color:#1a1a2e;">ExamGenius</span>
+            </div>
+            <h1 style="margin:0;color:#fff;font-size:22px;font-weight:700;">{icon} Account {action_word}</h1>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:36px 48px;">
+            <p style="margin:0 0 16px;font-size:16px;color:#1e293b;">Hi <strong>{first_name}</strong>,</p>
+            {reinstate_note}
+            <p style="margin:0 0 20px;font-size:15px;color:#475569;line-height:1.7;">
+              {'Your <strong>ExamGenius</strong> account has been <strong style="color:' + action_color + ';">temporarily suspended</strong> by an administrator.' if banned else 'Good news — your <strong>ExamGenius</strong> account has been <strong style="color:' + action_color + ';">reinstated</strong>.'}
+            </p>
+            {reason_block}
+            <p style="margin:0;font-size:13px;color:#64748b;">
+              If you have questions, please contact our support team by replying to this email.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background:#f8fafc;border-top:1px solid #e2e8f0;padding:20px 48px;text-align:center;">
+            <p style="margin:0;font-size:12px;color:#94a3b8;">© {datetime.utcnow().year} ExamGenius · This email was sent to <strong>{email}</strong></p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>"""
+
+    try:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"] = SENDER_EMAIL
+        msg["To"] = email
+        msg.attach(MIMEText(html_body, "html"))
+        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=10) as server:
+            server.starttls()
+            server.login(SENDER_EMAIL, SENDER_PASSWORD)
+            server.send_message(msg)
+        print(f"[OK] Ban notification email sent to {email}")
+        return True
+    except Exception as e:
+        print(f"[ERROR] Ban notification email failed for {email}: {e}")
+        return False

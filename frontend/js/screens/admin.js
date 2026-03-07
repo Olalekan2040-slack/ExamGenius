@@ -110,6 +110,7 @@ class AdminDashboard {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
             const stats = await response.json();
+            if (!response.ok) throw new Error(stats.detail || `Server error ${response.status}`);
 
             return `
                 <div class="admin-dashboard-content">
@@ -474,6 +475,7 @@ class AdminDashboard {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
             const data = await resp.json();
+            if (!resp.ok) throw new Error(data.detail || `Server error ${resp.status}`);
             const users = data.users || [];
 
             mainElement.innerHTML = `
@@ -614,6 +616,7 @@ class AdminDashboard {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
             const s = await resp.json();
+            if (!resp.ok) throw new Error(s.detail || `Server error ${resp.status}`);
 
             const dailyActHTML = (s.daily_active_14d || []).map(d =>
                 `<tr><td>${d.date}</td><td>${d.active_users}</td></tr>`

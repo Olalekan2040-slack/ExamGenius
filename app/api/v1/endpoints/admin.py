@@ -2,7 +2,7 @@
 Admin Content Management API Endpoints
 Handles question management, learning materials, and content verification
 """
-from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File, Query
+from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, status, UploadFile, File, Query
 from typing import Optional
 import json
 import csv
@@ -10,6 +10,7 @@ import io
 from datetime import datetime
 
 from app.core.security import current_user_id
+from app.services.ai.email_service import send_role_change_email, send_ban_notification_email
 from app.schemas.admin import (
     QuestionCreate, QuestionUpdate, QuestionResponse,
     LearningVideoCreate, LearningNoteCreate,
@@ -545,12 +546,13 @@ async def list_users(
                u.banned_reason,
                u.is_verified,
                u.created_at,
-               COALESCE(us.total_points, 0) AS points,
-               COALESCE(us.questions_answered, 0) AS questions_answered,
-               (SELECT COUNT(DISTINCT date_trunc('day', attempted_at))
-                FROM practice_attempts WHERE user_id = u.id) AS active_days
+               (SELECT COALESCE(SUM(ge.points), 0)
+                FROM gamification_events ge WHERE ge.user_id = u.id) AS points,
+               (SELECT COALESCE(SUM(us.total_attempts), 0)
+                FROM user_stats us WHERE us.user_id = u.id) AS questions_answered,
+               (SELECT COUNT(DISTINCT date_trunc('day', pa.attempted_at))
+                FROM practice_attempts pa WHERE pa.user_id = u.id) AS active_days
         FROM users u
-        LEFT JOIN user_stats us ON us.user_id = u.id
         {where}
         ORDER BY u.created_at DESC
         LIMIT ? OFFSET ?
@@ -606,6 +608,12 @@ async def update_user_role(
     cur.execute("UPDATE users SET role = ? WHERE id = ?", (new_role, user_id))
     db.commit()
 
+    # Send notification email in background
+    try:
+        send_role_change_email(user[2], user[1], old_role, new_role)
+    except Exception as e:
+        print(f"[WARN] Role change email failed: {e}")
+
     return {
         "success": True,
         "user_id": user_id,
@@ -649,6 +657,13 @@ async def toggle_ban_user(
     db.commit()
 
     action = "banned" if banned else "unbanned"
+
+    # Send notification email in background
+    try:
+        send_ban_notification_email(user[2], user[1], banned, reason)
+    except Exception as e:
+        print(f"[WARN] Ban notification email failed: {e}")
+
     return {
         "success": True,
         "user_id": user_id,
@@ -699,10 +714,10 @@ async def get_platform_stats(
     # User counts
     stats['total_users'] = db.execute("SELECT COUNT(*) FROM users").fetchone()[0]
     stats['verified_users'] = db.execute(
-        "SELECT COUNT(*) FROM users WHERE is_verified = 1"
+        "SELECT COUNT(*) FROM users WHERE is_verified = 1 OR is_verified = true"
     ).fetchone()[0]
     stats['banned_users'] = db.execute(
-        "SELECT COUNT(*) FROM users WHERE is_banned = 1"
+        "SELECT COUNT(*) FROM users WHERE is_banned = 1 OR is_banned = true"
     ).fetchone()[0]
     stats['admin_count'] = db.execute(
         "SELECT COUNT(*) FROM users WHERE role = 'admin'"
