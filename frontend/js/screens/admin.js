@@ -107,7 +107,7 @@ class AdminDashboard {
     async renderDashboard() {
         try {
             const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/stats/content`, {
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const stats = await response.json();
             if (!response.ok) throw new Error(stats.detail || `Server error ${response.status}`);
@@ -472,7 +472,7 @@ class AdminDashboard {
             if (roleFilter) url += `&role=${encodeURIComponent(roleFilter)}`;
 
             const resp = await fetch(url, {
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const data = await resp.json();
             if (!resp.ok) throw new Error(data.detail || `Server error ${resp.status}`);
@@ -552,7 +552,7 @@ class AdminDashboard {
         try {
             const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/users/${userId}/role?new_role=${newRole}`, {
                 method: 'PATCH',
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const data = await resp.json();
             if (resp.ok) {
@@ -575,7 +575,7 @@ class AdminDashboard {
             if (reason) url += `&reason=${encodeURIComponent(reason)}`;
             const resp = await fetch(url, {
                 method: 'PATCH',
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const data = await resp.json();
             if (resp.ok) {
@@ -595,7 +595,7 @@ class AdminDashboard {
         try {
             const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/users/${userId}`, {
                 method: 'DELETE',
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const data = await resp.json();
             if (resp.ok) {
@@ -613,7 +613,7 @@ class AdminDashboard {
         const mainElement = document.getElementById('admin-main');
         try {
             const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/stats/platform`, {
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const s = await resp.json();
             if (!resp.ok) throw new Error(s.detail || `Server error ${resp.status}`);
@@ -723,7 +723,7 @@ class AdminDashboard {
     async showPendingContent(contentType) {
         try {
             const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/pending-verification?content_type=${contentType}`, {
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             const content = await response.json();
 
@@ -771,7 +771,7 @@ class AdminDashboard {
         try {
             const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/verify/${contentType}/${contentId}`, {
                 method: 'POST',
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
             });
             
             if (response.ok) {
@@ -792,7 +792,7 @@ class AdminDashboard {
         try {
             const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/reject/${contentType}/${contentId}`, {
                 method: 'POST',
-                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` },
+                headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` },
                 body: JSON.stringify({ reason })
             });
             
