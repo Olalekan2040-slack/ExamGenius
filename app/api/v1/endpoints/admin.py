@@ -19,7 +19,7 @@ from app.schemas.admin import (
 )
 from app.db.database import get_db
 
-router = APIRouter(prefix="/api/v1/admin", tags=["admin"])
+router = APIRouter(prefix="/admin", tags=["admin"])
 
 # Helper: Check admin role using DB + current user id
 def require_admin(
