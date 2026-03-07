@@ -106,7 +106,7 @@ class AdminDashboard {
 
     async renderDashboard() {
         try {
-            const response = await fetch(`${API_BASE}/api/v1/admin/stats/content`, {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/stats/content`, {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
             const stats = await response.json();
@@ -466,7 +466,7 @@ class AdminDashboard {
     async renderUsersTab(searchQuery = '', roleFilter = '') {
         const mainElement = document.getElementById('admin-main');
         try {
-            let url = `${API_BASE}/api/v1/admin/users?limit=50`;
+            let url = `${API_CONFIG.BASE_URL}/api/v1/admin/users?limit=50`;
             if (searchQuery) url += `&search=${encodeURIComponent(searchQuery)}`;
             if (roleFilter) url += `&role=${encodeURIComponent(roleFilter)}`;
 
@@ -548,7 +548,7 @@ class AdminDashboard {
     async changeRole(userId, newRole) {
         if (!confirm(`Change user #${userId} role to '${newRole}'?`)) return;
         try {
-            const resp = await fetch(`${API_BASE}/api/v1/admin/users/${userId}/role?new_role=${newRole}`, {
+            const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/users/${userId}/role?new_role=${newRole}`, {
                 method: 'PATCH',
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
@@ -569,7 +569,7 @@ class AdminDashboard {
         const reason = banned ? (prompt('Ban reason (optional):') || '') : null;
         if (banned && reason === null) return; // cancelled
         try {
-            let url = `${API_BASE}/api/v1/admin/users/${userId}/ban?banned=${banned}`;
+            let url = `${API_CONFIG.BASE_URL}/api/v1/admin/users/${userId}/ban?banned=${banned}`;
             if (reason) url += `&reason=${encodeURIComponent(reason)}`;
             const resp = await fetch(url, {
                 method: 'PATCH',
@@ -591,7 +591,7 @@ class AdminDashboard {
         if (!confirm(`⚠️ PERMANENTLY delete user "${name}" (ID: ${userId})? This cannot be undone.`)) return;
         if (!confirm('Are you absolutely sure? All their data will be deleted.')) return;
         try {
-            const resp = await fetch(`${API_BASE}/api/v1/admin/users/${userId}`, {
+            const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/users/${userId}`, {
                 method: 'DELETE',
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
@@ -610,7 +610,7 @@ class AdminDashboard {
     async renderAnalyticsTab() {
         const mainElement = document.getElementById('admin-main');
         try {
-            const resp = await fetch(`${API_BASE}/api/v1/admin/stats/platform`, {
+            const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/stats/platform`, {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
             const s = await resp.json();
@@ -719,7 +719,7 @@ class AdminDashboard {
 
     async showPendingContent(contentType) {
         try {
-            const response = await fetch(`${API_BASE}/api/v1/admin/pending-verification?content_type=${contentType}`, {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/pending-verification?content_type=${contentType}`, {
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
             const content = await response.json();
@@ -766,7 +766,7 @@ class AdminDashboard {
 
     async approveContent(contentType, contentId) {
         try {
-            const response = await fetch(`${API_BASE}/api/v1/admin/verify/${contentType}/${contentId}`, {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/verify/${contentType}/${contentId}`, {
                 method: 'POST',
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
             });
@@ -787,7 +787,7 @@ class AdminDashboard {
         if (!reason) return;
 
         try {
-            const response = await fetch(`${API_BASE}/api/v1/admin/reject/${contentType}/${contentId}`, {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/reject/${contentType}/${contentId}`, {
                 method: 'POST',
                 headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` },
                 body: JSON.stringify({ reason })
