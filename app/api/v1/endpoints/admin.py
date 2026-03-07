@@ -542,7 +542,7 @@ async def list_users(
 
     users = db.execute(f"""
         SELECT u.id, u.name, u.email, u.role,
-               COALESCE(u.is_banned, 0) AS is_banned,
+               COALESCE(u.is_banned, false) AS is_banned,
                u.banned_reason,
                u.is_verified,
                u.created_at,
@@ -550,7 +550,7 @@ async def list_users(
                 FROM gamification_events ge WHERE ge.user_id = u.id) AS points,
                (SELECT COALESCE(SUM(us.total_attempts), 0)
                 FROM user_stats us WHERE us.user_id = u.id) AS questions_answered,
-               (SELECT COUNT(DISTINCT date_trunc('day', pa.attempted_at))
+               (SELECT COUNT(DISTINCT date_trunc('day', pa.created_at))
                 FROM practice_attempts pa WHERE pa.user_id = u.id) AS active_days
         FROM users u
         {where}
