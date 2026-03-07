@@ -219,7 +219,7 @@ async def login(request: LoginRequest):
 
     # Find user by email
     cursor.execute(
-        "SELECT id, name, password_hash, is_verified FROM users WHERE email = ?",
+        "SELECT id, name, password_hash, is_verified, role, is_banned, banned_reason FROM users WHERE email = ?",
         (request.email,)
     )
     user = cursor.fetchone()
@@ -236,6 +236,14 @@ async def login(request: LoginRequest):
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Email not verified. Please check your inbox."
+        )
+
+    # Check if user is banned
+    if user["is_banned"]:
+        reason = user["banned_reason"] or "Contact support for more information."
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail=f"Your account has been suspended. {reason}"
         )
 
     # Create tokens
@@ -258,7 +266,8 @@ async def login(request: LoginRequest):
         "user": {
             "id": user["id"],
             "name": user["name"],
-            "email": request.email
+            "email": request.email,
+            "role": user["role"] if user["role"] else "student"
         }
     }
 

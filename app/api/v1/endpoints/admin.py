@@ -510,3 +510,277 @@ async def get_content_stats(
         stats['by_subject'][subject_name] = count
     
     return stats
+
+
+# ============================================================================
+# USER MANAGEMENT (SUPERUSER)
+# ============================================================================
+
+@router.get("/users")
+async def list_users(
+    db = Depends(get_db),
+    admin: dict = Depends(require_admin),
+    page: int = Query(1, ge=1),
+    limit: int = Query(50, ge=1, le=200),
+    search: Optional[str] = Query(None),
+    role: Optional[str] = Query(None),
+):
+    """List all users with stats (admin only)"""
+    offset = (page - 1) * limit
+    conditions = []
+    params = []
+
+    if search:
+        conditions.append("(u.name ILIKE ? OR u.email ILIKE ?)")
+        params += [f"%{search}%", f"%{search}%"]
+    if role:
+        conditions.append("u.role = ?")
+        params.append(role)
+
+    where = ("WHERE " + " AND ".join(conditions)) if conditions else ""
+
+    users = db.execute(f"""
+        SELECT u.id, u.name, u.email, u.role,
+               COALESCE(u.is_banned, 0) AS is_banned,
+               u.banned_reason,
+               u.is_verified,
+               u.created_at,
+               COALESCE(us.total_points, 0) AS points,
+               COALESCE(us.questions_answered, 0) AS questions_answered,
+               (SELECT COUNT(DISTINCT date_trunc('day', attempted_at))
+                FROM practice_attempts WHERE user_id = u.id) AS active_days
+        FROM users u
+        LEFT JOIN user_stats us ON us.user_id = u.id
+        {where}
+        ORDER BY u.created_at DESC
+        LIMIT ? OFFSET ?
+    """, params + [limit, offset]).fetchall()
+
+    total = db.execute(f"""
+        SELECT COUNT(*) FROM users u {where}
+    """, params).fetchone()[0]
+
+    return {
+        "users": [
+            {
+                "id": row[0],
+                "name": row[1],
+                "email": row[2],
+                "role": row[3] or "student",
+                "is_banned": bool(row[4]),
+                "banned_reason": row[5],
+                "is_verified": bool(row[6]),
+                "created_at": str(row[7]),
+                "points": row[8],
+                "questions_answered": row[9],
+                "active_days": row[10],
+            }
+            for row in users
+        ],
+        "total": total,
+        "page": page,
+        "limit": limit,
+        "pages": (total + limit - 1) // limit
+    }
+
+
+@router.patch("/users/{user_id}/role")
+async def update_user_role(
+    user_id: int,
+    db = Depends(get_db),
+    admin: dict = Depends(require_admin),
+    new_role: str = Query(..., regex="^(student|moderator|admin)$")
+):
+    """Change a user's role (admin only)"""
+    # Cannot demote yourself
+    if user_id == admin["id"] and new_role != "admin":
+        raise HTTPException(status_code=400, detail="Cannot change your own admin role")
+
+    cur = db.cursor()
+    cur.execute("SELECT id, name, email, role FROM users WHERE id = ?", (user_id,))
+    user = cur.fetchone()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    old_role = user[3] or "student"
+    cur.execute("UPDATE users SET role = ? WHERE id = ?", (new_role, user_id))
+    db.commit()
+
+    return {
+        "success": True,
+        "user_id": user_id,
+        "name": user[1],
+        "email": user[2],
+        "old_role": old_role,
+        "new_role": new_role,
+        "message": f"Role updated from '{old_role}' to '{new_role}'"
+    }
+
+
+@router.patch("/users/{user_id}/ban")
+async def toggle_ban_user(
+    user_id: int,
+    db = Depends(get_db),
+    admin: dict = Depends(require_admin),
+    banned: bool = Query(...),
+    reason: Optional[str] = Query(None)
+):
+    """Ban or unban a user (admin only)"""
+    if user_id == admin["id"]:
+        raise HTTPException(status_code=400, detail="Cannot ban yourself")
+
+    cur = db.cursor()
+    cur.execute("SELECT id, name, email, role FROM users WHERE id = ?", (user_id,))
+    user = cur.fetchone()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    if user[3] == "admin":
+        raise HTTPException(status_code=403, detail="Cannot ban another admin")
+
+    ban_val = 1 if banned else 0
+    cur.execute(
+        "UPDATE users SET is_banned = ?, banned_reason = ? WHERE id = ?",
+        (ban_val, reason if banned else None, user_id)
+    )
+    # Invalidate refresh tokens on ban
+    if banned:
+        cur.execute("UPDATE users SET refresh_token = NULL WHERE id = ?", (user_id,))
+    db.commit()
+
+    action = "banned" if banned else "unbanned"
+    return {
+        "success": True,
+        "user_id": user_id,
+        "name": user[1],
+        "email": user[2],
+        "is_banned": banned,
+        "reason": reason,
+        "message": f"User {action} successfully"
+    }
+
+
+@router.delete("/users/{user_id}")
+async def delete_user(
+    user_id: int,
+    db = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Permanently delete a user account (admin only)"""
+    if user_id == admin["id"]:
+        raise HTTPException(status_code=400, detail="Cannot delete your own account")
+
+    cur = db.cursor()
+    cur.execute("SELECT id, name, email, role FROM users WHERE id = ?", (user_id,))
+    user = cur.fetchone()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    if user[3] == "admin":
+        raise HTTPException(status_code=403, detail="Cannot delete an admin account")
+
+    cur.execute("DELETE FROM users WHERE id = ?", (user_id,))
+    db.commit()
+
+    return {
+        "success": True,
+        "message": f"User '{user[1]}' ({user[2]}) deleted permanently"
+    }
+
+
+@router.get("/stats/platform")
+async def get_platform_stats(
+    db = Depends(get_db),
+    admin: dict = Depends(require_admin)
+):
+    """Get platform-wide statistics (admin only)"""
+    stats = {}
+
+    # User counts
+    stats['total_users'] = db.execute("SELECT COUNT(*) FROM users").fetchone()[0]
+    stats['verified_users'] = db.execute(
+        "SELECT COUNT(*) FROM users WHERE is_verified = 1"
+    ).fetchone()[0]
+    stats['banned_users'] = db.execute(
+        "SELECT COUNT(*) FROM users WHERE is_banned = 1"
+    ).fetchone()[0]
+    stats['admin_count'] = db.execute(
+        "SELECT COUNT(*) FROM users WHERE role = 'admin'"
+    ).fetchone()[0]
+
+    # New users over last 7 days
+    stats['new_users_7d'] = db.execute("""
+        SELECT COUNT(*) FROM users
+        WHERE created_at >= NOW() - INTERVAL '7 days'
+    """).fetchone()[0]
+
+    # Active users (last 7 days = practiced or learned)
+    stats['active_users_7d'] = db.execute("""
+        SELECT COUNT(DISTINCT user_id)
+        FROM (
+            SELECT user_id FROM practice_attempts
+            WHERE attempted_at >= NOW() - INTERVAL '7 days'
+            UNION
+            SELECT user_id FROM learning_progress
+            WHERE updated_at >= NOW() - INTERVAL '7 days'
+        ) active
+    """).fetchone()[0]
+
+    # Daily active users for chart (last 14 days)
+    daily_active = db.execute("""
+        SELECT date_trunc('day', activity_date) AS day, COUNT(DISTINCT user_id) AS active
+        FROM (
+            SELECT user_id, attempted_at AS activity_date FROM practice_attempts
+            WHERE attempted_at >= NOW() - INTERVAL '14 days'
+            UNION ALL
+            SELECT user_id, updated_at FROM learning_progress
+            WHERE updated_at >= NOW() - INTERVAL '14 days'
+        ) combined
+        GROUP BY 1
+        ORDER BY 1
+    """).fetchall()
+    stats['daily_active_14d'] = [
+        {"date": str(row[0])[:10], "active_users": row[1]}
+        for row in daily_active
+    ]
+
+    # New registrations per day (last 14 days)
+    daily_registrations = db.execute("""
+        SELECT date_trunc('day', created_at) AS day, COUNT(*) AS count
+        FROM users
+        WHERE created_at >= NOW() - INTERVAL '14 days'
+        GROUP BY 1
+        ORDER BY 1
+    """).fetchall()
+    stats['daily_registrations_14d'] = [
+        {"date": str(row[0])[:10], "registrations": row[1]}
+        for row in daily_registrations
+    ]
+
+    # Questions stats
+    stats['total_questions'] = db.execute(
+        "SELECT COUNT(*) FROM questions"
+    ).fetchone()[0]
+
+    stats['questions_by_subject'] = {}
+    q_by_subject = db.execute("""
+        SELECT subject, COUNT(*) FROM questions GROUP BY subject ORDER BY COUNT(*) DESC
+    """).fetchall()
+    for subject, count in q_by_subject:
+        stats['questions_by_subject'][subject] = count
+
+    # Practice attempts stats
+    stats['total_practice_attempts'] = db.execute(
+        "SELECT COUNT(*) FROM practice_attempts"
+    ).fetchone()[0]
+    stats['correct_answers'] = db.execute(
+        "SELECT COUNT(*) FROM practice_attempts WHERE is_correct = true"
+    ).fetchone()[0]
+    if stats['total_practice_attempts'] > 0:
+        stats['overall_accuracy_pct'] = round(
+            stats['correct_answers'] / stats['total_practice_attempts'] * 100, 1
+        )
+    else:
+        stats['overall_accuracy_pct'] = 0
+
+    return stats

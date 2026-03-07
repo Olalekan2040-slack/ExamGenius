@@ -38,14 +38,15 @@ class AdminDashboard {
                     <h2>📊 Admin Panel</h2>
                 </div>
                 <ul class="admin-nav-menu">
-                    <li><a href="#" data-tab="dashboard" class="nav-link active">Dashboard</a></li>
-                    <li><a href="#" data-tab="questions" class="nav-link">Questions</a></li>
-                    <li><a href="#" data-tab="videos" class="nav-link">Videos</a></li>
-                    <li><a href="#" data-tab="notes" class="nav-link">Learning Notes</a></li>
-                    <li><a href="#" data-tab="hierarchy" class="nav-link">Subjects & Topics</a></li>
-                    <li><a href="#" data-tab="bulk-upload" class="nav-link">Bulk Upload</a></li>
-                    <li><a href="#" data-tab="pending" class="nav-link">Pending Approval</a></li>
-                    <li><a href="#" data-tab="analytics" class="nav-link">Analytics</a></li>
+                    <li><a href="#" data-tab="dashboard" class="nav-link active">📊 Dashboard</a></li>
+                    <li><a href="#" data-tab="users" class="nav-link">👥 Users</a></li>
+                    <li><a href="#" data-tab="questions" class="nav-link">❓ Questions</a></li>
+                    <li><a href="#" data-tab="videos" class="nav-link">🎬 Videos</a></li>
+                    <li><a href="#" data-tab="notes" class="nav-link">📝 Notes</a></li>
+                    <li><a href="#" data-tab="hierarchy" class="nav-link">🗂️ Subjects</a></li>
+                    <li><a href="#" data-tab="bulk-upload" class="nav-link">📤 Bulk Upload</a></li>
+                    <li><a href="#" data-tab="pending" class="nav-link">⏳ Pending</a></li>
+                    <li><a href="#" data-tab="analytics" class="nav-link">📈 Analytics</a></li>
                 </ul>
             </nav>
         `;
@@ -92,8 +93,13 @@ class AdminDashboard {
             case 'pending':
                 mainElement.innerHTML = await this.renderPendingTab();
                 break;
+            case 'users':
+                mainElement.innerHTML = '<div class="admin-section"><p>Loading users...</p></div>';
+                await this.renderUsersTab();
+                break;
             case 'analytics':
-                mainElement.innerHTML = await this.renderAnalyticsTab();
+                mainElement.innerHTML = '<div class="admin-section"><p>Loading analytics...</p></div>';
+                await this.renderAnalyticsTab();
                 break;
         }
     }
@@ -457,13 +463,230 @@ class AdminDashboard {
         `;
     }
 
+    async renderUsersTab(searchQuery = '', roleFilter = '') {
+        const mainElement = document.getElementById('admin-main');
+        try {
+            let url = `${API_BASE}/api/v1/admin/users?limit=50`;
+            if (searchQuery) url += `&search=${encodeURIComponent(searchQuery)}`;
+            if (roleFilter) url += `&role=${encodeURIComponent(roleFilter)}`;
+
+            const resp = await fetch(url, {
+                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+            });
+            const data = await resp.json();
+            const users = data.users || [];
+
+            mainElement.innerHTML = `
+                <div class="admin-section">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px">
+                        <h3 style="margin:0">👥 User Management <span style="font-size:14px;color:#666">(${data.total} total)</span></h3>
+                        <div style="display:flex;gap:8px;flex-wrap:wrap">
+                            <input id="user-search" type="text" placeholder="Search name/email..." value="${searchQuery}"
+                                style="padding:7px 12px;border:1px solid #ddd;border-radius:6px;font-size:14px;width:200px"
+                                onkeydown="if(event.key==='Enter') adminDash.renderUsersTab(this.value, document.getElementById('role-filter').value)">
+                            <select id="role-filter" onchange="adminDash.renderUsersTab(document.getElementById('user-search').value, this.value)"
+                                style="padding:7px 12px;border:1px solid #ddd;border-radius:6px;font-size:14px">
+                                <option value="" ${!roleFilter ? 'selected' : ''}>All Roles</option>
+                                <option value="student" ${roleFilter==='student' ? 'selected' : ''}>Students</option>
+                                <option value="moderator" ${roleFilter==='moderator' ? 'selected' : ''}>Moderators</option>
+                                <option value="admin" ${roleFilter==='admin' ? 'selected' : ''}>Admins</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="overflow-x:auto">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th><th>Name</th><th>Email</th><th>Role</th>
+                                <th>Verified</th><th>Points</th><th>Active Days</th>
+                                <th>Status</th><th>Joined</th><th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${users.map(u => `
+                                <tr style="${u.is_banned ? 'background:#fff0f0' : ''}">
+                                    <td>${u.id}</td>
+                                    <td><strong>${this.escHtml(u.name)}</strong></td>
+                                    <td style="font-size:12px">${this.escHtml(u.email)}</td>
+                                    <td>
+                                        <select onchange="adminDash.changeRole(${u.id}, this.value)" style="font-size:12px;padding:3px 6px;border-radius:4px">
+                                            <option value="student" ${u.role==='student'?'selected':''}>student</option>
+                                            <option value="moderator" ${u.role==='moderator'?'selected':''}>moderator</option>
+                                            <option value="admin" ${u.role==='admin'?'selected':''}>admin</option>
+                                        </select>
+                                    </td>
+                                    <td style="text-align:center">${u.is_verified ? '✅' : '❌'}</td>
+                                    <td style="text-align:center">${u.points}</td>
+                                    <td style="text-align:center">${u.active_days}</td>
+                                    <td style="text-align:center">${u.is_banned ? '<span style="color:#e53e3e;font-weight:600">Banned</span>' : '<span style="color:#38a169">Active</span>'}</td>
+                                    <td style="font-size:12px">${u.created_at ? u.created_at.slice(0,10) : ''}</td>
+                                    <td>
+                                        <div style="display:flex;gap:4px">
+                                            ${u.is_banned
+                                                ? `<button onclick="adminDash.banUser(${u.id}, false)" style="font-size:11px;padding:3px 7px;background:#38a169;color:#fff;border:none;border-radius:4px;cursor:pointer">Unban</button>`
+                                                : `<button onclick="adminDash.banUser(${u.id}, true)" style="font-size:11px;padding:3px 7px;background:#dd6b20;color:#fff;border:none;border-radius:4px;cursor:pointer">Ban</button>`
+                                            }
+                                            <button onclick="adminDash.deleteUser(${u.id}, '${this.escHtml(u.name)}')" style="font-size:11px;padding:3px 7px;background:#e53e3e;color:#fff;border:none;border-radius:4px;cursor:pointer">Delete</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            `;
+        } catch (err) {
+            mainElement.innerHTML = `<div class="admin-section"><p style="color:red">Error loading users: ${err.message}</p></div>`;
+        }
+    }
+
+    escHtml(str) {
+        return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    async changeRole(userId, newRole) {
+        if (!confirm(`Change user #${userId} role to '${newRole}'?`)) return;
+        try {
+            const resp = await fetch(`${API_BASE}/api/v1/admin/users/${userId}/role?new_role=${newRole}`, {
+                method: 'PATCH',
+                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+            });
+            const data = await resp.json();
+            if (resp.ok) {
+                alert(`✅ ${data.message}`);
+                this.renderUsersTab();
+            } else {
+                alert(`❌ ${data.detail || 'Failed to update role'}`);
+                this.renderUsersTab();
+            }
+        } catch (err) {
+            alert('Error: ' + err.message);
+        }
+    }
+
+    async banUser(userId, banned) {
+        const reason = banned ? (prompt('Ban reason (optional):') || '') : null;
+        if (banned && reason === null) return; // cancelled
+        try {
+            let url = `${API_BASE}/api/v1/admin/users/${userId}/ban?banned=${banned}`;
+            if (reason) url += `&reason=${encodeURIComponent(reason)}`;
+            const resp = await fetch(url, {
+                method: 'PATCH',
+                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+            });
+            const data = await resp.json();
+            if (resp.ok) {
+                alert(`✅ ${data.message}`);
+                this.renderUsersTab();
+            } else {
+                alert(`❌ ${data.detail || 'Failed'}`);
+            }
+        } catch (err) {
+            alert('Error: ' + err.message);
+        }
+    }
+
+    async deleteUser(userId, name) {
+        if (!confirm(`⚠️ PERMANENTLY delete user "${name}" (ID: ${userId})? This cannot be undone.`)) return;
+        if (!confirm('Are you absolutely sure? All their data will be deleted.')) return;
+        try {
+            const resp = await fetch(`${API_BASE}/api/v1/admin/users/${userId}`, {
+                method: 'DELETE',
+                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+            });
+            const data = await resp.json();
+            if (resp.ok) {
+                alert(`✅ ${data.message}`);
+                this.renderUsersTab();
+            } else {
+                alert(`❌ ${data.detail || 'Failed to delete user'}`);
+            }
+        } catch (err) {
+            alert('Error: ' + err.message);
+        }
+    }
+
     async renderAnalyticsTab() {
-        return `
-            <div class="admin-section">
-                <h3>Platform Analytics</h3>
-                <p>Coming soon: User engagement, content performance, and learning insights</p>
-            </div>
-        `;
+        const mainElement = document.getElementById('admin-main');
+        try {
+            const resp = await fetch(`${API_BASE}/api/v1/admin/stats/platform`, {
+                headers: { 'Authorization': `Bearer ${localStorage.getItem('access_token')}` }
+            });
+            const s = await resp.json();
+
+            const dailyActHTML = (s.daily_active_14d || []).map(d =>
+                `<tr><td>${d.date}</td><td>${d.active_users}</td></tr>`
+            ).join('') || '<tr><td colspan="2" style="color:#999">No data yet</td></tr>';
+
+            const regHTML = (s.daily_registrations_14d || []).map(d =>
+                `<tr><td>${d.date}</td><td>${d.registrations}</td></tr>`
+            ).join('') || '<tr><td colspan="2" style="color:#999">No data yet</td></tr>';
+
+            const bySubHTML = Object.entries(s.questions_by_subject || {}).map(([sub, cnt]) =>
+                `<tr><td>${sub}</td><td>${cnt}</td></tr>`
+            ).join('') || '<tr><td colspan="2" style="color:#999">No data</td></tr>';
+
+            mainElement.innerHTML = `
+                <div class="admin-section">
+                    <h3>📈 Platform Analytics</h3>
+
+                    <div class="stats-grid" style="margin-bottom:24px">
+                        <div class="stat-card">
+                            <div class="stat-number">${s.total_users || 0}</div>
+                            <div class="stat-label">Total Users</div>
+                            <div class="stat-subtext">${s.verified_users || 0} verified · ${s.banned_users || 0} banned</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${s.new_users_7d || 0}</div>
+                            <div class="stat-label">New Users (7d)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${s.active_users_7d || 0}</div>
+                            <div class="stat-label">Active Users (7d)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${s.total_questions || 0}</div>
+                            <div class="stat-label">Total Questions</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${s.total_practice_attempts || 0}</div>
+                            <div class="stat-label">Practice Attempts</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">${s.overall_accuracy_pct || 0}%</div>
+                            <div class="stat-label">Overall Accuracy</div>
+                        </div>
+                    </div>
+
+                    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;flex-wrap:wrap">
+                        <div>
+                            <h4>Daily Active Users (14d)</h4>
+                            <table class="admin-table">
+                                <thead><tr><th>Date</th><th>Active</th></tr></thead>
+                                <tbody>${dailyActHTML}</tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <h4>Daily Registrations (14d)</h4>
+                            <table class="admin-table">
+                                <thead><tr><th>Date</th><th>New Users</th></tr></thead>
+                                <tbody>${regHTML}</tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <h4>Questions by Subject</h4>
+                            <table class="admin-table">
+                                <thead><tr><th>Subject</th><th>Count</th></tr></thead>
+                                <tbody>${bySubHTML}</tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } catch (err) {
+            mainElement.innerHTML = `<div class="admin-section"><p style="color:red">Error loading analytics: ${err.message}</p></div>`;
+        }
     }
 
     renderAccessDenied() {

@@ -37,6 +37,11 @@ function createNavbar(user) {
                 </div>
             </div>
             
+            ${user && user.role === 'admin' ? `
+            <div class="nav-item ${router.currentRoute === 'admin' ? 'active' : ''}" onclick="router.navigate('admin')">
+                <i class="fas fa-shield-alt"></i>
+                <span>Admin Panel</span>
+            </div>` : ''}
             <div class="sidebar-footer">
                 <div class="nav-item" onclick="handleLogout()">
                     <i class="fas fa-sign-out-alt"></i>

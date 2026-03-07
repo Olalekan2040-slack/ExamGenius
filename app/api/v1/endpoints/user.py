@@ -38,7 +38,7 @@ async def get_profile(request: Request):
     cursor = db.cursor()
 
     cursor.execute("""
-        SELECT id, name, email, profile_pic_url, created_at FROM users WHERE id = ?
+        SELECT id, name, email, profile_pic_url, created_at, role FROM users WHERE id = ?
     """, (user_id,))
     user = cursor.fetchone()
 
@@ -82,7 +82,8 @@ async def get_profile(request: Request):
             "name": user["name"],
             "email": user["email"],
             "profile_pic_url": user["profile_pic_url"],
-            "joined_date": user["created_at"]
+            "joined_date": user["created_at"],
+            "role": user["role"] if user["role"] else "student"
         },
         "stats_summary": stats_summary
     }
