@@ -542,7 +542,7 @@ async def list_users(
 
     users = db.execute(f"""
         SELECT u.id, u.name, u.email, u.role,
-               COALESCE(u.is_banned, false) AS is_banned,
+               u.is_banned,
                u.banned_reason,
                u.is_verified,
                u.created_at,
