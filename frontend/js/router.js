@@ -22,7 +22,9 @@ class Router {
 
         // Check authentication for protected routes
         const protectedRoutes = ['dashboard', 'year-practice', 'cbt', 'profile', 'guided-learn', 'profile-setup', 'admin'];
-        const authRoutes = ['login', 'register', 'verify-email', 'reset-password'];
+        // Note: 'verify-email' and 'reset-password' are intentionally excluded from authRoutes
+        // because they must be accessible even when logged in (token links from emails)
+        const authRoutes = ['login', 'register'];
 
         if (protectedRoutes.includes(name) && !authManager.isAuthenticated()) {
             this.navigate('login');
@@ -42,8 +44,15 @@ class Router {
         this.currentRoute = name;
         await handler(params);
 
-        // Update URL hash
-        window.location.hash = name;
+        // Update URL hash.
+        // Important: only change the hash when the base route actually differs.
+        // If we're already on e.g. #verify-email?token=abc, setting hash to
+        // 'verify-email' would strip the token, fire hashchange, and re-run
+        // the handler with no token — causing an "Invalid link" redirect loop.
+        const currentHashBase = window.location.hash.slice(1).split('?')[0];
+        if (currentHashBase !== name) {
+            window.location.hash = name;
+        }
         
         // Save current route to localStorage for refresh persistence
         localStorage.setItem('last_route', name);
@@ -88,9 +97,13 @@ window.router = router;
 
 // Handle browser back/forward
 window.addEventListener('hashchange', () => {
-    const hash = window.location.hash.slice(1);
-    if (hash && router.routes[hash]) {
-        router.navigate(hash);
+    const fullHash = window.location.hash.slice(1);
+    // Support hashes like #verify-email?token=abc or #reset-password?token=xyz
+    const [hashBase, hashSearch] = fullHash.split('?');
+    if (hashBase && router.routes[hashBase]) {
+        const hashParams = new URLSearchParams(hashSearch || '');
+        const token = hashParams.get('token');
+        router.navigate(hashBase, token ? { token } : {});
     }
 });
 
