@@ -312,9 +312,14 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
             if len(recommended_topics) >= 3:
                 break
 
-        # Fallback: if less than 3, add from registered subjects that haven't been practiced
-        if len(recommended_topics) < 3 and registered_subjects:
+        # Fallback: ensure every registered subject has at least one recommended topic
+        # For new users this will produce exactly 1 topic per subject (up to 4)
+        if registered_subjects:
             for subj in registered_subjects:
+                # Only add if this subject has no recommendation yet
+                already_has = any(t['subject'] == subj for t in recommended_topics)
+                if already_has:
+                    continue
                 default_topics = DEFAULT_TOPICS_BY_SUBJECT.get(subj, [])
                 for topic in default_topics:
                     key = f"{subj}:{topic}"
@@ -324,12 +329,9 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                             "accuracy": None, "attempts": 0, "source": "suggested"
                         })
                         seen_keys.add(key)
-                        if len(recommended_topics) >= 3:
-                            break
-                if len(recommended_topics) >= 3:
-                    break
+                        break  # one per subject only
 
-        # Fallback: if still empty, use department subjects
+        # Fallback: if still empty, use department subjects (1 per subject)
         if not recommended_topics and department and department in DEPARTMENT_SUBJECTS:
             dept_subjects = DEPARTMENT_SUBJECTS[department]
             for subj in dept_subjects:
@@ -342,17 +344,15 @@ async def get_dashboard_stats(user_id: int = Depends(current_user_id)):
                             "accuracy": None, "attempts": 0, "source": "suggested"
                         })
                         seen_keys.add(key)
-                        if len(recommended_topics) >= 3:
-                            break
-                if len(recommended_topics) >= 3:
-                    break
+                        break  # one per subject
 
-        # Final fallback: user has no profile — show 3 universal starter topics
+        # Final fallback: user has no profile at all — show universal starter topics
         if not recommended_topics:
             _universal_defaults = [
                 ("Mathematics", "Algebra"),
                 ("English", "Comprehension"),
                 ("Physics", "Mechanics"),
+                ("Chemistry", "Atomic Structure"),
             ]
             for subj, topic in _universal_defaults:
                 key = f"{subj}:{topic}"

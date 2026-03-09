@@ -714,10 +714,10 @@ async def get_platform_stats(
     # User counts
     stats['total_users'] = db.execute("SELECT COUNT(*) FROM users").fetchone()[0]
     stats['verified_users'] = db.execute(
-        "SELECT COUNT(*) FROM users WHERE is_verified = 1 OR is_verified = true"
+        "SELECT COUNT(*) FROM users WHERE is_verified = 1"
     ).fetchone()[0]
     stats['banned_users'] = db.execute(
-        "SELECT COUNT(*) FROM users WHERE is_banned = 1 OR is_banned = true"
+        "SELECT COUNT(*) FROM users WHERE is_banned = 1"
     ).fetchone()[0]
     stats['admin_count'] = db.execute(
         "SELECT COUNT(*) FROM users WHERE role = 'admin'"
@@ -734,10 +734,10 @@ async def get_platform_stats(
         SELECT COUNT(DISTINCT user_id)
         FROM (
             SELECT user_id FROM practice_attempts
-            WHERE attempted_at >= NOW() - INTERVAL '7 days'
+            WHERE created_at >= NOW() - INTERVAL '7 days'
             UNION
             SELECT user_id FROM learning_progress
-            WHERE updated_at >= NOW() - INTERVAL '7 days'
+            WHERE created_at >= NOW() - INTERVAL '7 days'
         ) active
     """).fetchone()[0]
 
@@ -745,11 +745,11 @@ async def get_platform_stats(
     daily_active = db.execute("""
         SELECT date_trunc('day', activity_date) AS day, COUNT(DISTINCT user_id) AS active
         FROM (
-            SELECT user_id, attempted_at AS activity_date FROM practice_attempts
-            WHERE attempted_at >= NOW() - INTERVAL '14 days'
+            SELECT user_id, created_at AS activity_date FROM practice_attempts
+            WHERE created_at >= NOW() - INTERVAL '14 days'
             UNION ALL
-            SELECT user_id, updated_at FROM learning_progress
-            WHERE updated_at >= NOW() - INTERVAL '14 days'
+            SELECT user_id, created_at AS activity_date FROM learning_progress
+            WHERE created_at >= NOW() - INTERVAL '14 days'
         ) combined
         GROUP BY 1
         ORDER BY 1
@@ -789,7 +789,7 @@ async def get_platform_stats(
         "SELECT COUNT(*) FROM practice_attempts"
     ).fetchone()[0]
     stats['correct_answers'] = db.execute(
-        "SELECT COUNT(*) FROM practice_attempts WHERE is_correct = true"
+        "SELECT COUNT(*) FROM practice_attempts WHERE is_correct = 1"
     ).fetchone()[0]
     if stats['total_practice_attempts'] > 0:
         stats['overall_accuracy_pct'] = round(

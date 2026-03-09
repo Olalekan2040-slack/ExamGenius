@@ -12,6 +12,7 @@ class AdminDashboard {
     }
 
     async render() {
+        if (!this.container) return;
         // Check admin access
         const user = JSON.parse(localStorage.getItem('user') || '{}');
         if (user.role !== 'admin' && user.role !== 'moderator') {
@@ -718,6 +719,7 @@ class AdminDashboard {
     }
 
     renderAccessDenied() {
+        if (!this.container) return;
         this.container.innerHTML = `
             <div class="access-denied">
                 <h2>⛔ Access Denied</h2>
@@ -753,6 +755,7 @@ class AdminDashboard {
             const content = await response.json();
 
             const listElement = document.getElementById('pending-content-list');
+            if (!listElement) return;
             if (content.length === 0) {
                 listElement.innerHTML = `<p>No pending ${contentType} for approval.</p>`;
                 return;
