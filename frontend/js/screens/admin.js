@@ -67,38 +67,57 @@ class AdminDashboard {
         });
     }
 
+    _getMain() {
+        return document.getElementById('admin-main');
+    }
+
     async loadTab(tabName) {
         this.currentTab = tabName;
-        const mainElement = document.getElementById('admin-main');
-        
+        let el = this._getMain();
+        if (!el) return;
+
         switch (tabName) {
-            case 'dashboard':
-                mainElement.innerHTML = await this.renderDashboard();
+            case 'dashboard': {
+                const html = await this.renderDashboard();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
-            case 'questions':
-                mainElement.innerHTML = await this.renderQuestionsTab();
+            }
+            case 'questions': {
+                const html = await this.renderQuestionsTab();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
-            case 'videos':
-                mainElement.innerHTML = await this.renderVideosTab();
+            }
+            case 'videos': {
+                const html = await this.renderVideosTab();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
-            case 'notes':
-                mainElement.innerHTML = await this.renderNotesTab();
+            }
+            case 'notes': {
+                const html = await this.renderNotesTab();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
-            case 'hierarchy':
-                mainElement.innerHTML = await this.renderHierarchyTab();
+            }
+            case 'hierarchy': {
+                const html = await this.renderHierarchyTab();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
-            case 'bulk-upload':
-                mainElement.innerHTML = await this.renderBulkUploadTab();
+            }
+            case 'bulk-upload': {
+                const html = await this.renderBulkUploadTab();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
-            case 'pending':
-                mainElement.innerHTML = await this.renderPendingTab();
+            }
+            case 'pending': {
+                const html = await this.renderPendingTab();
+                el = this._getMain(); if (el) el.innerHTML = html;
                 break;
+            }
             case 'users':
-                mainElement.innerHTML = '<div class="admin-section"><p>Loading users...</p></div>';
+                if (el) el.innerHTML = '<div class="admin-section"><p class="admin-loading">⏳ Loading users...</p></div>';
                 await this.renderUsersTab();
                 break;
             case 'analytics':
-                mainElement.innerHTML = '<div class="admin-section"><p>Loading analytics...</p></div>';
+                if (el) el.innerHTML = '<div class="admin-section"><p class="admin-loading">⏳ Loading analytics...</p></div>';
                 await this.renderAnalyticsTab();
                 break;
         }
@@ -465,7 +484,7 @@ class AdminDashboard {
     }
 
     async renderUsersTab(searchQuery = '', roleFilter = '') {
-        const mainElement = document.getElementById('admin-main');
+        let mainElement = this._getMain();
         try {
             let url = `${API_CONFIG.BASE_URL}/api/v1/admin/users?limit=50`;
             if (searchQuery) url += `&search=${encodeURIComponent(searchQuery)}`;
@@ -478,6 +497,8 @@ class AdminDashboard {
             if (!resp.ok) throw new Error(data.detail || `Server error ${resp.status}`);
             const users = data.users || [];
 
+            mainElement = this._getMain();
+            if (!mainElement) return;
             mainElement.innerHTML = `
                 <div class="admin-section">
                     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px">
@@ -539,7 +560,8 @@ class AdminDashboard {
                 </div>
             `;
         } catch (err) {
-            mainElement.innerHTML = `<div class="admin-section"><p style="color:red">Error loading users: ${err.message}</p></div>`;
+            const el = this._getMain();
+            if (el) el.innerHTML = `<div class="admin-section"><p class="admin-error">❌ Error loading users: ${err.message}</p></div>`;
         }
     }
 
@@ -610,7 +632,7 @@ class AdminDashboard {
     }
 
     async renderAnalyticsTab() {
-        const mainElement = document.getElementById('admin-main');
+        let mainElement = this._getMain();
         try {
             const resp = await fetch(`${API_CONFIG.BASE_URL}/api/v1/admin/stats/platform`, {
                 headers: { 'Authorization': `Bearer ${authManager.getAccessToken()}` }
@@ -630,6 +652,8 @@ class AdminDashboard {
                 `<tr><td>${sub}</td><td>${cnt}</td></tr>`
             ).join('') || '<tr><td colspan="2" style="color:#999">No data</td></tr>';
 
+            mainElement = this._getMain();
+            if (!mainElement) return;
             mainElement.innerHTML = `
                 <div class="admin-section">
                     <h3>📈 Platform Analytics</h3>
@@ -688,7 +712,8 @@ class AdminDashboard {
                 </div>
             `;
         } catch (err) {
-            mainElement.innerHTML = `<div class="admin-section"><p style="color:red">Error loading analytics: ${err.message}</p></div>`;
+            const el = this._getMain();
+            if (el) el.innerHTML = `<div class="admin-section"><p class="admin-error">❌ Error loading analytics: ${err.message}</p></div>`;
         }
     }
 

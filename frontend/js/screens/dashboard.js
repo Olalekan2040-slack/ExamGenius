@@ -345,6 +345,9 @@ async function showDashboard() {
         window._activityPollTimer = setInterval(() => refreshDashboardActivity(), 30000);
 
         hideLoading();
+
+        // Show onboarding tour for first-time users
+        if (typeof tourManager !== 'undefined') tourManager.maybeStart();
     } catch (error) {
         hideLoading();
         showToast('Failed to load dashboard: ' + error.message, 'error');
