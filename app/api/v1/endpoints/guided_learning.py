@@ -847,6 +847,80 @@ async def get_subject_weaknesses(
 # TOPIC PRACTICE QUIZ ENDPOINT
 # ============================================================
 
+# Minimum questions threshold for practice — supplement from fallback topics if below this
+_MIN_PRACTICE_QUESTIONS = 20
+
+# Fallback topic pairs: if a topic has fewer than _MIN_PRACTICE_QUESTIONS questions,
+# supplement from these related topics (tried in order until threshold is met).
+_TOPIC_FALLBACKS = {
+    # Physics fallbacks
+    "Measurements and Units": ["Scalars and Vectors", "Motion"],
+    "Scalars and Vectors": ["Measurements and Units", "Motion"],
+    "Friction": ["Equilibrium of Forces", "Work, Energy, and Power"],
+    "Simple Machines": ["Work, Energy, and Power", "Friction"],
+    "Elasticity": ["Pressure", "Liquids at Rest"],
+    "Liquids at Rest": ["Pressure", "Elasticity"],
+    "Light Energy": ["Reflection of Light", "Refraction of Light"],
+    "Dispersion of Light and Colours": ["Refraction of Light", "Reflection of Light"],
+    "Magnetism": ["Electromagnetic Induction", "Current Electricity"],
+    "Electromagnetic Induction": ["Magnetism", "Current Electricity"],
+    "Alternating Current (A.C.) Circuits": ["Current Electricity", "Electromagnetic Induction"],
+    "Modern Physics": ["Atomic and Nuclear Physics"],
+    # Chemistry fallbacks
+    "Environmental Pollution": ["Air, Water, Solubility"],
+    "Rates of Chemical Reaction": ["Chemical Equilibrium", "Energy Changes"],
+    "Chemistry and Industry": ["Non-metals and Their Compounds", "Metals and Their Compounds"],
+}
+
+
+def _fetch_questions_for_topic(cursor, subject: str, topic: str, limit: int, exclude_ids: set = None):
+    """Fetch questions for a topic using exact → partial → keyword cascade."""
+    exclude_ids = exclude_ids or set()
+
+    def _filter(rows):
+        return [r for r in rows if r[0] not in exclude_ids]
+
+    # 1. Exact match
+    cursor.execute("""
+        SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+        FROM questions
+        WHERE exam='JAMB' AND subject=? AND topic=?
+        ORDER BY RANDOM()
+        LIMIT ?
+    """, (subject, topic, limit))
+    rows = _filter(cursor.fetchall())
+    if rows:
+        return rows
+
+    # 2. Partial LIKE match
+    cursor.execute("""
+        SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+        FROM questions
+        WHERE exam='JAMB' AND subject=? AND topic LIKE ?
+        ORDER BY RANDOM()
+        LIMIT ?
+    """, (subject, f"%{topic}%", limit))
+    rows = _filter(cursor.fetchall())
+    if rows:
+        return rows
+
+    # 3. First meaningful keyword match
+    words = [w for w in topic.split() if len(w) > 3][:3]
+    if words:
+        cursor.execute("""
+            SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+            FROM questions
+            WHERE exam='JAMB' AND subject=? AND topic LIKE ?
+            ORDER BY RANDOM()
+            LIMIT ?
+        """, (subject, f"%{words[0]}%", limit))
+        rows = _filter(cursor.fetchall())
+        if rows:
+            return rows
+
+    return []
+
+
 @router.get("/questions/by-topic")
 async def get_questions_by_topic(
     subject: str,
@@ -857,48 +931,29 @@ async def get_questions_by_topic(
     """
     Get randomized JAMB questions for a specific topic with all options.
     Used for practice quizzes after completing guided learning.
+    If a topic has fewer than the minimum threshold, supplements with
+    questions from related fallback topics.
     """
     conn = get_connection()
     cursor = conn.cursor()
 
     try:
-        # Try to match topic name flexibly
-        # First try exact match
-        cursor.execute("""
-            SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
-            FROM questions 
-            WHERE exam='JAMB' AND subject=? AND topic=?
-            ORDER BY RANDOM()
-            LIMIT ?
-        """, (subject, topic, limit))
+        questions = _fetch_questions_for_topic(cursor, subject, topic, limit)
 
-        questions = cursor.fetchall()
+        # Supplement with fallback topics when below threshold
+        if len(questions) < _MIN_PRACTICE_QUESTIONS:
+            seen_ids = {q[0] for q in questions}
+            fallback_topics = _TOPIC_FALLBACKS.get(topic, [])
+            for fb_topic in fallback_topics:
+                if len(questions) >= _MIN_PRACTICE_QUESTIONS:
+                    break
+                needed = _MIN_PRACTICE_QUESTIONS - len(questions)
+                extra = _fetch_questions_for_topic(cursor, subject, fb_topic, needed, seen_ids)
+                questions.extend(extra)
+                seen_ids.update(q[0] for q in extra)
 
-        # If no exact match, try partial match
-        if not questions:
-            cursor.execute("""
-                SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
-                FROM questions 
-                WHERE exam='JAMB' AND subject=? AND topic LIKE ?
-                ORDER BY RANDOM()
-                LIMIT ?
-            """, (subject, f"%{topic}%", limit))
-            questions = cursor.fetchall()
-
-        # If still no match, try matching key words from topic
-        if not questions:
-            # Extract key words (first 2-3 meaningful words)
-            words = [w for w in topic.split() if len(w) > 3][:3]
-            if words:
-                like_pattern = f"%{words[0]}%"
-                cursor.execute("""
-                    SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
-                    FROM questions 
-                    WHERE exam='JAMB' AND subject=? AND topic LIKE ?
-                    ORDER BY RANDOM()
-                    LIMIT ?
-                """, (subject, like_pattern, limit))
-                questions = cursor.fetchall()
+        # Trim to requested limit if we now have more
+        questions = questions[:limit]
 
         result = []
         for q in questions:
@@ -907,7 +962,7 @@ async def get_questions_by_topic(
             # Get options for this question
             cursor.execute("""
                 SELECT option_key, option_text
-                FROM options 
+                FROM options
                 WHERE question_id=?
                 ORDER BY option_key
             """, (question_id,))

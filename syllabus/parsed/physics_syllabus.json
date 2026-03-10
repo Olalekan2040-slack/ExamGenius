@@ -6,13 +6,27 @@
       "name": "Measurements and Units",
       "subtopics": [
         {
-          "name": "Measurements and Units",
+          "name": "Physical Quantities and SI Units",
           "objectives": [
-            "Identify units and measuring instruments.",
-            "Determine lengths, areas, volumes, mass, and time.",
-            "Relate fundamental/derived quantities to units.",
-            "Use dimensional analysis.",
-            "Estimate errors and accuracy."
+            "Distinguish between fundamental and derived quantities.",
+            "State and use SI units for common physical quantities.",
+            "Convert between units and use standard form."
+          ]
+        },
+        {
+          "name": "Measurement Techniques and Errors",
+          "objectives": [
+            "Describe the correct use of measuring instruments (vernier caliper, micrometer, etc.).",
+            "Distinguish between systematic and random errors.",
+            "Calculate absolute, relative, and percentage errors."
+          ]
+        },
+        {
+          "name": "Dimensional Analysis",
+          "objectives": [
+            "Determine dimensions of derived quantities.",
+            "Use dimensional analysis to verify equations.",
+            "Check homogeneity of physical equations."
           ]
         }
       ]
@@ -22,11 +36,19 @@
       "name": "Scalars and Vectors",
       "subtopics": [
         {
-          "name": "Scalars and Vectors",
+          "name": "Scalar and Vector Quantities",
           "objectives": [
-            "Distinguish between scalars and vectors.",
-            "Resolve and add vectors.",
-            "Apply vector techniques to solve problems."
+            "Distinguish between scalar and vector quantities.",
+            "Give examples of scalars (speed, mass) and vectors (velocity, force).",
+            "Represent vectors graphically using arrows."
+          ]
+        },
+        {
+          "name": "Vector Addition and Resolution",
+          "objectives": [
+            "Add vectors using the triangle and parallelogram laws.",
+            "Resolve a vector into horizontal and vertical components.",
+            "Calculate the resultant of two or more vectors."
           ]
         }
       ]
@@ -36,12 +58,27 @@
       "name": "Motion",
       "subtopics": [
         {
-          "name": "Motion",
+          "name": "Types of Motion and Equations",
           "objectives": [
-            "Distinguish types of motion.",
-            "Apply equations of uniformly accelerated motion.",
-            "Solve problems on projectiles (range, height, time of flight).",
-            "Analyze motion graphs (displacement-time, velocity-time)."
+            "Apply the equations of uniformly accelerated motion.",
+            "Distinguish between linear, circular, oscillatory, and random motion.",
+            "Solve problems involving displacement, velocity, and acceleration."
+          ]
+        },
+        {
+          "name": "Motion Graphs",
+          "objectives": [
+            "Interpret displacement-time and velocity-time graphs.",
+            "Calculate acceleration and displacement from motion graphs.",
+            "Describe the motion of a body from its graph."
+          ]
+        },
+        {
+          "name": "Projectile Motion",
+          "objectives": [
+            "Calculate range, maximum height, and time of flight of a projectile.",
+            "Resolve projectile motion into horizontal and vertical components.",
+            "Explain the trajectory of a projectile under gravity."
           ]
         }
       ]
@@ -51,12 +88,27 @@
       "name": "Equilibrium of Forces",
       "subtopics": [
         {
-          "name": "Equilibrium of Forces",
+          "name": "Newton's Laws of Motion",
           "objectives": [
-            "Apply Newton's laws.",
-            "Determine resultant forces and equilibrium.",
-            "Calculate moments and conditions for stability.",
-            "Analyze SHM (e.g., pendulum, spring)."
+            "State and apply Newton's three laws of motion.",
+            "Calculate force using F = ma.",
+            "Describe inertia and its relationship to mass."
+          ]
+        },
+        {
+          "name": "Momentum and Impulse",
+          "objectives": [
+            "Define linear momentum and impulse.",
+            "Apply conservation of linear momentum.",
+            "Distinguish between elastic and inelastic collisions."
+          ]
+        },
+        {
+          "name": "Conditions for Equilibrium",
+          "objectives": [
+            "State the conditions for static equilibrium (sum of forces = 0, sum of torques = 0).",
+            "Calculate moments and torques about a point.",
+            "Solve problems involving levers, beams, and balanced forces."
           ]
         }
       ]
@@ -66,11 +118,19 @@
       "name": "Work, Energy, and Power",
       "subtopics": [
         {
-          "name": "Work, Energy, and Power",
+          "name": "Work and Energy",
           "objectives": [
-            "Calculate work, energy, and power.",
-            "Apply conservation of energy.",
-            "Solve problems involving efficiency."
+            "Define work done and calculate it using W = Fd cos(theta).",
+            "Distinguish between kinetic and potential energy.",
+            "Calculate changes in kinetic and potential energy."
+          ]
+        },
+        {
+          "name": "Conservation of Energy and Power",
+          "objectives": [
+            "Apply the principle of conservation of mechanical energy.",
+            "Define power and calculate it using P = W/t and P = Fv.",
+            "Calculate efficiency of machines and systems."
           ]
         }
       ]
@@ -80,11 +140,19 @@
       "name": "Friction",
       "subtopics": [
         {
-          "name": "Friction",
+          "name": "Types and Laws of Friction",
           "objectives": [
-            "Distinguish types of friction.",
-            "Calculate frictional forces.",
-            "Analyze effects on motion."
+            "Distinguish between static and kinetic friction.",
+            "State the laws of friction.",
+            "Calculate frictional force using f = mu*N."
+          ]
+        },
+        {
+          "name": "Effects of Friction",
+          "objectives": [
+            "Describe advantages and disadvantages of friction.",
+            "Explain methods of reducing and increasing friction.",
+            "Apply friction concepts to inclined plane problems."
           ]
         }
       ]
@@ -94,10 +162,19 @@
       "name": "Simple Machines",
       "subtopics": [
         {
-          "name": "Simple Machines",
+          "name": "Types of Simple Machines",
           "objectives": [
-            "Identify types and principles.",
-            "Calculate MA, VR, and efficiency."
+            "Classify and describe levers, pulleys, inclined planes, gears, and screws.",
+            "Calculate mechanical advantage and velocity ratio.",
+            "Explain the relationship between MA, VR, and efficiency."
+          ]
+        },
+        {
+          "name": "Applications of Simple Machines",
+          "objectives": [
+            "Solve problems involving pulleys and wheel-and-axle systems.",
+            "Calculate work done and efficiency for a given machine.",
+            "Explain how machines multiply force or speed."
           ]
         }
       ]
@@ -107,10 +184,19 @@
       "name": "Elasticity",
       "subtopics": [
         {
-          "name": "Elasticity",
+          "name": "Hooke's Law and Elastic Properties",
           "objectives": [
-            "Apply Hooke's law.",
-            "Calculate elastic constants."
+            "State Hooke's law and identify the elastic limit.",
+            "Calculate spring constant from force-extension graphs.",
+            "Distinguish between elastic and plastic deformation."
+          ]
+        },
+        {
+          "name": "Stress, Strain, and Young's Modulus",
+          "objectives": [
+            "Define stress, strain, and Young's modulus.",
+            "Calculate Young's modulus from experimental data.",
+            "Compare elastic properties of different materials."
           ]
         }
       ]
@@ -120,10 +206,19 @@
       "name": "Pressure",
       "subtopics": [
         {
-          "name": "Pressure",
+          "name": "Pressure in Solids and Fluids",
           "objectives": [
-            "Calculate pressure and upthrust.",
-            "Apply principles to hydraulic systems and flotation."
+            "Define pressure and calculate it using P = F/A.",
+            "Derive and apply the formula for pressure in a liquid (P = rho*g*h).",
+            "State and apply Pascal's principle."
+          ]
+        },
+        {
+          "name": "Atmospheric Pressure and Gas Pressure",
+          "objectives": [
+            "Explain atmospheric pressure and describe how it is measured.",
+            "Describe the operation of a mercury barometer and manometer.",
+            "Explain how altitude affects atmospheric pressure."
           ]
         }
       ]
@@ -133,9 +228,19 @@
       "name": "Liquids at Rest",
       "subtopics": [
         {
-          "name": "Liquids at Rest",
+          "name": "Archimedes' Principle and Buoyancy",
           "objectives": [
-            "Explain effects and applications."
+            "State Archimedes' principle and apply it to problems.",
+            "Calculate upthrust on a submerged object.",
+            "Explain the conditions for floating and sinking."
+          ]
+        },
+        {
+          "name": "Surface Tension and Viscosity",
+          "objectives": [
+            "Describe surface tension phenomena (meniscus, capillary rise).",
+            "Define viscosity and give examples of its effects.",
+            "Explain the effect of temperature on viscosity."
           ]
         }
       ]
@@ -145,10 +250,19 @@
       "name": "Temperature and Thermometers",
       "subtopics": [
         {
-          "name": "Temperature and Thermometers",
+          "name": "Temperature Scales and Fixed Points",
           "objectives": [
-            "Convert temperature scales.",
-            "Use thermometers accurately."
+            "Define temperature and state the fixed points of common scales.",
+            "Convert between Celsius, Fahrenheit, and Kelvin scales.",
+            "Explain the concept of absolute zero and the Kelvin scale."
+          ]
+        },
+        {
+          "name": "Types of Thermometers",
+          "objectives": [
+            "Describe the working principles of liquid-in-glass, thermocouple, and resistance thermometers.",
+            "Compare the properties of different thermometric substances.",
+            "Select appropriate thermometers for different situations."
           ]
         }
       ]
@@ -158,10 +272,19 @@
       "name": "Thermal Expansion",
       "subtopics": [
         {
-          "name": "Thermal Expansion",
+          "name": "Linear, Area, and Volume Expansion",
           "objectives": [
-            "Calculate linear, area, volume expansion.",
-            "Explain anomalies and real-life effects."
+            "Explain thermal expansion of solids, liquids, and gases.",
+            "Calculate linear, area, and volume expansivities.",
+            "Solve problems using expansion formulae."
+          ]
+        },
+        {
+          "name": "Applications of Thermal Expansion",
+          "objectives": [
+            "Describe practical applications: bimetallic strip, thermostats, railway gaps.",
+            "Explain the anomalous expansion of water.",
+            "Discuss consequences of thermal expansion in engineering."
           ]
         }
       ]
@@ -171,10 +294,19 @@
       "name": "Heat Transfer",
       "subtopics": [
         {
-          "name": "Heat Transfer",
+          "name": "Conduction and Convection",
           "objectives": [
-            "Distinguish modes of transfer.",
-            "Solve problems on heat quantity and transfer."
+            "Explain heat conduction in terms of molecular vibration and free electrons.",
+            "Describe convection currents in fluids.",
+            "Compare thermal conductivities of different materials."
+          ]
+        },
+        {
+          "name": "Radiation and Applications",
+          "objectives": [
+            "Describe infrared radiation and its properties.",
+            "Apply Stefan-Boltzmann law and Newton's law of cooling.",
+            "Explain heat loss in buildings and the greenhouse effect."
           ]
         }
       ]
@@ -184,9 +316,19 @@
       "name": "Gas Laws",
       "subtopics": [
         {
-          "name": "Gas Laws",
+          "name": "Boyle's and Charles's Laws",
           "objectives": [
-            "Apply gas laws to calculations."
+            "State Boyle's law and apply it to calculate pressure-volume changes.",
+            "State Charles's law and apply it to calculate volume-temperature changes.",
+            "State the pressure law and solve related problems."
+          ]
+        },
+        {
+          "name": "Ideal Gas Equation",
+          "objectives": [
+            "Derive and use the general gas equation PV/T = constant.",
+            "Apply PV = nRT in calculations.",
+            "Explain the concept of absolute zero from gas law graphs."
           ]
         }
       ]
@@ -196,9 +338,19 @@
       "name": "Quantity of Heat",
       "subtopics": [
         {
-          "name": "Quantity of Heat",
+          "name": "Specific Heat Capacity",
           "objectives": [
-            "Calculate heat changes in phase."
+            "Define specific heat capacity and use Q = mcDeltaT.",
+            "Calculate heat exchange in calorimetry experiments.",
+            "Compare heat capacities of different substances."
+          ]
+        },
+        {
+          "name": "Latent Heat and Change of State",
+          "objectives": [
+            "Define specific latent heat of fusion and vaporization.",
+            "Calculate heat absorbed or released during change of state.",
+            "Interpret heating and cooling curves."
           ]
         }
       ]
@@ -208,9 +360,19 @@
       "name": "Waves",
       "subtopics": [
         {
-          "name": "Waves",
+          "name": "Wave Properties and Types",
           "objectives": [
-            "Analyze wave properties and propagation."
+            "Describe transverse and longitudinal waves with examples.",
+            "Define amplitude, wavelength, frequency, period, and wave speed.",
+            "Apply the wave equation v = f*lambda."
+          ]
+        },
+        {
+          "name": "Wave Behaviour",
+          "objectives": [
+            "Explain reflection, refraction, diffraction, and superposition.",
+            "Describe constructive and destructive interference.",
+            "Explain the formation of standing waves."
           ]
         }
       ]
@@ -220,196 +382,285 @@
       "name": "Sound Waves",
       "subtopics": [
         {
-          "name": "Sound Waves",
+          "name": "Properties and Propagation of Sound",
           "objectives": [
-            "Calculate frequency, wavelength in strings/pipes.",
-            "Explain musical notes and acoustics."
+            "Explain that sound is a longitudinal mechanical wave.",
+            "Describe factors affecting speed of sound in different media.",
+            "Calculate frequency, wavelength, and speed of sound."
+          ]
+        },
+        {
+          "name": "Resonance and Musical Sounds",
+          "objectives": [
+            "Explain resonance and describe experiments to demonstrate it.",
+            "Calculate frequencies of harmonics in open and closed pipes.",
+            "Distinguish between pitch, loudness, and quality of sound."
           ]
         }
       ]
     },
     {
       "number": 18,
-      "name": "Propagation of Sound Waves",
+      "name": "Light Energy",
       "subtopics": [
         {
-          "name": "Propagation of Sound Waves",
+          "name": "Nature and Propagation of Light",
           "objectives": [
-            "Determine speed and effects of medium."
+            "State that light travels in straight lines and calculate shadow lengths.",
+            "Describe pinhole camera formation and calculate image size.",
+            "Explain the speed of light and its measurement."
+          ]
+        },
+        {
+          "name": "Photometry",
+          "objectives": [
+            "Define luminous intensity and illuminance.",
+            "Apply the inverse square law for illuminance.",
+            "Solve problems involving candela and lux."
           ]
         }
       ]
     },
     {
       "number": 19,
-      "name": "Light Energy",
+      "name": "Reflection of Light",
       "subtopics": [
         {
-          "name": "Light Energy",
+          "name": "Plane Mirror Reflection",
           "objectives": [
-            "Explain formation of shadows/eclipses."
+            "State the laws of reflection.",
+            "Locate images formed by plane mirrors.",
+            "Describe image characteristics in a plane mirror."
+          ]
+        },
+        {
+          "name": "Curved Mirror Reflection",
+          "objectives": [
+            "Define principal focus, focal length, and radius of curvature for curved mirrors.",
+            "Use the mirror formula (1/f = 1/u + 1/v) to locate images.",
+            "Describe applications of concave and convex mirrors."
           ]
         }
       ]
     },
     {
       "number": 20,
-      "name": "Reflection of Light",
+      "name": "Refraction of Light",
       "subtopics": [
         {
-          "name": "Reflection of Light",
+          "name": "Snell's Law and Refractive Index",
           "objectives": [
-            "Apply laws and calculate image positions."
+            "State Snell's law and calculate refractive index.",
+            "Explain total internal reflection and critical angle.",
+            "Describe applications of total internal reflection (optical fibres, prisms)."
+          ]
+        },
+        {
+          "name": "Lenses and Optical Instruments",
+          "objectives": [
+            "Distinguish between converging and diverging lenses.",
+            "Use the lens formula (1/f = 1/u + 1/v) and lens maker's equation.",
+            "Describe construction of microscopes, telescopes, and cameras."
           ]
         }
       ]
     },
     {
       "number": 21,
-      "name": "Refraction of Light",
+      "name": "Dispersion of Light and Colours",
       "subtopics": [
         {
-          "name": "Refraction of Light",
+          "name": "Dispersion and the Spectrum",
           "objectives": [
-            "Calculate refractive index and lens power.",
-            "Explain image formation in lenses."
+            "Explain dispersion using a prism and relate it to refractive index variation.",
+            "Identify the colours of the visible spectrum and their order.",
+            "Explain the formation of a rainbow."
+          ]
+        },
+        {
+          "name": "Colour Mixing and Filters",
+          "objectives": [
+            "Describe additive and subtractive colour mixing.",
+            "Explain primary, secondary, and complementary colours.",
+            "Describe the effect of colour filters on light."
           ]
         }
       ]
     },
     {
       "number": 22,
-      "name": "Dispersion of Light and Colours",
+      "name": "Electrostatics",
       "subtopics": [
         {
-          "name": "Dispersion of Light and Colours",
+          "name": "Electric Charges and Coulomb's Law",
           "objectives": [
-            "Mix colours and explain dispersion."
+            "Describe methods of charging bodies (friction, induction, contact).",
+            "State and apply Coulomb's law.",
+            "Describe the distribution of charge on conductors."
+          ]
+        },
+        {
+          "name": "Electric Field and Potential",
+          "objectives": [
+            "Define electric field strength and draw field line patterns.",
+            "Define electric potential and potential difference.",
+            "Calculate work done in moving a charge in an electric field."
+          ]
+        },
+        {
+          "name": "Capacitance and Capacitors",
+          "objectives": [
+            "Define capacitance and calculate it using C = Q/V.",
+            "Calculate combined capacitance for series and parallel circuits.",
+            "Calculate energy stored in a capacitor."
           ]
         }
       ]
     },
     {
       "number": 23,
-      "name": "Fields",
+      "name": "Current Electricity",
       "subtopics": [
         {
-          "name": "Fields",
+          "name": "Ohm's Law and Resistance",
           "objectives": [
-            "Apply Newton's law of gravitation.",
-            "Describe field patterns."
+            "State Ohm's law and identify ohmic and non-ohmic conductors.",
+            "Calculate resistance using V = IR.",
+            "Determine combined resistance for series and parallel circuits."
+          ]
+        },
+        {
+          "name": "EMF, Internal Resistance, and Power",
+          "objectives": [
+            "Define EMF and terminal voltage.",
+            "Calculate current and voltage in circuits with internal resistance.",
+            "Calculate electrical power and energy using P = IV, P = I^2R, P = V^2/R."
+          ]
+        },
+        {
+          "name": "Kirchhoff's Laws",
+          "objectives": [
+            "State and apply Kirchhoff's current law (junction rule).",
+            "State and apply Kirchhoff's voltage law (loop rule).",
+            "Solve multi-loop circuit problems."
           ]
         }
       ]
     },
     {
       "number": 24,
-      "name": "Electrostatics",
+      "name": "Magnetism",
       "subtopics": [
         {
-          "name": "Electrostatics",
+          "name": "Magnetic Fields and Properties",
           "objectives": [
-            "Calculate capacitance and energy stored."
+            "Describe properties of magnets and magnetic materials.",
+            "Draw magnetic field patterns for bar magnets and current-carrying conductors.",
+            "Explain the domain theory of magnetism."
+          ]
+        },
+        {
+          "name": "Force on a Current-Carrying Conductor",
+          "objectives": [
+            "State and apply Fleming's left-hand rule.",
+            "Calculate force on a current-carrying conductor in a magnetic field.",
+            "Describe the working principle of a DC motor."
           ]
         }
       ]
     },
     {
       "number": 25,
-      "name": "Current Electricity",
+      "name": "Electromagnetic Induction",
       "subtopics": [
         {
-          "name": "Current Electricity",
+          "name": "Faraday's and Lenz's Laws",
           "objectives": [
-            "Apply Ohm's law.",
-            "Calculate power and energy."
+            "State Faraday's law of electromagnetic induction.",
+            "Apply Lenz's law to determine direction of induced current.",
+            "Calculate induced EMF using E = N*dPhi/dt."
+          ]
+        },
+        {
+          "name": "Transformers and Generators",
+          "objectives": [
+            "Describe the structure and working principle of a transformer.",
+            "Apply the turns ratio equation for transformers.",
+            "Explain the working principle of an AC generator and DC generator."
           ]
         }
       ]
     },
     {
       "number": 26,
-      "name": "Electrical Measuring Instruments",
+      "name": "Alternating Current (A.C.) Circuits",
       "subtopics": [
         {
-          "name": "Electrical Measuring Instruments",
+          "name": "AC Quantities and Rectification",
           "objectives": [
-            "Describe principles and uses."
+            "Distinguish between peak and RMS values of AC voltage and current.",
+            "Explain half-wave and full-wave rectification using diodes.",
+            "Describe smoothing of rectified AC using capacitors."
+          ]
+        },
+        {
+          "name": "Reactance and Resonance",
+          "objectives": [
+            "Define capacitive and inductive reactance.",
+            "Calculate impedance in RLC circuits.",
+            "Explain resonance in series RLC circuits and state the resonant frequency."
           ]
         }
       ]
     },
     {
       "number": 27,
-      "name": "Magnetism",
+      "name": "Atomic and Nuclear Physics",
       "subtopics": [
         {
-          "name": "Magnetism",
+          "name": "Atomic Structure and Models",
           "objectives": [
-            "Explain properties and fields."
+            "Describe Rutherford's scattering experiment and its conclusions.",
+            "Explain Bohr's model of the hydrogen atom.",
+            "Explain line emission spectra in terms of electron energy levels."
+          ]
+        },
+        {
+          "name": "Radioactivity and Nuclear Reactions",
+          "objectives": [
+            "Describe properties of alpha, beta, and gamma radiation.",
+            "Write and balance nuclear equations.",
+            "Apply radioactive decay law and calculate half-life."
+          ]
+        },
+        {
+          "name": "Nuclear Fission and Fusion",
+          "objectives": [
+            "Distinguish between nuclear fission and fusion.",
+            "Explain mass defect and binding energy using E = mc^2.",
+            "Describe applications and hazards of nuclear energy."
           ]
         }
       ]
     },
     {
       "number": 28,
-      "name": "Electromagnetic Induction",
-      "subtopics": [
-        {
-          "name": "Electromagnetic Induction",
-          "objectives": [
-            "Calculate induced EMF.",
-            "Explain transformer efficiency."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "name": "Alternating Current (A.C.) Circuits",
-      "subtopics": [
-        {
-          "name": "Alternating Current (A.C.) Circuits",
-          "objectives": [
-            "Distinguish A.C. from D.C.",
-            "Solve simple A.C. problems."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "name": "Atomic and Nuclear Physics",
-      "subtopics": [
-        {
-          "name": "Atomic and Nuclear Physics",
-          "objectives": [
-            "Explain atomic models.",
-            "Solve problems on decay and half-life."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 31,
-      "name": "Simple Models of the Atom",
-      "subtopics": [
-        {
-          "name": "Simple Models of the Atom",
-          "objectives": [
-            "Describe quantization of energy."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 32,
       "name": "Modern Physics",
       "subtopics": [
         {
-          "name": "Modern Physics",
+          "name": "Photoelectric Effect and Quantum Theory",
           "objectives": [
-            "Explain basic quantum concepts."
+            "Explain the photoelectric effect and its implications for quantum theory.",
+            "Use E = hf to calculate photon energy.",
+            "Explain threshold frequency and work function."
+          ]
+        },
+        {
+          "name": "Wave-Particle Duality and Semiconductors",
+          "objectives": [
+            "Explain de Broglie's hypothesis of matter waves.",
+            "Describe p-type and n-type semiconductors.",
+            "Explain the working of a p-n junction diode and transistor."
           ]
         }
       ]

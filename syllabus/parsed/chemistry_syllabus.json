@@ -6,24 +6,27 @@
       "name": "Separation of Mixtures and Purification of Chemical Substances",
       "subtopics": [
         {
-          "name": "Pure and impure substances",
+          "name": "Pure and Impure Substances",
           "objectives": [
-            "Distinguish between pure and impure substances.",
-            "Use boiling and melting points as criteria for purity."
+            "Distinguish between pure and impure substances using boiling and melting points.",
+            "Differentiate between elements, compounds, and mixtures.",
+            "Distinguish between chemical and physical changes."
           ]
         },
         {
-          "name": "Elements, compounds and mixtures",
+          "name": "Separation Techniques",
           "objectives": [
-            "Distinguish between elements, compounds, and mixtures.",
-            "Differentiate between chemical and physical changes."
+            "Identify appropriate separation methods for different mixtures.",
+            "Describe the principles of distillation, filtration, and chromatography.",
+            "Explain sublimation, crystallization, and solvent extraction."
           ]
         },
         {
-          "name": "Separation processes",
+          "name": "Purification Methods",
           "objectives": [
-            "Identify properties of mixture components.",
-            "Specify principles involved in each separation method."
+            "Explain criteria for purity of substances.",
+            "Describe applications of fractional distillation and column chromatography.",
+            "Determine purity using melting and boiling point data."
           ]
         }
       ]
@@ -33,46 +36,21 @@
       "name": "Chemical Combination",
       "subtopics": [
         {
-          "name": "Laws of chemical combination",
+          "name": "Laws of Chemical Combination",
           "objectives": [
-            "Perform calculations based on laws of chemical combination."
+            "State and apply the law of conservation of mass.",
+            "Apply the law of definite proportions in calculations.",
+            "Use the law of multiple proportions to identify compounds."
           ]
         },
         {
-          "name": "i. Law of definite proportions (constant composition).",
+          "name": "Mole Concept and Stoichiometry",
           "objectives": [
-            "Use mole concept in stoichiometric calculations."
+            "Define the mole and calculate molar mass.",
+            "Use Avogadro's number in particle calculations.",
+            "Perform stoichiometric calculations using mole ratios.",
+            "Calculate percentage composition and empirical/molecular formulae."
           ]
-        },
-        {
-          "name": "ii. Law of multiple proportions.",
-          "objectives": [
-            "Relate Avogadro's number to particle quantities."
-          ]
-        },
-        {
-          "name": "iii. Law of conservation of matter.",
-          "objectives": []
-        },
-        {
-          "name": "iv. Law of reciprocal proportions.",
-          "objectives": []
-        },
-        {
-          "name": "Mole concept and Avogadro's number",
-          "objectives": []
-        },
-        {
-          "name": "i. Definition of mole and molar mass.",
-          "objectives": []
-        },
-        {
-          "name": "ii. Avogadro's number and its significance.",
-          "objectives": []
-        },
-        {
-          "name": "iii. Calculations involving moles.",
-          "objectives": []
         }
       ]
     },
@@ -81,46 +59,28 @@
       "name": "Kinetic Theory of Matter and Gas Laws",
       "subtopics": [
         {
-          "name": "Kinetic theory",
+          "name": "Kinetic Theory and States of Matter",
           "objectives": [
-            "Use kinetic theory to explain gas behavior."
+            "State the assumptions of the kinetic theory of matter.",
+            "Explain properties of solids, liquids, and gases using kinetic theory.",
+            "Describe Brownian motion and its significance."
           ]
         },
         {
-          "name": "i. Assumptions of kinetic theory.",
+          "name": "Gas Laws",
           "objectives": [
-            "Solve problems involving gas laws."
+            "Apply Boyle's law, Charles's law, and the pressure law.",
+            "Use Graham's law of diffusion in calculations.",
+            "Apply Dalton's law of partial pressures."
           ]
         },
         {
-          "name": "ii. Explanation of states of matter (solid, liquid, gas).",
+          "name": "Ideal Gas Equation",
           "objectives": [
-            "Perform calculations with ideal gas equation."
+            "Derive and apply the general gas equation.",
+            "Use PV = nRT in calculations.",
+            "Distinguish ideal gas behaviour from real gas behaviour."
           ]
-        },
-        {
-          "name": "iii. Brownian motion and diffusion.",
-          "objectives": []
-        },
-        {
-          "name": "Gas laws",
-          "objectives": []
-        },
-        {
-          "name": "i. Boyle's law, Charles's law, pressure law.",
-          "objectives": []
-        },
-        {
-          "name": "ii. General gas equation and ideal gas equation (PV = nRT).",
-          "objectives": []
-        },
-        {
-          "name": "iii. Dalton's law of partial pressures.",
-          "objectives": []
-        },
-        {
-          "name": "iv. Graham's law of diffusion.",
-          "objectives": []
         }
       ]
     },
@@ -129,42 +89,28 @@
       "name": "Atomic Structure and Bonding",
       "subtopics": [
         {
-          "name": "Atomic structure",
+          "name": "Atomic Structure",
           "objectives": [
-            "Describe atomic structure and electron configuration."
+            "Describe the structure of the atom (protons, neutrons, electrons).",
+            "Explain atomic number, mass number, and isotopes.",
+            "Write electron configurations for elements in the first three periods."
           ]
         },
         {
-          "name": "i. Gross features of atom (protons, neutrons, electrons).",
+          "name": "Types of Chemical Bonding",
           "objectives": [
-            "Explain types of bonding and their properties."
+            "Explain ionic, covalent, metallic, and hydrogen bonding.",
+            "Describe van der Waals forces and their effects.",
+            "Relate bond type to physical properties of substances."
           ]
         },
         {
-          "name": "ii. Atomic number, mass number, isotopes.",
+          "name": "Molecular Shapes and Intermolecular Forces",
           "objectives": [
-            "Predict shapes of simple molecules."
+            "Predict shapes of simple molecules (linear, tetrahedral, pyramidal, bent).",
+            "Explain electronegativity and polarity of bonds.",
+            "Describe effects of intermolecular forces on physical properties."
           ]
-        },
-        {
-          "name": "iii. Electron configuration and orbitals.",
-          "objectives": []
-        },
-        {
-          "name": "Bonding",
-          "objectives": []
-        },
-        {
-          "name": "i. Ionic, covalent, metallic, hydrogen, and van der Waals bonds.",
-          "objectives": []
-        },
-        {
-          "name": "ii. Shapes of simple molecules (linear, non-linear, tetrahedral, pyramidal).",
-          "objectives": []
-        },
-        {
-          "name": "iii. Intermolecular forces.",
-          "objectives": []
         }
       ]
     },
@@ -173,48 +119,28 @@
       "name": "Air, Water, Solubility",
       "subtopics": [
         {
-          "name": "Air",
+          "name": "Composition and Properties of Air",
           "objectives": [
-            "Explain composition and uses of air and water."
+            "State the percentage composition of air.",
+            "Describe methods of separating air components.",
+            "Explain rusting and its prevention."
           ]
         },
         {
-          "name": "i. Composition of air.",
+          "name": "Water and Its Properties",
           "objectives": [
-            "Describe solubility and related calculations."
+            "Describe the structure and unique properties of water.",
+            "Distinguish between hard and soft water.",
+            "Explain methods of water purification and treatment."
           ]
         },
         {
-          "name": "ii. Separation of air components.",
-          "objectives": []
-        },
-        {
-          "name": "iii. Uses and pollution.",
-          "objectives": []
-        },
-        {
-          "name": "Water",
-          "objectives": []
-        },
-        {
-          "name": "i. Structure and properties.",
-          "objectives": []
-        },
-        {
-          "name": "ii. Hardness, treatment, and purification.",
-          "objectives": []
-        },
-        {
-          "name": "Solubility",
-          "objectives": []
-        },
-        {
-          "name": "i. Solubility curves and factors affecting solubility.",
-          "objectives": []
-        },
-        {
-          "name": "ii. Saturated, unsaturated, and supersaturated solutions.",
-          "objectives": []
+          "name": "Solubility and Solutions",
+          "objectives": [
+            "Define solubility and interpret solubility curves.",
+            "Distinguish between saturated, unsaturated, and supersaturated solutions.",
+            "Calculate solubility from given data."
+          ]
         }
       ]
     },
@@ -223,20 +149,20 @@
       "name": "Environmental Pollution",
       "subtopics": [
         {
-          "name": "Sources and types of pollution (air, water, soil).",
+          "name": "Types and Sources of Pollution",
           "objectives": [
-            "Identify sources and effects of pollution."
+            "Identify major air, water, and soil pollutants.",
+            "Explain the causes of acid rain and the greenhouse effect.",
+            "Describe sources of industrial and domestic pollutants."
           ]
         },
         {
-          "name": "Effects on health and environment.",
+          "name": "Effects and Control of Pollution",
           "objectives": [
-            "Suggest control methods."
+            "Describe health and environmental effects of pollutants.",
+            "Suggest methods to control air, water, and soil pollution.",
+            "Explain the role of legislation in pollution control."
           ]
-        },
-        {
-          "name": "Control measures.",
-          "objectives": []
         }
       ]
     },
@@ -245,54 +171,50 @@
       "name": "Acids, Bases, and Salts",
       "subtopics": [
         {
-          "name": "Definitions and properties",
+          "name": "Acids and Bases",
           "objectives": [
-            "Distinguish between acid-base theories."
+            "Compare Arrhenius, Bronsted-Lowry, and Lewis acid-base theories.",
+            "Identify properties of acids and bases.",
+            "Use indicators and pH to determine acid-base character."
           ]
         },
         {
-          "name": "i. Arrhenius, Bronsted-Lowry, Lewis concepts.",
+          "name": "Salts and Neutralization",
           "objectives": [
-            "Prepare and classify salts."
+            "Classify salts as normal, acidic, or basic.",
+            "Describe methods of preparing salts.",
+            "Perform neutralization calculations using titration data."
           ]
         },
         {
-          "name": "ii. Properties of acids and bases.",
-          "objectives": []
-        },
-        {
-          "name": "Salts",
-          "objectives": []
-        },
-        {
-          "name": "i. Types (normal, acidic, basic).",
-          "objectives": []
-        },
-        {
-          "name": "ii. Preparation and uses.",
-          "objectives": []
+          "name": "Buffer Solutions and Hydrolysis",
+          "objectives": [
+            "Explain hydrolysis of salts in water.",
+            "Describe the action of a buffer solution.",
+            "Calculate pH of buffer solutions."
+          ]
         }
       ]
     },
     {
       "number": 8,
-      "name": "Oxidation and Reduction – Redox",
+      "name": "Oxidation and Reduction - Redox",
       "subtopics": [
         {
-          "name": "Oxidation and reduction definitions.",
+          "name": "Oxidation and Reduction Concepts",
           "objectives": [
-            "Identify redox processes."
+            "Define oxidation and reduction in terms of electron transfer and oxidation state.",
+            "Identify oxidizing and reducing agents in reactions.",
+            "Assign oxidation numbers to elements in compounds."
           ]
         },
         {
-          "name": "Oxidizing and reducing agents.",
+          "name": "Redox Reactions and Balancing",
           "objectives": [
-            "Balance redox equations."
+            "Construct and balance half-equations for redox reactions.",
+            "Identify common redox processes (rusting, bleaching, combustion).",
+            "Balance redox equations using the ion-electron method."
           ]
-        },
-        {
-          "name": "Balancing redox equations.",
-          "objectives": []
         }
       ]
     },
@@ -301,20 +223,20 @@
       "name": "Electrolysis",
       "subtopics": [
         {
-          "name": "Faraday's laws.",
+          "name": "Principles of Electrolysis",
           "objectives": [
-            "Apply Faraday's laws."
+            "Explain electrolytic conduction in terms of ion movement.",
+            "Identify products at electrodes during electrolysis.",
+            "Distinguish between electrolytic and electrochemical cells."
           ]
         },
         {
-          "name": "Electrolytic and electrochemical cells.",
+          "name": "Faraday's Laws and Applications",
           "objectives": [
-            "Explain electrolysis applications."
+            "State and apply Faraday's first and second laws of electrolysis.",
+            "Calculate mass deposited or volume of gas evolved during electrolysis.",
+            "Describe industrial applications: electroplating, extraction, and purification."
           ]
-        },
-        {
-          "name": "Applications (electroplating, purification).",
-          "objectives": []
         }
       ]
     },
@@ -323,24 +245,20 @@
       "name": "Energy Changes",
       "subtopics": [
         {
-          "name": "Exothermic and endothermic reactions.",
+          "name": "Exothermic and Endothermic Reactions",
           "objectives": [
-            "Determine heat changes in processes."
+            "Distinguish between exothermic and endothermic reactions.",
+            "Interpret energy diagrams for chemical reactions.",
+            "Explain activation energy and the role of catalysts."
           ]
         },
         {
-          "name": "Enthalpy changes (∆H).",
+          "name": "Enthalpy Changes and Hess Law",
           "objectives": [
-            "Relate ∆H, ∆S, ∆G to spontaneity."
+            "Calculate standard enthalpy changes of combustion, formation, and reaction.",
+            "Apply Hess law to calculate unknown enthalpy changes.",
+            "Use bond energies to estimate enthalpy changes."
           ]
-        },
-        {
-          "name": "Hess's law.",
-          "objectives": []
-        },
-        {
-          "name": "Entropy and Gibbs free energy.",
-          "objectives": []
         }
       ]
     },
@@ -349,20 +267,20 @@
       "name": "Rates of Chemical Reaction",
       "subtopics": [
         {
-          "name": "Factors affecting rates (concentration, temperature, catalyst).",
+          "name": "Factors Affecting Reaction Rates",
           "objectives": [
-            "Explain factors affecting reaction rates."
+            "Explain how concentration, temperature, surface area, and catalysts affect rate.",
+            "Interpret rate-time and concentration-time graphs.",
+            "Describe the role of catalysts in industrial processes."
           ]
         },
         {
-          "name": "Collision theory.",
+          "name": "Collision Theory and Rate Equations",
           "objectives": [
-            "Interpret rate graphs."
+            "Explain reaction rate using collision theory.",
+            "Define rate constant and order of reaction.",
+            "Determine rate from experimental data."
           ]
-        },
-        {
-          "name": "Rate equations.",
-          "objectives": []
         }
       ]
     },
@@ -371,20 +289,20 @@
       "name": "Chemical Equilibrium",
       "subtopics": [
         {
-          "name": "Reversible reactions.",
+          "name": "Dynamic Equilibrium and Le Chatelier Principle",
           "objectives": [
-            "Apply Le Chatelier's principle."
+            "Define dynamic equilibrium for reversible reactions.",
+            "Apply Le Chatelier principle to predict equilibrium shifts.",
+            "Explain the effect of temperature, pressure, and concentration on equilibrium."
           ]
         },
         {
-          "name": "Le Chatelier's principle.",
+          "name": "Equilibrium Constants",
           "objectives": [
-            "Calculate equilibrium constants."
+            "Write expressions for Kc and Kp.",
+            "Calculate equilibrium concentrations from Kc.",
+            "Relate equilibrium constant to the position of equilibrium."
           ]
-        },
-        {
-          "name": "Equilibrium constant (Kc, Kp).",
-          "objectives": []
         }
       ]
     },
@@ -393,14 +311,28 @@
       "name": "Non-metals and Their Compounds",
       "subtopics": [
         {
-          "name": "Hydrogen, halogens, oxygen, nitrogen, carbon.",
+          "name": "Halogens and Their Compounds",
           "objectives": [
-            "Describe properties and reactions of non-metals."
+            "Describe the properties and reactions of halogens.",
+            "Explain the preparation and uses of hydrogen halides.",
+            "Describe bleaching and disinfection using chlorine."
           ]
         },
         {
-          "name": "Properties, preparation, and uses of compounds.",
-          "objectives": []
+          "name": "Oxygen, Nitrogen, and Carbon Compounds",
+          "objectives": [
+            "Describe the preparation and properties of oxygen, nitrogen oxides, and ammonia.",
+            "Explain the nitrogen cycle and industrial uses of nitrogen compounds.",
+            "Describe allotropes of carbon (diamond, graphite, fullerene) and their uses."
+          ]
+        },
+        {
+          "name": "Sulfur and Phosphorus Compounds",
+          "objectives": [
+            "Describe allotropes of sulfur and reactions of sulfur dioxide and sulfuric acid.",
+            "Explain the industrial preparation of sulfuric acid (Contact process).",
+            "Describe properties and uses of phosphorus compounds."
+          ]
         }
       ]
     },
@@ -409,20 +341,28 @@
       "name": "Metals and Their Compounds",
       "subtopics": [
         {
-          "name": "General properties of metals.",
+          "name": "Properties and Reactivity of Metals",
           "objectives": [
-            "Explain reactivity series and extraction."
+            "Describe general physical and chemical properties of metals.",
+            "Use the reactivity series to predict displacement reactions.",
+            "Explain the reaction of metals with water, acids, and oxygen."
           ]
         },
         {
-          "name": "Alkali, alkaline earth, transition metals.",
+          "name": "Extraction of Metals",
           "objectives": [
-            "Describe properties of metals."
+            "Explain methods of metal extraction (electrolysis, reduction by carbon).",
+            "Describe the blast furnace extraction of iron.",
+            "Explain the electrolytic extraction of aluminium."
           ]
         },
         {
-          "name": "Extraction and uses.",
-          "objectives": []
+          "name": "Metal Compounds and Alloys",
+          "objectives": [
+            "Describe properties and uses of sodium, calcium, and aluminium compounds.",
+            "Explain corrosion and its prevention.",
+            "Describe common alloys (steel, brass, bronze) and their uses."
+          ]
         }
       ]
     },
@@ -431,24 +371,36 @@
       "name": "Organic Compounds",
       "subtopics": [
         {
-          "name": "Classification (hydrocarbons, functional groups).",
+          "name": "Hydrocarbons",
           "objectives": [
-            "Name and classify organic compounds."
+            "Name and classify alkanes, alkenes, and alkynes using IUPAC nomenclature.",
+            "Describe properties and reactions of alkanes (substitution) and alkenes (addition).",
+            "Explain isomerism and homologous series."
           ]
         },
         {
-          "name": "Nomenclature and isomerism.",
+          "name": "Functional Group Compounds",
           "objectives": [
-            "Write reaction mechanisms."
+            "Describe the properties and reactions of alcohols, aldehydes, ketones, and carboxylic acids.",
+            "Explain esterification and saponification reactions.",
+            "Identify functional groups from chemical tests."
           ]
         },
         {
-          "name": "Alkanes, alkenes, alkynes, alcohols, carboxylic acids, etc.",
-          "objectives": []
+          "name": "Reactions of Organic Compounds",
+          "objectives": [
+            "Describe addition, substitution, elimination, and condensation reactions.",
+            "Explain fermentation and its industrial applications.",
+            "Describe the cracking of petroleum fractions."
+          ]
         },
         {
-          "name": "Reactions (addition, substitution, polymerization).",
-          "objectives": []
+          "name": "Polymers and Industrial Organic Chemistry",
+          "objectives": [
+            "Distinguish between addition and condensation polymers.",
+            "Give examples and uses of natural and synthetic polymers.",
+            "Describe fractional distillation of crude oil and uses of fractions."
+          ]
         }
       ]
     },
@@ -457,21 +409,27 @@
       "name": "Chemistry and Industry",
       "subtopics": [
         {
-          "name": "Chemical industries (types, raw materials).",
+          "name": "Industrial Processes",
           "objectives": [
-            "Classify industries and raw materials."
+            "Describe the Haber process for ammonia production and its conditions.",
+            "Explain the Contact process for sulfuric acid production.",
+            "Describe the Solvay process for sodium carbonate."
           ]
         },
         {
-          "name": "Processes (Haber, Contact).",
+          "name": "Petroleum and Its Products",
           "objectives": [
-            "Relate processes to biotechnology."
+            "Describe fractional distillation of petroleum and uses of fractions.",
+            "Explain cracking and reforming of hydrocarbons.",
+            "Describe environmental impacts of petroleum use."
           ]
         },
         {
-          "name": "Biotechnology.",
+          "name": "Biotechnology and Fertilizers",
           "objectives": [
-            "This order builds knowledge progressively from basics to advanced and applied topics. Study with recommended textbooks like New School Chemistry by O.Y. Ababio for deeper understanding. Good luck with your preparation!"
+            "Explain the role of microorganisms in industrial processes.",
+            "Describe the production and uses of fertilizers.",
+            "Discuss the environmental impact of fertilizer use."
           ]
         }
       ]
