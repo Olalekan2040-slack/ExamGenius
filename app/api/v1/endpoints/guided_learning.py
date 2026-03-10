@@ -876,6 +876,36 @@ _TOPIC_FALLBACKS = {
     "Environmental Pollution": ["Air, Water, Solubility"],
     "Rates of Chemical Reaction": ["Chemical Equilibrium", "Energy Changes"],
     "Chemistry and Industry": ["Non-metals and Their Compounds", "Metals and Their Compounds"],
+    # Biology fallbacks
+    "Growth": ["Reproduction", "Living Organisms"],
+    "Internal Structure of a Flowering Plant": ["Nutrition", "Transport"],
+    "Excretion": ["Nutrition", "Transport"],
+    "Support and Movement": ["Respiration", "Excretion"],
+    "Evolution and Advancement of Organisms": ["Variety of Organisms", "Genetics and Variation"],
+    "Co-ordination and Control": ["Genetics and Variation", "Reproduction"],
+    # Government fallbacks
+    "Pre-colonial Polities": ["Basic Concepts in Government", "Structures of Governance"],
+    "Imperialist Penetration": ["Process of Decolonization", "Constitutional Development in Nigeria"],
+    "Process of Decolonization": ["Constitutional Development in Nigeria", "Imperialist Penetration"],
+    "Constitutional Development in Nigeria": ["Post-Independence Constitutions"],
+    "Public Commissions in Nigeria": [
+        "Institutions of Government in Post-Independence Nigeria",
+        "Political Parties in Post-Independence Nigeria",
+    ],
+    "Political Parties in Post-Independence Nigeria": [
+        "Political Parties and Party Systems",
+        "Structure and Workings of Nigerian Federalism",
+    ],
+    "The Military in Nigerian Politics": [
+        "Political Parties in Post-Independence Nigeria",
+        "Post-Independence Constitutions",
+    ],
+    "Foreign Policy": ["Nigeria's Foreign Policy", "Relations with African Countries"],
+    "Relations with African Countries": ["Nigeria's Foreign Policy", "International Organizations"],
+    "International Organizations": ["Nigeria's Foreign Policy", "Relations with African Countries"],
+    "Public Corporations and Parastatals": ["The Civil Service", "Local Government"],
+    "Processes of Legislation": ["Arms of Government", "Principles of Democratic Government"],
+    "Public Opinion": ["Pressure Groups", "Political Parties and Party Systems"],
 }
 
 

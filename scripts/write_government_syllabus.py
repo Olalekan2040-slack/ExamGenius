@@ -1,0 +1,386 @@
+"""Writes the rebuilt Government syllabus JSON with 31 proper topics."""
+import json, os
+
+data = {
+  "subject": "Government",
+  "topics": [
+    {"number": 1, "name": "Basic Concepts in Government", "subtopics": [
+      {"name": "Power, Authority, Legitimacy, and Sovereignty", "objectives": [
+        "Define power, authority, legitimacy, and sovereignty.",
+        "Distinguish between traditional, charismatic, and legal-rational authority.",
+        "Explain how legitimacy sustains political sovereignty."
+      ]},
+      {"name": "State, Society, Nation, and Political Processes", "objectives": [
+        "Distinguish between society, state, nation, and nation-state.",
+        "Explain political socialization, participation, and political culture.",
+        "Analyze how political culture shapes governance and citizen behavior."
+      ]}
+    ]},
+    {"number": 2, "name": "Forms of Government", "subtopics": [
+      {"name": "Democratic and Non-Democratic Systems", "objectives": [
+        "Distinguish between democracy, monarchy, oligarchy, aristocracy, and theocracy.",
+        "Compare direct and representative democracy.",
+        "Evaluate the merits and demerits of each form of government."
+      ]},
+      {"name": "Totalitarianism, Fascism, and Military Government", "objectives": [
+        "Explain the features of totalitarian and fascist governments.",
+        "Assess the characteristics and impact of military rule.",
+        "Compare authoritarian and democratic governance models."
+      ]}
+    ]},
+    {"number": 3, "name": "Arms of Government", "subtopics": [
+      {"name": "Legislature and Executive", "objectives": [
+        "Explain the structure, powers, and functions of the legislature.",
+        "Describe the roles and powers of the executive arm.",
+        "Analyze the relationship between the legislature and executive."
+      ]},
+      {"name": "The Judiciary and Separation of Powers", "objectives": [
+        "Describe the structure and functions of the judiciary.",
+        "Explain the doctrine of separation of powers and checks and balances.",
+        "Evaluate the independence of the judiciary in democratic governance."
+      ]}
+    ]},
+    {"number": 4, "name": "Structures of Governance", "subtopics": [
+      {"name": "Unitary and Federal Systems", "objectives": [
+        "Distinguish between unitary and federal systems of government.",
+        "Identify the features and merits of each structure.",
+        "Evaluate examples of unitary and federal states."
+      ]},
+      {"name": "Confederal System and Devolution of Power", "objectives": [
+        "Explain the features of a confederal system.",
+        "Discuss devolution of power and its effects.",
+        "Compare devolved, federal, and unitary governance."
+      ]}
+    ]},
+    {"number": 5, "name": "Systems of Governance", "subtopics": [
+      {"name": "Presidential and Parliamentary Systems", "objectives": [
+        "Distinguish between the presidential and parliamentary systems.",
+        "Identify the key features, merits, and demerits of each.",
+        "Describe examples of countries using each system."
+      ]},
+      {"name": "Constitutional Monarchy and Hybrid Systems", "objectives": [
+        "Explain the concept of constitutional monarchy.",
+        "Distinguish between hybrid governance systems.",
+        "Assess the effectiveness of different systems of governance."
+      ]}
+    ]},
+    {"number": 6, "name": "Political Ideologies", "subtopics": [
+      {"name": "Capitalism, Socialism, and Communism", "objectives": [
+        "Define and distinguish capitalism, socialism, and communism.",
+        "Compare modes of production under each ideology.",
+        "Assess the practical impact of these ideologies on governance."
+      ]},
+      {"name": "Liberalism, Conservatism, and Fascism", "objectives": [
+        "Explain the core tenets of liberalism, conservatism, and fascism.",
+        "Contrast liberal and conservative approaches to governance.",
+        "Evaluate how political ideologies shape economic and social policy."
+      ]}
+    ]},
+    {"number": 7, "name": "Constitution", "subtopics": [
+      {"name": "Definition, Sources, and Functions of Constitutions", "objectives": [
+        "Define a constitution and identify its sources.",
+        "Explain the functions of a constitution in a democratic state.",
+        "Distinguish between written and unwritten constitutions."
+      ]},
+      {"name": "Rigid and Flexible Constitutions", "objectives": [
+        "Compare rigid and flexible constitutions with examples.",
+        "Explain the process of constitutional amendment.",
+        "Evaluate the advantages and disadvantages of each constitutional type."
+      ]}
+    ]},
+    {"number": 8, "name": "Principles of Democratic Government", "subtopics": [
+      {"name": "Rule of Law, Fundamental Rights, and Constitutionalism", "objectives": [
+        "Identify and explain the principles of democratic government.",
+        "Describe the rule of law and its application in governance.",
+        "Explain the protection of fundamental human rights."
+      ]},
+      {"name": "Free and Fair Elections, and Accountability", "objectives": [
+        "Explain the importance of free and fair elections in democracy.",
+        "Describe mechanisms of accountability and transparency.",
+        "Assess how democratic principles are applied in practice."
+      ]}
+    ]},
+    {"number": 9, "name": "Processes of Legislation", "subtopics": [
+      {"name": "Stages of a Bill", "objectives": [
+        "Outline the stages involved in passing a bill into law.",
+        "Distinguish between public and private bills.",
+        "Explain the roles of the two legislative chambers in enacting laws."
+      ]},
+      {"name": "Types of Laws and Legislative Powers", "objectives": [
+        "Identify different types of laws (statutory, delegated, customary).",
+        "Explain the concept of delegated legislation.",
+        "Assess the limits and scope of legislative authority."
+      ]}
+    ]},
+    {"number": 10, "name": "Citizenship", "subtopics": [
+      {"name": "Acquisition and Loss of Citizenship", "objectives": [
+        "Differentiate between methods of acquiring citizenship (birth, naturalization, registration).",
+        "Explain conditions under which citizenship may be revoked.",
+        "Distinguish between citizens, aliens, and stateless persons."
+      ]},
+      {"name": "Rights, Duties, and Obligations", "objectives": [
+        "Specify the rights and responsibilities of a citizen.",
+        "Assess the obligations of the state to its citizens.",
+        "Evaluate civic duties and their importance to national development."
+      ]}
+    ]},
+    {"number": 11, "name": "The Electoral Process", "subtopics": [
+      {"name": "Franchise and Electoral Systems", "objectives": [
+        "Distinguish between universal adult suffrage and restricted franchise.",
+        "Identify and explain types of electoral systems (proportional, first-past-the-post).",
+        "Compare the merits and demerits of different electoral systems."
+      ]},
+      {"name": "Electoral Commissions and Electoral Processes", "objectives": [
+        "Describe the role of the electoral commission in managing elections.",
+        "Outline the stages of the electoral process from voting to declaration.",
+        "Analyze factors that affect the credibility and integrity of elections."
+      ]}
+    ]},
+    {"number": 12, "name": "Political Parties and Party Systems", "subtopics": [
+      {"name": "Functions and Organization of Political Parties", "objectives": [
+        "Assess the role and importance of political parties in democracy.",
+        "Describe the typical structure and organization of a political party.",
+        "Explain how parties recruit members and formulate policies."
+      ]},
+      {"name": "Party Systems: One-Party, Two-Party, Multi-Party", "objectives": [
+        "Distinguish between one-party, two-party, and multi-party systems.",
+        "Compare the advantages and disadvantages of each party system.",
+        "Give examples of countries associated with each party system."
+      ]}
+    ]},
+    {"number": 13, "name": "Pressure Groups", "subtopics": [
+      {"name": "Functions and Modus Operandi of Pressure Groups", "objectives": [
+        "Evaluate the functions and methods of pressure groups.",
+        "Distinguish between protective and promotional pressure groups.",
+        "Analyze examples of pressure groups in Nigeria and elsewhere."
+      ]},
+      {"name": "Pressure Groups vs Political Parties", "objectives": [
+        "Distinguish between pressure groups and political parties.",
+        "Assess the influence of pressure groups on government policy.",
+        "Discuss the limitations and criticism of pressure group activities."
+      ]}
+    ]},
+    {"number": 14, "name": "Public Opinion", "subtopics": [
+      {"name": "Formation and Measurement of Public Opinion", "objectives": [
+        "Compare methods of assessing public opinion (polls, surveys, media).",
+        "Analyze how public opinion is formed and shaped.",
+        "Assess the functions of public opinion in democratic governance."
+      ]},
+      {"name": "Limitations and Role of the Media", "objectives": [
+        "Analyze the limitations of public opinion as a political force.",
+        "Explain the role of the mass media in shaping public opinion.",
+        "Evaluate propaganda and its effect on public political attitudes."
+      ]}
+    ]},
+    {"number": 15, "name": "The Civil Service", "subtopics": [
+      {"name": "Structure, Functions, and Principles of the Civil Service", "objectives": [
+        "Analyze the significance and functions of the civil service in governance.",
+        "Describe the hierarchical structure of the civil service.",
+        "Explain the principles of neutrality, permanence, and anonymity."
+      ]},
+      {"name": "Civil Service Reforms and Challenges", "objectives": [
+        "Identify major reforms in the Nigerian civil service.",
+        "Assess the challenges facing the civil service.",
+        "Evaluate the impact of bureaucracy on government efficiency."
+      ]}
+    ]},
+    {"number": 16, "name": "Pre-colonial Polities", "subtopics": [
+      {"name": "Hausa, Yoruba, and Igbo Pre-colonial Systems", "objectives": [
+        "Appreciate the effectiveness of the pre-colonial political systems.",
+        "Describe the governance structures of Hausa Emirates, Yoruba kingdoms, and Igbo communities.",
+        "Compare centralized and segmentary pre-colonial systems."
+      ]},
+      {"name": "Other Nigerian Pre-colonial States", "objectives": [
+        "Describe pre-colonial governance in Benin, Kanuri, Nupe, and Tiv societies.",
+        "Compare monarchical and republican elements in pre-colonial governance.",
+        "Assess the legacy of pre-colonial political institutions on modern Nigeria."
+      ]}
+    ]},
+    {"number": 17, "name": "Imperialist Penetration", "subtopics": [
+      {"name": "British and French Colonial Policies", "objectives": [
+        "Trace the processes of imperialist penetration in West Africa.",
+        "Assess the impact of British indirect rule and French assimilation policies.",
+        "Distinguish between British and French colonial administrative practices."
+      ]},
+      {"name": "Amalgamation and Colonial Administration in Nigeria", "objectives": [
+        "Explain the amalgamation of Northern and Southern Nigeria in 1914.",
+        "Describe the structure of British colonial government in Nigeria.",
+        "Assess the social and political impact of colonialism on Nigerian society."
+      ]}
+    ]},
+    {"number": 18, "name": "Process of Decolonization", "subtopics": [
+      {"name": "Nationalism and Independence Movements", "objectives": [
+        "Evaluate the process of decolonization in Nigeria and Africa.",
+        "Assess the roles of nationalist leaders and political parties.",
+        "Analyze the significance of Pan-Africanism and the Back-to-Africa movement."
+      ]},
+      {"name": "External Forces and the Push for Independence", "objectives": [
+        "Assess the impact of the Second World War on African independence movements.",
+        "Explain the role of the United Nations in the decolonization process.",
+        "Evaluate how international pressure contributed to Nigeria's independence."
+      ]}
+    ]},
+    {"number": 19, "name": "Constitutional Development in Nigeria", "subtopics": [
+      {"name": "Clifford, Richards, and Macpherson Constitutions", "objectives": [
+        "Compare the Clifford (1922), Richards (1946), and Macpherson (1951) constitutions.",
+        "Identify the major features and limitations of each constitution.",
+        "Analyze how each constitution moved Nigeria toward self-governance."
+      ]},
+      {"name": "Lyttleton Constitution and Independence Constitution", "objectives": [
+        "Describe the Lyttleton Constitution of 1954 and its federal provisions.",
+        "Explain the Independence Constitution of 1960.",
+        "Assess the role of constitutional development in Nigeria's independence."
+      ]}
+    ]},
+    {"number": 20, "name": "Post-Independence Constitutions", "subtopics": [
+      {"name": "Republican Constitution of 1963 and Decree 34 of 1966", "objectives": [
+        "Assess the workings of the 1963 Republican Constitution.",
+        "Describe the impact of the Unification Decree of 1966.",
+        "Identify major political crises that triggered constitutional changes."
+      ]},
+      {"name": "1979, 1989, and 1999 Constitutions", "objectives": [
+        "Compare the 1979 and 1999 constitutions as presidential systems.",
+        "Explain the provisions of the 1989 and 1995 draft constitutions.",
+        "Evaluate recurring constitutional issues in post-independence Nigeria."
+      ]}
+    ]},
+    {"number": 21, "name": "Institutions of Government in Post-Independence Nigeria", "subtopics": [
+      {"name": "Legislature, Executive, and Judiciary in Post-Independence Nigeria", "objectives": [
+        "Evaluate the operations of the National Assembly and State Assemblies.",
+        "Describe the powers and functions of the Presidency and State Governors.",
+        "Assess the role of the judiciary in post-independence governance."
+      ]},
+      {"name": "Security Agencies and Administrative Bodies", "objectives": [
+        "Explain the roles of the Armed Forces, Police, and NSCDC.",
+        "Describe the functions of key administrative agencies.",
+        "Assess the effectiveness of institutional governance in Nigeria."
+      ]}
+    ]},
+    {"number": 22, "name": "Public Commissions in Nigeria", "subtopics": [
+      {"name": "Functions and Operations of Public Commissions", "objectives": [
+        "Evaluate the operations of major public commissions (INEC, RMAFC, NPC, etc.).",
+        "Identify the roles and powers of each commission.",
+        "Assess the importance of independent commissions in democratic governance."
+      ]},
+      {"name": "Challenges and Constraints of Public Commissions", "objectives": [
+        "Assess the problems facing public commissions in Nigeria.",
+        "Identify constraints such as executive interference and funding.",
+        "Propose ways to strengthen the independence of public commissions."
+      ]}
+    ]},
+    {"number": 23, "name": "Political Parties in Post-Independence Nigeria", "subtopics": [
+      {"name": "First and Second Republic Political Parties", "objectives": [
+        "Contrast political processes in the First and Second Republics.",
+        "Evaluate the ideologies, structure, and composition of major parties (NCNC, AG, NPC, NPN, UPN, NPP).",
+        "Assess the role of ethnicity and regionalism in Nigerian party politics."
+      ]},
+      {"name": "Third and Fourth Republic Political Parties", "objectives": [
+        "Describe the party transition programs of Babangida and Abacha.",
+        "Identify dominant political parties of the Fourth Republic (PDP, APC, etc.).",
+        "Evaluate the evolution of multiparty democracy in modern Nigeria."
+      ]}
+    ]},
+    {"number": 24, "name": "Structure and Workings of Nigerian Federalism", "subtopics": [
+      {"name": "Features and Principles of Nigerian Federalism", "objectives": [
+        "Examine the key features and workings of Nigerian federalism.",
+        "Identify powers assigned to federal, state, and concurrent legislative lists.",
+        "Describe the revenue allocation formula and its evolution."
+      ]},
+      {"name": "Problems and Corrective Measures in Nigerian Federalism", "objectives": [
+        "Identify the major problems facing Nigerian federalism (resource control, imbalance).",
+        "Evaluate corrective measures adopted (state creation, constitutional conferences).",
+        "Assess the relationship between the federal and state governments."
+      ]}
+    ]},
+    {"number": 25, "name": "Public Corporations and Parastatals", "subtopics": [
+      {"name": "Operations and Purpose of Public Corporations", "objectives": [
+        "Examine the operations and economic rationale of public corporations.",
+        "Identify major Nigerian parastatals (NNPC, NERC, CBN, etc.).",
+        "Assess the role of public corporations in national development."
+      ]},
+      {"name": "Privatization and Commercialization", "objectives": [
+        "Identify the processes involved in privatization and commercialization.",
+        "Assess the economic importance and impact of privatization in Nigeria.",
+        "Evaluate arguments for and against the privatization of public enterprises."
+      ]}
+    ]},
+    {"number": 26, "name": "Local Government", "subtopics": [
+      {"name": "Evolution, Structure, and Functions of Local Government", "objectives": [
+        "Trace the evolution of local government in Nigeria from colonial times.",
+        "Describe the structure and functions of local government councils.",
+        "Explain the 1976 Local Government Reform and its significance."
+      ]},
+      {"name": "Problems and Reforms of Local Government", "objectives": [
+        "Identify the major problems faced by local governments (inadequate funding, state interference).",
+        "Evaluate the impact of local government reforms on grassroots governance.",
+        "Assess the relationship between local, state, and federal governments."
+      ]}
+    ]},
+    {"number": 27, "name": "The Military in Nigerian Politics", "subtopics": [
+      {"name": "Reasons for Military Intervention", "objectives": [
+        "Evaluate the reasons given for military intervention in Nigerian politics.",
+        "Identify constitutional provisions for civilian control of the military.",
+        "Assess the impact of coups on democratic governance in Nigeria."
+      ]},
+      {"name": "Achievements and Withdrawal of Military Rule", "objectives": [
+        "Assess the achievements and failures of military administrations.",
+        "Determine the conditions that necessitated military withdrawal from governance.",
+        "Evaluate the role of international pressure, civil society, and NADECO in the transition."
+      ]}
+    ]},
+    {"number": 28, "name": "Foreign Policy", "subtopics": [
+      {"name": "Definition and Determinants of Foreign Policy", "objectives": [
+        "Define foreign policy and distinguish it from domestic policy.",
+        "Identify and explain the determinants of foreign policy (geography, economy, ideology).",
+        "Evaluate the instruments used to implement foreign policy."
+      ]},
+      {"name": "Types and Goals of Foreign Policy", "objectives": [
+        "Distinguish between bilateral and multilateral foreign policy.",
+        "Explain the goals of foreign policy: security, economic cooperation, and diplomacy.",
+        "Assess the role of international law and diplomacy in foreign policy."
+      ]}
+    ]},
+    {"number": 29, "name": "Nigeria's Foreign Policy", "subtopics": [
+      {"name": "Objectives and Principles of Nigeria's Foreign Policy", "objectives": [
+        "Identify the major objectives of Nigeria's foreign policy.",
+        "Explain Nigeria's non-aligned posture during the Cold War.",
+        "Assess the principle of Africa as the centerpiece of Nigeria's foreign policy."
+      ]},
+      {"name": "Nigeria's Foreign Policy in Practice", "objectives": [
+        "Evaluate Nigeria's role in conflict resolution and peacekeeping.",
+        "Assess Nigeria's economic diplomacy and international trade relations.",
+        "Analyze changes in Nigeria's foreign policy from independence to present."
+      ]}
+    ]},
+    {"number": 30, "name": "Relations with African Countries", "subtopics": [
+      {"name": "Nigeria's Role in Continental African Affairs", "objectives": [
+        "Evaluate the role of Nigeria in continental affairs.",
+        "Describe Nigeria's contributions to OAU/AU, ECOWAS, and ECOMOG.",
+        "Assess the impact of Nigeria's foreign aid and technical cooperation in Africa."
+      ]},
+      {"name": "NEPAD and Regional Development", "objectives": [
+        "Assess the role of NEPAD in developing Africa.",
+        "Explain Nigeria's contributions to regional integration and development.",
+        "Evaluate challenges to African unity and Nigeria's diplomatic responses."
+      ]}
+    ]},
+    {"number": 31, "name": "International Organizations", "subtopics": [
+      {"name": "United Nations and its Specialized Agencies", "objectives": [
+        "Evaluate the structure, operations, and functions of the United Nations.",
+        "Identify the roles of key UN agencies (UNESCO, WHO, UNICEF, etc.).",
+        "Assess the UN's role in maintaining international peace and security."
+      ]},
+      {"name": "AU, ECOWAS, Commonwealth, and Other Bodies", "objectives": [
+        "Evaluate the operations of regional and international organizations (AU, ECOWAS, Commonwealth, Non-Aligned Movement).",
+        "Assess the role of these organizations in world affairs.",
+        "Appreciate the challenges of international organizations and how they can be overcome."
+      ]}
+    ]}
+  ]
+}
+
+out_path = os.path.join(os.path.dirname(__file__), '..', 'syllabus', 'parsed', 'government_syllabus.json')
+with open(out_path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print(f"Written {len(data['topics'])} topics to government_syllabus.json")

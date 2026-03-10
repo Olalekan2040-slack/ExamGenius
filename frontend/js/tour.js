@@ -58,6 +58,8 @@ class TourManager {
     /** Call this after dashboard renders — shows tour only to first-time users */
     maybeStart() {
         if (localStorage.getItem(TOUR_KEY)) return;
+        // Desktop only — skip tour on mobile/tablet devices
+        if (window.innerWidth < 1024 || 'ontouchstart' in window) return;
         // Small delay so the dashboard finishes painting
         setTimeout(() => this.start(), 600);
     }
