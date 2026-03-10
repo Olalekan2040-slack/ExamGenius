@@ -78,7 +78,8 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
             )
 
         # Normalize subject names (English variants) before validation
-        normalized_subjects = [normalize_subject_name(s) for s in request.subjects]
+        normalized_subjects = [
+            normalize_subject_name(s) for s in request.subjects]
 
         # Validate subjects exist, exclude "Literature", and require English
         if "Literature" in normalized_subjects:
@@ -201,7 +202,8 @@ async def get_cbt_questions(
 
         # Check expiry (handle both datetime and string formats)
         expires_val = session[2]
-        expires_dt = datetime.fromisoformat(expires_val) if isinstance(expires_val, str) else expires_val
+        expires_dt = datetime.fromisoformat(expires_val) if isinstance(
+            expires_val, str) else expires_val
         if expires_dt < datetime.utcnow():
             raise HTTPException(status_code=400, detail="Session expired")
 
@@ -231,7 +233,9 @@ async def get_cbt_questions(
 
             # All questions are from database
             cursor.execute("""
-                SELECT q.id, q.question, q.image_path, q.topic, NULL as passage
+                SELECT q.id, q.question, q.image_path, q.topic,
+                       COALESCE(q.passage, '')    AS passage,
+                       COALESCE(q.table_html, '') AS table_html
                 FROM questions q
                 WHERE q.id = ?
             """, (question_id,))
@@ -255,7 +259,8 @@ async def get_cbt_questions(
                     "question": q[1],
                     "image_path": q[2],
                     "topic": q[3],
-                    "passage": q[4] if q[4] else None,
+                    "passage":    q[4] if q[4] else None,
+                    "table_html": q[5] if q[5] else None,
                     "options": options,
                     "generated_by": "db",
                     "marked_for_review": bool(row[5])
@@ -408,7 +413,8 @@ async def submit_cbt(session_id: str, request: SubmitCBTRequest, user_id: int = 
         # Calculate subject scores (as a list for frontend)
         subject_breakdown_list = []
         for subject, scores in subject_scores.items():
-            accuracy = (scores["correct"] / scores["total"] * 100) if scores["total"] > 0 else 0
+            accuracy = (scores["correct"] / scores["total"]
+                        * 100) if scores["total"] > 0 else 0
             subject_breakdown_list.append({
                 "subject": subject,
                 "correct": scores["correct"],

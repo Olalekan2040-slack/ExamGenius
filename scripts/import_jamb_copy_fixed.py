@@ -85,6 +85,10 @@ def import_jamb_copy_questions():
                         subtopic = question_data.get('subtopic', '')
                         source = question_data.get('source', '')
                         image_path = question_data.get('image', None)
+                        table_html = question_data.get('table_html') or None
+                        passage    = question_data.get('passage')    or None
+                        if passage and not passage.strip():
+                            passage = None
 
                         if not question_text:
                             year_errors += 1
@@ -104,23 +108,26 @@ def import_jamb_copy_questions():
                             cursor.execute(
                                 """UPDATE questions 
                                 SET exam=%s, subject=%s, year=%s, number=%s, question=%s, topic=%s, subtopic=%s,
-                                    source=%s, image_path=%s, correct_option_key=%s, explanation=%s
+                                    source=%s, image_path=%s, correct_option_key=%s, explanation=%s,
+                                    table_html=%s, passage=%s
                                 WHERE id=%s""",
                                 (
                                     exam, subject, year_int, number, question_text, topic, subtopic,
-                                    source, image_path, correct_option_key, explanation, question_id
+                                    source, image_path, correct_option_key, explanation,
+                                    table_html, passage, question_id
                                 )
                             )
                             year_updated += 1
                         else:
                             cursor.execute(
                                 """INSERT INTO questions 
-                                (id, exam, subject, year, number, question, topic, subtopic, source, image_path, correct_option_key, explanation)
-                                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                                (id, exam, subject, year, number, question, topic, subtopic, source, image_path, correct_option_key, explanation, table_html, passage)
+                                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                                 """,
                                 (
                                     question_id, exam, subject, year_int, number, question_text, topic,
-                                    subtopic, source, image_path, correct_option_key, explanation
+                                    subtopic, source, image_path, correct_option_key, explanation,
+                                    table_html, passage
                                 )
                             )
                             year_inserted += 1

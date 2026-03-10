@@ -166,6 +166,13 @@ async function showYearPracticeQuestion() {
                     </div>
                 ` : ''}
                 
+                ${question.table_html ? `
+                    <div class="table-context" style="overflow-x: auto; margin-bottom: 16px; border-left: 4px solid var(--primary-yellow); padding: 12px 12px 4px; background: var(--bg-light); border-radius: var(--radius-md);">
+                        <div style="font-weight: 600; margin-bottom: 8px; color: var(--primary-yellow-dark);"><i class="fas fa-table"></i> Study the following:</div>
+                        ${question.table_html}
+                    </div>
+                ` : ''}
+                
                 <div class="question-text">${utils.formatQuestionText(question.question, question.subject || yearPracticeState.subject)}</div>
                 
                 ${question.image_path ? `
@@ -293,6 +300,8 @@ async function showYearPracticeResults(result) {
                                     <i class="fas fa-${isCorrect ? 'check-circle' : 'times-circle'}" style="color: ${isCorrect ? 'var(--success)' : 'var(--error)'}; font-size: 24px;"></i>
                                 </div>
                                 <p style="margin-bottom: 12px;">${utils.formatQuestionText(question.question, question.subject || yearPracticeState.subject)}</p>
+                                ${question.passage ? `<div style="background: var(--bg-light); padding: 10px 14px; border-radius: var(--radius-md); margin-bottom: 10px; border-left: 4px solid var(--info); font-size: 14px; line-height: 1.5;">${question.passage}</div>` : ''}
+                                ${question.table_html ? `<div style="overflow-x: auto; margin-bottom: 10px; border-left: 4px solid var(--primary-yellow); padding: 8px 12px 4px; background: var(--bg-light); border-radius: var(--radius-md); font-size: 13px;">${question.table_html}</div>` : ''}
                                 ${question.image_path ? `<img src="${API_CONFIG.BASE_URL}/static/${question.image_path}" alt="Question image" style="max-width: 100%; border-radius: var(--radius-md); margin: 8px 0 12px; display: block;" onerror="this.style.display='none'">` : ''}
                                 <div>
                                     <div><strong style="color: var(--success);">Correct:</strong> ${res.correct_answer}</div>
@@ -430,9 +439,9 @@ async function reviewYearPracticeSession(sessionId) {
                     ` : `
                         <div style="display:flex; flex-direction:column; gap:16px; padding-top:8px;">
                             ${results.map((res, idx) => {
-                                const isCorrect = res.is_correct;
-                                const opts = res.options || {};
-                                return `
+            const isCorrect = res.is_correct;
+            const opts = res.options || {};
+            return `
                                     <div style="padding:16px; border:2px solid ${isCorrect ? 'var(--success)' : 'var(--error)'}; border-radius:var(--radius-md); background:${isCorrect ? '#f0fdf4' : '#fff1f2'};">
                                         <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
                                             <div>
@@ -447,7 +456,7 @@ async function reviewYearPracticeSession(sessionId) {
                                                 ${Object.entries(opts).map(([key, text]) => `
                                                     <div style="padding:7px 12px; border-radius:6px; font-size:13px;
                                                         background:${key === res.correct_answer ? '#dcfce7' : (key === res.user_answer && !isCorrect ? '#fee2e2' : 'var(--bg-light)')};
-                                                        border:1px solid ${key === res.correct_answer ? 'var(--success)' : (key === res.user_answer && !isCorrect ? 'var(--error)' : 'var(--border-color)') };                                                        font-weight:${key === res.correct_answer || key === res.user_answer ? '600' : '400'};">
+                                                        border:1px solid ${key === res.correct_answer ? 'var(--success)' : (key === res.user_answer && !isCorrect ? 'var(--error)' : 'var(--border-color)')};                                                        font-weight:${key === res.correct_answer || key === res.user_answer ? '600' : '400'};">
                                                         <strong>${key}.</strong> ${text}
                                                         ${key === res.correct_answer ? ' <span style="color:var(--success); font-size:11px;">&#10003; Correct</span>' : ''}
                                                         ${key === res.user_answer && !isCorrect ? ' <span style="color:var(--error); font-size:11px;">&#10005; Your answer</span>' : ''}
@@ -467,7 +476,7 @@ async function reviewYearPracticeSession(sessionId) {
                                         ` : ''}
                                     </div>
                                 `;
-                            }).join('')}
+        }).join('')}
                         </div>
                     `}
                 </div>

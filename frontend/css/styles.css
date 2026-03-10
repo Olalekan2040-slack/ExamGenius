@@ -1016,6 +1016,29 @@ body.menu-open {
     margin-bottom: 20px;
 }
 
+/* Table / passage context blocks shown above certain questions */
+.table-context table,
+.table-context table td,
+.table-context table th {
+    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+    padding: 6px 10px;
+    font-size: 13px;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+.table-context table th,
+.table-context table caption,
+.table-context table td strong {
+    background: var(--primary-yellow-light);
+    font-weight: 600;
+}
+.table-context table {
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    min-width: 200px;
+}
+
 .options-list {
     display: flex;
     flex-direction: column;

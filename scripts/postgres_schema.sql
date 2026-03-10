@@ -99,7 +99,9 @@ CREATE TABLE IF NOT EXISTS questions (
     correct_option_key TEXT,
     explanation TEXT,
     predicted_topics TEXT,
-    predicted_subtopics TEXT
+    predicted_subtopics TEXT,
+    table_html TEXT,
+    passage TEXT
 );
 
 -- Options for questions (main question bank)
