@@ -1,12 +1,12 @@
 """
 retag_physics_chemistry.py
 --------------------------
-Re-tags Chemistry and Physics questions in the SQLite DB with accurate
+Re-tags Chemistry and Physics questions in the PostgreSQL DB with accurate
 topic and subtopic names that match the rebuilt syllabus JSONs.
 
 Chemistry: normalises numbered topic names, merges Air/Water/Solubility,
            assigns subtopics from keyword matching.
-Physics:   reclassifies 7 broad bucket topics → 28 specific JAMB topics,
+Physics:   reclassifies 7 broad bucket topics -> 28 specific JAMB topics,
            assigns subtopics from keyword matching.
 
 Run from project root:
@@ -17,34 +17,18 @@ Flags:
     --subject    'Chemistry' or 'Physics' (default: both)
 """
 
-import sqlite3
+import sys
 import json
 import re
 import argparse
 from pathlib import Path
-from collections import defaultdict, Counter
+from collections import Counter
 
-# ──────────────────────────────────────────────────────────────
-# DB PATH
-# ──────────────────────────────────────────────────────────────
+# Add project root to path so app imports work
 BASE_DIR = Path(__file__).resolve().parent.parent
-DB_PATH = BASE_DIR / "app" / "db" / "examgenius.db"
+sys.path.insert(0, str(BASE_DIR))
 
-# Try alternative paths
-ALT_PATHS = [
-    BASE_DIR / "examgenius.db",
-    BASE_DIR / "app" / "examgenius.db",
-]
-
-
-def find_db():
-    if DB_PATH.exists():
-        return DB_PATH
-    for p in ALT_PATHS:
-        if p.exists():
-            return p
-    raise FileNotFoundError(f"Could not find SQLite DB. Checked:\n  {DB_PATH}\n  " +
-                            "\n  ".join(str(p) for p in ALT_PATHS))
+from app.db.database import get_connection
 
 
 # ──────────────────────────────────────────────────────────────
@@ -681,11 +665,11 @@ def main():
                         default="both", help="Which subject to retag")
     args = parser.parse_args()
 
-    db_path = find_db()
-    print(f"Using DB: {db_path}")
-
-    conn = sqlite3.connect(db_path)
+    # Use the app's PostgreSQL connection layer
+    conn = get_connection()
     cursor = conn.cursor()
+
+    print("Connected to database successfully.")
 
     try:
         if args.subject in ("Chemistry", "both"):
@@ -703,8 +687,6 @@ def main():
         conn.rollback()
         print(f"\nERROR: {e}")
         raise
-    finally:
-        conn.close()
 
 
 if __name__ == "__main__":
