@@ -279,9 +279,10 @@ PHYSICS_KEYWORD_RULES = [
       "velocity", "acceleration", "displacement", "uniform velocity"],
      "Motion", "Types of Motion and Equations"),
 
-    # Newton's Laws / Equilibrium
+    # Newton's Laws / Equilibrium of Forces
     (["newton's law", "newton's first", "newton's second", "newton's third",
-      "f = ma", "inertia", "action and reaction"],
+      "f = ma", "inertia", "action and reaction", "newton ", "newton's",
+      "rate of change of momentum"],
      "Equilibrium of Forces", "Newton's Laws of Motion"),
 
     # Momentum and impulse
@@ -331,10 +332,11 @@ PHYSICS_KEYWORD_RULES = [
       "thermocouple", "resistance thermometer", "thermometric substance"],
      "Temperature and Thermometers", "Temperature Scales and Fixed Points"),
 
-    # Thermal Expansion
-    (["thermal expansion", "linear expansion", "cubical expansion", "coefficient of expansion",
-      "bimetallic strip", "thermostat", "anomalous expansion of water",
-      "expansion of solid", "expansion of liquid"],
+    # Thermal Expansion — broader match
+    (["thermal expansion", "linear expansion", "linear expansivity", "cubical expansion",
+      "volume expansivity", "coefficient of expansion", "bimetallic strip", "thermostat",
+      "anomalous expansion", "expansion of solid", "expansion of liquid",
+      "real cubic expansivity", "apparent cubic expansivity"],
      "Thermal Expansion", "Linear, Area, and Volume Expansion"),
 
     # Heat Transfer
@@ -343,10 +345,11 @@ PHYSICS_KEYWORD_RULES = [
       "insulation", "heat loss"],
      "Heat Transfer", "Conduction and Convection"),
 
-    # Gas Laws
-    (["boyle's law", "charles's law", "pressure law", "gay-lussac", "pv = nrt",
-      "ideal gas", "pv/t", "absolute temperature", "gas equation", "graham's law",
-      "dalton's law of partial pressure", "diffusion of gas"],
+    # Gas Laws — broader keywords to catch more questions
+    (["boyle", "charles", "gay-lussac", "gay lussac", "ideal gas", "pv = nrt",
+      "pv=nrt", "pv/t", "p1v1", "p1v2", "pressure law", "absolute temperature",
+      "gas equation", "graham's law", "dalton's law", "diffusion of gas",
+      "absolute zero", "volume of gas at", "temperature of gas"],
      "Gas Laws", "Boyle's and Charles's Laws"),
 
     # Quantity of Heat / Calorimetry

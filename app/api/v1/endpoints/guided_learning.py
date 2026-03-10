@@ -866,6 +866,12 @@ _TOPIC_FALLBACKS = {
     "Electromagnetic Induction": ["Magnetism", "Current Electricity"],
     "Alternating Current (A.C.) Circuits": ["Current Electricity", "Electromagnetic Induction"],
     "Modern Physics": ["Atomic and Nuclear Physics"],
+    "Gas Laws": ["Quantity of Heat", "Temperature and Thermometers"],
+    "Thermal Expansion": ["Temperature and Thermometers", "Quantity of Heat"],
+    "Temperature and Thermometers": ["Thermal Expansion", "Quantity of Heat"],
+    "Heat Transfer": ["Quantity of Heat", "Temperature and Thermometers"],
+    "Refraction of Light": ["Reflection of Light", "Light Energy"],
+    "Equilibrium of Forces": ["Motion", "Work, Energy, and Power"],
     # Chemistry fallbacks
     "Environmental Pollution": ["Air, Water, Solubility"],
     "Rates of Chemical Reaction": ["Chemical Equilibrium", "Energy Changes"],
