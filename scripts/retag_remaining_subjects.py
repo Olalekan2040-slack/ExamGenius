@@ -552,7 +552,7 @@ def match_question(text: str, compiled_rules):
 def get_question_text(row: dict) -> str:
     """Combine all text fields for keyword matching."""
     return " ".join([
-        row.get("question_text", "") or "",
+        row.get("question", "") or "",
         row.get("topic", "") or "",
         row.get("subtopic", "") or "",
     ])
@@ -598,7 +598,7 @@ def process_subject(subj_key: str, config: dict, dry_run: bool, conn):
 
     cur = conn.cursor()
     cur.execute(
-        "SELECT id, question_text, topic, subtopic FROM questions WHERE subject = %s",
+        "SELECT id, question, topic, subtopic FROM questions WHERE subject = %s",
         (db_name,)
     )
     rows = cur.fetchall()
