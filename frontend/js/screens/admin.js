@@ -838,7 +838,16 @@ class AdminDashboard {
 let adminDash = null;
 
 async function showAdminDashboard() {
-    const container = document.getElementById('app');
+    const user = authManager.getUser();
+    const mainApp = document.getElementById('main-app');
+    if (!mainApp) return;
+
+    // Render the standard app layout (sidebar with Dashboard/navigation links) so
+    // the user can always navigate back to their dashboard via the sidebar.
+    mainApp.innerHTML = createAppLayout(user, '<div id="admin-container"></div>');
+    mainApp.classList.remove('hidden');
+
+    const container = document.getElementById('admin-container');
     adminDash = new AdminDashboard(container);
     await adminDash.render();
 }

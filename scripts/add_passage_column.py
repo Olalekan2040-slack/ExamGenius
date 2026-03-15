@@ -1,4 +1,5 @@
 """Add missing columns to questions table on the live server"""
+import psycopg2
 import sys
 import os
 sys.path.insert(0, '/home/ubuntu/examgenius')
@@ -12,7 +13,6 @@ if os.path.exists(env_file):
             k, v = line.split('=', 1)
             os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
-import psycopg2
 
 db_url = os.environ.get('DATABASE_URL', '')
 if not db_url:
@@ -31,7 +31,8 @@ missing_columns = [
 
 for col, coltype in missing_columns:
     try:
-        cur.execute(f"ALTER TABLE questions ADD COLUMN IF NOT EXISTS {col} {coltype}")
+        cur.execute(
+            f"ALTER TABLE questions ADD COLUMN IF NOT EXISTS {col} {coltype}")
         print(f"Added column: questions.{col} {coltype}")
     except Exception as e:
         print(f"  Warning for {col}: {e}")

@@ -25,6 +25,8 @@ VALID_JAMB_SUBJECTS = {
 }
 
 # Pydantic Models
+
+
 class CompleteProfileRequest(BaseModel):
     full_name: str
     phone_number: str
@@ -42,21 +44,21 @@ class CompleteProfileRequest(BaseModel):
         if v not in ['SS1', 'SS2', 'SS3']:
             raise ValueError("class_level must be SS1, SS2, or SS3")
         return v
-    
+
     @field_validator('gender')
     @classmethod
     def validate_gender(cls, v):
         if v and v not in ['Male', 'Female', 'Other', 'Prefer not to say']:
             raise ValueError("Invalid gender option")
         return v
-    
+
     @field_validator('department')
     @classmethod
     def validate_department(cls, v):
         if v and v not in ['Science', 'Commercial', 'Art']:
             raise ValueError("Department must be Science, Commercial, or Art")
         return v
-    
+
     @field_validator('age')
     @classmethod
     def validate_age(cls, v):
@@ -72,7 +74,8 @@ class CompleteProfileRequest(BaseModel):
         if len(v) != len(set(v)):
             raise ValueError("Subjects must be unique")
         if "Literature" in v:
-            raise ValueError("Literature is no longer available. Use 'Literature in English' instead.")
+            raise ValueError(
+                "Literature is no longer available. Use 'Literature in English' instead.")
         return v
 
 
@@ -87,7 +90,8 @@ class UpdateSubjectsRequest(BaseModel):
         if len(v) != len(set(v)):
             raise ValueError("Subjects must be unique")
         if "Literature" in v:
-            raise ValueError("Literature is no longer available. Use 'Literature in English' instead.")
+            raise ValueError(
+                "Literature is no longer available. Use 'Literature in English' instead.")
         return v
 
 
@@ -298,7 +302,8 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
 
     try:
         # Determine if profile exists
-        cursor.execute("SELECT 1 FROM user_profiles WHERE user_id = ?", (user_id,))
+        cursor.execute(
+            "SELECT 1 FROM user_profiles WHERE user_id = ?", (user_id,))
         profile_exists = cursor.fetchone() is not None
 
         updates = []
@@ -320,7 +325,7 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
                 )
             updates.append("class_level = ?")
             params.append(request.class_level)
-        
+
         if request.gender:
             if request.gender not in ['Male', 'Female', 'Other', 'Prefer not to say']:
                 raise HTTPException(
@@ -329,7 +334,7 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
                 )
             updates.append("gender = ?")
             params.append(request.gender)
-        
+
         if request.age is not None:
             if request.age < 10 or request.age > 100:
                 raise HTTPException(
@@ -338,7 +343,7 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
                 )
             updates.append("age = ?")
             params.append(request.age)
-        
+
         if request.department:
             if request.department not in ['Science', 'Commercial', 'Art']:
                 raise HTTPException(
@@ -347,11 +352,11 @@ async def update_profile(request: UpdateProfileRequest, user_id: int = Depends(c
                 )
             updates.append("department = ?")
             params.append(request.department)
-        
+
         if request.state:
             updates.append("state = ?")
             params.append(request.state)
-        
+
         if request.local_government:
             updates.append("local_government = ?")
             params.append(request.local_government)

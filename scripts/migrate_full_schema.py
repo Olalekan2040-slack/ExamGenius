@@ -22,7 +22,8 @@ def load_database_url():
 
 
 def get_existing_tables(cur):
-    cur.execute("SELECT table_name FROM information_schema.tables WHERE table_schema='public'")
+    cur.execute(
+        "SELECT table_name FROM information_schema.tables WHERE table_schema='public'")
     return {r[0] for r in cur.fetchall()}
 
 
@@ -280,7 +281,8 @@ def main():
             'created_at': "TIMESTAMP DEFAULT CURRENT_TIMESTAMP",
         }
         for col, col_type in required_cols.items():
-            add_column_if_missing(cur, conn, 'practice_attempts', col, col_type)
+            add_column_if_missing(
+                cur, conn, 'practice_attempts', col, col_type)
 
     # Add missing columns to questions table
     print("\n=== Patching questions table ===")
@@ -622,22 +624,27 @@ def main():
         ("idx_session_user", "exam_sessions(user_id)"),
         ("idx_session_questions_session", "session_questions(session_id)"),
         ("idx_user_subjects", "user_subjects(user_id)"),
-        ("idx_past_questions_subject_topic", "past_questions(subject_id, topic_id, subtopic_id)"),
-        ("idx_learning_videos_subject_topic", "learning_videos(subject_id, topic_id, subtopic_id)"),
-        ("idx_learning_notes_subject_topic", "learning_notes(subject_id, topic_id, subtopic_id)"),
+        ("idx_past_questions_subject_topic",
+         "past_questions(subject_id, topic_id, subtopic_id)"),
+        ("idx_learning_videos_subject_topic",
+         "learning_videos(subject_id, topic_id, subtopic_id)"),
+        ("idx_learning_notes_subject_topic",
+         "learning_notes(subject_id, topic_id, subtopic_id)"),
         ("idx_learning_progress_user", "learning_progress(user_id, subject)"),
         ("idx_gamification_user", "gamification_events(user_id)"),
         ("idx_invalidated_tokens_token", "invalidated_tokens(token)"),
     ]
 
     for idx_name, idx_expr in indexes:
-        run_safe(cur, conn, f"CREATE INDEX IF NOT EXISTS {idx_name} ON {idx_expr}", idx_name)
+        run_safe(
+            cur, conn, f"CREATE INDEX IF NOT EXISTS {idx_name} ON {idx_expr}", idx_name)
 
     # ----------------------------------------------------------------
     # 6. FINAL REPORT
     # ----------------------------------------------------------------
     print("\n=== FINAL VERIFICATION ===")
-    cur.execute("SELECT table_name FROM information_schema.tables WHERE table_schema='public' ORDER BY table_name")
+    cur.execute(
+        "SELECT table_name FROM information_schema.tables WHERE table_schema='public' ORDER BY table_name")
     final_tables = [r[0] for r in cur.fetchall()]
     print(f"Total tables: {len(final_tables)}")
     for t in final_tables:

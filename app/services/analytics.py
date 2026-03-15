@@ -40,7 +40,8 @@ class AnalyticsService:
         """, qids)
         year_map = {row[0]: row[1] for row in cursor.fetchall()}
 
-        difficulty_performance = defaultdict(lambda: {'correct': 0, 'total': 0})
+        difficulty_performance = defaultdict(
+            lambda: {'correct': 0, 'total': 0})
         for result in attempt_results:
             year = year_map.get(result['question_id'])
             if year:
@@ -151,7 +152,8 @@ class AnalyticsService:
         weaknesses: list = []
 
         for topic, subj, attempts, correct in rows:
-            accuracy = round(correct / attempts * 100, 2) if attempts > 0 else 0
+            accuracy = round(correct / attempts * 100,
+                             2) if attempts > 0 else 0
             entry = {
                 'topic': topic,
                 'subject': subj,
@@ -198,8 +200,10 @@ class AnalyticsService:
         if len(recent) < 2:
             return 'stable'
 
-        recent_avg = sum(recent[:3]) / 3 if len(recent) >= 3 else sum(recent) / len(recent)
-        older_avg = sum(recent[3:]) / len(recent[3:]) if len(recent) > 3 else sum(recent) / len(recent)
+        recent_avg = sum(
+            recent[:3]) / 3 if len(recent) >= 3 else sum(recent) / len(recent)
+        older_avg = sum(recent[3:]) / len(recent[3:]
+                                          ) if len(recent) > 3 else sum(recent) / len(recent)
 
         if recent_avg > older_avg + 0.2:
             return 'improving'
@@ -242,7 +246,8 @@ class AnalyticsService:
         overall = cursor.fetchone()
         total_attempts = overall[0] if overall[0] else 0
         total_correct = overall[1] if overall[1] else 0
-        overall_accuracy = (total_correct / total_attempts * 100) if total_attempts > 0 else 0
+        overall_accuracy = (total_correct / total_attempts *
+                            100) if total_attempts > 0 else 0
 
         # Subject performance
         cursor.execute("""
@@ -311,7 +316,8 @@ class AnalyticsService:
             ORDER BY day
         """, (user_id, start_date, end_date))
 
-        day_map = {row[0]: {'total': row[1], 'correct': row[2]} for row in cursor.fetchall()}
+        day_map = {row[0]: {'total': row[1], 'correct': row[2]}
+                   for row in cursor.fetchall()}
         daily_stats = []
         for offset in range(7):
             day_obj = datetime.utcnow().date() - timedelta(days=6 - offset)
@@ -347,7 +353,8 @@ class AnalyticsService:
     def update_user_streak(cursor, user_id: int, activity_date: Optional[date] = None) -> None:
         """Update streak counters safely for a user."""
         today = (activity_date or datetime.utcnow().date()).isoformat()
-        yesterday = (activity_date or datetime.utcnow().date()) - timedelta(days=1)
+        yesterday = (activity_date or datetime.utcnow().date()) - \
+            timedelta(days=1)
         yesterday_iso = yesterday.isoformat()
 
         cursor.execute("""
@@ -439,10 +446,13 @@ class AnalyticsService:
 
         # Calculate time taken (Postgres may return datetime objects)
         try:
-            start_time = datetime.fromisoformat(started) if isinstance(started, str) else started
-            end_time = datetime.fromisoformat(completed) if isinstance(completed, str) else completed
+            start_time = datetime.fromisoformat(
+                started) if isinstance(started, str) else started
+            end_time = datetime.fromisoformat(
+                completed) if isinstance(completed, str) else completed
             if start_time and end_time:
-                time_taken_mins = int((end_time - start_time).total_seconds() / 60)
+                time_taken_mins = int(
+                    (end_time - start_time).total_seconds() / 60)
             else:
                 time_taken_mins = 0
         except Exception:

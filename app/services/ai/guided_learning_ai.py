@@ -20,26 +20,26 @@ AI_MODEL = "google/gemini-2.0-flash-exp:free"
 
 def make_openrouter_request(prompt: str, temperature: float = 0.7, max_tokens: int = 3000, retries: int = 3, system_prompt: str = None) -> str:
     """Make a request to OpenRouter API"""
-    
+
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
         "HTTP-Referer": "https://examgenius.ng",
         "X-Title": "ExamGenius Guided Learning",
     }
-    
+
     messages = []
     if system_prompt:
         messages.append({"role": "system", "content": system_prompt})
     messages.append({"role": "user", "content": prompt})
-    
+
     payload = {
         "model": AI_MODEL,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    
+
     last_error = None
     for attempt in range(retries):
         try:
@@ -49,22 +49,22 @@ def make_openrouter_request(prompt: str, temperature: float = 0.7, max_tokens: i
                 json=payload,
                 timeout=90,
             )
-            
+
             if response.status_code == 429:
                 wait_time = (attempt + 1) * 5
                 print(f"Rate limited, waiting {wait_time}s...")
                 time.sleep(wait_time)
                 continue
-            
+
             response.raise_for_status()
             data = response.json()
-            
+
             content = data['choices'][0]['message'].get('content', '')
             if not content:
                 raise Exception("Empty response from API")
-            
+
             return content
-            
+
         except requests.exceptions.Timeout:
             last_error = "Request timeout"
             time.sleep(2)
@@ -77,7 +77,7 @@ def make_openrouter_request(prompt: str, temperature: float = 0.7, max_tokens: i
         except Exception as e:
             last_error = str(e)
             break
-    
+
     raise Exception(f"OpenRouter API failed: {last_error}")
 
 
@@ -99,7 +99,7 @@ def generate_objective_explanation(
     Includes structured content, SVG diagrams where needed, and JAMB-focused tips.
     Returns HTML-formatted content ready for display.
     """
-    
+
     prompt = f"""You are explaining a JAMB learning objective to a Nigerian secondary school student.
 
 SUBJECT: {subject}
@@ -153,12 +153,12 @@ Return ONLY valid JSON. No markdown code blocks."""
 
     try:
         response = make_openrouter_request(
-            prompt, 
-            temperature=0.5, 
+            prompt,
+            temperature=0.5,
             max_tokens=3000,
             system_prompt=GUIDED_LEARNING_SYSTEM_PROMPT
         )
-        
+
         # Parse JSON from response
         json_match = response.strip()
         if json_match.startswith('```json'):
@@ -167,11 +167,12 @@ Return ONLY valid JSON. No markdown code blocks."""
             json_match = json_match[3:]
         if json_match.endswith('```'):
             json_match = json_match[:-3]
-        
+
         data = json.loads(json_match.strip())
-        
+
         # Ensure required fields exist
-        data.setdefault('explanation_html', '<p>Explanation could not be generated.</p>')
+        data.setdefault('explanation_html',
+                        '<p>Explanation could not be generated.</p>')
         data.setdefault('key_points', [])
         data.setdefault('worked_example', None)
         data.setdefault('svg_diagram', None)
@@ -179,15 +180,15 @@ Return ONLY valid JSON. No markdown code blocks."""
         data.setdefault('jamb_tip', None)
         data.setdefault('common_mistakes', [])
         data.setdefault('summary', '')
-        
+
         # Legacy compatibility fields
         data['explanation'] = data['explanation_html']
         data['example'] = data['worked_example']['problem'] if data['worked_example'] else None
         data['needs_diagram'] = data['svg_diagram'] is not None
         data['diagram_description'] = data['diagram_caption']
-        
+
         return data
-        
+
     except json.JSONDecodeError:
         # Return with whatever text we got
         return {
@@ -229,7 +230,7 @@ def generate_diagram_prompt(
     description: str
 ) -> str:
     """Generate a text description for an image generation API"""
-    
+
     prompt = f"""Create a simple, clear educational diagram for a JAMB exam student.
 
 SUBJECT: {subject}
@@ -261,7 +262,7 @@ def answer_student_question(
     Answer a student's question in context of the current objective.
     Stays focused and does not introduce new topics.
     """
-    
+
     prompt = f"""You are a calm, friendly JAMB tutor answering a student's question.
 
 CONTEXT:
@@ -297,11 +298,11 @@ def explain_question_answer(
     """
     Explain why an answer is correct or wrong for the objective question.
     """
-    
+
     is_correct = student_answer == correct_answer
-    
+
     options_text = "\n".join([f"{k}: {v}" for k, v in options.items()])
-    
+
     prompt = f"""A student just answered a JAMB question {"correctly" if is_correct else "incorrectly"}.
 
 QUESTION: {question_text}
@@ -340,10 +341,10 @@ def get_related_questions(
     Find questions that match the current objective.
     Uses keyword matching and topic filtering.
     """
-    
+
     # Extract keywords from objective
     keywords = [w.lower() for w in objective.split() if len(w) > 4]
-    
+
     # First try exact subtopic match
     cursor.execute("""
         SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, NULL as passage
@@ -352,23 +353,23 @@ def get_related_questions(
         ORDER BY RANDOM()
         LIMIT %s
     """, (subject, topic, limit * 3))
-    
+
     candidates = cursor.fetchall()
-    
+
     # Score by keyword relevance
     scored = []
     for q in candidates:
         question_lower = q[1].lower()
         score = sum(1 for kw in keywords if kw in question_lower)
         scored.append((score, q))
-    
+
     # Sort by score descending and take top N
     scored.sort(key=lambda x: x[0], reverse=True)
-    
+
     results = []
     for _, q in scored[:limit]:
         question_id = q[0]
-        
+
         # Get options
         cursor.execute("""
             SELECT option_key, option_text
@@ -376,9 +377,9 @@ def get_related_questions(
             WHERE question_id = %s
             ORDER BY option_key
         """, (question_id,))
-        
+
         options = {row[0]: row[1] for row in cursor.fetchall()}
-        
+
         results.append({
             "question_id": question_id,
             "question": q[1],
@@ -388,7 +389,7 @@ def get_related_questions(
             "passage": q[5],
             "options": options
         })
-    
+
     return results
 
 
@@ -404,13 +405,13 @@ def generate_subtopic_quiz(
     Generate a quiz for a completed subtopic.
     First tries to find JAMB past questions from the database.
     If not enough questions found, generates AI questions based on objectives.
-    
+
     Returns a list of quiz questions with options.
     """
-    
+
     # Try to get questions from database first
     db_questions = []
-    
+
     try:
         cursor.execute("""
             SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, NULL as passage
@@ -419,31 +420,31 @@ def generate_subtopic_quiz(
             ORDER BY RANDOM()
             LIMIT %s
         """, (subject, topic, limit * 2))
-        
+
         candidates = cursor.fetchall()
-        
+
         # Score by relevance to subtopic objectives
         all_keywords = []
         for obj in objectives:
             all_keywords.extend([w.lower() for w in obj.split() if len(w) > 4])
-        
+
         scored = []
         for q in candidates:
             question_lower = q[1].lower()
             score = sum(1 for kw in all_keywords if kw in question_lower)
             scored.append((score, q))
-        
+
         scored.sort(key=lambda x: x[0], reverse=True)
-        
+
         for _, q in scored[:limit]:
             question_id = q[0]
             cursor.execute("""
                 SELECT option_key, option_text
                 FROM options WHERE question_id = %s ORDER BY option_key
             """, (question_id,))
-            
+
             options = {row[0]: row[1] for row in cursor.fetchall()}
-            
+
             if options:  # Only add if options exist
                 db_questions.append({
                     "question_id": question_id,
@@ -457,15 +458,15 @@ def generate_subtopic_quiz(
                 })
     except Exception as e:
         print(f"Error fetching DB questions for subtopic quiz: {e}")
-    
+
     # If we have enough database questions, return them
     if len(db_questions) >= 3:
         return db_questions[:limit]
-    
+
     # Generate AI questions for remaining slots
     needed = limit - len(db_questions)
     objectives_text = "\n".join([f"- {obj}" for obj in objectives])
-    
+
     prompt = f"""Generate {needed} JAMB-style multiple choice questions for a Nigerian student.
 
 SUBJECT: {subject}
@@ -495,8 +496,9 @@ Rules:
 6. Return ONLY valid JSON array, no markdown."""
 
     try:
-        response = make_openrouter_request(prompt, temperature=0.6, max_tokens=2000)
-        
+        response = make_openrouter_request(
+            prompt, temperature=0.6, max_tokens=2000)
+
         json_text = response.strip()
         if json_text.startswith('```json'):
             json_text = json_text[7:]
@@ -504,18 +506,18 @@ Rules:
             json_text = json_text[3:]
         if json_text.endswith('```'):
             json_text = json_text[:-3]
-        
+
         ai_questions = json.loads(json_text.strip())
-        
+
         for i, q in enumerate(ai_questions):
             q['question_id'] = f"ai_{i}"
             q['year'] = None
             q['image_path'] = None
             q['passage'] = None
             q['source'] = 'ai_generated'
-        
+
         return db_questions + ai_questions[:needed]
-        
+
     except Exception as e:
         print(f"Error generating AI quiz questions: {e}")
         return db_questions  # Return whatever DB questions we have
@@ -532,7 +534,7 @@ def regenerate_explanation(
     Generate a fresh explanation with a different approach/angle.
     Used when user requests re-explanation.
     """
-    
+
     prompt = f"""You are explaining a JAMB learning objective to a Nigerian student who needs a DIFFERENT explanation.
 
 SUBJECT: {subject}
@@ -573,7 +575,7 @@ Return ONLY valid JSON."""
             max_tokens=3000,
             system_prompt=GUIDED_LEARNING_SYSTEM_PROMPT
         )
-        
+
         json_match = response.strip()
         if json_match.startswith('```json'):
             json_match = json_match[7:]
@@ -581,9 +583,10 @@ Return ONLY valid JSON."""
             json_match = json_match[3:]
         if json_match.endswith('```'):
             json_match = json_match[:-3]
-        
+
         data = json.loads(json_match.strip())
-        data.setdefault('explanation_html', '<p>Explanation could not be generated.</p>')
+        data.setdefault('explanation_html',
+                        '<p>Explanation could not be generated.</p>')
         data.setdefault('key_points', [])
         data.setdefault('worked_example', None)
         data.setdefault('svg_diagram', None)
@@ -591,15 +594,15 @@ Return ONLY valid JSON."""
         data.setdefault('jamb_tip', None)
         data.setdefault('common_mistakes', [])
         data.setdefault('summary', '')
-        
+
         # Legacy compatibility
         data['explanation'] = data['explanation_html']
         data['example'] = data['worked_example']['problem'] if data['worked_example'] else None
         data['needs_diagram'] = data['svg_diagram'] is not None
         data['diagram_description'] = data['diagram_caption']
-        
+
         return data
-        
+
     except json.JSONDecodeError:
         return {
             "explanation_html": f"<div class='ai-lesson-content'><p>{response}</p></div>",

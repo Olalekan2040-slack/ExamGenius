@@ -43,6 +43,7 @@ def _get_topic_videos(cursor, subject: str, topic: str):
         # If the table is missing or any other issue, return empty list gracefully
         return []
 
+
 router = APIRouter(prefix="/learn", tags=["Learn"])
 
 
@@ -315,7 +316,8 @@ async def get_topic_practice_questions(
 
         # Check if we have fewer than requested
         partial_set = total_available < limit
-        questions_to_return = all_questions[:limit] if limit < total_available else all_questions
+        questions_to_return = all_questions[:
+                                            limit] if limit < total_available else all_questions
 
         # Format questions with options
         formatted_questions = []
@@ -539,6 +541,7 @@ async def get_learning_analytics(user_id: int = Depends(current_user_id)):
             detail=f"Failed to fetch analytics: {str(e)}"
         )
 
+
 @router.post("/ask-tutor")
 async def ask_ai_tutor_endpoint(request: AskTutorRequest, user_id: int = Depends(current_user_id)):
     """
@@ -566,6 +569,7 @@ async def ask_ai_tutor_endpoint(request: AskTutorRequest, user_id: int = Depends
             detail=f"AI Tutor failed: {str(e)}"
         )
 
+
 @router.get("/ai/content")
 async def get_ai_content_context(
     subject_id: Optional[int] = Query(None),
@@ -573,25 +577,26 @@ async def get_ai_content_context(
     subtopic_id: Optional[int] = Query(None),
     difficulty: Optional[str] = Query(None, regex="^(easy|medium|hard)$"),
     limit: int = Query(5, ge=1, le=20),
-    content_types: Optional[str] = Query("all", description="Comma-separated: questions,videos,notes,readings or 'all'"),
+    content_types: Optional[str] = Query(
+        "all", description="Comma-separated: questions,videos,notes,readings or 'all'"),
     user_id: int = Depends(current_user_id),
     db=Depends(get_connection)
 ):
     """
     AI Content Query Endpoint
     Retrieve learning materials organized by subject/topic/difficulty for AI tutoring
-    
+
     Used by AI services to fetch relevant context when generating explanations or tutoring.
     Returns questions with explanations, videos, notes, and readings.
-    
+
     Example:
     - GET /learn/ai/content?subject_id=1&topic_id=5&difficulty=medium
     - GET /learn/ai/content?subject_id=1&content_types=questions,videos
     """
-    
+
     try:
         # Use injected db connection
-        
+
         context = ai_content_service.get_content_context(
             db=db,
             subject_id=subject_id,
@@ -600,7 +605,7 @@ async def get_ai_content_context(
             difficulty=difficulty,
             limit=limit
         )
-        
+
         # Filter content types if specified
         if content_types != "all":
             requested_types = [ct.strip() for ct in content_types.split(",")]
@@ -609,7 +614,7 @@ async def get_ai_content_context(
                 if ct in context:
                     filtered_context[ct] = context[ct]
             context = filtered_context
-        
+
         # Log content access for analytics
         ai_content_service.log_content_interaction(
             db=db,
@@ -618,7 +623,7 @@ async def get_ai_content_context(
             content_id=0,
             interaction_type="ai_content_query"
         )
-        
+
         return {
             "query_params": {
                 "subject_id": subject_id,
@@ -632,7 +637,7 @@ async def get_ai_content_context(
             "total_notes": len(context.get("notes", [])),
             "total_readings": len(context.get("readings", []))
         }
-        
+
     except Exception as e:
         raise HTTPException(
             status_code=500,
