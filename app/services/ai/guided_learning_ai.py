@@ -21,7 +21,7 @@ from urllib.parse import quote
 GEMINI_API_KEY = "REDACTED_GEMINI_KEY"
 GEMINI_API_URL = (
     "https://generativelanguage.googleapis.com/v1beta"
-    "/models/gemini-2.0-flash:generateContent"
+    "/models/gemini-2.5-flash:generateContent"
 )
 
 
