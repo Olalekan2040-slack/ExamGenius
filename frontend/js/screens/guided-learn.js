@@ -152,13 +152,17 @@ async function showGuidedSubjectSelect() {
             'English': { bg: 'linear-gradient(135deg, #EC4899, #DB2777)', icon: '📚' },
             'Government': { bg: 'linear-gradient(135deg, #6366F1, #4F46E5)', icon: '🏛️' },
             'Economics': { bg: 'linear-gradient(135deg, #14B8A6, #0D9488)', icon: '📊' },
-            'Literature': { bg: 'linear-gradient(135deg, #F472B6, #EC4899)', icon: '📖' },
+            'Literature in English': { bg: 'linear-gradient(135deg, #F472B6, #EC4899)', icon: '📖' },
             'Commerce': { bg: 'linear-gradient(135deg, #F97316, #EA580C)', icon: '💼' },
-            'Accounting': { bg: 'linear-gradient(135deg, #22C55E, #16A34A)', icon: '🧮' }
+            'Accounting': { bg: 'linear-gradient(135deg, #22C55E, #16A34A)', icon: '🧮' },
+            'Geography': { bg: 'linear-gradient(135deg, #0EA5E9, #0284C7)', icon: '🌍' }
         };
 
-        // Subjects that have full static learning content
-        const SUBJECTS_WITH_CONTENT = new Set(['Physics', 'Chemistry', 'Mathematics', 'Government', 'Biology']);
+        // All subjects that have guided learning content (syllabus JSON + DB questions)
+        const SUBJECTS_WITH_CONTENT = new Set([
+            'Physics', 'Chemistry', 'Mathematics', 'Government', 'Biology',
+            'English', 'Economics', 'Literature in English', 'Accounting', 'Commerce', 'Geography'
+        ]);
 
         const content = `
             <div class="guided-learn-screen">

@@ -4781,3 +4781,129 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* ============================================================
+   WIKIPEDIA / WEB CONTENT STYLES (gl-web-content)
+   ============================================================ */
+
+.gl-web-content {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-primary);
+}
+
+.gl-web-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-blue, #3B82F6);
+    margin: 0 0 12px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.15);
+}
+
+.gl-web-content h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 16px 0 8px 0;
+}
+
+.gl-web-content p {
+    margin: 0 0 12px 0;
+}
+
+.gl-web-content hr {
+    border: none;
+    border-top: 1px solid var(--border-color, #e2e8f0);
+    margin: 16px 0;
+}
+
+.gl-web-content .source-ref {
+    margin-top: 16px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border-color, #e2e8f0);
+    color: var(--text-secondary);
+}
+
+.gl-web-content .source-ref a {
+    color: var(--primary-blue, #3B82F6);
+    text-decoration: none;
+}
+
+.gl-web-content .source-ref a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================================
+   MATHEMATICS CALCULATED EXPLANATION STYLES (gl-math-content)
+   ============================================================ */
+
+.gl-math-content {
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.gl-math-content h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #D97706;
+    margin: 20px 0 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.gl-math-content h4:first-child {
+    margin-top: 0;
+}
+
+.gl-math-content .worked-example {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.06), rgba(251, 191, 36, 0.04));
+    border: 1.5px solid rgba(245, 158, 11, 0.25);
+    border-left: 4px solid #F59E0B;
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin: 14px 0;
+}
+
+.gl-math-content .worked-example h4,
+.gl-math-content .worked-example h5 {
+    color: #B45309;
+    margin-top: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.gl-math-content .step {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+    align-items: flex-start;
+}
+
+.gl-math-content .step-label {
+    min-width: 60px;
+    font-weight: 700;
+    color: #D97706;
+    font-size: 13px;
+    padding-top: 2px;
+    flex-shrink: 0;
+}
+
+.gl-math-content strong {
+    color: var(--text-primary);
+    background: rgba(245, 158, 11, 0.1);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+}
+
+.gl-math-content ul {
+    padding-left: 20px;
+    margin: 8px 0 12px 0;
+}
+
+.gl-math-content ul li {
+    margin-bottom: 6px;
+}

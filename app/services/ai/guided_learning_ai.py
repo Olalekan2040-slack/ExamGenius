@@ -240,7 +240,85 @@ def _make_explanation_dict(
     }
 
 
-# ── Public explanation functions (Wikipedia-only) ────────────────────
+# ── Mathematics: Gemini-generated step-by-step calculated explanations ─────
+
+_MATH_SYSTEM = (
+    "You are an expert Mathematics teacher preparing Nigerian JAMB students. "
+    "Always show full step-by-step calculations and workings. "
+    "Use simple, clear language. Format with proper HTML."
+)
+
+
+def _generate_math_explanation(topic: str, subtopic: str, objective: str) -> Dict:
+    """
+    Generate a detailed, calculation-based Mathematics explanation using Gemini.
+    Returns HTML matching the same structure as Wikipedia explanations.
+    """
+    prompt = f"""You are teaching a JAMB Mathematics topic to a Nigerian secondary school student.
+
+TOPIC: {topic}
+SUBTOPIC: {subtopic}
+OBJECTIVE: {objective}
+
+Write a DETAILED, CALCULATION-BASED explanation. Structure it as follows:
+
+1. CONCEPT DEFINITION — Clear, simple explanation of what this is (2–3 sentences)
+2. KEY FORMULA(S) — State ALL relevant formulas clearly, e.g. "a² + b² = c²"
+3. STEP-BY-STEP WORKED EXAMPLE — Solve a realistic JAMB-style problem completely:
+   - State the problem first
+   - Show EVERY calculation step labeled Step 1, Step 2 ...
+   - Box/highlight the final answer
+4. SECOND WORKED EXAMPLE — A slightly harder example with full working
+5. JAMB EXAM TIP — One specific thing JAMB always tests on this topic
+6. COMMON MISTAKES — 2 mistakes students make with this concept
+
+FORMAT: Return as HTML only (no JSON, no markdown). Use:
+- <h4> for section headings
+- <p> for paragraphs
+- <ul><li> for lists
+- <strong> for formulas, key terms, final answers
+- <div class='worked-example'> to wrap each worked example
+- <div class='step'><span class='step-label'>Step N:</span> ... </div> for each step
+
+Be thorough — show actual numbers, actual calculations, actual answers."""
+
+    try:
+        html = make_gemini_request(
+            prompt,
+            temperature=0.3,   # low temp = consistent, precise calculations
+            max_tokens=2500,
+        )
+        # Wrap in our standard container
+        wrapped = f"<div class='gl-web-content gl-math-content'>\n{html}\n</div>"
+
+        # Extract key points from text (simple sentence extraction)
+        import re as _re
+        sentences = _re.split(r'(?<=[.!?])\s+', _re.sub(r'<[^>]+>', ' ', html))
+        key_points = [
+            s.strip().rstrip('.')
+            for s in sentences
+            if 30 < len(s.strip()) < 180
+        ][:4]
+
+        return {
+            "explanation_html":  wrapped,
+            "explanation":       wrapped,
+            "key_points":        key_points,
+            "worked_example":    None,
+            "svg_diagram":       None,
+            "diagram_caption":   None,
+            "jamb_tip":          f"JAMB always includes at least one {subtopic} question — master the formula and practice with different numbers.",
+            "common_mistakes":   [],
+            "summary":           f"Understand {subtopic} within {topic}: know the formulas, follow the steps, check your arithmetic.",
+            "example":           None,
+            "needs_diagram":     False,
+            "diagram_description": None,
+        }
+    except Exception as e:
+        return _make_explanation_dict("Mathematics", topic, subtopic, objective, None)
+
+
+# ── Public explanation functions ─────────────────────────────────────────────
 
 def generate_objective_explanation(
     subject: str,
@@ -249,15 +327,14 @@ def generate_objective_explanation(
     objective: str,
 ) -> Dict:
     """
-    Fetch a detailed explanation for a learning objective from Wikipedia.
-    No AI generation — all content comes from online encyclopaedic resources.
-
-    Search strategy (best Wikipedia title match first):
-      1. "{topic}"                 — clean, concise, best title match
-      2. "{topic} {subject}"       — add subject context
-      3. "{subtopic}"              — try subtopic name
-      4. First key phrase from objective
+    Generate a detailed explanation for a learning objective.
+    - Mathematics → Gemini AI with step-by-step calculations
+    - All other subjects → Wikipedia (online encyclopaedic content)
     """
+    if subject.lower() in ("mathematics", "maths"):
+        return _generate_math_explanation(topic, subtopic, objective)
+
+    # Wikipedia path for all other subjects
     obj_phrase = " ".join([w for w in objective.split() if len(w) > 4][:5])
     queries = [
         topic,
@@ -289,9 +366,52 @@ def regenerate_explanation(
     previous_explanation: str = "",
 ) -> Dict:
     """
-    Fetch explanation content from a DIFFERENT Wikipedia article / angle.
-    Used when the student clicks "Explain differently".
+    Fetch explanation from a different angle (for 'Explain differently' button).
+    Mathematics: Gemini regenerates with a different worked example.
+    Others: Wikipedia with a different search angle.
     """
+    if subject.lower() in ("mathematics", "maths"):
+        # Gemini with explicit instruction to use a different worked example
+        prompt = f"""You are re-teaching a JAMB Mathematics objective to a student who wants a FRESH explanation.
+
+TOPIC: {topic}
+SUBTOPIC: {subtopic}
+OBJECTIVE: {objective}
+
+Use a COMPLETELY DIFFERENT worked example from before. Try a different approach:
+- Different numbers / problem context
+- Explain using a real-life analogy if possible
+- Still show full step-by-step calculations
+
+Same HTML structure:
+1. Quick concept recap (1–2 sentences)
+2. Key formula(s)
+3. NEW worked example with full step-by-step working (different from the first time)
+4. Another variation example
+5. Memory trick or shortcut
+
+Return HTML only. Use <div class='worked-example'>, <div class='step'>, <strong> for formulas and answers."""
+        try:
+            html = make_gemini_request(prompt, temperature=0.6, max_tokens=2000)
+            wrapped = f"<div class='gl-web-content gl-math-content'>\n{html}\n</div>"
+            return {
+                "explanation_html":  wrapped,
+                "explanation":       wrapped,
+                "key_points":        [],
+                "worked_example":    None,
+                "svg_diagram":       None,
+                "diagram_caption":   None,
+                "jamb_tip":          f"Practice {subtopic} with varied examples — JAMB changes the numbers each year.",
+                "common_mistakes":   [],
+                "summary":           f"A fresh look at {subtopic}: same concept, different examples.",
+                "example":           None,
+                "needs_diagram":     False,
+                "diagram_description": None,
+            }
+        except Exception:
+            return _generate_math_explanation(topic, subtopic, objective)
+
+    # Wikipedia path for all other subjects
     obj_phrase = " ".join([w for w in objective.split() if len(w) > 4][:6])
     queries = [
         subtopic,
