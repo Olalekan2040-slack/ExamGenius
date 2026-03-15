@@ -122,6 +122,17 @@ MATH_RULES = [
       "variance", "probability", "range", "interquartile", "statistics",
       "average"],
      "Statistics", "Statistics and Probability"),
+
+    # Broad algebra fallback (Section II catch-all)
+    (["section ii", "algebra", "linear", "expand", "simplify", "factorise",
+      "factorize", "expression", "equation", "formula", "solve for",
+      "find the value", "evaluate"],
+     "Polynomials", "Equations and Word Problems"),
+
+    # Broad geometry fallback (Section III catch-all)
+    (["section iii", "geometry", "prove", "construction", "arc", "tangent",
+      "diameter", "radius", "chord", "inscribed"],
+     "Euclidean Geometry", "Triangles and Circle Theorems"),
 ]
 
 # ════════════════════════════════════════════════════════════════
@@ -177,13 +188,23 @@ ENGLISH_RULES = [
     # Vocabulary – contextual
     (["closest in meaning", "opposite in meaning", "synonym", "antonym",
       "word that best", "phrase that best", "fill in.*blank", "vocabulary",
-      "collocation", "phrasal verb", "idiom"],
+      "collocation", "phrasal verb", "idiom", "appropriate word", "contextual"],
      "Lexis and Structure", "Vocabulary in Context"),
+
+    # Sentence structure / grammar fallback for Section B
+    (["choose the.*correct", "grammatically", "sentence.*correctly",
+      "which.*option.*correct", "rewrite", "passive", "active voice",
+      "reported speech", "indirect speech", "direct speech"],
+     "Lexis and Structure", "Sentence Structure"),
 
     # Writing / composition
     (["letter", "formal letter", "report", "speech", "essay", "writing",
       "paragraph", "composition"],
      "Written Composition", "Formal Writing"),
+
+    # General structure fallback for "Section B: Lexis and Structure"
+    (["section b", "lexis", "structure"],
+     "Lexis and Structure", "Vocabulary in Context"),
 ]
 
 # ════════════════════════════════════════════════════════════════
@@ -407,6 +428,15 @@ COMMERCE_RULES = [
     (["money", "medium of exchange", "store of value", "unit of account",
       "barter", "characteristics of money", "token money"],
      "Money", "Functions and Characteristics of Money"),
+
+    # Fallback: occupation / labour / production-related generic questions
+    (["occupation", "skilled", "unskilled", "labour", "employee",
+      "profession", "doctor", "teacher", "artisan", "entrepreneur"],
+     "Production", "Types and Factors of Production"),
+
+    # Fallback: wealth / trade / production
+    (["wealth", "volume of trade", "natural resource", "productive", "output"],
+     "Nature and Scope of Commerce", "Commerce and Trade"),
 ]
 
 # ════════════════════════════════════════════════════════════════
@@ -521,6 +551,16 @@ GEOGRAPHY_RULES = [
     (["nigeria", "west africa", "ecowas", "niger", "benue", "sahara",
       "guinea coast", "lake chad", "nigerian", "abuja", "lagos"],
      "Nigeria and West Africa", "Physical and Human Geography of Nigeria"),
+
+    # Broad fallback: contour / survey / chain survey — map reading
+    (["contour", "survey", "bearing", "scale", "map", "measuring",
+      "triangulation"],
+     "Practical Geography: Maps and Scale", "Map Reading and Interpretation"),
+
+    # Broad fallback: rock / mineral questions
+    (["rock", "mineral", "coal", "limestone", "granite", "basalt",
+      "calcareous", "sedimentary rock", "igneous rock", "metamorphic rock"],
+     "The Earth's Crust", "Rocks"),
 ]
 
 
