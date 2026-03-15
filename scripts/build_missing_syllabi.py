@@ -966,29 +966,211 @@ LITERATURE = {
 # ACCOUNTING  — the existing JSON has topics but weak objectives;
 #               let's enrich without overwriting structure.
 # ─────────────────────────────────────────────────────────────────────
-def enrich_accounting():
-    f = OUTPUT_DIR / "accounting.json"
-    if not f.exists():
-        print("  ! accounting.json not found, skipping")
-        return
-    d = json.load(open(f, encoding="utf-8"))
-    changed = 0
-    for t in d.get("topics", []):
-        for st in t.get("subtopics", []):
-            if not st.get("objectives"):
-                # Generate a basic set
-                st["objectives"] = [
-                    f"Define and explain {st['name']}",
-                    f"Apply the principles of {st['name']} to solve exam questions",
-                    f"Prepare or interpret {st['name']} entries correctly",
-                ]
-                changed += 1
-    if changed:
-        with open(f, "w", encoding="utf-8") as fh:
-            json.dump(d, fh, indent=2, ensure_ascii=False)
-        print(f"  ✓ accounting.json — enriched {changed} subtopics with objectives")
-    else:
-        print("  ✓ accounting.json — already has objectives")
+ACCOUNTING = {
+    "subject": "Accounting",
+    "topics": [
+        {
+            "number": 1, "name": "Principles of Double Entry",
+            "subtopics": [
+                {"name": "The Accounting Equation", "objectives": [
+                    "State and apply the accounting equation: Assets = Liabilities + Capital",
+                    "Explain the dual aspect concept underlying double entry bookkeeping",
+                    "Record transactions using debit and credit entries in T-accounts",
+                ]},
+                {"name": "Ledger and Trial Balance", "objectives": [
+                    "Distinguish between personal, real, and nominal accounts",
+                    "Post transactions to the appropriate ledger accounts and balance them",
+                    "Extract a trial balance and identify its limitations",
+                ]},
+            ]
+        },
+        {
+            "number": 2, "name": "Ledger & Trial Balance",
+            "subtopics": [
+                {"name": "The Ledger", "objectives": [
+                    "Explain the purpose and structure of the ledger",
+                    "Classify accounts: sales ledger, purchases ledger, general ledger",
+                    "Balance off ledger accounts at the end of a period",
+                ]},
+                {"name": "Trial Balance", "objectives": [
+                    "Extract a trial balance from ledger balances",
+                    "Identify errors not revealed by a trial balance",
+                    "Use a suspense account to correct errors affecting the trial balance",
+                ]},
+            ]
+        },
+        {
+            "number": 3, "name": "Books of Original Entry",
+            "subtopics": [
+                {"name": "Day Books and the Journal", "objectives": [
+                    "Identify and use the books of original entry: sales, purchases, returns books, journal",
+                    "Distinguish between the journal proper and other day books",
+                    "Record transactions in the appropriate book of original entry",
+                ]},
+                {"name": "Cash Book and Petty Cash", "objectives": [
+                    "Prepare single, double, and three-column cash books",
+                    "Explain the imprest system and maintain a petty cash book",
+                    "Record contra entries in the cash book",
+                ]},
+            ]
+        },
+        {
+            "number": 4, "name": "Cashbook",
+            "subtopics": [
+                {"name": "Single and Double Column Cash Book", "objectives": [
+                    "Record cash and bank transactions in a two-column cash book",
+                    "Distinguish between cash discount and trade discount",
+                    "Balance the cash book and carry down balances",
+                ]},
+                {"name": "Bank Reconciliation", "objectives": [
+                    "Identify reasons for differences between the cash book and bank statement",
+                    "Identify unpresented cheques, uncredited deposits, and bank charges",
+                    "Prepare a bank reconciliation statement",
+                ]},
+            ]
+        },
+        {
+            "number": 5, "name": "Trading/Profit & Loss Account",
+            "subtopics": [
+                {"name": "Trading Account", "objectives": [
+                    "Prepare a trading account and calculate gross profit",
+                    "Apply the trading account formula: Sales − Cost of Sales = Gross Profit",
+                    "Adjust for opening and closing stock in the trading account",
+                ]},
+                {"name": "Profit and Loss Account", "objectives": [
+                    "Prepare a profit and loss account and calculate net profit",
+                    "Distinguish between revenue expenditure and capital expenditure",
+                    "List the expenses that appear in the profit and loss account",
+                ]},
+            ]
+        },
+        {
+            "number": 6, "name": "Balance Sheet",
+            "subtopics": [
+                {"name": "Preparing the Balance Sheet", "objectives": [
+                    "Prepare a classified balance sheet with fixed assets, current assets, liabilities, and capital",
+                    "Distinguish between current and non-current (fixed) assets and liabilities",
+                    "Show capital, drawings, and retained profit correctly in the balance sheet",
+                ]},
+                {"name": "Adjustments in Final Accounts", "objectives": [
+                    "Apply year-end adjustments: accruals, prepayments, depreciation, bad debts",
+                    "Show the effect of each adjustment on the profit and loss account and balance sheet",
+                    "Calculate depreciation using straight-line and reducing balance methods",
+                ]},
+            ]
+        },
+        {
+            "number": 7, "name": "Adjustments",
+            "subtopics": [
+                {"name": "Accruals and Prepayments", "objectives": [
+                    "Define and identify accrued expenses and prepaid (unexpired) expenses",
+                    "Adjust profit and loss account entries for accruals and prepayments",
+                    "Show accruals and prepayments on the balance sheet",
+                ]},
+                {"name": "Depreciation", "objectives": [
+                    "Define depreciation and explain its causes",
+                    "Calculate depreciation using straight-line and reducing balance methods",
+                    "Record depreciation in the asset account and provision for depreciation account",
+                ]},
+                {"name": "Bad Debts and Provisions", "objectives": [
+                    "Distinguish between bad debts written off and provision for bad debts",
+                    "Calculate and record a new or revised provision for bad debts",
+                    "Show the adjusted debtors (net realisable) figure in the balance sheet",
+                ]},
+            ]
+        },
+        {
+            "number": 8, "name": "Incomplete Records",
+            "subtopics": [
+                {"name": "Statement of Affairs", "objectives": [
+                    "Explain incomplete records and single entry bookkeeping",
+                    "Prepare a statement of affairs to find opening or closing capital",
+                    "Calculate profit or loss using the capital comparison method",
+                ]},
+                {"name": "Reconstructing Accounts", "objectives": [
+                    "Use control accounts to find missing debtors and creditors figures",
+                    "Calculate cash and bank figures from incomplete information",
+                    "Prepare final accounts (trading, P&L, balance sheet) from incomplete records",
+                ]},
+            ]
+        },
+        {
+            "number": 9, "name": "Manufacturing Accounts",
+            "subtopics": [
+                {"name": "Manufacturing Account", "objectives": [
+                    "Distinguish between prime cost, factory cost of production, and cost of goods sold",
+                    "Prepare a manufacturing account showing prime cost and factory overheads",
+                    "Integrate the manufacturing account with the trading and profit & loss account",
+                ]},
+            ]
+        },
+        {
+            "number": 10, "name": "Partnership Accounts",
+            "subtopics": [
+                {"name": "Partnership Formation and Appropriation", "objectives": [
+                    "Explain the features of a partnership and the purpose of a partnership agreement",
+                    "Prepare a partnership appropriation account (salaries, interest on capital, profit shares)",
+                    "Maintain capital accounts (fixed or fluctuating) and current accounts for each partner",
+                ]},
+                {"name": "Changes in Partnership", "objectives": [
+                    "Prepare accounts for the admission of a new partner including goodwill treatment",
+                    "Prepare accounts for the retirement or death of a partner",
+                    "Calculate new profit-sharing ratios and the effect on goodwill",
+                ]},
+            ]
+        },
+        {
+            "number": 11, "name": "Company Accounts",
+            "subtopics": [
+                {"name": "Share Capital and Debentures", "objectives": [
+                    "Distinguish between ordinary shares, preference shares, and debentures",
+                    "Record the issue of shares at par, at a premium, and by instalments",
+                    "Prepare a company balance sheet showing share capital and reserves",
+                ]},
+                {"name": "Company Final Accounts", "objectives": [
+                    "Prepare a company profit and loss account and appropriation account",
+                    "Distinguish between revenue reserves (retained earnings) and capital reserves",
+                    "Explain dividends: declared, interim, and final dividends",
+                ]},
+            ]
+        },
+        {
+            "number": 12, "name": "Departmental & Branch Accounts",
+            "subtopics": [
+                {"name": "Departmental Accounts", "objectives": [
+                    "Prepare separate departmental trading accounts",
+                    "Apportion shared expenses between departments using appropriate bases",
+                    "Evaluate the profitability of each department",
+                ]},
+                {"name": "Branch Accounts", "objectives": [
+                    "Explain the debtors system and stock and debtors system of branch accounting",
+                    "Prepare branch accounts in the head office books",
+                    "Reconcile branch stock at cost with branch stock at selling price",
+                ]},
+            ]
+        },
+        {
+            "number": 13, "name": "Public Sector Accounting",
+            "subtopics": [
+                {"name": "Government Accounting Concepts", "objectives": [
+                    "Explain the objectives of government (public sector) accounting in Nigeria",
+                    "Distinguish between capital and recurrent budgets",
+                    "Describe the roles of the Accountant-General and Auditor-General in Nigeria",
+                ]},
+                {"name": "Government Financial Statements", "objectives": [
+                    "Prepare a government revenue and expenditure account",
+                    "Explain fund accounting and the consolidated revenue fund",
+                    "Identify and control irregularities in government accounts",
+                ]},
+            ]
+        },
+    ]
+}
+
+
+def rebuild_accounting():
+    write("accounting", ACCOUNTING)
+
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -1001,5 +1183,5 @@ if __name__ == "__main__":
     write("geography_syllabus", GEOGRAPHY)
     write("english_language_syllabus", ENGLISH)
     write("literature_in_english_syllabus", LITERATURE)
-    enrich_accounting()
+    rebuild_accounting()
     print("\nDone.")
