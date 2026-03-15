@@ -97,6 +97,17 @@ select:focus {
     margin-top: 24px;
 }
 
+/* ===== LEVEL-STREAK ROW HELPERS ===== */
+/* Remove default card bottom-margin when used inside the level-streak grid */
+.level-streak-row > .card {
+    margin-bottom: 0;
+}
+
+/* Both grid children stretch to equal height */
+.level-streak-row {
+    align-items: stretch;
+}
+
 .mb-1 {
     margin-bottom: 8px;
 }
@@ -975,6 +986,11 @@ body.menu-open {
         grid-template-columns: 1fr !important;
     }
 
+    /* Streak card full width on mobile */
+    .streak-card {
+        width: 100%;
+    }
+
     /* Recommended topics: single column on narrow screens */
     .recommended-topics-grid {
         grid-template-columns: 1fr;
@@ -993,6 +1009,16 @@ body.menu-open {
 
     .toast {
         min-width: auto;
+    }
+}
+
+/* ===== NARROW DESKTOP — level/streak collapses at ~1100px ===== */
+/* The sidebar takes 260px, so at 1100 each column is (~420px) — fine.
+   But at ≤960px (e.g. small laptop, 1024 px landscape tablet) the columns
+   shrink enough that the streak info word-wraps awkwardly. */
+@media (min-width: 769px) and (max-width: 1050px) {
+    .level-streak-row {
+        grid-template-columns: 1fr !important;
     }
 }
 

@@ -72,16 +72,18 @@ class TourManager {
     }
 
     _buildDOM() {
-        // Backdrop
+        // Full-screen click-blocking backdrop (pointer-events: auto blocks
+        // accidental clicks reaching the dashboard while the tour is open)
         this.overlay = document.createElement('div');
         this.overlay.id = 'tour-overlay';
         Object.assign(this.overlay.style, {
             position: 'fixed', inset: '0',
             zIndex: '99990',
-            pointerEvents: 'none',
+            pointerEvents: 'auto',   // blocks clicks to elements behind
+            background: 'transparent',
         });
 
-        // Spotlight box
+        // Spotlight box (purely visual — cut-out highlight around the target)
         this.spotlight = document.createElement('div');
         this.spotlight.id = 'tour-spotlight';
         Object.assign(this.spotlight.style, {
@@ -93,7 +95,7 @@ class TourManager {
             pointerEvents: 'none',
         });
 
-        // Tooltip card
+        // Tooltip card — must be above the blocking overlay so buttons work
         this.card = document.createElement('div');
         this.card.id = 'tour-card';
         this.card.style.cssText = `
@@ -105,6 +107,7 @@ class TourManager {
             max-width: 340px;
             min-width: 280px;
             z-index: 99993;
+            pointer-events: auto;
             border-top: 4px solid var(--primary-yellow, #FFC107);
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             transition: top 0.35s ease, left 0.35s ease, opacity 0.2s ease;

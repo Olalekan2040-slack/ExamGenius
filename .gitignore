@@ -262,3 +262,5 @@ cleanup_*.py
 TROUBLESHOOTING*.md
 QUICK_START*.md
 DEEPSEEK*.md
+
+nohup.out

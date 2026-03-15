@@ -34,17 +34,17 @@ async function showDashboard() {
                 </div>
                 
                 <!-- Learning Level & Streak -->
-                <div class="level-streak-row mt-3" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-                    <div class="learning-level-card card" style="border-top: 4px solid #8b5cf6;">
+                <div class="level-streak-row mt-3" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: stretch;">
+                    <div class="learning-level-card card" style="border-top: 4px solid #8b5cf6; margin-bottom: 0;">
                         <div class="card-header">
                             <h2><i class="fas fa-trophy" style="color: #ffd700;"></i> Your Level</h2>
                         </div>
                         <div style="display: flex; align-items: center; gap: 16px; padding: 20px 0;">
-                            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ffd700, #ff8c00); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: bold; color: white;">
+                            <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #ffd700, #ff8c00); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: bold; color: white; flex-shrink: 0;">
                                 ${pointsData.level}
                             </div>
-                            <div>
-                                <h3 style="margin: 0; font-size: 24px; color: var(--text-primary);">${pointsData.level_name}</h3>
+                            <div style="min-width: 0;">
+                                <h3 style="margin: 0; font-size: 22px; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${pointsData.level_name}</h3>
                                 <p style="margin: 4px 0 0; color: var(--text-secondary);">${pointsData.total_points} total points</p>
                                 <div class="points-breakdown" style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px;">
                                     ${breakdown.learning ? `<span class="points-badge" title="From guided learning"><i class="fas fa-book"></i> ${breakdown.learning}</span>` : ''}
@@ -56,11 +56,11 @@ async function showDashboard() {
                             </div>
                         </div>
                     </div>
-                    <div class="streak-card" style="margin: 0;">
-                        <div class="streak-icon">🔥</div>
+                    <div class="streak-card" style="margin: 0; min-height: 120px;">
+                        <div class="streak-icon" style="font-size: 40px;">🔥</div>
                         <div class="streak-info">
-                            <h3>${stats.streak.current_streak} Day Streak!</h3>
-                            <p>Longest streak: ${stats.streak.longest_streak} days • Last activity: ${utils.formatDate(stats.streak.last_activity)}</p>
+                            <h3 style="font-size: 28px;">${stats.streak.current_streak} Day Streak!</h3>
+                            <p>Longest: ${stats.streak.longest_streak} days<br><span style="font-size: 12px; opacity: 0.8;">Last activity: ${utils.formatDate(stats.streak.last_activity)}</span></p>
                         </div>
                     </div>
                 </div>

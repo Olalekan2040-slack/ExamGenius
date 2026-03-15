@@ -2,8 +2,17 @@
 
 .admin-dashboard {
     display: flex;
-    height: 100vh;
+    /* Fill the visible area within the app layout
+       top-bar ~70px + content-area padding 48px = 118px; use 130px as safe buffer */
+    min-height: calc(100vh - 130px);
     background-color: var(--bg-light, #FAFAFA);
+    border-radius: var(--radius-md, 12px);
+    overflow: hidden;
+}
+
+/* When admin is nested inside createAppLayout, adjust the content area */
+#admin-container {
+    margin: -24px; /* cancel the content-area padding so admin fills edge-to-edge */
 }
 
 /* ── Sidebar Nav ── */
@@ -303,14 +312,21 @@
 @media (max-width: 768px) {
     .admin-dashboard {
         flex-direction: column;
+        min-height: auto;
+    }
+
+    /* Cancel the negative margin on mobile so panel sits nicely */
+    #admin-container {
+        margin: -16px -12px;
     }
 
     .admin-nav {
         width: 100%;
         height: auto;
-        max-height: 110px;
+        max-height: none;
         flex-direction: row;
         overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     .admin-nav-header {
