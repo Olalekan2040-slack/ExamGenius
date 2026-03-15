@@ -252,25 +252,25 @@ def generate_objective_explanation(
     Fetch a detailed explanation for a learning objective from Wikipedia.
     No AI generation — all content comes from online encyclopaedic resources.
 
-    Search strategy (most specific → least specific):
-      1. "{subtopic} {subject}"
-      2. "{subtopic}"
-      3. "{topic} {subject}"
-      4. "{topic}"
-      5. First key phrase from objective
+    Search strategy (best Wikipedia title match first):
+      1. "{topic}"                 — clean, concise, best title match
+      2. "{topic} {subject}"       — add subject context
+      3. "{subtopic}"              — try subtopic name
+      4. First key phrase from objective
     """
     obj_phrase = " ".join([w for w in objective.split() if len(w) > 4][:5])
     queries = [
-        f"{subtopic} {subject}",
-        subtopic,
-        f"{topic} {subject}",
         topic,
+        f"{topic} {subject}",
+        subtopic,
     ]
-    if obj_phrase:
+    if obj_phrase and obj_phrase.lower() not in topic.lower():
         queries.append(obj_phrase)
 
     wiki = None
     for q in queries:
+        if not q.strip():
+            continue
         title = _wiki_search(q)
         if title:
             candidate = _wiki_fetch(title)
@@ -294,11 +294,11 @@ def regenerate_explanation(
     """
     obj_phrase = " ".join([w for w in objective.split() if len(w) > 4][:6])
     queries = [
-        obj_phrase,
-        f"{topic} {subtopic}",
-        f"{subject} {subtopic} explained",
-        f"{subtopic} definition",
         subtopic,
+        f"{subject} {topic}",
+        obj_phrase,
+        f"{subtopic} definition",
+        topic,
     ]
 
     wiki = None
