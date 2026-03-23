@@ -63,7 +63,7 @@ def normalize_subject_name(subject: str) -> str:
 @router.post("/create")
 async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = Depends(current_user_id)):
     """
-    Create a new CBT session with 4 subjects (40 questions each = 160 total)
+    Create a new CBT session: English=60 questions, other 3 subjects=40 each (180 total, 2 hours)
     Uses random past JAMB questions from all available years
     """
     conn = get_connection()
@@ -115,24 +115,25 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
 
         # Create session record
         session_id = generate_session_id()
-        expires_at = (datetime.utcnow() + timedelta(hours=3)).isoformat()
+        expires_at = (datetime.utcnow() + timedelta(hours=2)).isoformat()
 
         cursor.execute("""
             INSERT INTO exam_sessions (id, user_id, status, total_questions, time_limit_minutes, expires_at)
-            VALUES (?, ?, 'in_progress', 160, 180, ?)
+            VALUES (?, ?, 'in_progress', 180, 120, ?)
         """, (session_id, user_id, expires_at))
 
-        # Build question set: 40 questions per subject from past years
+        # Build question set: English=60 questions, other subjects=40 questions (JAMB standard)
         question_number = 1
 
         for subject_position, subject in enumerate(normalized_subjects, 1):
-            # Get random questions from all years
+            # English/Use of English gets 60 questions; all other subjects get 40
+            questions_for_subject = 60 if subject == "English" else 40
             cursor.execute("""
                 SELECT id FROM questions
                 WHERE subject = ? AND exam = 'JAMB'
                 ORDER BY RANDOM()
-                LIMIT 40
-            """, (subject,))
+                LIMIT ?
+            """, (subject, questions_for_subject))
 
             for row in cursor.fetchall():
                 cursor.execute("""
@@ -151,9 +152,10 @@ async def create_cbt_session(request: CreateCBTSessionRequest, user_id: int = De
             "success": True,
             "session_id": session_id,
             "subjects": normalized_subjects,
-            "total_questions": 160,
-            "questions_per_subject": 40,
-            "time_limit_minutes": 180,
+            "total_questions": 180,
+            "english_questions": 60,
+            "other_questions": 40,
+            "time_limit_minutes": 120,
             "expires_at": expires_at,
             "notice": practice_notice
         }

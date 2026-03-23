@@ -902,6 +902,46 @@ body.menu-open {
     font-size: 14px;
 }
 
+/* ===== CBT EXAM SCREEN ===== */
+.cbt-exam-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Subject tab strip — scrollable so long subject names never overflow */
+.cbt-subject-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;        /* Firefox */
+    padding-bottom: 2px;
+    flex: 1;
+    min-width: 0;
+}
+
+.cbt-subject-tabs::-webkit-scrollbar {
+    display: none;                /* Chrome/Safari */
+}
+
+.cbt-tab-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 8px 14px;
+    font-size: 12px;
+}
+
+/* Subject checklist on setup screen */
+.cbt-subject-grid {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .landing-nav {
@@ -1009,6 +1049,27 @@ body.menu-open {
 
     .toast {
         min-width: auto;
+    }
+
+    /* CBT exam: stack timer + tabs + submit vertically on mobile */
+    .cbt-exam-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cbt-subject-tabs {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .cbt-tab-btn {
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    /* CBT subject selection: 1 column full-width labels */
+    .cbt-subject-grid {
+        grid-template-columns: 1fr;
     }
 }
 

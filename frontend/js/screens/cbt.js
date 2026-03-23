@@ -8,7 +8,7 @@ let cbtState = {
     currentQuestionIndex: 0,
     answers: {},
     startTime: null,
-    timeLimit: 180 * 60, // 3 hours in seconds
+    timeLimit: 120 * 60, // 2 hours fallback (overridden by server response)
     timerInterval: null
 };
 
@@ -34,7 +34,7 @@ async function showCBTSelect() {
             <div class="cbt-screen">
                 <h1><i class="fas fa-laptop"></i> Full CBT Simulation</h1>
                 <p style="margin-bottom: 32px; color: var(--text-secondary);">
-                    Experience real JAMB exam conditions with 160 questions and 3-hour timer
+                    Experience real JAMB exam conditions with 180 questions and a 2-hour timer
                 </p>
                 
                 <div class="card">
@@ -47,13 +47,13 @@ async function showCBTSelect() {
                         <ul style="margin: 8px 0 0 20px; line-height: 1.8;">
                             <li><strong>English Language is mandatory</strong> (always included)</li>
                             <li>Select exactly 3 more subjects from the list below</li>
-                            <li>You'll have 3 hours to complete 160 questions (40 per subject)</li>
+                            <li>You'll have <strong>2 hours</strong> to complete <strong>180 questions</strong> (English: 60, other subjects: 40 each)</li>
                             <li>Timer starts immediately after you begin</li>
                             <li>You can switch between subjects during the exam</li>
                         </ul>
                     </div>
                     
-                    <div id="subject-selection" style="display: grid; gap: 12px; margin-bottom: 20px;">
+                    <div id="subject-selection" class="cbt-subject-grid">
                         ${subjects.subjects.map(s => {
             const isEnglish = englishLabels.includes(s);
             return `
@@ -203,24 +203,26 @@ function updateCBTTimerDisplay(remaining) {
 
 async function showCBTExam() {
     const user = authManager.getUser();
-    const currentQuestions = cbtState.questions.filter((q, idx) =>
-        Math.floor(idx / 40) === cbtState.currentSubjectIndex
+    // Use subject_position (1-based) for correct filtering — English has 60 Qs, others have 40
+    const currentSubjectPosition = cbtState.currentSubjectIndex + 1;
+    const currentQuestions = cbtState.questions.filter(q =>
+        q.subject_position === currentSubjectPosition
     );
     const question = currentQuestions[cbtState.currentQuestionIndex];
+    const totalInSubject = currentQuestions.length;
 
     const content = `
         <div class="cbt-exam-screen">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
+            <div class="cbt-exam-header">
                 <div class="timer-display" id="cbt-timer-container">
                     <i class="fas fa-clock"></i>
-                    <span id="cbt-timer">3:00:00</span>
+                    <span id="cbt-timer">2:00:00</span>
                 </div>
                 
-                <div style="display: flex; gap: 8px;">
+                <div class="cbt-subject-tabs">
                     ${cbtState.subjects.map((subj, idx) => `
-                        <button class="btn ${idx === cbtState.currentSubjectIndex ? 'btn-primary' : 'btn-outline'}" 
-                                onclick="switchCBTSubject(${idx})"
-                                style="padding: 8px 16px; font-size: 12px;">
+                        <button class="btn ${idx === cbtState.currentSubjectIndex ? 'btn-primary' : 'btn-outline'} cbt-tab-btn" 
+                                onclick="switchCBTSubject(${idx})">
                             ${subj}
                         </button>
                     `).join('')}
@@ -234,12 +236,12 @@ async function showCBTExam() {
             <div class="card mb-3">
                 <div style="padding: 16px; background: var(--bg-light); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center;">
                     <strong>${cbtState.subjects[cbtState.currentSubjectIndex]}</strong>
-                    <span>Question ${cbtState.currentQuestionIndex + 1} of 40</span>
+                    <span>Question ${cbtState.currentQuestionIndex + 1} of ${totalInSubject}</span>
                 </div>
             </div>
             
             <div class="question-card">
-                <div class="question-number">Question ${question.subject_position}</div>
+                <div class="question-number">Question ${cbtState.currentQuestionIndex + 1}</div>
                 
                 ${question.passage ? `
                     <div class="passage-box" style="background: var(--bg-light); padding: 16px; border-radius: var(--radius-md); margin-bottom: 16px; border-left: 4px solid var(--info); max-height: 200px; overflow-y: auto;">
@@ -277,7 +279,7 @@ async function showCBTExam() {
                 
                 <button class="btn btn-outline" 
                         onclick="navigateCBTQuestion(1)" 
-                        ${cbtState.currentQuestionIndex === 39 ? 'disabled' : ''}>
+                        ${cbtState.currentQuestionIndex === totalInSubject - 1 ? 'disabled' : ''}>
                     Next <i class="fas fa-arrow-right"></i>
                 </button>
             </div>
@@ -309,9 +311,9 @@ function navigateCBTQuestion(direction) {
 
 function confirmSubmitCBT() {
     const answeredCount = Object.keys(cbtState.answers).length;
-    const totalCount = 160;
+    const totalCount = cbtState.questions.length;
 
-    const confirmed = confirm(`You've answered ${answeredCount}/160 questions. Submit exam now?`);
+    const confirmed = confirm(`You've answered ${answeredCount}/${totalCount} questions. Submit exam now?`);
     if (confirmed) {
         submitCBTExam();
     }
