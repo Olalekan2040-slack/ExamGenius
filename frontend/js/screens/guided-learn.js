@@ -51,6 +51,12 @@ function hasStaticContent(subject, topic) {
             return true;
         }
     }
+    // English content
+    if (subject === 'English') {
+        if (window.ENGLISH_LEARNING_CONTENT && window.ENGLISH_LEARNING_CONTENT[topic]) {
+            return true;
+        }
+    }
     // Add more subjects here as content is created
     return false;
 }
@@ -81,6 +87,10 @@ function getStaticTopicContent(subject, topic) {
     // Biology content
     if (subject === 'Biology' && window.BIOLOGY_LEARNING_CONTENT && window.BIOLOGY_LEARNING_CONTENT[topic]) {
         return window.BIOLOGY_LEARNING_CONTENT[topic];
+    }
+    // English content
+    if (subject === 'English' && window.ENGLISH_LEARNING_CONTENT && window.ENGLISH_LEARNING_CONTENT[topic]) {
+        return window.ENGLISH_LEARNING_CONTENT[topic];
     }
     // Add more subjects here
     return null;
@@ -681,7 +691,7 @@ async function showStaticObjectiveLearning() {
     mainApp.classList.remove('hidden');
 }
 
-function showStaticObjectivePractice() {
+async function showStaticObjectivePractice() {
     const user = authManager.getUser();
     const content = guidedLearnState.staticContent;
     const { currentSubtopicIndex, currentObjectiveIndex } = guidedLearnState;
@@ -705,9 +715,96 @@ function showStaticObjectivePractice() {
     const progressPercent = (currentPosition / totalObjectives) * 100;
     const questionKey = `${currentSubtopicIndex}_${currentObjectiveIndex}`;
     const alreadyAnswered = guidedLearnState.answeredQuestions && guidedLearnState.answeredQuestions[questionKey];
-    const question = objective.question;
+
+    // Try to fetch a real JAMB past question from DB first
+    let dbQuestion = null;
+    try {
+        const qData = await api.request(
+            `/guided-learn/questions/by-subtopic?subject=${encodeURIComponent(content.subject)}&topic=${encodeURIComponent(content.topic)}&subtopic=${encodeURIComponent(subtopic.name)}&limit=1`,
+            { requireAuth: true }
+        );
+        if (qData.questions && qData.questions.length > 0) {
+            dbQuestion = qData.questions[0];
+        }
+    } catch (e) {
+        console.log('Could not fetch DB question for objective practice:', e);
+    }
+
+    // Normalise: prefer DB question, fall back to static
+    let question = null;
+    let isDbQuestion = false;
+    if (dbQuestion && dbQuestion.options && Object.keys(dbQuestion.options).length >= 2) {
+        question = {
+            text: dbQuestion.question_text,
+            options: dbQuestion.options,
+            correctAnswer: dbQuestion.correct_option_key,
+            explanation: dbQuestion.explanation || `The correct answer is ${dbQuestion.correct_option_key}.`,
+            year: dbQuestion.year,
+            isJamb: true
+        };
+        isDbQuestion = true;
+    } else if (objective.question) {
+        question = objective.question;
+    }
 
     guidedLearnState.questionAnswered = !!alreadyAnswered;
+
+    const practiceHeader = question
+        ? `<div class="objective-banner practice-banner">
+                <div class="objective-label"><i class="fas fa-brain"></i> Test Your Understanding</div>
+                <h2>${objective.title}</h2>
+           </div>`
+        : `<div class="objective-banner">
+                <div class="objective-label"><i class="fas fa-bullseye"></i> Objective ${currentPosition}</div>
+                <h2>${objective.title}</h2>
+           </div>`;
+
+    const questionHtml = question ? `
+        <div class="practice-full">
+            <div class="content-card question-card-full">
+                <div class="card-header">
+                    <h3><i class="fas fa-question-circle"></i> Practice Question</h3>
+                    ${isDbQuestion && question.year ? `<span class="badge">JAMB ${question.year}</span>` : '<span class="badge">JAMB Style</span>'}
+                </div>
+                <div class="card-body">
+                    <div class="static-question" id="static-question-area">
+                        <p class="question-text">${question.text}</p>
+                        <div class="options-list">
+                            ${Object.entries(question.options).sort(([a],[b]) => a.localeCompare(b)).map(([key, text]) => {
+                                const isCorrect = key === question.correctAnswer;
+                                const wasSelected = alreadyAnswered === key;
+                                let optionClass = '';
+                                if (alreadyAnswered) {
+                                    if (isCorrect) optionClass = 'correct';
+                                    else if (wasSelected) optionClass = 'incorrect';
+                                }
+                                return `
+                                    <div class="option-item ${optionClass}" 
+                                         id="static-option-${key}"
+                                         onclick="selectStaticOption('${key}')"
+                                         ${alreadyAnswered ? 'style="pointer-events: none;"' : ''}>
+                                        <span class="option-key">${key}</span>
+                                        <span class="option-text">${text}</span>
+                                        ${alreadyAnswered && isCorrect ? '<i class="fas fa-check"></i>' : ''}
+                                        ${alreadyAnswered && wasSelected && !isCorrect ? '<i class="fas fa-times"></i>' : ''}
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                        <div class="feedback-box ${alreadyAnswered ? (alreadyAnswered === question.correctAnswer ? 'correct' : 'incorrect') : 'hidden'}" id="static-feedback">
+                            ${alreadyAnswered ? `
+                                <div class="feedback-header">
+                                    <i class="fas fa-${alreadyAnswered === question.correctAnswer ? 'check-circle' : 'times-circle'}"></i>
+                                    <strong>${alreadyAnswered === question.correctAnswer ? 'Correct!' : 'Incorrect'}</strong>
+                                </div>
+                                <p>${question.explanation}</p>
+                            ` : ''}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    ` : '';
 
     const pageContent = `
         <div class="static-learn-screen">
@@ -734,76 +831,30 @@ function showStaticObjectivePractice() {
                     <div class="step-circle completed"><i class="fas fa-check"></i></div>
                     <span>Learn</span>
                 </div>
-                <div class="step-connector active"></div>
-                <div class="step-item active">
-                    <div class="step-circle active"><i class="fas fa-pencil-alt"></i></div>
+                <div class="step-connector ${question ? 'active' : 'inactive'}"></div>
+                <div class="step-item ${question ? 'active' : 'inactive'}">
+                    <div class="step-circle ${question ? 'active' : ''}"><i class="fas fa-pencil-alt"></i></div>
                     <span>Practice</span>
                 </div>
             </div>
 
-            <!-- Practice Header -->
-            <div class="objective-banner practice-banner">
-                <div class="objective-label"><i class="fas fa-brain"></i> Test Your Understanding</div>
-                <h2>${objective.title}</h2>
-            </div>
-
-            <!-- Full-Width Question -->
-            <div class="practice-full">
-                <div class="content-card question-card-full">
-                    <div class="card-header">
-                        <h3><i class="fas fa-question-circle"></i> Practice Question</h3>
-                        <span class="badge">JAMB Style</span>
-                    </div>
-                    <div class="card-body">
-                        <div class="static-question" id="static-question-area">
-                            <p class="question-text">${question.text}</p>
-                            <div class="options-list">
-                                ${Object.entries(question.options).map(([key, text]) => {
-        const isCorrect = key === question.correctAnswer;
-        const wasSelected = alreadyAnswered === key;
-        let optionClass = '';
-        if (alreadyAnswered) {
-            if (isCorrect) optionClass = 'correct';
-            else if (wasSelected) optionClass = 'incorrect';
-        }
-        return `
-                                        <div class="option-item ${optionClass}" 
-                                             id="static-option-${key}"
-                                             onclick="selectStaticOption('${key}')"
-                                             ${alreadyAnswered ? 'style="pointer-events: none;"' : ''}>
-                                            <span class="option-key">${key}</span>
-                                            <span class="option-text">${text}</span>
-                                            ${alreadyAnswered && isCorrect ? '<i class="fas fa-check"></i>' : ''}
-                                            ${alreadyAnswered && wasSelected && !isCorrect ? '<i class="fas fa-times"></i>' : ''}
-                                        </div>
-                                    `;
-    }).join('')}
-                            </div>
-                            <div class="feedback-box ${alreadyAnswered ? (alreadyAnswered === question.correctAnswer ? 'correct' : 'incorrect') : 'hidden'}" id="static-feedback">
-                                ${alreadyAnswered ? `
-                                    <div class="feedback-header">
-                                        <i class="fas fa-${alreadyAnswered === question.correctAnswer ? 'check-circle' : 'times-circle'}"></i>
-                                        <strong>${alreadyAnswered === question.correctAnswer ? 'Correct!' : 'Incorrect'}</strong>
-                                    </div>
-                                    <p>${question.explanation}</p>
-                                ` : ''}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            ${practiceHeader}
+            ${questionHtml}
             
             <!-- Navigation -->
             <div class="learning-navigation step-navigation">
                 <button class="btn btn-outline" onclick="showStaticObjectiveLearning()">
                     <i class="fas fa-arrow-left"></i> Back to Explanation
                 </button>
-                <button class="btn btn-primary" id="static-next-btn" onclick="goToNextStaticObjective()" ${!guidedLearnState.questionAnswered ? 'disabled' : ''}>
+                <button class="btn btn-primary" id="static-next-btn" onclick="goToNextStaticObjective()" ${question && !guidedLearnState.questionAnswered ? 'disabled' : ''}>
                     Next <i class="fas fa-arrow-right"></i>
                 </button>
             </div>
         </div>
     `;
+
+    // Store active question in state for selectStaticOption
+    guidedLearnState.activeStaticQuestion = question;
 
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
@@ -885,7 +936,9 @@ function selectStaticOption(key) {
     const content = guidedLearnState.staticContent;
     const subtopic = content.subtopics[guidedLearnState.currentSubtopicIndex];
     const objective = subtopic.objectives[guidedLearnState.currentObjectiveIndex];
-    const question = objective.question;
+    // Use activeStaticQuestion which may be a DB question or the static question
+    const question = guidedLearnState.activeStaticQuestion || objective.question;
+    if (!question) return;
     const correctAnswer = question.correctAnswer;
     const isCorrect = key === correctAnswer;
 
@@ -1046,7 +1099,7 @@ function goToPrevStaticObjective() {
     }
 }
 
-function showStaticSubtopicComplete() {
+async function showStaticSubtopicComplete() {
     const user = authManager.getUser();
     const content = guidedLearnState.staticContent;
     const completedSubtopic = content.subtopics[guidedLearnState.currentSubtopicIndex];
@@ -1062,6 +1115,20 @@ function showStaticSubtopicComplete() {
         description: `Completed subtopic: ${completedSubtopic.name}`
     });
 
+    // Fetch real JAMB past questions for this subtopic
+    let subtopicQuestions = [];
+    try {
+        const qData = await api.request(
+            `/guided-learn/questions/by-subtopic?subject=${encodeURIComponent(content.subject)}&topic=${encodeURIComponent(content.topic)}&subtopic=${encodeURIComponent(completedSubtopic.name)}&limit=5`,
+            { requireAuth: true }
+        );
+        subtopicQuestions = qData.questions || [];
+    } catch (e) {
+        console.log('Could not fetch subtopic questions:', e);
+    }
+
+    const hasSubtopicQuiz = subtopicQuestions.length > 0;
+
     const pageContent = `
         <div class="static-learn-screen">
             <div class="subtopic-complete-card">
@@ -1075,23 +1142,128 @@ function showStaticSubtopicComplete() {
                     <i class="fas fa-star"></i>
                     <span>+25 Bonus Points!</span>
                 </div>
+
+                ${hasSubtopicQuiz ? `
+                <div class="subtopic-jamb-quiz" id="subtopicJambQuiz">
+                    <div class="jamb-quiz-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Past JAMB Questions</h3>
+                        <p>Test yourself with ${subtopicQuestions.length} real JAMB question${subtopicQuestions.length > 1 ? 's' : ''} on <strong>${completedSubtopic.name}</strong></p>
+                    </div>
+                    <div id="subtopicQuizContent">
+                        ${renderSubtopicJambQuestion(subtopicQuestions, 0)}
+                    </div>
+                </div>
+                ` : ''}
                 
-                <div class="next-preview">
+                <div class="next-preview" id="nextSubtopicPreview" ${hasSubtopicQuiz ? 'style="display:none"' : ''}>
                     <h3>Up Next:</h3>
-                    <p class="next-name">${nextSubtopic.name}</p>
+                    <p class="next-name">${nextSubtopic ? nextSubtopic.name : 'Topic Complete'}</p>
                 </div>
                 
-                <button class="btn btn-primary btn-lg" onclick="continueToNextStaticSubtopic()">
+                <button class="btn btn-primary btn-lg" id="continueBtn" ${hasSubtopicQuiz ? 'style="display:none"' : ''} onclick="continueToNextStaticSubtopic()">
                     <i class="fas fa-arrow-right"></i> Continue
                 </button>
             </div>
         </div>
     `;
 
+    // Store questions in state for access by quiz functions
+    guidedLearnState.subtopicJambQuestions = subtopicQuestions;
+    guidedLearnState.subtopicJambIndex = 0;
+    guidedLearnState.subtopicJambAnswers = {};
+
     const mainApp = document.getElementById('main-app');
     mainApp.innerHTML = createAppLayout(user, pageContent);
     mainApp.classList.remove('hidden');
 }
+
+function renderSubtopicJambQuestion(questions, index) {
+    const q = questions[index];
+    if (!q) return '';
+    const total = questions.length;
+    const optionKeys = Object.keys(q.options).sort();
+
+    return `
+        <div class="jamb-q-card">
+            ${q.year ? `<div class="jamb-year-badge">JAMB ${q.year}</div>` : ''}
+            <div class="jamb-q-number">Question ${index + 1} of ${total}</div>
+            <div class="jamb-q-text">${q.question_text}</div>
+            <div class="jamb-options" id="jambOpts_${index}">
+                ${optionKeys.map(key => `
+                    <button class="jamb-opt-btn" onclick="selectSubtopicJambAnswer('${key}', ${index})" data-key="${key}">
+                        <span class="opt-key">${key}.</span> ${q.options[key]}
+                    </button>
+                `).join('')}
+            </div>
+            <div id="jambFeedback_${index}" class="jamb-feedback" style="display:none"></div>
+        </div>
+    `;
+}
+
+function selectSubtopicJambAnswer(selectedKey, questionIndex) {
+    const questions = guidedLearnState.subtopicJambQuestions;
+    const q = questions[questionIndex];
+    const isCorrect = selectedKey === q.correct_option_key;
+
+    guidedLearnState.subtopicJambAnswers[questionIndex] = selectedKey;
+
+    // Highlight options
+    const optsContainer = document.getElementById(`jambOpts_${questionIndex}`);
+    if (optsContainer) {
+        optsContainer.querySelectorAll('.jamb-opt-btn').forEach(btn => {
+            const key = btn.getAttribute('data-key');
+            btn.disabled = true;
+            if (key === q.correct_option_key) btn.classList.add('correct');
+            else if (key === selectedKey) btn.classList.add('wrong');
+        });
+    }
+
+    // Show feedback
+    const feedbackEl = document.getElementById(`jambFeedback_${questionIndex}`);
+    if (feedbackEl) {
+        feedbackEl.style.display = 'block';
+        feedbackEl.innerHTML = `
+            <div class="feedback-${isCorrect ? 'correct' : 'wrong'}">
+                <i class="fas fa-${isCorrect ? 'check-circle' : 'times-circle'}"></i>
+                ${isCorrect ? 'Correct!' : `Wrong. Correct answer: <strong>${q.correct_option_key}</strong>`}
+                ${q.explanation ? `<p class="feedback-exp">${q.explanation}</p>` : ''}
+            </div>
+            <div class="jamb-q-nav">
+                ${questionIndex + 1 < questions.length ? `
+                    <button class="btn btn-primary" onclick="showNextSubtopicJambQ(${questionIndex + 1})">
+                        Next Question <i class="fas fa-arrow-right"></i>
+                    </button>
+                ` : `
+                    <button class="btn btn-primary" onclick="finishSubtopicJambQuiz()">
+                        Continue to Next Subtopic <i class="fas fa-arrow-right"></i>
+                    </button>
+                `}
+            </div>
+        `;
+    }
+}
+
+function showNextSubtopicJambQ(nextIndex) {
+    const questions = guidedLearnState.subtopicJambQuestions;
+    const quizContent = document.getElementById('subtopicQuizContent');
+    if (quizContent) {
+        quizContent.innerHTML = renderSubtopicJambQuestion(questions, nextIndex);
+    }
+    guidedLearnState.subtopicJambIndex = nextIndex;
+}
+
+function finishSubtopicJambQuiz() {
+    // Show next subtopic preview and continue button
+    const nextPreview = document.getElementById('nextSubtopicPreview');
+    const continueBtn = document.getElementById('continueBtn');
+    const quizSection = document.getElementById('subtopicJambQuiz');
+    if (nextPreview) nextPreview.style.display = '';
+    if (continueBtn) continueBtn.style.display = '';
+    if (quizSection) quizSection.style.display = 'none';
+}
+
+
 
 function continueToNextStaticSubtopic() {
     guidedLearnState.currentSubtopicIndex++;
@@ -1825,8 +1997,38 @@ async function selectObjectiveAnswer(key) {
     feedbackEl.classList.remove('hidden');
     feedbackEl.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking...';
 
+    // AI-generated questions have string IDs like "ai_0" — check locally
+    const isAiQuestion = typeof q.question_id === 'string' && q.question_id.startsWith('ai_');
+    if (isAiQuestion) {
+        const correctAnswer = q.correct_answer || q.answer || '';
+        const isCorrect = key.toUpperCase() === correctAnswer.toUpperCase();
+        if (isCorrect) {
+            selectedEl.classList.add('correct');
+            feedbackEl.className = 'answer-feedback correct';
+            feedbackEl.innerHTML = `
+                <i class="fas fa-check-circle"></i>
+                <strong>Correct!</strong>
+                ${q.explanation ? `<p>${q.explanation}</p>` : ''}
+            `;
+        } else {
+            selectedEl.classList.add('incorrect');
+            const correctEl = document.getElementById(`option-${correctAnswer.toUpperCase()}`);
+            if (correctEl) correctEl.classList.add('correct');
+            feedbackEl.className = 'answer-feedback incorrect';
+            feedbackEl.innerHTML = `
+                <i class="fas fa-times-circle"></i>
+                <strong>Not quite right</strong>
+                ${q.explanation ? `<p>${q.explanation}</p>` : ''}
+            `;
+        }
+        const nextBtn = document.getElementById('next-btn');
+        if (nextBtn) nextBtn.disabled = false;
+        await saveObjectiveProgress('completed', isCorrect);
+        return;
+    }
+
     try {
-        // Submit answer
+        // Submit answer to backend (DB questions with integer IDs)
         const result = await api.request('/guided-learn/answer-question', {
             method: 'POST',
             requireAuth: true,
@@ -1868,7 +2070,10 @@ async function selectObjectiveAnswer(key) {
         await saveObjectiveProgress('completed', result.is_correct);
 
     } catch (error) {
-        feedbackEl.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Error: ${error.message}`;
+        feedbackEl.className = 'answer-feedback incorrect';
+        feedbackEl.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Could not check answer. Please try again.`;
+        guidedLearnState.questionAnswered = false;
+        if (selectedEl) selectedEl.classList.remove('selected');
     }
 }
 
@@ -2886,3 +3091,8 @@ window.showStaticObjectivePractice = showStaticObjectivePractice;
 window.handleStaticAskQuestion = handleStaticAskQuestion;
 window.reviewStaticWeakAreas = reviewStaticWeakAreas;
 window.restartStaticTopic = restartStaticTopic;
+window.selectSubtopicJambAnswer = selectSubtopicJambAnswer;
+window.showNextSubtopicJambQ = showNextSubtopicJambQ;
+window.finishSubtopicJambQuiz = finishSubtopicJambQuiz;
+window.continueToNextStaticSubtopic = continueToNextStaticSubtopic;
+

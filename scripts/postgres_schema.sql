@@ -15,6 +15,8 @@ CREATE TABLE IF NOT EXISTS users (
     profile_pic_url TEXT,
     refresh_token TEXT,
     role TEXT DEFAULT 'student' CHECK(role IN ('student', 'admin', 'moderator')),
+    is_banned INTEGER DEFAULT 0,
+    banned_reason TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

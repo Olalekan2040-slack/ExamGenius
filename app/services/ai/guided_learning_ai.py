@@ -320,6 +320,135 @@ Be thorough — show actual numbers, actual calculations, actual answers."""
 
 # ── Public explanation functions ─────────────────────────────────────────────
 
+_GOVERNMENT_SUBJECTS = {"government"}
+
+
+def _generate_government_explanation(topic: str, subtopic: str, objective: str) -> Dict:
+    """
+    Generate a world-class, comprehensive Government explanation using Gemini AI.
+    Covers definitions, history, features, merits/demerits, Nigerian context, JAMB tips.
+    """
+    prompt = f"""You are the BEST Government/Politics teacher in Nigeria, preparing a JAMB student.
+Your explanations are clearer, deeper, and more memorable than any textbook.
+
+TOPIC: {topic}
+SUBTOPIC: {subtopic}
+LEARNING OBJECTIVE: {objective}
+
+Write an EXHAUSTIVE, WORLD-CLASS explanation that covers EVERYTHING a student needs to know.
+Structure your response as HTML with these MANDATORY sections:
+
+<div class='gl-web-content gl-govt-content'>
+
+<h4>📌 What Is {subtopic}? (Full Definition)</h4>
+<p>Give a complete, rich definition. Include the simple meaning AND the academic meaning. Break it down so a slow learner can understand it perfectly.</p>
+
+<h4>🏛️ Historical Background & Origins</h4>
+<p>Explain the historical context. When did this concept/system emerge? Why? What problem was it solving? Use real world events and Nigerian examples where possible.</p>
+
+<h4>🔑 Key Features & Characteristics</h4>
+<ul>
+  <li><strong>Feature 1:</strong> Detailed explanation of this feature...</li>
+  <li><strong>Feature 2:</strong> ...</li>
+  (List ALL important features - minimum 5 comprehensive bullet points)
+</ul>
+
+<h4>✅ Merits (Advantages)</h4>
+<ul>
+  <li>...</li>
+</ul>
+
+<h4>❌ Demerits (Disadvantages)</h4>
+<ul>
+  <li>...</li>
+</ul>
+
+<h4>🇳🇬 Nigerian Examples & Real-World Application</h4>
+<p>Give 2-3 specific, concrete Nigerian examples. Relate this concept to real Nigerian political history, institutions, or current events. Students must see how it applies to Nigeria.</p>
+
+<h4>🌍 Comparison / Contrast</h4>
+<p>Compare this concept with related or contrasting concepts. Use a clear comparison. For example, compare with other forms, structures, or systems as relevant to the objective.</p>
+
+<h4>📝 JAMB Key Points to Remember</h4>
+<ul>
+  <li>JAMB ALWAYS asks: ...</li>
+  <li>Common JAMB question: ...</li>
+  <li>Memory trick: ...</li>
+</ul>
+
+<h4>⚠️ Common Student Mistakes</h4>
+<ul>
+  <li>Students often confuse... with... Here is the difference: ...</li>
+</ul>
+
+<h4>🎯 Quick Summary</h4>
+<p>A tight, memorable 3-4 sentence summary of everything above. Write it so a student can recall this in an exam.</p>
+
+</div>
+
+CRITICAL RULES:
+1. Be EXHAUSTIVE — cover EVERY angle a JAMB examiner could test
+2. Use simple, direct English that Nigerian SS3 students understand
+3. Include SPECIFIC Nigerian examples (laws, constitutions, political parties, leaders, events)
+4. Every section MUST be meaningful and substantive — no vague filler
+5. For all comparisons, be explicit: "A is different from B because..."
+6. Return ONLY clean HTML — no markdown, no JSON, no code fences
+7. For the objective "{objective}", make sure EVERY word in that objective is fully addressed"""
+
+    try:
+        html = make_gemini_request(
+            prompt,
+            temperature=0.4,
+            max_tokens=3500,
+        )
+
+        # Strip markdown code fences if Gemini wraps them
+        html = html.strip()
+        for fence in ("```html", "```"):
+            if html.startswith(fence):
+                html = html[len(fence):]
+        if html.endswith("```"):
+            html = html[:-3]
+        html = html.strip()
+
+        # Ensure the wrapper div is present
+        if not html.startswith("<div"):
+            html = f"<div class='gl-web-content gl-govt-content'>\n{html}\n</div>"
+
+        # Extract key points from headings / first sentences of paragraphs
+        import re as _re
+        sentences = _re.split(r'(?<=[.!?])\s+', _re.sub(r'<[^>]+>', ' ', html))
+        key_points = [
+            s.strip().rstrip('.')
+            for s in sentences
+            if 40 < len(s.strip()) < 220 and not s.strip().startswith('<')
+        ][:5]
+
+        return {
+            "explanation_html":    html,
+            "explanation":         html,
+            "key_points":          key_points,
+            "worked_example":      None,
+            "svg_diagram":         None,
+            "diagram_caption":     None,
+            "jamb_tip": (
+                f"JAMB tests {subtopic} extensively — know definitions, features, "
+                f"merits/demerits, and Nigerian examples by heart."
+            ),
+            "common_mistakes":     [],
+            "summary": (
+                f"Master {subtopic} under {topic}: understand definitions, "
+                f"features, Nigerian context, and comparisons."
+            ),
+            "example":             None,
+            "needs_diagram":       False,
+            "diagram_description": None,
+        }
+    except Exception as e:
+        # Graceful fallback to Wikipedia
+        return _make_explanation_dict("Government", topic, subtopic, objective, None)
+
+
 def generate_objective_explanation(
     subject: str,
     topic: str,
@@ -329,10 +458,14 @@ def generate_objective_explanation(
     """
     Generate a detailed explanation for a learning objective.
     - Mathematics → Gemini AI with step-by-step calculations
+    - Government  → Gemini AI with world-class educational prompts
     - All other subjects → Wikipedia (online encyclopaedic content)
     """
     if subject.lower() in ("mathematics", "maths"):
         return _generate_math_explanation(topic, subtopic, objective)
+
+    if subject.lower() in _GOVERNMENT_SUBJECTS:
+        return _generate_government_explanation(topic, subtopic, objective)
 
     # Wikipedia path for all other subjects
     obj_phrase = " ".join([w for w in objective.split() if len(w) > 4][:5])
@@ -368,8 +501,52 @@ def regenerate_explanation(
     """
     Fetch explanation from a different angle (for 'Explain differently' button).
     Mathematics: Gemini regenerates with a different worked example.
+    Government:  Gemini regenerates with a fresh angle (analogies + Nigeria focus).
     Others: Wikipedia with a different search angle.
     """
+    if subject.lower() in _GOVERNMENT_SUBJECTS:
+        prompt = f"""You are re-explaining a JAMB Government concept to a student who wants a FRESH angle.
+
+TOPIC: {topic}
+SUBTOPIC: {subtopic}
+OBJECTIVE: {objective}
+
+Give a COMPLETELY DIFFERENT explanation from the first one. Use:
+1. Fresh analogies (compare the concept to everyday Nigerian life — markets, families, community decisions)
+2. Storytelling approach — narrate a short scenario showing the concept in action in Nigeria
+3. Focus on less-obvious but exam-critical angles of this concept
+4. A memorable mnemonic or acronym for key features
+
+Return HTML only inside <div class='gl-web-content gl-govt-content'>...</div>.
+Structure: brief re-definition → analogy/story → key differences stressed → exam-critical memory trick → 2 JAMB practice questions with answers."""
+        try:
+            html = make_gemini_request(prompt, temperature=0.65, max_tokens=2500)
+            html = html.strip()
+            for fence in ("```html", "```"):
+                if html.startswith(fence):
+                    html = html[len(fence):]
+            if html.endswith("```"):
+                html = html[:-3]
+            html = html.strip()
+            if not html.startswith("<div"):
+                html = f"<div class='gl-web-content gl-govt-content'>\n{html}\n</div>"
+            return {
+                "explanation_html":    html,
+                "explanation":         html,
+                "key_points":          [],
+                "worked_example":      None,
+                "svg_diagram":         None,
+                "diagram_caption":     None,
+                "jamb_tip": f"Different angle on {subtopic} — use analogies to remember during exams.",
+                "common_mistakes":     [],
+                "summary":             f"Fresh perspective on {subtopic}: analogies, stories, and memory tricks.",
+                "example":             None,
+                "needs_diagram":       False,
+                "diagram_description": None,
+            }
+        except Exception:
+            return _generate_government_explanation(topic, subtopic, objective)
+
     if subject.lower() in ("mathematics", "maths"):
         # Gemini with explicit instruction to use a different worked example
         prompt = f"""You are re-teaching a JAMB Mathematics objective to a student who wants a FRESH explanation.
@@ -652,7 +829,13 @@ def generate_subtopic_quiz(
     if len(db_questions) >= 3:
         return db_questions[:limit]
 
-    # ── 2. Fill remaining slots with Gemini-generated questions ─────
+    # ── 2. For Government and non-Math subjects: never AI-generate questions ──
+    # Government and similar subjects must only serve real JAMB past questions.
+    _NO_AI_QUESTIONS = {"government", "history", "crk", "irk", "literature in english", "english"}
+    if subject.lower() in _NO_AI_QUESTIONS:
+        return db_questions  # return whatever DB has, even if fewer than limit
+
+    # ── 3. Fill remaining slots with Gemini-generated questions ─────
     needed = limit - len(db_questions)
     objectives_text = "\n".join(f"- {o}" for o in objectives)
 

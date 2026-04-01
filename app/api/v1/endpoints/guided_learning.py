@@ -5,7 +5,7 @@ Handles objective-by-objective learning flow with AI explanations
 
 from fastapi import APIRouter, HTTPException, Depends, Query
 from pydantic import BaseModel
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Union
 from datetime import datetime
 import json
 import os
@@ -43,7 +43,7 @@ class AnswerObjectiveQuestionRequest(BaseModel):
     topic: str
     subtopic: str
     objective: str
-    question_id: int
+    question_id: Union[int, str]  # str for AI-generated questions (e.g. "ai_0")
     user_answer: str
 
 
@@ -576,6 +576,16 @@ async def answer_objective_question(
     conn = get_connection()
     cursor = conn.cursor()
 
+    # AI-generated questions have string IDs like "ai_0" — not in DB
+    if isinstance(request.question_id, str) and str(request.question_id).startswith("ai_"):
+        is_correct = request.user_answer.upper() == (request.user_answer.upper())  # can't verify
+        return {
+            "is_correct": None,
+            "correct_answer": None,
+            "user_answer": request.user_answer,
+            "explanation": "This was a practice question. Keep studying!"
+        }
+
     # Get the question
     cursor.execute("""
         SELECT q.question, q.correct_option_key
@@ -906,6 +916,12 @@ _TOPIC_FALLBACKS = {
     "Public Corporations and Parastatals": ["The Civil Service", "Local Government"],
     "Processes of Legislation": ["Arms of Government", "Principles of Democratic Government"],
     "Public Opinion": ["Pressure Groups", "Political Parties and Party Systems"],
+    # English fallbacks
+    "Comprehension & Summary": ["Grammar & Usage", "Vocabulary"],
+    "Vocabulary": ["Grammar & Usage", "Comprehension & Summary"],
+    "Grammar & Usage": ["Vocabulary", "Comprehension & Summary"],
+    "Oral English": ["Vocabulary", "Grammar & Usage"],
+    "Literature (The Life Changer)": ["Comprehension & Summary"],
 }
 
 
@@ -1238,6 +1254,126 @@ async def get_leaderboard(
         return {
             "leaderboard": leaderboard,
             "current_user_rank": user_rank
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        conn.close()
+
+
+# ============================================================
+# PAST JAMB QUESTIONS BY SUBTOPIC
+# ============================================================
+
+@router.get("/questions/by-subtopic")
+async def get_questions_by_subtopic(
+    subject: str,
+    topic: str,
+    subtopic: str,
+    limit: int = Query(5, ge=1, le=15),
+    user_id: int = Depends(current_user_id)
+):
+    """
+    Get real JAMB past questions for a specific subtopic.
+    Used at the end of every subtopic in guided learning.
+    Strategy: exact subtopic match → keyword match on question text → topic-level fallback.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    try:
+        seen_ids: set = set()
+        result_rows = []
+
+        # 1. Exact subtopic column match (substring — subtopic col has verbose format)
+        subtopic_kw = subtopic.split("(")[0].strip()  # strip parenthetical details
+        cursor.execute("""
+            SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+            FROM questions
+            WHERE exam='JAMB' AND subject=? AND topic=?
+              AND subtopic ILIKE ?
+            ORDER BY RANDOM()
+            LIMIT ?
+        """, (subject, topic, f"%{subtopic_kw}%", limit * 2))
+        result_rows = [r for r in cursor.fetchall() if r[0] not in seen_ids]
+        seen_ids.update(r[0] for r in result_rows)
+
+        # 2. Keyword match on question text using subtopic words
+        if len(result_rows) < limit:
+            keywords = [w for w in subtopic.split() if len(w) > 4 and w.isalpha()][:5]
+            for kw in keywords:
+                if len(result_rows) >= limit:
+                    break
+                cursor.execute("""
+                    SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+                    FROM questions
+                    WHERE exam='JAMB' AND subject=? AND topic=?
+                      AND LOWER(question) LIKE ?
+                    ORDER BY RANDOM()
+                    LIMIT ?
+                """, (subject, topic, f"%{kw.lower()}%", limit))
+                for r in cursor.fetchall():
+                    if r[0] not in seen_ids:
+                        result_rows.append(r)
+                        seen_ids.add(r[0])
+
+        # 3. Fallback: any question from the topic
+        if len(result_rows) < limit:
+            needed = limit - len(result_rows)
+            cursor.execute("""
+                SELECT id, question, topic, subject, year, image_path, correct_option_key, explanation
+                FROM questions
+                WHERE exam='JAMB' AND subject=? AND topic=?
+                ORDER BY RANDOM()
+                LIMIT ?
+            """, (subject, topic, needed * 3))
+            for r in cursor.fetchall():
+                if r[0] not in seen_ids and len(result_rows) < limit:
+                    result_rows.append(r)
+                    seen_ids.add(r[0])
+
+        # 4. Fallback topic from _TOPIC_FALLBACKS
+        if len(result_rows) < 3:
+            for fb_topic in _TOPIC_FALLBACKS.get(topic, []):
+                if len(result_rows) >= limit:
+                    break
+                needed = limit - len(result_rows)
+                rows = _fetch_questions_for_topic(cursor, subject, fb_topic, needed, seen_ids)
+                result_rows.extend(rows)
+                seen_ids.update(r[0] for r in rows)
+
+        result_rows = result_rows[:limit]
+
+        # Build response with options
+        questions_out = []
+        for q in result_rows:
+            qid = q[0]
+            cursor.execute("""
+                SELECT option_key, option_text FROM options
+                WHERE question_id=? ORDER BY option_key
+            """, (qid,))
+            options = {row[0]: row[1] for row in cursor.fetchall()}
+            if not options:
+                continue
+            questions_out.append({
+                "id": qid,
+                "question_text": q[1],
+                "topic": q[2],
+                "subject": q[3],
+                "year": q[4],
+                "image_path": q[5],
+                "correct_option_key": q[6],
+                "explanation": q[7] if len(q) > 7 else None,
+                "options": options
+            })
+
+        return {
+            "subject": subject,
+            "topic": topic,
+            "subtopic": subtopic,
+            "count": len(questions_out),
+            "questions": questions_out
         }
 
     except Exception as e:
