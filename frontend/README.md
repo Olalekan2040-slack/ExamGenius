@@ -1,6 +1,6 @@
 # ExamGenius Frontend
 
-Modern, mobile-first web application for JAMB CBT preparation.
+Modern, mobile-first web application for JAMB CBT preparations.
 
 ## 🚀 Features
 
