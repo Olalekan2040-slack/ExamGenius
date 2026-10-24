@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 def main():
     """Main function to initialize database"""
-    print("🚀 ExamGenius Database Setup")
+    print("🚀 EduLab ExamPrep Database Setup")
     print("=" * 50)
     
     try:

@@ -27,7 +27,7 @@ async function showProfileSetupScreen() {
                 <div class="profile-setup-header">
                     <div class="logo mb-2" style="justify-content: center;">
                         <i class="fas fa-graduation-cap"></i>
-                        <span>ExamGenius</span>
+                        <span>EduLab ExamPrep</span>
                     </div>
                     <h1>Complete Your Profile</h1>
                     <p>Welcome, <strong>${user?.name || 'Student'}</strong>! Set up your profile to get personalized recommendations.</p>
@@ -322,7 +322,7 @@ async function handleProfileSetupComplete() {
         });
 
         hideLoading();
-        showToast('Profile setup complete! Welcome to ExamGenius!', 'success');
+        showToast('Profile setup complete! Welcome to EduLab ExamPrep!', 'success');
 
         // Navigate to dashboard
         router.navigate('dashboard');

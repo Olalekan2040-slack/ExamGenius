@@ -1,5 +1,5 @@
 """
-Initialize PostgreSQL database schema for ExamGenius
+Initialize PostgreSQL database schema for EduLab ExamPrep
 Creates all necessary tables from postgres_schema.sql
 Reads DATABASE_URL from .env file
 """

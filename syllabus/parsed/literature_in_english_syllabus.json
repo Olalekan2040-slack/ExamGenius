@@ -1,55 +1,150 @@
 {
-  "subject": "Literature in English",
-  "topics": [
+ "subject": "Literature in English",
+ "topics": [
+  {
+   "number": 1,
+   "name": "Drama",
+   "subtopics": [
     {
-      "number": 1,
-      "name": "understand and appreciate literary works",
-      "subtopics": []
+     "name": "Types of Drama",
+     "objectives": [
+      "Identify types of drama: tragedy, comedy, tragicomedy, farce, melodrama and opera",
+      "Describe the distinguishing features of each type of drama",
+      "Classify plays according to their dramatic types"
+     ]
     },
     {
-      "number": 2,
-      "name": "analyze literary forms and techniques",
-      "subtopics": []
+     "name": "Dramatic Techniques and Elements",
+     "objectives": [
+      "Identify elements of drama: plot, character, dialogue, setting, theme, spectacle",
+      "Explain dramatic techniques: soliloquy, aside, dramatic irony, flashback, suspense, comic relief",
+      "Explain the structure of a play: acts, scenes, exposition, climax, denouement",
+      "Distinguish between protagonist, antagonist, foil and other character roles"
+     ]
     },
     {
-      "number": 3,
-      "name": "interpret and evaluate literature within its context",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "Anthologies of African Literature",
-      "subtopics": []
-    },
-    {
-      "number": 2,
-      "name": "Anthologies of Non-African Literature",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Critical texts on literary theory",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "Study guides for prescribed texts",
-      "subtopics": []
-    },
-    {
-      "number": 5,
-      "name": "Grammar and composition guides",
-      "subtopics": []
-    },
-    {
-      "number": 6,
-      "name": "Dictionary of Literary Terms",
-      "subtopics": []
-    },
-    {
-      "number": 7,
-      "name": "Collections of poems and short stories",
-      "subtopics": []
+     "name": "Prescribed Drama Texts (African and Non-African)",
+     "objectives": [
+      "Analyse the plot, setting and structure of the prescribed African and non-African plays",
+      "Discuss the themes and characterization in the prescribed plays",
+      "Identify and illustrate the dramatic techniques used in the prescribed plays"
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Prose",
+   "subtopics": [
+    {
+     "name": "Types of Prose",
+     "objectives": [
+      "Distinguish between fiction (novel, novella, short story) and non-fiction (biography, autobiography, memoir, essay)",
+      "Identify types of the novel: picaresque, epistolary, gothic, historical, bildungsroman",
+      "Describe the distinguishing features of each prose type"
+     ]
+    },
+    {
+     "name": "Narrative Techniques and Elements of Prose",
+     "objectives": [
+      "Identify elements of prose: plot, character, setting, theme, style",
+      "Explain narrative points of view: first person, third person, omniscient",
+      "Explain narrative techniques: flashback, foreshadowing, stream of consciousness, irony",
+      "Explain methods of characterization in prose"
+     ]
+    },
+    {
+     "name": "Prescribed Prose Texts (African and Non-African)",
+     "objectives": [
+      "Analyse the plot, setting and narrative techniques of the prescribed African and non-African novels",
+      "Discuss the themes and characterization in the prescribed novels",
+      "Relate the prescribed texts to their social and cultural contexts"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Poetry",
+   "subtopics": [
+    {
+     "name": "Types of Poetry",
+     "objectives": [
+      "Identify types of poetry: sonnet, ode, elegy, ballad, epic, lyric, panegyric, blank verse, didactic poetry",
+      "Describe the distinguishing features of each poetic type",
+      "Classify given poems according to type"
+     ]
+    },
+    {
+     "name": "Poetic Devices and Structure",
+     "objectives": [
+      "Identify sound devices: rhyme, rhythm, metre, alliteration, assonance, onomatopoeia, repetition, refrain",
+      "Identify structural elements: stanza, couplet, quatrain, sestet, octave, verse, enjambment, caesura",
+      "Explain imagery, symbolism, mood, tone and diction in poetry"
+     ]
+    },
+    {
+     "name": "Prescribed Poetry Texts (African and Non-African)",
+     "objectives": [
+      "Analyse the subject matter, themes and settings of the prescribed African and non-African poems",
+      "Identify and illustrate the poetic devices used in the prescribed poems",
+      "Discuss the poets' moods, tones and messages"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "name": "General Literary Principles",
+   "subtopics": [
+    {
+     "name": "Figures of Speech and Literary Devices",
+     "objectives": [
+      "Identify and illustrate figures of speech: simile, metaphor, personification, hyperbole, irony, paradox, oxymoron, euphemism, litotes, metonymy, synecdoche, apostrophe",
+      "Distinguish between commonly confused figures of speech",
+      "Interpret the effects of literary devices in given passages"
+     ]
+    },
+    {
+     "name": "Literary Terms, Genres and Traditions",
+     "objectives": [
+      "Define common literary terms (motif, allusion, satire, allegory, epigram, catharsis, hubris, poetic justice, poetic licence)",
+      "Distinguish between the three major genres of literature and their features",
+      "Explain oral literature: folktales, proverbs, myths, legends and their features",
+      "Identify literary periods and movements (classical, romantic, modern, African literature)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Literary Appreciation",
+   "subtopics": [
+    {
+     "name": "Appreciation of Unseen Prose Passages",
+     "objectives": [
+      "Read and interpret unseen prose passages",
+      "Identify the theme, tone, mood, setting and point of view of unseen prose",
+      "Identify the literary devices used in unseen prose passages",
+      "Deduce meanings of words and expressions in context"
+     ]
+    },
+    {
+     "name": "Appreciation of Unseen Poetry",
+     "objectives": [
+      "Read and interpret unseen poems",
+      "Identify the subject matter, theme, mood, tone and persona of unseen poems",
+      "Identify the poetic devices used in unseen poems"
+     ]
+    },
+    {
+     "name": "Appreciation of Unseen Drama Excerpts",
+     "objectives": [
+      "Read and interpret unseen dramatic excerpts",
+      "Identify dramatic techniques, character traits and themes in unseen excerpts"
+     ]
+    }
+   ]
+  }
+ ]
 }

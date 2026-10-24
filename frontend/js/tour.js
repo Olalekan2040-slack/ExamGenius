@@ -1,5 +1,5 @@
 /**
- * ExamGenius Onboarding Tour
+ * EduLab ExamPrep Onboarding Tour
  * Shown once to new users to explain dashboard components.
  * Stores completion in localStorage under 'eg_tour_done'.
  */
@@ -9,7 +9,7 @@ const TOUR_KEY = 'eg_tour_done';
 const TOUR_STEPS = [
     {
         target: null,            // no spotlight — centre modal
-        title: '👋 Welcome to ExamGenius!',
+        title: '👋 Welcome to EduLab ExamPrep!',
         text: "You're all set to start your JAMB preparation journey. Let us give you a quick tour of your dashboard so you know where everything is.",
         pos: 'center',
     },

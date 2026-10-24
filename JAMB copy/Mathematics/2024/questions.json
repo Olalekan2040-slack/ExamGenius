@@ -13,10 +13,10 @@
       "D": "35"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Matrices & Determinants",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Matrices and determinants",
+    "subtopic": "Matrix Addition and Scalar Multiplication",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -36,10 +36,10 @@
       "D": "# 230,000.00"
     },
     "correct_answer": "D",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Fractions, decimals and percentages",
+    "subtopic": "Percentages, Profit, Loss and Interest",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -59,10 +59,10 @@
       "D": "(1/10)"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Variation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "subtopic": "Inverse Variation",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -82,10 +82,10 @@
       "D": "135⁰"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Circle theorems",
+    "subtopic": "Circle Theorems",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -105,10 +105,10 @@
       "D": "(1/2)"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -128,10 +128,10 @@
       "D": "8"
     },
     "correct_answer": "B",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Fractions, decimals and percentages",
+    "subtopic": "Operations on Fractions",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -151,10 +151,10 @@
       "D": "42"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Binary Operations",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Binary operations",
+    "subtopic": "Evaluating Binary Operations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -174,10 +174,10 @@
       "D": "Mean"
     },
     "correct_answer": "D",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "subtopic": "Measures of Dispersion",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -197,10 +197,10 @@
       "D": "9cm"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": "images/JAMB_Mathematics_2024_9.png",
     "source": "myschool.ng",
-    "subtopic": "Circle theorems",
+    "subtopic": "Circle Theorems",
     "images": [
       {
         "filename": "Mathematics_2024_q9_385e6820.png",
@@ -227,10 +227,10 @@
       "D": "y < 1"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": "images/JAMB_Mathematics_2024_10.png",
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "images": [
       {
         "filename": "Mathematics_2024_q10_dc5a5035.png",
@@ -257,10 +257,10 @@
       "D": "30"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Permutation & Combination",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Permutation and combination",
+    "subtopic": "Permutations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -280,10 +280,10 @@
       "D": "3x + 4y < 12, x ≥ 0, y ≥ 0"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": "images/JAMB_Mathematics_2024_12.png",
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "images": [
       {
         "filename": "Mathematics_2024_q12_8423cd2c.png",
@@ -310,10 +310,10 @@
       "D": "{pmatrix}-1 & 7 &⁻²\\4 & 4 &⁻²{pmatrix}"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Matrices & Determinants",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Matrices and determinants",
+    "subtopic": "Matrix Addition and Scalar Multiplication",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -333,10 +333,10 @@
       "D": "165"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Progression",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Sequences and series (AP and GP)",
+    "subtopic": "Geometric Progression (GP)",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -356,10 +356,10 @@
       "D": "16√2cm²"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -379,10 +379,10 @@
       "D": "(3/13)"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Permutation & Combination",
     "image": "images/JAMB_Mathematics_2024_16.png",
     "source": "myschool.ng",
-    "subtopic": "Permutation and combination",
+    "subtopic": "Permutations",
     "images": [
       {
         "filename": "Mathematics_2024_q16_95a17629.png",
@@ -409,10 +409,10 @@
       "D": "30√3m"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Trigonometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Trigonometry and bearings",
+    "subtopic": "SOHCAHTOA and Special Angles",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -432,10 +432,10 @@
       "D": "#20.00"
     },
     "correct_answer": "C",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Fractions, decimals and percentages",
+    "subtopic": "Percentages, Profit, Loss and Interest",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -455,10 +455,10 @@
       "D": "(5x)³"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -478,10 +478,10 @@
       "D": "15 - √7"
     },
     "correct_answer": "B",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Number Bases",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Number bases",
+    "subtopic": "Understanding Place Value in Non-Decimal Bases",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -501,10 +501,10 @@
       "D": "3 - √(12) + √(13)"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -524,10 +524,10 @@
       "D": "-165,250"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Progression",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Sequences and series (AP and GP)",
+    "subtopic": "Arithmetic Progression (AP)",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -547,10 +547,10 @@
       "D": "5"
     },
     "correct_answer": "B",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "subtopic": "Mean, Median, Mode",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -570,10 +570,10 @@
       "D": "7"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Coordinate Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Coordinate geometry",
+    "subtopic": "Equation of a Straight Line",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -593,10 +593,10 @@
       "D": "- 5"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -616,10 +616,10 @@
       "D": "1, 2, 9"
     },
     "correct_answer": "D",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Sets",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Sets and Venn diagrams",
+    "subtopic": "Two-Set Venn Diagram Problems",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -639,10 +639,10 @@
       "D": "60⁰"
     },
     "correct_answer": "B",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": "images/JAMB_Mathematics_2024_27.png",
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "images": [
       {
         "filename": "Mathematics_2024_q27_977e236d.png",
@@ -669,10 +669,10 @@
       "D": "24(3/4)"
     },
     "correct_answer": "B",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Number Bases",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Number bases",
+    "subtopic": "Understanding Place Value in Non-Decimal Bases",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -692,10 +692,10 @@
       "D": "2465ₛₑᵥₑₙ"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "predicted_topics": [
       "Processes of Legislation"
     ],
@@ -715,10 +715,10 @@
       "D": "30"
     },
     "correct_answer": "D",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "subtopic": "Mean, Median, Mode",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -738,10 +738,10 @@
       "D": "50"
     },
     "correct_answer": "C",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Sets",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Sets and Venn diagrams",
+    "subtopic": "Set Notation and Set Operations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -761,10 +761,10 @@
       "D": "- ( Sin25 + Sec25)"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Trigonometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Trigonometry and bearings",
+    "subtopic": "SOHCAHTOA and Special Angles",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -784,10 +784,10 @@
       "D": "25"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Mean, Median, Mode",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -807,10 +807,10 @@
       "D": "153"
     },
     "correct_answer": "C",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "subtopic": "Frequency Tables and Histograms",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -830,10 +830,10 @@
       "D": "3"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of dispersion (range, variance, standard deviation)",
+    "subtopic": "Measures of Dispersion",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -853,10 +853,10 @@
       "D": "720 ways"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Permutation & Combination",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Permutation and combination",
+    "subtopic": "Combinations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -876,10 +876,10 @@
       "D": "231 ways"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Permutation & Combination",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Permutation and combination",
+    "subtopic": "Combinations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -899,10 +899,10 @@
       "D": "(27/55)"
     },
     "correct_answer": "B",
-    "topic": "Section V: Statistics",
+    "topic": "Probability",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Probability",
+    "subtopic": "Basic Probability",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -922,10 +922,10 @@
       "D": "0.25"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Variation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "subtopic": "Direct Variation",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -945,10 +945,10 @@
       "D": "12"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Variation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "subtopic": "Inverse Variation",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -968,10 +968,10 @@
       "D": "-5,⁻³ and²"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Indices, Logarithms & Surds",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Laws of Indices",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -991,10 +991,10 @@
       "D": "x = (13/y)"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Variation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "subtopic": "Inverse Variation",
     "predicted_topics": [
       "Processes of Legislation"
     ],
@@ -1014,10 +1014,10 @@
       "D": "{bmatrix}0 & 1\\1 & 0{bmatrix}"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Matrices & Determinants",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Matrices and determinants",
+    "subtopic": "Matrix Addition and Scalar Multiplication",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -1037,10 +1037,10 @@
       "D": "{pmatrix}4 & 8\\2 & 3\\4 & 1{pmatrix}"
     },
     "correct_answer": "D",
-    "topic": "Section II: Algebra",
+    "topic": "Matrices & Determinants",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Matrices and determinants",
+    "subtopic": "Matrix Addition and Scalar Multiplication",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -1060,10 +1060,10 @@
       "D": "(8/17)"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Operations on Fractions",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -1083,10 +1083,10 @@
       "D": "2, 2"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Binary Operations",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Binary operations",
+    "subtopic": "Evaluating Binary Operations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -1106,10 +1106,10 @@
       "D": "25"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -1129,10 +1129,10 @@
       "D": "4"
     },
     "correct_answer": "B",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Sets",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Sets and Venn diagrams",
+    "subtopic": "Two-Set Venn Diagram Problems",
     "images": [
       {
         "filename": "Mathematics_2024_q48_13126fb1.png",
@@ -1161,10 +1161,10 @@
       "D": "q = (rt/p - r³)"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -1184,10 +1184,10 @@
       "D": "a = 2, b = 6"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Operations on Fractions",
     "predicted_topics": [
       "Pre-Colonial Polities"
     ],

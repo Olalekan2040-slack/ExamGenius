@@ -112,7 +112,7 @@ def main():
     processed = 0
 
     print(f"\n{'='*65}")
-    print(f"  ExamGenius — Government Explanation Pre-Cacher")
+    print(f"  EduLab ExamPrep — Government Explanation Pre-Cacher")
     print(f"  Topics: {len(topics)}   Total objectives: {total_objectives}")
     print(f"  Mode: {'DRY RUN' if args.dry_run else 'LIVE'}"
           f"  |  Force overwrite: {args.force}")

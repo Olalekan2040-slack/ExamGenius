@@ -1,170 +1,399 @@
 {
-  "subject": "Commerce",
-  "topics": [
+ "subject": "Commerce",
+ "topics": [
+  {
+   "number": 1,
+   "name": "Nature and Scope of Commerce",
+   "subtopics": [
     {
-      "number": 1,
-      "name": "Nature and scope of Commerce; aids to trade.",
-      "subtopics": []
+     "name": "Meaning, Scope and Functions of Commerce",
+     "objectives": [
+      "Define commerce and explain its scope",
+      "Identify the divisions of commerce (trade and aids to trade)",
+      "Explain the functions and importance of commerce to economic development",
+      "Trace the historical development of commerce in Nigeria"
+     ]
     },
     {
-      "number": 2,
-      "name": "Occupations; division of labour; specialization.",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Production; factors; scale of production.",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "Home Trade: retail/wholesale; channels; documents.",
-      "subtopics": []
-    },
-    {
-      "number": 5,
-      "name": "Foreign Trade: balance of trade/payment; ECOWAS.",
-      "subtopics": []
-    },
-    {
-      "number": 6,
-      "name": "Purchase and Sale of Goods; terms; documents.",
-      "subtopics": []
-    },
-    {
-      "number": 7,
-      "name": "Aids to Trade:",
-      "subtopics": []
-    },
-    {
-      "number": 8,
-      "name": "Business Units: sole trader, partnership, companies, cooperatives.",
-      "subtopics": []
-    },
-    {
-      "number": 9,
-      "name": "Financing Business: sources of funds; securities; microfinance.",
-      "subtopics": []
-    },
-    {
-      "number": 10,
-      "name": "Trade Associations and Chambers of Commerce.",
-      "subtopics": []
-    },
-    {
-      "number": 11,
-      "name": "Money: functions; characteristics; inflation.",
-      "subtopics": []
-    },
-    {
-      "number": 12,
-      "name": "Stock Exchange: operations; securities; roles.",
-      "subtopics": []
-    },
-    {
-      "number": 13,
-      "name": "Elements of Business Management.",
-      "subtopics": []
-    },
-    {
-      "number": 14,
-      "name": "Elements of Marketing; marketing mix; research.",
-      "subtopics": []
-    },
-    {
-      "number": 15,
-      "name": "Legal Aspects of Business.",
-      "subtopics": []
-    },
-    {
-      "number": 16,
-      "name": "Information and Communication Technology (ICT) in Commerce.",
-      "subtopics": []
-    },
-    {
-      "number": 17,
-      "name": "Business Environment & Social Responsibility.",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "understand commerce and its importance to economic development",
-      "subtopics": []
-    },
-    {
-      "number": 2,
-      "name": "acquire knowledge of business practices and operations",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "develop analytical skills for commercial decision-making",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "Achinike, E. C. - Principles and Practice of Commerce",
-      "subtopics": []
-    },
-    {
-      "number": 2,
-      "name": "Ayokunle, S. O. - Commerce for Secondary Schools",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Elwood, A. D. - Commerce and its Allied Subjects",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "Gbolagade, T. - Modern Commerce",
-      "subtopics": []
-    },
-    {
-      "number": 5,
-      "name": "Imogie, A. I. - Business Studies for Secondary Schools",
-      "subtopics": []
-    },
-    {
-      "number": 6,
-      "name": "Lipsey, R. G. - Economics",
-      "subtopics": []
-    },
-    {
-      "number": 7,
-      "name": "Pearce, D. W. - The Dictionary of Modern Economics",
-      "subtopics": []
-    },
-    {
-      "number": 8,
-      "name": "Stanton, W. J. - Fundamentals of Marketing",
-      "subtopics": []
-    },
-    {
-      "number": 9,
-      "name": "Todaro, M. P. - Economic Development",
-      "subtopics": []
-    },
-    {
-      "number": 10,
-      "name": "Varley, R. T. - Retail Management",
-      "subtopics": []
-    },
-    {
-      "number": 11,
-      "name": "Webster, J. B. - Commerce and Trade",
-      "subtopics": []
-    },
-    {
-      "number": 12,
-      "name": "Yamane, T. - Business Statistics",
-      "subtopics": []
-    },
-    {
-      "number": 13,
-      "name": "Zipf, P. R. - The Geoeconomics of World Power",
-      "subtopics": []
+     "name": "Commerce and Related Disciplines",
+     "objectives": [
+      "Relate commerce to other subjects (economics, accounting, marketing)",
+      "Explain the interrelationship between production, trade and aids to trade"
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Occupations",
+   "subtopics": [
+    {
+     "name": "Types and Classification of Occupations",
+     "objectives": [
+      "Classify occupations into industrial, commercial and service occupations",
+      "Distinguish between extractive, manufacturing and constructive industries",
+      "Identify factors that determine choice of occupation"
+     ]
+    },
+    {
+     "name": "Division of Labour and Specialization",
+     "objectives": [
+      "Explain division of labour and specialization in occupations",
+      "State the advantages and disadvantages of division of labour",
+      "Explain the limitations of division of labour"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Production",
+   "subtopics": [
+    {
+     "name": "Factors and Types of Production",
+     "objectives": [
+      "Define production and identify its types (direct and indirect)",
+      "Describe the factors of production and their rewards",
+      "Distinguish between production of goods and services"
+     ]
+    },
+    {
+     "name": "Scale of Production",
+     "objectives": [
+      "Distinguish between small-scale and large-scale production",
+      "Explain internal and external economies of scale",
+      "Identify factors determining the scale of production"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "name": "Home Trade",
+   "subtopics": [
+    {
+     "name": "Retail Trade",
+     "objectives": [
+      "Define retailing and identify types of retailers (small-scale and large-scale)",
+      "Describe the functions of retailers in the chain of distribution",
+      "Explain modern retailing trends (supermarkets, chain stores, e-tailing, vending machines)",
+      "State the factors to consider in setting up a retail business"
+     ]
+    },
+    {
+     "name": "Wholesale Trade and Channels of Distribution",
+     "objectives": [
+      "Define wholesaling and identify types of wholesalers",
+      "Describe the functions of wholesalers to producers, retailers and consumers",
+      "Explain the channels of distribution and reasons for eliminating middlemen"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Foreign Trade",
+   "subtopics": [
+    {
+     "name": "Basics of Foreign Trade",
+     "objectives": [
+      "Distinguish between home trade and foreign trade",
+      "Explain import, export and entrepot trade",
+      "State the advantages and disadvantages of foreign trade",
+      "Identify barriers to international trade and instruments of protection"
+     ]
+    },
+    {
+     "name": "Balance of Trade, Balance of Payments and Trade Documents",
+     "objectives": [
+      "Distinguish between balance of trade and balance of payments",
+      "Identify documents used in foreign trade (bill of lading, certificate of origin, letters of credit, indent)",
+      "Explain the roles of customs authority and ports in foreign trade",
+      "Explain the role of ECOWAS in West African trade"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Purchase and Sale of Goods",
+   "subtopics": [
+    {
+     "name": "Procedure and Documents of Purchase and Sale",
+     "objectives": [
+      "Describe the stages in the purchase and sale of goods",
+      "Identify documents used in buying and selling (enquiry, quotation, order, invoice, proforma invoice, credit note, debit note, receipt, statement of account)",
+      "Interpret common trade abbreviations (E&OE, COD, CWO, FOB, CIF)"
+     ]
+    },
+    {
+     "name": "Terms of Trade and Payment",
+     "objectives": [
+      "Distinguish between trade discount, quantity discount and cash discount",
+      "Explain terms of payment: cash, credit, hire purchase and deferred payment",
+      "Distinguish between hire purchase and deferred payment"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "name": "Aids to Trade",
+   "subtopics": [
+    {
+     "name": "Advertising and Communication",
+     "objectives": [
+      "Define advertising and identify its types and media",
+      "State the advantages and disadvantages of advertising",
+      "Explain the role of communication in commerce and types of communication services"
+     ]
+    },
+    {
+     "name": "Banking and Insurance",
+     "objectives": [
+      "Explain the role of banking as an aid to trade",
+      "Define insurance and explain its principles (utmost good faith, insurable interest, indemnity, subrogation, contribution, proximate cause)",
+      "Identify types of insurance policies relevant to business",
+      "Distinguish between insurance and assurance"
+     ]
+    },
+    {
+     "name": "Transportation, Warehousing and Tourism",
+     "objectives": [
+      "Identify modes of transportation with their advantages and disadvantages",
+      "Explain the importance of transportation to commerce",
+      "Define warehousing and identify types of warehouses and their functions",
+      "Explain tourism as an aid to trade and its economic importance"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "name": "Business Units",
+   "subtopics": [
+    {
+     "name": "Sole Proprietorship and Partnership",
+     "objectives": [
+      "Describe the features, advantages and disadvantages of sole proprietorship",
+      "Describe partnership: formation, types of partners, partnership deed",
+      "State the advantages and disadvantages of partnership"
+     ]
+    },
+    {
+     "name": "Limited Liability Companies",
+     "objectives": [
+      "Distinguish between private and public limited companies",
+      "Describe the formation of companies and documents required (memorandum and articles of association, prospectus, certificate of incorporation)",
+      "State the advantages and disadvantages of limited liability companies"
+     ]
+    },
+    {
+     "name": "Cooperative Societies and Public Enterprises",
+     "objectives": [
+      "Describe types of cooperative societies and their functions",
+      "Describe public corporations: features, advantages and disadvantages",
+      "Explain privatization, commercialization and indigenization in Nigeria",
+      "Compare business units and identify factors for choosing a form of business"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "name": "Financing Business",
+   "subtopics": [
+    {
+     "name": "Sources of Business Finance",
+     "objectives": [
+      "Identify sources of finance: personal savings, loans, overdrafts, trade credit, hire purchase, leasing",
+      "Distinguish between short-term, medium-term and long-term finance",
+      "Explain the role of microfinance banks in financing small businesses"
+     ]
+    },
+    {
+     "name": "Business Securities",
+     "objectives": [
+      "Distinguish between shares (ordinary and preference), stocks, debentures and bonds",
+      "Explain the rights of holders of each type of security",
+      "Distinguish between profits and dividends"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "name": "Trade Associations and Chambers of Commerce",
+   "subtopics": [
+    {
+     "name": "Trade and Manufacturer Associations",
+     "objectives": [
+      "Define trade associations and state their objectives and functions",
+      "Explain the roles of manufacturers' associations (e.g. MAN)"
+     ]
+    },
+    {
+     "name": "Chambers of Commerce",
+     "objectives": [
+      "Describe the functions of chambers of commerce",
+      "Explain the roles of NACCIMA and international chambers of commerce"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "name": "Money",
+   "subtopics": [
+    {
+     "name": "Evolution, Characteristics and Functions of Money",
+     "objectives": [
+      "Trace the evolution of money from trade by barter and the problems of barter",
+      "State the characteristics and functions of money",
+      "Identify forms of money and legal tender in Nigeria"
+     ]
+    },
+    {
+     "name": "Value of Money and Inflation",
+     "objectives": [
+      "Explain the value of money and factors affecting it",
+      "Explain inflation and deflation and their effects on commerce"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "name": "Stock Exchange",
+   "subtopics": [
+    {
+     "name": "Operations of the Stock Exchange",
+     "objectives": [
+      "Define the stock exchange and describe its functions",
+      "Describe the procedure for buying and selling securities",
+      "Explain the roles of operators: stockbrokers, jobbers, bulls, bears and stags"
+     ]
+    },
+    {
+     "name": "Securities and the Second-Tier Securities Market",
+     "objectives": [
+      "Identify securities traded on the stock exchange",
+      "Explain the requirements for quotation on the Nigerian Stock Exchange",
+      "Explain the second-tier securities market and its importance to small companies"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "name": "Elements of Business Management",
+   "subtopics": [
+    {
+     "name": "Functions and Principles of Management",
+     "objectives": [
+      "Identify the functions of management: planning, organizing, staffing, directing, coordinating, controlling",
+      "Explain basic principles of management (span of control, unity of command, delegation of authority)",
+      "Distinguish between authority and responsibility"
+     ]
+    },
+    {
+     "name": "Organizational Structure and Business Resources",
+     "objectives": [
+      "Describe types of organizational structure (line, staff, functional, matrix)",
+      "Identify business resources: man, money, materials, machines",
+      "Explain the functional areas of a business (production, marketing, finance, personnel)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "name": "Elements of Marketing",
+   "subtopics": [
+    {
+     "name": "Marketing Concepts and Functions",
+     "objectives": [
+      "Define marketing and explain the marketing concept",
+      "Describe the functions of marketing",
+      "Explain market segmentation and its bases"
+     ]
+    },
+    {
+     "name": "The Marketing Mix and Marketing Research",
+     "objectives": [
+      "Explain the elements of the marketing mix (product, price, place, promotion)",
+      "Explain product life cycle, branding and packaging",
+      "Define marketing research and state its importance"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "name": "Legal Aspects of Business",
+   "subtopics": [
+    {
+     "name": "Contract and Sale of Goods",
+     "objectives": [
+      "Define a contract and identify the elements of a valid contract",
+      "Explain termination and breach of contract with remedies",
+      "Explain the rights and obligations of buyers and sellers under the Sale of Goods Act",
+      "Explain the principle of caveat emptor"
+     ]
+    },
+    {
+     "name": "Agency, Hire Purchase and Consumer Protection",
+     "objectives": [
+      "Define agency and explain the creation and termination of agency",
+      "Explain the rights and duties of principal and agent",
+      "Explain the legal aspects of hire purchase",
+      "Identify instruments of consumer protection in Nigeria (SON, NAFDAC, CPC/FCCPC)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "name": "Information and Communication Technology in Commerce",
+   "subtopics": [
+    {
+     "name": "ICT Tools and Applications in Business",
+     "objectives": [
+      "Identify ICT tools used in commerce (computers, internet, POS, ATM, mobile devices)",
+      "Explain the uses of ICT in banking, marketing and trade",
+      "State the advantages and challenges of ICT in Nigerian commerce"
+     ]
+    },
+    {
+     "name": "E-Commerce and E-Banking",
+     "objectives": [
+      "Define e-commerce and identify its types (B2B, B2C, C2C)",
+      "Explain e-banking services and electronic means of payment",
+      "State the advantages and disadvantages of e-commerce"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "name": "Business Environment and Social Responsibility",
+   "subtopics": [
+    {
+     "name": "The Business Environment",
+     "objectives": [
+      "Identify the elements of the business environment (economic, political, legal, social, technological)",
+      "Explain how environmental factors affect business decisions"
+     ]
+    },
+    {
+     "name": "Social Responsibility of Business",
+     "objectives": [
+      "Define social responsibility and identify the responsibilities of business to its stakeholders",
+      "Explain the benefits and costs of social responsibility",
+      "Explain business ethics and unethical business practices"
+     ]
+    }
+   ]
+  }
+ ]
 }

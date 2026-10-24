@@ -1,8 +1,8 @@
-# ExamGenius - Quick Reference Guide
+# EduLab ExamPrep - Quick Reference Guide
 
 ## 🎯 Project at a Glance
 
-**ExamGenius** is a world-class JAMB exam preparation platform following enterprise-grade Python project standards.
+**EduLab ExamPrep** is a world-class JAMB exam preparation platform following enterprise-grade Python project standards.
 
 ## 📊 Project Statistics
 
@@ -314,4 +314,4 @@ This project is licensed under the MIT License - see [LICENSE](../LICENSE) file.
 
 **Built with ❤️ following world-class Python standards**
 
-*ExamGenius Team © 2025*
+*EduLab ExamPrep Team © 2025*

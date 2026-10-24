@@ -1,8 +1,8 @@
-# 🎉 ExamGenius Frontend - Complete Implementation Summary
+# 🎉 EduLab ExamPrep Frontend - Complete Implementation Summary
 
 ## ✅ Project Delivered
 
-A **modern, mobile-first, production-ready frontend** for the ExamGenius JAMB CBT preparation platform.
+A **modern, mobile-first, production-ready frontend** for the EduLab ExamPrep JAMB CBT preparation platform.
 
 ---
 
@@ -266,7 +266,7 @@ http://localhost:8080/index.html     # Direct to app
 
 ### Quick Test Flow
 1. Open `launcher.html` → Check backend connection
-2. Click "Launch ExamGenius"
+2. Click "Launch EduLab ExamPrep"
 3. Register account → Check backend logs for verification token
 4. Verify email (manually copy token to URL or click link)
 5. Login with credentials
@@ -384,7 +384,7 @@ If you want to extend this later:
 
 ### ✅ COMPLETE AND READY FOR USE
 
-The ExamGenius frontend is:
+The EduLab ExamPrep frontend is:
 - ✅ Fully implemented
 - ✅ Tested against backend
 - ✅ Mobile responsive
@@ -410,7 +410,7 @@ Register → Verify → Login → Dashboard → Learn/Practice → CBT → Revie
 
 ## 🙏 Thank You!
 
-The ExamGenius frontend is ready to help students ace their JAMB exams! 🎓🚀
+The EduLab ExamPrep frontend is ready to help students ace their JAMB exams! 🎓🚀
 
 **Built with care for Nigerian students. Good luck on your exams! 📚✨**
 

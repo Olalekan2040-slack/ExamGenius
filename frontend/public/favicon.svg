@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Graduation Cap for EduLab ExamPrep -->
+  <!-- Main cap (mortarboard) -->
+  <polygon points="32,8 4,24 32,40 60,24" fill="#F5C518"/>
+  <!-- Cap top shadow -->
+  <polygon points="32,8 32,40 60,24" fill="#D4A512"/>
+  <!-- Cap base (skull cap) -->
+  <path d="M16,28 L16,42 Q32,52 48,42 L48,28 L32,38 L16,28 Z" fill="#F5C518"/>
+  <!-- Cap base shadow -->
+  <path d="M32,38 L48,28 L48,42 Q32,52 32,44 Z" fill="#D4A512"/>
+  <!-- Tassel button -->
+  <circle cx="32" cy="24" r="3" fill="#333"/>
+  <!-- Tassel string -->
+  <path d="M32,27 Q36,35 38,50" stroke="#F5C518" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Tassel end -->
+  <path d="M36,48 Q38,50 40,56 M38,50 L38,58 M38,50 Q40,52 42,56" stroke="#F5C518" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,10 +1,10 @@
-# ExamGenius - Makefile for common development tasks
+# EduLab ExamPrep - Makefile for common development tasks
 
 .PHONY: help install dev test lint format clean run docker-build docker-run
 
 # Default target
 help:
-	@echo "ExamGenius - Available Commands:"
+	@echo "EduLab ExamPrep - Available Commands:"
 	@echo "  make install       - Install production dependencies"
 	@echo "  make dev          - Install development dependencies"
 	@echo "  make test         - Run tests with coverage"

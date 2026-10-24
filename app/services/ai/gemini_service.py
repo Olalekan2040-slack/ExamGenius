@@ -1,5 +1,5 @@
 """
-AI Service for ExamGenius (via OpenRouter)
+AI Service for EduLab ExamPrep (via OpenRouter)
 Handles lesson generation, question generation, and explanation generation
 Uses Google Gemini 2.0 Flash (FREE) model
 """
@@ -53,9 +53,9 @@ if not OPENROUTER_API_KEY:
     raise ValueError("OPENROUTER_API_KEY not configured in .env file")
 
 # ============================================================
-# EXAMGENIUS JAMB AI TUTOR SYSTEM PROMPT
+# EDULAB EXAMPREP JAMB AI TUTOR SYSTEM PROMPT
 # ============================================================
-JAMB_TUTOR_SYSTEM_PROMPT = """You are ExamGenius, a private JAMB tutor helping Nigerian students pass JAMB.
+JAMB_TUTOR_SYSTEM_PROMPT = """You are EduLab ExamPrep, a private JAMB tutor helping Nigerian students pass JAMB.
 
 Your sole purpose is to explain JAMB topics and questions in a way that helps students answer questions correctly in the exam.
 
@@ -103,7 +103,7 @@ def make_deepseek_request(messages: List[Dict], temperature: float = 0.7, max_to
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
         "HTTP-Referer": "https://examgenius.ng",
-        "X-Title": "ExamGenius",
+        "X-Title": "EduLab ExamPrep",
     }
 
     payload = {

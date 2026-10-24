@@ -6,7 +6,7 @@ function createNavbar(user) {
             <div class="sidebar-header">
                 <div class="logo">
                     <i class="fas fa-graduation-cap"></i>
-                    <span>ExamGenius</span>
+                    <span>EduLab ExamPrep</span>
                 </div>
             </div>
             

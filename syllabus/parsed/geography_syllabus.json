@@ -1,4 +1,450 @@
 {
-  "subject": "Geography",
-  "topics": []
+ "subject": "Geography",
+ "topics": [
+  {
+   "number": 1,
+   "name": "Maps and Map Reading",
+   "subtopics": [
+    {
+     "name": "Types of Maps and Their Uses",
+     "objectives": [
+      "Identify types of maps (topographical, atlas, sketch and statistical maps)",
+      "State the uses of maps in everyday life",
+      "Distinguish between maps, plans and globes"
+     ]
+    },
+    {
+     "name": "Map Scales, Distances and Areas",
+     "objectives": [
+      "Identify types of scale (statement, linear and representative fraction)",
+      "Convert between scale types and use scale to measure distances",
+      "Calculate areas of regular and irregular shapes on maps",
+      "Enlarge and reduce maps"
+     ]
+    },
+    {
+     "name": "Map Reading and Interpretation",
+     "objectives": [
+      "Interpret relief using contours, spot heights and trigonometric points",
+      "Identify landforms (ridges, spurs, valleys, plateaus) from contour patterns",
+      "Interpret drainage patterns and characteristics on topographical maps",
+      "Interpret settlement types, patterns and communication routes on maps",
+      "Draw and interpret cross profiles and determine intervisibility",
+      "Determine directions and bearings on maps"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Statistical Maps and Diagrams",
+   "subtopics": [
+    {
+     "name": "Types of Statistical Maps and Diagrams",
+     "objectives": [
+      "Identify statistical diagrams (bar graphs, line graphs, pie charts, divided rectangles)",
+      "Identify statistical maps (dot maps, choropleth, isopleth and flow maps)",
+      "State the advantages and disadvantages of each method"
+     ]
+    },
+    {
+     "name": "Construction and Interpretation of Statistical Data",
+     "objectives": [
+      "Construct bar graphs, line graphs and pie charts from geographical data",
+      "Interpret statistical maps and diagrams",
+      "Compute percentages, averages, densities and ratios from geographic data"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Elementary Surveying and GIS",
+   "subtopics": [
+    {
+     "name": "Chain and Prismatic Surveying",
+     "objectives": [
+      "State the purposes and instruments of chain and prismatic surveying",
+      "Describe the procedures and stages of chain and prismatic surveys",
+      "Identify problems associated with each survey type and produce simple survey plans"
+     ]
+    },
+    {
+     "name": "Geographic Information Systems (GIS)",
+     "objectives": [
+      "Define GIS and identify its components (hardware, software, data, people, methods)",
+      "Identify sources of geographic data (maps, remote sensing, GPS, fieldwork)",
+      "State the uses of GIS in mapping, planning and resource management",
+      "Identify problems of GIS application in Nigeria"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "name": "The Earth as a Planet",
+   "subtopics": [
+    {
+     "name": "The Earth in the Solar System",
+     "objectives": [
+      "Describe the position of the earth in the solar system",
+      "Describe the shape and size of the earth with proofs of its sphericity",
+      "Explain earth rotation and revolution and their effects (day/night, seasons)"
+     ]
+    },
+    {
+     "name": "Latitude, Longitude and Time",
+     "objectives": [
+      "Distinguish between latitude and longitude and identify important lines",
+      "Calculate distances using lines of latitude",
+      "Calculate local time and time zones using lines of longitude",
+      "Explain the International Date Line and Greenwich Mean Time"
+     ]
+    },
+    {
+     "name": "Structure of the Earth",
+     "objectives": [
+      "Describe the internal structure of the earth (crust, mantle, core)",
+      "Describe the external spheres of the earth (atmosphere, hydrosphere, biosphere, lithosphere)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Rocks",
+   "subtopics": [
+    {
+     "name": "Types and Characteristics of Rocks",
+     "objectives": [
+      "Classify rocks into igneous, sedimentary and metamorphic types",
+      "Describe the characteristics and modes of formation of each rock type",
+      "Give examples of each rock type"
+     ]
+    },
+    {
+     "name": "Importance and Uses of Rocks",
+     "objectives": [
+      "State the uses of rocks to man (minerals, construction, soil formation)",
+      "Explain the process of rock weathering and the rock cycle"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Landforms and Earth Processes",
+   "subtopics": [
+    {
+     "name": "Internal (Endogenetic) Processes and Landforms",
+     "objectives": [
+      "Explain earth movements: folding, faulting, vulcanicity and earthquakes",
+      "Identify landforms produced by internal processes (fold mountains, block mountains, rift valleys, volcanoes)",
+      "Describe the distribution and effects of earthquakes and volcanoes"
+     ]
+    },
+    {
+     "name": "External (Exogenetic) Processes: Weathering and Mass Movement",
+     "objectives": [
+      "Distinguish between physical, chemical and biological weathering",
+      "Explain factors affecting weathering and types of mass movement",
+      "Describe karst (limestone) landforms and their features"
+     ]
+    },
+    {
+     "name": "Landforms of Water, Wind and Ice Action",
+     "objectives": [
+      "Describe erosional and depositional landforms of rivers (valleys, waterfalls, deltas, floodplains)",
+      "Describe coastal landforms of wave action (cliffs, beaches, spits, bars)",
+      "Describe desert landforms of wind action (barchans, seifs, zeugens, yardangs)",
+      "Describe glacial landforms (corries, aretes, U-valleys, moraines)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "name": "Water Bodies",
+   "subtopics": [
+    {
+     "name": "Oceans and Seas",
+     "objectives": [
+      "Identify the major oceans and seas of the world",
+      "Explain the characteristics of ocean water: salinity and temperature",
+      "Explain ocean currents, their causes, types and effects on coastal regions",
+      "Explain tides and waves and their importance"
+     ]
+    },
+    {
+     "name": "Rivers, Lakes and Underground Water",
+     "objectives": [
+      "Describe river systems, drainage patterns and river regimes",
+      "Classify lakes by origin and state their importance",
+      "Explain sources and features of underground water (springs, wells, aquifers)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "name": "Weather and Climate",
+   "subtopics": [
+    {
+     "name": "Elements of Weather and Climate and Their Measurement",
+     "objectives": [
+      "Distinguish between weather and climate",
+      "Identify the elements of weather (temperature, rainfall, pressure, wind, humidity, sunshine, cloud cover)",
+      "Describe weather instruments and their uses",
+      "Explain types of rainfall (convectional, orographic/relief, cyclonic/frontal)"
+     ]
+    },
+    {
+     "name": "Factors Affecting Climate",
+     "objectives": [
+      "Explain the factors affecting temperature and climate (latitude, altitude, continentality, ocean currents, winds)",
+      "Explain pressure belts and planetary wind systems",
+      "Explain local winds (harmattan, land and sea breezes)"
+     ]
+    },
+    {
+     "name": "Classification and Types of Climate",
+     "objectives": [
+      "Classify climates using the Greek and Koppen systems",
+      "Describe the characteristics and distribution of major climate types (equatorial, tropical continental, desert, Mediterranean, temperate, tundra)",
+      "Relate climate types to human activities"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "name": "Vegetation",
+   "subtopics": [
+    {
+     "name": "Types and Distribution of World Vegetation",
+     "objectives": [
+      "Identify major vegetation zones: forests (tropical rainforest, temperate, coniferous), grasslands (savanna, temperate grassland) and deserts",
+      "Describe the characteristics of each vegetation zone",
+      "Relate vegetation zones to climate"
+     ]
+    },
+    {
+     "name": "Importance and Human Impact on Vegetation",
+     "objectives": [
+      "State the importance of vegetation to man",
+      "Explain the impact of human activities on natural vegetation (deforestation, bush burning, overgrazing)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "name": "Soils",
+   "subtopics": [
+    {
+     "name": "Soil Formation, Profile and Types",
+     "objectives": [
+      "Define soil and explain the factors and processes of soil formation",
+      "Describe the soil profile and soil constituents",
+      "Classify soils (zonal, azonal, intrazonal) and describe tropical soil types"
+     ]
+    },
+    {
+     "name": "Soil Importance, Problems and Conservation",
+     "objectives": [
+      "State the importance of soil to man",
+      "Explain causes and effects of soil erosion and soil degradation",
+      "Describe methods of soil conservation"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "name": "Environmental Resources",
+   "subtopics": [
+    {
+     "name": "Types of Environmental Resources",
+     "objectives": [
+      "Identify types of environmental resources (atmospheric, land, soil, vegetation, mineral and water resources)",
+      "Distinguish between renewable and non-renewable resources",
+      "Give examples and uses of each resource type"
+     ]
+    },
+    {
+     "name": "Resource Conservation and Management",
+     "objectives": [
+      "Explain the concept and need for resource conservation",
+      "Describe methods of conserving environmental resources"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "name": "Environmental Interaction and Hazards",
+   "subtopics": [
+    {
+     "name": "Ecosystems and Environmental Balance",
+     "objectives": [
+      "Define ecosystem and describe the components of land ecosystems",
+      "Explain the interrelationships within an ecosystem (food chain, food web, energy flow)",
+      "Explain how human activities affect environmental balance"
+     ]
+    },
+    {
+     "name": "Environmental Hazards and Their Management",
+     "objectives": [
+      "Identify natural hazards (drought, earthquakes, volcanic eruptions, flooding) and their effects",
+      "Identify man-induced hazards (deforestation, desertification, soil erosion, pollution, flooding)",
+      "Explain the causes, effects, prevention and control of environmental hazards",
+      "Explain global environmental issues (global warming, climate change, ozone layer depletion)"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "name": "Population",
+   "subtopics": [
+    {
+     "name": "World Population: Distribution, Growth and Structure",
+     "objectives": [
+      "Explain the concepts of population distribution, density and growth",
+      "Identify factors affecting population distribution",
+      "Describe population structure (age and sex composition, population pyramids)",
+      "Explain factors of population change (birth rate, death rate, migration)"
+     ]
+    },
+    {
+     "name": "Migration and Population Problems",
+     "objectives": [
+      "Explain types, causes and effects of migration (rural-urban, international)",
+      "Explain problems of rapid population growth (overpopulation) and underpopulation",
+      "Describe population policies and census"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "name": "Settlements",
+   "subtopics": [
+    {
+     "name": "Types and Patterns of Settlement",
+     "objectives": [
+      "Distinguish between rural and urban settlements",
+      "Identify settlement patterns (nucleated, dispersed, linear) and factors affecting them",
+      "Explain the functions of rural and urban settlements"
+     ]
+    },
+    {
+     "name": "Urbanization and Settlement Interaction",
+     "objectives": [
+      "Explain urbanization, its causes and problems in developing countries",
+      "Explain the interrelationships between rural and urban settlements",
+      "Describe the hierarchy of settlements and spheres of influence"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "name": "Economic Activities",
+   "subtopics": [
+    {
+     "name": "Primary, Secondary and Tertiary Activities",
+     "objectives": [
+      "Classify economic activities into primary, secondary and tertiary types",
+      "Describe types of agriculture (subsistence, commercial, plantation, pastoral) and factors affecting agriculture",
+      "Describe mining, lumbering, fishing and their importance",
+      "Explain manufacturing industries: types, location factors and importance"
+     ]
+    },
+    {
+     "name": "Transportation, Communication and Trade",
+     "objectives": [
+      "Identify modes of transportation (road, rail, water, air, pipeline) with their advantages and disadvantages",
+      "Explain the importance of transportation and communication to economic development",
+      "Explain world trade: factors, patterns and major trading blocs"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "name": "Nigeria: Location and Physical Setting",
+   "subtopics": [
+    {
+     "name": "Location, Size and Political Divisions",
+     "objectives": [
+      "Describe the location, position and size of Nigeria",
+      "Identify Nigeria's states, capitals and neighbouring countries",
+      "Explain the importance of Nigeria's location in Africa"
+     ]
+    },
+    {
+     "name": "Relief, Drainage, Climate and Vegetation of Nigeria",
+     "objectives": [
+      "Describe the relief regions (highlands and lowlands) of Nigeria",
+      "Describe the drainage systems: rivers Niger and Benue and their tributaries, Lake Chad",
+      "Describe the climatic zones and seasons of Nigeria",
+      "Describe the vegetation belts of Nigeria (mangrove, rainforest, guinea, sudan and sahel savanna) and their characteristics"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "name": "Nigeria: Population, Resources and Economic Activities",
+   "subtopics": [
+    {
+     "name": "Population and Settlement in Nigeria",
+     "objectives": [
+      "Describe the distribution and density of Nigeria's population",
+      "Explain migration patterns and urbanization in Nigeria",
+      "Identify major urban centres and their functions"
+     ]
+    },
+    {
+     "name": "Agriculture and Mineral Resources of Nigeria",
+     "objectives": [
+      "Identify Nigeria's major food and cash crops and their producing areas",
+      "Explain the problems and importance of agriculture in Nigeria",
+      "Identify Nigeria's mineral resources (petroleum, gas, coal, tin, iron ore, limestone) and their locations",
+      "Explain the importance of petroleum to the Nigerian economy"
+     ]
+    },
+    {
+     "name": "Industry, Transport and Trade in Nigeria",
+     "objectives": [
+      "Identify major manufacturing industries and industrial zones in Nigeria",
+      "Describe transportation networks in Nigeria and their problems",
+      "Describe Nigeria's internal and external trade"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "name": "Nigeria: Environmental Problems and ECOWAS",
+   "subtopics": [
+    {
+     "name": "Environmental Problems in Nigeria",
+     "objectives": [
+      "Identify environmental problems in Nigeria (soil erosion, desertification, flooding, oil pollution, deforestation)",
+      "Explain the causes, effects and solutions to these environmental problems by region"
+     ]
+    },
+    {
+     "name": "ECOWAS and Regional Cooperation",
+     "objectives": [
+      "State the origin, aims and member countries of ECOWAS",
+      "Explain the benefits and problems of ECOWAS",
+      "Explain Nigeria's role in regional and international cooperation"
+     ]
+    }
+   ]
+  }
+ ]
 }

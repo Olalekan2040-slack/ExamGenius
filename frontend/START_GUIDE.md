@@ -1,9 +1,9 @@
-# 🚀 ExamGenius - Visual Start Guide
+# 🚀 EduLab ExamPrep - Visual Start Guide
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
-║                    ExamGenius Frontend v1.0.0                         ║
+║                    EduLab ExamPrep Frontend v1.0.0                         ║
 ║              JAMB CBT Preparation Platform - Frontend                 ║
 ║                                                                       ║
 ║                  🎓 Built for Nigerian Students 🎓                    ║
@@ -372,7 +372,7 @@ The launcher will:
 - ✅ Enable "Launch" button if all OK
 
 ### Step 6: Launch App
-Click **"🚀 Launch ExamGenius"**
+Click **"🚀 Launch EduLab ExamPrep"**
 
 ### Step 7: Register
 - Click "Get Started"
@@ -473,5 +473,5 @@ Need help?
 
 ---
 
-*ExamGenius Frontend - Visual Start Guide*
+*EduLab ExamPrep Frontend - Visual Start Guide*
 *Version 1.0.0 - December 10, 2025*

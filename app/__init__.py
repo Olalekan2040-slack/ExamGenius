@@ -1,7 +1,7 @@
 """
-ExamGenius - JAMB Exam Preparation Platform
+EduLab ExamPrep - JAMB Exam Preparation Platform
 Main application package
 """
 
 __version__ = "1.0.0"
-__author__ = "ExamGenius Team"
+__author__ = "EduLab ExamPrep Team"

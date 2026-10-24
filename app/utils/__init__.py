@@ -1,3 +1,3 @@
 """
-Utility modules for ExamGenius
+Utility modules for EduLab ExamPrep
 """

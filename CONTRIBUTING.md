@@ -1,6 +1,6 @@
-# Contributing to ExamGenius
+# Contributing to EduLab ExamPrep
 
-Thank you for considering contributing to ExamGenius! This document provides guidelines for contributing to the project.
+Thank you for considering contributing to EduLab ExamPrep! This document provides guidelines for contributing to the project.
 
 ## Code of Conduct
 

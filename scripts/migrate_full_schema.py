@@ -1,5 +1,5 @@
 """
-Full Schema Migration for ExamGenius
+Full Schema Migration for EduLab ExamPrep
 Safely creates all missing tables, adds missing columns, and creates indexes.
 Idempotent - safe to run multiple times.
 """

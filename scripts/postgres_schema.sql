@@ -1,4 +1,4 @@
--- ExamGenius PostgreSQL Schema
+-- EduLab ExamPrep PostgreSQL Schema
 -- All tables required for the application
 
 -- Users table (authentication)

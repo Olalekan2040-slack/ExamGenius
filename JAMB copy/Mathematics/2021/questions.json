@@ -13,10 +13,10 @@
       "D": "(2,1)"
     },
     "correct_answer": "B",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -36,10 +36,10 @@
       "D": "20 ways"
     },
     "correct_answer": "B",
-    "topic": "Section V: Statistics",
+    "topic": "Permutation & Combination",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Permutation and combination",
+    "subtopic": "Permutations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -59,10 +59,10 @@
       "D": "4π"
     },
     "correct_answer": "A",
-    "topic": "Section IV: Calculus",
+    "topic": "Differentiation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Application of differentiation (maxima, minima, rate of change)",
+    "subtopic": "Differentiation by the Power Rule",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -82,10 +82,10 @@
       "D": "No correct option"
     },
     "correct_answer": "D",
-    "topic": "Section IV: Calculus",
+    "topic": "Differentiation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Application of differentiation (maxima, minima, rate of change)",
+    "subtopic": "Differentiation by the Power Rule",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -105,10 +105,10 @@
       "D": "7 cm"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": "images/JAMB_Mathematics_2021_5.png",
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "images": [
       {
         "filename": "Mathematics_2021_q5_bcb16bd8.png",
@@ -135,10 +135,10 @@
       "D": "2"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -158,10 +158,10 @@
       "D": "687cm3"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -181,10 +181,10 @@
       "D": "-6"
     },
     "correct_answer": "B",
-    "topic": "Section IV: Calculus",
+    "topic": "Differentiation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Differentiation",
+    "subtopic": "Differentiation by the Power Rule",
     "predicted_topics": [
       "Pre-Colonial Polities"
     ],
@@ -204,10 +204,10 @@
       "D": "0.002172"
     },
     "correct_answer": "D",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Fractions, decimals and percentages",
+    "subtopic": "Standard Form (Scientific Notation)",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -227,10 +227,10 @@
       "D": "2.5"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "subtopic": "Measures of Dispersion",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -250,10 +250,10 @@
       "D": "25%"
     },
     "correct_answer": "C",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Fractions, decimals and percentages",
+    "subtopic": "Percentages, Profit, Loss and Interest",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -273,10 +273,10 @@
       "D": "(13/16)"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Operations on Fractions",
     "predicted_topics": [
       "Processes of Legislation"
     ],
@@ -296,10 +296,10 @@
       "D": "8.8 × 10³"
     },
     "correct_answer": "C",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Indices, Logarithms & Surds",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Indices, logarithms and surds",
+    "subtopic": "Laws of Indices",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -319,10 +319,10 @@
       "D": "(√3/4)"
     },
     "correct_answer": "A",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Number Bases",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Number bases",
+    "subtopic": "Understanding Place Value in Non-Decimal Bases",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -342,10 +342,10 @@
       "D": "N42 000.00"
     },
     "correct_answer": "B",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Fractions, Decimals & Percentages",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Fractions, decimals and percentages",
+    "subtopic": "Percentages, Profit, Loss and Interest",
     "predicted_topics": [
       "Processes of Legislation"
     ],
@@ -365,10 +365,10 @@
       "D": "7.0 units"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Circle theorems",
+    "subtopic": "Circle Theorems",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -388,10 +388,10 @@
       "D": "29.8cm"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Circle theorems",
+    "subtopic": "Circle Theorems",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -411,10 +411,10 @@
       "D": "3cm"
     },
     "correct_answer": "B",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -434,10 +434,10 @@
       "D": "5"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -457,10 +457,10 @@
       "D": "20 7003"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Mensuration",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Mensuration (areas and volumes)",
+    "subtopic": "Area and Perimeter of 2D Shapes",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -480,10 +480,10 @@
       "D": "line parallel to the two lines"
     },
     "correct_answer": "B",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Loci",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Loci",
+    "subtopic": "Standard Loci",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -503,10 +503,10 @@
       "D": "276o"
     },
     "correct_answer": "D",
-    "topic": "Section II: Algebra",
+    "topic": "Inequalities",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Inequalities",
+    "subtopic": "Linear Inequalities",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -526,10 +526,10 @@
       "D": "30"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Pre-Colonial Polities"
     ],
@@ -549,10 +549,10 @@
       "D": "(1/4)"
     },
     "correct_answer": "B",
-    "topic": "Section V: Statistics",
+    "topic": "Probability",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Probability",
+    "subtopic": "Basic Probability",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -572,10 +572,10 @@
       "D": "(7/8)"
     },
     "correct_answer": "A",
-    "topic": "Section V: Statistics",
+    "topic": "Probability",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Probability",
+    "subtopic": "Basic Probability",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -595,10 +595,10 @@
       "D": "N₂.67"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -618,10 +618,10 @@
       "D": "1 - 2log²"
     },
     "correct_answer": "D",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Indices, Logarithms & Surds",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Indices, logarithms and surds",
+    "subtopic": "Laws of Indices",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -641,10 +641,10 @@
       "D": "(uw/pw + qu)"
     },
     "correct_answer": "B",
-    "topic": "Section V: Statistics",
+    "topic": "Statistics",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Measures of central tendency (mean, median, mode)",
+    "subtopic": "Mean, Median, Mode",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -664,10 +664,10 @@
       "D": "12uvw = u + v"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Variation",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Variation (direct, inverse, joint, partial)",
+    "subtopic": "Inverse Variation",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -687,10 +687,10 @@
       "D": "(x2 + 4)"
     },
     "correct_answer": "B",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Quadratic Equations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -710,10 +710,10 @@
       "D": "(m2 + 2)(m - 1)"
     },
     "correct_answer": "D",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Processes of Legislation"
     ],
@@ -733,10 +733,10 @@
       "D": "3x + 61"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -756,10 +756,10 @@
       "D": "n2 + 3n + 2"
     },
     "correct_answer": "C",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Euclidean Geometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Euclidean geometry (angles, lines, polygons)",
+    "subtopic": "Lines, Angles and Parallel Lines",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -779,10 +779,10 @@
       "D": "e = 0"
     },
     "correct_answer": "D",
-    "topic": "Section II: Algebra",
+    "topic": "Binary Operations",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Binary operations",
+    "subtopic": "Evaluating Binary Operations",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -802,10 +802,10 @@
       "D": "(6a - 2b)(8a - 3b)(4a3 - 9b2)"
     },
     "correct_answer": "C",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Expansion of Algebraic Expressions",
     "predicted_topics": [
       "Processes of Legislation"
     ],
@@ -825,10 +825,10 @@
       "D": "32"
     },
     "correct_answer": "A",
-    "topic": "Section I: Number and Numeration",
+    "topic": "Indices, Logarithms & Surds",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Indices, logarithms and surds",
+    "subtopic": "Laws of Indices",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -848,10 +848,10 @@
       "D": "3,4"
     },
     "correct_answer": "D",
-    "topic": "Section II: Algebra",
+    "topic": "Inequalities",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Inequalities",
+    "subtopic": "Linear Inequalities",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -871,10 +871,10 @@
       "D": "270°"
     },
     "correct_answer": "A",
-    "topic": "Section III: Geometry and Trigonometry",
+    "topic": "Trigonometry",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Trigonometry and bearings",
+    "subtopic": "Bearings",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -894,10 +894,10 @@
       "D": "17"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Inequalities",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Inequalities",
+    "subtopic": "Linear Inequalities",
     "predicted_topics": [
       "Uncategorized"
     ],
@@ -917,10 +917,10 @@
       "D": "l = 0, k = 1"
     },
     "correct_answer": "A",
-    "topic": "Section II: Algebra",
+    "topic": "Polynomials",
     "image": null,
     "source": "myschool.ng",
-    "subtopic": "Polynomials and factorization",
+    "subtopic": "Quadratic Equations",
     "predicted_topics": [
       "Processes of Legislation"
     ],

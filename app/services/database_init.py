@@ -128,6 +128,38 @@ class DatabaseInitService:
             }
 
     @staticmethod
+    def run_column_migrations() -> None:
+        """
+        Add any columns that were introduced after the initial schema creation.
+        Each ALTER is idempotent (IF NOT EXISTS) so it is safe to run on every startup.
+        """
+        migrations = [
+            # questions: rich-content columns added in schema v2
+            "ALTER TABLE questions ADD COLUMN IF NOT EXISTS table_html TEXT",
+            "ALTER TABLE questions ADD COLUMN IF NOT EXISTS passage TEXT",
+            # year_practice_sessions: results_json added after initial table creation
+            "ALTER TABLE year_practice_sessions ADD COLUMN IF NOT EXISTS results_json TEXT",
+        ]
+        try:
+            conn = get_db_connection()
+            for ddl in migrations:
+                try:
+                    cursor = conn.cursor()
+                    cursor.execute("SAVEPOINT col_migration")
+                    cursor.execute(ddl)
+                    cursor.execute("RELEASE SAVEPOINT col_migration")
+                except Exception as col_err:
+                    try:
+                        cursor.execute("ROLLBACK TO SAVEPOINT col_migration")
+                    except Exception:
+                        pass
+                    logger.warning(f"Column migration skipped ({col_err}): {ddl}")
+            conn.commit()
+            logger.info("✓ Column migrations applied")
+        except Exception as e:
+            logger.error(f"Column migration error: {e}")
+
+    @staticmethod
     def initialize_database() -> Dict[str, Any]:
         """
         Main initialization method - checks and creates schema if needed
@@ -152,6 +184,8 @@ class DatabaseInitService:
         # Check if tables exist
         if DatabaseInitService.check_tables_exist():
             logger.info("✓ Database schema is ready")
+            # Always run column migrations so new columns are added to existing DBs
+            DatabaseInitService.run_column_migrations()
             return {
                 'status': 'ready',
                 'message': 'Database schema already exists'
@@ -164,6 +198,8 @@ class DatabaseInitService:
         if result['status'] == 'success':
             logger.info("✓ Database initialization completed successfully")
             logger.info(f"  - Tables created: {result['tables_created']}")
+            # Run column migrations after fresh schema creation too
+            DatabaseInitService.run_column_migrations()
         else:
             logger.error(
                 f"✗ Database initialization failed: {result['message']}")

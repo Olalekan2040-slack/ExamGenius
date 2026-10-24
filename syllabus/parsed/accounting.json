@@ -1,315 +1,374 @@
 {
-  "subject": "Accounting",
-  "topics": [
+ "subject": "Accounting",
+ "topics": [
+  {
+   "number": 1,
+   "name": "Nature and Significance of Accounting",
+   "subtopics": [
     {
-      "number": 1,
-      "name": "Stimulate and sustain their interest in Principles of Accounts;",
-      "subtopics": []
+     "name": "Bookkeeping, Accounting and Its Branches",
+     "objectives": [
+      "Differentiate between bookkeeping and accounting",
+      "Trace the historical background of bookkeeping and accounting",
+      "List the branches of accounting: cost accounting, management accounting, auditing, financial accounting and taxation",
+      "Examine the role of accounting records and information in decision making and identify users of accounting information"
+     ]
     },
     {
-      "number": 2,
-      "name": "Use the basic knowledge of and practical skills in Accounting;",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Apply the knowledge and interpretation of accounting information to decision making;",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "Determine the relevance of accounting information to business and governments;",
-      "subtopics": []
-    },
-    {
-      "number": 5,
-      "name": "Use information and communication technology for present and future challenges.",
-      "subtopics": []
-    },
-    {
-      "number": 6,
-      "name": "Use current accounting principles in financial reporting.",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "Nature and Significance of Accounting",
-      "subtopics": [
-        {
-          "name": "Nature and Significance of Accounting",
-          "objectives": [
-            "i. differentiate between bookkeeping and accounting;",
-            "ii. use the historical background of bookkeeping and accounting for future development;",
-            "iii. apply the right principles, concepts and conventions to solving accounting problems;",
-            "iv. examine the role of accounting records and information in decision making.",
-            "v. List the branches of Accounting such as Cost Accounting, Management Accounting, Auditing, Financial Accounting and Taxation."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 2,
-      "name": "Principles of Double Entry",
-      "subtopics": [
-        {
-          "name": "Principles of Double Entry",
-          "objectives": [
-            "i. relate the various source documents to their uses;",
-            "ii. relate source documents to the various books of original entry;",
-            "iii. determine the effect of changes in elements of accounting equation;",
-            "iv. identify the role of double entry and use it to post transactions into various divisions of the ledger;",
-            "v. balance off ledger accounts;",
-            "vi. extract a trial balance from balances and determine its uses;",
-            "vii. identify various types of errors and their necessary corrections;",
-            "viii. create a suspense account."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "name": "Ethics in Accounting",
-      "subtopics": [
-        {
-          "name": "Ethics in Accounting",
-          "objectives": [
-            "i. use ethics in preparing and presenting Accounting Reports;",
-            "ii. list qualities of an Accountant such as honesty, integrity, transparency, accountability and fairness."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "name": "Cashbook",
-      "subtopics": [
-        {
-          "name": "Cashbook",
-          "objectives": [
-            "i. determine the cash float;",
-            "ii. differentiate between two and three columnar cashbooks and how transactions are recorded in them;",
-            "iii. differentiate between trade and cash discounts;",
-            "iv. examine the effects of trade and cash discounts in the books of accounts.",
-            "v. Identify various petty cash expense;"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "name": "Bank Transactions and Reconciliation Statements",
-      "subtopics": [
-        {
-          "name": "Bank Transactions and Reconciliation Statements",
-          "objectives": [
-            "i. identify bank documents such as cheques, pay-in-slips, credit and debit cards and their uses;",
-            "ii. assess the impact of automated credit system, credit transfers, interbank transfers and direct debit on cash balances;",
-            "iii. list factors that cause discrepancies between balances of cashbook and bank statements",
-            "iv. prepare adjusted cashbook balance",
-            "v. prepare bank reconciliation statements."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "name": "The Final Accounts of a Sole Trader",
-      "subtopics": [
-        {
-          "name": "The Final Accounts of a Sole Trader",
-          "objectives": [
-            "i. determine the cost of sales, gross profit and net profit of a sole trader;",
-            "ii. identify fixed assets, current assets, long- term liabilities, current liabilities and proprietor's capital;",
-            "iii. compute adjustable items on the related expenditure and income in the profit and loss account;",
-            "iv. relate the adjustable items and their corresponding disclosure in the statement of financial position;",
-            "v. differentiate between bad debts and provision for bad and doubtful debts."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "name": "Stock Valuation",
-      "subtopics": [
-        {
-          "name": "Stock Valuation",
-          "objectives": [
-            "i. determine the cost of materials issued to production or cost of goods sold using FIFO, LIFO and simple average;",
-            "ii. calculate the closing stock of materials or finished goods using FIFO, LIFO and simple average;",
-            "iii. compare the advantages and disadvantages of each method of stock valuation;",
-            "iv. determine the effects of stock valuation on trading, profits and cost of goods sold."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "name": "Control Accounts and Self-balancing Ledgers",
-      "subtopics": [
-        {
-          "name": "Control Accounts and Self-balancing Ledgers",
-          "objectives": [
-            "i. determine the importance of control accounts in a business enterprise;",
-            "ii. differentiate between sales ledger control account and purchases ledger control account;",
-            "iii. identify the individual elements of control accounts;",
-            "iv. prepare the control accounts"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "name": "Incomplete Records and Single Entry",
-      "subtopics": [
-        {
-          "name": "Incomplete Records and Single Entry",
-          "objectives": [
-            "i. determine proprietor's capital using statement of affairs;",
-            "ii. determine the amount of sales, purchases, cash balances, debtors, creditors and expenses by converting single entry to double entry;",
-            "iii. use accounting equations and gross profit percentage to determine gross profit or cost of sales."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "name": "Manufacturing Accounts",
-      "subtopics": [
-        {
-          "name": "Manufacturing Accounts",
-          "objectives": [
-            "i. calculate prime cost, production overhead, production cost and total cost;",
-            "ii. determine the basis of apportionment into production, administration, selling and distribution."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "name": "Accounts of Not-For-Profit-Making Organizations.",
-      "subtopics": [
-        {
-          "name": "Accounts of Not-For-Profit-Making Organizations.",
-          "objectives": [
-            "i. distinguish between the features of Not-for-profit-making organizations;",
-            "ii. determine the subscription income, subscription in arrears and in advance;",
-            "iii. compute the cash balances and accumulated funds, surplus and deficit for the period from all sources.",
-            "iv. Prepare:",
-            "a. receipts and payments account",
-            "b. income and expenditure account",
-            "c. statement of financial position",
-            "WAEC and NECO CBT Software for Computers and Laptops - Candidates, Schools, Centres, Resellers - 100% Offline -Download Now",
-            "WAEC and NECO CBT App for Mobile Devices - Candidates, Schools, Centres, Resellers - 100% Offline -Download Now",
-            "Myschool's prices for products & services are going up in January - Buy what you need now"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 12,
-      "name": "Departmental Accounts",
-      "subtopics": [
-        {
-          "name": "Departmental Accounts",
-          "objectives": [
-            "i. identify the reasons for departmental accounts;",
-            "ii. determine the expenses associated with individual departments;",
-            "iii. compute departmental profits or losses."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 13,
-      "name": "Branch Accounts",
-      "subtopics": [
-        {
-          "name": "Branch Accounts",
-          "objectives": [
-            "i. determine the reasons for branch accounts;",
-            "ii. calculate profits and losses from branches;",
-            "iii.determine the sources of differences and reconcile them."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 14,
-      "name": "Joint Venture Accounts",
-      "subtopics": [
-        {
-          "name": "Joint Venture Accounts",
-          "objectives": [
-            "i. identify the objectives of Joint Venture;",
-            "ii. determine the profit or loss of the Joint Venture;",
-            "iii.determine the profit or loss of each venture."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 15,
-      "name": "Partnership Accounts",
-      "subtopics": [
-        {
-          "name": "Partnership Accounts",
-          "objectives": [
-            "i. determine the instruments of partnership formation;",
-            "ii. categorize all accounts necessary for partnership;",
-            "iii. determine the effects of admission and retirement of a partner;",
-            "iv. prepare revaluation account",
-            "v. identify the accounts required for dissolution and conversion to a company;",
-            "vi. determine the partners share of profits or losses"
-          ]
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "name": "Introduction to Company Accounts",
-      "subtopics": [
-        {
-          "name": "Introduction to Company Accounts",
-          "objectives": [
-            "i. differentiate between types of companies;",
-            "ii. identify the processes and procedures of recording the issue of shares and debentures;",
-            "iii. compute elements of final accounts of companies;",
-            "iv. Interpret the accounts for decision making using ratios such as current, acid test and stock turnover."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 17,
-      "name": "Public Sector Accounting",
-      "subtopics": [
-        {
-          "name": "Public Sector Accounting",
-          "objectives": [
-            "i. differentiate between public sector accounting and private sector accounting;",
-            "ii. identify the sources of government revenue;",
-            "iii. differentiate between capital and recurrent expenditure;",
-            "iii. calculate consolidated revenue fund and determine the values of assets and liabilities;",
-            "iv. analyse the duties of the Accountant General, the Auditor General, the Minister of Finance and the Treasurer of local government;",
-            "v. distinguish between the elements of control in government accounting procedures e.g. virement, warrant, votes, authority to incur expenditure, budget and due process certificate."
-          ]
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "name": "Information Technology in Accounting",
-      "subtopics": [
-        {
-          "name": "Information Technology in Accounting",
-          "objectives": [
-            "i. relate and differentiate between manual and computerized accounting processing system;",
-            "ii. identify the processes involved in data processing;",
-            "iii. relate the different components of computer;",
-            "iv. identify the advantages and disadvantages of manual and computerized accounting processing system"
-          ]
-        }
-      ]
+     "name": "Accounting Concepts and Conventions",
+     "objectives": [
+      "Identify accounting concepts: business entity, going concern, accrual, consistency, prudence, materiality, historical cost, money measurement, dual aspect",
+      "Apply the right principles, concepts and conventions to solving accounting problems"
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Ethics in Accounting",
+   "subtopics": [
+    {
+     "name": "Ethics and Qualities of an Accountant",
+     "objectives": [
+      "Apply ethics in preparing and presenting accounting reports",
+      "List the qualities of an accountant: honesty, integrity, transparency, accountability and fairness"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Principles of Double Entry",
+   "subtopics": [
+    {
+     "name": "Source Documents and Books of Original Entry",
+     "objectives": [
+      "Relate the various source documents (invoice, receipt, credit note, debit note, cheque) to their uses",
+      "Relate source documents to the books of original entry (sales day book, purchases day book, returns books, journal proper, cashbook)",
+      "Record transactions in the appropriate books of original entry"
+     ]
+    },
+    {
+     "name": "The Accounting Equation and Ledger Entries",
+     "objectives": [
+      "Determine the effect of transactions on the accounting equation (Assets = Capital + Liabilities)",
+      "Apply the double entry rule to post transactions into the divisions of the ledger",
+      "Classify accounts into personal, real and nominal accounts",
+      "Balance off ledger accounts"
+     ]
+    },
+    {
+     "name": "The Trial Balance",
+     "objectives": [
+      "Extract a trial balance from ledger balances",
+      "State the uses and limitations of the trial balance"
+     ]
+    },
+    {
+     "name": "Errors and Suspense Accounts",
+     "objectives": [
+      "Identify errors that do and do not affect the trial balance (errors of omission, commission, principle, original entry, complete reversal, compensating)",
+      "Correct errors using the journal",
+      "Create and clear a suspense account and determine the effect of errors on profit"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "name": "Cashbook",
+   "subtopics": [
+    {
+     "name": "Types of Cashbook and Discounts",
+     "objectives": [
+      "Differentiate between single, two and three column cashbooks and record transactions in them",
+      "Differentiate between trade discount and cash discount",
+      "Examine the effects of trade and cash discounts in the books of account",
+      "Determine cash and bank balances including contra entries"
+     ]
+    },
+    {
+     "name": "Petty Cash Book and the Imprest System",
+     "objectives": [
+      "Explain the imprest system and determine the cash float",
+      "Identify petty cash expenses and post them using analysis columns",
+      "Prepare and balance the petty cash book"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Bank Transactions and Reconciliation Statements",
+   "subtopics": [
+    {
+     "name": "Bank Documents and Transactions",
+     "objectives": [
+      "Identify bank documents (cheques, pay-in-slips, credit and debit cards) and their uses",
+      "Assess the impact of automated credit systems, credit transfers, interbank transfers and direct debits on cash balances",
+      "Distinguish between types of accounts: current, savings, fixed deposit"
+     ]
+    },
+    {
+     "name": "Bank Reconciliation Statements",
+     "objectives": [
+      "List the factors causing discrepancies between cashbook and bank statement balances (unpresented cheques, uncredited lodgements, bank charges, standing orders, dishonoured cheques)",
+      "Prepare the adjusted cashbook",
+      "Prepare bank reconciliation statements"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Final Accounts of a Sole Trader",
+   "subtopics": [
+    {
+     "name": "Trading, Profit and Loss Account",
+     "objectives": [
+      "Determine cost of sales, gross profit and net profit of a sole trader",
+      "Prepare the trading account and the profit and loss account",
+      "Compute mark-up, margin and rate of stock turnover"
+     ]
+    },
+    {
+     "name": "Balance Sheet (Statement of Financial Position)",
+     "objectives": [
+      "Identify fixed assets, current assets, long-term liabilities, current liabilities and proprietor's capital",
+      "Prepare the balance sheet of a sole trader",
+      "Calculate working capital, capital owned and capital employed"
+     ]
+    },
+    {
+     "name": "Adjustments in Final Accounts",
+     "objectives": [
+      "Compute adjustments for accruals and prepayments of expenses and incomes",
+      "Differentiate between bad debts and provision for bad and doubtful debts and account for them",
+      "Calculate depreciation using straight line and reducing balance methods and record it in the accounts",
+      "Relate adjustable items to their disclosure in the statement of financial position"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "name": "Stock Valuation",
+   "subtopics": [
+    {
+     "name": "Methods of Stock Valuation",
+     "objectives": [
+      "Determine the cost of materials issued or cost of goods sold using FIFO, LIFO and simple average methods",
+      "Calculate closing stock using FIFO, LIFO and simple average",
+      "Compare the advantages and disadvantages of each stock valuation method",
+      "Determine the effects of stock valuation methods on profit and cost of goods sold"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "name": "Control Accounts and Self-Balancing Ledgers",
+   "subtopics": [
+    {
+     "name": "Preparation and Uses of Control Accounts",
+     "objectives": [
+      "Determine the importance and uses of control accounts",
+      "Differentiate between sales ledger control account and purchases ledger control account",
+      "Identify the individual elements of control accounts",
+      "Prepare sales ledger and purchases ledger control accounts"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "name": "Incomplete Records and Single Entry",
+   "subtopics": [
+    {
+     "name": "Single Entry and Conversion to Double Entry",
+     "objectives": [
+      "Determine proprietor's capital using the statement of affairs",
+      "Determine sales, purchases, cash balances, debtors, creditors and expenses by converting single entry to double entry",
+      "Use the accounting equation and gross profit percentage to determine gross profit or cost of sales",
+      "Prepare final accounts from incomplete records"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "name": "Manufacturing Accounts",
+   "subtopics": [
+    {
+     "name": "Preparation of Manufacturing Accounts",
+     "objectives": [
+      "Calculate prime cost, production overhead, production cost and total cost",
+      "Determine the basis of apportionment of expenses into production, administration, selling and distribution",
+      "Prepare manufacturing accounts including work-in-progress adjustments"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "name": "Accounts of Not-For-Profit Organizations",
+   "subtopics": [
+    {
+     "name": "Receipts and Payments Account",
+     "objectives": [
+      "Distinguish the features of not-for-profit-making organizations",
+      "Prepare the receipts and payments account",
+      "Compute cash balances from all sources"
+     ]
+    },
+    {
+     "name": "Income and Expenditure Account",
+     "objectives": [
+      "Determine subscription income, subscriptions in arrears and in advance",
+      "Compute accumulated fund, surplus and deficit for the period",
+      "Prepare the income and expenditure account and statement of financial position"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "name": "Departmental Accounts",
+   "subtopics": [
+    {
+     "name": "Preparation of Departmental Accounts",
+     "objectives": [
+      "Identify the reasons for preparing departmental accounts",
+      "Determine and apportion expenses associated with individual departments",
+      "Compute departmental profits or losses"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "name": "Branch Accounts",
+   "subtopics": [
+    {
+     "name": "Preparation of Branch Accounts",
+     "objectives": [
+      "Determine the reasons for keeping branch accounts",
+      "Calculate profits and losses of branches",
+      "Determine the sources of differences between branch and head office records and reconcile them",
+      "Account for goods sent to branch at cost and at selling price"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "name": "Joint Venture Accounts",
+   "subtopics": [
+    {
+     "name": "Preparation of Joint Venture Accounts",
+     "objectives": [
+      "Identify the objectives and features of a joint venture",
+      "Determine the profit or loss of the joint venture (memorandum joint venture account)",
+      "Determine the profit or loss share of each venturer"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "name": "Partnership Accounts",
+   "subtopics": [
+    {
+     "name": "Formation and Profit Sharing",
+     "objectives": [
+      "Determine the instruments of partnership formation (partnership deed) and its contents",
+      "Prepare the profit and loss appropriation account (interest on capital, interest on drawings, salaries)",
+      "Distinguish between and prepare partners' capital accounts (fixed and fluctuating) and current accounts",
+      "Determine the partners' shares of profits or losses"
+     ]
+    },
+    {
+     "name": "Admission, Retirement and Goodwill",
+     "objectives": [
+      "Determine the effects of admission and retirement of a partner",
+      "Account for goodwill on admission and retirement",
+      "Prepare the revaluation account"
+     ]
+    },
+    {
+     "name": "Dissolution of Partnership",
+     "objectives": [
+      "Identify the accounts required for dissolution (realization account) and conversion to a company",
+      "Prepare dissolution accounts and settle partners' claims"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "name": "Company Accounts",
+   "subtopics": [
+    {
+     "name": "Types of Companies and Issue of Shares and Debentures",
+     "objectives": [
+      "Differentiate between types of companies (private, public, limited by shares/guarantee)",
+      "Explain types of shares (ordinary, preference) and share capital terminology (authorized, issued, called-up, paid-up)",
+      "Record the issue of shares (at par, premium, discount) and debentures"
+     ]
+    },
+    {
+     "name": "Final Accounts of Companies",
+     "objectives": [
+      "Compute the elements of company final accounts (appropriation account, reserves, dividends)",
+      "Prepare the profit and loss appropriation account and statement of financial position of a company"
+     ]
+    },
+    {
+     "name": "Interpretation of Accounts Using Ratios",
+     "objectives": [
+      "Calculate and interpret current ratio, acid test ratio and rate of stock turnover",
+      "Calculate profitability ratios (gross profit margin, net profit margin, return on capital employed)",
+      "Use accounting ratios for decision making"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "name": "Public Sector Accounting",
+   "subtopics": [
+    {
+     "name": "Government Revenue, Expenditure and Funds",
+     "objectives": [
+      "Differentiate between public sector and private sector accounting",
+      "Identify the sources of government revenue",
+      "Differentiate between capital and recurrent expenditure",
+      "Calculate the consolidated revenue fund and determine values of assets and liabilities"
+     ]
+    },
+    {
+     "name": "Government Officers and Control of Public Funds",
+     "objectives": [
+      "Analyse the duties of the Accountant-General, Auditor-General, Minister of Finance and local government treasurer",
+      "Distinguish between the elements of control in government accounting: virement, warrant, votes, authority to incur expenditure, budget and due process certificate"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "name": "Information Technology in Accounting",
+   "subtopics": [
+    {
+     "name": "Manual and Computerized Accounting Systems",
+     "objectives": [
+      "Relate and differentiate between manual and computerized accounting processing systems",
+      "Identify the processes involved in data processing",
+      "Relate the different components of the computer to accounting tasks",
+      "Identify the advantages and disadvantages of manual and computerized accounting systems"
+     ]
+    }
+   ]
+  }
+ ]
 }

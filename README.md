@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 ExamGenius
+# 🎓 EduLab ExamPrep
 
 ### **AI-Powered JAMB Exam Mastery Platform**
 *Interactive learning, real-time AI tutoring, and comprehensive practice for Nigerian students.*
@@ -85,7 +85,7 @@
 ```bash
 # Clone repository
 git clone https://github.com/Olalekan2040-slack/ExamGenius.git
-cd ExamGenius
+cd EduLab ExamPrep
 
 # Create virtual environment
 python -m venv venv
@@ -401,7 +401,7 @@ For licensing inquiries, contact the development team.
 
 ## 👨‍💻 Team
 
-**ExamGenius Development Team**
+**EduLab ExamPrep Development Team**
 - Lead Developer: [@Olalekan2040-slack](https://github.com/Olalekan2040-slack)
 
 ---

@@ -620,7 +620,7 @@ def generate_diagram_prompt(subject: str, topic: str, objective: str, descriptio
 # ── Gemini-powered interactive features ─────────────────────────────
 
 GUIDED_LEARNING_SYSTEM_PROMPT = (
-    "You are ExamGenius, a friendly JAMB tutor for Nigerian secondary school "
+    "You are EduLab ExamPrep, a friendly JAMB tutor for Nigerian secondary school "
     "students. Be concise, clear, and always relate answers back to JAMB exam."
 )
 
@@ -717,22 +717,36 @@ def get_related_questions(
 ) -> List[Dict]:
     """
     Find questions that match the current objective.
-    Uses keyword matching and topic filtering.
+
+    Prefers questions tagged with the exact subtopic (now that questions are
+    syllabus-aligned); falls back to the broader topic when a subtopic has too
+    few questions. Scores candidates by keyword overlap with the objective.
     """
 
     # Extract keywords from objective
     keywords = [w.lower() for w in objective.split() if len(w) > 4]
 
-    # First try exact subtopic match
+    # First try exact subtopic match — most relevant to the current objective
     cursor.execute("""
-        SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, NULL as passage
+        SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, q.passage
         FROM questions q
-        WHERE q.subject = %s AND q.topic = %s AND q.exam = 'JAMB'
+        WHERE q.subject = %s AND q.topic = %s AND q.subtopic = %s AND q.exam = 'JAMB'
         ORDER BY RANDOM()
         LIMIT %s
-    """, (subject, topic, limit * 3))
+    """, (subject, topic, subtopic, limit * 3))
 
     candidates = cursor.fetchall()
+
+    # Fall back to the broader topic if the subtopic pool is too small
+    if len(candidates) < limit:
+        cursor.execute("""
+            SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, q.passage
+            FROM questions q
+            WHERE q.subject = %s AND q.topic = %s AND q.exam = 'JAMB'
+            ORDER BY RANDOM()
+            LIMIT %s
+        """, (subject, topic, limit * 3))
+        candidates = cursor.fetchall()
 
     # Score by keyword relevance
     scored = []
@@ -786,17 +800,32 @@ def generate_subtopic_quiz(
     # ── 1. Pull from DB ──────────────────────────────────────────────
     db_questions: List[Dict] = []
     try:
+        # Prefer questions tagged with this exact subtopic; widen to the topic
+        # only if the subtopic pool is too small to build a quiz.
         cursor.execute(
             """
-            SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, NULL AS passage
+            SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, q.passage
             FROM questions q
-            WHERE q.subject = %s AND q.topic = %s AND q.exam = 'JAMB'
+            WHERE q.subject = %s AND q.topic = %s AND q.subtopic = %s AND q.exam = 'JAMB'
             ORDER BY RANDOM()
             LIMIT %s
             """,
-            (subject, topic, limit * 2),
+            (subject, topic, subtopic, limit * 2),
         )
         candidates = cursor.fetchall()
+
+        if len(candidates) < limit:
+            cursor.execute(
+                """
+                SELECT q.id, q.question, q.correct_option_key, q.year, q.image_path, q.passage
+                FROM questions q
+                WHERE q.subject = %s AND q.topic = %s AND q.exam = 'JAMB'
+                ORDER BY RANDOM()
+                LIMIT %s
+                """,
+                (subject, topic, limit * 2),
+            )
+            candidates = cursor.fetchall()
 
         all_kws = [w.lower() for obj in objectives for w in obj.split() if len(w) > 4]
         scored = sorted(

@@ -1,5 +1,5 @@
 """
-ExamGenius API - JAMB Exam Preparation Platform
+EduLab ExamPrep API - JAMB Exam Preparation Platform
 Main application entry point
 """
 
@@ -96,7 +96,7 @@ async def startup_event():
     1. Initializes database schema (creates tables if needed)
     2. Automatically syncs database if DB_AUTO_SYNC is enabled
     """
-    logger.info("Starting ExamGenius API...")
+    logger.info("Starting EduLab ExamPrep API...")
     logger.info(f"Version: {settings.APP_VERSION}")
     logger.info(f"Database: {settings.DATABASE_URL.split('@')[1] if '@' in settings.DATABASE_URL else 'localhost'}")
     
@@ -150,7 +150,7 @@ async def startup_event():
 async def root():
     """API root endpoint - health check"""
     return {
-        "message": "Welcome to ExamGenius API",
+        "message": "Welcome to EduLab ExamPrep API",
         "version": settings.APP_VERSION,
         "docs": "/docs",
         "api": settings.API_V1_PREFIX

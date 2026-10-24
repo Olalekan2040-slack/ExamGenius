@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables"""
 
     # App Info
-    APP_NAME: str = "ExamGenius API"
+    APP_NAME: str = "EduLab ExamPrep API"
     APP_VERSION: str = "1.0.0"
     API_V1_PREFIX: str = "/api/v1"
     DEBUG: bool = False
@@ -56,7 +56,7 @@ class Settings(BaseSettings):
     MAIL_FROM: Optional[str] = None
     MAIL_PORT: int = 587
     MAIL_SERVER: Optional[str] = None
-    MAIL_FROM_NAME: str = "ExamGenius"
+    MAIL_FROM_NAME: str = "EduLab ExamPrep"
 
     # App URLs and modes
     BASE_URL: str = "http://localhost:8000"

@@ -9,7 +9,7 @@ async function showLoginScreen() {
                 <div class="auth-header">
                     <div class="logo mb-3" onclick="router.navigate('landing')" style="cursor: pointer;">
                         <i class="fas fa-graduation-cap"></i>
-                        <span>ExamGenius</span>
+                        <span>EduLab ExamPrep</span>
                     </div>
                     <h1>Welcome Back</h1>
                     <p>Sign in to continue your JAMB preparation</p>
@@ -218,7 +218,7 @@ async function showRegisterScreen() {
                 <div class="auth-header">
                     <div class="logo mb-3" onclick="router.navigate('landing')" style="cursor: pointer;">
                         <i class="fas fa-graduation-cap"></i>
-                        <span>ExamGenius</span>
+                        <span>EduLab ExamPrep</span>
                     </div>
                     <h1>Create Account</h1>
                     <p>Start your journey to JAMB success</p>
@@ -338,7 +338,7 @@ function showVerificationNotice(email) {
                 <p style="margin: 20px 0;">We've sent a verification link to:</p>
                 <p style="font-weight: 600; color: var(--primary-yellow-dark); margin-bottom: 20px;">${email}</p>
                 <p style="color: var(--text-secondary); margin-bottom: 32px;">
-                    Click the link in the email to verify your account and start using ExamGenius.
+                    Click the link in the email to verify your account and start using EduLab ExamPrep.
                 </p>
                 <button class="btn btn-primary" onclick="router.navigate('login')">
                     Go to Login

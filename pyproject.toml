@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "Proprietary"}
 authors = [
-    {name = "ExamGenius Team", email = "support@examgenius.com"}
+    {name = "EduLab ExamPrep Team", email = "support@examgenius.com"}
 ]
 keywords = ["jamb", "exam", "education", "api", "fastapi"]
 classifiers = [

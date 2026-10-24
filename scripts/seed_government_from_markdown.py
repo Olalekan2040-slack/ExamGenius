@@ -345,7 +345,7 @@ def main():
     )
 
     print(f"\n{'='*65}")
-    print(f"  ExamGenius - Government Markdown Seeder")
+    print(f"  EduLab ExamPrep - Government Markdown Seeder")
     print(f"  Topics: {len(topics)}   Objectives: {total}")
     print(f"  Mode: {'DRY RUN' if args.dry_run else 'LIVE'}")
     print(f"  Force overwrite: {args.force}")

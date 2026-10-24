@@ -14,7 +14,7 @@ SENDER_EMAIL = settings.SENDER_EMAIL or settings.MAIL_USERNAME or os.getenv("SEN
 SENDER_PASSWORD = settings.SENDER_PASSWORD or settings.MAIL_PASSWORD or os.getenv("SENDER_PASSWORD") or os.getenv("MAIL_PASSWORD") or ""
 # Strip any trailing slash so appended paths never produce double slashes
 BASE_URL = settings.BASE_URL.rstrip("/")
-PROJECT_NAME = "ExamGenius"
+PROJECT_NAME = "EduLab ExamPrep"
 DEV_MODE = bool(settings.DEV_MODE)
 
 
@@ -48,7 +48,7 @@ def send_verification_email(email: str, name: str, token: str) -> tuple[bool, st
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Verify your ExamGenius account</title>
+  <title>Verify your EduLab ExamPrep account</title>
 </head>
 <body style="margin:0;padding:0;background-color:#f5f7fb;font-family:'Segoe UI',Arial,sans-serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f5f7fb;padding:40px 16px;">
@@ -72,7 +72,7 @@ def send_verification_email(email: str, name: str, token: str) -> tuple[bool, st
             <td style="padding:44px 48px 32px;">
               <p style="margin:0 0 12px;font-size:17px;color:#1e293b;font-weight:600;">Hi {first_name} 👋</p>
               <p style="margin:0 0 24px;font-size:15px;color:#475569;line-height:1.7;">
-                Welcome to <strong style="color:#1a1a2e;">ExamGenius</strong>! We're thrilled to have you on board.
+                Welcome to <strong style="color:#1a1a2e;">EduLab ExamPrep</strong>! We're thrilled to have you on board.
                 To start acing your JAMB exams, please verify your email address by clicking the button below.
               </p>
 
@@ -146,7 +146,7 @@ def send_verification_email(email: str, name: str, token: str) -> tuple[bool, st
           <tr>
             <td style="background:#f8fafc;border-top:1px solid #e2e8f0;padding:24px 48px;text-align:center;">
               <p style="margin:0 0 8px;font-size:13px;color:#94a3b8;">
-                © {datetime.utcnow().year} ExamGenius · All rights reserved
+                © {datetime.utcnow().year} EduLab ExamPrep · All rights reserved
               </p>
               <p style="margin:0;font-size:12px;color:#cbd5e1;">
                 This email was sent to <strong>{email}</strong> because an account was created with this address.
@@ -214,7 +214,7 @@ def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reset your ExamGenius password</title>
+  <title>Reset your EduLab ExamPrep password</title>
 </head>
 <body style="margin:0;padding:0;background-color:#f5f7fb;font-family:'Segoe UI',Arial,sans-serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background-color:#f5f7fb;padding:40px 16px;">
@@ -238,7 +238,7 @@ def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, 
             <td style="padding:44px 48px 32px;">
               <p style="margin:0 0 12px;font-size:17px;color:#1e293b;font-weight:600;">Hi {first_name} 👋</p>
               <p style="margin:0 0 24px;font-size:15px;color:#475569;line-height:1.7;">
-                Someone (hopefully you!) requested a password reset for your <strong style="color:#1a1a2e;">ExamGenius</strong> account.
+                Someone (hopefully you!) requested a password reset for your <strong style="color:#1a1a2e;">EduLab ExamPrep</strong> account.
                 Click the button below to choose a new password.
               </p>
 
@@ -281,7 +281,7 @@ def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, 
             <td style="padding:0 48px 36px;">
               <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:16px 18px;">
                 <p style="margin:0;font-size:13px;color:#92400e;line-height:1.6;">
-                  🛡️ <strong>Security tip:</strong> ExamGenius will never ask for your password via email or phone.
+                  🛡️ <strong>Security tip:</strong> EduLab ExamPrep will never ask for your password via email or phone.
                   Always make sure you're on <strong>examgenius.mooo.com</strong> before entering your credentials.
                 </p>
               </div>
@@ -292,7 +292,7 @@ def send_password_reset_email(email: str, name: str, token: str) -> tuple[bool, 
           <tr>
             <td style="background:#f8fafc;border-top:1px solid #e2e8f0;padding:24px 48px;text-align:center;">
               <p style="margin:0 0 8px;font-size:13px;color:#94a3b8;">
-                © {datetime.utcnow().year} ExamGenius · All rights reserved
+                © {datetime.utcnow().year} EduLab ExamPrep · All rights reserved
               </p>
               <p style="margin:0;font-size:12px;color:#cbd5e1;">
                 This email was sent to <strong>{email}</strong> because a password reset was requested for this address.
@@ -354,7 +354,7 @@ def send_role_change_email(email: str, name: str, old_role: str, new_role: str) 
         print("[WARN] SMTP credentials missing — role change email skipped")
         return False
 
-    subject = f"Your ExamGenius account role has been updated"
+    subject = f"Your EduLab ExamPrep account role has been updated"
     html_body = f"""<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/></head>
@@ -365,7 +365,7 @@ def send_role_change_email(email: str, name: str, old_role: str, new_role: str) 
         <tr>
           <td style="background:linear-gradient(135deg,#1a1a2e,#0f3460);padding:40px 48px;text-align:center;">
             <div style="display:inline-block;background:linear-gradient(135deg,#FCD34D,#F59E0B);border-radius:14px;padding:10px 18px;margin-bottom:16px;">
-              <span style="font-size:22px;font-weight:900;color:#1a1a2e;">ExamGenius</span>
+              <span style="font-size:22px;font-weight:900;color:#1a1a2e;">EduLab ExamPrep</span>
             </div>
             <h1 style="margin:0;color:#fff;font-size:22px;font-weight:700;">Account Role Updated</h1>
           </td>
@@ -374,7 +374,7 @@ def send_role_change_email(email: str, name: str, old_role: str, new_role: str) 
           <td style="padding:36px 48px;">
             <p style="margin:0 0 16px;font-size:16px;color:#1e293b;">Hi <strong>{first_name}</strong> 👋</p>
             <p style="margin:0 0 24px;font-size:15px;color:#475569;line-height:1.7;">
-              Your <strong>ExamGenius</strong> account role has been updated by an administrator.
+              Your <strong>EduLab ExamPrep</strong> account role has been updated by an administrator.
             </p>
             <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:28px;">
               <tr>
@@ -395,7 +395,7 @@ def send_role_change_email(email: str, name: str, old_role: str, new_role: str) 
         </tr>
         <tr>
           <td style="background:#f8fafc;border-top:1px solid #e2e8f0;padding:20px 48px;text-align:center;">
-            <p style="margin:0;font-size:12px;color:#94a3b8;">© {datetime.utcnow().year} ExamGenius · This email was sent to <strong>{email}</strong></p>
+            <p style="margin:0;font-size:12px;color:#94a3b8;">© {datetime.utcnow().year} EduLab ExamPrep · This email was sent to <strong>{email}</strong></p>
           </td>
         </tr>
       </table>
@@ -436,7 +436,7 @@ def send_ban_notification_email(email: str, name: str, banned: bool, reason: str
         print("[WARN] SMTP credentials missing — ban notification email skipped")
         return False
 
-    subject = f"Your ExamGenius account has been {action_word.lower()}"
+    subject = f"Your EduLab ExamPrep account has been {action_word.lower()}"
     reason_block = f"""
             <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:20px;">
               <tr>
@@ -447,7 +447,7 @@ def send_ban_notification_email(email: str, name: str, banned: bool, reason: str
             </table>""" if banned and reason else ""
 
     reinstate_note = """<p style="margin:0 0 16px;font-size:14px;color:#10B981;font-weight:600;">
-              🎉 Your account has been reinstated. You can now log in and continue using ExamGenius.
+              🎉 Your account has been reinstated. You can now log in and continue using EduLab ExamPrep.
             </p>""" if not banned else ""
 
     html_body = f"""<!DOCTYPE html>
@@ -460,7 +460,7 @@ def send_ban_notification_email(email: str, name: str, banned: bool, reason: str
         <tr>
           <td style="background:linear-gradient(135deg,#1a1a2e,#0f3460);padding:40px 48px;text-align:center;">
             <div style="display:inline-block;background:linear-gradient(135deg,#FCD34D,#F59E0B);border-radius:14px;padding:10px 18px;margin-bottom:16px;">
-              <span style="font-size:22px;font-weight:900;color:#1a1a2e;">ExamGenius</span>
+              <span style="font-size:22px;font-weight:900;color:#1a1a2e;">EduLab ExamPrep</span>
             </div>
             <h1 style="margin:0;color:#fff;font-size:22px;font-weight:700;">{icon} Account {action_word}</h1>
           </td>
@@ -470,7 +470,7 @@ def send_ban_notification_email(email: str, name: str, banned: bool, reason: str
             <p style="margin:0 0 16px;font-size:16px;color:#1e293b;">Hi <strong>{first_name}</strong>,</p>
             {reinstate_note}
             <p style="margin:0 0 20px;font-size:15px;color:#475569;line-height:1.7;">
-              {'Your <strong>ExamGenius</strong> account has been <strong style="color:' + action_color + ';">temporarily suspended</strong> by an administrator.' if banned else 'Good news — your <strong>ExamGenius</strong> account has been <strong style="color:' + action_color + ';">reinstated</strong>.'}
+              {'Your <strong>EduLab ExamPrep</strong> account has been <strong style="color:' + action_color + ';">temporarily suspended</strong> by an administrator.' if banned else 'Good news — your <strong>EduLab ExamPrep</strong> account has been <strong style="color:' + action_color + ';">reinstated</strong>.'}
             </p>
             {reason_block}
             <p style="margin:0;font-size:13px;color:#64748b;">
@@ -480,7 +480,7 @@ def send_ban_notification_email(email: str, name: str, banned: bool, reason: str
         </tr>
         <tr>
           <td style="background:#f8fafc;border-top:1px solid #e2e8f0;padding:20px 48px;text-align:center;">
-            <p style="margin:0;font-size:12px;color:#94a3b8;">© {datetime.utcnow().year} ExamGenius · This email was sent to <strong>{email}</strong></p>
+            <p style="margin:0;font-size:12px;color:#94a3b8;">© {datetime.utcnow().year} EduLab ExamPrep · This email was sent to <strong>{email}</strong></p>
           </td>
         </tr>
       </table>

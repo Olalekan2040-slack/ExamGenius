@@ -1,4 +1,4 @@
-# ExamGenius Frontend
+# EduLab ExamPrep Frontend
 
 Modern, mobile-first web application for JAMB CBT preparations.
 
@@ -288,11 +288,11 @@ Backend must allow your frontend domain in CORS settings.
 
 - Full API documentation: `../FRONTEND_API_GUIDE.md`
 - Backend documentation: `../docs/`
-- Project structure: `../EXAMGENIUS_PROJECT_BIBLE.md`
+- Project structure: `../EDULAB EXAMPREP_PROJECT_BIBLE.md`
 
 ## 🤝 Contributing
 
-This is the frontend for ExamGenius JAMB preparation platform.
+This is the frontend for EduLab ExamPrep JAMB preparation platform.
 
 **Do NOT:**
 - Modify backend logic
@@ -308,7 +308,7 @@ This is the frontend for ExamGenius JAMB preparation platform.
 
 ## 📄 License
 
-© 2025 ExamGenius. All rights reserved.
+© 2025 EduLab ExamPrep. All rights reserved.
 
 ---
 

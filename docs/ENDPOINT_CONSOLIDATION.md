@@ -1,7 +1,7 @@
 # Endpoint Consolidation - Duplicate Resolution
 
 ## Overview
-This document outlines the consolidation and deduplication of API endpoints in ExamGenius. The project had multiple redundant endpoints serving similar functions across different routers.
+This document outlines the consolidation and deduplication of API endpoints in EduLab ExamPrep. The project had multiple redundant endpoints serving similar functions across different routers.
 
 ## Changes Made
 

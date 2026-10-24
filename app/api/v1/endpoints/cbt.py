@@ -576,13 +576,25 @@ async def get_cbt_review(session_id: str, user_id: int = Depends(current_user_id
             else:
                 # DB question
                 cursor.execute("""
-                    SELECT q.question, q.correct_option_key, q.topic
+                    SELECT q.question, q.correct_option_key, q.topic,
+                           q.image_path,
+                           COALESCE(q.passage, '')    AS passage,
+                           COALESCE(q.table_html, '') AS table_html
                     FROM questions q
                     WHERE q.id = ?
                 """, (question_id,))
 
                 q_row = cursor.fetchone()
                 if q_row:
+                    # Also fetch options for this question
+                    cursor.execute("""
+                        SELECT option_key, option_text
+                        FROM options
+                        WHERE question_id = ?
+                        ORDER BY option_key
+                    """, (question_id,))
+                    opts = {r[0]: r[1] for r in cursor.fetchall()}
+
                     reviews.append({
                         "question_number": row[1],
                         "question_id": question_id,
@@ -592,7 +604,11 @@ async def get_cbt_review(session_id: str, user_id: int = Depends(current_user_id
                         "generated_by": "db",
                         "question": q_row[0],
                         "correct_answer": q_row[1],
-                        "topic": q_row[2]
+                        "topic": q_row[2],
+                        "image_path": q_row[3] if q_row[3] else None,
+                        "passage": q_row[4] if q_row[4] else None,
+                        "table_html": q_row[5] if q_row[5] else None,
+                        "options": opts,
                     })
 
         return {

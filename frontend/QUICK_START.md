@@ -1,4 +1,4 @@
-# ExamGenius Frontend - Quick Start Guide
+# EduLab ExamPrep Frontend - Quick Start Guide
 
 ## 🚀 Getting Started in 3 Steps
 

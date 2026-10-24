@@ -1,4 +1,4 @@
-# ExamGenius Project Structure
+# EduLab ExamPrep Project Structure
 
 ## 📁 Complete Directory Tree
 

@@ -1,200 +1,504 @@
 {
-  "subject": "Economics",
-  "topics": [
+ "subject": "Economics",
+ "topics": [
+  {
+   "number": 1,
+   "name": "Basic Economic Concepts and Problems",
+   "subtopics": [
     {
-      "number": 1,
-      "name": "Economics as a science; basic concepts; economic problems.",
-      "subtopics": []
+     "name": "Economics as a Science and Basic Concepts",
+     "objectives": [
+      "Define economics and explain why it is a social science",
+      "Explain basic concepts: wants, scarcity, choice, scale of preference and opportunity cost",
+      "Apply the concept of opportunity cost to everyday decisions"
+     ]
     },
     {
-      "number": 2,
-      "name": "Economic systems: capitalism, socialism, mixed economy.",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Methods and tools of economic analysis; data presentation.",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "Theory of Demand; elasticity; demand schedule.",
-      "subtopics": []
-    },
-    {
-      "number": 5,
-      "name": "Consumer behaviour; utility; indifference curves (introductory).",
-      "subtopics": []
-    },
-    {
-      "number": 6,
-      "name": "Theory of Supply; elasticity.",
-      "subtopics": []
-    },
-    {
-      "number": 7,
-      "name": "Price determination; market equilibrium.",
-      "subtopics": []
-    },
-    {
-      "number": 8,
-      "name": "Theory of Production; production functions; scale.",
-      "subtopics": []
-    },
-    {
-      "number": 9,
-      "name": "Costs and Revenue; short/long run.",
-      "subtopics": []
-    },
-    {
-      "number": 10,
-      "name": "Market Structures: perfect competition, monopoly, monopolistic competition, oligopoly.",
-      "subtopics": []
-    },
-    {
-      "number": 11,
-      "name": "National Income; concepts; measurement; problems.",
-      "subtopics": []
-    },
-    {
-      "number": 12,
-      "name": "Money and Inflation; functions; value of money.",
-      "subtopics": []
-    },
-    {
-      "number": 13,
-      "name": "Financial Institutions; banking; central bank; money/capital markets.",
-      "subtopics": []
-    },
-    {
-      "number": 14,
-      "name": "Public Finance; taxation; public expenditure; budgets.",
-      "subtopics": []
-    },
-    {
-      "number": 15,
-      "name": "Economic Growth and Development; planning; indicators.",
-      "subtopics": []
-    },
-    {
-      "number": 16,
-      "name": "Agriculture in Nigeria; problems; prospects.",
-      "subtopics": []
-    },
-    {
-      "number": 17,
-      "name": "Industry and Industrialization; location; policies.",
-      "subtopics": []
-    },
-    {
-      "number": 18,
-      "name": "Natural Resources and the Nigerian Economy.",
-      "subtopics": []
-    },
-    {
-      "number": 19,
-      "name": "Business Organizations; forms; advantages/limitations.",
-      "subtopics": []
-    },
-    {
-      "number": 20,
-      "name": "Population; theories; structure; distribution.",
-      "subtopics": []
-    },
-    {
-      "number": 21,
-      "name": "International Trade; terms of trade; balance of payments; exchange rate.",
-      "subtopics": []
-    },
-    {
-      "number": 22,
-      "name": "International Economic Organizations: IMF, World Bank, WTO, ECOWAS.",
-      "subtopics": []
-    },
-    {
-      "number": 23,
-      "name": "Factors of Production; labour market; capital formation.",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "understand basic economic concepts and principles",
-      "subtopics": []
-    },
-    {
-      "number": 2,
-      "name": "analyze economic systems and problems",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "apply economic knowledge to national development",
-      "subtopics": []
-    },
-    {
-      "number": 1,
-      "name": "Jhingan, M. L. - Economics of Development and Planning",
-      "subtopics": []
-    },
-    {
-      "number": 2,
-      "name": "Lipsey, R. G. - Economics",
-      "subtopics": []
-    },
-    {
-      "number": 3,
-      "name": "Samuelson, P. A. - Economics",
-      "subtopics": []
-    },
-    {
-      "number": 4,
-      "name": "Todaro, M. P. - Economic Development",
-      "subtopics": []
-    },
-    {
-      "number": 5,
-      "name": "Worland, S. T. - Modern Economic Thought",
-      "subtopics": []
-    },
-    {
-      "number": 6,
-      "name": "Andah, D. O., et al. - Economics for Secondary Schools",
-      "subtopics": []
-    },
-    {
-      "number": 7,
-      "name": "Ijaiya, G. T. - Microeconomics",
-      "subtopics": []
-    },
-    {
-      "number": 8,
-      "name": "Okunmudiagbo, S. - Economics for Nigerian Schools",
-      "subtopics": []
-    },
-    {
-      "number": 9,
-      "name": "Stanlake, G. F. - Economics",
-      "subtopics": []
-    },
-    {
-      "number": 10,
-      "name": "Ujah, C. A. - Economic Principles and Development",
-      "subtopics": []
-    },
-    {
-      "number": 11,
-      "name": "Yates, P. L. - Economics",
-      "subtopics": []
-    },
-    {
-      "number": 12,
-      "name": "Ziebura, G. - Economic Statistics",
-      "subtopics": []
-    },
-    {
-      "number": 13,
-      "name": "Zvosec, S. - International Economics",
-      "subtopics": []
+     "name": "Basic Economic Problems of Society",
+     "objectives": [
+      "Identify the basic economic problems: what, how and for whom to produce",
+      "Explain the production possibility curve and efficient resource allocation",
+      "Relate scarcity and choice to the basic economic problems"
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "number": 2,
+   "name": "Economic Systems",
+   "subtopics": [
+    {
+     "name": "Types of Economic Systems",
+     "objectives": [
+      "Describe the features of capitalism, socialism and mixed economy",
+      "Compare the advantages and disadvantages of each economic system",
+      "Identify how basic economic problems are solved under each system"
+     ]
+    },
+    {
+     "name": "Economic Systems in Africa and Nigeria",
+     "objectives": [
+      "Explain why most African countries operate mixed economies",
+      "Explain the roles of the public and private sectors in a mixed economy"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Methods and Tools of Economic Analysis",
+   "subtopics": [
+    {
+     "name": "Scientific Approach and Basic Tools",
+     "objectives": [
+      "Distinguish between positive and normative economics",
+      "Identify basic tools of economic analysis: tables, charts, graphs and equations",
+      "Interpret economic data presented in tables, bar charts, pie charts and graphs"
+     ]
+    },
+    {
+     "name": "Measures of Central Tendency and Dispersion",
+     "objectives": [
+      "Calculate and interpret the mean, median and mode of economic data",
+      "Calculate simple measures of dispersion (range, variance, standard deviation)",
+      "State the merits and demerits of each measure"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "name": "Theory of Demand",
+   "subtopics": [
+    {
+     "name": "Demand: Concepts, Schedule and Curve",
+     "objectives": [
+      "Define demand and state the law of demand",
+      "Construct demand schedules and demand curves",
+      "Distinguish between change in demand and change in quantity demanded",
+      "Identify the determinants of demand and types of demand (composite, derived, competitive, joint)"
+     ]
+    },
+    {
+     "name": "Elasticity of Demand",
+     "objectives": [
+      "Define and calculate price, income and cross elasticity of demand",
+      "Interpret elasticity values (elastic, inelastic, unitary)",
+      "Explain the importance of elasticity to consumers, producers and government"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Consumer Behaviour and Utility",
+   "subtopics": [
+    {
+     "name": "Utility Theory",
+     "objectives": [
+      "Define utility, total utility and marginal utility",
+      "Explain the law of diminishing marginal utility",
+      "Derive consumer equilibrium using the utility approach"
+     ]
+    },
+    {
+     "name": "Indifference Curve Analysis",
+     "objectives": [
+      "Explain the properties of indifference curves and budget lines",
+      "Determine consumer equilibrium using indifference curves",
+      "Explain the effects of income and price changes on consumer equilibrium"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Theory of Supply",
+   "subtopics": [
+    {
+     "name": "Supply: Concepts, Schedule and Curve",
+     "objectives": [
+      "Define supply and state the law of supply",
+      "Construct supply schedules and supply curves",
+      "Distinguish between change in supply and change in quantity supplied",
+      "Identify the determinants of supply and types of supply (joint, competitive, composite)"
+     ]
+    },
+    {
+     "name": "Elasticity of Supply",
+     "objectives": [
+      "Define and calculate price elasticity of supply",
+      "Identify factors affecting elasticity of supply",
+      "Explain the importance of elasticity of supply"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "name": "Price Determination and Market Equilibrium",
+   "subtopics": [
+    {
+     "name": "Equilibrium Price and Quantity",
+     "objectives": [
+      "Explain how equilibrium price and quantity are determined by demand and supply",
+      "Calculate equilibrium price and quantity from schedules and equations",
+      "Explain the effects of shifts in demand and supply on equilibrium"
+     ]
+    },
+    {
+     "name": "Price Control",
+     "objectives": [
+      "Explain price ceiling (maximum price) and price floor (minimum price)",
+      "Analyse the effects of price control: surplus, shortage and black market",
+      "Explain minimum wage legislation and its effects"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "name": "Theory of Production",
+   "subtopics": [
+    {
+     "name": "Production: Concepts and Factors",
+     "objectives": [
+      "Define production and identify its types (primary, secondary, tertiary)",
+      "Describe the factors of production (land, labour, capital, entrepreneurship) and their rewards",
+      "Explain division of labour and specialization with their advantages and disadvantages"
+     ]
+    },
+    {
+     "name": "Production Functions and Returns",
+     "objectives": [
+      "Explain the concepts of total, average and marginal product",
+      "State and illustrate the law of diminishing returns",
+      "Distinguish between returns to scale and internal/external economies of scale"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "name": "Costs and Revenue",
+   "subtopics": [
+    {
+     "name": "Cost Concepts",
+     "objectives": [
+      "Distinguish between fixed cost, variable cost and total cost",
+      "Calculate average cost and marginal cost",
+      "Distinguish between accountant's and economist's notions of cost (explicit vs implicit)",
+      "Explain short-run and long-run cost behaviour"
+     ]
+    },
+    {
+     "name": "Revenue Concepts and Profit",
+     "objectives": [
+      "Define total revenue, average revenue and marginal revenue",
+      "Calculate revenues from given data",
+      "Determine break-even, profit and shut-down points"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "name": "Market Structures",
+   "subtopics": [
+    {
+     "name": "Perfect Competition",
+     "objectives": [
+      "State the features of a perfectly competitive market",
+      "Explain price determination and equilibrium of the firm under perfect competition",
+      "Distinguish between short-run and long-run equilibrium of the firm"
+     ]
+    },
+    {
+     "name": "Imperfect Markets: Monopoly, Monopolistic Competition and Oligopoly",
+     "objectives": [
+      "State the features of monopoly, monopolistic competition and oligopoly",
+      "Explain price and output determination under monopoly",
+      "Explain price discrimination and the control of monopoly",
+      "Compare market structures and their effects on consumers"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "name": "National Income",
+   "subtopics": [
+    {
+     "name": "National Income Concepts and Measurement",
+     "objectives": [
+      "Define national income concepts: GDP, GNP, NNP, national income per capita",
+      "Describe the income, output and expenditure approaches to measuring national income",
+      "Identify the problems of measuring national income in developing countries"
+     ]
+    },
+    {
+     "name": "Uses and Determinants of National Income",
+     "objectives": [
+      "Explain the uses of national income statistics and their limitations for comparing living standards",
+      "Explain the circular flow of income",
+      "Explain the concepts of consumption, savings, investment and the multiplier"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "name": "Money and Inflation",
+   "subtopics": [
+    {
+     "name": "Money: Nature and Functions",
+     "objectives": [
+      "Trace the evolution of money from trade by barter",
+      "State the characteristics and functions of money",
+      "Explain the demand for and supply of money and the value of money",
+      "Explain the quantity theory of money"
+     ]
+    },
+    {
+     "name": "Inflation and Deflation",
+     "objectives": [
+      "Define inflation and identify its types (demand-pull, cost-push) and causes",
+      "Explain the effects of inflation and measures to control it",
+      "Define deflation, its causes, effects and control"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "name": "Financial Institutions",
+   "subtopics": [
+    {
+     "name": "Commercial Banks and Other Financial Institutions",
+     "objectives": [
+      "Describe the functions of commercial banks and the process of credit creation",
+      "Identify other financial institutions: merchant banks, development banks, insurance companies, microfinance banks",
+      "Explain the roles of financial institutions in economic development"
+     ]
+    },
+    {
+     "name": "The Central Bank and Monetary Policy",
+     "objectives": [
+      "Describe the functions of the Central Bank of Nigeria",
+      "Explain the instruments of monetary policy (OMO, bank rate, reserve requirements, moral suasion)",
+      "Explain how monetary policy controls inflation and stimulates the economy"
+     ]
+    },
+    {
+     "name": "Money and Capital Markets",
+     "objectives": [
+      "Distinguish between money and capital markets and their instruments",
+      "Describe the functions of the Nigerian Stock Exchange",
+      "Explain the roles of money and capital markets in economic development"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "name": "Public Finance",
+   "subtopics": [
+    {
+     "name": "Taxation",
+     "objectives": [
+      "Define taxation and distinguish between direct and indirect taxes",
+      "Explain the principles/canons of taxation and tax systems (progressive, proportional, regressive)",
+      "Explain the incidence and effects of taxation"
+     ]
+    },
+    {
+     "name": "Government Revenue, Expenditure and Budgets",
+     "objectives": [
+      "Identify sources of government revenue and types of government expenditure",
+      "Explain types of budget (balanced, surplus, deficit) and their uses as fiscal policy tools",
+      "Explain public debt: types, reasons and effects",
+      "Explain revenue allocation and resource control in Nigeria"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "name": "Economic Growth and Development",
+   "subtopics": [
+    {
+     "name": "Concepts of Growth and Development",
+     "objectives": [
+      "Distinguish between economic growth and economic development",
+      "Identify indicators of development and characteristics of developing economies",
+      "Explain the problems of economic development in Nigeria"
+     ]
+    },
+    {
+     "name": "Development Planning",
+     "objectives": [
+      "Define development planning and state its objectives",
+      "Identify types of development plans and Nigeria's experience with planning",
+      "Explain the problems of development planning in Nigeria"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "name": "Agriculture in the Nigerian Economy",
+   "subtopics": [
+    {
+     "name": "Role and Systems of Agriculture",
+     "objectives": [
+      "Explain the contributions of agriculture to the Nigerian economy",
+      "Describe systems of agriculture (subsistence, commercial, plantation) in Nigeria",
+      "Explain the marketing of agricultural produce and the role of marketing boards"
+     ]
+    },
+    {
+     "name": "Problems and Policies of Agriculture",
+     "objectives": [
+      "Identify the problems of agriculture in Nigeria",
+      "Describe government agricultural policies and programmes and their effects",
+      "Explain the effects of agricultural price fluctuations on farmers' income"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "name": "Industry and Industrialization",
+   "subtopics": [
+    {
+     "name": "Industrial Concepts and Location",
+     "objectives": [
+      "Define industry, firm and plant and identify types of industries",
+      "Explain the factors influencing the location of industries in Nigeria",
+      "Explain localization of industries and its advantages and disadvantages"
+     ]
+    },
+    {
+     "name": "Industrialization Strategies and Problems",
+     "objectives": [
+      "Explain industrialization strategies (import substitution, export promotion)",
+      "Identify the problems of industrialization in Nigeria",
+      "Explain the roles of small and medium scale enterprises in development"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "name": "Natural Resources and the Nigerian Economy",
+   "subtopics": [
+    {
+     "name": "Petroleum and Other Mineral Resources",
+     "objectives": [
+      "Identify Nigeria's major natural resources and their locations",
+      "Explain the contributions of petroleum and gas to the Nigerian economy",
+      "Explain the roles of OPEC and NNPC",
+      "Explain the negative effects of over-dependence on oil (Dutch disease, environmental degradation)"
+     ]
+    },
+    {
+     "name": "Manufacturing and Service Sectors",
+     "objectives": [
+      "Describe the contributions of manufacturing and services to the Nigerian economy",
+      "Explain the linkages between agriculture, industry and services"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "name": "Business Organizations",
+   "subtopics": [
+    {
+     "name": "Private Business Organizations",
+     "objectives": [
+      "Describe the features, advantages and disadvantages of sole proprietorship and partnership",
+      "Describe private and public limited liability companies and cooperative societies",
+      "Distinguish between shares, debentures and bonds and methods of financing business"
+     ]
+    },
+    {
+     "name": "Public Enterprises and Privatization",
+     "objectives": [
+      "State the reasons for establishing public enterprises and their problems",
+      "Explain privatization and commercialization: reasons, benefits and problems",
+      "Explain indigenization and its objectives in Nigeria"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "name": "Population and Labour",
+   "subtopics": [
+    {
+     "name": "Population Theories, Structure and Distribution",
+     "objectives": [
+      "Explain population concepts: size, growth rate, census, density and distribution",
+      "Explain the Malthusian and demographic transition theories of population",
+      "Analyse the structure of Nigeria's population (age, sex, occupational and geographical distribution)",
+      "Explain over-population, under-population and optimum population"
+     ]
+    },
+    {
+     "name": "Labour Market and Unemployment",
+     "objectives": [
+      "Explain the concepts of labour force, efficiency and mobility of labour",
+      "Explain the determination of wages and the roles of trade unions",
+      "Identify types, causes and effects of unemployment and its remedies in Nigeria"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "name": "International Trade",
+   "subtopics": [
+    {
+     "name": "Basis and Theory of International Trade",
+     "objectives": [
+      "Distinguish between internal and international trade",
+      "Explain absolute and comparative advantage/comparative cost theory",
+      "State the advantages and disadvantages of international trade",
+      "Explain protectionism: tariffs, quotas and their effects"
+     ]
+    },
+    {
+     "name": "Balance of Payments and Exchange Rates",
+     "objectives": [
+      "Distinguish between balance of trade and balance of payments",
+      "Explain balance of payments disequilibrium: causes and corrective measures",
+      "Explain exchange rate systems (fixed, flexible) and devaluation and its effects",
+      "Explain the terms of trade and their measurement"
+     ]
+    }
+   ]
+  },
+  {
+   "number": 22,
+   "name": "International Economic Organizations",
+   "subtopics": [
+    {
+     "name": "Global Economic Organizations",
+     "objectives": [
+      "Describe the objectives and functions of the IMF, World Bank and WTO",
+      "Explain the roles of these organizations in developing economies",
+      "Describe the objectives of OPEC and Nigeria's membership benefits"
+     ]
+    },
+    {
+     "name": "Regional Economic Organizations",
+     "objectives": [
+      "Describe the objectives and achievements of ECOWAS, AU/AfDB and ECA",
+      "Explain the benefits and problems of economic integration in West Africa"
+     ]
+    }
+   ]
+  }
+ ]
 }

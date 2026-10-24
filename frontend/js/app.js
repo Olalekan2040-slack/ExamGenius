@@ -29,7 +29,7 @@ function isJwtExpired(token) {
 
 // Initialize app on page load
 document.addEventListener('DOMContentLoaded', async () => {
-    console.log('ExamGenius Frontend Loading...');
+    console.log('EduLab ExamPrep Frontend Loading...');
 
     // Check URL hash for routes
     const hash = window.location.hash.slice(1);
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-    console.log('ExamGenius Frontend Ready!');
+    console.log('EduLab ExamPrep Frontend Ready!');
 });
 
 // Handle browser navigation
@@ -182,11 +182,11 @@ window.addEventListener('unhandledrejection', (event) => {
 console.log(`
 ╔═══════════════════════════════════════╗
 ║                                       ║
-║         ExamGenius Frontend           ║
+║         EduLab ExamPrep Frontend           ║
 ║     JAMB CBT Preparation Platform     ║
 ║                                       ║
 ║         Version 1.0.0                 ║
-║         © 2025 ExamGenius             ║
+║         © 2025 EduLab ExamPrep             ║
 ║                                       ║
 ╚═══════════════════════════════════════╝
 `);
