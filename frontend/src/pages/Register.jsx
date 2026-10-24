@@ -7,14 +7,13 @@ import LoadingOverlay from '../components/LoadingOverlay';
 
 export default function Register() {
   const navigate = useNavigate();
-  const { register } = useAuth();
+  const { register, login } = useAuth();
   const { addToast } = useToast();
   const [form, setForm] = useState({ name: '', email: '', password: '', confirm: '' });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [showPw, setShowPw] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
-  const [registeredEmail, setRegisteredEmail] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -27,29 +26,20 @@ export default function Register() {
     setErrors({});
     setLoading(true);
     const result = await register(form.name.trim(), form.email.trim(), form.password);
-    setLoading(false);
     if (result.success) {
-      addToast('Account created! Please check your email to verify.', 'success');
-      setRegisteredEmail(form.email.trim());
+      const auto = await login(form.email.trim(), form.password);
+      if (auto.success) {
+        addToast('Account created! Welcome to EduLab ExamPrep.', 'success');
+        navigate('/profile-setup');
+      } else {
+        addToast('Account created. Please log in.', 'success');
+        navigate('/login');
+      }
     } else {
+      setLoading(false);
       addToast(result.error || 'Registration failed', 'error');
     }
   };
-
-  if (registeredEmail) {
-    return (
-      <div className="auth-container">
-        <div className="auth-card text-center">
-          <i className="fas fa-envelope" style={{ fontSize: 64, color: 'var(--primary-yellow)', marginBottom: 20 }}></i>
-          <h1>Check Your Email</h1>
-          <p style={{ margin: '20px 0' }}>We've sent a verification link to:</p>
-          <p style={{ fontWeight: 600, color: 'var(--primary-yellow-dark)', marginBottom: 20 }}>{registeredEmail}</p>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: 32 }}>Click the link in the email to verify your account and start using EduLab ExamPrep.</p>
-          <button className="btn btn-primary" onClick={() => navigate('/login')}>Go to Login</button>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="auth-container">

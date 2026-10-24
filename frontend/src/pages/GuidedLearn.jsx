@@ -152,8 +152,6 @@ export default function GuidedLearn() {
   const [activeStaticQuestion, setActiveStaticQuestion] = useState(null);
   const [staticQuestionAnswered, setStaticQuestionAnswered] = useState(false);
   const [staticSelectedAnswer, setStaticSelectedAnswer] = useState(null);
-  const [staticAskInput, setStaticAskInput] = useState('');
-  const [staticAskResponse, setStaticAskResponse] = useState('');
 
   // Subtopic complete (static)
   const [subtopicJambQuestions, setSubtopicJambQuestions] = useState([]);
@@ -172,15 +170,11 @@ export default function GuidedLearn() {
   const [currentObjective, setCurrentObjective] = useState(null);
   const [explanationHTML, setExplanationHTML] = useState('');
   const [explanationCollapsed, setExplanationCollapsed] = useState(false);
-  const [reExplainLoading, setReExplainLoading] = useState(false);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questionAnswered, setQuestionAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answerResult, setAnswerResult] = useState(null);
-  const [aiAskInput, setAiAskInput] = useState('');
-  const [aiAskResponse, setAiAskResponse] = useState(null);
-  const [aiAskLoading, setAiAskLoading] = useState(false);
   const [objectiveStep, setObjectiveStep] = useState('learn'); // 'learn' | 'practice'
   const timeStartedRef = useRef(null);
 
@@ -354,8 +348,6 @@ export default function GuidedLearn() {
       setStaticQuestionAnswered(false);
       setStaticSelectedAnswer(null);
       setActiveStaticQuestion(null);
-      setStaticAskInput('');
-      setStaticAskResponse('');
       setMode('static-learning');
     }
   }
@@ -372,8 +364,6 @@ export default function GuidedLearn() {
     setStaticQuestionAnswered(false);
     setStaticSelectedAnswer(null);
     setActiveStaticQuestion(null);
-    setStaticAskInput('');
-    setStaticAskResponse('');
     setMode('static-learning');
   }
 
@@ -498,8 +488,6 @@ export default function GuidedLearn() {
       setStaticQuestionAnswered(false);
       setStaticSelectedAnswer(null);
       setActiveStaticQuestion(null);
-      setStaticAskInput('');
-      setStaticAskResponse('');
       setMode('static-learning');
     } else if (stI < staticContent.subtopics.length - 1) {
       // subtopic complete
@@ -521,8 +509,6 @@ export default function GuidedLearn() {
     setStaticQuestionAnswered(false);
     setStaticSelectedAnswer(null);
     setActiveStaticQuestion(null);
-    setStaticAskInput('');
-    setStaticAskResponse('');
     setMode('static-learning');
   }
 
@@ -574,8 +560,6 @@ export default function GuidedLearn() {
     setStaticQuestionAnswered(false);
     setStaticSelectedAnswer(null);
     setActiveStaticQuestion(null);
-    setStaticAskInput('');
-    setStaticAskResponse('');
     setMode('static-learning');
   }
 
@@ -625,8 +609,6 @@ export default function GuidedLearn() {
     setStaticQuestionAnswered(false);
     setStaticSelectedAnswer(null);
     setActiveStaticQuestion(null);
-    setStaticAskInput('');
-    setStaticAskResponse('');
     setMode('static-learning');
   }
 
@@ -638,18 +620,7 @@ export default function GuidedLearn() {
     setStaticQuestionAnswered(false);
     setStaticSelectedAnswer(null);
     setActiveStaticQuestion(null);
-    setStaticAskInput('');
-    setStaticAskResponse('');
     setMode('static-learning');
-  }
-
-  function handleStaticAskQuestion() {
-    if (!staticAskInput.trim()) return;
-    const subtopic = staticContent.subtopics[currentSubtopicIndex];
-    const objective = subtopic.objectives[currentObjectiveIndex];
-    const resp = `<div class="ask-response-box"><p><strong>Your question:</strong> ${staticAskInput}</p><div class="response-note"><i class="fas fa-lightbulb"></i><div><p>This objective focuses on: <strong>${objective.title}</strong></p><p>Key point: ${objective.jambTip || 'Review the explanation above and pay attention to the worked example.'}</p>${objective.commonMistakes ? `<p><strong>Watch out for:</strong> ${objective.commonMistakes}</p>` : ''}</div></div></div>`;
-    setStaticAskResponse(resp);
-    setStaticAskInput('');
   }
 
   // ============================================================
@@ -728,8 +699,6 @@ export default function GuidedLearn() {
       setQuestionAnswered(false);
       setSelectedAnswer(null);
       setAnswerResult(null);
-      setAiAskInput('');
-      setAiAskResponse(null);
       setObjectiveStep('learn');
       timeStartedRef.current = Date.now();
 
@@ -766,63 +735,6 @@ export default function GuidedLearn() {
         },
       });
     } catch (e) { console.error('Failed to save progress:', e); }
-  }
-
-  async function requestReExplanation() {
-    setReExplainLoading(true);
-    try {
-      const data = currentObjective;
-      const result = await api.request('/guided-learn/re-explain', {
-        method: 'POST',
-        requireAuth: true,
-        body: {
-          subject, topic: topicName,
-          subtopic: data.subtopic_name, objective: data.objective_text,
-        },
-      });
-      if (result.explanation) {
-        setExplanationHTML(buildRichExplanationHTML(result.explanation));
-        setExplanationCollapsed(false);
-        addToast('Fresh explanation generated!', 'success');
-      }
-    } catch (e) {
-      addToast('Failed to re-explain: ' + e.message, 'error');
-    } finally {
-      setReExplainLoading(false);
-    }
-  }
-
-  async function submitStudentQuestion() {
-    if (!aiAskInput.trim()) return;
-    const question = aiAskInput.trim();
-    setAiAskInput('');
-    setAiAskLoading(true);
-    setAiAskResponse({ type: 'loading' });
-    try {
-      let explanationContext = '';
-      if (currentObjective && currentObjective.explanation) {
-        const exp = currentObjective.explanation;
-        if (typeof exp.explanation === 'string') {
-          try { explanationContext = JSON.parse(exp.explanation).explanation || ''; } catch (e) { explanationContext = exp.explanation; }
-        }
-      }
-      const result = await api.request('/guided-learn/ask-question', {
-        method: 'POST',
-        requireAuth: true,
-        body: {
-          subject, topic: topicName,
-          subtopic: currentObjective.subtopic_name,
-          objective: currentObjective.objective_text,
-          explanation_context: explanationContext,
-          question,
-        },
-      });
-      setAiAskResponse({ type: 'answer', question, answer: result.response, cached: result.cached });
-    } catch (e) {
-      setAiAskResponse({ type: 'error', message: e.message });
-    } finally {
-      setAiAskLoading(false);
-    }
   }
 
   async function selectObjectiveAnswer(key) {
@@ -1348,25 +1260,6 @@ export default function GuidedLearn() {
               {objective.visuals && objective.visuals.length > 0 && (
                 <div className="visual-card" dangerouslySetInnerHTML={{ __html: renderStaticVisualsHTML(objective.visuals) }}></div>
               )}
-
-              <div className="content-card ask-card">
-                <div className="card-header"><h3><i className="fas fa-comments"></i> Ask about this concept</h3></div>
-                <div className="card-body">
-                  <div className="ask-input-wrapper">
-                    <input
-                      type="text"
-                      placeholder="I don't understand why..."
-                      value={staticAskInput}
-                      onChange={e => setStaticAskInput(e.target.value)}
-                      onKeyPress={e => e.key === 'Enter' && handleStaticAskQuestion()}
-                    />
-                    <button className="btn btn-primary" onClick={handleStaticAskQuestion}>
-                      <i className="fas fa-paper-plane"></i>
-                    </button>
-                  </div>
-                  {staticAskResponse && <div dangerouslySetInnerHTML={{ __html: staticAskResponse }}></div>}
-                </div>
-              </div>
             </div>
 
             <div className="learning-navigation step-navigation">
@@ -1967,53 +1860,10 @@ export default function GuidedLearn() {
                     <h3>Explanation</h3>
                   </div>
                   <div className="section-controls">
-                    <button
-                      className="btn-icon"
-                      onClick={e => { e.stopPropagation(); requestReExplanation(); }}
-                      title="Get a different explanation"
-                      disabled={reExplainLoading}
-                    >
-                      <i className={`fas fa-${reExplainLoading ? 'spinner fa-spin' : 'sync-alt'}`}></i> {reExplainLoading ? 'Generating...' : 'Re-explain'}
-                    </button>
                     <i className={`fas fa-chevron-${explanationCollapsed ? 'down' : 'up'} section-toggle`}></i>
                   </div>
                 </div>
                 <div className={`section-content ${explanationCollapsed ? 'collapsed' : ''}`} dangerouslySetInnerHTML={{ __html: explanationHTML }}></div>
-              </div>
-
-              <div className="content-section ask-section">
-                <div className="ask-input-row">
-                  <div className="ask-avatar"><i className="fas fa-question-circle"></i></div>
-                  <input
-                    type="text"
-                    placeholder="Ask AI about this topic... e.g. 'Why does this happen?'"
-                    value={aiAskInput}
-                    onChange={e => setAiAskInput(e.target.value)}
-                    onKeyPress={e => e.key === 'Enter' && submitStudentQuestion()}
-                  />
-                  <button className="btn btn-primary btn-ask" onClick={submitStudentQuestion} disabled={aiAskLoading}>
-                    <i className={`fas fa-${aiAskLoading ? 'spinner fa-spin' : 'paper-plane'}`}></i>
-                  </button>
-                </div>
-                {aiAskResponse && (
-                  <div>
-                    {aiAskResponse.type === 'loading' && (
-                      <div className="qa-loading"><i className="fas fa-spinner fa-spin"></i> AI is thinking...</div>
-                    )}
-                    {aiAskResponse.type === 'answer' && (
-                      <div className="qa-exchange">
-                        <div className="qa-question"><i className="fas fa-user"></i> {aiAskResponse.question}</div>
-                        <div className="qa-answer">
-                          <i className="fas fa-robot"></i> {aiAskResponse.answer}
-                          {aiAskResponse.cached && <span className="cached-badge">cached</span>}
-                        </div>
-                      </div>
-                    )}
-                    {aiAskResponse.type === 'error' && (
-                      <div className="qa-error"><i className="fas fa-exclamation-triangle"></i> {aiAskResponse.message}</div>
-                    )}
-                  </div>
-                )}
               </div>
             </div>
 

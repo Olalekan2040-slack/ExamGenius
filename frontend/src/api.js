@@ -174,13 +174,6 @@ export const getPracticeQuestions = (subject, topic, count = 10) =>
 export const submitTopicPractice = (subject, topic, answers) =>
   request('/learn/practice/topic/submit', { method: 'POST', body: { subject, topic, answers }, requireAuth: true });
 
-export const askAITutor = (subject, topic, question, lesson, chatHistory) =>
-  request('/learn/ask-tutor', {
-    method: 'POST',
-    body: { subject, topic, question, lesson_context: lesson, chat_history: chatHistory },
-    requireAuth: true,
-  });
-
 export const getLearningAnalytics = () => request('/learn/analytics', { requireAuth: true });
 
 // ── Guided Learning ───────────────────────────────────────────
@@ -197,14 +190,6 @@ export const getObjectiveExplanation = (subject, topic, subtopicIndex, objective
     body: { subject, topic, subtopic_index: subtopicIndex, objective_index: objectiveIndex },
     requireAuth: true,
     timeoutMs: 90000,
-  });
-
-export const askGuidedTutor = (subject, topic, question, context, chatHistory) =>
-  request('/guided-learn/ask-tutor', {
-    method: 'POST',
-    body: { subject, topic, question, context, chat_history: chatHistory },
-    requireAuth: true,
-    timeoutMs: 60000,
   });
 
 export const submitGuidedAnswer = (subject, topic, subtopicIndex, objectiveIndex, answer, questionId) =>

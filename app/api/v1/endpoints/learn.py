@@ -10,7 +10,7 @@ from datetime import datetime
 import random
 from app.db.database import get_connection
 from app.core.security import current_user_id
-from app.services.ai.gemini_service import generate_topic_lesson, generate_question_explanation, ask_ai_tutor
+from app.services.ai.gemini_service import generate_topic_lesson, generate_question_explanation
 from app.services.analytics import AnalyticsService
 from app.services.ai_content import ai_content_service
 
@@ -539,34 +539,6 @@ async def get_learning_analytics(user_id: int = Depends(current_user_id)):
         raise HTTPException(
             status_code=500,
             detail=f"Failed to fetch analytics: {str(e)}"
-        )
-
-
-@router.post("/ask-tutor")
-async def ask_ai_tutor_endpoint(request: AskTutorRequest, user_id: int = Depends(current_user_id)):
-    """
-    Interactive AI tutor for asking questions about topics
-    Maintains conversation history for context-aware responses
-    """
-    try:
-        response = ask_ai_tutor(
-            subject=request.subject,
-            topic=request.topic,
-            question=request.question,
-            lesson_context=request.lesson_context,
-            chat_history=request.chat_history or []
-        )
-
-        return {
-            "response": response,
-            "subject": request.subject,
-            "topic": request.topic
-        }
-
-    except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"AI Tutor failed: {str(e)}"
         )
 
 

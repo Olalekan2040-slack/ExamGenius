@@ -15,11 +15,9 @@ from app.core.security import current_user_id
 from app.services.analytics import AnalyticsService
 from app.services.ai.guided_learning_ai import (
     generate_objective_explanation,
-    answer_student_question,
     explain_question_answer,
     get_related_questions,
-    generate_subtopic_quiz,
-    regenerate_explanation
+    generate_subtopic_quiz
 )
 
 router = APIRouter(prefix="/guided-learn", tags=["Guided Learning"])
@@ -430,36 +428,6 @@ async def get_objective_content(
 # RE-EXPLAIN AND SUBTOPIC QUIZ ENDPOINTS
 # ============================================================
 
-@router.post("/re-explain")
-async def re_explain_objective(
-    request: ReExplainRequest,
-    user_id: int = Depends(current_user_id)
-):
-    """
-    Generate a fresh explanation for an objective using a different teaching approach.
-    Does NOT cache the result - always generates fresh content.
-    """
-    try:
-        new_explanation = regenerate_explanation(
-            request.subject,
-            request.topic,
-            request.subtopic,
-            request.objective
-        )
-
-        return {
-            "status": "success",
-            "explanation": new_explanation,
-            "is_regenerated": True
-        }
-
-    except Exception as e:
-        raise HTTPException(
-            status_code=500,
-            detail=f"Failed to generate re-explanation: {str(e)}"
-        )
-
-
 @router.get("/subtopic-quiz/{subject}/{topic_name}/{subtopic_index}")
 async def get_subtopic_quiz(
     subject: str,
@@ -518,53 +486,6 @@ async def get_subtopic_quiz(
             status_code=500,
             detail=f"Failed to generate subtopic quiz: {str(e)}"
         )
-
-
-@router.post("/ask-question")
-async def ask_objective_question(
-    request: AskQuestionRequest,
-    user_id: int = Depends(current_user_id)
-):
-    """Handle student question about current objective"""
-    conn = get_connection()
-    cursor = conn.cursor()
-
-    # Check cache first
-    cursor.execute("""
-        SELECT answer FROM objective_qa_cache
-        WHERE subject = ? AND topic_name = ? AND subtopic_name = ? 
-              AND objective_text = ? AND LOWER(question) = LOWER(?)
-    """, (request.subject, request.topic, request.subtopic,
-          request.objective, request.question))
-
-    cached = cursor.fetchone()
-    if cached:
-        return {"response": cached[0], "cached": True}
-
-    # Generate response
-    try:
-        response = answer_student_question(
-            request.subject,
-            request.topic,
-            request.subtopic,
-            request.objective,
-            request.explanation_context,
-            request.question
-        )
-
-        # Cache it
-        cursor.execute("""
-            INSERT INTO objective_qa_cache 
-            (subject, topic_name, subtopic_name, objective_text, question, answer)
-            VALUES (?, ?, ?, ?, ?, ?)
-        """, (request.subject, request.topic, request.subtopic,
-              request.objective, request.question, response))
-        conn.commit()
-
-        return {"response": response, "cached": False}
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"AI error: {str(e)}")
 
 
 @router.post("/answer-question")

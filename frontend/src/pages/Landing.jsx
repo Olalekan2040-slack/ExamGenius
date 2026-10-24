@@ -56,7 +56,7 @@ export default function Landing() {
             </div>
             <h1>Ace Your JAMB With<br /><span className="highlight">Confidence</span></h1>
             <p className="hero-subtitle">
-              AI-powered lessons, 4,000+ past questions (2010–2024), full CBT simulations, and a reward system that keeps you motivated.
+              Step-by-step lessons, 4,000+ past questions (2010–2024), full CBT simulations, and a reward system that keeps you motivated.
             </p>
             <div className="hero-cta">
               <button className="btn btn-primary btn-lg hero-btn-main" onClick={() => navigate('/register')}>
@@ -69,7 +69,7 @@ export default function Landing() {
             <div className="hero-trust">
               <span><i className="fas fa-shield-alt"></i> 100% Free</span>
               <span><i className="fas fa-mobile-alt"></i> Works on Any Device</span>
-              <span><i className="fas fa-bolt"></i> AI-Powered</span>
+              <span><i className="fas fa-bolt"></i> Runs Locally</span>
             </div>
           </div>
           <div className="hero-right">
@@ -77,7 +77,7 @@ export default function Landing() {
               {[
                 { icon: 'fa-file-alt', color: 'yellow', label: '4,115+', sub: 'Past Questions' },
                 { icon: 'fa-calendar-check', color: 'blue', label: '2010 – 2024', sub: 'Years Covered' },
-                { icon: 'fa-brain', color: 'green', label: '10 Subjects', sub: 'With AI Lessons' },
+                { icon: 'fa-brain', color: 'green', label: '10 Subjects', sub: 'With Lessons' },
                 { icon: 'fa-trophy', color: 'purple', label: 'Points & Badges', sub: 'Stay Motivated' },
               ].map((s, i) => (
                 <div key={i} className="hero-stat-pill">
@@ -100,7 +100,7 @@ export default function Landing() {
             null,
             { icon: 'fa-graduation-cap', strong: '10 Subjects', span: 'Covered' },
             null,
-            { icon: 'fa-robot', strong: 'AI-Powered', span: 'Explanations' },
+            { icon: 'fa-book-open', strong: 'Step-by-Step', span: 'Explanations' },
             null,
             { icon: 'fa-star', strong: 'Free Forever', span: 'No Hidden Costs' },
           ].map((item, i) =>
@@ -133,7 +133,7 @@ export default function Landing() {
             </div>
             <div className="features-list-col">
               {[
-                { icon: 'fa-route', bg: '#FFF9E6', color: '#D97706', title: 'Guided Learning', desc: 'Learn each objective step-by-step with AI explanations, then immediately practise JAMB-style questions on the same concept.' },
+                { icon: 'fa-route', bg: '#FFF9E6', color: '#D97706', title: 'Guided Learning', desc: 'Learn each objective step-by-step with clear explanations, then immediately practise JAMB-style questions on the same concept.' },
                 { icon: 'fa-calendar-alt', bg: '#EFF6FF', color: '#1D4ED8', title: 'Year-by-Year Practice', desc: 'Drill specific exam years from 2010–2024. Understand trends, recurring topics, and exactly what JAMB tests.' },
                 { icon: 'fa-laptop-code', bg: '#F0FDF4', color: '#15803D', title: 'Full CBT Simulation', desc: '160 questions across 4 subjects, 3-hour countdown timer, question flagging, and instant score analysis — just like the real UTME.' },
                 { icon: 'fa-chart-bar', bg: '#FDF4FF', color: '#7C3AED', title: 'Performance Analytics', desc: 'Track accuracy by topic, spot weak areas, and monitor your score trajectory over time with visual dashboards.' },
@@ -160,7 +160,7 @@ export default function Landing() {
             {[
               { img: '/images/image (14).jpg', n: 1, title: 'Choose a Subject & Topic', desc: 'Pick any of the 10 JAMB subjects. Browse topics aligned to the official JAMB syllabus.' },
               null,
-              { img: '/images/image (15).jpg', n: 2, title: 'Learn, Then Practise', desc: 'Read the AI explanation for each objective, then answer a JAMB-style question before moving on.' },
+              { img: '/images/image (15).jpg', n: 2, title: 'Learn, Then Practise', desc: 'Read the explanation for each objective, then answer a JAMB-style question before moving on.' },
               null,
               { img: '/images/image (16).jpg', n: 3, title: 'Simulate & Score', desc: 'Take a full CBT simulation or year practice. Review your results and improve your weaknesses.' },
             ].map((s, i) =>
@@ -256,7 +256,7 @@ export default function Landing() {
               <div className="about-features-list">
                 {[
                   { icon: 'fa-database', title: 'Authentic Past Questions', desc: '4,115+ questions verified from official JAMB papers from 2010 to 2024' },
-                  { icon: 'fa-brain', title: 'AI-Powered Learning', desc: 'Every topic has AI-generated explanations, worked examples, and instant feedback' },
+                  { icon: 'fa-brain', title: 'Structured Learning', desc: 'Every topic has clear explanations, worked examples, and instant feedback' },
                   { icon: 'fa-mobile-alt', title: 'Mobile-First Design', desc: 'Study anywhere, anytime — optimised for phones, tablets, and computers' },
                   { icon: 'fa-gift', title: 'Completely Free', desc: 'No subscriptions, no paywalls — every feature is available to every student at no cost' },
                 ].map((f, i) => (
@@ -280,7 +280,7 @@ export default function Landing() {
         <div className="cta-overlay"></div>
         <div className="container cta-inner">
           <h2>Ready to Start Your JAMB Prep?</h2>
-          <p>Join now and get access to 4,115+ questions, AI explanations, and full CBT simulations — all free.</p>
+          <p>Join now and get access to 4,115+ questions, explanations, and full CBT simulations — all free.</p>
           <div className="cta-btns">
             <button className="btn btn-primary btn-lg" onClick={() => navigate('/register')}>
               <i className="fas fa-rocket"></i> Get Started Now — It's Free

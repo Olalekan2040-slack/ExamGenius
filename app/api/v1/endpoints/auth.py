@@ -87,7 +87,6 @@ class GoogleMobileRequest(BaseModel):
 async def register(request: RegisterRequest):
     """
     Create a new account using email + password.
-    Sends verification email.
     """
     db = get_connection()
     cursor = db.cursor()
@@ -102,32 +101,23 @@ async def register(request: RegisterRequest):
                 detail="Email already registered"
             )
 
-        # Hash password and generate verification token
+        # Local install: no email verification, accounts are active immediately
         hashed_password = hash_password(request.password)
-        verification_token = generate_verification_token()
 
-        # Create user
         cursor.execute("""
-            INSERT INTO users (name, email, password_hash, reset_token)
-            VALUES (?, ?, ?, ?)
+            INSERT INTO users (name, email, password_hash, is_verified, email_verified_at)
+            VALUES (?, ?, ?, 1, ?)
             RETURNING id
-        """, (request.name, request.email, hashed_password, verification_token))
+        """, (request.name, request.email, hashed_password, datetime.utcnow().isoformat()))
         result = cursor.fetchone()
         user_id = result[0] if result else None
         db.commit()
-
-        # Send verification email
-        try:
-            send_verification_email(
-                request.email, request.name, verification_token)
-        except Exception as e:
-            print(f"Email send failed: {e}")
 
         return JSONResponse(
             status_code=status.HTTP_201_CREATED,
             content={
                 "success": True,
-                "message": "Account created. Verification email sent.",
+                "message": "Account created.",
                 "user_id": user_id,
                 "email": request.email
             }
@@ -229,13 +219,6 @@ async def login(request: LoginRequest):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email or password"
-        )
-
-    # Check if email is verified
-    if not user["is_verified"]:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Email not verified. Please check your inbox."
         )
 
     # Check if user is banned

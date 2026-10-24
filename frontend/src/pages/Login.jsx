@@ -14,7 +14,6 @@ export default function Login() {
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [showPw, setShowPw] = useState(false);
-  const [unverifiedEmail, setUnverifiedEmail] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,17 +33,10 @@ export default function Login() {
       } catch { /* proceed */ }
       navigate('/dashboard');
     } else {
-      if (result.error?.toLowerCase().includes('not verified')) {
-        setUnverifiedEmail(form.email);
-      } else {
-        addToast(result.error || 'Login failed', 'error');
-      }
+      addToast(result.error || 'Login failed', 'error');
     }
   };
 
-  if (unverifiedEmail) {
-    return <EmailNotVerifiedDialog email={unverifiedEmail} onClose={() => setUnverifiedEmail(null)} />;
-  }
 
   return (
     <div className="auth-container">
@@ -83,47 +75,6 @@ export default function Login() {
         <div className="auth-footer">
           <p>Don't have an account? <Link to="/register">Create one</Link></p>
         </div>
-      </div>
-    </div>
-  );
-}
-
-function EmailNotVerifiedDialog({ email, onClose }) {
-  const { addToast } = useToast();
-  const { resendVerification } = useAuth();
-  const [sending, setSending] = useState(false);
-  const [sent, setSent] = useState(false);
-
-  const handleResend = async () => {
-    setSending(true);
-    const result = await resendVerification(email);
-    setSending(false);
-    if (result.success) {
-      setSent(true);
-      addToast('Verification email sent! Please check your inbox.', 'success');
-      setTimeout(onClose, 2000);
-    } else {
-      addToast('Failed to send email. Please try again.', 'error');
-    }
-  };
-
-  return (
-    <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 10000, padding: 20 }}>
-      <div style={{ background: 'white', padding: 30, borderRadius: 12, maxWidth: 450, width: '100%', boxShadow: '0 10px 40px rgba(0,0,0,0.3)' }}>
-        <div style={{ textAlign: 'center', marginBottom: 20 }}>
-          <div style={{ fontSize: 48, marginBottom: 10 }}>📧</div>
-          <h2 style={{ marginBottom: 10, color: '#333' }}>Email Not Verified</h2>
-          <p style={{ color: '#666', fontSize: 14, lineHeight: 1.5 }}>Your email hasn't been verified yet. Please check your inbox for the verification link.</p>
-        </div>
-        <div style={{ marginBottom: 20, padding: 15, background: '#f8f9fa', borderRadius: 8 }}>
-          <p style={{ margin: 0, fontSize: 13, color: '#666' }}><strong>Email:</strong> {email}</p>
-        </div>
-        <button onClick={handleResend} disabled={sending || sent} style={{ width: '100%', padding: 14, background: sent ? '#10b981' : 'linear-gradient(135deg, #667eea, #764ba2)', color: 'white', border: 'none', borderRadius: 8, fontSize: 16, fontWeight: 600, cursor: 'pointer', marginBottom: 10 }}>
-          {sent ? '✓ Sent! Check your email' : sending ? 'Sending...' : 'Resend Verification Email'}
-        </button>
-        <button onClick={onClose} style={{ width: '100%', padding: 14, background: '#f0f0f0', color: '#333', border: 'none', borderRadius: 8, fontSize: 16, fontWeight: 600, cursor: 'pointer' }}>
-          Close
-        </button>
       </div>
     </div>
   );

@@ -484,7 +484,7 @@ export default function Analytics() {
           </div>
         )}
 
-        {/* ── AI Insights ── */}
+        {/* ── Insights ── */}
         {sw.summary && (
           <div
             className="card"
@@ -495,7 +495,7 @@ export default function Analytics() {
           >
             <div className="card-header">
               <h3 style={{ margin: 0 }}>
-                <i className="fas fa-lightbulb"></i> AI Insights
+                <i className="fas fa-lightbulb"></i> Insights
               </h3>
             </div>
             <div style={{ padding: '20px' }}>
