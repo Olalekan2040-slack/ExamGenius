@@ -18,7 +18,9 @@ from typing import Dict, List, Optional
 from urllib.parse import quote
 
 # ── Google Gemini API (used ONLY for interactive AI features) ────────
-GEMINI_API_KEY = "REDACTED_GEMINI_KEY"
+from app.core.config import settings
+
+GEMINI_API_KEY = settings.GEMINI_API_KEY
 GEMINI_API_URL = (
     "https://generativelanguage.googleapis.com/v1beta"
     "/models/gemini-2.5-flash:generateContent"
